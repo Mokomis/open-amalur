@@ -1,0 +1,277 @@
+{
+  "bitsets": [
+    {
+      "offset": 104,
+      "bits": 4,
+      "set_count": 1
+    },
+    {
+      "offset": 113,
+      "bits": 9,
+      "set_count": 4
+    },
+    {
+      "offset": 123,
+      "bits": 25,
+      "set_count": 16
+    },
+    {
+      "offset": 135,
+      "bits": 81,
+      "set_count": 50
+    },
+    {
+      "offset": 154,
+      "bits": 289,
+      "set_count": 167
+    },
+    {
+      "offset": 199,
+      "bits": 1089,
+      "set_count": 614
+    },
+    {
+      "offset": 344,
+      "bits": 4225,
+      "set_count": 2306
+    },
+    {
+      "offset": 881,
+      "bits": 16641,
+      "set_count": 8896
+    },
+    {
+      "offset": 2970,
+      "bits": 66049,
+      "set_count": 35039
+    }
+  ],
+  "mesh_start": 11235,
+  "rle_start": 14712,
+  "rle_count": 4225,
+  "rle_occupied": 1720,
+  "descriptor_offset": 22916,
+  "descriptor": [
+    1,
+    21,
+    64,
+    8,
+    32768,
+    3
+  ],
+  "embedded_texture_start": 382028,
+  "sources": [
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\431658.terrain_bin",
+      "bytes": 1081220,
+      "sha256": "f8eb745fde7d7a1a0193c91755f725077176a8d84786a748cfbfd29cb61b7415"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\431658.terrain_streamable_bin",
+      "bytes": 42815156,
+      "sha256": "8cd788bd609e9fbbe78c02056246b0ba13de88e4f262b4d30bfd7b120c113ebf"
+    }
+  ],
+  "height_levels": [
+    {
+      "offset": 22948,
+      "count": 66049
+    },
+    {
+      "offset": 287148,
+      "count": 16641
+    },
+    {
+      "offset": 353716,
+      "count": 4225
+    },
+    {
+      "offset": 370620,
+      "count": 1089
+    },
+    {
+      "offset": 374980,
+      "count": 289
+    },
+    {
+      "offset": 376140,
+      "count": 81
+    },
+    {
+      "offset": 376468,
+      "count": 25
+    },
+    {
+      "offset": 376572,
+      "count": 9
+    },
+    {
+      "offset": 376612,
+      "count": 4
+    }
+  ],
+  "paint_levels": [
+    {
+      "offset": 376636,
+      "count": 1
+    },
+    {
+      "offset": 376644,
+      "count": 64
+    },
+    {
+      "offset": 376904,
+      "count": 256
+    },
+    {
+      "offset": 377932,
+      "count": 1024
+    }
+  ],
+  "paint_records_verified": 1344,
+  "door_example": {
+    "level": 3,
+    "x": 16,
+    "y": 6,
+    "side": 32,
+    "tile_width": 128,
+    "key": 4723781,
+    "key_hex": "0x481445",
+    "field_offset": 378764,
+    "entry_offset": 33886528,
+    "zlib_offset": 33886552,
+    "decoded_sha256": "355d6058e9463a07cb90dbae0535bde3c19e142d081f2530045347d2cd70bf1f",
+    "world": [
+      1575.1,
+      -62759.2,
+      5152.1
+    ],
+    "map_coordinates": [
+      2080.002,
+      793.316
+    ],
+    "local_pixel": [
+      32,
+      25
+    ],
+    "pixel_bytes": [
+      0,
+      255,
+      0,
+      255
+    ],
+    "pixel_u32": "0xff00ff00",
+    "pixel_decoded_offset": 13032,
+    "height_tile": {
+      "lod": 0,
+      "x": 130,
+      "y": 49,
+      "index": 12723,
+      "field_offset": 73840,
+      "key": 2153496,
+      "key_hex": "0x20dc18",
+      "entry_offset": 3606016,
+      "zlib_offset": 3606040,
+      "decoded_size": 23052,
+      "header_I8H": [
+        16,
+        2048,
+        2064,
+        768,
+        784,
+        2048,
+        2064,
+        768,
+        784
+      ],
+      "decoded_sha256": "5938c7947a8640aa99918f014b66fb67b12179abdc1d71af1ae6c57dba6707e6"
+    },
+    "height_grid": {
+      "index": 6,
+      "offset": 8670,
+      "end": 10099,
+      "rect": [
+        2080,
+        2096,
+        784,
+        800
+      ],
+      "render_rect": [
+        2080,
+        2096,
+        784,
+        800
+      ],
+      "flags": 0,
+      "material_sets": [
+        1
+      ],
+      "height_offset": 8843
+    },
+    "material_set": {
+      "index": 1,
+      "offset": 292,
+      "color": "0xff39baeb",
+      "row_indices": [
+        7,
+        4,
+        1,
+        0
+      ]
+    },
+    "materials": [
+      {
+        "index": 7,
+        "offset": 220,
+        "diffuse": 641635,
+        "normal": 641638,
+        "diffuse_name": "for_terrain_road01_d",
+        "normal_name": "for_terrain_road01_n",
+        "opaque_u32": 9605586,
+        "uv_scale": 0.20000000298023224,
+        "opaque_float": 250000.0,
+        "specular_parameter1": 0.9690240025520325,
+        "specular_parameter2": 10.681962013244629
+      },
+      {
+        "index": 4,
+        "offset": 136,
+        "diffuse": 343449,
+        "normal": 343450,
+        "diffuse_name": "for_terrain_stone01_d",
+        "normal_name": "for_terrain_stone01_n",
+        "opaque_u32": 8192161,
+        "uv_scale": 0.25,
+        "opaque_float": 160000.0,
+        "specular_parameter1": 1.0236999988555908,
+        "specular_parameter2": 2.11531400680542
+      },
+      {
+        "index": 1,
+        "offset": 52,
+        "diffuse": 343442,
+        "normal": 343443,
+        "diffuse_name": "for_terrain_grass02_d",
+        "normal_name": "for_terrain_grass02_n",
+        "opaque_u32": 10384041,
+        "uv_scale": 0.25,
+        "opaque_float": 160000.0,
+        "specular_parameter1": 2.138845920562744,
+        "specular_parameter2": 43.15472412109375
+      },
+      {
+        "index": 0,
+        "offset": 24,
+        "diffuse": 343440,
+        "normal": 343441,
+        "diffuse_name": "for_terrain_grass01_d",
+        "normal_name": "for_terrain_grass01_n",
+        "opaque_u32": 10384041,
+        "uv_scale": 0.25,
+        "opaque_float": 160000.0,
+        "specular_parameter1": 1.5757520198822021,
+        "specular_parameter2": 49.77439498901367
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "file": "opening-base-character-ambient.bgra",
+      "bytes": 1536,
+      "sha_and_RB_swap_and_inc_roundtrip": "PASS"
+    },
+    {
+      "file": "opening-start-character-ambient.bgra",
+      "bytes": 1536,
+      "sha_and_RB_swap_and_inc_roundtrip": "PASS"
+    },
+    {
+      "file": "opening-base-world-ambient.bgra",
+      "bytes": 1536,
+      "sha_and_RB_swap_and_inc_roundtrip": "PASS"
+    },
+    {
+      "file": "opening-start-world-ambient.bgra",
+      "bytes": 1536,
+      "sha_and_RB_swap_and_inc_roundtrip": "PASS"
+    }
+  ],
+  "separate_base_start_world_equal": true,
+  "separate_base_start_character_equal": true,
+  "test_scope": "Source data, face concatenation, exact channel swap and C include roundtrip only; no GPU test."
+}

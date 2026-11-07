@@ -1,0 +1,19 @@
+{
+  "ready_for_parent_review": true,
+  "integrated": false,
+  "header": "oa_opening_gameplay.h",
+  "source": "oa_opening_gameplay.c",
+  "contract": "INTEGRATION.md",
+  "receipt": "validation-receipt.json",
+  "tests": {
+    "windows_production_C_Lua": 1388,
+    "typed_checksum_valid_corruptions": 45
+  },
+  "checkpoint_suffix": ".opening-gameplay-v1.bin",
+  "quest": "explicit source constructor unstarted -1; no automatic start; source set25 no-op",
+  "new_code_sha256": {
+    "oa_opening_gameplay.c": "bfc7a3fce964c301ce3ce0693c22bd06ee8979a6597310716b7a2212d7628e75",
+    "oa_opening_gameplay.h": "05506b5b473c55fe7aa2a3a83535059deaa79148c83d28397f7a36bde7252987",
+    "test_opening_gameplay.c": "c42e6e8f9875280da93ad2d1bbbfed1f30ea4cb6136099263d64cc43bff5bf71"
+  }
+}

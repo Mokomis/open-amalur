@@ -1,0 +1,92 @@
+{
+  "matches": [
+    {
+      "asset": 343437,
+      "source_base_mip": 0,
+      "image": 13901,
+      "width": 2048,
+      "height": 2048,
+      "mips": 9,
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "capture_file_offset": 236828076,
+      "top_bc1_sha256": "0cdf3dc9bce1579c932a7f1a390268ae8d10a956c78eb6250865c5ff9f35d8aa",
+      "authored_levels_verified": [
+        {
+          "captured_level": 0,
+          "source_level": 0,
+          "bytes": 2097152,
+          "sha256": "0cdf3dc9bce1579c932a7f1a390268ae8d10a956c78eb6250865c5ff9f35d8aa",
+          "exact": true
+        },
+        {
+          "captured_level": 1,
+          "source_level": 1,
+          "bytes": 524288,
+          "sha256": "e866822fce462af3339bf586322310b28b16f216819f72874c486899f2e6b7f8",
+          "exact": true
+        },
+        {
+          "captured_level": 2,
+          "source_level": 2,
+          "bytes": 131072,
+          "sha256": "9acf0f9d32e8ee4fcd96dcc3201e1351ff968afdf3bd0f46e41f5361508453a5",
+          "exact": true
+        },
+        {
+          "captured_level": 3,
+          "source_level": 3,
+          "bytes": 32768,
+          "sha256": "9c5c8379558134e9ddd0a1b66e6a150a6d3c592a076b0d95567fc1d4360f536c",
+          "exact": true
+        },
+        {
+          "captured_level": 4,
+          "source_level": 4,
+          "bytes": 8192,
+          "sha256": "9001d116f66f3616b7d270e94ee83fa82df09755dae347495fa6eac6d790ad60",
+          "exact": true
+        },
+        {
+          "captured_level": 5,
+          "source_level": 5,
+          "bytes": 2048,
+          "sha256": "973fb15619be183bc0f1f4573f58b8f387392f14dc750a91a06737e744393b55",
+          "exact": true
+        },
+        {
+          "captured_level": 6,
+          "source_level": 6,
+          "bytes": 512,
+          "sha256": "f616d823cd32712c36e93f219442d06ec15a01d63c167c30b712b531d2958be3",
+          "exact": true
+        },
+        {
+          "captured_level": 7,
+          "source_level": 7,
+          "bytes": 128,
+          "sha256": "49e9d2565e9a6e76b288e9081789d01d67642f1c9bc6bf5524fbb5313ca448eb",
+          "exact": true
+        },
+        {
+          "captured_level": 8,
+          "source_level": 8,
+          "bytes": 32,
+          "sha256": "95a877ba31d7909ab536b167a6702f8bcb67dd03f95ebdc90b2853a0d633e018",
+          "exact": true
+        }
+      ]
+    }
+  ],
+  "bc1_images_scanned": 215,
+  "search_base_dimensions": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "unmatched_assets": [
+    457709,
+    566740
+  ],
+  "unmatched_meaning": "Noexact authoredmipbasehash inthissinglecapture; sourceheaderdimensions andmipchains independentlyverified, noGPUimageidentityclaimed forunmatchedassets"
+}

@@ -1,0 +1,11 @@
+--- work/v40-windows-host/CMakeLists.txt
++++ work/v40-windows-host/CMakeLists.txt
+@@ -8,7 +8,7 @@
+ add_subdirectory("${HOST}" core)
+ set(SHARED android_scene.c android_scripts.c room_lighting.c oa_character.c oa_npc.c oa_combat.c oa_character_gl.c oa_sky.c oa_ui.c oa_menu.c oa_items.c oa_stream.c oa_post.c oa_native_bloom.c oa_native_ao.c oa_native_shadow.c oa_native_water.c oa_cart_probe.c oa_canopy.c oa_render_cache.c oa_cpu_policy.c oa_scene_profile.c oa_material_probes.c oa_opening_runtime.c oa_opening_movement.c oa_opening_session.c oa_character_attributes.c oa_character_material.c oa_weighted_hardlight.c oa_creation.c oa_creation_source_tables.c oa_creation_draft.c oa_creation_preview.c oa_appearance.c oa_appearance_selection.c oa_cosmetic_material.c oa_cosmetic_texture_bank.c oa_character_appearance.c oa_creation_gameplay.c oa_creator_game.c oa_mq01_cursor.c oa_creation_session.c oa_native_filter.c oa_native_sky.c oa_native_dof.c oa_actors.c oa_actor_ai.c oa_nav.c oa_audio.c oa_fx.c oa_adpcm.c exploration_input.c exploration_overlay.c interaction_state.c interaction_pick.c interaction_lua.c interaction_android.c opem_collision.c)
+ list(TRANSFORM SHARED PREPEND "${HOST}/")
+-add_executable(open-amalur-windows ${SHARED} desktop_platform.c desktop_input_probe.c ../v09-textures/scene_materials_v09.c ../v09-textures/scene_material_renderer_v09.c)
++add_executable(open-amalur-windows ${SHARED} desktop_platform.c oa_desktop_name_input.c desktop_input_probe.c ../v09-textures/scene_materials_v09.c ../v09-textures/scene_material_renderer_v09.c)
+ target_include_directories(open-amalur-windows PRIVATE include dependencies/include "${HOST}" "${HOST}/include" ../v09-textures "${HOST}/build-android-arm64/generated")
+ file(SHA256 "${CMAKE_CURRENT_SOURCE_DIR}/assets/scene.bin" SCENE_HASH)
+ target_compile_definitions(open-amalur-windows PRIVATE _CRT_SECURE_NO_WARNINGS OA_DESKTOP=1 AMALUR_SCENE_SHA256="${SCENE_HASH}" eglSwapBuffers=oa_desktop_swap eglCreateWindowSurface=oa_desktop_create_window_surface)

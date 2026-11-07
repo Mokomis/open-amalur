@@ -1,0 +1,331 @@
+{
+  "type_id": 361206,
+  "fab_id": 657354,
+  "material_id": 301326,
+  "native_rendering_reference_evidence": "00f0cc50 +0x14; previously established Workbench FAB field",
+  "placements": [
+    {
+      "instance_id": 1390803,
+      "position": [
+        5337.6875,
+        -87550.1875,
+        5865.50048828125
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.46996691823005676,
+        0.8826841115951538
+      ],
+      "cell": [
+        0,
+        -14
+      ],
+      "bounds": [
+        [
+          5272.530737732427,
+          -87614.45290440261,
+          5865.85636767745
+        ],
+        [
+          5403.008322489099,
+          -87485.88961869525,
+          5961.250106811523
+        ]
+      ]
+    },
+    {
+      "instance_id": 1390814,
+      "position": [
+        6446.515625,
+        -85881.1875,
+        5857.2548828125
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.9918410778045654,
+        -0.1274804323911667
+      ],
+      "cell": [
+        1,
+        -14
+      ],
+      "bounds": [
+        [
+          6389.669303335363,
+          -85938.15950947456,
+          5857.6107622087
+        ],
+        [
+          6504.051111223723,
+          -85824.14117480507,
+          5953.004501342773
+        ]
+      ]
+    },
+    {
+      "instance_id": 1678396,
+      "position": [
+        -5731.9375,
+        -85276.484375,
+        5421.2998046875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.3894597887992859,
+        0.9210434556007385
+      ],
+      "cell": [
+        -1,
+        -14
+      ],
+      "bounds": [
+        [
+          -5796.770844730281,
+          -85343.27815718667,
+          5421.6556840837
+        ],
+        [
+          -5666.512923794974,
+          -85209.9014254394,
+          5517.049423217773
+        ]
+      ]
+    },
+    {
+      "instance_id": 1756148,
+      "position": [
+        7523.1328125,
+        -77504.2109375,
+        5460.07373046875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.17950086295604706,
+        0.9837579131126404
+      ],
+      "cell": [
+        1,
+        -13
+      ],
+      "bounds": [
+        [
+          7462.0734941862775,
+          -77562.08089682156,
+          5460.42960986495
+        ],
+        [
+          7584.467069721452,
+          -77444.7443000214,
+          5555.823348999023
+        ]
+      ]
+    },
+    {
+      "instance_id": 1756142,
+      "position": [
+        7694.07958984375,
+        -78637.078125,
+        5442.50927734375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.8762505054473877,
+        0.4818558692932129
+      ],
+      "cell": [
+        1,
+        -13
+      ],
+      "bounds": [
+        [
+          7629.1597772879495,
+          -78701.02362551156,
+          5442.86515673995
+        ],
+        [
+          7758.841993280998,
+          -78573.09178331716,
+          5538.258895874023
+        ]
+      ]
+    }
+  ],
+  "files": {
+    "t628.bin": {
+      "sha256": "2cad1fada396ee599f85959dbbc220f0b4760995e68920205b9a5c07de521bc4",
+      "bytes": 5592468,
+      "before_sha256": null
+    },
+    "t629.bin": {
+      "sha256": "c09d4e192a207cfea7d4db4fbe9bcfcf78eb942f488669227fa2ed69a5962575",
+      "bytes": 5592468,
+      "before_sha256": null
+    },
+    "t630.bin": {
+      "sha256": "907c2e34b114ad38e6db5a29ec5f3112b86952a9c91d7c5233037f19f351af9a",
+      "bytes": 5592468,
+      "before_sha256": null
+    },
+    "materials.bin": {
+      "sha256": "4ab8d844c0ae5f7db2baa782372959bc49d75ac1d53e8def0f783cb87d0bbd12",
+      "bytes": 7172,
+      "before_sha256": "04bbd43d6f55a54f95241cd11cec0c0506d80c9f455a2968b146231f2421f206"
+    },
+    "water.bin": {
+      "sha256": "ce5c09d71a795a06bbb7b644c2873b1d53e36d38f3c3e4608e42a1d4cf68f5db",
+      "bytes": 11268,
+      "before_sha256": "91457af40f672ce3938d3787a4f5a4c9a9723d7815b6006655f0f078b4c71beb"
+    },
+    "c0_-14_0.bin": {
+      "sha256": "8f480635b7ce9eef093fbce3970252b9c1fbde618cd7d88398dcfe5df1bec7dc",
+      "bytes": 738528,
+      "before_sha256": "d5c302890df5379f4b1fff400dd3c69e974ad7ac995da8275cb6e33bffd2276d"
+    },
+    "c0_-14_1.bin": {
+      "sha256": "227d25e5b4fad268698562139302a257a6e9f5000b11e30db2e00332dcc473c0",
+      "bytes": 195468,
+      "before_sha256": "f3f32c3d3cdd73a12e2c38c26149585d3770538230fd083002acbc6328006e1f"
+    },
+    "c0_-14_2.bin": {
+      "sha256": "d4219d30edaec35aa651e6ab72af6323edaf86859a56be23ef6eb10c4fd82c8b",
+      "bytes": 29136,
+      "before_sha256": "936171201bc92fad5d79ae6e2a8e9d2b88c41283938c26f225e2aa06953f62a5"
+    },
+    "c1_-14_0.bin": {
+      "sha256": "e2179b26ffbb617731918938548d828b49e2d6235ee81dd9c4a59b105fb60239",
+      "bytes": 1859392,
+      "before_sha256": "caf3e9e21d89b28ee2f2631b255f75739d3933e82821f55bd17e07de47d557ab"
+    },
+    "c1_-14_1.bin": {
+      "sha256": "bb2a2245e52fbf02b208f66063215a44e8625acaed875b705d01156c82bcd050",
+      "bytes": 361312,
+      "before_sha256": "7ae8b3f46310e7d1fb56e63785a3ea50547f75532bb55524d474a007c76069b2"
+    },
+    "c1_-14_2.bin": {
+      "sha256": "a40a34db4d738101f5058b8bf19cf485f7be6eda513bfbf502660a19c7167f97",
+      "bytes": 63884,
+      "before_sha256": "f729e4916bc1abfbcf4b4cf7e0b0a3815aa7827d993b75e5eab700224e1348e0"
+    },
+    "c-1_-14_0.bin": {
+      "sha256": "9fc8da13c24be8cdb20ff51f35d5c21fa84db88eee0e0a2504e8eae87d87a20e",
+      "bytes": 954604,
+      "before_sha256": "3ebeabe3b0592e88b04041b0da3e829c165c844bce48213062f7ea7afcbd7f07"
+    },
+    "c-1_-14_1.bin": {
+      "sha256": "a0e8b3aab01bddeaf9874d8118bbbe9acc60bb9d3f8a3fdae1b724b260c48a9e",
+      "bytes": 254000,
+      "before_sha256": "77923e15d36e3c32a65b59d75a7ecbd7d94fb51c538fcbfebc5c4c506879b5d6"
+    },
+    "c-1_-14_2.bin": {
+      "sha256": "773b7d21b09805305ad9564aa84c44b3b17ae9061ce6200c55964b6bf12a8328",
+      "bytes": 33944,
+      "before_sha256": "5f7c5a8fc869e597b7e21039d0e2eb9c6d8e77fbf1aef60db34a3e24810ad707"
+    },
+    "c1_-13_0.bin": {
+      "sha256": "210ea33f1bbaab78114b2115750a12fe0a95accac4e4283322d9b9cbee23b901",
+      "bytes": 822920,
+      "before_sha256": "c8edc55299ef8d00e0d130d02f009c399f4b20e5f0df745cc00833fcd0be523e"
+    },
+    "c1_-13_1.bin": {
+      "sha256": "4aeb6a90e083039624772df67c08cfaf1a81a88045257c3351b545ca6103b570",
+      "bytes": 280104,
+      "before_sha256": "ddf0ad3cd0a2a0433955f12557b61dd5fbb9b40eaa59a9f160e6e74f02931c3c"
+    },
+    "c1_-13_2.bin": {
+      "sha256": "853168243f7b37ff354ffd270324a0a419d9dcc0c33c218765f8ad529efe3de3",
+      "bytes": 60208,
+      "before_sha256": "ebc8c630910fea504cbd326c39270ff5188e53d94db80cc3cc40c1adc18d4a5f"
+    },
+    "index.bin": {
+      "sha256": "479fd4f048ecf9058317ee7bb16139f3698e7ccca5bcb0c94cfc165b023c9629",
+      "bytes": 61028,
+      "before_sha256": "63535f15f28687bf087da076ffe46432fc7ecf78c22e8fc9edc6cab7f59c8ffe"
+    }
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\657354.fab_bxml",
+      "sha256": "2f87122f741b17381ad42d774825669515de6aecdae352c03b45e4eb9b6d1fa5"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\657354.fab_visual_data_streamable_bin",
+      "sha256": "7280ef50d7fd96c7729d8680d364e4d79f3c4c2f42b982d3b373e1620da2a774"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\301326.mat_bxml",
+      "sha256": "c2eca5f18946f7de1601c5b17a1ebed76113e0c7c7969a21c82d583a32cc780e"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298941_0.dds",
+      "sha256": "2d011cb3cdf71e083eab1c1700ffbc970e0feaaa7588fc9d5d198460c8cf9a7d"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298941_1.dds",
+      "sha256": "86aea8f3ea8c292c153b2b151543d7107dd340c49420c3b199940e4ede9890b9"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298941_2.dds",
+      "sha256": "1e59368600e746c244a2a3ff64bd94d896793c8a7a4999c15c57cdbd71dd862f"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298941_3.dds",
+      "sha256": "5872c77e6261113ff73bd266695a097a19cbdcb4b22bebaac28222c0b8ec3a16"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298941_4.dds",
+      "sha256": "2d011cb3cdf71e083eab1c1700ffbc970e0feaaa7588fc9d5d198460c8cf9a7d"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298942_0.dds",
+      "sha256": "64545eee07adba2689f818c0724db3fe52ea2051fb6d6f98538314a697bc345f"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298942_1.dds",
+      "sha256": "76edfcac3d50a62f8799e1ee27f095a520cf9001a3f6a1f2ac9ab8f69288548a"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298942_2.dds",
+      "sha256": "8a0e8cf118eec3d25753218f32119396aafc1c61e2ac971e5ec6469e752e4a1f"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298942_3.dds",
+      "sha256": "2e40d5b340d6485b1b79c34b46977dedd45849b770f6d5626fc59505042febef"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298942_4.dds",
+      "sha256": "64545eee07adba2689f818c0724db3fe52ea2051fb6d6f98538314a697bc345f"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298943_0.dds",
+      "sha256": "b5b503ee76b4e7784515878afd57669e31e1c6a3b2c3e2c662b911dbc1966f5e"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298943_1.dds",
+      "sha256": "e6a2797d85510ac6ed48bf805c5427b614ca25f0a0ebad9b510c24f99d4c1f60"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298943_2.dds",
+      "sha256": "a5938a023a8521dfb3cefae77a9de353e32a7762050960b0b5933caf66cdb444"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298943_3.dds",
+      "sha256": "0ebac77f9d2a78296c720024f00113db89f632804afb9a8200e8f6e83808f441"
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\298943_4.dds",
+      "sha256": "b5b503ee76b4e7784515878afd57669e31e1c6a3b2c3e2c662b911dbc1966f5e"
+    }
+  ],
+  "added_triangles_lod0": 460,
+  "limits": [
+    "Static visual recovery only; native destruction/loot/collision behavior not implemented",
+    "Material uses the current custom shader approximations; texture roles 0 diffuse/3 normal/2 specular corroborated by texture symbols, not original shader parity",
+    "Identity FAB bind and unit placement scale only; no general skeletal assumptions",
+    "All three existing stream LODs retain this small mesh unchanged"
+  ]
+}

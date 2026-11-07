@@ -1,0 +1,36 @@
+V08 content-package state extension
+
+Parent native trace: GAME.is_content_package_active callback00e5f500 intersects
+mask00a8cba0 (registered IDs) with mask00a8cbe0 (same IDs flagged active), then
+tests bit(index&31). The supplied evidence is a predicate over state, not a
+license entitlement query or an Android/native package inventory mapping.
+
+scene_profile_v08_options now has trailing scene_content_state_v08 content:
+  { int is_set; uint32_t registered_mask; uint32_t active_mask; }
+Omitted trailing initializers default to unknown. All callers must recompile.
+Install copies content into its own Lua-owned userdata independently from the
+controller state. scene_profile_v08_set_content copies updates into that same
+userdata; already captured Lua query functions observe them. Controller state
+and existing queries remain independent. Invalid is_set values reject before
+publication/mutation; unsetting restores explicit query errors.
+
+Admitted argument domain: exactly one Lua numeric integer from0 through31.
+Numeric strings, fractions, negative/out-of-range numbers, NaN/infinity and
+other argument counts/types fail explicitly. Valid indices return a boolean
+from registered_mask & active_mask. Bit31 uses an unsigned32-bit shift.
+There is no coercion or wraparound guess for inputs outside the admitted domain.
+
+Android setup explicitly installs {1,0,0}: this Android host has mounted no
+optional content packages. It logs this as Android_port_mounts. It does not
+report whether the user's original installation owns, licenses, or mounts DLC.
+Future content loading must supply actual registered/active mount state; never
+set bits merely to bypass content gates. A known empty set differs from unset.
+
+content_state_test.c links against the same v08 profile and runtime, taking the
+six-namespace runtime directory. It covers all32 bits, registered-only versus
+active-only masks, intersections, known-empty/all-bits states, bit31, invalid
+arguments and flags, absent/unknown/re-unset states, copied input lifetime,
+captured callback updates, realm isolation, stack preservation, and independence
+from native controller behavior. Existing controller fixtures are unchanged.
+Run those as regressions with the new fixture on Windows. Staging agent has
+performed no builds, target execution, or Android device operations.

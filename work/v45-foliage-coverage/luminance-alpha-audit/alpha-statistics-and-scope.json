@@ -1,0 +1,29 @@
+{
+  "phase97_draws": 799,
+  "bound_alpha_values": {
+    "0.1875": 701,
+    "0.4375": 30,
+    "0.0625": 68
+  },
+  "example_draws": {
+    "68274": 0.4375,
+    "68589": 0.4375,
+    "68811": 0.1875,
+    "69083": 0.1875
+  },
+  "all_values_exactly_representable_in_half": true,
+  "all_wrapped_predicates_false": true,
+  "dynamic_offset": 252,
+  "active_G2_wrapped_predicate": "strict alpha >0.5",
+  "bind_descriptor_patterns": [
+    {
+      "firstSet": 0,
+      "count": 1,
+      "occurrences": 8176
+    }
+  ],
+  "dispatch_indirect_secondary_counts": {},
+  "transfer_names": {
+    "vkCmdBlitImage": 3
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "implementation_frozen_hashes_match": true,
+  "changed_files": [],
+  "source_materials": 124,
+  "native_source_shaders": 9,
+  "pinned_texture_resources": 412,
+  "texture_bytes": 480831000,
+  "renderer": {
+    "egl": "1.5",
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4080 SUPER (0x00002702) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.1692)",
+    "version": "OpenGL ES 3.0 (ANGLE 2.1.27600 git hash: f39c3524d091)",
+    "glsl": "OpenGL ES GLSL ES 3.00 (ANGLE 2.1.27600 git hash: f39c3524d091)"
+  },
+  "gpu_synthetic": {
+    "draw_cases": 22,
+    "independent_oracle_cases": 20,
+    "compared_channels": 327680,
+    "mismatched_channels": 0,
+    "oracle_rounding": "measured ANGLE half towardzero; no universal GPU rounding claim"
+  },
+  "actual_source_actor": {
+    "profile": "AlmainMale creator default, idle703318 frame0",
+    "draws": 14,
+    "opaque": 13,
+    "transparent": 1,
+    "triangles": 10994,
+    "nonzero_pixels": 27088,
+    "textures": 35,
+    "GL_error": 0,
+    "ambient_only": true,
+    "original_creator_frame_claim": false
+  },
+  "culling_probe": "evidence/character-cull-contract.json",
+  "ARM64_C99": "both modules compiled NDK r30 Android26 with -Wall -Wextra -Werror; not tablet GPU run",
+  "no_live_assets_or_core_modified": true,
+  "files": {
+    "test-output.txt": {
+      "bytes": 116,
+      "sha256": "ff2feb87eb35e764f0ac46ca2fd508c3593a18d99bbdfb342b16e58afaa6728b"
+    },
+    "source-oracle-validation.json": {
+      "bytes": 10083,
+      "sha256": "897fe46c340bf7a3ddcceba5e7b725694c3980a94170758db7aaa022f74d9fac"
+    },
+    "actual-test-output.txt": {
+      "bytes": 103,
+      "sha256": "0ebbefbd54edbdd1fc90fde88e2aa26cdc0a2616fd762b47cfbca93fd1d068af"
+    },
+    "actual-almain-male-frame0.rgba": {
+      "bytes": 1048576,
+      "sha256": "1a69efa98a6e500bed51f3cea6e9e67783a9097d4d62b01979e1b9daae936765"
+    },
+    "arm64-compile.log": {
+      "bytes": 78,
+      "sha256": "c1f0a41cda574a392a058054c448ba878908ebb185234be3498b435a92297587"
+    },
+    "material-family-ledger.json": {
+      "bytes": 11037,
+      "sha256": "45477d96f2d5bfb93f5ba2d14feca1e553f91b55654ce93e1e3bb3e3cb872cc2"
+    },
+    "dynamic-probe/REPORT.md": {
+      "bytes": 3771,
+      "sha256": "f65ed02565b066581476ce1691b2dc7102649985108c2c53933aa93f1bbf9a86"
+    },
+    "cull-build.log": {
+      "bytes": 285,
+      "sha256": "7a39ae34be6e7147b0ca047894169693d68c0ab4e119f8d29bbecce9fb8c04a9"
+    },
+    "cull-off.txt": {
+      "bytes": 755,
+      "sha256": "605f064f1b45f401ec235f55294a06df578c60691ca420506950955691ac86d4"
+    },
+    "cull-cw.txt": {
+      "bytes": 755,
+      "sha256": "6df6cc96ac26427a3e97e9dd44ecab0ed0870f6c4a91cc042076371cf8cc09fc"
+    },
+    "cull-ccw.txt": {
+      "bytes": 755,
+      "sha256": "6177a431b921486f5e6629b04a76d035e386dc31bf0dbe7585a90eef07998afb"
+    }
+  }
+}

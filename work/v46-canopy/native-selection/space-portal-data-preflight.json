@@ -1,0 +1,100 @@
+{
+  "preflight": [
+    {
+      "address": "00fa6d30",
+      "name": "BHG_Portal__vf2",
+      "bytes": 1,
+      "chars": 46,
+      "file": "BHG_Portal.c"
+    },
+    {
+      "address": "00fae030",
+      "name": "BHG_Portal__vf3",
+      "bytes": 42,
+      "chars": 373,
+      "file": "BHG_Portal.c"
+    },
+    {
+      "address": "00cd26d0",
+      "name": "FUN_00cd26d0",
+      "bytes": 65,
+      "chars": 419,
+      "file": "unnamed_00cd.c"
+    }
+  ],
+  "field_consumers": [
+    {
+      "address": "00cd23e0",
+      "name": "FUN_00cd23e0",
+      "bytes": 67,
+      "chars": 460,
+      "file": "unnamed_00cd.c",
+      "fields": [
+        "0x6ec"
+      ]
+    },
+    {
+      "address": "00ce7a00",
+      "name": "FUN_00ce7a00",
+      "bytes": 116,
+      "chars": 765,
+      "file": "unnamed_00ce.c",
+      "fields": [
+        "0x698"
+      ]
+    },
+    {
+      "address": "00ce7a80",
+      "name": "FUN_00ce7a80",
+      "bytes": 172,
+      "chars": 888,
+      "file": "unnamed_00ce.c",
+      "fields": [
+        "0x6ec"
+      ]
+    },
+    {
+      "address": "00d3d820",
+      "name": "FUN_00d3d820",
+      "bytes": 157,
+      "chars": 652,
+      "file": "unnamed_00d3.c",
+      "fields": [
+        "0x698"
+      ]
+    },
+    {
+      "address": "00d3d8c0",
+      "name": "FUN_00d3d8c0",
+      "bytes": 111,
+      "chars": 811,
+      "file": "unnamed_00d3.c",
+      "fields": [
+        "0x698",
+        "0x6ec"
+      ]
+    },
+    {
+      "address": "00d40fd0",
+      "name": "FUN_00d40fd0",
+      "bytes": 4129,
+      "chars": 19206,
+      "file": "unnamed_00d4.c",
+      "fields": [
+        "0x698",
+        "0x6ec"
+      ]
+    },
+    {
+      "address": "00d42f40",
+      "name": "FUN_00d42f40",
+      "bytes": 3000,
+      "chars": 16576,
+      "file": "unnamed_00d4.c",
+      "fields": [
+        "0x698",
+        "0x6ec"
+      ]
+    }
+  ]
+}

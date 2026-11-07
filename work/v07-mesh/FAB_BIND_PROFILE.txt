@@ -1,0 +1,55 @@
+FAB skeleton and mesh-descriptor interpretation
+
+Status: external-reference layout hypothesis, pending Windows real-file checks
+and native/runtime corroboration. The source is an independently authored
+reader informed by the 2018 format reference at lines805-902 of
+Kingdoms of Amalur (FAB).utf8.txt. No code from that importer is incorporated.
+
+Header and tables
+The supported magic is0x45533033 atfile4. File8 holds the absolute descriptor
+section offset; file20 holds bonecount. At28/32/36 are signed offsets relative
+to each field's start, resolving respectively48-byte TRS records,int16 parent
+links,anduint32 namehashes. Fields40/44/48 are retained and bounds-checked but
+their target roles are unknown. A zero-bone variant is explicitly unsupported
+because the reference does not establish its mesh-descriptor layout.
+
+TRS records preserve quaternionXYZW,positionXYZW,scaleXYZW and raw48bytes.
+Matrix interpretation uses a conventional unit XYZW quaternion with raw
+components, a column-vector R*scale transform plus translation, and
+world=parent*local. No axis rotation, unit scaling or quaternion normalization
+is applied. Quaternion norms outside a1e-3 unit-norm-squared tolerance leave
+the transform explicitly unsupported. Nonfinite components are rejected.
+Parent-1 and self-parent are the reference's two root forms. Other indices
+must be in range; cycles between distinct bones are rejected independently
+of file order. Namehashes remain numeric; no guessed bone names are supplied.
+
+Mesh descriptors
+The reader follows the bounded unknown lists in the descriptor section to
+obtain its exact mesh count. Each descriptor preserves positionXYZ,4unknown
+floats,a remapcount and52bytes per remap(TRS48+boneindex4),2unknownfloats,
+one mesh boneindex and25uninterpreted tailbytes. The descriptor's position
+is not automatically added to geometry: it could represent another quantity,
+such as a bounding center. Remap matrices are not assumed to be inverse binds.
+
+Static use
+parse_file(path) returns mesh_descriptors[index].static_bind_candidate as
+16row-major matrix components, with a separate error when mapping is absent
+or transform admission fails. The index-to-assembly relationship and whether
+vertices are unskinned must be established by the caller from mesh evidence.
+static_bind_matrix(report,index,vertices_are_unskinned=True) and
+transform_point(matrix,point) provide explicit opt-in helpers. Apply the local
+bind before the instance transform. This does not implement skinning or animation.
+
+Bounds and provenance
+Every followed pointer,count and fixed/variable record is range checked. Raw
+file SHA256, exact offsets, consumed ranges and remaining uninterpreted byte
+ranges accompany each result. Full-file byte coverage is not full semantic
+understanding. Unknown blocks are skipped with verified bounds, not decoded.
+
+Windows commands
+  python -m unittest -v test_amalur_fab.py
+  python amalur_fab.py INPUT.fab_bxml --output REPORT.json
+  python batch_inspect_fabs.py --inputs EXTRACTED_DIRECTORY --output REPORT_DIRECTORY
+The batch command limits its selected tree to256FAB files and records every
+rejection. Fresh target parsing and test execution are performed by the parent
+on Windows; this worker has not executed target artifacts locally.

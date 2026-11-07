@@ -1,0 +1,33 @@
+{
+  "status": "PASS CPU-only",
+  "source_streams": [
+    {
+      "fab": 1789717,
+      "assemblies": 21,
+      "stream_complete_consumption": true,
+      "draw_count_fields_agree_whole_referenced_buffers": true,
+      "source_sha256": "7a87a8ff5c353cbdb7b01b8c3e84fe36cdcd0459f66145f5b6135408766eea85"
+    },
+    {
+      "fab": 1880465,
+      "assemblies": 1,
+      "stream_complete_consumption": true,
+      "draw_count_fields_agree_whole_referenced_buffers": true,
+      "source_sha256": "4958407eb71e4cd9ac830acf3a9ce26d00aba287f412a2ed061b9babf1a0a598"
+    }
+  ],
+  "source_triangles": 2902,
+  "source_assemblies": 22,
+  "source_raw_vertex_and_index_payloads_preserved": true,
+  "source_local_position_UV_RGBA_byte_identity": true,
+  "source_index_triangle_occurrence_identity": true,
+  "derived_OAWE76_reparse_triangle_identity": true,
+  "rigid_bind_UV_RGBA_identity": true,
+  "supported_candidate_triangles": 1370,
+  "excluded_container_triangles": 928,
+  "supported_plus_withheld_equals2298": true,
+  "skin_blended_parts_not_baked": true,
+  "new_clip_decoder": false,
+  "GPU_test": false,
+  "active_pose_validation": false
+}

@@ -1,0 +1,120 @@
+{
+  "requested-input": {
+    "capture": {
+      "frame": 1430,
+      "world": 1,
+      "grounded": 1,
+      "reference_camera": 0,
+      "player_hidden_for_reference": 0,
+      "oneshot_clip": -1,
+      "health": 100,
+      "width": 1536,
+      "height": 864,
+      "feet": [
+        1619.05371,
+        2828.34058,
+        -324.848938
+      ],
+      "eye": [
+        1854.26965,
+        2828.34058,
+        -127.168304
+      ],
+      "yaw": -3.14159274,
+      "pitch": -0.200000003,
+      "boom": 240,
+      "mvp_column_major": [
+        7.02296248e-08,
+        -0.283729225,
+        -0.980091155,
+        -0.980066597,
+        0.803333282,
+        2.4804395e-08,
+        8.56822879e-08,
+        8.56801421e-08,
+        0,
+        1.39968014,
+        -0.198674306,
+        -0.198669329,
+        -2272.10034,
+        704.105286,
+        1788.08801,
+        1792.04309
+      ]
+    },
+    "motion_log": [
+      "532010.775 4 OpemAmalurScene: Character locomotion policy=requested_input_comparison authored_host_policy=1 native_motion_tree_equivalence=0",
+      "532010.775 4 OpemAmalurScene: Character locomotion blocked=0 requested=0.00000 accepted_motion=0.00000"
+    ],
+    "latest_held_pose": [
+      "532032.767 4 OpemAmalurScene: Exploration pose reason=changed observed_ms=532032766 view=walk ready=1 valid=1 feet=(1619.054 2828.341 -324.849) grounded=1 yaw=-3.14159 pitch=-0.20000 walk_yaw=-3.14159 walk_pitch=-0.20000 request_right=0.000 request_forward=1.000 recoveries=0 recovered_last_step=0 contacts=0 queries=10"
+    ],
+    "source_states": [
+      "532007.275 4 OpemAmalurScene: Opening source state reason=open scene=1417252 region=1262814 inside=3 skipped=1 checkpoint_writes=0 tutorial_kills=0,0 latched=0 lua_calls=1 lua_bytes=986673 services=7",
+      "532010.777 4 OpemAmalurScene: Opening source state reason=accepted_pose scene=1417252 region=1262814 inside=1 skipped=1 checkpoint_writes=1 tutorial_kills=1,1 latched=0 lua_calls=2 lua_bytes=729489 services=7"
+    ],
+    "controller_recoveries": [],
+    "controller_errors": []
+  },
+  "accepted-motion": {
+    "capture": {
+      "frame": 900,
+      "world": 1,
+      "grounded": 1,
+      "reference_camera": 0,
+      "player_hidden_for_reference": 0,
+      "oneshot_clip": -1,
+      "health": 100,
+      "width": 1536,
+      "height": 864,
+      "feet": [
+        1619.89368,
+        2828.34058,
+        -324.624298
+      ],
+      "eye": [
+        1855.10962,
+        2828.34058,
+        -126.943665
+      ],
+      "yaw": -3.14159274,
+      "pitch": -0.200000003,
+      "boom": 240,
+      "mvp_column_major": [
+        7.02296248e-08,
+        -0.283729225,
+        -0.980091155,
+        -0.980066597,
+        0.803333282,
+        2.4804395e-08,
+        8.56822879e-08,
+        8.56801421e-08,
+        0,
+        1.39968014,
+        -0.198674306,
+        -0.198669329,
+        -2272.10034,
+        704.029236,
+        1788.95581,
+        1792.91089
+      ]
+    },
+    "motion_log": [
+      "532069.572 4 OpemAmalurScene: Character locomotion policy=accepted_horizontal_displacement authored_host_policy=1 native_motion_tree_equivalence=0",
+      "532069.572 4 OpemAmalurScene: Character locomotion blocked=0 requested=0.00000 accepted_motion=0.00000",
+      "532082.490 4 OpemAmalurScene: Character locomotion blocked=1 requested=1.00000 accepted_motion=0.00000",
+      "532087.279 4 OpemAmalurScene: Character locomotion blocked=0 requested=0.00000 accepted_motion=0.00000"
+    ],
+    "latest_held_pose": [
+      "532083.287 4 OpemAmalurScene: Exploration pose reason=changed observed_ms=532083287 view=walk ready=1 valid=1 feet=(1619.894 2828.341 -324.624) grounded=1 yaw=-3.14159 pitch=-0.20000 walk_yaw=-3.14159 walk_pitch=-0.20000 request_right=0.000 request_forward=1.000 recoveries=0 recovered_last_step=0 contacts=0 queries=18"
+    ],
+    "source_states": [
+      "532066.067 4 OpemAmalurScene: Opening source state reason=open scene=1417252 region=1262814 inside=3 skipped=1 checkpoint_writes=0 tutorial_kills=0,0 latched=0 lua_calls=1 lua_bytes=986673 services=7",
+      "532069.574 4 OpemAmalurScene: Opening source state reason=accepted_pose scene=1417252 region=1262814 inside=1 skipped=1 checkpoint_writes=1 tutorial_kills=1,1 latched=0 lua_calls=2 lua_bytes=729489 services=7"
+    ],
+    "controller_recoveries": [],
+    "controller_errors": []
+  },
+  "capture_pose_distance_cm": 0.8694899254735354,
+  "scope": "PASS authored host locomotion improvement, not native MotionTree timing. Old/new captured while holding W at same blocked bridge edge; physical endpoints within2cm, zero recoveries. Independent isolated user-data; original checkpoint/draft preserved."
+}

@@ -1,0 +1,21 @@
+{
+  "native_function": "koa.exe cs:15032 VA0x00abc070",
+  "original_x86_cases": 4221,
+  "x86_reconstruction_mismatches": 0,
+  "arm64_reconstruction_mismatches": 0,
+  "captured_projection_records": 1598,
+  "captured_projection_mismatches": 0,
+  "normal_or_finite_values_only": true,
+  "observations": [
+    "SSE cvtps2pd/mulsd/addsd/cvtpd2ps uses double intermediates then float output",
+    "left * right argument ordering verified against original instructions",
+    "Original function bytes copied to private executable page in isolated x86 probe; original game executable not modified",
+    "ARM64 probe executed directly on tablet without FEX"
+  ],
+  "limitations": [
+    "Not complete camera controller or scene engine port",
+    "No claim about all NaN payloads, floating point environment modes or overlapping output/input pointers",
+    "Capture-specific registry, not general asset discovery"
+  ],
+  "actual_game_input_pairs": 1598
+}

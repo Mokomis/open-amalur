@@ -1,0 +1,218 @@
+{
+  "camera": {
+    "frame": 1739,
+    "world": 1,
+    "grounded": 1,
+    "reference_camera": 1,
+    "player_hidden_for_reference": 1,
+    "oneshot_clip": -1,
+    "health": 100,
+    "width": 1536,
+    "height": 864,
+    "feet": [
+      8714.13086,
+      -87104,
+      6445.44873
+    ],
+    "eye": [
+      8591.93262,
+      -87036.0312,
+      6493.06641
+    ],
+    "yaw": 1.57079637,
+    "pitch": -0.200000003,
+    "boom": 240,
+    "mvp_column_major": [
+      -0.752033353,
+      -0.1664076,
+      -0.816109061,
+      -0.816027522,
+      -1.07398558,
+      0.116520949,
+      0.571461439,
+      0.571404338,
+      -9.64531296e-07,
+      2.32198572,
+      -0.087164171,
+      -0.0871554688,
+      -87014.0156,
+      -3505.52393,
+      57263.2773,
+      57309.9258
+    ]
+  },
+  "scope": "SamebridgeVP; sourcefrustum candidates are not occlusion-tested visibility counts. Native actual Gbuffer draw submissions fromcapturedphase97.",
+  "cached_tree_models": 27,
+  "source_tree_assembly_catalogue": 160,
+  "source_stats": {
+    "tree_records": 5203,
+    "emitted_tree_records": 4489,
+    "outside_camera_sphere": 3799,
+    "shadow_proxy_skipped": 714,
+    "frustum_tree_records": 690,
+    "sphere_only_no_triangles": 44
+  },
+  "source_frustum_parts": 690,
+  "source_frustum_physical_pose_groups": 335,
+  "native_tree_draws_matched_to_cached_geometry": 189,
+  "native_draws_with_pose_match": 85,
+  "native_pose_groups_matched": 48,
+  "native_unmatched_draws": 104,
+  "exact_duplicate_source_assembly_pose_groups": [
+    {
+      "source_indices": [
+        235,
+        238
+      ],
+      "fab": 419059,
+      "assembly": 5,
+      "material": 343549
+    },
+    {
+      "source_indices": [
+        236,
+        239
+      ],
+      "fab": 419059,
+      "assembly": 6,
+      "material": 489469
+    },
+    {
+      "source_indices": [
+        237,
+        240
+      ],
+      "fab": 419059,
+      "assembly": 8,
+      "material": 419060
+    }
+  ],
+  "rounded_center_collisions": [
+    {
+      "space": 431642,
+      "ref": 501,
+      "fab": 419059,
+      "render_indices": [
+        69,
+        70
+      ],
+      "chosen": 70
+    },
+    {
+      "space": 431642,
+      "ref": 502,
+      "fab": 419059,
+      "render_indices": [
+        1066,
+        1070
+      ],
+      "chosen": 1070
+    },
+    {
+      "space": 431642,
+      "ref": 503,
+      "fab": 419059,
+      "render_indices": [
+        908,
+        950
+      ],
+      "chosen": 950
+    },
+    {
+      "space": 431642,
+      "ref": 507,
+      "fab": 419059,
+      "render_indices": [
+        69,
+        70
+      ],
+      "chosen": 70
+    },
+    {
+      "space": 431642,
+      "ref": 508,
+      "fab": 419059,
+      "render_indices": [
+        1066,
+        1070
+      ],
+      "chosen": 1070
+    },
+    {
+      "space": 431642,
+      "ref": 509,
+      "fab": 419059,
+      "render_indices": [
+        908,
+        950
+      ],
+      "chosen": 950
+    }
+  ],
+  "missing_meshes": [
+    {
+      "fab": 7083,
+      "name": "for_flora_twistgreen01"
+    },
+    {
+      "fab": 366271,
+      "name": "for_flora_treeroot05"
+    },
+    {
+      "fab": 429907,
+      "name": "for_flora_treebranch01"
+    },
+    {
+      "fab": 430377,
+      "name": "for_flora_treelog01"
+    }
+  ],
+  "missing_spaces": [],
+  "source_part_draw_counts": {
+    "377118": 63,
+    "419059": 84,
+    "377117": 50,
+    "393858": 11,
+    "419058": 63,
+    "419041": 57,
+    "353290": 129,
+    "340232": 80,
+    "343974": 28,
+    "357911": 23,
+    "366252": 7,
+    "359268": 9,
+    "366251": 5,
+    "366253": 7,
+    "418236": 12,
+    "1241567": 18,
+    "1241565": 22,
+    "1241566": 8,
+    "363221": 10,
+    "418553": 1,
+    "418151": 1,
+    "1618705": 2
+  },
+  "native_part_draw_counts": {
+    "340232": 26,
+    "357911": 11,
+    "393858": 20,
+    "353290": 28,
+    "377117": 27,
+    "377118": 27,
+    "363221": 6,
+    "343974": 9,
+    "419058": 12,
+    "419059": 8,
+    "419041": 8,
+    "366251": 3,
+    "366252": 1,
+    "359268": 1,
+    "418236": 2
+  },
+  "native_vs_counts": {
+    "591": 22,
+    "877": 82,
+    "883": 17,
+    "903": 68
+  }
+}

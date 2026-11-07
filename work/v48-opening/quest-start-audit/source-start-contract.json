@@ -1,0 +1,75 @@
+{
+  "quest_asset_id": 613083,
+  "quest_script_asset_id": 613082,
+  "space_asset_id": 1417252,
+  "source_normal_start_chain": [
+    "main_menu13493 root m_gamestart_quest=QUEST_ID(MQ01)",
+    "main_menu.start_new_game: win32 platform585298 branch -> start_game_at_quest(m_gamestart_quest)",
+    "start_game_at_quest -> QUEST.get_quest_script_module -> enter_space(module.m_CHEAT_START_SPACE,module.cheat_start_quest)",
+    "enter_space -> loading_screen.create_loading_screen(space,callback)",
+    "loading_screen.init(space,callback) DEFAULT branch validates type(callback)==function and stores m_cheat_func",
+    "character_gen_manager417426.finish_character_gen: only after !m_wait_for_load and m_ready_for_finish gates -> loading_screen.m_cheat_func()",
+    "MQ01.cheat_start_quest: QUEST.start_quest(MQ01); QUEST.set_stage(MQ01,5); set_game_start(true); Passive.set_disable_aggressive_mode(true); destiny_manager.lock_destiny(); destiny_manager.lock_fateweaver()"
+  ],
+  "stages": [
+    {
+      "state": "reference absent or asset unavailable to nonblocking query",
+      "get_stage": -1,
+      "native_bits": "ffffffff",
+      "host_limit": "An unmapped host quest is still unavailable; native sentinel is not permission to invent a source instance."
+    },
+    {
+      "state": "source-constructed loaded unstarted Quest",
+      "current_stage_index": -1,
+      "get_stage": -1,
+      "set_stage_25": "No mutation/no activation; set_stage Lua binding returns no values."
+    },
+    {
+      "state": "successful source start_quest",
+      "current_stage_index": 0,
+      "get_stage": 0,
+      "meaning": "Runtime synthesized stageID0, distinct from first authored5."
+    },
+    {
+      "state": "source creator-finish callback executes successful start then set5",
+      "current_stage_index": 1,
+      "get_stage": 5,
+      "meaning": "Grounded normal-source stage after that callback, NOT constructor or automatic cinematic skip."
+    },
+    {
+      "state": "active MQ01 stage5 then set_stage25",
+      "get_stage_after": 5,
+      "meaning": "25 is absent BOTH exact definitions. Native exact-ID lookup returns unchanged, no stage activation/callbacks. Door opening is a separate effect."
+    }
+  ],
+  "constructor_does_not_start": true,
+  "set_stage_does_not_start_unstarted": true,
+  "stage25_not_defined": true,
+  "mq01_on_start_stage5": {
+    "function_path": "0/57",
+    "instruction_count": 1,
+    "body": "RETURN; no source Lua effects"
+  },
+  "host_services_required": [
+    "start_quest/get_stage/set_stage with loaded-vs-unstarted/active semantics",
+    "set_game_start(true)",
+    "Passive disable-aggressive flag",
+    "destiny/fateweaver locks",
+    "native stage callbacks/condition/event effects where used"
+  ],
+  "explicit_limits": [
+    "No current user save/state observed or modified. Source startup proof is not proof the present dev skip ran creator completion.",
+    "Original menu/loading/creator paths are statically reconstructed; guarded emitter equality domains are not broadened. Full creator/menu runtime execution is not claimed.",
+    "Standalone main_menu matches current native win32-hash585298. Older packed menu compares platform enum3; preserve that variant difference, do not claim both platform guards are identical.",
+    "Do not set5 on arbitrary host create/cinematic skipped/movement events. Trigger only the authorized counterpart of source successful creator finish.",
+    "Known get_stage(-1) is an actual initialized-unstarted state; preserve missing/unsupported stage as unavailable separately.",
+    "This audit stages no runtime or full native quest-manager emulator."
+  ],
+  "platform": {
+    "native_enum": 10,
+    "native_name": "win32",
+    "native_hash": 585298,
+    "hash_algorithm_source": "00af09a0 tested helper",
+    "native_window_binding": "00b513e0 -> 0103a510 ->0103a5f0 ->00af4d40"
+  }
+}

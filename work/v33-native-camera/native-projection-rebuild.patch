@@ -1,0 +1,21 @@
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.cpp
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.cpp
+@@ -362,9 +362,16 @@
+     if(std::memcmp(current,oa_camera_last_,sizeof(current))==0)return;
+     // Always derive from immutable captured input; no cumulative matrix drift.
+     oa_camera_upload_=oa_camera_baseline_;
++    // Rebuild the captured object's projection from the same model/camera inputs as native0x00abc070.
++    float absolute_before[16],relative_before[16],absolute_view[16],relative_view[16];
++    std::memcpy(absolute_before,oa_camera_baseline_.data()+639296,64);
++    std::memcpy(relative_before,oa_camera_baseline_.data()+3328,64);
++    oa_camera::Transform(absolute_before,absolute_view,p);oa_camera::Transform(relative_before,relative_view,p);
+     for(uint64_t off:oa_camera_offsets) {
+-        float before[16],after[16];std::memcpy(before,oa_camera_baseline_.data()+off,64);
+-        oa_camera::Transform(before,after,p);std::memcpy(oa_camera_upload_.data()+off,after,64);
++        float model[16],after[16];std::memcpy(model,oa_camera_baseline_.data()+off-128,64);
++        const bool relative=off==3328 || off==642944;
++        oa_matrix_mul_abc070(after,relative?relative_view:absolute_view,model);
++        std::memcpy(oa_camera_upload_.data()+off,after,64);
+     }
+     for(uint64_t off:oa_camera_records) {
+         float before[36],after[36];std::memcpy(before,oa_camera_baseline_.data()+off,144);

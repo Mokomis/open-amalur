@@ -1,0 +1,46 @@
+{
+  "type": "Varani_Male",
+  "status": "Defaultmale sourcegeometry preview readyforrootreview; colourpreviewpending",
+  "base": {
+    "path": "work\\v49-character-create\\packs\\Varani_Male\\character.bin",
+    "bytes": 13629260,
+    "sha256": "0c9452b0ee5412e8066f830020ccdda2cf28bd7be1539c88d37a8b453bf901e2"
+  },
+  "corrected": {
+    "path": "work\\v49-character-create\\varani-preview-audit\\corrected\\character.bin",
+    "bytes": 13629260,
+    "sha256": "a3454f607a2245dc8d70a580e09d5d9c2e701133301cfaa8bed87f5009ce1a06"
+  },
+  "source_attributes": {
+    "path": "work\\v49-character-create\\varani-preview-audit\\varani-male-attributes.oacat",
+    "bytes": 950060,
+    "sha256": "a54f087f1f3286ecf4d8f5d865209a5dd43780c4e8d0fb0ad8a264b1e2b7c22d"
+  },
+  "source_attribute_baseSHA": "0c9452b0ee5412e8066f830020ccdda2cf28bd7be1539c88d37a8b453bf901e2",
+  "covered_parts": 11,
+  "total_parts": 16,
+  "weighted_vertices": 7688,
+  "weighted_indices": 32634,
+  "corrected_normal_vertices": 3536,
+  "actual_corrected_bytes": 40839,
+  "corrected_allowed_domain": "Only normalXYZ12B@12 within current52B weightedvertices; everyotherbyteexact",
+  "palette": {
+    "total_source_slots": 125,
+    "changed_slots": 0,
+    "all_own_descriptor_counts_and_slots_match": true,
+    "all_existing_inverse_common_rest_records_byte_exact": true,
+    "ancestor_fallback_slots": 50,
+    "sidecar_action": "Do notload64B zero-record varani-male-palette-corrections.oacpl; auditartifactonly,no correctionsneeded"
+  },
+  "source_layout_evidence": "Recorded native type/stride correspondence reused from vertex-contract-audit; no newshader/native function/capture work",
+  "defaults": "creation-default-proof.json",
+  "independent_validation": "independent-pack-validation.json",
+  "read_only_originals": true,
+  "limits": [
+    "Diffuse-only material path; no preset color indices applied",
+    "Hair/beard color/mask requires new material support",
+    "Eye-shadow/mouth-black omitted by old builder",
+    "Facial joints fall back to ancestor on common64-joint rig",
+    "Not yet GPU-render validated; no claim of exact original preset"
+  ]
+}

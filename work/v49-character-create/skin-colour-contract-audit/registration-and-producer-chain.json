@@ -1,0 +1,31 @@
+{
+  "name": "PLAYER.set_skin_color",
+  "string_VA": "0x01759b40",
+  "wrapper": "0x0102d700",
+  "callee": "0x0102b250",
+  "registration_source_function": "0x01032dc0",
+  "name_object_stack_offset": "base+0x2bc",
+  "callback_stack_offset": "base+0x2c8",
+  "record_layout": "12Bnameobject then4Bcallback; next construction block writes preceding entry callback",
+  "name_constructor": "0x00af4d70 writes bytes0..10 and ret16; direct artifact ASM retained",
+  "discarded_adjacent_callback": "0x0101c490 belongs preceding get_tattoo_texture_index, not set_skin_color",
+  "palette_category": "0x002ba8f1",
+  "arguments": [
+    "genderHash",
+    "raceHash",
+    "optionKey(words0), not source list index"
+  ],
+  "producer_chain": [
+    "0102d700",
+    "0102b250",
+    "00f2cbb0",
+    "00f1f4b0",
+    "00f50b30/50/ba0",
+    "00f408e0",
+    "00ddad60",
+    "00dda730",
+    "00b37520"
+  ],
+  "source_records": "source-skin-records.json",
+  "alpha_initializer_boundary": "BHG_PartStats__vf5 at00f76530 loads Stats+30 from StatsBlueprint payload+10; actual initial AlmainLite blueprint payload alpha was not decoded"
+}

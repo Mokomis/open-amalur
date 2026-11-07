@@ -1,0 +1,678 @@
+[
+  {
+    "pipeline": 13252,
+    "stages": [
+      351,
+      352
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13260,
+    "stages": [
+      375,
+      376
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13262,
+    "stages": [
+      375,
+      376
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13286,
+    "stages": [
+      381,
+      382
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13292,
+    "stages": [
+      393,
+      394
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13294,
+    "stages": [
+      393,
+      394
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13297,
+    "stages": [
+      417,
+      418
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13306,
+    "stages": [
+      429,
+      430
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13308,
+    "stages": [
+      429,
+      430
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13310,
+    "stages": [
+      429,
+      430
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13315,
+    "stages": [
+      461,
+      462
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 1,
+      "front": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_REPLACE",
+        "passOp": "VK_STENCIL_OP_REPLACE",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_ALWAYS",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13402,
+    "stages": [
+      975,
+      976
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_LESS_OR_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 0,
+      "front": {
+        "failOp": "VK_STENCIL_OP_KEEP",
+        "passOp": "VK_STENCIL_OP_KEEP",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_EQUAL",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_KEEP",
+        "passOp": "VK_STENCIL_OP_KEEP",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_EQUAL",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  },
+  {
+    "pipeline": 13404,
+    "stages": [
+      975,
+      976
+    ],
+    "raster": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_RASTERIZATION_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthClampEnable": 0,
+      "rasterizerDiscardEnable": 0,
+      "polygonMode": "VK_POLYGON_MODE_FILL",
+      "cullMode": 2,
+      "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+      "depthBiasEnable": 0,
+      "depthBiasConstantFactor": 0.0,
+      "depthBiasClamp": 0.0,
+      "depthBiasSlopeFactor": 0.0,
+      "lineWidth": 1.0
+    },
+    "depth": {
+      "sType": "VK_STRUCTURE_TYPE_PIPELINE_DEPTH_STENCIL_STATE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "depthTestEnable": 1,
+      "depthWriteEnable": 0,
+      "depthCompareOp": "VK_COMPARE_OP_LESS_OR_EQUAL",
+      "depthBoundsTestEnable": 0,
+      "stencilTestEnable": 0,
+      "front": {
+        "failOp": "VK_STENCIL_OP_KEEP",
+        "passOp": "VK_STENCIL_OP_KEEP",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_EQUAL",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "back": {
+        "failOp": "VK_STENCIL_OP_KEEP",
+        "passOp": "VK_STENCIL_OP_KEEP",
+        "depthFailOp": "VK_STENCIL_OP_KEEP",
+        "compareOp": "VK_COMPARE_OP_EQUAL",
+        "compareMask": 255,
+        "writeMask": 255,
+        "reference": 0
+      },
+      "minDepthBounds": 0.0,
+      "maxDepthBounds": 0.0
+    }
+  }
+]

@@ -1,0 +1,714 @@
+{
+  "terrain_draws": 94,
+  "unique_buffers": 44,
+  "vertices": 18700,
+  "formula": "seed=vec3(1,0,N.x/N.z);T=normalize(seed-N*dot(seed,N));B=cross(N,T); all operations float32",
+  "max_component_error": 6.556510925292969e-07,
+  "buffers": [
+    {
+      "buffer": 6011,
+      "memory": 6012,
+      "vertices": 425,
+      "fill": {
+        "block": 74816,
+        "memory": 6012,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 551054267,
+        "stored_size": 14283,
+        "compressed": true
+      },
+      "sha256": "cc784487d7fffc25763a9641e4b6b0509113f0d08d4cb92b455d8711f7adff5f",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6013,
+      "memory": 6014,
+      "vertices": 425,
+      "fill": {
+        "block": 74803,
+        "memory": 6014,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550924154,
+        "stored_size": 14193,
+        "compressed": true
+      },
+      "sha256": "d963c1dd792cbecaadea1907d796a7e0ca2eba244b7367d73b59aaf68be514b4",
+      "max_component_error": 3.5762786865234375e-07
+    },
+    {
+      "buffer": 6019,
+      "memory": 6020,
+      "vertices": 425,
+      "fill": {
+        "block": 74790,
+        "memory": 6020,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550785900,
+        "stored_size": 14115,
+        "compressed": true
+      },
+      "sha256": "760677ff3e418b89c23da610c0343d1fd306b5c4428b8fd82a8d00467660d7c4",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6117,
+      "memory": 6118,
+      "vertices": 425,
+      "fill": {
+        "block": 74653,
+        "memory": 6118,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 549926429,
+        "stored_size": 8550,
+        "compressed": true
+      },
+      "sha256": "4ba589b8b5b8f78178e603da5a6caae76a466ae24f910b7bc5039be7ea9bbf44",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6119,
+      "memory": 6120,
+      "vertices": 425,
+      "fill": {
+        "block": 74643,
+        "memory": 6120,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 549862699,
+        "stored_size": 8872,
+        "compressed": true
+      },
+      "sha256": "36116b3033afd98d94fe5e324a954771c861d4db1a739148893911f2dc36247b",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6149,
+      "memory": 6150,
+      "vertices": 425,
+      "fill": {
+        "block": 74661,
+        "memory": 6150,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 549971070,
+        "stored_size": 9342,
+        "compressed": true
+      },
+      "sha256": "5e5440b577c1fded99839719948d3b20ccee663cc7a0e0275396594ff1c01e87",
+      "max_component_error": 2.980232238769531e-07
+    },
+    {
+      "buffer": 6151,
+      "memory": 6152,
+      "vertices": 425,
+      "fill": {
+        "block": 74664,
+        "memory": 6152,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 549989141,
+        "stored_size": 14078,
+        "compressed": true
+      },
+      "sha256": "f70aed94ee61bd4c548db17701f8b4a8bc5e275ec75374fc325011f873bfec3c",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6153,
+      "memory": 6154,
+      "vertices": 425,
+      "fill": {
+        "block": 74641,
+        "memory": 6154,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 549853022,
+        "stored_size": 6887,
+        "compressed": true
+      },
+      "sha256": "6f41ced58a002ef07a689e4deecfbe73782b08b107a8326ae27a2873a7071edf",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6155,
+      "memory": 6156,
+      "vertices": 425,
+      "fill": {
+        "block": 74693,
+        "memory": 6156,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550161798,
+        "stored_size": 14082,
+        "compressed": true
+      },
+      "sha256": "a4b1bd9cefb5643d3a35feeb8a13a4b8c6c606f1e4507a8cf174ddca9ea95549",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6157,
+      "memory": 6158,
+      "vertices": 425,
+      "fill": {
+        "block": 74687,
+        "memory": 6158,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550127535,
+        "stored_size": 13803,
+        "compressed": true
+      },
+      "sha256": "9f754d2d7743d34af028ec0f2611e93b985d7cd8b1ace8c5a66aedc987753b52",
+      "max_component_error": 6.556510925292969e-07
+    },
+    {
+      "buffer": 6159,
+      "memory": 6160,
+      "vertices": 425,
+      "fill": {
+        "block": 74680,
+        "memory": 6160,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550095699,
+        "stored_size": 11531,
+        "compressed": true
+      },
+      "sha256": "01418b8bcf406f2295f89ae2b5460f65e91e417284b55e984fb7006d4dd136c8",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6193,
+      "memory": 6194,
+      "vertices": 425,
+      "fill": {
+        "block": 74678,
+        "memory": 6194,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550079499,
+        "stored_size": 13004,
+        "compressed": true
+      },
+      "sha256": "a7dff9fffcba86cc6f1a738e05da9f81f504b8b2ebdaf5ac99089811889fb2be",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6195,
+      "memory": 6196,
+      "vertices": 425,
+      "fill": {
+        "block": 74675,
+        "memory": 6196,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550051169,
+        "stored_size": 13599,
+        "compressed": true
+      },
+      "sha256": "10db5ca096932d8731007c4656e0e2c8b029a8ae204ab11faf0f7627afb4414f",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6197,
+      "memory": 6198,
+      "vertices": 425,
+      "fill": {
+        "block": 74676,
+        "memory": 6198,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550064780,
+        "stored_size": 14054,
+        "compressed": true
+      },
+      "sha256": "4e97f244908ef291e14a2b386d73bd63e1c559101cf2b5f429e650cf8726fb9a",
+      "max_component_error": 2.384185791015625e-07
+    },
+    {
+      "buffer": 6199,
+      "memory": 6200,
+      "vertices": 425,
+      "fill": {
+        "block": 74691,
+        "memory": 6200,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550145647,
+        "stored_size": 14235,
+        "compressed": true
+      },
+      "sha256": "da8decf0f51eacee81d7722825fd926a68ce7603a9e69a3039195d1c9076ffb5",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6203,
+      "memory": 6204,
+      "vertices": 425,
+      "fill": {
+        "block": 74671,
+        "memory": 6204,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550031488,
+        "stored_size": 14177,
+        "compressed": true
+      },
+      "sha256": "15c73babe9a45f9a072de997f9ece19dc2f00d497e17041aff90e2b49fbc90a3",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6205,
+      "memory": 6206,
+      "vertices": 425,
+      "fill": {
+        "block": 74694,
+        "memory": 6206,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550175892,
+        "stored_size": 13894,
+        "compressed": true
+      },
+      "sha256": "d929e4d1342f16436c7c5ad8bd9f1caf5c5de2d7b721dc9b865ce94f28840c07",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6207,
+      "memory": 6208,
+      "vertices": 425,
+      "fill": {
+        "block": 74665,
+        "memory": 6208,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 550003231,
+        "stored_size": 13158,
+        "compressed": true
+      },
+      "sha256": "310b7064d5adfdf943256b16110c437768a5210655d497e0ec46648f3d48520c",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6415,
+      "memory": 6416,
+      "vertices": 425,
+      "fill": {
+        "block": 74084,
+        "memory": 6416,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546022686,
+        "stored_size": 14126,
+        "compressed": true
+      },
+      "sha256": "119069e34ce21e76428736eee496955ccebc6d60c54fcc7036c3954c56c165a3",
+      "max_component_error": 2.384185791015625e-07
+    },
+    {
+      "buffer": 6417,
+      "memory": 6418,
+      "vertices": 425,
+      "fill": {
+        "block": 74065,
+        "memory": 6418,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 545936006,
+        "stored_size": 14247,
+        "compressed": true
+      },
+      "sha256": "4d59e524c973225aa9fbcc27aa94aab43644fa0d663659ba78d5ec1235c3b2fc",
+      "max_component_error": 4.172325134277344e-07
+    },
+    {
+      "buffer": 6419,
+      "memory": 6420,
+      "vertices": 425,
+      "fill": {
+        "block": 74083,
+        "memory": 6420,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546008435,
+        "stored_size": 14239,
+        "compressed": true
+      },
+      "sha256": "0184caf1960b957d36c860b4c380f209b63e6819d32dff463bd657772a18b032",
+      "max_component_error": 2.384185791015625e-07
+    },
+    {
+      "buffer": 6421,
+      "memory": 6422,
+      "vertices": 425,
+      "fill": {
+        "block": 74075,
+        "memory": 6422,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 545988611,
+        "stored_size": 14074,
+        "compressed": true
+      },
+      "sha256": "ac083a7eb37aafd210bc7e15e8df24aa807294b62cca2f87294dc55d990f531b",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6471,
+      "memory": 6472,
+      "vertices": 425,
+      "fill": {
+        "block": 74062,
+        "memory": 6472,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 545921060,
+        "stored_size": 13824,
+        "compressed": true
+      },
+      "sha256": "a421ee7d85cababd0df90dee8db2cc57919f8b2d6cbbf3198415173bab932237",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6473,
+      "memory": 6474,
+      "vertices": 425,
+      "fill": {
+        "block": 74067,
+        "memory": 6474,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 545951390,
+        "stored_size": 13335,
+        "compressed": true
+      },
+      "sha256": "79f991f7da8d61dfcf3d0d274129901d4d7526d42535cf4dc3acb27ef97cd4b9",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6475,
+      "memory": 6476,
+      "vertices": 425,
+      "fill": {
+        "block": 74091,
+        "memory": 6476,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546061953,
+        "stored_size": 13817,
+        "compressed": true
+      },
+      "sha256": "5a18d116237f049bc653e3be368148ecb037cdcf9593299b6858b0383d855323",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6477,
+      "memory": 6478,
+      "vertices": 425,
+      "fill": {
+        "block": 74109,
+        "memory": 6478,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546173414,
+        "stored_size": 14142,
+        "compressed": true
+      },
+      "sha256": "016c48622b8ffffa609422fc3e5ef047186c1a52a97b83a08abb8f7c27bd0767",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6483,
+      "memory": 6484,
+      "vertices": 425,
+      "fill": {
+        "block": 74116,
+        "memory": 6484,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546210315,
+        "stored_size": 14365,
+        "compressed": true
+      },
+      "sha256": "db7701a3b02028f3f99318ba8a0b6580a4821b24559bcd70db8f893345878242",
+      "max_component_error": 3.2782554626464844e-07
+    },
+    {
+      "buffer": 6485,
+      "memory": 6486,
+      "vertices": 425,
+      "fill": {
+        "block": 74117,
+        "memory": 6486,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546224692,
+        "stored_size": 13897,
+        "compressed": true
+      },
+      "sha256": "203cd8bef502fc2e233f46c85e557e6df7c62cb158348530d02c46eea8a5199e",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6487,
+      "memory": 6488,
+      "vertices": 425,
+      "fill": {
+        "block": 74100,
+        "memory": 6488,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546125923,
+        "stored_size": 14197,
+        "compressed": true
+      },
+      "sha256": "236bf54e8b436b3f18504ae89686bfb77302d1304688a1f6fe71b540d05d926b",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6489,
+      "memory": 6490,
+      "vertices": 425,
+      "fill": {
+        "block": 74118,
+        "memory": 6490,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546238601,
+        "stored_size": 12997,
+        "compressed": true
+      },
+      "sha256": "b803ac268136be9ab4d59fd7e99043f3f9d33eaaf3fbea3f4161a0044d15b564",
+      "max_component_error": 3.2782554626464844e-07
+    },
+    {
+      "buffer": 6491,
+      "memory": 6492,
+      "vertices": 425,
+      "fill": {
+        "block": 74108,
+        "memory": 6492,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546159082,
+        "stored_size": 14320,
+        "compressed": true
+      },
+      "sha256": "99036eec4bcdf15d62bf6ac4d5da2763eacb3fa0c1b078741aac349645de2488",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6583,
+      "memory": 6584,
+      "vertices": 425,
+      "fill": {
+        "block": 74130,
+        "memory": 6584,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546321909,
+        "stored_size": 13371,
+        "compressed": true
+      },
+      "sha256": "8f0a1e80b3c43592ff97ee80a06a32ef71989abb1ad757079309df09815d29ca",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6585,
+      "memory": 6586,
+      "vertices": 425,
+      "fill": {
+        "block": 74126,
+        "memory": 6586,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546285168,
+        "stored_size": 9181,
+        "compressed": true
+      },
+      "sha256": "76df16be01d4891d7c6ca160a8e85f8376a092079a3b25f2d93159a48b5ba156",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6587,
+      "memory": 6588,
+      "vertices": 425,
+      "fill": {
+        "block": 74122,
+        "memory": 6588,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546256399,
+        "stored_size": 8141,
+        "compressed": true
+      },
+      "sha256": "4161652742c3bf22634a5257b30871db381535653cbc993da14291a71dc16901",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6589,
+      "memory": 6590,
+      "vertices": 425,
+      "fill": {
+        "block": 74127,
+        "memory": 6590,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546294361,
+        "stored_size": 12200,
+        "compressed": true
+      },
+      "sha256": "4fcc997f551cfd155c36d14b1412868d770047ad4e367293ef43b0784a2ce1a9",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6591,
+      "memory": 6592,
+      "vertices": 425,
+      "fill": {
+        "block": 74152,
+        "memory": 6592,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546544195,
+        "stored_size": 6575,
+        "compressed": true
+      },
+      "sha256": "2432d0baf3a384b48a975ceb0835eb4c946c49e58ff8ba53ec75ece9884204f6",
+      "max_component_error": 1.341104507446289e-07
+    },
+    {
+      "buffer": 6593,
+      "memory": 6594,
+      "vertices": 425,
+      "fill": {
+        "block": 74138,
+        "memory": 6594,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546410391,
+        "stored_size": 3916,
+        "compressed": true
+      },
+      "sha256": "1a08e9864df11140380b4c8581006ebbb3ad6d892f7ba047ee11ca839233ef45",
+      "max_component_error": 0.0
+    },
+    {
+      "buffer": 6647,
+      "memory": 6648,
+      "vertices": 425,
+      "fill": {
+        "block": 74179,
+        "memory": 6648,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546790500,
+        "stored_size": 13965,
+        "compressed": true
+      },
+      "sha256": "a2abe192d0f8247d6429c075b31c8848097480d1a0b040a0ee94380aafa25ff9",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6649,
+      "memory": 6650,
+      "vertices": 425,
+      "fill": {
+        "block": 74163,
+        "memory": 6650,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546626951,
+        "stored_size": 14206,
+        "compressed": true
+      },
+      "sha256": "aff6e5711869a350c05c3027fcf14db2fb9f894314f379182b0d839bd9229fe3",
+      "max_component_error": 1.1920928955078125e-07
+    },
+    {
+      "buffer": 6651,
+      "memory": 6652,
+      "vertices": 425,
+      "fill": {
+        "block": 74171,
+        "memory": 6652,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546702821,
+        "stored_size": 10287,
+        "compressed": true
+      },
+      "sha256": "ca03849dc392023387874569824da7e5f0d8746520b237608ddeefb68dd3aa89",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6655,
+      "memory": 6656,
+      "vertices": 425,
+      "fill": {
+        "block": 74156,
+        "memory": 6656,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546589624,
+        "stored_size": 14048,
+        "compressed": true
+      },
+      "sha256": "458c9d096af937d8f9b642b0f5e81d0d1d61302e8455fae288d745be118de8d2",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6657,
+      "memory": 6658,
+      "vertices": 425,
+      "fill": {
+        "block": 74178,
+        "memory": 6658,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546776265,
+        "stored_size": 14223,
+        "compressed": true
+      },
+      "sha256": "fc982a7c5c9c10745ee22284dd7279c27f30a76b2b54bcfe13bb4b3647e8a32e",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 6659,
+      "memory": 6660,
+      "vertices": 425,
+      "fill": {
+        "block": 74172,
+        "memory": 6660,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 546713120,
+        "stored_size": 13584,
+        "compressed": true
+      },
+      "sha256": "b6ef4d88948c119128f889e38e8c663b3f336fe5278a0fb641c04634b692e853",
+      "max_component_error": 1.7881393432617188e-07
+    },
+    {
+      "buffer": 13603,
+      "memory": 13604,
+      "vertices": 425,
+      "fill": {
+        "block": 74855,
+        "memory": 13604,
+        "offset": 0,
+        "size": 20416,
+        "file_offset": 551344664,
+        "stored_size": 11975,
+        "compressed": true
+      },
+      "sha256": "4b318701c5c7b3a49e430233742f1ac9bcee0b555a14a239dd912ee85fab4d59",
+      "max_component_error": 1.7881393432617188e-07
+    }
+  ],
+  "source_correlated": true
+}

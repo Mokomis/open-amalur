@@ -1,0 +1,38 @@
+{
+  "set_player_name": [
+    {
+      "file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v30-engine\\decomp\\BHG_LuaPlayerServices.c",
+      "sha256": "fac35bd16b152788565326e4fe273d20d7e778c6c7acaf00e79a10dff55906d7",
+      "matches": [
+        {
+          "line": 459,
+          "excerpt": "  iStack_e74 = 1;\n  local_a98 = FUN_01024bf0;\n  FUN_00af4d70(\"set_tattoo_texture_index\",0x21beb0b,0x21beb0b);\n  iStack_e74 = 1;\n  local_a88 = FUN_01024c50;\n  FUN_00af4d70(\"get_player_name\",0xd065d4,0xd065d4);\n  iStack_e74 = 1;\n  local_a78 = &LAB_0100f2b0;\n  FUN_00af4d70(\"set_player_name\",0xd09af4,0xd09af4);\n  iStack_e74 = 1;\n  local_a68 = FUN_0100f340;\n  FUN_00af4d70(\"remove_object_from_party\",0x24c5b64,0x24c5b64);\n  iStack_e74 = 1;"
+        }
+      ]
+    }
+  ],
+  "set_editbox_text_limit": [
+    {
+      "file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v30-engine\\decomp\\BHG_LuaWindowServices.c",
+      "sha256": "498ff2c7aa1d03479e0d1f202f70d9340396d7f3d040e02aaf843dec39185616",
+      "matches": [
+        {
+          "line": 710,
+          "excerpt": "  pcStack_758 = FUN_00bb9500;\n  puStack_e94 = (undefined *)0x1;\n  FUN_00af4d70(\"get_editbox_text\",0xecaf38,0xecaf38);\n  puStack_e94 = (undefined *)0x1;\n  pcStack_748 = FUN_00bb9660;\n  FUN_00af4d70(\"set_editbox_title\",&UNK_0100d428,&UNK_0100d428);\n  puStack_e94 = (undefined *)0x1;\n  pcStack_738 = FUN_00bb9750;\n  FUN_00af4d70(\"set_editbox_text_limit\",0x1c4cf5d,0x1c4cf5d);\n  puStack_e94 = (undefined *)0x1;\n  puStack_728 = &UNK_00bb98c0;\n  FUN_00af4d70(\"highlight_button\",&UNK_00e7003d,&UNK_00e7003d);\n  puStack_e94 = (undefined *)0x1;"
+        }
+      ]
+    }
+  ],
+  "get_editbox_text": [
+    {
+      "file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v30-engine\\decomp\\BHG_LuaWindowServices.c",
+      "sha256": "498ff2c7aa1d03479e0d1f202f70d9340396d7f3d040e02aaf843dec39185616",
+      "matches": [
+        {
+          "line": 704,
+          "excerpt": "  puStack_e94 = (undefined *)0x1;\n  puStack_778 = &UNK_00bb9250;\n  FUN_00af4d70(\"populate_edit_box\",0x11185a8,0x11185a8);\n  puStack_e94 = (undefined *)0x1;\n  pcStack_768 = FUN_00bb9390;\n  FUN_00af4d70(\"populate_edit_box_no_loc_fix_up\",0x4077cb0,0x4077cb0);\n  pcStack_758 = FUN_00bb9500;\n  puStack_e94 = (undefined *)0x1;\n  FUN_00af4d70(\"get_editbox_text\",0xecaf38,0xecaf38);\n  puStack_e94 = (undefined *)0x1;\n  pcStack_748 = FUN_00bb9660;\n  FUN_00af4d70(\"set_editbox_title\",&UNK_0100d428,&UNK_0100d428);\n  puStack_e94 = (undefined *)0x1;"
+        }
+      ]
+    }
+  ]
+}

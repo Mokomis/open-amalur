@@ -1,0 +1,9 @@
+﻿{
+    "label":  "parent_helper_strings",
+    "arguments":  {
+                      "pattern":  "^parent$|function parent|Lua.*parent",
+                      "mode":  "regex",
+                      "case_sensitive":  false
+                  },
+    "tool":  "search_strings"
+}

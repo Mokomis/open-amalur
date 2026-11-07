@@ -1,0 +1,45 @@
+{
+  "version": "0.35.0",
+  "revision": "R4",
+  "installed_apk_sha256": "a07cdf8bcae3d68c79f43609c7854e2584a61422ad081cdc6a7991f417613e2d",
+  "windows_and_arm64_builds_passed": true,
+  "original_camera_compared": true,
+  "native_water_dof_and_world_features_logged": true,
+  "large_branch_cards_fixed": true,
+  "native_material_state_rows": 33,
+  "unchanged_original_material_rows": 263,
+  "world_overrides": 127,
+  "same_scene_scaling_fps": {
+    "100": 35.73146565765055,
+    "75": 46.57063098286864,
+    "50": 53.01543562849643
+  },
+  "saves_and_settings_unchanged": true,
+  "notes": "Scoped native fidelity pass. Full-game/pixel-exact parity remains unverified; see README limits.",
+  "accepted_evidence": [
+    "lighting-research/combine-audit/REPORT.md",
+    "lighting-research/native-dof",
+    "foliage-research/material-state-audit/REVIEW.md",
+    "foliage-research/leaf-pixel-provenance/REVIEW.md",
+    "water-research/static-authored-mips/REPORT.md",
+    "water-research/grass-mips/REPORT.md"
+  ],
+  "device_state": {
+    "installed_apk_sha256": "a07cdf8bcae3d68c79f43609c7854e2584a61422ad081cdc6a7991f417613e2d",
+    "save_and_settings_hashes": [
+      "13734501b6cdbd25fbe8fa8202226ea084382755d2522ee46d0b985045e85f11  /data/data/org.opemamalur.scene/files/opem-save-v1.bin",
+      "27665629f70cf1902ed4e5bec8daadcd6cdb5dfef857dfd3a0430ab475af0c55  /data/data/org.opemamalur.scene/files/opem-settings-v1.bin"
+    ],
+    "test_properties_restored": {
+      "debug.opem.scale": "100",
+      "debug.opem.profile": "0",
+      "debug.opem.shadow": "0",
+      "debug.opem.at": "",
+      "debug.opem.heading": "0",
+      "debug.opem.live": "255"
+    },
+    "app_stopped": true,
+    "native_features_enabled": 255,
+    "saves_settings_unchanged": true
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "scope": "Windows execution of portable host; Android arm64 cross-compilation and ELF inspection only.",
+  "execution_host": "RobMachineX",
+  "windows_checks": [
+    {
+      "name": "native-verified real functions",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-script.exe",
+        "--runtime-dir",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\tests\\native_verified_real_functions.lua"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 0,
+      "stdout": "{\"ok\":true,\"lua_version\":\"5.1.5\",\"pointer_bits\":64,\"result_count\":1,\"results\":[{\"type\":\"number\",\"value\":71}],\"lua_memory_bytes\":731633}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": true,
+        "lua_version": "5.1.5",
+        "pointer_bits": 64,
+        "result_count": 1,
+        "results": [
+          {
+            "type": "number",
+            "value": 71
+          }
+        ],
+        "lua_memory_bytes": 731633
+      },
+      "passed": true
+    },
+    {
+      "name": "nil and type11 transport",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-script.exe",
+        "--runtime-dir",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\tests\\portable_contract.lua"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 0,
+      "stdout": "{\"ok\":true,\"lua_version\":\"5.1.5\",\"pointer_bits\":64,\"result_count\":5,\"results\":[{\"type\":\"nil\"},{\"type\":\"amalur-type11\",\"hex\":\"ffffffff0000039b\"},{\"type\":\"number\",\"value\":7},{\"type\":\"boolean\",\"value\":false},{\"type\":\"nil\"}],\"lua_memory_bytes\":458899}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": true,
+        "lua_version": "5.1.5",
+        "pointer_bits": 64,
+        "result_count": 5,
+        "results": [
+          {
+            "type": "nil"
+          },
+          {
+            "type": "amalur-type11",
+            "hex": "ffffffff0000039b"
+          },
+          {
+            "type": "number",
+            "value": 7
+          },
+          {
+            "type": "boolean",
+            "value": false
+          },
+          {
+            "type": "nil"
+          }
+        ],
+        "lua_memory_bytes": 458899
+      },
+      "passed": true
+    },
+    {
+      "name": "embedding API and recovery",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-runtime-api-test.exe",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 0,
+      "stdout": "{\"ok\":true,\"checks\":20,\"scope\":\"portable embedding API contracts, no engine behavior claim\"}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": true,
+        "checks": 20,
+        "scope": "portable embedding API contracts, no engine behavior claim"
+      },
+      "passed": true
+    },
+    {
+      "name": "budget_cannot_be_swallowed.lua",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-script.exe",
+        "--runtime-dir",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime",
+        "--budget",
+        "1000",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\tests\\budget_cannot_be_swallowed.lua"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 1,
+      "stdout": "{\"ok\":false,\"phase\":\"evaluate\",\"error\":\"...rk\\\\v06-portable\\\\tests\\\\budget_cannot_be_swallowed.lua:1: Amalur Lua instruction budget exhausted\"}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": false,
+        "phase": "evaluate",
+        "error": "...rk\\v06-portable\\tests\\budget_cannot_be_swallowed.lua:1: Amalur Lua instruction budget exhausted"
+      },
+      "passed": true
+    },
+    {
+      "name": "budget_xpcall_cannot_be_swallowed.lua",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-script.exe",
+        "--runtime-dir",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime",
+        "--budget",
+        "1000",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\tests\\budget_xpcall_cannot_be_swallowed.lua"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 1,
+      "stdout": "{\"ok\":false,\"phase\":\"evaluate\",\"error\":\"...portable\\\\tests\\\\budget_xpcall_cannot_be_swallowed.lua:1: Amalur Lua instruction budget exhausted\"}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": false,
+        "phase": "evaluate",
+        "error": "...portable\\tests\\budget_xpcall_cannot_be_swallowed.lua:1: Amalur Lua instruction budget exhausted"
+      },
+      "passed": true
+    },
+    {
+      "name": "budget_xpcall_handler_loop.lua",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-script.exe",
+        "--runtime-dir",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime",
+        "--budget",
+        "1000",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\tests\\budget_xpcall_handler_loop.lua"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 1,
+      "stdout": "{\"ok\":false,\"phase\":\"evaluate\",\"error\":\"...rk\\\\v06-portable\\\\tests\\\\budget_xpcall_handler_loop.lua:1: Amalur Lua instruction budget exhausted\"}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": false,
+        "phase": "evaluate",
+        "error": "...rk\\v06-portable\\tests\\budget_xpcall_handler_loop.lua:1: Amalur Lua instruction budget exhausted"
+      },
+      "passed": true
+    },
+    {
+      "name": "allocator memory cap",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-script.exe",
+        "--runtime-dir",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime",
+        "--memory-limit",
+        "1048576",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\tests\\memory_limit.lua"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 1,
+      "stdout": "{\"ok\":false,\"phase\":\"evaluate\",\"error\":\"not enough memory\"}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": false,
+        "phase": "evaluate",
+        "error": "not enough memory"
+      },
+      "passed": true
+    },
+    {
+      "name": "initialization memory cap",
+      "command": [
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\build-windows\\amalur-script.exe",
+        "--runtime-dir",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\runtime",
+        "--memory-limit",
+        "32768",
+        "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v06-portable\\tests\\portable_contract.lua"
+      ],
+      "timeout_seconds": 10,
+      "exit_code": 1,
+      "stdout": "{\"ok\":false,\"phase\":\"initialize\",\"error\":\"not enough memory\"}\n",
+      "stderr": "",
+      "timed_out": false,
+      "parsed": {
+        "ok": false,
+        "phase": "initialize",
+        "error": "not enough memory"
+      },
+      "passed": true
+    }
+  ],
+  "windows_checks_passed": 8,
+  "recovered_function_input_cases": 71,
+  "recovered_function_bodies": 19,
+  "embedding_api_checks": 20,
+  "android_execution_verified": false,
+  "android_runtime_blocker": "No attached Android device was observed; no emulator was started.",
+  "android_architecture": "arm64-v8a",
+  "android_min_api": 26,
+  "android_load_segment_alignment_bytes": 16384,
+  "artifacts": {
+    "build-windows\\amalur-script.exe": {
+      "bytes": 169472,
+      "sha256": "0044a5926dd7249f25d7f1ebf5b9250450fbe36566830c8acf524b029b725a56"
+    },
+    "build-windows\\amalur-runtime-api-test.exe": {
+      "bytes": 172544,
+      "sha256": "b212c24a3794799bd725470c43619a6660c8a4abd807dbffc20e08cd9b4108b4"
+    },
+    "build-android-arm64\\amalur-script": {
+      "bytes": 1038176,
+      "sha256": "fc15b55c4b56eb7c238aa4803fa13c10ab4cc0cf48c91d94f22867da48e355eb"
+    },
+    "build-android-arm64\\libamalur_runtime.a": {
+      "bytes": 70582,
+      "sha256": "0a7a7d835b1e230b5de32635890615a6c3e4ebbd27340f5a7bc72876573ddc5c"
+    },
+    "build-android-arm64\\libamalur_lua51.a": {
+      "bytes": 1978172,
+      "sha256": "788d84705d85b6286a0675bca2fb90b707651f8e8da43eb62f1a22232f1caa07"
+    }
+  },
+  "sources": {
+    "include\\amalur_runtime.h": "1ed2679ce76502873ac40f2c91158af73f248edb2b702ae8232b38860bed7fe5",
+    "src\\amalur_runtime.c": "9b041c398effbaea2b9e20a0fb0a34b8f33dfda1a117e957110e5579c1f95842",
+    "src\\main.c": "fe057aeddca2c020793153d29312083f7a7b932bf58479df097125e15e00f56f",
+    "runtime\\amalur_engine_bindings.lua": "07a62657e31cdb9aae0712aa19604caab885ca9a72785fa2571bc5fd4738241b",
+    "runtime\\amalur_engine_handles.lua": "2a1b4b515cec283d9eab02d20e5cc036337138ece1ee4db9f18619fac229fcae",
+    "runtime\\amalur_native_math.lua": "7a14b0a4e04d0a6e650412960282678f255b0a2fae57607388200a4fca43b477",
+    "runtime\\amalur_uint64.lua": "f34cf7a740acb1697d3b6bb6867f8da468d187195c72c6bd07f0ebfcd697da00",
+    "runtime\\engine_binding_registry.lua": "02022341c3bb57c1aff1dc83ee4eedcfe44447dbdf371681982035d9c2b51536",
+    "tests\\budget_cannot_be_swallowed.lua": "787977d8ed60b938a8f693014315e2ad6c48fbdd8129cb81da72f11e1d802742",
+    "tests\\budget_xpcall_cannot_be_swallowed.lua": "0dfe9aa4cf03a70d14b073fa1f6b0499b9a6859c934dc65fa5378b8577444c5b",
+    "tests\\budget_xpcall_handler_loop.lua": "06c62dde4076ea6b5439dd3e470454f8bccf7e6e0a0f1946c307b81fcd836dc5",
+    "tests\\memory_limit.lua": "dd988dffb03598487005722940a3789a3337959e68f7a92f5bee8216884fa559",
+    "tests\\native_verified_real_functions.json": "4a166e62c57d20042ed5e24bea3be489d5d2a5e023cd69990c8670bda9e4d091",
+    "tests\\native_verified_real_functions.lua": "39e52f78da3cf7901156d98fce27267cd2bc7991c297239591515b41f15fbd9d",
+    "tests\\portable_contract.lua": "cf8434e364f2627f30fbb3121494cebee5e89fbe8ac3702d27cfb72e9515b554",
+    "tests\\runtime_api_test.c": "f281fb1925cc67401ffbe24481843d09c512dfb3318dbbf9779ea44c3154293e"
+  }
+}

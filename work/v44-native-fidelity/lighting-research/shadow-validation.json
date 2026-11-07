@@ -1,0 +1,68 @@
+{
+  "reference_capture_matrices": [
+    {
+      "cascade": 0,
+      "half_extent": 443.0572814941406,
+      "center": [
+        8231.0,
+        -86783.0,
+        6454.5146484375
+      ],
+      "near_z": -122056.65625,
+      "far_z": 886.1245727539062,
+      "fade": [
+        1.0,
+        -0.01666666753590107,
+        -1.0,
+        8.333333015441895
+      ],
+      "vp_max_abs_error": 1.0331075088743091e-06,
+      "screen_to_light_max_abs_error": 1.30385160446167e-05
+    },
+    {
+      "cascade": 1,
+      "half_extent": 1317.7760009765625,
+      "center": [
+        7368.0,
+        -86179.0,
+        6362.3330078125
+      ],
+      "near_z": -121047.015625,
+      "far_z": 2635.56201171875,
+      "fade": [
+        1.0,
+        -0.009999999776482582,
+        -440.0,
+        15.0
+      ],
+      "vp_max_abs_error": 4.1958156293819826e-07,
+      "screen_to_light_max_abs_error": 4.798173904418945e-06
+    },
+    {
+      "cascade": 2,
+      "half_extent": 8785.1728515625,
+      "center": [
+        432.0,
+        -81322.0,
+        5621.51171875
+      ],
+      "near_z": -112494.265625,
+      "far_z": 17570.35546875,
+      "fade": [
+        1.0,
+        -0.0024999999441206455,
+        -1400.0,
+        25.0
+      ],
+      "vp_max_abs_error": 2.134192165215154e-07,
+      "screen_to_light_max_abs_error": 6.705522537231445e-07
+    }
+  ],
+  "camera_motion_changes_matrices": true,
+  "shader_syntax": true,
+  "gpu_execution": false,
+  "visual_parity": false,
+  "c_compile_exit": 0,
+  "c_compile_stdout": "oa_native_shadow.c\n",
+  "c_compile_stderr": ""
+}

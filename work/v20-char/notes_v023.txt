@@ -1,0 +1,10 @@
+
+v0.22.0 / v0.23.0 (2026-10-31)
+- v0.22 combat: attack button, one human_bandit_swordsman foe, health bars, death and respawn. Clips, strike times, sword FAB come from game assets. Health, damage, reach, aggro, speeds, cooldowns and respawn are authored host rules (oa_combat.c), not recovered values. Foe has a simple steering detour, no pathfinding. Verified on tablet by hp log and screenshots.
+- v0.23 sky: asset 325844 OUT_FOR_ProtoType via work/v20-char/build_sky.py -> work/v20-town/town_sky.bin; renderer work/v19-host/oa_sky.c. Textures 159747 and 710562 are in initial_0.pak.
+- Sky evidence from PS eb22737fa46893d9: layer order upper then lower, 2:1 layer scale, scroll rates, gradient alpha as coverage. The sky vertex shader is NOT in the recovered shader set.
+- Sky host choices, not native-equivalent: gradient position 0.5+0.5*z, dome offset .5, cloud scale .3/.6, horizon fade, fixed key index 2 as midday, no day/night cycle, no cb4[7] luminance step. Key 2 being midday is inferred. Raw PS scales on view directions tiled visibly, so they were replaced.
+- Gradient parse has suspect stops in keys 0 and 1 (-1.17e29, -0.094); key 2 parses cleanly and is the only one used. Skyline FABs (for_skyline_*, sky_horizoncloud01) not placed yet.
+- Camera: walking eye z now stays at least 40 units above feet, so it no longer goes under the ground.
+- Red band at the bottom of the shop start view is pre-existing (visible in v0.18), not caused by this work. Not investigated.
+- APK outputs/scene-v19/opem-amalur-scene-v0.23-arm64.apk sha starts 10981828918646d2, versionCode 24. Tests: 45 input, 1070 character pass. Town frame ~17.8 ms. debug.opem.world left off; app starts in the shop.

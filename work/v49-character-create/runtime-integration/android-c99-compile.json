@@ -1,0 +1,21 @@
+{
+  "compiler": "C:\\Users\\rwill\\Documents\\Opem Amalur\\tools\\android\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+  "target": "aarch64-linux-android28",
+  "flags": "-std=c99 -Wall -Wextra -Werror -O2",
+  "compile_only": true,
+  "device_execution": false,
+  "results": [
+    {
+      "source": "oa_creation.c",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "source": "oa_creation_source_tables.c",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

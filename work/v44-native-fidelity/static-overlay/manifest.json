@@ -1,0 +1,3291 @@
+{
+  "generation": 3,
+  "leaf_input_snapshot": "leaf-inputs-generation3/input-manifest.json",
+  "leaf_profiles": "leaf-inputs-generation3/native-leaf-material-profiles.json",
+  "all_lod_water_expected": [
+    {
+      "draw": 72952,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72952,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72952,
+      "lod": 2,
+      "count": 24
+    },
+    {
+      "draw": 72957,
+      "lod": 0,
+      "count": 3024
+    },
+    {
+      "draw": 72957,
+      "lod": 1,
+      "count": 885
+    },
+    {
+      "draw": 72957,
+      "lod": 2,
+      "count": 45
+    },
+    {
+      "draw": 72962,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72962,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72962,
+      "lod": 2,
+      "count": 24
+    },
+    {
+      "draw": 72967,
+      "lod": 0,
+      "count": 504
+    },
+    {
+      "draw": 72967,
+      "lod": 1,
+      "count": 321
+    },
+    {
+      "draw": 72967,
+      "lod": 2,
+      "count": 45
+    },
+    {
+      "draw": 72972,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72972,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72972,
+      "lod": 2,
+      "count": 72
+    },
+    {
+      "draw": 72974,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72974,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72974,
+      "lod": 2,
+      "count": 75
+    },
+    {
+      "draw": 72979,
+      "lod": 0,
+      "count": 328
+    },
+    {
+      "draw": 72979,
+      "lod": 1,
+      "count": 144
+    },
+    {
+      "draw": 72979,
+      "lod": 2,
+      "count": 4
+    },
+    {
+      "draw": 72984,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72984,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72984,
+      "lod": 2,
+      "count": 39
+    }
+  ],
+  "all_lod_water_exact_matched": true,
+  "format": "OAWE same16B cellheader/drawrec12; vertex76 OAWT fields; u32indices",
+  "totals": {
+    "cells": 44,
+    "retained_baseline_triangles": 932374,
+    "water_removed_triangles": 6494,
+    "static_source_triangles": 108786,
+    "leaf_source_triangles": 4872
+  },
+  "material_count": 296,
+  "old_material_count": 263,
+  "new_material_indices": [
+    {
+      "native_material": 301336,
+      "index": 263,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        59,
+        659,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\301336.mat_bxml",
+      "source_sha256": "4f2d63430d1ab641b3caedbd714fe0620bf29791372a3e63c2da76b9150e35eb"
+    },
+    {
+      "native_material": 343549,
+      "index": 264,
+      "shader": "trunkdot3",
+      "family": 2,
+      "textures": [
+        11,
+        12,
+        13,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\343549.mat_bxml",
+      "source_sha256": "a72ec180369c932f7d625c4d435afb8ccea532198f845315a4b2f14478182e66"
+    },
+    {
+      "native_material": 344647,
+      "index": 265,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        176,
+        177,
+        178,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        2.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\344647.mat_bxml",
+      "source_sha256": "57b0609bb255f6c72236dde3de593314a8622eb7cc6b8da1d44d8e7d49762811"
+    },
+    {
+      "native_material": 353286,
+      "index": 266,
+      "shader": "vertexblend",
+      "family": 3,
+      "textures": [
+        2,
+        3,
+        4,
+        11,
+        12,
+        13,
+        658,
+        658
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.2000000476837158,
+        1.2000000476837158,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\353286.mat_bxml",
+      "source_sha256": "4e39b503de3f8f41b424e72306be36fd2987fe9f032dd8297e0564db30c6b6f1"
+    },
+    {
+      "native_material": 360066,
+      "index": 267,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        185,
+        186,
+        187,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        2.0,
+        30.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\360066.mat_bxml",
+      "source_sha256": "009bd6704d755c7851d0b86be3fd60877d0cf07d6cb6e725636604126433c223"
+    },
+    {
+      "native_material": 405601,
+      "index": 268,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        188,
+        189,
+        184,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        3.0,
+        60.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\405601.mat_bxml",
+      "source_sha256": "f0480ad153272b05bf201e92946e1519399c4dee12cc28d47dd253063850ab76"
+    },
+    {
+      "native_material": 410417,
+      "index": 269,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        8,
+        9,
+        84,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        11.38700008392334,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\410417.mat_bxml",
+      "source_sha256": "a4070502953ca0d09fee7a2514b030de70b4db6a5ff860e22292e3e67b105340"
+    },
+    {
+      "native_material": 414763,
+      "index": 270,
+      "shader": "vertexblendmodifiedmask",
+      "family": 4,
+      "textures": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        84,
+        660,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.9240000247955322,
+        67.12000274658203,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        2.0,
+        2.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\414763.mat_bxml",
+      "source_sha256": "a4319665277b72c1dd88b9ba0da0965aef073573e2bf225e54234c947db0cb7b"
+    },
+    {
+      "native_material": 429844,
+      "index": 271,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        139,
+        140,
+        141,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.24999800324440002,
+        69.53800201416016,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\429844.mat_bxml",
+      "source_sha256": "0526bad3b31a183dec3cade08e58c25f20a34672d4680f4102d21c0bf7214c67"
+    },
+    {
+      "native_material": 489074,
+      "index": 272,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        35,
+        36,
+        37,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        0.4078431725502014,
+        0.38823533058166504,
+        0.46666669845581055,
+        1.0
+      ],
+      "specular": [
+        0.6999930143356323,
+        32.959999084472656,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\489074.mat_bxml",
+      "source_sha256": "87c61f8f98e0a437a8a957727b9ac5e7b0202abcab8beb2226ca9fa4d919d0c0"
+    },
+    {
+      "native_material": 489077,
+      "index": 273,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        38,
+        39,
+        40,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        0.9098039865493774,
+        0.9098039865493774,
+        0.9098039865493774,
+        1.0
+      ],
+      "specular": [
+        0.20000000298023224,
+        4.02000617980957,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\489077.mat_bxml",
+      "source_sha256": "d8cf27bfcbc1a062d40ea46cb90e66b1610a775962b068a463f26408689e5ece"
+    },
+    {
+      "native_material": 489469,
+      "index": 274,
+      "shader": "trunkdot3",
+      "family": 2,
+      "textures": [
+        666,
+        15,
+        16,
+        4294967295,
+        4294967295,
+        4294967295,
+        667,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\489469.mat_bxml",
+      "source_sha256": "7c2ff01db39e566e5928f680ef001a0a18146007bb816ba7cf613ac3ebb126d5"
+    },
+    {
+      "native_material": 577592,
+      "index": 275,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        65,
+        668,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\577592.mat_bxml",
+      "source_sha256": "99286c3a78906743b063b49cd0a0b8fc7ed4f38c91242763e66c56ea1284812e"
+    },
+    {
+      "native_material": 585765,
+      "index": 276,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        487,
+        488,
+        489,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\585765.mat_bxml",
+      "source_sha256": "44ad234db7ab67e69ca7d816e9a5d5454d0e58a10cca1c62cf3c0e5976297af3"
+    },
+    {
+      "native_material": 588460,
+      "index": 277,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        468,
+        469,
+        470,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        3.4999959468841553,
+        67.94000244140625,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\588460.mat_bxml",
+      "source_sha256": "44939123b889a3973ec44c75be6784f8bc12d7bb2963aedc3a5975803d01efd3"
+    },
+    {
+      "native_material": 618928,
+      "index": 278,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        497,
+        498,
+        499,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        0.6431372761726379,
+        0.6196078658103943,
+        0.5764706134796143,
+        1.0
+      ],
+      "specular": [
+        0.19999299943447113,
+        224.72000122070312,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\618928.mat_bxml",
+      "source_sha256": "558502eb6145549a4912601c5ea4791cfa2b21a4a4821f5b9f776b2200668979"
+    },
+    {
+      "native_material": 745175,
+      "index": 279,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        72,
+        73,
+        74,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\745175.mat_bxml",
+      "source_sha256": "10272ca775e6185d667bfd31936664cd0248187690a9f8e50074cdf9c1e0c7c6"
+    },
+    {
+      "native_material": 757463,
+      "index": 280,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        69,
+        70,
+        71,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.800000011920929,
+        5.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\757463.mat_bxml",
+      "source_sha256": "746fd93cd8a482c8bdb6b96c595235198e920978ddd5fac81854c2bffcd9f67b"
+    },
+    {
+      "native_material": 758827,
+      "index": 281,
+      "shader": "vertexblendmodifiedmask",
+      "family": 4,
+      "textures": [
+        661,
+        79,
+        80,
+        663,
+        665,
+        664,
+        662,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        3.0,
+        60.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\758827.mat_bxml",
+      "source_sha256": "82f8983ca1deb511c15623a21304422557e631100769a805e85628a05dd02a3c"
+    },
+    {
+      "native_material": 758834,
+      "index": 282,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        75,
+        76,
+        77,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        3.0,
+        60.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\758834.mat_bxml",
+      "source_sha256": "4b2c785bddec54b5dd0d4158267e9c50b763bf819c9e7a5f3524dab32d877af8"
+    },
+    {
+      "native_material": 1238607,
+      "index": 283,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        146,
+        147,
+        148,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        10.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1238607.mat_bxml",
+      "source_sha256": "f2b86bf30e70dddb48f17a4725957372e6d49654458c74c428177949850f9734"
+    },
+    {
+      "native_material": 1264778,
+      "index": 284,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        66,
+        67,
+        68,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1264778.mat_bxml",
+      "source_sha256": "c1dab47eca50b13f0d84512276c34c5179ea2b0326d615530fc80dd789e7d38f"
+    },
+    {
+      "native_material": 1287829,
+      "index": 285,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        62,
+        63,
+        64,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1287829.mat_bxml",
+      "source_sha256": "6126a8b16e573bd7902c4538fa72b1ca9b6187956678b18b3221d3dab33cff82"
+    },
+    {
+      "native_material": 1365224,
+      "index": 286,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        136,
+        137,
+        138,
+        4294967295,
+        4294967295,
+        4294967295,
+        676,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        0.988235354423523,
+        0.8588235974311829,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1365224.mat_bxml",
+      "source_sha256": "4fe16651159403810c6f607beeda26465bee42fb00f0831d0600baedb82efb43"
+    },
+    {
+      "native_material": 1402188,
+      "index": 287,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        130,
+        131,
+        132,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1402188.mat_bxml",
+      "source_sha256": "2f8877d1db955abd619b8764d6da746bb8934e2555694b78574ee60f59c06796"
+    },
+    {
+      "native_material": 1412176,
+      "index": 288,
+      "shader": "vertexblendmodifiedmask",
+      "family": 4,
+      "textures": [
+        53,
+        54,
+        55,
+        670,
+        672,
+        671,
+        660,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.9240000247955322,
+        67.12000274658203,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        2.0,
+        2.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1412176.mat_bxml",
+      "source_sha256": "605950136329375f989ca281d4c085b690bd598084c3647ae23c393953357ba0"
+    },
+    {
+      "native_material": 1412177,
+      "index": 289,
+      "shader": "vertexblendmodifiedmask",
+      "family": 4,
+      "textures": [
+        53,
+        54,
+        55,
+        673,
+        675,
+        674,
+        660,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.9240000247955322,
+        67.12000274658203,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.5,
+        1.5,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1412177.mat_bxml",
+      "source_sha256": "bf07118f82596c0683375b6d4eeca7fa1ce5bc527654f5f32e8f9d3102733c1c"
+    },
+    {
+      "native_material": 1653821,
+      "index": 290,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        471,
+        466,
+        467,
+        4294967295,
+        4294967295,
+        4294967295,
+        669,
+        4294967295
+      ],
+      "color": [
+        0.9647059440612793,
+        0.8509804606437683,
+        0.6392157077789307,
+        1.0
+      ],
+      "specular": [
+        0.09999900311231613,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1653821.mat_bxml",
+      "source_sha256": "5a864c787f73aa0e306385409cb2e179cc15cf86e4b00a998d38fdb15c6c94fd"
+    },
+    {
+      "native_material": 1718348,
+      "index": 291,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        395,
+        396,
+        397,
+        4294967295,
+        4294967295,
+        4294967295,
+        658,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1718348.mat_bxml",
+      "source_sha256": "a68a8a9d23d815f8fbf18727ef5c43360b12a90855a2cb8f84d24c1e3ef28023"
+    },
+    {
+      "native_material": 1777276,
+      "index": 292,
+      "shader": "dot3",
+      "family": 1,
+      "textures": [
+        520,
+        521,
+        522,
+        4294967295,
+        4294967295,
+        4294967295,
+        676,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        0.3999980092048645,
+        35.97999954223633,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\1777276.mat_bxml",
+      "source_sha256": "d701483371d3a2e15c44c89e7740f200d23f90ba9f350ef6af9db810fb575519"
+    },
+    {
+      "native_material": 359202,
+      "index": 293,
+      "shader": "treeleaf",
+      "family": 6,
+      "textures": [
+        0,
+        678,
+        679,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "color": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "alpha_reference_u8": 100,
+      "alpha_cutoff": 0.39215686274509803,
+      "source": "work\\v20-inputs\\initial_0.pak\\359202.mat_bxml",
+      "source_sha256": "043867c02eba425608c73083032956c4c80738bfbe2852bbb78f74dbf5dca2fa"
+    },
+    {
+      "native_material": 419060,
+      "index": 294,
+      "shader": "treeleaf",
+      "family": 6,
+      "textures": [
+        17,
+        18,
+        680,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "color": [
+        1.0,
+        600.0,
+        0.0,
+        0.0
+      ],
+      "specular": [
+        0.0,
+        10.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "alpha_reference_u8": 128,
+      "alpha_cutoff": 0.5019607843137255,
+      "source": "work\\v20-inputs\\initial_0.pak\\419060.mat_bxml",
+      "source_sha256": "a35cb94356f9042d84c28bfa64d04abebfcaa2730efc77fcea8e8c8303c2a215"
+    },
+    {
+      "native_material": 559590,
+      "index": 295,
+      "shader": "treeleaf",
+      "family": 6,
+      "textures": [
+        22,
+        18,
+        680,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "color": [
+        0.9781200289726257,
+        600.0,
+        0.0,
+        0.0
+      ],
+      "specular": [
+        0.0,
+        10.0,
+        0.0,
+        0.0
+      ],
+      "tiling": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "alpha_reference_u8": 128,
+      "alpha_cutoff": 0.5019607843137255,
+      "source": "work\\v20-inputs\\initial_0.pak\\559590.mat_bxml",
+      "source_sha256": "97b8b95ccc0822a187aa051381f2322c98d7c62ee8c9985f4cb5fcaa425bbd74"
+    }
+  ],
+  "textures_reserved": [
+    655,
+    656,
+    657
+  ],
+  "texture_count": 681,
+  "extra_textures": [
+    {
+      "texture": 658,
+      "file": "t658.bin",
+      "source": {
+        "asset": 250070,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-250070-d.bin",
+        "width": 32,
+        "height": 32,
+        "mips": 6,
+        "bytes": 5504,
+        "sha256": "7808e97b5da7df803142592f4d580d58cf6859b59c7a7fe5007582bf91506f04",
+        "source": "work\\v20-inputs\\initial_0.pak\\250070.dds",
+        "source_sha256": "8786271ceee0defc190e84bfefb7e239190405a6dcd6e0f2d812ee57889141b6",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "7808e97b5da7df803142592f4d580d58cf6859b59c7a7fe5007582bf91506f04",
+      "bytes": 5504
+    },
+    {
+      "texture": 659,
+      "file": "t659.bin",
+      "source": {
+        "asset": 299244,
+        "kind": "n",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-299244-n.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "3029032ed80fb4daa06cde0eaa0b39547bb0c2c6a1a4db7a9bc126103c45d0b6",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\299244_1.dds",
+        "source_sha256": "5d7196eb6b4ec466e699d124017e7ae49cc37d7de37cf8ea5df7734f6136bc25",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "3029032ed80fb4daa06cde0eaa0b39547bb0c2c6a1a4db7a9bc126103c45d0b6",
+      "bytes": 5592468
+    },
+    {
+      "texture": 660,
+      "file": "t660.bin",
+      "source": {
+        "asset": 510546,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-510546-d.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "d4eb38dfac864e7611a5aaff90e1a2616478ce3dab7523493e1aaa696f983fc5",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\510546_1.dds",
+        "source_sha256": "66c66127b77bd9fb1a0a574546d93643eeae51812aaa68cbdad857d235fb5349",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "d4eb38dfac864e7611a5aaff90e1a2616478ce3dab7523493e1aaa696f983fc5",
+      "bytes": 5592468
+    },
+    {
+      "texture": 661,
+      "file": "t661.bin",
+      "source": {
+        "asset": 758816,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-758816-d.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "646aa1a4eff40e772c0da7b1ebe67f9a02eb9794f0133ea21dff2f57ce2c6ecf",
+        "source": "work\\v20-inputs\\DATA_0.pak\\758816_1.dds",
+        "source_sha256": "6f6dd23959ae1a809c78567aa79b383ae2ccf46cccec51a67e776bad1f2bbd9f",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "646aa1a4eff40e772c0da7b1ebe67f9a02eb9794f0133ea21dff2f57ce2c6ecf",
+      "bytes": 5592468
+    },
+    {
+      "texture": 662,
+      "file": "t662.bin",
+      "source": {
+        "asset": 604240,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-604240-d.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "2da830c55398f01f8b406cb27bc7a96d21a332e11db643b1a7414d1486e5a2d4",
+        "source": "work\\v20-inputs\\initial_0.pak\\604240_1.dds",
+        "source_sha256": "a02418dd34ac6b725d3a5a02ead0181f94dcb48c3e29a6fbd069793141a0b8ef",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "2da830c55398f01f8b406cb27bc7a96d21a332e11db643b1a7414d1486e5a2d4",
+      "bytes": 5592468
+    },
+    {
+      "texture": 663,
+      "file": "t663.bin",
+      "source": {
+        "asset": 758813,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-758813-d.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "e357a566dda4981b3601dfd0dc8852d7113465e05dfffdad8cf6c00c97358df9",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\758813_1.dds",
+        "source_sha256": "2113877d373a2c213060a92a33953db047b435b870dd4385a1fcbc65b1b5339f",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "e357a566dda4981b3601dfd0dc8852d7113465e05dfffdad8cf6c00c97358df9",
+      "bytes": 5592468
+    },
+    {
+      "texture": 664,
+      "file": "t664.bin",
+      "source": {
+        "asset": 758815,
+        "kind": "s",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-758815-s.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "ec51c4f9d9dc6501735063be4cbf78c1d3b0ef45fb4b8ec98dde9d311148ca65",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\758815_1.dds",
+        "source_sha256": "a0a37625b8b629500260617202cb0a7833062ab8cbc590a51aebb930a34f3059",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "ec51c4f9d9dc6501735063be4cbf78c1d3b0ef45fb4b8ec98dde9d311148ca65",
+      "bytes": 5592468
+    },
+    {
+      "texture": 665,
+      "file": "t665.bin",
+      "source": {
+        "asset": 758814,
+        "kind": "n",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-758814-n.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "ec79806e98f83925b6a4d74e757ad5327295206c7117fe1c84396e9840d688cd",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\758814_1.dds",
+        "source_sha256": "b4f02ebd9329e479c22f80b0fbe792e54057f23b1b7a280093e78854601796a6",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "ec79806e98f83925b6a4d74e757ad5327295206c7117fe1c84396e9840d688cd",
+      "bytes": 5592468
+    },
+    {
+      "texture": 666,
+      "file": "t666.bin",
+      "source": {
+        "asset": 489466,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-489466-d.bin",
+        "width": 512,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 2796268,
+        "sha256": "5010ebfb5bacef982019a6c634b3adab46eb3abcbbae799ca3020e70a7b04374",
+        "source": "work\\v20-inputs\\DATA_0.pak\\489466_1.dds",
+        "source_sha256": "f2939310e02a3168a7a6c9627b581628cb2833e53fa53f9ddc08c386c31ea221",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "5010ebfb5bacef982019a6c634b3adab46eb3abcbbae799ca3020e70a7b04374",
+      "bytes": 2796268
+    },
+    {
+      "texture": 667,
+      "file": "t667.bin",
+      "source": {
+        "asset": 489465,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-489465-d.bin",
+        "width": 512,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 2796268,
+        "sha256": "b23b5e83c2a47efc5cdc0d2367227644c52da26e8014fad90174a12838085888",
+        "source": "work\\v20-inputs\\DATA_0.pak\\489465_1.dds",
+        "source_sha256": "320ef2a1717f3521990f485f2b92988c4986a0bf05f071623eb6edfe224ddf2f",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "b23b5e83c2a47efc5cdc0d2367227644c52da26e8014fad90174a12838085888",
+      "bytes": 2796268
+    },
+    {
+      "texture": 668,
+      "file": "t668.bin",
+      "source": {
+        "asset": 4002,
+        "kind": "n",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-4002-n.bin",
+        "width": 64,
+        "height": 64,
+        "mips": 7,
+        "bytes": 21892,
+        "sha256": "761ebc9fdc3dcd306fa1f92c723a18cfa3351d762cdd86a2df3734774e04998e",
+        "source": "work\\v20-inputs\\initial_0.pak\\4002.dds",
+        "source_sha256": "99f530df08a344bd089be84b08c28c89e49aa3a1192a31783b33bd528ca3ca68",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "761ebc9fdc3dcd306fa1f92c723a18cfa3351d762cdd86a2df3734774e04998e",
+      "bytes": 21892
+    },
+    {
+      "texture": 669,
+      "file": "t669.bin",
+      "source": {
+        "asset": 572520,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-572520-d.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "256d38d45afa2552bef8f810c4c79196d410a1d40937641eb1de8f68901214a0",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\initial_0.pak\\572520_1.dds",
+        "source_sha256": "3c52234ee0ae155642a39e136716e66fb62b2eff0f60fa6ac29c7949f3ad351c",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "256d38d45afa2552bef8f810c4c79196d410a1d40937641eb1de8f68901214a0",
+      "bytes": 5592468
+    },
+    {
+      "texture": 670,
+      "file": "t670.bin",
+      "source": {
+        "asset": 1412166,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-1412166-d.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "14caa0ec9ae5a76ca712452a446f7158ee46216ba4c28f11174c62c2b4501975",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412166_1.dds",
+        "source_sha256": "ffa1b15bbbe8909f211112e538d2271409cd2461af93034f077f6eeea561c012",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "14caa0ec9ae5a76ca712452a446f7158ee46216ba4c28f11174c62c2b4501975",
+      "bytes": 5592468
+    },
+    {
+      "texture": 671,
+      "file": "t671.bin",
+      "source": {
+        "asset": 1412168,
+        "kind": "s",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-1412168-s.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "8ca9759f6ca25c5f21e024597aafa268f8e979f4cccff85174bb3b608d814d8b",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412168_1.dds",
+        "source_sha256": "b5683d4f2c014cd460c4f033c05200cf6cc68086870a140c4ad7a2df34e80ed7",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "8ca9759f6ca25c5f21e024597aafa268f8e979f4cccff85174bb3b608d814d8b",
+      "bytes": 5592468
+    },
+    {
+      "texture": 672,
+      "file": "t672.bin",
+      "source": {
+        "asset": 1412167,
+        "kind": "n",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-1412167-n.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "05cf78e5f5fcb996b06a5399172ec46bd12ee0855533caccc7f2ddca50f3ebe5",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412167_1.dds",
+        "source_sha256": "c1a7186e9de5a5b08b78ca15eb8b84ca98dbffbf7e600646522de68ee336e60b",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "05cf78e5f5fcb996b06a5399172ec46bd12ee0855533caccc7f2ddca50f3ebe5",
+      "bytes": 5592468
+    },
+    {
+      "texture": 673,
+      "file": "t673.bin",
+      "source": {
+        "asset": 1412172,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-1412172-d.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "c6dda667f5812b7fbe53621a654e1128a725f5ca69691ab007ec7c140ad1535f",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412172_1.dds",
+        "source_sha256": "0a5a3b81c83a0a50f1fa19030839925c1e741600a12c756ff55b48501dbbb019",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "c6dda667f5812b7fbe53621a654e1128a725f5ca69691ab007ec7c140ad1535f",
+      "bytes": 5592468
+    },
+    {
+      "texture": 674,
+      "file": "t674.bin",
+      "source": {
+        "asset": 1412174,
+        "kind": "s",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-1412174-s.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "d6b467bda26a279cae6f498bc6d199b0a4b86de682a4472b947c5e2d9535cd9a",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412174_1.dds",
+        "source_sha256": "16e96183d0efa4afea17cc705810971a11318f7235209dd37f3701f2303d1ac2",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "d6b467bda26a279cae6f498bc6d199b0a4b86de682a4472b947c5e2d9535cd9a",
+      "bytes": 5592468
+    },
+    {
+      "texture": 675,
+      "file": "t675.bin",
+      "source": {
+        "asset": 1412173,
+        "kind": "n",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-1412173-n.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "44ab0ca5e2ba7d0b51760a1b764bcbf99a40855af5280b0f5f2fa7e75558b22e",
+        "source": "work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412173_1.dds",
+        "source_sha256": "937bda92dda96703abc7c16a9a1058e39de5b5862f1d22a6f5363303958b6668",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "44ab0ca5e2ba7d0b51760a1b764bcbf99a40855af5280b0f5f2fa7e75558b22e",
+      "bytes": 5592468
+    },
+    {
+      "texture": 676,
+      "file": "t676.bin",
+      "source": {
+        "asset": 3030,
+        "kind": "d",
+        "alpha": 0,
+        "status": "ready",
+        "file": "native-3030-d.bin",
+        "width": 256,
+        "height": 256,
+        "mips": 9,
+        "bytes": 349580,
+        "sha256": "94aafbe9f8688b1315a0735e58e4375b8294ef4683ed1e034ee03da71387345f",
+        "source": "work\\v20-inputs\\initial_0.pak\\3030.dds",
+        "source_sha256": "58e0575ec4f202c516a7a5202ddb4262f17b056a6040107cd497e58bad9e4a58",
+        "format": "OATX RGBA8 decodedUNORM, generatedBOXmips, originalalpha preserved"
+      },
+      "sha256": "94aafbe9f8688b1315a0735e58e4375b8294ef4683ed1e034ee03da71387345f",
+      "bytes": 349580
+    },
+    {
+      "texture": 678,
+      "file": "t678.bin",
+      "source": {
+        "asset": 1451347,
+        "kind": "n",
+        "texture_index": 678,
+        "file": "t678.bin",
+        "width": 64,
+        "height": 64,
+        "mips": 7,
+        "bytes": 21892,
+        "sha256": "496b8f841ae8beb8c4d6b4b656ffacc94a46927efae86231328a16702b072218",
+        "source": "work\\v20-inputs\\initial_0.pak\\1451347.dds",
+        "source_sha256": "42f4376dbdea4258c722c554110d73e9e959332d0bcfd6e5d88d6e0e9d960a4a",
+        "alpha_policy": "original RGBA preserved; native alpha reads G",
+        "mip_policy": "source top at most1024; generatedBOX lower mips"
+      },
+      "sha256": "496b8f841ae8beb8c4d6b4b656ffacc94a46927efae86231328a16702b072218",
+      "bytes": 21892
+    },
+    {
+      "texture": 679,
+      "file": "t679.bin",
+      "source": {
+        "asset": 343436,
+        "kind": "mask",
+        "texture_index": 679,
+        "file": "t679.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "94b9b13cbb8e543e615b1561c296b3f8296f0cfb615be7648b0dfe957dadd5a1",
+        "source": "work\\v20-inputs\\DATA_0.pak\\343436_1.dds",
+        "source_sha256": "4b5e5fed47ae9ef5d5a2ef58666664e4e44ddbd6b3b1ae472f78a7ae0874bffb",
+        "alpha_policy": "original RGBA preserved; native alpha reads G",
+        "mip_policy": "source top at most1024; generatedBOX lower mips"
+      },
+      "sha256": "94b9b13cbb8e543e615b1561c296b3f8296f0cfb615be7648b0dfe957dadd5a1",
+      "bytes": 5592468
+    },
+    {
+      "texture": 680,
+      "file": "t680.bin",
+      "source": {
+        "asset": 477449,
+        "kind": "mask",
+        "texture_index": 680,
+        "file": "t680.bin",
+        "width": 1024,
+        "height": 1024,
+        "mips": 11,
+        "bytes": 5592468,
+        "sha256": "553af3f67e4050c71d05bbe94368bff771e90dcfb4cfc4e1962b1acf7e15c0bc",
+        "source": "work\\v20-inputs\\DATA_0.pak\\477449_1.dds",
+        "source_sha256": "e9ce8805f7a8f132e3c82270d98da14f23b13ec8252f7ad0b428a5b4acc4389c",
+        "alpha_policy": "original RGBA preserved; native alpha reads G",
+        "mip_policy": "source top at most1024; generatedBOX lower mips"
+      },
+      "sha256": "553af3f67e4050c71d05bbe94368bff771e90dcfb4cfc4e1962b1acf7e15c0bc",
+      "bytes": 5592468
+    }
+  ],
+  "water_removed_by_draw_lod": [
+    {
+      "draw": 72952,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72952,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72952,
+      "lod": 2,
+      "count": 24
+    },
+    {
+      "draw": 72957,
+      "lod": 0,
+      "count": 3024
+    },
+    {
+      "draw": 72957,
+      "lod": 1,
+      "count": 885
+    },
+    {
+      "draw": 72957,
+      "lod": 2,
+      "count": 45
+    },
+    {
+      "draw": 72962,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72962,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72962,
+      "lod": 2,
+      "count": 24
+    },
+    {
+      "draw": 72967,
+      "lod": 0,
+      "count": 504
+    },
+    {
+      "draw": 72967,
+      "lod": 1,
+      "count": 321
+    },
+    {
+      "draw": 72967,
+      "lod": 2,
+      "count": 45
+    },
+    {
+      "draw": 72972,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72972,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72972,
+      "lod": 2,
+      "count": 72
+    },
+    {
+      "draw": 72974,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72974,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72974,
+      "lod": 2,
+      "count": 75
+    },
+    {
+      "draw": 72979,
+      "lod": 0,
+      "count": 328
+    },
+    {
+      "draw": 72979,
+      "lod": 1,
+      "count": 144
+    },
+    {
+      "draw": 72979,
+      "lod": 2,
+      "count": 4
+    },
+    {
+      "draw": 72984,
+      "lod": 0,
+      "count": 96
+    },
+    {
+      "draw": 72984,
+      "lod": 1,
+      "count": 96
+    },
+    {
+      "draw": 72984,
+      "lod": 2,
+      "count": 39
+    }
+  ],
+  "cells": [
+    {
+      "cell": [
+        -2,
+        -14
+      ],
+      "lod": 0,
+      "file": "c-2_-14_0.bin",
+      "input_sha256": "a271ecab614ff3d8d0fa08ff27a31afe00fbffa3313845ac7bee7663783ac00b",
+      "sha256": "ca5eb6761952eec97d1d1585e4a8887a894da10937313f26b18012fef3fa690c",
+      "bytes": 1470852,
+      "old_vertices": 16298,
+      "new_vertices": 16298,
+      "old_indices": 58167,
+      "new_indices": 57987,
+      "old_draws": 21,
+      "new_draws": 20,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 60
+      },
+      "retained_old_triangles": 19329,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -2,
+        -14
+      ],
+      "lod": 1,
+      "file": "c-2_-14_1.bin",
+      "input_sha256": "2d2e4c1d8368b3f1eaf9912f27ed22204223e219aac69a20864a66da09739475",
+      "sha256": "6dd9ce24189311192a849898d62a6894008d5ac143fe4726851249f294fabe11",
+      "bytes": 367740,
+      "old_vertices": 4376,
+      "new_vertices": 4376,
+      "old_indices": 8808,
+      "new_indices": 8745,
+      "old_draws": 15,
+      "new_draws": 14,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 21
+      },
+      "retained_old_triangles": 2915,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -2,
+        -13
+      ],
+      "lod": 0,
+      "file": "c-2_-13_0.bin",
+      "input_sha256": "a39bb8c688092563fd7c79d9d831f6cbcea892373634c5bebbfeab96927aba4c",
+      "sha256": "e2f54d761669f9cff8faa5d3fa37e6d1a57ab4b111010cb65bd310c7d60b9cc1",
+      "bytes": 1521648,
+      "old_vertices": 17159,
+      "new_vertices": 17159,
+      "old_indices": 54441,
+      "new_indices": 54315,
+      "old_draws": 25,
+      "new_draws": 24,
+      "static_joined": 0,
+      "water_removed": {
+        "72952": 42
+      },
+      "retained_old_triangles": 18105,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -2,
+        -13
+      ],
+      "lod": 1,
+      "file": "c-2_-13_1.bin",
+      "input_sha256": "65f473e6034f3439bc42cfea8957d0499bb6c3c9dd151bb641d018cf00f4df23",
+      "sha256": "a02927d22dc4e1363bdda74e07daed70c41bb15474e8487bc2a2cf88f6a2804a",
+      "bytes": 445152,
+      "old_vertices": 5357,
+      "new_vertices": 5357,
+      "old_indices": 9573,
+      "new_indices": 9447,
+      "old_draws": 19,
+      "new_draws": 18,
+      "static_joined": 0,
+      "water_removed": {
+        "72952": 42
+      },
+      "retained_old_triangles": 3149,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -2,
+        -13
+      ],
+      "lod": 2,
+      "file": "c-2_-13_2.bin",
+      "input_sha256": "7761d67efbe38d32277131017a2cf2ac20526eabfdd97f25a4ca481813584e35",
+      "sha256": "0fd650b1b158e9a99cc50d8df565fa1cfb70a13ac34dd8736ccc8430c1e13138",
+      "bytes": 80480,
+      "old_vertices": 979,
+      "new_vertices": 979,
+      "old_indices": 1509,
+      "new_indices": 1473,
+      "old_draws": 15,
+      "new_draws": 14,
+      "static_joined": 0,
+      "water_removed": {
+        "72952": 12
+      },
+      "retained_old_triangles": 491,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -2,
+        -12
+      ],
+      "lod": 0,
+      "file": "c-2_-12_0.bin",
+      "input_sha256": "3ee7246ef19ad464c202ff4a8b1a8c8bfc0f61cede2e67ad306cdfb4ee3627f9",
+      "sha256": "d81f3bdc3934c746119aa01c084c3b80da36a1feff72f150f5f5c1668b9cbb0b",
+      "bytes": 1235704,
+      "old_vertices": 13440,
+      "new_vertices": 13440,
+      "old_indices": 53670,
+      "new_indices": 53508,
+      "old_draws": 19,
+      "new_draws": 18,
+      "static_joined": 0,
+      "water_removed": {
+        "72952": 54
+      },
+      "retained_old_triangles": 17836,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -2,
+        -12
+      ],
+      "lod": 1,
+      "file": "c-2_-12_1.bin",
+      "input_sha256": "f3675f781be981a4a6e287db8c4793897a9907ee4722700fcee798bb70c2bf7d",
+      "sha256": "efe5fc58e9a190d688498297bb28548fc686975e0f92902db70af95c73fc4cb0",
+      "bytes": 414824,
+      "old_vertices": 4981,
+      "new_vertices": 4981,
+      "old_indices": 9174,
+      "new_indices": 9012,
+      "old_draws": 18,
+      "new_draws": 17,
+      "static_joined": 0,
+      "water_removed": {
+        "72952": 54
+      },
+      "retained_old_triangles": 3004,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -2,
+        -12
+      ],
+      "lod": 2,
+      "file": "c-2_-12_2.bin",
+      "input_sha256": "b306596f4f53efe605eaa4e6ed9acfb7252d3b497cdb7f0330decc8bd460a9dc",
+      "sha256": "cf7de13a6a2e8c52d5d135e691944972fd988a0af5344a69bd445a87cf29aa16",
+      "bytes": 66520,
+      "old_vertices": 813,
+      "new_vertices": 813,
+      "old_indices": 1173,
+      "new_indices": 1137,
+      "old_draws": 15,
+      "new_draws": 14,
+      "static_joined": 0,
+      "water_removed": {
+        "72952": 12
+      },
+      "retained_old_triangles": 379,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -15
+      ],
+      "lod": 0,
+      "file": "c-1_-15_0.bin",
+      "input_sha256": "5bc03bd422c8470622167f93cac58cc5074eda663e34ca4e6fb4686e25003645",
+      "sha256": "a558d18acfbbc8edcf844b21d9ac17140c57a65078a025ecdfb3f5abb9db84df",
+      "bytes": 688992,
+      "old_vertices": 7073,
+      "new_vertices": 7073,
+      "old_indices": 37938,
+      "new_indices": 37830,
+      "old_draws": 10,
+      "new_draws": 9,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 36
+      },
+      "retained_old_triangles": 12610,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -15
+      ],
+      "lod": 1,
+      "file": "c-1_-15_1.bin",
+      "input_sha256": "b8dbb3001202098a86ca7148c3792936e3e78398fe0cb13e4c714e85486b21c6",
+      "sha256": "08cd13b52d5c464412c2dfc1dce282e8e1115e2f23165e8352f60cebbe92ad90",
+      "bytes": 285704,
+      "old_vertices": 3376,
+      "new_vertices": 3376,
+      "old_indices": 7305,
+      "new_indices": 7251,
+      "old_draws": 10,
+      "new_draws": 9,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 18
+      },
+      "retained_old_triangles": 2417,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -15
+      ],
+      "lod": 2,
+      "file": "c-1_-15_2.bin",
+      "input_sha256": "f592ab00af86426efadb613e97b1716b55db3bda24547c9e4afd0ea21cebc639",
+      "sha256": "cf4a648e92c714f06c0eeac9cbd49c15cc7f79bc46feaf666c31591e1e4a5a9a",
+      "bytes": 65136,
+      "old_vertices": 791,
+      "new_vertices": 791,
+      "old_indices": 1245,
+      "new_indices": 1227,
+      "old_draws": 9,
+      "new_draws": 8,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 6
+      },
+      "retained_old_triangles": 409,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -14
+      ],
+      "lod": 0,
+      "file": "c-1_-14_0.bin",
+      "input_sha256": "e6d84b26dddb46a5e69f2e092ffcc610dca4724be7bc64c3542b12605ac31b17",
+      "sha256": "a411e740f33221d5bef2a6ef4b670d2be9fa61341da1913a3991ec98240f11bc",
+      "bytes": 1878196,
+      "old_vertices": 19908,
+      "new_vertices": 19908,
+      "old_indices": 99222,
+      "new_indices": 91230,
+      "old_draws": 23,
+      "new_draws": 21,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 2529,
+        "72967": 108,
+        "72972": 27
+      },
+      "retained_old_triangles": 30410,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -14
+      ],
+      "lod": 1,
+      "file": "c-1_-14_1.bin",
+      "input_sha256": "b7b855aa1a0f03f9a9f3dce3415f5da730e157341edd42c00200abc8ac2f03c7",
+      "sha256": "ba9cb28a1fdf61955c2a84dee5cc1eebb294a88865b2cab977a62ee43cec4f1f",
+      "bytes": 580112,
+      "old_vertices": 7000,
+      "new_vertices": 7000,
+      "old_indices": 14439,
+      "new_indices": 11973,
+      "old_draws": 19,
+      "new_draws": 17,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 720,
+        "72967": 75,
+        "72972": 27
+      },
+      "retained_old_triangles": 3991,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -14
+      ],
+      "lod": 2,
+      "file": "c-1_-14_2.bin",
+      "input_sha256": "475ca66a3c7a785b75aa9f080b7ccc69178d300dc2b2688941b7bb0c83df7fe2",
+      "sha256": "11a594ae9ddd4c9f933ddf830969285b7cf5004f2e39e58c690041b5ca95b4cb",
+      "bytes": 79940,
+      "old_vertices": 976,
+      "new_vertices": 976,
+      "old_indices": 1599,
+      "new_indices": 1392,
+      "old_draws": 17,
+      "new_draws": 15,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 33,
+        "72967": 18,
+        "72972": 18
+      },
+      "retained_old_triangles": 464,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -11
+      ],
+      "lod": 0,
+      "file": "c-1_-11_0.bin",
+      "input_sha256": "149bb7ffbeb8cbf71d9f8cfb701b90e7041cf8e6fd30c1dcf223049ebfd0a370",
+      "sha256": "72d3aeb72996ecb1c33983bbb0fa86edfed2f919c96b83f25ddb7c5a8c054ba2",
+      "bytes": 2269508,
+      "old_vertices": 9814,
+      "new_vertices": 23593,
+      "old_indices": 40728,
+      "new_indices": 119064,
+      "old_draws": 14,
+      "new_draws": 14,
+      "static_joined": 4593,
+      "water_removed": {},
+      "retained_old_triangles": 35095,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -10
+      ],
+      "lod": 0,
+      "file": "c-1_-10_0.bin",
+      "input_sha256": "8d06c729ac4b27b5097d6d1b519aba8e823508749a64392e5a6bcb23dc5b8816",
+      "sha256": "2d74209d577025cf0fb51d854b3b5e03fe5c6dea62fab10919e8fe19cdb312ea",
+      "bytes": 2026592,
+      "old_vertices": 9577,
+      "new_vertices": 20467,
+      "old_indices": 39393,
+      "new_indices": 117729,
+      "old_draws": 14,
+      "new_draws": 14,
+      "static_joined": 3630,
+      "water_removed": {},
+      "retained_old_triangles": 35613,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        -1,
+        -9
+      ],
+      "lod": 0,
+      "file": "c-1_-9_0.bin",
+      "input_sha256": "de2af1c7f1152bbc40c1f91287ba8878dfe6bd291767e506c26c2999549b81df",
+      "sha256": "d7fee9c5fa62fedc00488f3f4122ff197511c1fb6c15c02bcf6b83aec6371157",
+      "bytes": 1123308,
+      "old_vertices": 5951,
+      "new_vertices": 10421,
+      "old_indices": 30582,
+      "new_indices": 82806,
+      "old_draws": 6,
+      "new_draws": 6,
+      "static_joined": 1490,
+      "water_removed": {},
+      "retained_old_triangles": 26112,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -15
+      ],
+      "lod": 0,
+      "file": "c0_-15_0.bin",
+      "input_sha256": "57d72f64b13adde9ca8c848db4ed76be195f5a0723e5fca185edfef6e1a20f73",
+      "sha256": "21765c38e159c6219b84754ba8aaa0c2d22b556f4475aaf112e4c2dc9e08b770",
+      "bytes": 1398100,
+      "old_vertices": 6813,
+      "new_vertices": 10923,
+      "old_indices": 37608,
+      "new_indices": 141939,
+      "old_draws": 17,
+      "new_draws": 15,
+      "static_joined": 1370,
+      "water_removed": {
+        "72957": 9,
+        "72967": 18,
+        "72972": 12
+      },
+      "retained_old_triangles": 45943,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -15
+      ],
+      "lod": 1,
+      "file": "c0_-15_1.bin",
+      "input_sha256": "f63dc49d3bb8446576b2007a563bde0da42cc8a03463670427424f097ad919ab",
+      "sha256": "3fa94fa9c9cf838c62286c896abd0840717fec8220f6af66b17c18395fe48aba",
+      "bytes": 334420,
+      "old_vertices": 3279,
+      "new_vertices": 3279,
+      "old_indices": 6876,
+      "new_indices": 21258,
+      "old_draws": 16,
+      "new_draws": 14,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 6,
+        "72967": 12,
+        "72972": 12
+      },
+      "retained_old_triangles": 7086,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -15
+      ],
+      "lod": 2,
+      "file": "c0_-15_2.bin",
+      "input_sha256": "a46cbb8fc4752d4c198218caf021e1e6a8d141971bf1179c19b5321d8dd45291",
+      "sha256": "715f0b5056eb5170af03df747b52df4c085ad4690c0b9b55bef58585eade4b50",
+      "bytes": 52672,
+      "old_vertices": 576,
+      "new_vertices": 576,
+      "old_indices": 888,
+      "new_indices": 2187,
+      "old_draws": 14,
+      "new_draws": 11,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 3,
+        "72967": 6,
+        "72972": 6
+      },
+      "retained_old_triangles": 729,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -14
+      ],
+      "lod": 0,
+      "file": "c0_-14_0.bin",
+      "input_sha256": "eaac6d546429e5cd2cffade39e93dbd6a85006070dc6ae876a349404dd480849",
+      "sha256": "81127167b13c11de4eed9e8caa86fd65356932528eff4fd26256a0f6c78dc95b",
+      "bytes": 3976060,
+      "old_vertices": 25215,
+      "new_vertices": 42336,
+      "old_indices": 87687,
+      "new_indices": 189552,
+      "old_draws": 27,
+      "new_draws": 25,
+      "static_joined": 5707,
+      "water_removed": {
+        "72957": 390,
+        "72967": 378,
+        "72974": 36,
+        "72972": 57
+      },
+      "retained_old_triangles": 57477,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -14
+      ],
+      "lod": 1,
+      "file": "c0_-14_1.bin",
+      "input_sha256": "97dc2b81186e43854c1e5aa76785f6f02ec8d5b5c0d4405bcaa507089e279fcf",
+      "sha256": "158c9472f47d20138d3100b1e590b645464ad4c5b427ed141ac023075e18997a",
+      "bytes": 1209556,
+      "old_vertices": 13710,
+      "new_vertices": 13710,
+      "old_indices": 32457,
+      "new_indices": 41820,
+      "old_draws": 27,
+      "new_draws": 25,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 120,
+        "72967": 234,
+        "72974": 36,
+        "72972": 57
+      },
+      "retained_old_triangles": 13940,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -14
+      ],
+      "lod": 2,
+      "file": "c0_-14_2.bin",
+      "input_sha256": "1b3fefbb4c455695385ef57a4a35455c56a13f096c6f03063a8c3dc32032703f",
+      "sha256": "77176b0291478bbfb0660417932c5d15c9cca7508466663c200dab2a1008cb6a",
+      "bytes": 791128,
+      "old_vertices": 9189,
+      "new_vertices": 9189,
+      "old_indices": 22530,
+      "new_indices": 23121,
+      "old_draws": 24,
+      "new_draws": 22,
+      "static_joined": 0,
+      "water_removed": {
+        "72957": 3,
+        "72967": 21,
+        "72974": 27,
+        "72972": 48
+      },
+      "retained_old_triangles": 7707,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -13
+      ],
+      "lod": 0,
+      "file": "c0_-13_0.bin",
+      "input_sha256": "5e114e5c16bfa4a8111f7f520d4ef7cfba295f646014aad57df1552a6d4f3a89",
+      "sha256": "afd748fb90a81d3773b6eee59b7ade68c00a52ff942c1ee72702e4b0ab08a684",
+      "bytes": 5338484,
+      "old_vertices": 29617,
+      "new_vertices": 60670,
+      "old_indices": 103632,
+      "new_indices": 181824,
+      "old_draws": 23,
+      "new_draws": 21,
+      "static_joined": 10351,
+      "water_removed": {
+        "72974": 12,
+        "72962": 36
+      },
+      "retained_old_triangles": 50257,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -13
+      ],
+      "lod": 1,
+      "file": "c0_-13_1.bin",
+      "input_sha256": "5d64d0e3abdc352f236280f0a926cca1a09c17c8d7ea3d312ef9f9c66bad8e82",
+      "sha256": "4feaaf4218f9316490a65dd7cb0cd491e6c8f6307d4085f1a6e708aedd7bbfae",
+      "bytes": 546272,
+      "old_vertices": 6232,
+      "new_vertices": 6232,
+      "old_indices": 11016,
+      "new_indices": 18099,
+      "old_draws": 21,
+      "new_draws": 19,
+      "static_joined": 0,
+      "water_removed": {
+        "72974": 12,
+        "72962": 36
+      },
+      "retained_old_triangles": 6033,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -13
+      ],
+      "lod": 2,
+      "file": "c0_-13_2.bin",
+      "input_sha256": "8a9f1e646374473dfc8f95bd27815174037a3555ec2f3e3b1f15f15973954fed",
+      "sha256": "2c06ab9f7f1efac6a72481d342a11f35b74231eb072f49f2842a9d5f21a9fba8",
+      "bytes": 79780,
+      "old_vertices": 930,
+      "new_vertices": 930,
+      "old_indices": 1524,
+      "new_indices": 2229,
+      "old_draws": 16,
+      "new_draws": 14,
+      "static_joined": 0,
+      "water_removed": {
+        "72974": 12,
+        "72962": 9
+      },
+      "retained_old_triangles": 743,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -11
+      ],
+      "lod": 0,
+      "file": "c0_-11_0.bin",
+      "input_sha256": "1b5404de567ad12d7f2a4d5241066bf14fcb68b16f55899bf6f43ce1b409cac0",
+      "sha256": "3f68f76cd440727aad9f1af759439b5fbe9db0f0fe1573b6e14e1c51191e6ac9",
+      "bytes": 5667424,
+      "old_vertices": 27579,
+      "new_vertices": 66501,
+      "old_indices": 74919,
+      "new_indices": 153255,
+      "old_draws": 26,
+      "new_draws": 26,
+      "static_joined": 12974,
+      "water_removed": {},
+      "retained_old_triangles": 38111,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -10
+      ],
+      "lod": 0,
+      "file": "c0_-10_0.bin",
+      "input_sha256": "ddf84caa86923633cb33304cdc813d05a98617555a794563e69afa274903c6ef",
+      "sha256": "f5907449412dcb3c0aa6edc45706081067d62d43aa214ab77e8d65c617c25bdb",
+      "bytes": 10667604,
+      "old_vertices": 76376,
+      "new_vertices": 127763,
+      "old_indices": 187086,
+      "new_indices": 239310,
+      "old_draws": 30,
+      "new_draws": 30,
+      "static_joined": 17129,
+      "water_removed": {},
+      "retained_old_triangles": 62641,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        0,
+        -9
+      ],
+      "lod": 0,
+      "file": "c0_-9_0.bin",
+      "input_sha256": "f26befaa5c3eac2f94081969fceb840ae68a22f8fc9715e663ab55d0917111ec",
+      "sha256": "d680da08bce12288b13aeb4b329776b88fce112b1a09a8675dd9473438de92de",
+      "bytes": 2534908,
+      "old_vertices": 12495,
+      "new_vertices": 29544,
+      "old_indices": 46227,
+      "new_indices": 72339,
+      "old_draws": 16,
+      "new_draws": 16,
+      "static_joined": 5683,
+      "water_removed": {},
+      "retained_old_triangles": 18430,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -15
+      ],
+      "lod": 0,
+      "file": "c1_-15_0.bin",
+      "input_sha256": "692285f2c403667b30f5c57b12549246fac70f2d866f6857a394001163982e0c",
+      "sha256": "c7bf9d92e3af6be720d9d0e30b46229ec1065e0e4127fd58ab6594a7fc8d8f83",
+      "bytes": 996168,
+      "old_vertices": 5225,
+      "new_vertices": 7487,
+      "old_indices": 28416,
+      "new_indices": 106752,
+      "old_draws": 11,
+      "new_draws": 11,
+      "static_joined": 754,
+      "water_removed": {},
+      "retained_old_triangles": 34830,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -14
+      ],
+      "lod": 0,
+      "file": "c1_-14_0.bin",
+      "input_sha256": "3343376082bb0f3e5c5fd8964b55ef356aa0d3ac6390801dd9d6fd860f66661d",
+      "sha256": "3ecc8fd97451db82cdf9409c93f5d353f06d9e6653e461ce90cfd9030371bf15",
+      "bytes": 6758184,
+      "old_vertices": 52040,
+      "new_vertices": 77609,
+      "old_indices": 137085,
+      "new_indices": 214884,
+      "old_draws": 32,
+      "new_draws": 29,
+      "static_joined": 8523,
+      "water_removed": {
+        "72979": 128,
+        "72974": 36,
+        "72984": 15
+      },
+      "retained_old_triangles": 63105,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -14
+      ],
+      "lod": 1,
+      "file": "c1_-14_1.bin",
+      "input_sha256": "e520c5c9addd7a7bcafd74c7c10955893f46836df6d3efc9bee3edc0f91e8230",
+      "sha256": "00e9f4c1762287674166e9ff92c10adca26e597ad038cc3213c183fc366230fb",
+      "bytes": 1200936,
+      "old_vertices": 13655,
+      "new_vertices": 13655,
+      "old_indices": 31263,
+      "new_indices": 40701,
+      "old_draws": 31,
+      "new_draws": 28,
+      "static_joined": 0,
+      "water_removed": {
+        "72979": 64,
+        "72974": 36,
+        "72984": 15
+      },
+      "retained_old_triangles": 13567,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -14
+      ],
+      "lod": 2,
+      "file": "c1_-14_2.bin",
+      "input_sha256": "0e94abe38c86d3fb19a2368955eb19bd7b32f742136c7f494cf013fb4b2b73a3",
+      "sha256": "737600789c2a8f13bad0c2fd0d03dd987a0f7de11e69bd720cdfd8441c393ee8",
+      "bytes": 483172,
+      "old_vertices": 5616,
+      "new_vertices": 5616,
+      "old_indices": 13191,
+      "new_indices": 14010,
+      "old_draws": 27,
+      "new_draws": 25,
+      "static_joined": 0,
+      "water_removed": {
+        "72974": 27,
+        "72984": 6
+      },
+      "retained_old_triangles": 4670,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -13
+      ],
+      "lod": 0,
+      "file": "c1_-13_0.bin",
+      "input_sha256": "b0e264e81c220f817e15412e1d3abee8e4f3553b3dd0b7010d7b6dfc64cbba7c",
+      "sha256": "b5a893a08a53443a98383c644b60e0bad008f2c375ea674a3c4adaf58ba1987c",
+      "bytes": 4067432,
+      "old_vertices": 27103,
+      "new_vertices": 45151,
+      "old_indices": 107766,
+      "new_indices": 158940,
+      "old_draws": 17,
+      "new_draws": 15,
+      "static_joined": 6016,
+      "water_removed": {
+        "72979": 200,
+        "72974": 12,
+        "72984": 81,
+        "72962": 57
+      },
+      "retained_old_triangles": 46964,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -13
+      ],
+      "lod": 1,
+      "file": "c1_-13_1.bin",
+      "input_sha256": "11645517fe889e6805206134f5e738a65295ae239b762356d7c1ec7bd387f67f",
+      "sha256": "1211f9fd7284b25611dcc923f1e351a1363b6b11c3aa9bc03b9218903f3944d2",
+      "bytes": 1499712,
+      "old_vertices": 17279,
+      "new_vertices": 17279,
+      "old_indices": 40830,
+      "new_indices": 46578,
+      "old_draws": 17,
+      "new_draws": 15,
+      "static_joined": 0,
+      "water_removed": {
+        "72979": 80,
+        "72974": 12,
+        "72984": 81,
+        "72962": 57
+      },
+      "retained_old_triangles": 15526,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -13
+      ],
+      "lod": 2,
+      "file": "c1_-13_2.bin",
+      "input_sha256": "11a18b67b7b256c900a093efed4bea2db522693dd71ba4ff3c79fcbd2da570fb",
+      "sha256": "5b3d7bf4601f4aaef4567311e89702f9c2c40a2507e15a1fbe70c64e84d8cc1e",
+      "bytes": 980620,
+      "old_vertices": 11487,
+      "new_vertices": 11487,
+      "old_indices": 26412,
+      "new_indices": 26865,
+      "old_draws": 13,
+      "new_draws": 11,
+      "static_joined": 0,
+      "water_removed": {
+        "72979": 4,
+        "72974": 9,
+        "72984": 33,
+        "72962": 15
+      },
+      "retained_old_triangles": 8955,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -12
+      ],
+      "lod": 0,
+      "file": "c1_-12_0.bin",
+      "input_sha256": "d3542459aebc8397499b46b4091a5579d0038ffbec0e5037dff4f34c4676b584",
+      "sha256": "a9a81fb3a9b69c21097263d17208aab85504ab59c56f548e3b30cf6b031d41d4",
+      "bytes": 814456,
+      "old_vertices": 8697,
+      "new_vertices": 8697,
+      "old_indices": 38334,
+      "new_indices": 38325,
+      "old_draws": 15,
+      "new_draws": 14,
+      "static_joined": 0,
+      "water_removed": {
+        "72962": 3
+      },
+      "retained_old_triangles": 12775,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -12
+      ],
+      "lod": 1,
+      "file": "c1_-12_1.bin",
+      "input_sha256": "9d7f33abc8777026ec051411c92a3578a055cbee2acb88984f534f311061fe8b",
+      "sha256": "c5d69a32a777978c6be7c0565beffe1d44028b13a16848d421c050d1911ea4d6",
+      "bytes": 373880,
+      "old_vertices": 4471,
+      "new_vertices": 4471,
+      "old_indices": 8493,
+      "new_indices": 8484,
+      "old_draws": 12,
+      "new_draws": 11,
+      "static_joined": 0,
+      "water_removed": {
+        "72962": 3
+      },
+      "retained_old_triangles": 2828,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -11
+      ],
+      "lod": 0,
+      "file": "c1_-11_0.bin",
+      "input_sha256": "0db3a129ae6024f539e35786bf13035204fe52ce97723a526eb348587f5493a6",
+      "sha256": "2dc878fb074841d75adbf1d12fc35fe6bbf5ba03c00e6ff1235626d4ecb28945",
+      "bytes": 7368976,
+      "old_vertices": 46017,
+      "new_vertices": 88719,
+      "old_indices": 104283,
+      "new_indices": 156507,
+      "old_draws": 24,
+      "new_draws": 24,
+      "static_joined": 14234,
+      "water_removed": {},
+      "retained_old_triangles": 37935,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -10
+      ],
+      "lod": 0,
+      "file": "c1_-10_0.bin",
+      "input_sha256": "20c2c67336dc36436690839b3699cf8df7e7bc687b4828ddb946d9b2ae97e30a",
+      "sha256": "617833050fe7bebef76a804a491776f60cc9a99760d9180d92d09c9039df1ff6",
+      "bytes": 3342428,
+      "old_vertices": 14836,
+      "new_vertices": 38035,
+      "old_indices": 60660,
+      "new_indices": 112884,
+      "old_draws": 18,
+      "new_draws": 18,
+      "static_joined": 7733,
+      "water_removed": {},
+      "retained_old_triangles": 29895,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        1,
+        -9
+      ],
+      "lod": 0,
+      "file": "c1_-9_0.bin",
+      "input_sha256": "78947398e73c6852e6cc71a71f35b3730522becb50a824961278bd31a501098b",
+      "sha256": "967ce0b814532ef2b399c24ed454db86b5170e91ce30140ab29a72a7fce04d64",
+      "bytes": 2727512,
+      "old_vertices": 15574,
+      "new_vertices": 31165,
+      "old_indices": 63597,
+      "new_indices": 89709,
+      "old_draws": 10,
+      "new_draws": 10,
+      "static_joined": 5197,
+      "water_removed": {},
+      "retained_old_triangles": 24706,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        2,
+        -15
+      ],
+      "lod": 0,
+      "file": "c2_-15_0.bin",
+      "input_sha256": "6bf8cab69be7b36eacbcefbd4ecc509b120fe3dbfd0e680378356d20db6f21f7",
+      "sha256": "5868bf13869319a85368e09da321afeaffbb47f761a8cb585142229a54bb2596",
+      "bytes": 985212,
+      "old_vertices": 5210,
+      "new_vertices": 7352,
+      "old_indices": 28254,
+      "new_indices": 106590,
+      "old_draws": 7,
+      "new_draws": 7,
+      "static_joined": 714,
+      "water_removed": {},
+      "retained_old_triangles": 34816,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        2,
+        -14
+      ],
+      "lod": 0,
+      "file": "c2_-14_0.bin",
+      "input_sha256": "e318e262dff634db71395a19575426d28b910149256eaf06a6a7d537af6c8f48",
+      "sha256": "518fb7d6c600cba9f358b5fb57624a38a0722172b5a1337ec764fd7cd514972b",
+      "bytes": 3356556,
+      "old_vertices": 26201,
+      "new_vertices": 36449,
+      "old_indices": 68223,
+      "new_indices": 146559,
+      "old_draws": 15,
+      "new_draws": 15,
+      "static_joined": 3416,
+      "water_removed": {},
+      "retained_old_triangles": 45437,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    },
+    {
+      "cell": [
+        2,
+        -13
+      ],
+      "lod": 0,
+      "file": "c2_-13_0.bin",
+      "input_sha256": "e29be5a66270ac7a8adb70ab7cf1db2f1d6c8d8cd7ff3982dcb7e5c895286d05",
+      "sha256": "65b258dda16285581596bb0a809da9c224a7ffcadc2ac2e15e324d737d92fb75",
+      "bytes": 2076848,
+      "old_vertices": 8722,
+      "new_vertices": 21154,
+      "old_indices": 38913,
+      "new_indices": 117249,
+      "old_draws": 11,
+      "new_draws": 11,
+      "static_joined": 4144,
+      "water_removed": {},
+      "retained_old_triangles": 34939,
+      "baseline_positions_uv_preserved": true,
+      "baseline_material_draw_order_preserved": true
+    }
+  ],
+  "files": {
+    "c-1_-10_0.bin": {
+      "bytes": 2026592,
+      "sha256": "2d74209d577025cf0fb51d854b3b5e03fe5c6dea62fab10919e8fe19cdb312ea"
+    },
+    "c-1_-11_0.bin": {
+      "bytes": 2269508,
+      "sha256": "72d3aeb72996ecb1c33983bbb0fa86edfed2f919c96b83f25ddb7c5a8c054ba2"
+    },
+    "c-1_-14_0.bin": {
+      "bytes": 1878196,
+      "sha256": "a411e740f33221d5bef2a6ef4b670d2be9fa61341da1913a3991ec98240f11bc"
+    },
+    "c-1_-14_1.bin": {
+      "bytes": 580112,
+      "sha256": "ba9cb28a1fdf61955c2a84dee5cc1eebb294a88865b2cab977a62ee43cec4f1f"
+    },
+    "c-1_-14_2.bin": {
+      "bytes": 79940,
+      "sha256": "11a594ae9ddd4c9f933ddf830969285b7cf5004f2e39e58c690041b5ca95b4cb"
+    },
+    "c-1_-15_0.bin": {
+      "bytes": 688992,
+      "sha256": "a558d18acfbbc8edcf844b21d9ac17140c57a65078a025ecdfb3f5abb9db84df"
+    },
+    "c-1_-15_1.bin": {
+      "bytes": 285704,
+      "sha256": "08cd13b52d5c464412c2dfc1dce282e8e1115e2f23165e8352f60cebbe92ad90"
+    },
+    "c-1_-15_2.bin": {
+      "bytes": 65136,
+      "sha256": "cf4a648e92c714f06c0eeac9cbd49c15cc7f79bc46feaf666c31591e1e4a5a9a"
+    },
+    "c-1_-9_0.bin": {
+      "bytes": 1123308,
+      "sha256": "d7fee9c5fa62fedc00488f3f4122ff197511c1fb6c15c02bcf6b83aec6371157"
+    },
+    "c-2_-12_0.bin": {
+      "bytes": 1235704,
+      "sha256": "d81f3bdc3934c746119aa01c084c3b80da36a1feff72f150f5f5c1668b9cbb0b"
+    },
+    "c-2_-12_1.bin": {
+      "bytes": 414824,
+      "sha256": "efe5fc58e9a190d688498297bb28548fc686975e0f92902db70af95c73fc4cb0"
+    },
+    "c-2_-12_2.bin": {
+      "bytes": 66520,
+      "sha256": "cf7de13a6a2e8c52d5d135e691944972fd988a0af5344a69bd445a87cf29aa16"
+    },
+    "c-2_-13_0.bin": {
+      "bytes": 1521648,
+      "sha256": "e2f54d761669f9cff8faa5d3fa37e6d1a57ab4b111010cb65bd310c7d60b9cc1"
+    },
+    "c-2_-13_1.bin": {
+      "bytes": 445152,
+      "sha256": "a02927d22dc4e1363bdda74e07daed70c41bb15474e8487bc2a2cf88f6a2804a"
+    },
+    "c-2_-13_2.bin": {
+      "bytes": 80480,
+      "sha256": "0fd650b1b158e9a99cc50d8df565fa1cfb70a13ac34dd8736ccc8430c1e13138"
+    },
+    "c-2_-14_0.bin": {
+      "bytes": 1470852,
+      "sha256": "ca5eb6761952eec97d1d1585e4a8887a894da10937313f26b18012fef3fa690c"
+    },
+    "c-2_-14_1.bin": {
+      "bytes": 367740,
+      "sha256": "6dd9ce24189311192a849898d62a6894008d5ac143fe4726851249f294fabe11"
+    },
+    "c0_-10_0.bin": {
+      "bytes": 10667604,
+      "sha256": "f5907449412dcb3c0aa6edc45706081067d62d43aa214ab77e8d65c617c25bdb"
+    },
+    "c0_-11_0.bin": {
+      "bytes": 5667424,
+      "sha256": "3f68f76cd440727aad9f1af759439b5fbe9db0f0fe1573b6e14e1c51191e6ac9"
+    },
+    "c0_-13_0.bin": {
+      "bytes": 5338484,
+      "sha256": "afd748fb90a81d3773b6eee59b7ade68c00a52ff942c1ee72702e4b0ab08a684"
+    },
+    "c0_-13_1.bin": {
+      "bytes": 546272,
+      "sha256": "4feaaf4218f9316490a65dd7cb0cd491e6c8f6307d4085f1a6e708aedd7bbfae"
+    },
+    "c0_-13_2.bin": {
+      "bytes": 79780,
+      "sha256": "2c06ab9f7f1efac6a72481d342a11f35b74231eb072f49f2842a9d5f21a9fba8"
+    },
+    "c0_-14_0.bin": {
+      "bytes": 3976060,
+      "sha256": "81127167b13c11de4eed9e8caa86fd65356932528eff4fd26256a0f6c78dc95b"
+    },
+    "c0_-14_1.bin": {
+      "bytes": 1209556,
+      "sha256": "158c9472f47d20138d3100b1e590b645464ad4c5b427ed141ac023075e18997a"
+    },
+    "c0_-14_2.bin": {
+      "bytes": 791128,
+      "sha256": "77176b0291478bbfb0660417932c5d15c9cca7508466663c200dab2a1008cb6a"
+    },
+    "c0_-15_0.bin": {
+      "bytes": 1398100,
+      "sha256": "21765c38e159c6219b84754ba8aaa0c2d22b556f4475aaf112e4c2dc9e08b770"
+    },
+    "c0_-15_1.bin": {
+      "bytes": 334420,
+      "sha256": "3fa94fa9c9cf838c62286c896abd0840717fec8220f6af66b17c18395fe48aba"
+    },
+    "c0_-15_2.bin": {
+      "bytes": 52672,
+      "sha256": "715f0b5056eb5170af03df747b52df4c085ad4690c0b9b55bef58585eade4b50"
+    },
+    "c0_-9_0.bin": {
+      "bytes": 2534908,
+      "sha256": "d680da08bce12288b13aeb4b329776b88fce112b1a09a8675dd9473438de92de"
+    },
+    "c1_-10_0.bin": {
+      "bytes": 3342428,
+      "sha256": "617833050fe7bebef76a804a491776f60cc9a99760d9180d92d09c9039df1ff6"
+    },
+    "c1_-11_0.bin": {
+      "bytes": 7368976,
+      "sha256": "2dc878fb074841d75adbf1d12fc35fe6bbf5ba03c00e6ff1235626d4ecb28945"
+    },
+    "c1_-12_0.bin": {
+      "bytes": 814456,
+      "sha256": "a9a81fb3a9b69c21097263d17208aab85504ab59c56f548e3b30cf6b031d41d4"
+    },
+    "c1_-12_1.bin": {
+      "bytes": 373880,
+      "sha256": "c5d69a32a777978c6be7c0565beffe1d44028b13a16848d421c050d1911ea4d6"
+    },
+    "c1_-13_0.bin": {
+      "bytes": 4067432,
+      "sha256": "b5a893a08a53443a98383c644b60e0bad008f2c375ea674a3c4adaf58ba1987c"
+    },
+    "c1_-13_1.bin": {
+      "bytes": 1499712,
+      "sha256": "1211f9fd7284b25611dcc923f1e351a1363b6b11c3aa9bc03b9218903f3944d2"
+    },
+    "c1_-13_2.bin": {
+      "bytes": 980620,
+      "sha256": "5b3d7bf4601f4aaef4567311e89702f9c2c40a2507e15a1fbe70c64e84d8cc1e"
+    },
+    "c1_-14_0.bin": {
+      "bytes": 6758184,
+      "sha256": "3ecc8fd97451db82cdf9409c93f5d353f06d9e6653e461ce90cfd9030371bf15"
+    },
+    "c1_-14_1.bin": {
+      "bytes": 1200936,
+      "sha256": "00e9f4c1762287674166e9ff92c10adca26e597ad038cc3213c183fc366230fb"
+    },
+    "c1_-14_2.bin": {
+      "bytes": 483172,
+      "sha256": "737600789c2a8f13bad0c2fd0d03dd987a0f7de11e69bd720cdfd8441c393ee8"
+    },
+    "c1_-15_0.bin": {
+      "bytes": 996168,
+      "sha256": "c7bf9d92e3af6be720d9d0e30b46229ec1065e0e4127fd58ab6594a7fc8d8f83"
+    },
+    "c1_-9_0.bin": {
+      "bytes": 2727512,
+      "sha256": "967ce0b814532ef2b399c24ed454db86b5170e91ce30140ab29a72a7fce04d64"
+    },
+    "c2_-13_0.bin": {
+      "bytes": 2076848,
+      "sha256": "65b258dda16285581596bb0a809da9c224a7ffcadc2ac2e15e324d737d92fb75"
+    },
+    "c2_-14_0.bin": {
+      "bytes": 3356556,
+      "sha256": "518fb7d6c600cba9f358b5fb57624a38a0722172b5a1337ec764fd7cd514972b"
+    },
+    "c2_-15_0.bin": {
+      "bytes": 985212,
+      "sha256": "5868bf13869319a85368e09da321afeaffbb47f761a8cb585142229a54bb2596"
+    },
+    "index.bin": {
+      "bytes": 61028,
+      "sha256": "f3ea542dfe68240432a971b60606fe87b87f770c7fd5f583242345c901434d98"
+    },
+    "materials.bin": {
+      "bytes": 8292,
+      "sha256": "bf5630255ca0c0e5f99fa79a228ddc4f34d5e3c468bfb5daf435a48f9b6af327"
+    },
+    "native-materials.bin": {
+      "bytes": 24876,
+      "sha256": "81ceea9b44165572d934e2e0af490802ce950be6b83def96a6593d5eaf2ccd0b"
+    },
+    "t658.bin": {
+      "bytes": 5504,
+      "sha256": "7808e97b5da7df803142592f4d580d58cf6859b59c7a7fe5007582bf91506f04"
+    },
+    "t659.bin": {
+      "bytes": 5592468,
+      "sha256": "3029032ed80fb4daa06cde0eaa0b39547bb0c2c6a1a4db7a9bc126103c45d0b6"
+    },
+    "t660.bin": {
+      "bytes": 5592468,
+      "sha256": "d4eb38dfac864e7611a5aaff90e1a2616478ce3dab7523493e1aaa696f983fc5"
+    },
+    "t661.bin": {
+      "bytes": 5592468,
+      "sha256": "646aa1a4eff40e772c0da7b1ebe67f9a02eb9794f0133ea21dff2f57ce2c6ecf"
+    },
+    "t662.bin": {
+      "bytes": 5592468,
+      "sha256": "2da830c55398f01f8b406cb27bc7a96d21a332e11db643b1a7414d1486e5a2d4"
+    },
+    "t663.bin": {
+      "bytes": 5592468,
+      "sha256": "e357a566dda4981b3601dfd0dc8852d7113465e05dfffdad8cf6c00c97358df9"
+    },
+    "t664.bin": {
+      "bytes": 5592468,
+      "sha256": "ec51c4f9d9dc6501735063be4cbf78c1d3b0ef45fb4b8ec98dde9d311148ca65"
+    },
+    "t665.bin": {
+      "bytes": 5592468,
+      "sha256": "ec79806e98f83925b6a4d74e757ad5327295206c7117fe1c84396e9840d688cd"
+    },
+    "t666.bin": {
+      "bytes": 2796268,
+      "sha256": "5010ebfb5bacef982019a6c634b3adab46eb3abcbbae799ca3020e70a7b04374"
+    },
+    "t667.bin": {
+      "bytes": 2796268,
+      "sha256": "b23b5e83c2a47efc5cdc0d2367227644c52da26e8014fad90174a12838085888"
+    },
+    "t668.bin": {
+      "bytes": 21892,
+      "sha256": "761ebc9fdc3dcd306fa1f92c723a18cfa3351d762cdd86a2df3734774e04998e"
+    },
+    "t669.bin": {
+      "bytes": 5592468,
+      "sha256": "256d38d45afa2552bef8f810c4c79196d410a1d40937641eb1de8f68901214a0"
+    },
+    "t670.bin": {
+      "bytes": 5592468,
+      "sha256": "14caa0ec9ae5a76ca712452a446f7158ee46216ba4c28f11174c62c2b4501975"
+    },
+    "t671.bin": {
+      "bytes": 5592468,
+      "sha256": "8ca9759f6ca25c5f21e024597aafa268f8e979f4cccff85174bb3b608d814d8b"
+    },
+    "t672.bin": {
+      "bytes": 5592468,
+      "sha256": "05cf78e5f5fcb996b06a5399172ec46bd12ee0855533caccc7f2ddca50f3ebe5"
+    },
+    "t673.bin": {
+      "bytes": 5592468,
+      "sha256": "c6dda667f5812b7fbe53621a654e1128a725f5ca69691ab007ec7c140ad1535f"
+    },
+    "t674.bin": {
+      "bytes": 5592468,
+      "sha256": "d6b467bda26a279cae6f498bc6d199b0a4b86de682a4472b947c5e2d9535cd9a"
+    },
+    "t675.bin": {
+      "bytes": 5592468,
+      "sha256": "44ab0ca5e2ba7d0b51760a1b764bcbf99a40855af5280b0f5f2fa7e75558b22e"
+    },
+    "t676.bin": {
+      "bytes": 349580,
+      "sha256": "94aafbe9f8688b1315a0735e58e4375b8294ef4683ed1e034ee03da71387345f"
+    },
+    "t678.bin": {
+      "bytes": 21892,
+      "sha256": "496b8f841ae8beb8c4d6b4b656ffacc94a46927efae86231328a16702b072218"
+    },
+    "t679.bin": {
+      "bytes": 5592468,
+      "sha256": "94b9b13cbb8e543e615b1561c296b3f8296f0cfb615be7648b0dfe957dadd5a1"
+    },
+    "t680.bin": {
+      "bytes": 5592468,
+      "sha256": "553af3f67e4050c71d05bbe94368bff771e90dcfb4cfc4e1962b1acf7e15c0bc"
+    },
+    "water.bin": {
+      "bytes": 13028,
+      "sha256": "3450846491b020b1085641e9d875d720fcc6878bbcc36cad36d3b165f4eb7a99"
+    }
+  },
+  "old_material_rows_preserved": true,
+  "index_record_bytes_preserved": true,
+  "index_only_texture_count_updated": true,
+  "limits": [
+    "grass g/index grass updates intentionally untouched; root must merge reserved655..657",
+    "LOD1/2 staticattrs baseline; water source ownership recovered by exact original whole-zone cluster and source cell",
+    "baseline normal length preserves old packed normal.w vertexalpha; shader uses length(N) forflags0",
+    "tangent defaults zero forbaselineflags0 derivativefallback",
+    "native-materials.bin contains all296profiles incl3leafprofiles; legacy OAML untouched",
+    "no source orexistingassetwrites"
+  ],
+  "generation3_validation": "generation3-validation.json",
+  "leaf_packed_attribute_bits_preserved": true
+}

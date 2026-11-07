@@ -1,0 +1,594 @@
+{
+  "fab": 419041,
+  "fab_name": "for_flora_twist01",
+  "translation": [
+    4757.779296875,
+    -86588.828125,
+    5833.80712890625
+  ],
+  "quaternion": [
+    0.0,
+    0.0,
+    1.0,
+    -1.5999999902760464e-07
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "pose_key": "419041:3cae94456a1ea9c7754eb64500000000000000000000803f77cc2bb40000803f0000803f0000803f",
+  "source_assemblies": [
+    5,
+    6,
+    8
+  ],
+  "source_materials": [
+    343549,
+    489469,
+    559590
+  ],
+  "source_authored_group_candidates": [
+    3,
+    4
+  ],
+  "native_authored_group_candidates": [
+    1
+  ],
+  "proven_detail_mismatch": true,
+  "source_parts": [
+    {
+      "source_frustum_candidate": true,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "group": "refs",
+      "record": 620,
+      "render_index": 7,
+      "typed_high4": 4,
+      "fab": 419041,
+      "fab_name": "for_flora_twist01",
+      "assembly": 5,
+      "material": 343549,
+      "material_name": "for_flora_treebark01",
+      "sphere": [
+        4832.9384765625,
+        -86456.0546875,
+        6218.5146484375,
+        583.9371948242188
+      ],
+      "translation": [
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        1.0,
+        -1.5999999902760464e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ported_matrix_row_major": [
+        -1.0,
+        3.199999980552093e-07,
+        0.0,
+        0.0,
+        -3.199999980552093e-07,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625,
+        1.0
+      ],
+      "naive_translation": [
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625
+      ],
+      "pose_key": "419041:3cae94456a1ea9c7754eb64500000000000000000000803f77cc2bb40000803f0000803f0000803f",
+      "triangles": 114,
+      "frustum_candidate_triangles": 114,
+      "source_vertex_sha256": "3aa1ded3cd4266c98878e666b91269aa8028ff5c4c83c1e504236cf74d8072e9",
+      "source_index_sha256": "275e9ce9c17072d124325e794d647d511b37eae205b38b06259f5fafff4e7b68",
+      "render_record_hex": "8207974507dca8c71e54c245fbfb11443cae94456a1ea9c7754eb6450000803f00000000000000000000803f77cc2bb40000803f0000803f0000803f5e000000fd3d05000500000000000000000000004a16634a",
+      "distance": 3219.536181636971
+    },
+    {
+      "source_frustum_candidate": true,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "group": "refs",
+      "record": 621,
+      "render_index": 680,
+      "typed_high4": 4,
+      "fab": 419041,
+      "fab_name": "for_flora_twist01",
+      "assembly": 6,
+      "material": 489469,
+      "material_name": "for_flora_treebranch",
+      "sphere": [
+        4738.12548828125,
+        -86534.859375,
+        6774.0419921875,
+        650.3097534179688
+      ],
+      "translation": [
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        1.0,
+        -1.5999999902760464e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ported_matrix_row_major": [
+        -1.0,
+        3.199999980552093e-07,
+        0.0,
+        0.0,
+        -3.199999980552093e-07,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625,
+        1.0
+      ],
+      "naive_translation": [
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625
+      ],
+      "pose_key": "419041:3cae94456a1ea9c7754eb64500000000000000000000803f77cc2bb40000803f0000803f0000803f",
+      "triangles": 17,
+      "frustum_candidate_triangles": 17,
+      "source_vertex_sha256": "96467797f39448f65d4b7440824a3941c3574b45ef0e89da98856fef07bb08a5",
+      "source_index_sha256": "4fcf15a9ccc1c95fd287ea22494f3d923649f5741222e60505476918add9d28a",
+      "render_record_hex": "011194456e03a9c756b0d345d39322443cae94456a1ea9c7754eb6450000803f00000000000000000000803f77cc2bb40000803f0000803f0000803f5e000000fd770700060000000000000000000000be4ae548",
+      "distance": 3235.9484220845447
+    },
+    {
+      "source_frustum_candidate": true,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "group": "refs",
+      "record": 622,
+      "render_index": 691,
+      "typed_high4": 4,
+      "fab": 419041,
+      "fab_name": "for_flora_twist01",
+      "assembly": 8,
+      "material": 559590,
+      "material_name": "for_flora_treeleafsaplinggreen",
+      "sphere": [
+        4658.169921875,
+        -86648.0703125,
+        6896.55908203125,
+        1031.171875
+      ],
+      "translation": [
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        1.0,
+        -1.5999999902760464e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ported_matrix_row_major": [
+        -1.0,
+        3.199999980552093e-07,
+        0.0,
+        0.0,
+        -3.199999980552093e-07,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625,
+        1.0
+      ],
+      "naive_translation": [
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625
+      ],
+      "pose_key": "419041:3cae94456a1ea9c7754eb64500000000000000000000803f77cc2bb40000803f0000803f0000803f",
+      "triangles": 60,
+      "frustum_candidate_triangles": 60,
+      "source_vertex_sha256": "261f6a9a9d1805ab6b7cd73d2277c100f4171c668af78c6f21f4de86ddf2d5d0",
+      "source_index_sha256": "7dd91fad0aae699efb4f79b5a95f74cb79d8d7f2eec3d1c21409c8a76e3b3d73",
+      "render_record_hex": "5c919145093ca9c77984d74580e580443cae94456a1ea9c7754eb6450000803f00000000000000000000803f77cc2bb40000803f0000803f0000803f5e000000e6890800080000000000000000000000b6d15549",
+      "distance": 2921.675531033967
+    }
+  ],
+  "native_parts": [
+    {
+      "draw": 69083,
+      "assembly_candidates": [
+        0,
+        7
+      ],
+      "native_world_matrix": [
+        -1.0,
+        3.199999980552093e-07,
+        0.0,
+        0.0,
+        -3.199999980552093e-07,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625,
+        1.0
+      ],
+      "vs": 877,
+      "pipeline": 8194,
+      "source_geometry_candidates": [
+        {
+          "fab": 419041,
+          "name": "for_flora_twist01",
+          "assembly": 0,
+          "vertex_buffer": 0,
+          "index_buffer": 0,
+          "vertex_sha256": "5baea949e807a848e1faa9fb2a0119155439aa89e792e6641a16fba389d8cc3e",
+          "index_sha256": "7dd91fad0aae699efb4f79b5a95f74cb79d8d7f2eec3d1c21409c8a76e3b3d73",
+          "stride": 48,
+          "vertices": 120,
+          "triangles": 60,
+          "source": "work\\v20-inputs\\DATA_0.pak\\419041.fab_visual_data_streamable_bin"
+        },
+        {
+          "fab": 419041,
+          "name": "for_flora_twist01",
+          "assembly": 7,
+          "vertex_buffer": 7,
+          "index_buffer": 7,
+          "vertex_sha256": "5baea949e807a848e1faa9fb2a0119155439aa89e792e6641a16fba389d8cc3e",
+          "index_sha256": "7dd91fad0aae699efb4f79b5a95f74cb79d8d7f2eec3d1c21409c8a76e3b3d73",
+          "stride": 48,
+          "vertices": 120,
+          "triangles": 60,
+          "source": "work\\v20-inputs\\DATA_0.pak\\419041.fab_visual_data_streamable_bin"
+        }
+      ],
+      "native_index_count": 180
+    },
+    {
+      "draw": 69104,
+      "assembly_candidates": [
+        1
+      ],
+      "native_world_matrix": [
+        -1.0,
+        3.199999980552093e-07,
+        0.0,
+        0.0,
+        -3.199999980552093e-07,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625,
+        1.0
+      ],
+      "vs": 883,
+      "pipeline": 8238,
+      "source_geometry_candidates": [
+        {
+          "fab": 419041,
+          "name": "for_flora_twist01",
+          "assembly": 1,
+          "vertex_buffer": 1,
+          "index_buffer": 1,
+          "vertex_sha256": "aa1a778078f99878a8d4d644788e7e1c70768b147bf61d9d21239ab80711bc3f",
+          "index_sha256": "dde4c6c70ce86e20627fdecab2400bb723d2c00fb5450e5768f9d4a22bb1ce20",
+          "stride": 48,
+          "vertices": 304,
+          "triangles": 320,
+          "source": "work\\v20-inputs\\DATA_0.pak\\419041.fab_visual_data_streamable_bin"
+        }
+      ],
+      "native_index_count": 960
+    },
+    {
+      "draw": 69155,
+      "assembly_candidates": [
+        2
+      ],
+      "native_world_matrix": [
+        -1.0,
+        3.199999980552093e-07,
+        0.0,
+        0.0,
+        -3.199999980552093e-07,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4757.779296875,
+        -86588.828125,
+        5833.80712890625,
+        1.0
+      ],
+      "vs": 883,
+      "pipeline": 13167,
+      "source_geometry_candidates": [
+        {
+          "fab": 419041,
+          "name": "for_flora_twist01",
+          "assembly": 2,
+          "vertex_buffer": 2,
+          "index_buffer": 2,
+          "vertex_sha256": "a4af3ceeca23ceb398cdebedc0218529286c8c707e424bf64806a8add240c447",
+          "index_sha256": "e0330fe36667f3bfcdf48f332599da6715e3aca3ebe41a97b5ab2f81ddd60806",
+          "stride": 48,
+          "vertices": 57,
+          "triangles": 29,
+          "source": "work\\v20-inputs\\DATA_0.pak\\419041.fab_visual_data_streamable_bin"
+        }
+      ],
+      "native_index_count": 87
+    }
+  ],
+  "source_groups": [
+    {
+      "group": 0,
+      "file_offset": 1374,
+      "element_indices": [],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 1,
+      "file_offset": 1396,
+      "element_indices": [
+        0,
+        1,
+        2
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 4000.0,
+      "flag": 0
+    },
+    {
+      "group": 2,
+      "file_offset": 1421,
+      "element_indices": [
+        3,
+        4,
+        7
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 9000.0,
+      "flag": 0
+    },
+    {
+      "group": 3,
+      "file_offset": 1446,
+      "element_indices": [
+        5,
+        6,
+        8
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 15000.0,
+      "flag": 0
+    },
+    {
+      "group": 4,
+      "file_offset": 1471,
+      "element_indices": [
+        5,
+        6,
+        8
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 10000000.0,
+      "flag": 0
+    },
+    {
+      "group": 5,
+      "file_offset": 1496,
+      "element_indices": [
+        9,
+        6,
+        5
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 6,
+      "file_offset": 1521,
+      "element_indices": [
+        3,
+        9
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 7,
+      "file_offset": 1545,
+      "element_indices": [
+        5,
+        9
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 8,
+      "file_offset": 1569,
+      "element_indices": [
+        9,
+        5
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    }
+  ],
+  "material_policy": "Preserve per-instance559590 leaf override: captured69083 controls(.97812,600,0,0;0,10) AND bound diffuse image5267 full7mip byteidentity with566740_0/_4 prove559590. FABdefault419060 is not sufficient to override instance material.",
+  "proposed_native_parts": [
+    {
+      "assembly": 0,
+      "material": 559590,
+      "proof_draw": 69083
+    },
+    {
+      "assembly": 1,
+      "material": 343549,
+      "proof_draw": 69104
+    },
+    {
+      "assembly": 2,
+      "material": 489469,
+      "proof_draw": 69155
+    }
+  ],
+  "leaf_geometry_equivalence": "Assembly8 matches0 afterindexXOR1; allUV,N,RGBA exact;T/B\u22641SNORM16unit;Pshift.429cmY;triangleorder swaps butidenticaltrianglevertexsets/winding. Nativephase54/120 differ. Not evidence of largecanopycoverage difference.",
+  "reference_texture_stage": "capture-exact-leaf-stage-manifest.json"
+}

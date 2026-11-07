@@ -1,0 +1,78 @@
+{
+  "result": "PASS",
+  "windows_checks": 241,
+  "windows_execution": true,
+  "arm_compile_link": true,
+  "arm_execution": false,
+  "arm_header": {
+    "class_bits": 64,
+    "endianness": "little",
+    "machine": "AArch64",
+    "machine_id": 183,
+    "elf_type": 3
+  },
+  "source_table": [
+    0,
+    5,
+    10,
+    20,
+    30,
+    40,
+    45,
+    50,
+    60,
+    65,
+    80,
+    90,
+    100
+  ],
+  "source_definitions": [
+    {
+      "path": "work\\v48-opening\\script-audit\\archive-source\\inputs\\initial_0.pak\\613083.quest_bxml",
+      "sha256": "bfae3dd5a5f3e47c41a90d571b1ea2a55419d378d8524074f6f579cb29f644d7",
+      "stage_ids": [
+        5,
+        10,
+        20,
+        30,
+        40,
+        45,
+        50,
+        60,
+        65,
+        80,
+        90,
+        100
+      ]
+    },
+    {
+      "path": "work\\v48-opening\\script-audit\\archive-source\\inputs\\patch_0.pak\\613083.quest_bxml",
+      "sha256": "a2fcda9c45d1e3239591bdaeb67883e2fbafe4dd1b7705c25b9fbecaf38aa001",
+      "stage_ids": [
+        5,
+        10,
+        20,
+        30,
+        40,
+        45,
+        50,
+        60,
+        65,
+        80,
+        90,
+        100
+      ]
+    }
+  ],
+  "host_backend": "Recorded atomic acknowledgement fixture; no native QuestMgr/startup effects implemented.",
+  "no_live_core_UI_save_binding_changes": true,
+  "hashes": {
+    "oa_mq01_cursor.c": "cc854a1a16fcaeb4f2c9b2f56f67723c028ff2da43136f53e21825834dc4cbb9",
+    "oa_mq01_cursor.h": "60d54036a23c90a8725e3b70b45a4dd2d2e70488b1020b254798eb89a900965e",
+    "test_mq01_cursor.c": "c65c21d9f949a7cd685854bf0cce1c3024f14b8b4ef112769d783d5c7e4c6bbe",
+    "test_mq01_cursor.exe": "37209aa121add0c6e414b34aa495b1bab0cd0b2b37173f6ee03f8bc83f89c3d2",
+    "test_mq01_cursor_arm64": "2b6901663b5991d207bbaa297aba29ac1b6232897bb19a64930784c9d05417d5",
+    "build-test.cmd": "ef26acd95afb53308cc7d33db64eb8e5421cd5f5c8984b8e58038eb572ab895b",
+    "build-test.log": "bb80b2229cda2adeb7819f87da70b9859a5a451eacdf45cd5efc953a475ffec4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "exit_code": 0,
+  "timed_out": false,
+  "command": [
+    "/root/oa-native-tools/gfxrecon-replay",
+    "--wsi",
+    "headless",
+    "--screenshot-all",
+    "--screenshot-dir",
+    "/root/oa-native-tools/results/dalentarth-20261105-1793900741962400035",
+    "--opcd",
+    "--remove-unsupported",
+    "--memory-translation",
+    "rebind",
+    "/root/oa-native-tools/captures/dalentarth-20261105.gfxr"
+  ],
+  "elapsed_including_load_seconds": 2.2724083840148523,
+  "screenshots": [
+    "/root/oa-native-tools/results/dalentarth-20261105-1793900741962400035/screenshot_frame_1.bmp"
+  ],
+  "native_arm64": true,
+  "architecture": "aarch64",
+  "full_engine": false,
+  "steady_fps": null
+}

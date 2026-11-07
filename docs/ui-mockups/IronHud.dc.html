@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ironbound HUD</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&amp;family=Cinzel:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1260px; height: 840px; overflow: hidden; background: #0b0d0e; color: #efe6d2; font-family: Alegreya, Georgia, serif">
+  <img src="/_blob/0d5e0095f6efdc5fb582f9ac149bdbe5" alt="A fight with a bandit outside the shop in Gorhart" style="position: absolute; left: -50px; top: 0; width: 1361px; height: 907px; object-fit: cover">
+
+  <div style="position: absolute; left: 20px; top: 14px; width: 450px; height: 130px">
+    <div style="position: absolute; left: 136px; top: 37px; width: 268px; height: 11px; background: #0c0c0d; overflow: hidden">
+      <img src="/_blob/304d2a223a24e5c07a93060560321f92" alt="Health" style="position: absolute; left: 0; top: 0; width: 62%; height: 11px; object-fit: fill">
+    </div>
+    <div style="position: absolute; left: 136px; top: 55px; width: 268px; height: 13px; background: #0c0c0d; overflow: hidden">
+      <img src="/_blob/2d665a5440ef7b07a58228a2097e88b7" alt="Mana" style="position: absolute; left: 0; top: 0; width: 54%; height: 13px; object-fit: fill">
+    </div>
+    <div style="position: absolute; left: 136px; top: 75px; width: 268px; height: 12px; background: #0c0c0d; overflow: hidden">
+      <img src="/_blob/195ad3ff455a6e31c8e90f1cfe705710" alt="Fate" style="position: absolute; left: 0; top: 0; width: 100%; height: 12px; object-fit: fill">
+    </div>
+    <img src="/_blob/052a4381111be8019749a49e355624a6" alt="" style="position: absolute; left: 0; top: 0; width: 450px; height: 130px">
+  </div>
+
+  <div style="position: absolute; left: 500px; top: 18px; width: 260px; display: flex; flex-direction: column; align-items: center; gap: 4px">
+    <div style="display: flex; align-items: center; gap: 8px"><img src="/_blob/0c9e95d19c33b527f18ebedf4ca94ae7" alt="" style="width: 22px; height: 24px"><span style="font-family: Cinzel, serif; font-size: 17px; font-weight: 600; letter-spacing: 1px; text-shadow: 0 1px 4px #000">Bandit</span></div>
+    <div style="position: relative; width: 260px; height: 12px; background: #0c0c0d; border: 1px solid #5d4a35; box-sizing: border-box; overflow: hidden">
+      <img src="/_blob/304d2a223a24e5c07a93060560321f92" alt="Enemy health" style="position: absolute; left: 0; top: 0; width: 45%; height: 10px; object-fit: fill">
+    </div>
+  </div>
+
+  <div style="position: absolute; right: 22px; top: 14px; width: 176px; height: 180px">
+    <div style="position: absolute; left: 14px; top: 16px; width: 148px; height: 148px; border-radius: 74px; background: rgba(10,12,13,.72)"></div>
+    <img src="/_blob/d13ff079c66823debdab2e92cd7cc911" alt="Quest marker" style="position: absolute; left: 112px; top: 54px; width: 18px; height: 16px">
+    <svg width="176" height="180" viewBox="0 0 176 180" role="img" aria-label="Minimap with the player at the center" style="position: absolute; left: 0; top: 0"><path d="M88 80l9 19-9-5-9 5z" fill="#f2d98f"></path><circle cx="62" cy="70" r="3.5" fill="#ff7f6e"></circle><circle cx="56" cy="108" r="3" fill="#efe6d2"></circle><circle cx="118" cy="118" r="3" fill="#efe6d2"></circle></svg>
+    <img src="/_blob/a6dd830b57df5aa14232264db37fc505" alt="" style="position: absolute; left: 0; top: 0; width: 176px; height: 180px">
+  </div>
+
+  <button style="position: absolute; left: 500px; bottom: 112px; width: 260px; height: 52px; border: 0; padding: 0; background: none; color: #f4ecff; font-family: Cinzel, serif; font-size: 16px; font-weight: 600; letter-spacing: 3px">
+    <img src="/_blob/ece365b17bba7e0849d1fe604c1a3137" alt="" style="position: absolute; left: 0; top: 0; width: 260px; height: 52px">
+    <span style="position: relative; line-height: 44px">Reckoning</span>
+  </button>
+
+  <div aria-hidden="true" style="position: absolute; left: 34px; bottom: 34px; width: 170px; height: 170px; display: flex; align-items: center; justify-content: center">
+    <img src="/_blob/d61bf06ae68e5dcd46f065e9dab34c3c" alt="" style="position: absolute; inset: 0; width: 170px; height: 170px; opacity: .7">
+    <div style="position: relative; width: 60px; height: 60px; border-radius: 30px; background: radial-gradient(circle at 40% 35%, #6a5a43, #1b1712); border: 1px solid #8a7354; box-sizing: border-box"></div>
+  </div>
+
+  <button aria-label="Attack" style="position: absolute; right: 30px; bottom: 30px; width: 136px; height: 136px; padding: 0; border: 0; background: none">
+    <img src="/_blob/d61bf06ae68e5dcd46f065e9dab34c3c" alt="" style="position: absolute; inset: 0; width: 136px; height: 136px">
+    <img src="/_blob/763cf70f139f8e57679e8c2a7e406af9" alt="" style="position: absolute; left: 30px; top: 30px; width: 76px; height: 76px">
+  </button>
+
+  <div style="position: absolute; right: 170px; bottom: 24px; width: 172px; height: 180px">
+    <img src="/_blob/f227ca7685099963e6146bf0d9e88d11" alt="" style="position: absolute; inset: 0; width: 172px; height: 180px">
+    <img src="/_blob/7821d6138d7c33a485b168619861991e" alt="Quick health potion" style="position: absolute; left: 66px; top: 16px; width: 40px; height: 40px">
+    <img src="/_blob/980638fa0b3d0cd40098517144d9980d" alt="Quick mana potion" style="position: absolute; left: 16px; top: 70px; width: 40px; height: 40px">
+    <img src="/_blob/2ce9cf983eaf5228721a1b6c9873f031" alt="Ability" style="position: absolute; left: 116px; top: 70px; width: 40px; height: 40px">
+    <img src="/_blob/5c1d3103f2dd23efaa9aed3635afaa10" alt="Ability" style="position: absolute; left: 66px; top: 124px; width: 40px; height: 40px">
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1260,"height":840}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

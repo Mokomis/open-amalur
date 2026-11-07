@@ -1,0 +1,3005 @@
+{
+  "scope": "Original recovered literal tutorial declarations; localization ID pairs retained, input symbols retained, all source callbacks unexecuted. Not translated UI or gameplay proof.",
+  "script_sha256": "93b362f2db7f6464f05a6ae9a6ab17193eeb6a0a291aa128e8d2d4521d279cab",
+  "count": 229,
+  "adapter": {
+    "field_guards_adapted": 151,
+    "table_guards_adapted": 1511,
+    "proxy_read_field_guards_adapted": 151,
+    "proxy_read_table_guards_adapted": 0,
+    "write_table_guards_preserved": 1511,
+    "self_table_guards_preserved": 0,
+    "function_nil_equality_guards_adapted": 48,
+    "canonical_type11_nil_equality_guards_adapted": 48,
+    "canonical_type11_key_guards_adapted": 1511,
+    "self_key_guards_preserved": 0,
+    "scope": "One host-checked table-valued __index hop for GETFIELD/GETTABLE reads; writes/SELF retain prior table guards. Canonical realm type11 versus nil EQ admitted; table/arbitrary userdata equality unchanged. Existing seeall/function-nil EQ/canonical type11 key extensions preserved."
+  },
+  "entries": [
+    {
+      "max_prefires": 2,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 404615995,
+          "SL1": 1816185386
+        }
+      },
+      "id_hash": 45799362,
+      "ignore_options": true,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ],
+      "anchor": "center",
+      "pc_redirect": 60606949,
+      "duration": -1,
+      "reminder_id": 18183698
+    },
+    {
+      "max_prefires": 2,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 55322848,
+          "SL1": 1207493897
+        }
+      },
+      "id_hash": 60778951,
+      "ignore_options": true,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ],
+      "anchor": "center",
+      "pc_redirect": 60606949,
+      "duration": -1,
+      "reminder_id": 18183698
+    },
+    {
+      "id_hash": 60606949,
+      "ignore_options": true,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1476616916,
+          "SL1": 1385658853
+        }
+      },
+      "args": [
+        "INPUT_ACTION_KEY:pc_reckoning_mode_press"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "max_prefires": 2,
+      "reminder_id": 18183698
+    },
+    {
+      "id_hash": 66070146,
+      "ignore_options": true,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1954545137,
+          "SL1": 1972569098
+        }
+      },
+      "pc_redirect": 84037628,
+      "duration": -1
+    },
+    {
+      "id_hash": 84329853,
+      "ignore_options": true,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1954545137,
+          "SL1": 1972569098
+        }
+      },
+      "pc_redirect": 84037628,
+      "duration": -1
+    },
+    {
+      "id_hash": 84037628,
+      "args": [
+        "INPUT_ACTION_KEY:pc_reckoning_mode_press"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "ignore_options": true,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -2067643136,
+          "SL1": 857846056
+        }
+      }
+    },
+    {
+      "id_hash": 18183698,
+      "duration": 8,
+      "pc_redirect": 27502478,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ],
+      "anchor": "center_left",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1746961853,
+          "SL1": 437699976
+        }
+      },
+      "remind_at_occurence": 3,
+      "repeatable": true
+    },
+    {
+      "id_hash": 27411503,
+      "duration": 8,
+      "pc_redirect": 27502478,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ],
+      "anchor": "center_left",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -694377657,
+          "SL1": 1404493333
+        }
+      },
+      "remind_at_occurence": 3,
+      "repeatable": true
+    },
+    {
+      "id_hash": 27502478,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -2078984572,
+          "SL1": -568554265
+        }
+      },
+      "args": [
+        "INPUT_ACTION_KEY:pc_reckoning_mode_press"
+      ],
+      "anchor": "center_left",
+      "duration": 8,
+      "remind_at_occurence": 3,
+      "repeatable": true
+    },
+    {
+      "id_hash": 50185880,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1287117183,
+          "SL1": 959636386
+        }
+      }
+    },
+    {
+      "id_hash": 41929764,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -471001455,
+          "SL1": 639853429
+        }
+      }
+    },
+    {
+      "id_hash": 46775422,
+      "force_modal_next": true,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "next": 44405189,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 235245965,
+          "SL1": -747387498
+        }
+      }
+    },
+    {
+      "id_hash": 44405189,
+      "force_modal_next": true,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "next": 45799362,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 274971004,
+          "SL1": -1860099130
+        }
+      }
+    },
+    {
+      "id_hash": 61755011,
+      "force_modal_next": true,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "next": 59384778,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 235245965,
+          "SL1": -747387498
+        }
+      }
+    },
+    {
+      "id_hash": 59384778,
+      "force_modal_next": true,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "next": 60778951,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 274971004,
+          "SL1": -1860099130
+        }
+      }
+    },
+    {
+      "id_hash": 72375578,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 663675810,
+          "SL1": 1813648664
+        }
+      }
+    },
+    {
+      "id_hash": 69481195,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 369442837,
+          "SL1": 1418582865
+        }
+      }
+    },
+    {
+      "id_hash": 81761959,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -655568704,
+          "SL1": -2077760665
+        }
+      },
+      "args": [
+        "INPUT_ACTION_KEY:LedgerLaunchMap"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "reminder_id": 24867512
+    },
+    {
+      "id_hash": 24867512,
+      "args": [
+        "INPUT_ACTION_KEY:LedgerLaunchMap"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 358209563,
+          "SL1": 66162628
+        }
+      },
+      "duration": 8,
+      "remind_at_occurence": 4,
+      "repeatable": true
+    },
+    {
+      "id_hash": 7518006,
+      "args": [
+        "INPUT_ACTION_KEY:spell_cast_mode",
+        "INPUT_ACTION_KEY:Magic_A"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 614332461,
+          "SL1": 566622282
+        }
+      },
+      "pc_redirect": 13179193,
+      "duration": -1
+    },
+    {
+      "id_hash": 13015013,
+      "args": [
+        "INPUT_ACTION_KEY:spell_cast_mode",
+        "INPUT_ACTION_KEY:Magic_A"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -105634799,
+          "SL1": -1458268404
+        }
+      },
+      "pc_redirect": 13179193,
+      "duration": -1
+    },
+    {
+      "id_hash": 13179193,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Magic_A"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 753894540,
+          "SL1": 139929558
+        }
+      }
+    },
+    {
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 485629631,
+          "SL1": 1448701350
+        }
+      },
+      "remind_at_occurence": 20,
+      "id_hash": 18776026,
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:spell_cast_mode",
+        "INPUT_ACTION_KEY:Magic_A",
+        "INPUT_ACTION_KEY:Magic_B",
+        "INPUT_ACTION_KEY:Magic_C",
+        "INPUT_ACTION_KEY:Magic_D"
+      ],
+      "anchor": "center_left",
+      "pc_redirect": 28094806,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "repeatable": true
+    },
+    {
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1700166240,
+          "SL1": 365089555
+        }
+      },
+      "remind_at_occurence": 20,
+      "id_hash": 28003831,
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:spell_cast_mode",
+        "INPUT_ACTION_KEY:Magic_A",
+        "INPUT_ACTION_KEY:Magic_B",
+        "INPUT_ACTION_KEY:Magic_C",
+        "INPUT_ACTION_KEY:Magic_D"
+      ],
+      "anchor": "center_left",
+      "pc_redirect": 28094806,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "repeatable": true
+    },
+    {
+      "id_hash": 28094806,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Magic_A"
+      ],
+      "anchor": "center_left",
+      "duration": 8,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -804831528,
+          "SL1": -1180801963
+        }
+      }
+    },
+    {
+      "id_hash": 36857651,
+      "args": [
+        "INPUT_ACTION_KEY:Attack_A"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1141412917,
+          "SL1": 196085518
+        }
+      }
+    },
+    {
+      "id_hash": 11460712,
+      "pc_redirect": 18501160,
+      "args": [
+        "INPUT_ACTION_KEY:Attack_A"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1414250300,
+          "SL1": -1416841204
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 18501160,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Attack_A"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1414250300,
+          "SL1": -1416841204
+        }
+      }
+    },
+    {
+      "id_hash": 9878689,
+      "args": [
+        "INPUT_ACTION_KEY:Attack_A"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 694216029,
+          "SL1": -264806065
+        }
+      },
+      "pc_redirect": 16436604,
+      "duration": 10
+    },
+    {
+      "id_hash": 16436604,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1670004513,
+          "SL1": 757402063
+        }
+      },
+      "duration": 10,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Attack_A"
+      ]
+    },
+    {
+      "id_hash": 33238423,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -586363652,
+          "SL1": 1450688640
+        }
+      },
+      "duration": 12
+    },
+    {
+      "id_hash": 20091134,
+      "pc_redirect": 29936343,
+      "duration": 10,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1747724994,
+          "SL1": 897704057
+        }
+      }
+    },
+    {
+      "id_hash": 29936343,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1747724994,
+          "SL1": 897704057
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 34840357,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 800887366,
+          "SL1": 1286765715
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 22135336,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1166581920,
+          "SL1": -789028303
+        }
+      },
+      "duration": 8,
+      "remind_at_occurence": 60,
+      "repeatable": true
+    },
+    {
+      "id_hash": 33915597,
+      "max_prefires": 2,
+      "args": [
+        "INPUT_ACTION_KEY:quick_health_potion"
+      ],
+      "anchor": "center",
+      "duration": 8,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1361384918,
+          "SL1": -1132317317
+        }
+      }
+    },
+    {
+      "id_hash": 25491455,
+      "force_modal_next": true,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_X",
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "next": 23732828,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1522325346,
+          "SL1": -1184159956
+        }
+      }
+    },
+    {
+      "id_hash": 23732828,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_X"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1911430197,
+          "SL1": 735216684
+        }
+      }
+    },
+    {
+      "id_hash": 38974533,
+      "force_modal_next": true,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "next": 37215906,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1522325346,
+          "SL1": -1184159956
+        }
+      }
+    },
+    {
+      "id_hash": 37215906,
+      "args": [
+        "INPUT_ACTION_KEY:open_usable_items_radial"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 719732721,
+          "SL1": 1690156903
+        }
+      }
+    },
+    {
+      "id_hash": 18544374,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1681239467,
+          "SL1": 2084701759
+        }
+      },
+      "pc_redirect": 27863154,
+      "duration": 8
+    },
+    {
+      "id_hash": 27863154,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1681239467,
+          "SL1": 2084701759
+        }
+      },
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 21675761,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1914573861,
+          "SL1": -1414626296
+        }
+      },
+      "duration": 7,
+      "args": [
+        "INPUT_ACTION_KEY:quick_health_potion",
+        "INPUT_ACTION_KEY:quick_mana_potion"
+      ]
+    },
+    {
+      "id_hash": 21041818,
+      "args": [
+        "INPUT_ACTION_KEY:Stealth"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "next": 21619361,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1200069317,
+          "SL1": 215642312
+        }
+      }
+    },
+    {
+      "id_hash": 21619361,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 129710586,
+          "SL1": 689536705
+        }
+      },
+      "duration": 8,
+      "next": 33662497
+    },
+    {
+      "id_hash": 33662497,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -569638545,
+          "SL1": 652034620
+        }
+      },
+      "duration": 8,
+      "next": 21995684
+    },
+    {
+      "id_hash": 21995684,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1360286553,
+          "SL1": 604454968
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 29275904,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1803740621,
+          "SL1": -1958049487
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 69359831,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1327339361,
+          "SL1": -645784067
+        }
+      },
+      "anchor": "lower_left",
+      "duration": 8
+    },
+    {
+      "id_hash": 57935648,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1670659428,
+          "SL1": 412626960
+        }
+      },
+      "duration": 12
+    },
+    {
+      "id_hash": 55264864,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -476684926,
+          "SL1": 216346054
+        }
+      },
+      "duration": 12
+    },
+    {
+      "next": 48148238,
+      "force_modal_next": true,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1938929640,
+          "SL1": -1281133753
+        }
+      },
+      "id_hash": 24467584,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "reminder_id": 16201067
+    },
+    {
+      "id_hash": 16201067,
+      "args": {},
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -642676181,
+          "SL1": 889801337
+        }
+      },
+      "duration": 8,
+      "remind_at_occurence": 1,
+      "repeatable": true
+    },
+    {
+      "id_hash": 13162282,
+      "args": {},
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 2067947787,
+          "SL1": 611022837
+        }
+      },
+      "duration": 8,
+      "remind_at_occurence": 1,
+      "repeatable": true
+    },
+    {
+      "next": 48148238,
+      "force_modal_next": true,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1355790313,
+          "SL1": 1853376627
+        }
+      },
+      "id_hash": 20797091,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "reminder_id": 13162282
+    },
+    {
+      "id_hash": 22117482,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1082598182,
+          "SL1": 174191580
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 16569966,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1168181985,
+          "SL1": 1574556964
+        }
+      },
+      "duration": 10,
+      "args": [
+        "INPUT_ACTION_KEY:LedgerLaunchMap"
+      ]
+    },
+    {
+      "id_hash": 30414296,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_Y"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1881414413,
+          "SL1": -1637801803
+        }
+      }
+    },
+    {
+      "id_hash": 61907945,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 708487179,
+          "SL1": 639989200
+        }
+      }
+    },
+    {
+      "id_hash": 34578211,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 483951205,
+          "SL1": 113611177
+        }
+      },
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_X"
+      ]
+    },
+    {
+      "id_hash": 21052453,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -171224601,
+          "SL1": -1039317704
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 29200780,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1901418983,
+          "SL1": -399590335
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 35926227,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1346467684,
+          "SL1": 706536065
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 68250781,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -638965269,
+          "SL1": -222147648
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 47899806,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -630814375,
+          "SL1": -431428586
+        }
+      }
+    },
+    {
+      "id_hash": 88622818,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1990533422,
+          "SL1": -1556245540
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 65758380,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -108975660,
+          "SL1": 798671688
+        }
+      }
+    },
+    {
+      "id_hash": 91425686,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1362063140,
+          "SL1": -1948168889
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 79090488,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -924808475,
+          "SL1": 347101985
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 21980198,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 711287179,
+          "SL1": -506460592
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 82674331,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1622168963,
+          "SL1": 1081728356
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 99289131,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_X"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 2074999603,
+          "SL1": -945128412
+        }
+      }
+    },
+    {
+      "id_hash": 44776070,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1028740221,
+          "SL1": -603980214
+        }
+      }
+    },
+    {
+      "id_hash": 52575126,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1688789814,
+          "SL1": -123692853
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 55548402,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1530818777,
+          "SL1": 1155029842
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 65721461,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1728050033,
+          "SL1": -1970275809
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 22254986,
+      "args": [
+        "INPUT_ACTION_KEY:Sprint_Toggle_A"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 998111364,
+          "SL1": 768900207
+        }
+      },
+      "pc_redirect": 32100195,
+      "duration": 6
+    },
+    {
+      "id_hash": 51919439,
+      "args": [
+        "INPUT_ACTION_KEY:Sprint_Toggle_A"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1349977091,
+          "SL1": 1479045292
+        }
+      },
+      "pc_redirect": 32100195,
+      "duration": 6
+    },
+    {
+      "id_hash": 54468110,
+      "args": [
+        "INPUT_ACTION_KEY:Sprint_Toggle_LS"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1349977091,
+          "SL1": 1479045292
+        }
+      },
+      "pc_redirect": 32100195,
+      "duration": 6
+    },
+    {
+      "id_hash": 32100195,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1349977091,
+          "SL1": 1479045292
+        }
+      },
+      "duration": 6,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Sprint_Toggle"
+      ]
+    },
+    {
+      "id_hash": 52056035,
+      "args": [
+        "INPUT_ACTION_KEY:Sprint_Toggle_A"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -2123300817,
+          "SL1": -1305748027
+        }
+      },
+      "pc_redirect": 67566349,
+      "duration": 6
+    },
+    {
+      "id_hash": 96415535,
+      "args": [
+        "INPUT_ACTION_KEY:Sprint_Toggle_A"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 537214600,
+          "SL1": -1621791925
+        }
+      },
+      "pc_redirect": 67566349,
+      "duration": 6
+    },
+    {
+      "id_hash": 100325795,
+      "args": [
+        "INPUT_ACTION_KEY:Sprint_Toggle_LS"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 537214600,
+          "SL1": -1621791925
+        }
+      },
+      "pc_redirect": 67566349,
+      "duration": 6
+    },
+    {
+      "id_hash": 67566349,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 537214600,
+          "SL1": -1621791925
+        }
+      },
+      "duration": 6,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Sprint_Toggle"
+      ]
+    },
+    {
+      "id_hash": 17524338,
+      "pc_redirect": 26339831,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1094969959,
+          "SL1": 1046652813
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 26339831,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 835216674,
+          "SL1": -1491113414
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_up",
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_down",
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_left",
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_right"
+      ]
+    },
+    {
+      "id_hash": 25608663,
+      "args": [
+        "INPUT_ACTION_KEY:Attack_A"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 305350913,
+          "SL1": -822130918
+        }
+      },
+      "pc_redirect": 36227015,
+      "duration": -1
+    },
+    {
+      "id_hash": 36227015,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Attack_A"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 305350913,
+          "SL1": -822130918
+        }
+      }
+    },
+    {
+      "id_hash": 23850036,
+      "args": [
+        "INPUT_ACTION_KEY:Attack_B"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -727315064,
+          "SL1": 560430332
+        }
+      },
+      "pc_redirect": 34468388,
+      "duration": -1
+    },
+    {
+      "id_hash": 34468388,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Attack_B"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -727315064,
+          "SL1": 560430332
+        }
+      }
+    },
+    {
+      "id_hash": 24183951,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1730599775,
+          "SL1": -1813743352
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 23936604,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -247235170,
+          "SL1": -418011357
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 49968583,
+      "args": [
+        "INPUT_ACTION_KEY:OpenLedger"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1113855304,
+          "SL1": 945161460
+        }
+      }
+    },
+    {
+      "id_hash": 65478897,
+      "args": [
+        "INPUT_ACTION_KEY:PopInventoryWin"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1113855304,
+          "SL1": 945161460
+        }
+      }
+    },
+    {
+      "id_hash": 73643064,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1174283046,
+          "SL1": -1273644388
+        }
+      },
+      "pc_redirect": 92250077,
+      "duration": -1
+    },
+    {
+      "id_hash": 92250077,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1585996227,
+          "SL1": 1333991961
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 67489711,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1791265021,
+          "SL1": 807398034
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 79609744,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 430587361,
+          "SL1": -1068157855
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ]
+    },
+    {
+      "id_hash": 54249592,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 557902232,
+          "SL1": -1386661907
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ]
+    },
+    {
+      "id_hash": 61835887,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 531595914,
+          "SL1": 871385977
+        }
+      },
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:OpenLedger"
+      ]
+    },
+    {
+      "id_hash": 5911576,
+      "duration": -1,
+      "max_prefires": 4,
+      "args": [
+        "INPUT_ACTION_KEY:dive_roll_chain"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 549032183,
+          "SL1": -1604962743
+        }
+      },
+      "pc_redirect": 11572763,
+      "reminder_id": 24435910
+    },
+    {
+      "id_hash": 24435910,
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:dive_roll_chain",
+        "INPUT_ACTION_KEY:Block_Press"
+      ],
+      "pc_redirect": 35054262,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 211797236,
+          "SL1": -1717312507
+        }
+      },
+      "remind_at_occurence": 30,
+      "repeatable": true
+    },
+    {
+      "id_hash": 35054262,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 994643228,
+          "SL1": -65247293
+        }
+      },
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:dive_roll_chain",
+        "INPUT_ACTION_KEY:PC_Block_Press"
+      ]
+    },
+    {
+      "id_hash": 11572763,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_up",
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_down",
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_left",
+        "INPUT_ACTION_KEY:controllerCommonMode_lstick_right",
+        "INPUT_ACTION_KEY:dive_roll_chain"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 591421519,
+          "SL1": 473615749
+        }
+      }
+    },
+    {
+      "id_hash": 7583992,
+      "duration": -1,
+      "max_prefires": 4,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 410620919,
+          "SL1": -2059037896
+        }
+      },
+      "pc_redirect": 13245179,
+      "reminder_id": 24435910
+    },
+    {
+      "id_hash": 13080999,
+      "duration": -1,
+      "max_prefires": 4,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 869494967,
+          "SL1": 836595618
+        }
+      },
+      "pc_redirect": 13245179,
+      "reminder_id": 24435910
+    },
+    {
+      "id_hash": 13245179,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 869494967,
+          "SL1": 836595618
+        }
+      },
+      "args": [
+        "INPUT_ACTION_KEY:PC_Block_Press"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "max_prefires": 4,
+      "reminder_id": 24435910
+    },
+    {
+      "id_hash": 5361078,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1530789350,
+          "SL1": 1564361707
+        }
+      },
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 20967961,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1908327356,
+          "SL1": 157694724
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 24741545,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1569942157,
+          "SL1": -1421633812
+        }
+      },
+      "pc_redirect": 35359897,
+      "duration": 8
+    },
+    {
+      "id_hash": 35359897,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Block_Press"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1569942157,
+          "SL1": -1421633812
+        }
+      },
+      "pc_redirect": 35359897,
+      "duration": 8
+    },
+    {
+      "id_hash": 9354376,
+      "pc_redirect": 15437960,
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1338144731,
+          "SL1": 154617240
+        }
+      }
+    },
+    {
+      "id_hash": 15437960,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1203446738,
+          "SL1": 134788538
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 21933031,
+      "args": [
+        "INPUT_ACTION_KEY:OpenLedger"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 18732714,
+          "SL1": 70845728
+        }
+      }
+    },
+    {
+      "id_hash": 64099407,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 2059482868,
+          "SL1": 1235372489
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 40879367,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1018065586,
+          "SL1": 471629601
+        }
+      },
+      "duration": 12
+    },
+    {
+      "id_hash": 27387105,
+      "args": [
+        "INPUT_ACTION_KEY:OpenLedger"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -490048930,
+          "SL1": 1174616862
+        }
+      },
+      "duration": 8,
+      "remind_at_occurence": 1,
+      "repeatable": true
+    },
+    {
+      "id_hash": 30149972,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1342537548,
+          "SL1": -736740228
+        }
+      }
+    },
+    {
+      "id_hash": 11486481,
+      "pc_redirect": 18526929,
+      "args": [
+        "INPUT_ACTION_KEY:Attack_B"
+      ],
+      "anchor": "center",
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1525638797,
+          "SL1": 696328914
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 18526929,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Attack_B"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1525638797,
+          "SL1": 696328914
+        }
+      }
+    },
+    {
+      "id_hash": 9902354,
+      "args": [
+        "INPUT_ACTION_KEY:Attack_B"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 694216029,
+          "SL1": -264806065
+        }
+      },
+      "pc_redirect": 16460269,
+      "duration": 12
+    },
+    {
+      "id_hash": 16460269,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1905048221,
+          "SL1": 1864586121
+        }
+      },
+      "duration": 10,
+      "args": [
+        "INPUT_ACTION_KEY:PC_Attack_B"
+      ]
+    },
+    {
+      "id_hash": 24328435,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1766399614,
+          "SL1": -885262353
+        }
+      },
+      "duration": -1
+    },
+    {
+      "max_prefires": 2,
+      "next": 29406189,
+      "duration": 8,
+      "id_hash": 29877441,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 102958275,
+          "SL1": -1499231711
+        }
+      }
+    },
+    {
+      "id_hash": 29406189,
+      "args": [
+        "INPUT_ACTION_KEY:quick_mana_potion"
+      ],
+      "duration": 10,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1721775257,
+          "SL1": 1766580144
+        }
+      }
+    },
+    {
+      "id_hash": 25375281,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -122396871,
+          "SL1": -1252818705
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 20712546,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -375422927,
+          "SL1": -1308546217
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 35343903,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1032174203,
+          "SL1": 1518616289
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 24620006,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1867234694,
+          "SL1": -1587122843
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 41334752,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1611640355,
+          "SL1": 1196222342
+        }
+      },
+      "duration": 10,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 86636908,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -303634140,
+          "SL1": -164602701
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 117454954,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -403746513,
+          "SL1": -1264668056
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 92295414,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1285141392,
+          "SL1": -909670561
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 86069032,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1543065843,
+          "SL1": -1095122599
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ]
+    },
+    {
+      "id_hash": 101971780,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 985614637,
+          "SL1": -466996636
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:OpenLedger"
+      ]
+    },
+    {
+      "id_hash": 27139644,
+      "next": 31924522,
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 272530679,
+          "SL1": -920518760
+        }
+      }
+    },
+    {
+      "id_hash": 31924522,
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1740428052,
+          "SL1": -398306418
+        }
+      }
+    },
+    {
+      "id_hash": 47493555,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1985673757,
+          "SL1": 339901694
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 49086558,
+      "title_text": {
+        "literal_localization_ids": {
+          "SL2": -1862901465,
+          "SL1": 340537989
+        }
+      },
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -476530771,
+          "SL1": -699940758
+        }
+      },
+      "duration": 24
+    },
+    {
+      "id_hash": 51342952,
+      "args": [
+        "INPUT_ACTION_KEY:OpenLedger"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1978963964,
+          "SL1": 1165868069
+        }
+      }
+    },
+    {
+      "id_hash": 56057732,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 102666310,
+          "SL1": 305267251
+        }
+      },
+      "duration": 12,
+      "args": [
+        "INPUT_ACTION_KEY:OpenLedger"
+      ]
+    },
+    {
+      "id_hash": 72457757,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 723049773,
+          "SL1": -1967273861
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 70178433,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 863605036,
+          "SL1": -338131319
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_rtrigger_press",
+        "INPUT_ACTION_KEY:controllerCommonMode_ltrigger_press",
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ]
+    },
+    {
+      "id_hash": 50692483,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 402387028,
+          "SL1": 59879612
+        }
+      },
+      "duration": -1,
+      "title_text": {
+        "literal_localization_ids": {
+          "SL2": -1862901465,
+          "SL1": 340537989
+        }
+      }
+    },
+    {
+      "id_hash": 21934043,
+      "anchor": "center_left",
+      "duration": 8,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 736419328,
+          "SL1": 1420432976
+        }
+      }
+    },
+    {
+      "id_hash": 47271002,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 327285754,
+          "SL1": 14758118
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 23229940,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1173058809,
+          "SL1": -131362841
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 23936382,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -526054874,
+          "SL1": 1053998311
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 72318107,
+      "args": [
+        "INPUT_ACTION_KEY:PC_cycle_weapon_mode"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1633691636,
+          "SL1": -1121018472
+        }
+      }
+    },
+    {
+      "id_hash": 71377855,
+      "next": 11460712,
+      "force_modal_next": true,
+      "args": [
+        "INPUT_ACTION_KEY:PC_cycle_weapon_mode"
+      ],
+      "anchor": "center",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -975541490,
+          "SL1": 1357068908
+        }
+      }
+    },
+    {
+      "id_hash": 33353431,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -318133931,
+          "SL1": 1982132757
+        }
+      },
+      "duration": 8,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_Y"
+      ]
+    },
+    {
+      "id_hash": 48735995,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 200726553,
+          "SL1": -162186311
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 51133164,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1671765275,
+          "SL1": -2125236940
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 57317553,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 587149932,
+          "SL1": 1974363097
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 44440424,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 887466277,
+          "SL1": -1009644753
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 45976778,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1150756824,
+          "SL1": -288423931
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 58678649,
+      "args": [
+        "INPUT_ACTION_KEY:AggressiveToggle",
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1066759616,
+          "SL1": -495435540
+        }
+      }
+    },
+    {
+      "id_hash": 56046658,
+      "next": 56101647,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "force_modal_next": true,
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1807478981,
+          "SL1": 1426595809
+        }
+      }
+    },
+    {
+      "id_hash": 56101647,
+      "args": [
+        "INPUT_ACTION_KEY:AggressiveToggle",
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1570833968,
+          "SL1": -492143648
+        }
+      }
+    },
+    {
+      "id_hash": 56159696,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1218350524,
+          "SL1": -1405996061
+        }
+      }
+    },
+    {
+      "id_hash": 36670906,
+      "args": [
+        "INPUT_ACTION_KEY:Recenter_Camera"
+      ],
+      "pc_redirect": 49129741,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -891976490,
+          "SL1": -844670990
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 49164329,
+      "args": [
+        "INPUT_ACTION_KEY:Recenter_Camera"
+      ],
+      "pc_redirect": 49129741,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1588039045,
+          "SL1": 1890990858
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 49129741,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1588039045,
+          "SL1": 1890990858
+        }
+      },
+      "duration": 10,
+      "args": [
+        "INPUT_ACTION_KEY:Shoulder_Camera"
+      ]
+    },
+    {
+      "id_hash": 65552565,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 104176758,
+          "SL1": 844330837
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 58958037,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_Y"
+      ],
+      "pc_redirect": 75730797,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 416540921,
+          "SL1": 1837260835
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 75730797,
+      "pc_redirect": 75730797,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -156922502,
+          "SL1": 1963459064
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 48148238,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ],
+      "anchor": "center_left",
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1903212102,
+          "SL1": -1884974666
+        }
+      }
+    },
+    {
+      "id_hash": 14920559,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1078186332,
+          "SL1": 2124984939
+        }
+      },
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 33688629,
+      "args": [
+        "INPUT_ACTION_KEY:controllerCommonMode_A"
+      ],
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -2089543996,
+          "SL1": 1986781884
+        }
+      }
+    },
+    {
+      "id_hash": 20185536,
+      "anchor": "UI_Modal",
+      "duration": -1,
+      "preq_func": {
+        "source_callback": "unexecuted"
+      },
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -149349173,
+          "SL1": -903117542
+        }
+      }
+    },
+    {
+      "id_hash": 29030449,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 554572223,
+          "SL1": 923806133
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ]
+    },
+    {
+      "id_hash": 41034878,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1491901877,
+          "SL1": -1282703028
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ]
+    },
+    {
+      "id_hash": 37609757,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1178067921,
+          "SL1": 1286959740
+        }
+      },
+      "duration": 12,
+      "args": [
+        "INPUT_ACTION_KEY:Ranged_Mode1_Hold"
+      ]
+    },
+    {
+      "id_hash": 56144112,
+      "pc_redirect": 72318107,
+      "duration": -1,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1078658782,
+          "SL1": 162414851
+        }
+      }
+    },
+    {
+      "id_hash": 35337448,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 990947612,
+          "SL1": -1920864846
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 67394905,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1692198953,
+          "SL1": -372640498
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 63108933,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1260212551,
+          "SL1": 1780503622
+        }
+      },
+      "duration": -1,
+      "args": [
+        "INPUT_ACTION_KEY:interact_with_or_action"
+      ]
+    },
+    {
+      "id_hash": 36811872,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1561881657,
+          "SL1": -612722246
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 38470242,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1769041469,
+          "SL1": 745820562
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 50547230,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 798700003,
+          "SL1": 325851090
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 42307411,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 775937811,
+          "SL1": 1273568812
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 22697183,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1086421050,
+          "SL1": -1623735614
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 17235219,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1964046134,
+          "SL1": -78183155
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 27706536,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -806355593,
+          "SL1": 584018664
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 24531477,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -449354895,
+          "SL1": 467285425
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 54309553,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1434215363,
+          "SL1": 1545494403
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 31327649,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 2083094142,
+          "SL1": -414879608
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 33404862,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1168731414,
+          "SL1": 1908668045
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 64282873,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -48563368,
+          "SL1": 1571324714
+        }
+      },
+      "anchor": "UI_Modal",
+      "duration": -1
+    },
+    {
+      "id_hash": 87180666,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 205153470,
+          "SL1": 1852513443
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 70314590,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1239983373,
+          "SL1": 591655978
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 60022360,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -2087306718,
+          "SL1": 1567890885
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 76795120,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -2138403839,
+          "SL1": -2132213541
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 105724776,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1923234662,
+          "SL1": 35440492
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 101013043,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1129862183,
+          "SL1": 993244466
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 39751204,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 82779996,
+          "SL1": -1959981771
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 57511883,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -240162258,
+          "SL1": 2122773008
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 64496577,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1395657955,
+          "SL1": 1357315085
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 40705792,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1759283502,
+          "SL1": -891322882
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 56419345,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -2030931195,
+          "SL1": 124078050
+        }
+      },
+      "duration": 12,
+      "next": 71247602
+    },
+    {
+      "id_hash": 71247602,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 833072377,
+          "SL1": -1304211066
+        }
+      },
+      "duration": 12
+    },
+    {
+      "id_hash": 55434520,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1303354369,
+          "SL1": 1041065904
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 59730091,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1625636013,
+          "SL1": 1224462729
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 63932140,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1114004020,
+          "SL1": 1718499483
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 31119760,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 710996159,
+          "SL1": -1896275087
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 22926598,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1733734526,
+          "SL1": 1624531294
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 14895693,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1293885825,
+          "SL1": 846581597
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 36221710,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -868910101,
+          "SL1": 1406494163
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 20779962,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1366824112,
+          "SL1": -87451371
+        }
+      },
+      "duration": 8
+    },
+    {
+      "id_hash": 34492955,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1223790108,
+          "SL1": 785560132
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 46211248,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1980665412,
+          "SL1": 1455031187
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 62017457,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1879065320,
+          "SL1": 1506935586
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 45895104,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -591507473,
+          "SL1": -229459920
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 31660506,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -4619832,
+          "SL1": -684570451
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 56248460,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1115330914,
+          "SL1": 853292032
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 63864192,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 615054465,
+          "SL1": -928141350
+        }
+      },
+      "duration": 12
+    },
+    {
+      "id_hash": 55344110,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 346138698,
+          "SL1": -633511810
+        }
+      },
+      "duration": 12
+    },
+    {
+      "id_hash": 95057343,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1760907393,
+          "SL1": -1328406148
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 90722381,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 273252465,
+          "SL1": -1844985173
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 66617046,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 2032448930,
+          "SL1": 888453766
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 75986773,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 743459994,
+          "SL1": -1174418102
+        }
+      },
+      "duration": -1
+    },
+    {
+      "id_hash": 36320795,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -320757334,
+          "SL1": -1120569416
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 34496655,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -1726838342,
+          "SL1": 1345693516
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 38465932,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 390779970,
+          "SL1": -747016079
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 52059084,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 6744655,
+          "SL1": 1163705599
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 26626661,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": -887531823,
+          "SL1": -405905932
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 31549454,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1018513515,
+          "SL1": -1566024817
+        }
+      },
+      "duration": 10
+    },
+    {
+      "id_hash": 13824178,
+      "args": [
+        "INPUT_ACTION_KEY:Block_Press",
+        "INPUT_ACTION_KEY:spell_cast_mode"
+      ],
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 11119159,
+          "SL1": -404602411
+        }
+      },
+      "pc_redirect": 21483519,
+      "duration": 10
+    },
+    {
+      "id_hash": 21483519,
+      "text": {
+        "literal_localization_ids": {
+          "SL2": 1476616916,
+          "SL1": 1385658853
+        }
+      },
+      "duration": 10,
+      "args": [
+        "INPUT_ACTION_KEY:pc_reckoning_mode_press"
+      ]
+    }
+  ]
+}

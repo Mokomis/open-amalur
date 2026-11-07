@@ -1,0 +1,80 @@
+{
+  "7534": {
+    "sType": "VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO",
+    "pNext": null,
+    "flags": 0,
+    "logicOpEnable": 0,
+    "logicOp": "VK_LOGIC_OP_CLEAR",
+    "attachmentCount": 1,
+    "pAttachments": [
+      {
+        "blendEnable": 1,
+        "srcColorBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "dstColorBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "colorBlendOp": "VK_BLEND_OP_ADD",
+        "srcAlphaBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "dstAlphaBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "alphaBlendOp": "VK_BLEND_OP_ADD",
+        "colorWriteMask": 0
+      }
+    ],
+    "blendConstants": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "7536": {
+    "sType": "VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO",
+    "pNext": null,
+    "flags": 0,
+    "logicOpEnable": 0,
+    "logicOp": "VK_LOGIC_OP_CLEAR",
+    "attachmentCount": 1,
+    "pAttachments": [
+      {
+        "blendEnable": 1,
+        "srcColorBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "dstColorBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "colorBlendOp": "VK_BLEND_OP_ADD",
+        "srcAlphaBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "dstAlphaBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "alphaBlendOp": "VK_BLEND_OP_ADD",
+        "colorWriteMask": 15
+      }
+    ],
+    "blendConstants": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "7539": {
+    "sType": "VK_STRUCTURE_TYPE_PIPELINE_COLOR_BLEND_STATE_CREATE_INFO",
+    "pNext": null,
+    "flags": 0,
+    "logicOpEnable": 0,
+    "logicOp": "VK_LOGIC_OP_CLEAR",
+    "attachmentCount": 1,
+    "pAttachments": [
+      {
+        "blendEnable": 1,
+        "srcColorBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "dstColorBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "colorBlendOp": "VK_BLEND_OP_ADD",
+        "srcAlphaBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "dstAlphaBlendFactor": "VK_BLEND_FACTOR_ONE",
+        "alphaBlendOp": "VK_BLEND_OP_ADD",
+        "colorWriteMask": 15
+      }
+    ],
+    "blendConstants": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "counts": {
+    "instances": 537,
+    "triangles": 108786
+  },
+  "cells": [
+    [
+      -1,
+      -11
+    ],
+    [
+      -1,
+      -10
+    ],
+    [
+      -1,
+      -9
+    ],
+    [
+      0,
+      -15
+    ],
+    [
+      0,
+      -14
+    ],
+    [
+      0,
+      -13
+    ],
+    [
+      0,
+      -11
+    ],
+    [
+      0,
+      -10
+    ],
+    [
+      0,
+      -9
+    ],
+    [
+      1,
+      -15
+    ],
+    [
+      1,
+      -14
+    ],
+    [
+      1,
+      -13
+    ],
+    [
+      1,
+      -11
+    ],
+    [
+      1,
+      -10
+    ],
+    [
+      1,
+      -9
+    ],
+    [
+      2,
+      -15
+    ],
+    [
+      2,
+      -14
+    ],
+    [
+      2,
+      -13
+    ]
+  ],
+  "bytes": 24803228,
+  "sha256": "dce3c1aa9ea28bb59902e3841582ede029cf0fe336d6d04db08ac4fc7ecca7e4",
+  "header": "OAWT u32version1,u32stride76,u32vertexCount,u32indexCount0; triangle soup",
+  "vertex": "16float32 = pos3,N3,T3,B3,UV0_2,UV1_2;RGBA8;u32nativeMaterialId;u32flags",
+  "limitations": [
+    "source-correlated current-generation pose recipe, not native nonunit bind proof",
+    "singleUV source48 duplicatesUV0 toUV1; flag presently3 means sourceframe+RGBA present, not secondUV observed",
+    "only cached source files; no extraction or oldfilewrites",
+    "source-triangle soup still needs exact existingcell join beforedeployment",
+    "LOD1/2clusterattributeownership not recovered"
+  ]
+}

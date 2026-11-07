@@ -1,0 +1,153 @@
+##### d_0xd46f60
+
+undefined4 FUN_00d46f60(undefined4 param_1,int param_2)
+{
+  iStack_38 = 0xd46f74;
+  FUN_00d45e00();
+  iStack_38 = 0xd46f7f;
+  FUN_00cec950();
+  *(int *)(in_ECX + 0x27c) = in_ECX;
+  iStack_38 = 0xd46fb6;
+  FUN_00a87550();
+  iStack_38 = param_2;
+  iStack_3c = param_1;
+  uStack_40 = 0xd46fc9;
+  FUN_00a92bf0();
+  iStack_38 = 4;
+  iStack_3c = in_ECX + 0x438;
+  uStack_40 = 0xd46fdf;
+  FUN_00a8aa00();
+  uStack_40 = 4;
+  iStack_44 = in_ECX + 0x43c;
+  uStack_48 = 0xd46ff5;
+  (**(code **)(unaff_EBP + 4))();
+  uStack_48 = 4;
+  iStack_4c = in_ECX + 0x440;
+  uStack_50 = 0xd4700b;
+  (**(code **)(unaff_EDI + 4))();
+  uStack_50 = 4;
+  iStack_54 = in_ECX + 0x444;
+  uStack_58 = 0xd47021;
+  (**(code **)(iStack_3c + 4))();
+  uStack_58 = 4;
+  iStack_5c = in_ECX + 0x448;
+  uStack_60 = 0xd47037;
+  (**(code **)(iStack_44 + 4))();
+  uStack_60 = 4;
+  uStack_68 = 0xd4704d;
+  pfStack_64 = (float *)(in_ECX + 0x44c);
+  (**(code **)(iStack_4c + 4))();
+  uStack_68 = 4;
+  iStack_6c = in_ECX + 0x450;
+  uStack_70 = 0xd47063;
+  (**(code **)(iStack_54 + 4))();
+  iStack_74 = in_ECX + 0x454;
+  uStack_70 = 4;
+  uStack_78 = 0xd47079;
+  (**(code **)(iStack_5c + 4))();
+  uStack_78 = 4;
+  iStack_7c = in_ECX + 0x458;
+  uStack_80 = 0xd4708f;
+  (*(code *)pfStack_64[1])();
+  uStack_80 = 4;
+  iStack_84 = in_ECX + 0x45c;
+  piStack_88 = (int *)0xd470a5;
+  (**(code **)(iStack_6c + 4))();
+  piStack_88 = &iStack_74;
+  *(int *)(in_ECX + 0x47c) = (int)(400.0 / *(float *)(in_ECX + 0x44c));
+  iStack_8c = 0xd470ce;
+  FUN_00c9d170();
+  piStack_88 = (int *)0x4;
+  iStack_8c = in_ECX + 0x460;
+  uStack_90 = 0xd470e4;
+  (**(code **)(iStack_74 + 4))();
+  uStack_90 = 4;
+  iStack_94 = in_ECX + 0x464;
+  iStack_98 = 0xd470fa;
+  (**(code **)(iStack_7c + 4))();
+  iStack_98 = 4;
+  aiStack_a4[2] = in_ECX + 0x468;
+  aiStack_a4[1] = 0xd47110;
+  (**(code **)(iStack_84 + 4))();
+  aiStack_a4[1] = 4;
+  aiStack_a4[0] = in_ECX + 0x46c;
+  uStack_a8 = 0xd47126;
+  (**(code **)(iStack_8c + 4))();
+  uStack_68 = *(undefined4 *)(in_ECX + 0x478);
+  uStack_a8 = 4;
+  ppuStack_ac = (undefined **)(in_ECX + 0x470);
+  (**(code **)(iStack_94 + 4))();
+  FUN_00ca9e70(uStack_70,aiStack_a4 + 2,in_ECX + 0x474,*(undefined **)(in_ECX + 0x470));
+  FUN_00d46dd0(aiStack_a4 + 2);
+  FUN_00a8db50(aiStack_a4 + 2);
+  uVar3 = *(undefined4 *)(in_ECX + 0x370);
+  (**(code **)(aiStack_a4[2] + 4))((undefined4 *)(in_ECX + 0x368),4);
+  FUN_00a467a0(uVar3,aiStack_a4,in_ECX + 0x36c,*(undefined4 *)(in_ECX + 0x368));
+  uVar3 = *(undefined4 *)(in_ECX + 0x37c);
+  (**(code **)(aiStack_a4[0] + 4))((undefined4 *)(in_ECX + 0x374),4);
+  FUN_00a467a0(uVar3,&ppuStack_ac,in_ECX + 0x378,*(undefined4 *)(in_ECX + 0x374));
+  iVar1 = FUN_00a875b0();
+  param_2 = param_2 - iVar1;
+  puVar2 = (undefined4 *)FUN_00afdf70(0x16,0x24);
+  if (puVar2 != (undefined4 *)0x0) {
+    *puVar2 = BHG::MemoryDataWalk::vftable;
+    *(undefined2 *)((int)puVar2 + 0x22) = 0xffff;
+    *(undefined2 *)(puVar2 + 8) = 0x1a;
+    puVar2[5] = 0;
+    puVar2[7] = 0;
+    puVar2[6] = 0;
+    FUN_00a87550();
+  }
+  *(undefined4 **)(in_ECX + 0x484) = puVar2;
+  uVar3 = FUN_00a875c0(param_2);
+  FUN_00a92bf0(uVar3,param_2);
+  ppuStack_ac = BHG::MemoryDataWalk::vftable;
+  FUN_00a87560();
+  if (iStack_98 != 0) {
+    FUN_00afe180((int)(short)iStack_8c,iStack_98);
+  }
+  return 0;
+}
+
+##### d_0xd461a0
+
+void FUN_00d461a0(void)
+{
+  if (*(int *)(in_ECX + 0x1c0) != 0) {
+    FUN_00d33a50(1,in_ECX + 0xfc,in_ECX);
+  }
+  iVar1 = *(int *)(in_ECX + 0x1c0);
+  if (iVar1 != 0) {
+    FUN_00c7b760();
+    FUN_00afe180(0x16,iVar1);
+    *(undefined4 *)(in_ECX + 0x1c0) = 0;
+  }
+  *(undefined4 *)(in_ECX + 0x1c0) = 0;
+  *(undefined1 *)(in_ECX + 0x1d0) = 0;
+  FUN_00cd7b60();
+  FUN_00ac3a60();
+  *(undefined4 *)(in_ECX + 0x19c) = 0;
+  *(undefined4 *)(in_ECX + 0x1a0) = 0;
+  *(undefined4 *)(in_ECX + 0x1b8) = 0;
+  FUN_00d21910();
+  FUN_00d21740();
+  FUN_00d45e00();
+  FUN_00c830d0(0x16);
+  if (*(int *)(in_ECX + 0x358) != 0) {
+    FUN_00afe180((int)*(short *)(in_ECX + 0x364),*(int *)(in_ECX + 0x358));
+  }
+  *(undefined4 *)(in_ECX + 0x358) = 0;
+  *(undefined4 *)(in_ECX + 0x360) = 0;
+  *(undefined4 *)(in_ECX + 0x35c) = 0;
+  *(undefined2 *)(in_ECX + 0x366) = 0xffff;
+  FUN_00d21910();
+  FUN_00d21740();
+  FUN_00c9d6a0();
+  FUN_00a6ce00();
+  return;
+}
+
+##### e_0xd46f60
+["0xa467a0","0xa87550","0xa87560","0xa875b0","0xa875c0","0xa8aa00","0xa8db50","0xa92bf0","0xafdf70","0xafe180","0xc9d170","0xca9e70","0xcec950","0xd45e00","0xd46dd0"]
+##### e_0xd461a0
+["0xa6ce00","0xac3a60","0xafe180","0xc7b760","0xc830d0","0xc9d6a0","0xcd7b60","0xd21740","0xd21910","0xd33a50","0xd45e00"]

@@ -1,0 +1,48 @@
+{
+  "status": "Offline native Edge decoder invocation; original PE sections only mapped privately, entrypoint/imports notrun",
+  "command": [
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-char\\clip-bake.exe",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v30-engine\\koa.exe",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\initial-sword-audit\\inputs\\initial_0.pak\\1789717.fab_bxml",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\initial-sword-visuals\\animation-inputs\\inputs\\initial_0.pak\\1789841.anm_bxml",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\initial-sword-visuals\\animation-audit\\1789841-native-local-trs.bin"
+  ],
+  "inputs": [
+    {
+      "file": "work\\v20-char\\clip-bake.exe",
+      "bytes": 137728,
+      "sha256": "aa597dd00fcf06dcdaf1cb5755fdc5a7383b71f1ff684d9e4ddf976cd4b33d58"
+    },
+    {
+      "file": "work\\v30-engine\\koa.exe",
+      "bytes": 23741952,
+      "sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314"
+    },
+    {
+      "file": "work\\v48-opening\\initial-sword-audit\\inputs\\initial_0.pak\\1789717.fab_bxml",
+      "bytes": 7307,
+      "sha256": "3c6079e7ebb62089753ed987d727048947191f3f4c3c5abfe60e11d9c20987fa"
+    },
+    {
+      "file": "work\\v48-opening\\initial-sword-visuals\\animation-inputs\\inputs\\initial_0.pak\\1789841.anm_bxml",
+      "bytes": 10137,
+      "sha256": "0c2a56c72df549647479c0fd45393ed174091b8ca4feed6cbfc2bb9d2557906e"
+    },
+    {
+      "file": "work\\v20-char\\clip_bake.cpp",
+      "bytes": 4995,
+      "sha256": "4d96e2f42ff74b3f10bfcb84f38314d9fbdd8611285480b01aadb57785c18e68"
+    }
+  ],
+  "native_function": "0111bf10",
+  "output": "work\\v48-opening\\initial-sword-visuals\\animation-audit\\1789841-native-local-trs.bin",
+  "exit_code": 0,
+  "stdout": "joints 54 frames 101 sets 3 fps 30.000\n",
+  "stderr": "",
+  "elapsed_seconds": 0.06299999996554106,
+  "output_receipt": {
+    "file": "work\\v48-opening\\initial-sword-visuals\\animation-audit\\1789841-native-local-trs.bin",
+    "bytes": 261804,
+    "sha256": "1dd30ca9441d98d8c8a308d93c434c8c9baac8f7d5226419a79ed2a1a94d3ede"
+  }
+}

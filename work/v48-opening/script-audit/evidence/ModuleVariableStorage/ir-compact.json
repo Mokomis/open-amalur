@@ -1,0 +1,4372 @@
+{
+  "path": "0",
+  "parameter_count": 0,
+  "maximum_stack_size": 3,
+  "upvalue_count": 0,
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 304,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        2
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"module\""
+    },
+    {
+      "pc": 2,
+      "file_offset": 312,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 3,
+      "Bx": 3,
+      "successors": [
+        3
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"ModuleVariableStorage\""
+    },
+    {
+      "pc": 3,
+      "file_offset": 316,
+      "name": "GETGLOBAL_MEM",
+      "A": 2,
+      "B": 0,
+      "C": 4,
+      "Bx": 4,
+      "successors": [
+        5
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"package\""
+    },
+    {
+      "pc": 5,
+      "file_offset": 324,
+      "name": "GETFIELD_R1",
+      "A": 2,
+      "B": 2,
+      "C": 7,
+      "Bx": 1031,
+      "successors": [
+        8
+      ],
+      "kind": "getfield_cached_k",
+      "constant_lua": "\"seeall\""
+    },
+    {
+      "pc": 8,
+      "file_offset": 336,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 3,
+      "C": 1,
+      "Bx": 1537,
+      "successors": [
+        9
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 9,
+      "file_offset": 340,
+      "name": "LOADNIL",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        10
+      ],
+      "kind": "loadnil"
+    },
+    {
+      "pc": 10,
+      "file_offset": 344,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        11
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"m_var_to_get\""
+    },
+    {
+      "pc": 11,
+      "file_offset": 348,
+      "name": "LOADNIL",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        12
+      ],
+      "kind": "loadnil"
+    },
+    {
+      "pc": 12,
+      "file_offset": 352,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 9,
+      "Bx": 9,
+      "successors": [
+        13
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"m_table_to_get_from\""
+    },
+    {
+      "pc": 13,
+      "file_offset": 356,
+      "name": "LOADNIL",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        14
+      ],
+      "kind": "loadnil"
+    },
+    {
+      "pc": 14,
+      "file_offset": 360,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 10,
+      "Bx": 10,
+      "successors": [
+        15
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"m_var_to_set\""
+    },
+    {
+      "pc": 15,
+      "file_offset": 364,
+      "name": "LOADNIL",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        16
+      ],
+      "kind": "loadnil"
+    },
+    {
+      "pc": 16,
+      "file_offset": 368,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 11,
+      "Bx": 11,
+      "successors": [
+        17
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"m_table_to_set_to\""
+    },
+    {
+      "pc": 17,
+      "file_offset": 372,
+      "name": "LOADBOOL",
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "Bx": 512,
+      "successors": [
+        18
+      ],
+      "kind": "loadbool"
+    },
+    {
+      "pc": 18,
+      "file_offset": 376,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 12,
+      "Bx": 12,
+      "successors": [
+        19
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"m_use_recycled_functions\""
+    },
+    {
+      "pc": 19,
+      "file_offset": 380,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        20
+      ],
+      "kind": "closure",
+      "child_index": 0,
+      "captures": []
+    },
+    {
+      "pc": 20,
+      "file_offset": 384,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 13,
+      "Bx": 13,
+      "successors": [
+        21
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"enter_delayed_function_setup_mode\""
+    },
+    {
+      "pc": 21,
+      "file_offset": 388,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "Bx": 1,
+      "successors": [
+        22
+      ],
+      "kind": "closure",
+      "child_index": 1,
+      "captures": []
+    },
+    {
+      "pc": 22,
+      "file_offset": 392,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 14,
+      "Bx": 14,
+      "successors": [
+        23
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"leave_delayed_function_setup_mode\""
+    },
+    {
+      "pc": 23,
+      "file_offset": 396,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "Bx": 2,
+      "successors": [
+        24
+      ],
+      "kind": "closure",
+      "child_index": 2,
+      "captures": []
+    },
+    {
+      "pc": 24,
+      "file_offset": 400,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 15,
+      "Bx": 15,
+      "successors": [
+        25
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"set_module_variable\""
+    },
+    {
+      "pc": 25,
+      "file_offset": 404,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 3,
+      "Bx": 3,
+      "successors": [
+        26
+      ],
+      "kind": "closure",
+      "child_index": 3,
+      "captures": []
+    },
+    {
+      "pc": 26,
+      "file_offset": 408,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 16,
+      "Bx": 16,
+      "successors": [
+        27
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"get_module_variable\""
+    },
+    {
+      "pc": 27,
+      "file_offset": 412,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 4,
+      "Bx": 4,
+      "successors": [
+        28
+      ],
+      "kind": "closure",
+      "child_index": 4,
+      "captures": []
+    },
+    {
+      "pc": 28,
+      "file_offset": 416,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 17,
+      "Bx": 17,
+      "successors": [
+        29
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"init_module_variables\""
+    },
+    {
+      "pc": 29,
+      "file_offset": 420,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 5,
+      "Bx": 5,
+      "successors": [
+        30
+      ],
+      "kind": "closure",
+      "child_index": 5,
+      "captures": []
+    },
+    {
+      "pc": 30,
+      "file_offset": 424,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 18,
+      "Bx": 18,
+      "successors": [
+        31
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"setup_metatable_for_module_accessors\""
+    },
+    {
+      "pc": 31,
+      "file_offset": 428,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 6,
+      "Bx": 6,
+      "successors": [
+        32
+      ],
+      "kind": "closure",
+      "child_index": 6,
+      "captures": []
+    },
+    {
+      "pc": 32,
+      "file_offset": 432,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 19,
+      "Bx": 19,
+      "successors": [
+        33
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"get_standard_module_metatable\""
+    },
+    {
+      "pc": 33,
+      "file_offset": 436,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 7,
+      "Bx": 7,
+      "successors": [
+        34
+      ],
+      "kind": "closure",
+      "child_index": 7,
+      "captures": []
+    },
+    {
+      "pc": 34,
+      "file_offset": 440,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 20,
+      "Bx": 20,
+      "successors": [
+        35
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"standard_module_index_function\""
+    },
+    {
+      "pc": 35,
+      "file_offset": 444,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        36
+      ],
+      "kind": "closure",
+      "child_index": 8,
+      "captures": []
+    },
+    {
+      "pc": 36,
+      "file_offset": 448,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 21,
+      "Bx": 21,
+      "successors": [
+        37
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"get_error_internal\""
+    },
+    {
+      "pc": 37,
+      "file_offset": 452,
+      "name": "RETURN",
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "Bx": 512,
+      "successors": [],
+      "kind": "return_fixed"
+    }
+  ],
+  "children": [
+    {
+      "path": "0/0",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 971,
+          "name": "LOADBOOL",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            1
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 1,
+          "file_offset": 975,
+          "name": "SETGLOBAL",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_use_recycled_functions\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 979,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/1",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 1066,
+          "name": "LOADBOOL",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            1
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 1,
+          "file_offset": 1070,
+          "name": "SETGLOBAL",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_use_recycled_functions\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 1074,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/2",
+      "parameter_count": 1,
+      "maximum_stack_size": 16,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 1161,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"rawget\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 1169,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            4
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_table_to_set_to\""
+        },
+        {
+          "pc": 4,
+          "file_offset": 1177,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            5
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"current_state\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 1181,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 3,
+          "C": 2,
+          "Bx": 1538,
+          "successors": [
+            6
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 1185,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            8
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 8,
+          "file_offset": 1193,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 1201,
+          "name": "GETTABLE_S",
+          "A": 3,
+          "B": 1,
+          "C": 3,
+          "Bx": 515,
+          "successors": [
+            13
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 13,
+          "file_offset": 1213,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            14
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 14,
+          "file_offset": 1217,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            16
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 16,
+          "file_offset": 1225,
+          "name": "MOVE",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            17
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 17,
+          "file_offset": 1229,
+          "name": "CALL_I",
+          "A": 3,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            18
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 18,
+          "file_offset": 1233,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 3,
+          "Bx": 1027,
+          "successors": [
+            107,
+            20
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "register",
+            "index": 3
+          }
+        },
+        {
+          "pc": 20,
+          "file_offset": 1241,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            22
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"debug\""
+        },
+        {
+          "pc": 22,
+          "file_offset": 1249,
+          "name": "GETFIELD_R1",
+          "A": 2,
+          "B": 2,
+          "C": 16,
+          "Bx": 1040,
+          "successors": [
+            25
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"getinfo\""
+        },
+        {
+          "pc": 25,
+          "file_offset": 1261,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 17,
+          "Bx": 17,
+          "successors": [
+            26
+          ],
+          "kind": "loadk",
+          "constant_lua": "3"
+        },
+        {
+          "pc": 26,
+          "file_offset": 1265,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            27
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 27,
+          "file_offset": 1269,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 274,
+          "Bx": 1298,
+          "successors": [
+            70,
+            29
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 18,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 29,
+          "file_offset": 1277,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            31
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WARN_LUA\""
+        },
+        {
+          "pc": 31,
+          "file_offset": 1285,
+          "name": "GETGLOBAL_MEM",
+          "A": 4,
+          "B": 0,
+          "C": 22,
+          "Bx": 22,
+          "successors": [
+            33
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_error_internal\""
+        },
+        {
+          "pc": 33,
+          "file_offset": 1293,
+          "name": "MOVE",
+          "A": 5,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            34
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 34,
+          "file_offset": 1297,
+          "name": "CALL_I",
+          "A": 4,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            35
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 35,
+          "file_offset": 1301,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 25,
+          "Bx": 25,
+          "successors": [
+            36
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"Cannot change the type of \\\"\""
+        },
+        {
+          "pc": 36,
+          "file_offset": 1305,
+          "name": "GETGLOBAL_MEM",
+          "A": 6,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            38
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 38,
+          "file_offset": 1313,
+          "name": "LOADK",
+          "A": 7,
+          "B": 0,
+          "C": 26,
+          "Bx": 26,
+          "successors": [
+            39
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"\\\" from \\\"\""
+        },
+        {
+          "pc": 39,
+          "file_offset": 1317,
+          "name": "GETGLOBAL_MEM",
+          "A": 8,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            41
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 41,
+          "file_offset": 1325,
+          "name": "GETGLOBAL_MEM",
+          "A": 9,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            43
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 43,
+          "file_offset": 1333,
+          "name": "GETTABLE_S",
+          "A": 9,
+          "B": 1,
+          "C": 9,
+          "Bx": 521,
+          "successors": [
+            46
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 46,
+          "file_offset": 1345,
+          "name": "CALL_I",
+          "A": 8,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            47
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 47,
+          "file_offset": 1349,
+          "name": "LOADK",
+          "A": 9,
+          "B": 0,
+          "C": 27,
+          "Bx": 27,
+          "successors": [
+            48
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"\\\" (\""
+        },
+        {
+          "pc": 48,
+          "file_offset": 1353,
+          "name": "GETGLOBAL_MEM",
+          "A": 10,
+          "B": 0,
+          "C": 28,
+          "Bx": 28,
+          "successors": [
+            50
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tostring\""
+        },
+        {
+          "pc": 50,
+          "file_offset": 1361,
+          "name": "GETGLOBAL_MEM",
+          "A": 11,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            52
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 52,
+          "file_offset": 1369,
+          "name": "GETTABLE_S",
+          "A": 11,
+          "B": 1,
+          "C": 11,
+          "Bx": 523,
+          "successors": [
+            55
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 55,
+          "file_offset": 1381,
+          "name": "CALL_I",
+          "A": 10,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            56
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 56,
+          "file_offset": 1385,
+          "name": "LOADK",
+          "A": 11,
+          "B": 0,
+          "C": 31,
+          "Bx": 31,
+          "successors": [
+            57
+          ],
+          "kind": "loadk",
+          "constant_lua": "\")  to \\\"\""
+        },
+        {
+          "pc": 57,
+          "file_offset": 1389,
+          "name": "GETGLOBAL_MEM",
+          "A": 12,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            59
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 59,
+          "file_offset": 1397,
+          "name": "MOVE",
+          "A": 13,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            60
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 60,
+          "file_offset": 1401,
+          "name": "CALL_I",
+          "A": 12,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            61
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 61,
+          "file_offset": 1405,
+          "name": "LOADK",
+          "A": 13,
+          "B": 0,
+          "C": 27,
+          "Bx": 27,
+          "successors": [
+            62
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"\\\" (\""
+        },
+        {
+          "pc": 62,
+          "file_offset": 1409,
+          "name": "GETGLOBAL_MEM",
+          "A": 14,
+          "B": 0,
+          "C": 28,
+          "Bx": 28,
+          "successors": [
+            64
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tostring\""
+        },
+        {
+          "pc": 64,
+          "file_offset": 1417,
+          "name": "MOVE",
+          "A": 15,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            65
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 65,
+          "file_offset": 1421,
+          "name": "CALL_I",
+          "A": 14,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            66
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 66,
+          "file_offset": 1425,
+          "name": "LOADK",
+          "A": 15,
+          "B": 0,
+          "C": 32,
+          "Bx": 32,
+          "successors": [
+            67
+          ],
+          "kind": "loadk",
+          "constant_lua": "\")\""
+        },
+        {
+          "pc": 67,
+          "file_offset": 1429,
+          "name": "CONCAT",
+          "A": 4,
+          "B": 4,
+          "C": 15,
+          "Bx": 2063,
+          "successors": [
+            68
+          ],
+          "kind": "concat"
+        },
+        {
+          "pc": 68,
+          "file_offset": 1433,
+          "name": "CALL_I",
+          "A": 3,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            69
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 69,
+          "file_offset": 1437,
+          "name": "JMP",
+          "A": 0,
+          "B": 128,
+          "C": 35,
+          "Bx": 65571,
+          "successors": [
+            106
+          ],
+          "kind": "jump"
+        },
+        {
+          "pc": 70,
+          "file_offset": 1441,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            72
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WARN_LUA\""
+        },
+        {
+          "pc": 72,
+          "file_offset": 1449,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 33,
+          "Bx": 33,
+          "successors": [
+            73
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"Somewhere in code is trying to change the type of \\\"\""
+        },
+        {
+          "pc": 73,
+          "file_offset": 1453,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            75
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 75,
+          "file_offset": 1461,
+          "name": "LOADK",
+          "A": 6,
+          "B": 0,
+          "C": 26,
+          "Bx": 26,
+          "successors": [
+            76
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"\\\" from \\\"\""
+        },
+        {
+          "pc": 76,
+          "file_offset": 1465,
+          "name": "GETGLOBAL_MEM",
+          "A": 7,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            78
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 78,
+          "file_offset": 1473,
+          "name": "GETGLOBAL_MEM",
+          "A": 8,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            80
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 80,
+          "file_offset": 1481,
+          "name": "GETTABLE_S",
+          "A": 8,
+          "B": 1,
+          "C": 8,
+          "Bx": 520,
+          "successors": [
+            83
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 83,
+          "file_offset": 1493,
+          "name": "CALL_I",
+          "A": 7,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            84
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 84,
+          "file_offset": 1497,
+          "name": "LOADK",
+          "A": 8,
+          "B": 0,
+          "C": 27,
+          "Bx": 27,
+          "successors": [
+            85
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"\\\" (\""
+        },
+        {
+          "pc": 85,
+          "file_offset": 1501,
+          "name": "GETGLOBAL_MEM",
+          "A": 9,
+          "B": 0,
+          "C": 28,
+          "Bx": 28,
+          "successors": [
+            87
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tostring\""
+        },
+        {
+          "pc": 87,
+          "file_offset": 1509,
+          "name": "GETGLOBAL_MEM",
+          "A": 10,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            89
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 89,
+          "file_offset": 1517,
+          "name": "GETTABLE_S",
+          "A": 10,
+          "B": 1,
+          "C": 10,
+          "Bx": 522,
+          "successors": [
+            92
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 92,
+          "file_offset": 1529,
+          "name": "CALL_I",
+          "A": 9,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            93
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 93,
+          "file_offset": 1533,
+          "name": "LOADK",
+          "A": 10,
+          "B": 0,
+          "C": 31,
+          "Bx": 31,
+          "successors": [
+            94
+          ],
+          "kind": "loadk",
+          "constant_lua": "\")  to \\\"\""
+        },
+        {
+          "pc": 94,
+          "file_offset": 1537,
+          "name": "GETGLOBAL_MEM",
+          "A": 11,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            96
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 96,
+          "file_offset": 1545,
+          "name": "MOVE",
+          "A": 12,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            97
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 97,
+          "file_offset": 1549,
+          "name": "CALL_I",
+          "A": 11,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            98
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 98,
+          "file_offset": 1553,
+          "name": "LOADK",
+          "A": 12,
+          "B": 0,
+          "C": 27,
+          "Bx": 27,
+          "successors": [
+            99
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"\\\" (\""
+        },
+        {
+          "pc": 99,
+          "file_offset": 1557,
+          "name": "GETGLOBAL_MEM",
+          "A": 13,
+          "B": 0,
+          "C": 28,
+          "Bx": 28,
+          "successors": [
+            101
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tostring\""
+        },
+        {
+          "pc": 101,
+          "file_offset": 1565,
+          "name": "MOVE",
+          "A": 14,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            102
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 102,
+          "file_offset": 1569,
+          "name": "CALL_I",
+          "A": 13,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            103
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 103,
+          "file_offset": 1573,
+          "name": "LOADK",
+          "A": 14,
+          "B": 0,
+          "C": 32,
+          "Bx": 32,
+          "successors": [
+            104
+          ],
+          "kind": "loadk",
+          "constant_lua": "\")\""
+        },
+        {
+          "pc": 104,
+          "file_offset": 1577,
+          "name": "CONCAT",
+          "A": 4,
+          "B": 4,
+          "C": 14,
+          "Bx": 2062,
+          "successors": [
+            105
+          ],
+          "kind": "concat"
+        },
+        {
+          "pc": 105,
+          "file_offset": 1581,
+          "name": "CALL_I",
+          "A": 3,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            106
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 106,
+          "file_offset": 1585,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 107,
+          "file_offset": 1589,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 34,
+          "Bx": 34,
+          "successors": [
+            109
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"rawset\""
+        },
+        {
+          "pc": 109,
+          "file_offset": 1597,
+          "name": "MOVE",
+          "A": 3,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            110
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 110,
+          "file_offset": 1601,
+          "name": "GETGLOBAL_MEM",
+          "A": 4,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            112
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 112,
+          "file_offset": 1609,
+          "name": "MOVE",
+          "A": 5,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            113
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 113,
+          "file_offset": 1613,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 4,
+          "C": 1,
+          "Bx": 2049,
+          "successors": [
+            114
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 114,
+          "file_offset": 1617,
+          "name": "LOADNIL",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            115
+          ],
+          "kind": "loadnil"
+        },
+        {
+          "pc": 115,
+          "file_offset": 1621,
+          "name": "SETGLOBAL",
+          "A": 2,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            116
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 116,
+          "file_offset": 1625,
+          "name": "LOADNIL",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            117
+          ],
+          "kind": "loadnil"
+        },
+        {
+          "pc": 117,
+          "file_offset": 1629,
+          "name": "SETGLOBAL",
+          "A": 2,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            118
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_table_to_set_to\""
+        },
+        {
+          "pc": 118,
+          "file_offset": 1633,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/3",
+      "parameter_count": 0,
+      "maximum_stack_size": 4,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 2017,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"rawget\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 2025,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            4
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_table_to_get_from\""
+        },
+        {
+          "pc": 4,
+          "file_offset": 2033,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            5
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"current_state\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 2037,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 3,
+          "C": 2,
+          "Bx": 1538,
+          "successors": [
+            6
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 2041,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            8
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"rawget\""
+        },
+        {
+          "pc": 8,
+          "file_offset": 2049,
+          "name": "MOVE",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            9
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 9,
+          "file_offset": 2053,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            11
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_var_to_get\""
+        },
+        {
+          "pc": 11,
+          "file_offset": 2061,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 3,
+          "C": 2,
+          "Bx": 1538,
+          "successors": [
+            12
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 12,
+          "file_offset": 2065,
+          "name": "LOADNIL",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            13
+          ],
+          "kind": "loadnil"
+        },
+        {
+          "pc": 13,
+          "file_offset": 2069,
+          "name": "SETGLOBAL",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            14
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_var_to_get\""
+        },
+        {
+          "pc": 14,
+          "file_offset": 2073,
+          "name": "LOADNIL",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            15
+          ],
+          "kind": "loadnil"
+        },
+        {
+          "pc": 15,
+          "file_offset": 2077,
+          "name": "SETGLOBAL",
+          "A": 2,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            16
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_table_to_get_from\""
+        },
+        {
+          "pc": 16,
+          "file_offset": 2081,
+          "name": "RETURN",
+          "A": 1,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 17,
+          "file_offset": 2085,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/4",
+      "parameter_count": 1,
+      "maximum_stack_size": 10,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 2222,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 256,
+          "Bx": 256,
+          "successors": [
+            3,
+            2
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 0,
+            "lua": "\"\""
+          }
+        },
+        {
+          "pc": 2,
+          "file_offset": 2230,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 3,
+          "file_offset": 2234,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            5
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"package\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 2242,
+          "name": "GETFIELD_R1",
+          "A": 1,
+          "B": 1,
+          "C": 4,
+          "Bx": 516,
+          "successors": [
+            8
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"loaded\""
+        },
+        {
+          "pc": 8,
+          "file_offset": 2254,
+          "name": "GETTABLE_S",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            11
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 11,
+          "file_offset": 2266,
+          "name": "EQ",
+          "A": 1,
+          "B": 1,
+          "C": 261,
+          "Bx": 773,
+          "successors": [
+            59,
+            13
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 1
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 5,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 13,
+          "file_offset": 2274,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            15
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"_G\""
+        },
+        {
+          "pc": 15,
+          "file_offset": 2282,
+          "name": "EQ",
+          "A": 1,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            59,
+            17
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 1
+          },
+          "right_operand": {
+            "kind": "register",
+            "index": 2
+          }
+        },
+        {
+          "pc": 17,
+          "file_offset": 2290,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 1,
+          "C": 9,
+          "Bx": 521,
+          "successors": [
+            20
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"module_state\""
+        },
+        {
+          "pc": 20,
+          "file_offset": 2302,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 261,
+          "Bx": 1285,
+          "successors": [
+            59,
+            22
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 5,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 22,
+          "file_offset": 2310,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 1,
+          "C": 9,
+          "Bx": 521,
+          "successors": [
+            25
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"module_state\""
+        },
+        {
+          "pc": 25,
+          "file_offset": 2322,
+          "name": "SETFIELD",
+          "A": 1,
+          "B": 10,
+          "C": 2,
+          "Bx": 5122,
+          "successors": [
+            26
+          ],
+          "kind": "setfield",
+          "field_key": "\"current_state\"",
+          "value_operand": {
+            "kind": "register",
+            "index": 2
+          }
+        },
+        {
+          "pc": 26,
+          "file_offset": 2326,
+          "name": "NEWTABLE",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            27
+          ],
+          "kind": "newtable"
+        },
+        {
+          "pc": 27,
+          "file_offset": 2330,
+          "name": "SETFIELD",
+          "A": 1,
+          "B": 11,
+          "C": 2,
+          "Bx": 5634,
+          "successors": [
+            28
+          ],
+          "kind": "setfield",
+          "field_key": "\"getters\"",
+          "value_operand": {
+            "kind": "register",
+            "index": 2
+          }
+        },
+        {
+          "pc": 28,
+          "file_offset": 2334,
+          "name": "NEWTABLE",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            29
+          ],
+          "kind": "newtable"
+        },
+        {
+          "pc": 29,
+          "file_offset": 2338,
+          "name": "SETFIELD",
+          "A": 1,
+          "B": 12,
+          "C": 2,
+          "Bx": 6146,
+          "successors": [
+            30
+          ],
+          "kind": "setfield",
+          "field_key": "\"setters\"",
+          "value_operand": {
+            "kind": "register",
+            "index": 2
+          }
+        },
+        {
+          "pc": 30,
+          "file_offset": 2342,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            32
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"pairs\""
+        },
+        {
+          "pc": 32,
+          "file_offset": 2350,
+          "name": "GETFIELD",
+          "A": 3,
+          "B": 1,
+          "C": 10,
+          "Bx": 522,
+          "successors": [
+            35
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"current_state\""
+        },
+        {
+          "pc": 35,
+          "file_offset": 2362,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 4,
+          "Bx": 1028,
+          "successors": [
+            36
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 36,
+          "file_offset": 2366,
+          "name": "JMP",
+          "A": 0,
+          "B": 128,
+          "C": 13,
+          "Bx": 65549,
+          "successors": [
+            51
+          ],
+          "kind": "jump"
+        },
+        {
+          "pc": 37,
+          "file_offset": 2370,
+          "name": "GETFIELD",
+          "A": 7,
+          "B": 1,
+          "C": 11,
+          "Bx": 523,
+          "successors": [
+            40
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"getters\""
+        },
+        {
+          "pc": 40,
+          "file_offset": 2382,
+          "name": "LOADK",
+          "A": 8,
+          "B": 0,
+          "C": 16,
+          "Bx": 16,
+          "successors": [
+            41
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"get_\""
+        },
+        {
+          "pc": 41,
+          "file_offset": 2386,
+          "name": "MOVE",
+          "A": 9,
+          "B": 5,
+          "C": 0,
+          "Bx": 2560,
+          "successors": [
+            42
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 42,
+          "file_offset": 2390,
+          "name": "CONCAT",
+          "A": 8,
+          "B": 8,
+          "C": 9,
+          "Bx": 4105,
+          "successors": [
+            43
+          ],
+          "kind": "concat"
+        },
+        {
+          "pc": 43,
+          "file_offset": 2394,
+          "name": "SETTABLE_S",
+          "A": 7,
+          "B": 8,
+          "C": 5,
+          "Bx": 4101,
+          "successors": [
+            44
+          ],
+          "kind": "settable",
+          "value_operand": {
+            "kind": "register",
+            "index": 5
+          }
+        },
+        {
+          "pc": 44,
+          "file_offset": 2398,
+          "name": "GETFIELD",
+          "A": 7,
+          "B": 1,
+          "C": 12,
+          "Bx": 524,
+          "successors": [
+            47
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"setters\""
+        },
+        {
+          "pc": 47,
+          "file_offset": 2410,
+          "name": "LOADK",
+          "A": 8,
+          "B": 0,
+          "C": 17,
+          "Bx": 17,
+          "successors": [
+            48
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"set_\""
+        },
+        {
+          "pc": 48,
+          "file_offset": 2414,
+          "name": "MOVE",
+          "A": 9,
+          "B": 5,
+          "C": 0,
+          "Bx": 2560,
+          "successors": [
+            49
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 49,
+          "file_offset": 2418,
+          "name": "CONCAT",
+          "A": 8,
+          "B": 8,
+          "C": 9,
+          "Bx": 4105,
+          "successors": [
+            50
+          ],
+          "kind": "concat"
+        },
+        {
+          "pc": 50,
+          "file_offset": 2422,
+          "name": "SETTABLE_S",
+          "A": 7,
+          "B": 8,
+          "C": 5,
+          "Bx": 4101,
+          "successors": [
+            51
+          ],
+          "kind": "settable",
+          "value_operand": {
+            "kind": "register",
+            "index": 5
+          }
+        },
+        {
+          "pc": 51,
+          "file_offset": 2426,
+          "name": "TFORLOOP",
+          "A": 2,
+          "B": 0,
+          "C": 2,
+          "Bx": 2,
+          "successors": [
+            37,
+            53
+          ],
+          "kind": "tforloop"
+        },
+        {
+          "pc": 53,
+          "file_offset": 2434,
+          "name": "SETFIELD",
+          "A": 1,
+          "B": 9,
+          "C": 261,
+          "Bx": 4869,
+          "successors": [
+            54
+          ],
+          "kind": "setfield",
+          "field_key": "\"module_state\"",
+          "value_operand": {
+            "kind": "constant",
+            "index": 5,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 54,
+          "file_offset": 2438,
+          "name": "SETFIELD",
+          "A": 1,
+          "B": 18,
+          "C": 275,
+          "Bx": 9491,
+          "successors": [
+            55
+          ],
+          "kind": "setfield",
+          "field_key": "\"internal_module_state\"",
+          "value_operand": {
+            "kind": "constant",
+            "index": 19,
+            "lua": "\"dummy variable for LuaPersistentDataMgr::ensure_persistent_data\""
+          }
+        },
+        {
+          "pc": 55,
+          "file_offset": 2442,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 20,
+          "Bx": 20,
+          "successors": [
+            57
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"setup_metatable_for_module_accessors\""
+        },
+        {
+          "pc": 57,
+          "file_offset": 2450,
+          "name": "MOVE",
+          "A": 3,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            58
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 58,
+          "file_offset": 2454,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            59
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 59,
+          "file_offset": 2458,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/5",
+      "parameter_count": 1,
+      "maximum_stack_size": 6,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 2795,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"getmetatable\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 2803,
+          "name": "MOVE",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            3
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 3,
+          "file_offset": 2807,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            4
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 4,
+          "file_offset": 2811,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            6
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 6,
+          "file_offset": 2819,
+          "name": "MOVE",
+          "A": 3,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            7
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 7,
+          "file_offset": 2823,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            8
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 8,
+          "file_offset": 2827,
+          "name": "EQ",
+          "A": 0,
+          "B": 2,
+          "C": 262,
+          "Bx": 1286,
+          "successors": [
+            33,
+            10
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 6,
+            "lua": "\"table\""
+          }
+        },
+        {
+          "pc": 10,
+          "file_offset": 2835,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 1,
+          "C": 7,
+          "Bx": 519,
+          "successors": [
+            13
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"__index\""
+        },
+        {
+          "pc": 13,
+          "file_offset": 2847,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            15
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"_G\""
+        },
+        {
+          "pc": 15,
+          "file_offset": 2855,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 3,
+          "Bx": 1027,
+          "successors": [
+            33,
+            17
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "register",
+            "index": 3
+          }
+        },
+        {
+          "pc": 17,
+          "file_offset": 2863,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            19
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"table\""
+        },
+        {
+          "pc": 19,
+          "file_offset": 2871,
+          "name": "GETFIELD_R1",
+          "A": 2,
+          "B": 2,
+          "C": 13,
+          "Bx": 1037,
+          "successors": [
+            22
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"getn\""
+        },
+        {
+          "pc": 22,
+          "file_offset": 2883,
+          "name": "MOVE",
+          "A": 3,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            23
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 23,
+          "file_offset": 2887,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            24
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 24,
+          "file_offset": 2891,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 270,
+          "Bx": 1294,
+          "successors": [
+            33,
+            26
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 14,
+            "lua": "1"
+          }
+        },
+        {
+          "pc": 26,
+          "file_offset": 2899,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 15,
+          "Bx": 15,
+          "successors": [
+            28
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WARN_LUA\""
+        },
+        {
+          "pc": 28,
+          "file_offset": 2907,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 18,
+          "Bx": 18,
+          "successors": [
+            29
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"problem updating metatable for module - it appears to have been altered already\""
+        },
+        {
+          "pc": 29,
+          "file_offset": 2911,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            30
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 30,
+          "file_offset": 2915,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            32
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"DEBUG_BREAK\""
+        },
+        {
+          "pc": 32,
+          "file_offset": 2923,
+          "name": "CALL_I_R1",
+          "A": 2,
+          "B": 1,
+          "C": 1,
+          "Bx": 513,
+          "successors": [
+            33
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 33,
+          "file_offset": 2927,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 22,
+          "Bx": 22,
+          "successors": [
+            35
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_standard_module_metatable\""
+        },
+        {
+          "pc": 35,
+          "file_offset": 2935,
+          "name": "CALL_I_R1",
+          "A": 2,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            36
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 36,
+          "file_offset": 2939,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 25,
+          "Bx": 25,
+          "successors": [
+            38
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"setmetatable\""
+        },
+        {
+          "pc": 38,
+          "file_offset": 2947,
+          "name": "MOVE",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            39
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 39,
+          "file_offset": 2951,
+          "name": "MOVE",
+          "A": 5,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            40
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 40,
+          "file_offset": 2955,
+          "name": "CALL_I",
+          "A": 3,
+          "B": 3,
+          "C": 1,
+          "Bx": 1537,
+          "successors": [
+            41
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 41,
+          "file_offset": 2959,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/6",
+      "parameter_count": 0,
+      "maximum_stack_size": 3,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 3276,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ModuleVariableStorage\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 3284,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"m_standard_module_metatable\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 3296,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            14,
+            7
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 7,
+          "file_offset": 3304,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            9
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ModuleVariableStorage\""
+        },
+        {
+          "pc": 9,
+          "file_offset": 3312,
+          "name": "NEWTABLE",
+          "A": 1,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            10
+          ],
+          "kind": "newtable"
+        },
+        {
+          "pc": 10,
+          "file_offset": 3316,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            12
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"standard_module_index_function\""
+        },
+        {
+          "pc": 12,
+          "file_offset": 3324,
+          "name": "SETFIELD",
+          "A": 1,
+          "B": 5,
+          "C": 2,
+          "Bx": 2562,
+          "successors": [
+            13
+          ],
+          "kind": "setfield",
+          "field_key": "\"__index\"",
+          "value_operand": {
+            "kind": "register",
+            "index": 2
+          }
+        },
+        {
+          "pc": 13,
+          "file_offset": 3328,
+          "name": "SETFIELD",
+          "A": 0,
+          "B": 3,
+          "C": 1,
+          "Bx": 1537,
+          "successors": [
+            14
+          ],
+          "kind": "setfield",
+          "field_key": "\"m_standard_module_metatable\"",
+          "value_operand": {
+            "kind": "register",
+            "index": 1
+          }
+        },
+        {
+          "pc": 14,
+          "file_offset": 3332,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            16
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ModuleVariableStorage\""
+        },
+        {
+          "pc": 16,
+          "file_offset": 3340,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            19
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"m_standard_module_metatable\""
+        },
+        {
+          "pc": 19,
+          "file_offset": 3352,
+          "name": "RETURN",
+          "A": 0,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 20,
+          "file_offset": 3356,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/7",
+      "parameter_count": 2,
+      "maximum_stack_size": 3,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 3527,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"m_use_recycled_functions\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 3535,
+          "name": "TEST_R1",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            56,
+            4
+          ],
+          "kind": "test_cached_branch"
+        },
+        {
+          "pc": 4,
+          "file_offset": 3543,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            7
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"setters\""
+        },
+        {
+          "pc": 7,
+          "file_offset": 3555,
+          "name": "GETTABLE_S",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            10
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 10,
+          "file_offset": 3567,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 260,
+          "Bx": 1284,
+          "successors": [
+            30,
+            12
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 12,
+          "file_offset": 3575,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            15
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"setters\""
+        },
+        {
+          "pc": 15,
+          "file_offset": 3587,
+          "name": "GETTABLE_S",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            18
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 18,
+          "file_offset": 3599,
+          "name": "SETGLOBAL",
+          "A": 2,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            19
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_var_to_set\""
+        },
+        {
+          "pc": 19,
+          "file_offset": 3603,
+          "name": "SETGLOBAL",
+          "A": 0,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            20
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_table_to_set_to\""
+        },
+        {
+          "pc": 20,
+          "file_offset": 3607,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            22
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"_G\""
+        },
+        {
+          "pc": 22,
+          "file_offset": 3615,
+          "name": "GETFIELD_R1",
+          "A": 2,
+          "B": 2,
+          "C": 10,
+          "Bx": 1034,
+          "successors": [
+            25
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"ModuleVariableStorage\""
+        },
+        {
+          "pc": 25,
+          "file_offset": 3627,
+          "name": "GETFIELD_R1",
+          "A": 2,
+          "B": 2,
+          "C": 11,
+          "Bx": 1035,
+          "successors": [
+            28
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"set_module_variable\""
+        },
+        {
+          "pc": 28,
+          "file_offset": 3639,
+          "name": "RETURN",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 29,
+          "file_offset": 3643,
+          "name": "JMP",
+          "A": 0,
+          "B": 128,
+          "C": 50,
+          "Bx": 65586,
+          "successors": [
+            81
+          ],
+          "kind": "jump"
+        },
+        {
+          "pc": 30,
+          "file_offset": 3647,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 0,
+          "C": 12,
+          "Bx": 12,
+          "successors": [
+            33
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"getters\""
+        },
+        {
+          "pc": 33,
+          "file_offset": 3659,
+          "name": "GETTABLE_S",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            36
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 36,
+          "file_offset": 3671,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 260,
+          "Bx": 1284,
+          "successors": [
+            81,
+            38
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 38,
+          "file_offset": 3679,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 0,
+          "C": 12,
+          "Bx": 12,
+          "successors": [
+            41
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"getters\""
+        },
+        {
+          "pc": 41,
+          "file_offset": 3691,
+          "name": "GETTABLE_S",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            44
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 44,
+          "file_offset": 3703,
+          "name": "SETGLOBAL",
+          "A": 2,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            45
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_var_to_get\""
+        },
+        {
+          "pc": 45,
+          "file_offset": 3707,
+          "name": "SETGLOBAL",
+          "A": 0,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            46
+          ],
+          "kind": "setglobal",
+          "constant_lua": "\"m_table_to_get_from\""
+        },
+        {
+          "pc": 46,
+          "file_offset": 3711,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            48
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"_G\""
+        },
+        {
+          "pc": 48,
+          "file_offset": 3719,
+          "name": "GETFIELD_R1",
+          "A": 2,
+          "B": 2,
+          "C": 10,
+          "Bx": 1034,
+          "successors": [
+            51
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"ModuleVariableStorage\""
+        },
+        {
+          "pc": 51,
+          "file_offset": 3731,
+          "name": "GETFIELD_R1",
+          "A": 2,
+          "B": 2,
+          "C": 15,
+          "Bx": 1039,
+          "successors": [
+            54
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_module_variable\""
+        },
+        {
+          "pc": 54,
+          "file_offset": 3743,
+          "name": "RETURN",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 55,
+          "file_offset": 3747,
+          "name": "JMP",
+          "A": 0,
+          "B": 128,
+          "C": 24,
+          "Bx": 65560,
+          "successors": [
+            81
+          ],
+          "kind": "jump"
+        },
+        {
+          "pc": 56,
+          "file_offset": 3751,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            59
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"setters\""
+        },
+        {
+          "pc": 59,
+          "file_offset": 3763,
+          "name": "GETTABLE_S",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            62
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 62,
+          "file_offset": 3775,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 260,
+          "Bx": 1284,
+          "successors": [
+            69,
+            64
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 64,
+          "file_offset": 3783,
+          "name": "CLOSURE",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            67
+          ],
+          "kind": "closure",
+          "child_index": 0,
+          "captures": [
+            {
+              "kind": "register",
+              "index": 0,
+              "descriptor_pc": 65
+            },
+            {
+              "kind": "register",
+              "index": 1,
+              "descriptor_pc": 66
+            }
+          ]
+        },
+        {
+          "pc": 67,
+          "file_offset": 3795,
+          "name": "RETURN",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 68,
+          "file_offset": 3799,
+          "name": "JMP",
+          "A": 0,
+          "B": 128,
+          "C": 11,
+          "Bx": 65547,
+          "successors": [
+            81
+          ],
+          "kind": "jump"
+        },
+        {
+          "pc": 69,
+          "file_offset": 3803,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 0,
+          "C": 12,
+          "Bx": 12,
+          "successors": [
+            72
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"getters\""
+        },
+        {
+          "pc": 72,
+          "file_offset": 3815,
+          "name": "GETTABLE_S",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            75
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 75,
+          "file_offset": 3827,
+          "name": "EQ",
+          "A": 1,
+          "B": 2,
+          "C": 260,
+          "Bx": 1284,
+          "successors": [
+            81,
+            77
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 2
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 77,
+          "file_offset": 3835,
+          "name": "CLOSURE",
+          "A": 2,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            80
+          ],
+          "kind": "closure",
+          "child_index": 1,
+          "captures": [
+            {
+              "kind": "register",
+              "index": 0,
+              "descriptor_pc": 78
+            },
+            {
+              "kind": "register",
+              "index": 1,
+              "descriptor_pc": 79
+            }
+          ]
+        },
+        {
+          "pc": 80,
+          "file_offset": 3847,
+          "name": "RETURN",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 81,
+          "file_offset": 3851,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            83
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"_G\""
+        },
+        {
+          "pc": 83,
+          "file_offset": 3859,
+          "name": "GETTABLE_S",
+          "A": 2,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            86
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 86,
+          "file_offset": 3871,
+          "name": "RETURN",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 87,
+          "file_offset": 3875,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": [
+        {
+          "path": "0/7/0",
+          "parameter_count": 1,
+          "maximum_stack_size": 4,
+          "upvalue_count": 2,
+          "instructions": [
+            {
+              "pc": 0,
+              "file_offset": 4150,
+              "name": "GETGLOBAL_MEM",
+              "A": 1,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                2
+              ],
+              "kind": "getglobal",
+              "constant_lua": "\"_G\""
+            },
+            {
+              "pc": 2,
+              "file_offset": 4158,
+              "name": "GETFIELD_R1",
+              "A": 1,
+              "B": 1,
+              "C": 3,
+              "Bx": 515,
+              "successors": [
+                5
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"ModuleVariableStorage\""
+            },
+            {
+              "pc": 5,
+              "file_offset": 4170,
+              "name": "GETUPVAL",
+              "A": 2,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                6
+              ],
+              "kind": "getupval"
+            },
+            {
+              "pc": 6,
+              "file_offset": 4174,
+              "name": "GETFIELD_R1",
+              "A": 2,
+              "B": 2,
+              "C": 5,
+              "Bx": 1029,
+              "successors": [
+                9
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"setters\""
+            },
+            {
+              "pc": 9,
+              "file_offset": 4186,
+              "name": "GETUPVAL",
+              "A": 3,
+              "B": 1,
+              "C": 0,
+              "Bx": 512,
+              "successors": [
+                10
+              ],
+              "kind": "getupval"
+            },
+            {
+              "pc": 10,
+              "file_offset": 4190,
+              "name": "GETTABLE_S",
+              "A": 2,
+              "B": 2,
+              "C": 3,
+              "Bx": 1027,
+              "successors": [
+                13
+              ],
+              "kind": "gettable"
+            },
+            {
+              "pc": 13,
+              "file_offset": 4202,
+              "name": "SETFIELD",
+              "A": 1,
+              "B": 4,
+              "C": 2,
+              "Bx": 2050,
+              "successors": [
+                14
+              ],
+              "kind": "setfield",
+              "field_key": "\"m_var_to_set\"",
+              "value_operand": {
+                "kind": "register",
+                "index": 2
+              }
+            },
+            {
+              "pc": 14,
+              "file_offset": 4206,
+              "name": "GETGLOBAL_MEM",
+              "A": 1,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                16
+              ],
+              "kind": "getglobal",
+              "constant_lua": "\"_G\""
+            },
+            {
+              "pc": 16,
+              "file_offset": 4214,
+              "name": "GETFIELD_R1",
+              "A": 1,
+              "B": 1,
+              "C": 3,
+              "Bx": 515,
+              "successors": [
+                19
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"ModuleVariableStorage\""
+            },
+            {
+              "pc": 19,
+              "file_offset": 4226,
+              "name": "GETUPVAL",
+              "A": 2,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                20
+              ],
+              "kind": "getupval"
+            },
+            {
+              "pc": 20,
+              "file_offset": 4230,
+              "name": "SETFIELD",
+              "A": 1,
+              "B": 6,
+              "C": 2,
+              "Bx": 3074,
+              "successors": [
+                21
+              ],
+              "kind": "setfield",
+              "field_key": "\"m_table_to_set_to\"",
+              "value_operand": {
+                "kind": "register",
+                "index": 2
+              }
+            },
+            {
+              "pc": 21,
+              "file_offset": 4234,
+              "name": "GETGLOBAL_MEM",
+              "A": 1,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                23
+              ],
+              "kind": "getglobal",
+              "constant_lua": "\"_G\""
+            },
+            {
+              "pc": 23,
+              "file_offset": 4242,
+              "name": "GETFIELD_R1",
+              "A": 1,
+              "B": 1,
+              "C": 3,
+              "Bx": 515,
+              "successors": [
+                26
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"ModuleVariableStorage\""
+            },
+            {
+              "pc": 26,
+              "file_offset": 4254,
+              "name": "GETFIELD_R1",
+              "A": 1,
+              "B": 1,
+              "C": 7,
+              "Bx": 519,
+              "successors": [
+                29
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"set_module_variable\""
+            },
+            {
+              "pc": 29,
+              "file_offset": 4266,
+              "name": "MOVE",
+              "A": 2,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                30
+              ],
+              "kind": "move"
+            },
+            {
+              "pc": 30,
+              "file_offset": 4270,
+              "name": "TAILCALL_I",
+              "A": 1,
+              "B": 2,
+              "C": 0,
+              "Bx": 1024,
+              "successors": [],
+              "kind": "tailcall"
+            },
+            {
+              "pc": 32,
+              "file_offset": 4278,
+              "name": "RETURN",
+              "A": 0,
+              "B": 1,
+              "C": 0,
+              "Bx": 512,
+              "successors": [],
+              "kind": "return_fixed"
+            }
+          ],
+          "children": []
+        },
+        {
+          "path": "0/7/1",
+          "parameter_count": 0,
+          "maximum_stack_size": 3,
+          "upvalue_count": 2,
+          "instructions": [
+            {
+              "pc": 0,
+              "file_offset": 4451,
+              "name": "GETGLOBAL_MEM",
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                2
+              ],
+              "kind": "getglobal",
+              "constant_lua": "\"_G\""
+            },
+            {
+              "pc": 2,
+              "file_offset": 4459,
+              "name": "GETFIELD_R1",
+              "A": 0,
+              "B": 0,
+              "C": 3,
+              "Bx": 3,
+              "successors": [
+                5
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"ModuleVariableStorage\""
+            },
+            {
+              "pc": 5,
+              "file_offset": 4471,
+              "name": "GETUPVAL",
+              "A": 1,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                6
+              ],
+              "kind": "getupval"
+            },
+            {
+              "pc": 6,
+              "file_offset": 4475,
+              "name": "GETFIELD_R1",
+              "A": 1,
+              "B": 1,
+              "C": 5,
+              "Bx": 517,
+              "successors": [
+                9
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"getters\""
+            },
+            {
+              "pc": 9,
+              "file_offset": 4487,
+              "name": "GETUPVAL",
+              "A": 2,
+              "B": 1,
+              "C": 0,
+              "Bx": 512,
+              "successors": [
+                10
+              ],
+              "kind": "getupval"
+            },
+            {
+              "pc": 10,
+              "file_offset": 4491,
+              "name": "GETTABLE_S",
+              "A": 1,
+              "B": 1,
+              "C": 2,
+              "Bx": 514,
+              "successors": [
+                13
+              ],
+              "kind": "gettable"
+            },
+            {
+              "pc": 13,
+              "file_offset": 4503,
+              "name": "SETFIELD",
+              "A": 0,
+              "B": 4,
+              "C": 1,
+              "Bx": 2049,
+              "successors": [
+                14
+              ],
+              "kind": "setfield",
+              "field_key": "\"m_var_to_get\"",
+              "value_operand": {
+                "kind": "register",
+                "index": 1
+              }
+            },
+            {
+              "pc": 14,
+              "file_offset": 4507,
+              "name": "GETGLOBAL_MEM",
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                16
+              ],
+              "kind": "getglobal",
+              "constant_lua": "\"_G\""
+            },
+            {
+              "pc": 16,
+              "file_offset": 4515,
+              "name": "GETFIELD_R1",
+              "A": 0,
+              "B": 0,
+              "C": 3,
+              "Bx": 3,
+              "successors": [
+                19
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"ModuleVariableStorage\""
+            },
+            {
+              "pc": 19,
+              "file_offset": 4527,
+              "name": "GETUPVAL",
+              "A": 1,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                20
+              ],
+              "kind": "getupval"
+            },
+            {
+              "pc": 20,
+              "file_offset": 4531,
+              "name": "SETFIELD",
+              "A": 0,
+              "B": 6,
+              "C": 1,
+              "Bx": 3073,
+              "successors": [
+                21
+              ],
+              "kind": "setfield",
+              "field_key": "\"m_table_to_get_from\"",
+              "value_operand": {
+                "kind": "register",
+                "index": 1
+              }
+            },
+            {
+              "pc": 21,
+              "file_offset": 4535,
+              "name": "GETGLOBAL_MEM",
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "Bx": 0,
+              "successors": [
+                23
+              ],
+              "kind": "getglobal",
+              "constant_lua": "\"_G\""
+            },
+            {
+              "pc": 23,
+              "file_offset": 4543,
+              "name": "GETFIELD_R1",
+              "A": 0,
+              "B": 0,
+              "C": 3,
+              "Bx": 3,
+              "successors": [
+                26
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"ModuleVariableStorage\""
+            },
+            {
+              "pc": 26,
+              "file_offset": 4555,
+              "name": "GETFIELD_R1",
+              "A": 0,
+              "B": 0,
+              "C": 7,
+              "Bx": 7,
+              "successors": [
+                29
+              ],
+              "kind": "getfield_cached_k",
+              "constant_lua": "\"get_module_variable\""
+            },
+            {
+              "pc": 29,
+              "file_offset": 4567,
+              "name": "TAILCALL_I_R1",
+              "A": 0,
+              "B": 1,
+              "C": 0,
+              "Bx": 512,
+              "successors": [],
+              "kind": "tailcall_cached"
+            },
+            {
+              "pc": 31,
+              "file_offset": 4575,
+              "name": "RETURN",
+              "A": 0,
+              "B": 1,
+              "C": 0,
+              "Bx": 512,
+              "successors": [],
+              "kind": "return_fixed"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "0/8",
+      "parameter_count": 2,
+      "maximum_stack_size": 7,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 4762,
+          "name": "GETFIELD",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            3
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"source\""
+        },
+        {
+          "pc": 3,
+          "file_offset": 4774,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            4
+          ],
+          "kind": "loadk",
+          "constant_lua": "\":\""
+        },
+        {
+          "pc": 4,
+          "file_offset": 4778,
+          "name": "GETGLOBAL_MEM",
+          "A": 4,
+          "B": 0,
+          "C": 2,
+          "Bx": 2,
+          "successors": [
+            6
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tostring\""
+        },
+        {
+          "pc": 6,
+          "file_offset": 4786,
+          "name": "GETFIELD",
+          "A": 5,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            9
+          ],
+          "kind": "getfield_k",
+          "constant_lua": "\"currentline\""
+        },
+        {
+          "pc": 9,
+          "file_offset": 4798,
+          "name": "CALL_I",
+          "A": 4,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            10
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 10,
+          "file_offset": 4802,
+          "name": "CONCAT",
+          "A": 2,
+          "B": 2,
+          "C": 4,
+          "Bx": 1028,
+          "successors": [
+            11
+          ],
+          "kind": "concat"
+        },
+        {
+          "pc": 11,
+          "file_offset": 4806,
+          "name": "EQ",
+          "A": 1,
+          "B": 1,
+          "C": 262,
+          "Bx": 774,
+          "successors": [
+            18,
+            13
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 1
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 6,
+            "lua": "nil"
+          }
+        },
+        {
+          "pc": 13,
+          "file_offset": 4814,
+          "name": "MOVE",
+          "A": 3,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            14
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 14,
+          "file_offset": 4818,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            15
+          ],
+          "kind": "loadk",
+          "constant_lua": "\" - Module \\\"\""
+        },
+        {
+          "pc": 15,
+          "file_offset": 4822,
+          "name": "MOVE",
+          "A": 5,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            16
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 16,
+          "file_offset": 4826,
+          "name": "LOADK",
+          "A": 6,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            17
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"\\\"\""
+        },
+        {
+          "pc": 17,
+          "file_offset": 4830,
+          "name": "CONCAT",
+          "A": 2,
+          "B": 3,
+          "C": 6,
+          "Bx": 1542,
+          "successors": [
+            18
+          ],
+          "kind": "concat"
+        },
+        {
+          "pc": 18,
+          "file_offset": 4834,
+          "name": "MOVE",
+          "A": 3,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            19
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 19,
+          "file_offset": 4838,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 9,
+          "Bx": 9,
+          "successors": [
+            20
+          ],
+          "kind": "loadk",
+          "constant_lua": "\" - \""
+        },
+        {
+          "pc": 20,
+          "file_offset": 4842,
+          "name": "CONCAT",
+          "A": 2,
+          "B": 3,
+          "C": 4,
+          "Bx": 1540,
+          "successors": [
+            21
+          ],
+          "kind": "concat"
+        },
+        {
+          "pc": 21,
+          "file_offset": 4846,
+          "name": "RETURN",
+          "A": 2,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 22,
+          "file_offset": 4850,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "platform": "Mac arm64 Clang C99",
+  "address_sanitizer": true,
+  "undefined_behavior_sanitizer": true,
+  "checks": 11963,
+  "portals": 27,
+  "mutation_cases": 10000,
+  "result": "PASS",
+  "source_files": [
+    "work/v19-host/oa_canopy.c",
+    "work/v19-host/oa_canopy.h"
+  ],
+  "fixture_sha256": "60c1ee433bd5b68517401681337a9f98a70e80a612085795dd636e79826fd98f"
+}

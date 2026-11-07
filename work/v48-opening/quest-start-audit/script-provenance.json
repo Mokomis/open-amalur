@@ -1,0 +1,1165 @@
+[
+  {
+    "module": "main_menu",
+    "asset_id": 13493,
+    "input_sha256": "661b3f507fab09e74af81e0f3e75f0848b8fba158e626c8c73ae61dad3955305",
+    "function_path": "0/1",
+    "function_name": "\"enter_space\"",
+    "original_metadata": {
+      "input_sha256": "661b3f507fab09e74af81e0f3e75f0848b8fba158e626c8c73ae61dad3955305",
+      "payload_sha256": "62fc5fc6b1719ed22c6069c612ffc1fd341dd9e955b3a49cbefa3bd64802d904",
+      "wrapper": {
+        "name": "main_menu",
+        "name_bytes_hex": "6d61696e5f6d656e75",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 21,
+        "declared_payload_bytes": 56302
+      },
+      "first_binding": "13493.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\main_menu\\function_0_1.lua",
+    "code_sha256": "13580df0b422c969112052e6a057df3ed4b567a3517b963e30173bd794dcbc9a",
+    "instruction_count": 91,
+    "body_emittable": true
+  },
+  {
+    "module": "main_menu",
+    "asset_id": 13493,
+    "input_sha256": "661b3f507fab09e74af81e0f3e75f0848b8fba158e626c8c73ae61dad3955305",
+    "function_path": "0/12",
+    "function_name": "\"start_game_at_quest\"",
+    "original_metadata": {
+      "input_sha256": "661b3f507fab09e74af81e0f3e75f0848b8fba158e626c8c73ae61dad3955305",
+      "payload_sha256": "62fc5fc6b1719ed22c6069c612ffc1fd341dd9e955b3a49cbefa3bd64802d904",
+      "wrapper": {
+        "name": "main_menu",
+        "name_bytes_hex": "6d61696e5f6d656e75",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 21,
+        "declared_payload_bytes": 56302
+      },
+      "first_binding": "13493.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\main_menu\\function_0_12.lua",
+    "code_sha256": "c59ff41f8e1b1ef842e40ba841fe9e29a3fb69f039f6913069e1c804c6cf1d74",
+    "instruction_count": 15,
+    "body_emittable": true
+  },
+  {
+    "module": "main_menu",
+    "asset_id": 13493,
+    "input_sha256": "661b3f507fab09e74af81e0f3e75f0848b8fba158e626c8c73ae61dad3955305",
+    "function_path": "0/37",
+    "function_name": "\"start_new_game\"",
+    "original_metadata": {
+      "input_sha256": "661b3f507fab09e74af81e0f3e75f0848b8fba158e626c8c73ae61dad3955305",
+      "payload_sha256": "62fc5fc6b1719ed22c6069c612ffc1fd341dd9e955b3a49cbefa3bd64802d904",
+      "wrapper": {
+        "name": "main_menu",
+        "name_bytes_hex": "6d61696e5f6d656e75",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 21,
+        "declared_payload_bytes": 56302
+      },
+      "first_binding": "13493.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\main_menu\\function_0_37.lua",
+    "code_sha256": "4b9b3306621c5fd03917820f2e114d49c3653e8f9d358a32da7f9cbf01d01d36",
+    "instruction_count": 137,
+    "body_emittable": true
+  },
+  {
+    "module": "main_menu_packed",
+    "asset_id": 13493,
+    "input_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072",
+    "function_path": "0/1",
+    "function_name": "\"enter_space\"",
+    "original_metadata": {
+      "input_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072",
+      "payload_sha256": "a8b06539b3150e201c7cde0e2b2cba6260c6ca3ad15a2e0c52af47bd8cebfe28",
+      "wrapper": {
+        "name": "main_menu",
+        "name_bytes_hex": "6d61696e5f6d656e75",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 314185,
+        "declared_payload_bytes": 59421
+      },
+      "first_binding": "batch_12842.lua_bxml:37",
+      "container": {
+        "kind": "amalur-script-batch",
+        "input_sha256": "46743097f0e400df892f7fc233652d25a830d2803c2c7b010cc3d3e7e1953fce",
+        "input_bytes": 4203305,
+        "member_count": 772,
+        "payload_sha256": "a8b06539b3150e201c7cde0e2b2cba6260c6ca3ad15a2e0c52af47bd8cebfe28",
+        "index": 37,
+        "resource_id": 13493,
+        "directory_file_offset": 300,
+        "declared_member_bytes": 59442,
+        "member_file_offset": 314164,
+        "member_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072"
+      }
+    },
+    "code_file": "scripts\\main_menu_packed\\function_0_1.lua",
+    "code_sha256": "f83c947dd0caff3d7496a27d790cbc29ed48f4d80f2b78842d6f22f319632341",
+    "instruction_count": 93,
+    "body_emittable": true
+  },
+  {
+    "module": "main_menu_packed",
+    "asset_id": 13493,
+    "input_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072",
+    "function_path": "0/12",
+    "function_name": "\"start_game_at_quest\"",
+    "original_metadata": {
+      "input_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072",
+      "payload_sha256": "a8b06539b3150e201c7cde0e2b2cba6260c6ca3ad15a2e0c52af47bd8cebfe28",
+      "wrapper": {
+        "name": "main_menu",
+        "name_bytes_hex": "6d61696e5f6d656e75",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 314185,
+        "declared_payload_bytes": 59421
+      },
+      "first_binding": "batch_12842.lua_bxml:37",
+      "container": {
+        "kind": "amalur-script-batch",
+        "input_sha256": "46743097f0e400df892f7fc233652d25a830d2803c2c7b010cc3d3e7e1953fce",
+        "input_bytes": 4203305,
+        "member_count": 772,
+        "payload_sha256": "a8b06539b3150e201c7cde0e2b2cba6260c6ca3ad15a2e0c52af47bd8cebfe28",
+        "index": 37,
+        "resource_id": 13493,
+        "directory_file_offset": 300,
+        "declared_member_bytes": 59442,
+        "member_file_offset": 314164,
+        "member_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072"
+      }
+    },
+    "code_file": "scripts\\main_menu_packed\\function_0_12.lua",
+    "code_sha256": "8605d0a91d24280454a13d3bccf24be2876268e18676df9ca6517236ef64a96e",
+    "instruction_count": 15,
+    "body_emittable": true
+  },
+  {
+    "module": "main_menu_packed",
+    "asset_id": 13493,
+    "input_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072",
+    "function_path": "0/36",
+    "function_name": "\"start_new_game\"",
+    "original_metadata": {
+      "input_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072",
+      "payload_sha256": "a8b06539b3150e201c7cde0e2b2cba6260c6ca3ad15a2e0c52af47bd8cebfe28",
+      "wrapper": {
+        "name": "main_menu",
+        "name_bytes_hex": "6d61696e5f6d656e75",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 314185,
+        "declared_payload_bytes": 59421
+      },
+      "first_binding": "batch_12842.lua_bxml:37",
+      "container": {
+        "kind": "amalur-script-batch",
+        "input_sha256": "46743097f0e400df892f7fc233652d25a830d2803c2c7b010cc3d3e7e1953fce",
+        "input_bytes": 4203305,
+        "member_count": 772,
+        "payload_sha256": "a8b06539b3150e201c7cde0e2b2cba6260c6ca3ad15a2e0c52af47bd8cebfe28",
+        "index": 37,
+        "resource_id": 13493,
+        "directory_file_offset": 300,
+        "declared_member_bytes": 59442,
+        "member_file_offset": 314164,
+        "member_sha256": "ecb1b62eb141a28e9f3183636e651b33a45b70deb4fa74358408bff681216072"
+      }
+    },
+    "code_file": "scripts\\main_menu_packed\\function_0_36.lua",
+    "code_sha256": "81288117f416b4c8ae4dbe036e236be49084bdb091e84708f0b1a3d9f8c0bdf7",
+    "instruction_count": 123,
+    "body_emittable": true
+  },
+  {
+    "module": "loading_screen",
+    "asset_id": 13488,
+    "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+    "function_path": "0/0",
+    "function_name": "\"create_loading_screen\"",
+    "original_metadata": {
+      "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+      "payload_sha256": "2be144733d550612f6fa490a4e1066b886685f653cb5f1801350d68e5f98510b",
+      "wrapper": {
+        "name": "loading_screen",
+        "name_bytes_hex": "6c6f6164696e675f73637265656e",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 26,
+        "declared_payload_bytes": 17776
+      },
+      "first_binding": "13488.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\loading_screen\\function_0_0.lua",
+    "code_sha256": "480aea1b425da44354c89454d012356bbc3908c877cd3e1dc39e9a42d34bcf92",
+    "instruction_count": 27,
+    "body_emittable": true
+  },
+  {
+    "module": "loading_screen",
+    "asset_id": 13488,
+    "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+    "function_path": "0/3",
+    "function_name": "\"init\"",
+    "original_metadata": {
+      "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+      "payload_sha256": "2be144733d550612f6fa490a4e1066b886685f653cb5f1801350d68e5f98510b",
+      "wrapper": {
+        "name": "loading_screen",
+        "name_bytes_hex": "6c6f6164696e675f73637265656e",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 26,
+        "declared_payload_bytes": 17776
+      },
+      "first_binding": "13488.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\loading_screen\\function_0_3.lua",
+    "code_sha256": "9813cb4d1f0dfeaa06cf8b0fe9ce3987212d95d4c8b958ad2eb5ce1ce392ef6d",
+    "instruction_count": 81,
+    "body_emittable": true
+  },
+  {
+    "module": "loading_screen_packed",
+    "asset_id": 13488,
+    "input_sha256": "0bc6b26f578b76646e30e528de10260446f9fcc00e846f1f906a6902d418f3f9",
+    "function_path": "0/0",
+    "function_name": "\"create_loading_screen\"",
+    "original_metadata": {
+      "input_sha256": "0bc6b26f578b76646e30e528de10260446f9fcc00e846f1f906a6902d418f3f9",
+      "payload_sha256": "a652f9dcdecc07aa73f40d7b9269f703030a6d2cb7a46d8c8652a2081a9d5721",
+      "wrapper": {
+        "name": "loading_screen",
+        "name_bytes_hex": "6c6f6164696e675f73637265656e",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 287828,
+        "declared_payload_bytes": 15403
+      },
+      "first_binding": "batch_12842.lua_bxml:33",
+      "container": {
+        "kind": "amalur-script-batch",
+        "input_sha256": "46743097f0e400df892f7fc233652d25a830d2803c2c7b010cc3d3e7e1953fce",
+        "input_bytes": 4203305,
+        "member_count": 772,
+        "payload_sha256": "a652f9dcdecc07aa73f40d7b9269f703030a6d2cb7a46d8c8652a2081a9d5721",
+        "index": 33,
+        "resource_id": 13488,
+        "directory_file_offset": 268,
+        "declared_member_bytes": 15429,
+        "member_file_offset": 287802,
+        "member_sha256": "0bc6b26f578b76646e30e528de10260446f9fcc00e846f1f906a6902d418f3f9"
+      }
+    },
+    "code_file": "scripts\\loading_screen_packed\\function_0_0.lua",
+    "code_sha256": "4795ca004db631ad2b8a684bc5103c6951b7ab40e7d79dd76563e87b02b7b6e3",
+    "instruction_count": 27,
+    "body_emittable": true
+  },
+  {
+    "module": "loading_screen_packed",
+    "asset_id": 13488,
+    "input_sha256": "0bc6b26f578b76646e30e528de10260446f9fcc00e846f1f906a6902d418f3f9",
+    "function_path": "0/3",
+    "function_name": "\"init\"",
+    "original_metadata": {
+      "input_sha256": "0bc6b26f578b76646e30e528de10260446f9fcc00e846f1f906a6902d418f3f9",
+      "payload_sha256": "a652f9dcdecc07aa73f40d7b9269f703030a6d2cb7a46d8c8652a2081a9d5721",
+      "wrapper": {
+        "name": "loading_screen",
+        "name_bytes_hex": "6c6f6164696e675f73637265656e",
+        "opaque_word": 0,
+        "metadata_string_count": 0,
+        "metadata_strings": [],
+        "payload_file_offset": 287828,
+        "declared_payload_bytes": 15403
+      },
+      "first_binding": "batch_12842.lua_bxml:33",
+      "container": {
+        "kind": "amalur-script-batch",
+        "input_sha256": "46743097f0e400df892f7fc233652d25a830d2803c2c7b010cc3d3e7e1953fce",
+        "input_bytes": 4203305,
+        "member_count": 772,
+        "payload_sha256": "a652f9dcdecc07aa73f40d7b9269f703030a6d2cb7a46d8c8652a2081a9d5721",
+        "index": 33,
+        "resource_id": 13488,
+        "directory_file_offset": 268,
+        "declared_member_bytes": 15429,
+        "member_file_offset": 287802,
+        "member_sha256": "0bc6b26f578b76646e30e528de10260446f9fcc00e846f1f906a6902d418f3f9"
+      }
+    },
+    "code_file": "scripts\\loading_screen_packed\\function_0_3.lua",
+    "code_sha256": "25ba8165c66b86af4730de471e7850ade5d182fb12ff42b47a543f76c6d97093",
+    "instruction_count": 81,
+    "body_emittable": true
+  },
+  {
+    "module": "character_gen_manager",
+    "asset_id": 417426,
+    "input_sha256": "d1963a864dd8246f799032b3b843a271a5d20b08fc8223ab54f3bd4d0f55ff32",
+    "function_path": "0/17",
+    "function_name": "\"finish_character_gen\"",
+    "original_metadata": {
+      "input_sha256": "d1963a864dd8246f799032b3b843a271a5d20b08fc8223ab54f3bd4d0f55ff32",
+      "payload_sha256": "7468527cec647fa7d90594cccf7b9e05b1e2edd77bcd0ca2694562571b921ed6",
+      "wrapper": {
+        "name": "character_gen_manager",
+        "name_bytes_hex": "6368617261637465725f67656e5f6d616e61676572",
+        "opaque_word": 1,
+        "metadata_string_count": 1,
+        "metadata_strings": [
+          {
+            "index": 0,
+            "file_offset": 29,
+            "text": "GAME.fade_screen_to_color",
+            "bytes_hex": "47414d452e666164655f73637265656e5f746f5f636f6c6f72"
+          }
+        ],
+        "payload_file_offset": 62,
+        "declared_payload_bytes": 22874
+      },
+      "first_binding": "417426.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\character_gen_manager\\function_0_17.lua",
+    "code_sha256": "9c0b23b9356bc466125f603882c22a2188384b1b303138fa41f054e0ba31a54f",
+    "instruction_count": 51,
+    "body_emittable": true
+  },
+  {
+    "module": "MQ01",
+    "asset_id": 613082,
+    "input_sha256": "4f615429c46748631f2f525649e1450c4174e012deade93c11f60f5ff59758c4",
+    "function_path": "0/0",
+    "function_name": "\"cheat_start_quest\"",
+    "original_metadata": {
+      "input_sha256": "4f615429c46748631f2f525649e1450c4174e012deade93c11f60f5ff59758c4",
+      "payload_sha256": "e929bc86481a5bf0f59ecbd878a43258ef39f4fb1d986f34a551929d7d6c15ec",
+      "wrapper": {
+        "name": "MQ01",
+        "name_bytes_hex": "4d513031",
+        "opaque_word": 63,
+        "metadata_string_count": 63,
+        "metadata_strings": [
+          {
+            "index": 0,
+            "file_offset": 12,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 1,
+            "file_offset": 31,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 2,
+            "file_offset": 50,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 3,
+            "file_offset": 80,
+            "text": "GAME.destroy_actor",
+            "bytes_hex": "47414d452e64657374726f795f6163746f72"
+          },
+          {
+            "index": 4,
+            "file_offset": 102,
+            "text": "GAME.destroy_actor",
+            "bytes_hex": "47414d452e64657374726f795f6163746f72"
+          },
+          {
+            "index": 5,
+            "file_offset": 124,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 6,
+            "file_offset": 144,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 7,
+            "file_offset": 164,
+            "text": "quest_update_summary.on_quest",
+            "bytes_hex": "71756573745f7570646174655f73756d6d6172792e6f6e5f7175657374"
+          },
+          {
+            "index": 8,
+            "file_offset": 197,
+            "text": "MQ01.bow_equip_check",
+            "bytes_hex": "4d5130312e626f775f65717569705f636865636b"
+          },
+          {
+            "index": 9,
+            "file_offset": 221,
+            "text": "MQ01.shake_1c_rooms",
+            "bytes_hex": "4d5130312e7368616b655f31635f726f6f6d73"
+          },
+          {
+            "index": 10,
+            "file_offset": 244,
+            "text": "MQ01.shake_labspace",
+            "bytes_hex": "4d5130312e7368616b655f6c61627370616365"
+          },
+          {
+            "index": 11,
+            "file_offset": 267,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 12,
+            "file_offset": 287,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 13,
+            "file_offset": 307,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 14,
+            "file_offset": 327,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 15,
+            "file_offset": 347,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 16,
+            "file_offset": 367,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 17,
+            "file_offset": 387,
+            "text": "MQ01.give_stealth_archer_awareness",
+            "bytes_hex": "4d5130312e676976655f737465616c74685f6172636865725f61776172656e657373"
+          },
+          {
+            "index": 18,
+            "file_offset": 425,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 19,
+            "file_offset": 445,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 20,
+            "file_offset": 465,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 21,
+            "file_offset": 485,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 22,
+            "file_offset": 515,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 23,
+            "file_offset": 545,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 24,
+            "file_offset": 575,
+            "text": "encounterLibrary.kill_encounter",
+            "bytes_hex": "656e636f756e7465724c6962726172792e6b696c6c5f656e636f756e746572"
+          },
+          {
+            "index": 25,
+            "file_offset": 610,
+            "text": "encounterLibrary.kill_encounter",
+            "bytes_hex": "656e636f756e7465724c6962726172792e6b696c6c5f656e636f756e746572"
+          },
+          {
+            "index": 26,
+            "file_offset": 645,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 27,
+            "file_offset": 682,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 28,
+            "file_offset": 719,
+            "text": "factionsLibrary.set_faction_hostile",
+            "bytes_hex": "66616374696f6e734c6962726172792e7365745f66616374696f6e5f686f7374696c65"
+          },
+          {
+            "index": 29,
+            "file_offset": 758,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 30,
+            "file_offset": 795,
+            "text": "MQ01.chase_scene_tuatha",
+            "bytes_hex": "4d5130312e63686173655f7363656e655f747561746861"
+          },
+          {
+            "index": 31,
+            "file_offset": 822,
+            "text": "behavior.goto_waypoints",
+            "bytes_hex": "6265686176696f722e676f746f5f776179706f696e7473"
+          },
+          {
+            "index": 32,
+            "file_offset": 849,
+            "text": "factionsLibrary.set_faction_hostile",
+            "bytes_hex": "66616374696f6e734c6962726172792e7365745f66616374696f6e5f686f7374696c65"
+          },
+          {
+            "index": 33,
+            "file_offset": 888,
+            "text": "factionsLibrary.set_faction_hostile",
+            "bytes_hex": "66616374696f6e734c6962726172792e7365745f66616374696f6e5f686f7374696c65"
+          },
+          {
+            "index": 34,
+            "file_offset": 927,
+            "text": "MQ01.cause_loud_sound",
+            "bytes_hex": "4d5130312e63617573655f6c6f75645f736f756e64"
+          },
+          {
+            "index": 35,
+            "file_offset": 952,
+            "text": "MQ01.give_los_on_player",
+            "bytes_hex": "4d5130312e676976655f6c6f735f6f6e5f706c61796572"
+          },
+          {
+            "index": 36,
+            "file_offset": 979,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 37,
+            "file_offset": 1016,
+            "text": "ACTOR.add_buff",
+            "bytes_hex": "4143544f522e6164645f62756666"
+          },
+          {
+            "index": 38,
+            "file_offset": 1034,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 39,
+            "file_offset": 1053,
+            "text": "MQ01.on_bow_event_complete",
+            "bytes_hex": "4d5130312e6f6e5f626f775f6576656e745f636f6d706c657465"
+          },
+          {
+            "index": 40,
+            "file_offset": 1083,
+            "text": "Door.open_door",
+            "bytes_hex": "446f6f722e6f70656e5f646f6f72"
+          },
+          {
+            "index": 41,
+            "file_offset": 1101,
+            "text": "MQ01.Encel_follow",
+            "bytes_hex": "4d5130312e456e63656c5f666f6c6c6f77"
+          },
+          {
+            "index": 42,
+            "file_offset": 1122,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 43,
+            "file_offset": 1141,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 44,
+            "file_offset": 1160,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 45,
+            "file_offset": 1179,
+            "text": "tutorial_win.launch_modal_tutorial",
+            "bytes_hex": "7475746f7269616c5f77696e2e6c61756e63685f6d6f64616c5f7475746f7269616c"
+          },
+          {
+            "index": 46,
+            "file_offset": 1217,
+            "text": "MQ01.bow_prompt",
+            "bytes_hex": "4d5130312e626f775f70726f6d7074"
+          },
+          {
+            "index": 47,
+            "file_offset": 1236,
+            "text": "behavior.follow_object",
+            "bytes_hex": "6265686176696f722e666f6c6c6f775f6f626a656374"
+          },
+          {
+            "index": 48,
+            "file_offset": 1262,
+            "text": "Player.give_item_to_player",
+            "bytes_hex": "506c617965722e676976655f6974656d5f746f5f706c61796572"
+          },
+          {
+            "index": 49,
+            "file_offset": 1292,
+            "text": "Player.give_item_to_player",
+            "bytes_hex": "506c617965722e676976655f6974656d5f746f5f706c61796572"
+          },
+          {
+            "index": 50,
+            "file_offset": 1322,
+            "text": "quest_update_summary.on_quest",
+            "bytes_hex": "71756573745f7570646174655f73756d6d6172792e6f6e5f7175657374"
+          },
+          {
+            "index": 51,
+            "file_offset": 1355,
+            "text": "MQ01.crash_labspace",
+            "bytes_hex": "4d5130312e63726173685f6c61627370616365"
+          },
+          {
+            "index": 52,
+            "file_offset": 1378,
+            "text": "MQ01.postlab_music",
+            "bytes_hex": "4d5130312e706f73746c61625f6d75736963"
+          },
+          {
+            "index": 53,
+            "file_offset": 1400,
+            "text": "MQ01.post_end_lab_cinematic",
+            "bytes_hex": "4d5130312e706f73745f656e645f6c61625f63696e656d61746963"
+          },
+          {
+            "index": 54,
+            "file_offset": 1431,
+            "text": "cameraLibrary.set_shoulder_camera",
+            "bytes_hex": "63616d6572614c6962726172792e7365745f73686f756c6465725f63616d657261"
+          },
+          {
+            "index": 55,
+            "file_offset": 1468,
+            "text": "GAME.fade_screen_to_color",
+            "bytes_hex": "47414d452e666164655f73637265656e5f746f5f636f6c6f72"
+          },
+          {
+            "index": 56,
+            "file_offset": 1497,
+            "text": "ACTOR.set_actor_state",
+            "bytes_hex": "4143544f522e7365745f6163746f725f7374617465"
+          },
+          {
+            "index": 57,
+            "file_offset": 1522,
+            "text": "INPUT.remove_mode",
+            "bytes_hex": "494e5055542e72656d6f76655f6d6f6465"
+          },
+          {
+            "index": 58,
+            "file_offset": 1543,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 59,
+            "file_offset": 1571,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 60,
+            "file_offset": 1599,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 61,
+            "file_offset": 1627,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 62,
+            "file_offset": 1655,
+            "text": "WoS_FirstCombatRoom_EntranceCamera.force_explode_stuff",
+            "bytes_hex": "576f535f4669727374436f6d626174526f6f6d5f456e7472616e636543616d6572612e666f7263655f6578706c6f64655f7374756666"
+          }
+        ],
+        "payload_file_offset": 1717,
+        "declared_payload_bytes": 65845
+      },
+      "first_binding": "613082.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\MQ01\\function_0_0.lua",
+    "code_sha256": "a8bae0b371711b044169637e5d3b37df434626dd13e83fb98a39a1d75febcc30",
+    "instruction_count": 27,
+    "body_emittable": true
+  },
+  {
+    "module": "MQ01",
+    "asset_id": 613082,
+    "input_sha256": "4f615429c46748631f2f525649e1450c4174e012deade93c11f60f5ff59758c4",
+    "function_path": "0/57",
+    "function_name": "\"on_start_stage_5\"",
+    "original_metadata": {
+      "input_sha256": "4f615429c46748631f2f525649e1450c4174e012deade93c11f60f5ff59758c4",
+      "payload_sha256": "e929bc86481a5bf0f59ecbd878a43258ef39f4fb1d986f34a551929d7d6c15ec",
+      "wrapper": {
+        "name": "MQ01",
+        "name_bytes_hex": "4d513031",
+        "opaque_word": 63,
+        "metadata_string_count": 63,
+        "metadata_strings": [
+          {
+            "index": 0,
+            "file_offset": 12,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 1,
+            "file_offset": 31,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 2,
+            "file_offset": 50,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 3,
+            "file_offset": 80,
+            "text": "GAME.destroy_actor",
+            "bytes_hex": "47414d452e64657374726f795f6163746f72"
+          },
+          {
+            "index": 4,
+            "file_offset": 102,
+            "text": "GAME.destroy_actor",
+            "bytes_hex": "47414d452e64657374726f795f6163746f72"
+          },
+          {
+            "index": 5,
+            "file_offset": 124,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 6,
+            "file_offset": 144,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 7,
+            "file_offset": 164,
+            "text": "quest_update_summary.on_quest",
+            "bytes_hex": "71756573745f7570646174655f73756d6d6172792e6f6e5f7175657374"
+          },
+          {
+            "index": 8,
+            "file_offset": 197,
+            "text": "MQ01.bow_equip_check",
+            "bytes_hex": "4d5130312e626f775f65717569705f636865636b"
+          },
+          {
+            "index": 9,
+            "file_offset": 221,
+            "text": "MQ01.shake_1c_rooms",
+            "bytes_hex": "4d5130312e7368616b655f31635f726f6f6d73"
+          },
+          {
+            "index": 10,
+            "file_offset": 244,
+            "text": "MQ01.shake_labspace",
+            "bytes_hex": "4d5130312e7368616b655f6c61627370616365"
+          },
+          {
+            "index": 11,
+            "file_offset": 267,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 12,
+            "file_offset": 287,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 13,
+            "file_offset": 307,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 14,
+            "file_offset": 327,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 15,
+            "file_offset": 347,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 16,
+            "file_offset": 367,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 17,
+            "file_offset": 387,
+            "text": "MQ01.give_stealth_archer_awareness",
+            "bytes_hex": "4d5130312e676976655f737465616c74685f6172636865725f61776172656e657373"
+          },
+          {
+            "index": 18,
+            "file_offset": 425,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 19,
+            "file_offset": 445,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 20,
+            "file_offset": 465,
+            "text": "ACTOR.start_anim",
+            "bytes_hex": "4143544f522e73746172745f616e696d"
+          },
+          {
+            "index": 21,
+            "file_offset": 485,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 22,
+            "file_offset": 515,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 23,
+            "file_offset": 545,
+            "text": "ACTOR.uninstantiate_object",
+            "bytes_hex": "4143544f522e756e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 24,
+            "file_offset": 575,
+            "text": "encounterLibrary.kill_encounter",
+            "bytes_hex": "656e636f756e7465724c6962726172792e6b696c6c5f656e636f756e746572"
+          },
+          {
+            "index": 25,
+            "file_offset": 610,
+            "text": "encounterLibrary.kill_encounter",
+            "bytes_hex": "656e636f756e7465724c6962726172792e6b696c6c5f656e636f756e746572"
+          },
+          {
+            "index": 26,
+            "file_offset": 645,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 27,
+            "file_offset": 682,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 28,
+            "file_offset": 719,
+            "text": "factionsLibrary.set_faction_hostile",
+            "bytes_hex": "66616374696f6e734c6962726172792e7365745f66616374696f6e5f686f7374696c65"
+          },
+          {
+            "index": 29,
+            "file_offset": 758,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 30,
+            "file_offset": 795,
+            "text": "MQ01.chase_scene_tuatha",
+            "bytes_hex": "4d5130312e63686173655f7363656e655f747561746861"
+          },
+          {
+            "index": 31,
+            "file_offset": 822,
+            "text": "behavior.goto_waypoints",
+            "bytes_hex": "6265686176696f722e676f746f5f776179706f696e7473"
+          },
+          {
+            "index": 32,
+            "file_offset": 849,
+            "text": "factionsLibrary.set_faction_hostile",
+            "bytes_hex": "66616374696f6e734c6962726172792e7365745f66616374696f6e5f686f7374696c65"
+          },
+          {
+            "index": 33,
+            "file_offset": 888,
+            "text": "factionsLibrary.set_faction_hostile",
+            "bytes_hex": "66616374696f6e734c6962726172792e7365745f66616374696f6e5f686f7374696c65"
+          },
+          {
+            "index": 34,
+            "file_offset": 927,
+            "text": "MQ01.cause_loud_sound",
+            "bytes_hex": "4d5130312e63617573655f6c6f75645f736f756e64"
+          },
+          {
+            "index": 35,
+            "file_offset": 952,
+            "text": "MQ01.give_los_on_player",
+            "bytes_hex": "4d5130312e676976655f6c6f735f6f6e5f706c61796572"
+          },
+          {
+            "index": 36,
+            "file_offset": 979,
+            "text": "ACTOR.start_player_ambient_dialog",
+            "bytes_hex": "4143544f522e73746172745f706c617965725f616d6269656e745f6469616c6f67"
+          },
+          {
+            "index": 37,
+            "file_offset": 1016,
+            "text": "ACTOR.add_buff",
+            "bytes_hex": "4143544f522e6164645f62756666"
+          },
+          {
+            "index": 38,
+            "file_offset": 1034,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 39,
+            "file_offset": 1053,
+            "text": "MQ01.on_bow_event_complete",
+            "bytes_hex": "4d5130312e6f6e5f626f775f6576656e745f636f6d706c657465"
+          },
+          {
+            "index": 40,
+            "file_offset": 1083,
+            "text": "Door.open_door",
+            "bytes_hex": "446f6f722e6f70656e5f646f6f72"
+          },
+          {
+            "index": 41,
+            "file_offset": 1101,
+            "text": "MQ01.Encel_follow",
+            "bytes_hex": "4d5130312e456e63656c5f666f6c6c6f77"
+          },
+          {
+            "index": 42,
+            "file_offset": 1122,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 43,
+            "file_offset": 1141,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 44,
+            "file_offset": 1160,
+            "text": "QUEST.set_stage",
+            "bytes_hex": "51554553542e7365745f7374616765"
+          },
+          {
+            "index": 45,
+            "file_offset": 1179,
+            "text": "tutorial_win.launch_modal_tutorial",
+            "bytes_hex": "7475746f7269616c5f77696e2e6c61756e63685f6d6f64616c5f7475746f7269616c"
+          },
+          {
+            "index": 46,
+            "file_offset": 1217,
+            "text": "MQ01.bow_prompt",
+            "bytes_hex": "4d5130312e626f775f70726f6d7074"
+          },
+          {
+            "index": 47,
+            "file_offset": 1236,
+            "text": "behavior.follow_object",
+            "bytes_hex": "6265686176696f722e666f6c6c6f775f6f626a656374"
+          },
+          {
+            "index": 48,
+            "file_offset": 1262,
+            "text": "Player.give_item_to_player",
+            "bytes_hex": "506c617965722e676976655f6974656d5f746f5f706c61796572"
+          },
+          {
+            "index": 49,
+            "file_offset": 1292,
+            "text": "Player.give_item_to_player",
+            "bytes_hex": "506c617965722e676976655f6974656d5f746f5f706c61796572"
+          },
+          {
+            "index": 50,
+            "file_offset": 1322,
+            "text": "quest_update_summary.on_quest",
+            "bytes_hex": "71756573745f7570646174655f73756d6d6172792e6f6e5f7175657374"
+          },
+          {
+            "index": 51,
+            "file_offset": 1355,
+            "text": "MQ01.crash_labspace",
+            "bytes_hex": "4d5130312e63726173685f6c61627370616365"
+          },
+          {
+            "index": 52,
+            "file_offset": 1378,
+            "text": "MQ01.postlab_music",
+            "bytes_hex": "4d5130312e706f73746c61625f6d75736963"
+          },
+          {
+            "index": 53,
+            "file_offset": 1400,
+            "text": "MQ01.post_end_lab_cinematic",
+            "bytes_hex": "4d5130312e706f73745f656e645f6c61625f63696e656d61746963"
+          },
+          {
+            "index": 54,
+            "file_offset": 1431,
+            "text": "cameraLibrary.set_shoulder_camera",
+            "bytes_hex": "63616d6572614c6962726172792e7365745f73686f756c6465725f63616d657261"
+          },
+          {
+            "index": 55,
+            "file_offset": 1468,
+            "text": "GAME.fade_screen_to_color",
+            "bytes_hex": "47414d452e666164655f73637265656e5f746f5f636f6c6f72"
+          },
+          {
+            "index": 56,
+            "file_offset": 1497,
+            "text": "ACTOR.set_actor_state",
+            "bytes_hex": "4143544f522e7365745f6163746f725f7374617465"
+          },
+          {
+            "index": 57,
+            "file_offset": 1522,
+            "text": "INPUT.remove_mode",
+            "bytes_hex": "494e5055542e72656d6f76655f6d6f6465"
+          },
+          {
+            "index": 58,
+            "file_offset": 1543,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 59,
+            "file_offset": 1571,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 60,
+            "file_offset": 1599,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 61,
+            "file_offset": 1627,
+            "text": "ACTOR.instantiate_object",
+            "bytes_hex": "4143544f522e696e7374616e74696174655f6f626a656374"
+          },
+          {
+            "index": 62,
+            "file_offset": 1655,
+            "text": "WoS_FirstCombatRoom_EntranceCamera.force_explode_stuff",
+            "bytes_hex": "576f535f4669727374436f6d626174526f6f6d5f456e7472616e636543616d6572612e666f7263655f6578706c6f64655f7374756666"
+          }
+        ],
+        "payload_file_offset": 1717,
+        "declared_payload_bytes": 65845
+      },
+      "first_binding": "613082.lua_bxml",
+      "container": null
+    },
+    "code_file": "scripts\\MQ01\\function_0_57.lua",
+    "code_sha256": "018c08182cb7460e756a97346d9559b016f613d3e1cec6d6e8f29ed360f7bc69",
+    "instruction_count": 1,
+    "body_emittable": true
+  }
+]

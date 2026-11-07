@@ -1,0 +1,76 @@
+Android v0.8 integration staging
+
+Copy these staged files into the existing independent Windows v08-host tree:
+  android_scene.c
+  android_scripts.c
+  android_scripts.h
+  android_input_probe.c
+  android_input_probe.h
+  CMakeLists.txt
+
+android_scene.cmake and AndroidManifest.xml here are unchanged copies of v07;
+they are not required updates. Keep parent's chosen APK version metadata.
+The Windows tree already contains local geometry sources/includes/tests.
+CMake uses those local files and ../v08-portable only; it does not depend on
+v07 or the Mac-only v08-scripts staging directory. It links the existing
+amalur_scene_profile_v08 and amalur_scene_asset_macros_v08 targets. The v08
+portable Lua source must retain the scoped Android weak-mode collector fix.
+
+Also copy latest scene_profile_v08.c/.h and scene_asset_macros_v08.c/.h from
+their staging directory into matching Windows v08-portable src/include paths
+before rebuilding every caller. Domain was added to the copied state struct.
+
+APK assets now require inputdeviceaction_init.bin, loottable_init.bin, and
+ability_init.bin in addition to the prior runtime/modules/scene.bin assets.
+Generic descriptor rows bind LOOT_TABLE_ID to0x37 and ABILITY_ID to0x4e. All
+snapshots are pre-read with a524296-byte bound each, validated by their existing
+installers, copied into Lua-owned maps, and freed after bootstrap regardless of
+success. To add a proven macro later, add a descriptor row and package its
+validated snapshot; no dynamic category guessing or missing-file fallback.
+
+Worker lifetime
+
+The render worker gets its own JNIEnv from Activity.vm, attaching only when
+needed. It never uses Activity.env from the callback thread. Device enumeration
+uses local JNI frames and clears query-owned exceptions. Only a worker that
+attached itself detaches itself. Lua providers retain no JNI references.
+
+Initial inventory is queried before bootstrap. While rendering/resumed it is
+refreshed at most every500ms, or promptly after a resume/configuration epoch
+change. Paused/no-window loops keep their existing blocking behavior, so no
+claim of background hotplug monitoring is made. Sorted IDs avoid reorder-only
+log churn. Logs distinguish unknown versus known counts and show source masks
+and virtual status only on change. Source counts describe Android logical input
+devices, not necessarily the number of distinct physical controllers.
+
+The selected Android logical STANDARD policy is separately logged and copied
+through the v08 profile. Android keycode A confirms and B backs; this is explicit
+new host behavior, not a native kind or a connection inference. Inventory does
+not alter the policy. Native kind15 being identified as SwitchProController does
+not imply every Android controller with reversed labels should become native15.
+
+Only TOUCHSCREEN source motion reaches touch orbit/pinch. Joystick, mouse and
+key events remain unhandled here until an actual action consumes them; the
+observer return value is not used as an event-consumed flag. This update does
+not implement controller camera movement, per-frame gameplay, or input dispatch
+to recovered Lua. Touch gesture bookkeeping resets at queue replacement/pause.
+
+After a validated scene loads, bootstrap requests the same SpaceCommon root and
+on_object_creation_complete event under128MiB/10M-instruction bounds. A failed
+bootstrap remains diagnostic and returns no realm. A fully successful realm is
+retained in a worker-local variable, stays idle, and is destroyed by the same
+worker during shutdown before JNI detach and mesh cleanup. Activity destruction
+still wakes/joins the worker before releasing Activity-owned resources.
+The shader, mesh loading, projection, geometry and draw behavior are unchanged.
+
+Parent validation (not performed by staging agent)
+
+Build Windows v08 controller native and Android-policy fixtures, macro fixtures,
+and real scene inspector; then build Android with unchanged FORTIFY settings.
+Package all three snapshots and confirm the bootstrap log names all installed
+macros and reports either a concrete next missing binding or complete success.
+Confirm real geometry still renders and touch orbit/pinch works. Check JNI
+inventory log on initial launch and controller attach/detach while resumed.
+Joystick motion must not trigger touch drag. Pause/resume and destroy/relaunch
+must not leave JNI-attached workers or retained Lua realms behind. No local
+build, Windows copy, tablet install, or device operation was performed here.

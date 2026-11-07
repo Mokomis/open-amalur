@@ -1,0 +1,92 @@
+[
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "BHG::EnvironmentProbeInstanceMgr::vftable",
+    "text": "efined4 *param_1)\n\n{\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00cd8960(param_1);\n  *(undefined2 *)(param_1 + 1) = 0;\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  param_1[2] = 0;\n  param_1[3] = 0;\n  FUN_00c378f0();\n  return param_1;\n}\n\n\n// 00fb5da0 BHG_EnvironmentProbeInstanceMgr__xtor_2\n\nvoid __fastcall BHG_EnvironmentProbeInstanceMgr__xtor_2(undefined4 *param_1)\n\n"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "BHG::EnvironmentProbeInstanceMgr::vftable",
+    "text": "b5da0 BHG_EnvironmentProbeInstanceMgr__xtor_2\n\nvoid __fastcall BHG_EnvironmentProbeInstanceMgr__xtor_2(undefined4 *param_1)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  return;\n}\n\n\n// 00fb5dd0 BHG_EnvironmentProbeInstanceMgr__vf0\n\nundefined4 * __thiscall BHG_EnvironmentProbeInstanceMgr"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "BHG::EnvironmentProbeInstanceMgr::vftable",
+    "text": "onmentProbeInstanceMgr__vf0\n\nundefined4 * __thiscall BHG_EnvironmentProbeInstanceMgr__vf0(undefined4 *param_1,byte param_2)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  if ((param_2 & 1) != 0) {\n    FUN_00aff1f0(param_1);\n  }\n  return param_1;\n}\n\n\n"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "// 00ce2350 BHG_EnvironmentProbeInstanceMgr__vf1\n\nvoid __thiscall BHG_EnvironmentProbeInstanceMgr__vf1(int param_1,int param_2)\n\n{\n  int iVar1;\n  int iVar2;\n  int iVar3;\n  \n  iVar3 = 0;\n  if (0 < *(int *)(param_1 + 0xc)) {\n    iVar2 = 0;\n    do {\n      iVar1 = *(int"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "// 00ce2350 BHG_EnvironmentProbeInstanceMgr__vf1\n\nvoid __thiscall BHG_EnvironmentProbeInstanceMgr__vf1(int param_1,int param_2)\n\n{\n  int iVar1;\n  int iVar2;\n  int iVar3;\n  \n  iVar3 = 0;\n  if (0 < *(int *)(param_1 + 0xc)) {\n    iVar2 = 0;\n    do {\n      iVar1 = *(int *)(iVar2 + 0x10 + *(int *)(param_1 + 8));\n      if (1"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "    }\n      iVar3 = iVar3 + 1;\n      iVar2 = iVar2 + 0x14;\n    } while (iVar3 < *(int *)(param_1 + 0xc));\n  }\n  return;\n}\n\n\n// 00fb5d60 BHG_EnvironmentProbeInstanceMgr__xtor\n\nundefined4 * __fastcall BHG_EnvironmentProbeInstanceMgr__xtor(undefined4 *param_1)\n\n{\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00cd8960(param_1);\n  *(undefined2 *)(param_1 + 1) = 0;\n  *param_1 = BHG::Envir"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "} while (iVar3 < *(int *)(param_1 + 0xc));\n  }\n  return;\n}\n\n\n// 00fb5d60 BHG_EnvironmentProbeInstanceMgr__xtor\n\nundefined4 * __fastcall BHG_EnvironmentProbeInstanceMgr__xtor(undefined4 *param_1)\n\n{\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00cd8960(param_1);\n  *(undefined2 *)(param_1 + 1) = 0;\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  param_1[2] = 0;\n  param_1[3]"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "d4 *param_1)\n\n{\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00cd8960(param_1);\n  *(undefined2 *)(param_1 + 1) = 0;\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  param_1[2] = 0;\n  param_1[3] = 0;\n  FUN_00c378f0();\n  return param_1;\n}\n\n\n// 00fb5da0 BHG_EnvironmentProbeInstanceMgr__xtor_2\n\nvoid __fastcall BHG_EnvironmentProbeInstanceMgr__xtor_2(undefined4 *param_1)\n\n{\n  *"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  param_1[2] = 0;\n  param_1[3] = 0;\n  FUN_00c378f0();\n  return param_1;\n}\n\n\n// 00fb5da0 BHG_EnvironmentProbeInstanceMgr__xtor_2\n\nvoid __fastcall BHG_EnvironmentProbeInstanceMgr__xtor_2(undefined4 *param_1)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "[2] = 0;\n  param_1[3] = 0;\n  FUN_00c378f0();\n  return param_1;\n}\n\n\n// 00fb5da0 BHG_EnvironmentProbeInstanceMgr__xtor_2\n\nvoid __fastcall BHG_EnvironmentProbeInstanceMgr__xtor_2(undefined4 *param_1)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  return;\n}\n\n\n// 00fb5dd0 BHG_EnvironmentProbe"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": " BHG_EnvironmentProbeInstanceMgr__xtor_2\n\nvoid __fastcall BHG_EnvironmentProbeInstanceMgr__xtor_2(undefined4 *param_1)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  return;\n}\n\n\n// 00fb5dd0 BHG_EnvironmentProbeInstanceMgr__vf0\n\nundefined4 * __thiscall BHG_EnvironmentProbeInstanceMgr__vf0"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "InstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  return;\n}\n\n\n// 00fb5dd0 BHG_EnvironmentProbeInstanceMgr__vf0\n\nundefined4 * __thiscall BHG_EnvironmentProbeInstanceMgr__vf0(undefined4 *param_1,byte param_2)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "tureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  return;\n}\n\n\n// 00fb5dd0 BHG_EnvironmentProbeInstanceMgr__vf0\n\nundefined4 * __thiscall BHG_EnvironmentProbeInstanceMgr__vf0(undefined4 *param_1,byte param_2)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  if ((param_2 & 1) != 0) {\n    FUN_"
+  },
+  {
+    "path": "BHG_EnvironmentProbeInstanceMgr.c",
+    "term": "EnvironmentProbe",
+    "text": "tProbeInstanceMgr__vf0\n\nundefined4 * __thiscall BHG_EnvironmentProbeInstanceMgr__vf0(undefined4 *param_1,byte param_2)\n\n{\n  *param_1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *param_1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(param_1);\n  if ((param_2 & 1) != 0) {\n    FUN_00aff1f0(param_1);\n  }\n  return param_1;\n}\n\n\n"
+  },
+  {
+    "path": "T_EventBroadcaster_VGameSpaceEvent_BHG_BHG.c",
+    "term": "BHG::EnvironmentProbeInstanceMgr::vftable",
+    "text": "  param_1[0x2f] = 0;\n  *puVar1 = BHG::ITextureGatherer::vftable;\n  FUN_00cd8960(puVar1);\n  *(undefined2 *)(param_1 + 0x31) = 0;\n  *puVar1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  param_1[0x32] = 0;\n  param_1[0x33] = 0;\n  FUN_00c378f0();\n  param_1[0x35] = BHG::SpaceFixedCameraMgr::vftable;\n  param_1[0x36] = 0;\n  param_1[0x37] = 0;\n  param_1[0x38] = 0;\n  param_1[0x39] = 0;\n  FUN_00fd"
+  },
+  {
+    "path": "T_EventBroadcaster_VGameSpaceEvent_BHG_BHG.c",
+    "term": "BHG::EnvironmentProbeInstanceMgr::vftable",
+    "text": "G_ITextureGatherer__xtor_6();\n  FUN_00fd0fd0();\n  puVar1 = param_1 + 0x30;\n  param_1[0x35] = BHG::SpaceFixedCameraMgr::vftable;\n  *puVar1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *puVar1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(puVar1);\n  thunk_FUN_00ce2170();\n  FUN_00fbdb60();\n  FUN_00fbd8a0();\n  param_1[0x1f] = BHG::SpaceClusterInstanceManager::vftable;\n"
+  },
+  {
+    "path": "T_EventBroadcaster_VGameSpaceEvent_BHG_BHG.c",
+    "term": "EnvironmentProbe",
+    "text": "am_1[0x2f] = 0;\n  *puVar1 = BHG::ITextureGatherer::vftable;\n  FUN_00cd8960(puVar1);\n  *(undefined2 *)(param_1 + 0x31) = 0;\n  *puVar1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  param_1[0x32] = 0;\n  param_1[0x33] = 0;\n  FUN_00c378f0();\n  param_1[0x35] = BHG::SpaceFixedCameraMgr::vftable;\n  param_1[0x36] = 0;\n  param_1[0x37] = 0;\n  param_1[0x38] = 0;\n  param_1[0x39] = 0;\n  FUN_00fd91e0("
+  },
+  {
+    "path": "T_EventBroadcaster_VGameSpaceEvent_BHG_BHG.c",
+    "term": "EnvironmentProbe",
+    "text": "xtureGatherer__xtor_6();\n  FUN_00fd0fd0();\n  puVar1 = param_1 + 0x30;\n  param_1[0x35] = BHG::SpaceFixedCameraMgr::vftable;\n  *puVar1 = BHG::EnvironmentProbeInstanceMgr::vftable;\n  FUN_00ce23c0();\n  *puVar1 = BHG::ITextureGatherer::vftable;\n  FUN_00c7bc20(puVar1);\n  thunk_FUN_00ce2170();\n  FUN_00fbdb60();\n  FUN_00fbd8a0();\n  param_1[0x1f] = BHG::SpaceClusterInstanceManager::vftable;\n  FUN"
+  }
+]

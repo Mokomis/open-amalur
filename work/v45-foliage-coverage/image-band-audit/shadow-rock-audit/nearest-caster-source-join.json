@@ -1,0 +1,142 @@
+[
+  {
+    "source_index": 469,
+    "source_triangle": 41261,
+    "source_local_triangle": 5,
+    "source_provenance": {
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "instance": 547,
+      "group": "refs",
+      "fab": 343974,
+      "fab_name": "for_flora_treelarge01",
+      "assembly": 5,
+      "material": 359202,
+      "material_name": "for_flora_treeleaf",
+      "normal_mode": 0.0,
+      "wind_displacement_quantization_max": 0.0,
+      "wind_palette_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "center_z_offset": 0.0,
+      "pivot": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "shader": "treeleaf",
+      "stride": 48,
+      "triangles": 110,
+      "mesh_path": "work\\v20-inputs\\patch_0.pak\\343974.fab_visual_data_streamable_bin",
+      "mesh_sha256": "0d80ce9ee55cfc548327175b5a698c0615e6b7c5a7f7b1469287aaf02002246a",
+      "render_record_hex": "b9ee0a4692ef9cc714448f46ac06b245ac8f074602649cc79d18cf450000803f000000000000000018ba6dbe7b01793f0000803f0000803f0000803f5e000000227b05000500000000000000000000001f98934b",
+      "color_min": [
+        50,
+        71,
+        40,
+        255
+      ],
+      "color_max": [
+        232,
+        234,
+        230,
+        255
+      ]
+    },
+    "authored_range": {
+      "source_instance": 469,
+      "space": 431646,
+      "fab": 343974,
+      "assembly": 5,
+      "native_material": 359202,
+      "triangles": 110,
+      "raw_translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.2321552038192749,
+        0.9726788401603699
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "basis": [
+        [
+          0.8922079226792619,
+          0.45162490877625316,
+          0.0
+        ],
+        [
+          -0.45162490877625316,
+          0.8922079226792619,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "render_record_hex": "b9ee0a4692ef9cc714448f46ac06b245ac8f074602649cc79d18cf450000803f000000000000000018ba6dbe7b01793f0000803f0000803f0000803f5e000000227b05000500000000000000000000001f98934b",
+      "source_records": [
+        {
+          "group": 0,
+          "record": 704,
+          "range_squared": [
+            144000000.0,
+            852640000.0
+          ],
+          "flags": 7,
+          "rank": 704,
+          "source_bounds_file_offset": 129400,
+          "source_render_file_offset": 318136,
+          "source_ref_file_offset": 31560,
+          "source_bounds_hex": "b9ee0a4692ef9cc714448f4619d69e4554cd20450000000059cd20c51ed69e45000000000000000000000000ac06b245ac8f074602649cc79d18cf45000000004054094d04494b4e07000000c0020000",
+          "source_ref_hex": "0000000000000000a63f050000000000"
+        },
+        {
+          "group": 1,
+          "record": 266,
+          "range_squared": [
+            852640000.0,
+            900000000.0
+          ],
+          "flags": 23,
+          "rank": 266,
+          "source_bounds_file_offset": 475496,
+          "source_render_file_offset": 543760,
+          "source_ref_file_offset": 61736,
+          "source_bounds_hex": "b9ee0a4692ef9cc714448f4619d69e4554cd20450000000059cd20c51ed69e45000000000000000000000000ac06b245ac8f074602649cc79d18cf450000000004494b4ea493564e170000000a010000",
+          "source_ref_hex": "0000000000000000a63f050000000000"
+        }
+      ],
+      "source_flag_variants": [
+        7,
+        23
+      ],
+      "merged_intervals_squared": [
+        [
+          144000000.0,
+          900000000.0
+        ]
+      ],
+      "unknown_range": false,
+      "disjoint_intervals": false
+    }
+  }
+]

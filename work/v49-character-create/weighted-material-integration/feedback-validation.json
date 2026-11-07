@@ -1,0 +1,967 @@
+{
+  "status": "PASS",
+  "pose_count": 4,
+  "part_cases": 16,
+  "feedback_vertices": 12752,
+  "feedback_float_components": 229536,
+  "max_abs_error": {
+    "world_position_cm": 3.0517578125e-05,
+    "N": 1.7881393432617188e-07,
+    "T": 1.7881393432617188e-07,
+    "B": 1.7881393432617188e-07,
+    "VC": 0.0,
+    "UV0": 0.0
+  },
+  "counterfactual_skinned_B_max_component_difference": 0.7093021869659424,
+  "all_sourceUV0_and_COLOR_exact": true,
+  "source56_color_provenance": "native_shared_all_ff from existing capture; not authored",
+  "source60_color_provenance": "authored exactRGBA",
+  "basis_oracle": "Independent native375 equations with actual currentC/OACPLworldbone rows; Bentityrotation derived via production half-angle quaternion; no double facing.",
+  "scope": "ProductionCpose and testcamera, not nativeclothingcapture/animation timing match. Raster uses sourceCharacterCube-only ambient and ownsourceD/N/S. No source-original-frame pixel equality claim.",
+  "cases": [
+    {
+      "pose": 0,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 1,
+      "material": 660429,
+      "vertices": 1020,
+      "indices": 4554,
+      "palette_count": 4,
+      "color_provenance": 2,
+      "covered_pixels": 1553,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "3645bb3f0767de0e30be2fa2379f627a25dec1458b334b1789e75400e023ed6e",
+      "raster_sha256": "b8394aa28c70853403bd4fb98a35026a6a238c9ccccd88952b97d952e2351629",
+      "max_abs_error": {
+        "world_position_cm": 3.814697265625e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.247372567653656,
+      "observed_world_bounds": [
+        [
+          -20.653217315673828,
+          -38.84090805053711,
+          -0.40451207756996155
+        ],
+        [
+          26.094364166259766,
+          39.38508605957031,
+          53.20118713378906
+        ]
+      ]
+    },
+    {
+      "pose": 0,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 2,
+      "material": 660430,
+      "vertices": 250,
+      "indices": 1134,
+      "palette_count": 18,
+      "color_provenance": 1,
+      "covered_pixels": 295,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "9866ab5790e0e0ef6a6073217dad4f869bc626fa69320c922793d1abc369d43f",
+      "raster_sha256": "6755bd8725c8913e5b2375dfcd04b4fb1764e5b1cb5bbe399ffa3d2a2b2dfafa",
+      "max_abs_error": {
+        "world_position_cm": 7.62939453125e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.22456243634223938,
+      "observed_world_bounds": [
+        [
+          -3.808730125427246,
+          -28.253875732421875,
+          100.55239868164062
+        ],
+        [
+          15.172974586486816,
+          -15.901145935058594,
+          118.07898712158203
+        ]
+      ]
+    },
+    {
+      "pose": 0,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 3,
+      "material": 660428,
+      "vertices": 1206,
+      "indices": 5493,
+      "palette_count": 18,
+      "color_provenance": 2,
+      "covered_pixels": 3282,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "247974158fdb8c0f73d79cb5b63bc2c5d4bbc8e45bf19d140051d86580677538",
+      "raster_sha256": "cc46acbf676388ec49b810ecf942de934b03ff527cb920a6a1b094bf0770f02e",
+      "max_abs_error": {
+        "world_position_cm": 1.52587890625e-05,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.23843784630298615,
+      "observed_world_bounds": [
+        [
+          -16.43352699279785,
+          -30.32463836669922,
+          12.187828063964844
+        ],
+        [
+          26.69798469543457,
+          32.25979995727539,
+          123.27220153808594
+        ]
+      ]
+    },
+    {
+      "pose": 0,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 5,
+      "material": 660426,
+      "vertices": 712,
+      "indices": 3024,
+      "palette_count": 12,
+      "color_provenance": 1,
+      "covered_pixels": 2033,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "193cbc52ab315a6e040507fdf1077879a03ae32510d851006bd5f9edfdb61d60",
+      "raster_sha256": "7ead0554ead5a1f39ce9be87e89f293272ced3a60a92d6bbe92ef4e7a505d56a",
+      "max_abs_error": {
+        "world_position_cm": 3.0517578125e-05,
+        "N": 1.1920928955078125e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.7093021869659424,
+      "observed_world_bounds": [
+        [
+          -24.951297760009766,
+          -33.2805290222168,
+          110.8313217163086
+        ],
+        [
+          19.946693420410156,
+          29.226768493652344,
+          171.84608459472656
+        ]
+      ]
+    },
+    {
+      "pose": 1,
+      "clip": 1,
+      "frame": 8,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 1,
+      "material": 660429,
+      "vertices": 1020,
+      "indices": 4554,
+      "palette_count": 4,
+      "color_provenance": 2,
+      "covered_pixels": 2568,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "fce25d2b97dbbd1d7cf3d843121d2e1c5d7e3202780f32c9bf7663c11b5410a7",
+      "raster_sha256": "09e30ff01ad7864a37b9f7627671e7060b6f3840d6866560c75b603f0029b554",
+      "max_abs_error": {
+        "world_position_cm": 7.62939453125e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.6244896650314331,
+      "observed_world_bounds": [
+        [
+          -64.63441467285156,
+          -20.110977172851562,
+          -1.2856526374816895
+        ],
+        [
+          71.64405822753906,
+          20.061199188232422,
+          57.577735900878906
+        ]
+      ]
+    },
+    {
+      "pose": 1,
+      "clip": 1,
+      "frame": 8,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 2,
+      "material": 660430,
+      "vertices": 250,
+      "indices": 1134,
+      "palette_count": 18,
+      "color_provenance": 1,
+      "covered_pixels": 298,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "12d9dc4ccba4c7c8dc937fd9a141ecda284cf617fd8a09e6da431e89c77904da",
+      "raster_sha256": "15ca27718ae5445c5042b5644002258ea9ab0d7395495396335c4cc4fec04289",
+      "max_abs_error": {
+        "world_position_cm": 7.62939453125e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.19515343010425568,
+      "observed_world_bounds": [
+        [
+          -12.713611602783203,
+          -28.415803909301758,
+          92.61146545410156
+        ],
+        [
+          7.035893440246582,
+          -16.571428298950195,
+          110.74015808105469
+        ]
+      ]
+    },
+    {
+      "pose": 1,
+      "clip": 1,
+      "frame": 8,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 3,
+      "material": 660428,
+      "vertices": 1206,
+      "indices": 5493,
+      "palette_count": 18,
+      "color_provenance": 2,
+      "covered_pixels": 4246,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "4e01557c2cedbd3185cb784ac0572bb4c4d02517a46d46aca8176589e3f411a4",
+      "raster_sha256": "8d4de9095801de711daff7b831f681f6f06ee27370be79ae2f78ae2e7b57731e",
+      "max_abs_error": {
+        "world_position_cm": 1.52587890625e-05,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.616570770740509,
+      "observed_world_bounds": [
+        [
+          -54.02275085449219,
+          -24.872407913208008,
+          13.35777473449707
+        ],
+        [
+          48.190433502197266,
+          28.361181259155273,
+          117.29388427734375
+        ]
+      ]
+    },
+    {
+      "pose": 1,
+      "clip": 1,
+      "frame": 8,
+      "facing": 0,
+      "feet": [
+        0,
+        0,
+        0
+      ],
+      "part": 5,
+      "material": 660426,
+      "vertices": 712,
+      "indices": 3024,
+      "palette_count": 12,
+      "color_provenance": 1,
+      "covered_pixels": 1928,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0,
+        -0.720000029,
+        0,
+        1
+      ],
+      "feedback_sha256": "e723bf16528dcd4663d3dcebeddf3625cc934a8b38c9e3b51dd47e7578496d95",
+      "raster_sha256": "29f449a627319dd62028bfa2d5e93e3676d87e0f389e4ea42cde249d0121bc4e",
+      "max_abs_error": {
+        "world_position_cm": 3.0517578125e-05,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.6057385206222534,
+      "observed_world_bounds": [
+        [
+          -14.38405990600586,
+          -32.2254753112793,
+          105.74559020996094
+        ],
+        [
+          27.61333465576172,
+          31.177852630615234,
+          165.5229949951172
+        ]
+      ]
+    },
+    {
+      "pose": 2,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0.699999988,
+      "feet": [
+        35,
+        -15,
+        10
+      ],
+      "part": 1,
+      "material": 660429,
+      "vertices": 1020,
+      "indices": 4554,
+      "palette_count": 4,
+      "color_provenance": 2,
+      "covered_pixels": 2300,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        -0.280000001,
+        -0.800000012,
+        0.0375000015,
+        1
+      ],
+      "feedback_sha256": "6e3736a8c464707e6435ccc7796cc7681585f88241c948415365b45194a7fb1f",
+      "raster_sha256": "4e5eb34dc52695c4284ffffaa0ae63a5e71848bc5935a3e2ba2e36add2c107db",
+      "max_abs_error": {
+        "world_position_cm": 7.62939453125e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.2607981860637665,
+      "observed_world_bounds": [
+        [
+          1.7827873229980469,
+          -45.490272521972656,
+          9.595487594604492
+        ],
+        [
+          76.65007781982422,
+          23.666170120239258,
+          63.20118713378906
+        ]
+      ]
+    },
+    {
+      "pose": 2,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0.699999988,
+      "feet": [
+        35,
+        -15,
+        10
+      ],
+      "part": 2,
+      "material": 660430,
+      "vertices": 250,
+      "indices": 1134,
+      "palette_count": 18,
+      "color_provenance": 1,
+      "covered_pixels": 231,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        -0.280000001,
+        -0.800000012,
+        0.0375000015,
+        1
+      ],
+      "feedback_sha256": "b03ecd0237a9f34e5aa3f08d1ddaed82a2cc39684aa5337118860814a3b3e3a4",
+      "raster_sha256": "56206b6958d8a4793d228dd3ab9cdd2bf04e70d6e0914731516db0dcfcc6d0f6",
+      "max_abs_error": {
+        "world_position_cm": 7.62939453125e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.1920928955078125e-07,
+        "B": 1.1920928955078125e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.22428308427333832,
+      "observed_world_bounds": [
+        [
+          45.074703216552734,
+          -37.079532623291016,
+          110.55239868164062
+        ],
+        [
+          62.015323638916016,
+          -19.944339752197266,
+          128.0789794921875
+        ]
+      ]
+    },
+    {
+      "pose": 2,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0.699999988,
+      "feet": [
+        35,
+        -15,
+        10
+      ],
+      "part": 3,
+      "material": 660428,
+      "vertices": 1206,
+      "indices": 5493,
+      "palette_count": 18,
+      "color_provenance": 2,
+      "covered_pixels": 4244,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        -0.280000001,
+        -0.800000012,
+        0.0375000015,
+        1
+      ],
+      "feedback_sha256": "7269142c402693d96e2c66f4d857ccccc3ae5102a50850bec394e37645c5592f",
+      "raster_sha256": "e9da36504bed0a5f21ac42154196a1cae5b0fe3c4b876cd0ae949ade491731a1",
+      "max_abs_error": {
+        "world_position_cm": 1.52587890625e-05,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.26815351843833923,
+      "observed_world_bounds": [
+        [
+          8.552946090698242,
+          -39.85322570800781,
+          22.187828063964844
+        ],
+        [
+          64.75248718261719,
+          16.325511932373047,
+          133.27220153808594
+        ]
+      ]
+    },
+    {
+      "pose": 2,
+      "clip": 0,
+      "frame": 0,
+      "facing": 0.699999988,
+      "feet": [
+        35,
+        -15,
+        10
+      ],
+      "part": 5,
+      "material": 660426,
+      "vertices": 712,
+      "indices": 3024,
+      "palette_count": 12,
+      "color_provenance": 1,
+      "covered_pixels": 2641,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        -0.280000001,
+        -0.800000012,
+        0.0375000015,
+        1
+      ],
+      "feedback_sha256": "e2b1f15f7c19e7e16175b244e6b516021e8df4a1ef995b83627086d769e115be",
+      "raster_sha256": "946b43b0843d007cfa7aa086bebbd640cafe3bbb9686b14e6cb56c36149cad17",
+      "max_abs_error": {
+        "world_position_cm": 3.0517578125e-05,
+        "N": 1.7881393432617188e-07,
+        "T": 1.1920928955078125e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.7093021273612976,
+      "observed_world_bounds": [
+        [
+          0.21195220947265625,
+          -45.3508415222168,
+          120.8313217163086
+        ],
+        [
+          59.43398666381836,
+          6.182271480560303,
+          181.84608459472656
+        ]
+      ]
+    },
+    {
+      "pose": 3,
+      "clip": 1,
+      "frame": 8,
+      "facing": 1.39999998,
+      "feet": [
+        -50,
+        25,
+        10
+      ],
+      "part": 1,
+      "material": 660429,
+      "vertices": 1020,
+      "indices": 4554,
+      "palette_count": 4,
+      "color_provenance": 2,
+      "covered_pixels": 1299,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0.400000006,
+        -0.800000012,
+        -0.0625,
+        1
+      ],
+      "feedback_sha256": "3ab706abf2293107589b38200aa9ceffc9808da092fe643a58f2e168c4f6a7a6",
+      "raster_sha256": "dee11eb03b0da05110b6ff481541773dd47215ca57e1ae65892fa82b535e5703",
+      "max_abs_error": {
+        "world_position_cm": 7.62939453125e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.6071528792381287,
+      "observed_world_bounds": [
+        [
+          -65.0797348022461,
+          -40.34645080566406,
+          8.714347839355469
+        ],
+        [
+          -35.461822509765625,
+          97.76531982421875,
+          67.5777359008789
+        ]
+      ]
+    },
+    {
+      "pose": 3,
+      "clip": 1,
+      "frame": 8,
+      "facing": 1.39999998,
+      "feet": [
+        -50,
+        25,
+        10
+      ],
+      "part": 2,
+      "material": 660430,
+      "vertices": 250,
+      "indices": 1134,
+      "palette_count": 18,
+      "color_provenance": 1,
+      "covered_pixels": 175,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0.400000006,
+        -0.800000012,
+        -0.0625,
+        1
+      ],
+      "feedback_sha256": "fbac3f4a09a927e04c844c22c0d2fe4e13f56dcc6632e94520903a9707db3dbe",
+      "raster_sha256": "345a823cee4362b241fccf4658475cf39170abec1143fec927082bc7430669e0",
+      "max_abs_error": {
+        "world_position_cm": 7.62939453125e-06,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.1920928955078125e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.19687986373901367,
+      "observed_world_bounds": [
+        [
+          -34.87229919433594,
+          8.690287590026855,
+          102.61146545410156
+        ],
+        [
+          -21.682945251464844,
+          28.242122650146484,
+          120.74015808105469
+        ]
+      ]
+    },
+    {
+      "pose": 3,
+      "clip": 1,
+      "frame": 8,
+      "facing": 1.39999998,
+      "feet": [
+        -50,
+        25,
+        10
+      ],
+      "part": 3,
+      "material": 660428,
+      "vertices": 1206,
+      "indices": 5493,
+      "palette_count": 18,
+      "color_provenance": 2,
+      "covered_pixels": 3497,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0.400000006,
+        -0.800000012,
+        -0.0625,
+        1
+      ],
+      "feedback_sha256": "fed2ed73c3e2ddea35f21f675b6cae00949a44bef891849a874f6f329cb9dd27",
+      "raster_sha256": "723af0887a48c5b958a5afcd540441301b98e7cd00be91e8a6c1c02164bdf988",
+      "max_abs_error": {
+        "world_position_cm": 1.52587890625e-05,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.6165707111358643,
+      "observed_world_bounds": [
+        [
+          -73.81031799316406,
+          -29.80231285095215,
+          23.35777473449707
+        ],
+        [
+          -25.71122932434082,
+          73.90473175048828,
+          127.29388427734375
+        ]
+      ]
+    },
+    {
+      "pose": 3,
+      "clip": 1,
+      "frame": 8,
+      "facing": 1.39999998,
+      "feet": [
+        -50,
+        25,
+        10
+      ],
+      "part": 5,
+      "material": 660426,
+      "vertices": 712,
+      "indices": 3024,
+      "palette_count": 12,
+      "color_provenance": 1,
+      "covered_pixels": 2886,
+      "mvp": [
+        0.00800000038,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.00249999994,
+        0,
+        0,
+        0.00800000038,
+        0,
+        0,
+        0.400000006,
+        -0.800000012,
+        -0.0625,
+        1
+      ],
+      "feedback_sha256": "7da128f1ffeaddafcf79b5c560e572fc7146caefafe0bde78d4adf5111c137e6",
+      "raster_sha256": "7f80350c4db24e66340e0ab152493ebdffeb7a9c39a9cad5bb6d86707ee2b96a",
+      "max_abs_error": {
+        "world_position_cm": 3.0517578125e-05,
+        "N": 1.7881393432617188e-07,
+        "T": 1.7881393432617188e-07,
+        "B": 1.7881393432617188e-07,
+        "VC": 0.0,
+        "UV0": 0.0
+      },
+      "wrong_skin_B_max_component_delta": 0.6057384014129639,
+      "observed_world_bounds": [
+        [
+          -81.81809997558594,
+          13.250350952148438,
+          115.74559020996094
+        ],
+        [
+          -16.444381713867188,
+          52.33250427246094,
+          175.5229949951172
+        ]
+      ]
+    }
+  ]
+}

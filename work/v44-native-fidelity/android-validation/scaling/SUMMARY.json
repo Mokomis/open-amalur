@@ -1,0 +1,354 @@
+{
+  "cases": [
+    {
+      "requested_scale": 100,
+      "pid": "20622",
+      "elapsed_seconds": 27.428767874996993,
+      "profiles": [
+        {
+          "interval_ms": 23.43,
+          "worst_ms": 73.44,
+          "sim_ms": 3.71,
+          "submit_ms": 17.66,
+          "swap_ms": 2.06,
+          "gpu_ms": 13.81,
+          "gpu_max_ms": 27.48,
+          "gpu_samples": 233.0,
+          "size": "2520x1680",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 27.93,
+          "worst_ms": 48.25,
+          "sim_ms": 0.08,
+          "submit_ms": 22.04,
+          "swap_ms": 5.81,
+          "gpu_ms": 26.23,
+          "gpu_max_ms": 27.33,
+          "gpu_samples": 240.0,
+          "size": "2520x1680",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 27.96,
+          "worst_ms": 44.24,
+          "sim_ms": 0.16,
+          "submit_ms": 21.88,
+          "swap_ms": 5.91,
+          "gpu_ms": 26.45,
+          "gpu_max_ms": 27.33,
+          "gpu_samples": 240.0,
+          "size": "2520x1680",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 28.07,
+          "worst_ms": 50.28,
+          "sim_ms": 0.11,
+          "submit_ms": 21.96,
+          "swap_ms": 6.0,
+          "gpu_ms": 26.42,
+          "gpu_max_ms": 27.66,
+          "gpu_samples": 240.0,
+          "size": "2520x1680",
+          "vertices": 0.0
+        }
+      ],
+      "steady_windows": [
+        {
+          "interval_ms": 27.93,
+          "worst_ms": 48.25,
+          "sim_ms": 0.08,
+          "submit_ms": 22.04,
+          "swap_ms": 5.81,
+          "gpu_ms": 26.23,
+          "gpu_max_ms": 27.33,
+          "gpu_samples": 240.0,
+          "size": "2520x1680",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 27.96,
+          "worst_ms": 44.24,
+          "sim_ms": 0.16,
+          "submit_ms": 21.88,
+          "swap_ms": 5.91,
+          "gpu_ms": 26.45,
+          "gpu_max_ms": 27.33,
+          "gpu_samples": 240.0,
+          "size": "2520x1680",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 28.07,
+          "worst_ms": 50.28,
+          "sim_ms": 0.11,
+          "submit_ms": 21.96,
+          "swap_ms": 6.0,
+          "gpu_ms": 26.42,
+          "gpu_max_ms": 27.66,
+          "gpu_samples": 240.0,
+          "size": "2520x1680",
+          "vertices": 0.0
+        }
+      ],
+      "mean_fps": 35.73146565765055,
+      "mean_gpu_ms": 26.366666666666664,
+      "mean_submit_ms": 21.959999999999997,
+      "scale_logs": [
+        "I/OpemAmalurScene(20622): Render scale requested=100 applied=100 physical=2520x1680 selected=2520x1680",
+        "I/OpemAmalurScene(20622): Render scale requested=100 applied=100 physical=2520x1680 selected=2520x1680"
+      ],
+      "native_features_ran": [
+        "I/OpemAmalurScene(20622): Native DOF rendered=1 target=37 start_world=9974.311523 range_world=20001 max_alpha=0.7",
+        "I/OpemAmalurScene(20622): Native fidelity rendered water_draws=8 ao=34 cascades=1 sky=1 features=255"
+      ],
+      "latest_stream": "I/OpemAmalurScene(20622): STREAM cells=238/1271 draws=2173 tris=705034 gpu_mb=830 cpu_mb=0 textures=404 queued=0 update_worst_ms=0.65 native_material_draws=158 native_terrain_draws=35 features=255",
+      "thermal_before": "0",
+      "thermal_after": "0",
+      "scope": "Short stationary v0.35 R4 scene sample, vsync enabled; repeated same pose, live wind/actors, not a sustained benchmark"
+    },
+    {
+      "requested_scale": 75,
+      "pid": "30081",
+      "elapsed_seconds": 0.09753737499704584,
+      "profiles": [
+        {
+          "interval_ms": 22.24,
+          "worst_ms": 156.47,
+          "sim_ms": 3.06,
+          "submit_ms": 18.06,
+          "swap_ms": 1.12,
+          "gpu_ms": 9.27,
+          "gpu_max_ms": 19.89,
+          "gpu_samples": 233.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 19.87,
+          "worst_ms": 31.04,
+          "sim_ms": 0.07,
+          "submit_ms": 18.48,
+          "swap_ms": 1.32,
+          "gpu_ms": 16.77,
+          "gpu_max_ms": 17.2,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 20.85,
+          "worst_ms": 34.06,
+          "sim_ms": 0.09,
+          "submit_ms": 19.3,
+          "swap_ms": 1.46,
+          "gpu_ms": 17.19,
+          "gpu_max_ms": 17.76,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 21.33,
+          "worst_ms": 27.41,
+          "sim_ms": 0.16,
+          "submit_ms": 19.55,
+          "swap_ms": 1.62,
+          "gpu_ms": 17.65,
+          "gpu_max_ms": 18.36,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 21.49,
+          "worst_ms": 27.1,
+          "sim_ms": 0.1,
+          "submit_ms": 19.8,
+          "swap_ms": 1.6,
+          "gpu_ms": 17.72,
+          "gpu_max_ms": 18.29,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 21.6,
+          "worst_ms": 27.28,
+          "sim_ms": 0.08,
+          "submit_ms": 19.65,
+          "swap_ms": 1.87,
+          "gpu_ms": 18.01,
+          "gpu_max_ms": 19.3,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        }
+      ],
+      "steady_windows": [
+        {
+          "interval_ms": 21.33,
+          "worst_ms": 27.41,
+          "sim_ms": 0.16,
+          "submit_ms": 19.55,
+          "swap_ms": 1.62,
+          "gpu_ms": 17.65,
+          "gpu_max_ms": 18.36,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 21.49,
+          "worst_ms": 27.1,
+          "sim_ms": 0.1,
+          "submit_ms": 19.8,
+          "swap_ms": 1.6,
+          "gpu_ms": 17.72,
+          "gpu_max_ms": 18.29,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 21.6,
+          "worst_ms": 27.28,
+          "sim_ms": 0.08,
+          "submit_ms": 19.65,
+          "swap_ms": 1.87,
+          "gpu_ms": 18.01,
+          "gpu_max_ms": 19.3,
+          "gpu_samples": 240.0,
+          "size": "1890x1260",
+          "vertices": 0.0
+        }
+      ],
+      "mean_fps": 46.57063098286864,
+      "mean_gpu_ms": 17.793333333333333,
+      "mean_submit_ms": 19.666666666666668,
+      "scale_logs": [
+        "I/OpemAmalurScene(30081): Render scale requested=75 applied=75 physical=2520x1680 selected=1890x1260",
+        "I/OpemAmalurScene(30081): Render scale requested=75 applied=75 physical=2520x1680 selected=1890x1260"
+      ],
+      "native_features_ran": [
+        "I/OpemAmalurScene(30081): Native DOF rendered=1 target=37 start_world=9974.311523 range_world=20001 max_alpha=0.7",
+        "I/OpemAmalurScene(30081): Native fidelity rendered water_draws=8 ao=34 cascades=1 sky=1 features=255"
+      ],
+      "latest_stream": "I/OpemAmalurScene(30081): STREAM cells=238/1271 draws=2173 tris=705034 gpu_mb=830 cpu_mb=0 textures=404 queued=0 update_worst_ms=0.43 native_material_draws=158 native_terrain_draws=35 features=255",
+      "thermal_before": "2",
+      "thermal_after": "2",
+      "scope": "Short stationary v0.35 R4 scene sample, vsync enabled; repeated same pose, live wind/actors, not a sustained benchmark"
+    },
+    {
+      "requested_scale": 50,
+      "pid": "2256",
+      "elapsed_seconds": 21.647327790997224,
+      "profiles": [
+        {
+          "interval_ms": 23.27,
+          "worst_ms": 159.04,
+          "sim_ms": 3.58,
+          "submit_ms": 18.47,
+          "swap_ms": 1.22,
+          "gpu_ms": 8.26,
+          "gpu_max_ms": 14.76,
+          "gpu_samples": 233.0,
+          "size": "1260x840",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 18.47,
+          "worst_ms": 21.23,
+          "sim_ms": 0.06,
+          "submit_ms": 17.87,
+          "swap_ms": 0.55,
+          "gpu_ms": 13.56,
+          "gpu_max_ms": 14.74,
+          "gpu_samples": 240.0,
+          "size": "1260x840",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 19.04,
+          "worst_ms": 21.46,
+          "sim_ms": 0.07,
+          "submit_ms": 18.09,
+          "swap_ms": 0.88,
+          "gpu_ms": 14.07,
+          "gpu_max_ms": 15.47,
+          "gpu_samples": 240.0,
+          "size": "1260x840",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 19.09,
+          "worst_ms": 21.69,
+          "sim_ms": 0.15,
+          "submit_ms": 18.14,
+          "swap_ms": 0.8,
+          "gpu_ms": 14.04,
+          "gpu_max_ms": 14.83,
+          "gpu_samples": 240.0,
+          "size": "1260x840",
+          "vertices": 0.0
+        }
+      ],
+      "steady_windows": [
+        {
+          "interval_ms": 18.47,
+          "worst_ms": 21.23,
+          "sim_ms": 0.06,
+          "submit_ms": 17.87,
+          "swap_ms": 0.55,
+          "gpu_ms": 13.56,
+          "gpu_max_ms": 14.74,
+          "gpu_samples": 240.0,
+          "size": "1260x840",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 19.04,
+          "worst_ms": 21.46,
+          "sim_ms": 0.07,
+          "submit_ms": 18.09,
+          "swap_ms": 0.88,
+          "gpu_ms": 14.07,
+          "gpu_max_ms": 15.47,
+          "gpu_samples": 240.0,
+          "size": "1260x840",
+          "vertices": 0.0
+        },
+        {
+          "interval_ms": 19.09,
+          "worst_ms": 21.69,
+          "sim_ms": 0.15,
+          "submit_ms": 18.14,
+          "swap_ms": 0.8,
+          "gpu_ms": 14.04,
+          "gpu_max_ms": 14.83,
+          "gpu_samples": 240.0,
+          "size": "1260x840",
+          "vertices": 0.0
+        }
+      ],
+      "mean_fps": 53.01543562849643,
+      "mean_gpu_ms": 13.89,
+      "mean_submit_ms": 18.033333333333335,
+      "scale_logs": [
+        "I/OpemAmalurScene( 2256): Render scale requested=50 applied=50 physical=2520x1680 selected=1260x840",
+        "I/OpemAmalurScene( 2256): Render scale requested=50 applied=50 physical=2520x1680 selected=1260x840"
+      ],
+      "native_features_ran": [
+        "I/OpemAmalurScene( 2256): Native DOF rendered=1 target=37 start_world=9974.311523 range_world=20001 max_alpha=0.7",
+        "I/OpemAmalurScene( 2256): Native fidelity rendered water_draws=8 ao=34 cascades=1 sky=1 features=255"
+      ],
+      "latest_stream": "I/OpemAmalurScene( 2256): STREAM cells=238/1271 draws=2173 tris=705034 gpu_mb=830 cpu_mb=0 textures=404 queued=0 update_worst_ms=0.32 native_material_draws=158 native_terrain_draws=35 features=255",
+      "thermal_before": "2",
+      "thermal_after": "2",
+      "scope": "Short stationary v0.35 R4 scene sample, vsync enabled; repeated same pose, live wind/actors, not a sustained benchmark"
+    }
+  ],
+  "scope": "Short stationary same-scene samples, full native features255 and shadows on,2173draws/705034triangles; physical2520x1680; thermal varied, not sustained",
+  "interpretation": "GPU-limited at full resolution; lower resolution exposes draw submission/driver overhead. Optimize draw/state/depth/shadow work before simulation threading."
+}

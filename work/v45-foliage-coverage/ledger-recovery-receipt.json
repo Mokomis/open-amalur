@@ -1,0 +1,29 @@
+{
+  "method": "Static evaluation of four successful recorded writes with exact text-encoding and Windows newline behavior; no prior commands executed",
+  "source_session": "01a18ac5-6308-7cc0-bf59-26d5cf941ff1",
+  "writes": [
+    {
+      "session_line": 32726,
+      "writer_encoding": "utf-8",
+      "bytes": 5115
+    },
+    {
+      "session_line": 33470,
+      "writer_encoding": "utf-8",
+      "bytes": 8637
+    },
+    {
+      "session_line": 33794,
+      "writer_encoding": "utf-8",
+      "bytes": 10156
+    },
+    {
+      "session_line": 34050,
+      "writer_encoding": "cp1252",
+      "bytes": 11519
+    }
+  ],
+  "prior_windows_sha256": "ec0f075c9138bf8029a612c699ffa02adf56aaf31b835cbef130840817d68cba",
+  "recovered_prior_bytes": 11519,
+  "latest_utf8_sha256": "23e7df399c95abcb0974f282c371a83154667ac6608ef04663794089aca52d6f"
+}

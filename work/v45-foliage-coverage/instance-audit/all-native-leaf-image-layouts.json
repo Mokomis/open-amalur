@@ -1,0 +1,259 @@
+[
+  {
+    "image": 4647,
+    "capture_offset": 117402306,
+    "bytes": 4096,
+    "mip_sizes": [
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "raw_sha256": "1ffc7d10bd3d2f9438591c5dcade579830b7298e8af8fe71fc47021690e28aa1",
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 64,
+        "height": 64,
+        "depth": 1
+      },
+      "mipLevels": 5,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    }
+  },
+  {
+    "image": 5267,
+    "capture_offset": 121588814,
+    "bytes": 45056,
+    "mip_sizes": [
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "raw_sha256": "dcf01925ba970badf033dd2de5bf65388740f9e493a1404520420b7daa4e1fdd",
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 256,
+        "height": 256,
+        "depth": 1
+      },
+      "mipLevels": 7,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    }
+  },
+  {
+    "image": 13901,
+    "capture_offset": 236828076,
+    "bytes": 2797056,
+    "mip_sizes": [
+      2097152,
+      524288,
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512
+    ],
+    "raw_sha256": "f735ce428fa42c62e56eaf0dec607479ed5d755bac7939598a3935185d77415b",
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 2048,
+        "height": 2048,
+        "depth": 1
+      },
+      "mipLevels": 9,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    }
+  },
+  {
+    "image": 13908,
+    "capture_offset": 238010767,
+    "bytes": 2797056,
+    "mip_sizes": [
+      2097152,
+      524288,
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512
+    ],
+    "raw_sha256": "50f731f7026e20042d3c3806f62fd1e3b95ee86a341d4463a23bf98402d10302",
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 2048,
+        "height": 2048,
+        "depth": 1
+      },
+      "mipLevels": 9,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    }
+  },
+  {
+    "image": 14145,
+    "capture_offset": 291121072,
+    "bytes": 176128,
+    "mip_sizes": [
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "raw_sha256": "23534cfcdd76bd449dc2d974834c2ecb9ae60f74f2d7b3d1844cd1a335c0259c",
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 512,
+        "height": 512,
+        "depth": 1
+      },
+      "mipLevels": 8,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    }
+  },
+  {
+    "image": 14150,
+    "capture_offset": 291182357,
+    "bytes": 176128,
+    "mip_sizes": [
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "raw_sha256": "9e56b776a467de7d6b65f11efaae45b137ff03976cfdbeb5975669bbe62dc2e5",
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 512,
+        "height": 512,
+        "depth": 1
+      },
+      "mipLevels": 8,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    }
+  },
+  {
+    "image": 14155,
+    "capture_offset": 291237312,
+    "bytes": 350720,
+    "mip_sizes": [
+      262144,
+      65536,
+      16384,
+      4096,
+      1024,
+      512,
+      512,
+      512
+    ],
+    "raw_sha256": "3b3709dc34a12e22b19ba4f1a7068c15580c7473778a479e4d23d8ed611d796d",
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 512,
+        "height": 512,
+        "depth": 1
+      },
+      "mipLevels": 8,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    }
+  }
+]

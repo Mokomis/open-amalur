@@ -1,0 +1,99 @@
+{
+  "ready_for_root_merge": true,
+  "staging_only": true,
+  "live_files_unchanged": {
+    "work\\v40-windows-host\\desktop_platform.c": true,
+    "work\\v40-windows-host\\CMakeLists.txt": true
+  },
+  "windows": "Windows-11-10.0.26200-SP0",
+  "checks_observed": 222,
+  "strict_fixture_compile": "PASS /W4 /WX",
+  "actual_staged_host_compile": "PASS",
+  "real_Win32_EDIT": true,
+  "private_windowstation_clipboard": true,
+  "physical_IME_or_live_Veil_UI_claim": false,
+  "no_original_game_userdata_or_config_changes": true,
+  "files": {
+    "build-test.cmd": {
+      "bytes": 411,
+      "sha256": "bffd194b1646ef64535cb8d59d499063c09ec91cea4b3dc8920b13f54d96361b"
+    },
+    "build.log": {
+      "bytes": 70,
+      "sha256": "78a2f4a9b97dfe348f5c9bbc93be9d83ae9b106ca520aba1d9d4435acab1fd7f"
+    },
+    "CMakeLists.patch": {
+      "bytes": 2036,
+      "sha256": "44154f85e60df4cddbf0a057feba5970323cb3fc03a60153c434bd964d7d2424"
+    },
+    "CMakeLists.txt.staged": {
+      "bytes": 2697,
+      "sha256": "25491816f4e104dd232fa15e80c9f2652d1d5b4f10ac92b74701d50b3338d68e"
+    },
+    "compile-host-stage.cmd": {
+      "bytes": 634,
+      "sha256": "69e4f5a8e244d9159f606693cef6f6cb3f7d378be59cffa22c304b54c4978128"
+    },
+    "compiler-setup.log": {
+      "bytes": 298,
+      "sha256": "3f85a2005cff9a1bd908048526aa8ddc0e75bd037c20b5b74f84b6b1425a049c"
+    },
+    "desktop_platform-stage.obj": {
+      "bytes": 39034,
+      "sha256": "94b02a7db3bd914dc85f0deb9184f39281f85f00863220a1e9cc827f3e1791d2"
+    },
+    "desktop_platform.c.staged": {
+      "bytes": 19734,
+      "sha256": "3dd550aebea0a78107972fa4f6a529d5e3e7c668f8b1bc1749729ea6471c2529"
+    },
+    "desktop_platform.patch": {
+      "bytes": 4739,
+      "sha256": "d2147a30da411400fafc4361e4e6b6e16c0e234184f969ef62725c281c2ee51b"
+    },
+    "host-compile.log": {
+      "bytes": 27,
+      "sha256": "00f42535706f0e5340b99ceea191ba60c958e111984d7975ac8f6e7e2a4a2e6e"
+    },
+    "host-input-pins.json": {
+      "bytes": 320,
+      "sha256": "5d98d1c1f8731c1eeaa8ae6d33e0aea7659fca14a3447007d87c7e1a83a22c51"
+    },
+    "INTEGRATION.md": {
+      "bytes": 6066,
+      "sha256": "e487474d4c9675eb4b620921464c528ddb040bfc391f9a9b3ffc37e2a6cf7044"
+    },
+    "oa_desktop_name_input.c": {
+      "bytes": 12175,
+      "sha256": "ef39546494f69e59cd82b4f22769552240f36d6fbe72961f6c0c45cd8c12cea7"
+    },
+    "oa_desktop_name_input.h": {
+      "bytes": 1756,
+      "sha256": "969c917428c1f9e061fd2a6262e22e2b152224d604005a6daf20cfe4e498def9"
+    },
+    "oa_desktop_name_input.obj": {
+      "bytes": 16073,
+      "sha256": "7cb6e2d7c6938ae2751abb93ae6f3f254d834da958e008b9df3016e1cf70a9d7"
+    },
+    "test-name-input-win32.exe": {
+      "bytes": 180736,
+      "sha256": "2e1fa46ef41e24a055e185ada59bda2a2847627a05b5322af4fceb1843eee6c2"
+    },
+    "test.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "test.stdout.log": {
+      "bytes": 253,
+      "sha256": "c62f63c30a3e57a410b4b33bc7988ca26cd72c6df9969ffc57f155718f813d2f"
+    },
+    "test_name_input_win32.c": {
+      "bytes": 10242,
+      "sha256": "f4ec78369377eb4ec447834b8ecaaf93647b31ffd2ed9edfbac6e166bf80bc9a"
+    },
+    "test_name_input_win32.obj": {
+      "bytes": 38832,
+      "sha256": "9fb52f58a550233ad346dab3a75b12138639be0faa652a959fdec32fe2900734"
+    }
+  },
+  "sealed_utc": "2026-11-07T00:15:57.990209+00:00"
+}

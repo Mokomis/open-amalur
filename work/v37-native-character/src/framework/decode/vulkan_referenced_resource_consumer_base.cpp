@@ -1,0 +1,983 @@
+/*
+** Copyright (c) 2020 LunarG, Inc.
+** Copyright (c) 2026 Arm Limited
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#include "decode/vulkan_referenced_resource_consumer_base.h"
+#include "util/logging.h"
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(decode)
+
+void VulkanReferencedResourceConsumerBase::Process_vkQueueSubmit(const ApiCallInfo& call_info, args::QueueSubmit& args)
+{
+    if (!args.pSubmits.IsNull() && args.pSubmits.HasData())
+    {
+        size_t     submit_count = args.pSubmits.GetLength();
+        const auto submits      = args.pSubmits.GetMetaStructPointer();
+
+        for (size_t i = 0; i < submit_count; ++i)
+        {
+            size_t     command_buffer_count = submits[i].pCommandBuffers.GetLength();
+            const auto command_buffer_ids   = submits[i].pCommandBuffers.GetPointer();
+
+            // Synthetic submissions from state restoration are not evidence of application work.
+            if ((command_buffer_count > 0) && !IsStateLoading())
+            {
+                command_buffer_submission_seen_ = true;
+            }
+
+            for (size_t j = 0; j < command_buffer_count; ++j)
+            {
+                table_.ProcessUserSubmission(command_buffer_ids[j]);
+            }
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkQueueSubmit2(const ApiCallInfo&  call_info,
+                                                                  args::QueueSubmit2& args)
+{
+    Process_vkQueueSubmit2(&args.pSubmits);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkQueueSubmit2KHR(const ApiCallInfo&     call_info,
+                                                                     args::QueueSubmit2KHR& args)
+{
+    Process_vkQueueSubmit2(&args.pSubmits);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateBuffer(const ApiCallInfo&  call_info,
+                                                                  args::CreateBuffer& args)
+{
+    if (!args.pBuffer.IsNull() && args.pBuffer.HasData())
+    {
+        table_.AddResource(*args.pBuffer.GetPointer());
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateBufferView(const ApiCallInfo&      call_info,
+                                                                      args::CreateBufferView& args)
+{
+    if (!args.pCreateInfo.IsNull() && args.pCreateInfo.HasData() && !args.pView.IsNull() && args.pView.HasData())
+    {
+        const auto create_info = args.pCreateInfo.GetMetaStructPointer();
+        table_.AddResource(create_info->buffer, *args.pView.GetPointer());
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateImage(const ApiCallInfo& call_info, args::CreateImage& args)
+{
+    if (!args.pImage.IsNull() && args.pImage.HasData())
+    {
+        table_.AddResource(*args.pImage.GetPointer());
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateImageView(const ApiCallInfo&     call_info,
+                                                                     args::CreateImageView& args)
+{
+    if (!args.pCreateInfo.IsNull() && args.pCreateInfo.HasData() && !args.pView.IsNull() && args.pView.HasData())
+    {
+        const auto create_info = args.pCreateInfo.GetMetaStructPointer();
+        table_.AddResource(create_info->image, *args.pView.GetPointer());
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateFramebuffer(const ApiCallInfo&       call_info,
+                                                                       args::CreateFramebuffer& args)
+{
+    if (!args.pCreateInfo.IsNull() && args.pCreateInfo.HasData() && !args.pFramebuffer.IsNull() &&
+        args.pFramebuffer.HasData())
+    {
+        const auto create_info = args.pCreateInfo.GetMetaStructPointer();
+        auto       view_count  = create_info->pAttachments.GetLength();
+        const auto views       = create_info->pAttachments.GetPointer();
+
+        table_.AddResource(view_count, views, *args.pFramebuffer.GetPointer());
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateDescriptorSetLayout(const ApiCallInfo& call_info,
+                                                                               args::CreateDescriptorSetLayout& args)
+{
+    if (!args.pCreateInfo.IsNull() && args.pCreateInfo.HasData() && !args.pSetLayout.IsNull() &&
+        args.pSetLayout.HasData())
+    {
+        const auto  create_info = args.pCreateInfo.GetPointer();
+        const auto& bindings    = create_info->pBindings;
+        auto        layout_id   = (*args.pSetLayout.GetPointer());
+
+        for (uint32_t i = 0; i < create_info->bindingCount; ++i)
+        {
+            const auto& binding = bindings[i];
+            layout_binding_counts_[layout_id].emplace(binding.binding, binding.descriptorCount);
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateDescriptorUpdateTemplate(
+    const ApiCallInfo& call_info, args::CreateDescriptorUpdateTemplate& args)
+{
+    CreateDescriptorUpdateTemplate(&args.pCreateInfo, &args.pDescriptorUpdateTemplate);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateDescriptorUpdateTemplateKHR(
+    const ApiCallInfo& call_info, args::CreateDescriptorUpdateTemplateKHR& args)
+{
+    CreateDescriptorUpdateTemplate(&args.pCreateInfo, &args.pDescriptorUpdateTemplate);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateAccelerationStructureKHR(
+    const ApiCallInfo& call_info, args::CreateAccelerationStructureKHR& args)
+{
+    if (!args.pCreateInfo.IsNull() && args.pCreateInfo.HasData())
+    {
+        const auto meta_create_info = args.pCreateInfo.GetMetaStructPointer();
+
+        table_.AddResource(*args.pAccelerationStructure.GetPointer());
+        table_.AddResource(*args.pAccelerationStructure.GetPointer(), meta_create_info->buffer, true);
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateTensorARM(const ApiCallInfo&     call_info,
+                                                                     args::CreateTensorARM& args)
+{
+    if (!args.pTensor.IsNull() && args.pTensor.HasData())
+    {
+        table_.AddResource(*args.pTensor.GetPointer());
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateTensorViewARM(const ApiCallInfo&         call_info,
+                                                                         args::CreateTensorViewARM& args)
+{
+    if (!args.pCreateInfo.IsNull() && args.pCreateInfo.HasData() && !args.pView.IsNull() && args.pView.HasData())
+    {
+        const auto create_info = args.pCreateInfo.GetMetaStructPointer();
+        table_.AddResource(create_info->tensor, *args.pView.GetPointer());
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::ProcessSetOpaqueAddressCommand(format::HandleId device_id,
+                                                                          format::HandleId object_id,
+                                                                          uint64_t         address)
+{
+    GFXRECON_UNREFERENCED_PARAMETER(device_id);
+
+    dev_address_to_resource_map_[object_id] = address;
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkBindBufferMemory(const ApiCallInfo&      call_info,
+                                                                      args::BindBufferMemory& args)
+{
+    const auto dev_mem_dev_addr = dev_address_to_resource_map_.find(args.memory);
+    if (dev_mem_dev_addr != dev_address_to_resource_map_.end())
+    {
+        const VkDeviceAddress address        = dev_mem_dev_addr->second + args.memoryOffset;
+        dev_address_to_buffers_map_[address] = args.buffer;
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCmdTraceRaysKHR(const ApiCallInfo&     call_info,
+                                                                     args::CmdTraceRaysKHR& args)
+{
+    if (!args.pRaygenShaderBindingTable.IsNull() && args.pRaygenShaderBindingTable.HasData())
+    {
+        const Decoded_VkStridedDeviceAddressRegionKHR* meta = args.pRaygenShaderBindingTable.GetMetaStructPointer();
+        const auto buffer = dev_address_to_buffers_map_.find(meta->decoded_value->deviceAddress);
+        if (buffer != dev_address_to_buffers_map_.end())
+        {
+            table_.AddResourceToUser(args.commandBuffer, buffer->second);
+        }
+    }
+
+    if (!args.pMissShaderBindingTable.IsNull() && args.pMissShaderBindingTable.HasData())
+    {
+        const Decoded_VkStridedDeviceAddressRegionKHR* meta = args.pMissShaderBindingTable.GetMetaStructPointer();
+        const auto buffer = dev_address_to_buffers_map_.find(meta->decoded_value->deviceAddress);
+        if (buffer != dev_address_to_buffers_map_.end())
+        {
+            table_.AddResourceToUser(args.commandBuffer, buffer->second);
+        }
+    }
+
+    if (!args.pHitShaderBindingTable.IsNull() && args.pHitShaderBindingTable.HasData())
+    {
+        const Decoded_VkStridedDeviceAddressRegionKHR* meta = args.pHitShaderBindingTable.GetMetaStructPointer();
+        const auto buffer = dev_address_to_buffers_map_.find(meta->decoded_value->deviceAddress);
+        if (buffer != dev_address_to_buffers_map_.end())
+        {
+            table_.AddResourceToUser(args.commandBuffer, buffer->second);
+        }
+    }
+
+    if (!args.pCallableShaderBindingTable.IsNull() && args.pCallableShaderBindingTable.HasData())
+    {
+        const Decoded_VkStridedDeviceAddressRegionKHR* meta = args.pCallableShaderBindingTable.GetMetaStructPointer();
+        const auto buffer = dev_address_to_buffers_map_.find(meta->decoded_value->deviceAddress);
+        if (buffer != dev_address_to_buffers_map_.end())
+        {
+            table_.AddResourceToUser(args.commandBuffer, buffer->second);
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkDestroyDescriptorPool(const ApiCallInfo&           call_info,
+                                                                           args::DestroyDescriptorPool& args)
+{
+    table_.ClearContainers(args.descriptorPool);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkResetDescriptorPool(const ApiCallInfo&         call_info,
+                                                                         args::ResetDescriptorPool& args)
+{
+    table_.ClearContainers(args.descriptorPool);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkAllocateDescriptorSets(const ApiCallInfo&            call_info,
+                                                                            args::AllocateDescriptorSets& args)
+{
+    if (!args.pAllocateInfo.IsNull() && args.pAllocateInfo.HasData() && !args.pDescriptorSets.IsNull() &&
+        args.pDescriptorSets.HasData())
+    {
+        const auto alloc_info      = args.pAllocateInfo.GetPointer();
+        const auto alloc_meta_info = args.pAllocateInfo.GetMetaStructPointer();
+        const auto sets            = args.pDescriptorSets.GetPointer();
+        const auto layouts         = alloc_meta_info->pSetLayouts.GetPointer();
+        auto       pool            = alloc_meta_info->descriptorPool;
+        auto       count           = alloc_info->descriptorSetCount;
+
+        GFXRECON_ASSERT(args.pDescriptorSets.GetLength() == count && alloc_meta_info->pSetLayouts.GetLength() == count);
+
+        for (uint32_t i = 0; i < count; ++i)
+        {
+            auto set_id          = sets[i];
+            set_layouts_[set_id] = layouts[i];
+            table_.AddContainer(pool, set_id);
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkFreeDescriptorSets(const ApiCallInfo&        call_info,
+                                                                        args::FreeDescriptorSets& args)
+{
+    if (!args.pDescriptorSets.IsNull() && args.pDescriptorSets.HasData())
+    {
+        const auto sets = args.pDescriptorSets.GetPointer();
+
+        for (uint32_t i = 0; i < args.descriptorSetCount; ++i)
+        {
+            table_.RemoveContainer(sets[i]);
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkUpdateDescriptorSets(const ApiCallInfo&          call_info,
+                                                                          args::UpdateDescriptorSets& args)
+{
+    if (!args.pDescriptorWrites.IsNull() && args.pDescriptorWrites.HasData())
+    {
+        const auto writes      = args.pDescriptorWrites.GetPointer();
+        const auto meta_writes = args.pDescriptorWrites.GetMetaStructPointer();
+
+        for (uint32_t i = 0; i < args.descriptorWriteCount; ++i)
+        {
+            switch (writes[i].descriptorType)
+            {
+                case VK_DESCRIPTOR_TYPE_SAMPLER:
+                case VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK:
+                    // Descriptor types that do not need to be tracked.
+                    break;
+                case VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER:
+                case VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE:
+                case VK_DESCRIPTOR_TYPE_STORAGE_IMAGE:
+                case VK_DESCRIPTOR_TYPE_INPUT_ATTACHMENT:
+                {
+                    const auto image_info = meta_writes[i].pImageInfo;
+                    GFXRECON_ASSERT(image_info != nullptr);
+
+                    if (!image_info->IsNull() && image_info->HasData())
+                    {
+                        AddImagesToContainer(meta_writes[i].dstSet,
+                                             writes[i].dstBinding,
+                                             writes[i].dstArrayElement,
+                                             writes[i].descriptorCount,
+                                             image_info->GetMetaStructPointer());
+                    }
+
+                    break;
+                }
+                case VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER:
+                case VK_DESCRIPTOR_TYPE_STORAGE_BUFFER:
+                case VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC:
+                case VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC:
+                {
+                    const auto buffer_info = meta_writes[i].pBufferInfo;
+                    GFXRECON_ASSERT(buffer_info != nullptr);
+
+                    if (!buffer_info->IsNull() && buffer_info->HasData())
+                    {
+                        AddBuffersToContainer(meta_writes[i].dstSet,
+                                              writes[i].dstBinding,
+                                              writes[i].dstArrayElement,
+                                              writes[i].descriptorCount,
+                                              buffer_info->GetMetaStructPointer());
+                    }
+
+                    break;
+                }
+                case VK_DESCRIPTOR_TYPE_UNIFORM_TEXEL_BUFFER:
+                case VK_DESCRIPTOR_TYPE_STORAGE_TEXEL_BUFFER:
+                {
+                    const auto& views = meta_writes[i].pTexelBufferView;
+
+                    if (!views.IsNull() && views.HasData())
+                    {
+                        AddResourcesToContainer(meta_writes[i].dstSet,
+                                                writes[i].dstBinding,
+                                                writes[i].dstArrayElement,
+                                                writes[i].descriptorCount,
+                                                views.GetPointer());
+                    }
+
+                    break;
+                }
+                case VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_KHR:
+                {
+                    const auto* accel_struct_writes =
+                        GetPNextMetaStruct<Decoded_VkWriteDescriptorSetAccelerationStructureKHR>(meta_writes[i].pNext);
+                    if (accel_struct_writes != nullptr)
+                    {
+                        const auto& accel_structs = accel_struct_writes->pAccelerationStructures;
+                        if (!accel_structs.IsNull() && accel_structs.HasData())
+                        {
+                            AddResourcesToContainer(meta_writes[i].dstSet,
+                                                    writes[i].dstBinding,
+                                                    writes[i].dstArrayElement,
+                                                    writes[i].descriptorCount,
+                                                    accel_structs.GetPointer());
+                        }
+                    }
+                    break;
+                }
+                case VK_DESCRIPTOR_TYPE_TENSOR_ARM:
+                {
+                    const auto* tensor_writes =
+                        GetPNextMetaStruct<Decoded_VkWriteDescriptorSetTensorARM>(meta_writes[i].pNext);
+                    if (tensor_writes != nullptr)
+                    {
+                        const auto& tensor_views = tensor_writes->pTensorViews;
+                        if (!tensor_views.IsNull() && tensor_views.HasData())
+                        {
+                            AddResourcesToContainer(meta_writes[i].dstSet,
+                                                    writes[i].dstBinding,
+                                                    writes[i].dstArrayElement,
+                                                    writes[i].descriptorCount,
+                                                    tensor_views.GetPointer());
+                        }
+                    }
+                    break;
+                }
+
+                default:
+                    GFXRECON_LOG_WARNING("Ignoring unrecognized descriptor type %d", writes[i].descriptorType);
+                    break;
+            }
+        }
+    }
+
+    if (!args.pDescriptorCopies.IsNull() && args.pDescriptorCopies.HasData())
+    {
+        const auto copies      = args.pDescriptorCopies.GetPointer();
+        const auto meta_copies = args.pDescriptorCopies.GetMetaStructPointer();
+
+        for (uint32_t i = 0; i < args.descriptorCopyCount; ++i)
+        {
+            const auto& copy      = copies[i];
+            const auto& meta_copy = meta_copies[i];
+
+            auto src_element       = copy.srcArrayElement;
+            auto dst_element       = copy.dstArrayElement;
+            auto src_binding       = copy.srcBinding;
+            auto dst_binding       = copy.dstBinding;
+            auto src_binding_count = GetBindingCount(meta_copy.srcSet, copy.srcBinding);
+            auto dst_binding_count = GetBindingCount(meta_copy.dstSet, copy.dstBinding);
+            GFXRECON_ASSERT((src_element < src_binding_count) && (dst_element < dst_binding_count));
+
+            for (uint32_t j = 0; j < copy.descriptorCount; ++j)
+            {
+                if (src_element >= src_binding_count)
+                {
+                    // If the element has advanced past the end of the current binding's descriptor count, advance to
+                    // the next binding.
+                    ++src_binding;
+                    src_element       = 0;
+                    src_binding_count = GetBindingCount(meta_copy.srcSet, copy.srcBinding);
+                }
+
+                if (dst_element >= dst_binding_count)
+                {
+                    // If the element has advanced past the end of the current binding's descriptor count, advance to
+                    // the next binding.
+                    ++dst_binding;
+                    dst_element       = 0;
+                    dst_binding_count = GetBindingCount(meta_copy.dstSet, copy.dstBinding);
+                }
+
+                table_.CopyContainerEntry(
+                    meta_copy.srcSet, src_binding, src_element, meta_copy.dstSet, dst_binding, dst_element);
+
+                // Advance to the next array element for the current bindings.
+                ++src_element;
+                ++dst_element;
+            }
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkUpdateDescriptorSetWithTemplate(
+    const ApiCallInfo& call_info, args::UpdateDescriptorSetWithTemplate& args)
+{
+    UpdateDescriptorSetWithTemplate(args.descriptorSet, args.descriptorUpdateTemplate, &args.pData);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCmdPushDescriptorSetWithTemplate(
+    const ApiCallInfo& call_info, args::CmdPushDescriptorSetWithTemplate& args)
+{
+    PushDescriptorSetWithTemplate(args.commandBuffer, args.descriptorUpdateTemplate, &args.pData);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCmdPushDescriptorSetWithTemplateKHR(
+    const ApiCallInfo& call_info, args::CmdPushDescriptorSetWithTemplate& args)
+{
+    PushDescriptorSetWithTemplate(args.commandBuffer, args.descriptorUpdateTemplate, &args.pData);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCmdPushDescriptorSetWithTemplate2(
+    const ApiCallInfo& call_info, args::CmdPushDescriptorSetWithTemplate2& args)
+{
+    Decoded_VkPushDescriptorSetWithTemplateInfo* info = args.pPushDescriptorSetWithTemplateInfo.GetMetaStructPointer();
+
+    PushDescriptorSetWithTemplate(args.commandBuffer, info->descriptorUpdateTemplate, &info->pData);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCmdPushDescriptorSetWithTemplate2KHR(
+    const ApiCallInfo& call_info, args::CmdPushDescriptorSetWithTemplate2& args)
+{
+    Decoded_VkPushDescriptorSetWithTemplateInfo* info = args.pPushDescriptorSetWithTemplateInfo.GetMetaStructPointer();
+
+    PushDescriptorSetWithTemplate(args.commandBuffer, info->descriptorUpdateTemplate, &info->pData);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkUpdateDescriptorSetWithTemplateKHR(
+    const ApiCallInfo& call_info, args::UpdateDescriptorSetWithTemplateKHR& args)
+{
+    UpdateDescriptorSetWithTemplate(args.descriptorSet, args.descriptorUpdateTemplate, &args.pData);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkDestroyCommandPool(const ApiCallInfo&        call_info,
+                                                                        args::DestroyCommandPool& args)
+{
+    table_.ClearUsers(args.commandPool);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkResetCommandPool(const ApiCallInfo&      call_info,
+                                                                      args::ResetCommandPool& args)
+{
+    table_.ResetUsers(args.commandPool);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkAllocateCommandBuffers(const ApiCallInfo&            call_info,
+                                                                            args::AllocateCommandBuffers& args)
+{
+    if (!args.pAllocateInfo.IsNull() && args.pAllocateInfo.HasData() && !args.pCommandBuffers.IsNull() &&
+        args.pCommandBuffers.HasData())
+    {
+        const auto alloc_info      = args.pAllocateInfo.GetPointer();
+        const auto alloc_meta_info = args.pAllocateInfo.GetMetaStructPointer();
+        const auto command_buffers = args.pCommandBuffers.GetPointer();
+        auto       pool            = alloc_meta_info->commandPool;
+        auto       count           = alloc_info->commandBufferCount;
+
+        for (uint32_t i = 0; i < count; ++i)
+        {
+            table_.AddUser(pool, command_buffers[i]);
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkFreeCommandBuffers(const ApiCallInfo&        call_info,
+                                                                        args::FreeCommandBuffers& args)
+{
+    if (!args.pCommandBuffers.IsNull() && args.pCommandBuffers.HasData())
+    {
+        const auto command_buffers = args.pCommandBuffers.GetPointer();
+
+        for (uint32_t i = 0; i < args.commandBufferCount; ++i)
+        {
+            table_.RemoveUser(command_buffers[i]);
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkBeginCommandBuffer(const ApiCallInfo&        call_info,
+                                                                        args::BeginCommandBuffer& args)
+{
+    table_.ResetUser(args.commandBuffer);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkResetCommandBuffer(const ApiCallInfo&        call_info,
+                                                                        args::ResetCommandBuffer& args)
+{
+    table_.ResetUser(args.commandBuffer);
+}
+
+void VulkanReferencedResourceConsumerBase::ProcessSetTlasToBlasRelationCommand(
+    format::HandleId tlas, const std::vector<format::HandleId>& blases)
+{
+    if (blases.size())
+    {
+        for (const auto& blas : blases)
+        {
+            table_.AddResource(tlas, blas, true);
+        }
+    }
+}
+
+uint32_t VulkanReferencedResourceConsumerBase::GetBindingCount(format::HandleId container_id, uint32_t binding) const
+{
+    const auto layout_entry = set_layouts_.find(container_id);
+    if (layout_entry != set_layouts_.end())
+    {
+        auto       layout_id     = layout_entry->second;
+        const auto binding_entry = layout_binding_counts_.find(layout_id);
+        if (binding_entry != layout_binding_counts_.end())
+        {
+            const auto& binding_counts = binding_entry->second;
+            const auto  count_entry    = binding_counts.find(binding);
+            if (count_entry != binding_counts.end())
+            {
+                return count_entry->second;
+            }
+        }
+    }
+
+    return std::numeric_limits<uint32_t>::max();
+}
+
+void VulkanReferencedResourceConsumerBase::AddDescriptorToContainer(
+    format::HandleId                                 container_id,
+    int32_t                                          binding,
+    uint32_t                                         element,
+    uint32_t                                         count,
+    std::function<void(uint32_t, int32_t, uint32_t)> add_descriptor)
+{
+    auto binding_count = GetBindingCount(container_id, binding);
+    GFXRECON_ASSERT(element < binding_count);
+
+    for (uint32_t i = 0; i < count; ++i)
+    {
+        if (element >= binding_count)
+        {
+            // If the element has advanced past the end of the current binding's descriptor count, advance to the
+            // next binding.
+            ++binding;
+            element       = 0;
+            binding_count = GetBindingCount(container_id, binding);
+        }
+
+        add_descriptor(i, binding, element);
+
+        // Advance to next array element for the current binding.
+        ++element;
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::AddImagesToContainer(format::HandleId                     container_id,
+                                                                int32_t                              binding,
+                                                                uint32_t                             element,
+                                                                uint32_t                             count,
+                                                                const Decoded_VkDescriptorImageInfo* image_infos)
+{
+    GFXRECON_ASSERT(image_infos != nullptr);
+
+    AddDescriptorToContainer(
+        container_id, binding, element, count, [&](uint32_t index, int32_t current_binding, uint32_t current_element) {
+            table_.AddResourceToContainer(container_id, image_infos[index].imageView, current_binding, current_element);
+        });
+}
+
+void VulkanReferencedResourceConsumerBase::AddBuffersToContainer(format::HandleId                      container_id,
+                                                                 int32_t                               binding,
+                                                                 uint32_t                              element,
+                                                                 uint32_t                              count,
+                                                                 const Decoded_VkDescriptorBufferInfo* buffer_infos)
+{
+    GFXRECON_ASSERT(buffer_infos != nullptr);
+
+    AddDescriptorToContainer(
+        container_id, binding, element, count, [&](uint32_t index, int32_t current_binding, uint32_t current_element) {
+            table_.AddResourceToContainer(container_id, buffer_infos[index].buffer, current_binding, current_element);
+        });
+}
+
+void VulkanReferencedResourceConsumerBase::AddResourcesToContainer(format::HandleId        container_id,
+                                                                   int32_t                 binding,
+                                                                   uint32_t                element,
+                                                                   uint32_t                count,
+                                                                   const format::HandleId* resource_ids)
+{
+    GFXRECON_ASSERT(resource_ids != nullptr);
+
+    AddDescriptorToContainer(
+        container_id, binding, element, count, [&](uint32_t index, int32_t current_binding, uint32_t current_element) {
+            table_.AddResourceToContainer(container_id, resource_ids[index], current_binding, current_element);
+        });
+}
+
+void VulkanReferencedResourceConsumerBase::AddImagesToUser(format::HandleId                     user_id,
+                                                           size_t                               count,
+                                                           const Decoded_VkDescriptorImageInfo* image_info)
+{
+    GFXRECON_ASSERT(image_info != nullptr);
+
+    for (size_t i = 0; i < count; ++i)
+    {
+        table_.AddResourceToUser(user_id, image_info[i].imageView);
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::AddBuffersToUser(format::HandleId                      user_id,
+                                                            size_t                                count,
+                                                            const Decoded_VkDescriptorBufferInfo* buffer_info)
+{
+    GFXRECON_ASSERT(buffer_info != nullptr);
+
+    for (size_t i = 0; i < count; ++i)
+    {
+        table_.AddResourceToUser(user_id, buffer_info[i].buffer);
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::AddTexelBufferViewsToUser(format::HandleId        user_id,
+                                                                     size_t                  count,
+                                                                     const format::HandleId* view_ids)
+{
+    GFXRECON_ASSERT(view_ids != nullptr);
+
+    for (size_t i = 0; i < count; ++i)
+    {
+        table_.AddResourceToUser(user_id, view_ids[i]);
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::CreateDescriptorUpdateTemplate(
+    const StructPointerDecoder<Decoded_VkDescriptorUpdateTemplateCreateInfo>* create_info,
+    const HandlePointerDecoder<VkDescriptorUpdateTemplate>*                   descriptor_update_template)
+{
+    GFXRECON_ASSERT((create_info != nullptr) && (descriptor_update_template != nullptr));
+
+    if (!create_info->IsNull() && create_info->HasData() && !descriptor_update_template->IsNull() &&
+        descriptor_update_template->HasData())
+    {
+        UpdateTemplateInfo template_info;
+
+        auto       template_id          = (*descriptor_update_template->GetPointer());
+        const auto template_create_info = create_info->GetPointer();
+        auto       update_entry_count   = template_create_info->descriptorUpdateEntryCount;
+        const auto update_entries       = template_create_info->pDescriptorUpdateEntries;
+
+        // Capture file encoding converts the update template data to tightly packed arrays of descriptor info
+        // structures in the order of images, buffes, texel buffer views.  For the update template info tracking, we
+        // build arrays of update template entry info with the same ordering.
+        for (uint32_t i = 0; i < update_entry_count; ++i)
+        {
+            UpdateTemplateEntryInfo entry_info;
+            entry_info.binding       = update_entries[i].dstBinding;
+            entry_info.array_element = update_entries[i].dstArrayElement;
+            entry_info.count         = update_entries[i].descriptorCount;
+            entry_info.type          = update_entries[i].descriptorType;
+
+            if ((entry_info.type == VK_DESCRIPTOR_TYPE_SAMPLER) ||
+                (entry_info.type == VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER) ||
+                (entry_info.type == VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE) ||
+                (entry_info.type == VK_DESCRIPTOR_TYPE_STORAGE_IMAGE) ||
+                (entry_info.type == VK_DESCRIPTOR_TYPE_INPUT_ATTACHMENT))
+            {
+                template_info.image_infos.emplace_back(std::move(entry_info));
+            }
+            else if ((entry_info.type == VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER) ||
+                     (entry_info.type == VK_DESCRIPTOR_TYPE_STORAGE_BUFFER) ||
+                     (entry_info.type == VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC) ||
+                     (entry_info.type == VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC))
+            {
+                template_info.buffer_infos.emplace_back(std::move(entry_info));
+            }
+            else if ((entry_info.type == VK_DESCRIPTOR_TYPE_UNIFORM_TEXEL_BUFFER) ||
+                     (entry_info.type == VK_DESCRIPTOR_TYPE_STORAGE_TEXEL_BUFFER))
+            {
+                template_info.texel_buffer_view_infos.emplace_back(std::move(entry_info));
+            }
+            else if (entry_info.type == VK_DESCRIPTOR_TYPE_ACCELERATION_STRUCTURE_KHR)
+            {
+                template_info.acceleration_structure_infos.emplace_back(std::move(entry_info));
+            }
+        }
+
+        template_infos_.emplace(template_id, std::move(template_info));
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::UpdateDescriptorSetWithTemplate(
+    format::HandleId container_id, format::HandleId template_id, const DescriptorUpdateTemplateDecoder* decoder)
+{
+    GFXRECON_ASSERT(decoder != nullptr);
+
+    auto image_info_count             = static_cast<uint32_t>(decoder->GetImageInfoCount());
+    auto buffer_info_count            = static_cast<uint32_t>(decoder->GetBufferInfoCount());
+    auto texel_buffer_view_count      = static_cast<uint32_t>(decoder->GetTexelBufferViewCount());
+    auto acceleration_structure_count = static_cast<uint32_t>(decoder->GetAccelerationStructureKHRCount());
+
+    const auto template_info_entry = template_infos_.find(template_id);
+    if (template_info_entry != template_infos_.end())
+    {
+        // Update template data is stored as tightly packed arrays of image, buffer, and texel buffer view descriptor
+        // info structures.  Each update template entry references a subrange of info structures, organized in
+        // consecutive order.  Descriptor update template data will be processed by entry/subrange.
+        const auto& template_info = template_info_entry->second;
+
+        if (image_info_count > 0)
+        {
+            uint32_t   offset     = 0;
+            const auto image_info = decoder->GetImageInfoMetaStructPointer();
+            GFXRECON_ASSERT(image_info != nullptr);
+
+            for (const auto& info : template_info.image_infos)
+            {
+                GFXRECON_ASSERT((offset + info.count) <= image_info_count);
+
+                if ((offset + info.count) > image_info_count)
+                {
+                    GFXRECON_LOG_ERROR("Descriptor update template entry count exceeds the total number of entries in "
+                                       "the update template data.");
+                    break;
+                }
+
+                // Sample only descriptor types can be ignored as we only need to track image view handles.
+                if (info.type != VK_DESCRIPTOR_TYPE_SAMPLER)
+                {
+                    AddImagesToContainer(
+                        container_id, info.binding, info.array_element, info.count, &image_info[offset]);
+                }
+
+                offset += info.count;
+            }
+        }
+
+        if (buffer_info_count > 0)
+        {
+            uint32_t   offset      = 0;
+            const auto buffer_info = decoder->GetBufferInfoMetaStructPointer();
+            GFXRECON_ASSERT(buffer_info != nullptr);
+
+            for (const auto& info : template_info.buffer_infos)
+            {
+                GFXRECON_ASSERT((offset + info.count) <= buffer_info_count);
+
+                if ((offset + info.count) > buffer_info_count)
+                {
+                    GFXRECON_LOG_ERROR("Descriptor update template entry count exceeds the total number of entries in "
+                                       "the update template data.");
+                    break;
+                }
+
+                AddBuffersToContainer(container_id, info.binding, info.array_element, info.count, &buffer_info[offset]);
+
+                offset += info.count;
+            }
+        }
+
+        if (texel_buffer_view_count > 0)
+        {
+            uint32_t offset   = 0;
+            auto     view_ids = decoder->GetTexelBufferViewHandleIdsPointer();
+            GFXRECON_ASSERT(view_ids != nullptr);
+
+            for (const auto& info : template_info.texel_buffer_view_infos)
+            {
+                GFXRECON_ASSERT((offset + info.count) <= texel_buffer_view_count);
+
+                if ((offset + info.count) > texel_buffer_view_count)
+                {
+                    GFXRECON_LOG_ERROR("Descriptor update template entry count exceeds the total number of entries in "
+                                       "the update template data.");
+                    break;
+                }
+
+                AddResourcesToContainer(container_id, info.binding, info.array_element, info.count, &view_ids[offset]);
+
+                offset += info.count;
+            }
+        }
+
+        if (acceleration_structure_count > 0)
+        {
+            uint32_t offset = 0;
+            auto     as_ids = decoder->GetAccelerationStructureKHRHandleIdsPointer();
+            GFXRECON_ASSERT(as_ids != nullptr);
+
+            for (const auto& info : template_info.acceleration_structure_infos)
+            {
+                GFXRECON_ASSERT((offset + info.count) <= acceleration_structure_count);
+
+                if ((offset + info.count) > acceleration_structure_count)
+                {
+                    GFXRECON_LOG_ERROR("Descriptor update template entry count exceeds the total number of entries in"
+                                       " the update template data.");
+                    break;
+                }
+
+                AddResourcesToContainer(container_id, info.binding, info.array_element, info.count, &as_ids[offset]);
+
+                offset += info.count;
+            }
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::PushDescriptorSetWithTemplate(format::HandleId user_id,
+                                                                         format::HandleId template_id,
+                                                                         const DescriptorUpdateTemplateDecoder* decoder)
+{
+    GFXRECON_ASSERT(decoder != nullptr);
+
+    size_t image_info_count        = decoder->GetImageInfoCount();
+    size_t buffer_info_count       = decoder->GetBufferInfoCount();
+    size_t texel_buffer_view_count = decoder->GetTexelBufferViewCount();
+
+    if (image_info_count > 0)
+    {
+        const auto template_info_entry = template_infos_.find(template_id);
+        if (template_info_entry != template_infos_.end())
+        {
+            // Update template data is stored as tightly packed arrays of image, buffer, and texel buffer view
+            // descriptor info structures.  Each update template entry references a subrange of info structures,
+            // organized in consecutive order.  Descriptor update template data for images will be processed by
+            // entry/subrange so that descriptors with a sampler type can be ignored.
+            const auto& template_info = template_info_entry->second;
+            const auto  image_info    = decoder->GetImageInfoMetaStructPointer();
+            size_t      offset        = 0;
+            GFXRECON_ASSERT(image_info != nullptr);
+
+            for (const auto& info : template_info.image_infos)
+            {
+                GFXRECON_ASSERT((offset + info.count) <= image_info_count);
+
+                if ((offset + info.count) > image_info_count)
+                {
+                    GFXRECON_LOG_ERROR("Descriptor update template entry count exceeds the total number of entries in "
+                                       "the update template data.");
+                    break;
+                }
+
+                // Sample only descriptor types can be ignored as we only need to track image view handles.
+                if (info.type != VK_DESCRIPTOR_TYPE_SAMPLER)
+                {
+                    AddImagesToUser(user_id, info.count, &image_info[offset]);
+                }
+
+                offset += info.count;
+            }
+        }
+    }
+
+    if (buffer_info_count > 0)
+    {
+        const auto buffer_info = decoder->GetBufferInfoMetaStructPointer();
+        GFXRECON_ASSERT(buffer_info != nullptr);
+
+        AddBuffersToUser(user_id, buffer_info_count, buffer_info);
+    }
+
+    if (texel_buffer_view_count > 0)
+    {
+        auto view_ids = decoder->GetTexelBufferViewHandleIdsPointer();
+        GFXRECON_ASSERT(view_ids != nullptr);
+
+        AddTexelBufferViewsToUser(user_id, texel_buffer_view_count, view_ids);
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkGetBufferDeviceAddress(
+    const ApiCallInfo&                                       call_info,
+    VkDeviceAddress                                          returnValue,
+    format::HandleId                                         device,
+    StructPointerDecoder<Decoded_VkBufferDeviceAddressInfo>* pInfo)
+{
+    if (pInfo->GetMetaStructPointer() != nullptr)
+    {
+        if (const auto* buffer_device_address = pInfo->GetMetaStructPointer())
+        {
+            table_.MarkResourceAsUsed(buffer_device_address->buffer);
+        }
+    }
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkGetBufferDeviceAddress(const ApiCallInfo&            call_info,
+                                                                            args::GetBufferDeviceAddress& args)
+{
+    Process_vkGetBufferDeviceAddress(call_info, args.result, args.device, &args.pInfo);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkGetBufferDeviceAddressKHR(const ApiCallInfo& call_info,
+                                                                               args::GetBufferDeviceAddressKHR& args)
+{
+    Process_vkGetBufferDeviceAddress(call_info, args.result, args.device, &args.pInfo);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkGetBufferDeviceAddressEXT(const ApiCallInfo& call_info,
+                                                                               args::GetBufferDeviceAddressEXT& args)
+{
+    Process_vkGetBufferDeviceAddress(call_info, args.result, args.device, &args.pInfo);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateGraphicsPipelines(const ApiCallInfo&             call_info,
+                                                                             args::CreateGraphicsPipelines& args)
+{
+    Process_vkCreatePipelines(args.createInfoCount, &args.pCreateInfos, &args.pPipelines);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateComputePipelines(const ApiCallInfo&            call_info,
+                                                                            args::CreateComputePipelines& args)
+
+{
+    Process_vkCreatePipelines(args.createInfoCount, &args.pCreateInfos, &args.pPipelines);
+}
+
+void VulkanReferencedResourceConsumerBase::Process_vkCreateRayTracingPipelinesKHR(
+    const ApiCallInfo& call_info, args::CreateRayTracingPipelinesKHR& args)
+{
+    Process_vkCreatePipelines(args.createInfoCount, &args.pCreateInfos, &args.pPipelines);
+}
+
+GFXRECON_END_NAMESPACE(decode)
+GFXRECON_END_NAMESPACE(gfxrecon)

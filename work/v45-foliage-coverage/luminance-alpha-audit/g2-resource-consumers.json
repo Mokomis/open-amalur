@@ -1,0 +1,112 @@
+{
+  "G2_image": 161,
+  "view163": {
+    "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+    "pNext": null,
+    "flags": 0,
+    "image": 161,
+    "viewType": "VK_IMAGE_VIEW_TYPE_2D",
+    "format": "VK_FORMAT_R16G16B16A16_SFLOAT",
+    "components": {
+      "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+      "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+      "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+      "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+    },
+    "subresourceRange": {
+      "aspectMask": 1,
+      "baseMipLevel": 0,
+      "levelCount": 1,
+      "baseArrayLayer": 0,
+      "layerCount": 1
+    }
+  },
+  "writes": [
+    {
+      "phase": 5,
+      "event": 44600,
+      "attachment": 2,
+      "view": 223
+    },
+    {
+      "phase": 6,
+      "event": 47630,
+      "attachment": 1,
+      "view": 226
+    },
+    {
+      "phase": 51,
+      "event": 55772,
+      "attachment": 2,
+      "view": 223
+    },
+    {
+      "phase": 52,
+      "event": 58748,
+      "attachment": 1,
+      "view": 226
+    },
+    {
+      "phase": 97,
+      "event": 66904,
+      "attachment": 2,
+      "view": 223
+    },
+    {
+      "phase": 98,
+      "event": 69915,
+      "attachment": 1,
+      "view": 226
+    }
+  ],
+  "descriptor_read_draws": [
+    {
+      "draw": 50650,
+      "phase": 14,
+      "pipeline": 7543,
+      "ps": 1895,
+      "binding": 34,
+      "image_view": 163
+    },
+    {
+      "draw": 61768,
+      "phase": 60,
+      "pipeline": 7543,
+      "ps": 1895,
+      "binding": 34,
+      "image_view": 163
+    },
+    {
+      "draw": 72932,
+      "phase": 106,
+      "pipeline": 7543,
+      "ps": 1895,
+      "binding": 34,
+      "image_view": 163
+    }
+  ],
+  "read_groups": [
+    {
+      "phase": 14,
+      "pipeline": 7543,
+      "ps": 1895,
+      "binding": 34,
+      "count": 1
+    },
+    {
+      "phase": 60,
+      "pipeline": 7543,
+      "ps": 1895,
+      "binding": 34,
+      "count": 1
+    },
+    {
+      "phase": 106,
+      "pipeline": 7543,
+      "ps": 1895,
+      "binding": 34,
+      "count": 1
+    }
+  ],
+  "transfers": []
+}

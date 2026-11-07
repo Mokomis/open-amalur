@@ -1,0 +1,58 @@
+{
+  "validation_kind": "Pythonctypes ABI/serialized-prefix fixtures and static menu layout; not Cfunction execution or runtimeUItest",
+  "Hud_bytes": 16,
+  "new_settings_body_bytes": 184,
+  "legacy_shadows_offset": 176,
+  "new_canopy_offset": 180,
+  "cases": [
+    {
+      "file_bytes": 184,
+      "body_bytes": 176,
+      "common_176B_prefix_preserved": true,
+      "shadows": 1,
+      "canopy_dense": 0
+    },
+    {
+      "file_bytes": 188,
+      "body_bytes": 180,
+      "common_176B_prefix_preserved": true,
+      "shadows": 0,
+      "canopy_dense": 0
+    },
+    {
+      "file_bytes": 192,
+      "body_bytes": 184,
+      "common_176B_prefix_preserved": true,
+      "shadows": 0,
+      "canopy_dense": 1
+    }
+  ],
+  "old188Breader_prefix_compatible": true,
+  "invalid_short_payload_lengths_rejected": [
+    0,
+    1,
+    175,
+    177,
+    179,
+    181,
+    183
+  ],
+  "options": {
+    "rows": 10,
+    "start_y_design": 118,
+    "row_height": 56,
+    "row_pitch": 62,
+    "Canopy_row_index": 6,
+    "Canopy_bounds_design": [
+      490,
+      546
+    ],
+    "Back_bounds_design": [
+      676,
+      732
+    ],
+    "status_y_design": 754,
+    "all_rows_above_status": true
+  },
+  "C_build_performed": false
+}

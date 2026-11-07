@@ -1,0 +1,22 @@
+{
+  "input_sha256": "d1963a864dd8246f799032b3b843a271a5d20b08fc8223ab54f3bd4d0f55ff32",
+  "payload_sha256": "7468527cec647fa7d90594cccf7b9e05b1e2edd77bcd0ca2694562571b921ed6",
+  "wrapper": {
+    "name": "character_gen_manager",
+    "name_bytes_hex": "6368617261637465725f67656e5f6d616e61676572",
+    "opaque_word": 1,
+    "metadata_string_count": 1,
+    "metadata_strings": [
+      {
+        "index": 0,
+        "file_offset": 29,
+        "text": "GAME.fade_screen_to_color",
+        "bytes_hex": "47414d452e666164655f73637265656e5f746f5f636f6c6f72"
+      }
+    ],
+    "payload_file_offset": 62,
+    "declared_payload_bytes": 22874
+  },
+  "first_binding": "417426.lua_bxml",
+  "container": null
+}

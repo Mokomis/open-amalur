@@ -1,0 +1,168 @@
+{
+  "pid": "25183",
+  "results": [
+    {
+      "tag": "cached-a",
+      "mode": 1,
+      "samples": [
+        {
+          "counters": {
+            "enabled": "1",
+            "uniform_requests": "24419",
+            "uniform_gl_queries": "0",
+            "uniform_hits": "24419",
+            "texture_requests": "18072",
+            "texture_gl_binds": "13320",
+            "texture_hits": "4752",
+            "world_program_setups": "23"
+          },
+          "profile": {
+            "interval_ms": "28.73",
+            "worst_ms": "44.71",
+            "sim_ms": "0.22",
+            "submit_ms": "21.44",
+            "swap_ms": "7.06",
+            "gpu_ms": "25.77",
+            "gpu_max_ms": "27.19",
+            "gpu_samples": "240",
+            "size": "2520",
+            "vertices": "0"
+          }
+        },
+        {
+          "counters": {
+            "enabled": "1",
+            "uniform_requests": "24419",
+            "uniform_gl_queries": "0",
+            "uniform_hits": "24419",
+            "texture_requests": "18072",
+            "texture_gl_binds": "13320",
+            "texture_hits": "4752",
+            "world_program_setups": "23"
+          },
+          "profile": {
+            "interval_ms": "28.60",
+            "worst_ms": "41.62",
+            "sim_ms": "0.13",
+            "submit_ms": "21.51",
+            "swap_ms": "6.96",
+            "gpu_ms": "25.56",
+            "gpu_max_ms": "27.04",
+            "gpu_samples": "240",
+            "size": "2520",
+            "vertices": "0"
+          }
+        }
+      ]
+    },
+    {
+      "tag": "legacy",
+      "mode": 0,
+      "samples": [
+        {
+          "counters": {
+            "enabled": "0",
+            "uniform_requests": "24951",
+            "uniform_gl_queries": "24951",
+            "uniform_hits": "0",
+            "texture_requests": "18930",
+            "texture_gl_binds": "18930",
+            "texture_hits": "0",
+            "world_program_setups": "42"
+          },
+          "profile": {
+            "interval_ms": "29.01",
+            "worst_ms": "47.28",
+            "sim_ms": "0.11",
+            "submit_ms": "23.00",
+            "swap_ms": "5.90",
+            "gpu_ms": "25.87",
+            "gpu_max_ms": "26.74",
+            "gpu_samples": "240",
+            "size": "2520",
+            "vertices": "0"
+          }
+        },
+        {
+          "counters": {
+            "enabled": "0",
+            "uniform_requests": "24951",
+            "uniform_gl_queries": "24951",
+            "uniform_hits": "0",
+            "texture_requests": "18930",
+            "texture_gl_binds": "18930",
+            "texture_hits": "0",
+            "world_program_setups": "42"
+          },
+          "profile": {
+            "interval_ms": "29.47",
+            "worst_ms": "51.82",
+            "sim_ms": "0.15",
+            "submit_ms": "23.32",
+            "swap_ms": "6.01",
+            "gpu_ms": "26.14",
+            "gpu_max_ms": "27.40",
+            "gpu_samples": "240",
+            "size": "2520",
+            "vertices": "0"
+          }
+        }
+      ]
+    },
+    {
+      "tag": "cached-b",
+      "mode": 1,
+      "samples": [
+        {
+          "counters": {
+            "enabled": "1",
+            "uniform_requests": "24419",
+            "uniform_gl_queries": "0",
+            "uniform_hits": "24419",
+            "texture_requests": "18072",
+            "texture_gl_binds": "13320",
+            "texture_hits": "4752",
+            "world_program_setups": "23"
+          },
+          "profile": {
+            "interval_ms": "29.61",
+            "worst_ms": "44.36",
+            "sim_ms": "0.11",
+            "submit_ms": "20.43",
+            "swap_ms": "9.07",
+            "gpu_ms": "26.88",
+            "gpu_max_ms": "28.96",
+            "gpu_samples": "240",
+            "size": "2520",
+            "vertices": "0"
+          }
+        },
+        {
+          "counters": {
+            "enabled": "1",
+            "uniform_requests": "24419",
+            "uniform_gl_queries": "0",
+            "uniform_hits": "24419",
+            "texture_requests": "18072",
+            "texture_gl_binds": "13320",
+            "texture_hits": "4752",
+            "world_program_setups": "23"
+          },
+          "profile": {
+            "interval_ms": "30.23",
+            "worst_ms": "41.77",
+            "sim_ms": "0.12",
+            "submit_ms": "20.93",
+            "swap_ms": "9.19",
+            "gpu_ms": "27.40",
+            "gpu_max_ms": "29.00",
+            "gpu_samples": "240",
+            "size": "2520",
+            "vertices": "0"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Same process/camera, live cache toggle; 2 full 240-frame intervals after mixed transition interval discarded; not sustained thermal benchmark"
+}

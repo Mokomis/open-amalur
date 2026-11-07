@@ -1,0 +1,550 @@
+{
+  "depth_source_draw": 73214,
+  "formula": "linear=1/(invx*d+invy); scaled=linear/524288; CoC=clamp((scaled-.01902448944747448)*26.213088989257812,0,.699999988079071)",
+  "inv": [
+    -0.03818615898489952,
+    0.03818806633353233
+  ],
+  "pixels": [
+    {
+      "pixel": [
+        800,
+        150
+      ],
+      "contributors": [
+        {
+          "half_texel": [
+            399,
+            74
+          ],
+          "depth_texel": [
+            799,
+            149
+          ],
+          "weight": 0.0625,
+          "raw_depth_u24": 16758964,
+          "depth_float32": 0.9989121556282043,
+          "linear_depth_float32": 23015.986328125,
+          "scaled_depth_float32": 0.04389951005578041,
+          "CoC_float32": 0.6520511507987976,
+          "CoC_u8_nearest": 166,
+          "native_half_RGBA": [
+            51,
+            7,
+            51,
+            51
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              798,
+              148
+            ],
+            "raw_u24": 16746596,
+            "depth_float32": 0.9981749653816223,
+            "linear_depth_float32": 13966.46484375,
+            "scaled_depth_float32": 0.02663891762495041,
+            "CoC_float32": 0.19959768652915955,
+            "CoC_u8_nearest": 51,
+            "native_actual_alpha": 51,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 13966.7900390625,
+              "CoC": 0.19961394369602203,
+              "CoC_x255": 50.901554107666016,
+              "CoC_u8": 51
+            }
+          }
+        },
+        {
+          "half_texel": [
+            400,
+            74
+          ],
+          "depth_texel": [
+            801,
+            149
+          ],
+          "weight": 0.1875,
+          "raw_depth_u24": 16743386,
+          "depth_float32": 0.9979836344718933,
+          "linear_depth_float32": 12673.408203125,
+          "scaled_depth_float32": 0.02417260780930519,
+          "CoC_float32": 0.13494808971881866,
+          "CoC_u8_nearest": 34,
+          "native_half_RGBA": [
+            34,
+            6,
+            34,
+            34
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              800,
+              148
+            ],
+            "raw_u24": 16743341,
+            "depth_float32": 0.9979809522628784,
+            "linear_depth_float32": 12657.2734375,
+            "scaled_depth_float32": 0.024141833186149597,
+            "CoC_float32": 0.13414138555526733,
+            "CoC_u8_nearest": 34,
+            "native_actual_alpha": 34,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 12657.1025390625,
+              "CoC": 0.13413284718990326,
+              "CoC_x255": 34.20387649536133,
+              "CoC_u8": 34
+            }
+          }
+        },
+        {
+          "half_texel": [
+            399,
+            75
+          ],
+          "depth_texel": [
+            799,
+            151
+          ],
+          "weight": 0.1875,
+          "raw_depth_u24": 16743449,
+          "depth_float32": 0.9979873895645142,
+          "linear_depth_float32": 12696.7861328125,
+          "scaled_depth_float32": 0.02421719767153263,
+          "CoC_float32": 0.13611692190170288,
+          "CoC_u8_nearest": 35,
+          "native_half_RGBA": [
+            51,
+            7,
+            51,
+            51
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              798,
+              150
+            ],
+            "raw_u24": 16746599,
+            "depth_float32": 0.9981751441955566,
+            "linear_depth_float32": 13967.91796875,
+            "scaled_depth_float32": 0.026641689240932465,
+            "CoC_float32": 0.19967032968997955,
+            "CoC_u8_nearest": 51,
+            "native_actual_alpha": 51,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 13968.123046875,
+              "CoC": 0.19968059659004211,
+              "CoC_x255": 50.91855239868164,
+              "CoC_u8": 51
+            }
+          }
+        },
+        {
+          "half_texel": [
+            400,
+            75
+          ],
+          "depth_texel": [
+            801,
+            151
+          ],
+          "weight": 0.5625,
+          "raw_depth_u24": 16741042,
+          "depth_float32": 0.9978439211845398,
+          "linear_depth_float32": 11870.8466796875,
+          "scaled_depth_float32": 0.022641843184828758,
+          "CoC_float32": 0.09482201188802719,
+          "CoC_u8_nearest": 24,
+          "native_half_RGBA": [
+            18,
+            6,
+            18,
+            18
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              800,
+              150
+            ],
+            "raw_u24": 16739520,
+            "depth_float32": 0.9977532029151917,
+            "linear_depth_float32": 11401.921875,
+            "scaled_depth_float32": 0.021747440099716187,
+            "CoC_float32": 0.07137694954872131,
+            "CoC_u8_nearest": 18,
+            "native_actual_alpha": 18,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 11402.001953125,
+              "CoC": 0.07138095051050186,
+              "CoC_x255": 18.2021427154541,
+              "CoC_u8": 18
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pixel": [
+        980,
+        210
+      ],
+      "contributors": [
+        {
+          "half_texel": [
+            489,
+            104
+          ],
+          "depth_texel": [
+            979,
+            209
+          ],
+          "weight": 0.0625,
+          "raw_depth_u24": 16752726,
+          "depth_float32": 0.9985403418540955,
+          "linear_depth_float32": 17347.515625,
+          "scaled_depth_float32": 0.03308776021003723,
+          "CoC_float32": 0.36864176392555237,
+          "CoC_u8_nearest": 94,
+          "native_half_RGBA": [
+            93,
+            8,
+            93,
+            93
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              978,
+              208
+            ],
+            "raw_u24": 16752658,
+            "depth_float32": 0.9985362887382507,
+            "linear_depth_float32": 17300.55859375,
+            "scaled_depth_float32": 0.03299819678068161,
+            "CoC_float32": 0.3662940263748169,
+            "CoC_u8_nearest": 93,
+            "native_actual_alpha": 93,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 17300.78125,
+              "CoC": 0.3663051724433899,
+              "CoC_x255": 93.40782165527344,
+              "CoC_u8": 93
+            }
+          }
+        },
+        {
+          "half_texel": [
+            490,
+            104
+          ],
+          "depth_texel": [
+            981,
+            209
+          ],
+          "weight": 0.1875,
+          "raw_depth_u24": 16752718,
+          "depth_float32": 0.9985398650169373,
+          "linear_depth_float32": 17341.912109375,
+          "scaled_depth_float32": 0.033077072352170944,
+          "CoC_float32": 0.36836159229278564,
+          "CoC_u8_nearest": 94,
+          "native_half_RGBA": [
+            93,
+            8,
+            93,
+            93
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              980,
+              208
+            ],
+            "raw_u24": 16752650,
+            "depth_float32": 0.9985358119010925,
+            "linear_depth_float32": 17294.984375,
+            "scaled_depth_float32": 0.0329875648021698,
+            "CoC_float32": 0.36601534485816956,
+            "CoC_u8_nearest": 93,
+            "native_actual_alpha": 93,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 17295.33203125,
+              "CoC": 0.3660327196121216,
+              "CoC_x255": 93.33834075927734,
+              "CoC_u8": 93
+            }
+          }
+        },
+        {
+          "half_texel": [
+            489,
+            105
+          ],
+          "depth_texel": [
+            979,
+            211
+          ],
+          "weight": 0.1875,
+          "raw_depth_u24": 16754042,
+          "depth_float32": 0.9986187815666199,
+          "linear_depth_float32": 18298.2578125,
+          "scaled_depth_float32": 0.03490115702152252,
+          "CoC_float32": 0.4161764979362488,
+          "CoC_u8_nearest": 106,
+          "native_half_RGBA": [
+            95,
+            8,
+            95,
+            95
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              978,
+              210
+            ],
+            "raw_u24": 16752801,
+            "depth_float32": 0.9985448122024536,
+            "linear_depth_float32": 17399.23828125,
+            "scaled_depth_float32": 0.0331864133477211,
+            "CoC_float32": 0.37122777104377747,
+            "CoC_u8_nearest": 95,
+            "native_actual_alpha": 95,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 17398.75390625,
+              "CoC": 0.37120354175567627,
+              "CoC_x255": 94.65690612792969,
+              "CoC_u8": 95
+            }
+          }
+        },
+        {
+          "half_texel": [
+            490,
+            105
+          ],
+          "depth_texel": [
+            981,
+            211
+          ],
+          "weight": 0.5625,
+          "raw_depth_u24": 16752860,
+          "depth_float32": 0.9985483288764954,
+          "linear_depth_float32": 17439.93359375,
+          "scaled_depth_float32": 0.03326403349637985,
+          "CoC_float32": 0.3732624351978302,
+          "CoC_u8_nearest": 95,
+          "native_half_RGBA": [
+            95,
+            8,
+            95,
+            95
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              980,
+              210
+            ],
+            "raw_u24": 16752793,
+            "depth_float32": 0.9985443353652954,
+            "linear_depth_float32": 17393.6015625,
+            "scaled_depth_float32": 0.03317566215991974,
+            "CoC_float32": 0.3709459602832794,
+            "CoC_u8_nearest": 95,
+            "native_actual_alpha": 95,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 17393.2421875,
+              "CoC": 0.37092798948287964,
+              "CoC_x255": 94.58663940429688,
+              "CoC_u8": 95
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pixel": [
+        500,
+        35
+      ],
+      "contributors": [
+        {
+          "half_texel": [
+            249,
+            17
+          ],
+          "depth_texel": [
+            499,
+            35
+          ],
+          "weight": 0.1875,
+          "raw_depth_u24": 16745271,
+          "depth_float32": 0.9980959892272949,
+          "linear_depth_float32": 13402.33984375,
+          "scaled_depth_float32": 0.025562934577465057,
+          "CoC_float32": 0.17139284312725067,
+          "CoC_u8_nearest": 44,
+          "native_half_RGBA": [
+            44,
+            6,
+            44,
+            44
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              498,
+              34
+            ],
+            "raw_u24": 16745318,
+            "depth_float32": 0.9980987906455994,
+            "linear_depth_float32": 13421.7724609375,
+            "scaled_depth_float32": 0.025599999353289604,
+            "CoC_float32": 0.17236442863941193,
+            "CoC_u8_nearest": 44,
+            "native_actual_alpha": 44,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 13421.515625,
+              "CoC": 0.17235158383846283,
+              "CoC_x255": 43.94965362548828,
+              "CoC_u8": 44
+            }
+          }
+        },
+        {
+          "half_texel": [
+            250,
+            17
+          ],
+          "depth_texel": [
+            501,
+            35
+          ],
+          "weight": 0.5625,
+          "raw_depth_u24": 16745218,
+          "depth_float32": 0.9980928301811218,
+          "linear_depth_float32": 13380.9609375,
+          "scaled_depth_float32": 0.025522157549858093,
+          "CoC_float32": 0.1703239530324936,
+          "CoC_u8_nearest": 43,
+          "native_half_RGBA": [
+            43,
+            6,
+            43,
+            43
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              500,
+              34
+            ],
+            "raw_u24": 16745229,
+            "depth_float32": 0.9980934858322144,
+            "linear_depth_float32": 13384.9638671875,
+            "scaled_depth_float32": 0.02552979253232479,
+            "CoC_float32": 0.17052409052848816,
+            "CoC_u8_nearest": 43,
+            "native_actual_alpha": 43,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 13385.1240234375,
+              "CoC": 0.17053209245204926,
+              "CoC_x255": 43.48568344116211,
+              "CoC_u8": 43
+            }
+          }
+        },
+        {
+          "half_texel": [
+            249,
+            18
+          ],
+          "depth_texel": [
+            499,
+            37
+          ],
+          "weight": 0.0625,
+          "raw_depth_u24": 16745274,
+          "depth_float32": 0.9980961680412292,
+          "linear_depth_float32": 13403.677734375,
+          "scaled_depth_float32": 0.025565486401319504,
+          "CoC_float32": 0.17145973443984985,
+          "CoC_u8_nearest": 44,
+          "native_half_RGBA": [
+            44,
+            6,
+            44,
+            44
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              498,
+              36
+            ],
+            "raw_u24": 16745320,
+            "depth_float32": 0.9980989098548889,
+            "linear_depth_float32": 13422.4443359375,
+            "scaled_depth_float32": 0.025601280853152275,
+            "CoC_float32": 0.17239801585674286,
+            "CoC_u8_nearest": 44,
+            "native_actual_alpha": 44,
+            "matches_native": true,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 13422.3369140625,
+              "CoC": 0.17239265143871307,
+              "CoC_x255": 43.96012496948242,
+              "CoC_u8": 44
+            }
+          }
+        },
+        {
+          "half_texel": [
+            250,
+            18
+          ],
+          "depth_texel": [
+            501,
+            37
+          ],
+          "weight": 0.1875,
+          "raw_depth_u24": 16745222,
+          "depth_float32": 0.9980930685997009,
+          "linear_depth_float32": 13382.294921875,
+          "scaled_depth_float32": 0.025524701923131943,
+          "CoC_float32": 0.17039065062999725,
+          "CoC_u8_nearest": 43,
+          "native_half_RGBA": [
+            43,
+            6,
+            43,
+            43
+          ],
+          "even_texel_candidate": {
+            "depth_texel": [
+              500,
+              36
+            ],
+            "raw_u24": 16745233,
+            "depth_float32": 0.9980937242507935,
+            "linear_depth_float32": 13386.966796875,
+            "scaled_depth_float32": 0.025533612817525864,
+            "CoC_float32": 0.17062422633171082,
+            "CoC_u8_nearest": 44,
+            "native_actual_alpha": 43,
+            "matches_native": false,
+            "fused_inv_mad_candidate": {
+              "linear_depth": 13386.755859375,
+              "CoC": 0.17061369121074677,
+              "CoC_x255": 43.506492614746094,
+              "CoC_u8": 44
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

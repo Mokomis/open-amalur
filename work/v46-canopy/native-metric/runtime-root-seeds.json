@@ -1,0 +1,362 @@
+[
+  {
+    "file": "BHG_RsSceneRenderController.c",
+    "line": 41,
+    "function": "// 00ce9750 BHG_RsSceneRenderController__xtor",
+    "text": "  *param_1 = BHG::RsSceneRenderController::vftable;"
+  },
+  {
+    "file": "BHG_RsSceneRenderController.c",
+    "line": 164,
+    "function": "// 00d11c30 BHG_RsSceneRenderController__xtor_2",
+    "text": "  *param_1 = BHG::RsSceneRenderController::vftable;"
+  },
+  {
+    "file": "BHG_RsSceneRenderController.c",
+    "line": 793,
+    "function": "// 00d32b10 BHG_RsSceneRenderController__vf4",
+    "text": "  iVar8 = *(int *)(*(int *)(*(int *)(param_1 + 4) + 0x5f0) + (param_2[1] & 0xffff) * 4);"
+  },
+  {
+    "file": "BHG_SceneMgr.c",
+    "line": 24,
+    "function": "// 00ce1360 BHG_SceneMgr__xtor",
+    "text": "  DAT_019fdff0 = 0;"
+  },
+  {
+    "file": "T_AssetCategoryMgrProxy_0L_VPlatformBaseShader_BHG_VEmptyNamePolicy_2_VActiveReferencePolicy.c",
+    "line": 264,
+    "function": "// 00d43c80 T_AssetCategoryMgrProxy_0L_VPlatformBaseShader_BHG_VEmptyNamePolicy_2_VActiveReferencePolicy__xtor",
+    "text": "    DAT_019fdff0 = (undefined4 *)0x0;"
+  },
+  {
+    "file": "T_AssetCategoryMgrProxy_0L_VPlatformBaseShader_BHG_VEmptyNamePolicy_2_VActiveReferencePolicy.c",
+    "line": 267,
+    "function": "// 00d43c80 T_AssetCategoryMgrProxy_0L_VPlatformBaseShader_BHG_VEmptyNamePolicy_2_VActiveReferencePolicy__xtor",
+    "text": "    DAT_019fdff0 = param_1 + 0x6e0;"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 888,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "    *(ulonglong *)(param_1 + 0x5f0) ="
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 892,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "         CONCAT44(local_78 * *(float *)(param_1 + 0x5f0) - fVar3 * *(float *)(param_1 + 0x5f8),"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 896,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "         (uint)(fVar3 * *(float *)(param_1 + 0x5f4) - local_7c * *(float *)(param_1 + 0x5f0));"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 898,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "    fStack_8c = fVar12 * *(float *)(param_1 + 0x5f8) - fVar2 * *(float *)(param_1 + 0x5f0);"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 899,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "    local_88 = fVar1 * *(float *)(param_1 + 0x5f0) - fVar12 * *(float *)(param_1 + 0x5f4);"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 928,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "    *(ulonglong *)(param_1 + 0x5f0) ="
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 932,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "         CONCAT44(*(float *)(param_1 + 0x5f0) * local_78 - fVar3 * *(float *)(param_1 + 0x5f8),"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 936,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "         (uint)(fVar3 * *(float *)(param_1 + 0x5f4) - *(float *)(param_1 + 0x5f0) * local_7c);"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 938,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "    fStack_8c = fVar12 * *(float *)(param_1 + 0x5f8) - *(float *)(param_1 + 0x5f0) * fVar2;"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 939,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "    local_88 = *(float *)(param_1 + 0x5f0) * fVar1 - fVar12 * *(float *)(param_1 + 0x5f4);"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 993,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "  *(ulonglong *)(param_1 + 0x5f0) = CONCAT44(fStack_8c,local_90);"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 1012,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "  fVar2 = *(float *)(param_1 + 0x5f0);"
+  },
+  {
+    "file": "unnamed_0087.c",
+    "line": 1015,
+    "function": "// 00873ef0 FUN_00873ef0",
+    "text": "  *(float *)(param_1 + 0x5f0) = fVar2 * fVar12;"
+  },
+  {
+    "file": "unnamed_009c.c",
+    "line": 9320,
+    "function": "// 009ccbc0 FUN_009ccbc0",
+    "text": "  if (*(int *)(unaff_EDI + 0x5f0) != 0) {"
+  },
+  {
+    "file": "unnamed_009c.c",
+    "line": 9321,
+    "function": "// 009ccbc0 FUN_009ccbc0",
+    "text": "    iVar4 = (*(code *)PTR___strdup_01952554)(*(int *)(unaff_EDI + 0x5f0));"
+  },
+  {
+    "file": "unnamed_009d.c",
+    "line": 7450,
+    "function": "// 009db4f0 FUN_009db4f0",
+    "text": "  pcVar10 = *(char **)(iVar2 + 0x5f0);"
+  },
+  {
+    "file": "unnamed_009e.c",
+    "line": 6183,
+    "function": "// 009e9360 FUN_009e9360",
+    "text": "  if (*(int *)(param_1 + 0x5f0) != 0) {"
+  },
+  {
+    "file": "unnamed_009e.c",
+    "line": 6184,
+    "function": "// 009e9360 FUN_009e9360",
+    "text": "    *(uint *)(param_1 + 0x604) = (-(uint)(*(int *)(param_1 + 0x5f0) != -0x21) & 3) - 1;"
+  },
+  {
+    "file": "unnamed_009e.c",
+    "line": 7307,
+    "function": "// 009ea910 FUN_009ea910",
+    "text": "  *(undefined4 *)(unaff_ESI + 0x5f0) = 0;"
+  },
+  {
+    "file": "unnamed_00a6.c",
+    "line": 2709,
+    "function": "// 00a69c10 FUN_00a69c10",
+    "text": "  FUN_00c9b1f0(*(undefined4 *)(DAT_019fdff0 + 0x14));"
+  },
+  {
+    "file": "unnamed_00c6.c",
+    "line": 2173,
+    "function": "// 00c65700 FUN_00c65700",
+    "text": "  *(undefined4 *)(*(int *)(param_1 + 0x5f0) + iVar1 * 4) = param_2;"
+  },
+  {
+    "file": "unnamed_00c9.c",
+    "line": 200,
+    "function": "// 00c90850 FUN_00c90850",
+    "text": "  iVar2 = *(int *)(*(int *)(param_1 + 0x794) + (*(uint *)(param_2 + 4) & 0xffff) * 4);"
+  },
+  {
+    "file": "unnamed_00c9.c",
+    "line": 221,
+    "function": "// 00c90850 FUN_00c90850",
+    "text": "  iVar2 = *(int *)(*(int *)(param_1 + 0x794) + uVar3 * 4);"
+  },
+  {
+    "file": "unnamed_00c9.c",
+    "line": 225,
+    "function": "// 00c90850 FUN_00c90850",
+    "text": "  *(undefined4 *)(*(int *)(param_1 + 0x794) + uVar3 * 4) = 0;"
+  },
+  {
+    "file": "unnamed_00ca.c",
+    "line": 9602,
+    "function": "// 00caec90 FUN_00caec90",
+    "text": "  iVar1 = *(int *)(DAT_019fdff0 + 0x14);"
+  },
+  {
+    "file": "unnamed_00ca.c",
+    "line": 9603,
+    "function": "// 00caec90 FUN_00caec90",
+    "text": "  uVar2 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00ca.c",
+    "line": 9604,
+    "function": "// 00caec90 FUN_00caec90",
+    "text": "  if ((-1 < iVar1) && (iVar1 < *(int *)(DAT_019fdff0 + 8))) {"
+  },
+  {
+    "file": "unnamed_00ca.c",
+    "line": 9605,
+    "function": "// 00caec90 FUN_00caec90",
+    "text": "    uVar2 = *(uint *)(DAT_019fdff0 + 4);"
+  },
+  {
+    "file": "unnamed_00cd.c",
+    "line": 1621,
+    "function": "// 00cd24e0 FUN_00cd24e0",
+    "text": "  *(undefined4 **)(*(int *)(param_1 + 0x794) + iVar2 * 4) = param_3;"
+  },
+  {
+    "file": "unnamed_00ce.c",
+    "line": 4924,
+    "function": "// 00ce7e90 FUN_00ce7e90",
+    "text": "  iVar1 = *(int *)(*(int *)(param_1 + 0x5f0) + uVar2 * 4);"
+  },
+  {
+    "file": "unnamed_00ce.c",
+    "line": 4928,
+    "function": "// 00ce7e90 FUN_00ce7e90",
+    "text": "  *(undefined4 *)(*(int *)(param_1 + 0x5f0) + uVar2 * 4) = 0;"
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "line": 2407,
+    "function": "// 00cf5260 FUN_00cf5260",
+    "text": "      iVar1 = *(int *)(DAT_019fdff0 + 0x14);"
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "line": 2408,
+    "function": "// 00cf5260 FUN_00cf5260",
+    "text": "      if (((iVar1 != 0) && (-1 < iVar1)) && (iVar1 < *(int *)(DAT_019fdff0 + 8))) {"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5591,
+    "function": "// 00d0b500 FUN_00d0b500",
+    "text": "  local_4 = *(undefined4 *)(DAT_019fdff0 + 0x14);"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5626,
+    "function": "// 00d0b610 FUN_00d0b610",
+    "text": "  iVar3 = *(int *)(DAT_019fdff0 + 0x14);"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5632,
+    "function": "// 00d0b610 FUN_00d0b610",
+    "text": "      if (*(int *)(DAT_019fdff0 + 0x14) != iVar4) {"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5633,
+    "function": "// 00d0b610 FUN_00d0b610",
+    "text": "        piVar1 = (int *)(DAT_019fdff0 + 4);"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5634,
+    "function": "// 00d0b610 FUN_00d0b610",
+    "text": "        *(int *)(DAT_019fdff0 + 0x14) = iVar4;"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5688,
+    "function": "// 00d0b610 FUN_00d0b610",
+    "text": "  iVar6 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5689,
+    "function": "// 00d0b610 FUN_00d0b610",
+    "text": "  if (*(int *)(DAT_019fdff0 + 0x14) != iVar3) {"
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "line": 5690,
+    "function": "// 00d0b610 FUN_00d0b610",
+    "text": "    *(int *)(DAT_019fdff0 + 0x14) = iVar3;"
+  },
+  {
+    "file": "unnamed_00d2.c",
+    "line": 1932,
+    "function": "// 00d24d30 FUN_00d24d30",
+    "text": "  iVar6 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00d2.c",
+    "line": 1952,
+    "function": "// 00d24d30 FUN_00d24d30",
+    "text": "          iVar6 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00d2.c",
+    "line": 1957,
+    "function": "// 00d24d30 FUN_00d24d30",
+    "text": "            iVar6 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00d2.c",
+    "line": 2097,
+    "function": "// 00d250c0 FUN_00d250c0",
+    "text": "  iVar7 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00d2.c",
+    "line": 2117,
+    "function": "// 00d250c0 FUN_00d250c0",
+    "text": "          iVar7 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00d2.c",
+    "line": 2122,
+    "function": "// 00d250c0 FUN_00d250c0",
+    "text": "            iVar7 = DAT_019fdff0;"
+  },
+  {
+    "file": "unnamed_00d4.c",
+    "line": 721,
+    "function": "// 00d40fd0 FUN_00d40fd0",
+    "text": "  *(undefined4 *)(param_1 + 0x5f0) = uVar3;"
+  },
+  {
+    "file": "unnamed_00d4.c",
+    "line": 725,
+    "function": "// 00d40fd0 FUN_00d40fd0",
+    "text": "      *(undefined4 *)(*(int *)(param_1 + 0x5f0) + uVar4 * 4) = 0;"
+  },
+  {
+    "file": "unnamed_00d4.c",
+    "line": 771,
+    "function": "// 00d40fd0 FUN_00d40fd0",
+    "text": "  *(undefined4 *)(param_1 + 0x794) = uVar3;"
+  },
+  {
+    "file": "unnamed_00d4.c",
+    "line": 775,
+    "function": "// 00d40fd0 FUN_00d40fd0",
+    "text": "      *(undefined4 *)(*(int *)(param_1 + 0x794) + uVar4 * 4) = 0;"
+  },
+  {
+    "file": "unnamed_00d4.c",
+    "line": 1393,
+    "function": "// 00d42f40 FUN_00d42f40",
+    "text": "      iVar10 = *(int *)(*(int *)(param_1 + 0x5f0) + (*(uint *)(puVar5 + 4) & 0xffff) * 4);"
+  },
+  {
+    "file": "unnamed_00d4.c",
+    "line": 1586,
+    "function": "// 00d42f40 FUN_00d42f40",
+    "text": "      uVar2 = *(undefined4 *)(*(int *)(param_1 + 0x794) + (*puVar8 & 0xffff) * 4);"
+  },
+  {
+    "file": "unnamed_00db.c",
+    "line": 8348,
+    "function": "// 00dba5c0 FUN_00dba5c0",
+    "text": "  BHG_LuaParameter__xtor_12(*(undefined4 *)(iVar1 + 0x794));"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "host_gl_vp_f32": [
+    -0.7520333528518677,
+    -0.16640760004520416,
+    -0.8161090612411499,
+    -0.8160275220870972,
+    -1.0739855766296387,
+    0.1165209487080574,
+    0.5714614391326904,
+    0.5714043378829956,
+    -9.645312957218266e-07,
+    2.3219857215881348,
+    -0.08716417104005814,
+    -0.08715546876192093,
+    -87014.015625,
+    -3505.52392578125,
+    57263.27734375,
+    57309.92578125
+  ],
+  "host_s": 0.9999999549451103,
+  "host_A": 1.0000499622778718,
+  "host_B": -26.187554366567284,
+  "host_inverse_depth_f32": [
+    -0.038186077028512955,
+    0.03818798437714577
+  ],
+  "native_inverse_depth_f32": [
+    -0.03818615898489952,
+    0.03818806633353233
+  ],
+  "native_A_from_inverse": 1.0000499486904029,
+  "native_B_from_inverse": -26.18749899395338,
+  "inverse_diff": [
+    8.195638656616211e-08,
+    -8.195638656616211e-08
+  ],
+  "points": [
+    {
+      "Z": 9974.311523,
+      "native_stored_depth": 0.9974244542957705,
+      "host_stored_depth": 0.997424462331717,
+      "stored_delta": 8.035946463813559e-09,
+      "native_recovered_Z": 9974.311522999833,
+      "host_recovered_Z": 9974.363051872931,
+      "native_linear_coc": 0,
+      "host_linear_coc": 2.576292956925377e-06
+    },
+    {
+      "Z": 10912.625,
+      "native_stored_depth": 0.9976502053661382,
+      "host_stored_depth": 0.9976502138794281,
+      "stored_delta": 8.513289850853312e-09,
+      "native_recovered_Z": 10912.624999999607,
+      "host_recovered_Z": 10912.6866472578,
+      "native_linear_coc": 0.046913328161716915,
+      "host_linear_coc": 0.04691641037049649
+    },
+    {
+      "Z": 11000,
+      "native_stored_depth": 0.9976692669636799,
+      "host_stored_depth": 0.9976692755172748,
+      "stored_delta": 8.553594943450094e-09,
+      "native_recovered_Z": 10999.999999999762,
+      "host_recovered_Z": 11000.062635606673,
+      "native_linear_coc": 0.05128185973513824,
+      "host_linear_coc": 0.05128499135889072
+    },
+    {
+      "Z": 14000,
+      "native_stored_depth": 0.9981794130479776,
+      "host_stored_depth": 0.9981794226802598,
+      "stored_delta": 9.632282194083075e-09,
+      "native_recovered_Z": 14000.000000000377,
+      "host_recovered_Z": 14000.101338181834,
+      "native_linear_coc": 0.20127436011011948,
+      "host_linear_coc": 0.2012794267658784
+    },
+    {
+      "Z": 17000,
+      "native_stored_depth": 0.9985095075731115,
+      "host_stored_depth": 0.9985095179033678,
+      "stored_delta": 1.0330256317025999e-08,
+      "native_recovered_Z": 17000.000000000222,
+      "host_recovered_Z": 17000.14930661225,
+      "native_linear_coc": 0.35126686048510075,
+      "host_linear_coc": 0.35127432544246534
+    },
+    {
+      "Z": 17111.923287,
+      "native_stored_depth": 0.998519583076045,
+      "host_stored_depth": 0.9985195934276058,
+      "stored_delta": 1.0351560719712438e-08,
+      "native_recovered_Z": 17111.923286999987,
+      "host_recovered_Z": 17112.07456249905,
+      "native_linear_coc": 0.356862745040873,
+      "host_linear_coc": 0.35687030843765555
+    },
+    {
+      "Z": 20000,
+      "native_stored_depth": 0.9987405737407052,
+      "host_stored_depth": 0.9987405845595434,
+      "stored_delta": 1.0818838158677124e-08,
+      "native_recovered_Z": 19999.99999999943,
+      "host_recovered_Z": 20000.206540937867,
+      "native_linear_coc": 0.501259360860082,
+      "host_linear_coc": 0.5012696873906488
+    }
+  ],
+  "alpha91_implied_uniform_depth": 17111.92328814338
+}

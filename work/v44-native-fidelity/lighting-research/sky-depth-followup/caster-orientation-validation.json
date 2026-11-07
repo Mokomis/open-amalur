@@ -1,0 +1,218 @@
+{
+  "phases": [
+    {
+      "phase": 99,
+      "pipelines": [
+        {
+          "pipeline": 8927,
+          "draws": 293,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12370,
+          "draws": 2,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 1
+        },
+        {
+          "pipeline": 12371,
+          "draws": 60,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13179,
+          "draws": 1,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12372,
+          "draws": 6,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12373,
+          "draws": 52,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 0
+        },
+        {
+          "pipeline": 12376,
+          "draws": 97,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12378,
+          "draws": 2,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 0
+        }
+      ]
+    },
+    {
+      "phase": 101,
+      "pipelines": [
+        {
+          "pipeline": 8927,
+          "draws": 70,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12371,
+          "draws": 13,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12372,
+          "draws": 1,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13376,
+          "draws": 4,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13377,
+          "draws": 10,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13378,
+          "draws": 2,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13379,
+          "draws": 1,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12373,
+          "draws": 17,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 0
+        },
+        {
+          "pipeline": 13380,
+          "draws": 2,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13381,
+          "draws": 6,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13382,
+          "draws": 1,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        }
+      ]
+    },
+    {
+      "phase": 103,
+      "pipelines": [
+        {
+          "pipeline": 8927,
+          "draws": 49,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12371,
+          "draws": 11,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13376,
+          "draws": 3,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13378,
+          "draws": 1,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13379,
+          "draws": 1,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13377,
+          "draws": 4,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 12373,
+          "draws": 15,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 0
+        },
+        {
+          "pipeline": 13380,
+          "draws": 2,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        },
+        {
+          "pipeline": 13381,
+          "draws": 3,
+          "frontFace": "VK_FRONT_FACE_CLOCKWISE",
+          "cullMode": 2
+        }
+      ]
+    }
+  ],
+  "nativeViewport": {
+    "x": 0,
+    "y": 1024,
+    "width": 1024,
+    "height": -1024
+  },
+  "GL_adapter": "Z only: zGL=2*zD3D-w; XY unchanged",
+  "captured_far_VP_world_XY_CCW_triangle_NDC_area": -0.00012060696601007128,
+  "world_XY_triangle_GL_frontface": "CW",
+  "first_actual_caster": {
+    "draw": 69945,
+    "triangles": 948,
+    "NDC_CW": 399,
+    "NDC_CCW": 549,
+    "degenerate": 0,
+    "first_12_NDC_areas": [
+      -0.00045450804212201416,
+      0.00010158217943313327,
+      -0.004243606841708642,
+      -0.0005836741011276916,
+      0.0001102860127968013,
+      0.0007039608692406007,
+      6.507361514098018e-05,
+      -0.0008150618170988418,
+      -0.0006999477871176595,
+      -0.002349601693692681,
+      -0.0014167138969998101,
+      0.0011056406740187603
+    ]
+  },
+  "gpu_execution": false
+}

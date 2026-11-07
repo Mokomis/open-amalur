@@ -1,0 +1,217 @@
+/*
+** Copyright (c) 2018-2020 Valve Corporation
+** Copyright (c) 2018-2020 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#include <regex>
+#include <string>
+
+#include "format/format_util.h"
+
+#include "util/logging.h"
+#include "util/lz4_compressor.h"
+#include "util/zlib_compressor.h"
+#include "util/zstd_compressor.h"
+#include "util/strings.h"
+
+#include <nlohmann/json.hpp>
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(format)
+
+// Utilities for format validation.
+static bool VersionSupported(const FileHeader& header)
+{
+    auto file_version = GFXRECON_MAKE_FILE_VERSION(header.major_version, header.minor_version);
+    return file_version <= GFXRECON_CURRENT_FILE_VERSION;
+}
+
+bool ValidateFileHeader(const FileHeader& header)
+{
+    bool valid = true;
+
+    if (header.fourcc != GFXRECON_FOURCC)
+    {
+        GFXRECON_LOG_ERROR("Invalid file: File header does not contain the expected unrecognized four character code.");
+        valid = false;
+    }
+    else if (!VersionSupported(header))
+    {
+
+        GFXRECON_LOG_ERROR("Invalid file: File format version %u.%u later than currently supported version %u.%u",
+                           header.major_version,
+                           header.minor_version,
+                           GFXRECON_CURRENT_FILE_MAJOR,
+                           GFXRECON_CURRENT_FILE_MINOR);
+        valid = false;
+    }
+    return valid;
+}
+
+AnnotationHeader MakeAnnotationHeader(AnnotationType type, size_t label_length, size_t data_length)
+{
+    AnnotationHeader annotation{};
+    annotation.block_header.size = GetAnnotationBlockBaseSize() + label_length + data_length;
+    annotation.block_header.type = BlockType::kAnnotation;
+    annotation.annotation_type   = type;
+    GFXRECON_NARROWING_ASSIGN(annotation.label_length, label_length);
+    annotation.data_length = data_length;
+
+    return annotation;
+}
+
+util::Compressor* CreateCompressor(CompressionType type)
+{
+    util::Compressor* compressor = nullptr;
+
+    switch (type)
+    {
+        case kLz4:
+#if defined(GFXRECON_ENABLE_LZ4_COMPRESSION)
+            compressor = new util::Lz4Compressor();
+#else
+            GFXRECON_LOG_ERROR(
+                "Failed to initialize compression module: Application was built with LZ4 compression disabled.");
+#endif // GFXRECON_ENABLE_LZ4_COMPRESSION
+            break;
+        case kZlib:
+#if defined(GFXRECON_ENABLE_ZLIB_COMPRESSION)
+            compressor = new util::ZlibCompressor();
+#else
+            GFXRECON_LOG_ERROR(
+                "Failed to initialize compression module: Application was built with zlib compression disabled.");
+#endif // GFXRECON_ENABLE_ZLIB_COMPRESSION
+            break;
+        case kZstd:
+#if defined(GFXRECON_ENABLE_ZSTD_COMPRESSION)
+            compressor = new util::ZstdCompressor();
+#else
+            GFXRECON_LOG_ERROR(
+                "Failed to initialize compression module: Application was built with Zstandard compression disabled.");
+#endif // GFXRECON_ENABLE_ZSTD_COMPRESSION
+            break;
+        case kNone:
+            // Nothing to do here.
+            break;
+        default:
+            GFXRECON_LOG_ERROR("Failed to initialize compression module: Unrecognized compression type ID %d", type);
+            break;
+    }
+
+    return compressor;
+}
+
+std::string GetCompressionTypeName(CompressionType type)
+{
+    switch (type)
+    {
+        case kLz4:
+            return "LZ4";
+        case kZlib:
+            return "zlib";
+        case kZstd:
+            return "Zstandard";
+        case kNone:
+            return "None";
+        default:
+            break;
+    }
+
+    return "";
+}
+
+const char* ToString(BlockType type)
+{
+    switch (type)
+    {
+        case kFrameMarkerBlock:
+            return "frame marker";
+        case kStateMarkerBlock:
+            return "state marker";
+        case kMetaDataBlock:
+        case kCompressedMetaDataBlock:
+            return "meta-data";
+        case kFunctionCallBlock:
+        case kCompressedFunctionCallBlock:
+            return "function call";
+        case kAnnotation:
+            return "annotation";
+        case kMethodCallBlock:
+        case kCompressedMethodCallBlock:
+            return "method call";
+        case kUnknownBlock:
+            return "unknown";
+    }
+    return "INVALID BLOCK TYPE";
+}
+
+static GfxrVersion ParseVersionFromString(const std::string version_string)
+{
+    const char* version_regex_string =
+        R"(^\"(\d+)\.(\d+)\.(\d+)(?:-([\w-]+))?\s*\((?:[\w.-]+:)?([a-fA-F0-9]+)\*?[^)]*\)(?:\s*(.*))?\"$)";
+    const std::regex version_regex(version_regex_string);
+    std::smatch      match_groups;
+    GfxrVersion      version;
+    if (std::regex_search(version_string, match_groups, version_regex))
+    {
+        const std::string& major = match_groups[1].str();
+        const std::string& minor = match_groups[2].str();
+        const std::string& patch = match_groups[3].str();
+        const std::string& tag   = match_groups[4].str();
+        const std::string& sha   = match_groups[5].str();
+        bool               valid = true;
+        valid &= util::strings::StringToU32(major, version.major);
+        valid &= util::strings::StringToU32(minor, version.minor);
+        valid &= util::strings::StringToU32(patch, version.patch);
+        version.tag   = tag;
+        version.sha   = sha;
+        version.valid = valid;
+    }
+    return version;
+}
+
+GfxrVersion ParseVersionFromOperations(const char* operations)
+{
+    nlohmann::json json_obj = nlohmann::json::parse(operations);
+
+    if (!json_obj.is_discarded())
+    {
+        auto search_result_iterator = json_obj.find(kOperationAnnotationGfxreconstructVersion);
+        if (search_result_iterator != json_obj.end())
+        {
+            const nlohmann::json& value = *search_result_iterator;
+            if (value.is_string())
+            {
+                return ParseVersionFromString(value.dump());
+            }
+        }
+    }
+    return GfxrVersion();
+}
+
+bool GfxrVersion::SupportsFrameMarkers() const
+{
+    // Supported from 1.0.1 and later builds
+    return valid && ((major > 1) || ((major == 1) && ((minor > 0) || (patch > 0))));
+}
+
+GFXRECON_END_NAMESPACE(format)
+GFXRECON_END_NAMESPACE(gfxrecon)

@@ -1,0 +1,22 @@
+{
+  "source": "lighting-research/post-followup",
+  "native_bloom_extraction": {
+    "phase": 119,
+    "draw": 73280,
+    "memory": 52,
+    "offset": 1764928,
+    "exposure": 0.8277000188827515,
+    "min_luminance": 0.1738000065088272,
+    "inverse_range": 1.2103606462478638
+  },
+  "native_final_merge": {
+    "phase": 135,
+    "draw": 73404,
+    "offset": 1765696,
+    "bloom_coefficient": 0.4306860566139221
+  },
+  "limits": [
+    "Gaussian blur/downsample retains authored approximation",
+    "Native AO integration/effects layer and per-material tint correspondence remain incomplete"
+  ]
+}

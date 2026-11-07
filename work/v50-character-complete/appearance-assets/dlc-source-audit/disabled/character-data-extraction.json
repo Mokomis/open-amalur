@@ -1,0 +1,93 @@
+{
+  "input_id": 751829,
+  "input_sha256": "a7a3739dcf1830095983e123adc9bc20358aa2eedd53116bdf6798784beafec3",
+  "status": "complete",
+  "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\outputs\\initial-corpus-drafts-v05\\scripts\\a7a3739dcf1830095983e123adc9bc20358aa2eedd53116bdf6798784beafec3",
+  "table_assignment_provenance": {
+    "m_race_hashes": [
+      {
+        "pc": 2748,
+        "file_offset": 11289,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_gender_hashes": [
+      {
+        "pc": 2756,
+        "file_offset": 11321,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_char_gen_simtypes_lite": [
+      {
+        "pc": 2806,
+        "file_offset": 11521,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_char_gen_simtypes": [
+      {
+        "pc": 2856,
+        "file_offset": 11721,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_customization_presets": [
+      {
+        "pc": 5848,
+        "file_offset": 23689,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_default_customization": [
+      {
+        "pc": 6330,
+        "file_offset": 25617,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_skills_by_race": [
+      {
+        "pc": 9025,
+        "file_offset": 36397,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_patrons_by_race": [
+      {
+        "pc": 9067,
+        "file_offset": 36565,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_patron_buffs": [
+      {
+        "pc": 9147,
+        "file_offset": 36885,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_gen_options": [
+      {
+        "pc": 7168,
+        "file_offset": 28969,
+        "name": "SETGLOBAL"
+      }
+    ],
+    "m_char_gen_fabs": [
+      {
+        "pc": 3494,
+        "file_offset": 14273,
+        "name": "SETGLOBAL"
+      }
+    ]
+  },
+  "limitations": [
+    "Static reconstruction rather than original source",
+    "DLC activity simulated disabled; not entitlement proof",
+    "SL localization carrier retained, not translated",
+    "Engine getter closures referenced but never called",
+    "Unresolved asset names retained symbolically",
+    "Starting inventory placeholders not actual items"
+  ]
+}

@@ -1,0 +1,2429 @@
+{
+  "scope": "replace only native-only texture IDs658..676; no live promotion",
+  "new_texture_ids": false,
+  "texture_count_change": false,
+  "material_profile_change": false,
+  "generated_mips": false,
+  "resampled_images": false,
+  "decoder": "Pillow original BC1/BC3 mip payload to RGBA8 independently per level",
+  "captured_texture_count": 8,
+  "source_only_texture_count": 11,
+  "decoded_mip_count": 147,
+  "rgba_bytes": 242247296,
+  "outputs": [
+    {
+      "texture_id": 658,
+      "asset": 250070,
+      "kind": "d",
+      "file": "world/t658.bin",
+      "format": "OATX RGBA8",
+      "width": 32,
+      "height": 32,
+      "mips": 4,
+      "bytes": 5476,
+      "sha256": "6e2323faabdf39319f6d41729868996912a40e953d56470599214625d100d2d9",
+      "previous_sha256": "7808e97b5da7df803142592f4d580d58cf6859b59c7a7fe5007582bf91506f04",
+      "previous_format_width_height_mips": [
+        32856,
+        32,
+        32,
+        6
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\250070.dds",
+      "source_file_sha256": "8786271ceee0defc190e84bfefb7e239190405a6dcd6e0f2d812ee57889141b6",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 0,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        12707
+      ],
+      "captured_image_views": [
+        12711
+      ],
+      "material_users": [
+        {
+          "native_material": 360066,
+          "slot": 1
+        },
+        {
+          "native_material": 353286,
+          "slot": 1
+        },
+        {
+          "native_material": 353286,
+          "slot": 9
+        },
+        {
+          "native_material": 1264778,
+          "slot": 1
+        },
+        {
+          "native_material": 429844,
+          "slot": 1
+        },
+        {
+          "native_material": 1287829,
+          "slot": 1
+        },
+        {
+          "native_material": 301336,
+          "slot": 1
+        },
+        {
+          "native_material": 585765,
+          "slot": 1
+        },
+        {
+          "native_material": 588460,
+          "slot": 1
+        },
+        {
+          "native_material": 618928,
+          "slot": 1
+        },
+        {
+          "native_material": 758834,
+          "slot": 1
+        },
+        {
+          "native_material": 410417,
+          "slot": 1
+        },
+        {
+          "native_material": 577592,
+          "slot": 1
+        },
+        {
+          "native_material": 344647,
+          "slot": 1
+        },
+        {
+          "native_material": 1402188,
+          "slot": 1
+        },
+        {
+          "native_material": 1718348,
+          "slot": 1
+        },
+        {
+          "native_material": 1238607,
+          "slot": 1
+        },
+        {
+          "native_material": 745175,
+          "slot": 1
+        },
+        {
+          "native_material": 757463,
+          "slot": 1
+        },
+        {
+          "native_material": 405601,
+          "slot": 1
+        },
+        {
+          "native_material": 489074,
+          "slot": 1
+        },
+        {
+          "native_material": 489077,
+          "slot": 1
+        },
+        {
+          "native_material": 343549,
+          "slot": 1
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "deec88a8e3f72d609eb0578fe2a2ddd77ce10fda3ab4a14d90d25a8e92713a7a",
+          "capture_bc_sha256": "deec88a8e3f72d609eb0578fe2a2ddd77ce10fda3ab4a14d90d25a8e92713a7a",
+          "rgba_sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "level": 1,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 1,
+          "source_offset": 550,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "b693a02cf8a584ad8d461375be09770776a1afb2b63acf616a808df569f3554c",
+          "capture_bc_sha256": "b693a02cf8a584ad8d461375be09770776a1afb2b63acf616a808df569f3554c",
+          "rgba_sha256": "5f4ecdb7b71c3e403983fe405cddcdc2f2576b655fdb3e80d94a6f7c32e58bc2"
+        },
+        {
+          "level": 2,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 2,
+          "source_offset": 678,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "f78423523306a0d32d438bc29990b079b4904622663d55519d9a558f43d14081",
+          "capture_bc_sha256": "f78423523306a0d32d438bc29990b079b4904622663d55519d9a558f43d14081",
+          "rgba_sha256": "3d6876a0146de8576eb2395a858de1213d1b92c65b779df3a331cfd5a4584546"
+        },
+        {
+          "level": 3,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 3,
+          "source_offset": 710,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "9603521686a18e094a5ae3e2f11eb746b17c349e8ddda10e26707877ca1b2213",
+          "capture_bc_sha256": "9603521686a18e094a5ae3e2f11eb746b17c349e8ddda10e26707877ca1b2213",
+          "rgba_sha256": "8667e718294e9e0df1d30600ba3eeb201f764aad2dad72748643e4a285e1d1f7"
+        }
+      ]
+    },
+    {
+      "texture_id": 659,
+      "asset": 299244,
+      "kind": "n",
+      "file": "world/t659.bin",
+      "format": "OATX RGBA8",
+      "width": 128,
+      "height": 128,
+      "mips": 6,
+      "bytes": 87404,
+      "sha256": "3f9c0b1330d4be5705f3f22072fcfcbd578e42bfc1855103918cfc8e1c0a528c",
+      "previous_sha256": "3029032ed80fb4daa06cde0eaa0b39547bb0c2c6a1a4db7a9bc126103c45d0b6",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\299244_4.dds",
+      "source_file_sha256": "b46bed6b838282a8153f6a849f6df748287665300dea3e0d3ee902cfdd45e82e",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 3,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        4827
+      ],
+      "captured_image_views": [
+        4831
+      ],
+      "material_users": [
+        {
+          "native_material": 301336,
+          "slot": 3
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 16384,
+          "source_bc_sha256": "1508281f43bd10a98428949ee92a3fabadddbb42db2e9772376e12bff1763eea",
+          "capture_bc_sha256": "1508281f43bd10a98428949ee92a3fabadddbb42db2e9772376e12bff1763eea",
+          "rgba_sha256": "7c1999ae428fd2750a0cd0d181de6d04231bfd339a51c63610f512b3ee740128"
+        },
+        {
+          "level": 1,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 1,
+          "source_offset": 16422,
+          "source_bc_bytes": 4096,
+          "source_bc_sha256": "7f3e07f73c0021bc9e064702bc200d974127b33be21a65cab262cf22d39f5bfc",
+          "capture_bc_sha256": "7f3e07f73c0021bc9e064702bc200d974127b33be21a65cab262cf22d39f5bfc",
+          "rgba_sha256": "86e00d920eb784ed32b07af0e7c4a8f4075b3fd5b3fa604d6c2ac06825f0bf79"
+        },
+        {
+          "level": 2,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 2,
+          "source_offset": 20518,
+          "source_bc_bytes": 1024,
+          "source_bc_sha256": "c0c6e9e7d47188700eab0681ce2c77fb338f45e9aa7f6d8228913472627503d7",
+          "capture_bc_sha256": "c0c6e9e7d47188700eab0681ce2c77fb338f45e9aa7f6d8228913472627503d7",
+          "rgba_sha256": "fe34205c393884e24bad864d92f2d1267bb1f3af3f302fc61aadb65a6adc8d60"
+        },
+        {
+          "level": 3,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 3,
+          "source_offset": 21542,
+          "source_bc_bytes": 256,
+          "source_bc_sha256": "87c571fdee87f200d5b39a15a7207c003074faf1ee8ae3498de64e1cf98346e2",
+          "capture_bc_sha256": "87c571fdee87f200d5b39a15a7207c003074faf1ee8ae3498de64e1cf98346e2",
+          "rgba_sha256": "4b378ec30cf6bbb21ae9352573cdd6e2a2895100f8e5893ae0612d9353b83186"
+        },
+        {
+          "level": 4,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 4,
+          "source_offset": 21798,
+          "source_bc_bytes": 64,
+          "source_bc_sha256": "f5639661056c5ad9015dd7b82ff06d98f3ac82d904ee9334daa90a70833b3246",
+          "capture_bc_sha256": "f5639661056c5ad9015dd7b82ff06d98f3ac82d904ee9334daa90a70833b3246",
+          "rgba_sha256": "4569af54fa2f61d72ce5aa747bd13a71af731303813276684e46e340f496539f"
+        },
+        {
+          "level": 5,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 5,
+          "source_offset": 21862,
+          "source_bc_bytes": 16,
+          "source_bc_sha256": "818cf2cc6f881ec6b98891aa34481f6f62af5852528039d8c4956719142ac913",
+          "capture_bc_sha256": "818cf2cc6f881ec6b98891aa34481f6f62af5852528039d8c4956719142ac913",
+          "rgba_sha256": "62e8ddcfa7c0f2f5bfcd204ebfbbf279cced880c7261abfea844199ad8224252"
+        }
+      ]
+    },
+    {
+      "texture_id": 660,
+      "asset": 510546,
+      "kind": "d",
+      "file": "world/t660.bin",
+      "format": "OATX RGBA8",
+      "width": 4096,
+      "height": 4096,
+      "mips": 9,
+      "bytes": 89478200,
+      "sha256": "4dc7b5f9343323b1a2935d131e6f0d218c457ae072f87a151b09fadfcbfe5d4d",
+      "previous_sha256": "d4eb38dfac864e7611a5aaff90e1a2616478ce3dab7523493e1aaa696f983fc5",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\510546_1.dds",
+      "source_file_sha256": "66c66127b77bd9fb1a0a574546d93643eeae51812aaa68cbdad857d235fb5349",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 0,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        13729
+      ],
+      "captured_image_views": [
+        13733
+      ],
+      "material_users": [
+        {
+          "native_material": 414763,
+          "slot": 1
+        },
+        {
+          "native_material": 1412176,
+          "slot": 1
+        },
+        {
+          "native_material": 1412177,
+          "slot": 1
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 4096,
+          "height": 4096,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 8388608,
+          "source_bc_sha256": "5cb0141fa072849e89a0dac3e8a7a896c94e4fb7cc1180f1e3dd558909df9770",
+          "capture_bc_sha256": "5cb0141fa072849e89a0dac3e8a7a896c94e4fb7cc1180f1e3dd558909df9770",
+          "rgba_sha256": "e8fe7ffd299d881aac8e73980cc5418b72c107d692837523780814cc057ff572"
+        },
+        {
+          "level": 1,
+          "width": 2048,
+          "height": 2048,
+          "source_file_level": 1,
+          "source_offset": 8388646,
+          "source_bc_bytes": 2097152,
+          "source_bc_sha256": "d4c0145b4cc97feb151c643b6dcf641b7541b7bcf89907ce87f9115870b42912",
+          "capture_bc_sha256": "d4c0145b4cc97feb151c643b6dcf641b7541b7bcf89907ce87f9115870b42912",
+          "rgba_sha256": "4cea068d8f26315c86cbbde3a3d2196b6b139a3446003988858fb2f119c62985"
+        },
+        {
+          "level": 2,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 2,
+          "source_offset": 10485798,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "393fdea1581506f3c59a5ff7b9a4e788d8a046c06da27031a52a3b33d05da187",
+          "capture_bc_sha256": "393fdea1581506f3c59a5ff7b9a4e788d8a046c06da27031a52a3b33d05da187",
+          "rgba_sha256": "90f044b3d320c4840587f4f38b8f89cb64283087d7ae23d668ba07de135efd5c"
+        },
+        {
+          "level": 3,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 3,
+          "source_offset": 11010086,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "25d66138c9ff68340640307d4e1dc814b01427aa293c5a56686907ae202e4fcc",
+          "capture_bc_sha256": "25d66138c9ff68340640307d4e1dc814b01427aa293c5a56686907ae202e4fcc",
+          "rgba_sha256": "1db501debd2e9130faf498371df4318120630adc9656204b2a63cf87927e7eee"
+        },
+        {
+          "level": 4,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 4,
+          "source_offset": 11141158,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "c834f6e6cf2b135d4489212b3220feeaa3090567d6ef483490b9367306de850b",
+          "capture_bc_sha256": "c834f6e6cf2b135d4489212b3220feeaa3090567d6ef483490b9367306de850b",
+          "rgba_sha256": "66ac3242f3b2167d5eac049fffea2eaef3a7e3850245c9d8739097acef028a02"
+        },
+        {
+          "level": 5,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 5,
+          "source_offset": 11173926,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "5f9fe66fcf301fae82cdf46931535b6d7fa4a2fb778949d0a2291337c7b9e25c",
+          "capture_bc_sha256": "5f9fe66fcf301fae82cdf46931535b6d7fa4a2fb778949d0a2291337c7b9e25c",
+          "rgba_sha256": "1330756be0ebe4311cc9fa6f0175a14b521ae620bf46df844104700e689b5f0d"
+        },
+        {
+          "level": 6,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 6,
+          "source_offset": 11182118,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "3a285ce03c7b1b49f33637f34c98c2384b2f17bdd2bf49582e32bf16aefbabe2",
+          "capture_bc_sha256": "3a285ce03c7b1b49f33637f34c98c2384b2f17bdd2bf49582e32bf16aefbabe2",
+          "rgba_sha256": "6024f8ee661198733382c1623fc385a53b76da344f4c898245a2b2a900f9148e"
+        },
+        {
+          "level": 7,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 7,
+          "source_offset": 11184166,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "6bbfe64804bb8f689d196f9bc74b3b2e2d893b895a158fb640b6551d5ecd1cda",
+          "capture_bc_sha256": "6bbfe64804bb8f689d196f9bc74b3b2e2d893b895a158fb640b6551d5ecd1cda",
+          "rgba_sha256": "9265afd0e2e2b818ce19783ec32b3d9ab4e9b9121d874c9888f4756f870d55e9"
+        },
+        {
+          "level": 8,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 8,
+          "source_offset": 11184678,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "e3612a1208337a0c4d203cb56caf88aa3b8bdf45e9e3abf026d942a83b4ffd4f",
+          "capture_bc_sha256": "e3612a1208337a0c4d203cb56caf88aa3b8bdf45e9e3abf026d942a83b4ffd4f",
+          "rgba_sha256": "d092e8e9c5ba7abed59770840cd1d6b07f068d1b045b6c6917705359c3090742"
+        }
+      ]
+    },
+    {
+      "texture_id": 661,
+      "asset": 758816,
+      "kind": "d",
+      "file": "world/t661.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "5ca07e21a212f003101a7b2a75ee439449629868002b90eb2363b920a7cfcef2",
+      "previous_sha256": "646aa1a4eff40e772c0da7b1ebe67f9a02eb9794f0133ea21dff2f57ce2c6ecf",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\758816_2.dds",
+      "source_file_sha256": "6671713c74a813847419d9ba13f554c5c89999cf50dc8e4b8477e111ac07d9d1",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 1,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 758827,
+          "slot": 0
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "9062db0906674f9809e3832839b80d2fae18e8756e908e29c022576c9bab6041",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "e0c064277ff4323994ceccbed7a3ed5294a990823e1223cdb149bd30ce2c317b"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "09081ff227ae351ab587bd6bf7ac8caebe8a514fb81bb827cc848285c5cdc230",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "061f9ba22c1043fd7d5c8551e9f1ed3dead79933bf31a03f017b48598b3dc091"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "38537a789f896836e539111b044362ee8d161748dfa211c30ea03872508fb5b1",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "e7b6a55c38460faac81bc1f83b1e05b4fa5541f39ab2704e395b333356491ff4"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "a5c30452d2b0a52ff2d1c4aed52fa3101c9935d6e5d32824fc49a8f0788e99db",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "23fa4034fad30664b6f1199c90638ef3a3d5c897da5fec50b05f522a3f66658e"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "c241223db8cd53314948b0d2880bbfecd1d43ca3516ea6b482db637f4fd67e55",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "243774e7c8941803dc6344123c937b28d30d16808a798de8af789f8cd2a046d1"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "d0de2813274e56a3ecaf9b19a2cbf256b75de3d12f2ab3c1117f8d3b3e654195",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "6b971fdbabe308250da3cf38250c08fa2cd37fbc3c1c0892ab51718dccc2dc26"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "49cd31b61bb10ac6de4b94e1392766dbe97784ac6bde03f27a8aa79b42291ff6",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "d4b915d7d572cf544439fcb61dfb9c8a14e1daab9445c3de8e7c88936af8f5fa"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "d02ee0a530bd6503aed3b3c2c6e52f81ab080f2242bbdd6b3ab4dd9928148f7a",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "77e1c2accc1547ce3bd6a6ce3271ecc54c5e28f6512a38487dda89572804120b"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "bdedb2757f63797672212f28780a5d63c9e41ee43294038f260b168c7a133df7",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "53369bf8ea34234f539d56e239cb895ed41af0e1ed7fb3db8a8ca1ae75678e2e"
+        }
+      ]
+    },
+    {
+      "texture_id": 662,
+      "asset": 604240,
+      "kind": "d",
+      "file": "world/t662.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "ff65ea427e9a7bd65652fbe43b576723a5ad30eb0ff73419b061963c6844a940",
+      "previous_sha256": "2da830c55398f01f8b406cb27bc7a96d21a332e11db643b1a7414d1486e5a2d4",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\604240_1.dds",
+      "source_file_sha256": "a02418dd34ac6b725d3a5a02ead0181f94dcb48c3e29a6fbd069793141a0b8ef",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 0,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 758827,
+          "slot": 1
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "fb5d292c861419e79fdc2e411a2da667f182357a8b979959106f5d0551401098",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "201d0178ec2ee7f5b8fbf32f363c756dc00033ada5050bea4a8311e11951127e"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "8336d01f5248f78ccbde98d6acdbb84ace1c77ba9b6954c9d5079ac1134890fd",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "3067985c4bf73940acfbf344acedf1689a1234832dfc32fa105d607035f6f29a"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "b67c9c366f432e06f1ee5d1743683d0b4f3abf859eb85a46a07503977474109f",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "9331a7c3dd63e8f10c748780fcb0c38b90de21a732ef9b1bc16c500ec3f9de40"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "8eaca2f38f77d48169ccc828006c1ffa69d9c6742adc8baac2517b13e5fba154",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "63d4c8f3d0e23911206cd2a920937f1fdb46ec2eeb10d2dddfdc68574005114a"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "e78333c22ac927cf628ace98b8f109fc90b3110aaf6b14f1987406b9b2dd917b",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "01a4f50d996eb206bb8af632a4fd46308a95bf6b4c096a91a2e4ab0170a2f34c"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "714bd5370e9d3350ef0a62821714501dff6faed1c9419d84dd51577f6473f778",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "7435c9d6bb34149217656cf3676aba378450e4d0b979911ebeb107c7f8542f1d"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "1a5d02e93273d8f256c9c96544fa4b9e0ea5f844986e8c9847fea8fd123e2f0f",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "6c15a70a707a0d350afd3b30a11bf9a06c22bcf90f5fea3c39bc3b64befea5a3"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "ab3671c9398670306201ab03e1d52ac729403593fe2a5f12919f8de65239993d",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "8fa00c921d0359be1cce4c1a4c166fa0b80c2aafca3299f71f7103f534ffebab"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "0ce9370373863091d61a4dc18c1f641571218adb69020a4d67435e7e78043c11",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "2e661be52a15a1ccb448bc053d83560149350206a14ab8c5a2bed7762624fa88"
+        }
+      ]
+    },
+    {
+      "texture_id": 663,
+      "asset": 758813,
+      "kind": "d",
+      "file": "world/t663.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "7b5337bfe4a8ee20b47d0dbf523187d79292be82e8de2245035836a55f6c0485",
+      "previous_sha256": "e357a566dda4981b3601dfd0dc8852d7113465e05dfffdad8cf6c00c97358df9",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\758813_2.dds",
+      "source_file_sha256": "b49fff8331f93eae20efda3af0dd83b44d3ddba077e1159bec290ce0522c5a4d",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 1,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 758827,
+          "slot": 8
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "398aba872181bcc36dd50aabb75627cba5506ea6488068b6280061661d439cd7",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "c8a743c1ca16e46bc797d8722b124bd07ef453993ce7d37c24cc6b87c83d3476"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "85b553f10cdfa5b252803f41c01e6ec3909dbb7a52a2df3191db39ce0bdcc79f",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "de4b62e0d9393041a8e802db3dd0f2457753e92e18b3e37d2daeb35457e8a744"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "f0e791555c9db4b3a7a9b791c1c2804433a5e326265bd4fc5de62c72ce35899a",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "5d17d1e4d7079e776f52a40dafe07f2a5a800a6ce3049853f59a279e43c121ea"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "46ae2690ef25e2f0a97037f7eb1a7b59e0083c5dc1a67b26ed55ad15805b5751",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "829e9dff3e4e8705c6dfb39cff1b931af07a98fa0666052dbcdb82cf12122fbf"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "0838e5b14f0151fc60cb3381340399e13f5267cbcc3281ea28850826afb91d54",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "231032c50487cfe76fc3e45c5e730d42551e40f83da83872667d7256d6f4b61a"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "b07726b5cda7ef80bb9eaeef8af680a59fab97bf1012e83c58a8d688d90a501c",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "7af3f93d95bb7fe815153a9d76fb21df527afdacfb948b7f293816b1c159f30f"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "aff71a5d15bd3ae1d6955a8e78c99a2cab2e207047ee76d94a57b1c115a51727",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "e115fed109ee3219aacc0891a5f8ffc034e1b5d435746846eb1c9f5c3e23eca3"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "df837be00bacf548a2901ed673148663fd7e66e1f209ef58af5d81ace3105997",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "c9c86079cc4f72a4fb7296f1293fe31ecad0cab6cf912d993f73f45e5a926a88"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "db93d761883662737028e9d2b0fd767151aebf8cfa67406a32c520b656a98311",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "80be4a7e95140cab263ee64c422dea01d7de2154913c1a057addab234597d86d"
+        }
+      ]
+    },
+    {
+      "texture_id": 664,
+      "asset": 758815,
+      "kind": "s",
+      "file": "world/t664.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "9adc39057332e45d11b4098fa2d84305e3d9fdde75b341e641ac838377f8ba6b",
+      "previous_sha256": "ec51c4f9d9dc6501735063be4cbf78c1d3b0ef45fb4b8ec98dde9d311148ca65",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\758815_2.dds",
+      "source_file_sha256": "577222dd5e77755c01baab13bf84ee8bee45db229396847e5fa8cca8935717f6",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 1,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 758827,
+          "slot": 10
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "394eddfc837893dea1109c3c403595c8324f5fa5ee8c0b6a14de21cf4d9ba692",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "94bfc468d4dd8b82d91c0d39ca3e727dd3af30c98dcd877c122f9968b98bb350"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "8911ec0581d68d52760ea9ea3829c5863b05cbeaf17a760c2370fa61989466c4",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "ba4ea20b98c42f5a59291c181518bd854ac020b46cc5368454a1d84fa7e2827b"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "646bd84fc9e0498b7c148ef97fad631151c31f6ae6ab2542682031789a1a4106",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "859bdc92ae8a085cd5b5e485c02bbf29b9fb623233c91ff725e3a7d3eb9f7d4e"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "a9346491e3dd44fe888abd3e72a72cb733136c9f26b94596bb784dc9217f2f9a",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "953b5e1670de4e44f71f637444e25e1c961a2d33734c3bd142ad58ef8df3f9f2"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "9903e971b1877c119d569957789430051a57552393934afcc50db8481d137a5e",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "975bcef2972101af11482aa2c5ae26e429a2e164e8045c275ddbbf15996c7a73"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "9f80b9101019c868c66d2e98449d9af6e3d2f5173cdb3acd081d13493a58c13a",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "0befd3ec3e0bd16dd638e27a615780e0b06a7495cb5db281a74e867964a766d1"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "dd717743c871af8e2c223e4a44335bfb5f098d965d0ce342b2d215f290505af7",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "e4e47ab9a3fb8319451d3e0cfc9df5053d905560dc6717e49febde1b96d53ba8"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "0081eefa1cce7e8a5e348c6e48af9cd072a51eb43f3c93540137841d4b96bc4c",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "96ec21d6de57e7b4a17d4b2e2e1531524a95c0c03ef58e8eeb41fb88b5865ccc"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "cb876b8c203460fb2f8269139bea0940f2b4837a95863b548c1293a26e2d6e1a",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "edded4c1c40f5d8652f86ed120fc248f446329fa0cf647692cd4914a180fad39"
+        }
+      ]
+    },
+    {
+      "texture_id": 665,
+      "asset": 758814,
+      "kind": "n",
+      "file": "world/t665.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "981352fbc1ea6a22aab4695e3564b5e34717eded6d2e5bdc0940c41c2288a34b",
+      "previous_sha256": "ec79806e98f83925b6a4d74e757ad5327295206c7117fe1c84396e9840d688cd",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\758814_2.dds",
+      "source_file_sha256": "1698aabf0c498f9485e9f95cf86dabc28d142332f0edefdad2cd9e61a187ef4b",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 1,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 758827,
+          "slot": 11
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 1048576,
+          "source_bc_sha256": "0162850d8cf30a672a46426b5433b8fe7e4363f3a1ce93557c7bb0f8b0858c53",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "f22783091365261a12e97e7914576157365f94258b7d5ace5856111b489b411f"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 1048614,
+          "source_bc_bytes": 262144,
+          "source_bc_sha256": "b1235031c4dab9c48ed1da97bc45b8e4e84e7238f9ac1cba53a4975d3334234c",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "2ea9576f6c908dc750b2d0ec833d8b9e536f3822ed37d853f3b066c6ce08ac3a"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 1310758,
+          "source_bc_bytes": 65536,
+          "source_bc_sha256": "1abd47df1c99438b93ba5cfe6a3758c5df75ada396eaebca5f6824b84bcfb9fa",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "de8fd9a232defdeb3da23714d42cdf0d238c99b3a6c206d2c5423385ee0ac83b"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 1376294,
+          "source_bc_bytes": 16384,
+          "source_bc_sha256": "eac63125e8adef3f521403fda47dcc6df156e55cb4d760aedae21f67a9c14e14",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "fcfe015872d7a72d9cb099c1264f99c0a65662b9f89f90ab36937a28b474d291"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 1392678,
+          "source_bc_bytes": 4096,
+          "source_bc_sha256": "a572e062e6218c3803dc698aba77ee6f9726ca50e46b3a3535a43769b6a91a67",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "f762cb4610df02d96fb0b27e2f2036a9ad1016ee41df1a6294db70a19ed56a2e"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 1396774,
+          "source_bc_bytes": 1024,
+          "source_bc_sha256": "5f4062368ffbcd736bb4865ada3b240d27d373955d2e7e81b28ea6a0e5a8e191",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "e2c530a4e7cfd8cc8ed8561b0fa499fd211f9b07fbb1aadc370a29c582fcb595"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 1397798,
+          "source_bc_bytes": 256,
+          "source_bc_sha256": "4431e34eaf9138544717db0606b561b1d64f70a0f2abde312ac8da4f1066c9bf",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "9b497f3e2fa687fa3539355a1bb8adb629906c580d4de85efcb9f99aed04fdf7"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 1398054,
+          "source_bc_bytes": 64,
+          "source_bc_sha256": "8fea77037f1599d5319fa05c399ee1fd7e159f8ac49185d102fddbb256cfbf7f",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "78e85e693f186466b6590adf1c35d152a5cdfcbbf4e3b86d551be49065688936"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 1398118,
+          "source_bc_bytes": 16,
+          "source_bc_sha256": "0c124cb173e925f67661f3573cfc1cb8648a1758e36f997c588e893e177504ab",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "183258dc7ed4fae39bbc8d22e4eac8c4f95ceb1648c7d7b7a1ab9cb409ab1e3d"
+        }
+      ]
+    },
+    {
+      "texture_id": 666,
+      "asset": 489466,
+      "kind": "d",
+      "file": "world/t666.bin",
+      "format": "OATX RGBA8",
+      "width": 256,
+      "height": 512,
+      "mips": 7,
+      "bytes": 699056,
+      "sha256": "2f06ec10c8124e5e5898f70aea123414b1fc6f981914b00396317caeff398a30",
+      "previous_sha256": "5010ebfb5bacef982019a6c634b3adab46eb3abcbbae799ca3020e70a7b04374",
+      "previous_format_width_height_mips": [
+        32856,
+        512,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\489466_3.dds",
+      "source_file_sha256": "96e43909910c36c19160b6874697159b07271d1912e016e0dcbd00d8c65a07fa",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        14126
+      ],
+      "captured_image_views": [
+        14134
+      ],
+      "material_users": [
+        {
+          "native_material": 489469,
+          "slot": 0
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 256,
+          "height": 512,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 65536,
+          "source_bc_sha256": "0c6019eae698e9665065d3cf37ab03f990afc8dc8f16ef20b9b323415db44542",
+          "capture_bc_sha256": "0c6019eae698e9665065d3cf37ab03f990afc8dc8f16ef20b9b323415db44542",
+          "rgba_sha256": "dccb65297a60168ae35606c7b1aa8e949a316e2982ed3d936d499ee4d09f7cb1"
+        },
+        {
+          "level": 1,
+          "width": 128,
+          "height": 256,
+          "source_file_level": 1,
+          "source_offset": 65574,
+          "source_bc_bytes": 16384,
+          "source_bc_sha256": "8405a3f570bef6173637b5ebf533dc0cb118e5e5bb51c5207f0037747a02f824",
+          "capture_bc_sha256": "8405a3f570bef6173637b5ebf533dc0cb118e5e5bb51c5207f0037747a02f824",
+          "rgba_sha256": "033cf409de35e8bf42deba22f76dc8a3740bf6a81ec4b31a5ab10da899afae3a"
+        },
+        {
+          "level": 2,
+          "width": 64,
+          "height": 128,
+          "source_file_level": 2,
+          "source_offset": 81958,
+          "source_bc_bytes": 4096,
+          "source_bc_sha256": "04264037c51117b84da8350644b3bcc96962f82bfcadfaf7d27940619bb89ac1",
+          "capture_bc_sha256": "04264037c51117b84da8350644b3bcc96962f82bfcadfaf7d27940619bb89ac1",
+          "rgba_sha256": "233a2ea7dddd3f0167dc73570b85da929e29eda0a4c6cfa823122b4c94879236"
+        },
+        {
+          "level": 3,
+          "width": 32,
+          "height": 64,
+          "source_file_level": 3,
+          "source_offset": 86054,
+          "source_bc_bytes": 1024,
+          "source_bc_sha256": "0689215c8dfaab3a82ee3ca9fbb6a04faf320e03fd7a661cc7f0a481879b87fb",
+          "capture_bc_sha256": "0689215c8dfaab3a82ee3ca9fbb6a04faf320e03fd7a661cc7f0a481879b87fb",
+          "rgba_sha256": "d0f02d7eb57cde799e697351e4c7ef55b894aa52a478a0e856a6020eb96c16bc"
+        },
+        {
+          "level": 4,
+          "width": 16,
+          "height": 32,
+          "source_file_level": 4,
+          "source_offset": 87078,
+          "source_bc_bytes": 256,
+          "source_bc_sha256": "7bcfd00eb3e1b213be88b782f7ad00bbcb9c5ee26d2f8e28fe52f2d997679078",
+          "capture_bc_sha256": "7bcfd00eb3e1b213be88b782f7ad00bbcb9c5ee26d2f8e28fe52f2d997679078",
+          "rgba_sha256": "23daab1da44e249b8b1d7c9eee01ea0f845b6382d5c753c56a2402504d981a74"
+        },
+        {
+          "level": 5,
+          "width": 8,
+          "height": 16,
+          "source_file_level": 5,
+          "source_offset": 87334,
+          "source_bc_bytes": 64,
+          "source_bc_sha256": "cfa479189dfa0e26012083d8715c3b731822c1b94946ee3227a0c11d03018279",
+          "capture_bc_sha256": "cfa479189dfa0e26012083d8715c3b731822c1b94946ee3227a0c11d03018279",
+          "rgba_sha256": "879de8c53f954b821a035537908c106eca7d80f6977b3e998011b410c9272b41"
+        },
+        {
+          "level": 6,
+          "width": 4,
+          "height": 8,
+          "source_file_level": 6,
+          "source_offset": 87398,
+          "source_bc_bytes": 16,
+          "source_bc_sha256": "d5621cd78ad1b133fbeea739056187aa96027b2f46f1867f6df3f54017b73e9e",
+          "capture_bc_sha256": "d5621cd78ad1b133fbeea739056187aa96027b2f46f1867f6df3f54017b73e9e",
+          "rgba_sha256": "c44eabbcbea43b04f3d472907f078cd167e9225a6c78cdd4ac67c3946f74a387"
+        }
+      ]
+    },
+    {
+      "texture_id": 667,
+      "asset": 489465,
+      "kind": "d",
+      "file": "world/t667.bin",
+      "format": "OATX RGBA8",
+      "width": 256,
+      "height": 512,
+      "mips": 7,
+      "bytes": 699056,
+      "sha256": "65c6998f0a4c8121c34f8206b43ebe5174e208fd619ed6fb1e515a6aab987ecb",
+      "previous_sha256": "b23b5e83c2a47efc5cdc0d2367227644c52da26e8014fad90174a12838085888",
+      "previous_format_width_height_mips": [
+        32856,
+        512,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\489465_3.dds",
+      "source_file_sha256": "a1d2058bcd6762a0937fa66168c4077a06ec4a60b9cc01ca52606459bd605e47",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        14135
+      ],
+      "captured_image_views": [
+        14139
+      ],
+      "material_users": [
+        {
+          "native_material": 489469,
+          "slot": 1
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 256,
+          "height": 512,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 65536,
+          "source_bc_sha256": "c6a49b1d97e5534af74afa49e4b66628eafacf378b5ced3f23bea588740ef8b8",
+          "capture_bc_sha256": "c6a49b1d97e5534af74afa49e4b66628eafacf378b5ced3f23bea588740ef8b8",
+          "rgba_sha256": "665c365b7c3e9152d78eb2fd5b48ce84acb2bac986732995ac914d4f05aeff2a"
+        },
+        {
+          "level": 1,
+          "width": 128,
+          "height": 256,
+          "source_file_level": 1,
+          "source_offset": 65574,
+          "source_bc_bytes": 16384,
+          "source_bc_sha256": "690896cd448f6d9b8493f574a3d463c31696eb3c3807fecd491a6b7e04cb47f8",
+          "capture_bc_sha256": "690896cd448f6d9b8493f574a3d463c31696eb3c3807fecd491a6b7e04cb47f8",
+          "rgba_sha256": "b689fc8dec1d027a961e467d378d032087cd33e8097bea4f28a3f0f2ecae7ec6"
+        },
+        {
+          "level": 2,
+          "width": 64,
+          "height": 128,
+          "source_file_level": 2,
+          "source_offset": 81958,
+          "source_bc_bytes": 4096,
+          "source_bc_sha256": "290910ca6ab0d31deb6602e2ccb548f3330e207a4566079e633a54bbfc029e99",
+          "capture_bc_sha256": "290910ca6ab0d31deb6602e2ccb548f3330e207a4566079e633a54bbfc029e99",
+          "rgba_sha256": "708300cf705a96a09313e10ef7ed8a6919aff2412e2456ecb26a74ceade8bf84"
+        },
+        {
+          "level": 3,
+          "width": 32,
+          "height": 64,
+          "source_file_level": 3,
+          "source_offset": 86054,
+          "source_bc_bytes": 1024,
+          "source_bc_sha256": "e4092ee6c238668f6abf0948845a6d944d0586336e13c2e3fb6e413e62480d95",
+          "capture_bc_sha256": "e4092ee6c238668f6abf0948845a6d944d0586336e13c2e3fb6e413e62480d95",
+          "rgba_sha256": "7f32823a6af4015946b31ac0684b7382a3e280aa8d30b1ad8b762ee4a06d2992"
+        },
+        {
+          "level": 4,
+          "width": 16,
+          "height": 32,
+          "source_file_level": 4,
+          "source_offset": 87078,
+          "source_bc_bytes": 256,
+          "source_bc_sha256": "06a1e1ced78bd9cfcefbc57f607ee5793b1a7c873a7d90df7221bf79472ae0a3",
+          "capture_bc_sha256": "06a1e1ced78bd9cfcefbc57f607ee5793b1a7c873a7d90df7221bf79472ae0a3",
+          "rgba_sha256": "2853029c6f9b7d8b53b1951c8e9fe7ee6f86bf8ade5afaea9203eadc17b10912"
+        },
+        {
+          "level": 5,
+          "width": 8,
+          "height": 16,
+          "source_file_level": 5,
+          "source_offset": 87334,
+          "source_bc_bytes": 64,
+          "source_bc_sha256": "598f64182c21ab55050cf2f6546f169736fedea40b02ceba75e0b27fbd3ac86b",
+          "capture_bc_sha256": "598f64182c21ab55050cf2f6546f169736fedea40b02ceba75e0b27fbd3ac86b",
+          "rgba_sha256": "89b3f1300a314ffec27c80592311978596b476aac03181b0bbd3867daddcfe0f"
+        },
+        {
+          "level": 6,
+          "width": 4,
+          "height": 8,
+          "source_file_level": 6,
+          "source_offset": 87398,
+          "source_bc_bytes": 16,
+          "source_bc_sha256": "468ce933f5c6fc8f08f58d7db0be32643a814f9f4d0fb9df371eed238043ddf9",
+          "capture_bc_sha256": "468ce933f5c6fc8f08f58d7db0be32643a814f9f4d0fb9df371eed238043ddf9",
+          "rgba_sha256": "c640f0e00c6f39c2a23800c15ce9a5d74a7ad0960d0aeb9f9cc128d89ccc8b9e"
+        }
+      ]
+    },
+    {
+      "texture_id": 668,
+      "asset": 4002,
+      "kind": "n",
+      "file": "world/t668.bin",
+      "format": "OATX RGBA8",
+      "width": 64,
+      "height": 64,
+      "mips": 5,
+      "bytes": 21864,
+      "sha256": "54eed3512531440e8a19198896ac5d92e1638322a211e8cbe21275f7661cb61c",
+      "previous_sha256": "761ebc9fdc3dcd306fa1f92c723a18cfa3351d762cdd86a2df3734774e04998e",
+      "previous_format_width_height_mips": [
+        32856,
+        64,
+        64,
+        7
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\4002.dds",
+      "source_file_sha256": "99f530df08a344bd089be84b08c28c89e49aa3a1192a31783b33bd528ca3ca68",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 0,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        4762
+      ],
+      "captured_image_views": [
+        4766
+      ],
+      "material_users": [
+        {
+          "native_material": 577592,
+          "slot": 3
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 4096,
+          "source_bc_sha256": "3f42b892abc1f7451d6edd840d1669bf815682ea6cb50ffc436c19a2e3d7bec3",
+          "capture_bc_sha256": "3f42b892abc1f7451d6edd840d1669bf815682ea6cb50ffc436c19a2e3d7bec3",
+          "rgba_sha256": "a2122bacecfd5834e19fb8c1dc95b3dae2ac9c82c06a4de73e887bfd1a0262aa"
+        },
+        {
+          "level": 1,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 1,
+          "source_offset": 4134,
+          "source_bc_bytes": 1024,
+          "source_bc_sha256": "af4323b6ba1b4884c00ea7e6871c62f57d28c20a656c4774ec8e73a485ce4493",
+          "capture_bc_sha256": "af4323b6ba1b4884c00ea7e6871c62f57d28c20a656c4774ec8e73a485ce4493",
+          "rgba_sha256": "50349077caa9d0f9dfaba68bb4b1d006abf3da7c100b907bb27d7d5c04c9ef8a"
+        },
+        {
+          "level": 2,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 2,
+          "source_offset": 5158,
+          "source_bc_bytes": 256,
+          "source_bc_sha256": "4a674d3f30b84a4814f1290377ae57cd3978f3a0a4c8d9688c4ffeca2ab490e0",
+          "capture_bc_sha256": "4a674d3f30b84a4814f1290377ae57cd3978f3a0a4c8d9688c4ffeca2ab490e0",
+          "rgba_sha256": "d8f1a26713f64a34af0891d54139cd65aeffecb8370c2f1530416c0bce415d70"
+        },
+        {
+          "level": 3,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 3,
+          "source_offset": 5414,
+          "source_bc_bytes": 64,
+          "source_bc_sha256": "6c27e8bb985128c8426a0a04b7f0b01060f7eb8060a12ca04a2fb632c618dfe3",
+          "capture_bc_sha256": "6c27e8bb985128c8426a0a04b7f0b01060f7eb8060a12ca04a2fb632c618dfe3",
+          "rgba_sha256": "7a0cddd016c60c79e87dda602bccc59863f9b5752f309a67a814d896d6b0b830"
+        },
+        {
+          "level": 4,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 4,
+          "source_offset": 5478,
+          "source_bc_bytes": 16,
+          "source_bc_sha256": "3929d29dfde59dc68b08a93e87964f1828c49f608d98cdb6f56dd0e1c1d2e10f",
+          "capture_bc_sha256": "3929d29dfde59dc68b08a93e87964f1828c49f608d98cdb6f56dd0e1c1d2e10f",
+          "rgba_sha256": "4b366455e34161393a4dacf3f2a7263de7ce28e8a316fefa12dd10b7add7de66"
+        }
+      ]
+    },
+    {
+      "texture_id": 669,
+      "asset": 572520,
+      "kind": "d",
+      "file": "world/t669.bin",
+      "format": "OATX RGBA8",
+      "width": 4096,
+      "height": 4096,
+      "mips": 9,
+      "bytes": 89478200,
+      "sha256": "281164d3bd55bf814db7e8c59b9bb7576b57940e2957c828a3af3d8f34aefb7f",
+      "previous_sha256": "256d38d45afa2552bef8f810c4c79196d410a1d40937641eb1de8f68901214a0",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\initial_0.pak\\572520_1.dds",
+      "source_file_sha256": "3c52234ee0ae155642a39e136716e66fb62b2eff0f60fa6ac29c7949f3ad351c",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 0,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        13496
+      ],
+      "captured_image_views": [
+        13507
+      ],
+      "material_users": [
+        {
+          "native_material": 1653821,
+          "slot": 1
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 4096,
+          "height": 4096,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 8388608,
+          "source_bc_sha256": "f3e45d5f103bc299445820fed9cd747b474dca0f29400239f3b2be19ffece799",
+          "capture_bc_sha256": "f3e45d5f103bc299445820fed9cd747b474dca0f29400239f3b2be19ffece799",
+          "rgba_sha256": "482b53d715f2b4e82cc530bf500686404e03f6a63f958399883b356f7c9021f7"
+        },
+        {
+          "level": 1,
+          "width": 2048,
+          "height": 2048,
+          "source_file_level": 1,
+          "source_offset": 8388646,
+          "source_bc_bytes": 2097152,
+          "source_bc_sha256": "cb511e6468aac7f3b617670b695e8a486dea2a5f97f0bcc04eccdae9c646b0ae",
+          "capture_bc_sha256": "cb511e6468aac7f3b617670b695e8a486dea2a5f97f0bcc04eccdae9c646b0ae",
+          "rgba_sha256": "df19a3836eccf292ea5610aa1d3c7678c920064f343cf21ca8170b3c237e89f2"
+        },
+        {
+          "level": 2,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 2,
+          "source_offset": 10485798,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "8457fd0f1c55f33f8669d646cc643e540fdec3f1b1fe3c31b8569cc64dc792ed",
+          "capture_bc_sha256": "8457fd0f1c55f33f8669d646cc643e540fdec3f1b1fe3c31b8569cc64dc792ed",
+          "rgba_sha256": "7f3b96195a250d860a36b6e667215fca9725b6d64d19baa6870a48045287f492"
+        },
+        {
+          "level": 3,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 3,
+          "source_offset": 11010086,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "66f84683f39d7e85d30e2523dd5e2c6f34e94ae87f56991e864030a3f3a5e221",
+          "capture_bc_sha256": "66f84683f39d7e85d30e2523dd5e2c6f34e94ae87f56991e864030a3f3a5e221",
+          "rgba_sha256": "8ac544d9afe0cd25ce5c910595b89dcd9f2e56f619fa874ab429295302eda593"
+        },
+        {
+          "level": 4,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 4,
+          "source_offset": 11141158,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "5a4cd88c59b836f3aa7a02edc662a68587057a282a2f99e3dc61a97481c59258",
+          "capture_bc_sha256": "5a4cd88c59b836f3aa7a02edc662a68587057a282a2f99e3dc61a97481c59258",
+          "rgba_sha256": "be1fa0ac92da69532bc8ebcff520c4dd157ee0b04ca692ce8cf358067b571e43"
+        },
+        {
+          "level": 5,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 5,
+          "source_offset": 11173926,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "3fa226b95fb19cd383215f95e40c842d9235c4c88e19d6f11525e987e8f0d6c2",
+          "capture_bc_sha256": "3fa226b95fb19cd383215f95e40c842d9235c4c88e19d6f11525e987e8f0d6c2",
+          "rgba_sha256": "690c3e7c8f9dfb5d6ab2629d7fbe50a441c1d4c4138964c7889403171788e3e2"
+        },
+        {
+          "level": 6,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 6,
+          "source_offset": 11182118,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "430fe213e10d20e32542c6c9b56cc7288b0330f44726501df082b1ce78ac5c9e",
+          "capture_bc_sha256": "430fe213e10d20e32542c6c9b56cc7288b0330f44726501df082b1ce78ac5c9e",
+          "rgba_sha256": "5d789313e28f2e5fe7526d635655c0e61c3614ac15da86785560e6648afbcb74"
+        },
+        {
+          "level": 7,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 7,
+          "source_offset": 11184166,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "e7d845be7d7975b2ccd69be088a67c2ef849eec7636e01aff7d688cdd7f2dde8",
+          "capture_bc_sha256": "e7d845be7d7975b2ccd69be088a67c2ef849eec7636e01aff7d688cdd7f2dde8",
+          "rgba_sha256": "d74ad980f33200fbd81b328b0d98c91b54e1f1710a627bafe23fd4b0c72c066a"
+        },
+        {
+          "level": 8,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 8,
+          "source_offset": 11184678,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "9a0bc664511fed67221c17c85747e12ac6d3f52eeb5f8813dc1e758f9f061b61",
+          "capture_bc_sha256": "9a0bc664511fed67221c17c85747e12ac6d3f52eeb5f8813dc1e758f9f061b61",
+          "rgba_sha256": "5e189d6cac58d746c3ec3f80ac7cc04da43604d6a6a4e0d86d983ce381c57c5e"
+        }
+      ]
+    },
+    {
+      "texture_id": 670,
+      "asset": 1412166,
+      "kind": "d",
+      "file": "world/t670.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "d7805d788d357d5e8c0cde83e9d8d395066e27c559626ee9e2d7790248df7cec",
+      "previous_sha256": "14caa0ec9ae5a76ca712452a446f7158ee46216ba4c28f11174c62c2b4501975",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412166_3.dds",
+      "source_file_sha256": "589528daeb85739157c4db90962be076ca37face2bba5ec1d038070a32e2ec60",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 1412176,
+          "slot": 8
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "bcb4f2dcf5bda7ca2eb43fd04bbe34e5d010657f1bcd0e0368608b8a101e5398",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "39fe88c337e5e3b214a474ec61fc94fdb6499e03c3216e0f014cf6d478bb5e58"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "ffaa44061bbfa4411fdf75379d322ce1d52c023da426e280fcbaab16bbc65867",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "e76f8f878607db68f93a7a65a32c416bd4feba0c652a933601e53e8a77e8fc45"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "84b7e51a6a3bea251172b7619111d89be92d709f91707a05b87e53298a57ed95",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "d7610a365ecae90aaf289ebbc4bc26e0f126f38ad2cfe1c967b87704a62df6eb"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "9d919c1e63ee721cb5a552e61174f172ab4aa7ba0cf686385fee144165c9ee04",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "7fad228fb8c4472d93446e74de20e16426aa3fd1bb253755aa049f976f689202"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "c01c7a6d0c4e42574dc5696978dac3c0225f178c73cffd7fa13a30b483c18304",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "5ada27a0626d80fcd1ca9b2273ffb46507d09d9b4f003ede7a744bc8875770dc"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "d1d6a6a915993be04635a320fc83889ac922e2aa4557a1c85c8d64a6cca3745c",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "09b46b1ce2b10ef9463f299c87df7f3d547b2dbc666cb7372f4de2174bb12f41"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "b728dc147201b91a46999422a4bb9ad1578d99dea0a7fc1f965b8b195bd6b236",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "73acd430db90a778fa2b2876a612095d5f77eba61ca6f8448d616aa7a57eb361"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "263aa3c7347c9898d92f47b803bebc2d5aa83661e2568a96d1a44edaadbff0cf",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "b773e0d8f46141787e8c1447ac4e06f7eeaa471e31681c25ba280730214efb59"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "bc86c75bfee3a420bcea0134d6429c2027439126c885cc2eb4b708cad6a46340",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "db375668618bd9172bd4c7db75de8eaf352dc589ea4a101dc0de67de673889f2"
+        }
+      ]
+    },
+    {
+      "texture_id": 671,
+      "asset": 1412168,
+      "kind": "s",
+      "file": "world/t671.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "5e04fe286dc5eaeaa09f74c4e55f931da6a5d5ba455c9324023394386ea429b9",
+      "previous_sha256": "8ca9759f6ca25c5f21e024597aafa268f8e979f4cccff85174bb3b608d814d8b",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412168_3.dds",
+      "source_file_sha256": "afd7794300ccd1835b0c964a3389f2892d8f06b4e722767837b37457b3b87b62",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 1412176,
+          "slot": 10
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "605301148307d886eb9ab07e8bcaf3e06dba738203fda3c1865ed39cf30383ec",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "3f9688317ed6a9bac057459d25767d2bec048665dedffced727734fd3941d967"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "ecc7d85f9650e8b26cbabdc10a95ae347f7b96c20600e6423d2e2f70632d948e",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "4572391a7b904936d29c90a113ad2ba9401f2d66fc4674cf4e017651353050f3"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "83566b959295417ec4de5465252c018a9b666f01c6c38c8eb1994f396593b8d6",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "86e77d04aa6af4f0ef4acbb800383d36cb666a12f56615f0d036dc1da539c268"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "e2419edec18434f7db0e939aadf0f45e12e4e97f4faa739da420a54deb8499f3",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "85cadcc8a9b63435579057aefb9494a2c790021f400eb47c02ed5b94ffbce15c"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "14ffa4fead52a491e16cab39618ee7e4ab42ce10b194d91cb93f64506dbe7af8",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "f3760273129fafc1db44145de168e2f7327c9193021c102055b9aa975fc1999e"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "ae5bbe1a5477f201e0d0164a66c672ae9adbcb5f5eb74a16e86b8e0f7cf05c94",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "01e0a4153cdc0c8e8175b51fc396d52050fd44a0e686848a766886f31c5383fa"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "e79e6bad17d9c1ce09ef50cce06d7bed36874b4c7baae40b50ca1bbc2f38b1a3",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "93b6ac669b7105a44420c49e9525f0fe3c7bab2cbbfb957c9f0c862231688ad0"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "8c8db31813f7f501764782a7c7387620c5729df8593d79b7156cff10c7831440",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "dba2e33218313c1fdb450d5ec463c3a7fe41527993ecbda58776224a2d06a647"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "9892496181735e58e3db709a5122f266515546a261abe9437a99a84e0b68c4d8",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "7cc289913702772fa78fee1050bc3468cbb9b2fce2a0213445cf85c55e6a144e"
+        }
+      ]
+    },
+    {
+      "texture_id": 672,
+      "asset": 1412167,
+      "kind": "n",
+      "file": "world/t672.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "0294b1863196ce65245f1086ad96765bb71291c0d8503a730a20d85d55b24d70",
+      "previous_sha256": "05cf78e5f5fcb996b06a5399172ec46bd12ee0855533caccc7f2ddca50f3ebe5",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412167_3.dds",
+      "source_file_sha256": "2069704cf51c5c525c5dcb3b9c5303c1cfd10441989647e48039943f4b9fabd6",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 1412176,
+          "slot": 11
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 1048576,
+          "source_bc_sha256": "cb87daaa2ddbc5fe742866ff894f529670405baa3310c4a451aab61b5cd5b9a1",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "b32bf7e7c3917515fe900fb78530428749122f36007bc1a86a6ce99b6845e894"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 1048614,
+          "source_bc_bytes": 262144,
+          "source_bc_sha256": "318c1e1658f68b7702a728760016e9c3bceb962e2251aaecb2b6c31ed27d837a",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "398b364d63cef719ad1f83aec81319b0a3033c336dd97117cfe77a9bee4ded93"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 1310758,
+          "source_bc_bytes": 65536,
+          "source_bc_sha256": "a9d93f27fc66db2ac5bff802dd4c8b97d79f368f827651aeaa9f0628f30435ec",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "a18b6d9d5cefcb9e3391ab7f60283c5071cb1b403e91a5d0d3cb6a5c60e82925"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 1376294,
+          "source_bc_bytes": 16384,
+          "source_bc_sha256": "5d188c4543a5ee41c48252af88713d53ff3dcbc57b6224d6382163c2c7d5a22d",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "51e6d4232c974e3c5c41d7912f95b518b44af576595b9a535c77f65bf69d2dde"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 1392678,
+          "source_bc_bytes": 4096,
+          "source_bc_sha256": "8146a703ec05b0d4c818a22d4a56525e3bf2ec8e64b3a986ad34c016a9dc9cea",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "d7d6bbe4baf40759baceba773178eebc30c972c00cbf09de9c7119c2b888c691"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 1396774,
+          "source_bc_bytes": 1024,
+          "source_bc_sha256": "1f23903d477cf599479157accaf45f2b43a63b30b66a2030ca06740807b8c6bc",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "6b74514e7908d987768975307ebce903cd0aed138f40cca3b3de9b6a15925d36"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 1397798,
+          "source_bc_bytes": 256,
+          "source_bc_sha256": "7c7f8b34513e62dac99185032a6b0af0ee4d90ee7a2bc3fa24dfc3f940289f06",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "c7614a7b9fcecebd1834b9136fe53017a8b120d477166a7aafa7ab542cceee1f"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 1398054,
+          "source_bc_bytes": 64,
+          "source_bc_sha256": "99278fd9d6cd71e5bc2e550b61fdf68980bdb8ce51653c730c13f02680631710",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "b991e7abb9039ae50598e4ea4935401cf33875299eec7d40b61f8333815b6317"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 1398118,
+          "source_bc_bytes": 16,
+          "source_bc_sha256": "d7d3b1010413ce81075f6cd72a711f03abd4fb0d33a1ac1c0c206c4ced4d0f12",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "aa0411c3777105d1038c8798944acaf355c0a57f1e1f387699f01f4c5a274d81"
+        }
+      ]
+    },
+    {
+      "texture_id": 673,
+      "asset": 1412172,
+      "kind": "d",
+      "file": "world/t673.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "f314778ee94afc671b0a30c1cce79f2a3964179a43fa45f7a5f0321a08357802",
+      "previous_sha256": "c6dda667f5812b7fbe53621a654e1128a725f5ca69691ab007ec7c140ad1535f",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412172_3.dds",
+      "source_file_sha256": "194bbe5fa6f8af4b6e5dc41c378684aa87210d7c47b6a26ac5673a16363e9022",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 1412177,
+          "slot": 8
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "2aeea6ea025a75fa916a5a129037ab6c46d5394e4cf9127ef9405c1374aa6ac5",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "4c834fa2a890f75082b8cecc3ccca456bed166515f45c7d1f4dbb33c48363214"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "676414a8dc3e8a92694f26873d652eb4279f575243004e04a31b076e7a1fc036",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "49eadf6eb3f4dca20ae245016d7e5aeb787ef8284c2d911b1efb9a5388cd9f64"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "0e979fe3b44fc60bb32e63fe2b39c311ca7b2d5eb092766eb3b022dadfc0b374",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "6248848e2ac20ab48c113fedb02927cefd8622496e89ec879fb1a4b937824ac0"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "43038dc31c41ec9d4d94b2a4a28f47ddba825cc9d6235e463eb8b27225e283bb",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "f1b711d865dbc5508652e698375effafc738077f51d144b03f1f32275edd7f61"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "36255f038cba5cba77cfb5d44dd85fab390e7bb86f729e6ae659efdd3febade8",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "d09d16b1df412445afc099e4b31bd5555af54d8e70d982ea6121db9e56e9eea4"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "df666c0098e38f5baae94d6ea9d45c1c88b00a1688da4c1df80ccdb639be0234",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "e723a592ac9c6f39934211085e0f9132919100b2803df0d35f4bfcb1f92d7c18"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "d4bc235e5ca20f8a7cb94ef05ff31d1f8f2b132ed427e17d8dd50d1bc5cdf0ef",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "45fabadd04e0317e8cdb9bd00c5134d2ec5dc0c07f513b1dcff622f92577aef4"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "03cd962b3df10c90cc28228e1aad9d2c66d2937fc77112122fc6a29c283a4327",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "a41173b3d08bbfc39b7ff15aaa4caf0824262a8b28b6328c1ab7cea9a0c9ebbe"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "6c810eb816b0eceaa88df50765dcfc788b658e152011d2992848b65a3310543b",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "c1167210152a601de93f5fb6ab098e52b5ced1f62842cb39e8abb52d6b3ac692"
+        }
+      ]
+    },
+    {
+      "texture_id": 674,
+      "asset": 1412174,
+      "kind": "s",
+      "file": "world/t674.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "f2b216b6e5171c417fe59479b49be59683ffa4dd85e1dfec1789888bb41b727d",
+      "previous_sha256": "d6b467bda26a279cae6f498bc6d199b0a4b86de682a4472b947c5e2d9535cd9a",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412174_3.dds",
+      "source_file_sha256": "64eb323a5c7e27fcbf6ec70acfe8a81cd872e5ab6fdb24be80fe249e509a7857",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 1412177,
+          "slot": 10
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 524288,
+          "source_bc_sha256": "18397f92865b018797711427fd8fc91d036170d0bd0478bb35cb016fc5c04e51",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "b12b84cb858d2945e68ef74492263c701af0bd16d8f13c9c520d9213d4dc61db"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 524326,
+          "source_bc_bytes": 131072,
+          "source_bc_sha256": "1ba0f7ef5957dfbafe1e783d9a4006c0bee68bae4dd358fa3ac53065de080aa1",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "81ede85bff380bb6b80db8076d3981d696dc0c6deea5333c16c08119113e8b45"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 655398,
+          "source_bc_bytes": 32768,
+          "source_bc_sha256": "4f1985072befa8e57a14341438ce42e2d39742b2a3c7347d9c526ee3f00d2331",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "f4ed5e0001ca44d3d1ca8a33a318e1770efe4132a6485054f56fdb824893bf03"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 688166,
+          "source_bc_bytes": 8192,
+          "source_bc_sha256": "39d798568311818b4ec20a2682159fead28ea965677a8ea11ff62efe7f6a46fb",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "0cca4e505c2d87ee8351e48c57bfc26ac5b97dba1c35da9d79b6a9ba1048ce48"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 696358,
+          "source_bc_bytes": 2048,
+          "source_bc_sha256": "f3fb741cccdbe639f0ef41860512b0f4a7cac210f1ca17594ec2429ff7b3390e",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "4e1a527944ef1e6f187f45cbe19f971c349b16337073e73e8ae2f67365c54f74"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 698406,
+          "source_bc_bytes": 512,
+          "source_bc_sha256": "d9a40b7b635a0132121a84a99e4b9605858071be3dbd55a97a9dfa008962b8ba",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "ecc744e64acb28747f1ddb8209038012b788a52183067987b3ca1a7edb7762cc"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 698918,
+          "source_bc_bytes": 128,
+          "source_bc_sha256": "0009dc788335928d1a8908a8b4f89eda7846b7df0b91758edda7a5c3d65ddeef",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "0216c36d08b394c202a49e4d9cf1e4258fcee4ec28b9d3f617e142f7a71c99b6"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 699046,
+          "source_bc_bytes": 32,
+          "source_bc_sha256": "eaa858f72f4605b78a7a6a0eeb3f8b9e61a718fc88d5ef3a70ce5fff3054917e",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "33ac15edca4fb465b6754ad029328bf9f1b859f2fe31f0860e4713f2fe284f03"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 699078,
+          "source_bc_bytes": 8,
+          "source_bc_sha256": "920a115ef0feefb7b1b52f6fee301b8653ab0b89176f4a70392c4d39c7a7033d",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "b406212ee1576b28c416504da732bc9e6be4d962bf41657431e95727f45e4911"
+        }
+      ]
+    },
+    {
+      "texture_id": 675,
+      "asset": 1412173,
+      "kind": "n",
+      "file": "world/t675.bin",
+      "format": "OATX RGBA8",
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "bytes": 5592440,
+      "sha256": "868d4cf2d0fad99af5dccd5e097c2db091404dd0c54854fc572027b2b7a305b6",
+      "previous_sha256": "44ab0ca5e2ba7d0b51760a1b764bcbf99a40855af5280b0f5f2fa7e75558b22e",
+      "previous_format_width_height_mips": [
+        32856,
+        1024,
+        1024,
+        11
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\water-research\\static-material-followup\\inputs\\DATA_0.pak\\1412173_3.dds",
+      "source_file_sha256": "09070ca630b11ea925251ca1a9be37cda8e278bbee8e4b292f9288eeb6f61854",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 2,
+      "captured_identity": false,
+      "provenance": "original authored source mip chain at unchanged current base dimensions; GPU residency not captured",
+      "captured_images": [],
+      "captured_image_views": [],
+      "material_users": [
+        {
+          "native_material": 1412177,
+          "slot": 11
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 1048576,
+          "source_bc_sha256": "772592659742836ce2943eafb932d9298dfdb4bf569bc2710d24793856b64583",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "72775d7826dd9264b5b4aba1da26cf67f1bf012a56e77eaf90dfa79f264cec2d"
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_file_level": 1,
+          "source_offset": 1048614,
+          "source_bc_bytes": 262144,
+          "source_bc_sha256": "0839ac301afeb3904d324fbc81f6acd98543b3c98374d65cdb3db5fdd482b4a3",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "595765a52d75a49307531da471eca82c9ee97ea776ea547f7e017de75a4f7f89"
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 2,
+          "source_offset": 1310758,
+          "source_bc_bytes": 65536,
+          "source_bc_sha256": "6a84990665eca4f44fb4c62cf2abdfb4a26347b8d7b9079f99b74f3efc98ed60",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "d58a497722d3b783d62ec52ad245e71e81a663a5f586c94b1100807675bbce49"
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_file_level": 3,
+          "source_offset": 1376294,
+          "source_bc_bytes": 16384,
+          "source_bc_sha256": "bafe1c5bbc59b8eccf74fa6c54c3c3e962780839a9d600846463e5fa8f6ad318",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "d1dc0d3410349f47aba8e43d031ae7ca44fa41d55d8d3bdaa4a88e7f48f24dec"
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_file_level": 4,
+          "source_offset": 1392678,
+          "source_bc_bytes": 4096,
+          "source_bc_sha256": "c05099e31c3cc727bfd6d48208e9cc5eef99151bf71bbe7599c0406e6cce1186",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "5181d931df0d0961102fc777173a8607578a74b7e945ca4c61a4e9cc52925c64"
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_file_level": 5,
+          "source_offset": 1396774,
+          "source_bc_bytes": 1024,
+          "source_bc_sha256": "e1bc404172ade9248960134ed4fd6a1a967c6ef05e03c2f42ce77c6811ce01cc",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "1b8f2d6190a31657f441bf111fa54712f012e1d75f81ac3e6006a9787b99edff"
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_file_level": 6,
+          "source_offset": 1397798,
+          "source_bc_bytes": 256,
+          "source_bc_sha256": "dc3cd4275f876360497a4c3eb523d3405f9dd0468bb20cee283b744cf34e2c9a",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "f3b7ddf043cb25e4f9ce9ea3cddf1210b472831cad4938c414ecf4f5037ef4a1"
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_file_level": 7,
+          "source_offset": 1398054,
+          "source_bc_bytes": 64,
+          "source_bc_sha256": "82e70069ab59cfa8a758a3b00b4745674ca2d01fffcdca98355f7f3cb5baa334",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "9b618672aef03710b0cc9931fcd849437990f892e92ef534341234d5acff4821"
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_file_level": 8,
+          "source_offset": 1398118,
+          "source_bc_bytes": 16,
+          "source_bc_sha256": "6994e2b5ab669440d6f92bcd0c66be6507e52cc2cc71b86b34d290b57e0e4626",
+          "capture_bc_sha256": null,
+          "rgba_sha256": "edffd646e1d92462a59e466d60e0296d577c7640c7babbb8bf1ad1fcdc98c2d5"
+        }
+      ]
+    },
+    {
+      "texture_id": 676,
+      "asset": 3030,
+      "kind": "d",
+      "file": "world/t676.bin",
+      "format": "OATX RGBA8",
+      "width": 256,
+      "height": 256,
+      "mips": 1,
+      "bytes": 262168,
+      "sha256": "5f3b7feed5e91c0cd8cf049568f97d1b63bd5eb2a14827a747baae4d2265b149",
+      "previous_sha256": "94aafbe9f8688b1315a0735e58e4375b8294ef4683ed1e034ee03da71387345f",
+      "previous_format_width_height_mips": [
+        32856,
+        256,
+        256,
+        9
+      ],
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\3030.dds",
+      "source_file_sha256": "58e0575ec4f202c516a7a5202ddb4262f17b056a6040107cd497e58bad9e4a58",
+      "source_file_first_level": 0,
+      "resident_offset_from_highest_available_source": 0,
+      "captured_identity": true,
+      "provenance": "actual actively sampled captured image; every BC mip SHA-matches original source",
+      "captured_images": [
+        3418
+      ],
+      "captured_image_views": [
+        3422
+      ],
+      "material_users": [
+        {
+          "native_material": 1365224,
+          "slot": 1
+        },
+        {
+          "native_material": 1777276,
+          "slot": 1
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 256,
+          "height": 256,
+          "source_file_level": 0,
+          "source_offset": 38,
+          "source_bc_bytes": 65536,
+          "source_bc_sha256": "f062afe65c06494ef6d870297b7c8185859ea82f655feab7962260d5d80cb1ec",
+          "capture_bc_sha256": "f062afe65c06494ef6d870297b7c8185859ea82f655feab7962260d5d80cb1ec",
+          "rgba_sha256": "3b874d3ba46c638fc3094f8e92fb744ca974893873f8885f54e23760f9b6311b"
+        }
+      ]
+    }
+  ]
+}

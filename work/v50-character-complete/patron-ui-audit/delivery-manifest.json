@@ -1,0 +1,190 @@
+{
+  "presentation_file": "patron-presentation.json",
+  "optional_C99_files": [
+    "oa_patron_presentation.c",
+    "oa_patron_presentation.h"
+  ],
+  "source_choices_unchanged": true,
+  "all13buffIDs": true,
+  "source_stat_keys18": true,
+  "no_game_run": true,
+  "no_live_edits": true,
+  "files": {
+    "00d8fc60.c": {
+      "bytes": 620,
+      "sha256": "d6b75880680c70a2ef143c18d920cadd4cfb97d53ff9db1955e54f9afb151278"
+    },
+    "00d94d50.c": {
+      "bytes": 824,
+      "sha256": "0fa18f692a0bcd754677464438e419736507980b77ddfa8dd219c4f8693fff34"
+    },
+    "00da0800-register-stat-localization.c": {
+      "bytes": 684,
+      "sha256": "cbeff7d65003aa030a896045bb25457b4d7a80a293d407599a1f69d15510c632"
+    },
+    "00da3e80-array-ABI.asm": {
+      "bytes": 3100,
+      "sha256": "f6ebe7b567cf636362c4107b8546162b9493d3185bb8fe8ceb52baaeff926d9f"
+    },
+    "00da3e80-buff-vars-loader.c": {
+      "bytes": 1705,
+      "sha256": "1b4e8c2fc1a73db1ce0ec9a80b5ba39199f6f80b915dd703e128517978a3247b"
+    },
+    "00e5a800.c": {
+      "bytes": 2311,
+      "sha256": "b7a41d06e6fdf1bd102dafd6494a5ef3e2805176339555ab5f02f449e9778f24"
+    },
+    "00e5aa30.c": {
+      "bytes": 2311,
+      "sha256": "7ab0464293973e25c01f9f4d2e19403ebdfd55c5dc8ea873f27d5bfed975fdb0"
+    },
+    "00eb5100.c": {
+      "bytes": 3130,
+      "sha256": "2738768d57170db665f66c3a22ecc8db5109b3718d0244e448e1061e73d33963"
+    },
+    "00eb56e0.c": {
+      "bytes": 2531,
+      "sha256": "cb9e93173bfc4c960350f0d10e5b58a8096a133f99541896eb91cd3617454eb2"
+    },
+    "01036ba0.c": {
+      "bytes": 113,
+      "sha256": "72fea8bed53a34bf0cf3981e033c92ffb22ed79424e5b4c02a1d623cdc3318ae"
+    },
+    "417410.lua_bxml": {
+      "bytes": 22811,
+      "sha256": "2b644ef265295689d26e7350380e2bbb9adf6bb1f170c3e6b93f0de38876369c"
+    },
+    "686835.lua_bxml": {
+      "bytes": 25138,
+      "sha256": "0629dae880700670b704e102f6e529a5ca1fa634daf98fc119fb417c9d491b02"
+    },
+    "751829.lua_bxml": {
+      "bytes": 103271,
+      "sha256": "a7a3739dcf1830095983e123adc9bc20358aa2eedd53116bdf6798784beafec3"
+    },
+    "buff-function-0-5.lua": {
+      "bytes": 34234,
+      "sha256": "6ee9d7836af049d33ef35c7a65cf62e88cc4598b96aca6d67276f7a5a8b79e63"
+    },
+    "buff-function-0-8.lua": {
+      "bytes": 33573,
+      "sha256": "5a986556a5daa93f465088c1da5002f9859802398c087832f9ef4faa88840f59"
+    },
+    "buff-function-0-9.lua": {
+      "bytes": 36528,
+      "sha256": "c96a96af79004174c16034aa72d9f7a683c53b592173d5e0b8ea4d3024f82185"
+    },
+    "buffmgr.bin.source.json": {
+      "bytes": 200,
+      "sha256": "69e825aad85a9b235c1e719a14f42a5fe2a8430f5dd2755ea711dc9f84e55654"
+    },
+    "buff_init.bin.source.json": {
+      "bytes": 201,
+      "sha256": "1260874048c2fb76f3c7ce4b18b3ee3cced91b3123002fc6fdf65edeae109aa8"
+    },
+    "buff_vars.koabuffvariables.source.json": {
+      "bytes": 213,
+      "sha256": "6fc14388278bab3e272cac57f748ba8d5effce0651b13fdb39755d7b66c3ccbd"
+    },
+    "compile-arm64.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "compile-win.log": {
+      "bytes": 26,
+      "sha256": "e774d3226a20a4d45f92ff352cb89e7a1d20435d30f052bc1aa69be3f159be32"
+    },
+    "compile.cmd": {
+      "bytes": 642,
+      "sha256": "32c818a1a4577a75d58c766e86bbf7df378e06c66e6b2802d4487674ffc52ffd"
+    },
+    "compiler.log": {
+      "bytes": 298,
+      "sha256": "3f85a2005cff9a1bd908048526aa8ddc0e75bd037c20b5b74f84b6b1425a049c"
+    },
+    "main-table-symbols-decoded.json": {
+      "bytes": 817378,
+      "sha256": "e889afcc8ce30fb26e762a529afe3df5fe5b6c275c088f90a9f3ed49e58afd38"
+    },
+    "oa_patron_presentation-arm64.o": {
+      "bytes": 6704,
+      "sha256": "1260f2ab2d24af87ca8456425992aec03eeaaaa93ece32dc4513214d44180ad9"
+    },
+    "oa_patron_presentation-win.obj": {
+      "bytes": 6815,
+      "sha256": "bcd797ca17c373ab46016884776ff19860e8de3ce96a3df338f487b09cefaddb"
+    },
+    "oa_patron_presentation.c": {
+      "bytes": 3339,
+      "sha256": "518a0c88c7f03fe5467b64f8327a7ae1724f39c44d9cddf6b587317962217625"
+    },
+    "oa_patron_presentation.h": {
+      "bytes": 442,
+      "sha256": "906aa3dde66a819d7a5b210b88a5143fbbacbe6ff0ded2f6207e9005a354a7ce"
+    },
+    "original-buff-display-tables.json": {
+      "bytes": 10533,
+      "sha256": "c41bf8df2f8d1143f6c4056d895ceb3062473871063e6d22e864125104f47844"
+    },
+    "original-ui-lookup-proof.json": {
+      "bytes": 5376,
+      "sha256": "b1d7c3a27bd1b6c5998b07eac28075213af01a7f1428ae377dd110ef3b193827"
+    },
+    "original-ui-tables.json": {
+      "bytes": 5210,
+      "sha256": "6aa9df9da62d3462b4c1ffd52704b48036a16a7590123e8c349d62f0b38c0f48"
+    },
+    "patron-presentation.json": {
+      "bytes": 70974,
+      "sha256": "820678c152288f00264c1a0425b7ed5216a81873473b5a492104a7e0b2008c41"
+    },
+    "patron-stat-name-hash-matches.json": {
+      "bytes": 3136,
+      "sha256": "3b13e9dd6fb3508dcca00931ee6064f9a99be246a7fad40e4a0654c6629ec7ba"
+    },
+    "patron-stat-source-definitions.json": {
+      "bytes": 5138,
+      "sha256": "34329a82da562147fe95da5db37078c93a54daa45a0f71183a580910b070a4a3"
+    },
+    "REPORT.md": {
+      "bytes": 6384,
+      "sha256": "c7159291789fa7f993b4850a2000fa2cf70c0819661aaf3850d8dcdb126cc696"
+    },
+    "source-validation.json": {
+      "bytes": 510,
+      "sha256": "2e1d862a15a63f5f4ca204034810b04d79fc06d5fe1b50a4851dafb5cc4c2e00"
+    },
+    "source\\english_main_table.localization_table": {
+      "bytes": 785208,
+      "sha256": "19ed64bc7b7bc72a555c80d98bd1a87231d77b6f1e535648a41cd7b177bad366"
+    },
+    "source\\initial_0.pak\\buffmgr.bin": {
+      "bytes": 4031,
+      "sha256": "f1176ced6a4f231c0def1a4fe74ec8a80793ec8988749ee81f12e392739ed575"
+    },
+    "source\\initial_0.pak\\buff_init.bin": {
+      "bytes": 52672,
+      "sha256": "7886145f0c31e79dcb4f2ddef9990ec2e3809b623e53f1fa2d071a3e2e4e912f"
+    },
+    "source\\initial_0.pak\\buff_vars.koabuffvariables": {
+      "bytes": 5276,
+      "sha256": "a9f3e828e84f2bf460c9123d34281fcdb29696cb3c0f1072ad8b2690283f17b0"
+    },
+    "source\\initial_0.pak\\english_main_table.loc_table_symbols": {
+      "bytes": 425182,
+      "sha256": "dcb33cdb5e857170fd32c4b69f21376d13990a19b146f858ab2d90d4b70c9ed6"
+    },
+    "source\\patch_0.pak\\buff_init.bin": {
+      "bytes": 57160,
+      "sha256": "895b7dd05862794908c1b1874a5c71d47bdef2d70dbcf2c149186e8e8bad05f2"
+    },
+    "source\\patch_0.pak\\buff_vars.koabuffvariables": {
+      "bytes": 5524,
+      "sha256": "bfc5c3dc9210f380e0d0e87bf701ff99627ff2940e356464e32bb120260e6b55"
+    },
+    "source\\patch_0.pak\\symbol_table_64_localization_keys.bin": {
+      "bytes": 7151700,
+      "sha256": "448c96de5f22ade83f86f48c10576b774884abab3a0208f3e9a0fd8a76798667"
+    }
+  }
+}

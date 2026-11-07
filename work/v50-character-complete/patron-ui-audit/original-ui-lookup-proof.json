@@ -1,0 +1,242 @@
+{
+  "get_description": {
+    "function_path": "0/15",
+    "instructions": [
+      {
+        "pc": 0,
+        "file_offset": 12098,
+        "name": "GETGLOBAL_MEM",
+        "kind": "getglobal",
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "constant_lua": "\"m_display_options_data\""
+      },
+      {
+        "pc": 2,
+        "file_offset": 12106,
+        "name": "GETFIELD_R1",
+        "kind": "getfield_cached_k",
+        "A": 0,
+        "B": 0,
+        "C": 3,
+        "constant_lua": "\"options\""
+      },
+      {
+        "pc": 5,
+        "file_offset": 12118,
+        "name": "GETGLOBAL_MEM",
+        "kind": "getglobal",
+        "A": 1,
+        "B": 0,
+        "C": 4,
+        "constant_lua": "\"get_selected\""
+      },
+      {
+        "pc": 7,
+        "file_offset": 12126,
+        "name": "CALL_I_R1",
+        "kind": "call_cached_fixed",
+        "A": 1,
+        "B": 1,
+        "C": 2,
+        "constant_lua": null
+      },
+      {
+        "pc": 8,
+        "file_offset": 12130,
+        "name": "GETTABLE_S",
+        "kind": "gettable",
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "constant_lua": null
+      },
+      {
+        "pc": 11,
+        "file_offset": 12142,
+        "name": "GETGLOBAL_MEM",
+        "kind": "getglobal",
+        "A": 1,
+        "B": 0,
+        "C": 7,
+        "constant_lua": "\"description_package\""
+      },
+      {
+        "pc": 13,
+        "file_offset": 12150,
+        "name": "GETGLOBAL_MEM",
+        "kind": "getglobal",
+        "A": 2,
+        "B": 0,
+        "C": 0,
+        "constant_lua": "\"m_display_options_data\""
+      },
+      {
+        "pc": 15,
+        "file_offset": 12158,
+        "name": "GETFIELD_R1",
+        "kind": "getfield_cached_k",
+        "A": 2,
+        "B": 2,
+        "C": 10,
+        "constant_lua": "\"param_name\""
+      },
+      {
+        "pc": 18,
+        "file_offset": 12170,
+        "name": "GETTABLE_S",
+        "kind": "gettable",
+        "A": 1,
+        "B": 1,
+        "C": 2,
+        "constant_lua": null
+      },
+      {
+        "pc": 21,
+        "file_offset": 12182,
+        "name": "GETTABLE_S",
+        "kind": "gettable",
+        "A": 1,
+        "B": 1,
+        "C": 0,
+        "constant_lua": null
+      },
+      {
+        "pc": 24,
+        "file_offset": 12194,
+        "name": "RETURN",
+        "kind": "return_fixed",
+        "A": 1,
+        "B": 2,
+        "C": 0,
+        "constant_lua": null
+      },
+      {
+        "pc": 25,
+        "file_offset": 12198,
+        "name": "RETURN",
+        "kind": "return_fixed",
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "constant_lua": null
+      }
+    ]
+  },
+  "add_template": {
+    "function_path": "0/17",
+    "instructions": [
+      {
+        "pc": 33,
+        "file_offset": 15973,
+        "name": "GETFIELD_R1",
+        "kind": "getfield_cached_k",
+        "A": 4,
+        "B": 4,
+        "C": 19,
+        "constant_lua": "\"set_label_text\""
+      },
+      {
+        "pc": 37,
+        "file_offset": 15989,
+        "name": "GETGLOBAL_MEM",
+        "kind": "getglobal",
+        "A": 6,
+        "B": 0,
+        "C": 20,
+        "constant_lua": "\"m_option_to_loc\""
+      }
+    ]
+  },
+  "update_visibility": {
+    "function_path": "0/16",
+    "instructions": [
+      {
+        "pc": 308,
+        "file_offset": 13593,
+        "name": "GETFIELD_R1",
+        "kind": "getfield_cached_k",
+        "A": 3,
+        "B": 3,
+        "C": 62,
+        "constant_lua": "\"get_param_data\""
+      },
+      {
+        "pc": 313,
+        "file_offset": 13613,
+        "name": "GETFIELD_R1",
+        "kind": "getfield_cached_k",
+        "A": 4,
+        "B": 4,
+        "C": 66,
+        "constant_lua": "\"m_patron_buffs\""
+      },
+      {
+        "pc": 322,
+        "file_offset": 13649,
+        "name": "GETFIELD_R1",
+        "kind": "getfield_cached_k",
+        "A": 4,
+        "B": 4,
+        "C": 67,
+        "constant_lua": "\"get_buffed_parameter_list_for_display\""
+      },
+      {
+        "pc": 379,
+        "file_offset": 13877,
+        "name": "GETFIELD",
+        "kind": "getfield_k",
+        "A": 13,
+        "B": 9,
+        "C": 80,
+        "constant_lua": "\"param_desc_args\""
+      },
+      {
+        "pc": 390,
+        "file_offset": 13921,
+        "name": "GETFIELD",
+        "kind": "getfield_k",
+        "A": 15,
+        "B": 9,
+        "C": 82,
+        "constant_lua": "\"param_desc\""
+      },
+      {
+        "pc": 393,
+        "file_offset": 13933,
+        "name": "GETFIELD",
+        "kind": "getfield_k",
+        "A": 16,
+        "B": 9,
+        "C": 80,
+        "constant_lua": "\"param_desc_args\""
+      },
+      {
+        "pc": 404,
+        "file_offset": 13977,
+        "name": "GETFIELD",
+        "kind": "getfield_k",
+        "A": 15,
+        "B": 9,
+        "C": 82,
+        "constant_lua": "\"param_desc\""
+      }
+    ]
+  },
+  "on_race_confirm": {
+    "function_path": "0/6",
+    "instructions": [
+      {
+        "pc": 39,
+        "file_offset": 7495,
+        "name": "GETFIELD_R1",
+        "kind": "getfield_cached_k",
+        "A": 2,
+        "B": 2,
+        "C": 21,
+        "constant_lua": "\"m_patrons_by_race\""
+      }
+    ]
+  }
+}

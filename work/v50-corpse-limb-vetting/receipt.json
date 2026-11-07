@@ -1,0 +1,27 @@
+{
+  "status": "PASS read-only source-proportion audit",
+  "report": "REPORT.md",
+  "foreground_fab": 1302074,
+  "foreground_assembly": 0,
+  "foreground_source_record": 79,
+  "geometry_current_vs_source_max_error_cm": 0,
+  "source_scale": [
+    1,
+    1,
+    1
+  ],
+  "weighted": false,
+  "remaps": 0,
+  "identity_source_bones": 4,
+  "source_ranges_checked": 227,
+  "distinct_full_poses": 42,
+  "native_opening_visual_comparison": false,
+  "changes": "new audit folder only",
+  "files": {
+    "audit_source_corpses.py": "63baccfa7c612d884dcb67f4cdcde402d3341140fb5d9ef45fbe442584e98337",
+    "corpse-pixel-hits.json": "23f78ace876f67967f4548001b4f4478fb43856502dde1cb4543754604965969",
+    "pick_corpses.py": "5ba871a5bb8ff954d2acc5fd74b0c2051eaffa3c813c2e60fd91d912891ceb13",
+    "REPORT.md": "d8d18e8a2922d0f5ef11ce79a9acffab5d48908405b69b6b8721ea1baff3389d",
+    "source-current-validation.json": "36060b50ed35daedede3ceab5b12f8904ddf28e6a9d11f70d62b42f7b533147f"
+  }
+}

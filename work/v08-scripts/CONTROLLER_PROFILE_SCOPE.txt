@@ -1,0 +1,92 @@
+V08 explicit controller state profile
+
+Android extension: see ANDROID_LAYOUT_POLICY.txt. The trailing state domain is
+NATIVE_KIND=0 by default, preserving the native fixtures described below.
+ANDROID_LOGICAL_STANDARD/REVERSED are explicit new host policies; neither maps
+Android devices to native kinds. Every domain retains explicit unset errors.
+
+This directory preserves all v07 files. Build scene_profile_v08.c against the
+existing portable runtime and the six-namespace registry with42 INPUT methods.
+Build controller_state_test.c with that profile/runtime; run on Windows with the
+explicit runtime directory. No new target execution is performed on the Mac.
+scene_v08_inspect.c copies the v07 shared-bootstrap front end and adds explicit
+--controller-kind SIGNED_INT32 with --native-profile SHA256. It labels this
+native-kind-fixture in its JSON and does not infer an Android category. Existing
+--memory-mib 128 and --instruction-budget 10000000 selections remain available;
+defaults remain64MiB/1M.
+
+Native proof: c8ca50 reads the device object through this+0x54 and invokes its
+virtual+0x24 getter. It returns1 exactly when that signed integer is13 or15,
+otherwise0. Lua callbacke44b10 passes the result throughaa1910. This implements
+only the predicate over an explicitly supplied native kind, not device-kind
+discovery or an Android device-category mapping. Direct aa1910 evidence confirms
+kind7 and byte payload; prior aadd20 case7 pushes boolean tag1. Parent reports
+38/38 isolated native predicate comparisons passed. Native enum meanings and
+Android mapping remain separate evidence work.
+
+scene_profile_v08_install takes an explicit original executable SHA and a copied
+controller state. It installs GAME.get_game_engine_version (1000, prior native
+proof) and INPUT.is_east_asian_controller_button_swap_required through the normal
+registry/provider API. Other bindings remain missing. Zero arguments are the
+admitted callable domain. Existing provider sets are replaced by normal API
+semantics, so use this during fresh realm setup and compose future providers
+deliberately. The profile refuses repeated installation in one realm.
+
+State storage is a Lua-owned userdata, captured by the input provider and retained
+under a private registry key. It has no destructor, external allocation, pointer
+to host storage, or device handle. scene_profile_v08_set_controller copies a new
+state through protected Lua API execution; already-captured query functions see
+that change. A host may release/change the argument immediately after either API
+returns. A boolean is_set flag is mandatory. Unset state raises an explicit error
+rather than defaulting to a controller category. Disconnection can unset state.
+All signed-int32 native kinds are admitted by the comparison, but none has been
+assigned a platform label here. Concurrent calls on a realm are unsupported.
+
+All Lua allocation/error paths are protected. Installation errors require realm
+destruction because provider publication and registry retention are not an atomic
+transaction. Shared bootstrap already destroys failed realms. An invalid setter
+flag or domain leaves prior state untouched. State and provider memory are released when
+the realm closes. Runtime instruction and memory limits continue to apply; the
+small native predicate itself does no I/O or unbounded native work.
+
+Tests cover all kinds0..31 plus signed-int32 extremes, copied input lifetime,
+captured callback updates, stack preservation, unset/re-unset, invalid flags and
+arguments, missing unrelated services, GAME version and per-realm isolation.
+Parent reports119 Windows controller-state checks passed. With explicit raw-kind1
+fixture, real root loading advances to missing LOOT_TABLE_ID. No gameplay or
+full native runtime equivalence claim follows from these bounded tests.
+
+Optional generic asset macro snapshot
+scene_asset_macros_v08.c/h installs one explicitly named/category-selected macro
+using the existing proven ASCII hash helper. It has no built-in category/name
+discovery. Source snapshots must have exact version1/count/ID/hash layout and
+unique nonzero uint32 IDs and hashes. Caller must independently establish merged
+snapshot consistency; unknown archive precedence is not resolved here.
+
+LOOT_TABLE_ID is proven by native registration/aa9420 thunk calling aa7bd0 with
+category0x37. Parent merged11 original loot snapshots:1096 unique entries,851
+agreeing duplicates, no conflicts; output matches the patch snapshot. The tested
+fixture loot_all_common_wpn_1h_swords has native-probed hash56373026 and ID353414.
+The generic implementation captures from_words and returns exact low0x37b/highID
+tokens, preserving native unknown/empty/type rules and explicit nonASCII limits.
+SH/input-action registration remains separate. Names/categories are guarded;
+existing globals are not replaced. All map memory is Lua-owned and source bytes
+are borrowed only during installation.
+
+Build asset_macro_test.c with scene_asset_macros_v08.c, v07scene_asset_keys.c and
+amalur_runtime; run with RUNTIME_DIR VERIFIED_MERGED_LOOT_SNAPSHOT on Windows.
+scene_v08_inspect adds --loot-tables FILE, bounded to524296 bytes and retained
+through bootstrap then released, including failure paths. Parent reports44 generic
+macro tests passed; real loading advances to ABILITY_ID in
+predefined_character_templates pc795.
+
+Inspector now accepts repeatable --asset-macro NAME CATEGORY FILE, up to32 entries
+including the compatible --loot-tables alias. Categories must be decimal or
+0x-prefixed hexadecimal integers1..255. Names pass the generic installer's exact
+uppercase identifier check. All snapshots remain individually bounded524296
+bytes; the complete list plus input-action snapshot is bounded16MiB before
+installing any of them. Common cleanup frees every successfully read buffer on
+all later read/setup/require outcomes. No category/name mapping is inferred by
+this option: parent supplies independently proven pairs and verified snapshots.
+test_inspector_macros.py stages23 Windows synthetic CLI/resource-boundary cases;
+those cases remain pending execution.

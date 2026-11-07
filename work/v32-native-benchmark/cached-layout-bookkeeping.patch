@@ -1,0 +1,34 @@
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.cpp
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.cpp
+@@ -581,7 +581,8 @@
+     TrackImageStates();
+     TrackSemaphoreStates();
+ 
+-    RecordBufferStates();
++    // Frozen host buffers never need snapshot restoration.
++    if (!oa_static_memory_) RecordBufferStates();
+ }
+ 
+ void VulkanReplayFrameLoopConsumer::TrackFenceStates()
+@@ -1841,7 +1842,9 @@
+ 
+     for (const auto& [device_id, image_ids] : device_images)
+     {
+-        GetImageTracking(device_id).RecordInitialState(image_ids, device_restorable_images[device_id]);
++    // In fixed-resource mode, track layouts but allocate no unused shadow images.
++        GetImageTracking(device_id).RecordInitialState(
++            image_ids, oa_static_resources_ ? std::vector<format::HandleId>{} : device_restorable_images[device_id]);
+     }
+ }
+ 
+@@ -1856,7 +1859,9 @@
+     if (oa_static_resources_)
+     {
+         ++oa_layout_only_restores_;
+-        it->second.RestoreLayoutsOnly(queue);
++        // With no shadow images, upstream Restore caches layout-only barriers.
++        // Reuse that cache instead of rescanning every texture on every frame.
++        it->second.Restore(queue);
+     }
+     else
+     {

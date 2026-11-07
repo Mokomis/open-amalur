@@ -1,0 +1,72 @@
+{
+  "question": "RecoveractualstaticFab admission/LODpredicate explaining source198South431642 versus33nativepositivefixtures",
+  "status": "Staticpredicateunrecovered; boundedruntimecomponentpredicatefound",
+  "new_cached_native_bodies": [
+    {
+      "address": "00c8ab60",
+      "machine_bytes": 205,
+      "pseudocode_chars": 834,
+      "source": "work\\v30-engine\\decomp\\BHG_FabInstanceRender.c"
+    },
+    {
+      "address": "00c97e20",
+      "machine_bytes": 101,
+      "pseudocode_chars": 701,
+      "source": "work\\v30-engine\\decomp\\unnamed_00c9.c"
+    },
+    {
+      "address": "00cccaf0",
+      "machine_bytes": 205,
+      "pseudocode_chars": 1167,
+      "source": "work\\v30-engine\\decomp\\BHG_FabInstanceRender.c"
+    },
+    {
+      "address": "00ce2b00",
+      "machine_bytes": 293,
+      "pseudocode_chars": 1513,
+      "source": "work\\v30-engine\\decomp\\BHG_FabInstanceRender.c"
+    },
+    {
+      "address": "00cae900",
+      "machine_bytes": 97,
+      "pseudocode_chars": 426,
+      "reason": "Exactvf6predicatebranch+commonmeshslotcommandforwardedge",
+      "source": "work\\v30-engine\\decomp\\unnamed_00ca.c"
+    },
+    {
+      "address": "00cae970",
+      "machine_bytes": 97,
+      "pseudocode_chars": 417,
+      "reason": "Exactvf6predicatebranch+commonmeshslotcommandforwardedge",
+      "source": "work\\v30-engine\\decomp\\unnamed_00ca.c"
+    },
+    {
+      "address": "00cbdea0",
+      "machine_bytes": 143,
+      "pseudocode_chars": 1114,
+      "reason": "Exactvf6predicatebranch+commonmeshslotcommandforwardedge",
+      "source": "work\\v30-engine\\decomp\\unnamed_00cb.c"
+    },
+    {
+      "address": "00ccc110",
+      "bytes": 280,
+      "chars": 1559,
+      "source": "work\\v30-engine\\decomp\\unnamed_00cc.c",
+      "reason": "Consumersharedbybothflags1d0.bit2 setters; exactforwardstatepropagationedge"
+    }
+  ],
+  "count": 8,
+  "initial_budget": 4,
+  "maximum_budget": 8,
+  "body_expansion_reason": "ExactFabInstanceRendervf6 booleanbranch00cae900/970 andsharedconsumer00ccc110;smallpreflightedsizes;noexploratorynewlargebody",
+  "machine_bytes_total": 1421,
+  "pseudocode_chars_total": 7731,
+  "native_database_opened": false,
+  "cold_REA": false,
+  "replay": false,
+  "game_launch": false,
+  "live_source_asset_edits": false,
+  "body_scan_stopped": true,
+  "next_priority": "Staticcollectionsource198Fab340232asm6/rawpose vspositive68811exactVB/IB;trace00fec370->00cd24e0/00cd2570 registration output membership/admission consumer. No more actorvirtualwalk.",
+  "precise_blocker": "RetainedGPUcapturecontainsdrawUBOs/resources,notCPUFabInstanceRender1d0/1d5/1d6 or childrenderhandles; cannot evaluate recovered runtimepredicate on any33positivefixtures/source198. Actualstaticcollectionselector andruntimeactivationstate notidentified."
+}

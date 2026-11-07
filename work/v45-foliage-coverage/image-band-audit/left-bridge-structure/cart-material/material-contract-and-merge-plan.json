@@ -1,0 +1,571 @@
+{
+  "native_material": 426015,
+  "alias_material_row": 299,
+  "material_count_after_merge": 300,
+  "shader_family": 9,
+  "native_shader_family": "fresnelglassmetalprobe",
+  "draw": 68274,
+  "vertex_shader": 650,
+  "pixel_shader": 651,
+  "source_DXBC": "8af7b90f9cc700d2",
+  "material_profile_row84_sha256": "60d440618c1d116ff0f0037fb556598f96a873c1d2d07dd60e2bd078e803197a",
+  "MATS_row28_sha256": "f724cc55eed2d54158ebbd0584dcd6fe7d9398c413653f99dfcc312455ba8619",
+  "material_flags": "0x10000000 force native BACK culling; opaque, no alpha discard",
+  "color": [
+    0.9019608497619629,
+    0.7098039388656616,
+    0.5254902243614197,
+    1.0
+  ],
+  "specular": [
+    1.769700050354004,
+    100.0,
+    1.5839990377426147,
+    1.2999999523162842
+  ],
+  "uv": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "texture_order": [
+    "diffuse697",
+    "normal698",
+    "specular699",
+    "alpha/reflectionmask700"
+  ],
+  "textures": [
+    {
+      "texture_id": 697,
+      "asset": 425985,
+      "captured_image": 8630,
+      "role": "diffuse",
+      "file": "world/t697.bin",
+      "sha256": "fbf58c761226a266f9e14fb9db8fdb8594b9243d473036dcb6caed06f914db33",
+      "bytes": 349552,
+      "width": 256,
+      "height": 256,
+      "mips": 7,
+      "source_matches": [
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\425985_0.dds",
+          "sha256": "570dd4ddbcec7bdc020280efec2f347af9921efa5f1be29d3d1f131cea946def",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\425985_2.dds",
+          "sha256": "8bf48bd6444821183b562b6279431745334b260069b23d886109b696d50cccf4",
+          "source_first_mip": 2,
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\425985_3.dds",
+          "sha256": "a1ce4696fa38cc7be0acc43d181c05d645378eeb2ef2ed42d7d749ef1ca10967",
+          "source_first_mip": 1,
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\425985_4.dds",
+          "sha256": "570dd4ddbcec7bdc020280efec2f347af9921efa5f1be29d3d1f131cea946def",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 256,
+          "height": 256,
+          "source_capture_offset": 0,
+          "bc_bytes": 32768,
+          "bc_sha256": "c7bf09c290df11e82649600cddbc42adc435c30a255a58beec7a52b6fa977382",
+          "rgba_sha256": "9521df3c63353e1b6712d1c9a8abae98aa3879da7f2fc5ebf1edf1f8ba528f5d"
+        },
+        {
+          "level": 1,
+          "width": 128,
+          "height": 128,
+          "source_capture_offset": 32768,
+          "bc_bytes": 8192,
+          "bc_sha256": "77aaeab89831f0a1ad0e6fec788235f7e8e1e5274866d86eae391679345254c9",
+          "rgba_sha256": "5521b6d10af4fe222bc2c42f2a579810f56dc9b00397b6b75fcd5809eb2d6f59"
+        },
+        {
+          "level": 2,
+          "width": 64,
+          "height": 64,
+          "source_capture_offset": 40960,
+          "bc_bytes": 2048,
+          "bc_sha256": "6e1a884eb0f7d0f3ad1ef1035e497348a3a67a598b22a75d727bab44cd558daf",
+          "rgba_sha256": "62e5866992759514d6c91f74922c82dcf4b149835e2ce4c2c606e927ce2a11c8"
+        },
+        {
+          "level": 3,
+          "width": 32,
+          "height": 32,
+          "source_capture_offset": 43008,
+          "bc_bytes": 512,
+          "bc_sha256": "90e3d9e7a46ebbab0b8f875363117c633b558d1c4af560bece6dba7d93f7e4ac",
+          "rgba_sha256": "aad4d8278c4497c400c2a1ac203b8af1b9299cbf1c30da3df5e4478d8a58b844"
+        },
+        {
+          "level": 4,
+          "width": 16,
+          "height": 16,
+          "source_capture_offset": 43520,
+          "bc_bytes": 128,
+          "bc_sha256": "011bd967254138f06ed4f54da68afcb00696876f912bf47ab022a1c76df73008",
+          "rgba_sha256": "f07e5177ceaf504cb557ea765b277e5dcded0991c1131a04a368aa52da8d519f"
+        },
+        {
+          "level": 5,
+          "width": 8,
+          "height": 8,
+          "source_capture_offset": 44032,
+          "bc_bytes": 32,
+          "bc_sha256": "faf64dd195eecf8217a838ec326571db5738c03b0fab57875470cf40c4a63bac",
+          "rgba_sha256": "28d3a41d2dada45d6c6de875ff001a7b9507a23d38e1f1801a2f06ec66b06592"
+        },
+        {
+          "level": 6,
+          "width": 4,
+          "height": 4,
+          "source_capture_offset": 44544,
+          "bc_bytes": 8,
+          "bc_sha256": "55ff4ff47afdf4355ff46e89eb4763db80bc3ad959007fe88075dc78d3432f64",
+          "rgba_sha256": "c79f2149284e34153742a250b6f1d4a53197c4c6fe73ee7805f1f510fe229a9a"
+        }
+      ],
+      "captured_all_mips_exact_source": true
+    },
+    {
+      "texture_id": 698,
+      "asset": 426928,
+      "captured_image": 8615,
+      "role": "normal",
+      "file": "world/t698.bin",
+      "sha256": "db82b09d0ac8885ff54ff6eee6058b4a913e50d00a6bc07b893d873106ad9bb6",
+      "bytes": 349552,
+      "width": 256,
+      "height": 256,
+      "mips": 7,
+      "source_matches": [
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426928_0.dds",
+          "sha256": "74ba05d32411db63e6ad951dab90adf597e9d45c724f10a557702ff895ea4625",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426928_2.dds",
+          "sha256": "0ccf5f10bc254da6f1ad6c8b752023c5f6ce2cf9836783194e1314c1fd59f960",
+          "source_first_mip": 2,
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426928_3.dds",
+          "sha256": "62de93edadec62e26704d9ddda60c3e947b3cbb5456a187afe00b98d16eed364",
+          "source_first_mip": 1,
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426928_4.dds",
+          "sha256": "74ba05d32411db63e6ad951dab90adf597e9d45c724f10a557702ff895ea4625",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 256,
+          "height": 256,
+          "source_capture_offset": 0,
+          "bc_bytes": 65536,
+          "bc_sha256": "7f063cea6e7ec26988852472e45f1db1b13267c63172696e7942a4a5fd11d996",
+          "rgba_sha256": "3426e0a9eb7640e3ed2f0254e07cf819e30a1a52c8e1841ff5ea0aefda4ab9ee"
+        },
+        {
+          "level": 1,
+          "width": 128,
+          "height": 128,
+          "source_capture_offset": 65536,
+          "bc_bytes": 16384,
+          "bc_sha256": "d894f9fa7e9a92051ea255a78db4c3a0a0ef2530d1407014a9e31daf90ba3826",
+          "rgba_sha256": "da808d88cffc7f3fae27eda92068f026aa4d375951fd51df9e4f11459bb9b477"
+        },
+        {
+          "level": 2,
+          "width": 64,
+          "height": 64,
+          "source_capture_offset": 81920,
+          "bc_bytes": 4096,
+          "bc_sha256": "0f67d0a47fe3054f13dca9dd1e63cb6b08bb2f79a0a2572187ce55fe2b27f12d",
+          "rgba_sha256": "b37b2ca71ea9ec398f0e3f27d054278155a0eb2d00f67042504077ed972a48a1"
+        },
+        {
+          "level": 3,
+          "width": 32,
+          "height": 32,
+          "source_capture_offset": 86016,
+          "bc_bytes": 1024,
+          "bc_sha256": "664787bfb0525ae3fb0e46ea761234a2f5ccf968826944800d76a4eb2252e3b3",
+          "rgba_sha256": "222677f0269196dafe29e3dee96554a11d5c531ebe12855a1ce83c61d2566671"
+        },
+        {
+          "level": 4,
+          "width": 16,
+          "height": 16,
+          "source_capture_offset": 87040,
+          "bc_bytes": 256,
+          "bc_sha256": "c2083d1b40e49c56bbdc6eea2fb05480b9535a32ccef75e35ca4987bc2b0a71c",
+          "rgba_sha256": "cc45d9af9c6b05d0def612a79c6ac4864fb26dd23dd29026f5665a5a73952d24"
+        },
+        {
+          "level": 5,
+          "width": 8,
+          "height": 8,
+          "source_capture_offset": 87552,
+          "bc_bytes": 64,
+          "bc_sha256": "408a0e28a1d5e674982d726386c0ebc07ba7626dd22630f73d49e4de4be82aef",
+          "rgba_sha256": "18707e7f3769cdc10c72eadf3e6bf4ee1eca839fb784b5ef4ce647bbdb73879b"
+        },
+        {
+          "level": 6,
+          "width": 4,
+          "height": 4,
+          "source_capture_offset": 88064,
+          "bc_bytes": 16,
+          "bc_sha256": "35d9c1ad5a9a3197bf62d8395eeddbda6c6ef7937d79e4262a07769a6d635e5d",
+          "rgba_sha256": "4318944c9a5247433c5ac95f8da22e17663cab3ef6e8e8d007bb66bdf7b4240f"
+        }
+      ],
+      "captured_all_mips_exact_source": true
+    },
+    {
+      "texture_id": 699,
+      "asset": 426869,
+      "captured_image": 8620,
+      "role": "specular",
+      "file": "world/t699.bin",
+      "sha256": "50090a04ede4a676ed246021c2ff09bb1efd9f7ea41c01cd91741715ba1f55ff",
+      "bytes": 349552,
+      "width": 256,
+      "height": 256,
+      "mips": 7,
+      "source_matches": [
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426869_0.dds",
+          "sha256": "6c0924cb7b3d11dfc175c70a8e4cfcebb856c3ad3e962459e2f38b6b87e602ea",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426869_2.dds",
+          "sha256": "ee841a4f6740991ed29f3fddecc5eb6f11d39428ffc02b91fae750ff8461501f",
+          "source_first_mip": 2,
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426869_3.dds",
+          "sha256": "399e751107a8532777504ca9a4f0b82237070da388a83548203da184d213c479",
+          "source_first_mip": 1,
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426869_4.dds",
+          "sha256": "6c0924cb7b3d11dfc175c70a8e4cfcebb856c3ad3e962459e2f38b6b87e602ea",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 256,
+          "height": 256,
+          "source_capture_offset": 0,
+          "bc_bytes": 32768,
+          "bc_sha256": "f4416f5ec5c97775c95f75de6bede51a6ac7520666686b4e8725b48d0c3ac49d",
+          "rgba_sha256": "d96fb501d365cf149286e6cc51baf0aeba20b6d57ae7561da2290b790ab45a3f"
+        },
+        {
+          "level": 1,
+          "width": 128,
+          "height": 128,
+          "source_capture_offset": 32768,
+          "bc_bytes": 8192,
+          "bc_sha256": "6adc46dc2f698c37d1327cf4a541e3b5d816d92959d13262f8797f3696e37584",
+          "rgba_sha256": "13f7284eee71cb2b4121f84338803c11d8782fabdc664de5e291cbc6d9761446"
+        },
+        {
+          "level": 2,
+          "width": 64,
+          "height": 64,
+          "source_capture_offset": 40960,
+          "bc_bytes": 2048,
+          "bc_sha256": "95383214915dd8e035a2774c82e79698ad6a436f6335be9c2f80e5dbe86c486a",
+          "rgba_sha256": "b48149d850ef5a8673ab7071bd7a5a5a1720642ae837df355c5c7e52a079d99d"
+        },
+        {
+          "level": 3,
+          "width": 32,
+          "height": 32,
+          "source_capture_offset": 43008,
+          "bc_bytes": 512,
+          "bc_sha256": "5fddc73da987c304c4ba5e33d9aae1421dcc3e457db3dcde5ab19be4effb4c70",
+          "rgba_sha256": "3d85c86625b27c89d0c86cf1b834bc2fff059c6559283b067e6c9c0862a3c1c8"
+        },
+        {
+          "level": 4,
+          "width": 16,
+          "height": 16,
+          "source_capture_offset": 43520,
+          "bc_bytes": 128,
+          "bc_sha256": "3b73b194e585934aea0117ef02de381d5577dc91d71bb568cbd421f81c85d9f8",
+          "rgba_sha256": "ed78b3ff719ac9a27a7ea5e390c457a8968d17c6469344ec9aa3e214e9a0adc0"
+        },
+        {
+          "level": 5,
+          "width": 8,
+          "height": 8,
+          "source_capture_offset": 44032,
+          "bc_bytes": 32,
+          "bc_sha256": "5aa763bd423aa46f9d81b0bce023486f4904d15c057e2ae50361458bcb24b19d",
+          "rgba_sha256": "178d3679336f71dbc228a66dab4e4ba8d378c6b06890ed7f2b953a203018c3f5"
+        },
+        {
+          "level": 6,
+          "width": 4,
+          "height": 4,
+          "source_capture_offset": 44544,
+          "bc_bytes": 8,
+          "bc_sha256": "b45a86cf83a4278e152aafd6a043b22dd6f499f3f69afb9e8746817d5fe44449",
+          "rgba_sha256": "89e40d3ec69390c7bec72b5b02fceae37dd9df07c74fad1f024017fda1364c3d"
+        }
+      ],
+      "captured_all_mips_exact_source": true
+    },
+    {
+      "texture_id": 700,
+      "asset": 426863,
+      "captured_image": 8625,
+      "role": "alpha/reflection mask",
+      "file": "world/t700.bin",
+      "sha256": "0818b9b4565af7fcbc79a3f5c4328028404fd59e70d7155c35d94edcfcd88bb0",
+      "bytes": 349552,
+      "width": 256,
+      "height": 256,
+      "mips": 7,
+      "source_matches": [
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426863_0.dds",
+          "sha256": "a054e021f75adcc526b30ac2410f4b7b15f9069a7abe593100c7b85f97d01044",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426863_2.dds",
+          "sha256": "80c50fd1bcf636c91e3c3033abe56cb6608e2f38c939742c2d744f7ca5ecd231",
+          "source_first_mip": 2,
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426863_3.dds",
+          "sha256": "3d1c7dc0d5fe12ce18b46849bf4499fbdf0076f2356a8cbe92d450137efb35cd",
+          "source_first_mip": 1,
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\426863_4.dds",
+          "sha256": "a054e021f75adcc526b30ac2410f4b7b15f9069a7abe593100c7b85f97d01044",
+          "source_first_mip": 0,
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        }
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "width": 256,
+          "height": 256,
+          "source_capture_offset": 0,
+          "bc_bytes": 32768,
+          "bc_sha256": "2c6c0aed548aa7181017cd40a53c8a5b9f9a0dbffca0ec5f2f94c5e963c40c02",
+          "rgba_sha256": "0875da945dc3ded7e4f77340eb76d4ed518c8509af7a37d2f33cd25f9d2d1948"
+        },
+        {
+          "level": 1,
+          "width": 128,
+          "height": 128,
+          "source_capture_offset": 32768,
+          "bc_bytes": 8192,
+          "bc_sha256": "58033da2ce2036ad3ea842f64d28c2b12863fb69d2dd7c0c39124ae134e319e1",
+          "rgba_sha256": "32f615f428fb83fd73a16aa1cca8f98b18ad5046ba6f5f43c3da4b1dbefe3e7a"
+        },
+        {
+          "level": 2,
+          "width": 64,
+          "height": 64,
+          "source_capture_offset": 40960,
+          "bc_bytes": 2048,
+          "bc_sha256": "8adeb09eab544836840f3216597c6f96803bfefb6a6275f8655154dbf16b91fe",
+          "rgba_sha256": "b6d180ddcdb86dc5051605be8195f66066d183a4df97e41f3d90e288251bb6df"
+        },
+        {
+          "level": 3,
+          "width": 32,
+          "height": 32,
+          "source_capture_offset": 43008,
+          "bc_bytes": 512,
+          "bc_sha256": "780978247b5b3fa69909c6287db66d43197be34ca75f212e1f3a37f67894e76b",
+          "rgba_sha256": "751c5fa196ebb1f9dd75d4c5421221153536d785ebb297174d649f7014400889"
+        },
+        {
+          "level": 4,
+          "width": 16,
+          "height": 16,
+          "source_capture_offset": 43520,
+          "bc_bytes": 128,
+          "bc_sha256": "8bded391d7b47274fc97351c0a49300bde109a114c439f6045edde79818e92e6",
+          "rgba_sha256": "086764c9457b21ede96c36bc60023fe730aed26b7163c9d55d7ebc632086d0f5"
+        },
+        {
+          "level": 5,
+          "width": 8,
+          "height": 8,
+          "source_capture_offset": 44032,
+          "bc_bytes": 32,
+          "bc_sha256": "19f7abf94e035459faff53cd3e596f9d3607803eead58b9d858ac84e954162a3",
+          "rgba_sha256": "3b3d719a45b6f54883df7622c857af81c9e77269510ae96e91ee8a31ca3aeb6a"
+        },
+        {
+          "level": 6,
+          "width": 4,
+          "height": 4,
+          "source_capture_offset": 44544,
+          "bc_bytes": 8,
+          "bc_sha256": "834641a2e76635e7acfc4db08542446749262cc81a4566a851914f07297b015c",
+          "rgba_sha256": "72964c1ab540d6ad97e32a7f1fafa305f202c735afcd450cf790e721113b9925"
+        }
+      ],
+      "captured_all_mips_exact_source": true
+    }
+  ],
+  "environment": {
+    "file": "cart-environment.bin",
+    "format": "8B OARE001\\0 +3float32LE",
+    "source": "captured CB1.environmentTint.rgb @96; buffer51,memory52,offset360992",
+    "value": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "sha256": "8afa107a7d85233a9be330f7b65a324d0fcdaefd2aac3c0ee419f3d853f06363"
+  },
+  "reflection": {
+    "asset": "world/water-native.bin",
+    "format": "OAWP version2; pertexture6u32header then eachmip3u32header+face-majorRGBA8; cube order+X,-X,+Y,-Y,+Z,-Z, rows unchanged",
+    "water_pack_sha256": "82ff8c07847bf8aef4e35b0b9db50c6cfa6cfbf041590c9762a5f056fc4fa911",
+    "water_pack_bytes": 51897504,
+    "cube": {
+      "image": 3594,
+      "faces": 6,
+      "width": 128,
+      "height": 128,
+      "mips": 6,
+      "texture_record_offset": 1048528,
+      "rgba_bytes": 524160,
+      "levels": [
+        {
+          "level": 0,
+          "width": 128,
+          "height": 128,
+          "rgba_offset": 1048564,
+          "rgba_bytes": 393216,
+          "rgba_sha256": "02875e08c5654ab338f3478e55385bf975ae154bfc577c686dad9bf05ec04015"
+        },
+        {
+          "level": 1,
+          "width": 64,
+          "height": 64,
+          "rgba_offset": 1441792,
+          "rgba_bytes": 98304,
+          "rgba_sha256": "c2a038f4c1a2768d75a0a17c44612caad73f1dd65874544867b8597f019abc4c"
+        },
+        {
+          "level": 2,
+          "width": 32,
+          "height": 32,
+          "rgba_offset": 1540108,
+          "rgba_bytes": 24576,
+          "rgba_sha256": "c74b154f694612f0b4249d3a3660704f63efabe517b509fa1fcad0b149f782ab"
+        },
+        {
+          "level": 3,
+          "width": 16,
+          "height": 16,
+          "rgba_offset": 1564696,
+          "rgba_bytes": 6144,
+          "rgba_sha256": "01d4abde7ddca914e319a0c96647df7a5349b4f8e9d466e61c673494bcec05bc"
+        },
+        {
+          "level": 4,
+          "width": 8,
+          "height": 8,
+          "rgba_offset": 1570852,
+          "rgba_bytes": 1536,
+          "rgba_sha256": "6a549d3efb63e069be9aadd531212a3b6e304d437e8109afb14273f3bf8de864"
+        },
+        {
+          "level": 5,
+          "width": 4,
+          "height": 4,
+          "rgba_offset": 1572400,
+          "rgba_bytes": 384,
+          "rgba_sha256": "cb144e7017ca3251c8d086304e10cc1f1ea8a0d62aeb7d2107db6812d715128c"
+        }
+      ]
+    },
+    "loader": "oa_cart_probe_open(assetManager,\"world/water-native.bin\",3594); binds sharedworld shader unit14; independentGLownership; do NOT edit water module"
+  },
+  "captured_dynamic_luminance_shift": {
+    "value": 0.4375,
+    "source": "CB4@252, not a material property"
+  },
+  "required_sampler_state": "2D linear/trilinear REPEAT anis1,bias0,maxLevel6; cube linear/trilinear CLAMP anis1,bias0,maxLevel5",
+  "ownership": "new staging only; preserve material rows0..298; rebind only specificcart auxiliary run from row10 to299; do not globallychange row10 or water module"
+}

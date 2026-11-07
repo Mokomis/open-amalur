@@ -1,0 +1,239 @@
+[
+  {
+    "address": "00d257f0",
+    "file": "BHG_FXAnimSetMgr.c",
+    "size": 924,
+    "lines": [
+      "param_1[0x3c] = 0x2a;"
+    ]
+  },
+  {
+    "address": "00d33b10",
+    "file": "BHG_IdleProcessingProcess.c",
+    "size": 1482,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d457a0",
+    "file": "BHG_ITextureGatherer.c",
+    "size": 1944,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d45970",
+    "file": "BHG_ITextureGatherer.c",
+    "size": 1459,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d2c9d0",
+    "file": "BHG_MaterialMgr.c",
+    "size": 1014,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d38a60",
+    "file": "BHG_RenderIOGlobals.c",
+    "size": 9421,
+    "lines": [
+      "(**(code **)(*(int *)(param_1 + 0xf0) + 0x40))();"
+    ]
+  },
+  {
+    "address": "00d3f220",
+    "file": "BHG_RenderIOGlobals.c",
+    "size": 7604,
+    "lines": [
+      "piVar5 = (int *)FUN_00afdf70(0x26,0xf0);",
+      "(**(code **)(*(int *)(param_1 + 0xf0) + 0x38))();"
+    ]
+  },
+  {
+    "address": "00d2cab0",
+    "file": "T_AssetCategoryMgrProxy_0BC_VMaterial_BHG_VHashNamePolicy_2_VActiveReferencePolicy_2_BHG.c",
+    "size": 1414,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d38730",
+    "file": "T_AssetCategoryMgrProxy_0BG_VTerrainObject_BHG_VEmptyNamePolicy_2_VActiveReferencePolicy_2_B.c",
+    "size": 3868,
+    "lines": [
+      "param_1[0x3c] ="
+    ]
+  },
+  {
+    "address": "00d43c80",
+    "file": "T_AssetCategoryMgrProxy_0L_VPlatformBaseShader_BHG_VEmptyNamePolicy_2_VActiveReferencePolicy.c",
+    "size": 7539,
+    "lines": [
+      "param_1[0x3c] = BHG::CollisionEffectTableMgr::vftable;"
+    ]
+  },
+  {
+    "address": "00c0a8c0",
+    "file": "unnamed_00c0.c",
+    "size": 2478,
+    "lines": [
+      "param_1[0x3c] = DAT_019f4f9c;"
+    ]
+  },
+  {
+    "address": "00c6d140",
+    "file": "unnamed_00c6.c",
+    "size": 12938,
+    "lines": [
+      "*pfVar13 = (fVar8 - *(float *)(param_1 + 0xf0)) * fVar14;",
+      "fVar2 = *(float *)(param_1 + 0xf0);",
+      "pfVar13[6] = (*(float *)(param_1 + 0xf0) + fVar8) * fVar14;",
+      "pfVar13[7] = (fVar7 - *(float *)(param_1 + 0xf0)) * fVar15;",
+      "pfVar13[0xc] = (*(float *)(param_1 + 0xf0) + fVar8) * fVar14;",
+      "pfVar13[0xd] = (*(float *)(param_1 + 0xf0) + fVar7) * fVar15;",
+      "pfVar13[0x12] = (fVar8 - *(float *)(param_1 + 0xf0)) * fVar14;",
+      "pfVar13[0x13] = (*(float *)(param_1 + 0xf0) + fVar7) * fVar15;"
+    ]
+  },
+  {
+    "address": "00cac520",
+    "file": "unnamed_00ca.c",
+    "size": 16358,
+    "lines": [
+      "param_1[0x3c] = DAT_013be4a0;"
+    ]
+  },
+  {
+    "address": "00cbc310",
+    "file": "unnamed_00cb.c",
+    "size": 2345,
+    "lines": [
+      "iVar1 = *(int *)(param_1 + 0xf0);",
+      "*(int *)(param_1 + 0xf0) = iVar1;"
+    ]
+  },
+  {
+    "address": "00cd0540",
+    "file": "unnamed_00cd.c",
+    "size": 918,
+    "lines": [
+      "*(undefined4 *)(param_1 + 0xf0) = 0;"
+    ]
+  },
+  {
+    "address": "00cec540",
+    "file": "unnamed_00ce.c",
+    "size": 778,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d02830",
+    "file": "unnamed_00d0.c",
+    "size": 1414,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d1fee0",
+    "file": "unnamed_00d1.c",
+    "size": 198,
+    "lines": [
+      "*(undefined1 *)(param_1 + 0xf0) = 0;"
+    ]
+  },
+  {
+    "address": "00d2a300",
+    "file": "unnamed_00d2.c",
+    "size": 216,
+    "lines": [
+      "*(undefined1 *)(param_1 + 0xf0) = 0;"
+    ]
+  },
+  {
+    "address": "00d330a0",
+    "file": "unnamed_00d3.c",
+    "size": 378,
+    "lines": [
+      "*(undefined1 *)(param_1 + 0xf0) = 0;"
+    ]
+  },
+  {
+    "address": "00d33450",
+    "file": "unnamed_00d3.c",
+    "size": 2465,
+    "lines": [
+      "FUN_00afe180((int)*(short *)(param_1 + 0xf0),*(int *)(param_1 + 0xe4));",
+      "uVar3 = FUN_00afdf70((int)*(short *)(param_1 + 0xf0),0xf0);"
+    ]
+  },
+  {
+    "address": "00d3bb30",
+    "file": "unnamed_00d3.c",
+    "size": 1547,
+    "lines": [
+      "param_1[0x3c] = 0;"
+    ]
+  },
+  {
+    "address": "00d3c030",
+    "file": "unnamed_00d3.c",
+    "size": 2430,
+    "lines": [
+      "if (*(uint *)(param_1 + 0xf4) <= *(uint *)(param_1 + 0xf0)) {",
+      "*(int *)(param_1 + 0xf0) = *(int *)(param_1 + 0xf0) + 1;",
+      "iVar7 = *(int *)(param_1 + 0xf0) + -1;"
+    ]
+  },
+  {
+    "address": "00d3c2f0",
+    "file": "unnamed_00d3.c",
+    "size": 1275,
+    "lines": [
+      "if (0 < *(int *)(param_1 + 0xf0)) {",
+      "} while (iVar4 < *(int *)(param_1 + 0xf0));"
+    ]
+  },
+  {
+    "address": "00d3c3a0",
+    "file": "unnamed_00d3.c",
+    "size": 2074,
+    "lines": [
+      "iVar3 = *(int *)(param_1 + 0xf0);"
+    ]
+  },
+  {
+    "address": "00d3d4b0",
+    "file": "unnamed_00d3.c",
+    "size": 2037,
+    "lines": [
+      "uVar6 = *(undefined4 *)(param_1 + 0xf0);"
+    ]
+  },
+  {
+    "address": "00d44570",
+    "file": "unnamed_00d4.c",
+    "size": 404,
+    "lines": [
+      "*(undefined4 *)(param_1 + 0xf0) = 0;"
+    ]
+  },
+  {
+    "address": "00d4a210",
+    "file": "unnamed_00d4.c",
+    "size": 2235,
+    "lines": [
+      "*(undefined4 *)(param_1 + 0xf0) = 0;"
+    ]
+  }
+]

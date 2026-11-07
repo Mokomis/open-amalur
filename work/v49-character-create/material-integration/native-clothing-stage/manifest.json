@@ -1,0 +1,1517 @@
+{
+  "status": "STAGED ONLY, no renderer/native skin admission",
+  "source_pack_sha256": "ede399d687bcbbc9d1534a208e81a13b9b3785a6f2b52dc25b28f78f36a484a4",
+  "source_attribute_sha256": "ab02a4a4c87996f5ac5584987455e812f6286c87a563b2bbfbca4b635c7635bf",
+  "materials": [
+    {
+      "material": 660426,
+      "shader": 545212,
+      "source_material": "work\\v20-inputs\\initial_0.pak\\660426.mat_bxml",
+      "source_material_sha256": "14f604f26e8f749baa0881f29aa2d0320e8d7f11c5bdb1e9b901f86490239356",
+      "parameters": {
+        "ConstantColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "SpecularValues": [
+          1.0,
+          20.0,
+          0.0,
+          0.0
+        ],
+        "CharacterExtraTerms2": [
+          0.30000001192092896,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "FresnelValues2": [
+          1.7000000476837158,
+          2.0,
+          0.0,
+          0.0
+        ]
+      },
+      "texture_source_slots": {
+        "0": 660632,
+        "1": 250070,
+        "2": 665186,
+        "3": 660633
+      },
+      "used_slots": [
+        0,
+        2,
+        3
+      ],
+      "unused_slot1": "Authored white250070 is optimized out by recovered opaqueHardLight PS; no fabricated fallback"
+    },
+    {
+      "material": 660428,
+      "shader": 545212,
+      "source_material": "work\\v20-inputs\\initial_0.pak\\660428.mat_bxml",
+      "source_material_sha256": "51cd274886461927f88b7317ee2bd3f832c27b24d9aab7360b0de3d4c034384a",
+      "parameters": {
+        "ConstantColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "SpecularValues": [
+          1.0,
+          20.0,
+          0.0,
+          0.0
+        ],
+        "CharacterExtraTerms2": [
+          0.30000001192092896,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "FresnelValues2": [
+          1.7000000476837158,
+          2.0,
+          0.0,
+          0.0
+        ]
+      },
+      "texture_source_slots": {
+        "0": 660628,
+        "1": 250070,
+        "2": 665190,
+        "3": 660629
+      },
+      "used_slots": [
+        0,
+        2,
+        3
+      ],
+      "unused_slot1": "Authored white250070 is optimized out by recovered opaqueHardLight PS; no fabricated fallback"
+    },
+    {
+      "material": 660429,
+      "shader": 545212,
+      "source_material": "work\\v20-inputs\\initial_0.pak\\660429.mat_bxml",
+      "source_material_sha256": "9a4ac9f8cf8fb939e21f19bcc093f519d4e398e2049603d9dc7cddcc118bd7ab",
+      "parameters": {
+        "ConstantColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "SpecularValues": [
+          1.0,
+          20.0,
+          0.0,
+          0.0
+        ],
+        "CharacterExtraTerms2": [
+          0.30000001192092896,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "FresnelValues2": [
+          1.7000000476837158,
+          2.0,
+          0.0,
+          0.0
+        ]
+      },
+      "texture_source_slots": {
+        "0": 660620,
+        "1": 250070,
+        "2": 665189,
+        "3": 660621
+      },
+      "used_slots": [
+        0,
+        2,
+        3
+      ],
+      "unused_slot1": "Authored white250070 is optimized out by recovered opaqueHardLight PS; no fabricated fallback"
+    },
+    {
+      "material": 660430,
+      "shader": 545212,
+      "source_material": "work\\v20-inputs\\initial_0.pak\\660430.mat_bxml",
+      "source_material_sha256": "e76a3be24bc2ec2f5d062e682b3fbc24cba2588431b939cb9a1ea7ca6df49fbd",
+      "parameters": {
+        "ConstantColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "SpecularValues": [
+          1.0,
+          20.0,
+          0.0,
+          0.0
+        ],
+        "CharacterExtraTerms2": [
+          0.15000000596046448,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "FresnelValues2": [
+          1.399999976158142,
+          2.4000000953674316,
+          0.0,
+          0.0
+        ]
+      },
+      "texture_source_slots": {
+        "0": 660630,
+        "1": 250070,
+        "2": 665203,
+        "3": 660631
+      },
+      "used_slots": [
+        0,
+        2,
+        3
+      ],
+      "unused_slot1": "Authored white250070 is optimized out by recovered opaqueHardLight PS; no fabricated fallback"
+    }
+  ],
+  "parts": [
+    {
+      "part": 1,
+      "material": 660429,
+      "shader": 545212,
+      "fab": 660455,
+      "assembly": 0,
+      "vertices": 1020,
+      "flags": 15,
+      "source_type": 17,
+      "stride": 56,
+      "authored_vertex_rgba_available": false,
+      "native_render_admission": "not yet admitted; weighted vertex-stage identity still required",
+      "additional_blocker": "Native COLOR stream1 contents/permutation not established; do not fabricate source white."
+    },
+    {
+      "part": 2,
+      "material": 660430,
+      "shader": 545212,
+      "fab": 660458,
+      "assembly": 0,
+      "vertices": 250,
+      "flags": 47,
+      "source_type": 22,
+      "stride": 60,
+      "authored_vertex_rgba_available": true,
+      "native_render_admission": "not yet admitted; weighted vertex-stage identity still required"
+    },
+    {
+      "part": 3,
+      "material": 660428,
+      "shader": 545212,
+      "fab": 660458,
+      "assembly": 1,
+      "vertices": 1206,
+      "flags": 15,
+      "source_type": 17,
+      "stride": 56,
+      "authored_vertex_rgba_available": false,
+      "native_render_admission": "not yet admitted; weighted vertex-stage identity still required",
+      "additional_blocker": "Native COLOR stream1 contents/permutation not established; do not fabricate source white."
+    },
+    {
+      "part": 5,
+      "material": 660426,
+      "shader": 545212,
+      "fab": 660459,
+      "assembly": 1,
+      "vertices": 712,
+      "flags": 47,
+      "source_type": 22,
+      "stride": 60,
+      "authored_vertex_rgba_available": true,
+      "native_render_admission": "not yet admitted; weighted vertex-stage identity still required"
+    }
+  ],
+  "textures": [
+    {
+      "asset": 660620,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660620_1.dds",
+      "source_sha256": "26734dc6c23336148490a5c0a05fc9f45b9217a1daf379538f0cd88d783c6e5c",
+      "width": 512,
+      "height": 512,
+      "format": 1,
+      "native_file": "660620-source-bc.oatx",
+      "native_sha256": "eb28e05ca4e35828863f14468ddf5a83386cd41fce6a2eb13a68d213bd2b61fc",
+      "portable_file": "660620-portable512.oatx",
+      "portable_sha256": "1043974afbef8362c2932b18cd7dc9a6e86adde9c91abf12a9ce7ee1d367d4f4",
+      "portable_bytes": 1398132,
+      "first_source_mip": 0,
+      "levels": [
+        {
+          "source_level": 0,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "25c776e5503a85b5a3f49b93c238203fe165b86239168543cf06383712df2bff",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 1,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "941ecc7cb50e5ca3a54646cc55f29373fd619215a9eb365be815c7092b6d11c3",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "85d99f1eb062bc6f1e85269078543b370407e78460f89f43333ce19683579ab3",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "c9e7f604234bdf6841f24b4702d813cff768fb5329d3cd2a90c0546ca423adda",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "99619e9942c0be2ab051354b60982dfa2e422c04ddf7249cae21940d127c6c2e",
+          "scalar_samples": 34
+        },
+        {
+          "source_level": 5,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "37725b2490ae4189655d6d0ba8957a5cb8d756868e7b5bf72906352d7d34e34b",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 6,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "cb2464f6d178e8d8abfe265c9e17962b3559ce2a50b45c87a50676ba6cdaf7f2",
+          "scalar_samples": 10
+        },
+        {
+          "source_level": 7,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "05510178eaed8ce7475a490b7db09befd1e374f4e8749e3a6d90478ed592cd15",
+          "scalar_samples": 6
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660620_0.dds",
+          "sha256": "d75781dcfb2d1a1d49586d802b2704caf61b08a17f441552fc65299af4a823a4",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660620_1.dds",
+          "sha256": "26734dc6c23336148490a5c0a05fc9f45b9217a1daf379538f0cd88d783c6e5c",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660620_2.dds",
+          "sha256": "0f4c957efe17d4725cee2a546998aad7b1dd3ad84bb2a7fcec75a3e765686cda",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660620_3.dds",
+          "sha256": "d75781dcfb2d1a1d49586d802b2704caf61b08a17f441552fc65299af4a823a4",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 660621,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660621_1.dds",
+      "source_sha256": "192fcaf89c3a01aa462f3f603bc171b369568d6ea0b7f0a698014ec05f28f15a",
+      "width": 512,
+      "height": 512,
+      "format": 5,
+      "native_file": "660621-source-bc.oatx",
+      "native_sha256": "c25b758b8f6e0143961923e19f989a49a24de3e8e202a5d129bc50275b02646f",
+      "portable_file": "660621-portable512.oatx",
+      "portable_sha256": "f7b2e44c785bca5027724b9dc0e5ccbe447889c4c8cb3ef32a10e0114992afbe",
+      "portable_bytes": 1398132,
+      "first_source_mip": 0,
+      "levels": [
+        {
+          "source_level": 0,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "f7c8e0194e27288e42bbbda0e95ff2625113e74d19a808be6d254301cc6c9012",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 1,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "474737101845ecb9ab9d289fdbe0d25d991f4735e1c9c7ee36739104e0d8741b",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "55f3052435501855d51c94b3b3059270ca9b4ee7c58338664c57a6d61515a407",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "88e5bd5c93f4ea8a5fec230bf451661b6f36757e2d0a9e2a5ee679ab6913fa43",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "03c3b9889ca08656be568e8b117c170e426b62473fc5d483c9353054da19fec5",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "353a8767a6c5e3094352389c218a92bf153e9be9562ca205acc4c3ba5659c6be",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 6,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "5f13d731f9b953309aeb58b46501f4b1c1ac0c1b3312ab245f75dfed90f22e5c",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 7,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "14d9a6e0684c0dccd8de60b41d5cc471d4842247f0793f9325b7638db3a8f0c0",
+          "scalar_samples": 7
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660621_0.dds",
+          "sha256": "672b398e177b3096807785f75391d89fa418fb4b83eea9f5afe47d72232979d5",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660621_1.dds",
+          "sha256": "192fcaf89c3a01aa462f3f603bc171b369568d6ea0b7f0a698014ec05f28f15a",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660621_2.dds",
+          "sha256": "4000ce0d8f4198860a02713c222c63f03a32022e3ddc7bfd348156fc7a051873",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660621_3.dds",
+          "sha256": "672b398e177b3096807785f75391d89fa418fb4b83eea9f5afe47d72232979d5",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 660628,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660628_1.dds",
+      "source_sha256": "321e33cf781bd9c58667bec849b77fa95a0859c1db55098dd3b907fcb73c4af7",
+      "width": 1024,
+      "height": 1024,
+      "format": 1,
+      "native_file": "660628-source-bc.oatx",
+      "native_sha256": "8c05c89a3c9363e6d42e37422f5acb895052a8cbf0630a46ef666f2e19189c9b",
+      "portable_file": "660628-portable512.oatx",
+      "portable_sha256": "6ef5908ccee344bff2c4feed7c014bfba16dabd54acd75e8459c4af49dbd7103",
+      "portable_bytes": 1398132,
+      "first_source_mip": 1,
+      "levels": [
+        {
+          "source_level": 1,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "d502d95c1e50aacd75d057fe64917cdfdccfbfa793f2d29c90ec544c6e895d9b",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "e61ea47999c2c9645dbd40da28c9dbd5df6b55e210f6563a47ab746f6f176b57",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "075fe7471cd77c96489bfead63ef059ed5817c92f0ff29ad594806974cc26030",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "211c47c4a3fda06a4b40ea6723cb3cac0395ad7ec2a9396e9491d6f33074b58e",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "ad92e4c279fd87af740daccbb6ee9fc3b942355818308c3e3f284b18f63866b3",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 6,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "5678127716946450287cdb6b954376163be2989b80c7bec8e71eb58dcb793f9c",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 7,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "21fa3c64b4d5fd54659108ffbf77929d672d72b2689012c9358631789c048b0d",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 8,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "76c580fdb4847f6f4a63671d1b1d06e16635e10b67b17c18b7e7e4a72550bd59",
+          "scalar_samples": 7
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660628_0.dds",
+          "sha256": "cc1b51c17d5c05c78111818f6cf7341e3366dc7fb084d02190a0d7f93d9a1ac6",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660628_1.dds",
+          "sha256": "321e33cf781bd9c58667bec849b77fa95a0859c1db55098dd3b907fcb73c4af7",
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660628_2.dds",
+          "sha256": "cba2c7a54199199cc900cc28e5e587760ee78f552065036f3bfa29d22454cb08",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660628_3.dds",
+          "sha256": "059ca099dcefc0856633fded79e3ed95ccd933b9f03a9419a74b54d00b60c8e3",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660628_4.dds",
+          "sha256": "cc1b51c17d5c05c78111818f6cf7341e3366dc7fb084d02190a0d7f93d9a1ac6",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 660629,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660629_1.dds",
+      "source_sha256": "75856d5a2ee1756cb31b2594cfb4c685b312730c95f77e1bb6a635cccb5b2ec0",
+      "width": 1024,
+      "height": 1024,
+      "format": 5,
+      "native_file": "660629-source-bc.oatx",
+      "native_sha256": "a2bfbc6ec4625f40f8eb494635ad22109193bc10fbd058c9afd1f583711c2071",
+      "portable_file": "660629-portable512.oatx",
+      "portable_sha256": "335cc379717b5cd061be58f3e589e9dd03def4d6e83e5a2605aedfe457cc1d63",
+      "portable_bytes": 1398132,
+      "first_source_mip": 1,
+      "levels": [
+        {
+          "source_level": 1,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "27f4a3e46cba72de2e22c459d5de0420078ad8147d1144cc5ec6a0314c7a4dd2",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "b99cad2125778a3d06eece606a99256d8f90430e23909dc0d4607e9fe19abb62",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "d00ddd4bce43a3a101d0cdffd6b1bedf69f5b0593127cd99716e5fa33dac2be5",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "6d18e33dcc162245574a1c4f2a837e63931337dc2e656fb7eb2c32a450acd60c",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "cffa66b6203bac30004e46d101ca4c7be7b7e0e7cdc595eac3550365c61c9598",
+          "scalar_samples": 33
+        },
+        {
+          "source_level": 6,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "c1d231908a33ed5a0114e55b5f89f2895301486b7e83c24db6cf34d8b9b3ea10",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 7,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "6d70f98969ff8eac596dd8905f83cffed2b290b34b1eca00c3eb3ff7d9b215ec",
+          "scalar_samples": 9
+        },
+        {
+          "source_level": 8,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "32ad7dcf94aaeef5d0de598fe87bca827323290fdbf68f05deff8326d7477d0b",
+          "scalar_samples": 5
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660629_0.dds",
+          "sha256": "d1831f1163332a4e364246c7c2473e2f1e2405e96de9819850de384501ed35dc",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660629_1.dds",
+          "sha256": "75856d5a2ee1756cb31b2594cfb4c685b312730c95f77e1bb6a635cccb5b2ec0",
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660629_2.dds",
+          "sha256": "53af7c1afeef4f78683c9aa1793e62d6dc6de286b72fecdc15c899d4c95e87b4",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660629_3.dds",
+          "sha256": "44e69d3a156d5b9574588aca9f9934158e964f692022b208254ceb863b1d7f0d",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660629_4.dds",
+          "sha256": "d1831f1163332a4e364246c7c2473e2f1e2405e96de9819850de384501ed35dc",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 660630,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660630_1.dds",
+      "source_sha256": "dcf5333385a9f15fd62154be78fa4df13941762130f6063cc956aa33b168538a",
+      "width": 512,
+      "height": 512,
+      "format": 1,
+      "native_file": "660630-source-bc.oatx",
+      "native_sha256": "993718799750ad9eeb4e63e7edec59471859fbd744bb2fdb5307b95f920a5bca",
+      "portable_file": "660630-portable512.oatx",
+      "portable_sha256": "876f147897eaf64ddc9403fdd4e819af89b1e3fd405a9d3a8bb6450c98835521",
+      "portable_bytes": 1398132,
+      "first_source_mip": 0,
+      "levels": [
+        {
+          "source_level": 0,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "49fcfb484f3f67ea6105052a6e7f295a6e0902bc1b0770ef56ef28e70e2d06a4",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 1,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "a5b50aa47906738010fc71ec401f90d2f0092f9f231dd0bf84e31aa12b565618",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "72f6679fe7de36a41d72c4db2ac419487a26d87937577699bf52b24cad0aeba3",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "1c1bc303f7c39654c08d913ddb5124542019384f9812081e45a975524f445a1a",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "92b3ae00e29d708e86ba2150157f8f6367da7d974697f98d27274c270085a54d",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "1146d29e2ab1c76b22ed1b3a5864adcbd8400a2a43a21f7006c500b16232253b",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 6,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "a9ffa6b1d231b8ed509f5e6c14401c45a00e08b26ef6298290ad76ff68f49689",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 7,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "17a009cac12d869183f9b0030e4b940717d0ec45fa858e367b1488760f0bc334",
+          "scalar_samples": 7
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660630_0.dds",
+          "sha256": "0aa85dcde5daa0fcead443b1dd2cdc45bcf1cab907777f79abe457ff58c753cd",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660630_1.dds",
+          "sha256": "dcf5333385a9f15fd62154be78fa4df13941762130f6063cc956aa33b168538a",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660630_2.dds",
+          "sha256": "af709ef75ec204947cc3fa1ca5f41465ef4299c90795593e7df5e4afbf42badd",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660630_3.dds",
+          "sha256": "0aa85dcde5daa0fcead443b1dd2cdc45bcf1cab907777f79abe457ff58c753cd",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 660631,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660631_1.dds",
+      "source_sha256": "c3c0d8a3c3e985958f2baaee80092f6ccff40f67bb13da22e044c3a5244abdc2",
+      "width": 512,
+      "height": 512,
+      "format": 5,
+      "native_file": "660631-source-bc.oatx",
+      "native_sha256": "652cab0609d93d374a4696e280d30c65c3dffec0ca67d74b23c7b703195b62ce",
+      "portable_file": "660631-portable512.oatx",
+      "portable_sha256": "3733eededead082710ff7bc509d08aff84a6702de7aa0a0a7b81e7b5ab520e78",
+      "portable_bytes": 1398132,
+      "first_source_mip": 0,
+      "levels": [
+        {
+          "source_level": 0,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "44dd362efe30440f1a25c4971f13318447e9881cbfb8e96ec2962a49f6ee9e32",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 1,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "57859f17806fa54160baab7a8d3bc778991753dec3b0fd95b1f11fd7f6fd35fb",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "b8c2bbb6cb0bd920212d25e0f0b99bbe732c45db16388d8f56259d9644a2bfe2",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "5c75853a3b3836d287aabc5b1b7784521aa1c25a959b8a450f7a558490e9cab1",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "1360d1e2a807af61c990a627163bcdaeb0bb61611408bbc4c65cacbfafff1920",
+          "scalar_samples": 34
+        },
+        {
+          "source_level": 5,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "22117eda13e037df630c9eb1df6e22e90dca12d40621f7b3812cbf43c24f0f0a",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 6,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "0f0d8216b6a7998214a4de376b1b02f47d21f24e5e4d51b5d64c85c05688f494",
+          "scalar_samples": 10
+        },
+        {
+          "source_level": 7,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "a7f406adbe6323f6b2a12e87bbe1011057e815bb9ac85447aad27cb56b827d67",
+          "scalar_samples": 6
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660631_0.dds",
+          "sha256": "7ec0bbb1755594ce03b23fbe8271413e091d4d33f0d5d1b86e22de4ffc7d7c6f",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660631_1.dds",
+          "sha256": "c3c0d8a3c3e985958f2baaee80092f6ccff40f67bb13da22e044c3a5244abdc2",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660631_2.dds",
+          "sha256": "a18f9efcbe974dcf87b4ca365d28e782f6def96526e2d32b5a9357e002e2e30d",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660631_3.dds",
+          "sha256": "7ec0bbb1755594ce03b23fbe8271413e091d4d33f0d5d1b86e22de4ffc7d7c6f",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 660632,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660632_1.dds",
+      "source_sha256": "d36565db7dd0a19e1e3bf2b1086a31b56bec04b23f91e3e2c6a44e346e00984a",
+      "width": 1024,
+      "height": 1024,
+      "format": 1,
+      "native_file": "660632-source-bc.oatx",
+      "native_sha256": "4ef06ecc3f59bb24faee1e82701c90b315b3c0e7d14fd791e92606a56bf1ae9c",
+      "portable_file": "660632-portable512.oatx",
+      "portable_sha256": "cc1e87d46311c07c6e61a5b5894a18b6234160aba04e753538f294721d633998",
+      "portable_bytes": 1398132,
+      "first_source_mip": 1,
+      "levels": [
+        {
+          "source_level": 1,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "7dccab383c80d78bf30a23f50ad3577ffcb1c2bc8906b1baf1ca4fc6608341f0",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "ed430857223d288d475a049685c9df6888d2d87206b984b402fc878c43f6b0a6",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "0d1ae758209ad862e58441bcb51be67930e5b8be04cdac4c2e7522b948cfb196",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "d0ac2af03ca5dbd0a19755d5d4688768d60c12d18522c6fd4a5dd9b899bc50ed",
+          "scalar_samples": 34
+        },
+        {
+          "source_level": 5,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "a03579928fc1d6a2f5feabcccbdc35e1ff27e644b0b14bb7b3feeeaae3679f65",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 6,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "9304bb5d9b57ed91cb2161a6de0ec4f26c821098ab5dc3ba352ff1725cfa4558",
+          "scalar_samples": 17
+        },
+        {
+          "source_level": 7,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "afe17a509fc5219e73006a8dc5bea7503ea029d3fcbef9d7e3c2078d8993478d",
+          "scalar_samples": 9
+        },
+        {
+          "source_level": 8,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "67b7cb0c86ce1c80389d8c81e29bc107ac9e16c2e6815f2f5acb1aec96f24316",
+          "scalar_samples": 5
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660632_0.dds",
+          "sha256": "3ae989edce4e2ca7ee046fd54d8607c640c9811b9b9f68ca21a3636b5d78d1f1",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660632_1.dds",
+          "sha256": "d36565db7dd0a19e1e3bf2b1086a31b56bec04b23f91e3e2c6a44e346e00984a",
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660632_2.dds",
+          "sha256": "d620a2f8fb85d4604c099082b69e0071fbb9600f5144a2fed33daf2f94d8ae6d",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660632_3.dds",
+          "sha256": "5204513fae3e6818e158921e851aa6d118521635a49557906228ca6ab9efb337",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660632_4.dds",
+          "sha256": "3ae989edce4e2ca7ee046fd54d8607c640c9811b9b9f68ca21a3636b5d78d1f1",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 660633,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660633_1.dds",
+      "source_sha256": "cfc372ac9fcb7394a189eb641bb894b0f7dd167d0a7db11d16378e08ad2dd7c9",
+      "width": 1024,
+      "height": 1024,
+      "format": 5,
+      "native_file": "660633-source-bc.oatx",
+      "native_sha256": "7f1e8abcb8b675db40c26ee0a9039161a17d8dd21e4eedcfb3d57aa185a75587",
+      "portable_file": "660633-portable512.oatx",
+      "portable_sha256": "be88db9c1e97a36781db64475c26562a26e3914fd0d55556fd503849bd081978",
+      "portable_bytes": 1398132,
+      "first_source_mip": 1,
+      "levels": [
+        {
+          "source_level": 1,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "91107110c4dfc97b294ab21ff7119857b2d958a65023c69ec13cd7f3314fecae",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "dde6ec908453721c7c7085a5ba5bb13f116eaee19a7cc6c7c8c1a733fa95a758",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "ed229df358808697453bc81f804cabb4577049884c25aaa57de21ceb09127024",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "c49250313930efe0ff549dced5bce703f354e03bcc7c359802bcc2b45185a2be",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "de1a258c549aa58a2821717c7272f3bb39791da3cad73059f9ed657666e97669",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 6,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "c0fe1af9f19bf6e05b35d80299522bf0e99beab7b4e212955e33d47f0fbbabb8",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 7,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "2b65f97c417a2f910c11b2987a6109377b2c852439cdd939c24664d7eb4c7af0",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 8,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "89cc4064cb6e334368d51ca62691f55565f7e4568e881e9dd024b98ce80e0ecd",
+          "scalar_samples": 7
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660633_0.dds",
+          "sha256": "c155fcdd44750465dbec78154e1b3837791e5aba8ba94ef6efec3b98fb4cdb2e",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660633_1.dds",
+          "sha256": "cfc372ac9fcb7394a189eb641bb894b0f7dd167d0a7db11d16378e08ad2dd7c9",
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660633_2.dds",
+          "sha256": "704707e57fe4bcbf2d42d3e0576b5c689e76b6d3cfbd2c49b12d819816baf11c",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660633_3.dds",
+          "sha256": "6db3b31325bf93893bc3c51f39c4a902d46b363323bec4bdcc4651916c1da40d",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\660633_4.dds",
+          "sha256": "c155fcdd44750465dbec78154e1b3837791e5aba8ba94ef6efec3b98fb4cdb2e",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 665186,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665186_1.dds",
+      "source_sha256": "7d6d0734a84369cc11c9de82d0b438e8bb3891e88f3f244ee414a5fa46152236",
+      "width": 1024,
+      "height": 1024,
+      "format": 1,
+      "native_file": "665186-source-bc.oatx",
+      "native_sha256": "3ff9196ef20a3459ae8a15809543dbf83d390764f75395f592b3e8aea371bdf7",
+      "portable_file": "665186-portable512.oatx",
+      "portable_sha256": "52e71b13ccfc879b7aef729a692cc00f3aaa92862c2306d91df45cc388f7a62f",
+      "portable_bytes": 1398132,
+      "first_source_mip": 1,
+      "levels": [
+        {
+          "source_level": 1,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "b0cee2dc82a12e0507afca8557777d091337d16a87be13ba2b654f53d2c760c9",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "2943b0fc93865a9638a80999b0d0c690b5f8848636dd54ac9a1868cbd06d0b41",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "a70b7952a73c5ae6f12344727ec76a0f4503c3239cb26514bb4fd880660a2a33",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "616275fa9f122dc3afe4206317ab9b00f615b3aa2afec5b4187190456b2f3b2b",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "1ad3b08b108279b70f425e28a5d3c322911f0979b20d63e3c5051a41d423756c",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 6,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "bc2a472a9ceaf806fa9e693ce57b0b5b2fb9ccb3e5a381c5a935d9d515d4ace0",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 7,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "4a346e6dac513f7d1759d9fb27c1dd216d8c95f25b722536d94de338ea89f9af",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 8,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "39d2102b14dd357faf5304bad6eaf8e1d206b3cf37c53106e0da9af9bf8329eb",
+          "scalar_samples": 5
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665186_0.dds",
+          "sha256": "25b6e504bdbebb1cb9a2016c0046268ce6892ffeb7f1b9b2903934b6a5cdd1d6",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665186_1.dds",
+          "sha256": "7d6d0734a84369cc11c9de82d0b438e8bb3891e88f3f244ee414a5fa46152236",
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665186_2.dds",
+          "sha256": "933cee39bcef4b0e31608eacc4fab9a2c14fcdcb633b2eccfef4aa4cc9dd0df8",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665186_3.dds",
+          "sha256": "39c8a4beb7f1b079d5377aa082bc05ab72c6f1bd26fdbab2a5045bef136f54fc",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665186_4.dds",
+          "sha256": "25b6e504bdbebb1cb9a2016c0046268ce6892ffeb7f1b9b2903934b6a5cdd1d6",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 665189,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665189_1.dds",
+      "source_sha256": "6121f91635dc844639c3076c9afa20661ca0d4177db90a63ca1f3ae2b3fdb426",
+      "width": 512,
+      "height": 512,
+      "format": 1,
+      "native_file": "665189-source-bc.oatx",
+      "native_sha256": "3ccd75d38f3349fa60c2fa92f36fb325b8ccc992b3926fa9f0702ec75802e9c8",
+      "portable_file": "665189-portable512.oatx",
+      "portable_sha256": "eda6ed6e8d9c97ac9586eef194db69ed3c799eb9737d813adb0e1530f8be9aad",
+      "portable_bytes": 1398132,
+      "first_source_mip": 0,
+      "levels": [
+        {
+          "source_level": 0,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "8fb989f91f97a6450175bb5fb1a2850c460eb2a798d65849a851e39e3879bae7",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 1,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "7399f14182d4e9dcf83c46e10a35ca3746dd867b7c5172bbbb9128986e60126c",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "4bf6f0607ec52a4aec1ef3a058fc353291c07fad31c66c9c835dd281111eae3b",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "841e96bdaf80e99d4843cf2b0231b674fe56f146e359459ee7dcb3ad981aab6f",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "efe27c3b7b466fc83279c5ea27b9b82a944f519ee70d88e8269bc0f9922bcb18",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "bb5a903b6f46d53ad497fcda04e95796acce9697bd3997d75519aa95f05f8002",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 6,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "87c72da15e36cb39b379198b3991affb2c7ba51e522cb4ff27566ee639663568",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 7,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "3312e66fade3880c78753d407dc8193344116ea96305c5a891485e5eb498f927",
+          "scalar_samples": 5
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665189_0.dds",
+          "sha256": "48ae48ae7377ac4405f3bca2da330202de41aed9473832b612a21a3012c40741",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665189_1.dds",
+          "sha256": "6121f91635dc844639c3076c9afa20661ca0d4177db90a63ca1f3ae2b3fdb426",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665189_2.dds",
+          "sha256": "fcf4fe5a29b82ad7f2fd5657ec8cf35d9d9f1acd73ed64526a887710f71f67d9",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665189_3.dds",
+          "sha256": "48ae48ae7377ac4405f3bca2da330202de41aed9473832b612a21a3012c40741",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 665190,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665190_1.dds",
+      "source_sha256": "a86564fe626e45a7ee1d8ff2aed1216f0f0a16e3347a4373111f9a2dd51257ed",
+      "width": 1024,
+      "height": 1024,
+      "format": 1,
+      "native_file": "665190-source-bc.oatx",
+      "native_sha256": "d2a7c78c50dd99f76a44fc183f77b95b590f4381a41d6774d7462c653a20e526",
+      "portable_file": "665190-portable512.oatx",
+      "portable_sha256": "0495b5305f5845b5f931a00985594f2f3e87890b26f2fc2dfe481776cf0da932",
+      "portable_bytes": 1398132,
+      "first_source_mip": 1,
+      "levels": [
+        {
+          "source_level": 1,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "5aba6bc4818c663672461363234a93398a11fd015d9d5b8e07e0cc7e06af7e34",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "6a192cc2edda5e3baf2d44ed9c413c8e0b77682797849bb3ad34bdddd145d4d3",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "9030a3744ea1da2dd1cf011f93255f98d46fe664c4f0dfc23b91e35507bd5aed",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "e2a4b9c27970764ff92ab6b1eaf694d5e70b86601b091689731b877bba2100c3",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "1b3d970b53c82a60863a4bb66fc427267164fc3f8496d5d3a511a64fd779b07d",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 6,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "2853fce7a03f938be1165faf0cd6f0d2452e1b07bad6700ef873e26b2b7b0e78",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 7,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "7b217a159ed60241b31733be3004c1158f809259583f685ab2e2da26e4edbc86",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 8,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "faff500cad39b65075074674ed645fdbad557797f59f3c7c64674190fff3417f",
+          "scalar_samples": 7
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665190_0.dds",
+          "sha256": "f8a0af6f034a732a6e98dfa2497a34df78f1006691aad3ff02d5a2db43fd8b89",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665190_1.dds",
+          "sha256": "a86564fe626e45a7ee1d8ff2aed1216f0f0a16e3347a4373111f9a2dd51257ed",
+          "width": 1024,
+          "height": 1024,
+          "mips": 9
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665190_2.dds",
+          "sha256": "ea9e9d49eedc0200c1d68b129d7c6952688a8587737782ad15b242bb25d737c8",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665190_3.dds",
+          "sha256": "75bbd4690b911a94be0886b98c0a466ce8f7feb7224c74bb0b489b92cefaddb3",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665190_4.dds",
+          "sha256": "f8a0af6f034a732a6e98dfa2497a34df78f1006691aad3ff02d5a2db43fd8b89",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    },
+    {
+      "asset": 665203,
+      "source": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665203_1.dds",
+      "source_sha256": "c6cccbdf9f5f07bce0730da4dcd78bca6245b1c1ac7b6c7cad926ca60aafbe60",
+      "width": 512,
+      "height": 512,
+      "format": 1,
+      "native_file": "665203-source-bc.oatx",
+      "native_sha256": "ecb66e78bce4bfb13323d0929b06e1e7ad4c0a7128f3a4ae7412bf5c82891a88",
+      "portable_file": "665203-portable512.oatx",
+      "portable_sha256": "702ef14f29f22b6cc5a87a236679dda6ddc67df0d6e3eb8334a05e50e82f558e",
+      "portable_bytes": 1398132,
+      "first_source_mip": 0,
+      "levels": [
+        {
+          "source_level": 0,
+          "width": 512,
+          "height": 512,
+          "rgba_sha256": "83c5526e203fe560af4a0da3a34e6cd1a669bf4b2b78d7dd3157185dc93a757d",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 1,
+          "width": 256,
+          "height": 256,
+          "rgba_sha256": "f9e2de7aa68691b933094a2878f83b8fc626da908a8fa44315f45c51f920fd35",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 2,
+          "width": 128,
+          "height": 128,
+          "rgba_sha256": "6754514ba92d5c38595342df0811d5f18c29862c30901af949ea577c1023fa32",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 3,
+          "width": 64,
+          "height": 64,
+          "rgba_sha256": "4b13e2b928686f36758f815438f50ace1e1dcfcf708cbabf75bb38812ceb6235",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 4,
+          "width": 32,
+          "height": 32,
+          "rgba_sha256": "d1648024816e4f2c26b666179f5ac5fe5686ae26c6f96be8f30b0a779619132a",
+          "scalar_samples": 35
+        },
+        {
+          "source_level": 5,
+          "width": 16,
+          "height": 16,
+          "rgba_sha256": "aecfb724c902450b3532248fc2732d93075fd80b6e66189734b503cf17673c4c",
+          "scalar_samples": 19
+        },
+        {
+          "source_level": 6,
+          "width": 8,
+          "height": 8,
+          "rgba_sha256": "681e8947052ea3255c4275258daea5414cc2b038a494e774f5ef56344ffab451",
+          "scalar_samples": 11
+        },
+        {
+          "source_level": 7,
+          "width": 4,
+          "height": 4,
+          "rgba_sha256": "819bcd971b3ffb34e9856572770c27a1251a9143f8e1fdf747445201327791a4",
+          "scalar_samples": 5
+        }
+      ],
+      "all_carriers": [
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665203_0.dds",
+          "sha256": "06b14b5ca9d83b8f3923a54eff46c927f516dbcfc3727c4689088775fc69587f",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665203_1.dds",
+          "sha256": "c6cccbdf9f5f07bce0730da4dcd78bca6245b1c1ac7b6c7cad926ca60aafbe60",
+          "width": 512,
+          "height": 512,
+          "mips": 8
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665203_2.dds",
+          "sha256": "cf2b8bf28a7c42aacf2e8780c5aa47451a65ece6cc6efa4f631e05e9720935ce",
+          "width": 256,
+          "height": 256,
+          "mips": 7
+        },
+        {
+          "path": "work\\v49-character-create\\material-integration\\native-texture-inputs\\initial_0.pak\\665203_3.dds",
+          "sha256": "06b14b5ca9d83b8f3923a54eff46c927f516dbcfc3727c4689088775fc69587f",
+          "width": 128,
+          "height": 128,
+          "mips": 6
+        }
+      ]
+    }
+  ],
+  "portable_bytes": 16777584,
+  "decoder_source": "work\\v44-native-fidelity\\foliage-research\\leaf-authored-auxiliary\\build_authored_leaf_auxiliary.py",
+  "decoder_sha256": "a7a166263e7f87eaea282c2478d218db74739247380131efaff2b02c86ea3b4f",
+  "policy": "Preserve highest complete authored BC chain; optional <=512 authored mip-tail, no resizing/generated mipmaps. ExplicitGL_TEXTURE_MAX_LEVEL is required because authored chains stop at4x4.",
+  "limits": [
+    "Active weightedHardLight vertex permutation/basis output is not established by standalone rigidVS351 proof.",
+    "Source material/shader/texture links are exact, runtime instance tint/samplers/permutation are separate.",
+    "Current tested scene still uses old diffuse-only character path; this stage does not make full creator appearance work.",
+    "All UI must extend existing new oa_ui/oa_menu."
+  ]
+}

@@ -1,0 +1,500 @@
+[
+  {
+    "address": "010327b0",
+    "name": "BHG_CruciblePlayer__vf23",
+    "bytes": 718,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  if (*(int *)(param_1 + 0x2c4) == 0) {",
+      "    *(undefined4 **)(param_1 + 0x2c4) = puVar3;",
+      "  *(undefined2 *)(*(int *)(param_1 + 0x2c4) + 10) = 0x7fff;",
+      "    FUN_00bae3c0(*(undefined4 *)(param_1 + 0x2c4));"
+    ]
+  },
+  {
+    "address": "00c07fb0",
+    "name": "BHG_InputDeviceActionEventListenerInterface__xtor_8",
+    "bytes": 765,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  param_1[0x2c4] = 0;"
+    ]
+  },
+  {
+    "address": "00c0c160",
+    "name": "BHG_InputDeviceActionEventListenerInterface__xtor_9",
+    "bytes": 491,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  param_1[0x2c4] = 0;"
+    ]
+  },
+  {
+    "address": "00a49510",
+    "name": "BHG_QuestLog__vf1",
+    "bytes": 56,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  if ((param_1 != 0x2c409a) &&"
+    ]
+  },
+  {
+    "address": "00fa7b30",
+    "name": "BHG_QuestLog__vf2_o1032",
+    "bytes": 35,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  FUN_00af4d70(\"QuestLog\",0x2c3764,0x2c409a,1);"
+    ]
+  },
+  {
+    "address": "00ec82d0",
+    "name": "BHG_VignetteMgr__vf18",
+    "bytes": 35,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  FUN_00af4d70(\"VIGNETTE\",0x2c41c6,0x2b9ae0,1);"
+    ]
+  },
+  {
+    "address": "008a54f0",
+    "name": "btDiscreteDynamicsWorld__vf43",
+    "bytes": 16571,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "                            *(float *)(iVar20 + 0x34) * *(float *)(param_2 + 0x2c4) +",
+      "                 fVar2 * *(float *)(param_2 + 0x2c4) +",
+      "    fStack_1dc = fVar13 * *(float *)(param_2 + 0x2b4) + fVar22 * *(float *)(param_2 + 0x2c4) +"
+    ]
+  },
+  {
+    "address": "0087ca00",
+    "name": "btHingeConstraint__vf9",
+    "bytes": null,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  *(undefined4 *)(param_2 + 0x88) = *(undefined4 *)(param_1 + 0x2c4);"
+    ]
+  },
+  {
+    "address": "0090ea80",
+    "name": "btMLCPSolver__vf14",
+    "bytes": 2765,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "        *(undefined4 *)(*(int *)(param_1 + 0x2e0) + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar6) * 4)",
+      "         (*(int *)(param_1 + 0x2e0) + 4 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar6) * 4) = uVar11;",
+      "         (*(int *)(param_1 + 0x2e0) + 8 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar6) * 4) = uVar11;",
+      "         (*(int *)(param_1 + 0x2e0) + 0xc + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar6) * 4) =",
+      "         (*(int *)(param_1 + 0x2e0) + 0x10 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar6) * 4) =",
+      "         (*(int *)(param_1 + 0x2e0) + 0x14 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar6) * 4) =",
+      "        *(undefined4 *)(*(int *)(param_1 + 0x2e0) + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar8) * 4)",
+      "         (*(int *)(param_1 + 0x2e0) + 4 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar8) * 4) = uVar11;",
+      "         (*(int *)(param_1 + 0x2e0) + 8 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar8) * 4) = uVar11;",
+      "         (*(int *)(param_1 + 0x2e0) + 0xc + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar8) * 4) =",
+      "         (*(int *)(param_1 + 0x2e0) + 0x10 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar8) * 4) =",
+      "         (*(int *)(param_1 + 0x2e0) + 0x14 + (*(int *)(param_1 + 0x2c4) * iVar9 + iVar8) * 4) ="
+    ]
+  },
+  {
+    "address": "00964d50",
+    "name": "btSoftBody__vf4",
+    "bytes": 6973,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  puVar9[0x19] = *(undefined4 *)(param_1 + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010ca120",
+    "name": "Kore_SimpleCompilerState__vf2",
+    "bytes": 287,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  pcVar2 = *(code **)(*(int *)(iVar1 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "00a49260",
+    "name": "T_ClassAllocator_VUIBaseObject_BHG_VQuestLog_2_BHG__xtor",
+    "bytes": 42,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  param_1[1] = 0x2c409a;"
+    ]
+  },
+  {
+    "address": "00a492d0",
+    "name": "T_ClassAllocator_VUIBaseObject_BHG_VQuestLog_2_BHG__vf2",
+    "bytes": 56,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  if ((param_1 != 0x2c409a) &&"
+    ]
+  },
+  {
+    "address": "0102a180",
+    "name": "T_EventListenerConnector_VCruciblePlayer_BHG_VInputDeviceActionEvent_2_BHG__xtor_2",
+    "bytes": 501,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  if (*(int *)(param_1 + 0x2c4) == 0) {",
+      "    *(undefined4 **)(param_1 + 0x2c4) = puVar2;",
+      "  *(undefined2 *)(*(int *)(param_1 + 0x2c4) + 10) = 0x7fff;",
+      "    FUN_00bae3c0(*(undefined4 *)(param_1 + 0x2c4));"
+    ]
+  },
+  {
+    "address": "00a5ff80",
+    "name": "T_RefCountedClassAllocator_VUIBaseObject_BHG_VQuestLog_2_BHG__xtor",
+    "bytes": 42,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  param_1[1] = 0x2c409a;"
+    ]
+  },
+  {
+    "address": "008f9c30",
+    "name": "FUN_008f9c30",
+    "bytes": 1389,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    iVar5 = *(int *)(param_1 + 0x2c4);"
+    ]
+  },
+  {
+    "address": "00938c80",
+    "name": "FUN_00938c80",
+    "bytes": 163,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  *(undefined4 *)(param_1 + 0x2c4) = 0;"
+    ]
+  },
+  {
+    "address": "0094d550",
+    "name": "FUN_0094d550",
+    "bytes": 3317,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    fVar3 = fStack_8c * *(float *)(param_1 + 0x2c4) + *(float *)(param_1 + 0x2c0) * local_90 +",
+      "    local_c4 = fStack_9c * *(float *)(param_1 + 0x2c4) + *(float *)(param_1 + 0x2c0) * local_a0 +",
+      "    local_d4 = *(float *)(param_1 + 0x2c4) * fStack_ac + *(float *)(param_1 + 0x2c0) * local_b0 +"
+    ]
+  },
+  {
+    "address": "00960660",
+    "name": "FUN_00960660",
+    "bytes": 4612,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "      *(float *)(param_1 + 0x2c4) = fVar1 * fVar6 + *(float *)(param_1 + 0x2c4);",
+      "                    (double)(fStack_7c * *(float *)(param_1 + 0x2c4) +",
+      "  local_88 = (*(float *)(param_1 + 0x2c0) * fVar1 - *(float *)(param_1 + 0x2c4) * fVar3) * local_50;",
+      "  local_a4 = (*(float *)(param_1 + 0x2c4) * *(float *)(param_1 + 0x2e0) -",
+      "  local_48 = (*(float *)(param_1 + 0x2c4) * *(float *)(param_1 + 0x2d8) -",
+      "  fStack_4c = (*(float *)(param_1 + 0x2c8) * fVar2 - *(float *)(param_1 + 0x2c4) * fVar18) *"
+    ]
+  },
+  {
+    "address": "009ce510",
+    "name": "FUN_009ce510",
+    "bytes": 246,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  *(undefined4 *)(param_2 + 0x2c4) = 0;"
+    ]
+  },
+  {
+    "address": "009df250",
+    "name": "FUN_009df250",
+    "bytes": 5068,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "                if (*(int *)(*piVar1 + 0x2c4) == 0) {"
+    ]
+  },
+  {
+    "address": "00c25ab0",
+    "name": "FUN_00c25ab0",
+    "bytes": 290,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "        iVar2 = FUN_011a5a00(*(undefined4 *)(param_1 + 0x2c44));"
+    ]
+  },
+  {
+    "address": "00c27c70",
+    "name": "FUN_00c27c70",
+    "bytes": 538,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "      iVar5 = FUN_011a5a00(*(undefined4 *)(param_1 + 0x2c44));"
+    ]
+  },
+  {
+    "address": "00c2d480",
+    "name": "FUN_00c2d480",
+    "bytes": 588,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "          iVar5 = FUN_011a5a00(*(undefined4 *)(param_1 + 0x2c44));"
+    ]
+  },
+  {
+    "address": "00dc4540",
+    "name": "FUN_00dc4540",
+    "bytes": 58,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  *(undefined4 *)(param_1 + 0x2c4) = 0;"
+    ]
+  },
+  {
+    "address": "00df6150",
+    "name": "FUN_00df6150",
+    "bytes": 785,
+    "keys": [
+      "FUN_00c37290(",
+      "0x2c4"
+    ],
+    "lines": [
+      "        FUN_00c37290(param_2,local_fc,local_128);",
+      "        *(float *)(param_2 + 0x2c4) = local_128 + *(float *)(param_2 + 0x2c4);"
+    ]
+  },
+  {
+    "address": "00e170b0",
+    "name": "FUN_00e170b0",
+    "bytes": 192,
+    "keys": [
+      "FUN_00c37290(",
+      "0x2c4"
+    ],
+    "lines": [
+      "  fVar1 = (float)(DAT_013be4b0 - (double)*(float *)(param_1 + 0x2c4));",
+      "    FUN_00c37290(param_1,param_3,fVar1);",
+      "    *(float *)(param_1 + 0x2c4) = fVar1 + *(float *)(param_1 + 0x2c4);",
+      "  if (0.0 < *(float *)(param_1 + 0x2c4)) {",
+      "    FUN_00c37500(param_1,(float)(dVar2 / (double)*(float *)(param_1 + 0x2c4)));"
+    ]
+  },
+  {
+    "address": "00fc1020",
+    "name": "FUN_00fc1020",
+    "bytes": 453,
+    "keys": [
+      "FUN_00fb0bb0",
+      "FUN_00fbceb0"
+    ],
+    "lines": [
+      "    cVar2 = FUN_00fb0bb0(param_4);",
+      "              cVar2 = FUN_00fbceb0(&param_6,iVar3);"
+    ]
+  },
+  {
+    "address": "00fe3610",
+    "name": "FUN_00fe3610",
+    "bytes": 242,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  uVar2 = FUN_00af4d70(\"QUESTLOG\",0x2d3d68,0x2c409a,1);"
+    ]
+  },
+  {
+    "address": "01054bf0",
+    "name": "FUN_01054bf0",
+    "bytes": 136,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    *(undefined4 *)(unaff_EDI + 0x2c4) = 0xffffffff;",
+      "      *(int *)(unaff_EDI + 0x2c4) = (int)uVar1;"
+    ]
+  },
+  {
+    "address": "0105a310",
+    "name": "FUN_0105a310",
+    "bytes": 17,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  *(undefined4 *)(param_1 + 0x2c0) = *(undefined4 *)(param_1 + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010728c0",
+    "name": "FUN_010728c0",
+    "bytes": 1061,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  *(DWORD *)(iVar3 + 0x2c4) = DVar4;"
+    ]
+  },
+  {
+    "address": "0109d130",
+    "name": "FUN_0109d130",
+    "bytes": 1299,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  param_1[0x2c4] = 0;"
+    ]
+  },
+  {
+    "address": "010c48c0",
+    "name": "FUN_010c48c0",
+    "bytes": 72,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  pcVar1 = *(code **)(*(int *)(param_1 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010c6b70",
+    "name": "FUN_010c6b70",
+    "bytes": 296,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    pcVar2 = *(code **)(*(int *)(param_1 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010ce710",
+    "name": "FUN_010ce710",
+    "bytes": 112,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "  pcVar3 = *(code **)(*(int *)(param_1 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010d0da0",
+    "name": "FUN_010d0da0",
+    "bytes": 201,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    pcVar4 = *(code **)(*(int *)(iVar2 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010d0ed0",
+    "name": "FUN_010d0ed0",
+    "bytes": 320,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "      pcVar4 = *(code **)(*(int *)(iVar2 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010d2270",
+    "name": "FUN_010d2270",
+    "bytes": 429,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    pcVar2 = *(code **)(*(int *)(iVar3 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010d4140",
+    "name": "FUN_010d4140",
+    "bytes": 1216,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "        pcVar2 = *(code **)(*(int *)(param_1 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010d5cd0",
+    "name": "FUN_010d5cd0",
+    "bytes": 261,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    pcVar2 = *(code **)(*(int *)(param_1 + 8) + 0x2c4);"
+    ]
+  },
+  {
+    "address": "010d6800",
+    "name": "FUN_010d6800",
+    "bytes": 368,
+    "keys": [
+      "0x2c4"
+    ],
+    "lines": [
+      "    pcVar2 = *(code **)(*(int *)(iVar3 + 8) + 0x2c4);"
+    ]
+  }
+]

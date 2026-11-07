@@ -1,0 +1,148 @@
+{
+  "imageBase": 4194304,
+  "sections": [
+    {
+      "name": ".text",
+      "VA": 4198400,
+      "vsz": 16124827,
+      "off": 1024,
+      "rawsz": 16124928
+    },
+    {
+      "name": ".rdata",
+      "VA": 20324352,
+      "vsz": 4536294,
+      "off": 16125952,
+      "rawsz": 4536320
+    },
+    {
+      "name": ".data",
+      "VA": 24862720,
+      "vsz": 2456996,
+      "off": 20662272,
+      "rawsz": 1845760
+    },
+    {
+      "name": ".tls",
+      "VA": 27320320,
+      "vsz": 1089,
+      "off": 22508032,
+      "rawsz": 1536
+    },
+    {
+      "name": ".rsrc",
+      "VA": 27324416,
+      "vsz": 46600,
+      "off": 22509568,
+      "rawsz": 47104
+    },
+    {
+      "name": ".reloc",
+      "VA": 27373568,
+      "vsz": 1184986,
+      "off": 22556672,
+      "rawsz": 1185280
+    }
+  ],
+  "xrefs": [
+    {
+      "address": "0x19661f6",
+      "exactVAimmediateXrefs": [
+        {
+          "fileOffset": 8663723,
+          "VA": "0xc43eab",
+          "section": ".text",
+          "function": [
+            12861072,
+            1026,
+            "FUN_00c43e90"
+          ],
+          "nearBytes": "0f85eb030000803df6619601008b4d0cf30f1040"
+        },
+        {
+          "fileOffset": 9012214,
+          "VA": "0xc98ff6",
+          "section": ".text",
+          "function": [
+            13209568,
+            865,
+            "FUN_00c98fe0"
+          ],
+          "nearBytes": "0f8547030000803df6619601008b4c2434f30f10"
+        },
+        {
+          "fileOffset": 9259362,
+          "VA": "0xcd5562",
+          "section": ".text",
+          "function": [
+            13456720,
+            276,
+            "FUN_00cd5550"
+          ],
+          "nearBytes": "0f84e2000000803df6619601000f85d50000008b"
+        }
+      ]
+    },
+    {
+      "address": "0x19662d8",
+      "exactVAimmediateXrefs": [
+        {
+          "fileOffset": 8663849,
+          "VA": "0xc43f29",
+          "section": ".text",
+          "function": [
+            12861072,
+            1026,
+            "FUN_00c43e90"
+          ],
+          "nearBytes": "5ac1740af30f100dd8629601eb08f30f100da0e4"
+        },
+        {
+          "fileOffset": 9012341,
+          "VA": "0xc99075",
+          "section": ".text",
+          "function": [
+            13209568,
+            865,
+            "FUN_00c98fe0"
+          ],
+          "nearBytes": "5ac1740af30f100dd8629601eb08f30f100da0e4"
+        }
+      ]
+    },
+    {
+      "address": "0x19fdfda",
+      "exactVAimmediateXrefs": [
+        {
+          "fileOffset": 9013074,
+          "VA": "0xc99352",
+          "section": ".text",
+          "function": null,
+          "nearBytes": "cccccccccccc803ddadf9f01007405e932abfaff"
+        },
+        {
+          "fileOffset": 9259202,
+          "VA": "0xcd54c2",
+          "section": ".text",
+          "function": [
+            13456528,
+            181,
+            "FUN_00cd5490"
+          ],
+          "nearBytes": "00578b7c2428803ddadf9f010074148b4424208b"
+        },
+        {
+          "fileOffset": 9259492,
+          "VA": "0xcd55e4",
+          "section": ".text",
+          "function": [
+            13456720,
+            276,
+            "FUN_00cd5550"
+          ],
+          "nearBytes": "e00403442424803ddadf9f01005552507407e89d"
+        }
+      ]
+    }
+  ]
+}

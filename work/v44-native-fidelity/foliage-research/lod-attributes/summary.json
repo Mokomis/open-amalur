@@ -1,0 +1,24 @@
+{
+  "scope": "Native shader-attribute propagation over existing port global-cluster LOD geometry; not original-game LOD geometry",
+  "source_triangles": 113658,
+  "mapped_global_ancestors": 113658,
+  "eligible_unmapped": 0,
+  "ambiguities": 0,
+  "native_materials": 33,
+  "lods": [
+    {
+      "lod": 1,
+      "grid_cm": 400.0,
+      "cells": 18,
+      "joined_triangles": 28450,
+      "unmatched": 0
+    },
+    {
+      "lod": 2,
+      "grid_cm": 1600.0,
+      "cells": 18,
+      "joined_triangles": 5461,
+      "unmatched": 0
+    }
+  ]
+}

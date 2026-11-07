@@ -1,0 +1,2 @@
+#version 300 es
+precision highp float;precision highp int;uniform sampler2D depthTex;uniform vec2 halfExtent,inverseDepth;uniform vec4 config;out vec4 o;void main(){vec2 nativeUV=vec2(gl_FragCoord.x,halfExtent.y-gl_FragCoord.y)/halfExtent;ivec2 n=textureSize(depthTex,0);ivec2 q=clamp(ivec2(floor(nativeUV*vec2(n))),ivec2(0),n-1);q.y=n.y-1-q.y;float d=texelFetch(depthTex,q,0).r;if(d==0.)d=1.;float z=1./(inverseDepth.x*d+inverseDepth.y);float nz=z*config.w;float coc=min(max((nz-config.x)*config.y,0.),config.z);float farCoc=nz>config.x?coc:0.;o=vec4(farCoc,nz,farCoc,farCoc);}

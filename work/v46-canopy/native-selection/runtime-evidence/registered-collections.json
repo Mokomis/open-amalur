@@ -1,0 +1,106 @@
+{
+  "process": {
+    "Id": 15992,
+    "Path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v31-native-slice\\run-capture\\koa.exe",
+    "base": 8060928
+  },
+  "read_only": true,
+  "openprocess_access": "PROCESS_VM_READ|PROCESS_QUERY_INFORMATION only; no writes/attach/input",
+  "time_utc": "2026-11-06T15:26:33Z",
+  "backend": "0x256b0c90",
+  "main_config_handle": "0x10000",
+  "config": "0x84948e0",
+  "config_sha256": "bdf23920f16a13a18c03a9b3f749a078e9a8b392a69370dea229f13707748558",
+  "quality_enabled": 1,
+  "quality_squared": 4.0,
+  "camera_table": "0x8e4a440",
+  "cameras": [
+    {
+      "slot": 0,
+      "address": "0x25f1b5b0",
+      "space_id": 431646,
+      "cull_xyz": [
+        8591.9326171875,
+        -87036.03125,
+        6493.06640625
+      ],
+      "sha256": "7e7a5514a02548ad6c913346c7c771580f94a6bb421bc4327e5e466acf3e2320"
+    },
+    {
+      "slot": 1,
+      "address": "0x25f1b940",
+      "space_id": 0,
+      "cull_xyz": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "sha256": "ac69f748062c2c185f03ff1f7ea6fd08ae59f354bdb555bdabd87774b9ef0c15"
+    }
+  ],
+  "registered_static_spaces": [
+    0,
+    431646,
+    431650
+  ],
+  "static_descriptors": [
+    {
+      "index": 0,
+      "address": "0x55cee78",
+      "space_id": 0,
+      "dump": "descriptor-00.bin",
+      "sha256": "476f20a9712178fffc570a2defde50e768b3ada5f785e985097c5ed33e17823a",
+      "group_counts": [
+        2138,
+        773,
+        3,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "address": "0x52c6260",
+      "space_id": 431646,
+      "dump": "descriptor-01.bin",
+      "sha256": "1f7fcd0a5eddc1592e365dd9d4469e6c7a19aeeb74aa7914cb0dcd8ba459b643",
+      "group_counts": [
+        2324,
+        840,
+        36,
+        99
+      ]
+    },
+    {
+      "index": 2,
+      "address": "0x52c65c0",
+      "space_id": 431650,
+      "dump": "descriptor-02.bin",
+      "sha256": "7a745e95f8d0e8c2924abcf53fe77bd535881a16b4877a1fdf44b2206c8610c5",
+      "group_counts": [
+        460,
+        139,
+        0,
+        0
+      ]
+    }
+  ],
+  "registered_space_visibility_groups": [
+    {
+      "index": 0,
+      "address": "0x55dc1b8",
+      "space_id": 431646,
+      "dump": "spacegroup-00.bin",
+      "sha256": "c91e8fdce968685bcb5791286fdfac7e3f3c5b26ca5d86a243fe0893b2d24a95"
+    },
+    {
+      "index": 1,
+      "address": "0x55dcac0",
+      "space_id": 431650,
+      "dump": "spacegroup-01.bin",
+      "sha256": "7b59050c774f675fd249993bca10d0b237f58084eae9b59c515459c477c0efdc"
+    }
+  ],
+  "source198_space": 431642,
+  "source198_collection_registered": false,
+  "source_note": "Same cs15032 executable SHA; desktop screenshot confirms paused bridge. Registered != necessarily admitted individual draw. No hardcoded runtime whitelist implied."
+}

@@ -1,0 +1,2655 @@
+{
+  "scope": "All203 currentmatched-camera visiblecells, selectedLODpolicy vs finestcutoutgeometry only. Trianglecounts do not establish original treeinstance counts or originalnativeLODbehavior.",
+  "totals": {
+    "visible_cells": 203,
+    "lod2_cells": 175,
+    "normal_cutout_triangles": 55902,
+    "finest_cutout_triangles": 389801,
+    "normal_known_tree_card_triangles": 30538,
+    "finest_known_tree_card_triangles": 52211,
+    "lod1_cells": 18,
+    "lod0_cells": 10
+  },
+  "changed_cells": [
+    {
+      "cell": [
+        -14,
+        -15
+      ],
+      "distance_cm": 93015.5654295,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 1,
+        "known_tree_card_triangles": 0
+      },
+      "finest": {
+        "cutout_triangles": 2,
+        "known_tree_card_triangles": 0
+      }
+    },
+    {
+      "cell": [
+        -14,
+        -10
+      ],
+      "distance_cm": 93878.40723289429,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 3,
+        "known_tree_card_triangles": 0
+      },
+      "finest": {
+        "cutout_triangles": 4,
+        "known_tree_card_triangles": 0
+      }
+    },
+    {
+      "cell": [
+        -12,
+        -15
+      ],
+      "distance_cm": 75832.760742,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 43,
+        "known_tree_card_triangles": 39
+      },
+      "finest": {
+        "cutout_triangles": 56,
+        "known_tree_card_triangles": 52
+      }
+    },
+    {
+      "cell": [
+        -12,
+        -14
+      ],
+      "distance_cm": 75832.760742,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 68,
+        "known_tree_card_triangles": 67
+      },
+      "finest": {
+        "cutout_triangles": 72,
+        "known_tree_card_triangles": 71
+      }
+    },
+    {
+      "cell": [
+        -12,
+        -12
+      ],
+      "distance_cm": 77081.07880034458,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 37,
+        "known_tree_card_triangles": 33
+      },
+      "finest": {
+        "cutout_triangles": 43,
+        "known_tree_card_triangles": 39
+      }
+    },
+    {
+      "cell": [
+        -12,
+        -11
+      ],
+      "distance_cm": 78800.34197280605,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 10,
+        "known_tree_card_triangles": 6
+      },
+      "finest": {
+        "cutout_triangles": 12,
+        "known_tree_card_triangles": 8
+      }
+    },
+    {
+      "cell": [
+        -11,
+        -15
+      ],
+      "distance_cm": 72496.07036280681,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 55,
+        "known_tree_card_triangles": 54
+      },
+      "finest": {
+        "cutout_triangles": 99,
+        "known_tree_card_triangles": 98
+      }
+    },
+    {
+      "cell": [
+        -11,
+        -14
+      ],
+      "distance_cm": 71802.9873045,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 130,
+        "known_tree_card_triangles": 130
+      },
+      "finest": {
+        "cutout_triangles": 261,
+        "known_tree_card_triangles": 219
+      }
+    },
+    {
+      "cell": [
+        -11,
+        -13
+      ],
+      "distance_cm": 71928.16549200262,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 189,
+        "known_tree_card_triangles": 188
+      },
+      "finest": {
+        "cutout_triangles": 422,
+        "known_tree_card_triangles": 402
+      }
+    },
+    {
+      "cell": [
+        -11,
+        -12
+      ],
+      "distance_cm": 71525.4613644557,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 168,
+        "known_tree_card_triangles": 168
+      },
+      "finest": {
+        "cutout_triangles": 254,
+        "known_tree_card_triangles": 254
+      }
+    },
+    {
+      "cell": [
+        -11,
+        -11
+      ],
+      "distance_cm": 72248.69654675994,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 156,
+        "known_tree_card_triangles": 156
+      },
+      "finest": {
+        "cutout_triangles": 185,
+        "known_tree_card_triangles": 185
+      }
+    },
+    {
+      "cell": [
+        -11,
+        -10
+      ],
+      "distance_cm": 74712.05711673433,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 94,
+        "known_tree_card_triangles": 94
+      },
+      "finest": {
+        "cutout_triangles": 109,
+        "known_tree_card_triangles": 109
+      }
+    },
+    {
+      "cell": [
+        -11,
+        -9
+      ],
+      "distance_cm": 76119.3070666927,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 27,
+        "known_tree_card_triangles": 27
+      },
+      "finest": {
+        "cutout_triangles": 32,
+        "known_tree_card_triangles": 32
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -15
+      ],
+      "distance_cm": 65091.94653057509,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 7,
+        "known_tree_card_triangles": 7
+      },
+      "finest": {
+        "cutout_triangles": 8,
+        "known_tree_card_triangles": 8
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -14
+      ],
+      "distance_cm": 65523.2685545,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 12,
+        "known_tree_card_triangles": 12
+      },
+      "finest": {
+        "cutout_triangles": 4323,
+        "known_tree_card_triangles": 32
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -13
+      ],
+      "distance_cm": 63785.2838046075,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 213,
+        "known_tree_card_triangles": 173
+      },
+      "finest": {
+        "cutout_triangles": 9469,
+        "known_tree_card_triangles": 643
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -12
+      ],
+      "distance_cm": 64393.82201813014,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 267,
+        "known_tree_card_triangles": 258
+      },
+      "finest": {
+        "cutout_triangles": 635,
+        "known_tree_card_triangles": 565
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -11
+      ],
+      "distance_cm": 66755.91905889157,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 155,
+        "known_tree_card_triangles": 155
+      },
+      "finest": {
+        "cutout_triangles": 242,
+        "known_tree_card_triangles": 240
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -10
+      ],
+      "distance_cm": 67454.17775709077,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 68,
+        "known_tree_card_triangles": 68
+      },
+      "finest": {
+        "cutout_triangles": 102,
+        "known_tree_card_triangles": 102
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -9
+      ],
+      "distance_cm": 68772.92803898027,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 86,
+        "known_tree_card_triangles": 80
+      },
+      "finest": {
+        "cutout_triangles": 97,
+        "known_tree_card_triangles": 91
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -8
+      ],
+      "distance_cm": 73609.51250554736,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 8,
+        "known_tree_card_triangles": 1
+      },
+      "finest": {
+        "cutout_triangles": 11,
+        "known_tree_card_triangles": 2
+      }
+    },
+    {
+      "cell": [
+        -10,
+        -6
+      ],
+      "distance_cm": 82139.12270851475,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 7,
+        "known_tree_card_triangles": 0
+      },
+      "finest": {
+        "cutout_triangles": 8,
+        "known_tree_card_triangles": 0
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -15
+      ],
+      "distance_cm": 58434.65973280565,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 230,
+        "known_tree_card_triangles": 230
+      },
+      "finest": {
+        "cutout_triangles": 397,
+        "known_tree_card_triangles": 397
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -14
+      ],
+      "distance_cm": 58923.323242,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 48,
+        "known_tree_card_triangles": 48
+      },
+      "finest": {
+        "cutout_triangles": 526,
+        "known_tree_card_triangles": 70
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -13
+      ],
+      "distance_cm": 58296.42284886925,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 86,
+        "known_tree_card_triangles": 66
+      },
+      "finest": {
+        "cutout_triangles": 2591,
+        "known_tree_card_triangles": 237
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -12
+      ],
+      "distance_cm": 58534.11217892245,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 170,
+        "known_tree_card_triangles": 159
+      },
+      "finest": {
+        "cutout_triangles": 2364,
+        "known_tree_card_triangles": 281
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -11
+      ],
+      "distance_cm": 59754.85495414425,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 151,
+        "known_tree_card_triangles": 151
+      },
+      "finest": {
+        "cutout_triangles": 248,
+        "known_tree_card_triangles": 248
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -10
+      ],
+      "distance_cm": 62730.653677923074,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 173,
+        "known_tree_card_triangles": 153
+      },
+      "finest": {
+        "cutout_triangles": 395,
+        "known_tree_card_triangles": 351
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -9
+      ],
+      "distance_cm": 65295.96693696477,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 134,
+        "known_tree_card_triangles": 120
+      },
+      "finest": {
+        "cutout_triangles": 234,
+        "known_tree_card_triangles": 219
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -8
+      ],
+      "distance_cm": 66781.51355218029,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 127,
+        "known_tree_card_triangles": 115
+      },
+      "finest": {
+        "cutout_triangles": 147,
+        "known_tree_card_triangles": 135
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -7
+      ],
+      "distance_cm": 69522.38892032353,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 108,
+        "known_tree_card_triangles": 104
+      },
+      "finest": {
+        "cutout_triangles": 150,
+        "known_tree_card_triangles": 146
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -6
+      ],
+      "distance_cm": 76174.84212662146,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 22,
+        "known_tree_card_triangles": 22
+      },
+      "finest": {
+        "cutout_triangles": 39,
+        "known_tree_card_triangles": 39
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -5
+      ],
+      "distance_cm": 79365.48062376441,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 130,
+        "known_tree_card_triangles": 130
+      },
+      "finest": {
+        "cutout_triangles": 155,
+        "known_tree_card_triangles": 155
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -4
+      ],
+      "distance_cm": 83675.01534803335,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 112,
+        "known_tree_card_triangles": 112
+      },
+      "finest": {
+        "cutout_triangles": 136,
+        "known_tree_card_triangles": 136
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -3
+      ],
+      "distance_cm": 87368.72650237454,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 87,
+        "known_tree_card_triangles": 87
+      },
+      "finest": {
+        "cutout_triangles": 100,
+        "known_tree_card_triangles": 100
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -2
+      ],
+      "distance_cm": 93913.84004908017,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 18,
+        "known_tree_card_triangles": 18
+      },
+      "finest": {
+        "cutout_triangles": 21,
+        "known_tree_card_triangles": 21
+      }
+    },
+    {
+      "cell": [
+        -9,
+        -1
+      ],
+      "distance_cm": 99839.6802984588,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 8,
+        "known_tree_card_triangles": 8
+      },
+      "finest": {
+        "cutout_triangles": 11,
+        "known_tree_card_triangles": 11
+      }
+    },
+    {
+      "cell": [
+        -8,
+        0
+      ],
+      "distance_cm": 96340.72531584746,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 192,
+        "known_tree_card_triangles": 192
+      },
+      "finest": {
+        "cutout_triangles": 305,
+        "known_tree_card_triangles": 305
+      }
+    },
+    {
+      "cell": [
+        -8,
+        1
+      ],
+      "distance_cm": 99070.77579620735,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 259,
+        "known_tree_card_triangles": 246
+      },
+      "finest": {
+        "cutout_triangles": 1684,
+        "known_tree_card_triangles": 465
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -15
+      ],
+      "distance_cm": 50181.34316403273,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 247,
+        "known_tree_card_triangles": 212
+      },
+      "finest": {
+        "cutout_triangles": 3227,
+        "known_tree_card_triangles": 355
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -14
+      ],
+      "distance_cm": 51222.510742,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 148,
+        "known_tree_card_triangles": 136
+      },
+      "finest": {
+        "cutout_triangles": 380,
+        "known_tree_card_triangles": 334
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -13
+      ],
+      "distance_cm": 52175.12352146047,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 190,
+        "known_tree_card_triangles": 178
+      },
+      "finest": {
+        "cutout_triangles": 7987,
+        "known_tree_card_triangles": 343
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -12
+      ],
+      "distance_cm": 52653.98291084598,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 222,
+        "known_tree_card_triangles": 214
+      },
+      "finest": {
+        "cutout_triangles": 12872,
+        "known_tree_card_triangles": 396
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -11
+      ],
+      "distance_cm": 50067.59740228589,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 170,
+        "known_tree_card_triangles": 165
+      },
+      "finest": {
+        "cutout_triangles": 3393,
+        "known_tree_card_triangles": 243
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -10
+      ],
+      "distance_cm": 56188.81206601817,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 36,
+        "known_tree_card_triangles": 11
+      },
+      "finest": {
+        "cutout_triangles": 2850,
+        "known_tree_card_triangles": 33
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -9
+      ],
+      "distance_cm": 60091.95882989616,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 189,
+        "known_tree_card_triangles": 183
+      },
+      "finest": {
+        "cutout_triangles": 6181,
+        "known_tree_card_triangles": 527
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -8
+      ],
+      "distance_cm": 62154.38083291317,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 46,
+        "known_tree_card_triangles": 46
+      },
+      "finest": {
+        "cutout_triangles": 81,
+        "known_tree_card_triangles": 81
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -7
+      ],
+      "distance_cm": 65413.12260282765,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 148,
+        "known_tree_card_triangles": 148
+      },
+      "finest": {
+        "cutout_triangles": 180,
+        "known_tree_card_triangles": 180
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -6
+      ],
+      "distance_cm": 70223.6663394728,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 168,
+        "known_tree_card_triangles": 167
+      },
+      "finest": {
+        "cutout_triangles": 260,
+        "known_tree_card_triangles": 256
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -5
+      ],
+      "distance_cm": 74248.73941069888,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 139,
+        "known_tree_card_triangles": 139
+      },
+      "finest": {
+        "cutout_triangles": 196,
+        "known_tree_card_triangles": 192
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -4
+      ],
+      "distance_cm": 77529.64718874823,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 237,
+        "known_tree_card_triangles": 237
+      },
+      "finest": {
+        "cutout_triangles": 2649,
+        "known_tree_card_triangles": 380
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -3
+      ],
+      "distance_cm": 83925.12007113585,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 255,
+        "known_tree_card_triangles": 255
+      },
+      "finest": {
+        "cutout_triangles": 1892,
+        "known_tree_card_triangles": 434
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -2
+      ],
+      "distance_cm": 83390.28177277085,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 86,
+        "known_tree_card_triangles": 86
+      },
+      "finest": {
+        "cutout_triangles": 3726,
+        "known_tree_card_triangles": 206
+      }
+    },
+    {
+      "cell": [
+        -8,
+        -1
+      ],
+      "distance_cm": 92561.41281516133,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 54,
+        "known_tree_card_triangles": 54
+      },
+      "finest": {
+        "cutout_triangles": 68,
+        "known_tree_card_triangles": 68
+      }
+    },
+    {
+      "cell": [
+        -7,
+        0
+      ],
+      "distance_cm": 92131.37887364949,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 437,
+        "known_tree_card_triangles": 428
+      },
+      "finest": {
+        "cutout_triangles": 2152,
+        "known_tree_card_triangles": 684
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -15
+      ],
+      "distance_cm": 44925.0645628576,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 231,
+        "known_tree_card_triangles": 163
+      },
+      "finest": {
+        "cutout_triangles": 7374,
+        "known_tree_card_triangles": 422
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -14
+      ],
+      "distance_cm": 46163.666992,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 215,
+        "known_tree_card_triangles": 105
+      },
+      "finest": {
+        "cutout_triangles": 16655,
+        "known_tree_card_triangles": 255
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -13
+      ],
+      "distance_cm": 46614.13349555922,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 159,
+        "known_tree_card_triangles": 117
+      },
+      "finest": {
+        "cutout_triangles": 16985,
+        "known_tree_card_triangles": 323
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -12
+      ],
+      "distance_cm": 46823.51371055145,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 357,
+        "known_tree_card_triangles": 284
+      },
+      "finest": {
+        "cutout_triangles": 12908,
+        "known_tree_card_triangles": 385
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -11
+      ],
+      "distance_cm": 47389.65825129502,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 223,
+        "known_tree_card_triangles": 218
+      },
+      "finest": {
+        "cutout_triangles": 3503,
+        "known_tree_card_triangles": 475
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -10
+      ],
+      "distance_cm": 41499.673680111,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 135,
+        "known_tree_card_triangles": 107
+      },
+      "finest": {
+        "cutout_triangles": 320,
+        "known_tree_card_triangles": 244
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -9
+      ],
+      "distance_cm": 54322.96345763343,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 141,
+        "known_tree_card_triangles": 138
+      },
+      "finest": {
+        "cutout_triangles": 14648,
+        "known_tree_card_triangles": 284
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -8
+      ],
+      "distance_cm": 56602.86853599688,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 238,
+        "known_tree_card_triangles": 233
+      },
+      "finest": {
+        "cutout_triangles": 486,
+        "known_tree_card_triangles": 458
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -7
+      ],
+      "distance_cm": 60546.725675042806,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 265,
+        "known_tree_card_triangles": 263
+      },
+      "finest": {
+        "cutout_triangles": 447,
+        "known_tree_card_triangles": 421
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -6
+      ],
+      "distance_cm": 65193.92338360141,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 56,
+        "known_tree_card_triangles": 53
+      },
+      "finest": {
+        "cutout_triangles": 152,
+        "known_tree_card_triangles": 130
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -5
+      ],
+      "distance_cm": 69273.33064441517,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 379,
+        "known_tree_card_triangles": 379
+      },
+      "finest": {
+        "cutout_triangles": 739,
+        "known_tree_card_triangles": 700
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -4
+      ],
+      "distance_cm": 73074.07302664783,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 360,
+        "known_tree_card_triangles": 354
+      },
+      "finest": {
+        "cutout_triangles": 2190,
+        "known_tree_card_triangles": 691
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -3
+      ],
+      "distance_cm": 78199.03774526253,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 200,
+        "known_tree_card_triangles": 194
+      },
+      "finest": {
+        "cutout_triangles": 5685,
+        "known_tree_card_triangles": 484
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -2
+      ],
+      "distance_cm": 84245.35183196365,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 122,
+        "known_tree_card_triangles": 105
+      },
+      "finest": {
+        "cutout_triangles": 2381,
+        "known_tree_card_triangles": 186
+      }
+    },
+    {
+      "cell": [
+        -7,
+        -1
+      ],
+      "distance_cm": 85699.73020496251,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 194,
+        "known_tree_card_triangles": 183
+      },
+      "finest": {
+        "cutout_triangles": 730,
+        "known_tree_card_triangles": 288
+      }
+    },
+    {
+      "cell": [
+        -6,
+        0
+      ],
+      "distance_cm": 90625.9443735103,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 284,
+        "known_tree_card_triangles": 267
+      },
+      "finest": {
+        "cutout_triangles": 4967,
+        "known_tree_card_triangles": 544
+      }
+    },
+    {
+      "cell": [
+        -6,
+        1
+      ],
+      "distance_cm": 97502.65621895684,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 258,
+        "known_tree_card_triangles": 250
+      },
+      "finest": {
+        "cutout_triangles": 1150,
+        "known_tree_card_triangles": 434
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -15
+      ],
+      "distance_cm": 36713.7998045,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 214,
+        "known_tree_card_triangles": 190
+      },
+      "finest": {
+        "cutout_triangles": 8388,
+        "known_tree_card_triangles": 435
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -14
+      ],
+      "distance_cm": 36713.7998045,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 159,
+        "known_tree_card_triangles": 142
+      },
+      "finest": {
+        "cutout_triangles": 744,
+        "known_tree_card_triangles": 338
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -13
+      ],
+      "distance_cm": 36463.180663875,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 157,
+        "known_tree_card_triangles": 133
+      },
+      "finest": {
+        "cutout_triangles": 452,
+        "known_tree_card_triangles": 310
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -12
+      ],
+      "distance_cm": 38666.8933423811,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 222,
+        "known_tree_card_triangles": 192
+      },
+      "finest": {
+        "cutout_triangles": 433,
+        "known_tree_card_triangles": 396
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -11
+      ],
+      "distance_cm": 36115.43354521677,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 86,
+        "known_tree_card_triangles": 70
+      },
+      "finest": {
+        "cutout_triangles": 6392,
+        "known_tree_card_triangles": 162
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -10
+      ],
+      "distance_cm": 41236.67866353989,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 106,
+        "known_tree_card_triangles": 93
+      },
+      "finest": {
+        "cutout_triangles": 586,
+        "known_tree_card_triangles": 169
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -9
+      ],
+      "distance_cm": 44571.39231926329,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 22,
+        "known_tree_card_triangles": 11
+      },
+      "finest": {
+        "cutout_triangles": 2456,
+        "known_tree_card_triangles": 183
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -8
+      ],
+      "distance_cm": 51761.53636320339,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 116,
+        "known_tree_card_triangles": 115
+      },
+      "finest": {
+        "cutout_triangles": 255,
+        "known_tree_card_triangles": 236
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -7
+      ],
+      "distance_cm": 55931.96288443532,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 195,
+        "known_tree_card_triangles": 195
+      },
+      "finest": {
+        "cutout_triangles": 412,
+        "known_tree_card_triangles": 412
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -6
+      ],
+      "distance_cm": 60751.67111765748,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 134,
+        "known_tree_card_triangles": 134
+      },
+      "finest": {
+        "cutout_triangles": 230,
+        "known_tree_card_triangles": 230
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -5
+      ],
+      "distance_cm": 66432.40264440938,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 292,
+        "known_tree_card_triangles": 292
+      },
+      "finest": {
+        "cutout_triangles": 905,
+        "known_tree_card_triangles": 495
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -4
+      ],
+      "distance_cm": 70715.85342166951,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 265,
+        "known_tree_card_triangles": 249
+      },
+      "finest": {
+        "cutout_triangles": 473,
+        "known_tree_card_triangles": 456
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -3
+      ],
+      "distance_cm": 72604.00638313161,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 322,
+        "known_tree_card_triangles": 297
+      },
+      "finest": {
+        "cutout_triangles": 2118,
+        "known_tree_card_triangles": 595
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -2
+      ],
+      "distance_cm": 81367.41116647098,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 119,
+        "known_tree_card_triangles": 110
+      },
+      "finest": {
+        "cutout_triangles": 247,
+        "known_tree_card_triangles": 238
+      }
+    },
+    {
+      "cell": [
+        -6,
+        -1
+      ],
+      "distance_cm": 85085.9245777949,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 347,
+        "known_tree_card_triangles": 330
+      },
+      "finest": {
+        "cutout_triangles": 8460,
+        "known_tree_card_triangles": 764
+      }
+    },
+    {
+      "cell": [
+        -5,
+        0
+      ],
+      "distance_cm": 90614.65663378844,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 29,
+        "known_tree_card_triangles": 28
+      },
+      "finest": {
+        "cutout_triangles": 160,
+        "known_tree_card_triangles": 134
+      }
+    },
+    {
+      "cell": [
+        -5,
+        1
+      ],
+      "distance_cm": 95966.21334059123,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 26,
+        "known_tree_card_triangles": 9
+      },
+      "finest": {
+        "cutout_triangles": 5087,
+        "known_tree_card_triangles": 11
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -15
+      ],
+      "distance_cm": 32999.094726375,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 114,
+        "known_tree_card_triangles": 108
+      },
+      "finest": {
+        "cutout_triangles": 230,
+        "known_tree_card_triangles": 223
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -14
+      ],
+      "distance_cm": 32999.094726375,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 31,
+        "known_tree_card_triangles": 31
+      },
+      "finest": {
+        "cutout_triangles": 62,
+        "known_tree_card_triangles": 61
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -13
+      ],
+      "distance_cm": 32202.458007625,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 124,
+        "known_tree_card_triangles": 124
+      },
+      "finest": {
+        "cutout_triangles": 332,
+        "known_tree_card_triangles": 279
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -12
+      ],
+      "distance_cm": 33525.61087429484,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 188,
+        "known_tree_card_triangles": 184
+      },
+      "finest": {
+        "cutout_triangles": 538,
+        "known_tree_card_triangles": 347
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -11
+      ],
+      "distance_cm": 28424.07516339704,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 295,
+        "known_tree_card_triangles": 285
+      },
+      "finest": {
+        "cutout_triangles": 2099,
+        "known_tree_card_triangles": 809
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -10
+      ],
+      "distance_cm": 36410.116058747575,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 186,
+        "known_tree_card_triangles": 124
+      },
+      "finest": {
+        "cutout_triangles": 24754,
+        "known_tree_card_triangles": 394
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -9
+      ],
+      "distance_cm": 43166.442549633975,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 93,
+        "known_tree_card_triangles": 85
+      },
+      "finest": {
+        "cutout_triangles": 241,
+        "known_tree_card_triangles": 199
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -8
+      ],
+      "distance_cm": 48387.45909695833,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 75,
+        "known_tree_card_triangles": 72
+      },
+      "finest": {
+        "cutout_triangles": 4017,
+        "known_tree_card_triangles": 202
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -7
+      ],
+      "distance_cm": 52456.42959866599,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 225,
+        "known_tree_card_triangles": 225
+      },
+      "finest": {
+        "cutout_triangles": 424,
+        "known_tree_card_triangles": 423
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -6
+      ],
+      "distance_cm": 56523.9701897401,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 227,
+        "known_tree_card_triangles": 227
+      },
+      "finest": {
+        "cutout_triangles": 626,
+        "known_tree_card_triangles": 576
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -5
+      ],
+      "distance_cm": 62950.98733935066,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 179,
+        "known_tree_card_triangles": 162
+      },
+      "finest": {
+        "cutout_triangles": 9183,
+        "known_tree_card_triangles": 309
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -4
+      ],
+      "distance_cm": 65217.255650508974,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 52,
+        "known_tree_card_triangles": 20
+      },
+      "finest": {
+        "cutout_triangles": 6239,
+        "known_tree_card_triangles": 181
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -3
+      ],
+      "distance_cm": 74191.45774681406,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 154,
+        "known_tree_card_triangles": 146
+      },
+      "finest": {
+        "cutout_triangles": 529,
+        "known_tree_card_triangles": 443
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -2
+      ],
+      "distance_cm": 78478.51987623094,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 47,
+        "known_tree_card_triangles": 43
+      },
+      "finest": {
+        "cutout_triangles": 3675,
+        "known_tree_card_triangles": 53
+      }
+    },
+    {
+      "cell": [
+        -5,
+        -1
+      ],
+      "distance_cm": 84473.15128685963,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 421,
+        "known_tree_card_triangles": 420
+      },
+      "finest": {
+        "cutout_triangles": 707,
+        "known_tree_card_triangles": 706
+      }
+    },
+    {
+      "cell": [
+        -4,
+        0
+      ],
+      "distance_cm": 88606.0224616504,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 284,
+        "known_tree_card_triangles": 270
+      },
+      "finest": {
+        "cutout_triangles": 1917,
+        "known_tree_card_triangles": 479
+      }
+    },
+    {
+      "cell": [
+        -4,
+        1
+      ],
+      "distance_cm": 94632.36738326741,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 190,
+        "known_tree_card_triangles": 2
+      },
+      "finest": {
+        "cutout_triangles": 10964,
+        "known_tree_card_triangles": 2
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -15
+      ],
+      "distance_cm": 25783.729492,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 238,
+        "known_tree_card_triangles": 238
+      },
+      "finest": {
+        "cutout_triangles": 285,
+        "known_tree_card_triangles": 285
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -14
+      ],
+      "distance_cm": 25599.860351375,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 929,
+        "known_tree_card_triangles": 851
+      },
+      "finest": {
+        "cutout_triangles": 5013,
+        "known_tree_card_triangles": 862
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -13
+      ],
+      "distance_cm": 25437.78088774,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 458,
+        "known_tree_card_triangles": 436
+      },
+      "finest": {
+        "cutout_triangles": 479,
+        "known_tree_card_triangles": 443
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -12
+      ],
+      "distance_cm": 26785.92620719214,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 207,
+        "known_tree_card_triangles": 196
+      },
+      "finest": {
+        "cutout_triangles": 7669,
+        "known_tree_card_triangles": 418
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -11
+      ],
+      "distance_cm": 30307.600058696786,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 99,
+        "known_tree_card_triangles": 94
+      },
+      "finest": {
+        "cutout_triangles": 1456,
+        "known_tree_card_triangles": 275
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -10
+      ],
+      "distance_cm": 31013.71248159797,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 350,
+        "known_tree_card_triangles": 328
+      },
+      "finest": {
+        "cutout_triangles": 3378,
+        "known_tree_card_triangles": 685
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -9
+      ],
+      "distance_cm": 37842.583363011625,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 68,
+        "known_tree_card_triangles": 68
+      },
+      "finest": {
+        "cutout_triangles": 154,
+        "known_tree_card_triangles": 154
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -8
+      ],
+      "distance_cm": 44421.86280839539,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 99,
+        "known_tree_card_triangles": 99
+      },
+      "finest": {
+        "cutout_triangles": 3103,
+        "known_tree_card_triangles": 165
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -7
+      ],
+      "distance_cm": 47975.08138231112,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 88,
+        "known_tree_card_triangles": 87
+      },
+      "finest": {
+        "cutout_triangles": 303,
+        "known_tree_card_triangles": 275
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -6
+      ],
+      "distance_cm": 54240.950848429544,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 81,
+        "known_tree_card_triangles": 72
+      },
+      "finest": {
+        "cutout_triangles": 259,
+        "known_tree_card_triangles": 241
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -5
+      ],
+      "distance_cm": 59084.29938541374,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 167,
+        "known_tree_card_triangles": 127
+      },
+      "finest": {
+        "cutout_triangles": 3339,
+        "known_tree_card_triangles": 416
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -4
+      ],
+      "distance_cm": 62915.84083593237,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 105,
+        "known_tree_card_triangles": 75
+      },
+      "finest": {
+        "cutout_triangles": 4621,
+        "known_tree_card_triangles": 272
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -3
+      ],
+      "distance_cm": 68164.81243765766,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 83,
+        "known_tree_card_triangles": 81
+      },
+      "finest": {
+        "cutout_triangles": 4857,
+        "known_tree_card_triangles": 173
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -2
+      ],
+      "distance_cm": 76272.22586890218,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 173,
+        "known_tree_card_triangles": 164
+      },
+      "finest": {
+        "cutout_triangles": 1164,
+        "known_tree_card_triangles": 232
+      }
+    },
+    {
+      "cell": [
+        -4,
+        -1
+      ],
+      "distance_cm": 83020.58552043968,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 523,
+        "known_tree_card_triangles": 518
+      },
+      "finest": {
+        "cutout_triangles": 1156,
+        "known_tree_card_triangles": 896
+      }
+    },
+    {
+      "cell": [
+        -3,
+        0
+      ],
+      "distance_cm": 86685.08055890871,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 312,
+        "known_tree_card_triangles": 296
+      },
+      "finest": {
+        "cutout_triangles": 872,
+        "known_tree_card_triangles": 672
+      }
+    },
+    {
+      "cell": [
+        -3,
+        1
+      ],
+      "distance_cm": 92967.51073888065,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 79,
+        "known_tree_card_triangles": 60
+      },
+      "finest": {
+        "cutout_triangles": 4013,
+        "known_tree_card_triangles": 158
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -14
+      ],
+      "distance_cm": 20618.9804685625,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 197,
+        "known_tree_card_triangles": 161
+      },
+      "finest": {
+        "cutout_triangles": 201,
+        "known_tree_card_triangles": 161
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -13
+      ],
+      "distance_cm": 20294.636359297776,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 747,
+        "known_tree_card_triangles": 676
+      },
+      "finest": {
+        "cutout_triangles": 768,
+        "known_tree_card_triangles": 682
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -12
+      ],
+      "distance_cm": 20935.58640016822,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 190,
+        "known_tree_card_triangles": 161
+      },
+      "finest": {
+        "cutout_triangles": 195,
+        "known_tree_card_triangles": 164
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -11
+      ],
+      "distance_cm": 17573.34598929061,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 490,
+        "known_tree_card_triangles": 452
+      },
+      "finest": {
+        "cutout_triangles": 588,
+        "known_tree_card_triangles": 454
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -10
+      ],
+      "distance_cm": 26683.53667385179,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 283,
+        "known_tree_card_triangles": 277
+      },
+      "finest": {
+        "cutout_triangles": 1132,
+        "known_tree_card_triangles": 532
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -9
+      ],
+      "distance_cm": 31918.765236272797,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 43,
+        "known_tree_card_triangles": 34
+      },
+      "finest": {
+        "cutout_triangles": 56,
+        "known_tree_card_triangles": 47
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -8
+      ],
+      "distance_cm": 41038.18763336406,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 76,
+        "known_tree_card_triangles": 76
+      },
+      "finest": {
+        "cutout_triangles": 383,
+        "known_tree_card_triangles": 333
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -7
+      ],
+      "distance_cm": 44657.74372004241,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 140,
+        "known_tree_card_triangles": 139
+      },
+      "finest": {
+        "cutout_triangles": 467,
+        "known_tree_card_triangles": 435
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -6
+      ],
+      "distance_cm": 48296.8582787018,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 226,
+        "known_tree_card_triangles": 213
+      },
+      "finest": {
+        "cutout_triangles": 497,
+        "known_tree_card_triangles": 479
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -5
+      ],
+      "distance_cm": 56234.88926511309,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 89,
+        "known_tree_card_triangles": 76
+      },
+      "finest": {
+        "cutout_triangles": 131,
+        "known_tree_card_triangles": 118
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -4
+      ],
+      "distance_cm": 59228.18522170983,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 50,
+        "known_tree_card_triangles": 49
+      },
+      "finest": {
+        "cutout_triangles": 208,
+        "known_tree_card_triangles": 179
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -3
+      ],
+      "distance_cm": 66904.72971448908,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 106,
+        "known_tree_card_triangles": 97
+      },
+      "finest": {
+        "cutout_triangles": 383,
+        "known_tree_card_triangles": 313
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -2
+      ],
+      "distance_cm": 75529.86759168872,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 185,
+        "known_tree_card_triangles": 167
+      },
+      "finest": {
+        "cutout_triangles": 348,
+        "known_tree_card_triangles": 281
+      }
+    },
+    {
+      "cell": [
+        -3,
+        -1
+      ],
+      "distance_cm": 80304.47944144352,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 648,
+        "known_tree_card_triangles": 629
+      },
+      "finest": {
+        "cutout_triangles": 1438,
+        "known_tree_card_triangles": 1317
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -14
+      ],
+      "distance_cm": 14022.88330059375,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 80,
+        "known_tree_card_triangles": 65
+      },
+      "finest": {
+        "cutout_triangles": 4089,
+        "known_tree_card_triangles": 66
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -13
+      ],
+      "distance_cm": 14703.769467903208,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 403,
+        "known_tree_card_triangles": 349
+      },
+      "finest": {
+        "cutout_triangles": 1214,
+        "known_tree_card_triangles": 357
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -12
+      ],
+      "distance_cm": 16761.992753610346,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 269,
+        "known_tree_card_triangles": 240
+      },
+      "finest": {
+        "cutout_triangles": 402,
+        "known_tree_card_triangles": 241
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -11
+      ],
+      "distance_cm": 21367.322243557053,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 363,
+        "known_tree_card_triangles": 348
+      },
+      "finest": {
+        "cutout_triangles": 516,
+        "known_tree_card_triangles": 352
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -10
+      ],
+      "distance_cm": 22975.24247141454,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 214,
+        "known_tree_card_triangles": 186
+      },
+      "finest": {
+        "cutout_triangles": 352,
+        "known_tree_card_triangles": 186
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -9
+      ],
+      "distance_cm": 31304.09870562531,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 9,
+        "known_tree_card_triangles": 6
+      },
+      "finest": {
+        "cutout_triangles": 10,
+        "known_tree_card_triangles": 7
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -8
+      ],
+      "distance_cm": 36679.807114325005,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 61,
+        "known_tree_card_triangles": 61
+      },
+      "finest": {
+        "cutout_triangles": 66,
+        "known_tree_card_triangles": 66
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -7
+      ],
+      "distance_cm": 40276.942108109644,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 108,
+        "known_tree_card_triangles": 108
+      },
+      "finest": {
+        "cutout_triangles": 296,
+        "known_tree_card_triangles": 268
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -6
+      ],
+      "distance_cm": 46848.39352671842,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 129,
+        "known_tree_card_triangles": 105
+      },
+      "finest": {
+        "cutout_triangles": 254,
+        "known_tree_card_triangles": 209
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -5
+      ],
+      "distance_cm": 54018.31519586841,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 253,
+        "known_tree_card_triangles": 248
+      },
+      "finest": {
+        "cutout_triangles": 581,
+        "known_tree_card_triangles": 523
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -4
+      ],
+      "distance_cm": 59051.10353651919,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 63,
+        "known_tree_card_triangles": 49
+      },
+      "finest": {
+        "cutout_triangles": 140,
+        "known_tree_card_triangles": 104
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -3
+      ],
+      "distance_cm": 64625.856306085756,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 233,
+        "known_tree_card_triangles": 222
+      },
+      "finest": {
+        "cutout_triangles": 426,
+        "known_tree_card_triangles": 386
+      }
+    },
+    {
+      "cell": [
+        -2,
+        -2
+      ],
+      "distance_cm": 72582.8691708901,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 536,
+        "known_tree_card_triangles": 524
+      },
+      "finest": {
+        "cutout_triangles": 884,
+        "known_tree_card_triangles": 870
+      }
+    },
+    {
+      "cell": [
+        -1,
+        -10
+      ],
+      "distance_cm": 22192.157921462574,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 370,
+        "known_tree_card_triangles": 339
+      },
+      "finest": {
+        "cutout_triangles": 1158,
+        "known_tree_card_triangles": 361
+      }
+    },
+    {
+      "cell": [
+        -1,
+        -9
+      ],
+      "distance_cm": 27593.88783297944,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 244,
+        "known_tree_card_triangles": 244
+      },
+      "finest": {
+        "cutout_triangles": 349,
+        "known_tree_card_triangles": 349
+      }
+    },
+    {
+      "cell": [
+        -1,
+        -8
+      ],
+      "distance_cm": 33664.927105714254,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 248,
+        "known_tree_card_triangles": 248
+      },
+      "finest": {
+        "cutout_triangles": 295,
+        "known_tree_card_triangles": 295
+      }
+    },
+    {
+      "cell": [
+        -1,
+        -7
+      ],
+      "distance_cm": 40121.01783130196,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 132,
+        "known_tree_card_triangles": 132
+      },
+      "finest": {
+        "cutout_triangles": 163,
+        "known_tree_card_triangles": 163
+      }
+    },
+    {
+      "cell": [
+        -1,
+        -6
+      ],
+      "distance_cm": 46571.4167400154,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 180,
+        "known_tree_card_triangles": 169
+      },
+      "finest": {
+        "cutout_triangles": 402,
+        "known_tree_card_triangles": 362
+      }
+    },
+    {
+      "cell": [
+        -1,
+        -5
+      ],
+      "distance_cm": 53883.60398329064,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 29,
+        "known_tree_card_triangles": 27
+      },
+      "finest": {
+        "cutout_triangles": 38,
+        "known_tree_card_triangles": 36
+      }
+    },
+    {
+      "cell": [
+        0,
+        -11
+      ],
+      "distance_cm": 14328.821012697803,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 457,
+        "known_tree_card_triangles": 369
+      },
+      "finest": {
+        "cutout_triangles": 1760,
+        "known_tree_card_triangles": 394
+      }
+    },
+    {
+      "cell": [
+        0,
+        -10
+      ],
+      "distance_cm": 22215.558288239314,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 365,
+        "known_tree_card_triangles": 219
+      },
+      "finest": {
+        "cutout_triangles": 5686,
+        "known_tree_card_triangles": 243
+      }
+    },
+    {
+      "cell": [
+        0,
+        -9
+      ],
+      "distance_cm": 27909.73828125,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 110,
+        "known_tree_card_triangles": 108
+      },
+      "finest": {
+        "cutout_triangles": 1356,
+        "known_tree_card_triangles": 334
+      }
+    },
+    {
+      "cell": [
+        0,
+        -8
+      ],
+      "distance_cm": 33985.92578125,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 249,
+        "known_tree_card_triangles": 240
+      },
+      "finest": {
+        "cutout_triangles": 6546,
+        "known_tree_card_triangles": 396
+      }
+    },
+    {
+      "cell": [
+        0,
+        -7
+      ],
+      "distance_cm": 39761.6015625,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 67,
+        "known_tree_card_triangles": 67
+      },
+      "finest": {
+        "cutout_triangles": 193,
+        "known_tree_card_triangles": 90
+      }
+    },
+    {
+      "cell": [
+        0,
+        -6
+      ],
+      "distance_cm": 46375.41015625,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 100,
+        "known_tree_card_triangles": 77
+      },
+      "finest": {
+        "cutout_triangles": 876,
+        "known_tree_card_triangles": 123
+      }
+    },
+    {
+      "cell": [
+        1,
+        -11
+      ],
+      "distance_cm": 14446.3828125,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 589,
+        "known_tree_card_triangles": 449
+      },
+      "finest": {
+        "cutout_triangles": 9268,
+        "known_tree_card_triangles": 494
+      }
+    },
+    {
+      "cell": [
+        1,
+        -9
+      ],
+      "distance_cm": 27913.30078125,
+      "normal_lod": 2,
+      "normal": {
+        "cutout_triangles": 124,
+        "known_tree_card_triangles": 124
+      },
+      "finest": {
+        "cutout_triangles": 7606,
+        "known_tree_card_triangles": 308
+      }
+    },
+    {
+      "cell": [
+        2,
+        -11
+      ],
+      "distance_cm": 13788.125,
+      "normal_lod": 1,
+      "normal": {
+        "cutout_triangles": 469,
+        "known_tree_card_triangles": 449
+      },
+      "finest": {
+        "cutout_triangles": 486,
+        "known_tree_card_triangles": 455
+      }
+    }
+  ]
+}

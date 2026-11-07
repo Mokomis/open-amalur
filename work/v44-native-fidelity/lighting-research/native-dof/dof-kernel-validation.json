@@ -1,0 +1,13 @@
+{
+  "cases": 160,
+  "maximum_RGBA_error_vs_active_SPIRV1849": 0,
+  "tolerance": 1e-06,
+  "default_params_pack_bit_exact": true,
+  "captured_far_start_world": 9974.3115234375,
+  "far_range_world_float32": 20001.0,
+  "full_alpha_reaches_cap_world_double": 23975.011475297357,
+  "gpu_execution": false,
+  "independence": "Direct SPIR-V interpreter versus concise kernel, same bilinear samples from random quantizedRGBA8scene/fuzziness; sample coordinates differ if kernel/formula is wrong.",
+  "far_fuzz_cases_vs_active_SPIRV1841": 124,
+  "maximum_fuzz_RGBA_error": 0.0
+}

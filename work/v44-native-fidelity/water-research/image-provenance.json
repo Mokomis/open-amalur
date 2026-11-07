@@ -1,0 +1,974 @@
+[
+  {
+    "image": 167,
+    "block": 17668,
+    "file_offset": 81171834,
+    "stored_bytes": 4809663,
+    "compressed": true,
+    "bytes": 5505024,
+    "level_sizes": [
+      5505024
+    ],
+    "aspect": 2,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_D24_UNORM_S8_UINT",
+      "extent": {
+        "width": 1536,
+        "height": 864,
+        "depth": 1
+      },
+      "mipLevels": 1,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 39,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "1f76c3da40cdc0255e3a603bc6498e6bd84d6be5870364c6e862e47ec55d9a31"
+  },
+  {
+    "image": 167,
+    "block": 17669,
+    "file_offset": 85981509,
+    "stored_bytes": 138261,
+    "compressed": true,
+    "bytes": 1376256,
+    "level_sizes": [
+      1376256
+    ],
+    "aspect": 4,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 0,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_D24_UNORM_S8_UINT",
+      "extent": {
+        "width": 1536,
+        "height": 864,
+        "depth": 1
+      },
+      "mipLevels": 1,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 39,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "e07b66ec57e8861c55be1cd4a5d6a51d3d05917a6fadb2c75f472aed98ab4e3d"
+  },
+  {
+    "image": 173,
+    "block": 17671,
+    "file_offset": 86350828,
+    "stored_bytes": 4964748,
+    "compressed": true,
+    "bytes": 5505024,
+    "level_sizes": [
+      5505024
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "extent": {
+        "width": 1536,
+        "height": 864,
+        "depth": 1
+      },
+      "mipLevels": 1,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 23,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "f30b0021d8b5f414013aef5d838bbe1e44a4fc3bafd99e66a0000c1c0709fb2c"
+  },
+  {
+    "image": 3549,
+    "block": 17890,
+    "file_offset": 113859395,
+    "stored_bytes": 66840,
+    "compressed": true,
+    "bytes": 73728,
+    "level_sizes": [
+      49152,
+      12288,
+      3072,
+      3072,
+      3072,
+      3072
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 24,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 128,
+        "height": 128,
+        "depth": 1
+      },
+      "mipLevels": 6,
+      "arrayLayers": 6,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "9a6ea714c7c7a1f7a816ef780e679f8f42fd15fc3d88524408a898ea3d0cac3d",
+    "rgba_file": "cube-3549-128-rgba.bin",
+    "rgba_sha256": "79262e1c889f43c86bcbe167aa6ed7904c74659896e171a66d0caccc3bac6db2"
+  },
+  {
+    "image": 3574,
+    "block": 17895,
+    "file_offset": 113941042,
+    "stored_bytes": 70643,
+    "compressed": true,
+    "bytes": 73728,
+    "level_sizes": [
+      49152,
+      12288,
+      3072,
+      3072,
+      3072,
+      3072
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 24,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 128,
+        "height": 128,
+        "depth": 1
+      },
+      "mipLevels": 6,
+      "arrayLayers": 6,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "08829d423b270c4678775ad1a82521540f21930357bcdff44b813eebaf489234",
+    "rgba_file": "cube-3574-128-rgba.bin",
+    "rgba_sha256": "734ad5d7c45602b201b248e12b4c51fa410d3a6bd4ba5b154b2e375857193185"
+  },
+  {
+    "image": 3594,
+    "block": 17899,
+    "file_offset": 114130445,
+    "stored_bytes": 70462,
+    "compressed": true,
+    "bytes": 73728,
+    "level_sizes": [
+      49152,
+      12288,
+      3072,
+      3072,
+      3072,
+      3072
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 24,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 128,
+        "height": 128,
+        "depth": 1
+      },
+      "mipLevels": 6,
+      "arrayLayers": 6,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "03620834decebd3db94d117033ed1193199ffe0e5f9d758dbae0993efe960231",
+    "rgba_file": "cube-3594-128-rgba.bin",
+    "rgba_sha256": "02875e08c5654ab338f3478e55385bf975ae154bfc577c686dad9bf05ec04015"
+  },
+  {
+    "image": 5752,
+    "block": 18081,
+    "file_offset": 122737522,
+    "stored_bytes": 20798,
+    "compressed": true,
+    "bytes": 23040,
+    "level_sizes": [
+      16384,
+      4096,
+      1024,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 128,
+        "height": 128,
+        "depth": 1
+      },
+      "mipLevels": 6,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "8e8f5c2ac2539561ed557f70839f123086b3cad575430c14b4035910a915d6b3"
+  },
+  {
+    "image": 5767,
+    "block": 18083,
+    "file_offset": 122826415,
+    "stored_bytes": 1488,
+    "compressed": true,
+    "bytes": 4096,
+    "level_sizes": [
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 64,
+        "height": 64,
+        "depth": 1
+      },
+      "mipLevels": 5,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "f334226f0fc2d9d517f92d0c43077405134de44edbc4090228b6c0b9a4d02da2"
+  },
+  {
+    "image": 5782,
+    "block": 18084,
+    "file_offset": 122827915,
+    "stored_bytes": 1488,
+    "compressed": true,
+    "bytes": 4096,
+    "level_sizes": [
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 64,
+        "height": 64,
+        "depth": 1
+      },
+      "mipLevels": 5,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "1a56b4582b5a0b38e00cc25a9aad202eeb86c0820f909c828cdd17215a3b4645"
+  },
+  {
+    "image": 5807,
+    "block": 18085,
+    "file_offset": 122829415,
+    "stored_bytes": 71307,
+    "compressed": true,
+    "bytes": 73728,
+    "level_sizes": [
+      49152,
+      12288,
+      3072,
+      3072,
+      3072,
+      3072
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 24,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 128,
+        "height": 128,
+        "depth": 1
+      },
+      "mipLevels": 6,
+      "arrayLayers": 6,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "d389d74c816d9e8dd54ed0675275b1d1a0c9e0c41061b789ead053f1e34e8544",
+    "rgba_file": "cube-5807-128-rgba.bin",
+    "rgba_sha256": "32d02d0496cb30a3858fce8209fef3cddb438e8486bb882d4ffbfd6e9aac373c"
+  },
+  {
+    "image": 7496,
+    "block": 18222,
+    "file_offset": 125411374,
+    "stored_bytes": 2359,
+    "compressed": true,
+    "bytes": 3072,
+    "level_sizes": [
+      3072
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 24,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "extent": {
+        "width": 8,
+        "height": 8,
+        "depth": 1
+      },
+      "mipLevels": 1,
+      "arrayLayers": 6,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "090365b1b4d5423e5a433753bb464a345fa724ea0fc63320353e3e314ebccdf4"
+  },
+  {
+    "image": 14037,
+    "block": 18524,
+    "file_offset": 282127385,
+    "stored_bytes": 169140,
+    "compressed": true,
+    "bytes": 176128,
+    "level_sizes": [
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 512,
+        "height": 512,
+        "depth": 1
+      },
+      "mipLevels": 8,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "f12ebdabe0a99a70588f89f67360d5d498e4e681eb1868d35a4ecf2497ca875a"
+  },
+  {
+    "image": 14044,
+    "block": 18525,
+    "file_offset": 282296537,
+    "stored_bytes": 317699,
+    "compressed": true,
+    "bytes": 350720,
+    "level_sizes": [
+      262144,
+      65536,
+      16384,
+      4096,
+      1024,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 512,
+        "height": 512,
+        "depth": 1
+      },
+      "mipLevels": 8,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "0c5c6f49d9d27846d80edecc73428c316d74acef14dfb5f7780805028fdc04fc"
+  },
+  {
+    "image": 14062,
+    "block": 18526,
+    "file_offset": 282614248,
+    "stored_bytes": 5438501,
+    "compressed": true,
+    "bytes": 5593088,
+    "level_sizes": [
+      4194304,
+      1048576,
+      262144,
+      65536,
+      16384,
+      4096,
+      1024,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 2048,
+        "height": 2048,
+        "depth": 1
+      },
+      "mipLevels": 9,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "00d5ce806a5cef2ea0684447ea8cb4bee4d349b94483f9e01a64d823061826bb"
+  },
+  {
+    "image": 14067,
+    "block": 18527,
+    "file_offset": 288052761,
+    "stored_bytes": 174882,
+    "compressed": true,
+    "bytes": 176128,
+    "level_sizes": [
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 512,
+        "height": 512,
+        "depth": 1
+      },
+      "mipLevels": 8,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "401d40c53a634fc41bbb1abc809a0bf9912463b227cdc921471a3e21811d300c"
+  },
+  {
+    "image": 14104,
+    "block": 18532,
+    "file_offset": 288421155,
+    "stored_bytes": 2444773,
+    "compressed": true,
+    "bytes": 2797056,
+    "level_sizes": [
+      2097152,
+      524288,
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 2048,
+        "height": 2048,
+        "depth": 1
+      },
+      "mipLevels": 9,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "cbe8658e01552e3ebe48bdfa6668dbb37fd47a7f3ef0cbc7c212e8c7e53df3f4"
+  },
+  {
+    "image": 14456,
+    "block": 18587,
+    "file_offset": 402264905,
+    "stored_bytes": 84068,
+    "compressed": true,
+    "bytes": 88576,
+    "level_sizes": [
+      65536,
+      16384,
+      4096,
+      1024,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 256,
+        "height": 256,
+        "depth": 1
+      },
+      "mipLevels": 7,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "2207e5f7817ddcdfc50636afb47d9e850daa185c4dffa6906a277d4edd2b68c6"
+  },
+  {
+    "image": 14461,
+    "block": 18588,
+    "file_offset": 402348985,
+    "stored_bytes": 12615,
+    "compressed": true,
+    "bytes": 45056,
+    "level_sizes": [
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 256,
+        "height": 256,
+        "depth": 1
+      },
+      "mipLevels": 7,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "1ace47e3a53b5680e27008136f5a16585803c4258efd56b6d56df895105185da"
+  },
+  {
+    "image": 14466,
+    "block": 18589,
+    "file_offset": 402361612,
+    "stored_bytes": 38429,
+    "compressed": true,
+    "bytes": 45056,
+    "level_sizes": [
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 256,
+        "height": 256,
+        "depth": 1
+      },
+      "mipLevels": 7,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "4f785b48cc5c40c873ed567f29d6aae5be1c921f07ab209507897c9ea83ecf1e"
+  },
+  {
+    "image": 14471,
+    "block": 18590,
+    "file_offset": 402400053,
+    "stored_bytes": 85129,
+    "compressed": true,
+    "bytes": 88576,
+    "level_sizes": [
+      65536,
+      16384,
+      4096,
+      1024,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 256,
+        "height": 256,
+        "depth": 1
+      },
+      "mipLevels": 7,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "77cd4ba27d9496e96226d7b1242ee52fb7fbc70b472affe245b8b46559635d3d"
+  },
+  {
+    "image": 14476,
+    "block": 18591,
+    "file_offset": 402485194,
+    "stored_bytes": 43002,
+    "compressed": true,
+    "bytes": 45056,
+    "level_sizes": [
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 256,
+        "height": 256,
+        "depth": 1
+      },
+      "mipLevels": 7,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "20bcbb95621e6952a4c0c4cf759d8e4fac1bc9c688d04faef4d264140958e313"
+  },
+  {
+    "image": 14486,
+    "block": 18593,
+    "file_offset": 402726854,
+    "stored_bytes": 650723,
+    "compressed": true,
+    "bytes": 700416,
+    "level_sizes": [
+      524288,
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 1024,
+        "height": 1024,
+        "depth": 1
+      },
+      "mipLevels": 9,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "65c77d5c1c9e7569b373f75a32c0badf1a56d2f5bd6359fba49a5a0e8030ed2e"
+  },
+  {
+    "image": 14491,
+    "block": 18594,
+    "file_offset": 403377589,
+    "stored_bytes": 603048,
+    "compressed": true,
+    "bytes": 700416,
+    "level_sizes": [
+      524288,
+      131072,
+      32768,
+      8192,
+      2048,
+      512,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 1024,
+        "height": 1024,
+        "depth": 1
+      },
+      "mipLevels": 9,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "e82088a79e4fe2f501aeba9ca60464fe7dd74eaf13a60e6cd63f3d5a301d702c"
+  },
+  {
+    "image": 14505,
+    "block": 18595,
+    "file_offset": 403980649,
+    "stored_bytes": 6850,
+    "compressed": true,
+    "bytes": 1399296,
+    "level_sizes": [
+      1048576,
+      262144,
+      65536,
+      16384,
+      4096,
+      1024,
+      512,
+      512,
+      512
+    ],
+    "aspect": 1,
+    "layout": 1,
+    "create_info": {
+      "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+      "pNext": null,
+      "flags": 8,
+      "imageType": "VK_IMAGE_TYPE_2D",
+      "format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 1024,
+        "height": 1024,
+        "depth": 1
+      },
+      "mipLevels": 9,
+      "arrayLayers": 1,
+      "samples": "VK_SAMPLE_COUNT_1_BIT",
+      "tiling": "VK_IMAGE_TILING_OPTIMAL",
+      "usage": 7,
+      "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+      "queueFamilyIndexCount": 0,
+      "pQueueFamilyIndices": null,
+      "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+    },
+    "sha256": "9152286e3e5418957b61fa2fc69946134abf90e103ee3f650795f1ccdd7dc5f9"
+  }
+]

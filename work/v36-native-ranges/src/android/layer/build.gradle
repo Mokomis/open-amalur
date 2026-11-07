@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion GFXR_COMPILE_SDK_VERSION.toInteger()
+    namespace = 'com.lunarg.gfxreconstruct.layer'
+    ndkVersion = GFXR_NDK_VERSION
+    defaultConfig {
+        minSdkVersion GFXR_MIN_SDK_VERSION.toInteger()
+        ndk {
+            if (providers.gradleProperty("armeabi-v7a").present) {
+                abiFilters 'armeabi-v7a'
+            } else if (providers.gradleProperty("arm64-v8a").present) {
+                abiFilters 'arm64-v8a'
+            } else if (providers.gradleProperty("x86").present) {
+                abiFilters 'x86'
+            } else if (providers.gradleProperty("x86_64").present) {
+                abiFilters 'x86_64'
+            } else {
+                abiFilters 'arm64-v8a', 'x86_64'
+            }
+        }
+        externalNativeBuild {
+            cmake {
+                cppFlags "-fexceptions", "-Wno-nullability-completeness"
+                arguments "-DANDROID_TOOLCHAIN=clang", "-DANDROID_STL=c++_static"
+
+                if (providers.gradleProperty("DisableOpenXR").present) {
+                    logger.info('GFXReconstruct layer built with NO OpenXr Support! [DisableOpenXR found]')
+                    arguments.add("-DGFXRECON_ENABLE_OPENXR=OFF")
+                }
+                else {
+                    logger.info('GFXReconstruct layer built with OpenXr Support.')
+                    arguments.add("-DGFXRECON_ENABLE_OPENXR=ON")
+                }
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    sourceSets {
+       main {
+           assets.srcDirs = ['assets']
+       }
+    }
+}

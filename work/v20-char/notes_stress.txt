@@ -1,0 +1,11 @@
+
+Stress test (2026-10-31), v0.25.1, profiler via debug.opem.profile/skip/scale/crowd. SM8845P, Adreno 829, 11.7 GB RAM.
+- Same 60 Hz lock (16.63 ms) at every world size. Frame 16.63 ms with vsync hides the true cost; submit_ms under vsync is driver wait, not work.
+- Uncapped at full 2520x1680: base 197,592 verts 1.36 ms; r24000 1.53M verts 2.2 ms; r48000 4.6M verts 1.53M tris 1386 model assemblies 4.6 ms. Uncapped numbers are after the driver queue; no frames were visually counted, so treat them as headroom estimates.
+- Six minute sustained uncapped r48000 at full resolution: 4.56 to 4.82 ms, battery temperature 30.6 to 36.3 C, still climbing slowly. Longer soak not done.
+- Crowd multiplies the townspeople draws: x20 9.6 ms, x40 41.8 ms. Characters are the first real limit: each part is one draw with a bone upload.
+- Memory: base 328 MB, r48000 721 MB PSS. Scene is kept on the CPU and GPU. r12000 with 1024 textures, 552 MB; sidecar 150 MB uncompressed RGBA, 75 MB APK.
+- world_load_ms 529 at r48000, excludes GPU upload in graphics_open; a whole-world load blocks the frame.
+- Earlier "17.9 ms town" was startup hitching in the first 120 frames; settled town is 60 Hz.
+- Not covered: foliage and alpha overdraw, full-resolution normal maps, real shadow maps, streaming hitches, AI at scale, physics, audio, other regions. Worlds used a single space (431638), ground grid 1 m. Test caps left raised in scene_materials_v09.h and material_package.py.
+- Stress data in work/v22-stress. Tablet has the normal Gorhart build, versionCode 27.

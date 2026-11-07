@@ -1,0 +1,91 @@
+{
+  "status": "INTEGER QUANTITY PROVEN; original loot interaction not executed",
+  "type": 1789987,
+  "GOR": 1790948,
+  "instance": 1789992,
+  "space": 1417252,
+  "source_file": "work\\v48-opening\\initial-sword-audit\\type-1789987.bin",
+  "source_sha256": "448d4159ca4ed6f40d36279979131162dde53f3e8c341e1476ee83e6072e9e25",
+  "blueprint_file_offset": 180,
+  "kind": 9,
+  "fields": {
+    "type_array_pointer": {
+      "offset": 184,
+      "value": 468
+    },
+    "type_array_count": {
+      "offset": 188,
+      "value": 1
+    },
+    "quantity_array_pointer": {
+      "offset": 192,
+      "value": 472
+    },
+    "quantity_array_count": {
+      "offset": 196,
+      "value": 1
+    },
+    "optional_resource": {
+      "offset": 224,
+      "value": 0
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "type_key_offset": 468,
+      "type_key": 1360571,
+      "quantity_offset": 472,
+      "quantity_signed_i32": 1,
+      "quantity_hex": "01000000"
+    }
+  ],
+  "native_flow": [
+    {
+      "address": "00f0cfc0",
+      "role": "Resolves authored type references at blueprint+4; quantity array left numeric"
+    },
+    {
+      "address": "00f74790",
+      "role": "Copies type-array to Inventory+88/+8c and quantity-array to+98/+9c"
+    },
+    {
+      "address": "00f8e400",
+      "role": "Pairs resolved types[i] with integer quantities[i]; passes quantity as00f8e0c0 param5"
+    },
+    {
+      "address": "00f8e0c0",
+      "role": "Positive integer request loop; create requested actors or split into stack counts; no random acceptance comparison"
+    },
+    {
+      "address": "00fc6170",
+      "role": "Factory called for the requested source Type; internal general actor constructor not re-expanded"
+    },
+    {
+      "address": "00f8dcb0",
+      "role": "Adds created Item to owning Inventory with membership/active checks; optional Lua dispatch, hidden event receiver/name not assigned"
+    },
+    {
+      "address": "00f916f0",
+      "role": "Object::vf4 param2true,param3false initializes authored Inventory via00f8e400"
+    },
+    {
+      "address": "00f965b0",
+      "role": "Inventory load::vf28 calls00f8e400 only when persisted flag0x1000clear"
+    },
+    {
+      "address": "00e7cdf0",
+      "role": "Lua create_loot_objects binding: resolves Inventory9 and permission gate then00f97260"
+    },
+    {
+      "address": "00f97260",
+      "role": "Different pending-entry array Inventory+6c/+70; does not consume+98 authored quantity array"
+    }
+  ],
+  "conclusion": "One authored sword unit in this container's initial inventory, conditional on normal valid actor/type lifecycle. Not a1percent chance, normalizedweight, float probability, or unconditional player grant.",
+  "limits": [
+    "Exact event receiver/name at00df6ef0 is obscured by thiscall decompilation; literal2 is not asserted as an eventID.",
+    "No runtime original interaction or save-state inspection; initialization/restoration guards preserved.",
+    "Stack counter+90 arithmetic is quantities-minus-one convention in this path; full max-stack property schema was not expanded because unnecessary for value1."
+  ]
+}

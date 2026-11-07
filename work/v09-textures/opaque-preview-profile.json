@@ -1,0 +1,721 @@
+{
+  "schema_version": 1,
+  "scope": "Approximate opaque slot-zero visualization on selected stride48 meshes. Material association, UV convention and base-color slot semantics remain partly inferred; original shaders not reconstructed.",
+  "uv_layouts": [
+    {
+      "header_word0": 48,
+      "stride_bytes": 48,
+      "uv_offset": 12,
+      "evidence": [
+        "Original-game importer observed float32 UV0 at byte12 for stride48; native D3D11 declaration confirmation pending.",
+        "Windows uv-layout-diagnostic.json verifies finite UVs for selected floor assembly2 of536933. Native floats retained without1-v conversion."
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "material_id": 1368338,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\1368338.mat_bxml",
+      "material_sha256": "a64489a841fd0c45b4db71c7b357862c8bc729fc02d04b9a7367d78df15dff8c",
+      "shader_id": 8832,
+      "texture_slot": 0,
+      "texture_id": 1368336,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\1368336_0.dds",
+      "texture_sha256": "69d7f1b8e9b8764711b2438eab6fcc939fd684482d5af60f4351def0857ca312",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 1369025,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\1369025.mat_bxml",
+      "material_sha256": "4c5826a5b453ed75c5b867c629e2ad4684ac188b28068299e00b4dc7f73c96ad",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 1368627,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\1368627_2.dds",
+      "texture_sha256": "2b043d7d7758ae26198d752969714f5c7e843d066551a6bbc84701c65cfe09d8",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 1371425,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\1371425.mat_bxml",
+      "material_sha256": "e6a46f6d612bba94434386c9396c109dd205bb2ef696f748f47f00ba99e32dbe",
+      "shader_id": 346951,
+      "texture_slot": 0,
+      "texture_id": 1368627,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\1368627_2.dds",
+      "texture_sha256": "2b043d7d7758ae26198d752969714f5c7e843d066551a6bbc84701c65cfe09d8",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 290531,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\290531.mat_bxml",
+      "material_sha256": "400f6c3ecdb36d5ff5a69e036eff1ad3b75a45ec61a9818a72a17479ace6d291",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 290511,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\290511_0.dds",
+      "texture_sha256": "e5983fe463a2ac23c682a8bf508719ae667c11955cd1f161fc026ebbeb458b2f",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 291938,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\291938.mat_bxml",
+      "material_sha256": "1e2159815de0a0afbaa71b7ec41f96cdefd6acc990150b1a67d6fa1fe24eddb7",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 291935,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\291935_0.dds",
+      "texture_sha256": "3a21e30f1cc8f929e301e12348111044d98e4e5e6bbd1e84bdfd6440d1df0ba3",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 301327,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\301327.mat_bxml",
+      "material_sha256": "8bc5aeb9a943839c6ba0cf3dbb88c19192963ab945df9bc9ce147d7bae599fe7",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 299231,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\299231_2.dds",
+      "texture_sha256": "7e38ebc49226ae95cffa9b58184a9c61d853dbb516b0091a011dddea32a2a7ef",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 301329,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\301329.mat_bxml",
+      "material_sha256": "9e9caf7a40b5dad0f9cf782bf9bc47982b8fbe221f65b9109ef537442a09e465",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 299237,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\299237_2.dds",
+      "texture_sha256": "13517ae50a23bbcb1609e8039206ec5f618006f46e70c1e9117ba627d22369b6",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 301396,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\301396.mat_bxml",
+      "material_sha256": "ce3e426c9e9640c02ffff5422277a6ad6c3c428bd5809e14e4abd6fae0051b96",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 299196,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\299196_2.dds",
+      "texture_sha256": "cf659aa5c8c908c7e1c26b60a3ae1691116ee30ff426c74ebbea28f8d1f68ab9",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 343630,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\343630.mat_bxml",
+      "material_sha256": "7acfeb3861561c9911143bfa4f37305031466b70d0887aa97714993eccc80494",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 343504,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\343504_2.dds",
+      "texture_sha256": "2e6248ab0d494335c1abd2e397f0623e4676ea5740a6c50d6f80aaa0718bf4f2",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 358137,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\358137.mat_bxml",
+      "material_sha256": "7d5922d1eda8af7b1647ba83d4522caf870eeed90acd02de373cbdea9a6d8f11",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 362608,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\362608_0.dds",
+      "texture_sha256": "6358112bc0906aed67d89c9a6c7ebe062f686f3cff825410da9d868980c4bca2",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 405704,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\405704.mat_bxml",
+      "material_sha256": "05b0b49ac430935828b8e3dbd795e1138d7125d9c5cefb02ec47487738ae00e2",
+      "shader_id": 412422,
+      "texture_slot": 0,
+      "texture_id": 362608,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\362608_0.dds",
+      "texture_sha256": "6358112bc0906aed67d89c9a6c7ebe062f686f3cff825410da9d868980c4bca2",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 427119,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\427119.mat_bxml",
+      "material_sha256": "e38e0e611fb26c46961a3be22f615e52f19b04ac9cb24d7fdfe09b165679e4c4",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 405701,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\405701_0.dds",
+      "texture_sha256": "9a0e0432b9ca255eeea5fa6653238b27e47bd09fd884667cf6a7907bfd28ae10",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 429844,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\429844.mat_bxml",
+      "material_sha256": "0526bad3b31a183dec3cade08e58c25f20a34672d4680f4102d21c0bf7214c67",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 429847,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\429847_0.dds",
+      "texture_sha256": "00c515d72081ce15c4b299951aa5430ede5e535d2edd7b4a28a6cdf968ae3518",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 474330,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\474330.mat_bxml",
+      "material_sha256": "d529925055768676a2d2c1871b482c71d10563c6c25453251259256bbb818f0a",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 474331,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\474331_2.dds",
+      "texture_sha256": "6015788ea9ed090cdf98a5dd0f2439d408c427b48c8544c1e7d7fc79e9fe0e5b",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 489075,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\489075.mat_bxml",
+      "material_sha256": "24e3c11b9e265b58edaf087198fdcdf0dc21daa03f86d0c6febc37e689dd0924",
+      "shader_id": 8828,
+      "texture_slot": 0,
+      "texture_id": 489983,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\489983_0.dds",
+      "texture_sha256": "c2246fe48cf61b3146473907a4f0ac2ac20d856f4ee659242610bd7293356876",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 489077,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\489077.mat_bxml",
+      "material_sha256": "d8cf27bfcbc1a062d40ea46cb90e66b1610a775962b068a463f26408689e5ece",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 489071,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\489071_0.dds",
+      "texture_sha256": "69bfffd4b501a9dba5560fee83911907c79264013acc5073ce502e5d02c2aeba",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 493000,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\493000.mat_bxml",
+      "material_sha256": "76d540ca8e6e70cd8c4b59638d5df043220886d64e539bab87bacf545bcbe13c",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 492997,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\492997_2.dds",
+      "texture_sha256": "d0e25a1147580554ada4d3a07094b38a9305ee7da73e42a702277bf73194aa68",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 536565,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\536565.mat_bxml",
+      "material_sha256": "39748c095a54ab3b707ac5f5cae64e6819d167bbaddd5a9eda9f384428007ba8",
+      "shader_id": 12569,
+      "texture_slot": 0,
+      "texture_id": 489983,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\489983_0.dds",
+      "texture_sha256": "c2246fe48cf61b3146473907a4f0ac2ac20d856f4ee659242610bd7293356876",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 551388,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\551388.mat_bxml",
+      "material_sha256": "e0f60e5dbca512b3a6844296e41a739d3d015ca8f660efd45f4b6a4668486b69",
+      "shader_id": 12569,
+      "texture_slot": 0,
+      "texture_id": 362608,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\362608_0.dds",
+      "texture_sha256": "6358112bc0906aed67d89c9a6c7ebe062f686f3cff825410da9d868980c4bca2",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 613077,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\613077.mat_bxml",
+      "material_sha256": "15749ba38da839f48c249eae34348387d8c52fa351e79100c00e29d159d2ec60",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 613067,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\613067_2.dds",
+      "texture_sha256": "3d50a717ec12da676c405d88c9b3cbff38345c5493090622fe60de0aa055bbf5",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 613171,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\613171.mat_bxml",
+      "material_sha256": "ddb2c6719f64ab3bd44dc3811bec59b68e6db7795222fabf0820f9c059482f84",
+      "shader_id": 518262,
+      "texture_slot": 0,
+      "texture_id": 489069,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\489069_0.dds",
+      "texture_sha256": "760e0101b83d3221e81f230734d585b0bd3b9cf4cd06f07f40ba488fa182686a",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682447,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682447.mat_bxml",
+      "material_sha256": "2860d0bd4b93db5656f6724b9062aa16715fcfe7ef4cf2293951d759d8d0f504",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682443,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682443_2.dds",
+      "texture_sha256": "4554b23a80a13f81b1e513781a2a71f5e01c2b68c16e2e0c69edca8c1c97f795",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682559,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682559.mat_bxml",
+      "material_sha256": "57590bc05d9917eb44c898dca4759a33ef0d07cf9e2b2f928f97de6e5fb13fab",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682556,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682556_2.dds",
+      "texture_sha256": "cb0d90f27ce7a919718afc105d95e13ea1d79408c3b7738130be592947a6c31e",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682568,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682568.mat_bxml",
+      "material_sha256": "ffd0347bc9f701e38efd9642ac1e081d49b75266444973381f666f306f0b9302",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682565,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682565_0.dds",
+      "texture_sha256": "7f651287bfb0a9aa9a2424086a7779fac6b5bb172e8a32672b62a4c94b8df85a",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682592,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682592.mat_bxml",
+      "material_sha256": "33ed5f07d2c0d6583f85bf4205d0f54ccc703431a3f1a66999028125d88ff718",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682588,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682588_2.dds",
+      "texture_sha256": "d02679f78b17990c0acbcc378c717204a623b6821c6f5cbe235d9cf7d57e7743",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682599,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682599.mat_bxml",
+      "material_sha256": "4b50633321cfd071dd41ec444d84b04114c84bca5ddd16c7f239eb1f6e6409bc",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682595,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682595_2.dds",
+      "texture_sha256": "4d27822a9b77007ad812e6de6834fd0d5e876a40237d259fa0b5d20a9b36befe",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682691,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682691.mat_bxml",
+      "material_sha256": "a4d0b036671175e48c567d173dd1ccdbae2f15bbea54a5c95abb3d3951f98c01",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682688,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682688_2.dds",
+      "texture_sha256": "75f272c8cdc7c711ac8f110b6a1357cf3037996a71ad43bdfd92c78ccf3bc38c",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682797,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682797.mat_bxml",
+      "material_sha256": "d81fb2507b4c1710475a49d0943b1d09e674142fadb3ee575096ecdee2e86e52",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682789,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682789_2.dds",
+      "texture_sha256": "014b61b9e69d45ae5bdff38274bfe81dd8d8e6c1812b309ffaa03e4d5b41a6aa",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682859,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682859.mat_bxml",
+      "material_sha256": "56f3dba81174e3ba96dca4ebca220a2d83853a87af8d830fa89717692b24e8be",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682847,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682847_2.dds",
+      "texture_sha256": "fc9f4f45ef8e0e06a125dcbc6e6d5af12ca391dfc7d07eac7a8e9a3dc9637d3c",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682943,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682943.mat_bxml",
+      "material_sha256": "82397d27bbbb1e4b84740b89e91041bfb7745d9b332834b2b3c5f883eb72c85c",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682940,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682940_2.dds",
+      "texture_sha256": "9301e7d3858890f1d9646a19e662c7f8d8cea0f59b6e7316a964983646c29274",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682954,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682954.mat_bxml",
+      "material_sha256": "3a7fe4b9283f8d194f02a1ca2512e4af42c581556dd0ef35fa623619f847e4dd",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682951,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682951_0.dds",
+      "texture_sha256": "5b558bd9de590986ec0d563230c0bd1e05a2b3fc314b679f5228bce358bc020d",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682966,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682966.mat_bxml",
+      "material_sha256": "c61ddbd9b5834fb1e90359b138dad2f9401dbee3092532ae04dc6e0960d688c3",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682963,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682963_2.dds",
+      "texture_sha256": "2a6f3226b999b1baa349b6fc62e8b09da37936e535637cd557f99e8a357f202e",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 682979,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\682979.mat_bxml",
+      "material_sha256": "452a8428323479bc365196a673d15f37f76568a7526cc0ad86333aaacae08dbb",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 682976,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\682976_2.dds",
+      "texture_sha256": "7196605ee2388ae00b77e7c900388f17997bc2c954cd56e1e722c5dee0e273a0",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 683165,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\683165.mat_bxml",
+      "material_sha256": "3230740d5ecbf2770ea085b4e8388a7daed68c6002dd19252761e6a12325bd1a",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 683162,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\683162_2.dds",
+      "texture_sha256": "9585a53b913f3db64f997f9f049925200e533fb968b326f054fadd16eb6ff175",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 683342,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\683342.mat_bxml",
+      "material_sha256": "19dce29bd9cbd198d93818f0b9ca9c0f35753494c50866984adb11856161d96f",
+      "shader_id": 8832,
+      "texture_slot": 0,
+      "texture_id": 683319,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\683319_2.dds",
+      "texture_sha256": "9890400200b72f278e9c98c497fb8f580cb0fab0acc1531956dfc85f9513ad65",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 683350,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\683350.mat_bxml",
+      "material_sha256": "2be840e271e75043ca7bdc81e4f089ed638444c39297470fe40f56aa0a95b06d",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 683320,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\683320_2.dds",
+      "texture_sha256": "455fe3c065384d5ffcf28ee8bddacdac3d6c1279a64c08dc01dd44809e748ea5",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 683850,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\683850.mat_bxml",
+      "material_sha256": "88c1f7cf1a31b0002491dd759bb6de0f97f06a7f3bb13b10ca0758b75d2acf73",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 683846,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\683846_0.dds",
+      "texture_sha256": "2a2d05b450c43bfc79689825c3967ca478d0f8584b0e1ed9888c24bd3ffc38d7",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 684007,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\684007.mat_bxml",
+      "material_sha256": "4b13cd9deba9b257850025e0b01ffa1a5f83212e41bf44d8da327f665bbb9d67",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 683995,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\683995_2.dds",
+      "texture_sha256": "1b7a1261c35ac164ca4da0aafe99abf073819edb5c20020eae177e88c70f7c98",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 694579,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\694579.mat_bxml",
+      "material_sha256": "d8fcd99f3f0d8493e6fcc0d1aa80e4d56750a28bb2bd2e03e09162c54fa00723",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 694573,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\694573_0.dds",
+      "texture_sha256": "3b45b49e1b5d328d3ee22b067c8d1e43941d50b09575df062f72ef24b11a43e6",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 708927,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\708927.mat_bxml",
+      "material_sha256": "e8b41ab8b339a3fa5f38121ddacbc17e6ee8bb3d142ef185f723a3a4682c7670",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 708919,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\708919_0.dds",
+      "texture_sha256": "ce9640e819ef5a36c788148960d6918aadb60fc3d71b4c1ea5d4070f7a4abcb5",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 708975,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\708975.mat_bxml",
+      "material_sha256": "87fdba35641a7401fd6a1a77a0705800f0b5244e755d4c7e30057269ee12d4b8",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 708923,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\708923_0.dds",
+      "texture_sha256": "f6ddd2b3ea2d84323e4e817b69a2270af80790841667af727514f5a13fa765a2",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 709948,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\709948.mat_bxml",
+      "material_sha256": "cfc6a324a0a34f3081472f403fa0fc69519d2866e881da070503bacd42557e73",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 709945,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\709945_2.dds",
+      "texture_sha256": "614e3b7429b3265c81d4fad8c3724dc5d5faf136f90508c2ab0d60fe8d2d5565",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 709954,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\709954.mat_bxml",
+      "material_sha256": "51d6b856eff1dad6e3a08e278e04d230b924216f48bc4dbe03720305fc36637e",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 709951,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\709951_2.dds",
+      "texture_sha256": "9e72dcaf6b7a2469e4267413a61ebc0a9351df806005bb14ed27fbc13329eb4b",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    },
+    {
+      "material_id": 709967,
+      "material_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\709967.mat_bxml",
+      "material_sha256": "14cff942a44b99e7cbfd4d4019781c7a515a7dd738f3a86b0be7093760c88f01",
+      "shader_id": 419915,
+      "texture_slot": 0,
+      "texture_id": 709964,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\initial_0.pak\\709964_2.dds",
+      "texture_sha256": "f2bdf790272ed3f8b3d3a7b07ce3f2a206ee25fe36adb18a42a084d3b19e6590",
+      "decode_level": 0,
+      "evidence": [
+        "Authored approximate slot0 opaque preview; original shader semantics unverified.",
+        "Native material dependency reader proves texture IDs; exact material array/texture/geometry identities checked by assembler.",
+        "Explicit DATA then initial archive candidate preference; native mount precedence unverified."
+      ]
+    }
+  ]
+}

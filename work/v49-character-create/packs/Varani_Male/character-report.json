@@ -1,0 +1,466 @@
+{
+  "parts": [
+    {
+      "label": "hands",
+      "fab": 514034,
+      "vertices": 1086,
+      "indices": 4344,
+      "palette": 24,
+      "max_vertex_joint": 23,
+      "inverse_bind_error": 0.0,
+      "material": "base_male_body_01",
+      "textures": [
+        "base_male_body_02_d",
+        "base_male_body_01_a",
+        "base_male_body_01_s",
+        "base_male_body_01_n"
+      ],
+      "chosen": "base_male_body_02_d from 1290634_2.dds 512x512"
+    },
+    {
+      "label": "feet",
+      "fab": 1318952,
+      "vertices": 680,
+      "indices": 3144,
+      "palette": 4,
+      "max_vertex_joint": 3,
+      "inverse_bind_error": 0.0,
+      "material": "01_varani_peasant_male_feet",
+      "textures": [
+        "01_varani_peasant_male_feet_d",
+        "01_varani_peasant_male_feet_s",
+        "01_varani_peasant_male_feet_n"
+      ],
+      "chosen": "01_varani_peasant_male_feet_d from 1318840_1.dds 512x512"
+    },
+    {
+      "label": "legs",
+      "fab": 1318954,
+      "vertices": 1104,
+      "indices": 4764,
+      "palette": 8,
+      "max_vertex_joint": 7,
+      "inverse_bind_error": 0.0,
+      "material": "01_varani_peasant_male_legs",
+      "textures": [
+        "01_varani_peasant_male_legs_d",
+        "01_varani_peasant_male_legs_a",
+        "01_varani_peasant_male_legs_s",
+        "01_varani_peasant_male_legs_n"
+      ],
+      "chosen": "01_varani_peasant_male_legs_d from 1318847_1.dds 512x512"
+    },
+    {
+      "label": "torso",
+      "fab": 1318955,
+      "vertices": 99,
+      "indices": 198,
+      "palette": 6,
+      "max_vertex_joint": 5,
+      "inverse_bind_error": 0.0,
+      "material": "base_male_body_01",
+      "textures": [
+        "base_male_body_02_d",
+        "base_male_body_01_a",
+        "base_male_body_01_s",
+        "base_male_body_01_n"
+      ],
+      "chosen": "base_male_body_02_d"
+    },
+    {
+      "label": "torso",
+      "fab": 1318955,
+      "vertices": 862,
+      "indices": 3783,
+      "palette": 14,
+      "max_vertex_joint": 13,
+      "inverse_bind_error": 0.0,
+      "material": "01_varani_peasant_male_torso",
+      "textures": [
+        "01_varani_peasant_male_torso_d",
+        "01_varani_peasant_male_torso_s",
+        "01_varani_peasant_male_torso_n"
+      ],
+      "chosen": "01_varani_peasant_male_torso_d from 1318850_1.dds 512x512"
+    },
+    {
+      "label": "head",
+      "fab": 1362163,
+      "vertices": 412,
+      "indices": 1704,
+      "palette": 3,
+      "max_vertex_joint": 2,
+      "inverse_bind_error": 177.977,
+      "material": "human_mouth_interior_01",
+      "textures": [
+        "mouth_interior_d",
+        "mouth_interior_s",
+        "mouth_interior_n"
+      ],
+      "chosen": "mouth_interior_d from 535019_1.dds 512x512"
+    },
+    {
+      "label": "head",
+      "fab": 1362163,
+      "vertices": 1299,
+      "indices": 5532,
+      "palette": 25,
+      "max_vertex_joint": 24,
+      "inverse_bind_error": 184.428,
+      "material": "base_male_varani_head_01",
+      "textures": [
+        "base_male_varani_head_02_d",
+        "base_male_body_01_a",
+        "base_male_head_01_s",
+        "base_male_varani_head_01_n",
+        "varani_male_head_det"
+      ],
+      "chosen": "base_male_varani_head_02_d from 1430980_1.dds 256x512"
+    },
+    {
+      "label": "head",
+      "fab": 1362163,
+      "vertices": 209,
+      "indices": 864,
+      "palette": 2,
+      "max_vertex_joint": 1,
+      "inverse_bind_error": 182.304,
+      "material": "human_eye_01",
+      "textures": [
+        "human_eye_d",
+        "editor_white",
+        "human_eye_mask",
+        "eye_reflection"
+      ],
+      "chosen": "human_eye_d from 744833_1.dds 512x512"
+    },
+    {
+      "label": "hair",
+      "fab": 1302013,
+      "vertices": 851,
+      "indices": 3507,
+      "palette": 8,
+      "max_vertex_joint": 7,
+      "inverse_bind_error": 0.0,
+      "material": "04_varani_hair",
+      "textures": [
+        "04_varani_hair_a",
+        "04_varani_hair_mask_a",
+        "04_varani_hair_n"
+      ],
+      "chosen": "04_varani_hair_a from 1302005_1.dds 256x256"
+    },
+    {
+      "label": "beard",
+      "fab": 1293355,
+      "vertices": 1038,
+      "indices": 4662,
+      "palette": 18,
+      "max_vertex_joint": 17,
+      "inverse_bind_error": 220.636,
+      "material": "01_varani_beard",
+      "textures": [
+        "01_varani_beard_a",
+        "01_varani_beard_mask_a",
+        "01_varani_beard_n"
+      ],
+      "chosen": "01_varani_beard_a from 1293324_1.dds 256x256"
+    },
+    {
+      "label": "beard",
+      "fab": 1293355,
+      "vertices": 48,
+      "indices": 132,
+      "palette": 13,
+      "max_vertex_joint": 12,
+      "inverse_bind_error": 220.636,
+      "material": "03_varani_beard",
+      "textures": [
+        "03_varani_beard_a",
+        "03_varani_beard_mask_a",
+        "03_varani_beard_n"
+      ],
+      "chosen": "03_varani_beard_a from 1348509_1.dds 256x256"
+    },
+    {
+      "label": "02_steel_sword_1h",
+      "vertices": 321,
+      "texture": 10
+    },
+    {
+      "label": "01_iron_sword_1h",
+      "vertices": 391,
+      "texture": 11
+    },
+    {
+      "label": "03_azurite_sword_1h",
+      "vertices": 784,
+      "texture": 12
+    },
+    {
+      "label": "04_sylvanite_sword_1h",
+      "vertices": 832,
+      "texture": 13
+    },
+    {
+      "label": "05_prismere_sword_1h",
+      "vertices": 1099,
+      "texture": 14
+    }
+  ],
+  "clips": [
+    [
+      "human_idle_01",
+      101,
+      29.999998092651367
+    ],
+    [
+      "human_walk_01",
+      33,
+      29.999998092651367
+    ],
+    [
+      "human_run_01",
+      21,
+      29.999998092651367
+    ],
+    [
+      "human_sword_attack_x_02",
+      51,
+      29.999998092651367
+    ],
+    [
+      "human_sword_attack_xx_02",
+      59,
+      29.999998092651367
+    ],
+    [
+      "human_sword_attack_xxx_02",
+      51,
+      29.999998092651367
+    ],
+    [
+      "human_norreacfrt",
+      36,
+      29.999998092651367
+    ],
+    [
+      "human_Death_01",
+      121,
+      29.999998092651367
+    ],
+    [
+      "human_sword_idle_01",
+      61,
+      29.999998092651367
+    ],
+    [
+      "human_walk_01",
+      33,
+      29.999998092651367
+    ],
+    [
+      "human_run_01",
+      21,
+      29.999998092651367
+    ],
+    [
+      "human_sword_attack_xxxx_02",
+      76,
+      29.999998092651367
+    ],
+    [
+      "human_run_start_01",
+      21,
+      29.999998092651367
+    ],
+    [
+      "human_run_stop_01",
+      36,
+      29.999998092651367
+    ],
+    [
+      "human_run_stop_short_01",
+      31,
+      29.999998092651367
+    ],
+    [
+      "human_M_walk_Start",
+      33,
+      29.999998092651367
+    ],
+    [
+      "human_M_walk_stop",
+      31,
+      29.999998092651367
+    ],
+    [
+      "Human_Idle_turn_90_Left_Ent_Run",
+      28,
+      29.999998092651367
+    ],
+    [
+      "Human_Idle_turn_90_Right_Ent_Run",
+      28,
+      29.999998092651367
+    ],
+    [
+      "Human_Idle_turn_180_Right_Ent_Run",
+      19,
+      29.999998092651367
+    ],
+    [
+      "human_M_Idle_Turn_90_Left_walk",
+      33,
+      29.999998092651367
+    ],
+    [
+      "human_M_Idle_Turn_90_Rgt_walk",
+      58,
+      29.999998092651367
+    ],
+    [
+      "human_run_Slope_Up_Blend",
+      11,
+      29.999998092651367
+    ],
+    [
+      "human_run_Slope_Down_Blend",
+      11,
+      29.999998092651367
+    ],
+    [
+      "human_run_turn_left_Blend",
+      11,
+      29.999998092651367
+    ],
+    [
+      "human_run_turn_Right_Blend",
+      11,
+      29.999998092651367
+    ],
+    [
+      "Player_Idle_Variation01",
+      101,
+      29.999998092651367
+    ],
+    [
+      "Player_Idle_Variation03",
+      101,
+      29.999998092651367
+    ],
+    [
+      "Player_Idle_Variation04",
+      128,
+      29.999998092651367
+    ],
+    [
+      "Player_Idle_Variation05",
+      120,
+      29.999998092651367
+    ]
+  ],
+  "bytes": 13629260,
+  "source_recipe": {
+    "type": "Varani_Male",
+    "simtype_lite": 1536821,
+    "parts": [
+      [
+        514034,
+        "hands"
+      ],
+      [
+        1318952,
+        "feet"
+      ],
+      [
+        1318954,
+        "legs"
+      ],
+      [
+        1318955,
+        "torso"
+      ],
+      [
+        1362163,
+        "head"
+      ],
+      [
+        1302013,
+        "hair"
+      ],
+      [
+        1293355,
+        "beard"
+      ]
+    ],
+    "source_default_cosmetics": {
+      "Head": {
+        "simtype": 1304403,
+        "fabs": [
+          1362163
+        ],
+        "bundle": {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v49-character-create\\source\\initial_0.pak\\1304403.bundle",
+          "sha256": "290496bd17db0f2b7a847daaaa73670375ba7e6b33651be79a3ad69952ae632c",
+          "count": 3,
+          "typed_count": 1,
+          "ids": [
+            541380,
+            1252457,
+            1362163
+          ],
+          "kinds": [
+            4,
+            59,
+            16
+          ]
+        }
+      },
+      "Hair": {
+        "simtype": 1304591,
+        "fabs": [
+          1302013
+        ],
+        "bundle": {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v49-character-create\\source\\initial_0.pak\\1304591.bundle",
+          "sha256": "92eb72906f09f9f6dff91d56067f0552d94d82f0dd5460b4e1f5d8d3bd82de4c",
+          "count": 1,
+          "typed_count": 0,
+          "ids": [
+            1302013
+          ],
+          "kinds": [
+            16
+          ]
+        }
+      },
+      "Beard": {
+        "simtype": 1389483,
+        "fabs": [
+          1293355
+        ],
+        "bundle": {
+          "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v49-character-create\\source\\initial_0.pak\\1389483.bundle",
+          "sha256": "618b1e659d5d69204d1d32943e4b2197dc412f19b5c64dc229b9b7969094aa7f",
+          "count": 1,
+          "typed_count": 0,
+          "ids": [
+            1293355
+          ],
+          "kinds": [
+            16
+          ]
+        }
+      }
+    },
+    "limitations": [
+      "Diffuse-only material path; no preset color indices applied",
+      "Hair/beard color/mask requires new material support",
+      "Eye-shadow/mouth-black omitted by old builder",
+      "Facial joints fall back to ancestor on common64-joint rig",
+      "Not yet GPU-render validated; no claim of exact original preset"
+    ]
+  },
+  "sha256": "0c9452b0ee5412e8066f830020ccdda2cf28bd7be1539c88d37a8b453bf901e2"
+}

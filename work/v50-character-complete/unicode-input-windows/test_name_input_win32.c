@@ -1,0 +1,51 @@
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
+#include <imm.h>
+#include <process.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include <wchar.h>
+#include "oa_desktop_name_input.h"
+static HWND primary;
+static unsigned checks,raw_keys,mouse_events;static int focus_value,focus_events;
+#define CHECK(x) do{checks++;if(!(x)){fprintf(stderr,"FAIL line%d %s winerr=%lu\n",__LINE__,#x,GetLastError());ExitProcess(2);}}while(0)
+static HANDLE work,done,thread;static struct {int kind,active,result,confirmed;size_t cap;unsigned repeats;char text[65],output[65];} job;
+static void focus_cb(void*c,int value){(void)c;focus_value=value;focus_events++;}
+static LRESULT CALLBACK parent_proc(HWND h,UINT m,WPARAM w,LPARAM l){LRESULT result;if(oa_desktop_name_gui_message(h,m,w,l,&result))return result;if(m==WM_KEYDOWN||m==WM_KEYUP)raw_keys++;if(m==WM_MOUSEMOVE||m==WM_LBUTTONDOWN||m==WM_LBUTTONUP)mouse_events++;if(h==primary&&m==WM_SETFOCUS)focus_value=1;if(h==primary&&m==WM_KILLFOCUS)focus_value=0;return DefWindowProcW(h,m,w,l);}
+static void pump(void){MSG msg;unsigned count=0;while(PeekMessageW(&msg,NULL,0,0,PM_REMOVE)){TranslateMessage(&msg);DispatchMessageW(&msg);CHECK(++count<200000);}}
+static unsigned __stdcall worker(void*unused){(void)unused;for(;;){unsigned i;WaitForSingleObject(work,INFINITE);if(job.kind==9)return 0;if(job.kind==1){job.result=0;for(i=0;i<job.repeats;i++)if(oa_desktop_name_input(job.active,job.text))job.result=-1;}else if(job.kind==3){job.result=oa_desktop_name_input(1,job.text);if(!job.result)job.result=oa_desktop_name_poll(job.output,job.cap,&job.confirmed);}else job.result=oa_desktop_name_poll(job.output,job.cap,&job.confirmed);SetEvent(done);}}
+static void dispatch(void){DWORD start=GetTickCount();ResetEvent(done);SetEvent(work);while(WaitForSingleObject(done,0)!=WAIT_OBJECT_0){pump();CHECK(GetTickCount()-start<10000);Sleep(1);}pump();}
+static int sync_text(int active,const char*s,unsigned repeats){memset(&job,0,sizeof job);job.kind=1;job.active=active;job.repeats=repeats;CHECK(!s||strlen(s)<=64);if(s)strcpy(job.text,s);dispatch();return job.result;}
+static int poll_text(char*out,size_t cap,int*confirmed){job.kind=2;job.cap=cap;job.confirmed=123;memset(job.output,0x5a,sizeof job.output);dispatch();if(job.result==1){strcpy(out,job.output);*confirmed=job.confirmed;}return job.result;}
+static void expect_event(const char*s,int confirmed){char out[65]={0};int c=99;CHECK(poll_text(out,sizeof out,&c)==1);if(strcmp(s,out))fprintf(stderr,"EVENT expected=[%s] actual=[%s] confirmed=%d expectedC=%d\n",s,out,c,confirmed);CHECK(!strcmp(s,out));CHECK(c==confirmed);}
+static void expect_text(HWND edit,const WCHAR*w){WCHAR out[257];int n=GetWindowTextW(edit,out,257);CHECK(n==(int)wcslen(w));CHECK(!wcscmp(out,w));}
+static void replace(HWND edit,const WCHAR*w){SendMessageW(edit,EM_SETSEL,0,-1);SendMessageW(edit,EM_REPLACESEL,TRUE,(LPARAM)w);pump();}
+static void clipboard(const WCHAR*w){size_t bytes=(wcslen(w)+1)*sizeof(WCHAR);HGLOBAL h=GlobalAlloc(GMEM_MOVEABLE,bytes);void*p;CHECK(h);p=GlobalLock(h);CHECK(p);memcpy(p,w,bytes);GlobalUnlock(h);CHECK(OpenClipboard(NULL));CHECK(EmptyClipboard());CHECK(SetClipboardData(CF_UNICODETEXT,h)!=NULL);CHECK(CloseClipboard());}
+int main(void){
+ HWINSTA original_station,station;HDESK original_desktop,desktop;WCHAR station_name[80],old_name[256],new_name[256];DWORD need;WNDCLASSW wc={0};HWND parent,edit,other;WCHAR emojis[35];char emoji_utf8[65],out[65];int c;unsigned i;DWORD a,b;LRESULT z;int undo;
+ original_station=GetProcessWindowStation();original_desktop=GetThreadDesktop(GetCurrentThreadId());CHECK(GetUserObjectInformationW(original_station,UOI_NAME,old_name,sizeof old_name,&need));swprintf(station_name,80,L"OANameFixture_%lu",GetCurrentProcessId());station=CreateWindowStationW(station_name,0,WINSTA_ALL_ACCESS,NULL);CHECK(station);CHECK(SetProcessWindowStation(station));desktop=CreateDesktopW(L"Fixture",NULL,NULL,0,GENERIC_ALL,NULL);CHECK(desktop);CHECK(SetThreadDesktop(desktop));CHECK(GetUserObjectInformationW(GetProcessWindowStation(),UOI_NAME,new_name,sizeof new_name,&need));CHECK(wcscmp(old_name,new_name));printf("Clipboard isolation original=%ls private=%ls\n",old_name,new_name);
+ wc.lpfnWndProc=parent_proc;wc.hInstance=GetModuleHandleW(NULL);wc.lpszClassName=L"OANameInputFixture";CHECK(RegisterClassW(&wc));parent=CreateWindowExW(0,wc.lpszClassName,L"Private Unicode fixture",WS_OVERLAPPEDWINDOW|WS_VISIBLE,0,0,640,400,NULL,NULL,wc.hInstance,NULL);CHECK(parent);primary=parent;SetFocus(NULL);CHECK(!oa_desktop_name_gui_attach(parent,NULL,focus_cb));SetFocus(parent);pump();work=CreateEventW(NULL,FALSE,FALSE,NULL);done=CreateEventW(NULL,TRUE,FALSE,NULL);CHECK(work&&done);thread=(HANDLE)_beginthreadex(NULL,0,worker,NULL,0,NULL);CHECK(thread);
+ CHECK(!sync_text(1,"Mira",1));edit=GetDlgItem(parent,OA_DESKTOP_NAME_EDIT_ID);CHECK(edit&&IsWindowUnicode(edit));CHECK(GetFocus()==edit&&focus_value==1);expect_text(edit,L"Mira");CHECK(poll_text(out,sizeof out,&c)==0);
+ /* Native replacement and selection/undo survive repeated render sync. */
+ SendMessageW(edit,EM_SETSEL,1,3);SendMessageW(edit,EM_REPLACESEL,TRUE,(LPARAM)L"X");expect_event("MXa",0);undo=(int)SendMessageW(edit,EM_CANUNDO,0,0);CHECK(undo);SendMessageW(edit,EM_SETSEL,1,2);CHECK(!sync_text(1,"MXa",50000));SendMessageW(edit,EM_GETSEL,(WPARAM)&a,(LPARAM)&b);CHECK(a==1&&b==2&&SendMessageW(edit,EM_CANUNDO,0,0)==undo);
+ replace(edit,L"\x00e9\x4e2d\xd83d\xde00");expect_event("\xc3\xa9\xe4\xb8\xad\xf0\x9f\x98\x80",0);expect_text(edit,L"\x00e9\x4e2d\xd83d\xde00");CHECK(!sync_text(1,"Hi",1));SendMessageW(edit,WM_CHAR,0xd83d,0);CHECK(poll_text(out,sizeof out,&c)==0);SendMessageW(edit,WM_CHAR,0xde00,0);expect_event("Hi\xf0\x9f\x98\x80",0);expect_text(edit,L"Hi\xd83d\xde00");
+ SendMessageW(edit,WM_CHAR,8,0);expect_text(edit,L"Hi");expect_event("Hi",0);
+ /* Actual private clipboard WM_PASTE and Ctrl+V standard EDIT shortcut. */
+ clipboard(L"\x00c9\x4e2d\xd83d\xde00");SendMessageW(edit,EM_SETSEL,0,-1);SendMessageW(edit,WM_PASTE,0,0);expect_event("\xc3\x89\xe4\xb8\xad\xf0\x9f\x98\x80",0);
+ clipboard(L"\x6587\x5b57");SendMessageW(edit,EM_SETSEL,0,-1);SendMessageW(edit,WM_CHAR,0x16,0);expect_event("\xe6\x96\x87\xe5\xad\x97",0);
+ CHECK(!sync_text(1,"Keep",1));clipboard(L"Bad\xd800");SendMessageW(edit,EM_SETSEL,0,-1);SendMessageW(edit,WM_PASTE,0,0);expect_text(edit,L"Keep");CHECK(poll_text(out,sizeof out,&c)==0);replace(edit,L"12345678901234567");expect_text(edit,L"Keep");CHECK(poll_text(out,sizeof out,&c)==0);replace(edit,L"\xd800");expect_text(edit,L"Keep");CHECK(poll_text(out,sizeof out,&c)==0);CHECK(sync_text(1,"\xc0\xaf",1)==-1);expect_text(edit,L"Keep");
+ for(i=0;i<16;i++){emojis[2*i]=0xd83d;emojis[2*i+1]=0xde00;memcpy(emoji_utf8+4*i,"\xf0\x9f\x98\x80",4);}emojis[32]=0;emoji_utf8[64]=0;clipboard(emojis);SendMessageW(edit,EM_SETSEL,0,-1);SendMessageW(edit,WM_PASTE,0,0);expect_text(edit,emojis);expect_event(emoji_utf8,0);emojis[32]=0xd83d;emojis[33]=0xde00;emojis[34]=0;clipboard(emojis);SendMessageW(edit,EM_SETSEL,0,-1);SendMessageW(edit,WM_PASTE,0,0);emojis[32]=0;expect_text(edit,emojis);CHECK(poll_text(out,sizeof out,&c)==0);
+ /* An older worker sync must not undo an unpolled native change. */
+ CHECK(!sync_text(1,"Old",1));replace(edit,L"New");CHECK(!sync_text(1,"Old",1));expect_text(edit,L"New");expect_event("New",0);replace(edit,L"Later");memset(&job,0,sizeof job);job.kind=3;job.cap=65;strcpy(job.text,"Old");ResetEvent(done);SetEvent(work);CHECK(WaitForSingleObject(done,10000)==WAIT_OBJECT_0);CHECK(job.result==1&&!strcmp(job.output,"Later"));pump();expect_text(edit,L"Later");CHECK(!sync_text(1,"NewZ",1));expect_text(edit,L"NewZ");CHECK(poll_text(out,sizeof out,&c)==0);
+ replace(edit,L"Caf\x00e9");SendMessageW(edit,WM_KEYDOWN,VK_RETURN,0);SendMessageW(edit,WM_KEYDOWN,VK_RETURN,1LL<<30);expect_event("Caf\xc3\xa9",1);CHECK(poll_text(out,sizeof out,&c)==0);SendMessageW(edit,WM_KEYUP,VK_RETURN,0);SendMessageW(edit,WM_KEYDOWN,VK_ESCAPE,0);expect_event("Caf\xc3\xa9",-1);SendMessageW(edit,WM_KEYUP,VK_ESCAPE,0);CHECK(raw_keys==0);
+ /* Raw parent key injection is consumed once, while mouse stays Veil-owned. */
+ SendMessageW(edit,EM_SETSEL,(WPARAM)-1,-1);SendMessageW(parent,WM_KEYDOWN,'A',0);SendMessageW(parent,WM_CHAR,'A',0);SendMessageW(parent,WM_KEYUP,'A',0);expect_event("Caf\xc3\xa9""A",0);CHECK(raw_keys==0);SendMessageW(parent,WM_MOUSEMOVE,0,0);CHECK(mouse_events==1);
+ /* Capacity rejection retains event and previous output; no partial UTF8. */
+ replace(edit,L"\x4e2d");CHECK(poll_text(out,2,&c)==-1);expect_event("\xe4\xb8\xad",0);
+ /* Synthetic native composition notifications exercise deferred publication;
+  * no claim of a physical CJK IME/session is made by this fixture. */
+ CHECK(!sync_text(1,"Ime",1));SendMessageW(edit,WM_IME_STARTCOMPOSITION,0,0);replace(edit,L"\x65e5\x672c");CHECK(poll_text(out,sizeof out,&c)==0);SendMessageW(edit,WM_IME_ENDCOMPOSITION,0,0);expect_event("\xe6\x97\xa5\xe6\x9c\xac",0);
+ other=CreateWindowExW(0,wc.lpszClassName,L"Private focus target",WS_OVERLAPPEDWINDOW|WS_VISIBLE,0,0,100,100,NULL,NULL,wc.hInstance,NULL);CHECK(other);SetFocus(other);pump();CHECK(focus_value==0&&focus_events>0);SetFocus(parent);pump();CHECK(focus_value==1&&GetFocus()==edit);DestroyWindow(other);
+ replace(edit,L"Discard");CHECK(!sync_text(0,NULL,1));CHECK(GetFocus()==parent);CHECK(!sync_text(1,"",1));expect_text(edit,L"");CHECK(!sync_text(1,"Fresh",1));expect_text(edit,L"Fresh");CHECK(poll_text(out,sizeof out,&c)==0);CHECK(!sync_text(0,NULL,1));oa_desktop_name_gui_shutdown();CHECK(!IsWindow(edit));CHECK(sync_text(1,"After",1)==-1);CHECK(!oa_desktop_name_gui_message(parent,OA_DESKTOP_NAME_UPDATE,0,0,&z));job.kind=9;SetEvent(work);CHECK(WaitForSingleObject(thread,10000)==WAIT_OBJECT_0);CloseHandle(thread);CloseHandle(work);CloseHandle(done);DestroyWindow(parent);pump();CHECK(SetThreadDesktop(original_desktop));CHECK(SetProcessWindowStation(original_station));CHECK(CloseDesktop(desktop));CHECK(CloseWindowStation(station));printf("PASS %u actualWin32checks Unicodeaccent/CJK/nonBMP/privatepaste/confirm/cancel/surrogates/IMEdefer/focus/threadqueues/50000unchangedsyncs; nofile/save/realclipboardwrites\n",checks);return 0;
+}

@@ -1,0 +1,30 @@
+{
+  "status": "GAP CONFIRMED: ASCII UI over UTF8 profile backend",
+  "source_sha256": {
+    "work/v19-host/oa_creation_ui.inc": "97e5b2a4659867416a7d5cde2685c27ba09c91e13d88e9771b5de2f2ea9ddb47",
+    "work/v19-host/oa_ui.c": "dc5db7d85af09c534661fe292251b108762f39516ad30668e5ba730a0b6f2f2e",
+    "work/v19-host/oa_ui.h": "41c4a9942be327fabbeb6722860353fad8fa82de12c50bfe7867916e4b5e3b59",
+    "work/v19-host/oa_creation.c": "3946be992e133160cc7083e43fddf3f9efb5e1d5b3420ea173c3b4c164cf67c4",
+    "work/v19-host/oa_creation.h": "2766dc425caf769b020dd040c8f351d3819a0b531382d2a1b3f8af5cf0595ebc",
+    "work/v19-host/oa_creation_source_tables.c": "2dea3595025fbcafd8063cc92e2dd279da9a6df5c853596210f4dc2de13e4e5d",
+    "work/v19-host/oa_menu.c": "edb77aa09347aad235ec21a516aec1b56667a75316ba5d2f1c9ee9897a0bc33c",
+    "work/v20-char/build_ui.py": "8d1b8b08f0fff5cc04ed0d205243a5a577115a6a799310013ec46d2e234034c9",
+    "work/v21-ui/oa_ui.bin": "470d6ea7e8b34444eed6643cc5a303d30b59293a506afdb4bf67ee04e95ee121"
+  },
+  "source_files_unchanged": true,
+  "entry": "letters/digits/space/hyphen; touch apostrophe; caps toggle",
+  "font_codepoints": [
+    32,
+    126
+  ],
+  "glyphs_per_font": 95,
+  "backend_scalars": 16,
+  "backend_max_bytes": 64,
+  "default_names_affected": false,
+  "unicode_existing_bytes_preserved": true,
+  "example_display": {
+    "U+00E9": "??",
+    "U+4E2D": "???",
+    "U+1F600": "????"
+  }
+}

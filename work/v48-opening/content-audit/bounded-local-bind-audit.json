@@ -1,0 +1,1230 @@
+[
+  {
+    "fab": 485321,
+    "source": "work\\v48-opening\\content-audit\\inputs\\DATA_0.pak\\485321.fab_bxml",
+    "report": {
+      "input_sha256": "c2e41ea5be770aeae9a01e1fc0bffec7b3863775fd29e8d9e1e206fec244291e",
+      "file_bytes": 3530,
+      "profile": "external-2018-FAB-skeleton-layout",
+      "native_layout_confirmed": false,
+      "matrix_convention": "row-major4x4 storage, column vectors, XYZW unit quaternion; world=parent@local; no axis/unit correction",
+      "header": {
+        "first_word": 272,
+        "magic": 1163079731,
+        "descriptor_section_offset": 272,
+        "unknown_word12": 0,
+        "unknown_word16": 16,
+        "bone_count": 3,
+        "unknown_word24": 2,
+        "relative_offsets": {
+          "transforms": {
+            "field_file_offset": 28,
+            "relative_i32": 72,
+            "file_offset": 100
+          },
+          "parents": {
+            "field_file_offset": 32,
+            "relative_i32": 212,
+            "file_offset": 244
+          },
+          "name_hashes": {
+            "field_file_offset": 36,
+            "relative_i32": 224,
+            "file_offset": 260
+          },
+          "unknown40": {
+            "field_file_offset": 40,
+            "relative_i32": 232,
+            "file_offset": 272
+          },
+          "unknown44": {
+            "field_file_offset": 44,
+            "relative_i32": 228,
+            "file_offset": 272
+          },
+          "unknown48": {
+            "field_file_offset": 48,
+            "relative_i32": 202,
+            "file_offset": 250
+          }
+        }
+      },
+      "bones": [
+        {
+          "index": 0,
+          "name_hash_u32": 7458927,
+          "file_offset": 100,
+          "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "quaternion_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale_xyzw": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "local_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "transform_error": null,
+          "parent_raw_i16": -1,
+          "parent_file_offset": 244,
+          "parent_index": null,
+          "root_form": "minus-one",
+          "world_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "world_transform_error": null
+        },
+        {
+          "index": 1,
+          "name_hash_u32": 18235855,
+          "file_offset": 148,
+          "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "quaternion_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale_xyzw": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "local_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "transform_error": null,
+          "parent_raw_i16": 0,
+          "parent_file_offset": 246,
+          "parent_index": 0,
+          "root_form": null,
+          "world_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "world_transform_error": null
+        },
+        {
+          "index": 2,
+          "name_hash_u32": 26841182,
+          "file_offset": 196,
+          "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "quaternion_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale_xyzw": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "local_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "transform_error": null,
+          "parent_raw_i16": 0,
+          "parent_file_offset": 248,
+          "parent_index": 0,
+          "root_form": null,
+          "world_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "world_transform_error": null
+        }
+      ],
+      "mesh_descriptors": [
+        {
+          "index": 0,
+          "file_offset": 308,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -71.30191802978516,
+            -4.984349250793457,
+            633.1040649414062
+          ],
+          "unknown_four_floats": [
+            0.0,
+            766.0355224609375,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 348,
+          "tail25_hex": "f21b070000000000000000001200000000000000a664d84701",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 1,
+          "file_offset": 377,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            11.607648849487305,
+            8.1769380569458,
+            624.7545776367188
+          ],
+          "unknown_four_floats": [
+            0.0,
+            440.2554931640625,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 417,
+          "tail25_hex": "f214070000000000000000001200000000000000c6c76e4801",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 2,
+          "file_offset": 446,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            38.66608810424805,
+            2.7515218257904053,
+            1021.8993530273438
+          ],
+          "unknown_four_floats": [
+            0.0,
+            578.7755737304688,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 486,
+          "tail25_hex": "860107000000000000000000120000000000000032aa564801",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 3,
+          "file_offset": 515,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -35.16730499267578,
+            -9.063398361206055,
+            556.6795043945312
+          ],
+          "unknown_four_floats": [
+            0.0,
+            225.71530151367188,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 555,
+          "tail25_hex": "ef1b0700000000000000000012000000000000000000000001",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 4,
+          "file_offset": 584,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            66.85472869873047,
+            29.587095260620117,
+            577.2628784179688
+          ],
+          "unknown_four_floats": [
+            0.0,
+            812.8721923828125,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 624,
+          "tail25_hex": "c680070000000000000000001200000000000000cf6c334801",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 5,
+          "file_offset": 653,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            217.84104919433594,
+            1.2614580392837524,
+            760.8392944335938
+          ],
+          "unknown_four_floats": [
+            0.0,
+            148.149169921875,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 693,
+          "tail25_hex": "fb14070000000000000000001200000000000000d293334801",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        }
+      ],
+      "limitations": [
+        "Observed reference profile requires real-file and native verification.",
+        "Mesh descriptor position and remap matrix roles are preserved, not assumed as extra transforms.",
+        "Static bind application requires independently identified unskinned geometry.",
+        "Skinning, inverse-bind interpretation, animation and full FAB semantics are not implemented."
+      ],
+      "mesh_count": 6,
+      "definition": {
+        "file_offset": 272,
+        "unknown_hash_u32": 0,
+        "unknown_u32_list": {
+          "count": 3,
+          "file_offset": 280
+        },
+        "unknown_blocks": [],
+        "unknown_u32_list2": {
+          "count": 0,
+          "file_offset": 300
+        },
+        "unknown_u16_list": {
+          "count": 0,
+          "file_offset": 304
+        },
+        "mesh_descriptors_offset": 308,
+        "parsed_end_offset": 722
+      },
+      "status": "parsed-reference-profile",
+      "coverage": {
+        "read_ranges": [
+          [
+            0,
+            52
+          ],
+          [
+            100,
+            250
+          ],
+          [
+            260,
+            722
+          ]
+        ],
+        "uninterpreted_ranges": [
+          {
+            "file_offset": 52,
+            "bytes": 48
+          },
+          {
+            "file_offset": 250,
+            "bytes": 10
+          },
+          {
+            "file_offset": 722,
+            "bytes": 2808
+          }
+        ],
+        "bytes_read": 664
+      },
+      "input_path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\inputs\\DATA_0.pak\\485321.fab_bxml"
+    }
+  },
+  {
+    "fab": 510796,
+    "source": "work\\v48-opening\\content-audit\\inputs\\DATA_0.pak\\510796.fab_bxml",
+    "report": {
+      "input_sha256": "69ac6ee4471f8298b14dba74cd0a30b4cd244cdf7d4ae1f8972194f7a9a4e45d",
+      "file_bytes": 2230,
+      "profile": "external-2018-FAB-skeleton-layout",
+      "native_layout_confirmed": false,
+      "matrix_convention": "row-major4x4 storage, column vectors, XYZW unit quaternion; world=parent@local; no axis/unit correction",
+      "header": {
+        "first_word": 272,
+        "magic": 1163079731,
+        "descriptor_section_offset": 272,
+        "unknown_word12": 0,
+        "unknown_word16": 16,
+        "bone_count": 3,
+        "unknown_word24": 2,
+        "relative_offsets": {
+          "transforms": {
+            "field_file_offset": 28,
+            "relative_i32": 72,
+            "file_offset": 100
+          },
+          "parents": {
+            "field_file_offset": 32,
+            "relative_i32": 212,
+            "file_offset": 244
+          },
+          "name_hashes": {
+            "field_file_offset": 36,
+            "relative_i32": 224,
+            "file_offset": 260
+          },
+          "unknown40": {
+            "field_file_offset": 40,
+            "relative_i32": 232,
+            "file_offset": 272
+          },
+          "unknown44": {
+            "field_file_offset": 44,
+            "relative_i32": 228,
+            "file_offset": 272
+          },
+          "unknown48": {
+            "field_file_offset": 48,
+            "relative_i32": 202,
+            "file_offset": 250
+          }
+        }
+      },
+      "bones": [
+        {
+          "index": 0,
+          "name_hash_u32": 7458927,
+          "file_offset": 100,
+          "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "quaternion_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale_xyzw": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "local_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "transform_error": null,
+          "parent_raw_i16": -1,
+          "parent_file_offset": 244,
+          "parent_index": null,
+          "root_form": "minus-one",
+          "world_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "world_transform_error": null
+        },
+        {
+          "index": 1,
+          "name_hash_u32": 6555935,
+          "file_offset": 148,
+          "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "quaternion_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale_xyzw": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "local_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "transform_error": null,
+          "parent_raw_i16": 0,
+          "parent_file_offset": 246,
+          "parent_index": 0,
+          "root_form": null,
+          "world_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "world_transform_error": null
+        },
+        {
+          "index": 2,
+          "name_hash_u32": 12062326,
+          "file_offset": 196,
+          "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+          "quaternion_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale_xyzw": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "local_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "transform_error": null,
+          "parent_raw_i16": 0,
+          "parent_file_offset": 248,
+          "parent_index": 0,
+          "root_form": null,
+          "world_matrix_row_major": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "world_transform_error": null
+        }
+      ],
+      "mesh_descriptors": [
+        {
+          "index": 0,
+          "file_offset": 308,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -2.2285919189453125,
+            0.00177764892578125,
+            699.9456787109375
+          ],
+          "unknown_four_floats": [
+            0.0,
+            736.974365234375,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 348,
+          "tail25_hex": "86010700000000000000000012000000000000004de2154901",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 1,
+          "file_offset": 377,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -3.9886207580566406,
+            107.62275695800781,
+            611.95458984375
+          ],
+          "unknown_four_floats": [
+            0.0,
+            584.1116943359375,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 417,
+          "tail25_hex": "f21407000000000000000000120000000000000058158b4901",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 2,
+          "file_offset": 446,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -5.932001113891602,
+            -1.763244390487671,
+            834.114990234375
+          ],
+          "unknown_four_floats": [
+            0.0,
+            613.5883178710938,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 486,
+          "tail25_hex": "c68007000000000000000000120000000000000085d7ca4c01",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 3,
+          "file_offset": 515,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            32.22916793823242,
+            14.19934368133545,
+            659.99072265625
+          ],
+          "unknown_four_floats": [
+            0.0,
+            595.4620361328125,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 555,
+          "tail25_hex": "fb1407000000000000000000120000000000000068b3324801",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 4,
+          "file_offset": 584,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -1.0305222272872925,
+            1.92172110080719,
+            186.66775512695312
+          ],
+          "unknown_four_floats": [
+            0.0,
+            190.73550415039062,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 624,
+          "tail25_hex": "f01b07000000000000000000120000000000000058ca5b4701",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 5,
+          "file_offset": 653,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -1.1780102252960205,
+            3.2763099670410156,
+            238.79246520996094
+          ],
+          "unknown_four_floats": [
+            0.0,
+            130.55679321289062,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 693,
+          "tail25_hex": "f11b070000000000000000001200000000000000c8d0334601",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 6,
+          "file_offset": 722,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -1.5869680643081665,
+            2.6263680458068848,
+            720.421630859375
+          ],
+          "unknown_four_floats": [
+            0.0,
+            476.06829833984375,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 762,
+          "tail25_hex": "f21b0700000000000000000012000000000000008d01e34601",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        },
+        {
+          "index": 7,
+          "file_offset": 791,
+          "byte_length": 69,
+          "position_xyz_uninterpreted": [
+            -2.33670711517334,
+            2.286970853805542,
+            1332.4000244140625
+          ],
+          "unknown_four_floats": [
+            0.0,
+            185.13088989257812,
+            0.0,
+            25000.0
+          ],
+          "remaps": [],
+          "unknown_two_floats": [
+            1.0,
+            0.0
+          ],
+          "bone_index": 1,
+          "bone_index_file_offset": 831,
+          "tail25_hex": "ef1b070000000000000000001200000000000000fdbff04501",
+          "static_bind_candidate": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "static_bind_candidate_error": null
+        }
+      ],
+      "limitations": [
+        "Observed reference profile requires real-file and native verification.",
+        "Mesh descriptor position and remap matrix roles are preserved, not assumed as extra transforms.",
+        "Static bind application requires independently identified unskinned geometry.",
+        "Skinning, inverse-bind interpretation, animation and full FAB semantics are not implemented."
+      ],
+      "mesh_count": 8,
+      "definition": {
+        "file_offset": 272,
+        "unknown_hash_u32": 0,
+        "unknown_u32_list": {
+          "count": 3,
+          "file_offset": 280
+        },
+        "unknown_blocks": [],
+        "unknown_u32_list2": {
+          "count": 0,
+          "file_offset": 300
+        },
+        "unknown_u16_list": {
+          "count": 0,
+          "file_offset": 304
+        },
+        "mesh_descriptors_offset": 308,
+        "parsed_end_offset": 860
+      },
+      "status": "parsed-reference-profile",
+      "coverage": {
+        "read_ranges": [
+          [
+            0,
+            52
+          ],
+          [
+            100,
+            250
+          ],
+          [
+            260,
+            860
+          ]
+        ],
+        "uninterpreted_ranges": [
+          {
+            "file_offset": 52,
+            "bytes": 48
+          },
+          {
+            "file_offset": 250,
+            "bytes": 10
+          },
+          {
+            "file_offset": 860,
+            "bytes": 1370
+          }
+        ],
+        "bytes_read": 802
+      },
+      "input_path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\inputs\\DATA_0.pak\\510796.fab_bxml"
+    }
+  }
+]

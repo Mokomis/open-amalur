@@ -1,0 +1,39 @@
+{
+  "status": "PASS scoped opaque HardLight12 fixture",
+  "primary_case_count": 26,
+  "material_case_count": 24,
+  "diagnostic_basis_case_count": 2,
+  "renderer": {
+    "egl_major": 1,
+    "egl_minor": 5,
+    "egl_vendor": "Google Inc. (NVIDIA)",
+    "gl_vendor": "Google Inc. (NVIDIA)",
+    "gl_renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4080 SUPER (0x00002702) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.1692)",
+    "gl_version": "OpenGL ES 3.0 (ANGLE 2.1.27600 git hash: f39c3524d091)",
+    "glsl": "OpenGL ES GLSL ES 3.00 (ANGLE 2.1.27600 git hash: f39c3524d091)",
+    "surface": "EGL32x32pbuffer; no native window"
+  },
+  "ideal_RNE_max_code_error": 1,
+  "observed_target_material_exact_channels": 98304,
+  "observed_target_material_mismatches": 0,
+  "constant_and_genericambient_pairs_byte_identical": true,
+  "basis_scaled_unit_byte_identical": true,
+  "core_source_hashes_before_equals_after": true,
+  "core_source_hashes": {
+    "work\\v19-host\\oa_post.c": "c3bc0e0bc330d9599ae38ac60aa462fb4b4a52efa9ab0048965c6bdf4d44b5d5",
+    "work\\v19-host\\oa_post.h": "c135a546b5af4e5fd7e52ef23a78847cf209e7ade215865aba32b6fe4a68a26b",
+    "work\\v19-host\\oa_character_material.c": "2543984096f47b85b03a7bca46b57d74fc9a8aef7ffe60f195d598f2d541b764",
+    "work\\v19-host\\oa_character_material.h": "5c3048bbc4c9da2df53a7bd0bba6865ba250aa16e07863d74e3de1d5ebe525bd",
+    "work\\v19-host\\oa_render_cache.c": "9b71d7caa11ebbba3745b3853aebb0c3f7093809635ebb5ea45d5238ed9342ea",
+    "work\\v19-host\\oa_render_cache.h": "578a86b99d61fcea4ce76432e92df3385dc615bdd2453588ffb42adebe2ceee2"
+  },
+  "scope_limits": [
+    "no scene",
+    "no skinning/pose",
+    "no illuminated sun/point/specular",
+    "no fog",
+    "no AndroidGPU",
+    "noFPS"
+  ],
+  "no_live_changes": true
+}

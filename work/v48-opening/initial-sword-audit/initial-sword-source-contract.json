@@ -1,0 +1,165 @@
+{
+  "status": "SOURCE ACQUISITION ROUTE FOUND; nooriginalinteractionexecuted",
+  "chain": [
+    "GOR1790948 MQ01_Start_Door_01 placedinSpace1417252",
+    "sourceinstance1789992/type1789987",
+    "PartInventory9 directitemkey1360571/parallelvalue1",
+    "Door_Std_WOS_Start1794170.on_interact InteractionLoot\u2192delayedloot_skeleton",
+    "loot_skeleton\u2192ACTOR.set_allow_looting(actor),ACTOR.create_loot_objects(actor),loot_summary.on_loot",
+    "Sworditem1360571 usesSword_WoS_InitialWeapon1360572 callbacks;notgenericlongsword"
+  ],
+  "globalobjectref": 1790948,
+  "gor": {
+    "file": "mq01_start_door_01.gor_bxml",
+    "sha256": "daef992d27fc9b1e808649ecd4a0873b20f9f8fc483beaac6cd5e43583de93b4",
+    "space": 1417252,
+    "record": {
+      "offset": 16,
+      "name": "MQ01_Start_Door_01",
+      "instance_id": 1789992,
+      "position": [
+        -1666.24658203125,
+        2861.4287109375,
+        40.57246398925781
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.718055784702301,
+        0.6959856152534485
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flags": 30,
+      "type_id": 1789987,
+      "opaque_tail_u32": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        120,
+        0,
+        120,
+        0
+      ],
+      "record_sha256": "bb9ba93a5cbb775eb3a322a704985d306e58e0979c831e93244283f1fa600222"
+    }
+  },
+  "container": {
+    "type": 1789987,
+    "parent": 0,
+    "script": 1794170,
+    "sha256": "448d4159ca4ed6f40d36279979131162dde53f3e8c341e1476ee83e6072e9e25",
+    "rendering_blueprint_file_offset": 268,
+    "rendering_asset_words": {
+      "0x14": 1789717,
+      "0x18": 0,
+      "0x1c": 0,
+      "0x20": 0,
+      "0x24": 0
+    }
+  },
+  "container_fab": {
+    "asset": 1789717,
+    "name": "wos_start_door01",
+    "blueprint_field": "PartRendering+0x14"
+  },
+  "sword": {
+    "type": 1360571,
+    "parent": 252852,
+    "script": 1360572,
+    "sha256": "88b0a4784f358709a74984b1ea10050985fb726abba989a57e384cad7740b0aa",
+    "rendering_blueprint_file_offset": 204,
+    "rendering_asset_words": {
+      "0x14": 0,
+      "0x18": 1880465,
+      "0x1c": 1880465,
+      "0x20": 1880465,
+      "0x24": 1783985
+    }
+  },
+  "sword_fab": {
+    "asset": 1880465,
+    "name": "01_rusty_sword",
+    "blueprint_fields": [
+      "PartRendering+0x18",
+      "+0x1c",
+      "+0x20"
+    ],
+    "limits": "Exactmodelreferences;separatefieldroles/equipmentLOD selectionnotfullyrecovered. DirectworldFAB+0x14is0;donotplaceasfreestandinglooseweaponfromthatfield."
+  },
+  "inventory": {
+    "blueprint_file_offset": 180,
+    "kind": 9,
+    "native_type_keys": {
+      "pointer": 468,
+      "count": 1,
+      "file_offset": 468,
+      "values": [
+        1360571
+      ]
+    },
+    "parallel_authored_values": {
+      "pointer": 472,
+      "count": 1,
+      "file_offset": 472,
+      "values": [
+        1
+      ],
+      "meaning": "preservedvalue1;quantitysemanticsnotindependentlytraced"
+    },
+    "optional_resource_at_0x2c": 0,
+    "opaque_array_at_0x30": {
+      "pointer": 476,
+      "count": 1
+    }
+  },
+  "loot_table": "No nonzero optionalinventoryresource+0x2c link; direct authoreditemarrayused. Noexternalrandomloottableinferred.",
+  "models": [
+    {
+      "fab": 1789717,
+      "source": "work\\v48-opening\\initial-sword-audit\\inputs\\initial_0.pak\\1789717.fab_visual_data_streamable_bin",
+      "source_sha256": "7a87a8ff5c353cbdb7b01b8c3e84fe36cdcd0459f66145f5b6135408766eea85",
+      "assemblies": 21,
+      "strides": [
+        60
+      ],
+      "triangles_in_buffers": 2298,
+      "policy": "Originalsourcegeometryonly;nobake/allLODactivationauthored"
+    },
+    {
+      "fab": 1880465,
+      "source": "work\\v48-opening\\initial-sword-audit\\inputs\\initial_0.pak\\1880465.fab_visual_data_streamable_bin",
+      "source_sha256": "4958407eb71e4cd9ac830acf3a9ce26d00aba287f412a2ed061b9babf1a0a598",
+      "assemblies": 1,
+      "strides": [
+        48
+      ],
+      "triangles_in_buffers": 604,
+      "policy": "Originalsourcegeometryonly;nobake/allLODactivationauthored"
+    }
+  ],
+  "native_evidence": {
+    "compiled_type": "existingnativevalidated134225858_ksmt.batch;00a969b0/00a996f0batchreader,01001070TypeReader,00fa3d20factory",
+    "item_ref_fixup": "00f0cfc0 resolvesInventoryBlueprint+4/count+8 keys andscalar+0x2c",
+    "kind": "00ef2b60 returns9",
+    "instance_copy": "00f74790 copiesblueprintitemarraytoInventory+0x88 andparallelvaluesto+0x98",
+    "lua_create_loot_binding": "ACTOR.create_loot_objects=00e7cdf0:resolvesPartInventory9,requiresactivepartflag+0x20&1and00e37b70actorpermission,then00f97260",
+    "loot_queue_realization": "00f97260 consumespendingInventory+0x6c entriesstride0x1c through00f967c0;preciseinitialqueueproducer/parallelquantitymeaningnottraced"
+  },
+  "other_refs": "SixcompiledpayloadTypes reference1360571; among6612cachedGORs+11requestedSpace104placementsets,onlythisdoorcontainerhasaplacedmatch. Thisisboundedcachedscope,notproofthatnocommonquestruntimecaninstantiateotherowners.",
+  "initialcorpse_script": "1411370 forwardsNPC_Corpse_PARENT;doesnotgrantsword.NocompiledTypeinexisting27350entrypatchcatalogdirectlyuses1411370,notproofagainstpotentialruntimeattachment.",
+  "preservation": [
+    "Allwritesonlyinitial-sword-audit",
+    "Nolive/core/DBchanges",
+    "Nooriginalgameinput/launch/replay",
+    "NoMacmirror",
+    "Noarbitraryweaponmodel/type/positionorgrant"
+  ]
+}

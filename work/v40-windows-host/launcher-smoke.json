@@ -1,0 +1,54 @@
+{
+  "launcher": "start.py --scene town, interactive scheduled task",
+  "pid": "15636",
+  "captured": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\evidence\\town-final-build.png",
+  "camera": {
+    "frame": 4463,
+    "world": 1,
+    "grounded": 1,
+    "reference_camera": 0,
+    "player_hidden_for_reference": 0,
+    "oneshot_clip": -1,
+    "health": 100,
+    "width": 1536,
+    "height": 864,
+    "feet": [
+      1575.06042,
+      -62759.4336,
+      5145.83008
+    ],
+    "eye": [
+      1575.06042,
+      -62994.6484,
+      5343.51074
+    ],
+    "yaw": 1.57079637,
+    "pitch": -0.200000003,
+    "boom": 240,
+    "mvp_column_major": [
+      0.803333282,
+      -1.24021975e-08,
+      -4.2841144e-08,
+      -4.2840071e-08,
+      3.51148124e-08,
+      0.283729225,
+      0.980091155,
+      0.980066597,
+      0,
+      1.39968014,
+      -0.198674306,
+      -0.198669329,
+      -1265.29626,
+      10394.2158,
+      62798.1094,
+      62800.5391
+    ]
+  },
+  "gl_errors": [
+    "457821.918 6 Win32: GL error before swap frame=1 code=0x502"
+  ],
+  "limitations": [
+    "One startup GL_INVALID_OPERATION observed; no later GL errors in captured run. Cause not diagnosed.",
+    "Readback pacing is not a performance measurement."
+  ]
+}

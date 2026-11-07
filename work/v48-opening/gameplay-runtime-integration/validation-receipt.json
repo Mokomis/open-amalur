@@ -1,0 +1,236 @@
+{
+  "passed": true,
+  "scope": "new gameplay-runtime-integration only; no live integration",
+  "created_utc": "2026-11-06T20:45:32.588035+00:00",
+  "windows_test": {
+    "passed": true,
+    "checks": 1388,
+    "runtime": "production amalur_runtime Lua5.1.5",
+    "actor_ui": "recorded CPU two-phase fixture",
+    "live_gpu_ui_android": false,
+    "real_private_checkpoint_io": true,
+    "reports": 7,
+    "backend_commits": 13
+  },
+  "typed_corruption_test": {
+    "passed": true,
+    "decoded_files": 3,
+    "typed_checksum_valid_mutation_cases": 45
+  },
+  "arm64": "strict C99 syntax PASS; not linked/run",
+  "dependencies": {
+    "runtime-integration/oa_opening_runtime.c": {
+      "size": 21268,
+      "sha256": "fc341465659b2637979ad2fffd8137111ccd0171c749dbab82fc69d8723899ba"
+    },
+    "runtime-integration/oa_opening_runtime.h": {
+      "size": 3792,
+      "sha256": "23a898bb2b8a5785234e96ece2d791aa749997f452478d5b5197af7ce935c11f"
+    },
+    "quest-runtime-integration/oa_mq01_cursor.c": {
+      "size": 7664,
+      "sha256": "cc854a1a16fcaeb4f2c9b2f56f67723c028ff2da43136f53e21825834dc4cbb9"
+    },
+    "quest-runtime-integration/oa_mq01_cursor.h": {
+      "size": 4121,
+      "sha256": "60d54036a23c90a8725e3b70b45a4dd2d2e70488b1020b254798eb89a900965e"
+    },
+    "movement-host/oa_opening_movement.c": {
+      "size": 21408,
+      "sha256": "8bca6858f7cedddab9e118317a38f9f1b11e21c2b712d41c36e392cd5303ac2b"
+    },
+    "movement-host/opening_movement_planes.h": {
+      "size": 1467,
+      "sha256": "6051c569a0c8492785751d88ce6c2ca0f5d56696a0be4cd2f309ea61987222e0"
+    },
+    "initial-sword-audit/initial-sword-source-contract.json": {
+      "size": 5609,
+      "sha256": "ebfcfded096b8963af842cf888add0fed4c4c877cf95d950fbd1d8521f02ac98"
+    },
+    "quest-start-audit/source-start-contract.json": {
+      "size": 3934,
+      "sha256": "4c40ade6412680cf8086b0767f3bca5498368b94a2483318ecfb37a8bc6c8cd9"
+    }
+  },
+  "unchanged_runtime_assets": [
+    {
+      "path": "runtime/amalur_uint64.lua",
+      "size": 1712,
+      "sha256": "f34cf7a740acb1697d3b6bb6867f8da468d187195c72c6bd07f0ebfcd697da00",
+      "kind": 0
+    },
+    {
+      "path": "runtime/amalur_engine_handles.lua",
+      "size": 3310,
+      "sha256": "2a1b4b515cec283d9eab02d20e5cc036337138ece1ee4db9f18619fac229fcae",
+      "kind": 0
+    },
+    {
+      "path": "runtime/engine_binding_registry.lua",
+      "size": 66411,
+      "sha256": "877055e55fff54beeae2fdc396a8a4a6cf283f477d9dd9b8acc2547b0c66e204",
+      "kind": 0
+    },
+    {
+      "path": "runtime/amalur_engine_bindings.lua",
+      "size": 2502,
+      "sha256": "07a62657e31cdb9aae0712aa19604caab885ca9a72785fa2571bc5fd4738241b",
+      "kind": 0
+    },
+    {
+      "path": "runtime/amalur_native_math.lua",
+      "size": 2344,
+      "sha256": "7a14b0a4e04d0a6e650412960282678f255b0a2fae57607388200a4fca43b477",
+      "kind": 0
+    },
+    {
+      "path": "opening/opening_state_accessors.lua",
+      "size": 3244,
+      "sha256": "8ad3e9a48470500c11f06cf0f6aef5deb95e84ba1cee619ea2173559262c467b",
+      "kind": 1
+    },
+    {
+      "path": "opening/opening_bridge.lua",
+      "size": 12460,
+      "sha256": "8ae569f3825c00694c65c1126502b8f5ff04214ccdd993e5598e441620fd8680",
+      "kind": 2
+    },
+    {
+      "path": "opening/opening-function-manifest.json",
+      "size": 3087,
+      "sha256": "74062a0bc965d27b22c55926e850cec687094ee2b9f7fb7fd52ef3752eb40ba2",
+      "kind": 4
+    },
+    {
+      "path": "opening/evidence/WoS_Start_Room/functions/function_0_5.lua",
+      "size": 6296,
+      "sha256": "4cbc94a849adc7861e976f967b3eef9171d230c12f0ca7d464f894c0e257eb78",
+      "kind": 3
+    },
+    {
+      "path": "opening/evidence/WoS_Start_Room/functions/function_0_4.lua",
+      "size": 3293,
+      "sha256": "1546d79542d81317e71b352892cf57cc8e214a118ca6f6800f2cd33fbea5e8e2",
+      "kind": 3
+    },
+    {
+      "path": "opening/evidence/WoS_Start_Room/functions/function_0_11.lua",
+      "size": 6517,
+      "sha256": "cd8f821c5852f1780dfe617058511abd4bff504917b1a5ec64b893ef5985f37a",
+      "kind": 3
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_0.lua",
+      "size": 8977,
+      "sha256": "54b8378ef1a2604aca186cc8556cdd315308353e33a34a9379b60abd272e589b",
+      "kind": 3
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_1.lua",
+      "size": 7587,
+      "sha256": "b3dc6fc248944e5ba9b3c646f705ef2c04986720b2426a8f076b60f1278ca49e",
+      "kind": 3
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_2.lua",
+      "size": 3497,
+      "sha256": "8efe71e86226a7eaa508f09455e7cacc9504569f7748f27f17450fecb1575305",
+      "kind": 3
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_3.lua",
+      "size": 4635,
+      "sha256": "7a8d88089f183d696b6186a5fecc35b421a2ee5a7639c4a0ff1561e7f115b2d4",
+      "kind": 3
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_4.lua",
+      "size": 8857,
+      "sha256": "765d612907189118f24ff7525c9a0809783e7c757f3bb432578cacc57be07ae4",
+      "kind": 3
+    }
+  ],
+  "guarded_function_count": 8,
+  "private_test_output": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\gameplay-runtime-integration\\test-output-1793997816365655800",
+  "artifacts": {
+    "arm64-c99-check.log": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "arm64-check-command.json": {
+      "size": 1059,
+      "sha256": "6285068b34dac599585e7a67f39f77a4f862dc0dd0fcf50670bbea728ea9b49a"
+    },
+    "build-test.cmd": {
+      "size": 734,
+      "sha256": "8d066bea5394f192dcb346dccc529dfa08d144a12d4d9aaa3ff6ad7565a78783"
+    },
+    "build-test.log": {
+      "size": 772,
+      "sha256": "67a872734f8d8b67a25c1822d14261cc185b3927e1427444b997e7b4c4cba4f7"
+    },
+    "checkpoint-byte-validation.json": {
+      "size": 14631,
+      "sha256": "3e8c1f249cecdd5ee253e50acc03da2ccb7c226acdf605c677ec1d68e9e27a9c"
+    },
+    "checkpoint-mutation-test.log": {
+      "size": 81,
+      "sha256": "2ba279ab3a929fc0bd82978307f4957e7a3300a73a5eba2667ad5d48314ec41f"
+    },
+    "CMakeLists.txt": {
+      "size": 1197,
+      "sha256": "014a02c4c9f13529bc341c74ef92c6a540a01a2d76433358eec8c8f2cda69c80"
+    },
+    "gameplay-test.log": {
+      "size": 721,
+      "sha256": "df87f45b44e33497388808804a31d186d3064adb73a9ba6dca35b1e02846673a"
+    },
+    "inspect_and_mutate_checkpoints.py": {
+      "size": 5676,
+      "sha256": "fec3767100d20c7fadde3998c462aba516c49566e9c01380f17d0238dbbc9c16"
+    },
+    "INTEGRATION.md": {
+      "size": 11477,
+      "sha256": "61c9838ce2553fc467edf5e3de36ed2ea09a855c0b7cbc0b0c35a460521853e0"
+    },
+    "latest-output.txt": {
+      "size": 114,
+      "sha256": "a9157a304b1b95d606a30fbba645e10c4f23221897ca2f0bf6b225285e9c0562"
+    },
+    "movement_sha256.h": {
+      "size": 2403,
+      "sha256": "109112be8c3a06db8a7c59dde8ee5a098c77ee0febd0b3b5c8b52fab36455fa6"
+    },
+    "oa_opening_gameplay.c": {
+      "size": 30564,
+      "sha256": "bfc7a3fce964c301ce3ce0693c22bd06ee8979a6597310716b7a2212d7628e75"
+    },
+    "oa_opening_gameplay.h": {
+      "size": 5626,
+      "sha256": "05506b5b473c55fe7aa2a3a83535059deaa79148c83d28397f7a36bde7252987"
+    },
+    "opening_movement_planes.h": {
+      "size": 1467,
+      "sha256": "6051c569a0c8492785751d88ce6c2ca0f5d56696a0be4cd2f309ea61987222e0"
+    },
+    "reused-source-receipt.json": {
+      "size": 510,
+      "sha256": "043f8238b1f3a9706b5f75103d6fe1e13eef937cea130e496d27837753903424"
+    },
+    "source-volume-provenance.json": {
+      "size": 12030,
+      "sha256": "f76df8fc22eb2141c475a9cf2e61a0f19a57bb5789b3774f88e6caf0bec14c41"
+    },
+    "test_opening_gameplay.c": {
+      "size": 16239,
+      "sha256": "c42e6e8f9875280da93ad2d1bbbfed1f30ea4cb6136099263d64cc43bff5bf71"
+    }
+  },
+  "unknowns": [
+    "real actor/UI admission",
+    "live interaction and reach authorization",
+    "equipped sword and door visuals/collision",
+    "native full timer catch-up semantics",
+    "full QuestMgr/startup effects"
+  ]
+}

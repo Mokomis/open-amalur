@@ -1,0 +1,4871 @@
+{
+  "fab": 540961,
+  "source_stream": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\540961.fab_visual_data_streamable_bin",
+  "source_stream_sha256": "3091659bdf8b2c3d457bafb9da40832dff875d2d300d276b9333a8ede05f81b6",
+  "source_fab": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\lamp-source-audit\\source\\DATA_0.pak\\540961.fab_bxml",
+  "source_fab_sha256": "dafa9fc10dd416eb29ebd5e428c966d2c73f76a56dd4a25e0aedad33d2a8e62c",
+  "source_actors_total": 32,
+  "visible_actors": 14,
+  "visible_cell_filter_count": 203,
+  "base_registry_cells": 1271,
+  "base_registry_unchanged": true,
+  "source_index_namespace": "0x40000000 + stable source actor ordinal",
+  "groups": [
+    {
+      "group": 1,
+      "file_offset": 1465,
+      "element_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "threshold": 2000.0,
+      "flag": 0
+    },
+    {
+      "group": 2,
+      "file_offset": 1490,
+      "element_indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "threshold": 3200.0,
+      "flag": 0
+    },
+    {
+      "group": 3,
+      "file_offset": 1514,
+      "element_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "threshold": 9000.0,
+      "flag": 0
+    }
+  ],
+  "material_rows": {
+    "489075": 11,
+    "489077": 14,
+    "374967": 43,
+    "489073": 12,
+    "654012": 298
+  },
+  "new_material_row": 298,
+  "cost_triangles_by_lod_group": {
+    "1": 26376,
+    "2": 12936,
+    "3": 6580
+  },
+  "stored_vertices": 65590,
+  "stored_triangles_all_lods": 45892,
+  "stored_runs": 182,
+  "stored_geometry_bytes": 5544448,
+  "files": [
+    {
+      "file": "r-5_-4.bin",
+      "cell": [
+        -5,
+        -4
+      ],
+      "vertices": 9370,
+      "triangles_all_lods": 6556,
+      "ranges": 26,
+      "bytes": 792068,
+      "sha256": "282d605e2cf1ada36eda35d73a2d8e3d37463607e632a39687bad6f303b0d691",
+      "bounds": [
+        [
+          -29785.08203125,
+          -21908.46484375,
+          4649.20166015625
+        ],
+        [
+          -29666.654296875,
+          -21081.474609375,
+          4931.88623046875
+        ]
+      ]
+    },
+    {
+      "file": "r-4_-5.bin",
+      "cell": [
+        -4,
+        -5
+      ],
+      "vertices": 14055,
+      "triangles_all_lods": 9834,
+      "ranges": 39,
+      "bytes": 1188088,
+      "sha256": "c5d79d853d62512dd619a8b5f9946ff000ecd0423f97889192defbc0a303d826",
+      "bounds": [
+        [
+          -21643.642578125,
+          -28545.734375,
+          4677.55419921875
+        ],
+        [
+          -20044.1953125,
+          -26030.0625,
+          4980.6357421875
+        ]
+      ]
+    },
+    {
+      "file": "r-4_-4.bin",
+      "cell": [
+        -4,
+        -4
+      ],
+      "vertices": 14055,
+      "triangles_all_lods": 9834,
+      "ranges": 39,
+      "bytes": 1188088,
+      "sha256": "b113c4c6a064bc757ea74d4d6c03622ba0dad674953b3ca629bff7a4d24107f5",
+      "bounds": [
+        [
+          -23585.2109375,
+          -22639.484375,
+          4682.32861328125
+        ],
+        [
+          -22476.41015625,
+          -21078.68359375,
+          4996.47705078125
+        ]
+      ]
+    },
+    {
+      "file": "r-4_-3.bin",
+      "cell": [
+        -4,
+        -3
+      ],
+      "vertices": 9370,
+      "triangles_all_lods": 6556,
+      "ranges": 26,
+      "bytes": 792068,
+      "sha256": "f998a2392a6ad4740fa1c3200d0f58d8c23ca9b3800437086441714c32de6b7d",
+      "bounds": [
+        [
+          -22847.224609375,
+          -16894.306640625,
+          4691.31494140625
+        ],
+        [
+          -22031.095703125,
+          -16720.32421875,
+          4973.58447265625
+        ]
+      ]
+    },
+    {
+      "file": "r-3_-4.bin",
+      "cell": [
+        -3,
+        -4
+      ],
+      "vertices": 9370,
+      "triangles_all_lods": 6556,
+      "ranges": 26,
+      "bytes": 792068,
+      "sha256": "4f27e0f9ce0c688fcc58b9a782440ed7b7325ca0e79ab6b5322cb2746a7ca41d",
+      "bounds": [
+        [
+          -17102.240234375,
+          -23621.232421875,
+          4663.787109375
+        ],
+        [
+          -16885.048828125,
+          -22807.65234375,
+          4953.9990234375
+        ]
+      ]
+    },
+    {
+      "file": "r0_-14.bin",
+      "cell": [
+        0,
+        -14
+      ],
+      "vertices": 9370,
+      "triangles_all_lods": 6556,
+      "ranges": 26,
+      "bytes": 792068,
+      "sha256": "3d1d3a790fd329c91e11f842e3bbb35c6a472645760dbcc72d7ebdd8bdff7f44",
+      "bounds": [
+        [
+          1986.2080078125,
+          -86069.09375,
+          5577.02587890625
+        ],
+        [
+          5247.91845703125,
+          -83337.1953125,
+          6139.400390625
+        ]
+      ]
+    }
+  ],
+  "index": {
+    "file": "lamp-index.bin",
+    "sha256": "bbe64eadd1b74d0a13478c3cebb050bc644c6496803aa72435900eddbc3a5482",
+    "bytes": 264,
+    "material_count": 299,
+    "header_distance_scale": 1.0
+  },
+  "actors": [
+    {
+      "source_index": 1073741835,
+      "source_ordinal": 11,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 16,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000df4e85c66af5b7c64cbe91450000803f0000000000000000d4ae463f3b6f213f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -17063.435546875,
+        -23546.70703125,
+        4663.787109375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.7761051654815674,
+        0.6306034922599792
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -3,
+        -4
+      ],
+      "whole_bounds_centroid_cell": [
+        -3,
+        -4
+      ],
+      "whole_bounds": [
+        [
+          -17102.239575566564,
+          -23621.232527493252,
+          4663.787109375
+        ],
+        [
+          -17024.565516599094,
+          -23472.188337231557,
+          4945.551849365234
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            286.760041765289
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            108.56958358925122
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            254.526535044838
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            211.72088942907243
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            200.0612070744359
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            286.11428718002054
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            108.56892304863726
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            254.20399569770814
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            211.721230573586
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            286.11428718002054
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            108.38094405930762
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            254.20597389909057
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -17063.435546875,
+            -23546.70703125,
+            4663.787109375,
+            211.721230573586
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741835,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741836,
+      "source_ordinal": 12,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 17,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000583a84c63bc3b2c6e00192450000803f0000000000000000d6a31bbf07414b3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -16925.171875,
+        -22881.615234375,
+        4672.234375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.6079686880111694,
+        0.7939609885215759
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -3,
+        -4
+      ],
+      "whole_bounds_centroid_cell": [
+        -3,
+        -4
+      ],
+      "whole_bounds": [
+        [
+          -16965.357355089836,
+          -22955.57508365685,
+          4672.234375
+        ],
+        [
+          -16885.048949235337,
+          -22807.652942675897,
+          4953.999114990234
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            286.7599834460252
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            108.56960187752031
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            254.52682642268758
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            211.7210333894576
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            200.06098197115594
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            286.1140764754415
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            108.56902497864874
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            254.2038634008898
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            211.72078533250016
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            286.1140764754415
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            108.38095576234991
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            254.20590846400532
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -16925.171875,
+            -22881.615234375,
+            4672.234375,
+            211.72078533250016
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741836,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741837,
+      "source_ordinal": 13,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 18,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "0000000005b4acc696b483c6859a92450000803f000000000000000010974a3dcbaf7f3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -22106.009765625,
+        -16858.29296875,
+        4691.31494140625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.04946047067642212,
+        0.9987761378288269
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -3
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -3
+      ],
+      "whole_bounds": [
+        [
+          -22180.90830887794,
+          -16894.306600719367,
+          4691.31494140625
+        ],
+        [
+          -22031.096387777357,
+          -16822.20751892367,
+          4973.079681396484
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            286.76010394898907
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            108.5696113466613
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            254.52660709687183
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            211.72097980521553
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            200.06122220461637
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            286.11416942493213
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            108.56889232204315
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            254.20372601681373
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            211.72097980521553
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            286.11416942493213
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            108.38095403769113
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            254.20609006301987
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -22106.009765625,
+            -16858.29296875,
+            4691.31494140625,
+            211.72097980521553
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741837,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741838,
+      "source_ordinal": 14,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 19,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000ace8b1c61cea82c68f9e92450000803f00000000000000004d6d7a3d67857f3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -22772.3359375,
+        -16757.0546875,
+        4691.81982421875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.06113939359784126,
+        0.9981293082237244
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -3
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -3
+      ],
+      "whole_bounds": [
+        [
+          -22847.224896976168,
+          -16793.713847576462,
+          4691.81982421875
+        ],
+        [
+          -22697.433885371887,
+          -16720.3249109948,
+          4973.584564208984
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            286.76021553241367
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            108.56954425452946
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            254.52663946969784
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            211.7208494570758
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            200.06093718118845
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            286.1140930547583
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            108.56894221542197
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            254.20384345731853
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            211.7212541495452
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            286.1140930547583
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            108.38094435848315
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            254.20613379142495
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -22772.3359375,
+            -16757.0546875,
+            4691.81982421875,
+            211.7212541495452
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741838,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741839,
+      "source_ordinal": 15,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 20,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000920be8c6ae48a5c69d4991450000803f0000000000000000a2c12ebf9e123b3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -29701.78515625,
+        -21156.33984375,
+        4649.20166015625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.6826421022415161,
+        0.7307528257369995
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -5,
+        -4
+      ],
+      "whole_bounds_centroid_cell": [
+        -5,
+        -4
+      ],
+      "whole_bounds": [
+        [
+          -29736.98905688355,
+          -21231.188192566588,
+          4649.20166015625
+        ],
+        [
+          -29666.654600494465,
+          -21081.474371384214,
+          4930.966400146484
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            286.7599965625395
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            108.5696735548565
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            254.52667445782393
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            211.72088196078695
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            200.06150381453378
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            286.11413646629813
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            108.56883786093447
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            254.20369514852996
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            211.72074445960442
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            286.11413646629813
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            108.38096721901115
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            254.20593820654585
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -29701.78515625,
+            -21156.33984375,
+            4649.20166015625,
+            211.72074445960442
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741839,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741840,
+      "source_ordinal": 16,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 21,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000a06be8c62d93aac6f95091450000803f0000000000000000387d3b3f3f4f2e3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -29749.8125,
+        -21833.587890625,
+        4650.12158203125
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.7323794364929199,
+        0.6808966994285583
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -5,
+        -4
+      ],
+      "whole_bounds_centroid_cell": [
+        -5,
+        -4
+      ],
+      "whole_bounds": [
+        [
+          -29785.081592113977,
+          -21908.465428809373,
+          4650.12158203125
+        ],
+        [
+          -29714.470294202696,
+          -21758.727123647575,
+          4931.886322021484
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            286.7601784443656
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            108.56965430036104
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            254.52659907110808
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            211.7207543692779
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            200.06094619066548
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            286.1143583236963
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            108.56892057153651
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            254.2038924758827
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            211.72119533126073
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            286.1143583236963
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            108.38101741008418
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            254.20615933217144
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -29749.8125,
+            -21833.587890625,
+            4650.12158203125,
+            211.72119533126073
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741840,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741841,
+      "source_ordinal": 17,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 22,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "000000004733a2c681b1dec6bc9c92450000803f0000000000000000ddd31abe8f0e7d3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -20761.638671875,
+        -28504.751953125,
+        4691.591796875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.15119881927967072,
+        0.9885033965110779
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -5
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -5
+      ],
+      "whole_bounds": [
+        [
+          -20835.048099886197,
+          -28545.734537046374,
+          4691.591796875
+        ],
+        [
+          -20688.186498044874,
+          -28463.736659487317,
+          4973.356536865234
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            286.75998892010807
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            108.56962111445709
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            254.52660773383718
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            211.72092867134984
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            200.06096483885156
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            286.1143431576687
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            108.56896658235604
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            254.2040254104596
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            211.72101184945876
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            286.1143431576687
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            108.38103719085132
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            254.20592434069994
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -20761.638671875,
+            -28504.751953125,
+            4691.591796875,
+            211.72101184945876
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741841,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741842,
+      "source_ordinal": 18,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 23,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000a02a9dc6ac12ddc6f8d692450000803f000000000000000070b625be2ba07c3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -20117.3125,
+        -28297.3359375,
+        4698.87109375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.16182875633239746,
+        0.9868189692497253
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -5
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -5
+      ],
+      "whole_bounds": [
+        [
+          -20190.38572588493,
+          -28338.740843679185,
+          4698.87109375
+        ],
+        [
+          -20044.19519250582,
+          -28255.898532549985,
+          4980.635833740234
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            286.7601378909474
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            108.56967091966115
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            254.52646895028673
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            211.7209794808993
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            200.0609872147658
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            286.1142777804144
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            108.568840829944
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            254.2039065519297
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            211.7209794808993
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            286.1142777804144
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            108.38104641248886
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            254.20593123610718
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -20117.3125,
+            -28297.3359375,
+            4698.87109375,
+            211.7209794808993
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741842,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741843,
+      "source_ordinal": 19,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 27,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000f4bfa8c6bae9cbc66f2c92450000803f0000000000000000928c09bf70e857bf0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -21599.9765625,
+        -26100.86328125,
+        4677.55419921875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.5373011827468872,
+        -0.8433904647827148
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -5
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -5
+      ],
+      "whole_bounds": [
+        [
+          -21643.64212185835,
+          -26171.714153257166,
+          4677.55419921875
+        ],
+        [
+          -21555.85698577014,
+          -26030.06305530112,
+          4959.318939208984
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            286.7601167063237
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            108.56973521840932
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            254.52656942598784
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            211.7211324500012
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            200.06098479317143
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            286.11421790958235
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            108.56896758373678
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            254.20366286963514
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            211.72071739718464
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            286.11421790958235
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            108.38104811954763
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            254.206106975139
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -21599.9765625,
+            -26100.86328125,
+            4677.55419921875,
+            211.72071739718464
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741843,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741844,
+      "source_ordinal": 20,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 28,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "000000003903b6c6ce63b0c6b15293450000803f0000000000000000ab4c6b3fbeb1c93e0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -23297.611328125,
+        -22577.90234375,
+        4714.33642578125
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.9191386103630066,
+        0.3939341902732849
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -4
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -4
+      ],
+      "whole_bounds": [
+        [
+          -23356.968439299737,
+          -22639.483918138994,
+          4714.33642578125
+        ],
+        [
+          -23237.830650091884,
+          -22516.642416231913,
+          4996.101165771484
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            286.7602846201978
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            108.5695856974092
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            254.52670311376255
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            211.720861177511
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            200.06111219378226
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            286.1142337822538
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            108.56900904440472
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            254.20392960933336
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            211.720861177511
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            286.1142337822538
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            108.38106485576158
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            254.20592859499365
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -23297.611328125,
+            -22577.90234375,
+            4714.33642578125,
+            211.720861177511
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741844,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741845,
+      "source_ordinal": 21,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 29,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000d2c3b7c6f15eadc6b35593450000803f0000000000000000d79fb2be50ea6f3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -23521.91015625,
+        -22191.470703125,
+        4714.71240234375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.3488757312297821,
+        0.937169075012207
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -4
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -4
+      ],
+      "whole_bounds": [
+        [
+          -23585.211538655454,
+          -22248.890371082452,
+          4714.71240234375
+        ],
+        [
+          -23458.99917221844,
+          -22133.68984991151,
+          4996.477142333984
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            286.7600708450999
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            108.56960101668928
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            254.52679330051487
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            211.72072907258323
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            200.06111866725274
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            286.11437148314116
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            108.56898337744224
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            254.20383767233199
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            211.72104096584312
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            286.11437148314116
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            108.38103529020837
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            254.20601098721818
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -23521.91015625,
+            -22191.470703125,
+            4714.71240234375,
+            211.72104096584312
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741845,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741846,
+      "source_ordinal": 22,
+      "space": 431643,
+      "space_name": "out_dal_south_02",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431643.space_bxml",
+      "slot": "0x98",
+      "record_index": 30,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "000000007d11b0c67d27a5c6a15292450000803f00000000000000002514c63eee106c3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        -22536.744140625,
+        -21139.744140625,
+        4682.32861328125
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.38687244057655334,
+        0.9221333265304565
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        -4,
+        -4
+      ],
+      "whole_bounds_centroid_cell": [
+        -4,
+        -4
+      ],
+      "whole_bounds": [
+        [
+          -22596.742467327495,
+          -21200.39246707185,
+          4682.32861328125
+        ],
+        [
+          -22476.410162773296,
+          -21078.683256313874,
+          4964.093353271484
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            286.760192724861
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            108.56963179578673
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            254.5268345233812
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            211.72076279249998
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            200.06144812753402
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            286.11408508842004
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            108.56899850355843
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            254.2038711292108
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            211.7211064686845
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            286.11408508842004
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            108.38102825078975
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            254.20594490687049
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            -22536.744140625,
+            -21139.744140625,
+            4682.32861328125,
+            211.7211064686845
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741846,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741853,
+      "source_ordinal": 29,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431646.space_bxml",
+      "slot": "0x98",
+      "record_index": 16,
+      "entity_id": 0,
+      "source_flags": 94,
+      "record_hex": "00000000fec00045c4d8a2c73548ae450000803f00000000000000004d4d0abe85a77d3f0000803f0000803f0000803f5e00000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        2060.06201171875,
+        -83377.53125,
+        5577.02587890625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.13506050407886505,
+        0.9908373951911926
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        0,
+        -14
+      ],
+      "whole_bounds_centroid_cell": [
+        0,
+        -14
+      ],
+      "whole_bounds": [
+        [
+          1986.2080551696147,
+          -83417.83786635683,
+          5577.02587890625
+        ],
+        [
+          2133.956652713706,
+          -83337.19163322955,
+          5858.790618896484
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            286.7601401262244
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            108.56963277108386
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            254.5269045287301
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            211.72107147411523
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            200.06116206170282
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            286.1140552014209
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            108.56888573839929
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            254.20379556422884
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            211.72103431736213
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            286.1140552014209
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            108.3810112992629
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            254.20597691703233
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            2060.06201171875,
+            -83377.53125,
+            5577.02587890625,
+            211.7209971606729
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741853,
+          "original_flags": 94,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    },
+    {
+      "source_index": 1073741854,
+      "source_ordinal": 30,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431646.space_bxml",
+      "slot": "0x98",
+      "record_index": 17,
+      "entity_id": 0,
+      "source_flags": 66,
+      "record_hex": "0000000048aba145fe09a8c7160db7450000803f0000000000000000000000000000803f0000803f0000803f0000803f4200000021410800000000000100000000000000000000002141080001000000",
+      "translation": [
+        5173.41015625,
+        -86035.984375,
+        5857.6357421875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin_cell": [
+        0,
+        -14
+      ],
+      "whole_bounds_centroid_cell": [
+        0,
+        -14
+      ],
+      "whole_bounds": [
+        [
+          5098.92414855957,
+          -86069.09606933594,
+          5857.6357421875
+        ],
+        [
+          5247.918266296387,
+          -86002.83864212036,
+          6139.400482177734
+        ]
+      ],
+      "parts": [
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 0,
+          "group": 1,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            286.7601105937114
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 420,
+          "vertices": 683
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 1,
+          "group": 1,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            108.56963751526061
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 400,
+          "vertices": 384
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 2,
+          "group": 1,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            254.52670181032582
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 920,
+          "vertices": 838
+        },
+        {
+          "material": 12,
+          "native_material": 489073,
+          "assembly": 3,
+          "group": 1,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            211.7210741187201
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 136
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 4,
+          "group": 1,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            200.06122849932405
+          ],
+          "min_sq": 0.0,
+          "max_sq": 4000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 72,
+          "vertices": 88
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 5,
+          "group": 2,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            286.1141282816368
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 288,
+          "vertices": 633
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 6,
+          "group": 2,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            108.56884557333184
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 168,
+          "vertices": 238
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 7,
+          "group": 2,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            254.2038408016458
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 372,
+          "vertices": 606
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 8,
+          "group": 2,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            211.72083111743112
+          ],
+          "min_sq": 4000000.0,
+          "max_sq": 10240000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 96,
+          "vertices": 194
+        },
+        {
+          "material": 11,
+          "native_material": 489075,
+          "assembly": 9,
+          "group": 3,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            286.1141282816368
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 208,
+          "vertices": 431
+        },
+        {
+          "material": 14,
+          "native_material": 489077,
+          "assembly": 10,
+          "group": 3,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            108.3810514115752
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 90,
+          "vertices": 156
+        },
+        {
+          "material": 43,
+          "native_material": 374967,
+          "assembly": 11,
+          "group": 3,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            254.20605502373533
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 108,
+          "vertices": 160
+        },
+        {
+          "material": 298,
+          "native_material": 654012,
+          "assembly": 12,
+          "group": 3,
+          "sphere": [
+            5173.41015625,
+            -86035.984375,
+            5857.6357421875,
+            211.72083111743112
+          ],
+          "min_sq": 10240000.0,
+          "max_sq": 81000000.0,
+          "source_index": 1073741854,
+          "original_flags": 66,
+          "distance_scale": 1.0,
+          "triangles": 64,
+          "vertices": 138
+        }
+      ]
+    }
+  ],
+  "excluded_actors": [
+    {
+      "source_ordinal": 0,
+      "space": 431638,
+      "index": 15,
+      "origin_cell": [
+        1,
+        -10
+      ],
+      "whole_bounds_cell": [
+        1,
+        -10
+      ],
+      "bounds": [
+        [
+          6649.748826014099,
+          -59545.693044115826,
+          5218.41259765625
+        ],
+        [
+          6724.322846619344,
+          -59395.99344789311,
+          5500.177337646484
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 1,
+      "space": 431638,
+      "index": 16,
+      "origin_cell": [
+        1,
+        -10
+      ],
+      "whole_bounds_cell": [
+        1,
+        -10
+      ],
+      "bounds": [
+        [
+          9627.903259815908,
+          -58962.594872050366,
+          5473.880859375
+        ],
+        [
+          9697.536494805456,
+          -58812.95743511844,
+          5755.645599365234
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 2,
+      "space": 431638,
+      "index": 17,
+      "origin_cell": [
+        2,
+        -10
+      ],
+      "whole_bounds_cell": [
+        2,
+        -10
+      ],
+      "bounds": [
+        [
+          14440.300505807316,
+          -58613.51408669943,
+          5764.2353515625
+        ],
+        [
+          14509.891167768621,
+          -58463.88191740233,
+          6046.000091552734
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 3,
+      "space": 431640,
+      "index": 9,
+      "origin_cell": [
+        2,
+        2
+      ],
+      "whole_bounds_cell": [
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          14692.824055284946,
+          13209.485128548458,
+          6390.8681640625
+        ],
+        [
+          14842.544809591665,
+          13279.9336465571,
+          6672.632904052734
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 4,
+      "space": 431640,
+      "index": 10,
+      "origin_cell": [
+        2,
+        1
+      ],
+      "whole_bounds_cell": [
+        2,
+        1
+      ],
+      "bounds": [
+        [
+          12800.43489074707,
+          10919.978149414062,
+          6392.1767578125
+        ],
+        [
+          12949.429008483887,
+          10986.235576629639,
+          6673.941497802734
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 5,
+      "space": 431640,
+      "index": 11,
+      "origin_cell": [
+        1,
+        2
+      ],
+      "whole_bounds_cell": [
+        1,
+        2
+      ],
+      "bounds": [
+        [
+          11555.399858050318,
+          16828.051037879704,
+          6206.39892578125
+        ],
+        [
+          11656.584718273678,
+          16962.88688496248,
+          6488.163665771484
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 6,
+      "space": 431640,
+      "index": 16,
+      "origin_cell": [
+        2,
+        2
+      ],
+      "whole_bounds_cell": [
+        2,
+        2
+      ],
+      "bounds": [
+        [
+          13098.299738140908,
+          13785.813785789556,
+          6290.751953125
+        ],
+        [
+          13256.594067067375,
+          13856.73762018889,
+          6589.813503465852
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 7,
+      "space": 431640,
+      "index": 19,
+      "origin_cell": [
+        1,
+        1
+      ],
+      "whole_bounds_cell": [
+        1,
+        1
+      ],
+      "bounds": [
+        [
+          12072.450151854004,
+          7896.168871205584,
+          6456.69775390625
+        ],
+        [
+          12162.327892047882,
+          8049.371907811966,
+          6755.759304247102
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 8,
+      "space": 431640,
+      "index": 20,
+      "origin_cell": [
+        1,
+        1
+      ],
+      "whole_bounds_cell": [
+        1,
+        1
+      ],
+      "bounds": [
+        [
+          9920.906206541504,
+          7035.955492299334,
+          6456.69384765625
+        ],
+        [
+          10010.783946735382,
+          7189.158528905716,
+          6755.755397997102
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 9,
+      "space": 431640,
+      "index": 23,
+      "origin_cell": [
+        1,
+        1
+      ],
+      "whole_bounds_cell": [
+        1,
+        1
+      ],
+      "bounds": [
+        [
+          10170.572222166504,
+          6405.193285268084,
+          6456.69287109375
+        ],
+        [
+          10260.449962360382,
+          6558.396321874466,
+          6755.754421434602
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 10,
+      "space": 431640,
+      "index": 24,
+      "origin_cell": [
+        1,
+        1
+      ],
+      "whole_bounds_cell": [
+        1,
+        1
+      ],
+      "bounds": [
+        [
+          12333.627886229004,
+          7277.753832143084,
+          6456.69677734375
+        ],
+        [
+          12423.505626422882,
+          7430.956868749466,
+          6755.758327684602
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 23,
+      "space": 431645,
+      "index": 2,
+      "origin_cell": [
+        -2,
+        6
+      ],
+      "whole_bounds_cell": [
+        -2,
+        6
+      ],
+      "bounds": [
+        [
+          -12437.992082273528,
+          41534.21137126418,
+          5367.87890625
+        ],
+        [
+          -12291.344964499267,
+          41616.46541371176,
+          5649.643646240234
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 24,
+      "space": 431645,
+      "index": 3,
+      "origin_cell": [
+        -2,
+        6
+      ],
+      "whole_bounds_cell": [
+        -2,
+        6
+      ],
+      "bounds": [
+        [
+          -12162.131730711028,
+          42367.95746501418,
+          5367.87890625
+        ],
+        [
+          -12015.484612936767,
+          42450.21150746176,
+          5649.643646240234
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 25,
+      "space": 431645,
+      "index": 61,
+      "origin_cell": [
+        -2,
+        6
+      ],
+      "whole_bounds_cell": [
+        -2,
+        6
+      ],
+      "bounds": [
+        [
+          -9629.42936706543,
+          43088.97424316406,
+          5359.6015625
+        ],
+        [
+          -9480.435249328613,
+          43155.23167037964,
+          5641.366302490234
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 26,
+      "space": 431645,
+      "index": 66,
+      "origin_cell": [
+        -2,
+        6
+      ],
+      "whole_bounds_cell": [
+        -2,
+        6
+      ],
+      "bounds": [
+        [
+          -8521.033012267993,
+          42724.568678254545,
+          5360.998046875
+        ],
+        [
+          -8394.296565039172,
+          42839.09883016091,
+          5642.762786865234
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 27,
+      "space": 431645,
+      "index": 67,
+      "origin_cell": [
+        -3,
+        7
+      ],
+      "whole_bounds_cell": [
+        -3,
+        7
+      ],
+      "bounds": [
+        [
+          -15231.785852860108,
+          50976.940545023914,
+          4303.89453125
+        ],
+        [
+          -15103.296232513414,
+          51089.09491934916,
+          4585.659271240234
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 28,
+      "space": 431645,
+      "index": 68,
+      "origin_cell": [
+        -3,
+        8
+      ],
+      "whole_bounds_cell": [
+        -3,
+        8
+      ],
+      "bounds": [
+        [
+          -16333.755725342698,
+          51872.65360636258,
+          4294.52294921875
+        ],
+        [
+          -16194.519275830522,
+          51965.56951892513,
+          4576.287689208984
+        ]
+      ]
+    },
+    {
+      "source_ordinal": 31,
+      "space": 472736,
+      "index": 0,
+      "origin_cell": [
+        -2,
+        -1
+      ],
+      "whole_bounds_cell": [
+        -2,
+        -1
+      ],
+      "bounds": [
+        [
+          -8683.415953831694,
+          -1059.6864099368267,
+          4898.337890625
+        ],
+        [
+          -8603.801861344486,
+          -911.4083425022615,
+          5180.102630615234
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Private staging only; no active asset/core/index writes.",
+    "Only source-authored540961 actors intersecting requested203 visible cells; this is not the full actor family importer.",
+    "All three source LOD groups stored; per-range raw-distance scale1 prevents simultaneous LODs.",
+    "Raw actor origin metric matches two captured lamp actors, unlike region quality scale.5; generalized settings beyond these actor fixtures not independently observed.",
+    "Other four material rows reuse existing profiles with their existing shader limitations.",
+    "Only textureemissive654012 has the newly exact PS838 contract.",
+    "Source actors can have entity_id0; stable provenance key includes space/header/record index.",
+    "Waterfalls untouched."
+  ]
+}

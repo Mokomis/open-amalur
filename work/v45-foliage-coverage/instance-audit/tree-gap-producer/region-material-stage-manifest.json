@@ -1,0 +1,846 @@
+{
+  "status": "isolated candidates only; no live bank/texture writes",
+  "material_count_after_root_merge": 299,
+  "texture_count_required": 692,
+  "profiles": [
+    {
+      "material": 296,
+      "native_material": 343630,
+      "name": "for_flora_treebarkbonus",
+      "family": 1,
+      "shader_id": 419915,
+      "shader": "dot3alpha",
+      "source": "work\\v20-inputs\\initial_0.pak\\343630.mat_bxml",
+      "source_sha256": "7acfeb3861561c9911143bfa4f37305031466b70d0887aa97714993eccc80494",
+      "source_alpha_test": true,
+      "source_cull_mode": 2,
+      "source_cutoff_byte": 150,
+      "flags": 805344770,
+      "texture_indices": [
+        685,
+        688,
+        687,
+        4294967295,
+        4294967295,
+        4294967295,
+        686,
+        4294967295
+      ],
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "specular": [
+        1,
+        20,
+        0,
+        0
+      ],
+      "tiling": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "materials_row_file": "candidate-materials/material-296.row28",
+      "materials_row_sha256": "e0684510c10ff4b286d5a5faa14e436235a6f2352e6792d827dfdcf001a007fa",
+      "native_row_file": "candidate-materials/native-material-296.row84",
+      "native_row_sha256": "9ab2032e15c8215c4578ac692522e8c1393ec2b55b0ce782add937798c0d35b8"
+    },
+    {
+      "material": 297,
+      "native_material": 1611839,
+      "name": "for_skyline01",
+      "family": 1,
+      "shader_id": 419915,
+      "shader": "dot3alpha",
+      "source": "work\\v20-inputs\\initial_0.pak\\1611839.mat_bxml",
+      "source_sha256": "6365a5262ec861a9f3e746ce7788ff2ef5f729762610726a8358d9b84c23c5aa",
+      "source_alpha_test": true,
+      "source_cull_mode": 0,
+      "source_cutoff_byte": 200,
+      "flags": 671139842,
+      "texture_indices": [
+        689,
+        668,
+        691,
+        4294967295,
+        4294967295,
+        4294967295,
+        690,
+        4294967295
+      ],
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "specular": [
+        1,
+        20,
+        0,
+        0
+      ],
+      "tiling": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "materials_row_file": "candidate-materials/material-297.row28",
+      "materials_row_sha256": "e48d305a0c28bbe20990a0900b5dd335364b29f2fccab1aa608226667368abda",
+      "native_row_file": "candidate-materials/native-material-297.row84",
+      "native_row_sha256": "7a53bcecc955a549c4006a90dade8f57e6a58e4dbf9c1f2eae0be3b7aa7eb219"
+    }
+  ],
+  "textures": [
+    {
+      "asset": 343504,
+      "texture": 685,
+      "reserved_texture": 685,
+      "reused_exact_existing_indices": [],
+      "source": "work\\v20-inputs\\initial_0.pak\\343504_1.dds",
+      "source_sha256": "9a1228b592e3ce67bb346703d2b5e27f14aec24b420bf51b3edd5c3517ce8c44",
+      "source_format": 1,
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "output": "candidate-materials/t685.bin",
+      "output_sha256": "7c95ca2d7462c94125a3f13112b51ca0e09127b8cd2be8d4e010d3dc622bc47f",
+      "output_bytes": 5592440,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_offset": 38,
+          "compressed_bytes": 524288,
+          "compressed_sha256": "94487061611e925e7578db8778b9aab9f2e9e8d3c40e4b1e73ee71ad3784690e",
+          "rgba_sha256": "52d9634f9e4be46effd285b3d538a9aa39fb649eeb321bcf9d921195475044d9",
+          "scalar_samples": 131
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_offset": 524326,
+          "compressed_bytes": 131072,
+          "compressed_sha256": "30f72e96ba276eaf924749675110c5756373f06097f9e0eb52498bf6fb32e2ba",
+          "rgba_sha256": "bceac7599838046c374ec12c18da2c2b3a006ce3fd891ee93bcedd49131ce099",
+          "scalar_samples": 131
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_offset": 655398,
+          "compressed_bytes": 32768,
+          "compressed_sha256": "9ec927fdf6b6bd903a240102f6f8063ba1d0042c078b750ac5b3e0b5a2444f04",
+          "rgba_sha256": "e0c7dfad41bd7c62d6c89752c65e948940b2f8cba281df485ac0a1851649a2db",
+          "scalar_samples": 131
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_offset": 688166,
+          "compressed_bytes": 8192,
+          "compressed_sha256": "dd0a2f9bab93ebcc60b02ad9298649bbec5d04e35b30b4b88602dd609ab51ba0",
+          "rgba_sha256": "9aed3ed4743a4400824b879752771ef394c4520bba8e3add0d90e16b1c16eb06",
+          "scalar_samples": 131
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_offset": 696358,
+          "compressed_bytes": 2048,
+          "compressed_sha256": "c6ccafac5abaa800997b70ba02971fc5a92aa10ffef0539074b9babb2713d2bb",
+          "rgba_sha256": "d771cb94cc16442506f04f4b8ed3538069ad242f74510a9488aee0f82c1f4150",
+          "scalar_samples": 67
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_offset": 698406,
+          "compressed_bytes": 512,
+          "compressed_sha256": "5817fab296993bb35c5e17778f35e2a20c90f7cf66f1aa59f64c965a2fa5c487",
+          "rgba_sha256": "70e9c9d1f3d878a234d095de919951734c9437af5ccdc2625239806a3e02ef88",
+          "scalar_samples": 35
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_offset": 698918,
+          "compressed_bytes": 128,
+          "compressed_sha256": "f1d55d91b1006b6a6614633ef02a7a122203c794b76cb43fdb86ee621a3bb135",
+          "rgba_sha256": "c14a0770cb9dee5e557741faf366a2c8b03d6c36fe48cffcbbcfccb2ef0a53fd",
+          "scalar_samples": 17
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_offset": 699046,
+          "compressed_bytes": 32,
+          "compressed_sha256": "b7ca4423ea4464fee7985fe724e5fa0f29ce11e18096b0d6c0505c882c9927f0",
+          "rgba_sha256": "7fc210fd4fbb9a908eef504b9434128547006ed85746718c99808efc07722e24",
+          "scalar_samples": 9
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_offset": 699078,
+          "compressed_bytes": 8,
+          "compressed_sha256": "7bbcfe3d1d7807b035a896c3c60b2c05cfc460dc917d153354b4ba1758426980",
+          "rgba_sha256": "8120d893c894502cbe12edfe3946a253bc1dc18e5c6c2eef8210c3bfebf2ee95",
+          "scalar_samples": 5
+        }
+      ]
+    },
+    {
+      "asset": 357316,
+      "texture": 686,
+      "reserved_texture": 686,
+      "reused_exact_existing_indices": [],
+      "source": "work\\v20-inputs\\initial_0.pak\\357316_1.dds",
+      "source_sha256": "22719715e82374d6390fe91968daa2147ec6f0dba21cd92b0149bccda891637f",
+      "source_format": 1,
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "output": "candidate-materials/t686.bin",
+      "output_sha256": "cc0e0e0533b63a30ec647feab94c54173a8500a2c4679996018773c8282e8833",
+      "output_bytes": 5592440,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_offset": 38,
+          "compressed_bytes": 524288,
+          "compressed_sha256": "094ebc1cd45eb1c97c2d4d79ad31468daca71b0c679182d35d3c7dea1ba12121",
+          "rgba_sha256": "3efa4b595cd4cd610e7d07ec1cdfe1b7eaa1f71fe1208b99fa2bf6958c91fe0c",
+          "scalar_samples": 131
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_offset": 524326,
+          "compressed_bytes": 131072,
+          "compressed_sha256": "97b03531ae456b9235590966c32170efbe45929af58f9ae0cea08c13c160b810",
+          "rgba_sha256": "6668ccd3d7939402b745abe31e027412c9c58b364fc566aacf69ae2d26bc52bf",
+          "scalar_samples": 131
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_offset": 655398,
+          "compressed_bytes": 32768,
+          "compressed_sha256": "76b1bb5b5beb72815adc49fe111c21365151d6801a2a11be79da2b9101b04deb",
+          "rgba_sha256": "b80fd7b41d952b113b2ff60c57edb4643d7de06640fd373589693e7a3b5612e4",
+          "scalar_samples": 131
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_offset": 688166,
+          "compressed_bytes": 8192,
+          "compressed_sha256": "65666a524da19e1bee837b13d52ea146a2c145eef1d5f49a1b84b678d5cf42ae",
+          "rgba_sha256": "c7e1bda52317a8770b107971c16d511ce15b5a97f3d6864c23d9b4b7e101591d",
+          "scalar_samples": 131
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_offset": 696358,
+          "compressed_bytes": 2048,
+          "compressed_sha256": "2444e749e42a2b2e4f5ca0eb5e0c05c53ea5594f2f5e37faa29f83f6604560dc",
+          "rgba_sha256": "58314609b94b4632f0b7deb7329c13230464eded3d21fa16467600fdf6c8474f",
+          "scalar_samples": 67
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_offset": 698406,
+          "compressed_bytes": 512,
+          "compressed_sha256": "b5ef88bce9137f0b904e5563de2e113c351129194918b35f3bf097a071ea5d07",
+          "rgba_sha256": "eae9563a42f557e4d78490c0f23ac494fc582bc413f034dbd1b93191f62f8f0d",
+          "scalar_samples": 35
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_offset": 698918,
+          "compressed_bytes": 128,
+          "compressed_sha256": "b4bd2ddbb54853c141d34159815317066a7b3ee049a0bdbb115379588c3c742e",
+          "rgba_sha256": "9ef11343243dd8657d63f945886dcf30197e60f56c887b8e481c26a1ca3d737d",
+          "scalar_samples": 19
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_offset": 699046,
+          "compressed_bytes": 32,
+          "compressed_sha256": "9d5505ba314abf20e57dd8c313fd11b4de2e79decb1f16a7c392a9dd081e0d1d",
+          "rgba_sha256": "930501d340e528b4a395b7fcc0e0c52c6474941b2c17d9bd01a18ec2dcb1af0f",
+          "scalar_samples": 11
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_offset": 699078,
+          "compressed_bytes": 8,
+          "compressed_sha256": "faee45f41b3e0257ea728d0132fb88e6935abf69cc719755c03a434906687ed0",
+          "rgba_sha256": "80ebba699138d4d114a5241e7ddb1679fede0efdf599fefd64bf8c50f2c3f990",
+          "scalar_samples": 7
+        }
+      ]
+    },
+    {
+      "asset": 357317,
+      "texture": 687,
+      "reserved_texture": 687,
+      "reused_exact_existing_indices": [],
+      "source": "work\\v20-inputs\\initial_0.pak\\357317_1.dds",
+      "source_sha256": "5a1de80d9b5e4f6d559c6dabfd0249edd48b2728a603943b59e360392702385c",
+      "source_format": 1,
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "output": "candidate-materials/t687.bin",
+      "output_sha256": "9aed7ace87c71ed235b881e941f6cc8d9ea1f2125e6c8b9227924e14bcd2608a",
+      "output_bytes": 5592440,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_offset": 38,
+          "compressed_bytes": 524288,
+          "compressed_sha256": "0510ec5d12287a5b55ca05343efc67e9684e8bdc2f95faf30096c17309842a3b",
+          "rgba_sha256": "c181c2b9479e9df6757281eaa0651f6f5e590f86269ca33abf2b9a24f0314b5c",
+          "scalar_samples": 131
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_offset": 524326,
+          "compressed_bytes": 131072,
+          "compressed_sha256": "9c3cf4a10a7ed21f930bb4adb49f13ed1bf31f24c53a86e19f42c147fa3a595b",
+          "rgba_sha256": "b32f72c9da3f9c93226cd18e8bf1adfa8f75dbef59700fe73d2f6b9de364edb6",
+          "scalar_samples": 131
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_offset": 655398,
+          "compressed_bytes": 32768,
+          "compressed_sha256": "ba6cf82b4801531544fd2c20a1b77a7b08014f7c82e43b1406ead42e08a09167",
+          "rgba_sha256": "9b10abbb02e154b92bd90b43bcc46e25a4dcfddb75da4e8f92fbda89dd715b8d",
+          "scalar_samples": 131
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_offset": 688166,
+          "compressed_bytes": 8192,
+          "compressed_sha256": "3826e1e33f2c062cbc4c8ee9c5fa52a874b44beb9a6acbe74f394966db222305",
+          "rgba_sha256": "4b49cd462f12d9c4f69971bec7d5cc85a8516a7115338dee36d0da358abf4e72",
+          "scalar_samples": 131
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_offset": 696358,
+          "compressed_bytes": 2048,
+          "compressed_sha256": "bd2d4382347e5935011560d994fc8e57681873a21e15cae0eacfb516b62f7afd",
+          "rgba_sha256": "b6c1431ed2ace59b0b93ebc80ba8d775da44a1498bb0695972370d2685921bde",
+          "scalar_samples": 67
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_offset": 698406,
+          "compressed_bytes": 512,
+          "compressed_sha256": "4de44e964635e429787c7dfc544df68e9813b44e1ec0fd3bd7136442511fb155",
+          "rgba_sha256": "fb326beb6528966310357b6917c2ff2cec068e06c89c7c7e49efd86a19bbe191",
+          "scalar_samples": 35
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_offset": 698918,
+          "compressed_bytes": 128,
+          "compressed_sha256": "26f7e3f95c77b15e5a9dca89edf68a3b3223b56daf3200bc379208de49090482",
+          "rgba_sha256": "c5c8b77941590cb507af92a46f614f78a79c27bd549f97fd4ea5274de69c3ad9",
+          "scalar_samples": 19
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_offset": 699046,
+          "compressed_bytes": 32,
+          "compressed_sha256": "ab522bb54c6d3a12aef40f6e1d3dd8faab11266b08b33b6323f0141355bffa54",
+          "rgba_sha256": "0df9001769434fb00c40d2383d0c7dc2bc0a23d53f69175b15ec7219b4643d90",
+          "scalar_samples": 11
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_offset": 699078,
+          "compressed_bytes": 8,
+          "compressed_sha256": "c8ea31a85c56daf3d0236b69ede701c1b89abbfd89639f5361cca3f0dc522e67",
+          "rgba_sha256": "079200dfb5d3ccdd1fe713f964c7443a2bf4df59861fc38ed2d7502e0524d68b",
+          "scalar_samples": 6
+        }
+      ]
+    },
+    {
+      "asset": 343505,
+      "texture": 688,
+      "reserved_texture": 688,
+      "reused_exact_existing_indices": [],
+      "source": "work\\v20-inputs\\initial_0.pak\\343505_1.dds",
+      "source_sha256": "a53bfee3f1f7812f47d2427b9619d6066924ce5e0c13d4a8ca33f8c4e5656e8d",
+      "source_format": 5,
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "output": "candidate-materials/t688.bin",
+      "output_sha256": "211bc1e34cfcdbb3c0240f3eb87e5f21cb4a86ba4c221fb65c6e40f7879bb399",
+      "output_bytes": 5592440,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_offset": 38,
+          "compressed_bytes": 1048576,
+          "compressed_sha256": "73b64e55d5076d0005c412ceb102082f1002a5e26efa38e1c02a007d4fb9df81",
+          "rgba_sha256": "64fb920d8e3b638a58380a73804aedb25a452b31e6c612557f875712f38f95fa",
+          "scalar_samples": 131
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_offset": 1048614,
+          "compressed_bytes": 262144,
+          "compressed_sha256": "df069df9b9b95ceb3ba5ace1e5aa52edd5b7bdfcd91e808b77e403af8e343582",
+          "rgba_sha256": "1d00c3f46d33edd1e48de728075fba1a75911c5fd428b5441dc81805cf00f846",
+          "scalar_samples": 131
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_offset": 1310758,
+          "compressed_bytes": 65536,
+          "compressed_sha256": "d6477240b27d1f8b66291d1e4c88caa614ed14f285b2551dec30c21c3b071f1f",
+          "rgba_sha256": "85f0792eea7719ae4112ce0b5b043fce429271de44010aae79ea58d7950e4b97",
+          "scalar_samples": 131
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_offset": 1376294,
+          "compressed_bytes": 16384,
+          "compressed_sha256": "043c20b4981bbb3f01cd108d936b5fb7c8db2d22bb5c533543fdb0b8cc11c275",
+          "rgba_sha256": "1413f961c897c60f4daf6e82d65982c2dcb0c7865a4c7eff72308e697cfe1ca3",
+          "scalar_samples": 131
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_offset": 1392678,
+          "compressed_bytes": 4096,
+          "compressed_sha256": "bb24d900a681ed3a30c5cb28f1d8e42d47869eaf5bfea1e74e72a783a0c87699",
+          "rgba_sha256": "0b8f1edb3657cd7704c42a6711f192bdf6f6f236f26c9283c5345405768697f8",
+          "scalar_samples": 67
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_offset": 1396774,
+          "compressed_bytes": 1024,
+          "compressed_sha256": "b1643189a7710a0b42acfaa2406eef92dbbb1cea3126d18d27e9304486f6f98c",
+          "rgba_sha256": "510d4a71ffb1c989d6277a0ab5413a753e8cb0b9466008851ba9fdc22c062686",
+          "scalar_samples": 35
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_offset": 1397798,
+          "compressed_bytes": 256,
+          "compressed_sha256": "e667243b110bf5fc34e46a4d8ce116da09e05bf5e2f22a94178c9b05ca4c4243",
+          "rgba_sha256": "7219252a5dd2a094fdd5defcfa41e082bedd246244ead56f4657f340b90ccaa6",
+          "scalar_samples": 19
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_offset": 1398054,
+          "compressed_bytes": 64,
+          "compressed_sha256": "3ef15580c411545b7f804bf95b80f41875961ccc71d1356c2a74191fb7b94f8e",
+          "rgba_sha256": "3382f8be6b86bac25c27af8cf5299c73c9f88b83a2763fc1bd61e451e0a05151",
+          "scalar_samples": 11
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_offset": 1398118,
+          "compressed_bytes": 16,
+          "compressed_sha256": "acc03c75a23b87e2c7da772454f375ccbd39b70f93c138d888d4d0c30aa8a9a5",
+          "rgba_sha256": "c49455ecdc2908a1046112dbdcccd446aaa3a38f2ca445822d0b545e228f7d9c",
+          "scalar_samples": 7
+        }
+      ]
+    },
+    {
+      "asset": 1611838,
+      "texture": 689,
+      "reserved_texture": 689,
+      "reused_exact_existing_indices": [],
+      "source": "work\\v20-inputs\\DATA_0.pak\\1611838_1.dds",
+      "source_sha256": "531a32f4c56fe9d195f7adf7872e424cba68ce25e1778d8c775f63383e768859",
+      "source_format": 1,
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "output": "candidate-materials/t689.bin",
+      "output_sha256": "30265511ae81a4438b14cffdfa42391ab1ac1e94a729ba95426e11cd6d8e7c46",
+      "output_bytes": 5592440,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_offset": 38,
+          "compressed_bytes": 524288,
+          "compressed_sha256": "18c7295f86e294c9a79183e6e4f547d73244d2b6fa82e28d2c260082e80514d1",
+          "rgba_sha256": "7f4ed56b1428062f599da0dc8d7dc90a3140215bed1ddd7dd0ef54f8f33f6cef",
+          "scalar_samples": 131
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_offset": 524326,
+          "compressed_bytes": 131072,
+          "compressed_sha256": "e1d6d0a16588d4668531907512d5c27ec2f68d7c0e7d574a8810c9c1b8adba05",
+          "rgba_sha256": "5bcb7a79279b94cfa56e066760ebeb38fe9d03028c6881ba27f6199ba1926eca",
+          "scalar_samples": 131
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_offset": 655398,
+          "compressed_bytes": 32768,
+          "compressed_sha256": "c2c683657341e0d9d06991327b60efba044effc5a2c0e22ca692157038c8ddee",
+          "rgba_sha256": "53d697cb36bb921727ff5af48c220a4859a0fb715ba65d7422c25dc2ef730759",
+          "scalar_samples": 131
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_offset": 688166,
+          "compressed_bytes": 8192,
+          "compressed_sha256": "f252c399ab488c95d79fba15acc579fb98caddf5d290c7559d494526ee08262c",
+          "rgba_sha256": "ea762488a6ca26cbf437999784787978f523b2d2509eafe9ce040026d7a80318",
+          "scalar_samples": 131
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_offset": 696358,
+          "compressed_bytes": 2048,
+          "compressed_sha256": "160504d95739fffbe248099439b87e8e7f2ede4552a04bf8efd0987cde6db5c4",
+          "rgba_sha256": "148f856a0c0a6fc503b6af56a3f124568fbb5a728d4909a697da1ceaaaf12332",
+          "scalar_samples": 67
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_offset": 698406,
+          "compressed_bytes": 512,
+          "compressed_sha256": "603b0e10f96f213c3a4fed639aea2ec07d2663f52bc86ad3f8a2d4c4ebbba880",
+          "rgba_sha256": "2a64299648e80949bab188361cb830f385a39486737fb7cbf619c8f61df50404",
+          "scalar_samples": 35
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_offset": 698918,
+          "compressed_bytes": 128,
+          "compressed_sha256": "d19357292f296a51ebb73bbe0bd4eab30566cfd52db726491b0be302c22d06e9",
+          "rgba_sha256": "3919ba9b4d34f3bb8d479aac4fedcfad9bcb5448d4a0c08748879e40b43d7d20",
+          "scalar_samples": 19
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_offset": 699046,
+          "compressed_bytes": 32,
+          "compressed_sha256": "2ce09afc7cfe0e3bf4db78cd8af6fa327d0224d15739c9fb1a41dedaa8846839",
+          "rgba_sha256": "9cffeccef732f2dbe9d33f60919403d86eec9f23df9090abfcbc5e0591c9083d",
+          "scalar_samples": 11
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_offset": 699078,
+          "compressed_bytes": 8,
+          "compressed_sha256": "89c7746ecb2b5d57f3d9040ee7899717e8f257a0c7cb8c637b15628a7d7d4b8e",
+          "rgba_sha256": "0c7420f6ba1abadcf0cc2422651b4bd60f938453baa772919a70d4a4dfe6c5aa",
+          "scalar_samples": 5
+        }
+      ]
+    },
+    {
+      "asset": 1611837,
+      "texture": 690,
+      "reserved_texture": 690,
+      "reused_exact_existing_indices": [],
+      "source": "work\\v20-inputs\\DATA_0.pak\\1611837_1.dds",
+      "source_sha256": "55d82e7d4cf6db7b1b0b42b1221602e5e2b48fcebff314de1d4ef65c390e68fb",
+      "source_format": 1,
+      "width": 1024,
+      "height": 1024,
+      "mips": 9,
+      "output": "candidate-materials/t690.bin",
+      "output_sha256": "0ef501fd17534e6a0235266a00fa06b5599f299c3e11344feacbe0d4cfde1d06",
+      "output_bytes": 5592440,
+      "levels": [
+        {
+          "level": 0,
+          "width": 1024,
+          "height": 1024,
+          "source_offset": 38,
+          "compressed_bytes": 524288,
+          "compressed_sha256": "65420d7b448bd60224e85a4ddd9993ee6f6d6e255edc3e1a67cc47fefba8fb35",
+          "rgba_sha256": "af296720b7b09e654160b539bea8eb8dbf081eafa188015e594cd996487acdbf",
+          "scalar_samples": 131
+        },
+        {
+          "level": 1,
+          "width": 512,
+          "height": 512,
+          "source_offset": 524326,
+          "compressed_bytes": 131072,
+          "compressed_sha256": "b4dfd18a42a3262c91a5a21c8c32faff1e8497bcbb6c087012d5a050bfa3d678",
+          "rgba_sha256": "90e5b6b2f622b23ce5d89b326452fc2e8055939fb34968e31b90c677ebb05c46",
+          "scalar_samples": 131
+        },
+        {
+          "level": 2,
+          "width": 256,
+          "height": 256,
+          "source_offset": 655398,
+          "compressed_bytes": 32768,
+          "compressed_sha256": "18fc28a6678c54ef07ee837476bf3879a5fc14e4ad2f700ae362cc2619e7cf6f",
+          "rgba_sha256": "e5f25bb90e370765afdc62b087d1bb6c39257dcb2c3f04b26b0722ec4c4f9d84",
+          "scalar_samples": 131
+        },
+        {
+          "level": 3,
+          "width": 128,
+          "height": 128,
+          "source_offset": 688166,
+          "compressed_bytes": 8192,
+          "compressed_sha256": "149fcd77a55c338750967a6164ca434447c329cd95ebf9d64e197538600edcf5",
+          "rgba_sha256": "4199d0f5ddef2f52d743d655b6b40ad1e03dc477f73b7f1df88f183051fbf776",
+          "scalar_samples": 131
+        },
+        {
+          "level": 4,
+          "width": 64,
+          "height": 64,
+          "source_offset": 696358,
+          "compressed_bytes": 2048,
+          "compressed_sha256": "e1a3bd93151f0b45b8289c293dcec81f90bcb2d0441ac40da6de17b245e175e5",
+          "rgba_sha256": "f90cb700f907121d13b22c70ba1163e3360b9cf75b4c96443f03d89331f6add0",
+          "scalar_samples": 67
+        },
+        {
+          "level": 5,
+          "width": 32,
+          "height": 32,
+          "source_offset": 698406,
+          "compressed_bytes": 512,
+          "compressed_sha256": "d1395d4018532bba889b289a4100059dafe7c4daa7a683727fa0420393a18223",
+          "rgba_sha256": "b9c869ab5985679e71ff9a6b760ccc94353ec6f2313bd0879697904c561f1bbd",
+          "scalar_samples": 35
+        },
+        {
+          "level": 6,
+          "width": 16,
+          "height": 16,
+          "source_offset": 698918,
+          "compressed_bytes": 128,
+          "compressed_sha256": "ede51127451bab101145e02fb94568abf6b06f2277239ad53429372695f198de",
+          "rgba_sha256": "b53f3afe3b691f4c9438e32900aefbf51538ba82154c202bde73769214e36201",
+          "scalar_samples": 19
+        },
+        {
+          "level": 7,
+          "width": 8,
+          "height": 8,
+          "source_offset": 699046,
+          "compressed_bytes": 32,
+          "compressed_sha256": "a844309422ae2441e48d7a54bdc3d1924a68d19c0028ca7e3912adedf7c650f3",
+          "rgba_sha256": "5b3ec85faec495d67cce72b7c2ccf8cef20d2742a51638277c78c9b4a6f587e7",
+          "scalar_samples": 11
+        },
+        {
+          "level": 8,
+          "width": 4,
+          "height": 4,
+          "source_offset": 699078,
+          "compressed_bytes": 8,
+          "compressed_sha256": "75e28616e5742d81587a61c6998dd3f6929a907848c6343d6c6ce0bfbf11478a",
+          "rgba_sha256": "d9802c890899bbe7a294c2e2cac4043dd507ff5ae81e0a616ac997291bcaef31",
+          "scalar_samples": 7
+        }
+      ]
+    },
+    {
+      "asset": 365597,
+      "texture": 691,
+      "reserved_texture": 691,
+      "reused_exact_existing_indices": [],
+      "source": "work\\v20-inputs\\initial_0.pak\\365597.dds",
+      "source_sha256": "6b92463e6759e2ab05921c325489b4ebe0cf0d711d630b792d0b3bb0f1c53fa5",
+      "source_format": 2,
+      "width": 4,
+      "height": 4,
+      "mips": 1,
+      "output": "candidate-materials/t691.bin",
+      "output_sha256": "646a2ce0af04c1f6ba42b5d5796fcb6489ebbf3d0874afc2c1d90599ada342c0",
+      "output_bytes": 88,
+      "levels": [
+        {
+          "level": 0,
+          "width": 4,
+          "height": 4,
+          "source_offset": 38,
+          "compressed_bytes": 8,
+          "compressed_sha256": "b02f33b00f5b7c714d50d72a069db0a5ccbe1c15422fc3c1a76fc7080298bca1",
+          "rgba_sha256": "20e65596fe7c15642996b35ef3054f8c93a772fc0e91f66b3174ae8ff26a2921",
+          "scalar_samples": 7
+        }
+      ]
+    },
+    {
+      "asset": 4002,
+      "texture": 668,
+      "reserved_texture": 692,
+      "reused_exact_existing_indices": [
+        668
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\4002.dds",
+      "source_sha256": "99f530df08a344bd089be84b08c28c89e49aa3a1192a31783b33bd528ca3ca68",
+      "source_format": 5,
+      "width": 64,
+      "height": 64,
+      "mips": 5,
+      "output": null,
+      "output_sha256": "54eed3512531440e8a19198896ac5d92e1638322a211e8cbe21275f7661cb61c",
+      "output_bytes": 21864,
+      "levels": [
+        {
+          "level": 0,
+          "width": 64,
+          "height": 64,
+          "source_offset": 38,
+          "compressed_bytes": 4096,
+          "compressed_sha256": "3f42b892abc1f7451d6edd840d1669bf815682ea6cb50ffc436c19a2e3d7bec3",
+          "rgba_sha256": "a2122bacecfd5834e19fb8c1dc95b3dae2ac9c82c06a4de73e887bfd1a0262aa",
+          "scalar_samples": 67
+        },
+        {
+          "level": 1,
+          "width": 32,
+          "height": 32,
+          "source_offset": 4134,
+          "compressed_bytes": 1024,
+          "compressed_sha256": "af4323b6ba1b4884c00ea7e6871c62f57d28c20a656c4774ec8e73a485ce4493",
+          "rgba_sha256": "50349077caa9d0f9dfaba68bb4b1d006abf3da7c100b907bb27d7d5c04c9ef8a",
+          "scalar_samples": 35
+        },
+        {
+          "level": 2,
+          "width": 16,
+          "height": 16,
+          "source_offset": 5158,
+          "compressed_bytes": 256,
+          "compressed_sha256": "4a674d3f30b84a4814f1290377ae57cd3978f3a0a4c8d9688c4ffeca2ab490e0",
+          "rgba_sha256": "d8f1a26713f64a34af0891d54139cd65aeffecb8370c2f1530416c0bce415d70",
+          "scalar_samples": 19
+        },
+        {
+          "level": 3,
+          "width": 8,
+          "height": 8,
+          "source_offset": 5414,
+          "compressed_bytes": 64,
+          "compressed_sha256": "6c27e8bb985128c8426a0a04b7f0b01060f7eb8060a12ca04a2fb632c618dfe3",
+          "rgba_sha256": "7a0cddd016c60c79e87dda602bccc59863f9b5752f309a67a814d896d6b0b830",
+          "scalar_samples": 11
+        },
+        {
+          "level": 4,
+          "width": 4,
+          "height": 4,
+          "source_offset": 5478,
+          "compressed_bytes": 16,
+          "compressed_sha256": "3929d29dfde59dc68b08a93e87964f1828c49f608d98cdb6f56dd0e1c1d2e10f",
+          "rgba_sha256": "4b366455e34161393a4dacf3f2a7263de7ce28e8a316fefa12dd10b7add7de66",
+          "scalar_samples": 7
+        }
+      ]
+    }
+  ],
+  "validation": "Source BC1/BC3 every authored mip retained; independent scalar decode checks; complete serialized OATX payload identity; exact existing texture byte comparison before reuse.",
+  "limits": [
+    "Full source quality_1 authored chains, not a new captured residency claim.",
+    "Root merges rows296/297 against current banks and preserves all original rows.",
+    "Source alphaGREEN is independent of cull state;343630 isBACK,1611839NONE.",
+    "No material/tint tuning."
+  ]
+}

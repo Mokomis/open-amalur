@@ -1,0 +1,2 @@
+#version 300 es
+layout(location=0)in vec3 p;layout(location=1)in vec2 t;uniform mat4 mvp;out vec2 G;out vec3 L,U;void main(){gl_Position=mvp*vec4(p,1.);G=vec2(t.x,p.z*7.14285716e-6+.285714298);L=vec3(p.xy*.300000012,p.z+208010.);U=vec3(p.xy*1.25,p.z+320010.);}

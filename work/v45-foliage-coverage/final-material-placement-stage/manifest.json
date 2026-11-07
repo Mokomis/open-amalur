@@ -1,0 +1,106 @@
+{
+  "status": "staged only",
+  "overrides": {
+    "materials.bin": {
+      "bytes": 8404,
+      "sha256": "0650c670274c82a56500b98668fff621130b58092844c91df2e200c1f27eb78d",
+      "before_sha256": "db42ffb1a3edaeff69ff4f7891944d70c103c04b7fa43a0d700401881f6874e4"
+    },
+    "native-materials.bin": {
+      "bytes": 25212,
+      "sha256": "07e0d0d9ab5b98309d36a55fc8be6f7d1a755922c3d8b012924e744c97312501",
+      "before_sha256": "b10bdeff4a7ddd7b5d7b5f48fd97debd6b0fe8f1cf17eb3f974fd568eb75020a"
+    },
+    "l-1_-13.bin": {
+      "bytes": 46584,
+      "sha256": "6efa43da253ba5d6c596b3f20e6c09099c37275182a5d0e7d87742bfe49c1848",
+      "before_sha256": "395611b5c906999aaacfaf03e19adac56da596bd90ecfe4b9230451052112a13"
+    },
+    "l-1_-14.bin": {
+      "bytes": 53000,
+      "sha256": "13c92f3dcec8a7b15573c9524522fc4f769861798640a79e1ed17b37fb4e4adf",
+      "before_sha256": "17a773a16ccb99cd073619d912841c5cd1ac26a3689417b94e9091aa4b4df928"
+    },
+    "l-2_-13.bin": {
+      "bytes": 57448,
+      "sha256": "36750754ade63e6711d7a8333e63f745b83e1c6d21707818c1c1f93b48b1c5fa",
+      "before_sha256": "54332cf83c5aa5797fa8e3b50c749ba9e0f0dca4f06ec5d4990f8ce579640446"
+    },
+    "l0_-13.bin": {
+      "bytes": 68380,
+      "sha256": "e1180ab03e8ec4e074a46b7a7cbc52bb6e8bb9a9b660dbcba4dfce1336dfab93",
+      "before_sha256": "25e7a4bf35de30a03fa4ff2b3b4b50a0a105498315614db762d938e2a70915c0"
+    },
+    "l0_-14.bin": {
+      "bytes": 32908,
+      "sha256": "b06d304f70c7297837f6019cd2947b34abe2780b19212a91f7901c568a1e76f6",
+      "before_sha256": "aabdb190ed1d165f3eefe6eb53fc2c19307673880ecef3414f5df5188252d4a8"
+    },
+    "l1_-14.bin": {
+      "bytes": 46056,
+      "sha256": "df362c060811fe39751006154c51dc381b337e8ba8cd235c2d96cb80aaf0d958",
+      "before_sha256": "ddffbc49dd0fc66e00f4b19d23cb9cee57c239f5ae39198ae0bee4c113106ba1"
+    },
+    "leaf-index.bin": {
+      "bytes": 2144,
+      "sha256": "484583b24a3866b6263ca25383c5cd74d4d8e131f70d4347ebaa1637827f56b7",
+      "before_sha256": "d276f64f6e008b1f134ca1939f57b9386b6c1a45b80d49a1eb8b04279087bce7"
+    },
+    "r0_-14.bin": {
+      "bytes": 1642476,
+      "sha256": "4a00facc9a82a1812e167cd6071c62323d5d86a24f9eca2c6640b48b4c217d4a",
+      "before_sha256": "45aaaea69a75dd6ba49727bc6164afb8e5920bc9af13438cd652219d8789c018"
+    },
+    "region-index.bin": {
+      "bytes": 8104,
+      "sha256": "0021c735c0e5109f009713dbe08d6378c66bce809a68a0d8473db067a68f4e00",
+      "before_sha256": "0c36ceb03659d34ce8504c413a05c57ec6f0cfb5829f14644d31216e10b786b4"
+    }
+  },
+  "new_files": {
+    "t697.bin": {
+      "bytes": 349552,
+      "sha256": "fbf58c761226a266f9e14fb9db8fdb8594b9243d473036dcb6caed06f914db33"
+    },
+    "t698.bin": {
+      "bytes": 349552,
+      "sha256": "db82b09d0ac8885ff54ff6eee6058b4a913e50d00a6bc07b893d873106ad9bb6"
+    },
+    "t699.bin": {
+      "bytes": 349552,
+      "sha256": "50090a04ede4a676ed246021c2ff09bb1efd9f7ea41c01cd91741715ba1f55ff"
+    },
+    "t700.bin": {
+      "bytes": 349552,
+      "sha256": "0818b9b4565af7fcbc79a3f5c4328028404fd59e70d7155c35d94edcfcd88bb0"
+    },
+    "cart-environment.bin": {
+      "bytes": 20,
+      "sha256": "8afa107a7d85233a9be330f7b65a324d0fcdaefd2aac3c0ee419f3d853f06363"
+    }
+  },
+  "leaf_source_records": [
+    457,
+    458,
+    467,
+    468,
+    484
+  ],
+  "leaf_unproven73_preserved": true,
+  "changed_leaf_cells": [
+    "l-1_-13.bin",
+    "l-1_-14.bin",
+    "l-2_-13.bin",
+    "l0_-13.bin",
+    "l0_-14.bin",
+    "l1_-14.bin"
+  ],
+  "cart_source_range_alias_changes": 1,
+  "material_count": 300,
+  "metadata_only_bound_cells": [
+    [
+      1,
+      -14
+    ]
+  ]
+}

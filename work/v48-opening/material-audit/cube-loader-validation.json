@@ -1,0 +1,32 @@
+{
+  "actual_source": "work/v19-host/oa_cart_probe.c",
+  "GPU_run": false,
+  "mock_upload_order_checked": true,
+  "cubes": [
+    {
+      "asset_id": 1259503,
+      "returncode": 0,
+      "result": {
+        "texture": 123,
+        "face_mip_uploads": 36,
+        "rgba_bytes": 524160,
+        "max_level": 5,
+        "fnv1a64": "d52d3e61601c64a3"
+      },
+      "stderr": ""
+    },
+    {
+      "asset_id": 505647,
+      "returncode": 0,
+      "result": {
+        "texture": 123,
+        "face_mip_uploads": 36,
+        "rgba_bytes": 524160,
+        "max_level": 5,
+        "fnv1a64": "d78968690298e3b8"
+      },
+      "stderr": ""
+    }
+  ],
+  "per_asset_upload_fnv_matches_staged_payload": true
+}

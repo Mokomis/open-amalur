@@ -1,0 +1,43 @@
+Canonical realm type11 versus nil equality — v08
+
+Trigger
+unique_item_callbacks closure file offset0xa496 checks its first argument
+against nil before using it as a table key. The observed caller supplies
+SIMTYPE_ID('daggers_WoS_InitialDaggers'), a canonical host engine handle.
+
+Native static evidence
+work/branch-handlers.json contains original executable bytes for EQ handler
+010af926, target SHA256
+16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314.
+010af981 and010af984 mask the two low-word tags to0xf.
+010af995 initializes the comparison result to0.
+010af99d compares the tags;010af99f jumps to010afabd on mismatch.
+010afabd compares this result with the opcode branch polarity.
+Thus nil tag0 and carrier tag11 produce false before the same-tag dispatch
+or possible equality metamethod path. Both operand orders have this rule.
+This is static evidence, not a new original-game execution claim.
+
+Portable scope
+module_source_adapter.py adds canonical type11/nil EQ and its inverted branch
+(NE). It reuses __type11_key_allowed, which captures the existing host helper
+backed by the original private realm carrier membership predicate.
+A user-visible userdata metatable marker or mutable public carrier.is is not
+sufficient. Missing helper fails closed. No C runtime change is needed.
+All table equality, arbitrary/foreign userdata equality, same-tag type11
+comparison, other heterogeneous comparisons, ordered comparisons, table read
+fallbacks, writes, SELF and key guards remain as before. Existing primitive
+and function/nil comparison support is retained.
+
+Validation
+prepare_type11_nil_equality_tests.py runs only on Windows and emits frozen v05
+synthetic EQ, NE, LT and LE bytecode fixtures adapted through the staged v08
+adapter. It verifies both nil operand orders, canonical low/high-word extrema,
+foreign realm carriers, forged userdata markers, public membership mutation,
+missing host helper, unaffected primitive/function cases, and rejection of
+same-tag, table, arbitrary userdata and ordering cases. Exactly two equality
+guards are adapted. Native execution and actual corpus bootstrap results must
+be recorded separately by the Windows host; source staging alone is no pass.
+Run the existing type11-key and read-proxy fixtures after corpus regeneration
+with this adapter SHA. The frozen v07 equality test's carrier-versus-nil
+rejection expectations intentionally describe the earlier narrower scope;
+do not rewrite that frozen test to claim it validates this extension.

@@ -1,0 +1,141 @@
+{
+  "status": "Source/native default logical motion PROVEN; concrete active pose still unresolved",
+  "source": {
+    "fab": 1789717,
+    "FAB_motion_set_reference": {
+      "file_offset": 6333,
+      "key": 1789863
+    },
+    "FAB_motion_tree_reference": {
+      "file_offset": 6369,
+      "key": 351502
+    },
+    "motion_tree": {
+      "asset": 351502,
+      "name": "Door_Std",
+      "source": {
+        "file": "work\\v48-opening\\initial-sword-visuals\\initial-state-consumer-audit\\source-inputs\\inputs\\initial_0.pak\\351502.mtn_tree_bxml",
+        "bytes": 1702,
+        "sha256": "60c589dd8fa68cfa5b29aeae35ef46e2904d577e364191a03571c595709d6f24"
+      },
+      "default_key_file_offset": 1694,
+      "default_key": 4514355,
+      "default_name": "Close Idle",
+      "adjacent_float_file_offset": 1698,
+      "adjacent_float": 0.30000001192092896,
+      "adjacent_float_semantics": "unassigned here; not used to fit a pose"
+    },
+    "motion_set": {
+      "asset": 1789863,
+      "source": {
+        "file": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\1789863.mtns_bxml",
+        "bytes": 1920,
+        "sha256": "c9a9348c7f1fb91744bf363fe911c75516f7a1e72f75b9ab1faf7089077a1923"
+      },
+      "dictionary_keys": [
+        577232,
+        998527,
+        3475629,
+        4514355,
+        651734
+      ],
+      "dictionary_names": [
+        "open",
+        "close",
+        "open idle",
+        "Close Idle",
+        "Loot"
+      ],
+      "default_slot": 3,
+      "variant_entry_count": 5,
+      "variant_slot3_boundaries": "not yet decoded"
+    },
+    "type_animation": {
+      "asset": 1789987,
+      "source": {
+        "file": "work\\v48-opening\\initial-sword-audit\\type-1789987.bin",
+        "bytes": 772,
+        "sha256": "448d4159ca4ed6f40d36279979131162dde53f3e8c341e1476ee83e6072e9e25"
+      },
+      "kind_file_offset": 64,
+      "kind": 4,
+      "scalar_file_offset": 68,
+      "scalar_u32": 0
+    }
+  },
+  "native_chain": [
+    {
+      "address": "00d40390",
+      "role": "MotionTree vf3 reads final serialized u32 into+D8 then nextfloatword into+DC"
+    },
+    {
+      "address": "00cb45f0",
+      "role": "MotionTreeInstance binds tree handle at+A4 and copies tree+D8 to instance+B0"
+    },
+    {
+      "address": "00f594a0",
+      "role": "PartAnimation activation selects normal initializer or special death-motion branch byObject+10c bit7"
+    },
+    {
+      "address": "00f34e10",
+      "role": "Normal initializer verifies FAB motion groups/tree and calls FabIO00d3fff0"
+    },
+    {
+      "address": "00d3fff0",
+      "role": "Reads FabInstance+F4 defaultkey, requests it via00d3ec40 withstandardstartup parameters"
+    },
+    {
+      "address": "00d3ec40",
+      "role": "Constructs motion request; resolves via00ce71d0 and dispatches selected motion-state creation"
+    },
+    {
+      "address": "00ce71d0",
+      "role": "Resolves requested name, with explicit failure/fallback reporting"
+    },
+    {
+      "address": "00c8af20",
+      "role": "Checks override MotionSet+1B4 first, then activated FAB MotionSets and returns matching key's index; source soleMSet findsCloseIdle slot3"
+    },
+    {
+      "address": "00d1d5d0",
+      "role": "Selected MotionSet slot creates state and invokes its MotionVariantChooser vf4(+10) when explicit variant indices are-1"
+    },
+    {
+      "address": "00d47350",
+      "role": "MotionSet reads each slot's variants through00d42ad0 and separate polymorphic chooser; slot3 payload/chooser not yet decoded"
+    }
+  ],
+  "branches": {
+    "normal_default": "Close Idle4514355",
+    "death_condition": "signedObjectFlags@+10c<0",
+    "death_candidates": [
+      {
+        "key": 12559562,
+        "name": "Death_Idle_Loop"
+      },
+      {
+        "key": 5067038,
+        "name": "death_idle"
+      },
+      {
+        "key": 4609133,
+        "name": "death idle"
+      }
+    ],
+    "runtime_override": "FabInstance+1B4 optional MotionSet takes precedence in00c8af20; fresh constructor initializes it0, lateroverride writers not audited"
+  },
+  "scalar_zero": "00ef69a0 copies blueprint+4 toPartAnimation+24; no read ofthatfieldin traced activation/defaultkey path. Its other semantic role unassigned;0 doesNOTproveframe0.",
+  "pose_decision": "Cannot declare rest or frame0. Native ordinary path requests authoredCloseIdle; mappingthatmotion's selectedvariant/segment into decoded1789841 frame remainsunresolved.",
+  "smallest_blocker": {
+    "source": "MotionSet1789863 slot3 (key4514355)",
+    "loader": "00d42ad0 variable-length variant serialized fields and chooser createdby00d47350",
+    "consumer": "00d1d5d0 chooser virtual+10, selectedb8variant referencedby motion evaluation; source clip range/starttime cannotbeassigned fromraw matches",
+    "runtime_conditions": "actualObject+10c bit7 and possibleoverride+1B4 not observed; no originalinitialgame state queried"
+  },
+  "limits": [
+    "No game launch/UI/save/RPM/DB changes.",
+    "No new pose selected/promoted; all prior candidates unchanged.",
+    "SourceTree finalfield mapping is exact native serialization order; field+DC semantics remain unassigned.",
+    "Some cached thiscall pseudocode omits ECX/hidden args. No new machine-code ABI certificate for those calls in thispass."
+  ]
+}

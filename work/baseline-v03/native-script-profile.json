@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "profile_name": "Opem Amalur native-static branches and shared captured cells",
+  "binary_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "evidence_scope": "On-disk x86 interpreter variant at 0x010adce0; static handler semantics, not observed runtime execution or dispatch-entry reachability proof.",
+  "instruction_layout": {
+    "confirmation": "native_static",
+    "opcode_bits": [
+      25,
+      31
+    ],
+    "A_bits": [
+      0,
+      7
+    ],
+    "B_bits": [
+      17,
+      24
+    ],
+    "C_raw_bits": [
+      8,
+      16
+    ],
+    "Bx_bits": [
+      8,
+      24
+    ],
+    "signed_Bx_bias": 65535,
+    "evidence": [
+      "offline-vm-handlers.json: dispatch 0x010add25..0x010add57; jump table 0x010b0ba4",
+      "offline-vm-handlers.json: MOVE 0x010ae828 and LOADK 0x010af677 operand extraction",
+      "offline-vm-handlers.json: JMP 0x010af839 uses next PC + Bx - 65535"
+    ]
+  },
+  "number_encoding": {
+    "confirmation": "native_static",
+    "kind": "signed_int32",
+    "evidence": [
+      "number-reader.json: 0x0109bf90 reads four bytes and applies source-endian conversion",
+      "constant reader 0x010c12c5 stores the four-byte numeric value with tag 3",
+      "integer-semantics.json: signed CDQ/IDIV 0x010aead7..0x010aead8; signed SETL 0x010af720"
+    ],
+    "limitation": "Literal rendering only. Native integer arithmetic differs from stock Lua number arithmetic; arithmetic opcodes are not emitted."
+  },
+  "inline_data_opcode": 70,
+  "opcodes": {
+    "2": {
+      "name": "CALL_I",
+      "kind": "call_fixed",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "0x010af3d3: B8 argument count; C8-1 result count",
+        "0x010af290: non-Lua-function specialization to CALL_C",
+        "0x010af30c..0x010af38e: native CALL_C argument and result path"
+      ],
+      "restrictions": [
+        "B>=1",
+        "1<=C<=255",
+        "CALL_M callable-object fallback not independently modeled"
+      ]
+    },
+    "3": {
+      "name": "CALL_C",
+      "kind": "call_fixed",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "0x010af30c..0x010af351: B8 argument count and C8-1 results",
+        "0x010af379: native function pointer invocation",
+        "0x010af38e: result copy via 0x010888c0"
+      ],
+      "restrictions": [
+        "B>=1",
+        "1<=C<=255",
+        "CALL_M callable-object fallback not independently modeled"
+      ]
+    },
+    "6": {
+      "name": "GETGLOBAL",
+      "kind": "getglobal",
+      "inline_data_words": 1,
+      "inline_cache_constant_slots": 2,
+      "produces_cached_result": true,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010af583 GETGLOBAL; 0x010af598 environment lookup; consumes one payload word and updates hidden last result"
+      ],
+      "produces_call_cached_result": true,
+      "produces_test_cached_result": true
+    },
+    "7": {
+      "name": "MOVE",
+      "kind": "move",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010ae828 copies R[B] to R[A]"
+      ],
+      "produces_call_cached_result": true,
+      "produces_test_cached_result": true,
+      "produces_cached_result": true
+    },
+    "9": {
+      "name": "RETURN",
+      "kind": "return_fixed",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010af44b derives B-1 results; 0x010b0b67 external return path"
+      ],
+      "restrictions": [
+        "B>=1; open returns unsupported"
+      ]
+    },
+    "25": {
+      "name": "LOADK",
+      "kind": "loadk",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010af677 copies K[Bx] to R[A]"
+      ]
+    },
+    "27": {
+      "name": "SETGLOBAL",
+      "kind": "setglobal",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010b06c2 reloads closure environment and assigns key K[Bx] from R[A]"
+      ]
+    },
+    "28": {
+      "name": "JMP",
+      "kind": "jump",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010af839 target next PC + Bx - 65535"
+      ],
+      "restrictions": [
+        "Explicit PC dispatch; edges into fused branch/capture/cache metadata rejected"
+      ]
+    },
+    "60": {
+      "name": "CLOSURE",
+      "kind": "closure",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x3c"
+      ]
+    },
+    "67": {
+      "name": "GETFIELD_R1",
+      "kind": "getfield_cached_k",
+      "inline_data_words": 2,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010add7a uses hidden prior result and K[C&255]",
+        "0x010ade19 advances PC by eight bytes, consuming two payload words"
+      ],
+      "restrictions": [
+        "C<=255",
+        "Immediate native-confirmed hidden-result producer must have destination equal to encoded B",
+        "All reachable predecessor edges must come through that producer"
+      ],
+      "produces_call_cached_result": true,
+      "produces_test_cached_result": true,
+      "produces_cached_result": true
+    },
+    "85": {
+      "name": "GETGLOBAL_MEM",
+      "kind": "getglobal",
+      "inline_data_words": 1,
+      "inline_cache_constant_slots": 2,
+      "produces_cached_result": true,
+      "confirmation": "native_static",
+      "evidence": [
+        "offline-vm-handlers.json: 0x010af52f cached environment lookup",
+        "0x010af56e skips one payload word on cache hit",
+        "0x010af598 cache miss enters GETGLOBAL; both paths update hidden last result"
+      ],
+      "produces_call_cached_result": true,
+      "produces_test_cached_result": true
+    },
+    "1": {
+      "name": "TEST",
+      "kind": "test_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x1"
+      ]
+    },
+    "4": {
+      "name": "EQ",
+      "kind": "eq_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x4"
+      ]
+    },
+    "5": {
+      "name": "EQ_BK",
+      "kind": "eq_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x5"
+      ]
+    },
+    "13": {
+      "name": "LOADBOOL",
+      "kind": "loadbool",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0xd"
+      ]
+    },
+    "26": {
+      "name": "LOADNIL",
+      "kind": "loadnil",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x1a"
+      ]
+    },
+    "32": {
+      "name": "GETUPVAL",
+      "kind": "getupval",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x20"
+      ],
+      "produces_test_cached_result": true,
+      "produces_call_cached_result": true,
+      "produces_cached_result": true
+    },
+    "33": {
+      "name": "SETUPVAL",
+      "kind": "setupval",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x21"
+      ],
+      "produces_test_cached_result": true
+    },
+    "48": {
+      "name": "NOT",
+      "kind": "not",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x30"
+      ]
+    },
+    "50": {
+      "name": "LT",
+      "kind": "lt_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x32"
+      ]
+    },
+    "51": {
+      "name": "LT_BK",
+      "kind": "lt_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x33"
+      ]
+    },
+    "52": {
+      "name": "LE",
+      "kind": "le_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x34"
+      ]
+    },
+    "53": {
+      "name": "LE_BK",
+      "kind": "le_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x35"
+      ]
+    },
+    "55": {
+      "name": "TESTSET",
+      "kind": "testset_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x37"
+      ]
+    },
+    "59": {
+      "name": "CLOSE",
+      "kind": "close",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x3b"
+      ]
+    },
+    "65": {
+      "name": "TEST_R1",
+      "kind": "test_cached_branch",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x41"
+      ]
+    },
+    "63": {
+      "name": "CALL_I_R1",
+      "kind": "call_cached_fixed",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case0x3f",
+        "opcode-continuations.json 0x010af3a7..0x010af437"
+      ],
+      "restrictions": [
+        "Immediate known producer of hidden callable withmatchingdestinationA",
+        "B>=1;1<=C<=255",
+        "Lua/C functions only; callable objects explicitlyguarded"
+      ]
+    },
+    "46": {
+      "name": "NEWTABLE",
+      "kind": "newtable",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case0x2e",
+        "Fresh Windows table-op/capture handler disassembly; see native audit ledger"
+      ],
+      "produces_cached_result": true,
+      "produces_test_cached_result": true,
+      "restrictions": [
+        "B=C=0 only; nonzero capacity hints not admitted"
+      ]
+    },
+    "15": {
+      "name": "SETFIELD",
+      "kind": "setfield",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case0xf",
+        "Fresh Windows table-op/capture handler disassembly; see native audit ledger"
+      ],
+      "produces_cached_result": true,
+      "produces_test_cached_result": true,
+      "restrictions": [
+        "Ordinary Lua table without metatable",
+        "String constant key K[B8], valueRK(C9)"
+      ]
+    },
+    "68": {
+      "name": "SETFIELD_R1",
+      "kind": "setfield_cached",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case0x44",
+        "Fresh Windows table-op/capture handler disassembly; see native audit ledger"
+      ],
+      "produces_cached_result": true,
+      "produces_test_cached_result": true,
+      "restrictions": [
+        "Ordinary Lua table without metatable",
+        "Immediate confirmed cached-table producer and sole CFG predecessor",
+        "String constant key K[B8], valueRK(C9)"
+      ]
+    },
+    "10": {
+      "name": "GETTABLE_S",
+      "kind": "gettable",
+      "inline_data_words": 2,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case0xa",
+        "Fresh Windows table-op/capture handler disassembly; see native audit ledger"
+      ],
+      "restrictions": [
+        "Ordinary Lua table without metatable",
+        "String or signed-int32 key only",
+        "Owns two DATA words",
+        "Does not produce hidden-cache proof"
+      ]
+    },
+    "64": {
+      "name": "SETUPVAL_R1",
+      "kind": "setupval_cached",
+      "inline_data_words": 0,
+      "confirmation": "native_static",
+      "evidence": [
+        "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case0x40",
+        "Fresh Windows table-op/capture handler disassembly; see native audit ledger"
+      ],
+      "restrictions": [
+        "Immediate confirmed hidden-value producer with matching A and sole CFG predecessor",
+        "B8 upvalue index, no payload words"
+      ]
+    }
+  },
+  "limitations": [
+    "Only admitted native-static semantics are emitted; runtime equivalence in Havok remains unestablished.",
+    "Branch output is a program-counter dispatcher, not recovered high-level source structure.",
+    "Equality/ordering guards reject custom types and non-int32 numbers; source may contain explicit domain errors.",
+    "Captured descriptor kinds0/1 only; aliases and close behavior modeled via shared mutable cells.",
+    "Open calls/returns and integer arithmetic remain unresolved.",
+    "Fixed calls guard that the callee is a function; callable-object/metamethod domains remain unsupported.",
+    "Table operations admit plain Lua tables with no metatable and string/int32 keys; Havok structures/userdata/metamethod tables remain guarded errors."
+  ],
+  "rea_evidence": {
+    "reader_entry_pseudocode": "ev_0587249e8faabcf76a249417ff8b09e373d7718323750c1c1e7ec3b437d27d7a",
+    "function_reader_pseudocode": "ev_d0e99c481093460073683be4ca4ac0f83e732b0a66a6eef6daed2c8204e59a43",
+    "constant_reader_pseudocode": "ev_6df30f139fc1af470ba0cb46e2d5ccb4e2cf329264a4c33458667fb723e1fc26",
+    "number_reader_pseudocode": "ev_fb624aba2cf3e8d961ded9e04ae63c0a9ad057cc86ab9633c8dfbaa7ef37ca87",
+    "vm_a_pseudocode": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "opcode_metadata_bytes": "ev_165a047ff1c9b54ef2dca71da1038a3aad11c3e4407556c372765509dc168336"
+  },
+  "control_flow": {
+    "confirmation": "native_static",
+    "evidence": [
+      "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b VM TEST/EQ/TESTSET paired-JMP paths"
+    ],
+    "emission": "explicit Lua5.1 program-counter dispatcher",
+    "comparison_domain": "Guarded nil/boolean/string/signed-int32 numeric equality; ordered comparisons require matching string or signed-int32 types"
+  },
+  "captures": {
+    "confirmation": "native_static",
+    "evidence": [
+      "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b CLOSURE0x010b080e, GETUPVAL/SETUPVAL/CLOSE paths",
+      "capture-handlers.json CLOSE helper0x01081f30",
+      "ev_1ff04a45181aeac01ce85b671cb59a66d1d10d06e7a778a1992b439d5cd46393: close helper0x01081f30"
+    ],
+    "descriptor_kind": "lowbyte1 local-register cell; lowbyte0 forwarded-parent cell",
+    "descriptor_index_bits": [
+      8,
+      24
+    ],
+    "representation": "shared mutable value cells; CLOSE detaches current register slots at/aboveA"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "files": [
+    "work/v19-host/android_scene.c",
+    "work/v19-host/oa_stream.c",
+    "work/v19-host/CMakeLists.txt",
+    "work/v40-windows-host/CMakeLists.txt",
+    "work/v19-host/oa_render_cache.c",
+    "work/v19-host/oa_render_cache.h"
+  ],
+  "feature_toggle": "debug.opem.rendercache: 0 old path / 1 cache and active phase setup default",
+  "texture_scope": "reset each phase; only units0..7 2D; no cross-module GL state assumption",
+  "status": "implemented; not compiled or benchmarked"
+}

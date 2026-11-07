@@ -1,0 +1,487 @@
+/*
+** Copyright (c) 2018 Valve Corporation
+** Copyright (c) 2018-2026 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#include "application/application.h"
+#include "util/logging.h"
+#include "util/platform.h"
+#include "decode/preload_file_processor.h"
+
+#if defined(VK_USE_PLATFORM_WIN32_KHR)
+#include "application/win32_context.h"
+#endif
+#if defined(VK_USE_PLATFORM_WAYLAND_KHR)
+#include "application/wayland_context.h"
+#endif
+#if defined(VK_USE_PLATFORM_XCB_KHR)
+#include "application/xcb_context.h"
+#endif
+#if defined(VK_USE_PLATFORM_XLIB_KHR)
+#include "application/xlib_context.h"
+#endif
+#if defined(VK_USE_PLATFORM_ANDROID_KHR)
+#include "application/android_context.h"
+#endif
+#if defined(VK_USE_PLATFORM_METAL_EXT)
+#include "application/metal_context.h"
+#endif
+#if defined(VK_USE_PLATFORM_DISPLAY_KHR)
+#include "application/display_context.h"
+#endif
+#if defined(VK_USE_PLATFORM_HEADLESS)
+#include "application/headless_context.h"
+#endif
+
+#include <algorithm>
+#include <cassert>
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(application)
+
+Application::Application(const std::string& name, decode::FileProcessor* file_processor) :
+    Application(name, file_processor, std::string(), nullptr)
+{}
+
+Application::Application(const std::string&     name,
+                         decode::FileProcessor* file_processor,
+                         const std::string&     cli_wsi_extension,
+                         void*                  platform_specific_wsi_data) :
+    name_(name),
+    file_processor_(file_processor), running_(false), paused_(false),
+    pause_frame_(std::numeric_limits<uint32_t>::max()), cli_wsi_extension_(cli_wsi_extension),
+    fps_info_(nullptr), frame_loop_info_{ nullptr }
+{
+#if defined(BUILD_ANDROID_APP)
+    android_app_           = reinterpret_cast<struct android_app*>(platform_specific_wsi_data);
+    android_app_->userData = this;
+#endif
+
+    if (!cli_wsi_extension_.empty())
+    {
+        InitializeWsiContext(cli_wsi_extension_.c_str(), platform_specific_wsi_data);
+    }
+}
+
+Application ::~Application() {}
+
+const WsiContext* Application::GetWsiContext(const std::string& wsi_extension, bool auto_select) const
+{
+    auto itr = wsi_contexts_.end();
+
+    // If auto_select is enabled and a WSI extension was selected on the CLI,
+    //  attempt to get that WSI context
+    if (auto_select && !cli_wsi_extension_.empty())
+    {
+        itr = wsi_contexts_.find(cli_wsi_extension_);
+    }
+
+    // If we don't have a valid WSI context after potential auto_select, fallback
+    //  to the current API call request
+    if (itr == wsi_contexts_.end())
+    {
+        itr = wsi_contexts_.find(wsi_extension);
+    }
+
+#if defined(__ANDROID__)
+    // Allow non-Vulkan consumers (e.g. WebGPU) to request the Android context by the
+    // platform-generic key "ANDROID" instead of VK_KHR_ANDROID_SURFACE_EXTENSION_NAME,
+    // avoiding a dependency on a Vulkan extension string in non-Vulkan code paths.
+    if (itr == wsi_contexts_.end() && wsi_extension == "ANDROID")
+    {
+        itr = wsi_contexts_.find(VK_KHR_ANDROID_SURFACE_EXTENSION_NAME);
+    }
+#endif
+
+    // If auto_select is enabled and we still don't have a valid WSI context, use
+    //  first one we have
+    if (auto_select && itr == wsi_contexts_.end())
+    {
+        itr = wsi_contexts_.begin();
+    }
+
+    // If we've gotten here without a valid WSI context then we'll simply return
+    //  nullptr letting the caller know that we do not have a WSI context loaded
+    //  for the given WSI extension
+    return itr != wsi_contexts_.end() ? itr->second.get() : nullptr;
+}
+
+WsiContext* Application::GetWsiContext(const std::string& wsi_extension, bool auto_select)
+{
+    auto const_this  = const_cast<const Application*>(this);
+    auto wsi_context = const_this->GetWsiContext(wsi_extension, auto_select);
+    return const_cast<WsiContext*>(wsi_context);
+}
+
+void Application::SetAsyncProcessing(bool async_processing)
+{
+    GFXRECON_ASSERT(!IsFrameProcessingInitialized());
+    if (!IsFrameProcessingInitialized())
+    {
+        params_.async = async_processing;
+    }
+}
+
+void Application::SetPrintBlockInfoFlag(bool enable, int64_t from, int64_t to)
+{
+    GFXRECON_ASSERT(!IsFrameProcessingInitialized());
+    if (!IsFrameProcessingInitialized())
+    {
+        params_.print_block_info = enable;
+        params_.block_index_from = from;
+        params_.block_index_to   = to;
+    }
+}
+
+void Application::SetFpsInfo(graphics::FpsInfo* fps_info)
+{
+    if (file_processor_ == nullptr)
+    {
+        GFXRECON_LOG_WARNING("Application file processor not set, cannot set FpsInfo object.");
+        return;
+    }
+    GFXRECON_ASSERT(!IsFrameProcessingInitialized());
+    if (!IsFrameProcessingInitialized())
+    {
+        fps_info_ = fps_info;
+        if (fps_info_ != nullptr)
+        {
+            // FileProcessor frames are 0-based; fps_info frames are 1-based.
+            auto preload_range = fps_info_->GetPreloadFrameRange();
+            if (preload_range.has_value())
+            {
+                params_.preload_range =
+                    decode::FileProcessor::FrameRange::MakeFromOneBased(preload_range->first, preload_range->second);
+            }
+            // Prevent async "run on". Loop frame takes priority -- preserve it when set.
+            if (frame_loop_info_ == nullptr)
+            {
+                params_.quit_before_frame = decode::FileProcessor::DecrementFrame(fps_info_->GetQuitBeforeFrame());
+            }
+        }
+    }
+}
+
+void Application::SetFrameLoopInfo(graphics::FrameLoopInfo* frame_loop_info)
+{
+    GFXRECON_ASSERT(!IsFrameProcessingInitialized());
+    if (!IsFrameProcessingInitialized())
+    {
+        frame_loop_info_ = frame_loop_info;
+        if (frame_loop_info_ != nullptr)
+        {
+            // NOTE: Loop frame support is "experimental" and should not be used with preload (though it
+            //       is currently not prevented).  This will be resolved in future work
+            //
+            // FrameLoopInfo frames are 1-based; params_ frames are 0-based, a frame_loop_info frame of zero invalid.
+            params_.quit_before_frame = decode::FileProcessor::DecrementFrame(frame_loop_info_->GetLoopFrame());
+        }
+    }
+}
+
+void Application::Run()
+{
+    running_ = true;
+
+    file_processor_->InitializeFrameProcessing(params_);
+
+    bool pre_frame_processed = false;
+    uint64_t next_loop_measurement_frame = 0;
+
+    while (running_)
+    {
+        ProcessEvents(paused_);
+
+        // Only process the next frame if a quit event was not processed or not paused.
+        if (running_ && !paused_)
+        {
+            if (!pre_frame_processed)
+            {
+                // Explicitly process the pre-frame phase before advancing to the next frame.
+                if (!file_processor_->ProcessPreFrame())
+                {
+                    running_ = false;
+                    break;
+                }
+                pre_frame_processed = true;
+            }
+
+            // Add one to match "trim frame range semantic"
+            uint64_t frame_number = file_processor_->GetCurrentFrameNumber() + 1;
+
+            if ((frame_loop_info_ != nullptr) && (frame_loop_info_->ShouldStartFrameLooping(frame_number)))
+            {
+                // Preload the next frame and make sure we don't advance to the next one.
+                GetPreloadFileProcessor()->PreloadLoopFrame();
+                frame_loop_info_->SetLooping(true);
+                next_loop_measurement_frame = frame_number;
+            }
+
+            // Capture position is restored by the loop; profiling counts actual plays.
+            const uint64_t timing_frame = frame_loop_info_ && frame_loop_info_->IsLooping()
+                ? next_loop_measurement_frame++ : frame_number;
+
+            if (fps_info_ != nullptr)
+            {
+                if (fps_info_->ShouldQuit(timing_frame))
+                {
+                    running_ = false;
+                    break;
+                }
+
+                if (fps_info_->ShouldWaitIdleBeforeFrame(timing_frame))
+                {
+                    file_processor_->WaitDecodersIdle();
+                }
+
+                auto preload_frames_count = fps_info_->ShouldPreloadFrames(timing_frame);
+                if (preload_frames_count > 0U)
+                {
+                    GetPreloadFileProcessor()->PreloadNextFrames(preload_frames_count);
+                }
+
+                fps_info_->BeginFrame(timing_frame);
+            }
+
+            // PlaySingleFrame() increments this->current_frame_number_ *if* there's an end-of-frame
+            PlaySingleFrame();
+
+            if ((frame_loop_info_ != nullptr) && (frame_loop_info_->IsLooping()))
+            {
+                // Quit when frame looping has finished.
+                frame_loop_info_->DecrementLoopIterations();
+                GFXRECON_LOG_INFO("Looping frame (%i iterations remaining)", frame_loop_info_->GetLoopIterations());
+                if (frame_loop_info_->GetLoopIterations() == 0)
+                {
+                    running_ = false;
+                }
+            }
+
+            if (fps_info_ != nullptr)
+            {
+                fps_info_->EndFrame(timing_frame);
+
+                if (fps_info_->ShouldWaitIdleAfterFrame(timing_frame))
+                {
+                    file_processor_->WaitDecodersIdle();
+                }
+            }
+        }
+    }
+}
+
+void Application::SetPaused(bool paused)
+{
+    if (file_processor_ != nullptr && paused_ != paused)
+    {
+        uint32_t current_frame = file_processor_->GetCurrentFrameNumber();
+        if (paused)
+        {
+            GFXRECON_LOG_INFO("Paused at frame %u", current_frame);
+        }
+        else
+        {
+            GFXRECON_LOG_INFO("Resumed from frame %u", current_frame);
+        }
+    }
+
+    paused_ = paused;
+}
+
+bool Application::PlaySingleFrame()
+{
+    bool success = false;
+
+    if (file_processor_)
+    {
+        if (replay_event_sink_)
+        {
+            // Replay event plugin uses a 0-based frame index.
+            replay_event_sink_->FrameBegin(file_processor_->GetCurrentFrameNumber());
+        }
+
+        success = file_processor_->ProcessNextFrame();
+
+        if (success)
+        {
+            if (file_processor_->GetCurrentFrameNumber() == pause_frame_)
+            {
+                paused_ = true;
+            }
+
+            // Check paused state separately from previous check to print messages for two different cases: replay has
+            // paused on the user specified pause frame (tested above), or the user has pressed a key to advance forward
+            // by one frame while paused.
+            if (paused_)
+            {
+                GFXRECON_LOG_INFO("Paused at frame %u", file_processor_->GetCurrentFrameNumber());
+            }
+        }
+        else
+        {
+            running_ = false;
+        }
+
+        if (replay_event_sink_)
+        {
+            replay_event_sink_->FrameEnd();
+        }
+    }
+
+    return success;
+}
+
+void Application::ProcessEvents(bool wait_for_input)
+{
+    for (const auto& itr : wsi_contexts_)
+    {
+        const auto& wsi_context       = itr.second;
+        bool        activeWsiContext  = wsi_context && !wsi_context->GetWindows().empty();
+        auto        pWindowFactory    = wsi_context ? wsi_context->GetWindowFactory() : nullptr;
+        bool        androidWsiContext = pWindowFactory && (strcmp(pWindowFactory->GetSurfaceExtensionName(),
+                                                           VK_KHR_ANDROID_SURFACE_EXTENSION_NAME) == 0);
+        if (activeWsiContext || androidWsiContext)
+        {
+            wsi_context->ProcessEvents(wait_for_input);
+        }
+    }
+}
+
+bool Application::InitializeWsiContext(const char* pSurfaceExtensionName, void* pPlatformSpecificData)
+{
+    bool platform_exists = false;
+    assert(pSurfaceExtensionName);
+    auto itr = wsi_contexts_.find(pSurfaceExtensionName);
+    if (itr == wsi_contexts_.end())
+    {
+#if defined(VK_USE_PLATFORM_WIN32_KHR)
+        if (!util::platform::StringCompare(pSurfaceExtensionName, VK_KHR_WIN32_SURFACE_EXTENSION_NAME))
+        {
+            std::unique_ptr<Win32Context> platform_context = std::make_unique<Win32Context>(this);
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_KHR_WIN32_SURFACE_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                                    = true;
+            }
+        }
+        else
+#endif
+#if defined(VK_USE_PLATFORM_WAYLAND_KHR)
+            if (!util::platform::StringCompare(pSurfaceExtensionName, VK_KHR_WAYLAND_SURFACE_EXTENSION_NAME))
+        {
+            std::unique_ptr<WaylandContext> platform_context = std::make_unique<WaylandContext>(this);
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_KHR_WAYLAND_SURFACE_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                                      = true;
+            }
+        }
+        else
+#endif
+#if defined(VK_USE_PLATFORM_XCB_KHR)
+            if (!util::platform::StringCompare(pSurfaceExtensionName, VK_KHR_XCB_SURFACE_EXTENSION_NAME))
+        {
+            std::unique_ptr<XcbContext> platform_context = std::make_unique<XcbContext>(this);
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_KHR_XCB_SURFACE_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                                  = true;
+            }
+        }
+        else
+#endif
+#if defined(VK_USE_PLATFORM_XLIB_KHR)
+            if (!util::platform::StringCompare(pSurfaceExtensionName, VK_KHR_XLIB_SURFACE_EXTENSION_NAME))
+        {
+            std::unique_ptr<XlibContext> platform_context = std::make_unique<XlibContext>(this);
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_KHR_XLIB_SURFACE_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                                   = true;
+            }
+        }
+        else
+#endif
+#if defined(VK_USE_PLATFORM_ANDROID_KHR)
+            if (!util::platform::StringCompare(pSurfaceExtensionName, VK_KHR_ANDROID_SURFACE_EXTENSION_NAME))
+        {
+            std::unique_ptr<AndroidContext> platform_context =
+                std::make_unique<AndroidContext>(this, reinterpret_cast<struct android_app*>(pPlatformSpecificData));
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_KHR_ANDROID_SURFACE_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                                      = true;
+            }
+        }
+        else
+#endif
+#if defined(VK_USE_PLATFORM_METAL_EXT)
+            if (!util::platform::StringCompare(pSurfaceExtensionName, VK_EXT_METAL_SURFACE_EXTENSION_NAME))
+        {
+            std::unique_ptr<MetalContext> platform_context = std::make_unique<MetalContext>(this);
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_EXT_METAL_SURFACE_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                                    = true;
+            }
+        }
+        else
+#endif
+#if defined(VK_USE_PLATFORM_DISPLAY_KHR)
+            if (!util::platform::StringCompare(pSurfaceExtensionName, VK_KHR_DISPLAY_EXTENSION_NAME))
+        {
+            std::unique_ptr<DisplayContext> platform_context = std::make_unique<DisplayContext>(this);
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_KHR_DISPLAY_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                              = true;
+            }
+        }
+        else
+#endif
+#if defined(VK_USE_PLATFORM_HEADLESS)
+            if (!util::platform::StringCompare(pSurfaceExtensionName, VK_EXT_HEADLESS_SURFACE_EXTENSION_NAME))
+        {
+            std::unique_ptr<HeadlessContext> platform_context = std::make_unique<HeadlessContext>(this);
+            if (platform_context->Valid())
+            {
+                wsi_contexts_[VK_EXT_HEADLESS_SURFACE_EXTENSION_NAME] = std::move(platform_context);
+                platform_exists                                       = true;
+            }
+        }
+        else
+#endif
+        {
+            // NOOP :
+        }
+    }
+    return platform_exists;
+}
+
+#if defined(D3D12_SUPPORT)
+void Application::InitializeDx12WsiContext()
+{
+    wsi_contexts_["Dx12WsiContext"] = std::make_unique<Win32Context>(this);
+}
+#endif
+
+GFXRECON_END_NAMESPACE(application)
+GFXRECON_END_NAMESPACE(gfxrecon)

@@ -1,0 +1,51 @@
+current clip 673754 Human_OneHand_Combat_Idle01
+current clip 673863 Human_OneHand_Combat_Walk01
+current clip 673928 Human_OneHand_Combat_Run01
+current clip 673833 Human_OneHand_AttackB_01
+current clip 1893691 Human_OneHand_Attack_Special
+current clip 673835 Human_OneHand_AttackX_01
+current clip 673903 Human_OneHand_React_Front01
+current clip 1926549 Human_OneHand_React_Death
+== Player 103195 ['103195.bundle', '103195.mtns_bxml']
+103195.bundle 72 clips 0
+[]
+103195.mtns_bxml 88202 clips 42
+['human_M_idle_turn_90_left', 'human_Run_TurnRightBack', 'artifact_brokenidle', 'human_Run_Turn_180_Short', 'Player_Idle_Variation03', 'human_sprint_start', 'human_Run_stealth_01', 'player_idle_stealth_01', 'human_swim_idle_01', 'human_run_Slope_Down_Blend', 'human_M_Idle_Turn_90_Left_walk', 'human_run_01', 'human_walk_01', 'human_Jog_01', 'human_run_start_01', 'human_Jog_Start_01', 'human_M_Idle_Turn_90_Left_walk', 'human_M_Idle_Turn_90_Rgt_walk', 'human_swim_sprint', 'human_walk_stealth_enter_01', 'human_walk_02', 'human_Jog_02', 'human_run_02', 'human_walk_03', 'human_Jog_03', 'human_run_03', 'human_M_walk_stop_L', 'human_M_walk_stop_R', 'Player_Idle_Win']
+== Player_Weapon_Sword 596332 ['596332.bundle', '596332.mtns_bxml']
+596332.bundle 51 clips 0
+[]
+596332.mtns_bxml 38405 clips 13
+[]
+== Player_Shield_None 611852 ['611852.bundle', '611852.mtns_bxml']
+611852.bundle 44 clips 0
+[]
+611852.mtns_bxml 6364 clips 3
+['human_block_idle_enter_unarmed', 'human_block_idle_exit_unarmed']
+== Player_F 666245 ['666245.mtns_bxml', '666245.bundle']
+666245.mtns_bxml 86471 clips 25
+['Player_idle_f', 'human_M_Idle_Turn_90_Left_F', 'human_Run_TurnRightBack_F', 'artifact_brokenidle', 'Player_Idle_Variation01_F', 'human_jump_fall_idle_f', 'human_run_Stealth_01_f', 'human_swim_walkstart_01_f', 'human_run_turn_left_Blend_f', 'human_sprint_turn_Left_Blend_f', 'human_M_idle_Turn_90_rgt_walk_f', 'human_run_01_f', 'human_walk_01_f', 'human_M_walk_Stop_f', 'human_walk_stealth_exit_01_F', 'Human_NPC_Inventory_Idle_F']
+666245.bundle 72 clips 0
+[]
+1 """Build assets/character.bin: skinned player parts, textures and baked clips, plus a preview image.
+14 HEADS = ["1362163"]
+15 PARTS = [(1926576, "torso"), (1926575, "legs"), (1926574, "hands"), (1923507, "feet")]
+142 for hid in HEADS:
+151         PARTS.append((int(hid), "head"))
+153 for fid, label in PARTS:
+271 (out / "character.bin").write_bytes(blob)
+140: report = {"parts": [], "clips": [(n, f, s) for n, f, s, _ in clips]}
+141: # Choose the first helmet whose geometry actually surrounds the head joint.
+142: for hid in HEADS:
+143:     files = extract([f"{hid}.fab_bxml", f"{hid}.fab_visual_data_streamable_bin"])
+144:     vis = files.get(f"{hid}.fab_visual_data_streamable_bin")
+145:     if not vis or vis.stat().st_size < 100:
+146:         continue
+147:     head = amalur_mesh.parse_file(vis)
+148:     zs = [p[2] for b in head["vertex_buffers"] for p in b["positions"]]
+149:     print("head candidate", syms["fab"].get(hid), hid, "stride", head["vertex_buffers"][0]["stride_bytes"], len(zs), round(min(zs)), round(max(zs)), file=sys.stderr)
+150:     if head["vertex_buffers"][0]["stride_bytes"] == 60 and min(zs) < 165 and max(zs) > 172:
+151:         PARTS.append((int(hid), "head"))
+152:         break
+153: for fid, label in PARTS:
+154:     fab = extract([f"{fid}.fab_bxml", f"{fid}.fab_visual_data_streamable_bin"])
+155:     fb = fab[f"{fid}.fab_bxml"].read_bytes()

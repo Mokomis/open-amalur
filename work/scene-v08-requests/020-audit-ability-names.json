@@ -1,0 +1,9 @@
+﻿{
+    "label":  "audit_ability_names",
+    "arguments":  {
+                      "pattern":  "^(ability|player_ability)$|AbilityMgr|PlayerAbility",
+                      "mode":  "regex",
+                      "case_sensitive":  false
+                  },
+    "tool":  "search_strings"
+}

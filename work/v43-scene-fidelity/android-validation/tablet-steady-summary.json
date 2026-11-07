@@ -1,0 +1,99 @@
+{
+  "samples": 8,
+  "sample_frames": 240,
+  "elapsed_frame_interval_mean_ms": 17.67875,
+  "fps_from_mean_interval": 56.56508520115958,
+  "sample_mean_interval_range_ms": [
+    17.64,
+    17.76
+  ],
+  "largest_reported_frame_ms": 27.2,
+  "mean_submit_ms": 12.20125,
+  "mean_swap_ms": 5.20625,
+  "mean_gpu_query_ms": 18.33,
+  "scope": "Stationary shop approach, short sample; not a sustained gameplay benchmark. GPU timer samples asynchronous, do not add to CPU/swap times.",
+  "rows": [
+    {
+      "interval_ms": 17.67,
+      "worst_ms": 21.59,
+      "sim_ms": 0.22,
+      "submit_ms": 12.28,
+      "swap_ms": 5.17,
+      "gpu_ms": 18.34,
+      "gpu_max_ms": 18.68,
+      "line": "11-05 20:23:35.713 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.67 worst_ms=21.59 sim_ms=0.22 submit_ms=12.28 swap_ms=5.17 gpu_ms=18.34 gpu_max_ms=18.68 gpu_samples=240 size=2520x1680 vertices=0"
+    },
+    {
+      "interval_ms": 17.64,
+      "worst_ms": 26.42,
+      "sim_ms": 0.18,
+      "submit_ms": 12.23,
+      "swap_ms": 5.24,
+      "gpu_ms": 18.32,
+      "gpu_max_ms": 18.69,
+      "line": "11-05 20:23:39.950 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.64 worst_ms=26.42 sim_ms=0.18 submit_ms=12.23 swap_ms=5.24 gpu_ms=18.32 gpu_max_ms=18.69 gpu_samples=240 size=2520x1680 vertices=0"
+    },
+    {
+      "interval_ms": 17.65,
+      "worst_ms": 26.61,
+      "sim_ms": 0.31,
+      "submit_ms": 12.08,
+      "swap_ms": 5.26,
+      "gpu_ms": 18.31,
+      "gpu_max_ms": 18.64,
+      "line": "11-05 20:23:44.187 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.65 worst_ms=26.61 sim_ms=0.31 submit_ms=12.08 swap_ms=5.26 gpu_ms=18.31 gpu_max_ms=18.64 gpu_samples=240 size=2520x1680 vertices=0"
+    },
+    {
+      "interval_ms": 17.66,
+      "worst_ms": 26.55,
+      "sim_ms": 0.27,
+      "submit_ms": 12.18,
+      "swap_ms": 5.21,
+      "gpu_ms": 18.31,
+      "gpu_max_ms": 18.66,
+      "line": "11-05 20:23:48.429 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.66 worst_ms=26.55 sim_ms=0.27 submit_ms=12.18 swap_ms=5.21 gpu_ms=18.31 gpu_max_ms=18.66 gpu_samples=240 size=2520x1680 vertices=0"
+    },
+    {
+      "interval_ms": 17.72,
+      "worst_ms": 24.75,
+      "sim_ms": 0.39,
+      "submit_ms": 12.16,
+      "swap_ms": 5.17,
+      "gpu_ms": 18.33,
+      "gpu_max_ms": 19.03,
+      "line": "11-05 20:23:52.684 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.72 worst_ms=24.75 sim_ms=0.39 submit_ms=12.16 swap_ms=5.17 gpu_ms=18.33 gpu_max_ms=19.03 gpu_samples=240 size=2520x1680 vertices=0"
+    },
+    {
+      "interval_ms": 17.76,
+      "worst_ms": 27.2,
+      "sim_ms": 0.41,
+      "submit_ms": 12.25,
+      "swap_ms": 5.1,
+      "gpu_ms": 18.34,
+      "gpu_max_ms": 18.65,
+      "line": "11-05 20:23:56.950 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.76 worst_ms=27.20 sim_ms=0.41 submit_ms=12.25 swap_ms=5.10 gpu_ms=18.34 gpu_max_ms=18.65 gpu_samples=240 size=2520x1680 vertices=0"
+    },
+    {
+      "interval_ms": 17.68,
+      "worst_ms": 23.54,
+      "sim_ms": 0.21,
+      "submit_ms": 12.25,
+      "swap_ms": 5.21,
+      "gpu_ms": 18.35,
+      "gpu_max_ms": 18.88,
+      "line": "11-05 20:24:01.196 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.68 worst_ms=23.54 sim_ms=0.21 submit_ms=12.25 swap_ms=5.21 gpu_ms=18.35 gpu_max_ms=18.88 gpu_samples=240 size=2520x1680 vertices=0"
+    },
+    {
+      "interval_ms": 17.65,
+      "worst_ms": 24.39,
+      "sim_ms": 0.17,
+      "submit_ms": 12.18,
+      "swap_ms": 5.29,
+      "gpu_ms": 18.34,
+      "gpu_max_ms": 18.66,
+      "line": "11-05 20:24:05.434 22838 18410 I OpemAmalurScene: PROFILE interval_ms=17.65 worst_ms=24.39 sim_ms=0.17 submit_ms=12.18 swap_ms=5.29 gpu_ms=18.34 gpu_max_ms=18.66 gpu_samples=240 size=2520x1680 vertices=0"
+    }
+  ],
+  "raw_samples": 10,
+  "excluded_initial_samples": 2
+}

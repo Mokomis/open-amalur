@@ -1,0 +1,1425 @@
+{
+  "status": "STAGING ONLY: material-bank binding/shader families and sourceflags pass mask need root integration; geometry not live",
+  "space": 1417252,
+  "region": 1262814,
+  "source_spawn": [
+    4312,
+    2806,
+    -314,
+    -180
+  ],
+  "material_rows": {
+    "420035": 0,
+    "422610": 1,
+    "422613": 2,
+    "422631": 3,
+    "442846": 4,
+    "459142": 5,
+    "464114": 6,
+    "464123": 7,
+    "465903": 8,
+    "465904": 9,
+    "465905": 10,
+    "465906": 11,
+    "469438": 12,
+    "473302": 13,
+    "474330": 14,
+    "476693": 15,
+    "491718": 16,
+    "509884": 17,
+    "570823": 18,
+    "570948": 19,
+    "572475": 20,
+    "576446": 21,
+    "576476": 22,
+    "576594": 23,
+    "580119": 24,
+    "582574": 25,
+    "582576": 26,
+    "585674": 27,
+    "588163": 28,
+    "590940": 29,
+    "594126": 30,
+    "602343": 31,
+    "603279": 32,
+    "603297": 33,
+    "606352": 34,
+    "606701": 35,
+    "609731": 36,
+    "618438": 37,
+    "682599": 38,
+    "703509": 39,
+    "1302073": 40,
+    "1307077": 41,
+    "1366815": 42,
+    "1369025": 43,
+    "1369028": 44,
+    "1371425": 45,
+    "1436142": 46,
+    "1436144": 47,
+    "1436197": 48,
+    "1437362": 49,
+    "1443430": 50,
+    "1458218": 51,
+    "1472779": 52,
+    "1558824": 53
+  },
+  "counts": {
+    "unique_geometry": 862,
+    "stored_triangles": 768886,
+    "vertices": 869763,
+    "stride_48": 806,
+    "ranges": 2340,
+    "all_range_triangles": 2044665,
+    "stride_56": 55,
+    "stride_20": 1
+  },
+  "pack_bytes": 75442004,
+  "cells": [
+    {
+      "file": "r-2_1.bin",
+      "cell": [
+        -2,
+        1
+      ],
+      "bytes": 147216,
+      "sha256": "62df1f99469209f493816355ceaff8c021063d908ed85892b9b1d6d6a407576f",
+      "vertices": 1763,
+      "stored_triangles": 1092,
+      "ranges": 2,
+      "bounds": [
+        [
+          -9414.25390625,
+          -633.017578125,
+          1317.0035400390625
+        ],
+        [
+          91.27469635009766,
+          9934.689453125,
+          12347.9482421875
+        ]
+      ]
+    },
+    {
+      "file": "r-1_-1.bin",
+      "cell": [
+        -1,
+        -1
+      ],
+      "bytes": 321780,
+      "sha256": "48c66fa48a5808c7d3edc7ba3072cfe2ddae9ea95846af240ac1177ce5b54288",
+      "vertices": 3689,
+      "stored_triangles": 3425,
+      "ranges": 6,
+      "bounds": [
+        [
+          -6164.63134765625,
+          -5802.337890625,
+          -10507.720703125
+        ],
+        [
+          2448.317626953125,
+          3479.070556640625,
+          8690.01953125
+        ]
+      ]
+    },
+    {
+      "file": "r-1_0.bin",
+      "cell": [
+        -1,
+        0
+      ],
+      "bytes": 11156288,
+      "sha256": "cb7b7777918c4852e1476bf5ae95dcdee7e87217d4607cff3f5848dfc4d43da1",
+      "vertices": 129670,
+      "stored_triangles": 106877,
+      "ranges": 392,
+      "bounds": [
+        [
+          -6583.376953125,
+          -26275.46875,
+          -52044.34765625
+        ],
+        [
+          51370.83984375,
+          28849.8984375,
+          33137.47265625
+        ]
+      ]
+    },
+    {
+      "file": "r-1_1.bin",
+      "cell": [
+        -1,
+        1
+      ],
+      "bytes": 994324,
+      "sha256": "81b626db948acdabd07183aa1b60b9ef89ede1a5825c0a6d78a5c7abbdadeb53",
+      "vertices": 11703,
+      "stored_triangles": 8503,
+      "ranges": 59,
+      "bounds": [
+        [
+          -5917.39013671875,
+          6379.63330078125,
+          -2632.736328125
+        ],
+        [
+          1988.5303955078125,
+          14616.951171875,
+          14110.6396484375
+        ]
+      ]
+    },
+    {
+      "file": "r-1_2.bin",
+      "cell": [
+        -1,
+        2
+      ],
+      "bytes": 166900,
+      "sha256": "cee8605ecc67c1182ff882597d32bf21513b17ba825cac6d915b9db13bf0ea52",
+      "vertices": 1980,
+      "stored_triangles": 1350,
+      "ranges": 4,
+      "bounds": [
+        [
+          -6137.38330078125,
+          4682.08349609375,
+          -14993.140625
+        ],
+        [
+          8965.8896484375,
+          18680.359375,
+          -1970.4754638671875
+        ]
+      ]
+    },
+    {
+      "file": "r-1_3.bin",
+      "cell": [
+        -1,
+        3
+      ],
+      "bytes": 19712,
+      "sha256": "e47b288ca22e16b9d51cc0cd9e04fd4c06c51becc650885aa2d617fa0a69f09d",
+      "vertices": 217,
+      "stored_triangles": 258,
+      "ranges": 2,
+      "bounds": [
+        [
+          -4127.24169921875,
+          19177.87109375,
+          -8006.24267578125
+        ],
+        [
+          -255.01438903808594,
+          23231.685546875,
+          -3476.62744140625
+        ]
+      ]
+    },
+    {
+      "file": "r0_-3.bin",
+      "cell": [
+        0,
+        -3
+      ],
+      "bytes": 19712,
+      "sha256": "e86c4b078fc5bfa63bfabc7d6ed09c19597d572d552add710b395f8649b0b5d5",
+      "vertices": 217,
+      "stored_triangles": 258,
+      "ranges": 2,
+      "bounds": [
+        [
+          3899.968017578125,
+          -16782.4375,
+          6952.44091796875
+        ],
+        [
+          7986.99853515625,
+          -12472.5244140625,
+          12369.462890625
+        ]
+      ]
+    },
+    {
+      "file": "r0_-2.bin",
+      "cell": [
+        0,
+        -2
+      ],
+      "bytes": 314088,
+      "sha256": "390b6e5d278132634507096ca628e35f1955a1b079c5ede6525c6fbc44e4fb47",
+      "vertices": 3743,
+      "stored_triangles": 2442,
+      "ranges": 6,
+      "bounds": [
+        [
+          -4216.01513671875,
+          -12755.8037109375,
+          -14462.9677734375
+        ],
+        [
+          8783.14453125,
+          2670.63720703125,
+          15827.953125
+        ]
+      ]
+    },
+    {
+      "file": "r0_-1.bin",
+      "cell": [
+        0,
+        -1
+      ],
+      "bytes": 196580,
+      "sha256": "f3c064a4ebabac8b8aaf7b4d5218bc7c5a859eb710fb7b62124f1116abb9aa7b",
+      "vertices": 2164,
+      "stored_triangles": 2650,
+      "ranges": 6,
+      "bounds": [
+        [
+          -3616.1953125,
+          -10364.3662109375,
+          -10468.208984375
+        ],
+        [
+          8264.11328125,
+          189.29519653320312,
+          15842.080078125
+        ]
+      ]
+    },
+    {
+      "file": "r0_0.bin",
+      "cell": [
+        0,
+        0
+      ],
+      "bytes": 18525068,
+      "sha256": "ccd12ea27d5611bcbffefcb06987c81c20cbb9d3ef646eb86c408301a3e67ff3",
+      "vertices": 206332,
+      "stored_triangles": 235344,
+      "ranges": 410,
+      "bounds": [
+        [
+          -213.23828125,
+          554.669189453125,
+          -1670.434326171875
+        ],
+        [
+          6016.4365234375,
+          5308.8076171875,
+          13138.0048828125
+        ]
+      ]
+    },
+    {
+      "file": "r0_1.bin",
+      "cell": [
+        0,
+        1
+      ],
+      "bytes": 119532,
+      "sha256": "b5cd677f121d55cc46b46e58517bf23da4b9bfeb2e88d0702587a9e98a38be07",
+      "vertices": 1316,
+      "stored_triangles": 1608,
+      "ranges": 4,
+      "bounds": [
+        [
+          -1173.072509765625,
+          4941.67236328125,
+          -8364.2685546875
+        ],
+        [
+          8286.701171875,
+          16084.7822265625,
+          14821.0712890625
+        ]
+      ]
+    },
+    {
+      "file": "r0_2.bin",
+      "cell": [
+        0,
+        2
+      ],
+      "bytes": 47036,
+      "sha256": "ffbf40bc644f1c97141831b75a4b2f49b00db8029b4a7aef3a455894a94e6813",
+      "vertices": 514,
+      "stored_triangles": 646,
+      "ranges": 4,
+      "bounds": [
+        [
+          -1423.6243896484375,
+          11942.5849609375,
+          -8015.5712890625
+        ],
+        [
+          6521.537109375,
+          20241.525390625,
+          13793.529296875
+        ]
+      ]
+    },
+    {
+      "file": "r0_3.bin",
+      "cell": [
+        0,
+        3
+      ],
+      "bytes": 104244,
+      "sha256": "ca2932afa2d09b9da72a1fb68d5e4cc4ffe61f3d4f2a3436cb0a636576885049",
+      "vertices": 1148,
+      "stored_triangles": 1398,
+      "ranges": 4,
+      "bounds": [
+        [
+          -1983.29736328125,
+          16731.837890625,
+          -8992.640625
+        ],
+        [
+          5917.99462890625,
+          24652.576171875,
+          11793.759765625
+        ]
+      ]
+    },
+    {
+      "file": "r1_-3.bin",
+      "cell": [
+        1,
+        -3
+      ],
+      "bytes": 201708,
+      "sha256": "1dcca325cb64e5e2a7133dec43288a0bdc92dc3a2d5a442b3f15fc20c1b02412",
+      "vertices": 2204,
+      "stored_triangles": 2788,
+      "ranges": 15,
+      "bounds": [
+        [
+          747.062255859375,
+          -20476.556640625,
+          -8207.802734375
+        ],
+        [
+          13038.390625,
+          -8170.4755859375,
+          14385.009765625
+        ]
+      ]
+    },
+    {
+      "file": "r1_-2.bin",
+      "cell": [
+        1,
+        -2
+      ],
+      "bytes": 278920,
+      "sha256": "72e58ff010ade3a29fa6fcf2df8d3f0a9739767e0896413ac037ff27b3b0b6e8",
+      "vertices": 3213,
+      "stored_triangles": 2860,
+      "ranges": 8,
+      "bounds": [
+        [
+          6032.55810546875,
+          -14193.9912109375,
+          -13421.46875
+        ],
+        [
+          15876.525390625,
+          -2461.294677734375,
+          14831.6611328125
+        ]
+      ]
+    },
+    {
+      "file": "r1_-1.bin",
+      "cell": [
+        1,
+        -1
+      ],
+      "bytes": 112048,
+      "sha256": "6295bc818e73abda9b991aa44ef9a0fd51cd213b1beddd7f8ce2ba1318bb6f67",
+      "vertices": 1233,
+      "stored_triangles": 1510,
+      "ranges": 4,
+      "bounds": [
+        [
+          4867.80712890625,
+          -9084.314453125,
+          -13405.9619140625
+        ],
+        [
+          14285.2509765625,
+          814.5142822265625,
+          15226.58984375
+        ]
+      ]
+    },
+    {
+      "file": "r1_0.bin",
+      "cell": [
+        1,
+        0
+      ],
+      "bytes": 422020,
+      "sha256": "98292f87550320fed9ea1e4e03433f13a0e2d077dc53e0cc8796c68169f409db",
+      "vertices": 4824,
+      "stored_triangles": 4546,
+      "ranges": 17,
+      "bounds": [
+        [
+          -7040.05712890625,
+          -14160.2568359375,
+          -9192.5048828125
+        ],
+        [
+          27149.056640625,
+          20028.857421875,
+          14094.9912109375
+        ]
+      ]
+    },
+    {
+      "file": "r1_1.bin",
+      "cell": [
+        1,
+        1
+      ],
+      "bytes": 110696,
+      "sha256": "04ddcdc8deeb9d61e7afb3e199b910c8948ba6cfdbea24822f853120fa37ac0f",
+      "vertices": 1225,
+      "stored_triangles": 1456,
+      "ranges": 2,
+      "bounds": [
+        [
+          2450.17578125,
+          5208.06298828125,
+          -10506.251953125
+        ],
+        [
+          12184.009765625,
+          14584.4404296875,
+          1642.6177978515625
+        ]
+      ]
+    },
+    {
+      "file": "r1_2.bin",
+      "cell": [
+        1,
+        2
+      ],
+      "bytes": 287564,
+      "sha256": "6b33eeb277f4066d68818cb8d64ae7a5705bab180aa7044fd1359c1467b8dad8",
+      "vertices": 3172,
+      "stored_triangles": 3848,
+      "ranges": 6,
+      "bounds": [
+        [
+          2436.4521484375,
+          8882.2744140625,
+          -12689.62890625
+        ],
+        [
+          16476.880859375,
+          22421.177734375,
+          16139.2724609375
+        ]
+      ]
+    },
+    {
+      "file": "r2_-2.bin",
+      "cell": [
+        2,
+        -2
+      ],
+      "bytes": 174592,
+      "sha256": "3baf688a4498551dba5399f46271d560e577476a20817e5ee53c20d8fe4dc94e",
+      "vertices": 1926,
+      "stored_triangles": 2333,
+      "ranges": 4,
+      "bounds": [
+        [
+          13857.798828125,
+          -11514.0869140625,
+          -9484.87890625
+        ],
+        [
+          20909.818359375,
+          -5196.89111328125,
+          14994.4013671875
+        ]
+      ]
+    },
+    {
+      "file": "r2_-1.bin",
+      "cell": [
+        2,
+        -1
+      ],
+      "bytes": 396936,
+      "sha256": "4be06c07162ac1d2e69842dd975f79f43406b7898d755a6d22629c741e18d947",
+      "vertices": 4589,
+      "stored_triangles": 3964,
+      "ranges": 12,
+      "bounds": [
+        [
+          7171.07666015625,
+          -11205.556640625,
+          -18311.283203125
+        ],
+        [
+          22611.8515625,
+          5226.81298828125,
+          16146.623046875
+        ]
+      ]
+    },
+    {
+      "file": "r2_0.bin",
+      "cell": [
+        2,
+        0
+      ],
+      "bytes": 228180,
+      "sha256": "f50623c5ddc9f3813aa85725e5ff3a7695bf31f8b660006fb24b18d2b5e5ef6f",
+      "vertices": 2618,
+      "stored_triangles": 2408,
+      "ranges": 6,
+      "bounds": [
+        [
+          9990.0888671875,
+          -3151.86669921875,
+          -4999.701171875
+        ],
+        [
+          20311.07421875,
+          7869.7275390625,
+          14984.896484375
+        ]
+      ]
+    },
+    {
+      "file": "r2_1.bin",
+      "cell": [
+        2,
+        1
+      ],
+      "bytes": 221484,
+      "sha256": "9f2db32507d5d0a6a4598fda97aca326b121f11b15d093c8365bad388e044549",
+      "vertices": 2561,
+      "stored_triangles": 2211,
+      "ranges": 6,
+      "bounds": [
+        [
+          9914.91796875,
+          5335.7265625,
+          -16204.83984375
+        ],
+        [
+          21089.146484375,
+          18512.923828125,
+          16168.91796875
+        ]
+      ]
+    },
+    {
+      "file": "r2_2.bin",
+      "cell": [
+        2,
+        2
+      ],
+      "bytes": 137904,
+      "sha256": "b46ae256f9288087f559591b3065e10ad1676522191a47303927614899f41e93",
+      "vertices": 1643,
+      "stored_triangles": 1076,
+      "ranges": 2,
+      "bounds": [
+        [
+          4288.33642578125,
+          10098.689453125,
+          -14242.7822265625
+        ],
+        [
+          19116.4765625,
+          24834.763671875,
+          -693.718994140625
+        ]
+      ]
+    },
+    {
+      "file": "r3_-1.bin",
+      "cell": [
+        3,
+        -1
+      ],
+      "bytes": 199740,
+      "sha256": "c2be1e998f293cd4843443c0a4d42fcc45b76ead512c58acbc1dfab9f8acdb99",
+      "vertices": 2303,
+      "stored_triangles": 2033,
+      "ranges": 6,
+      "bounds": [
+        [
+          9264.853515625,
+          -12152.9169921875,
+          -36997.2265625
+        ],
+        [
+          33458.58203125,
+          7634.20654296875,
+          14416.7265625
+        ]
+      ]
+    },
+    {
+      "file": "r3_0.bin",
+      "cell": [
+        3,
+        0
+      ],
+      "bytes": 39396,
+      "sha256": "7466e3e80000dcf0e9a283481173cdd014661266bb8352fdf0735b7a00bd07d3",
+      "vertices": 434,
+      "stored_triangles": 516,
+      "ranges": 4,
+      "bounds": [
+        [
+          17819.26171875,
+          2436.4462890625,
+          738.290771484375
+        ],
+        [
+          28332.185546875,
+          8557.8505859375,
+          15132.837890625
+        ]
+      ]
+    },
+    {
+      "file": "r4_-1.bin",
+      "cell": [
+        4,
+        -1
+      ],
+      "bytes": 19712,
+      "sha256": "44fdfcb4a4a380283a040cd83c978e4088650ff44ae173a399cdf9c1e376d58d",
+      "vertices": 217,
+      "stored_triangles": 258,
+      "ranges": 2,
+      "bounds": [
+        [
+          23218.9296875,
+          -2883.631103515625,
+          738.290771484375
+        ],
+        [
+          28775.380859375,
+          2637.25244140625,
+          8211.763671875
+        ]
+      ]
+    },
+    {
+      "file": "r4_0.bin",
+      "cell": [
+        4,
+        0
+      ],
+      "bytes": 19712,
+      "sha256": "b335f71caf9128357bada6be12fec2db7624888fde6d2d4e5861b6118c90c752",
+      "vertices": 217,
+      "stored_triangles": 258,
+      "ranges": 2,
+      "bounds": [
+        [
+          25312.736328125,
+          223.59515380859375,
+          2616.857666015625
+        ],
+        [
+          29397.685546875,
+          4282.396484375,
+          8111.1494140625
+        ]
+      ]
+    },
+    {
+      "file": "r5_-1.bin",
+      "cell": [
+        5,
+        -1
+      ],
+      "bytes": 3053356,
+      "sha256": "8d9916d474c9f411fb2400ec20a33765fac7d4d312cf49513ffaf700d9e5f40e",
+      "vertices": 35760,
+      "stored_triangles": 27364,
+      "ranges": 150,
+      "bounds": [
+        [
+          33411.125,
+          -7268.19384765625,
+          -39.270938873291016
+        ],
+        [
+          38543.41796875,
+          -110.6968994140625,
+          3198.0283203125
+        ]
+      ]
+    },
+    {
+      "file": "r5_0.bin",
+      "cell": [
+        5,
+        0
+      ],
+      "bytes": 5118060,
+      "sha256": "a60fee1032a1828e0f95722196f6182db62eb8446419bfc0c09b397bc94de166",
+      "vertices": 59882,
+      "stored_triangles": 46578,
+      "ranges": 168,
+      "bounds": [
+        [
+          33411.078125,
+          83.77568817138672,
+          -4.2956013679504395
+        ],
+        [
+          38543.39453125,
+          6910.6806640625,
+          3198.0283203125
+        ]
+      ]
+    },
+    {
+      "file": "r5_1.bin",
+      "cell": [
+        5,
+        1
+      ],
+      "bytes": 5247040,
+      "sha256": "af64cbeae6c9974f21a869476c7159f4c3a7270757bfb65e533f4bf66c1e00f0",
+      "vertices": 61296,
+      "stored_triangles": 48443,
+      "ranges": 150,
+      "bounds": [
+        [
+          33269.15234375,
+          6540.2529296875,
+          -4.295657634735107
+        ],
+        [
+          40306.76171875,
+          11695.1181640625,
+          3198.0283203125
+        ]
+      ]
+    },
+    {
+      "file": "r5_2.bin",
+      "cell": [
+        5,
+        2
+      ],
+      "bytes": 3101860,
+      "sha256": "9620832eb0aebd37b9847b714da8f7cca636e2c050c4ab31dd4773a2ab289f00",
+      "vertices": 36315,
+      "stored_triangles": 28383,
+      "ranges": 27,
+      "bounds": [
+        [
+          36375.65625,
+          11324.6904296875,
+          -4.295599460601807
+        ],
+        [
+          40306.76171875,
+          14794.8740234375,
+          3198.028076171875
+        ]
+      ]
+    },
+    {
+      "file": "r6_-2.bin",
+      "cell": [
+        6,
+        -2
+      ],
+      "bytes": 2017280,
+      "sha256": "b1c46572ab03945ddd2b73bbd56abc4c4c5119265dac426b55420165a38f2161",
+      "vertices": 23881,
+      "stored_triangles": 16430,
+      "ranges": 107,
+      "bounds": [
+        [
+          36937.3046875,
+          -13815.1337890625,
+          -973.852783203125
+        ],
+        [
+          41462.6953125,
+          -6286.48779296875,
+          2960.335205078125
+        ]
+      ]
+    },
+    {
+      "file": "r6_-1.bin",
+      "cell": [
+        6,
+        -1
+      ],
+      "bytes": 6786452,
+      "sha256": "a6cf351d5d8fb45b56855fe7b8531fddfa26903001596c899c0cf39b3bf959f5",
+      "vertices": 79249,
+      "stored_triangles": 62593,
+      "ranges": 258,
+      "bounds": [
+        [
+          38177.85546875,
+          -7813.0625,
+          -39.270938873291016
+        ],
+        [
+          44985.26171875,
+          441.5601806640625,
+          3198.0283203125
+        ]
+      ]
+    },
+    {
+      "file": "r6_0.bin",
+      "cell": [
+        6,
+        0
+      ],
+      "bytes": 7734584,
+      "sha256": "c5ebf25d94e6507b27fa1756167c98724ceb0a3b5f0b4651173fcda67fa35757",
+      "vertices": 90325,
+      "stored_triangles": 71492,
+      "ranges": 249,
+      "bounds": [
+        [
+          38137.953125,
+          85.62681579589844,
+          -308.7625732421875
+        ],
+        [
+          44987.08984375,
+          6912.52294921875,
+          3198.0283203125
+        ]
+      ]
+    },
+    {
+      "file": "r6_1.bin",
+      "cell": [
+        6,
+        1
+      ],
+      "bytes": 3086412,
+      "sha256": "89bac252f772b4184f31332f0d6dc3eb95482f07fe78608271beb7e3306c2dcd",
+      "vertices": 35810,
+      "stored_triangles": 29862,
+      "ranges": 135,
+      "bounds": [
+        [
+          38391.80859375,
+          6640.99560546875,
+          -37.41347122192383
+        ],
+        [
+          43324.75390625,
+          11695.130859375,
+          3198.028076171875
+        ]
+      ]
+    },
+    {
+      "file": "r6_2.bin",
+      "cell": [
+        6,
+        2
+      ],
+      "bytes": 1883144,
+      "sha256": "55ac481110bd31cf6bbdde157c28fcd3acb0a86c1aa61f5812699d8af33e1b13",
+      "vertices": 21922,
+      "stored_triangles": 17931,
+      "ranges": 39,
+      "bounds": [
+        [
+          38177.85546875,
+          14609.7978515625,
+          -4.295695781707764
+        ],
+        [
+          40220.3125,
+          19579.310546875,
+          3198.028076171875
+        ]
+      ]
+    },
+    {
+      "file": "r6_3.bin",
+      "cell": [
+        6,
+        3
+      ],
+      "bytes": 2430724,
+      "sha256": "d388c181c2d03edc02bb404492f3d470cc65095a8b0cd14c658107742456cad1",
+      "vertices": 28488,
+      "stored_triangles": 21894,
+      "ranges": 60,
+      "bounds": [
+        [
+          38177.85546875,
+          19461.609375,
+          -0.774404764175415
+        ],
+        [
+          40220.3125,
+          26021.455078125,
+          3201.54931640625
+        ]
+      ]
+    }
+  ],
+  "index_sha256": "063c4d160e3fb467c0d8dab93e99427d8b73d914294a7f2e3c5abcd2650bc9ff",
+  "collision": [
+    {
+      "file": "k-2_-3.bin",
+      "triangles": 4,
+      "bytes": 148,
+      "sha256": "a6b46c14bdefcb247fd1dcb7eaa068d23f32401a64645152a6805c6e5fecf6ca"
+    },
+    {
+      "file": "k-2_-2.bin",
+      "triangles": 16,
+      "bytes": 580,
+      "sha256": "40334fc3b3c0fe1bda331251d17d963bb8b920f71dd092091b21f5b45504ada7"
+    },
+    {
+      "file": "k-2_-1.bin",
+      "triangles": 32,
+      "bytes": 1156,
+      "sha256": "91b35796fe7f0bf0d35ba754fb5e3e56002d0175fc444b32d73d343ea15d147b"
+    },
+    {
+      "file": "k-2_0.bin",
+      "triangles": 86,
+      "bytes": 3100,
+      "sha256": "9afe5ee5168eb8bcdf1def015054f9c0b5103fbfb7c595a7b6812711e984630d"
+    },
+    {
+      "file": "k-2_1.bin",
+      "triangles": 60,
+      "bytes": 2164,
+      "sha256": "d2e6f1b96257c01a1ae6ba8174066163362241382fe4dd24852e5f75934cf491"
+    },
+    {
+      "file": "k-2_2.bin",
+      "triangles": 26,
+      "bytes": 940,
+      "sha256": "1d6f29f3b3390bf22163cfc741734804c06e27acd5842f64ce025ed8ea6edd1c"
+    },
+    {
+      "file": "k-2_3.bin",
+      "triangles": 10,
+      "bytes": 364,
+      "sha256": "c2583e81089755fe08c9a13f32ffcaed86c4a39431fae33853d7a65e351193be"
+    },
+    {
+      "file": "k-1_-3.bin",
+      "triangles": 14,
+      "bytes": 508,
+      "sha256": "1249d66c974011cd068803fa9a8a43a3b067b282bd3fe4fe1b70adffddac8a39"
+    },
+    {
+      "file": "k-1_-2.bin",
+      "triangles": 151,
+      "bytes": 5440,
+      "sha256": "b38b57c940897668ccf4ae96cd9d4c373884f16ca618bfeefb9c956323bd59fa"
+    },
+    {
+      "file": "k-1_-1.bin",
+      "triangles": 653,
+      "bytes": 23512,
+      "sha256": "c72ea0c0f193a71fbd59208fd186d533072e0be75ebd8a3da7766139e7b52426"
+    },
+    {
+      "file": "k-1_0.bin",
+      "triangles": 5564,
+      "bytes": 200308,
+      "sha256": "bfe4ae78a1366df4cc374d1d4322b3cee844beb8a6ab7e3178ee64c88ce5d8b8"
+    },
+    {
+      "file": "k-1_1.bin",
+      "triangles": 1267,
+      "bytes": 45616,
+      "sha256": "043c581d0a76089998d24ecaa3f93be1e85a051e62be82049f5c1de2d3ee05f1"
+    },
+    {
+      "file": "k-1_2.bin",
+      "triangles": 309,
+      "bytes": 11128,
+      "sha256": "090f78dfa7e00e74ddd040ff4f019aeff6cfabe2b1cec2db2775a237c441090a"
+    },
+    {
+      "file": "k-1_3.bin",
+      "triangles": 141,
+      "bytes": 5080,
+      "sha256": "8eeb2ce93a21bd7bac3a13d4cdc51769e96048e4e2427c62ec1f3d9a8bbcea0d"
+    },
+    {
+      "file": "k0_-4.bin",
+      "triangles": 27,
+      "bytes": 976,
+      "sha256": "264778a754f16e1c2e861217cdff6a02eebf33b3c07e725186132ddc1473f617"
+    },
+    {
+      "file": "k0_-3.bin",
+      "triangles": 370,
+      "bytes": 13324,
+      "sha256": "e52e141443ac0d93b707703291199609033f2d091a2e7e1a1651a73a3e4021eb"
+    },
+    {
+      "file": "k0_-2.bin",
+      "triangles": 719,
+      "bytes": 25888,
+      "sha256": "1eb7fd483e9a70dda4a03ea5f2629cc8a28b4eee680f250d3e5f6ead212c6022"
+    },
+    {
+      "file": "k0_-1.bin",
+      "triangles": 782,
+      "bytes": 28156,
+      "sha256": "2ee902cf84e9322c97f64f69f7ea4859cc59a7bb77c537f3ce3247f10f20733f"
+    },
+    {
+      "file": "k0_0.bin",
+      "triangles": 6249,
+      "bytes": 224968,
+      "sha256": "77dcdf1088fe13e08be6229347f219f8accf400c5eb59c619b01c2a44f4766f6"
+    },
+    {
+      "file": "k0_1.bin",
+      "triangles": 680,
+      "bytes": 24484,
+      "sha256": "8f18995f611fbf0a2cefb688acbd71bdbf83b2dae985dbd199acd847721172e1"
+    },
+    {
+      "file": "k0_2.bin",
+      "triangles": 726,
+      "bytes": 26140,
+      "sha256": "d709abf195a26dc44b42c95da4482e6c50e8236171098fabac5345b78611fdff"
+    },
+    {
+      "file": "k0_3.bin",
+      "triangles": 392,
+      "bytes": 14116,
+      "sha256": "6e75b9eb20f1e47a88d145ac31b5b6ecb79e7d588eb7695f3783667bf2b02a52"
+    },
+    {
+      "file": "k0_4.bin",
+      "triangles": 14,
+      "bytes": 508,
+      "sha256": "5d1c7a417172925dbf3fa26c6299185b28ce511a90633d30bae2f99a289527af"
+    },
+    {
+      "file": "k1_-4.bin",
+      "triangles": 30,
+      "bytes": 1084,
+      "sha256": "6c379893a356590b8af8383e18415e1621cd48e1196924514b5baef80cef8298"
+    },
+    {
+      "file": "k1_-3.bin",
+      "triangles": 855,
+      "bytes": 30784,
+      "sha256": "9d094f8732f97cb30fc0614c263b9ca4471490275afdc4e2498e7140a4d50324"
+    },
+    {
+      "file": "k1_-2.bin",
+      "triangles": 964,
+      "bytes": 34708,
+      "sha256": "59b91ad0b12b6b7d4282aa5ad01378a62101a0e072c1038239e0d56971efac36"
+    },
+    {
+      "file": "k1_-1.bin",
+      "triangles": 628,
+      "bytes": 22612,
+      "sha256": "98d39d0b69264b6ba3706fd4e33ab3e3e0cd3166f9c664633f7c004f2b2ee2ed"
+    },
+    {
+      "file": "k1_0.bin",
+      "triangles": 784,
+      "bytes": 28228,
+      "sha256": "87da989865b9b3378f5f47d04c98c57ac4731d4fb4b1135a3936cf78b73cbf9d"
+    },
+    {
+      "file": "k1_1.bin",
+      "triangles": 640,
+      "bytes": 23044,
+      "sha256": "64abaf26a0beee07e903d59076eb9975bce53ed141d814e28759456dcc2eb9aa"
+    },
+    {
+      "file": "k1_2.bin",
+      "triangles": 734,
+      "bytes": 26428,
+      "sha256": "ccbc14c20cb27ddf95fc7104ee075cf3121af757b47fb1f15a5270eb88820a75"
+    },
+    {
+      "file": "k1_3.bin",
+      "triangles": 219,
+      "bytes": 7888,
+      "sha256": "72f89b233cbbbed16c8b0f5740ab1c7222602a53ccda89fa74ed33109f392956"
+    },
+    {
+      "file": "k2_-3.bin",
+      "triangles": 60,
+      "bytes": 2164,
+      "sha256": "df5e18fa753e71aa69843bcfc9b7a9b3c2ed98f580ee2e160c3abb0fa929f20e"
+    },
+    {
+      "file": "k2_-2.bin",
+      "triangles": 483,
+      "bytes": 17392,
+      "sha256": "4c9949df4f1de324b1aa3344b730a6da1f3a9e04ece3c1598c3101cba3b15bb2"
+    },
+    {
+      "file": "k2_-1.bin",
+      "triangles": 1169,
+      "bytes": 42088,
+      "sha256": "c1cbdc3f1659069cc3727895f37ae3addd52448c38a33777c5870fe4400efa01"
+    },
+    {
+      "file": "k2_0.bin",
+      "triangles": 965,
+      "bytes": 34744,
+      "sha256": "6503ef75bc8bd66e43985e0abdd42aef714afa6d78e5b2032c12dcea73194b98"
+    },
+    {
+      "file": "k2_1.bin",
+      "triangles": 338,
+      "bytes": 12172,
+      "sha256": "163ad78b0d2d31a8ceb084f03f0536fcbac3a2b612b5485eb52b082642e2ff46"
+    },
+    {
+      "file": "k2_2.bin",
+      "triangles": 353,
+      "bytes": 12712,
+      "sha256": "c25b8bd3ff43b0ae98aac5623119e703a9be9b3082137d63529942c7773baf90"
+    },
+    {
+      "file": "k2_3.bin",
+      "triangles": 37,
+      "bytes": 1336,
+      "sha256": "914c932c7fd05c0c4f1288f4c900dfc18fccc533e019cb87638affee5bfa3663"
+    },
+    {
+      "file": "k3_-3.bin",
+      "triangles": 12,
+      "bytes": 436,
+      "sha256": "c3896712c8be91cbff98fa59b151c30672300d16079290764906fbf7a710a7ef"
+    },
+    {
+      "file": "k3_-2.bin",
+      "triangles": 293,
+      "bytes": 10552,
+      "sha256": "69e7ae6105b219a8ea02446e2d0b9b7270a6fe359344c24eab2071bacf9fe6ed"
+    },
+    {
+      "file": "k3_-1.bin",
+      "triangles": 522,
+      "bytes": 18796,
+      "sha256": "8d553bd1c61f42f867466ef8ee6444d1686acb8180a8e21417d3b4b788f77dc0"
+    },
+    {
+      "file": "k3_0.bin",
+      "triangles": 286,
+      "bytes": 10300,
+      "sha256": "7c5ba53d6d5188284a58fe41f5f5c9b2e176d11f22ec154dc364ed45c988e1ff"
+    },
+    {
+      "file": "k3_1.bin",
+      "triangles": 178,
+      "bytes": 6412,
+      "sha256": "71195986e7d3af337ef85c631521c6a1e0abbb20775e07f6bd00cfcf40eb6c42"
+    },
+    {
+      "file": "k3_2.bin",
+      "triangles": 130,
+      "bytes": 4684,
+      "sha256": "1bcc050d7924c415f4604954894eae59dd80addbbfccbafff4fc327f452ac311"
+    },
+    {
+      "file": "k3_3.bin",
+      "triangles": 18,
+      "bytes": 652,
+      "sha256": "24099c0d8389e3dbe1073a954255953dd8bc56ce1800363d509f01679de9805f"
+    },
+    {
+      "file": "k4_-3.bin",
+      "triangles": 14,
+      "bytes": 508,
+      "sha256": "a85ebd5a83afec5b1348b2992cf5a0cad5cc19f02f7d04eed4cdc3a1c5114d29"
+    },
+    {
+      "file": "k4_-2.bin",
+      "triangles": 158,
+      "bytes": 5692,
+      "sha256": "ac68602ff62ce80b17166b07281bc5ec919703cd7e66e2ac4db4ce73bd771074"
+    },
+    {
+      "file": "k4_-1.bin",
+      "triangles": 278,
+      "bytes": 10012,
+      "sha256": "bab8dfb7ca356e0da53b1ad6821b44e850f6777b553192ee3a07a32779c4051c"
+    },
+    {
+      "file": "k4_0.bin",
+      "triangles": 144,
+      "bytes": 5188,
+      "sha256": "54abdad1eccf6efa18bae61f61eb49b7154fd64784aa0b5e34fbd1ee534ac3a7"
+    },
+    {
+      "file": "k4_1.bin",
+      "triangles": 31,
+      "bytes": 1120,
+      "sha256": "b4779d49b285d08cf955ac8325084dec82d8297dd37be7a1a2972919c285dfcd"
+    },
+    {
+      "file": "k4_2.bin",
+      "triangles": 18,
+      "bytes": 652,
+      "sha256": "0521d5edf4433cd2a007d1e5e8838802f3d9daf844d1c1ac40413255bf04badc"
+    },
+    {
+      "file": "k4_3.bin",
+      "triangles": 4,
+      "bytes": 148,
+      "sha256": "fb02bbae80a51bfb3957e6e78870019c65493e02319aa23ff26e2f4de59fa069"
+    },
+    {
+      "file": "k5_-3.bin",
+      "triangles": 8,
+      "bytes": 292,
+      "sha256": "64d29a9710a5667d2fba532e7d456a69bac1ab644f5c49fa78df286718212846"
+    },
+    {
+      "file": "k5_-2.bin",
+      "triangles": 448,
+      "bytes": 16132,
+      "sha256": "8571cfc4960a69b7ef8005800b87e2d7cbcd261afaeb1a2fee2f72dfcd08dbfc"
+    },
+    {
+      "file": "k5_-1.bin",
+      "triangles": 1627,
+      "bytes": 58576,
+      "sha256": "8bdf5c07dcd71b05e3f675ac211d7fb7a9589ae9ef57914bcc6c36c6699d9693"
+    },
+    {
+      "file": "k5_0.bin",
+      "triangles": 976,
+      "bytes": 35140,
+      "sha256": "9e58c0af7dcf0e0452a4f2ee844fd2906723234217406e52cdbbd76fde222deb"
+    },
+    {
+      "file": "k5_1.bin",
+      "triangles": 1068,
+      "bytes": 38452,
+      "sha256": "4c98817ae5a8a211a1f27e7ce586216f5a8ea11b19f4030fad5e53219c21c5c0"
+    },
+    {
+      "file": "k5_2.bin",
+      "triangles": 267,
+      "bytes": 9616,
+      "sha256": "502b405515fc11087de3968ebd454f668f1c332e7f0c2a8d0425648e3e9b50a5"
+    },
+    {
+      "file": "k5_3.bin",
+      "triangles": 169,
+      "bytes": 6088,
+      "sha256": "60323f1098cf2204a1c7724a5184a35e2f2fc0272ec73b0ec1d19963ca93124c"
+    },
+    {
+      "file": "k5_4.bin",
+      "triangles": 3,
+      "bytes": 112,
+      "sha256": "54aeb261d2d39e53232c62e2ca7aa5c4fb1ad7ab3795832311903cba0a178604"
+    },
+    {
+      "file": "k6_-3.bin",
+      "triangles": 47,
+      "bytes": 1696,
+      "sha256": "4ca7f5f26fb68e038c640209270cc416e0b7b6a64bee85404f6411c43e39021b"
+    },
+    {
+      "file": "k6_-2.bin",
+      "triangles": 2664,
+      "bytes": 95908,
+      "sha256": "5059e0b0425f62c2f3b4474bef859a230906d0f7128a8e697c16485e92bbd1b6"
+    },
+    {
+      "file": "k6_-1.bin",
+      "triangles": 1402,
+      "bytes": 50476,
+      "sha256": "96b59be6f2241288de47984c827f4a46d63f7f1ecbad503d22fc53db874b4bed"
+    },
+    {
+      "file": "k6_0.bin",
+      "triangles": 1305,
+      "bytes": 46984,
+      "sha256": "076af8d8d9786a261bfe21fa465d6b5addce157db687bd817f6a59cdb154c6ad"
+    },
+    {
+      "file": "k6_1.bin",
+      "triangles": 2527,
+      "bytes": 90976,
+      "sha256": "b95d11f64df775584643cbc11f30a4472d2d3cb145a0ef6c40152229b2710c96"
+    },
+    {
+      "file": "k6_2.bin",
+      "triangles": 394,
+      "bytes": 14188,
+      "sha256": "30a860e71aafa4055984634a5bd7c4d0a0137ddcb758820040c2474bb1f07c30"
+    },
+    {
+      "file": "k6_3.bin",
+      "triangles": 410,
+      "bytes": 14764,
+      "sha256": "fcd57100bd6811b56eef8405d9efe84c5070d98a923e2bb02261cb7206aecc7c"
+    },
+    {
+      "file": "k6_4.bin",
+      "triangles": 32,
+      "bytes": 1156,
+      "sha256": "127d6f4d2470f333d58180c939c2faba698741effd8cf411c7c80347a4a00f9f"
+    },
+    {
+      "file": "k7_-1.bin",
+      "triangles": 22,
+      "bytes": 796,
+      "sha256": "d0262dec3c2c54ed0edf6e2c70b46e12644e329051b9613ad522211a250c10e7"
+    },
+    {
+      "file": "k7_0.bin",
+      "triangles": 38,
+      "bytes": 1372,
+      "sha256": "f8d525286aca7eb5f6c8c92794c562f952fce7561f5139e7acaf3adf286365b3"
+    }
+  ],
+  "distance_policy": "Source minSq/maxSq unchanged; registryDistanceScale1 is neutral staging. Native shared camera quality default4 means scale.5 when enabled, provenbinary+live outdoors; room-specific runtime setting not observed. Root explicitly chooses profile; no fitted cutoffs.",
+  "vertex_contract": "OAWE76:16float32 pos,N,T,B,UV0,UV1;RGBA8@64,nativeMID@68,flags@72. Direct conjugated sourceTRS; inverse-transpose normalized bodyframes. Source20 keeps p/UV, all missing attrs zero/flags0 and shaderunsupported. Source48UV1 duplicatesUV0; Source56UV1actual.",
+  "dedup": "Identical Fab/asm/MID/bitexactTQS geometry shared indexed. All2340source range records retained; zero interval overlaps among862identical geometry keys; source provenance retains eachidentity.",
+  "limits": [
+    "No native opening frame geometry/runtime capture; directTRS is establishedengine convention, sourcebounds audit retained separately.",
+    "All4sourcegroups retained; rawFlags exclusionmask not reinterpreted.",
+    "No material fallback/tint/shader substitutions authored.",
+    "Candidate index has no baseLOD and no texturecount pending root standalone material/texture merge.",
+    "Actor0x98visuals/skeletal mobs/cinematics/effects are separate and not included in staticcollection geometry."
+  ]
+}

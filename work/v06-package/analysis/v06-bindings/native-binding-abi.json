@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "target_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "scope": "Static native evidence. Generic service-record to native C-closure mechanism is confirmed; full namespace bootstrap and engine behavior remain unobserved. No engine callback execution in this audit.",
+  "confirmed_vm_callback_boundary": {
+    "evidence": [
+      "work/call-c-handler.json",
+      "work/openlist-audit/c_call_setup.json"
+    ],
+    "dispatch": "0x010af2e2..0x010af393",
+    "callback_tag": 10,
+    "closure_pointer": "TValue+4",
+    "callback_pointer": "closure+8",
+    "invoke": "0x010af378 PUSH ESI; 0x010af379 CALL EBP; ESI is lua_State*",
+    "calling_convention": "Caller pops one 32-bit stack argument after callback; EAX is signed result count on nonnegative return",
+    "argument_base": "lua_State+0x28",
+    "top": "lua_State+0x24",
+    "stack_capacity_end": "lua_State+0x2c",
+    "value_size_bytes": 8,
+    "result_restore": "Nonnegative callback EAX passed with lua_State to0x010888c0",
+    "limits": [
+      "Negative callback return path not generalized here",
+      "Generic service records feed this native C-callback boundary through0xaa4500 ->0x10a7430 ->0x109e700; full namespace installation and initialized engine context still required"
+    ]
+  },
+  "binding_metadata_candidates": {
+    "name_constructor": "0x00af4d70",
+    "namespace_name_constructor": "0x00af4d40",
+    "evidence": "registration-scout.json: exact string-pointer instruction references and callback-like immediate assignments",
+    "items": [
+      {
+        "namespace_candidate": "QUEST",
+        "name": "get_stage",
+        "registration_reference": "0x00ebf90f",
+        "callback_candidate": "0x00e65610",
+        "callback_store": "0x00ebf93a",
+        "basis": "stack-normalized descriptorS+0x1c, callbackS+0x28"
+      },
+      {
+        "namespace_candidate": "QUEST",
+        "name": "set_stage",
+        "registration_reference": "0x00ebf953",
+        "callback_candidate": "0x00e65a60",
+        "callback_store": "0x00ebf97e",
+        "basis": "stack-normalized descriptorS+0x3c, callbackS+0x48"
+      }
+    ],
+    "limits": [
+      "Namespace method tables are established statically through owner getter/initializer slots. Full per-namespace bootstrap/runtime installation remains unobserved.",
+      "Generic service callback is placed directly in native C closure; invocation requires native state plus valid BHG context/provider/world. Native addresses are not portable Android dispatch identifiers.",
+      "No arity, argument coercion, side effects or return value is inferred from method names."
+    ],
+    "layout_correction": "Raw v06-binding-core.json shows constructor initializes12-byte name object, array entries stride16, callback at name object+12. Compiler defers callback writes into the preceding entry; nearest-name pairing is incorrect.",
+    "withdrawn_nearest_name_pairs": {
+      "reason": "callback stores belong to preceding descriptor",
+      "names": [
+        "GAME.is_space_loaded",
+        "get_time",
+        "WINDOW.find_window"
+      ]
+    },
+    "registration_consumer": {
+      "address": "0x00aa8540",
+      "evidence_id": "ev_50f0ca254873724d924683344fd793d61b84d630fbf3e761bfbefa09f2d0c66d",
+      "observation": "Initializer passes descriptor pointer, callback and ordinal. Consumer copies name into owner+4 array with stride20 and callback at entry+16. Descriptor constructor is12 bytes, initializer tuple is16 bytes."
+    },
+    "namespace_owner_evidence": {
+      "QUEST": {
+        "vtable": "0x174da98",
+        "getter": "0xec83d0",
+        "getter_slot": "0x174daa4",
+        "registration_slot": "0x174daac",
+        "owner": "BHG::LuaQuestServices",
+        "evidence": [
+          "v06-binding-vtable.json",
+          "quest_namespace_refs.json",
+          "quest_table_constructor_refs.json",
+          "quest_owner_initializer.json",
+          "engine_namespace_installation.json"
+        ]
+      },
+      "GAME": {
+        "vtable": "0x174a598",
+        "getter": "0xea40e0",
+        "getter_slot": "0x174a5a4",
+        "registration_slot": "0x174a5ac",
+        "evidence": [
+          "game_namespace_getter_refs.json",
+          "game_table_constructor_refs.json"
+        ]
+      },
+      "ACTOR": {
+        "vtable": "0x174dac0",
+        "getter": "0xec84a0",
+        "getter_slot": "0x174dacc",
+        "registration_slot": "0x174dad4",
+        "owner": "BHG::LuaActorServices",
+        "evidence": [
+          "v06-actor-vtable.json",
+          "engine_namespace_installation.json"
+        ]
+      },
+      "TIME": {
+        "vtable": "0x17549a0",
+        "getter": "0xeedde0",
+        "getter_slot": "0x17549ac",
+        "registration_slot": "0x17549b4",
+        "evidence": [
+          "v06-actor-stack-probe.json",
+          "time_namespace_getter_refs.json"
+        ]
+      },
+      "WINDOW": {
+        "vtable": "0x17366a0",
+        "getter": "0xc082b0",
+        "getter_slot": "0x17366ac",
+        "registration_slot": "0x17366b4",
+        "evidence": [
+          "v06-window-and-argcheck.json",
+          "window_namespace_getter_refs.json"
+        ]
+      }
+    }
+  },
+  "selected_binding_contracts": {
+    "QUEST.get_stage": {
+      "callback": "0x00e65610",
+      "evidence_id": "ev_78807c39fca21626cd498c4e85bba320feb8ace33f01800c1bcf2d0e491f6538",
+      "valid_argument_path": "First TValue is type11; lowword&0xfffffff0 equals0x390; highword supplies quest key. Engine context pointer is incoming callback argument+0x50; do not assume that argument is the native Lua state. Calls0xa70b80 then0xfaeea0; result goes through0xaa18e0 and0xaaeba0.",
+      "remaining_unknowns": [
+        "Exact engine lookup semantics and quest lifecycle",
+        "Missing or invalid key behavior",
+        "Full argument count/coercion and error helper behavior",
+        "Engine runtime output parity"
+      ],
+      "calling_convention": "Native C-callback boundary expects first stack argument L and EAX result count. Service wrapper0xaa4500 stores the record callback directly in a C closure through0x10a7430/0x109e700; no intermediate service trampoline on that path. Inspected wrappers access BHG context at L+0x50; ordinary synthetic L alone is insufficient. Engine behavior has not been executed.",
+      "required_present_argument_position": 1
+    },
+    "QUEST.set_stage": {
+      "callback": "0x00e65a60",
+      "evidence_id": "ev_f2de95e145e1b648124778d644dc7d089acbe6978d7b4e7c8d47d1401fb8656f",
+      "valid_argument_path": "First argument same quest type11 domain0x390; second argument converted by0xaa0c90. Calls0xa70b80 then0xff0310 with quest key and converted stage; returns zero Lua results.",
+      "effects": "Engine state mutation inferred from call path/name; not invoked in game.",
+      "remaining_unknowns": [
+        "Argument2 conversion/coercion rules",
+        "Quest transition behavior and callbacks",
+        "Invalid key/stage behavior",
+        "Engine runtime output parity"
+      ],
+      "calling_convention": "Native C-callback boundary expects first stack argument L and EAX result count. Service wrapper0xaa4500 stores the record callback directly in a C closure through0x10a7430/0x109e700; no intermediate service trampoline on that path. Inspected wrappers access BHG context at L+0x50; ordinary synthetic L alone is insufficient. Engine behavior has not been executed.",
+      "required_present_argument_position": 2
+    },
+    "GAME.is_space_loaded": {
+      "callback": "0x00e5eae0",
+      "evidence_id": "ev_5bb9162e51f694f47e7fb17e368e5f89a884f77950bf7d1e96b0b174556bf9dd",
+      "valid_argument_path": "First TValue is type11; lowword&0xfffffff0 equals0x320; highword supplies space key. Calls0xfb0b10(&key); result goes through0xaa1910 and0xaaeba0.",
+      "remaining_unknowns": [
+        "Precise loaded state definition",
+        "Boolean marshaller helper implementation",
+        "Invalid handle behavior",
+        "Engine runtime output parity"
+      ],
+      "calling_convention": "Native C-callback boundary expects first stack argument L and EAX result count. Service wrapper0xaa4500 stores the record callback directly in a C closure through0x10a7430/0x109e700; no intermediate service trampoline on that path. Inspected wrappers access BHG context at L+0x50; ordinary synthetic L alone is insufficient. Engine behavior has not been executed.",
+      "required_present_argument_position": 1
+    },
+    "QUEST.get_version": {
+      "callback": "0x00e2a6c0",
+      "evidence": "v06-binding-core.json range0xe2a6c0",
+      "observed": "Incoming first stack argument+0x50 supplies engine context.0xaa0850 retrieves provider, then callback invokes provider vtable+0x18 for version. It publishes through0xaa18e0 and0xaaeba0 and returns EAX with RET (caller stack cleanup).",
+      "calling_convention": "Native C-callback boundary expects first stack argument L and EAX result count. Service wrapper0xaa4500 stores the record callback directly in a C closure through0x10a7430/0x109e700; no intermediate service trampoline on that path. Inspected wrappers access BHG context at L+0x50; ordinary synthetic L alone is insufficient. Engine behavior has not been executed."
+    }
+  },
+  "adapter_scope": "Provider bridge preserves existing Lua argument/result lists and token identity. It implements no native engine operations and applies no guessed conversions or defaults. All absent registered functions fail explicitly.",
+  "registry_summary": {
+    "QUEST": 48,
+    "GAME": 165,
+    "ACTOR": 611,
+    "TIME": 6,
+    "WINDOW": 232
+  },
+  "service_callback_context_accessor": {
+    "address": "0x00aa0850",
+    "evidence_id": "ev_1113c036a83681a90c5d1010b319e357fe19a46521e498a8e4cb3cb6f1483ee4",
+    "observed": "From BHG context->L, reads current closure pointer at L.base-4; closure upvalue0 at+0x18 uses type7 userdata payload+0x14 or type2 lightuserdata payload as provider pointer.",
+    "provider_argument_model": "Provider receiver comes from closure upvalue0, not an extra explicit Lua self argument.0xaa4500 pushes nonzero provider as type2 and creates one upvalue, linking this accessor to the direct C-closure mechanism."
+  },
+  "service_result_publication": {
+    "address": "0x00aaeba0",
+    "evidence_id": "ev_befad412501060162b976ab841fe92a776c57af7a15e056d68848daad52a0c15",
+    "observed": "Ensures room for one8-byte TValue using nativeState capacity/end pointers; calls0xaadd20 with nativeState, context+4 and index0; returns1."
+  },
+  "argument_presence_helper": {
+    "address": "0x010a9210",
+    "evidence_id": "ev_76cc9d0c83cf8ff5f2d825e40e4758c38f07fc1231c6a670eed201f1bfd0c52d",
+    "raw_evidence": "v06-window-and-argcheck.json",
+    "observed": "First stack argument is used directly as native VM state. Positive argument index accesses base+(index-1)*8, compares against top; absent argument invokes0x010a9100 with value expected. Does not adjust top or enforce exact argument count."
+  },
+  "native_cclosure_construction": {
+    "address": "0x0109e700",
+    "evidence_id": "ev_aa0979ea4bbf1a79e450bfbae79a2ab3c96d22010874db57e4b7aebcb95cfb17",
+    "raw_reference": "v06-closure-allocation-sites.json:0x109e6e5; real entry0x109e700",
+    "observed": "Allocates GCtype3 object of0x18+8*nup bytes using0x1097c10. Copies callback pointer to+8; environment to+0xc; nup to+0x10; flags to+0x12; upvalue TValues to+0x18; zeroes+0x14. Publication through0x10a7430 and service-record callback input through0xaa4500 are confirmed below.",
+    "caller_sites": [
+      "0x109f9de",
+      "0x109fa4e",
+      "0x10a73eb",
+      "0x10a744b"
+    ]
+  },
+  "native_cclosure_publication": {
+    "0x0109f9c0": {
+      "evidence_id": "ev_7d3376d20300da625a2754f5eeec2486585c4cc8ec2bbc8bce62b5956f65b4f3",
+      "observed": "Calls0x109e700 with callback and upvalue count; replaces native stack top-nup with tag10 and closure pointer; advances top to one result; optional0x108c400 call when name parameter nonzero.",
+      "service_installation_link": "No incoming references observed in this Ghidra query; these equivalent wrappers are not needed for the confirmed service bridge."
+    },
+    "0x0109fa30": {
+      "evidence_id": "ev_2f01328801337550e41a5a085fdbd1d5e98613c6f6bb5bb23c8a7af2cff38ae8",
+      "observed": "Calls0x109e700 with callback and upvalue count; replaces native stack top-nup with tag10 and closure pointer; advances top to one result; optional0x108c400 call when name parameter nonzero.",
+      "service_installation_link": "No incoming references observed in this Ghidra query; these equivalent wrappers are not needed for the confirmed service bridge."
+    },
+    "0x010a73d0": {
+      "evidence_id": "ev_5c63e05c4a16a4919f235bde2521085d78dac69819aa0b9adb4e095ee9654879",
+      "observed": "Calls0x109e700 with callback and upvalue count; replaces native stack top-nup with tag10 and closure pointer; advances top to one result; optional0x108c400 call when name parameter nonzero.",
+      "service_installation_link": "No incoming references observed in this Ghidra query; these equivalent wrappers are not needed for the confirmed service bridge."
+    },
+    "0x010a7430": {
+      "evidence_id": "ev_53857709cb318c1e3e643f1f938ec31fc7523244fca42bec5bf74142b3b61dc9",
+      "observed": "Calls0x109e700 with callback and upvalue count; replaces native stack top-nup with tag10 and closure pointer; advances top to one result; optional0x108c400 call when name parameter nonzero.",
+      "service_installation_link": "0xaa4500 passes serviceRecord+0x10 callback directly; other observed callers include native type GC handlers and fixed builtin registrations."
+    }
+  },
+  "service_record_to_vm_bridge": {
+    "status": "confirmed static generic mechanism; full namespace bootstrap remains untraced",
+    "service_wrapper": "0x00aa4500",
+    "evidence_id": "ev_a5ffff40fe321cc8def2533ed82d012f554710f76ac51a5e4ec4a4f6086e6eb3",
+    "steps": [
+      {
+        "source": "0x00aa8540",
+        "evidence_id": "ev_50f0ca254873724d924683344fd793d61b84d630fbf3e761bfbefa09f2d0c66d",
+        "observation": "Writes callback into provider method array entry+0x10, stride0x14."
+      },
+      {
+        "source": "0x00aa4500",
+        "observation": "Reads service record+0x10 as callback and service name at+4. When provider parameter is nonzero, pushes it as TValue tag2 lightuserdata. Calls0x10a7430(L, callback, provider!=0, diagnosticName,0), then stores closure under service name via0xaa36c0."
+      },
+      {
+        "source": "0x010a7430",
+        "evidence_id": "ev_53857709cb318c1e3e643f1f938ec31fc7523244fca42bec5bf74142b3b61dc9",
+        "observation": "Calls0x109e700 with the unchanged callback and upvalue count; publishes returned closure pointer as native tag10, consuming upvalues."
+      },
+      {
+        "source": "0x0109e700",
+        "evidence_id": "ev_aa0979ea4bbf1a79e450bfbae79a2ab3c96d22010874db57e4b7aebcb95cfb17",
+        "observation": "Copies callback to closure+8 and provider upvalue TValue to closure+0x18."
+      },
+      {
+        "source": "0x010af378..0x010af379",
+        "evidence": "work/call-c-handler.json",
+        "observation": "Native VM pushes L and calls closure+8; EAX carries result count."
+      },
+      {
+        "source": "0x00aa0850",
+        "evidence_id": "ev_1113c036a83681a90c5d1010b319e357fe19a46521e498a8e4cb3cb6f1483ee4",
+        "observation": "Inspected engine callback retrieves its provider from the active closure upvalue0, completing the receiver link."
+      }
+    ],
+    "remaining_gaps": [
+      "Call chain from each namespace initializer/provider array to0xaa4500 has not been exhaustively traced",
+      "BHG context construction and native engine/world lifecycle have not been reconstructed",
+      "No engine callback invocation or gameplay parity has been tested"
+    ],
+    "rejected_alternative_seed": "0xab0f60 (ev_c29c3e8ea8477f3e6b7f00214113e9ec71f825fa81fb4411002f88b5fc11da68) installs a LuaTypeService garbage-collection closure, not the method-table loop."
+  }
+}

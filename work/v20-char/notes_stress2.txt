@@ -1,0 +1,7 @@
+
+Stress test correction (2026-10-31). The r24000, r48000 and crowd figures in the note above came from the overview camera: town collision exceeded the 300,000 triangle cap, so the player never spawned. Ignore them. MAX_TRIANGLES is now 4,000,000 in work/v19-host/opem_collision.c and work/v09-collision/opem_collision.c. Valid results from the player's view, full 2520x1680, uncapped:
+- r24000: 1.53M verts, 2.67 ms, 521 MB PSS, world_load 540 ms. r48000: 4.6M verts, 1.53M tris, 4.62 to 5.13 ms, 885 MB PSS, world_load 2082 ms. Both hold 16.64 ms under vsync. Camera swing 6.14 ms mean, worst 9.3 ms.
+- Three minutes sustained r48000: 5.13 ms steady, battery 37.5 to 38.1 C. No longer soak was run from the player's view.
+- Crowd, r48000, drawn copies of 12 townspeople without their own animation or AI cost: 60 people 6.5 ms, 120 7.8 ms, 240 11.6 ms, 480 60.2 ms with worst 69 ms. The jump between 240 and 480 is not explained.
+- r12000 with 1024 textures measured valid: 2.14 ms, 552 MB.
+- Findings: rendering has headroom in this content. Limits are memory without streaming, 2 s blocking load, per-character draw cost, uncompressed textures. Not covered: foliage and alpha overdraw, normal maps, shadow maps, AI, physics, audio, multiple regions.

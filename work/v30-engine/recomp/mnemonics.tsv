@@ -1,0 +1,258 @@
+mov	767169	42542	00401b01 mov ebp, esp
+push	329998	37984	00401b00 push ebp
+movss	319734	8906	00401b0f movss xmm0, dword ptr [0x13be4a8]
+cvtps2pd	182054	4166	00401c11 cvtps2pd xmm0, xmm0
+call	167776	33847	00401be8 call 0x11bd6d0
+lea	123568	20004	00401b98 lea edi, [ebx - 0xc]
+pop	120451	36353	00401e9e pop edi
+add	107245	31618	00401b64 add eax, edx
+cmp	98548	20770	00401b78 cmp eax, edi
+je	79226	25255	0040280b je 0x40281e
+mulsd	75478	3399	00401c14 mulsd xmm0, qword ptr [0x13be4c8]
+cvtpd2ps	67841	3735	00401c35 cvtpd2ps xmm0, xmm0
+test	67833	23061	00401bc4 test edx, edx
+movq	58491	6410	00401c60 movq xmm0, qword ptr [ebx]
+ret	57761	43650	00401ea4 ret 
+xorps	57480	7003	00401c20 xorps xmm0, xmm0
+addsd	42188	2975	00401cd6 addsd xmm5, xmm2
+xor	39649	17614	00401b20 xor edi, edi
+jne	36980	13203	0077058d jne 0x77059a
+cvtss2sd	36428	3120	00401c3c cvtss2sd xmm0, xmm0
+jmp	33913	12393	00401b87 jmp 0x401b94
+sub	26948	17276	00401b06 sub esp, 0x54
+subsd	21829	2809	00401c48 subsd xmm0, qword ptr [0x13be4b0]
+inc	20023	9572	00401e80 inc dword ptr [eax + 4]
+or	17576	9176	0040239b or word ptr [eax + 0xc0], cx
+movaps	17386	3415	00401ce1 movaps xmm5, xmm2
+fstp	16526	3230	00401bce fstp dword ptr [esp + 0x18]
+and	14212	5568	00401b03 and esp, 0xfffffff8
+cvtsd2ss	13743	1590	0042514a cvtsd2ss xmm4, xmm4
+jl	13417	7560	00401e98 jl 0x401b90
+movzx	12760	4696	00401bf1 movzx eax, byte ptr [ebx + 0x40]
+movsx	12686	7770	007b4a7c movsx eax, byte ptr [eax + edi]
+fld	12315	2712	00401bd2 fld dword ptr [esp + 0x20]
+jbe	10131	4169	00401da7 jbe 0x401dac
+dec	9928	5812	005d05f4 dec eax
+jle	9905	6326	00401b7a jle 0x401e9e
+jb	8558	4459	00770561 jb 0x77056e
+comisd	6890	1436	00401da3 comisd xmm4, xmm3
+jae	5826	2716	00401d8b jae 0x401e86
+jns	5780	3125	00401bc6 jns 0x401bce
+shr	5188	1964	0044b251 shr ebx, 2
+movsd	5007	1951	00402706 movsd xmm0, qword ptr [0x13be518]
+movdqa	4737	254	0078537a movdqa xmm2, xmmword ptr [esp + 0x10]
+jge	4725	2685	00401ba6 jge 0x401bad
+cvttsd2si	4688	1553	00401c1c cvttsd2si edx, xmm0
+shl	4635	1720	0077d509 shl eax, 6
+fadd	4284	1724	00401bc8 fadd dword ptr [0x13be4d8]
+ja	4234	2241	00401e1a ja 0x401e1f
+comiss	3814	1166	0040322b comiss xmm4, xmm0
+fild	3496	1627	00401bc0 fild dword ptr [esp + 0x24]
+imul	3077	1472	0044b630 imul esi, esi, 0x58
+fmul	3071	1346	00401bda fmul qword ptr [0x13be4d0]
+cvtsi2ss	2720	1558	00401c23 cvtsi2ss xmm0, edx
+divsd	2709	1034	00770b2e divsd xmm0, xmm1
+movd	2700	1056	00404382 movd xmm0, dword ptr [esp + 0x10]
+cvtdq2ps	2637	1043	00404388 cvtdq2ps xmm0, xmm0
+js	2426	1726	007705b4 js 0x7705c1
+cdq	1765	1099	005bb33a cdq 
+movapd	1606	475	004426a6 movapd xmm0, xmm2
+sar	1421	735	005cf5aa sar edx, 5
+jg	1377	754	0077e2f2 jg 0x77e311
+mulps	1341	44	00c44037 mulps xmm1, xmm5
+sete	1175	693	00781332 sete cl
+setne	1126	704	00790472 setne cl
+sbb	1088	510	0078a75e sbb eax, eax
+idiv	1086	849	005bb340 idiv ecx
+adc	1086	143	0091c5df adc ebp, edx
+cvttss2si	1026	845	005bb331 cvttss2si eax, dword ptr [edi - 8]
+shufps	997	40	00c44062 shufps xmm6, xmm0, 0x44
+lahf	991	536	005c065e lahf 
+neg	969	574	0077ff84 neg ecx
+movlpd	924	392	0091ca60 movlpd qword ptr [esp + 0x10], xmm0
+xorpd	877	431	00770a63 xorpd xmm4, xmmword ptr [0x13bf610]
+nop	854	780	0044b25f nop 
+sqrtsd	788	376	0078c86a sqrtsd xmm0, xmm0
+rep movsd	771	616	00401ba0 rep movsd dword ptr es:[edi], dword ptr [esi]
+fdivp	762	745	005bb142 fdivp st(1)
+andpd	737	147	00780e85 andpd xmm4, xmm0
+shrd	694	315	00aa046f shrd eax, edx, 4
+addps	687	41	00c4408f addps xmm1, xmm6
+ucomiss	644	395	005c065b ucomiss xmm5, xmm3
+cmovge	608	505	00a19cd9 cmovge eax, edx
+fxch	569	364	00402bb1 fxch st(1)
+fcompi	561	409	0040310b fcompi st(1)
+psrld	552	13	0110848d psrld xmm2, 0x18
+pshufd	532	33	00c43fcd pshufd xmm0, xmm0, 0
+jnp	528	384	005c066e jnp 0x5c0776
+fsub	516	359	00403219 fsub qword ptr [0x13be4b0]
+not	499	232	007882eb not edx
+jp	497	234	0077a143 jp 0x77a15a
+fmulp	491	301	00402baa fmulp st(2)
+faddp	459	310	00402baf faddp st(2)
+cvtsi2sd	445	123	00770d9b cvtsi2sd xmm2, eax
+pand	433	11	01108561 pand xmm0, xmm6
+pslld	423	11	01109eac pslld xmm1, 0x18
+shld	408	44	009bdddc shld ebx, edx, 4
+fld1	372	347	00403109 fld1 
+fldcw	369	130	005cbc39 fldcw word ptr [esp + 0x18]
+psrldq	368	9	0110a5f1 psrldq xmm7, 0xc
+leave	353	296	011bdea5 leave 
+subps	346	40	011084ea subps xmm2, xmm3
+paddd	321	10	00c44024 paddd xmm1, xmmword ptr [0x173b5c0]
+ucomisd	298	129	00770872 ucomisd xmm0, xmm2
+por	291	13	01108496 por xmm0, xmm4
+fdiv	279	231	00403133 fdiv dword ptr [esp + 0x84]
+punpckldq	257	7	0110ad0d punpckldq xmm3, xmm7
+andps	255	26	00c43f8e andps xmm1, xmm0
+pslldq	254	8	0110aa7f pslldq xmm0, 4
+fldz	251	197	00777325 fldz 
+rol	242	46	0078fc20 rol dx, 8
+setg	240	68	0080e8a5 setg al
+div	234	143	007efca4 div esi
+orps	229	18	00c43f9a orps xmm1, xmm3
+andnps	227	18	00c43f97 andnps xmm3, xmm4
+fnstcw	210	145	005cbc10 fnstcw word ptr [esp + 0xc]
+pxor	209	133	007897be pxor xmm0, xmm0
+mul	192	99	0077ff40 mul edx
+fistp	177	115	005cbc51 fistp dword ptr [esp + 0x18]
+movdqu	170	26	01108474 movdqu xmm0, xmmword ptr [ebx + esi]
+bsr	169	10	009ae1e0 bsr esi, eax
+psubd	163	11	0110a550 psubd xmm1, xmmword ptr [esp + 0x30]
+fsubrp	158	117	005c0eb8 fsubrp st(1)
+pextrw	135	19	0110c77b pextrw ecx, xmm5, 0
+punpcklqdq	129	7	0110ad40 punpcklqdq xmm4, xmm5
+setge	123	89	0078a7a1 setge dl
+fsubp	112	90	005c04c5 fsubp st(3)
+lock xadd	111	60	00afc48b lock xadd dword ptr [ecx], edx
+mulpd	111	10	011cbc6d mulpd xmm2, xmm7
+pcmpeqd	110	12	01108f59 pcmpeqd xmm1, xmm4
+psrad	106	17	0110f115 psrad xmm3, 0x1f
+pandn	104	15	01108492 pandn xmm0, xmm2
+fchs	101	59	007d833f fchs 
+cwde	94	77	0098a8a2 cwde 
+punpcklwd	92	19	01108489 punpcklwd xmm2, xmm2
+sets	88	67	00777431 sets bl
+movups	77	13	00c43f7c movups xmm1, xmmword ptr [eax]
+rep stosd	74	48	007968ec rep stosd dword ptr es:[edi], eax
+psllw	64	12	0110ac8b psllw xmm1, 8
+fst	59	50	008016bf fst dword ptr [eax]
+xchg	58	26	00928dc2 xchg dword ptr [ecx], eax
+psrlw	58	12	0110ac7e psrlw xmm3, 8
+addpd	58	10	011cbac6 addpd xmm6, xmmword ptr [eax*4 + 0x1775140]
+fnstsw	57	26	011be830 fnstsw ax
+setl	55	42	0096ffc9 setl byte ptr [esp + 0x12]
+fsubr	54	39	00613a5b fsubr st(2)
+fucompi	51	34	0077732b fucompi st(1)
+ror	51	10	00a8a7fd ror edi, 1
+wait	49	28	011bd5ee wait 
+unpcklps	48	8	00c6801f unpcklps xmm0, xmm4
+setns	47	45	0078d545 setns byte ptr [esp + 0xf]
+fdivrp	47	40	007d5ff2 fdivrp st(2)
+orpd	46	18	008575b3 orpd xmm1, xmm3
+fdivr	43	35	007c1dcf fdivr dword ptr [esp + 8]
+setle	40	26	009df3cd setle cl
+psrlq	40	10	0110c6dd psrlq xmm4, 0x20
+seto	36	16	0077ff56 seto cl
+rsqrtps	36	23	010686e1 rsqrtps xmm0, xmm3
+stosd	36	6	011d3c70 stosd dword ptr es:[edi], eax
+fabs	35	16	00770ac6 fabs 
+psllq	35	10	010468d2 psllq xmm0, xmm1
+divps	32	17	0110945d divps xmm3, xmmword ptr [esp + 0x20]
+rep movsw	31	6	0112ef5c rep movsw word ptr es:[edi], word ptr [esi]
+punpcklbw	29	9	00c30a87 punpcklbw xmm0, xmm1
+cmove	28	24	00856b89 cmove ecx, eax
+fcomi	26	20	00458a33 fcomi st(1)
+cmovl	26	21	009b17b7 cmovl edi, eax
+seta	26	24	00c5a6f2 seta al
+rcpps	26	12	011084d9 rcpps xmm2, xmm2
+stmxcsr	26	22	011bd2d0 stmxcsr dword ptr [esp + 4]
+cmpltsd	24	11	008575aa cmpltsd xmm0, xmm1
+unpckhps	24	5	00c68022 unpckhps xmm1, xmm4
+cmpnlesd	23	10	008575cb cmpnlesd xmm1, xmm3
+mulss	20	7	00bd0cc2 mulss xmm2, dword ptr [esp + 0xc]
+unpcklpd	20	10	011cbb8d unpcklpd xmm7, xmm7
+fiadd	19	6	00b84bb7 fiadd dword ptr [esp + 0x18]
+punpckhqdq	19	7	0110ad2e punpckhqdq xmm3, xmm5
+fimul	18	13	00ad3e05 fimul dword ptr [esp + 4]
+cmpltps	18	8	011084f0 cmpltps xmm4, xmm5
+subpd	17	8	011ccbe1 subpd xmm3, xmmword ptr [edx*8 + 0x1777ad0]
+cmovb	16	11	007acf81 cmovb edi, eax
+cmovle	16	13	00a72f93 cmovle eax, esi
+punpckhdq	16	6	0110ad11 punpckhdq xmm6, xmm7
+pcmpgtd	15	8	00c44030 pcmpgtd xmm7, xmm1
+cmova	14	14	009af8bf cmova edi, ecx
+pinsrw	14	4	011cbbed pinsrw xmm2, edx, 3
+fcom	14	2	011cc7c6 fcom st(1)
+punpckhwd	12	6	01198a23 punpckhwd xmm1, xmm4
+unpckhpd	12	6	011ceefa unpckhpd xmm6, xmm6
+fsqrt	11	9	007765bc fsqrt 
+setb	11	11	0099df81 setb al
+rcr	11	6	009e5246 rcr byte ptr [esi - 0x3d], 0xc7
+cmovg	10	9	007eef9a cmovg edi, edx
+cmovne	10	10	0098ed50 cmovne esi, eax
+setae	10	7	00a8ab63 setae al
+maxps	10	7	011084ce maxps xmm2, xmm5
+cld	10	4	011bdefe cld 
+fcomp	10	5	011ca84e fcomp qword ptr [eax]
+std	9	3	011bdefb std 
+fucompp	9	8	011da00e fucompp 
+packuswb	8	4	011085e0 packuswb xmm3, xmm3
+pmuludq	8	2	0110c6e5 pmuludq xmm3, xmm5
+paddw	8	4	01116d6c paddw xmm2, xmm1
+sahf	8	4	011be832 sahf 
+pmovmskb	8	3	011cbdbd pmovmskb eax, xmm2
+fidiv	7	7	00c5fae0 fidiv dword ptr [esp]
+sqrtps	7	4	0110b3c1 sqrtps xmm4, xmm6
+lock cmpxchg	6	6	00928d87 lock cmpxchg dword ptr [ecx], edx
+pause	6	2	00929736 pause 
+cvtdq2pd	6	5	00a773b3 cvtdq2pd xmm0, xmm0
+setbe	6	6	00b54ca2 setbe al
+movsw	5	4	009dba4b movsw word ptr es:[edi], word ptr [esi]
+minps	5	4	0110a054 minps xmm1, xmmword ptr [0x1764ef0]
+ldmxcsr	5	4	011c55e0 ldmxcsr dword ptr [ebp - 4]
+fcos	4	3	00776b9a fcos 
+fsin	4	3	00776ba4 fsin 
+cmovs	4	3	00f94ec7 cmovs eax, ebx
+rdtsc	4	3	01036dc8 rdtsc 
+pminsw	4	4	0110859f pminsw xmm3, xmm5
+fucomp	4	3	011c46d0 fucomp st(2)
+cvtsd2si	4	4	011cbc16 cvtsd2si eax, xmm3
+cmpeqsd	4	2	011d9ba4 cmpeqsd xmm1, xmm0
+movsb	3	3	00a8fa40 movsb byte ptr es:[edi], byte ptr [esi]
+pmaxsw	3	3	011085a3 pmaxsw xmm3, xmmword ptr [esp + 0x110]
+cmovae	3	3	0119b9b0 cmovae esi, ecx
+fnclex	3	3	011bd467 fnclex 
+fpatan	3	3	011bd9ef fpatan 
+fprem1	3	3	011be85a fprem1 
+bts	3	3	011c1f2d bts dword ptr [esp], eax
+bt	3	3	011c1f41 bt dword ptr [esp], eax
+fxam	3	2	011cb64d fxam 
+xlatb	3	2	011cb674 xlatb 
+shufpd	3	1	011d97ce shufpd xmm3, xmm3, 1
+rep movsb	2	1	0097041b rep movsb byte ptr es:[edi], byte ptr [esi]
+bsf	2	1	009ae585 bsf edx, eax
+addss	2	2	00b84a6f addss xmm0, dword ptr [esp + 0x3c]
+cvtps2dq	2	2	0110859b cvtps2dq xmm3, xmm6
+cbw	2	1	0114a1e6 cbw 
+cmpnlepd	2	1	011bd390 cmpnlepd xmm0, xmm1
+fldpi	2	2	011bdb9d fldpi 
+pushfd	2	2	011be136 pushfd 
+repne scasb	2	1	011bf1fc repne scasb al, byte ptr es:[edi]
+fptan	2	1	011bf60d fptan 
+fyl2x	2	2	011c4d33 fyl2x 
+fscale	2	1	011cb500 fscale 
+fcompp	2	2	011cc819 fcompp 
+andnpd	2	2	011cceee andnpd xmm1, xmm7
+cmovbe	1	1	00b7148e cmovbe edx, esi
+pshufb	1	1	00c4426f pshufb xmm3, xmm0
+fisub	1	1	00db3844 fisub dword ptr [esp]
+cpuid	1	1	01036dc6 cpuid 
+repz ret	1	1	011bd922 repz ret 
+int3	1	1	011c2b00 int3 
+fldlg2	1	1	011c4d2f fldlg2 
+fldln2	1	1	011c4e7f fldln2 
+cmpneqpd	1	1	011c4ffd cmpneqpd xmm0, xmmword ptr [0x1773e40]
+psubq	1	1	011cba7a psubq xmm0, xmm1
+paddq	1	1	011da11f paddq xmm7, xmm6
+frndint	1	1	011e5b20 frndint 

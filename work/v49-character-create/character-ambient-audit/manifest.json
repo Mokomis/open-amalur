@@ -1,0 +1,195 @@
+{
+  "scope": "owned source/evidence staging only",
+  "files": [
+    {
+      "file": "REPORT.md",
+      "bytes": 6980,
+      "sha256": "b4a8ec9e2b36a92628277b2e1059720184315dd3b823b0389bdb039c47b3d69e"
+    },
+    {
+      "file": "active-cube-binding-counts.json",
+      "bytes": 3521,
+      "sha256": "ef938e49810db8319fd7998ba538965988907748cd4285d8fb959c4908de0f78"
+    },
+    {
+      "file": "active-cube-draws.json",
+      "bytes": 6770540,
+      "sha256": "a266fe034b0212846d8702d19265fa543f21e35ca3bf56f65b18096d6726f07d"
+    },
+    {
+      "file": "ambient-image-extraction.json",
+      "bytes": 1869,
+      "sha256": "7c55fe40145c65ea747263165f333c0a1a255b4ef1cda9772e1b298315dfc6d0"
+    },
+    {
+      "file": "audit_active_cubes.py",
+      "bytes": 3444,
+      "sha256": "b0338456817afb527c0c1beb3d65b9070a4f75f0abda14083c752c6d28236fdf"
+    },
+    {
+      "file": "authored-character-cube-join.json",
+      "bytes": 2094,
+      "sha256": "68d49c99c631a5a27ecd7ac305bfe20c2409e1c0143b0bcfc6d74b4df2f9b0ae"
+    },
+    {
+      "file": "authored-character-noon.rgba",
+      "bytes": 1536,
+      "sha256": "693bcf48abd29a8a7171f482e67cadae493b23199254fa07a51a5cea63cd2348"
+    },
+    {
+      "file": "authored-world-noon.rgba",
+      "bytes": 1536,
+      "sha256": "df71f39a8cfa77673155c7ec5d5de4b3d36583c05c712ac9022e920c96fcef1c"
+    },
+    {
+      "file": "capture-binding-summary.json",
+      "bytes": 8999,
+      "sha256": "4294779031a000fc9ea036060b03cd76993c45c7175d4fe914e8a98430bf526f"
+    },
+    {
+      "file": "capture-resources.json",
+      "bytes": 1363730,
+      "sha256": "54af2babce23176a6610c4953433e93ed73f51598bb4a0c35292771df7eba063"
+    },
+    {
+      "file": "captured-character-ps352-excerpt.txt",
+      "bytes": 3563,
+      "sha256": "ba638e7066c1adc9e723a7031c2822b2caa12ee5aa8a1d79950f271f8d38a6c6"
+    },
+    {
+      "file": "character_ambient_noon.inc",
+      "bytes": 5448,
+      "sha256": "b690838f8da279bd04662978aca0cc4a5b5443f3aa412411a4caeb5eba55a84d"
+    },
+    {
+      "file": "extract_ambient_images.py",
+      "bytes": 2457,
+      "sha256": "d5d5fd0a30db5059570ac9dd1111db388c0ecf13642e7469c5d0dbcee9d0406f"
+    },
+    {
+      "file": "image-7496-init.bin",
+      "bytes": 3072,
+      "sha256": "090365b1b4d5423e5a433753bb464a345fa724ea0fc63320353e3e314ebccdf4"
+    },
+    {
+      "file": "image-7496-tight.rgba",
+      "bytes": 1536,
+      "sha256": "df71f39a8cfa77673155c7ec5d5de4b3d36583c05c712ac9022e920c96fcef1c"
+    },
+    {
+      "file": "image-7499-init.bin",
+      "bytes": 3072,
+      "sha256": "090365b1b4d5423e5a433753bb464a345fa724ea0fc63320353e3e314ebccdf4"
+    },
+    {
+      "file": "image-7499-tight.rgba",
+      "bytes": 1536,
+      "sha256": "df71f39a8cfa77673155c7ec5d5de4b3d36583c05c712ac9022e920c96fcef1c"
+    },
+    {
+      "file": "image-7502-init.bin",
+      "bytes": 3072,
+      "sha256": "eeb8ae806089e5498de9705e847a3fa2537e7748b11e91e22afd48fcbca8c549"
+    },
+    {
+      "file": "image-7502-tight.rgba",
+      "bytes": 1536,
+      "sha256": "693bcf48abd29a8a7171f482e67cadae493b23199254fa07a51a5cea63cd2348"
+    },
+    {
+      "file": "join_authored_character_cube.py",
+      "bytes": 2898,
+      "sha256": "cbb14818444d4f701b0637e4655484c1c36b7e00b72b54ced4390c4ec5dcfc7e"
+    },
+    {
+      "file": "opening-base-character-ambient-bgra.inc",
+      "bytes": 5380,
+      "sha256": "54083f4cd7b2e08c43309e1d4ef296f629ce062a14abaa6429296909e61bc680"
+    },
+    {
+      "file": "opening-base-character-ambient.bgra",
+      "bytes": 1536,
+      "sha256": "a09e463bd738571bf4d19dfb19173ee4ef58972283ddf046ef59f0645ac41836"
+    },
+    {
+      "file": "opening-base-character-ambient.rgba",
+      "bytes": 1536,
+      "sha256": "e344c034255e814943cbf052374993a7dc6e938693517412e4ef2546a81ad0bd"
+    },
+    {
+      "file": "opening-base-world-ambient-bgra.inc",
+      "bytes": 5017,
+      "sha256": "de5919bf450ae6342eb8e1a5409c6fc22730be95624d9baf1b98094f910cfd75"
+    },
+    {
+      "file": "opening-base-world-ambient.bgra",
+      "bytes": 1536,
+      "sha256": "ec33749a7ff2170480dabcac78bb702c386b0174429451ef2d28e70820a91985"
+    },
+    {
+      "file": "opening-base-world-ambient.rgba",
+      "bytes": 1536,
+      "sha256": "d030bafd48e63d4558d5592d7814db6503da0dac0cded1f6841c4efb345d30c9"
+    },
+    {
+      "file": "opening-character-cubes.json",
+      "bytes": 6537,
+      "sha256": "4d39414d83ce8474b0e173c774f3f0167625e60b38ed1708f20799dad7995d3c"
+    },
+    {
+      "file": "opening-start-character-ambient-bgra.inc",
+      "bytes": 5381,
+      "sha256": "98934c5f63c863b1406a2652ba427761215b18ff18c2015027fe7f8102b6e398"
+    },
+    {
+      "file": "opening-start-character-ambient.bgra",
+      "bytes": 1536,
+      "sha256": "a09e463bd738571bf4d19dfb19173ee4ef58972283ddf046ef59f0645ac41836"
+    },
+    {
+      "file": "opening-start-character-ambient.rgba",
+      "bytes": 1536,
+      "sha256": "e344c034255e814943cbf052374993a7dc6e938693517412e4ef2546a81ad0bd"
+    },
+    {
+      "file": "opening-start-world-ambient-bgra.inc",
+      "bytes": 5018,
+      "sha256": "6974a4314aa93226286167652119681a1247a7a5df82b68660fca2ef920e8751"
+    },
+    {
+      "file": "opening-start-world-ambient.bgra",
+      "bytes": 1536,
+      "sha256": "ec33749a7ff2170480dabcac78bb702c386b0174429451ef2d28e70820a91985"
+    },
+    {
+      "file": "opening-start-world-ambient.rgba",
+      "bytes": 1536,
+      "sha256": "d030bafd48e63d4558d5592d7814db6503da0dac0cded1f6841c4efb345d30c9"
+    },
+    {
+      "file": "opening-world-cubes.json",
+      "bytes": 4457,
+      "sha256": "588317b435beeafe85d4c4547534a49b764f63aefea34aecbf37529c81ce487f"
+    },
+    {
+      "file": "seal_opening_character_cubes.py",
+      "bytes": 4329,
+      "sha256": "a7ccdcfa0c4aef85dd6ab9bdfe30623088bc1394fff7f23568dd315fe8fe9004"
+    },
+    {
+      "file": "seal_opening_world_cubes.py",
+      "bytes": 2974,
+      "sha256": "e6c6b79c4291da11206f484c2dbf47ab40544d9be3e4916c6109819fc2d3debc"
+    },
+    {
+      "file": "selected-character-world-bindings.json",
+      "bytes": 29770,
+      "sha256": "dd6a175c87d387daceaff8b49e8f460188db0d7724fef896cf39ae52c4ca7ae5"
+    },
+    {
+      "file": "source-payload-validation.json",
+      "bytes": 794,
+      "sha256": "e56ff8bec2a7b539907b73fe1ed387f8d49d6a0ca69960e73072c37c9687b7f7"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source_shader": 363355,
+  "source_material": 4093,
+  "texture5": "exactnative128RGBA6authoredalphaGmips;sourcewhiteRGBconstant",
+  "profiles": {
+    "6": "exactshader/texture/softdepth/UNORM8; legacyshapes",
+    "27": "exactshader/texture; source/observedhalfextents+cylindricalgeometry policy"
+  },
+  "shape_policy_limits": [
+    "Width inputbinding unimplemented: explicit0fallbackmatches6observedhalfwidth550, not originalgeneralcurvealgorithm",
+    "Velocity-alignedcylinder explainsobservedmodulo180 signs but originalproducerunproven",
+    "MinMaxAngle5/5sourceevidence used; Flatness10 NEVER an angle",
+    "Sourceactor conjugateQ; no capturedparticlepositions baked"
+  ],
+  "toggle": "debug.opem.fxshape=0 legacyshapes;1candidate, live, resetsFXsimulation",
+  "original_fx_pack_sha256": "30cec6a2b97ef059d136e2825b53af4cf3331fdf3bc2a2698a7bd77c6849b096"
+}

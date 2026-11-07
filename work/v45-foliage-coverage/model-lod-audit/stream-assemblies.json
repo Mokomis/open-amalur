@@ -1,0 +1,392 @@
+[
+  {
+    "index": 0,
+    "file_offset": 56314,
+    "bytes": 52,
+    "raw_hex": "00000000000000001200000001000000040000003c00000000000000b40000000000000000000000780000000000000000000000",
+    "vertex_buffer": 0,
+    "index_buffer": 0,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      60,
+      0,
+      180,
+      0,
+      0,
+      120,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 120,
+    "triangles": 60,
+    "bounds": {
+      "minimum": [
+        -895.3932495117188,
+        -969.0354614257812,
+        441.2208557128906
+      ],
+      "maximum": [
+        1014.18896484375,
+        955.4641723632812,
+        1531.94775390625
+      ]
+    }
+  },
+  {
+    "index": 1,
+    "file_offset": 56366,
+    "bytes": 52,
+    "raw_hex": "01000000010000001200000001000000040000004001000000000000c00300000000000000000000300100000000000000000000",
+    "vertex_buffer": 1,
+    "index_buffer": 1,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      320,
+      0,
+      960,
+      0,
+      0,
+      304,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 304,
+    "triangles": 320,
+    "bounds": {
+      "minimum": [
+        -223.57693481445312,
+        -327.7666931152344,
+        -139.6182098388672
+      ],
+      "maximum": [
+        54.81981658935547,
+        112.1943359375,
+        906.4295043945312
+      ]
+    }
+  },
+  {
+    "index": 2,
+    "file_offset": 56418,
+    "bytes": 52,
+    "raw_hex": "02000000020000001200000001000000040000001d00000000000000570000000000000000000000390000000000000000000000",
+    "vertex_buffer": 2,
+    "index_buffer": 2,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      29,
+      0,
+      87,
+      0,
+      0,
+      57,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 57,
+    "triangles": 29,
+    "bounds": {
+      "minimum": [
+        -503.2325134277344,
+        -557.3292846679688,
+        357.3856201171875
+      ],
+      "maximum": [
+        664.6697387695312,
+        566.1685791015625,
+        1190.177978515625
+      ]
+    }
+  },
+  {
+    "index": 3,
+    "file_offset": 56470,
+    "bytes": 52,
+    "raw_hex": "0300000003000000120000000100000004000000a600000000000000f20100000000000000000000880000000000000000000000",
+    "vertex_buffer": 3,
+    "index_buffer": 3,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      166,
+      0,
+      498,
+      0,
+      0,
+      136,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 136,
+    "triangles": 166,
+    "bounds": {
+      "minimum": [
+        -220.4989471435547,
+        -315.11749267578125,
+        -142.75155639648438
+      ],
+      "maximum": [
+        52.07460403442383,
+        116.53443908691406,
+        895.4058837890625
+      ]
+    }
+  },
+  {
+    "index": 4,
+    "file_offset": 56522,
+    "bytes": 52,
+    "raw_hex": "04000000040000001200000001000000040000001d00000000000000570000000000000000000000390000000000000000000000",
+    "vertex_buffer": 4,
+    "index_buffer": 4,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      29,
+      0,
+      87,
+      0,
+      0,
+      57,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 57,
+    "triangles": 29,
+    "bounds": {
+      "minimum": [
+        -503.2325134277344,
+        -557.3292846679688,
+        357.3856201171875
+      ],
+      "maximum": [
+        664.6697387695312,
+        566.1685791015625,
+        1190.177978515625
+      ]
+    }
+  },
+  {
+    "index": 5,
+    "file_offset": 56574,
+    "bytes": 52,
+    "raw_hex": "05000000050000001200000001000000040000007200000000000000560100000000000000000000670000000000000000000000",
+    "vertex_buffer": 5,
+    "index_buffer": 5,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      114,
+      0,
+      342,
+      0,
+      0,
+      103,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 103,
+    "triangles": 114,
+    "bounds": {
+      "minimum": [
+        -220.93429565429688,
+        -337.5787048339844,
+        -142.75155639648438
+      ],
+      "maximum": [
+        52.07460403442383,
+        123.82804107666016,
+        907.9103393554688
+      ]
+    }
+  },
+  {
+    "index": 6,
+    "file_offset": 56626,
+    "bytes": 52,
+    "raw_hex": "06000000060000001200000001000000040000001100000000000000330000000000000000000000210000000000000000000000",
+    "vertex_buffer": 6,
+    "index_buffer": 6,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      17,
+      0,
+      51,
+      0,
+      0,
+      33,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 33,
+    "triangles": 17,
+    "bounds": {
+      "minimum": [
+        -503.2325134277344,
+        -557.3292846679688,
+        357.3856201171875
+      ],
+      "maximum": [
+        664.6697387695312,
+        372.94305419921875,
+        1141.13818359375
+      ]
+    }
+  },
+  {
+    "index": 7,
+    "file_offset": 56678,
+    "bytes": 52,
+    "raw_hex": "07000000070000001200000001000000040000003c00000000000000b40000000000000000000000780000000000000000000000",
+    "vertex_buffer": 7,
+    "index_buffer": 7,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      60,
+      0,
+      180,
+      0,
+      0,
+      120,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 120,
+    "triangles": 60,
+    "bounds": {
+      "minimum": [
+        -895.3932495117188,
+        -969.0354614257812,
+        441.2208557128906
+      ],
+      "maximum": [
+        1014.18896484375,
+        955.4641723632812,
+        1531.94775390625
+      ]
+    }
+  },
+  {
+    "index": 8,
+    "file_offset": 56730,
+    "bytes": 52,
+    "raw_hex": "08000000080000001200000001000000040000003c00000000000000b40000000000000000000000780000000000000000000000",
+    "vertex_buffer": 8,
+    "index_buffer": 8,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      60,
+      0,
+      180,
+      0,
+      0,
+      120,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 120,
+    "triangles": 60,
+    "bounds": {
+      "minimum": [
+        -895.3932495117188,
+        -969.464599609375,
+        441.2208557128906
+      ],
+      "maximum": [
+        1014.18896484375,
+        955.0348510742188,
+        1531.94775390625
+      ]
+    }
+  },
+  {
+    "index": 9,
+    "file_offset": 56782,
+    "bytes": 52,
+    "raw_hex": "090000000900000012000000010000000400000006000000000000001200000000000000000000000c0000000000000000000000",
+    "vertex_buffer": 9,
+    "index_buffer": 9,
+    "unknown_u16_at2": 0,
+    "unknown_u32_at8": [
+      18,
+      1,
+      4,
+      6,
+      0,
+      18,
+      0,
+      0,
+      12,
+      0,
+      0
+    ],
+    "referenced_indices_in_range": true,
+    "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges",
+    "stride": 48,
+    "verts": 12,
+    "triangles": 6,
+    "bounds": {
+      "minimum": [
+        -875.7132568359375,
+        -826.6964111328125,
+        593.280517578125
+      ],
+      "maximum": [
+        968.9464721679688,
+        908.5071411132812,
+        1648.1170654296875
+      ]
+    }
+  }
+]

@@ -1,0 +1,280 @@
+/*
+** Copyright (c) 2019-2020 Valve Corporation
+** Copyright (c) 2019-2025 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#ifndef GFXRECON_DECODE_VULKAN_REPLAY_OPTIONS_H
+#define GFXRECON_DECODE_VULKAN_REPLAY_OPTIONS_H
+
+#include "decode/replay_options.h"
+
+#include "decode/vulkan_resource_allocator.h"
+#include "format/format.h"
+#include "util/defines.h"
+
+#include <cstdint>
+#include <functional>
+#include <limits>
+#include <string>
+#include <map>
+#include <unordered_map>
+#include <vector>
+#include <optional>
+#include <vulkan/vulkan_core.h>
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(decode)
+
+typedef std::function<VulkanResourceAllocator*()> CreateResourceAllocator;
+
+enum class SkipGetFenceStatus
+{
+    NoSkip,
+    SkipUnsuccessful,
+    SkipAll,
+    COUNT
+};
+
+using Index             = uint64_t;
+using CommandIndices    = std::vector<Index>;
+using RenderPassIndices = std::vector<std::vector<Index>>;
+using ExecuteCommands   = std::unordered_map<Index, CommandIndices>;
+
+struct DescriptorLocation
+{
+    DescriptorLocation() = delete;
+
+    DescriptorLocation(uint32_t s, uint32_t b, uint32_t ai) : set(s), binding(b), array_index(ai) {}
+
+    DescriptorLocation(const DescriptorLocation& other) :
+        set(other.set), binding(other.binding), array_index(other.array_index)
+    {}
+
+    bool const operator==(const DescriptorLocation& other) const
+    {
+        return (set == other.set) && (binding == other.binding) && (array_index == other.array_index);
+    }
+
+    bool const operator<(const DescriptorLocation& other) const
+    {
+        if (set == other.set)
+        {
+            if (binding == other.binding)
+            {
+                return array_index < other.array_index;
+            }
+            else
+            {
+                return binding < other.binding;
+            }
+        }
+        else
+        {
+            return set < other.set;
+        }
+    }
+
+    uint32_t set;
+    uint32_t binding;
+    uint32_t array_index;
+};
+
+struct CommandLocation
+{
+    CommandLocation() = delete;
+
+    CommandLocation(Index bcb, Index qs, Index cmd) :
+        begin_command_buffer_index(bcb), queue_submit_index(qs), cmd_index(cmd)
+    {}
+
+    CommandLocation(const CommandLocation& other) :
+        begin_command_buffer_index(other.begin_command_buffer_index), queue_submit_index(other.queue_submit_index),
+        cmd_index(other.cmd_index)
+    {}
+
+    bool const operator==(const CommandLocation& other) const
+    {
+        return (begin_command_buffer_index == other.begin_command_buffer_index) &&
+               (queue_submit_index == other.queue_submit_index) && (cmd_index == other.cmd_index);
+    }
+
+    bool const operator<(const CommandLocation& other) const
+    {
+        if (begin_command_buffer_index == other.begin_command_buffer_index)
+        {
+            if (queue_submit_index == other.queue_submit_index)
+            {
+                return cmd_index < other.cmd_index;
+            }
+            else
+            {
+                return queue_submit_index < other.queue_submit_index;
+            }
+        }
+        else
+        {
+            return begin_command_buffer_index < other.begin_command_buffer_index;
+        }
+    }
+
+    Index begin_command_buffer_index;
+    Index queue_submit_index;
+    Index cmd_index;
+};
+
+static constexpr uint32_t REMAINING_Z_INDICES = std::numeric_limits<uint32_t>::max();
+struct ImageSubresourceRanges
+{
+    VkImageAspectFlags aspect_mask{ VK_IMAGE_ASPECT_NONE };
+    uint32_t           base_mip_level{ 0 };
+    uint32_t           level_count{ 0 };
+    uint32_t           base_array_layer{ 0 };
+    uint32_t           layer_count{ 0 };
+    uint32_t           base_z{ 0 };
+    uint32_t           z_count{ 0 };
+};
+
+using DescriptorImageSubresourcesPair   = std::pair<DescriptorLocation, ImageSubresourceRanges>;
+using DescriptorImageSubresourcesVector = std::vector<DescriptorImageSubresourcesPair>;
+using CommandImageSubresource           = std::map<CommandLocation, DescriptorImageSubresourcesVector>;
+using BeginCmdBufQueueSubmitPair        = std::pair<decode::Index, decode::Index>;
+
+// Default color attachment index selection for dump resources feature.
+// This default value essentially defines to dump all attachments.
+static constexpr int kUnspecifiedColorAttachment = -1;
+
+struct VulkanReplayOptions : public ReplayOptions
+{
+    bool                    capture{ false };
+    bool                    omit_pipeline_cache_data{ false };
+    bool                    use_colorspace_fallback{ false };
+    bool                    offscreen_swapchain_frame_boundary{ false };
+    util::SwapchainOption   swapchain_option{ util::SwapchainOption::kVirtual };
+    util::PresentModeOption present_mode_option{ util::PresentModeOption::kCapture };
+    bool                    virtual_swapchain_skip_blit{ false };
+    bool                    annotate_injected_commands{ false };
+
+    // optionally override swapchain-images by providing an image debug-utils name
+    std::string present_override_image_name;
+
+    int32_t                      override_gpu_group_index{ -1 };
+    int32_t                      surface_index{ -1 };
+    CreateResourceAllocator      create_resource_allocator;
+    std::string                  replace_shader_dir;
+    SkipGetFenceStatus           skip_get_fence_status{ SkipGetFenceStatus::NoSkip };
+    std::vector<util::UintRange> skip_get_fence_ranges;
+    bool                         wait_before_present{ false };
+    VkFlags                      debug_message_severity{ VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT |
+                                    VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT };
+
+    // Dumping resources related configurable replay options
+    std::vector<BeginCmdBufQueueSubmitPair> BeginCommandBufferQueueSubmit_Indices;
+
+    std::vector<RenderPassIndices> RenderPass_Indices;
+    std::vector<CommandIndices>    Draw_Indices;
+    CommandImageSubresource        DrawSubresources;
+
+    std::vector<CommandIndices> Dispatch_Indices;
+    CommandImageSubresource     DispatchSubresources;
+
+    std::vector<CommandIndices> TraceRays_Indices;
+    CommandImageSubresource     TraceRaysSubresources;
+
+    std::vector<CommandIndices> Transfer_Indices;
+    CommandImageSubresource     TransferSubresources;
+
+    // ExecuteCommands block index : vector or BeginCommandBuffer indices of secondary cbs.
+    std::vector<ExecuteCommands> ExecuteCommands_Indices;
+
+    std::string            dump_resources_block_indices;
+    util::ScreenshotFormat dump_resources_image_format{ util::ScreenshotFormat::kBmp };
+
+    // Flag to quickly check whether the feature is enabled or not
+    bool  dumping_resources{ false };
+    bool  dump_resources_dump_depth{ false };
+    int   dump_resources_color_attachment_index{ kUnspecifiedColorAttachment };
+    float dump_resources_scale{ 1.0f };
+    bool  dump_resources_dump_vertex_index_buffer{ false };
+    bool  dump_resources_json_per_command{ false };
+    bool  dump_all_descriptors{ false };
+    bool  dump_resources_dump_all_image_subresources{ false };
+    bool  dump_resources_dump_raw_images{ false };
+    bool  dump_resources_dump_separate_alpha{ false };
+    bool  dump_resources_dump_unused_vertex_bindings{ false };
+    bool  dump_resources_dump_build_AS_input_buffers{ false };
+
+    format::CompressionType dump_resources_binary_file_compression_type{ format::CompressionType::kNone };
+
+    bool preload_measurement_range{ false };
+
+    std::string load_pipeline_cache_filename;
+    std::string save_pipeline_cache_filename;
+    bool        add_new_pipeline_caches;
+
+    // Time of instantiation of this struct.
+    std::chrono::high_resolution_clock::time_point start_time{ std::chrono::high_resolution_clock::now() };
+
+    // Milliseconds to wait before first queue submit.
+    uint32_t wait_before_first_submit{ 0 };
+
+    /// Wait for the GPU to become idle before each submit.
+    bool idle_before_submit{ false };
+
+    /// Serialize render passes by injecting an execution barrier before each render pass begin.
+    bool serialize_render_passes{ false };
+
+    /// Path to SPIR-V binary used for the compute dispatch warm-up pass.
+    std::string frame_warm_up_spirv_path;
+
+    // Workload scale factor for the compute dispatch warm-up pass.
+    // A bigger `frame_warm_up_load` means more synthetic GPU work to ramp/stabilize GPU clocks before replay.
+    uint32_t frame_warm_up_load{ 0 };
+
+    /// Milliseconds to wait before starting to replay each frame.
+    uint32_t wait_before_frame{ 0 };
+
+    /// Serialize submit entries within one vkQueueSubmit/vkQueueSubmit2 call by chaining them with semaphores.
+    bool serialize_queue_submissions{ false };
+
+    /// Path to a replay event plugin library to load.
+    std::string replay_event_plugin_path;
+
+    /// Parameters to pass to the replay event plugin.
+    std::string replay_event_plugin_params;
+
+    /// Isolate render passes by splitting the command buffer into multiple submits.
+    bool isolate_render_passes{ false };
+
+    /// Prevent compute dispatches from overlapping adjacent transfer work by injecting
+    /// a barrier before and after each dispatch.
+    bool serialize_compute_and_transfer{ false };
+
+    void MaybeWaitBeforeFirstSubmit() const;
+    void MaybeWaitBeforeFrame() const;
+
+    // Prevent querying properties of AHardwareBuffer that couldn't be re-created at replay time.
+    bool omit_null_hardware_buffers{ false };
+};
+
+GFXRECON_END_NAMESPACE(decode)
+GFXRECON_END_NAMESPACE(gfxrecon)
+
+#endif // GFXRECON_DECODE_VULKAN_REPLAY_OPTIONS_H

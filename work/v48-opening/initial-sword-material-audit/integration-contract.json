@@ -1,0 +1,132 @@
+{
+  "material": 1880463,
+  "source_shader": 545212,
+  "native_geometry_program_candidate": "78f3c69a187f2822",
+  "evidence": {
+    "hash": "78f3c69a187f2822",
+    "file_offset": 18535052,
+    "header": 18535040,
+    "uncompressed": 3824,
+    "blocks": 1,
+    "sizes": [
+      1383
+    ],
+    "prefix_tag": 14,
+    "lines": 161,
+    "textures": [
+      "g_diffuse_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_DiffuseMap_texture",
+      "g_normal_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_NormalMap_texture",
+      "g_specular_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_SpecularMap_texture",
+      "g_ambient_cube_F_TLNR_U_CLMP_V_CLMP_S_GLBL_E_CharacterAmbientMap_texture"
+    ]
+  },
+  "association_status": "source family/layout/resources match; exact platform-ID-to-embedded-bytecode registration and active opening frame not observed",
+  "proposed_family": "distinct characterhardlight; root assigns number",
+  "source_parameters": [
+    {
+      "hash": 10276250,
+      "name": "ConstantColor",
+      "type": 11,
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "hash": 11960536,
+      "name": "SpecularValues",
+      "type": 11,
+      "values": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hash": 23195542,
+      "name": "CharacterExtraTerms2",
+      "type": 4,
+      "values": [
+        0.15000000596046448,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "hash": 10120212,
+      "name": "FresnelValues2",
+      "type": 4,
+      "values": [
+        1.399999976158142,
+        2.4000000953674316,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "source_slots": [
+    {
+      "slot": 0,
+      "asset": 1880460,
+      "name": "01_rusty_sword_d"
+    },
+    {
+      "slot": 1,
+      "asset": 250070,
+      "name": "par_color_white_d"
+    },
+    {
+      "slot": 2,
+      "asset": 1880462,
+      "name": "01_rusty_sword_s"
+    },
+    {
+      "slot": 3,
+      "asset": 1880461,
+      "name": "01_rusty_sword_n"
+    }
+  ],
+  "renderer_slot_proposal": {
+    "t0_diffuse": 1880460,
+    "t1_normal": 1880461,
+    "t2_specular": 1880462,
+    "ambient_cube": "native CharacterAmbientMap; identity supplied by host",
+    "unused_source_slot1": 250070
+  },
+  "profile_proposal": {
+    "color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "specular": [
+      1,
+      20,
+      0.15000000596046448,
+      1.399999976158142
+    ],
+    "tiling": [
+      1,
+      1,
+      2.4000000953674316,
+      0
+    ],
+    "mapping": "spec=(strength,sourceGloss,Extra.x,Fresnel.x);tiling.z=Fresnel.y;source ConstantColor retained white but unusedopaquePS"
+  },
+  "source_alpha_test": 0,
+  "source_cull": 2,
+  "shared_combine": "base/spec=independent saturatedF16G1;ambient=independent saturatedF16G2;specExponent=sourceGloss*.25;no generic ambient rawSpec*.9",
+  "no_alpha_discard": true,
+  "vertex_requirements": [
+    "worldPosition",
+    "rawinterpolated normal/tangent/bitangent",
+    "UV0",
+    "RGBA vertexColor"
+  ],
+  "bone_scope": "Sibling producer owns node2/node51/animation transforms; no identity/hand55 assumptions"
+}

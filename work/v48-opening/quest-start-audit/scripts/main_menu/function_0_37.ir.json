@@ -1,0 +1,1901 @@
+[
+  {
+    "pc": 0,
+    "file_offset": 38799,
+    "word_hex": "02000100",
+    "name": "TEST",
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      3,
+      2
+    ],
+    "kind": "test_branch"
+  },
+  {
+    "pc": 2,
+    "file_offset": 38807,
+    "word_hex": "32000000",
+    "name": "LOADK",
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      3
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 3,
+    "file_offset": 38811,
+    "word_hex": "aa000101",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      5
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"loading_screen\""
+  },
+  {
+    "pc": 5,
+    "file_offset": 38819,
+    "word_hex": "88090501",
+    "name": "SETFIELD_R1",
+    "A": 1,
+    "B": 4,
+    "C": 261,
+    "successors": [
+      6
+    ],
+    "kind": "setfield_cached"
+  },
+  {
+    "pc": 6,
+    "file_offset": 38823,
+    "word_hex": "aa000101",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      8
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"loading_screen\""
+  },
+  {
+    "pc": 8,
+    "file_offset": 38831,
+    "word_hex": "880d0701",
+    "name": "SETFIELD_R1",
+    "A": 1,
+    "B": 6,
+    "C": 263,
+    "successors": [
+      9
+    ],
+    "kind": "setfield_cached"
+  },
+  {
+    "pc": 9,
+    "file_offset": 38835,
+    "word_hex": "aa000801",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 8,
+    "successors": [
+      11
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"GameState\""
+  },
+  {
+    "pc": 11,
+    "file_offset": 38843,
+    "word_hex": "86020b01",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 11,
+    "successors": [
+      14
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_initial_difficulty\""
+  },
+  {
+    "pc": 14,
+    "file_offset": 38855,
+    "word_hex": "0e000002",
+    "name": "MOVE",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      15
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 15,
+    "file_offset": 38859,
+    "word_hex": "04040101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      16
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 16,
+    "file_offset": 38863,
+    "word_hex": "32000d01",
+    "name": "LOADK",
+    "A": 1,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      17
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 17,
+    "file_offset": 38867,
+    "word_hex": "36000c01",
+    "name": "SETGLOBAL",
+    "A": 1,
+    "B": 0,
+    "C": 12,
+    "successors": [
+      18
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_use_templated\""
+  },
+  {
+    "pc": 18,
+    "file_offset": 38871,
+    "word_hex": "aa000e01",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      20
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 20,
+    "file_offset": 38879,
+    "word_hex": "86021101",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 17,
+    "successors": [
+      23
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_active_user_index\""
+  },
+  {
+    "pc": 23,
+    "file_offset": 38891,
+    "word_hex": "82000001",
+    "name": "TEST_R1",
+    "A": 1,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      98,
+      25
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 25,
+    "file_offset": 38899,
+    "word_hex": "aa000e01",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      27
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 27,
+    "file_offset": 38907,
+    "word_hex": "86021101",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 17,
+    "successors": [
+      30
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_active_user_index\""
+  },
+  {
+    "pc": 30,
+    "file_offset": 38919,
+    "word_hex": "7e020201",
+    "name": "CALL_I_R1",
+    "A": 1,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      31
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 31,
+    "file_offset": 38923,
+    "word_hex": "32000d02",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      32
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 32,
+    "file_offset": 38927,
+    "word_hex": "32001203",
+    "name": "LOADK",
+    "A": 3,
+    "B": 0,
+    "C": 18,
+    "successors": [
+      33
+    ],
+    "kind": "loadk",
+    "constant_lua": "3"
+  },
+  {
+    "pc": 33,
+    "file_offset": 38931,
+    "word_hex": "32000004",
+    "name": "LOADK",
+    "A": 4,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      34
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 34,
+    "file_offset": 38935,
+    "word_hex": "71003c02",
+    "name": "FORPREP",
+    "A": 2,
+    "B": 128,
+    "C": 60,
+    "successors": [
+      96
+    ],
+    "kind": "forprep"
+  },
+  {
+    "pc": 35,
+    "file_offset": 38939,
+    "word_hex": "080a0100",
+    "name": "EQ",
+    "A": 0,
+    "B": 5,
+    "C": 1,
+    "successors": [
+      88,
+      37
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 5
+    },
+    "right_operand": {
+      "kind": "register",
+      "index": 1
+    }
+  },
+  {
+    "pc": 37,
+    "file_offset": 38947,
+    "word_hex": "aa000e06",
+    "name": "GETGLOBAL_MEM",
+    "A": 6,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      39
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 39,
+    "file_offset": 38955,
+    "word_hex": "860c1306",
+    "name": "GETFIELD_R1",
+    "A": 6,
+    "B": 6,
+    "C": 19,
+    "successors": [
+      42
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_presence\""
+  },
+  {
+    "pc": 42,
+    "file_offset": 38967,
+    "word_hex": "0e0a0007",
+    "name": "MOVE",
+    "A": 7,
+    "B": 5,
+    "C": 0,
+    "successors": [
+      43
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 43,
+    "file_offset": 38971,
+    "word_hex": "32000008",
+    "name": "LOADK",
+    "A": 8,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      44
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 44,
+    "file_offset": 38975,
+    "word_hex": "04060106",
+    "name": "CALL_I",
+    "A": 6,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      45
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 45,
+    "file_offset": 38979,
+    "word_hex": "aa000e06",
+    "name": "GETGLOBAL_MEM",
+    "A": 6,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      47
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 47,
+    "file_offset": 38987,
+    "word_hex": "860c1406",
+    "name": "GETFIELD_R1",
+    "A": 6,
+    "B": 6,
+    "C": 20,
+    "successors": [
+      50
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_context\""
+  },
+  {
+    "pc": 50,
+    "file_offset": 38999,
+    "word_hex": "aa000e07",
+    "name": "GETGLOBAL_MEM",
+    "A": 7,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      52
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 52,
+    "file_offset": 39007,
+    "word_hex": "860e1107",
+    "name": "GETFIELD_R1",
+    "A": 7,
+    "B": 7,
+    "C": 17,
+    "successors": [
+      55
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_active_user_index\""
+  },
+  {
+    "pc": 55,
+    "file_offset": 39019,
+    "word_hex": "7e020207",
+    "name": "CALL_I_R1",
+    "A": 7,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      56
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 56,
+    "file_offset": 39023,
+    "word_hex": "32000d08",
+    "name": "LOADK",
+    "A": 8,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      57
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 57,
+    "file_offset": 39027,
+    "word_hex": "32000d09",
+    "name": "LOADK",
+    "A": 9,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      58
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 58,
+    "file_offset": 39031,
+    "word_hex": "04080106",
+    "name": "CALL_I",
+    "A": 6,
+    "B": 4,
+    "C": 1,
+    "successors": [
+      59
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 59,
+    "file_offset": 39035,
+    "word_hex": "aa000e06",
+    "name": "GETGLOBAL_MEM",
+    "A": 6,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      61
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 61,
+    "file_offset": 39043,
+    "word_hex": "860c1406",
+    "name": "GETFIELD_R1",
+    "A": 6,
+    "B": 6,
+    "C": 20,
+    "successors": [
+      64
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_context\""
+  },
+  {
+    "pc": 64,
+    "file_offset": 39055,
+    "word_hex": "aa000e07",
+    "name": "GETGLOBAL_MEM",
+    "A": 7,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      66
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 66,
+    "file_offset": 39063,
+    "word_hex": "860e1107",
+    "name": "GETFIELD_R1",
+    "A": 7,
+    "B": 7,
+    "C": 17,
+    "successors": [
+      69
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_active_user_index\""
+  },
+  {
+    "pc": 69,
+    "file_offset": 39075,
+    "word_hex": "7e020207",
+    "name": "CALL_I_R1",
+    "A": 7,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      70
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 70,
+    "file_offset": 39079,
+    "word_hex": "32000008",
+    "name": "LOADK",
+    "A": 8,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      71
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 71,
+    "file_offset": 39083,
+    "word_hex": "32000d09",
+    "name": "LOADK",
+    "A": 9,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      72
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 72,
+    "file_offset": 39087,
+    "word_hex": "04080106",
+    "name": "CALL_I",
+    "A": 6,
+    "B": 4,
+    "C": 1,
+    "successors": [
+      73
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 73,
+    "file_offset": 39091,
+    "word_hex": "aa000e06",
+    "name": "GETGLOBAL_MEM",
+    "A": 6,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      75
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 75,
+    "file_offset": 39099,
+    "word_hex": "860c1406",
+    "name": "GETFIELD_R1",
+    "A": 6,
+    "B": 6,
+    "C": 20,
+    "successors": [
+      78
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_context\""
+  },
+  {
+    "pc": 78,
+    "file_offset": 39111,
+    "word_hex": "aa000e07",
+    "name": "GETGLOBAL_MEM",
+    "A": 7,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      80
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 80,
+    "file_offset": 39119,
+    "word_hex": "860e1107",
+    "name": "GETFIELD_R1",
+    "A": 7,
+    "B": 7,
+    "C": 17,
+    "successors": [
+      83
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_active_user_index\""
+  },
+  {
+    "pc": 83,
+    "file_offset": 39131,
+    "word_hex": "7e020207",
+    "name": "CALL_I_R1",
+    "A": 7,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      84
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 84,
+    "file_offset": 39135,
+    "word_hex": "32001508",
+    "name": "LOADK",
+    "A": 8,
+    "B": 0,
+    "C": 21,
+    "successors": [
+      85
+    ],
+    "kind": "loadk",
+    "constant_lua": "2"
+  },
+  {
+    "pc": 85,
+    "file_offset": 39139,
+    "word_hex": "32000009",
+    "name": "LOADK",
+    "A": 9,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      86
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 86,
+    "file_offset": 39143,
+    "word_hex": "04080106",
+    "name": "CALL_I",
+    "A": 6,
+    "B": 4,
+    "C": 1,
+    "successors": [
+      87
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 87,
+    "file_offset": 39147,
+    "word_hex": "39000700",
+    "name": "JMP",
+    "A": 0,
+    "B": 128,
+    "C": 7,
+    "successors": [
+      96
+    ],
+    "kind": "jump"
+  },
+  {
+    "pc": 88,
+    "file_offset": 39151,
+    "word_hex": "aa000e06",
+    "name": "GETGLOBAL_MEM",
+    "A": 6,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      90
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 90,
+    "file_offset": 39159,
+    "word_hex": "860c1306",
+    "name": "GETFIELD_R1",
+    "A": 6,
+    "B": 6,
+    "C": 19,
+    "successors": [
+      93
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_presence\""
+  },
+  {
+    "pc": 93,
+    "file_offset": 39171,
+    "word_hex": "0e0a0007",
+    "name": "MOVE",
+    "A": 7,
+    "B": 5,
+    "C": 0,
+    "successors": [
+      94
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 94,
+    "file_offset": 39175,
+    "word_hex": "32001508",
+    "name": "LOADK",
+    "A": 8,
+    "B": 0,
+    "C": 21,
+    "successors": [
+      95
+    ],
+    "kind": "loadk",
+    "constant_lua": "2"
+  },
+  {
+    "pc": 95,
+    "file_offset": 39179,
+    "word_hex": "04060106",
+    "name": "CALL_I",
+    "A": 6,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      96
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 96,
+    "file_offset": 39183,
+    "word_hex": "72ffc102",
+    "name": "FORLOOP",
+    "A": 2,
+    "B": 127,
+    "C": 449,
+    "successors": [
+      35,
+      97
+    ],
+    "kind": "forloop"
+  },
+  {
+    "pc": 97,
+    "file_offset": 39187,
+    "word_hex": "39001e00",
+    "name": "JMP",
+    "A": 0,
+    "B": 128,
+    "C": 30,
+    "successors": [
+      129
+    ],
+    "kind": "jump"
+  },
+  {
+    "pc": 98,
+    "file_offset": 39191,
+    "word_hex": "aa000e01",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      100
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 100,
+    "file_offset": 39199,
+    "word_hex": "86021301",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 19,
+    "successors": [
+      103
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_presence\""
+  },
+  {
+    "pc": 103,
+    "file_offset": 39211,
+    "word_hex": "32000002",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      104
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 104,
+    "file_offset": 39215,
+    "word_hex": "04040101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      105
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 105,
+    "file_offset": 39219,
+    "word_hex": "aa000e01",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      107
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 107,
+    "file_offset": 39227,
+    "word_hex": "86021401",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 20,
+    "successors": [
+      110
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_context\""
+  },
+  {
+    "pc": 110,
+    "file_offset": 39239,
+    "word_hex": "32000d02",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      111
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 111,
+    "file_offset": 39243,
+    "word_hex": "32000d03",
+    "name": "LOADK",
+    "A": 3,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      112
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 112,
+    "file_offset": 39247,
+    "word_hex": "04060101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      113
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 113,
+    "file_offset": 39251,
+    "word_hex": "aa000e01",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      115
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 115,
+    "file_offset": 39259,
+    "word_hex": "86021401",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 20,
+    "successors": [
+      118
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_context\""
+  },
+  {
+    "pc": 118,
+    "file_offset": 39271,
+    "word_hex": "32000002",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      119
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 119,
+    "file_offset": 39275,
+    "word_hex": "32000d03",
+    "name": "LOADK",
+    "A": 3,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      120
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 120,
+    "file_offset": 39279,
+    "word_hex": "04060101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      121
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 121,
+    "file_offset": 39283,
+    "word_hex": "aa000e01",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      123
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PROFILE\""
+  },
+  {
+    "pc": 123,
+    "file_offset": 39291,
+    "word_hex": "86021401",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 20,
+    "successors": [
+      126
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_rich_user_context\""
+  },
+  {
+    "pc": 126,
+    "file_offset": 39303,
+    "word_hex": "32001502",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 21,
+    "successors": [
+      127
+    ],
+    "kind": "loadk",
+    "constant_lua": "2"
+  },
+  {
+    "pc": 127,
+    "file_offset": 39307,
+    "word_hex": "32000003",
+    "name": "LOADK",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      128
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 128,
+    "file_offset": 39311,
+    "word_hex": "04060101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      129
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 129,
+    "file_offset": 39315,
+    "word_hex": "aa001601",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      131
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 131,
+    "file_offset": 39323,
+    "word_hex": "86021901",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 25,
+    "successors": [
+      134
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_platform\""
+  },
+  {
+    "pc": 134,
+    "file_offset": 39335,
+    "word_hex": "7e020201",
+    "name": "CALL_I_R1",
+    "A": 1,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      135
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 135,
+    "file_offset": 39339,
+    "word_hex": "08031a01",
+    "name": "EQ",
+    "A": 1,
+    "B": 1,
+    "C": 282,
+    "successors": [
+      215,
+      137
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 1
+    },
+    "right_operand": {
+      "kind": "constant",
+      "index": 26,
+      "lua": "585298"
+    }
+  },
+  {
+    "pc": 137,
+    "file_offset": 39347,
+    "word_hex": "aa001601",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      139
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 139,
+    "file_offset": 39355,
+    "word_hex": "86021b01",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 27,
+    "successors": [
+      142
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_visible\""
+  },
+  {
+    "pc": 142,
+    "file_offset": 39367,
+    "word_hex": "aa001c02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 28,
+    "successors": [
+      144
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_autosave_win\""
+  },
+  {
+    "pc": 144,
+    "file_offset": 39375,
+    "word_hex": "1a020003",
+    "name": "LOADBOOL",
+    "A": 3,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      145
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 145,
+    "file_offset": 39379,
+    "word_hex": "04060101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      146
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 146,
+    "file_offset": 39383,
+    "word_hex": "aa001601",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      148
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 148,
+    "file_offset": 39391,
+    "word_hex": "86021f01",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 31,
+    "successors": [
+      151
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"find_static\""
+  },
+  {
+    "pc": 151,
+    "file_offset": 39403,
+    "word_hex": "aa001c02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 28,
+    "successors": [
+      153
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_autosave_win\""
+  },
+  {
+    "pc": 153,
+    "file_offset": 39411,
+    "word_hex": "32002003",
+    "name": "LOADK",
+    "A": 3,
+    "B": 0,
+    "C": 32,
+    "successors": [
+      154
+    ],
+    "kind": "loadk",
+    "constant_lua": "17818108"
+  },
+  {
+    "pc": 154,
+    "file_offset": 39415,
+    "word_hex": "32002104",
+    "name": "LOADK",
+    "A": 4,
+    "B": 0,
+    "C": 33,
+    "successors": [
+      155
+    ],
+    "kind": "loadk",
+    "constant_lua": "-1"
+  },
+  {
+    "pc": 155,
+    "file_offset": 39419,
+    "word_hex": "1a020005",
+    "name": "LOADBOOL",
+    "A": 5,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      156
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 156,
+    "file_offset": 39423,
+    "word_hex": "040a0201",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 5,
+    "C": 2,
+    "successors": [
+      157
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 157,
+    "file_offset": 39427,
+    "word_hex": "aa001602",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      159
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 159,
+    "file_offset": 39435,
+    "word_hex": "86041902",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 25,
+    "successors": [
+      162
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_platform\""
+  },
+  {
+    "pc": 162,
+    "file_offset": 39447,
+    "word_hex": "7e020202",
+    "name": "CALL_I_R1",
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      163
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 163,
+    "file_offset": 39451,
+    "word_hex": "08052200",
+    "name": "EQ",
+    "A": 0,
+    "B": 2,
+    "C": 290,
+    "successors": [
+      179,
+      165
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 2
+    },
+    "right_operand": {
+      "kind": "constant",
+      "index": 34,
+      "lua": "1047270"
+    }
+  },
+  {
+    "pc": 165,
+    "file_offset": 39459,
+    "word_hex": "aa001602",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      167
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 167,
+    "file_offset": 39467,
+    "word_hex": "86042302",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 35,
+    "successors": [
+      170
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_label_text\""
+  },
+  {
+    "pc": 170,
+    "file_offset": 39479,
+    "word_hex": "0e020003",
+    "name": "MOVE",
+    "A": 3,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      171
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 171,
+    "file_offset": 39483,
+    "word_hex": "aa002404",
+    "name": "GETGLOBAL_MEM",
+    "A": 4,
+    "B": 0,
+    "C": 36,
+    "successors": [
+      173
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"SL\""
+  },
+  {
+    "pc": 173,
+    "file_offset": 39491,
+    "word_hex": "5c000205",
+    "name": "NEWTABLE",
+    "A": 5,
+    "B": 0,
+    "C": 2,
+    "successors": [
+      174
+    ],
+    "kind": "newtable"
+  },
+  {
+    "pc": 174,
+    "file_offset": 39495,
+    "word_hex": "884f2805",
+    "name": "SETFIELD_R1",
+    "A": 5,
+    "B": 39,
+    "C": 296,
+    "successors": [
+      175
+    ],
+    "kind": "setfield_cached"
+  },
+  {
+    "pc": 175,
+    "file_offset": 39499,
+    "word_hex": "1e532a05",
+    "name": "SETFIELD",
+    "A": 5,
+    "B": 41,
+    "C": 298,
+    "successors": [
+      176
+    ],
+    "kind": "setfield"
+  },
+  {
+    "pc": 176,
+    "file_offset": 39503,
+    "word_hex": "04040004",
+    "name": "CALL_I",
+    "A": 4,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      177
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 177,
+    "file_offset": 39507,
+    "word_hex": "04000102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      178
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 178,
+    "file_offset": 39511,
+    "word_hex": "39002800",
+    "name": "JMP",
+    "A": 0,
+    "B": 128,
+    "C": 40,
+    "successors": [
+      220
+    ],
+    "kind": "jump"
+  },
+  {
+    "pc": 179,
+    "file_offset": 39515,
+    "word_hex": "aa001602",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      181
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 181,
+    "file_offset": 39523,
+    "word_hex": "86041902",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 25,
+    "successors": [
+      184
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_platform\""
+  },
+  {
+    "pc": 184,
+    "file_offset": 39535,
+    "word_hex": "7e020202",
+    "name": "CALL_I_R1",
+    "A": 2,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      185
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 185,
+    "file_offset": 39539,
+    "word_hex": "08052b00",
+    "name": "EQ",
+    "A": 0,
+    "B": 2,
+    "C": 299,
+    "successors": [
+      201,
+      187
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 2
+    },
+    "right_operand": {
+      "kind": "constant",
+      "index": 43,
+      "lua": "230942"
+    }
+  },
+  {
+    "pc": 187,
+    "file_offset": 39547,
+    "word_hex": "aa001602",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      189
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 189,
+    "file_offset": 39555,
+    "word_hex": "86042302",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 35,
+    "successors": [
+      192
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_label_text\""
+  },
+  {
+    "pc": 192,
+    "file_offset": 39567,
+    "word_hex": "0e020003",
+    "name": "MOVE",
+    "A": 3,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      193
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 193,
+    "file_offset": 39571,
+    "word_hex": "aa002404",
+    "name": "GETGLOBAL_MEM",
+    "A": 4,
+    "B": 0,
+    "C": 36,
+    "successors": [
+      195
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"SL\""
+  },
+  {
+    "pc": 195,
+    "file_offset": 39579,
+    "word_hex": "5c000205",
+    "name": "NEWTABLE",
+    "A": 5,
+    "B": 0,
+    "C": 2,
+    "successors": [
+      196
+    ],
+    "kind": "newtable"
+  },
+  {
+    "pc": 196,
+    "file_offset": 39583,
+    "word_hex": "884f2c05",
+    "name": "SETFIELD_R1",
+    "A": 5,
+    "B": 39,
+    "C": 300,
+    "successors": [
+      197
+    ],
+    "kind": "setfield_cached"
+  },
+  {
+    "pc": 197,
+    "file_offset": 39587,
+    "word_hex": "1e532d05",
+    "name": "SETFIELD",
+    "A": 5,
+    "B": 41,
+    "C": 301,
+    "successors": [
+      198
+    ],
+    "kind": "setfield"
+  },
+  {
+    "pc": 198,
+    "file_offset": 39591,
+    "word_hex": "04040004",
+    "name": "CALL_I",
+    "A": 4,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      199
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 199,
+    "file_offset": 39595,
+    "word_hex": "04000102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      200
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 200,
+    "file_offset": 39599,
+    "word_hex": "39001200",
+    "name": "JMP",
+    "A": 0,
+    "B": 128,
+    "C": 18,
+    "successors": [
+      220
+    ],
+    "kind": "jump"
+  },
+  {
+    "pc": 201,
+    "file_offset": 39603,
+    "word_hex": "aa001602",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 22,
+    "successors": [
+      203
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 203,
+    "file_offset": 39611,
+    "word_hex": "86042302",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 35,
+    "successors": [
+      206
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_label_text\""
+  },
+  {
+    "pc": 206,
+    "file_offset": 39623,
+    "word_hex": "0e020003",
+    "name": "MOVE",
+    "A": 3,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      207
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 207,
+    "file_offset": 39627,
+    "word_hex": "aa002404",
+    "name": "GETGLOBAL_MEM",
+    "A": 4,
+    "B": 0,
+    "C": 36,
+    "successors": [
+      209
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"SL\""
+  },
+  {
+    "pc": 209,
+    "file_offset": 39635,
+    "word_hex": "5c000205",
+    "name": "NEWTABLE",
+    "A": 5,
+    "B": 0,
+    "C": 2,
+    "successors": [
+      210
+    ],
+    "kind": "newtable"
+  },
+  {
+    "pc": 210,
+    "file_offset": 39639,
+    "word_hex": "884f2e05",
+    "name": "SETFIELD_R1",
+    "A": 5,
+    "B": 39,
+    "C": 302,
+    "successors": [
+      211
+    ],
+    "kind": "setfield_cached"
+  },
+  {
+    "pc": 211,
+    "file_offset": 39643,
+    "word_hex": "1e532f05",
+    "name": "SETFIELD",
+    "A": 5,
+    "B": 41,
+    "C": 303,
+    "successors": [
+      212
+    ],
+    "kind": "setfield"
+  },
+  {
+    "pc": 212,
+    "file_offset": 39647,
+    "word_hex": "04040004",
+    "name": "CALL_I",
+    "A": 4,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      213
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 213,
+    "file_offset": 39651,
+    "word_hex": "04000102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      214
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 214,
+    "file_offset": 39655,
+    "word_hex": "39000400",
+    "name": "JMP",
+    "A": 0,
+    "B": 128,
+    "C": 4,
+    "successors": [
+      220
+    ],
+    "kind": "jump"
+  },
+  {
+    "pc": 215,
+    "file_offset": 39659,
+    "word_hex": "aa003001",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 48,
+    "successors": [
+      217
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"start_game_at_quest\""
+  },
+  {
+    "pc": 217,
+    "file_offset": 39667,
+    "word_hex": "aa003302",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 51,
+    "successors": [
+      219
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_gamestart_quest\""
+  },
+  {
+    "pc": 219,
+    "file_offset": 39675,
+    "word_hex": "04040101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      220
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 220,
+    "file_offset": 39679,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  }
+]

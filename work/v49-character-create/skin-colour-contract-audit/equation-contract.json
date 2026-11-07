@@ -1,0 +1,58 @@
+{
+  "scope": "ONE source skin material/profile and selectedSkinTone records; no renderer/UI changes",
+  "palette_mapping_proven": true,
+  "channel_order": "packedARGB numeric; little-endianBGRA memory; outputR=byte2,G=byte1,B=byte0,A=preservedOldHighByte",
+  "native_scale_double_raw8LE": "000000201010703f",
+  "native_scale": "double-promoted float32 reciprocal, exactly0.0039215688593685626983642578125",
+  "gamma_conversion": "NONE in native packed-color converter or no-op cleanup; shader receives those direct normalized multipliers",
+  "instance_uniform": "144Bblock skinColor@32; queued opcode44 payload beginscommand+8, skinColorcommand+40",
+  "skin_setter_fields": {
+    "packedColor": "Stats+0x30",
+    "headDiffuseRef": "Stats+0x34",
+    "bodyDiffuseRef": "Stats+0x38"
+  },
+  "diffuse_override_selection": {
+    "shader649436_characterhead": "headDiffuseRef",
+    "shader649640_characterskin": "bodyDiffuseRef"
+  },
+  "source_material513702_parameter64B_capture_match": true,
+  "full_material_texture_pixel_and_mesh_identity_match": false,
+  "native_skin_diffuse_view": {
+    "draw": 67663,
+    "image": 12633,
+    "view": 12637,
+    "format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+    "sRGB": false,
+    "imageExtent": [
+      2048,
+      2048
+    ],
+    "mips": 9
+  },
+  "active_mask": {
+    "image": 3347,
+    "view": 3351,
+    "binding": 35,
+    "channel": "GREEN",
+    "UV": "UV0.xy",
+    "rule": "discard iff mask.g - cutoff <0; equality survives",
+    "captured_cutoff": 0.9098039269447327,
+    "source_cutoff_byte": 232
+  },
+  "weighted_basis": {
+    "VS461_equals_VS375_byte_text": true,
+    "VS_sha256": "526bae7c5776fc55f414b72987ee34c46addc60b869e7aa8c76372541af6d440",
+    "rule": "P/N/T skin; B onlyentity; independentlynormalizeN/T/Bvertex; useweighted-hardlight-basis-auditexactequations"
+  },
+  "captured_skin_alpha": {
+    "all9existing_snapshots": 1.0,
+    "selected_draws_temporally_reconstructed": [
+      67663,
+      67691
+    ],
+    "packed_alpha_byte": 255,
+    "new_creator_initializer_proven": false
+  },
+  "head_overlay_prerequisite": "Only sourcehead/bodydiffuse selection closed; headtattoo/makeupUV1andmask bindings remain separate, notimplemented",
+  "no_live_renderer_or_ui_implementation": true
+}

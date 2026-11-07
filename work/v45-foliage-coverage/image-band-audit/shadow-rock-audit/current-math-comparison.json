@@ -1,0 +1,66 @@
+{
+  "scope": "Current math header reconstructed at native-reference cameraVP/eye/sun, not runtime GPU matrix readback. Current configNULL derives projection scales from VP.",
+  "middle": {
+    "E": 1317.7758071450742,
+    "Q50": [
+      0.8905058544678451,
+      0.4087460349411557,
+      0.990516190936985
+    ],
+    "Q100": [
+      0.8825603994372155,
+      0.4075714976669891,
+      0.9905322836687493
+    ],
+    "versus_native_Q_delta_max": [
+      4.7e-07,
+      8.94e-06,
+      6.27e-08
+    ],
+    "XY_max_texels": 0.00916,
+    "native_visibility_margin_D16_units_min": 9.52,
+    "GL_taps50": [
+      [
+        911,
+        604
+      ],
+      [
+        912,
+        604
+      ],
+      [
+        911,
+        605
+      ],
+      [
+        912,
+        605
+      ]
+    ],
+    "GL_taps100": [
+      [
+        903,
+        606
+      ],
+      [
+        904,
+        606
+      ],
+      [
+        903,
+        607
+      ],
+      [
+        904,
+        607
+      ]
+    ]
+  },
+  "near": {
+    "Y_snap_difference_approximately_texels": 0.976,
+    "alpha_both_pixels": 0,
+    "causal_for_rock": false
+  },
+  "mapping_contract": "GLcasterZ=2*nativeZ-W exactly once; receiverQz remainsD3D0..1; native_top_left_Q.y flips once when sampling GLcaster storage; middle cascade alpha1 and near/faralpha0.",
+  "conclusion": "No concrete cascade/projection/clip/UV mapping bug found that explains current G0 at these pixels. Extra/wrong caster coverage or caster shader/selection remains unproven without current middle-map texels/caster identity."
+}

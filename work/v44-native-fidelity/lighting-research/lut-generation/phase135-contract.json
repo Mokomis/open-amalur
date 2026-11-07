@@ -1,0 +1,237 @@
+{
+  "index": 73404,
+  "pipeline": 7603,
+  "modules": [
+    1856,
+    1858
+  ],
+  "bind": {
+    "commandBuffer": 46,
+    "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+    "layout": 7602,
+    "firstSet": 0,
+    "descriptorSetCount": 1,
+    "pDescriptorSets": [
+      7632
+    ],
+    "dynamicOffsetCount": 1,
+    "pDynamicOffsets": [
+      1765696
+    ]
+  },
+  "descriptors": {
+    "7632": {
+      "32": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 32,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+        "pImageInfo": [
+          {
+            "sampler": 0,
+            "imageView": 1864,
+            "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+          }
+        ]
+      },
+      "16": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 16,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+        "pImageInfo": [
+          {
+            "sampler": 154,
+            "imageView": 0,
+            "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+          }
+        ]
+      },
+      "0": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 0,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+        "pBufferInfo": [
+          {
+            "buffer": 51,
+            "offset": 0,
+            "range": 48
+          }
+        ]
+      },
+      "33": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 33,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+        "pImageInfo": [
+          {
+            "sampler": 0,
+            "imageView": 175,
+            "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+          }
+        ]
+      },
+      "17": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 17,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+        "pImageInfo": [
+          {
+            "sampler": 145,
+            "imageView": 0,
+            "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+          }
+        ]
+      },
+      "34": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 34,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+        "pImageInfo": [
+          {
+            "sampler": 0,
+            "imageView": 178,
+            "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+          }
+        ]
+      },
+      "18": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 18,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+        "pImageInfo": [
+          {
+            "sampler": 153,
+            "imageView": 0,
+            "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+          }
+        ]
+      },
+      "19": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 19,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+        "pImageInfo": [
+          {
+            "sampler": 153,
+            "imageView": 0,
+            "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+          }
+        ]
+      },
+      "35": {
+        "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+        "pNext": null,
+        "dstSet": 7632,
+        "dstBinding": 35,
+        "dstArrayElement": 0,
+        "descriptorCount": 1,
+        "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+        "pImageInfo": [
+          {
+            "sampler": 0,
+            "imageView": 205,
+            "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+          }
+        ]
+      }
+    }
+  },
+  "uniforms": [
+    {
+      "slot": 0,
+      "offset": 1765696,
+      "size": 48,
+      "values": [
+        0.05859375,
+        0.9375,
+        0.001953125,
+        0.03125,
+        0.0,
+        0.0,
+        16.0,
+        0.0625,
+        0.4306860566139221,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "sampled": [
+    {
+      "slot": 32,
+      "view": 1864,
+      "image": 1862,
+      "format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "extent": {
+        "width": 256,
+        "height": 16,
+        "depth": 1
+      }
+    },
+    {
+      "slot": 33,
+      "view": 175,
+      "image": 173,
+      "format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "extent": {
+        "width": 1536,
+        "height": 864,
+        "depth": 1
+      }
+    },
+    {
+      "slot": 34,
+      "view": 178,
+      "image": 176,
+      "format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "extent": {
+        "width": 1536,
+        "height": 864,
+        "depth": 1
+      }
+    },
+    {
+      "slot": 35,
+      "view": 205,
+      "image": 203,
+      "format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "extent": {
+        "width": 384,
+        "height": 216,
+        "depth": 1
+      }
+    }
+  ]
+}

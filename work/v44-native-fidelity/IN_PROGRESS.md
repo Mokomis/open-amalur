@@ -1,0 +1,1 @@
+Final scoped integration and device validation complete. Read README.md, PERFORMANCE.md, CODEX_EVIDENCE_REVIEW.json and final-device-state evidence. Final installed revision isR4, not initial/R2/R3 candidates. Broader parity limits remain explicit in README.

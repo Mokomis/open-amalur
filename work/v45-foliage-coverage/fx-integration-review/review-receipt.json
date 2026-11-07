@@ -1,0 +1,31 @@
+{
+  "scope": "Read-only source review of native FX diff vs before-native-fx; no builds/GPU/replay/core edits.",
+  "source": {
+    "oa_fx.c": "bd78d4a72d2865fc928994fa9d9a98782bcd63d0512c024e32cd43ff87b9d73b",
+    "oa_fx.h": "701763d42bc7ed8756696388438a050c63555841c0c45fecfa04ad512dd4ff11",
+    "android_scene.c": "cf5d9d357ac183bc9985cbb4d2610cd0e600791fe39ea124111ed6d27f4a4a8f"
+  },
+  "baseline": {
+    "oa_fx.c": "2656308a7acd1b74de1d07d16b933eff8dc00d19a7ae758a75b16ea4c574df13",
+    "oa_fx.h": "099b9add703265792a732aed7e28ae4bd5c5f950e5583fcc0389713d2e8fc748",
+    "android_scene.c": "e290f2aaa775012bcf108d07f234464afb8c2649ab133496e8df67d7c95432f3"
+  },
+  "actionable_findings": [],
+  "reviewed": [
+    "80B/20float CPU instance and VAO layout agree:position-size0;RGBA16;cell32;angle48;shape52/flags56;axis64;padding60/76. Every float initialized and instancecount<=FX_MAX.",
+    "Added fx_part.place is assigned at spawn before fallback lookup; swap-delete copies the entire enlarged struct.",
+    "OAFXN01 count/32B rows/flagmask/typeindex/finitevalues validated; copied sixfloat region exactly matches x0..angle1; allocated metadata freed in close.",
+    "Optional OATX override prevalidates whole level chain before upload; overrides retain explicit authored MAX_LEVEL and legacy fallback still advances original fx.bin bytes.",
+    "RNG uses defined unsigned32 wrap. Color and alpha endpoint interpolation no longer accesses a nonexistent fifth/seventh key.",
+    "Native shader particleClipZ recovers D3DclipZ from GL VP; highp sceneDepth inverse and GL-bottom-left sampling align snapshot orientation.",
+    "Native PS1042 softfade and exact-zero branch/fog transmission in alpha match existing report for neutral captured tint/luminance.",
+    "Native branches use SRC_ALPHA,ONE for RGB and alpha; depthWrite off, culling off. Legacy type shader branch and grouping preserved.",
+    "New depth sampler reads opaque_depth distinct from scene depth attachment; oa_post_snapshot blits and restores scene framebuffer. Water snapshot reuse and fallback snapshot both readygate depth binding.",
+    "Existing GL state restoration conventions retained; next postpass rebinds its textures/program/VAO. No new framebufferfeedback found."
+  ],
+  "limits": [
+    "This is static source review, not runtime proof. Parent owns Windows/ARM smoke and image parity.",
+    "No malformed-original-fx.bin hardening or prior unchecked-allocation/shader-status behavior was added to scope; original pack is unchanged.",
+    "Type27 caller input/velocity sign producer policy remains explicitly inferred; review does not reopen original producer research."
+  ]
+}

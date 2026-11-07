@@ -1,0 +1,370 @@
+[
+  {
+    "pc": 0,
+    "file_offset": 291229,
+    "word_hex": "aa000002",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      2
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_window\""
+  },
+  {
+    "pc": 2,
+    "file_offset": 291237,
+    "word_hex": "82000002",
+    "name": "TEST_R1",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      16,
+      4
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 4,
+    "file_offset": 291245,
+    "word_hex": "aa000302",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      6
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_registered_with_state_mgr\""
+  },
+  {
+    "pc": 6,
+    "file_offset": 291253,
+    "word_hex": "82000002",
+    "name": "TEST_R1",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      16,
+      8
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 8,
+    "file_offset": 291261,
+    "word_hex": "aa000602",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 6,
+    "successors": [
+      10
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"UI_State_MGR\""
+  },
+  {
+    "pc": 10,
+    "file_offset": 291269,
+    "word_hex": "86040902",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 9,
+    "successors": [
+      13
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"hide_window\""
+  },
+  {
+    "pc": 13,
+    "file_offset": 291281,
+    "word_hex": "aa000003",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      15
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_window\""
+  },
+  {
+    "pc": 15,
+    "file_offset": 291289,
+    "word_hex": "04040102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      16
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 16,
+    "file_offset": 291293,
+    "word_hex": "aa000b02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 11,
+    "successors": [
+      18
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"DEFAULT\""
+  },
+  {
+    "pc": 18,
+    "file_offset": 291301,
+    "word_hex": "36000a02",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 10,
+    "successors": [
+      19
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_mode\""
+  },
+  {
+    "pc": 19,
+    "file_offset": 291305,
+    "word_hex": "aa000e02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      21
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 21,
+    "file_offset": 291313,
+    "word_hex": "86041102",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 17,
+    "successors": [
+      24
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"create_window\""
+  },
+  {
+    "pc": 24,
+    "file_offset": 291325,
+    "word_hex": "32001203",
+    "name": "LOADK",
+    "A": 3,
+    "B": 0,
+    "C": 18,
+    "successors": [
+      25
+    ],
+    "kind": "loadk",
+    "constant_lua": "__uint64(\"0018bdbe000002e0\")"
+  },
+  {
+    "pc": 25,
+    "file_offset": 291329,
+    "word_hex": "32001304",
+    "name": "LOADK",
+    "A": 4,
+    "B": 0,
+    "C": 19,
+    "successors": [
+      26
+    ],
+    "kind": "loadk",
+    "constant_lua": "\"LOADSCREEN\""
+  },
+  {
+    "pc": 26,
+    "file_offset": 291333,
+    "word_hex": "aa001405",
+    "name": "GETGLOBAL_MEM",
+    "A": 5,
+    "B": 0,
+    "C": 20,
+    "successors": [
+      28
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"ui_layers_win\""
+  },
+  {
+    "pc": 28,
+    "file_offset": 291341,
+    "word_hex": "860a1705",
+    "name": "GETFIELD_R1",
+    "A": 5,
+    "B": 5,
+    "C": 23,
+    "successors": [
+      31
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_layer\""
+  },
+  {
+    "pc": 31,
+    "file_offset": 291353,
+    "word_hex": "aa001806",
+    "name": "GETGLOBAL_MEM",
+    "A": 6,
+    "B": 0,
+    "C": 24,
+    "successors": [
+      33
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"SH\""
+  },
+  {
+    "pc": 33,
+    "file_offset": 291361,
+    "word_hex": "32001b07",
+    "name": "LOADK",
+    "A": 7,
+    "B": 0,
+    "C": 27,
+    "successors": [
+      34
+    ],
+    "kind": "loadk",
+    "constant_lua": "\"front2\""
+  },
+  {
+    "pc": 34,
+    "file_offset": 291365,
+    "word_hex": "04040006",
+    "name": "CALL_I",
+    "A": 6,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      35
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 35,
+    "file_offset": 291369,
+    "word_hex": "04000005",
+    "name": "CALL_I",
+    "A": 5,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      36
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 36,
+    "file_offset": 291373,
+    "word_hex": "04000202",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 0,
+    "C": 2,
+    "successors": [
+      37
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 37,
+    "file_offset": 291377,
+    "word_hex": "36000002",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      38
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_window\""
+  },
+  {
+    "pc": 38,
+    "file_offset": 291381,
+    "word_hex": "aa001c02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 28,
+    "successors": [
+      40
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"init\""
+  },
+  {
+    "pc": 40,
+    "file_offset": 291389,
+    "word_hex": "0e000003",
+    "name": "MOVE",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      41
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 41,
+    "file_offset": 291393,
+    "word_hex": "0e020004",
+    "name": "MOVE",
+    "A": 4,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      42
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 42,
+    "file_offset": 291397,
+    "word_hex": "04060102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      43
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 43,
+    "file_offset": 291401,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  }
+]

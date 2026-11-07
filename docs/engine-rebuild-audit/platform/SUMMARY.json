@@ -1,0 +1,13 @@
+{
+  "installed_exe": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Kingdoms of Amalur Re-Reckoning\\koa.exe",
+  "sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "architecture": "x86 PE32",
+  "imports": 349,
+  "direct_modules": 19,
+  "report": "C:\\Users\\rwill\\oa-audit\\2026-11-06-engine-rebuild\\platform\\REPORT.md",
+  "conclusion": "Not a completed original ARM64 engine rebuild. Windows x86 original-forwarding intermediate is source-supported; ABI/runtime/middleware/backend gates remain explicit. Existing runtimes may supply Win32 services.",
+  "no_target_execution": true,
+  "no_build_or_install": true,
+  "no_original_source_or_userdata_writes": true,
+  "external_primary_source": "https://github.com/AndreRH/hangover#how-it-works"
+}

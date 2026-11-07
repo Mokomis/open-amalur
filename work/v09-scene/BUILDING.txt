@@ -1,0 +1,13 @@
+Opem Amalur scene exploration v0.9
+
+Windows project: C:\Users\rwill\Documents\Opem Amalur
+Run work\v09-host\build_windows_android.cmd with the existing MSVC18, CMake, Ninja and NDKr30 installation. It builds Windows checks and Android arm64 binaries. The host intentionally uses the preserved work\v08-portable runtime and v0.8 private script/catalog assets. The compiled scene SHA must equal the packaged scene.bin SHA.
+Run python work\v09-scene\validate_windows.py for movement/input/material/decoder and real-geometry checks. Run python work\v09-scene\package_android.py after validation. Existing signing key is required; it is excluded from archives. No tools are downloaded by these helpers.
+
+The source archive extends the preserved v0.8 source tree. It excludes game assets, recovered game Lua, compiled private catalogs, external importer code, signing keys, SDK/NDK and original executable. Reproduction requires the user's locally installed game and preserved prior extracted inputs. Existing v0.8 BUILDING instructions cover script/catalog extraction.
+
+Texture preparation: prepare_preview_profile.py extracts selected slot-zero candidates from existing archive inventories, admits strict opaque BC1/BC3 KEEN samples, and records exact source hashes and explicit assumptions. build_scene_materials.py binds unchanged recovered UVs to exact expanded scene vertices and writes the authored OMAT09 sidecar. The current expanded profile selects 44 materials; unsupported materials/layouts keep diagnostic colors. Reference importer's original source is excluded from delivery.
+
+Controls: touch left side to move and drag right side to look. Gamepad left/right sticks and keyboard WASD are implemented. RESET restores the validated spawn; VIEW switches walking/overview. Tablet touch transport/rendering and brief lifecycle checks passed on OPD2515; physical gamepad and FPS/endurance remain unverified. Upgrade using adb install -r; preserve app data and the v0.8 APK for rollback.
+
+Collision is newly authored approximate render-mesh collision, not recovered native physics. It uses a standing capsule, bounded continuous sweeps, sliding, low steps, slope limits and a conservative grounded ledge guard. No jumping, original player logic, animation, NPC gameplay or interaction is provided. Recovered Lua bootstrap remains the v0.8 implementation; exploration controls do not invent engine events.

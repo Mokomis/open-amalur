@@ -1,0 +1,179 @@
+{
+  "limits": "Canonical GLVP six planes only; native neighborportal may add/replace clip planes. No fittedfrustum.",
+  "rows": [
+    {
+      "source": 198,
+      "center": [
+        -19935.671875,
+        -74004.609375,
+        13348.857421875
+      ],
+      "axes": [
+        [
+          3696.715576171875,
+          1794.09619140625,
+          0.0
+        ],
+        [
+          -1794.09423828125,
+          3696.711669921875,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4109.07421875
+        ]
+      ],
+      "planes": [
+        {
+          "plane": "left",
+          "supportDistance": 27652.927653166727,
+          "pass": true
+        },
+        {
+          "plane": "right",
+          "supportDistance": 19370.48520987375,
+          "pass": true
+        },
+        {
+          "plane": "bottom",
+          "supportDistance": 26889.025804779187,
+          "pass": true
+        },
+        {
+          "plane": "top",
+          "supportDistance": 8782.454175571205,
+          "pass": true
+        },
+        {
+          "plane": "near",
+          "supportDistance": 36027.76014172549,
+          "pass": true
+        },
+        {
+          "plane": "far",
+          "supportDistance": 499948.391615901,
+          "pass": true
+        }
+      ],
+      "all6Pass": true
+    },
+    {
+      "source": 451,
+      "center": [
+        -22055.80859375,
+        -90658.0625,
+        17767.255859375
+      ],
+      "axes": [
+        [
+          7197.015625,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7197.015625,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7197.017578125
+        ]
+      ],
+      "planes": [
+        {
+          "plane": "left",
+          "supportDistance": 39070.57258463214,
+          "pass": true
+        },
+        {
+          "plane": "right",
+          "supportDistance": 4820.520117893354,
+          "pass": true
+        },
+        {
+          "plane": "bottom",
+          "supportDistance": 31904.317953221464,
+          "pass": true
+        },
+        {
+          "plane": "top",
+          "supportDistance": 6461.514634591149,
+          "pass": true
+        },
+        {
+          "plane": "near",
+          "supportDistance": 32543.59219266849,
+          "pass": true
+        },
+        {
+          "plane": "far",
+          "supportDistance": 512806.2735207614,
+          "pass": true
+        }
+      ],
+      "all6Pass": true
+    },
+    {
+      "source": 478,
+      "center": [
+        4658.169921875,
+        -86648.0703125,
+        6896.55908203125
+      ],
+      "axes": [
+        [
+          -1031.171630859375,
+          0.00032997492235153913,
+          0.0
+        ],
+        [
+          -0.0003299750096630305,
+          -1031.171875,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1031.171875
+        ]
+      ],
+      "planes": [
+        {
+          "plane": "left",
+          "supportDistance": 4950.634195552644,
+          "pass": true
+        },
+        {
+          "plane": "right",
+          "supportDistance": 1641.940123923507,
+          "pass": true
+        },
+        {
+          "plane": "bottom",
+          "supportDistance": 3572.198296850014,
+          "pass": true
+        },
+        {
+          "plane": "top",
+          "supportDistance": 2122.3829299203444,
+          "pass": true
+        },
+        {
+          "plane": "near",
+          "supportDistance": 4890.941357971504,
+          "pass": true
+        },
+        {
+          "plane": "far",
+          "supportDistance": 522275.1289308144,
+          "pass": true
+        }
+      ],
+      "all6Pass": true
+    }
+  ]
+}

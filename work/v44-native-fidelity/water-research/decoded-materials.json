@@ -1,0 +1,1494 @@
+[
+  {
+    "id": 1423574,
+    "name": "riverwaterfall",
+    "shader": 72694,
+    "shader_name": "river",
+    "source": "work/v20-inputs/initial_0.pak/1423574.mat_bxml",
+    "sha256": "7946c326b318462d004e039cb1c98ec1323075cad306a899c919b1d296e54988",
+    "parameters": [
+      {
+        "offset": 40,
+        "values": [
+          5.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 21291071
+      },
+      {
+        "offset": 64,
+        "values": [
+          5.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6048847
+      },
+      {
+        "offset": 88,
+        "values": [
+          5.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6472360
+      },
+      {
+        "offset": 112,
+        "values": [
+          0.05000000074505806,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29148648
+      },
+      {
+        "offset": 136,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29149755
+      },
+      {
+        "offset": 160,
+        "values": [
+          0.05000000074505806,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 25895282
+      },
+      {
+        "offset": 184,
+        "values": [
+          0.07999999821186066,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17327466
+      },
+      {
+        "offset": 208,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17328573
+      },
+      {
+        "offset": 232,
+        "values": [
+          0.28999900817871094,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 16793274
+      },
+      {
+        "offset": 256,
+        "values": [
+          0.03999999910593033,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 14151767
+      },
+      {
+        "offset": 280,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 2782363
+      },
+      {
+        "offset": 304,
+        "values": [
+          0.6823529601097107,
+          0.6823529601097107,
+          0.6823529601097107,
+          1.0
+        ],
+        "type": 4,
+        "key": 11490956
+      },
+      {
+        "offset": 328,
+        "values": [
+          0.6117647290229797,
+          0.8666667342185974,
+          0.9568628072738647,
+          1.0
+        ],
+        "type": 4,
+        "key": 10447209
+      },
+      {
+        "offset": 352,
+        "values": [
+          0.2999970018863678,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 11,
+        "key": 9456050
+      },
+      {
+        "offset": 376,
+        "values": [
+          1000.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 5133867
+      },
+      {
+        "offset": 400,
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 12625105
+      }
+    ],
+    "textures": [
+      {
+        "id": 72699,
+        "slot": 0,
+        "name": "odv-river_base_d"
+      },
+      {
+        "id": 72700,
+        "slot": 1,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72700,
+        "slot": 3,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72702,
+        "slot": 8,
+        "name": "odv-river_froth_d"
+      },
+      {
+        "id": 72701,
+        "slot": 11,
+        "name": "odv-river_detail_n"
+      },
+      {
+        "id": 452736,
+        "slot": 16,
+        "name": "odv-river_base_b"
+      },
+      {
+        "id": 1423063,
+        "slot": 21,
+        "name": "1423060_cubemap"
+      }
+    ],
+    "river_fields": {
+      "TileDiffuse1Normal1": 5.0,
+      "TileNormal2": 5.0,
+      "TileDiffuse2": 5.0,
+      "UScrollDiffuse1Normal1": 0.05000000074505806,
+      "VScrollDiffuse1Normal1": 0.0,
+      "UScrollDiffuse2Normal2": 0.05000000074505806,
+      "UScrollRefraction": 0.07999999821186066,
+      "VScrollRefraction": 0.0,
+      "WaterReflectivity": 0.28999900817871094,
+      "RefractionScale": 0.03999999910593033,
+      "FogDepth": 0.0,
+      "WaterTintColor": [
+        0.6823529601097107,
+        0.6823529601097107,
+        0.6823529601097107,
+        1.0
+      ],
+      "SpecularColor": [
+        0.6117647290229797,
+        0.8666667342185974,
+        0.9568628072738647,
+        1.0
+      ],
+      "SpecularLevel": 0.2999970018863678,
+      "Glossiness": 1000.0,
+      "RefractionBias": 1.0
+    },
+    "native_float24": [
+      5.0,
+      5.0,
+      5.0,
+      0.05000000074505806,
+      0.0,
+      0.05000000074505806,
+      0.07999999821186066,
+      0.0,
+      0.28999900817871094,
+      0.03999999910593033,
+      0.0,
+      1.0,
+      0.6823529601097107,
+      0.6823529601097107,
+      0.6823529601097107,
+      1.0,
+      0.6117647290229797,
+      0.8666667342185974,
+      0.9568628072738647,
+      1.0,
+      0.2999970018863678,
+      1000.0,
+      1.0,
+      0.0
+    ],
+    "field_mapping_evidence": "key mappings recovered from riverwater ordered values and independently exact active draw material bytes; missing riverpond SpecularColor remains zero as active capture"
+  },
+  {
+    "id": 1436262,
+    "name": "pln_riverpond",
+    "shader": 1874181,
+    "shader_name": "rivernopointlights",
+    "source": "work/v20-inputs/initial_0.pak/1436262.mat_bxml",
+    "sha256": "53ffae26aa3cf6b636164cddec8bde6ad25a2f8a41d391bd1d58cd6132711539",
+    "parameters": [
+      {
+        "offset": 40,
+        "values": [
+          5.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 21291071
+      },
+      {
+        "offset": 64,
+        "values": [
+          6.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6048847
+      },
+      {
+        "offset": 88,
+        "values": [
+          2.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6472360
+      },
+      {
+        "offset": 112,
+        "values": [
+          -0.004999999888241291,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29148648
+      },
+      {
+        "offset": 136,
+        "values": [
+          -0.004999999888241291,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29149755
+      },
+      {
+        "offset": 160,
+        "values": [
+          0.004999999888241291,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 25895282
+      },
+      {
+        "offset": 184,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17327466
+      },
+      {
+        "offset": 208,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17328573
+      },
+      {
+        "offset": 232,
+        "values": [
+          0.7900000214576721,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 16793274
+      },
+      {
+        "offset": 256,
+        "values": [
+          0.03461499884724617,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 14151767
+      },
+      {
+        "offset": 280,
+        "values": [
+          3.9999998989515007e-05,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 2782363
+      },
+      {
+        "offset": 304,
+        "values": [
+          0.11372549831867218,
+          0.15294118225574493,
+          0.1568627506494522,
+          1.0
+        ],
+        "type": 4,
+        "key": 11490956
+      },
+      {
+        "offset": 328,
+        "values": [
+          0.8313726186752319,
+          0.803921639919281,
+          0.7568628191947937,
+          1.0
+        ],
+        "type": 4,
+        "key": 10447209
+      },
+      {
+        "offset": 352,
+        "values": [
+          0.699999988079071,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 11,
+        "key": 9456050
+      },
+      {
+        "offset": 376,
+        "values": [
+          656.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 5133867
+      },
+      {
+        "offset": 400,
+        "values": [
+          0.4625990092754364,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 12625105
+      }
+    ],
+    "textures": [
+      {
+        "id": 72699,
+        "slot": 0,
+        "name": "odv-river_base_d"
+      },
+      {
+        "id": 1436216,
+        "slot": 1,
+        "name": "for_river_detail_n"
+      },
+      {
+        "id": 1436215,
+        "slot": 3,
+        "name": "for_river_base_n"
+      },
+      {
+        "id": 72702,
+        "slot": 8,
+        "name": "odv-river_froth_d"
+      },
+      {
+        "id": 1436216,
+        "slot": 11,
+        "name": "for_river_detail_n"
+      },
+      {
+        "id": 1436213,
+        "slot": 16,
+        "name": "for_river_base_b"
+      },
+      {
+        "id": 1474069,
+        "slot": 21,
+        "name": "1474062_cubemap"
+      }
+    ],
+    "river_fields": {
+      "TileDiffuse1Normal1": 5.0,
+      "TileNormal2": 6.0,
+      "TileDiffuse2": 2.0,
+      "UScrollDiffuse1Normal1": -0.004999999888241291,
+      "VScrollDiffuse1Normal1": -0.004999999888241291,
+      "UScrollDiffuse2Normal2": 0.004999999888241291,
+      "UScrollRefraction": -0.009999999776482582,
+      "VScrollRefraction": -0.009999999776482582,
+      "WaterReflectivity": 0.7900000214576721,
+      "RefractionScale": 0.03461499884724617,
+      "FogDepth": 3.9999998989515007e-05,
+      "WaterTintColor": [
+        0.11372549831867218,
+        0.15294118225574493,
+        0.1568627506494522,
+        1.0
+      ],
+      "SpecularColor": [
+        0.8313726186752319,
+        0.803921639919281,
+        0.7568628191947937,
+        1.0
+      ],
+      "SpecularLevel": 0.699999988079071,
+      "Glossiness": 656.0,
+      "RefractionBias": 0.4625990092754364
+    },
+    "native_float24": [
+      5.0,
+      6.0,
+      2.0,
+      -0.004999999888241291,
+      -0.004999999888241291,
+      0.004999999888241291,
+      -0.009999999776482582,
+      -0.009999999776482582,
+      0.7900000214576721,
+      0.03461499884724617,
+      3.9999998989515007e-05,
+      1.0,
+      0.11372549831867218,
+      0.15294118225574493,
+      0.1568627506494522,
+      1.0,
+      0.8313726186752319,
+      0.803921639919281,
+      0.7568628191947937,
+      1.0,
+      0.699999988079071,
+      656.0,
+      0.4625990092754364,
+      0.0
+    ],
+    "field_mapping_evidence": "key mappings recovered from riverwater ordered values and independently exact active draw material bytes; missing riverpond SpecularColor remains zero as active capture"
+  },
+  {
+    "id": 404112,
+    "name": "riverwater",
+    "shader": 72694,
+    "shader_name": "river",
+    "source": "work/v20-inputs/initial_0.pak/404112.mat_bxml",
+    "sha256": "4537b155121dab333c351d9ddb14f98ca73dc90c1522436730a646dbd3a4c3b0",
+    "parameters": [
+      {
+        "offset": 40,
+        "values": [
+          2.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 21291071
+      },
+      {
+        "offset": 64,
+        "values": [
+          2.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6048847
+      },
+      {
+        "offset": 88,
+        "values": [
+          2.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6472360
+      },
+      {
+        "offset": 112,
+        "values": [
+          0.029999999329447746,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29148648
+      },
+      {
+        "offset": 136,
+        "values": [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29149755
+      },
+      {
+        "offset": 160,
+        "values": [
+          0.029999999329447746,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 25895282
+      },
+      {
+        "offset": 184,
+        "values": [
+          0.019999999552965164,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17327466
+      },
+      {
+        "offset": 208,
+        "values": [
+          0.029999999329447746,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17328573
+      },
+      {
+        "offset": 232,
+        "values": [
+          0.7420110106468201,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 16793274
+      },
+      {
+        "offset": 256,
+        "values": [
+          0.0320109985768795,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 14151767
+      },
+      {
+        "offset": 280,
+        "values": [
+          4.999999873689376e-05,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 2782363
+      },
+      {
+        "offset": 304,
+        "values": [
+          0.20000001788139343,
+          0.2392157018184662,
+          0.2549019753932953,
+          1.0
+        ],
+        "type": 4,
+        "key": 11490956
+      },
+      {
+        "offset": 328,
+        "values": [
+          0.9960784912109375,
+          0.917647123336792,
+          0.7137255072593689,
+          1.0
+        ],
+        "type": 4,
+        "key": 10447209
+      },
+      {
+        "offset": 352,
+        "values": [
+          0.699999988079071,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 11,
+        "key": 9456050
+      },
+      {
+        "offset": 376,
+        "values": [
+          1000.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 5133867
+      },
+      {
+        "offset": 400,
+        "values": [
+          0.44082000851631165,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 12625105
+      }
+    ],
+    "textures": [
+      {
+        "id": 72699,
+        "slot": 0,
+        "name": "odv-river_base_d"
+      },
+      {
+        "id": 72700,
+        "slot": 1,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72700,
+        "slot": 3,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72702,
+        "slot": 8,
+        "name": "odv-river_froth_d"
+      },
+      {
+        "id": 72701,
+        "slot": 11,
+        "name": "odv-river_detail_n"
+      },
+      {
+        "id": 452736,
+        "slot": 16,
+        "name": "odv-river_base_b"
+      },
+      {
+        "id": 743413,
+        "slot": 21,
+        "name": "743412_cubemap"
+      }
+    ],
+    "river_fields": {
+      "TileDiffuse1Normal1": 2.0,
+      "TileNormal2": 2.0,
+      "TileDiffuse2": 2.0,
+      "UScrollDiffuse1Normal1": 0.029999999329447746,
+      "VScrollDiffuse1Normal1": 0.009999999776482582,
+      "UScrollDiffuse2Normal2": 0.029999999329447746,
+      "UScrollRefraction": 0.019999999552965164,
+      "VScrollRefraction": 0.029999999329447746,
+      "WaterReflectivity": 0.7420110106468201,
+      "RefractionScale": 0.0320109985768795,
+      "FogDepth": 4.999999873689376e-05,
+      "WaterTintColor": [
+        0.20000001788139343,
+        0.2392157018184662,
+        0.2549019753932953,
+        1.0
+      ],
+      "SpecularColor": [
+        0.9960784912109375,
+        0.917647123336792,
+        0.7137255072593689,
+        1.0
+      ],
+      "SpecularLevel": 0.699999988079071,
+      "Glossiness": 1000.0,
+      "RefractionBias": 0.44082000851631165
+    },
+    "native_float24": [
+      2.0,
+      2.0,
+      2.0,
+      0.029999999329447746,
+      0.009999999776482582,
+      0.029999999329447746,
+      0.019999999552965164,
+      0.029999999329447746,
+      0.7420110106468201,
+      0.0320109985768795,
+      4.999999873689376e-05,
+      1.0,
+      0.20000001788139343,
+      0.2392157018184662,
+      0.2549019753932953,
+      1.0,
+      0.9960784912109375,
+      0.917647123336792,
+      0.7137255072593689,
+      1.0,
+      0.699999988079071,
+      1000.0,
+      0.44082000851631165,
+      0.0
+    ],
+    "field_mapping_evidence": "key mappings recovered from riverwater ordered values and independently exact active draw material bytes; missing riverpond SpecularColor remains zero as active capture"
+  },
+  {
+    "id": 422631,
+    "name": "for_waterfall",
+    "shader": 412268,
+    "shader_name": "scrollingwaterfall",
+    "source": "work/v20-inputs/initial_0.pak/422631.mat_bxml",
+    "sha256": "36a791764852ab31924ed775efb6f05e7ca85d5e1c9c2a0d16594408faa2b6b9",
+    "parameters": [
+      {
+        "offset": 40,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 7477229
+      },
+      {
+        "offset": 64,
+        "values": [
+          0.699999988079071,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 7499742
+      },
+      {
+        "offset": 88,
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 8036830
+      },
+      {
+        "offset": 112,
+        "values": [
+          0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 8059343
+      },
+      {
+        "offset": 136,
+        "values": [
+          5.0,
+          999.0,
+          0.0,
+          0.0
+        ],
+        "type": 11,
+        "key": 11960536
+      },
+      {
+        "offset": 160,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "type": 4,
+        "key": 10447209
+      },
+      {
+        "offset": 184,
+        "values": [
+          0.1764705926179886,
+          0.1764705926179886,
+          0.1764705926179886,
+          1.0
+        ],
+        "type": 3,
+        "key": 14348335
+      }
+    ],
+    "textures": [
+      {
+        "id": 422991,
+        "slot": 0,
+        "name": "for_waterfall01_d"
+      },
+      {
+        "id": 422990,
+        "slot": 1,
+        "name": "for_waterfall01_a"
+      },
+      {
+        "id": 424116,
+        "slot": 3,
+        "name": "for_waterfall02_n"
+      },
+      {
+        "id": 422993,
+        "slot": 8,
+        "name": "for_waterfall02_d"
+      },
+      {
+        "id": 422992,
+        "slot": 9,
+        "name": "for_waterfall02_a"
+      },
+      {
+        "id": 424116,
+        "slot": 11,
+        "name": "for_waterfall02_n"
+      }
+    ]
+  },
+  {
+    "id": 449423,
+    "name": "riverpond",
+    "shader": 1874181,
+    "shader_name": "rivernopointlights",
+    "source": "work/v20-inputs/initial_0.pak/449423.mat_bxml",
+    "sha256": "d0cddbe5a74da615df73a455d061148f4b57c8f8616314464f1d63336dce3105",
+    "parameters": [
+      {
+        "offset": 40,
+        "values": [
+          2.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 21291071
+      },
+      {
+        "offset": 64,
+        "values": [
+          10.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6048847
+      },
+      {
+        "offset": 88,
+        "values": [
+          3.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6472360
+      },
+      {
+        "offset": 112,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29148648
+      },
+      {
+        "offset": 136,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29149755
+      },
+      {
+        "offset": 160,
+        "values": [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 25895282
+      },
+      {
+        "offset": 184,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17327466
+      },
+      {
+        "offset": 208,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17328573
+      },
+      {
+        "offset": 232,
+        "values": [
+          0.7899990081787109,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 16793274
+      },
+      {
+        "offset": 256,
+        "values": [
+          0.03461499884724617,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 14151767
+      },
+      {
+        "offset": 280,
+        "values": [
+          3.9999998989515007e-05,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 2782363
+      },
+      {
+        "offset": 304,
+        "values": [
+          0.21568629145622253,
+          0.24705883860588074,
+          0.26274511218070984,
+          1.0
+        ],
+        "type": 4,
+        "key": 11490956
+      },
+      {
+        "offset": 328,
+        "values": [
+          0.699999988079071,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 11,
+        "key": 9456050
+      },
+      {
+        "offset": 352,
+        "values": [
+          656.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 5133867
+      },
+      {
+        "offset": 376,
+        "values": [
+          0.3799999952316284,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 12625105
+      }
+    ],
+    "textures": [
+      {
+        "id": 72699,
+        "slot": 0,
+        "name": "odv-river_base_d"
+      },
+      {
+        "id": 72700,
+        "slot": 1,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72700,
+        "slot": 3,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72702,
+        "slot": 8,
+        "name": "odv-river_froth_d"
+      },
+      {
+        "id": 72701,
+        "slot": 11,
+        "name": "odv-river_detail_n"
+      },
+      {
+        "id": 1436213,
+        "slot": 16,
+        "name": "for_river_base_b"
+      },
+      {
+        "id": 1330047,
+        "slot": 21,
+        "name": "1329691_cubemap"
+      }
+    ],
+    "river_fields": {
+      "TileDiffuse1Normal1": 2.0,
+      "TileNormal2": 10.0,
+      "TileDiffuse2": 3.0,
+      "UScrollDiffuse1Normal1": -0.009999999776482582,
+      "VScrollDiffuse1Normal1": -0.009999999776482582,
+      "UScrollDiffuse2Normal2": 0.009999999776482582,
+      "UScrollRefraction": -0.009999999776482582,
+      "VScrollRefraction": -0.009999999776482582,
+      "WaterReflectivity": 0.7899990081787109,
+      "RefractionScale": 0.03461499884724617,
+      "FogDepth": 3.9999998989515007e-05,
+      "WaterTintColor": [
+        0.21568629145622253,
+        0.24705883860588074,
+        0.26274511218070984,
+        1.0
+      ],
+      "SpecularLevel": 0.699999988079071,
+      "Glossiness": 656.0,
+      "RefractionBias": 0.3799999952316284
+    },
+    "native_float24": [
+      2.0,
+      10.0,
+      3.0,
+      -0.009999999776482582,
+      -0.009999999776482582,
+      0.009999999776482582,
+      -0.009999999776482582,
+      -0.009999999776482582,
+      0.7899990081787109,
+      0.03461499884724617,
+      3.9999998989515007e-05,
+      1.0,
+      0.21568629145622253,
+      0.24705883860588074,
+      0.26274511218070984,
+      1.0,
+      0,
+      0,
+      0,
+      0,
+      0.699999988079071,
+      656.0,
+      0.3799999952316284,
+      0.0
+    ],
+    "field_mapping_evidence": "key mappings recovered from riverwater ordered values and independently exact active draw material bytes; missing riverpond SpecularColor remains zero as active capture"
+  },
+  {
+    "id": 618399,
+    "name": "for_pond",
+    "shader": 72694,
+    "shader_name": "river",
+    "source": "work/v20-inputs/initial_0.pak/618399.mat_bxml",
+    "sha256": "1b6522ee1c51a9b9ed20b17153134fbb9a6ca30151aa7dd8c1e8986f57d33757",
+    "parameters": [
+      {
+        "offset": 40,
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 21291071
+      },
+      {
+        "offset": 64,
+        "values": [
+          4.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6048847
+      },
+      {
+        "offset": 88,
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 6472360
+      },
+      {
+        "offset": 112,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29148648
+      },
+      {
+        "offset": 136,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 29149755
+      },
+      {
+        "offset": 160,
+        "values": [
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 25895282
+      },
+      {
+        "offset": 184,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17327466
+      },
+      {
+        "offset": 208,
+        "values": [
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 17328573
+      },
+      {
+        "offset": 232,
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 16793274
+      },
+      {
+        "offset": 256,
+        "values": [
+          0.03461499884724617,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 14151767
+      },
+      {
+        "offset": 280,
+        "values": [
+          3.9999998989515007e-05,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 2782363
+      },
+      {
+        "offset": 304,
+        "values": [
+          0.05882352963089943,
+          0.1098039299249649,
+          0.1411764770746231,
+          1.0
+        ],
+        "type": 4,
+        "key": 11490956
+      },
+      {
+        "offset": 328,
+        "values": [
+          0.9686275124549866,
+          0.7568628191947937,
+          0.3960784673690796,
+          1.0
+        ],
+        "type": 4,
+        "key": 10447209
+      },
+      {
+        "offset": 352,
+        "values": [
+          0.699999988079071,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 11,
+        "key": 9456050
+      },
+      {
+        "offset": 376,
+        "values": [
+          656.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 5133867
+      },
+      {
+        "offset": 400,
+        "values": [
+          0.4625990092754364,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 2,
+        "key": 12625105
+      }
+    ],
+    "textures": [
+      {
+        "id": 72699,
+        "slot": 0,
+        "name": "odv-river_base_d"
+      },
+      {
+        "id": 72700,
+        "slot": 1,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72700,
+        "slot": 3,
+        "name": "odv-river_base_n"
+      },
+      {
+        "id": 72702,
+        "slot": 8,
+        "name": "odv-river_froth_d"
+      },
+      {
+        "id": 72701,
+        "slot": 11,
+        "name": "odv-river_detail_n"
+      },
+      {
+        "id": 452736,
+        "slot": 16,
+        "name": "odv-river_base_b"
+      },
+      {
+        "id": 250070,
+        "slot": 21,
+        "name": null
+      }
+    ],
+    "river_fields": {
+      "TileDiffuse1Normal1": 1.0,
+      "TileNormal2": 4.0,
+      "TileDiffuse2": 1.0,
+      "UScrollDiffuse1Normal1": -0.009999999776482582,
+      "VScrollDiffuse1Normal1": -0.009999999776482582,
+      "UScrollDiffuse2Normal2": 0.009999999776482582,
+      "UScrollRefraction": -0.009999999776482582,
+      "VScrollRefraction": -0.009999999776482582,
+      "WaterReflectivity": 1.0,
+      "RefractionScale": 0.03461499884724617,
+      "FogDepth": 3.9999998989515007e-05,
+      "WaterTintColor": [
+        0.05882352963089943,
+        0.1098039299249649,
+        0.1411764770746231,
+        1.0
+      ],
+      "SpecularColor": [
+        0.9686275124549866,
+        0.7568628191947937,
+        0.3960784673690796,
+        1.0
+      ],
+      "SpecularLevel": 0.699999988079071,
+      "Glossiness": 656.0,
+      "RefractionBias": 0.4625990092754364
+    },
+    "native_float24": [
+      1.0,
+      4.0,
+      1.0,
+      -0.009999999776482582,
+      -0.009999999776482582,
+      0.009999999776482582,
+      -0.009999999776482582,
+      -0.009999999776482582,
+      1.0,
+      0.03461499884724617,
+      3.9999998989515007e-05,
+      1.0,
+      0.05882352963089943,
+      0.1098039299249649,
+      0.1411764770746231,
+      1.0,
+      0.9686275124549866,
+      0.7568628191947937,
+      0.3960784673690796,
+      1.0,
+      0.699999988079071,
+      656.0,
+      0.4625990092754364,
+      0.0
+    ],
+    "field_mapping_evidence": "key mappings recovered from riverwater ordered values and independently exact active draw material bytes; missing riverpond SpecularColor remains zero as active capture"
+  }
+]

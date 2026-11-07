@@ -1,0 +1,73 @@
+Player_Weapon_Sword ['human_sword_attack_special', 'human_sword_attack_special', 'human_sword_attack_special', 'human_sword_attack_special', 'introgan_s2sh3_t3_anim', 'introgan_s2sh3_t3_anim', 'human_sword_special_block_final', 'human_sword_special_block_final', 'human_sword_special_block_final', 'human_sword_special_block_final', 'human_sword_special_block_final', 'human_sword_attack_xxx_02', 'human_sword_attack_xxx_02']
+strings ['Bh5C', 'CBh5Ck', 'ebCv', 'fC_AgC', 'ojC_', 'sCjwtC', 'vCIiwC', 'dyC5', 'hu9B', 'p1CJ', 'DUC5', 's_Cd', 'RSJC', 'N7BTU', 'C8bCC', 'IZCB', 'IZCB', 'FdrC', 'ebCv', 'fC_AgC', 'ojC_', 'sCjwtC', 'vCIiwC', 'dyC5']
+Player all ['human_roll_frt', 'Player_Buff_01', 'human_Buff_01', 'human_M_idle_turn_90_left', 'human_Run_TurnRightBack', 'artifact_brokenidle', 'human_Run_Turn_180_Short', 'Player_Idle_Variation03', 'human_sprint_start', 'introgan_s2sh3_t3_anim', 'human_jump_hard_land', 'human_Run_stealth_01', 'player_idle_stealth_01', 'human_swim_idle_01', 'human_run_Slope_Down_Blend', 'human_M_Idle_Turn_90_Left_walk', 'human_run_01', 'human_walk_01', 'human_Jog_01', 'human_run_start_01', 'human_Jog_Start_01', 'human_M_Idle_Turn_90_Left_walk', 'human_M_Idle_Turn_90_Rgt_walk', 'human_swim_sprint', 'Player_Bed_Lie_Left', 'human_additive_zero', 'human_additive_zero', 'human_pickup_mid', 'human_pickup_high', 'human_pickup_high', 'human_walk_stealth_enter_01', 'human_walk_02', 'human_Jog_02', 'human_run_02', 'human_walk_03', 'human_Jog_03', 'human_run_03', 'human_Armor_Blend', 'human_M_walk_stop_L', 'human_M_walk_stop_R', 'human_additive_zero', 'Player_Idle_Win']
+HM ['HM_OneHand_AttackB_01', 'HM_OneHand_AttackX_01', 'HM_OneHand_Combat_Idle01', 'HM_OneHand_Combat_Run01', 'HM_OneHand_Combat_Walk01', 'HM_OneHand_GetUp_01', 'HM_OneHand_Idle01', 'HM_OneHand_KnockDown_01', 'HM_OneHand_React_Back01', 'HM_OneHand_React_Front01', 'HM_OneHand_React_Front_Light_01', 'HM_OneHand_StrafeBack01', 'HM_OneHand_StrafeLeft01', 'HM_OneHand_StrafeRight01', 'HM_Sit_Enter_01', 'HM_Sit_Exit_01', 'HM_Summoner_Attack_X_01', 'HM_Summoner_Heal', 'HM_Summoner_Idle', 'HM_Summoner_Idle_F', 'HM_Summoner_Strafe_Left', 'HM_Summoner_Strafe_Right', 'HM_Summoner_Summon', 'HM_Summoner_Walk', 'HM_Summoner_Walk_Back']
+Human_OneHand locomotion ['Human_OneHand_Combat_Idle01', 'Human_OneHand_Combat_Idle01_Agarth', 'Human_OneHand_Combat_Idle01_G', 'Human_OneHand_Combat_Idle01_f', 'Human_OneHand_Combat_Idle_Agarth', 'Human_OneHand_Combat_Idle_Turn_Left', 'Human_OneHand_Combat_Idle_Turn_Left_Agarth', 'Human_OneHand_Combat_Idle_Turn_Left_F', 'Human_OneHand_Combat_Idle_Turn_Left_G', 'Human_OneHand_Combat_Idle_Turn_Right', 'Human_OneHand_Combat_Idle_Turn_Right_Agarth', 'Human_OneHand_Combat_Idle_Turn_Right_F', 'Human_OneHand_Combat_Idle_Turn_Right_G', 'Human_OneHand_Combat_Run01', 'Human_OneHand_Combat_Run01_Agarth', 'Human_OneHand_Combat_Run01_G', 'Human_OneHand_Combat_Run01_f', 'Human_OneHand_Combat_Walk01', 'Human_OneHand_Combat_Walk01_Agarth', 'Human_OneHand_Combat_Walk01_G', 'Human_OneHand_Combat_Walk01_f', 'Human_OneHand_Idle01', 'Human_OneHand_Idle01_F', 'Human_OneHand_Launch_Idle', 'Human_OneHand_Launch_Idle_Agarth', 'Human_OneHand_Launch_Idle_G', 'Human_OneHand_Launch_Idle_f', 'Human_OneHand_Panic_Run', 'Human_OneHand_Panic_Run_Agarth', 'Human_OneHand_Panic_Run_F', 'Human_OneHand_Panic_Run_G', 'Human_OneHand_StrafeBack01', 'Human_OneHand_StrafeBack01_Agarth', 'Human_OneHand_StrafeBack01_G', 'Human_OneHand_StrafeBack01_f', 'Human_OneHand_StrafeLeft01', 'Human_OneHand_StrafeLeft01_Agarth', 'Human_OneHand_StrafeLeft01_G', 'Human_OneHand_StrafeLeft01_f', 'Human_OneHand_StrafeRight01']
+1H ['05_Unique_Sword_idle', 'Gnome_1HSword_Idle_01', 'Human_1HSword_Idle_01_G', 'humanMale_Attack_Sword2H_SpinAttack_Idle', 'humanMale_Attack_Sword2H_SpinAttack_Idle_f', 'humanMale_Sword2H_Idle', 'humanMale_Sword2H_Idle_F', 'human_sword_attack_xxxx_fancyIdle', 'human_sword_attack_xxxx_fancyIdle_F', 'human_sword_idle_01', 'human_sword_idle_01_F', 'taiba_grunt_swordidle01test']
+trees ['Player', 'Player_Trap_Proximity']
+197:     _, refs = texture_for(mid)
+198:     order = sorted(refs, key=lambda x: (0 if x[1].lower().endswith(("_d", "_dif", "_diff", "_diffuse", "_c", "_col", "_color")) else 2 if x[1].lower().endswith(("_n", "_nrm", "_norm", "_normal", "_s",
+199:     tindex, pick = -1, None
+200:     for cand in order:
+201:         if cand[0] in tex_index:
+202:             tindex, pick = tex_index[cand[0]], cand
+203:             break
+204:         names = [f"{cand[0]}.dds"] + [f"{cand[0]}_{k}.dds" for k in range(6)]
+205:         f = extract(names)
+206:         image = None
+207:         for name in names:
+208:             if name not in f:
+209:                 continue
+210:             try:
+211:                 data = f[name].read_bytes()
+212:                 count = len(__import__("keen_texture").parse(data)["mips"])
+213:                 for level in range(count):
+214:                     rgba, info = decode_texture(data, level)
+215:                     w, h = info["decoded_width"], info["decoded_height"]
+216:                     if max(w, h) <= MAX_TEXTURE:
+217:                         if image is None or w > image[0]:
+218:                             image = (w, h, bytes(rgba), name)
+219:                         break
+220:             except Exception as e:
+221:                 print("texture", name, "failed", repr(e)[:160], file=sys.stderr)
+222:         if image is None:
+223:             continue
+224:         tex_index[cand[0]] = len(textures)
+225:         textures.append(image[:3])
+226:         tindex, pick = tex_index[cand[0]], (cand[0], cand[1] + " from " + image[3] + f" {image[0]}x{image[1]}")
+227:         break
+228:     parts.append((label, verts, inds, entries, tindex))
+229:     report["parts"].append(dict(label=label, fab=fid, vertices=base, indices=len(inds), palette=len(entries), max_vertex_joint=max(max(verts[32 + i * 52:36 + i * 52]) for i in range(base)), inverse_bi
+230: 
+231: # Order is oa_items.h's weapon model index; every model is hidden but the equipped one.
+232: for sword_name in ("02_steel_sword_1h", "01_iron_sword_1h", "03_azurite_sword_1h", "04_sylvanite_sword_1h", "05_prismere_sword_1h"):
+233:     sword_verts, sword_inds, sword_entries = sword_part(next(int(k) for k, v in syms["fab"].items() if v == sword_name))
+234:     _, refs = texture_for(next(int(k) for k, v in syms["material"].items() if v == sword_name))
+235:     pick = next((x for x in refs if x[1].lower().endswith("_d")), None)
+236:     sword_tex = -1
+237:     if pick:
+238:         # Sword textures are not square, so walk the stored levels by the header's own mip count.
+239:         f = extract([f"{pick[0]}_{k}.dds" for k in range(6)])
+240:         best = None
+241:         for name, q in f.items():
+242:             data = q.read_bytes()
+243:             w, h, fmt, mips = *struct.unpack_from("<HH", data, 20), data[29], struct.unpack_from("<H", data, 35)[0]
+244:             at, block = 38, 8 if fmt == 1 else 16
+245:             for _ in range(mips):
+246:                 size = ((w + 3) // 4) * ((h + 3) // 4) * block
+247:                 if at + size > len(data):
+248:                     break
+249:                 if max(w, h) <= MAX_TEXTURE:
+250:                     if best is None or w > best[0]:
+251:                         best = (w, h, bytes(__import__("keen_texture").decode_blocks(data[at:at + size], w, h, fmt)))
+252:                     break
+253:                 at += size
+254:                 w, h = max(1, w // 2), max(1, h // 2)
+255:         if best:
+256:             sword_tex = len(textures)
+257:             textures.append(best)
+258:     parts.append((sword_name, sword_verts, sword_inds, sword_entries, sword_tex))
+259:     report["parts"].append(dict(label=sword_name, vertices=len(sword_verts) // 52, texture=sword_tex))
+260: blob += struct.pack("<IIII", J, len(clips), len(parts), len(textures))
+261: blob += struct.pack(f"<{J}h", *[(-1 if p == 0xffff else p) for p in parents])
+262: for name, frames, fps, rows in clips:

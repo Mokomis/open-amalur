@@ -1,0 +1,230 @@
+{
+  "schema": "open-amalur.character-ambient-source.v1",
+  "resources": [
+    {
+      "role": "opening-base",
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1262814.region_bxml",
+      "source_sha256": "c65e0a23a4edf3d0deaf5444d3785534351bee82e1c2d59e23bfa0b291b8ba2d",
+      "environment_table_payload_slot": 240,
+      "environment_index": 0,
+      "environment_payload_offset": 6816,
+      "cube_table_payload_slot": 232,
+      "cube_count": 2,
+      "selected_character_cube": 1,
+      "explicit_time_fields": {
+        "world": [
+          {
+            "key": "Midnight",
+            "value": 0,
+            "payload_offset": 8176,
+            "file_offset": 8184
+          },
+          {
+            "key": "Dawn",
+            "value": 0,
+            "payload_offset": 8180,
+            "file_offset": 8188
+          },
+          {
+            "key": "Noon",
+            "value": 0,
+            "payload_offset": 8184,
+            "file_offset": 8192
+          },
+          {
+            "key": "Dusk",
+            "value": 0,
+            "payload_offset": 8188,
+            "file_offset": 8196
+          }
+        ],
+        "character": [
+          {
+            "key": "Midnight",
+            "value": 1,
+            "payload_offset": 8192,
+            "file_offset": 8200
+          },
+          {
+            "key": "Dawn",
+            "value": 1,
+            "payload_offset": 8196,
+            "file_offset": 8204
+          },
+          {
+            "key": "Noon",
+            "value": 1,
+            "payload_offset": 8200,
+            "file_offset": 8208
+          },
+          {
+            "key": "Dusk",
+            "value": 1,
+            "payload_offset": 8204,
+            "file_offset": 8212
+          }
+        ]
+      },
+      "face_order": [
+        "+X",
+        "-X",
+        "+Y",
+        "-Y",
+        "+Z",
+        "-Z"
+      ],
+      "face_texel_payload_offsets": [
+        5280,
+        5536,
+        5792,
+        6048,
+        6304,
+        6560
+      ],
+      "face_texel_file_offsets": [
+        5288,
+        5544,
+        5800,
+        6056,
+        6312,
+        6568
+      ],
+      "width": 8,
+      "height": 8,
+      "faces": 6,
+      "mip_levels": 1,
+      "bytes": 1536,
+      "authored_bgra_file": "opening-base-character-ambient.bgra",
+      "authored_bgra_sha256": "a09e463bd738571bf4d19dfb19173ee4ef58972283ddf046ef59f0645ac41836",
+      "converted_rgba_file": "opening-base-character-ambient.rgba",
+      "converted_rgba_sha256": "e344c034255e814943cbf052374993a7dc6e938693517412e4ef2546a81ad0bd",
+      "first_bgra": [
+        108,
+        110,
+        108,
+        255
+      ],
+      "first_rgba": [
+        108,
+        110,
+        108,
+        255
+      ],
+      "source_to_upload": "Swap byte0/byte2 per texel, preserve all face order, rows, G and A. Do not sRGB-decode these UNORM bytes. No added mipmaps."
+    },
+    {
+      "role": "opening-start",
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417252.space_bxml",
+      "source_sha256": "118e4b67ecd5684957b3619dc10c64079ddd2e8eabe01fd0f891c783f82c643d",
+      "environment_table_payload_slot": 192,
+      "environment_index": 0,
+      "environment_payload_offset": 23840,
+      "cube_table_payload_slot": 184,
+      "cube_count": 4,
+      "selected_character_cube": 1,
+      "explicit_time_fields": {
+        "world": [
+          {
+            "key": "Midnight",
+            "value": 0,
+            "payload_offset": 25200,
+            "file_offset": 25208
+          },
+          {
+            "key": "Dawn",
+            "value": 0,
+            "payload_offset": 25204,
+            "file_offset": 25212
+          },
+          {
+            "key": "Noon",
+            "value": 0,
+            "payload_offset": 25208,
+            "file_offset": 25216
+          },
+          {
+            "key": "Dusk",
+            "value": 0,
+            "payload_offset": 25212,
+            "file_offset": 25220
+          }
+        ],
+        "character": [
+          {
+            "key": "Midnight",
+            "value": 1,
+            "payload_offset": 25216,
+            "file_offset": 25224
+          },
+          {
+            "key": "Dawn",
+            "value": 1,
+            "payload_offset": 25220,
+            "file_offset": 25228
+          },
+          {
+            "key": "Noon",
+            "value": 1,
+            "payload_offset": 25224,
+            "file_offset": 25232
+          },
+          {
+            "key": "Dusk",
+            "value": 1,
+            "payload_offset": 25228,
+            "file_offset": 25236
+          }
+        ]
+      },
+      "face_order": [
+        "+X",
+        "-X",
+        "+Y",
+        "-Y",
+        "+Z",
+        "-Z"
+      ],
+      "face_texel_payload_offsets": [
+        19232,
+        19488,
+        19744,
+        20000,
+        20256,
+        20512
+      ],
+      "face_texel_file_offsets": [
+        19240,
+        19496,
+        19752,
+        20008,
+        20264,
+        20520
+      ],
+      "width": 8,
+      "height": 8,
+      "faces": 6,
+      "mip_levels": 1,
+      "bytes": 1536,
+      "authored_bgra_file": "opening-start-character-ambient.bgra",
+      "authored_bgra_sha256": "a09e463bd738571bf4d19dfb19173ee4ef58972283ddf046ef59f0645ac41836",
+      "converted_rgba_file": "opening-start-character-ambient.rgba",
+      "converted_rgba_sha256": "e344c034255e814943cbf052374993a7dc6e938693517412e4ef2546a81ad0bd",
+      "first_bgra": [
+        108,
+        110,
+        108,
+        255
+      ],
+      "first_rgba": [
+        108,
+        110,
+        108,
+        255
+      ],
+      "source_to_upload": "Swap byte0/byte2 per texel, preserve all face order, rows, G and A. Do not sRGB-decode these UNORM bytes. No added mipmaps."
+    }
+  ],
+  "base_start_same_pixels": true,
+  "native_channel_evidence": "Region431608 cubes2/3 after exactly R/B swap match captured world7496/7499 and character7502 across all1536 bytes; authored-character-cube-join.json",
+  "opening_evidence_limit": "Source bytes and explicit selection fields proven. No original opening capture correlated here. Start setting0 belongs to Space1417252 local cube table imported at Space+B8 through dd0580/ce21d0; actual override mode/portal blending remains outside this pass. Parent owner-preferred BASE default unchanged."
+}

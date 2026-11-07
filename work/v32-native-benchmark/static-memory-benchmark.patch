@@ -1,0 +1,94 @@
+--- a/tools/replay/android_main.cpp
++++ b/tools/replay/android_main.cpp
+@@ -79,6 +79,10 @@
+     // Keep screen on while window is active.
+     ANativeActivity_setWindowFlags(app->activity, AWINDOW_FLAG_KEEP_SCREEN_ON, 0);
+ 
++    // Explicit benchmark-only mode: freeze host buffer contents after the first play.
++    const auto oa_static = gfxrecon::util::GetIntentExtra(app, "oa_static_memory");
++    setenv("OA_STATIC_MEMORY", oa_static == "1" ? "1" : "0", 1);
++
+     gfxrecon::replay::LoadFeatures(g_features);
+ 
+     // Each Feature adds its own command-line entries to the shared name lists, so an entry exists only
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.h
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.h
+@@ -32,6 +32,7 @@
+ #include <limits>
+ #include <memory>
+ #include <utility>
++#include <cstdlib>
+ 
+ GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+ GFXRECON_BEGIN_NAMESPACE(decode)
+@@ -44,13 +45,18 @@
+                                   graphics::FrameLoopInfo&                  frame_loop_info) :
+         VulkanReplayFrameLoopConsumerBase(application, options),
+         frame_loop_info_(frame_loop_info)
+-    {}
++    {
++        const char* frozen = std::getenv("OA_STATIC_MEMORY");
++        oa_static_memory_ = frozen && frozen[0] == '1';
++    }
+ 
+     ~VulkanReplayFrameLoopConsumer() override;
+ 
+     graphics::FrameLoopInfo& getFrameLoopInfo() override { return frame_loop_info_; }
+ 
+     virtual void ProcessStateEndMarker(uint64_t frame_number) override;
++
++    void ProcessFillMemoryCommand(uint64_t memory_id, uint64_t offset, uint64_t size, const uint8_t* data) override;
+ 
+     void Process_vkCreateBuffer(const ApiCallInfo& call_info, args::CreateBuffer& args) override;
+ 
+@@ -386,6 +392,10 @@
+     // Private data
+   private:
+     graphics::FrameLoopInfo& frame_loop_info_;
++    bool oa_static_memory_{ false };
++    uint64_t oa_skipped_fill_calls_{ 0 };
++    uint64_t oa_skipped_fill_bytes_{ 0 };
++    uint64_t oa_skipped_buffer_restores_{ 0 };
+ 
+     VulkanDecoder* decoder_ = nullptr;
+ 
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.cpp
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.cpp
+@@ -330,8 +330,27 @@
+     }
+ }
+ 
++void VulkanReplayFrameLoopConsumer::ProcessFillMemoryCommand(uint64_t memory_id, uint64_t offset,
++                                                              uint64_t size, const uint8_t* data)
++{
++    if (oa_static_memory_ && frame_loop_info_.IsRepetition())
++    {
++        ++oa_skipped_fill_calls_;
++        oa_skipped_fill_bytes_ += size;
++        return;
++    }
++    VulkanReplayFrameLoopConsumerBase::ProcessFillMemoryCommand(memory_id, offset, size, data);
++}
++
+ VulkanReplayFrameLoopConsumer::~VulkanReplayFrameLoopConsumer()
+ {
++    if (oa_static_memory_)
++    {
++        GFXRECON_LOG_INFO("OA STATIC MEMORY: skipped fills=%llu bytes=%llu buffer-restores=%llu",
++            static_cast<unsigned long long>(oa_skipped_fill_calls_),
++            static_cast<unsigned long long>(oa_skipped_fill_bytes_),
++            static_cast<unsigned long long>(oa_skipped_buffer_restores_));
++    }
+     ResetBufferTracking();
+     ResetImageTracking();
+ }
+@@ -680,6 +699,9 @@
+ 
+ void VulkanReplayFrameLoopConsumer::FixupDeviceBuffers(format::HandleId device)
+ {
++    // Frozen-scene benchmark: do not restore pre-frame buffer data after first play.
++    // Image/layout, fence, event and semaphore fixups retain upstream behavior.
++    if (oa_static_memory_) { ++oa_skipped_buffer_restores_; return; }
+     auto it = per_device_buffer_tracking_.find(device);
+     if (it == per_device_buffer_tracking_.end())
+     {

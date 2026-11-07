@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\tools\\android\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "--target=aarch64-linux-android26",
+    "--sysroot=C:\\Users\\rwill\\Documents\\Opem Amalur\\tools\\android\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot",
+    "-std=c99",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-IC:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay",
+    "-IC:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\runtime-integration",
+    "-IC:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v08-portable\\include",
+    "-IC:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v08-portable\\third_party\\lua-5.1.5\\src",
+    "-fsyntax-only",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay\\oa_creation_gameplay.c",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay\\oa_creator_game.c",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay\\oa_creation.c",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay\\oa_creation_source_tables.c",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay\\oa_mq01_cursor.c",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay\\test_creation_gameplay.c"
+  ],
+  "exit": 0,
+  "scope": "strict C99 syntax only; no ARM execution"
+}

@@ -1,0 +1,49 @@
+Opem Amalur — Android scene milestone, 30 October 2026
+
+A real scene now renders on the attached OPPO Pad Mini. The installed app is
+“Opem Amalur Scene”. Drag to orbit; pinch-to-zoom is implemented, but only drag
+was exercised in this validation. The app is a scene viewer, not playable Amalur.
+
+The current view contains 172 primary static assemblies and 77 prop instances
+from scene 524859, identified by an external name table as the Gorhart alchemist
+shop. It includes 115,418 triangles. Each primary assembly passes checks against
+its stored center/radius and actual vertices under one consistent transform:
+scale about its descriptor center, conjugate stored quaternion, then translate.
+The primary and prop collections use disjoint model IDs. Two skinned props and
+additional secondary/LOD sets remain omitted. Prop orientation/FAB binding still
+uses an inferred reference profile; full native rendering parity is unverified.
+
+Windows sources compile the same Lua/scene host into an Android arm64 APK.
+The physical tablet rendered the scene and responded to an orbit drag. The first
+launch exposed a Lua 5.1 collector FORTIFY abort. A narrowly bounded weak-mode
+scan fixed it without disabling compiler hardening. Eight fresh Lua states each
+passed 32 garbage-collector checks on Windows and on the tablet.
+
+Script work progressed through actual installed input-action identifiers,
+ASCII string hashing, module-table access and function/nil equality. The game's
+original hash routine matched 33 isolated Windows cases. The explicit executable
+profile supplies the native engine-version value 1000. There are now 1,104 named
+engine bindings across six namespaces, including 42 INPUT methods.
+
+178 recovered modules (3,704 function bodies) are registered for this scene. Real
+initialization reaches button_rose_tools, then reports the missing engine service
+INPUT.is_east_asian_controller_button_swap_required. Windows and Android reach
+the same boundary. Controller state was not invented. SpaceCommon does not yet
+finish loading; its scene event and a persistent gameplay update loop do not run.
+
+Still needed for a playable port: controller/platform services and remaining
+script providers, material/texture rendering, reliable object transforms,
+collision, animation, player control, combat and broader scene loading. This is
+an actual Android rendering milestone, not a complete game decompilation.
+
+All extraction, native analysis, builds and source validation ran on RobMachineX.
+The tablet was attached to the Mac, which was used only for deployment and device
+observation. The original game executable hash is unchanged; no original game
+launch or save changes occurred. v0.6 sources remain preserved.
+
+Authored reusable source: opem-amalur-scene-source-v0.7.zip
+Private installed build: opem-amalur-scene-v0.7-arm64.apk
+Detailed evidence: opem-amalur-scene-evidence-v0.7.zip and scene-validation.json
+Next concrete script frontier: reconstruct/replace native controller-platform
+state needed by INPUT.is_east_asian_controller_button_swap_required; native
+callback 00e44b10 calls 00c8ca50, which tests device-kind values 13/15.

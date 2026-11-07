@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "comparison": "Frozen original source clip samples, same renderer build, repair0 then1, exact same camera/feet/MVP, BASE profile unchanged",
+  "pairs": [
+    {
+      "pose": "idle",
+      "clip": 0,
+      "sample_ms": 0,
+      "camera_and_physical_pose_identical": true,
+      "old_capture": "old-idle.png",
+      "fixed_capture": "fixed-idle.png"
+    },
+    {
+      "pose": "walk",
+      "clip": 1,
+      "sample_ms": 267,
+      "camera_and_physical_pose_identical": true,
+      "old_capture": "old-walk.png",
+      "fixed_capture": "fixed-walk.png"
+    },
+    {
+      "pose": "run",
+      "clip": 2,
+      "sample_ms": 267,
+      "camera_and_physical_pose_identical": true,
+      "old_capture": "old-run.png",
+      "fixed_capture": "fixed-run.png"
+    },
+    {
+      "pose": "turn",
+      "clip": 19,
+      "sample_ms": 200,
+      "camera_and_physical_pose_identical": true,
+      "old_capture": "old-turn.png",
+      "fixed_capture": "fixed-turn.png"
+    }
+  ],
+  "confirmed_runtime_log": "corrected_normals=2781 corrected_palette_parts=2",
+  "limits": [
+    "Diagnostic single-clip samples do not prove native runtime motion-tree equivalence",
+    "Two shirt helper bones/six vertices retain existing ancestor approximation",
+    "Diffuse-only character material path and world-vs-character lighting integration remain incomplete",
+    "No Android runtime test or APK install of this work"
+  ]
+}

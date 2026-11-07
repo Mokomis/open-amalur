@@ -1,0 +1,109 @@
+Opem Amalur v0.8 — private Windows build and Android preview
+
+Windows workspace: C:\Users\rwill\Documents\Opem Amalur
+Target: Steam Re-Reckoning, koa.exe SHA256
+16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314
+
+This source snapshot contains authored portable/Android code, the Lua5.1 vendor
+copy with the bounded weak-mode GC fix, source adapters, native comparison
+harnesses and extraction/build helpers. It excludes the installed game,
+extracted meshes/catalogs, recovered game modules, SDK/NDK, and signing key.
+Build/package steps expect those private project inputs to remain available.
+
+Layout
+  work/v08-portable: Lua runtime, native-domain adapters, providers, inspector/tests
+  work/v08-host: real-scene OpenGL ES preview, JNI input inventory, script lifecycle
+  work/v08-scripts: adaptation generators, provider tests, contract scope notes
+  work/v08-native: original-x86 selected-function comparison harnesses
+  work/v08-scene: Windows scene-bootstrap/catalog/package helpers
+  outputs/scene-v08/asset-macros.json: explicit macro/category/catalog associations
+  outputs/scene-v08/modules: privately recovered sources and exact-name manifest
+  outputs/scene-v08/assets: selected name/ID snapshots and native enum snapshot
+  outputs/scene-v07/scene.bin: unchanged real Gorhart preview geometry
+
+Module/function/macro counts are read from the current inventory and manifest,
+not frozen in these instructions. android-bootstrap-readiness.json and the APK
+manifest record those selected counts and input hashes for each package build.
+
+Build on Windows using MSVC18 BuildTools, CMake/Ninja, Python3.12 and NDKr30.
+The project-local build_windows_android.cmd scripts select the existing tools.
+Do not regenerate or replace the existing Android signing key.
+
+1. Run work/v08-portable/build_windows_android.cmd. Run the current service
+   tests with work/v08-scene/run_windows_validation.py. Historical exact-count registry
+   tests for seven/eight namespaces need their older registries; the current
+   player-registry fixture targets all nine namespaces and1498 methods.
+2. Adapt from the frozen original sources with work/v08-scene/adapt_scene_modules.py.
+   Never layer another adapter pass over already-adapted Lua. Verify recorded
+   emitter/adapter/carrier hashes and the module adaptation receipt.
+3. Generate the canonical-key/read-proxy fixtures using the current adapter.
+   Keep fixture provenance matched to the actual bundled runtime.
+4. Run work/v08-scene/run_bootstrap.py --kind android --label scene-final-windows.
+   Its investigation helper deliberately returns0 on a modeled script failure;
+   inspect the JSON: ok/bootstrap_loaded/root_loaded/event_invoked must all be
+   true. ParentUtils must preload before SpaceCommon. Current explicit bounds
+   are256MiB Lua heap,128MiB total core/manifest/module resources,16MiB per source,
+   and30M instructions per evaluation. They are not an Android PSS limit.
+   The framework defaults remain unchanged; the inspector/host select these
+   larger finite bounds for this corpus. Canonical type11-versus-nil equality
+   uses the current adapter; read-proxy/write/SELF policies remain separate.
+   If the frontier still fails, continue resolving it before final APK assembly.
+   Treat
+   registered_modules as source registrations, not proof all bodies executed.
+5. Run work/v08-host/build_windows_android.cmd. CMake regenerates the Android
+   asset descriptor table from the current explicit macro manifest. Changing
+   that manifest requires rebuilding before packaging.
+6. Run work/v08-scene/package_android.py. Its default readiness report is
+   outputs/scene-v08/scene-final-windows.json; --bootstrap-report selects another.
+   It rejects missing/failed/stale-input reports or mismatched Android policies,
+   counts,256MiB Lua/128MiB resource bounds, inventory hashes and byte totals.
+   Input mtimes provide a local
+   freshness guard; the inspector report itself does not contain input hashes.
+   It records exact packaging input hashes separately and runs package-input preflight,
+   signs with the existing private debug key, verifies signature/alignment,
+   and verifies each bundled payload hash by reading back the signed APK.
+   The private APK contains the selected
+   scene data and recovered scripts.
+7. Generate the tablet library fixture bundle with
+   work/v08-host/prepare_tablet_tests.py. Run it in its own new directory under
+   /data/local/tmp, preserving older artifacts and unrelated device/app data.
+   Passing portable tablet fixture groups (including bootstrap ordering) does
+   not establish that the packaged Activity boots, renders or tears down safely.
+8. After the full root succeeds, upgrade-install the actual APK with adb install -r,
+   launch org.opemamalur.scene's
+   android.app.NativeActivity, inspect OpemAmalurScripts/OpemAmalurScene logs,
+   capture the actual view, verify touch orbit and foreground/background/exit.
+   Preserve the v0.7 APK and existing application data; no clear-data/uninstall.
+   Record device PSS and Lua heap at bootstrap, foreground/background and exit:
+   the earlier128MiB Lua ceiling was reached, so the current256MiB bound requires
+   actual device memory observation alongside the CPU mesh/GPU allocations.
+
+The Android render worker owns the Lua realm. A successful initialization keeps
+that realm alive until worker shutdown. It receives no fabricated frame/gameplay
+callbacks. The selected SpaceCommon.on_object_creation_complete body is an
+original no-op RETURN, so passing it proves dispatch, not gameplay behavior.
+
+Current explicit Android policies: logical standard A/B layout; android platform
+hash; no optional content or localization packs mounted; fresh in-memory integer
+preferences; no quick-save capability; no anisotropic filtering. Language names
+use the new host's Automatic fallback label. These are port policies, not claims
+about the user's native install, controller locale, saves or DLC entitlements.
+
+Native parity is limited to the recorded selected functions and synthetic state.
+Asset macros map names to IDs but do not implement the native asset manager.
+FAB and SIMSPACE choose their patch catalogs explicitly after merge conflicts;
+DIALOG and GOR choose their initial/base catalogs explicitly after conflict audits.
+Keep those selections from the current macro manifest; do not silently union
+conflicting catalogs or equate an Android selection with original mount order.
+native archive precedence is unverified. Textures, collision, animation, player
+movement, interactions, audio/localization, save/load and gameplay remain work.
+
+Source package rebuild inputs
+  The exact outputs/scene-v08/asset-macros.json is included because Android CMake
+  generates descriptors from it. The compiled .inc is regenerated, not required
+  in the source archive. package_readiness.py and all v08-scene build helpers
+  travel with package_android.py. Legacy work-level aliases and v07 extraction/
+  export helpers used by the authored preparation scripts are also retained.
+  Recreating recovered modules/catalogs still requires the private frozen corpus,
+  native profiles, archive listings, original installed game and selected assets;
+  these are intentionally not included in the source-only archive.

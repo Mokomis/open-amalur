@@ -1,0 +1,1129 @@
+[
+  {
+    "pc": 0,
+    "file_offset": 6992,
+    "word_hex": "aa000002",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      2
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_window\""
+  },
+  {
+    "pc": 2,
+    "file_offset": 7000,
+    "word_hex": "82000102",
+    "name": "TEST_R1",
+    "A": 2,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      5,
+      4
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 4,
+    "file_offset": 7008,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  },
+  {
+    "pc": 5,
+    "file_offset": 7012,
+    "word_hex": "34040002",
+    "name": "LOADNIL",
+    "A": 2,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      6
+    ],
+    "kind": "loadnil"
+  },
+  {
+    "pc": 6,
+    "file_offset": 7016,
+    "word_hex": "36000302",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      7
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_space\""
+  },
+  {
+    "pc": 7,
+    "file_offset": 7020,
+    "word_hex": "34040002",
+    "name": "LOADNIL",
+    "A": 2,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      8
+    ],
+    "kind": "loadnil"
+  },
+  {
+    "pc": 8,
+    "file_offset": 7024,
+    "word_hex": "36000402",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 4,
+    "successors": [
+      9
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_cheat_func\""
+  },
+  {
+    "pc": 9,
+    "file_offset": 7028,
+    "word_hex": "1a000002",
+    "name": "LOADBOOL",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      10
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 10,
+    "file_offset": 7032,
+    "word_hex": "36000502",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 5,
+    "successors": [
+      11
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_registered_with_state_mgr\""
+  },
+  {
+    "pc": 11,
+    "file_offset": 7036,
+    "word_hex": "32000702",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 7,
+    "successors": [
+      12
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 12,
+    "file_offset": 7040,
+    "word_hex": "36000602",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 6,
+    "successors": [
+      13
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_loading_in_progress\""
+  },
+  {
+    "pc": 13,
+    "file_offset": 7044,
+    "word_hex": "32000902",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 9,
+    "successors": [
+      14
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 14,
+    "file_offset": 7048,
+    "word_hex": "36000802",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 8,
+    "successors": [
+      15
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_num_updates\""
+  },
+  {
+    "pc": 15,
+    "file_offset": 7052,
+    "word_hex": "32000902",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 9,
+    "successors": [
+      16
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 16,
+    "file_offset": 7056,
+    "word_hex": "36000a02",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 10,
+    "successors": [
+      17
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_loading_stage\""
+  },
+  {
+    "pc": 17,
+    "file_offset": 7060,
+    "word_hex": "aa000b02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 11,
+    "successors": [
+      19
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_mode\""
+  },
+  {
+    "pc": 19,
+    "file_offset": 7068,
+    "word_hex": "aa000e03",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      21
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"DEFAULT\""
+  },
+  {
+    "pc": 21,
+    "file_offset": 7076,
+    "word_hex": "08040301",
+    "name": "EQ",
+    "A": 1,
+    "B": 2,
+    "C": 3,
+    "successors": [
+      29,
+      23
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 2
+    },
+    "right_operand": {
+      "kind": "register",
+      "index": 3
+    }
+  },
+  {
+    "pc": 23,
+    "file_offset": 7084,
+    "word_hex": "aa000b02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 11,
+    "successors": [
+      25
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_mode\""
+  },
+  {
+    "pc": 25,
+    "file_offset": 7092,
+    "word_hex": "aa001103",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 17,
+    "successors": [
+      27
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"RESTORE_GAME\""
+  },
+  {
+    "pc": 27,
+    "file_offset": 7100,
+    "word_hex": "08040300",
+    "name": "EQ",
+    "A": 0,
+    "B": 2,
+    "C": 3,
+    "successors": [
+      43,
+      29
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 2
+    },
+    "right_operand": {
+      "kind": "register",
+      "index": 3
+    }
+  },
+  {
+    "pc": 29,
+    "file_offset": 7108,
+    "word_hex": "02000100",
+    "name": "TEST",
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      32,
+      31
+    ],
+    "kind": "test_branch"
+  },
+  {
+    "pc": 31,
+    "file_offset": 7116,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  },
+  {
+    "pc": 32,
+    "file_offset": 7120,
+    "word_hex": "36000300",
+    "name": "SETGLOBAL",
+    "A": 0,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      33
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_space\""
+  },
+  {
+    "pc": 33,
+    "file_offset": 7124,
+    "word_hex": "02000001",
+    "name": "TEST",
+    "A": 1,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      53,
+      35
+    ],
+    "kind": "test_branch"
+  },
+  {
+    "pc": 35,
+    "file_offset": 7132,
+    "word_hex": "aa001402",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 20,
+    "successors": [
+      37
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"type\""
+  },
+  {
+    "pc": 37,
+    "file_offset": 7140,
+    "word_hex": "0e020003",
+    "name": "MOVE",
+    "A": 3,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      38
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 38,
+    "file_offset": 7144,
+    "word_hex": "04040202",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "successors": [
+      39
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 39,
+    "file_offset": 7148,
+    "word_hex": "08051700",
+    "name": "EQ",
+    "A": 0,
+    "B": 2,
+    "C": 279,
+    "successors": [
+      53,
+      41
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 2
+    },
+    "right_operand": {
+      "kind": "constant",
+      "index": 23,
+      "lua": "\"function\""
+    }
+  },
+  {
+    "pc": 41,
+    "file_offset": 7156,
+    "word_hex": "36000401",
+    "name": "SETGLOBAL",
+    "A": 1,
+    "B": 0,
+    "C": 4,
+    "successors": [
+      42
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_cheat_func\""
+  },
+  {
+    "pc": 42,
+    "file_offset": 7160,
+    "word_hex": "39000900",
+    "name": "JMP",
+    "A": 0,
+    "B": 128,
+    "C": 9,
+    "successors": [
+      53
+    ],
+    "kind": "jump"
+  },
+  {
+    "pc": 43,
+    "file_offset": 7164,
+    "word_hex": "aa000b02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 11,
+    "successors": [
+      45
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_mode\""
+  },
+  {
+    "pc": 45,
+    "file_offset": 7172,
+    "word_hex": "aa001803",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 24,
+    "successors": [
+      47
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"FAST_TRAVEL\""
+  },
+  {
+    "pc": 47,
+    "file_offset": 7180,
+    "word_hex": "08040300",
+    "name": "EQ",
+    "A": 0,
+    "B": 2,
+    "C": 3,
+    "successors": [
+      53,
+      49
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 2
+    },
+    "right_operand": {
+      "kind": "register",
+      "index": 3
+    }
+  },
+  {
+    "pc": 49,
+    "file_offset": 7188,
+    "word_hex": "02000100",
+    "name": "TEST",
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      52,
+      51
+    ],
+    "kind": "test_branch"
+  },
+  {
+    "pc": 51,
+    "file_offset": 7196,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  },
+  {
+    "pc": 52,
+    "file_offset": 7200,
+    "word_hex": "36000300",
+    "name": "SETGLOBAL",
+    "A": 0,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      53
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_space\""
+  },
+  {
+    "pc": 53,
+    "file_offset": 7204,
+    "word_hex": "aa000302",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      55
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_space\""
+  },
+  {
+    "pc": 55,
+    "file_offset": 7212,
+    "word_hex": "82000002",
+    "name": "TEST_R1",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      80,
+      57
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 57,
+    "file_offset": 7220,
+    "word_hex": "34040002",
+    "name": "LOADNIL",
+    "A": 2,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      58
+    ],
+    "kind": "loadnil"
+  },
+  {
+    "pc": 58,
+    "file_offset": 7224,
+    "word_hex": "aa001d03",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 29,
+    "successors": [
+      60
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WORLD\""
+  },
+  {
+    "pc": 60,
+    "file_offset": 7232,
+    "word_hex": "86062003",
+    "name": "GETFIELD_R1",
+    "A": 3,
+    "B": 3,
+    "C": 32,
+    "successors": [
+      63
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_associated_region\""
+  },
+  {
+    "pc": 63,
+    "file_offset": 7244,
+    "word_hex": "aa000304",
+    "name": "GETGLOBAL_MEM",
+    "A": 4,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      65
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_space\""
+  },
+  {
+    "pc": 65,
+    "file_offset": 7252,
+    "word_hex": "04040203",
+    "name": "CALL_I",
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "successors": [
+      66
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 66,
+    "file_offset": 7256,
+    "word_hex": "02000003",
+    "name": "TEST",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      76,
+      68
+    ],
+    "kind": "test_branch"
+  },
+  {
+    "pc": 68,
+    "file_offset": 7264,
+    "word_hex": "aa001d04",
+    "name": "GETGLOBAL_MEM",
+    "A": 4,
+    "B": 0,
+    "C": 29,
+    "successors": [
+      70
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WORLD\""
+  },
+  {
+    "pc": 70,
+    "file_offset": 7272,
+    "word_hex": "86082104",
+    "name": "GETFIELD_R1",
+    "A": 4,
+    "B": 4,
+    "C": 33,
+    "successors": [
+      73
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_region_type\""
+  },
+  {
+    "pc": 73,
+    "file_offset": 7284,
+    "word_hex": "0e060005",
+    "name": "MOVE",
+    "A": 5,
+    "B": 3,
+    "C": 0,
+    "successors": [
+      74
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 74,
+    "file_offset": 7288,
+    "word_hex": "04040204",
+    "name": "CALL_I",
+    "A": 4,
+    "B": 2,
+    "C": 2,
+    "successors": [
+      75
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 75,
+    "file_offset": 7292,
+    "word_hex": "0e080002",
+    "name": "MOVE",
+    "A": 2,
+    "B": 4,
+    "C": 0,
+    "successors": [
+      76
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 76,
+    "file_offset": 7296,
+    "word_hex": "aa002204",
+    "name": "GETGLOBAL_MEM",
+    "A": 4,
+    "B": 0,
+    "C": 34,
+    "successors": [
+      78
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"request_loading_screen_image_win\""
+  },
+  {
+    "pc": 78,
+    "file_offset": 7304,
+    "word_hex": "0e040005",
+    "name": "MOVE",
+    "A": 5,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      79
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 79,
+    "file_offset": 7308,
+    "word_hex": "04040104",
+    "name": "CALL_I",
+    "A": 4,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      80
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 80,
+    "file_offset": 7312,
+    "word_hex": "aa002502",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 37,
+    "successors": [
+      82
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"set_hint\""
+  },
+  {
+    "pc": 82,
+    "file_offset": 7320,
+    "word_hex": "7e020102",
+    "name": "CALL_I_R1",
+    "A": 2,
+    "B": 1,
+    "C": 1,
+    "successors": [
+      83
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 83,
+    "file_offset": 7324,
+    "word_hex": "aa002802",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 40,
+    "successors": [
+      85
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"SOUND\""
+  },
+  {
+    "pc": 85,
+    "file_offset": 7332,
+    "word_hex": "86042b02",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 43,
+    "successors": [
+      88
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"allow_motion_sounds\""
+  },
+  {
+    "pc": 88,
+    "file_offset": 7344,
+    "word_hex": "32000903",
+    "name": "LOADK",
+    "A": 3,
+    "B": 0,
+    "C": 9,
+    "successors": [
+      89
+    ],
+    "kind": "loadk",
+    "constant_lua": "0"
+  },
+  {
+    "pc": 89,
+    "file_offset": 7348,
+    "word_hex": "04040102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      90
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 90,
+    "file_offset": 7352,
+    "word_hex": "aa002c02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 44,
+    "successors": [
+      92
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 92,
+    "file_offset": 7360,
+    "word_hex": "86042f02",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 47,
+    "successors": [
+      95
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"hide_window\""
+  },
+  {
+    "pc": 95,
+    "file_offset": 7372,
+    "word_hex": "aa000003",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      97
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_window\""
+  },
+  {
+    "pc": 97,
+    "file_offset": 7380,
+    "word_hex": "04040102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      98
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 98,
+    "file_offset": 7384,
+    "word_hex": "aa003002",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 48,
+    "successors": [
+      100
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"UI_State_MGR\""
+  },
+  {
+    "pc": 100,
+    "file_offset": 7392,
+    "word_hex": "86043302",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 51,
+    "successors": [
+      103
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"register_window\""
+  },
+  {
+    "pc": 103,
+    "file_offset": 7404,
+    "word_hex": "aa000003",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      105
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_window\""
+  },
+  {
+    "pc": 105,
+    "file_offset": 7412,
+    "word_hex": "5c000004",
+    "name": "NEWTABLE",
+    "A": 4,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      106
+    ],
+    "kind": "newtable"
+  },
+  {
+    "pc": 106,
+    "file_offset": 7416,
+    "word_hex": "5c000005",
+    "name": "NEWTABLE",
+    "A": 5,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      107
+    ],
+    "kind": "newtable"
+  },
+  {
+    "pc": 107,
+    "file_offset": 7420,
+    "word_hex": "5c000106",
+    "name": "NEWTABLE",
+    "A": 6,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      108
+    ],
+    "kind": "newtable"
+  },
+  {
+    "pc": 108,
+    "file_offset": 7424,
+    "word_hex": "88693506",
+    "name": "SETFIELD_R1",
+    "A": 6,
+    "B": 52,
+    "C": 309,
+    "successors": [
+      109
+    ],
+    "kind": "setfield_cached"
+  },
+  {
+    "pc": 109,
+    "file_offset": 7428,
+    "word_hex": "040a0102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 5,
+    "C": 1,
+    "successors": [
+      110
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 110,
+    "file_offset": 7432,
+    "word_hex": "1a020002",
+    "name": "LOADBOOL",
+    "A": 2,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      111
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 111,
+    "file_offset": 7436,
+    "word_hex": "36000502",
+    "name": "SETGLOBAL",
+    "A": 2,
+    "B": 0,
+    "C": 5,
+    "successors": [
+      112
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_registered_with_state_mgr\""
+  },
+  {
+    "pc": 112,
+    "file_offset": 7440,
+    "word_hex": "aa003002",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 48,
+    "successors": [
+      114
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"UI_State_MGR\""
+  },
+  {
+    "pc": 114,
+    "file_offset": 7448,
+    "word_hex": "86043602",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 54,
+    "successors": [
+      117
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"show_window\""
+  },
+  {
+    "pc": 117,
+    "file_offset": 7460,
+    "word_hex": "aa000003",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      119
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_window\""
+  },
+  {
+    "pc": 119,
+    "file_offset": 7468,
+    "word_hex": "1a000004",
+    "name": "LOADBOOL",
+    "A": 4,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      120
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 120,
+    "file_offset": 7472,
+    "word_hex": "04060102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      121
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 121,
+    "file_offset": 7476,
+    "word_hex": "1a020002",
+    "name": "LOADBOOL",
+    "A": 2,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      122
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 122,
+    "file_offset": 7480,
+    "word_hex": "12040002",
+    "name": "RETURN",
+    "A": 2,
+    "B": 2,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  },
+  {
+    "pc": 123,
+    "file_offset": 7484,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  }
+]

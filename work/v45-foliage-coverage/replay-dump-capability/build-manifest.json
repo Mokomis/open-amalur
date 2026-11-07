@@ -1,0 +1,28 @@
+{
+  "exe": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\replay-dump-capability\\build\\tools\\replay\\gfxrecon-replay.exe",
+  "exe_bytes": 9839104,
+  "exe_sha256": "c330152751f150e7e3eea62b931c1d276e5fa1cf5667970a04ccd47300de7871",
+  "source_root": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v33-native-camera\\src",
+  "source_sha256": {
+    "CMakeLists.txt": "171cdc3b6ba00dfdf8370f6a827b57ea2d2dafdde50128eb66adc4a3237020a5",
+    "tools/replay/replay_settings.h": "661e1304fcb77b58d80093fac5e004c94bdb10f88c5bf233a552cbef809e6324",
+    "tools/replay/replay_vulkan_feature.cpp": "4eabaf5848e71e253dbe5e1637d25a1f9da17344e866d8f2a23b7923b8f9d42c",
+    "tools/replay/parse_dump_resources_cli.cpp": "b654e58bfdd475ff57a678ec53255562a86e914e62fd4ffdf3d7229f0f6d324e",
+    "vulkan_dump_resources.md": "dd59b5622aaa3786b9c8b1162c21533213d5d7325b38a3c197edb765d4224ddb"
+  },
+  "version": {
+    "exit": 0,
+    "output": "gfxrecon-replay version info:\n  GFXReconstruct Version 1.0.5-unknown (unknown-build-source) Release\n  Vulkan Header Version 1.4.363\n"
+  },
+  "help_exit": 0,
+  "build_exit": 0,
+  "compiler": "MSVC19.51.36260.0 x64",
+  "vulkan_headers": "1.4.363 local",
+  "local_deps": [
+    "lz4 1.10.0",
+    "zstd1.5.7",
+    "zlib1.3.2",
+    "nlohmann_json3.12.0"
+  ],
+  "gpu_replay_executed": false
+}

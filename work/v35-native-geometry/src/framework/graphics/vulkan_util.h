@@ -1,0 +1,204 @@
+/*
+** Copyright (c) 2021-2023 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#ifndef GFXRECON_GRAPHICS_VULKAN_UTIL_H
+#define GFXRECON_GRAPHICS_VULKAN_UTIL_H
+
+#include "generated/generated_vulkan_dispatch_table.h"
+#include "util/defines.h"
+#include "util/platform.h"
+
+#include "vulkan/vulkan.h"
+
+#include <algorithm>
+#include <array>
+#include <cmath>
+#include <map>
+
+#if VK_USE_64_BIT_PTR_DEFINES == 1
+#define VK_HANDLE_TO_UINT64(value) reinterpret_cast<uint64_t>(value)
+#define UINT64_TO_VK_HANDLE(handle_type, value) reinterpret_cast<handle_type>(value)
+#else
+#define VK_HANDLE_TO_UINT64(value) (value)
+#define UINT64_TO_VK_HANDLE(handle_type, value) static_cast<handle_type>(value)
+#endif
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(graphics)
+
+typedef uint64_t PresentId;
+
+const std::vector<std::string> kLoaderLibNames = {
+#if defined(_WIN32)
+    "vulkan-1.dll"
+#elif defined(__APPLE__)
+    "libvulkan.dylib", "libvulkan.1.dylib", "libMoltenVK.dylib"
+#else
+    "libvulkan.so.1", "libvulkan.so"
+#endif
+};
+
+/// @brief Initialize the Vulkan loader by loading the Vulkan library.
+/// @param loader_path Optional path to the Vulkan loader library. If not provided, the function will search for
+/// `kLoaderLibNames` in the system library paths.
+/// @return A handle to the loaded Vulkan library, or nullptr if the library could not be loaded.
+util::platform::LibraryHandle InitializeLoader(const char* loader_path = nullptr);
+
+void ReleaseLoader(util::platform::LibraryHandle loader_handle);
+
+bool ImageHasUsage(VkImageUsageFlags usage_flags, VkImageUsageFlagBits bit);
+
+// Aligns a byte offset up to the next multiple of `alignment`.
+// Unlike util::platform::GetAlignedSize, this helper is safe for non-power-of-two alignments
+// (for example, 3-byte RGB formats).
+VkDeviceSize AlignBufferOffset(VkDeviceSize offset, VkDeviceSize alignment);
+
+// Returns the Vulkan-mandated VkBufferImageCopy::bufferOffset alignment for a format/aspect pair.
+// This must be applied to every copy region offset (not only the first one):
+// - depth/stencil formats => 4-byte alignment
+// - multiplane formats    => block size of the selected compatible plane format
+// - all other formats     => block size of the format
+VkDeviceSize GetBufferImageCopyOffsetAlignment(VkFormat format, VkImageAspectFlags aspect_mask);
+
+// Byte size of a single texel block for the given format, taking the image aspect into account.
+uint32_t GetFormatElementSizeWithAspect(VkFormat format, VkImageAspectFlagBits aspect_mask);
+
+/**
+ * @brief   copy_dispatch_table_from_device can be used if a command-buffer was not allocated through the loader,
+ *          in order to assign the dispatch table from an existing VkDevice.
+ *
+ * @param   device  a VkDevice handle
+ * @param   handle  a VkCommandBuffer handle
+ */
+static inline void copy_dispatch_table_from_device(VkDevice device, VkCommandBuffer handle)
+{
+    // Because this command buffer was not allocated through the loader, it must be assigned a dispatch table.
+    *reinterpret_cast<void**>(handle) = *reinterpret_cast<void**>(device);
+}
+
+[[maybe_unused]] static const char* kVulkanVrFrameDelimiterString = "vr-marker,frame_end,type,application";
+
+static constexpr uint32_t ScaleToMipLevel(uint32_t dim, uint32_t level)
+{
+    return std::max(1u, dim >> level);
+}
+
+/**
+ * @brief   Scales a VkExtent3D to the provided mip map level
+ *
+ * @param[in]   extent    The VkExtent3D to scale
+ * @param[in]   level     The mip map level
+ * @return  The scaled VkExtent3D
+ */
+static constexpr VkExtent3D ScaleToMipLevel(const VkExtent3D& extent, uint32_t level)
+{
+    const VkExtent3D mip_extent = VkExtent3D{ ScaleToMipLevel(extent.width, level),
+                                              ScaleToMipLevel(extent.height, level),
+                                              ScaleToMipLevel(extent.depth, level) };
+
+    return mip_extent;
+}
+
+/**
+ * @brief   Scales width and height by a factor for each, and keeps the depth.
+ *
+ * A negative factor mirrors that axis, thus the size uses the size of the
+ * factor only.  This is the form a screenshot asks for, where the sign of
+ * --screenshot-scale selects a flip.  A caller with one factor for both axes
+ * gives that factor twice.
+ *
+ * @param[in]   extent    The VkExtent3D to scale
+ * @param[in]   scale     The scaling factor for width and for height
+ * @return  The scaled VkExtent3D
+ */
+static constexpr VkExtent3D ScaleExtent3DNoDepth(const VkExtent3D& extent, const std::array<float, 2>& scale)
+{
+    const VkExtent3D scaled_extent =
+        VkExtent3D{ static_cast<uint32_t>(std::max(1.0f, static_cast<float>(extent.width) * std::abs(scale[0]))),
+                    static_cast<uint32_t>(std::max(1.0f, static_cast<float>(extent.height) * std::abs(scale[1]))),
+                    extent.depth };
+
+    return scaled_extent;
+}
+
+/**
+ * @brief   Flags and properties for enabled queue families
+ */
+struct VulkanQueueFamilyFlags
+{
+    //! number of queues created per (queue-family, VkDeviceQueueCreateFlags). the combination is what
+    //! VUID-VkDeviceCreateInfo-queueFamilyIndex-02802 requires to be unique, a family-index alone is not.
+    //! the inner map is ordered, so an unprotected entry (flags 0) sorts first.
+    std::unordered_map<uint32_t, std::map<VkDeviceQueueCreateFlags, uint32_t>> queue_family_queue_counts;
+
+    //! physical-device queue-flags, a property of the family itself
+    std::unordered_map<uint32_t, VkQueueFlags> queue_family_properties_flags;
+
+    //! capture-device queue-flags, indexed by captured family-index. empty when the application
+    //! never queried them, in which case a substitute can only be chosen by generic capability.
+    std::vector<VkQueueFlags> capture_queue_family_properties_flags;
+
+    std::vector<bool> queue_family_index_enabled;
+};
+/**
+ * @brief   Function pointer type for queue family index finder functions
+ */
+using FindQueueFamilyIndex_fp = uint32_t (*)(const VulkanQueueFamilyFlags&);
+
+/**
+ * @brief   Find a transfer queue family index from queue families
+ *
+ * @param[in]   families    The enabled queue family flags
+ * @return  The queue family index, or VK_QUEUE_FAMILY_IGNORED if not found
+ */
+uint32_t FindTransferQueueFamilyIndex(const VulkanQueueFamilyFlags& families);
+
+/**
+ * @brief   Find a compute queue family index from queue families
+ *
+ * @param[in]   families    The enabled queue family flags
+ * @return  The queue family index, or VK_QUEUE_FAMILY_IGNORED if not found
+ */
+uint32_t FindComputeQueueFamilyIndex(const VulkanQueueFamilyFlags& families);
+
+/**
+ * @brief   Find a graphics or compute queue family index from queue families.
+ *
+ * @param[in]   families    The enabled queue family flags
+ * @return  The queue family index, or VK_QUEUE_FAMILY_IGNORED if not found
+ */
+uint32_t FindGraphicsOrComputeQueueFamilyIndex(const VulkanQueueFamilyFlags& families);
+
+/**
+ * @brief   Map shader-stage flags to corresponding pipeline bind points.
+ *
+ * @param[in]   flags   The shader-stage flags
+ * @return  The pipeline bind points implied by the given stage flags
+ */
+std::vector<VkPipelineBindPoint> ShaderStageFlagsToPipelineBindPoints(VkShaderStageFlags flags);
+
+bool ArePipelineRenderingFormatsIgnored(const VkGraphicsPipelineCreateInfo& create_info);
+
+GFXRECON_END_NAMESPACE(graphics)
+GFXRECON_END_NAMESPACE(gfxrecon)
+
+#endif // GFXRECON_GRAPHICS_VULKAN_UTIL_H

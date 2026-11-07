@@ -1,0 +1,20 @@
+LIBRARY libEGL
+EXPORTS
+eglBindAPI
+eglChooseConfig
+eglCreateContext
+eglCreateWindowSurface
+eglDestroyContext
+eglDestroySurface
+eglGetConfigAttrib
+eglGetDisplay
+eglGetError
+eglInitialize
+eglMakeCurrent
+eglQuerySurface
+eglSwapBuffers
+eglSwapInterval
+eglTerminate
+eglCreatePbufferSurface
+
+ eglQueryString

@@ -1,0 +1,2357 @@
+{
+  "schema": "open-amalur.scene-lighting.v1",
+  "kind": "space_lights",
+  "source_sha256": "c4b26b7a54666a086850f96e035c20ac22c34d9cacb0c2ac5b381b3fd1c2b748",
+  "region_asset_id": {
+    "value": 1262814,
+    "source_offset": 52,
+    "status": "native_confirmed"
+  },
+  "region_key": {
+    "value": "0000000000000000",
+    "source_offset": 72,
+    "status": "asset_verified"
+  },
+  "lights": [
+    {
+      "index": 0,
+      "source_offset": 536,
+      "position": [
+        -22062.119140625,
+        -620.3106079101562,
+        1646.77197265625
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        },
+        "Dawn": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        },
+        "Noon": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        },
+        "Dusk": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 1,
+      "source_offset": 644,
+      "position": [
+        -19696.916015625,
+        -804.8550415039062,
+        973.8525390625
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        },
+        "Dawn": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        },
+        "Noon": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        },
+        "Dusk": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 219.0,
+          "attenuation_end": 484.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 2,
+      "source_offset": 752,
+      "position": [
+        -18827.001953125,
+        -286.09136962890625,
+        995.6566162109375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.6171000003814697,
+          "attenuation_start": 185.0,
+          "attenuation_end": 344.0
+        },
+        "Dawn": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.6171000003814697,
+          "attenuation_start": 185.0,
+          "attenuation_end": 344.0
+        },
+        "Noon": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.6171000003814697,
+          "attenuation_start": 185.0,
+          "attenuation_end": 344.0
+        },
+        "Dusk": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.6171000003814697,
+          "attenuation_start": 185.0,
+          "attenuation_end": 344.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 3,
+      "source_offset": 860,
+      "position": [
+        -20274.6328125,
+        -337.32623291015625,
+        1141.595458984375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.44690001010894775,
+          "attenuation_start": 185.0,
+          "attenuation_end": 383.0
+        },
+        "Dawn": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.44690001010894775,
+          "attenuation_start": 185.0,
+          "attenuation_end": 383.0
+        },
+        "Noon": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.44690001010894775,
+          "attenuation_start": 185.0,
+          "attenuation_end": 383.0
+        },
+        "Dusk": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.44690001010894775,
+          "attenuation_start": 185.0,
+          "attenuation_end": 383.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 4,
+      "source_offset": 968,
+      "position": [
+        -20235.41015625,
+        -882.0547485351562,
+        1141.595458984375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.38431376218795776,
+            0.5529412031173706,
+            0.7686275243759155
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        },
+        "Dawn": {
+          "color": [
+            0.38431376218795776,
+            0.5529412031173706,
+            0.7686275243759155
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        },
+        "Noon": {
+          "color": [
+            0.38431376218795776,
+            0.5529412031173706,
+            0.7686275243759155
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        },
+        "Dusk": {
+          "color": [
+            0.38431376218795776,
+            0.5529412031173706,
+            0.7686275243759155
+          ],
+          "multiplier": 0.34700000286102295,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 5,
+      "source_offset": 1076,
+      "position": [
+        -21643.970703125,
+        -359.73736572265625,
+        1479.64111328125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.5070000290870667,
+          "attenuation_start": 185.0,
+          "attenuation_end": 377.0
+        },
+        "Dawn": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.5070000290870667,
+          "attenuation_start": 185.0,
+          "attenuation_end": 377.0
+        },
+        "Noon": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.5070000290870667,
+          "attenuation_start": 185.0,
+          "attenuation_end": 377.0
+        },
+        "Dusk": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.5070000290870667,
+          "attenuation_start": 185.0,
+          "attenuation_end": 377.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 6,
+      "source_offset": 1184,
+      "position": [
+        -21574.650390625,
+        -880.1680297851562,
+        2147.10888671875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.5570999979972839,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        },
+        "Dawn": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.5570999979972839,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        },
+        "Noon": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.4471000134944916,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        },
+        "Dusk": {
+          "color": [
+            0.9686275124549866,
+            0.529411792755127,
+            0.0117647098377347
+          ],
+          "multiplier": 0.5570999979972839,
+          "attenuation_start": 185.0,
+          "attenuation_end": 475.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 7,
+      "source_offset": 1292,
+      "position": [
+        -19010.740234375,
+        -1124.8487548828125,
+        909.943359375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.27843138575553894,
+            0.6392157077789307,
+            0.9960784912109375
+          ],
+          "multiplier": 0.44699999690055847,
+          "attenuation_start": 164.0,
+          "attenuation_end": 333.0
+        },
+        "Dawn": {
+          "color": [
+            0.27843138575553894,
+            0.6392157077789307,
+            0.9960784912109375
+          ],
+          "multiplier": 0.44699999690055847,
+          "attenuation_start": 164.0,
+          "attenuation_end": 333.0
+        },
+        "Noon": {
+          "color": [
+            0.27843138575553894,
+            0.6392157077789307,
+            0.9960784912109375
+          ],
+          "multiplier": 0.44699999690055847,
+          "attenuation_start": 164.0,
+          "attenuation_end": 333.0
+        },
+        "Dusk": {
+          "color": [
+            0.27843138575553894,
+            0.6392157077789307,
+            0.9960784912109375
+          ],
+          "multiplier": 0.44699999690055847,
+          "attenuation_start": 164.0,
+          "attenuation_end": 333.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 8,
+      "source_offset": 1400,
+      "position": [
+        -20654.818359375,
+        -603.9258422851562,
+        1779.396728515625
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 344.0,
+          "attenuation_end": 562.0
+        },
+        "Dawn": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 344.0,
+          "attenuation_end": 562.0
+        },
+        "Noon": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 344.0,
+          "attenuation_end": 562.0
+        },
+        "Dusk": {
+          "color": [
+            0.33725491166114807,
+            0.5647059082984924,
+            0.9647059440612793
+          ],
+          "multiplier": 0.4871000051498413,
+          "attenuation_start": 344.0,
+          "attenuation_end": 562.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 9,
+      "source_offset": 1508,
+      "position": [
+        -16251.6064453125,
+        -3408.214599609375,
+        1742.8001708984375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.3764706254005432
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 316.0,
+          "attenuation_end": 563.0
+        },
+        "Dawn": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.3764706254005432
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 316.0,
+          "attenuation_end": 563.0
+        },
+        "Noon": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.3764706254005432
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 316.0,
+          "attenuation_end": 563.0
+        },
+        "Dusk": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.3764706254005432
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 316.0,
+          "attenuation_end": 563.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 10,
+      "source_offset": 1616,
+      "position": [
+        -16323.189453125,
+        -3494.594482421875,
+        1036.0369873046875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.3529411852359772,
+            0.40392160415649414,
+            0.9450981020927429
+          ],
+          "multiplier": 0.4000000059604645,
+          "attenuation_start": 351.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.3529411852359772,
+            0.40392160415649414,
+            0.9450981020927429
+          ],
+          "multiplier": 0.4000000059604645,
+          "attenuation_start": 351.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.3529411852359772,
+            0.40392160415649414,
+            0.9450981020927429
+          ],
+          "multiplier": 0.4000000059604645,
+          "attenuation_start": 351.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.3529411852359772,
+            0.40392160415649414,
+            0.9450981020927429
+          ],
+          "multiplier": 0.4000000059604645,
+          "attenuation_start": 351.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 11,
+      "source_offset": 1724,
+      "position": [
+        -16277.5302734375,
+        -1260.455078125,
+        1238.159912109375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.27450981736183167,
+            0.4117647409439087,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 366.0,
+          "attenuation_end": 600.0
+        },
+        "Dawn": {
+          "color": [
+            0.27450981736183167,
+            0.4117647409439087,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 366.0,
+          "attenuation_end": 600.0
+        },
+        "Noon": {
+          "color": [
+            0.27450981736183167,
+            0.4117647409439087,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 366.0,
+          "attenuation_end": 600.0
+        },
+        "Dusk": {
+          "color": [
+            0.27450981736183167,
+            0.4117647409439087,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 366.0,
+          "attenuation_end": 600.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 12,
+      "source_offset": 1832,
+      "position": [
+        -15614.1220703125,
+        -984.4089965820312,
+        1315.6346435546875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 13,
+      "source_offset": 1940,
+      "position": [
+        -15614.1220703125,
+        -984.4089965820312,
+        1901.0740966796875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 14,
+      "source_offset": 2048,
+      "position": [
+        -14841.6982421875,
+        -158.03970336914062,
+        987.9486083984375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 15,
+      "source_offset": 2156,
+      "position": [
+        -14922.349609375,
+        -112.56851196289062,
+        2016.54296875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 16,
+      "source_offset": 2264,
+      "position": [
+        -14569.8994140625,
+        528.6577758789062,
+        1084.26708984375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 17,
+      "source_offset": 2372,
+      "position": [
+        -15742.7744140625,
+        -285.108642578125,
+        1065.7989501953125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.2196078598499298,
+            0.9843137860298157,
+            0.4117647409439087
+          ],
+          "multiplier": 0.6399000287055969,
+          "attenuation_start": 359.0,
+          "attenuation_end": 530.0
+        },
+        "Dawn": {
+          "color": [
+            0.2196078598499298,
+            0.9843137860298157,
+            0.4117647409439087
+          ],
+          "multiplier": 0.6399000287055969,
+          "attenuation_start": 359.0,
+          "attenuation_end": 530.0
+        },
+        "Noon": {
+          "color": [
+            0.2196078598499298,
+            0.9843137860298157,
+            0.4117647409439087
+          ],
+          "multiplier": 0.6399000287055969,
+          "attenuation_start": 359.0,
+          "attenuation_end": 530.0
+        },
+        "Dusk": {
+          "color": [
+            0.2196078598499298,
+            0.9843137860298157,
+            0.4117647409439087
+          ],
+          "multiplier": 0.6399000287055969,
+          "attenuation_start": 359.0,
+          "attenuation_end": 530.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 18,
+      "source_offset": 2480,
+      "position": [
+        -16899.318359375,
+        196.0665283203125,
+        1065.7989501953125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.18431372940540314,
+            0.32549020648002625,
+            0.9215686917304993
+          ],
+          "multiplier": 1.25,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        },
+        "Dawn": {
+          "color": [
+            0.18431372940540314,
+            0.32549020648002625,
+            0.9215686917304993
+          ],
+          "multiplier": 1.25,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        },
+        "Noon": {
+          "color": [
+            0.18431372940540314,
+            0.32549020648002625,
+            0.9215686917304993
+          ],
+          "multiplier": 1.25,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        },
+        "Dusk": {
+          "color": [
+            0.18431372940540314,
+            0.32549020648002625,
+            0.9215686917304993
+          ],
+          "multiplier": 1.25,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 19,
+      "source_offset": 2588,
+      "position": [
+        -15592.2841796875,
+        948.8316650390625,
+        1065.7989501953125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.08235294371843338,
+            0.5058823823928833,
+            1.0
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 332.0,
+          "attenuation_end": 803.0
+        },
+        "Dawn": {
+          "color": [
+            0.08235294371843338,
+            0.5058823823928833,
+            1.0
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 332.0,
+          "attenuation_end": 803.0
+        },
+        "Noon": {
+          "color": [
+            0.08235294371843338,
+            0.5058823823928833,
+            1.0
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 332.0,
+          "attenuation_end": 803.0
+        },
+        "Dusk": {
+          "color": [
+            0.08235294371843338,
+            0.5058823823928833,
+            1.0
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 332.0,
+          "attenuation_end": 803.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 20,
+      "source_offset": 2696,
+      "position": [
+        -16286.17578125,
+        708.261474609375,
+        1065.7989501953125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.26274511218070984,
+            0.30980393290519714,
+            0.5098039507865906
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        },
+        "Dawn": {
+          "color": [
+            0.26274511218070984,
+            0.30980393290519714,
+            0.5098039507865906
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        },
+        "Noon": {
+          "color": [
+            0.26274511218070984,
+            0.30980393290519714,
+            0.5098039507865906
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        },
+        "Dusk": {
+          "color": [
+            0.26274511218070984,
+            0.30980393290519714,
+            0.5098039507865906
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 600.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 21,
+      "source_offset": 2804,
+      "position": [
+        -17794.3984375,
+        1298.04296875,
+        1827.1572265625
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 22,
+      "source_offset": 2912,
+      "position": [
+        -17794.3984375,
+        1298.04296875,
+        1240.7640380859375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 23,
+      "source_offset": 3020,
+      "position": [
+        -16748.126953125,
+        1775.309326171875,
+        1409.1287841796875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.3803921937942505,
+            0.9490196704864502,
+            0.5215686559677124
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 524.0,
+          "attenuation_end": 759.0
+        },
+        "Dawn": {
+          "color": [
+            0.3803921937942505,
+            0.9490196704864502,
+            0.5215686559677124
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 524.0,
+          "attenuation_end": 759.0
+        },
+        "Noon": {
+          "color": [
+            0.3803921937942505,
+            0.9490196704864502,
+            0.5215686559677124
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 524.0,
+          "attenuation_end": 759.0
+        },
+        "Dusk": {
+          "color": [
+            0.3803921937942505,
+            0.9490196704864502,
+            0.5215686559677124
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 524.0,
+          "attenuation_end": 759.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 24,
+      "source_offset": 3128,
+      "position": [
+        -17630.298828125,
+        1198.24658203125,
+        987.9486083984375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 647.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 647.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 647.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 647.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 25,
+      "source_offset": 3236,
+      "position": [
+        -17771.583984375,
+        1306.451904296875,
+        2039.45849609375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 100.0,
+          "attenuation_end": 540.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 26,
+      "source_offset": 3344,
+      "position": [
+        -17412.33203125,
+        1279.9254150390625,
+        1067.1163330078125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.41960787773132324,
+            0.8627451658248901,
+            0.19607844948768616
+          ],
+          "multiplier": 0.36000001430511475,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dawn": {
+          "color": [
+            0.41960787773132324,
+            0.8627451658248901,
+            0.19607844948768616
+          ],
+          "multiplier": 0.36000001430511475,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Noon": {
+          "color": [
+            0.41960787773132324,
+            0.8627451658248901,
+            0.19607844948768616
+          ],
+          "multiplier": 0.36000001430511475,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dusk": {
+          "color": [
+            0.41960787773132324,
+            0.8627451658248901,
+            0.19607844948768616
+          ],
+          "multiplier": 0.36000001430511475,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 27,
+      "source_offset": 3452,
+      "position": [
+        -17388.283203125,
+        727.6558227539062,
+        1067.1163330078125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.2352941334247589
+          ],
+          "multiplier": 0.75,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dawn": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.2352941334247589
+          ],
+          "multiplier": 0.75,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Noon": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.2352941334247589
+          ],
+          "multiplier": 0.75,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dusk": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.2352941334247589
+          ],
+          "multiplier": 0.75,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 28,
+      "source_offset": 3560,
+      "position": [
+        -17349.513671875,
+        1174.802734375,
+        2198.746826171875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 29,
+      "source_offset": 3668,
+      "position": [
+        -17079.330078125,
+        506.7030029296875,
+        2456.686767578125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.49803924560546875
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 318.0,
+          "attenuation_end": 814.0
+        },
+        "Dawn": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.49803924560546875
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 318.0,
+          "attenuation_end": 814.0
+        },
+        "Noon": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.49803924560546875
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 318.0,
+          "attenuation_end": 814.0
+        },
+        "Dusk": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.49803924560546875
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 318.0,
+          "attenuation_end": 814.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 30,
+      "source_offset": 3776,
+      "position": [
+        -15212.2294921875,
+        702.9921875,
+        2456.686767578125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.9058824181556702
+          ],
+          "multiplier": 0.6000000238418579,
+          "attenuation_start": 318.0,
+          "attenuation_end": 815.0
+        },
+        "Dawn": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.9058824181556702
+          ],
+          "multiplier": 0.6000000238418579,
+          "attenuation_start": 318.0,
+          "attenuation_end": 815.0
+        },
+        "Noon": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.9058824181556702
+          ],
+          "multiplier": 0.6000000238418579,
+          "attenuation_start": 318.0,
+          "attenuation_end": 815.0
+        },
+        "Dusk": {
+          "color": [
+            0.20000001788139343,
+            0.960784375667572,
+            0.9058824181556702
+          ],
+          "multiplier": 0.6000000238418579,
+          "attenuation_start": 318.0,
+          "attenuation_end": 815.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 31,
+      "source_offset": 3884,
+      "position": [
+        -15319.41015625,
+        2186.355712890625,
+        1484.3427734375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7568628191947937,
+            0.5960784554481506,
+            0.2549019753932953
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 430.0,
+          "attenuation_end": 877.0
+        },
+        "Dawn": {
+          "color": [
+            0.7568628191947937,
+            0.5960784554481506,
+            0.2549019753932953
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 430.0,
+          "attenuation_end": 877.0
+        },
+        "Noon": {
+          "color": [
+            0.7568628191947937,
+            0.5960784554481506,
+            0.2549019753932953
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 430.0,
+          "attenuation_end": 877.0
+        },
+        "Dusk": {
+          "color": [
+            0.7568628191947937,
+            0.5960784554481506,
+            0.2549019753932953
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 430.0,
+          "attenuation_end": 877.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 32,
+      "source_offset": 3992,
+      "position": [
+        -15126.4873046875,
+        -115.49809265136719,
+        1251.2850341796875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Dawn": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Noon": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Dusk": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 33,
+      "source_offset": 4100,
+      "position": [
+        -15088.8984375,
+        -140.13644409179688,
+        2198.746826171875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 34,
+      "source_offset": 4208,
+      "position": [
+        -15758.2041015625,
+        -866.2313232421875,
+        1251.2850341796875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.46666669845581055
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Dawn": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.46666669845581055
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Noon": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.46666669845581055
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Dusk": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.46666669845581055
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 35,
+      "source_offset": 4316,
+      "position": [
+        -15720.615234375,
+        -890.8697509765625,
+        2198.746826171875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.3490196168422699,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 318.0,
+          "attenuation_end": 500.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 36,
+      "source_offset": 4424,
+      "position": [
+        -17089.1015625,
+        -852.46337890625,
+        1197.643798828125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.20784315466880798,
+            0.9843137860298157,
+            0.22352942824363708
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 357.0,
+          "attenuation_end": 746.0
+        },
+        "Dawn": {
+          "color": [
+            0.20784315466880798,
+            0.9843137860298157,
+            0.22352942824363708
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 357.0,
+          "attenuation_end": 746.0
+        },
+        "Noon": {
+          "color": [
+            0.20784315466880798,
+            0.9843137860298157,
+            0.22352942824363708
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 357.0,
+          "attenuation_end": 746.0
+        },
+        "Dusk": {
+          "color": [
+            0.20784315466880798,
+            0.9843137860298157,
+            0.22352942824363708
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 357.0,
+          "attenuation_end": 746.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 37,
+      "source_offset": 4532,
+      "position": [
+        -16470.888671875,
+        -2713.9541015625,
+        1144.844970703125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.46666669845581055
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 348.0,
+          "attenuation_end": 467.0
+        },
+        "Dawn": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.46666669845581055
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 348.0,
+          "attenuation_end": 467.0
+        },
+        "Noon": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.46666669845581055
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 348.0,
+          "attenuation_end": 467.0
+        },
+        "Dusk": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.46666669845581055
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 348.0,
+          "attenuation_end": 467.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 38,
+      "source_offset": 4640,
+      "position": [
+        -15810.3896484375,
+        -2002.707275390625,
+        1286.5489501953125
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.6705882549285889
+          ],
+          "multiplier": 0.619700014591217,
+          "attenuation_start": 314.0,
+          "attenuation_end": 445.0
+        },
+        "Dawn": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.6705882549285889
+          ],
+          "multiplier": 0.619700014591217,
+          "attenuation_start": 314.0,
+          "attenuation_end": 445.0
+        },
+        "Noon": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.6705882549285889
+          ],
+          "multiplier": 0.619700014591217,
+          "attenuation_start": 314.0,
+          "attenuation_end": 445.0
+        },
+        "Dusk": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.6705882549285889
+          ],
+          "multiplier": 0.619700014591217,
+          "attenuation_start": 314.0,
+          "attenuation_end": 445.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 39,
+      "source_offset": 4748,
+      "position": [
+        -16147.4853515625,
+        -2762.728515625,
+        1814.77978515625
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.7333333492279053
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 262.0,
+          "attenuation_end": 377.0
+        },
+        "Dawn": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.7333333492279053
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 262.0,
+          "attenuation_end": 377.0
+        },
+        "Noon": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.7333333492279053
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 262.0,
+          "attenuation_end": 377.0
+        },
+        "Dusk": {
+          "color": [
+            0.12156864255666733,
+            1.0,
+            0.7333333492279053
+          ],
+          "multiplier": 0.7900000214576721,
+          "attenuation_start": 262.0,
+          "attenuation_end": 377.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 40,
+      "source_offset": 4856,
+      "position": [
+        -15757.8427734375,
+        -1473.3720703125,
+        1238.159912109375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.5098039507865906,
+            0.6039215922355652,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 190.0,
+          "attenuation_end": 272.0
+        },
+        "Dawn": {
+          "color": [
+            0.5098039507865906,
+            0.6039215922355652,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 190.0,
+          "attenuation_end": 272.0
+        },
+        "Noon": {
+          "color": [
+            0.5098039507865906,
+            0.6039215922355652,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 190.0,
+          "attenuation_end": 272.0
+        },
+        "Dusk": {
+          "color": [
+            0.5098039507865906,
+            0.6039215922355652,
+            1.0
+          ],
+          "multiplier": 0.5,
+          "attenuation_start": 190.0,
+          "attenuation_end": 272.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 41,
+      "source_offset": 4964,
+      "position": [
+        -16414.68359375,
+        -1861.2987060546875,
+        1245.1463623046875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            1.0,
+            0.4941176772117615,
+            0.125490203499794
+          ],
+          "multiplier": 0.49970000982284546,
+          "attenuation_start": 257.0,
+          "attenuation_end": 378.0
+        },
+        "Dawn": {
+          "color": [
+            1.0,
+            0.4941176772117615,
+            0.125490203499794
+          ],
+          "multiplier": 0.49970000982284546,
+          "attenuation_start": 257.0,
+          "attenuation_end": 378.0
+        },
+        "Noon": {
+          "color": [
+            1.0,
+            0.4941176772117615,
+            0.125490203499794
+          ],
+          "multiplier": 0.49970000982284546,
+          "attenuation_start": 257.0,
+          "attenuation_end": 378.0
+        },
+        "Dusk": {
+          "color": [
+            1.0,
+            0.4941176772117615,
+            0.125490203499794
+          ],
+          "multiplier": 0.49970000982284546,
+          "attenuation_start": 257.0,
+          "attenuation_end": 378.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 42,
+      "source_offset": 5072,
+      "position": [
+        -17803.283203125,
+        -631.1613159179688,
+        1078.4183349609375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.7490196228027344,
+            0.43137258291244507,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 346.0,
+          "attenuation_end": 517.0
+        },
+        "Dawn": {
+          "color": [
+            0.7490196228027344,
+            0.43137258291244507,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 346.0,
+          "attenuation_end": 517.0
+        },
+        "Noon": {
+          "color": [
+            0.7490196228027344,
+            0.43137258291244507,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 346.0,
+          "attenuation_end": 517.0
+        },
+        "Dusk": {
+          "color": [
+            0.7490196228027344,
+            0.43137258291244507,
+            0.2039215862751007
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 346.0,
+          "attenuation_end": 517.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 43,
+      "source_offset": 5180,
+      "position": [
+        -14807.15625,
+        730.6060180664062,
+        1079.8260498046875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Dawn": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Noon": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        },
+        "Dusk": {
+          "color": [
+            0.2039215862751007,
+            0.7490196228027344,
+            0.38823533058166504
+          ],
+          "multiplier": 0.9300000071525574,
+          "attenuation_start": 200.0,
+          "attenuation_end": 376.0
+        }
+      },
+      "field_status": "hypothesis"
+    },
+    {
+      "index": 44,
+      "source_offset": 5288,
+      "position": [
+        -17363.546875,
+        133.68661499023438,
+        925.0966796875
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.14509804546833038,
+            0.8392157554626465,
+            0.9333333969116211
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 100.0,
+          "attenuation_end": 192.0
+        },
+        "Dawn": {
+          "color": [
+            0.14509804546833038,
+            0.8392157554626465,
+            0.9333333969116211
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 100.0,
+          "attenuation_end": 192.0
+        },
+        "Noon": {
+          "color": [
+            0.14509804546833038,
+            0.8392157554626465,
+            0.9333333969116211
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 100.0,
+          "attenuation_end": 192.0
+        },
+        "Dusk": {
+          "color": [
+            0.14509804546833038,
+            0.8392157554626465,
+            0.9333333969116211
+          ],
+          "multiplier": 0.7200000286102295,
+          "attenuation_start": 100.0,
+          "attenuation_end": 192.0
+        }
+      },
+      "field_status": "hypothesis"
+    }
+  ]
+}

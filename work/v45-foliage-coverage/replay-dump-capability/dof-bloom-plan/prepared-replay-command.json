@@ -1,0 +1,21 @@
+{
+  "status": "PREPARED ONLY; parent review required before replay",
+  "argv": [
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\replay-dump-capability\\build\\tools\\replay\\gfxrecon-replay.exe",
+    "--opcd",
+    "--wsi",
+    "win32",
+    "--dump-resources",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\replay-dump-capability\\dof-bloom-plan\\dump-dof-bloom.json",
+    "--dump-resources-dir",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\replay-dump-capability\\dof-bloom-output",
+    "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v31-native-slice\\captures\\amalur_trim_trigger_20261105T113036.gfxr"
+  ],
+  "expected_original_frame": 50994,
+  "capture_sha256": "72c3524703435311542d555dc419771d820f6baf81c84676ef2c6dc28c367209",
+  "selected_draws": 9,
+  "estimated_raw_attachment_bytes": 14929920,
+  "output_budget_bytes": 33554432,
+  "exe_expected_sha256": "c330152751f150e7e3eea62b931c1d276e5fa1cf5667970a04ccd47300de7871",
+  "build_version": "1.0.5-unknown (unknown-build-source) Release; Vulkan1.4.363"
+}

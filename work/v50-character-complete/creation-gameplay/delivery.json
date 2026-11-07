@@ -1,0 +1,25 @@
+{
+  "ready_for_root_integration_review": true,
+  "integrated_live": false,
+  "folder": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay",
+  "contract": "INTEGRATION.md",
+  "plan": "integration-plan.json",
+  "receipt": "validation-receipt.json",
+  "windows_checks": 2745,
+  "all_race_sex_patron_cases": 48,
+  "unique_patron_buffs": 13,
+  "source_inventory_records": {
+    "base": 162,
+    "native_default_package4_active": 165
+  },
+  "actual_source_startup": "MQ01 -1 ->0 ->5, flags/locks; undefined25 remains no-op",
+  "new_assets": 8,
+  "arm64": "strict C99 syntaxPASS only",
+  "source_hashes": {
+    "oa_creation_gameplay.c": "3a4cb84154a48733a72dd2b970c75d224eb7f4ac3d372f26b59d70e4ac83edac",
+    "oa_creation_gameplay.h": "5a927bf7ff8ac8692dededca418d2dbe658615f8a354ad4857b074bdae023451",
+    "oa_creator_game.c": "8e7022e3e3ca9f43178cf1f3af24eb6efdf57b2ee39029f5153ae6a7a3844a59",
+    "oa_creator_game.h": "d125a92fe91d41374109d0e9dd5f31fe1d5bd86c48de97a083b66584deeed242",
+    "oa_creation.c": "3946be992e133160cc7083e43fddf3f9efb5e1d5b3420ea173c3b4c164cf67c4"
+  }
+}

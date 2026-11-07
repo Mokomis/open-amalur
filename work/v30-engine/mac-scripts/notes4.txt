@@ -1,0 +1,7 @@
+
+v0.33 later findings (2026-11-01).
+TERRAIN MASK: beside each tile's 361 heights is a 361-byte mask. A cell with all four corners 0 is cut out (terrain-masks.pkl, aligned with terrain-grids.pkl; canyon and riverbed models fill these). Level 512 and 4096 tiles are coarse and must not be used near play: they raised walls beside ponds and put 37 actors under terrain. Foliage matches against terrain_Hfull.npy, uncut. Walkability uses the lowest collision as the floor in cut cells.
+SKY: below the horizon is Noon fog colour, an authored choice; nothing is known of the original's lower dome. With post effects the sky gets no colour table (lut 0, use_lut 0).
+Local script copies had gone stale once and broke the sky when copied over; the PC's work/v19-host and work/v20-char are authoritative, pull before editing.
+Result with water, 790 actors, real sounds, player swinging every 3 s: vsync 10 min p95 16.66, worst frame 29.14, GPU mean 7.91, max 9.86, no frame over 40 ms, sound 3 voices, 0 underruns; uncapped mean 9.32, p95 10.64. That run had the sky bug (sky not shaded); sky cost is small. Walk gave up 38 waypoints because swings interrupt it. Thermal 0-1 at 60 fps.
+Not confirmed by anyone listening: sound levels, triggers. Not compared with the original by eye: fog strength, skyline, water tint choice (material hash 0xaf568c taken as TintColor).

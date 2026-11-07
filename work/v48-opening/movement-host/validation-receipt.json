@@ -1,0 +1,103 @@
+{
+  "scope": "new movement-host staging only; actual production C/Lua and actual private filesystem; no user files/core edits/Mac mirrors",
+  "result": {
+    "passed": true,
+    "checks": 184,
+    "source_volume_path": "4311.998,2805.992,-314.539 -> 4015.905,2805.992,-315.788",
+    "real_atomic_checkpoint": true,
+    "failure_latched_once": true,
+    "latched_frames_without_retry": 100,
+    "production_lua_runtime": true,
+    "quest_sword_door_unavailable": true,
+    "old_saves_settings_touched": false
+  },
+  "test_directory": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\movement-host\\test-output\\run-20261106-122551",
+  "files": [
+    {
+      "path": "oa_opening_movement.c",
+      "bytes": 21408,
+      "sha256": "8bca6858f7cedddab9e118317a38f9f1b11e21c2b712d41c36e392cd5303ac2b"
+    },
+    {
+      "path": "oa_opening_movement.h",
+      "bytes": 2862,
+      "sha256": "fd77c9db0563031a9baf19e186e2238955f9a84bd0075b1e4495aaa79fb25f98"
+    },
+    {
+      "path": "opening_movement_planes.h",
+      "bytes": 1467,
+      "sha256": "6051c569a0c8492785751d88ce6c2ca0f5d56696a0be4cd2f309ea61987222e0"
+    },
+    {
+      "path": "movement_sha256.h",
+      "bytes": 2403,
+      "sha256": "109112be8c3a06db8a7c59dde8ee5a098c77ee0febd0b3b5c8b52fab36455fa6"
+    },
+    {
+      "path": "source-volume-provenance.json",
+      "bytes": 12030,
+      "sha256": "f76df8fc22eb2141c475a9cf2e61a0f19a57bb5789b3774f88e6caf0bec14c41"
+    },
+    {
+      "path": "oa_opening_movement_test.c",
+      "bytes": 10404,
+      "sha256": "d89bdba50bb132b31a9d50cc15571fb0165e77ef19218b68260803b853499b16"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 1043,
+      "sha256": "3832e7e057c126b3c1f2b233896de30797f1653dfd9b93b6b91b629eaf207c57"
+    },
+    {
+      "path": "build-test.cmd",
+      "bytes": 684,
+      "sha256": "6cb232921258836e040b70357fbf2c27a66f4411ef6c7b2039058b58b682ebdf"
+    },
+    {
+      "path": "build-test.log",
+      "bytes": 760,
+      "sha256": "d87aa42f5d0186533218fe85604668f73e536579405c15381d28b0b739fdd5df"
+    },
+    {
+      "path": "movement-test.log",
+      "bytes": 366,
+      "sha256": "49eb41df217728a85065e4af6b0e9cd1aa321fd17f58f45c288376eebf9537c4"
+    },
+    {
+      "path": "INTEGRATION.txt",
+      "bytes": 7088,
+      "sha256": "291fecba915da5e72251566f92a5c3dc18e3926cc8d55249196d08694f967bc9"
+    },
+    {
+      "path": "inspect_checkpoint.py",
+      "bytes": 1534,
+      "sha256": "e66e614dd79293ec43cbead53fc5c7e07ed5e6e5dd1ab4c7b37c8da28e421b00"
+    },
+    {
+      "path": "independent-checkpoint-decode.json",
+      "bytes": 1241,
+      "sha256": "97b401d13ce55d2633bd73fafdf7cf38bc86fc84a290960983f7f34882288385"
+    },
+    {
+      "path": "test-output-latest.json",
+      "bytes": 145,
+      "sha256": "9240c0c1c1ab0ba2005e6f8d7efab5673f262fa09de8470af90871000f00f7fe"
+    },
+    {
+      "path": "build/oa-opening-movement-test.exe",
+      "bytes": 438272,
+      "sha256": "1ba3010b2b0c8fdec8fe57c8a684dcb22b6125c29f8291aff432b6527a9b02e5"
+    }
+  ],
+  "checkpoint": {
+    "path": "test-output\\run-20261106-122551\\main.opening-checkpoint-v1.bin",
+    "bytes": 276,
+    "sha256": "b142f6fa23a00ea4867e15599dd5a28b5c6a02761bb9f850910ad2567b64d3fd"
+  },
+  "dependencies": {
+    "work/v48-opening/runtime-integration/oa_opening_runtime.c": "fc341465659b2637979ad2fffd8137111ccd0171c749dbab82fc69d8723899ba",
+    "work/v48-opening/runtime-integration/oa_opening_runtime.h": "23a898bb2b8a5785234e96ece2d791aa749997f452478d5b5197af7ce935c11f",
+    "work/v48-opening/runtime-integration/asset-integrity.json": "3dc2a635d7b45b5c086ad4b3f924b2c10d7054d134ba9316fce9bc72d940a8fa",
+    "work/v48-opening/content-audit/opening-volume-world-contract.json": "d78ee7a1f67cd9fbfa5390fd6d6c0943db50a6832a564494b430c3559b250de6"
+  }
+}

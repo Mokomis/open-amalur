@@ -1,0 +1,143 @@
+{
+  "scope": "All3 opening-catalogue glassmetalprobe rows only",
+  "profile_mapping_proposal": {
+    "color": "TintColor",
+    "specular": "(sourceSpecular.x,sourceSpecular.y,0,0)",
+    "tiling": "(1,1,ReflectionInfluence,Opacity)",
+    "formula": "rho=mask.G*VC.a*ReflectionInfluence; rawBase=D.rgb*VC.rgb*(1-rho); rawSpec=S.G*sourceStrength; G2=saturate(ambientCube(mappedN.xzy)*rawBase+rho*probe(reflect(-V,mappedN).xzy)*Tint.rgb*environmentTint.rgb)",
+    "runtimeGloss": "Retain existing proven source-to-runtime gloss upload; direct source values are not bound CB evidence",
+    "probe_pack": "glassmetalprobe-probes.bin",
+    "environmentTint": "Separate GLOBAL float4 @96, cb1[6].rgb in retainedDXBC, must be supplied from current scene globals",
+    "geometry_opacity": "Unused in retained opaque geometry PS; restrict this implementation to Opacity1 source rows",
+    "undefined_cube0": "Unresolved native dynamic fallback; caller must choose/labele explicit fallback, never inherit previous binding"
+  },
+  "rows": [
+    {
+      "material_id": 464114,
+      "name": "min_metaltrim01",
+      "family_candidate": 11,
+      "source_shader_id": 358224,
+      "specular_source": [
+        1.7599999904632568,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "reflection_influence": 0.4000000059604645,
+      "tint": [
+        0.8980392813682556,
+        0.6666666865348816,
+        0.5647059082984924,
+        1.0
+      ],
+      "opacity": 1.0,
+      "source_slots": {
+        "0": 464115,
+        "1": 464128,
+        "2": 464117,
+        "3": 464116,
+        "21": 505647
+      },
+      "renderer_slot_proposal": {
+        "t0": 464115,
+        "t1": 464116,
+        "t2": 464117,
+        "t3": 464128,
+        "reflection_cube": 505647
+      },
+      "cube_loader_asset_id": 505647,
+      "cube_resolved": true,
+      "source_alpha_test": 0,
+      "source_cull": 2,
+      "specular_color_declared_but_unused_geometry": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "material_id": 469438,
+      "name": "nca_wall01",
+      "family_candidate": 11,
+      "source_shader_id": 358224,
+      "specular_source": [
+        2.5,
+        70.0,
+        0.0,
+        0.0
+      ],
+      "reflection_influence": 0.20000000298023224,
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0,
+      "source_slots": {
+        "0": 469469,
+        "1": 498117,
+        "2": 469471,
+        "3": 469470,
+        "21": 1259503
+      },
+      "renderer_slot_proposal": {
+        "t0": 469469,
+        "t1": 469470,
+        "t2": 469471,
+        "t3": 498117,
+        "reflection_cube": 1259503
+      },
+      "cube_loader_asset_id": 1259503,
+      "cube_resolved": true,
+      "source_alpha_test": 0,
+      "source_cull": 2,
+      "specular_color_declared_but_unused_geometry": null
+    },
+    {
+      "material_id": 476693,
+      "name": "nca_stalagmite01",
+      "family_candidate": 11,
+      "source_shader_id": 358224,
+      "specular_source": [
+        1.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "reflection_influence": 0.10000000149011612,
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "opacity": 1.0,
+      "source_slots": {
+        "0": 488729,
+        "1": 498117,
+        "2": 488731,
+        "3": 488730,
+        "21": 0
+      },
+      "renderer_slot_proposal": {
+        "t0": 488729,
+        "t1": 488730,
+        "t2": 488731,
+        "t3": 498117,
+        "reflection_cube": 0
+      },
+      "cube_loader_asset_id": 0,
+      "cube_resolved": false,
+      "source_alpha_test": 0,
+      "source_cull": 2,
+      "specular_color_declared_but_unused_geometry": [
+        1.0,
+        0.9843137860298157,
+        0.8549020290374756,
+        1.0
+      ]
+    }
+  ]
+}

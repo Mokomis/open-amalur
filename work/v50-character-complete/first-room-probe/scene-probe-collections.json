@@ -1,0 +1,251 @@
+{
+  "region": 1262814,
+  "region_source": "work/v48-opening/content-audit/inputs/patch_0.pak/1262814.region_bxml",
+  "region_source_sha256": "c65e0a23a4edf3d0deaf5444d3785534351bee82e1c2d59e23bfa0b291b8ba2d",
+  "region_source_space_list": [
+    1417267,
+    1417265,
+    1417263,
+    1417261,
+    1417259,
+    1417257,
+    1417255,
+    1417252,
+    1751255,
+    1751258
+  ],
+  "region_probe_publication": "No Space EnvironmentProbeInstanceMgr publication in reviewed Region vf3/vf4. Region payload+f0 is not the Space probe field; schema differs. Region ambient cubes are a different resource path.",
+  "space_collections": [
+    {
+      "space": 1417267,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417267.space_bxml",
+      "source_sha256": "119c14b400ce5fa51e5f358d89ec542a8f3d8b905eef9505420193720b3ba7a9",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 0,
+      "points": []
+    },
+    {
+      "space": 1417265,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417265.space_bxml",
+      "source_sha256": "9971d9273760872cd8c2d4f06b79769ad1742231e438189cd6145f327a3d7942",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 13644,
+          "position": [
+            -56954.50390625,
+            -22044.185546875,
+            2619.47998046875
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1453101,
+          "raw_hex": "817a5ec75f38acc6aeb72345000000002d2c1600"
+        }
+      ]
+    },
+    {
+      "space": 1417263,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417263.space_bxml",
+      "source_sha256": "a4fbd521b5ba14ed0dfd594c08ab8ef6d5b8c5da9955707368d9fedc8002763e",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 13780,
+          "position": [
+            -56736.12109375,
+            -14702.6923828125,
+            2022.77734375
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1447212,
+          "raw_hex": "1fa05dc7c5ba65c6e0d8fc44000000002c151600"
+        }
+      ]
+    },
+    {
+      "space": 1417261,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417261.space_bxml",
+      "source_sha256": "7c99d03bfb8754d84444226ff4a1dfaec70bd2ed3305f0084e972d6de7350583",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 31580,
+          "position": [
+            -48821.14453125,
+            -10291.923828125,
+            2857.041015625
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1447209,
+          "raw_hex": "25b53ec7b2cf20c6a89032450000000029151600"
+        }
+      ]
+    },
+    {
+      "space": 1417259,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417259.space_bxml",
+      "source_sha256": "42414d1490164e35e9edccfe175dcb9971c5673e8e5ab207e191356adbf2ac95",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 12200,
+          "position": [
+            -35527.125,
+            -17911.1796875,
+            833.2885131835938
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1447207,
+          "raw_hex": "20c70ac75cee8bc6775250440000000027151600"
+        }
+      ]
+    },
+    {
+      "space": 1417257,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417257.space_bxml",
+      "source_sha256": "4629d47073728a3920fb0913b5b50d6ce72f04d39857fbe8d89c65c82be7983c",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 19332,
+          "position": [
+            -25965.13671875,
+            -13286.8388671875,
+            625.2227783203125
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1447205,
+          "raw_hex": "46dacac65b9b4fc6424e1c440000000025151600"
+        }
+      ]
+    },
+    {
+      "space": 1417255,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417255.space_bxml",
+      "source_sha256": "16be7d4daef4e9ab8aa285141b93c7e2d8836c26e52e7b999860be3fe8cec2ca",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 2,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 18916,
+          "position": [
+            -29009.2109375,
+            -762.4965209960938,
+            8018.87451171875
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1319448,
+          "raw_hex": "6ca2e2c6c79f3ec4ff96fa450000000018221400"
+        },
+        {
+          "index": 1,
+          "record_file_offset": 18936,
+          "position": [
+            -25995.5546875,
+            -623.2680053710938,
+            1482.4803466796875
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1575983,
+          "raw_hex": "1c17cbc627d11bc45f4fb944000000002f0c1800"
+        }
+      ]
+    },
+    {
+      "space": 1417252,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417252.space_bxml",
+      "source_sha256": "118e4b67ecd5684957b3619dc10c64079ddd2e8eabe01fd0f891c783f82c643d",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 35556,
+          "position": [
+            2007.81494140625,
+            3784.437255859375,
+            213.244384765625
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1576506,
+          "raw_hex": "14fafa44ff866c45903e5543000000003a0e1800"
+        }
+      ]
+    },
+    {
+      "space": 1751255,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1751255.space_bxml",
+      "source_sha256": "3843636ad88cda07320d2e152328f3466757961bc9bb81c17f2e35e5a6cdbe02",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 15988,
+          "position": [
+            -6247.0185546875,
+            2624.607666015625,
+            422.5018615722656
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1762548,
+          "raw_hex": "2638c3c5b90924453d40d34300000000f4e41a00"
+        }
+      ]
+    },
+    {
+      "space": 1751258,
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1751258.space_bxml",
+      "source_sha256": "c4b26b7a54666a086850f96e035c20ac22c34d9cacb0c2ac5b381b3fd1c2b748",
+      "source_payload_pointer_offset": "0xf0 (raw file0xf8)",
+      "record_stride": 20,
+      "count": 1,
+      "points": [
+        {
+          "index": 0,
+          "record_file_offset": 15388,
+          "position": [
+            -16222.3046875,
+            771.5048828125,
+            1128.3221435546875
+          ],
+          "reserved_word": 0,
+          "texture_asset": 1762545,
+          "raw_hex": "38797dc650e040444f0a8d4400000000f1e41a00"
+        }
+      ]
+    }
+  ],
+  "initial_room_one_hop_edges": [
+    {
+      "index": 0,
+      "from_space": 1417252,
+      "to_space": 1751255,
+      "from_name": "dgn_wellofsouls_1",
+      "to_name": "dgn_wellofsouls_1b",
+      "raw_hex": "f4c028c543023345407f0bc10000803f0000000000000000000000000000803f0000803f0000803f0000803f42000000f4c02845430233c5407f0b410000803f0000000000000000000000000000803f0000803f0000803f0000803f420000000fc128c52a023345407f0b410000803f00000080000000800000803f17229a350000803f0000803f0000803f5e00000000002f450000af44c0b91a0024a01500d7b81a00"
+    }
+  ],
+  "query": "Native c97e90 scans ALL registered Space probe collections, picks nearest XYZ squaredEuclidean strict<; zero points returns procedural black fallback.",
+  "scope": "Source-native evidence only; no new original game runtime. FirstRoom one-hop source graph includes1417252 and1751255. Actual custom load selection is parent-owned."
+}

@@ -1,0 +1,62 @@
+{
+  "result": "PASS",
+  "staging_only": true,
+  "files": {
+    "build-test.cmd": {
+      "bytes": 862,
+      "sha256": "ef26acd95afb53308cc7d33db64eb8e5421cd5f5c8984b8e58038eb572ab895b"
+    },
+    "build-test.log": {
+      "bytes": 58,
+      "sha256": "bb80b2229cda2adeb7819f87da70b9859a5a451eacdf45cd5efc953a475ffec4"
+    },
+    "oa_mq01_cursor.c": {
+      "bytes": 7664,
+      "sha256": "cc854a1a16fcaeb4f2c9b2f56f67723c028ff2da43136f53e21825834dc4cbb9"
+    },
+    "oa_mq01_cursor.h": {
+      "bytes": 4121,
+      "sha256": "60d54036a23c90a8725e3b70b45a4dd2d2e70488b1020b254798eb89a900965e"
+    },
+    "oa_mq01_cursor.obj": {
+      "bytes": 16938,
+      "sha256": "308613604293651c6c6aa094264bc4be1b63f34b40e188600cbd9b8201474689"
+    },
+    "README.md": {
+      "bytes": 6510,
+      "sha256": "dfd43a99620eea46cb3f4c026080238a53cbb0591f92ef3c431a99491121c7d5"
+    },
+    "test-results.json": {
+      "bytes": 140,
+      "sha256": "64d9c334976d93f432b34b323ec97575a7db08866480d4bb3d018df60a162c42"
+    },
+    "test_mq01_cursor.c": {
+      "bytes": 8803,
+      "sha256": "c65c21d9f949a7cd685854bf0cce1c3024f14b8b4ef112769d783d5c7e4c6bbe"
+    },
+    "test_mq01_cursor.exe": {
+      "bytes": 164352,
+      "sha256": "37209aa121add0c6e414b34aa495b1bab0cd0b2b37173f6ee03f8bc83f89c3d2"
+    },
+    "test_mq01_cursor.obj": {
+      "bytes": 43590,
+      "sha256": "9a50914cde0c8c4de5de57600f23f617d6272e2dc8fa665cab0ab03b5daf8aa6"
+    },
+    "test_mq01_cursor_arm64": {
+      "bytes": 24680,
+      "sha256": "2b6901663b5991d207bbaa297aba29ac1b6232897bb19a64930784c9d05417d5"
+    },
+    "validate_artifacts.py": {
+      "bytes": 1951,
+      "sha256": "857a155665ba7473bfceab6ac4ac3fedd898eb63bc13a39d3d1ba4bc72e81a82"
+    },
+    "validation-receipt.json": {
+      "bytes": 2082,
+      "sha256": "71b46fb6bc9fad83b4f97ceeb55b3ff80a6087f1d947c5490389df556c6c889d"
+    },
+    "validation.log": {
+      "bytes": 1603,
+      "sha256": "aa1322fefe8953629dc9b680398a9ca8ac4c66300aa3db10b0fae2fad2140c54"
+    }
+  }
+}

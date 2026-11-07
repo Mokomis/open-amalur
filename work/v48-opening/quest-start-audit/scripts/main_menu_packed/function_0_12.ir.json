@@ -1,0 +1,224 @@
+[
+  {
+    "pc": 0,
+    "file_offset": 328720,
+    "word_hex": "08010001",
+    "name": "EQ",
+    "A": 1,
+    "B": 0,
+    "C": 256,
+    "successors": [
+      30,
+      2
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 0
+    },
+    "right_operand": {
+      "kind": "constant",
+      "index": 0,
+      "lua": "nil"
+    }
+  },
+  {
+    "pc": 2,
+    "file_offset": 328728,
+    "word_hex": "aa000101",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      4
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"QUEST\""
+  },
+  {
+    "pc": 4,
+    "file_offset": 328736,
+    "word_hex": "86020401",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 4,
+    "successors": [
+      7
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_quest_script_module\""
+  },
+  {
+    "pc": 7,
+    "file_offset": 328748,
+    "word_hex": "0e000002",
+    "name": "MOVE",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      8
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 8,
+    "file_offset": 328752,
+    "word_hex": "04040201",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "successors": [
+      9
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 9,
+    "file_offset": 328756,
+    "word_hex": "08030001",
+    "name": "EQ",
+    "A": 1,
+    "B": 1,
+    "C": 256,
+    "successors": [
+      30,
+      11
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 1
+    },
+    "right_operand": {
+      "kind": "constant",
+      "index": 0,
+      "lua": "nil"
+    }
+  },
+  {
+    "pc": 11,
+    "file_offset": 328764,
+    "word_hex": "00020502",
+    "name": "GETFIELD",
+    "A": 2,
+    "B": 1,
+    "C": 5,
+    "successors": [
+      14
+    ],
+    "kind": "getfield_k",
+    "constant_lua": "\"m_CHEAT_START_SPACE\""
+  },
+  {
+    "pc": 14,
+    "file_offset": 328776,
+    "word_hex": "82000002",
+    "name": "TEST_R1",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      30,
+      16
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 16,
+    "file_offset": 328784,
+    "word_hex": "00020602",
+    "name": "GETFIELD",
+    "A": 2,
+    "B": 1,
+    "C": 6,
+    "successors": [
+      19
+    ],
+    "kind": "getfield_k",
+    "constant_lua": "\"cheat_start_quest\""
+  },
+  {
+    "pc": 19,
+    "file_offset": 328796,
+    "word_hex": "82000002",
+    "name": "TEST_R1",
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      30,
+      21
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 21,
+    "file_offset": 328804,
+    "word_hex": "aa000702",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 7,
+    "successors": [
+      23
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"enter_space\""
+  },
+  {
+    "pc": 23,
+    "file_offset": 328812,
+    "word_hex": "00020503",
+    "name": "GETFIELD",
+    "A": 3,
+    "B": 1,
+    "C": 5,
+    "successors": [
+      26
+    ],
+    "kind": "getfield_k",
+    "constant_lua": "\"m_CHEAT_START_SPACE\""
+  },
+  {
+    "pc": 26,
+    "file_offset": 328824,
+    "word_hex": "00020604",
+    "name": "GETFIELD",
+    "A": 4,
+    "B": 1,
+    "C": 6,
+    "successors": [
+      29
+    ],
+    "kind": "getfield_k",
+    "constant_lua": "\"cheat_start_quest\""
+  },
+  {
+    "pc": 29,
+    "file_offset": 328836,
+    "word_hex": "04060102",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      30
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 30,
+    "file_offset": 328840,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  }
+]

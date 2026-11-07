@@ -1,0 +1,347 @@
+[
+  {
+    "material": 1880463,
+    "name": "01_rusty_sword",
+    "shader": 545212,
+    "shader_name": "characterhardlight",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "parameters": [
+      {
+        "hash": 10276250,
+        "name": "ConstantColor",
+        "type": 11,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "hash": 11960536,
+        "name": "SpecularValues",
+        "type": 11,
+        "values": [
+          1.0,
+          20.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "hash": 23195542,
+        "name": "CharacterExtraTerms2",
+        "type": 4,
+        "values": [
+          0.15000000596046448,
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "hash": 10120212,
+        "name": "FresnelValues2",
+        "type": 4,
+        "values": [
+          1.399999976158142,
+          2.4000000953674316,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "texture_slots": [
+      {
+        "slot": 0,
+        "asset": 1880460,
+        "name": "01_rusty_sword_d"
+      },
+      {
+        "slot": 1,
+        "asset": 250070,
+        "name": "par_color_white_d"
+      },
+      {
+        "slot": 2,
+        "asset": 1880462,
+        "name": "01_rusty_sword_s"
+      },
+      {
+        "slot": 3,
+        "asset": 1880461,
+        "name": "01_rusty_sword_n"
+      }
+    ],
+    "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\1880463.mat_bxml",
+    "raw_hex": "a00000000800000028000000040000008800000004000000bc5108000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b6009a99193e0000803f0000803f000000000400000096ef61013333b33f9a991940000000000000000004000000146c9a008cb11c0000000000d6d00300010000008eb11c00020000008db11c00030000000000000008000000"
+  },
+  {
+    "material": 459142,
+    "name": "min_woodbase01",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "parameters": [
+      {
+        "hash": 10276250,
+        "name": "ConstantColor",
+        "type": 11,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "hash": 11960536,
+        "name": "SpecularValues",
+        "type": 11,
+        "values": [
+          1.0,
+          20.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "texture_slots": [
+      {
+        "slot": 0,
+        "asset": 488732,
+        "name": "min_woodbase01_d"
+      },
+      {
+        "slot": 1,
+        "asset": 250070,
+        "name": "par_color_white_d"
+      },
+      {
+        "slot": 2,
+        "asset": 488734,
+        "name": "min_woodbase01_s"
+      },
+      {
+        "slot": 3,
+        "asset": 489079,
+        "name": "min_woodbase01_n"
+      }
+    ],
+    "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\459142.mat_bxml",
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b6001c75070000000000d6d00300010000001e7507000200000077760700030000000000000008000000"
+  },
+  {
+    "material": 464114,
+    "name": "min_metaltrim01",
+    "shader": 358224,
+    "shader_name": "glassmetalprobe",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "parameters": [
+      {
+        "hash": 11960536,
+        "name": "SpecularValues",
+        "type": 11,
+        "values": [
+          1.7599999904632568,
+          100.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "hash": 10447209,
+        "name": "SpecularColor",
+        "type": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "hash": 20810926,
+        "name": "ReflectionInfluence",
+        "type": 2,
+        "values": [
+          0.4000000059604645,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "hash": 4394951,
+        "name": "TintColor",
+        "type": 4,
+        "values": [
+          0.8980392813682556,
+          0.6666666865348816,
+          0.5647059082984924,
+          1.0
+        ]
+      },
+      {
+        "hash": 2873547,
+        "name": "Opacity",
+        "type": 11,
+        "values": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "texture_slots": [
+      {
+        "slot": 0,
+        "asset": 464115,
+        "name": "min_metaltrim01_d"
+      },
+      {
+        "slot": 1,
+        "asset": 464128,
+        "name": "min_metaltrim01_a"
+      },
+      {
+        "slot": 2,
+        "asset": 464117,
+        "name": "min_metaltrim01_s"
+      },
+      {
+        "slot": 3,
+        "asset": 464116,
+        "name": "min_metaltrim01_n"
+      },
+      {
+        "slot": 21,
+        "asset": 505647,
+        "name": "505646_cubemap"
+      }
+    ],
+    "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\464114.mat_bxml",
+    "raw_hex": "c0000000080000002800000005000000a00000000500000050770500000000000200000000000000ae47e13f0000c84200000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f00cdcccc3e00000000000000000000000002000000ae8c3d01e7e5653fabaa2a3f9190103f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00f3140700000000000015070001000000f514070002000000f4140700030000002fb70700150000000000000008000000"
+  },
+  {
+    "material": 464123,
+    "name": "min_woodplanks",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "parameters": [
+      {
+        "hash": 10276250,
+        "name": "ConstantColor",
+        "type": 11,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "hash": 11960536,
+        "name": "SpecularValues",
+        "type": 11,
+        "values": [
+          1.0,
+          20.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "texture_slots": [
+      {
+        "slot": 0,
+        "asset": 464119,
+        "name": "min_woodplanks_d"
+      },
+      {
+        "slot": 1,
+        "asset": 250070,
+        "name": "par_color_white_d"
+      },
+      {
+        "slot": 2,
+        "asset": 576181,
+        "name": "min_woodplanks_s"
+      },
+      {
+        "slot": 3,
+        "asset": 464120,
+        "name": "min_woodplanks_n"
+      }
+    ],
+    "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\464123.mat_bxml",
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600f714070000000000d6d0030001000000b5ca080002000000f8140700030000000000000008000000"
+  },
+  {
+    "material": 737050,
+    "name": "gen_skeleton_01",
+    "shader": 419915,
+    "shader_name": "dot3alpha",
+    "alpha_test": 1,
+    "cull": 2,
+    "cutoff_byte": 128,
+    "parameters": [
+      {
+        "hash": 11960536,
+        "name": "SpecularValues",
+        "type": 11,
+        "values": [
+          1.5,
+          10.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "hash": 10276250,
+        "name": "ConstantColor",
+        "type": 11,
+        "values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "texture_slots": [
+      {
+        "slot": 0,
+        "asset": 737047,
+        "name": "gen_skeleton_01_d"
+      },
+      {
+        "slot": 1,
+        "asset": 737046,
+        "name": "gen_skeleton_01_a"
+      },
+      {
+        "slot": 2,
+        "asset": 737049,
+        "name": "gen_skeleton_01_s"
+      },
+      {
+        "slot": 3,
+        "asset": 737048,
+        "name": "gen_skeleton_01_n"
+      }
+    ],
+    "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\737050.mat_bxml",
+    "raw_hex": "7000000008000000280000000200000058000000040000004b6806000100000002000000800000000000c03f0000204100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0b0000009acd9c00173f0b0000000000163f0b0001000000193f0b0002000000183f0b00030000000000000008000000"
+  }
+]

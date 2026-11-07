@@ -1,0 +1,29 @@
+{
+  "scope": "Focused static source diff review of common range culling, TREE_LEAF OARGEO1 use, stats API and desktop probes. No source edits/builds.",
+  "source_sha256": {
+    "oa_stream.c": "545853345559fd4b8cd388929c94e71639e9673fac7fd61af0d45213633cabbc",
+    "oa_stream.h": "a752bd0e021b69c2b6667841a7dfbea026a45b1f11b0d28612acb58d0e4c2144",
+    "android_scene.c": "fd7c4a0517e1726b7856bf2c3b18878a580c279afb50356dbd926a4815444559"
+  },
+  "baseline_sha256": {
+    "oa_stream.c": "e7365aaa5041e8c16001e5c1569f7b399877841a56b771787c91c9f639887ee2",
+    "oa_stream.h": "1ef70182361fa6f65f604ed38ff96b5daca884bc4d9edaf4185ec9ac8ed79605",
+    "android_scene.c": "8f5f6842b5958c7bec0991a2847ad2b77a7522d934c98ca65fcd7b94111ea76a"
+  },
+  "actionable_findings": [],
+  "checks": [
+    "upload_cell recognizes OARGEO1 independent of slot; dynamic range rows are allocated/validated and geometry_kind2 uses unchanged76B VAO.",
+    "lod_draw supplies range draw records throughout readiness/binding/texture idle scans; d<draw_count bounds both allocated range rows and draw metadata.",
+    "Existing free_gpu/contextclose/upload replacement free and clear ranges; added culling reads metadata only and adds no lifetime/concurrency owner.",
+    "Common q->ranges check now applies TREE_LEAF rather than region-only. Main predepth, lit forward, and native shadow cascade calls all use oa_stream_draw_world_range with same maincamera last_eye, so visibility policy agrees between these passes.",
+    "New cull branch preserves GL state and material/VAO binding behavior; it filters before binding/draw.",
+    "leaf_lod_culled is unsigned in internal and public stats; initialized locally, reset/accumulated with existing stats convention, copied in getter and matched by logging argument.",
+    "Desktop material xy[6][2] and loop6 agree. Desktop depth native_xy[12][2],xy[24],bytes[48], GLSLpoints[12],12x1 texture/viewport/readback and loops12 agree. gl_FragCoord.x indices0..11 stay in shader array bounds.",
+    "Probe depth target is independentRGBA texture, not its sampled depth texture. Existing GL program/VAO/FBO/viewport/texture/sampler/enable state restoration retained."
+  ],
+  "limits": [
+    "Static review only; parent owns packaged175-file input validation and Win/ARM runtime smoke.",
+    "Counter counts rejected range visits across phase passes, not unique source objects; this matches current rejection naming.",
+    "Legacy nonnative oa_stream_draw path does not iterate TREE_LEAF before or after this change; no new shadow regression identified."
+  ]
+}

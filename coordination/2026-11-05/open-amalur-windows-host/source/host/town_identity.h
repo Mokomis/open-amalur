@@ -1,0 +1,4 @@
+#ifndef OA_TOWN_IDENTITY_H
+#define OA_TOWN_IDENTITY_H
+#define AMALUR_TOWN_SHA256 "cf5cd07bb0fc1dee6c04eef9d1265904cfa8c2b8ac44b384e41e865e25d6cc15"
+#endif

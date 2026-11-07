@@ -1,0 +1,229 @@
+{
+  "path": "0",
+  "parameter_count": 0,
+  "maximum_stack_size": 3,
+  "upvalue_count": 0,
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 309,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        2
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"module\""
+    },
+    {
+      "pc": 2,
+      "file_offset": 317,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 3,
+      "Bx": 3,
+      "successors": [
+        3
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"well_of_souls_lab_fomorous\""
+    },
+    {
+      "pc": 3,
+      "file_offset": 321,
+      "name": "GETGLOBAL_MEM",
+      "A": 2,
+      "B": 0,
+      "C": 4,
+      "Bx": 4,
+      "successors": [
+        5
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"package\""
+    },
+    {
+      "pc": 5,
+      "file_offset": 329,
+      "name": "GETFIELD_R1",
+      "A": 2,
+      "B": 2,
+      "C": 7,
+      "Bx": 1031,
+      "successors": [
+        8
+      ],
+      "kind": "getfield_cached_k",
+      "constant_lua": "\"seeall\""
+    },
+    {
+      "pc": 8,
+      "file_offset": 341,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 3,
+      "C": 1,
+      "Bx": 1537,
+      "successors": [
+        9
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 9,
+      "file_offset": 345,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        11
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 11,
+      "file_offset": 353,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 11,
+      "Bx": 11,
+      "successors": [
+        12
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"MQ02_Fomorous_Cauldron_Vignette\""
+    },
+    {
+      "pc": 12,
+      "file_offset": 357,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        13
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 13,
+      "file_offset": 361,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        14
+      ],
+      "kind": "closure",
+      "child_index": 0,
+      "captures": []
+    },
+    {
+      "pc": 14,
+      "file_offset": 365,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 12,
+      "Bx": 12,
+      "successors": [
+        15
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_vignette_start\""
+    },
+    {
+      "pc": 15,
+      "file_offset": 369,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "Bx": 1,
+      "successors": [
+        16
+      ],
+      "kind": "closure",
+      "child_index": 1,
+      "captures": []
+    },
+    {
+      "pc": 16,
+      "file_offset": 373,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 13,
+      "Bx": 13,
+      "successors": [
+        17
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_vignette_end\""
+    },
+    {
+      "pc": 17,
+      "file_offset": 377,
+      "name": "RETURN",
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "Bx": 512,
+      "successors": [],
+      "kind": "return_fixed"
+    }
+  ],
+  "children": [
+    {
+      "path": "0/0",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 591,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/1",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 648,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

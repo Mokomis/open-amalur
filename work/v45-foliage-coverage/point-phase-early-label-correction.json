@@ -1,0 +1,5 @@
+{
+  "retained_file": "bridge-point-phase-0-cart-native.png",
+  "ab_comparison_valid": false,
+  "reason": "prof_read was startup-only; property changes did not update live depth phase. Both earlier labeled images actually used defaultphase1. Finalphase1native samples remainvalid; new code readsnewregion/dofphase controls everyframe andlogsactualDOFrenderphase."
+}

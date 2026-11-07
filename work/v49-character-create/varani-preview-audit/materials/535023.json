@@ -1,0 +1,44 @@
+{
+  "material_id": 535023,
+  "path": "work\\v20-inputs\\initial_0.pak\\535023.mat_bxml",
+  "sha256": "d2a166b971e7b3955a1e10ed46ae58403da3b668dc560d9b959534b5e1f7273e",
+  "shader_id": 8827,
+  "source_slots": [
+    {
+      "source_slot": 0,
+      "texture_id": 535019,
+      "file_offset": 88
+    },
+    {
+      "source_slot": 1,
+      "texture_id": 250070,
+      "file_offset": 96
+    },
+    {
+      "source_slot": 2,
+      "texture_id": 535021,
+      "file_offset": 104
+    },
+    {
+      "source_slot": 3,
+      "texture_id": 535020,
+      "file_offset": 112
+    }
+  ],
+  "parameters": [
+    {
+      "file_offset": 40,
+      "value_bytes": "ccca4a3ff2f0703fefed6d3f0000803f",
+      "type": 11,
+      "key": 10276250
+    },
+    {
+      "file_offset": 64,
+      "value_bytes": "0000003f0000a0410000000000000000",
+      "type": 11,
+      "key": 11960536
+    }
+  ],
+  "header_bytes": "7000000008000000280000000200000058000000040000007b220000000000000200000000000000",
+  "runtime_sampler_identity": "Not recovered by this source-only join"
+}

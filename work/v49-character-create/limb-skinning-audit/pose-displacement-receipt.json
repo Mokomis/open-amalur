@@ -1,0 +1,2788 @@
+{
+  "result": "PASS",
+  "production_cpu": "Compiled current work/v19-host/oa_character.c and used actual oa_character_parse/pose/bones; same unchanged source pack for old+corrected variants; no GL/engine app.",
+  "production_c_sha256": "a2625dba8ce62dc8f233084915a099bc594ba632e7cc398c921b73b07684f978",
+  "production_h_sha256": "dcbaaa154e683814011ae2c352696c4cf4a6a11fb86098ef67eced0d31d11742",
+  "base_pack_sha256": "ede399d687bcbbc9d1534a208e81a13b9b3785a6f2b52dc25b28f78f36a484a4",
+  "baseline_rows_sha256": "44c99eb17d51226f52c3d1f6981302b799717515312c08d032b0671b4fb1b821",
+  "corrected_rows_sha256": "6e6799dbf1161703890199b2369fc85f8ebb9c046813ebbc72bd8f4143994a0c",
+  "cases": [
+    {
+      "clip": 0,
+      "frame": 0,
+      "time": 0
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "time_policy": "float32(8/fps); oa_character_pose performs existing interpolation"
+    }
+  ],
+  "axes": "Original source xyz/cm, facing0, feet0; no camera/world/animation policy change. Both variants use identical C FK results.",
+  "unaffected_palettes_byte_identical": true,
+  "hip_unused_records_1_through_17_byte_identical": true,
+  "skin_evaluation": "float64 accumulation over actual C float32 matrices and actual pack vertices/weights. Conditional position differences, not a native GPU replay; exact nativeVS instruction rounding/order not emulated.",
+  "metrics": [
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 0,
+      "label": "hands",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1085,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1084,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1083,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.0004074243598934875,
+        "p95_cm": 0.0035243825824463203,
+        "max_cm": 0.005328970042603559,
+        "max_component_cm": 0.00492240126882848,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 798,
+            "distance_cm": 0.005328970042603559,
+            "delta_xyz_cm": [
+              0.0005215780044274254,
+              -0.0019737892108580013,
+              -0.00492240126882848
+            ]
+          },
+          {
+            "index": 774,
+            "distance_cm": 0.005306227092359326,
+            "delta_xyz_cm": [
+              0.00048500149515717794,
+              -0.0023273067425293448,
+              -0.004743886890679505
+            ]
+          },
+          {
+            "index": 769,
+            "distance_cm": 0.005291133192351987,
+            "delta_xyz_cm": [
+              0.0004945702554834952,
+              -0.0023511001980267565,
+              -0.0047142145242276
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 5.653048066567274e-05,
+        "p95_cm": 2.9447108384609033e-06,
+        "max_cm": 0.005216350656889495,
+        "max_component_cm": 0.004665633776440359,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 267,
+            "distance_cm": 0.005216350656889495,
+            "delta_xyz_cm": [
+              0.0003156742422092407,
+              -0.002326419429650173,
+              -0.0046581580679259105
+            ]
+          },
+          {
+            "index": 263,
+            "distance_cm": 0.005215708220185241,
+            "delta_xyz_cm": [
+              0.0002728004434295883,
+              -0.0023153949167067367,
+              -0.004665633776440359
+            ]
+          },
+          {
+            "index": 260,
+            "distance_cm": 0.005175626350408818,
+            "delta_xyz_cm": [
+              0.000252087180921734,
+              -0.002305174938619814,
+              -0.004627064801212555
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 1,
+      "label": "feet",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1019,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1018,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1017,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 8.850608487807107e-05,
+        "p95_cm": 0.0008330060176394121,
+        "max_cm": 0.0010423214230986574,
+        "max_component_cm": 0.0009987901396968368,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 548,
+            "distance_cm": 0.0010423214230986574,
+            "delta_xyz_cm": [
+              -7.460960279326301e-05,
+              0.0009987901396968368,
+              -0.0002885924688307284
+            ]
+          },
+          {
+            "index": 543,
+            "distance_cm": 0.0010353963922045564,
+            "delta_xyz_cm": [
+              -0.0001768487829343357,
+              0.0009705741715677618,
+              -0.00031425463314072033
+            ]
+          },
+          {
+            "index": 545,
+            "distance_cm": 0.0010240949320461405,
+            "delta_xyz_cm": [
+              3.67121031805695e-05,
+              0.0009867684788069653,
+              -0.0002714969991650662
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 1.4726982207289538e-08,
+        "p95_cm": 2.9651104505787707e-08,
+        "max_cm": 5.905823121252134e-07,
+        "max_component_cm": 4.825246477935252e-07,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 271,
+            "distance_cm": 5.905823121252134e-07,
+            "delta_xyz_cm": [
+              1.7040274613577822e-07,
+              -4.5410757110175837e-07,
+              -3.369520520379865e-07
+            ]
+          },
+          {
+            "index": 100,
+            "distance_cm": 5.853335012803342e-07,
+            "delta_xyz_cm": [
+              -1.0573090625243253e-08,
+              4.825246477935252e-07,
+              -3.3116986841719154e-07
+            ]
+          },
+          {
+            "index": 272,
+            "distance_cm": 5.848553195929127e-07,
+            "delta_xyz_cm": [
+              9.318827665083518e-08,
+              -4.7155653248864837e-07,
+              -3.3317581937808427e-07
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 2,
+      "label": "legs",
+      "palette_only": {
+        "mean_cm": 9.23911184467403e-06,
+        "p95_cm": 9.418118048207831e-06,
+        "max_cm": 9.441611904047333e-06,
+        "max_component_cm": 7.021310210575393e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 48,
+            "distance_cm": 9.441611904047333e-06,
+            "delta_xyz_cm": [
+              -6.224472144822357e-06,
+              -1.8886352108893334e-06,
+              6.84346687762627e-06
+            ]
+          },
+          {
+            "index": 60,
+            "distance_cm": 9.439220874887257e-06,
+            "delta_xyz_cm": [
+              -6.0809096567027154e-06,
+              -2.0354757737095497e-06,
+              6.926634597448356e-06
+            ]
+          },
+          {
+            "index": 52,
+            "distance_cm": 9.436181537413229e-06,
+            "delta_xyz_cm": [
+              -6.122817467257846e-06,
+              -1.9772456880673417e-06,
+              6.902400144781495e-06
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 249,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 248,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 247,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 249,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 248,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 247,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 3,
+      "label": "legs",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1205,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1204,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1203,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 6.724695391393509e-05,
+        "p95_cm": 3.6732957640356626e-06,
+        "max_cm": 0.0028050016668758,
+        "max_component_cm": 0.0027435667086166404,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 871,
+            "distance_cm": 0.0028050016668758,
+            "delta_xyz_cm": [
+              0.00036618057569626217,
+              0.00045473932371109527,
+              -0.0027435667086166404
+            ]
+          },
+          {
+            "index": 306,
+            "distance_cm": 0.002784541276418947,
+            "delta_xyz_cm": [
+              -0.0005557432015912411,
+              -8.393688604479976e-05,
+              -0.0027272283023478394
+            ]
+          },
+          {
+            "index": 152,
+            "distance_cm": 0.002784541276418947,
+            "delta_xyz_cm": [
+              -0.0005557432015912411,
+              -8.393688604479976e-05,
+              -0.0027272283023478394
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.26425372275412534,
+        "p95_cm": 2.0855130694441883,
+        "max_cm": 10.735367438259022,
+        "max_component_cm": 10.539008365902347,
+        "vertices_above_1mm": 75,
+        "top_vertices": [
+          {
+            "index": 792,
+            "distance_cm": 10.735367438259022,
+            "delta_xyz_cm": [
+              -1.9754759455569904,
+              0.5243200228849911,
+              -10.539008365902347
+            ]
+          },
+          {
+            "index": 915,
+            "distance_cm": 10.735367438259022,
+            "delta_xyz_cm": [
+              -1.9754759455569904,
+              0.5243200228849911,
+              -10.539008365902347
+            ]
+          },
+          {
+            "index": 788,
+            "distance_cm": 10.72009266295984,
+            "delta_xyz_cm": [
+              -2.00906543995675,
+              0.237600536690858,
+              -10.527468297049438
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 4,
+      "label": "torso",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 465,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 464,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 463,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.00020191162249713493,
+        "p95_cm": 4.534645755970865e-06,
+        "max_cm": 0.005149711917267215,
+        "max_component_cm": 0.004978189734913485,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 184,
+            "distance_cm": 0.005149711917267215,
+            "delta_xyz_cm": [
+              -0.00010038440190385245,
+              -0.001314185209892571,
+              -0.004978189734913485
+            ]
+          },
+          {
+            "index": 180,
+            "distance_cm": 0.005132131716928571,
+            "delta_xyz_cm": [
+              -6.29121616313455e-06,
+              -0.001286639776747478,
+              -0.0049682285037420115
+            ]
+          },
+          {
+            "index": 165,
+            "distance_cm": 0.005105954381882865,
+            "delta_xyz_cm": [
+              7.14869185962641e-05,
+              -0.0012465350334665004,
+              -0.004950940332975051
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.7295247318313457,
+        "p95_cm": 3.592468262057926,
+        "max_cm": 26.392930623841476,
+        "max_component_cm": 26.350757976650385,
+        "vertices_above_1mm": 45,
+        "top_vertices": [
+          {
+            "index": 263,
+            "distance_cm": 26.392930623841476,
+            "delta_xyz_cm": [
+              -1.4254054638413383,
+              -0.4388168576486866,
+              -26.350757976650385
+            ]
+          },
+          {
+            "index": 290,
+            "distance_cm": 26.392930623841476,
+            "delta_xyz_cm": [
+              -1.4254054638413383,
+              -0.4388168576486866,
+              -26.350757976650385
+            ]
+          },
+          {
+            "index": 43,
+            "distance_cm": 26.392930623841476,
+            "delta_xyz_cm": [
+              -1.4254054638413383,
+              -0.4388168576486866,
+              -26.350757976650385
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 5,
+      "label": "torso",
+      "palette_only": {
+        "mean_cm": 4.215466472460415,
+        "p95_cm": 17.838858807469578,
+        "max_cm": 28.725047454819222,
+        "max_component_cm": 21.923682934005782,
+        "vertices_above_1mm": 605,
+        "top_vertices": [
+          {
+            "index": 315,
+            "distance_cm": 28.725047454819222,
+            "delta_xyz_cm": [
+              11.213273194284419,
+              -14.789962209591422,
+              -21.923682934005782
+            ]
+          },
+          {
+            "index": 316,
+            "distance_cm": 28.356898274194272,
+            "delta_xyz_cm": [
+              12.945401665840393,
+              -15.048643428495403,
+              -20.250150281048803
+            ]
+          },
+          {
+            "index": 74,
+            "distance_cm": 28.356898274194272,
+            "delta_xyz_cm": [
+              12.945401665840393,
+              -15.048643428495403,
+              -20.250150281048803
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.0001064217319667792,
+        "p95_cm": 5.203574941216802e-06,
+        "max_cm": 0.005402681464429596,
+        "max_component_cm": 0.005378152754076382,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 607,
+            "distance_cm": 0.005402681464429596,
+            "delta_xyz_cm": [
+              -0.0005175998660202907,
+              -0.0001051453018234838,
+              -0.005376802195570463
+            ]
+          },
+          {
+            "index": 364,
+            "distance_cm": 0.005402681464429596,
+            "delta_xyz_cm": [
+              -0.0005175998660202907,
+              -0.0001051453018234838,
+              -0.005376802195570463
+            ]
+          },
+          {
+            "index": 378,
+            "distance_cm": 0.0053926139354835995,
+            "delta_xyz_cm": [
+              -0.0003841722561777061,
+              9.038632958513482e-05,
+              -0.005378152754076382
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 3.997039011166321,
+        "p95_cm": 18.062479851968167,
+        "max_cm": 27.512906176394807,
+        "max_component_cm": 27.174430558550796,
+        "vertices_above_1mm": 411,
+        "top_vertices": [
+          {
+            "index": 151,
+            "distance_cm": 27.512906176394807,
+            "delta_xyz_cm": [
+              -1.646122098174553,
+              3.974998380817997,
+              -27.174430558550796
+            ]
+          },
+          {
+            "index": 396,
+            "distance_cm": 27.512906176394807,
+            "delta_xyz_cm": [
+              -1.646122098174553,
+              3.974998380817997,
+              -27.174430558550796
+            ]
+          },
+          {
+            "index": 588,
+            "distance_cm": 25.571321416123997,
+            "delta_xyz_cm": [
+              -0.5804131202543192,
+              -3.568586057445394,
+              -25.31443843199301
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 6,
+      "label": "head",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1346,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1345,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1344,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.00040174253620065323,
+        "p95_cm": 0.005148364531724165,
+        "max_cm": 0.005564728170114586,
+        "max_component_cm": 0.005539288680580512,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 203,
+            "distance_cm": 0.005564728170114586,
+            "delta_xyz_cm": [
+              -0.0005283005568834653,
+              -5.8129528262895747e-05,
+              -0.005539288680580512
+            ]
+          },
+          {
+            "index": 202,
+            "distance_cm": 0.005544329449931599,
+            "delta_xyz_cm": [
+              -0.0005367205605715242,
+              -5.55508836956875e-05,
+              -0.005518009984456285
+            ]
+          },
+          {
+            "index": 146,
+            "distance_cm": 0.0055241583382407335,
+            "delta_xyz_cm": [
+              -0.0005360372808951297,
+              -5.060055593375523e-05,
+              -0.005497856760882769
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 1.2814907580957025,
+        "p95_cm": 10.146815456616173,
+        "max_cm": 32.256303768693535,
+        "max_component_cm": 32.12466836788366,
+        "vertices_above_1mm": 179,
+        "top_vertices": [
+          {
+            "index": 338,
+            "distance_cm": 32.256303768693535,
+            "delta_xyz_cm": [
+              -2.8524267878025444,
+              0.5817873253641297,
+              -32.12466836788366
+            ]
+          },
+          {
+            "index": 336,
+            "distance_cm": 31.18446540371882,
+            "delta_xyz_cm": [
+              -2.663854243008293,
+              0.659088005088853,
+              -31.06348927743454
+            ]
+          },
+          {
+            "index": 80,
+            "distance_cm": 26.402657129564428,
+            "delta_xyz_cm": [
+              -1.425930748064987,
+              -0.43897856560559445,
+              -26.36046894161788
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 7,
+      "label": "head",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 410,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 409,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 408,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 7.99133188095409e-08,
+        "p95_cm": 0.0,
+        "max_cm": 2.532552460767989e-06,
+        "max_component_cm": 2.5240673267035163e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 32,
+            "distance_cm": 2.532552460767989e-06,
+            "delta_xyz_cm": [
+              2.0631391706160684e-07,
+              -1.845709718395483e-08,
+              2.5240673267035163e-06
+            ]
+          },
+          {
+            "index": 78,
+            "distance_cm": 2.532540327232448e-06,
+            "delta_xyz_cm": [
+              2.0806869294176522e-07,
+              7.36319261118723e-09,
+              2.52396785072051e-06
+            ]
+          },
+          {
+            "index": 79,
+            "distance_cm": 2.532345220860082e-06,
+            "delta_xyz_cm": [
+              2.0900026065362454e-07,
+              -2.5297027805848415e-09,
+              2.523704580426056e-06
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 7.99133188095409e-08,
+        "p95_cm": 0.0,
+        "max_cm": 2.532552460767989e-06,
+        "max_component_cm": 2.5240673267035163e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 32,
+            "distance_cm": 2.532552460767989e-06,
+            "delta_xyz_cm": [
+              2.0631391706160684e-07,
+              -1.845709718395483e-08,
+              2.5240673267035163e-06
+            ]
+          },
+          {
+            "index": 78,
+            "distance_cm": 2.532540327232448e-06,
+            "delta_xyz_cm": [
+              2.0806869294176522e-07,
+              7.36319261118723e-09,
+              2.52396785072051e-06
+            ]
+          },
+          {
+            "index": 79,
+            "distance_cm": 2.532345220860082e-06,
+            "delta_xyz_cm": [
+              2.0900026065362454e-07,
+              -2.5297027805848415e-09,
+              2.523704580426056e-06
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 8,
+      "label": "head",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 208,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 207,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 206,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 208,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 207,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 206,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 208,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 207,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 206,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 9,
+      "label": "hair",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 510,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 509,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 508,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 3.9591852566900463e-07,
+        "p95_cm": 4.644441507221446e-06,
+        "max_cm": 5.427404760118938e-06,
+        "max_component_cm": 5.418422205138995e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 15,
+            "distance_cm": 5.427404760118938e-06,
+            "delta_xyz_cm": [
+              3.1186289461970773e-07,
+              1.2836353757705865e-08,
+              5.418422205138995e-06
+            ]
+          },
+          {
+            "index": 12,
+            "distance_cm": 5.427404760118938e-06,
+            "delta_xyz_cm": [
+              3.1186289461970773e-07,
+              1.2836353757705865e-08,
+              5.418422205138995e-06
+            ]
+          },
+          {
+            "index": 9,
+            "distance_cm": 5.427404760118938e-06,
+            "delta_xyz_cm": [
+              3.1186289461970773e-07,
+              1.2836353757705865e-08,
+              5.418422205138995e-06
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 3.9591852566900463e-07,
+        "p95_cm": 4.644441507221446e-06,
+        "max_cm": 5.427404760118938e-06,
+        "max_component_cm": 5.418422205138995e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 15,
+            "distance_cm": 5.427404760118938e-06,
+            "delta_xyz_cm": [
+              3.1186289461970773e-07,
+              1.2836353757705865e-08,
+              5.418422205138995e-06
+            ]
+          },
+          {
+            "index": 12,
+            "distance_cm": 5.427404760118938e-06,
+            "delta_xyz_cm": [
+              3.1186289461970773e-07,
+              1.2836353757705865e-08,
+              5.418422205138995e-06
+            ]
+          },
+          {
+            "index": 9,
+            "distance_cm": 5.427404760118938e-06,
+            "delta_xyz_cm": [
+              3.1186289461970773e-07,
+              1.2836353757705865e-08,
+              5.418422205138995e-06
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 10,
+      "label": "beard",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 851,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 850,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 849,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 7.294229721493911e-05,
+        "p95_cm": 5.083214636220532e-06,
+        "max_cm": 0.005045168149659239,
+        "max_component_cm": 0.005027619317957033,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 476,
+            "distance_cm": 0.005045168149659239,
+            "delta_xyz_cm": [
+              -0.0004174002290611156,
+              -5.042520025755337e-05,
+              -0.005027619317957033
+            ]
+          },
+          {
+            "index": 515,
+            "distance_cm": 0.005045168149659239,
+            "delta_xyz_cm": [
+              -0.0004174002290611156,
+              -5.042520025755337e-05,
+              -0.005027619317957033
+            ]
+          },
+          {
+            "index": 516,
+            "distance_cm": 0.005045168149659239,
+            "delta_xyz_cm": [
+              -0.0004174002290611156,
+              -5.042520025755337e-05,
+              -0.005027619317957033
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 6.340893308671365,
+        "p95_cm": 20.283050142233325,
+        "max_cm": 34.98326024536014,
+        "max_component_cm": 34.838170905706846,
+        "vertices_above_1mm": 691,
+        "top_vertices": [
+          {
+            "index": 0,
+            "distance_cm": 34.98326024536014,
+            "delta_xyz_cm": [
+              -3.09802856065785,
+              0.7297700848241799,
+              -34.838170905706846
+            ]
+          },
+          {
+            "index": 145,
+            "distance_cm": 34.98326024536014,
+            "delta_xyz_cm": [
+              -3.09802856065785,
+              0.7297700848241799,
+              -34.838170905706846
+            ]
+          },
+          {
+            "index": 158,
+            "distance_cm": 34.98326024536014,
+            "delta_xyz_cm": [
+              -3.09802856065785,
+              0.7297700848241799,
+              -34.838170905706846
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 0,
+      "frame": 0,
+      "clip_name": "idle",
+      "part": 11,
+      "label": "beard",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 73,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 72,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 71,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 2.018638753226947e-06,
+        "p95_cm": 4.092357483948938e-06,
+        "max_cm": 6.332687312016803e-06,
+        "max_component_cm": 6.301721356294365e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 3,
+            "distance_cm": 6.332687312016803e-06,
+            "delta_xyz_cm": [
+              -6.24711496755026e-07,
+              3.117828129006739e-08,
+              -6.301721356294365e-06
+            ]
+          },
+          {
+            "index": 22,
+            "distance_cm": 5.07631487375247e-06,
+            "delta_xyz_cm": [
+              4.3303057317700677e-07,
+              -1.2329775955777222e-07,
+              5.056308424400413e-06
+            ]
+          },
+          {
+            "index": 17,
+            "distance_cm": 4.713343413485218e-06,
+            "delta_xyz_cm": [
+              3.8447014460984974e-07,
+              -1.0608819245305767e-07,
+              4.696438452356233e-06
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 8.178803584260228,
+        "p95_cm": 27.158504132285753,
+        "max_cm": 34.98399179844616,
+        "max_component_cm": 34.839166632627695,
+        "vertices_above_1mm": 72,
+        "top_vertices": [
+          {
+            "index": 25,
+            "distance_cm": 34.98399179844616,
+            "delta_xyz_cm": [
+              -3.0950885767839242,
+              0.7297788703513257,
+              -34.839166632627695
+            ]
+          },
+          {
+            "index": 24,
+            "distance_cm": 31.91983473190473,
+            "delta_xyz_cm": [
+              -2.708282453556123,
+              0.48662203562580597,
+              -31.80101027417706
+            ]
+          },
+          {
+            "index": 11,
+            "distance_cm": 31.91983473190473,
+            "delta_xyz_cm": [
+              -2.708282453556123,
+              0.48662203562580597,
+              -31.80101027417706
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 0,
+      "label": "hands",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1085,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1084,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1083,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.00039481659166260604,
+        "p95_cm": 0.0034235778379366364,
+        "max_cm": 0.005060770579305334,
+        "max_component_cm": 0.0045523219716301355,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 289,
+            "distance_cm": 0.005060770579305334,
+            "delta_xyz_cm": [
+              0.0008579903524310595,
+              -0.002175163897518928,
+              -0.004488197124729254
+            ]
+          },
+          {
+            "index": 238,
+            "distance_cm": 0.005054855008879802,
+            "delta_xyz_cm": [
+              0.0007020396893153702,
+              -0.0021587053358373964,
+              -0.0045164909729180636
+            ]
+          },
+          {
+            "index": 272,
+            "distance_cm": 0.0050475032316226985,
+            "delta_xyz_cm": [
+              0.0008168271553756767,
+              -0.002169628642782584,
+              -0.004483613924492147
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 5.704283784608215e-05,
+        "p95_cm": 2.9468750796786314e-06,
+        "max_cm": 0.005071033486127155,
+        "max_component_cm": 0.004537757922022934,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 263,
+            "distance_cm": 0.005071033486127155,
+            "delta_xyz_cm": [
+              0.0007471252592363697,
+              -0.0021368054440102924,
+              -0.004537757922022934
+            ]
+          },
+          {
+            "index": 267,
+            "distance_cm": 0.005050825218790339,
+            "delta_xyz_cm": [
+              0.0007785472094372636,
+              -0.0021438933526738424,
+              -0.004506486538957688
+            ]
+          },
+          {
+            "index": 260,
+            "distance_cm": 0.005049377604147306,
+            "delta_xyz_cm": [
+              0.0007060416964908001,
+              -0.002138078800001608,
+              -0.004519550680882389
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 1,
+      "label": "feet",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1019,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1018,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1017,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.00025102335848769435,
+        "p95_cm": 0.0017924225741489986,
+        "max_cm": 0.0019531362197300825,
+        "max_component_cm": 0.0018182004090760984,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 557,
+            "distance_cm": 0.0019531362197300825,
+            "delta_xyz_cm": [
+              0.0018182004090760984,
+              0.0003013801156335205,
+              -0.0006465743508350386
+            ]
+          },
+          {
+            "index": 443,
+            "distance_cm": 0.001930405386755452,
+            "delta_xyz_cm": [
+              0.0018084792663799476,
+              0.00018613677007728313,
+              -0.0006490152564566642
+            ]
+          },
+          {
+            "index": 558,
+            "distance_cm": 0.001930405386755452,
+            "delta_xyz_cm": [
+              0.0018084792663799476,
+              0.00018613677007728313,
+              -0.0006490152564566642
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 2.361506569950565e-08,
+        "p95_cm": 5.4118343166683434e-08,
+        "max_cm": 9.302098640810535e-07,
+        "max_component_cm": 7.90108472870088e-07,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 141,
+            "distance_cm": 9.302098640810535e-07,
+            "delta_xyz_cm": [
+              7.90108472870088e-07,
+              1.2017242845274723e-07,
+              -4.7600165942185413e-07
+            ]
+          },
+          {
+            "index": 142,
+            "distance_cm": 9.217640537020292e-07,
+            "delta_xyz_cm": [
+              7.727775468424625e-07,
+              1.954877024701318e-07,
+              -4.628697354291944e-07
+            ]
+          },
+          {
+            "index": 137,
+            "distance_cm": 8.964418644792986e-07,
+            "delta_xyz_cm": [
+              7.66310165545292e-07,
+              4.3015697226422844e-08,
+              -4.6316994328776673e-07
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 2,
+      "label": "legs",
+      "palette_only": {
+        "mean_cm": 3.039866277279224e-05,
+        "p95_cm": 3.050646052419511e-05,
+        "max_cm": 3.0529868060445396e-05,
+        "max_component_cm": 2.6360480774201278e-05,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 227,
+            "distance_cm": 3.0529868060445396e-05,
+            "delta_xyz_cm": [
+              -2.635474632484147e-05,
+              2.9328720536625497e-06,
+              1.512939032011218e-05
+            ]
+          },
+          {
+            "index": 229,
+            "distance_cm": 3.052923981600857e-05,
+            "delta_xyz_cm": [
+              -2.6360480774201278e-05,
+              2.8660689004311735e-06,
+              1.5130934741591773e-05
+            ]
+          },
+          {
+            "index": 235,
+            "distance_cm": 3.052339048130573e-05,
+            "delta_xyz_cm": [
+              -2.6355833369962056e-05,
+              2.860958321804219e-06,
+              1.5128196565683538e-05
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 249,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 248,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 247,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 249,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 248,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 247,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 3,
+      "label": "legs",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1205,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1204,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1203,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 6.272199313990248e-05,
+        "p95_cm": 3.4865906435751704e-06,
+        "max_cm": 0.0026902445620146254,
+        "max_component_cm": 0.0026188390667272188,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 871,
+            "distance_cm": 0.0026902445620146254,
+            "delta_xyz_cm": [
+              0.0005714449473757099,
+              0.00022923441746680595,
+              -0.0026188390667272188
+            ]
+          },
+          {
+            "index": 848,
+            "distance_cm": 0.002687447663116265,
+            "delta_xyz_cm": [
+              0.00043794844899558427,
+              -0.00046526293657045414,
+              -0.002610384358263218
+            ]
+          },
+          {
+            "index": 306,
+            "distance_cm": 0.002509252486045946,
+            "delta_xyz_cm": [
+              -0.00047314862173308825,
+              7.197260547475715e-05,
+              -0.0024631886579271622
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.24300765758793172,
+        "p95_cm": 1.9589598261057959,
+        "max_cm": 9.812397851056309,
+        "max_component_cm": 9.598935038351996,
+        "vertices_above_1mm": 75,
+        "top_vertices": [
+          {
+            "index": 792,
+            "distance_cm": 9.812397851056309,
+            "delta_xyz_cm": [
+              -1.7627100994944236,
+              1.0180622879044172,
+              -9.598935038351996
+            ]
+          },
+          {
+            "index": 915,
+            "distance_cm": 9.812397851056309,
+            "delta_xyz_cm": [
+              -1.7627100994944236,
+              1.0180622879044172,
+              -9.598935038351996
+            ]
+          },
+          {
+            "index": 788,
+            "distance_cm": 9.778985268225224,
+            "delta_xyz_cm": [
+              -1.866011572963675,
+              0.7498098696806554,
+              -9.56997068151523
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 4,
+      "label": "torso",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 465,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 464,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 463,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.00019796920361912066,
+        "p95_cm": 4.219064121722026e-06,
+        "max_cm": 0.005050280797799098,
+        "max_component_cm": 0.005009451059635239,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 184,
+            "distance_cm": 0.005050280797799098,
+            "delta_xyz_cm": [
+              0.000574929660944079,
+              -0.001077256678655658,
+              -0.004900439783313004
+            ]
+          },
+          {
+            "index": 226,
+            "distance_cm": 0.005048633982901428,
+            "delta_xyz_cm": [
+              0.00045308666522192453,
+              -0.0010748104078501797,
+              -0.004912046432423267
+            ]
+          },
+          {
+            "index": 275,
+            "distance_cm": 0.005018757004268736,
+            "delta_xyz_cm": [
+              -0.00021231838475443965,
+              -0.00021964255623885265,
+              -0.005009451059635239
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.69701321078434,
+        "p95_cm": 3.444103692542279,
+        "max_cm": 25.211347621513777,
+        "max_component_cm": 25.021800070636147,
+        "vertices_above_1mm": 45,
+        "top_vertices": [
+          {
+            "index": 263,
+            "distance_cm": 25.211347621513777,
+            "delta_xyz_cm": [
+              -3.053649983139522,
+              -0.44361232894646707,
+              -25.021800070636147
+            ]
+          },
+          {
+            "index": 290,
+            "distance_cm": 25.211347621513777,
+            "delta_xyz_cm": [
+              -3.053649983139522,
+              -0.44361232894646707,
+              -25.021800070636147
+            ]
+          },
+          {
+            "index": 43,
+            "distance_cm": 25.211347621513777,
+            "delta_xyz_cm": [
+              -3.053649983139522,
+              -0.44361232894646707,
+              -25.021800070636147
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 5,
+      "label": "torso",
+      "palette_only": {
+        "mean_cm": 3.7842708220320747,
+        "p95_cm": 16.762639871731665,
+        "max_cm": 29.11630436600368,
+        "max_component_cm": 24.26398100332449,
+        "vertices_above_1mm": 646,
+        "top_vertices": [
+          {
+            "index": 557,
+            "distance_cm": 29.11630436600368,
+            "delta_xyz_cm": [
+              7.638438943408573,
+              -20.46550232048014,
+              -19.250367404597924
+            ]
+          },
+          {
+            "index": 561,
+            "distance_cm": 29.06036697322592,
+            "delta_xyz_cm": [
+              4.541408853777682,
+              -22.878710788324952,
+              -17.333353019700866
+            ]
+          },
+          {
+            "index": 129,
+            "distance_cm": 28.400749168912665,
+            "delta_xyz_cm": [
+              2.0594887933962127,
+              -23.729022875352968,
+              -15.469147767292952
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.00010851431838291489,
+        "p95_cm": 5.019780414948883e-06,
+        "max_cm": 0.005345117287888595,
+        "max_component_cm": 0.005339772134249188,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 607,
+            "distance_cm": 0.005345117287888595,
+            "delta_xyz_cm": [
+              0.00019964160913410467,
+              0.00013136058573159914,
+              -0.005339772134249188
+            ]
+          },
+          {
+            "index": 364,
+            "distance_cm": 0.005345117287888595,
+            "delta_xyz_cm": [
+              0.00019964160913410467,
+              0.00013136058573159914,
+              -0.005339772134249188
+            ]
+          },
+          {
+            "index": 378,
+            "distance_cm": 0.005244683136290329,
+            "delta_xyz_cm": [
+              0.00024167625855664454,
+              0.0003350662071577304,
+              -0.0052283864071966946
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 3.8114608521796054,
+        "p95_cm": 17.3108054622643,
+        "max_cm": 26.534642240673136,
+        "max_component_cm": 26.049724071187086,
+        "vertices_above_1mm": 411,
+        "top_vertices": [
+          {
+            "index": 151,
+            "distance_cm": 26.534642240673136,
+            "delta_xyz_cm": [
+              -2.5580045248593795,
+              4.3538175784396635,
+              -26.049724071187086
+            ]
+          },
+          {
+            "index": 396,
+            "distance_cm": 26.534642240673136,
+            "delta_xyz_cm": [
+              -2.5580045248593795,
+              4.3538175784396635,
+              -26.049724071187086
+            ]
+          },
+          {
+            "index": 588,
+            "distance_cm": 24.34433191007355,
+            "delta_xyz_cm": [
+              -2.794823469571666,
+              -3.359886791689476,
+              -23.948833346716228
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 6,
+      "label": "head",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 1346,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1345,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 1344,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.0003847237825387975,
+        "p95_cm": 0.004952875558867951,
+        "max_cm": 0.005310550411015141,
+        "max_component_cm": 0.005225134277566212,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 203,
+            "distance_cm": 0.005310550411015141,
+            "delta_xyz_cm": [
+              -0.0009473233055459218,
+              4.996002507251518e-05,
+              -0.005225134277566212
+            ]
+          },
+          {
+            "index": 202,
+            "distance_cm": 0.005289330709891324,
+            "delta_xyz_cm": [
+              -0.00095101260452779,
+              5.4438132305101306e-05,
+              -0.005202848342435118
+            ]
+          },
+          {
+            "index": 146,
+            "distance_cm": 0.005269271546959874,
+            "delta_xyz_cm": [
+              -0.00094566386637851,
+              5.9285463799074734e-05,
+              -0.00518337995146112
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 1.2471569603815855,
+        "p95_cm": 9.986251889392221,
+        "max_cm": 31.718820639283695,
+        "max_component_cm": 31.3431574337568,
+        "vertices_above_1mm": 179,
+        "top_vertices": [
+          {
+            "index": 338,
+            "distance_cm": 31.718820639283695,
+            "delta_xyz_cm": [
+              -4.848967935997102,
+              0.42139623332102705,
+              -31.3431574337568
+            ]
+          },
+          {
+            "index": 336,
+            "distance_cm": 30.637707658742176,
+            "delta_xyz_cm": [
+              -4.569751767878508,
+              0.5059715425613458,
+              -30.290765790264174
+            ]
+          },
+          {
+            "index": 556,
+            "distance_cm": 25.22063869214028,
+            "delta_xyz_cm": [
+              -3.05477531629543,
+              -0.4437757814687948,
+              -25.031021290834644
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 7,
+      "label": "head",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 410,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 409,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 408,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 7.847206134905504e-08,
+        "p95_cm": 0.0,
+        "max_cm": 2.487762750995309e-06,
+        "max_component_cm": 2.4604887016721477e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 78,
+            "distance_cm": 2.487762750995309e-06,
+            "delta_xyz_cm": [
+              3.66812109575676e-07,
+              2.0192336469548877e-08,
+              2.4604887016721477e-06
+            ]
+          },
+          {
+            "index": 79,
+            "distance_cm": 2.487565087655238e-06,
+            "delta_xyz_cm": [
+              3.6775431766500333e-07,
+              1.0300884700775725e-08,
+              2.4602094867987034e-06
+            ]
+          },
+          {
+            "index": 38,
+            "distance_cm": 2.487565087655238e-06,
+            "delta_xyz_cm": [
+              3.6775431766500333e-07,
+              1.0300884700775725e-08,
+              2.4602094867987034e-06
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 7.847206134905504e-08,
+        "p95_cm": 0.0,
+        "max_cm": 2.487762750995309e-06,
+        "max_component_cm": 2.4604887016721477e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 78,
+            "distance_cm": 2.487762750995309e-06,
+            "delta_xyz_cm": [
+              3.66812109575676e-07,
+              2.0192336469548877e-08,
+              2.4604887016721477e-06
+            ]
+          },
+          {
+            "index": 79,
+            "distance_cm": 2.487565087655238e-06,
+            "delta_xyz_cm": [
+              3.6775431766500333e-07,
+              1.0300884700775725e-08,
+              2.4602094867987034e-06
+            ]
+          },
+          {
+            "index": 38,
+            "distance_cm": 2.487565087655238e-06,
+            "delta_xyz_cm": [
+              3.6775431766500333e-07,
+              1.0300884700775725e-08,
+              2.4602094867987034e-06
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 8,
+      "label": "head",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 208,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 207,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 206,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 208,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 207,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 206,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 208,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 207,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 206,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 9,
+      "label": "hair",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 510,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 509,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 508,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 3.8260359748895186e-07,
+        "p95_cm": 4.4740697255779605e-06,
+        "max_cm": 5.284367189944698e-06,
+        "max_component_cm": 5.2514063497710595e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 15,
+            "distance_cm": 5.284367189944698e-06,
+            "delta_xyz_cm": [
+              5.880796365431706e-07,
+              3.781915958178672e-08,
+              5.2514063497710595e-06
+            ]
+          },
+          {
+            "index": 12,
+            "distance_cm": 5.284367189944698e-06,
+            "delta_xyz_cm": [
+              5.880796365431706e-07,
+              3.781915958178672e-08,
+              5.2514063497710595e-06
+            ]
+          },
+          {
+            "index": 9,
+            "distance_cm": 5.284367189944698e-06,
+            "delta_xyz_cm": [
+              5.880796365431706e-07,
+              3.781915958178672e-08,
+              5.2514063497710595e-06
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 3.8260359748895186e-07,
+        "p95_cm": 4.4740697255779605e-06,
+        "max_cm": 5.284367189944698e-06,
+        "max_component_cm": 5.2514063497710595e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 15,
+            "distance_cm": 5.284367189944698e-06,
+            "delta_xyz_cm": [
+              5.880796365431706e-07,
+              3.781915958178672e-08,
+              5.2514063497710595e-06
+            ]
+          },
+          {
+            "index": 12,
+            "distance_cm": 5.284367189944698e-06,
+            "delta_xyz_cm": [
+              5.880796365431706e-07,
+              3.781915958178672e-08,
+              5.2514063497710595e-06
+            ]
+          },
+          {
+            "index": 9,
+            "distance_cm": 5.284367189944698e-06,
+            "delta_xyz_cm": [
+              5.880796365431706e-07,
+              3.781915958178672e-08,
+              5.2514063497710595e-06
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 10,
+      "label": "beard",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 851,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 850,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 849,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 7.16994809136947e-05,
+        "p95_cm": 5.0013915349750875e-06,
+        "max_cm": 0.004959803007305988,
+        "max_component_cm": 0.004899175941915246,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 476,
+            "distance_cm": 0.004959803007305988,
+            "delta_xyz_cm": [
+              -0.0007690356114977703,
+              -7.940522456761911e-05,
+              -0.004899175941915246
+            ]
+          },
+          {
+            "index": 515,
+            "distance_cm": 0.004959803007305988,
+            "delta_xyz_cm": [
+              -0.0007690356114977703,
+              -7.940522456761911e-05,
+              -0.004899175941915246
+            ]
+          },
+          {
+            "index": 516,
+            "distance_cm": 0.004959803007305988,
+            "delta_xyz_cm": [
+              -0.0007690356114977703,
+              -7.940522456761911e-05,
+              -0.004899175941915246
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 6.239594237247902,
+        "p95_cm": 19.96595663685538,
+        "max_cm": 34.39873901082741,
+        "max_component_cm": 33.99013634857155,
+        "vertices_above_1mm": 691,
+        "top_vertices": [
+          {
+            "index": 0,
+            "distance_cm": 34.39873901082741,
+            "delta_xyz_cm": [
+              -5.25682987372474,
+              0.556431684261077,
+              -33.99013634857155
+            ]
+          },
+          {
+            "index": 145,
+            "distance_cm": 34.39873901082741,
+            "delta_xyz_cm": [
+              -5.25682987372474,
+              0.556431684261077,
+              -33.99013634857155
+            ]
+          },
+          {
+            "index": 158,
+            "distance_cm": 34.39873901082741,
+            "delta_xyz_cm": [
+              -5.25682987372474,
+              0.556431684261077,
+              -33.99013634857155
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "clip": 1,
+      "frame": 8,
+      "clip_name": "walk",
+      "part": 11,
+      "label": "beard",
+      "palette_only": {
+        "mean_cm": 0.0,
+        "p95_cm": 0.0,
+        "max_cm": 0.0,
+        "max_component_cm": 0.0,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 73,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 72,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "index": 71,
+            "distance_cm": 0.0,
+            "delta_xyz_cm": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "unclamped_native_weights_same_old_matrices": {
+        "mean_cm": 1.9863601753883106e-06,
+        "p95_cm": 4.026642587980463e-06,
+        "max_cm": 6.245667510185513e-06,
+        "max_component_cm": 6.161622565059588e-06,
+        "vertices_above_1mm": 0,
+        "top_vertices": [
+          {
+            "index": 3,
+            "distance_cm": 6.245667510185513e-06,
+            "delta_xyz_cm": [
+              -1.0211610117494274e-06,
+              -4.490192575395957e-10,
+              -6.161622565059588e-06
+            ]
+          },
+          {
+            "index": 22,
+            "distance_cm": 4.987080470133514e-06,
+            "delta_xyz_cm": [
+              7.4835858043798e-07,
+              -9.78687184627347e-08,
+              4.929640226691845e-06
+            ]
+          },
+          {
+            "index": 17,
+            "distance_cm": 4.626906453007048e-06,
+            "delta_xyz_cm": [
+              6.886376944237327e-07,
+              -8.12998686150479e-08,
+              4.57465100112131e-06
+            ]
+          }
+        ]
+      },
+      "incorrectly_use_all4_stored_weights": {
+        "mean_cm": 8.044478883417662,
+        "p95_cm": 26.722264494760747,
+        "max_cm": 34.39869616531985,
+        "max_component_cm": 33.99056807056877,
+        "vertices_above_1mm": 72,
+        "top_vertices": [
+          {
+            "index": 25,
+            "distance_cm": 34.39869616531985,
+            "delta_xyz_cm": [
+              -5.25375602236263,
+              0.556442064827944,
+              -33.99056807056877
+            ]
+          },
+          {
+            "index": 24,
+            "distance_cm": 31.361340848483614,
+            "delta_xyz_cm": [
+              -4.682346950744783,
+              0.32763695644522306,
+              -31.008095408657226
+            ]
+          },
+          {
+            "index": 11,
+            "distance_cm": 31.361340848483614,
+            "delta_xyz_cm": [
+              -4.682346950744783,
+              0.32763695644522306,
+              -31.008095408657226
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "palette_sidecar_sha256": "6ebc4821b5e2dcfbea1d5bf79fd27754820c57b3a7b73611a31acbbab242b24f"
+}

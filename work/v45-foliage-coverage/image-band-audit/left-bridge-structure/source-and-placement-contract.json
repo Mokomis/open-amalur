@@ -1,0 +1,378 @@
+{
+  "fab": 638222,
+  "name": "for_cart_overturned",
+  "assembly": 0,
+  "native_material": 426015,
+  "material_name": "for_cart",
+  "shader": "fresnelglassmetalprobe",
+  "existing_legacy_material_row": 10,
+  "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\image-band-audit\\left-bridge-structure\\inputs\\DATA_0.pak\\638222.fab_visual_data_streamable_bin",
+  "source_sha256": "b55899540dc9bdec4f1d47720e18b5c4ec34ed819d2e8c51cb3c9f933742e830",
+  "source_bytes": 97520,
+  "native_VB_exact": true,
+  "native_IB_exact": true,
+  "vertex_count": 1868,
+  "triangles": 1296,
+  "space_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431646.space_bxml",
+  "space_sha256": "310a233c264e7ddd413f4f981d302b4a3ab8990bf96a4791416e83e00d870c48",
+  "space": "out_dal_west_01",
+  "actor_array_header": 152,
+  "actor_record_stride": 80,
+  "actor_index": 0,
+  "actor_record_file_offset": 8540,
+  "actor_record_hex": "000000005cb6b245c7faa6c7e1e1b6450000803f7733b6bcdeeeb33c780f363f52cb333f0000803f0000803f0000803f5e0000000ebd0900e43815000100000000000000000000000ebd090001000000",
+  "entity_id": 1390820,
+  "authored_translation": [
+    5718.794921875,
+    -85493.5546875,
+    5852.23486328125
+  ],
+  "authored_quaternion": [
+    -0.022241337224841118,
+    0.021964486688375473,
+    0.7111735343933105,
+    0.7023211717605591
+  ],
+  "authored_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "captured_translation": [
+    5717.96142578125,
+    -85493.5546875,
+    5865.5439453125
+  ],
+  "translation_delta_world": [
+    -0.83349609375,
+    0.0,
+    13.30908203125
+  ],
+  "translation_delta_local": [
+    2.738835767018763e-06,
+    -0.00022063550584368308,
+    13.335156147954478
+  ],
+  "rotation_max_abs_error": 5.254076751448622e-08,
+  "native_screen_bounds_min": [
+    777.3114207558858,
+    463.87620259844334
+  ],
+  "native_screen_bounds_max": [
+    918.4690034440029,
+    542.0899923133521
+  ],
+  "outputs": [
+    {
+      "file": "cart-638222-native-static-pose.oawt",
+      "pose": "native-static-pose",
+      "bytes": 295508,
+      "sha256": "6caa67c9325f4c104ed633f2fb309a7958ac94f69c7605b176c05d1013c9f284",
+      "indexed_file": "cart-638222-native-static-pose.oawe",
+      "indexed_bytes": 157548,
+      "indexed_sha256": "5bab347016f4d950874acd5625ce7570c269e5a51af34c6328e075ff683d43a7",
+      "vertex_count": 1868,
+      "triangles": 1296,
+      "cells": [
+        [
+          0,
+          -14
+        ]
+      ],
+      "runs": [
+        {
+          "material": 10,
+          "first_index": 0,
+          "index_count": 3888,
+          "native_material": 426015,
+          "source_kind_raw": 94,
+          "source_actor_entity": 1390820,
+          "source_array_header": 152,
+          "source_actor_index": 0,
+          "full_range_LOD": true
+        }
+      ],
+      "world_bounds_min": [
+        5472.08642578125,
+        -85490.1953125,
+        5837.31103515625
+      ],
+      "world_bounds_max": [
+        6030.984375,
+        -85268.90625,
+        6100.22216796875
+      ],
+      "world_matrix_column_major": [
+        -0.0125005217269063,
+        -0.9999215006828308,
+        -0.0007826518267393112,
+        0.0,
+        0.9979674220085144,
+        -0.012524998746812344,
+        0.06248224526643753,
+        0.0,
+        -0.062487147748470306,
+        -1.862645149230957e-09,
+        0.9980457425117493,
+        0.0,
+        5717.96142578125,
+        -85493.5546875,
+        5865.5439453125,
+        1.0
+      ]
+    },
+    {
+      "file": "cart-638222-authored-actor-pose.oawt",
+      "pose": "authored-actor-pose",
+      "bytes": 295508,
+      "sha256": "414c03610c00b064570b46e586266260d1d7a408f1302de0022010a0c53fa04f",
+      "indexed_file": "cart-638222-authored-actor-pose.oawe",
+      "indexed_bytes": 157548,
+      "indexed_sha256": "7ef5fe832a79596d4ec991f8cdc7273aae9d35536d0624bec73f9889220f6545",
+      "vertex_count": 1868,
+      "triangles": 1296,
+      "cells": [
+        [
+          0,
+          -14
+        ]
+      ],
+      "runs": [
+        {
+          "material": 10,
+          "first_index": 0,
+          "index_count": 3888,
+          "native_material": 426015,
+          "source_kind_raw": 94,
+          "source_actor_entity": 1390820,
+          "source_array_header": 152,
+          "source_actor_index": 0,
+          "full_range_LOD": true
+        }
+      ],
+      "world_bounds_min": [
+        5472.919921875,
+        -85490.1953125,
+        5824.001953125
+      ],
+      "world_bounds_max": [
+        6031.81787109375,
+        -85268.90625,
+        6086.9130859375
+      ],
+      "world_matrix_column_major": [
+        -0.012500469393914138,
+        -0.9999214991112296,
+        -0.0007826527514493975,
+        0.0,
+        0.9979674208896029,
+        -0.012524946206044829,
+        0.06248224730115792,
+        0.0,
+        -0.062487148863845654,
+        -7.839306981338723e-10,
+        0.9980457684859342,
+        0.0,
+        5718.794921875,
+        -85493.5546875,
+        5852.23486328125,
+        1.0
+      ]
+    },
+    {
+      "file": "cart-638222-source-actor-plus-FAB-local-candidate.oawt",
+      "pose": "source-actor-plus-FAB-local-candidate",
+      "bytes": 295508,
+      "sha256": "45a365563ce6b84dc0adf33c7499d959bd809e10228e49906c06335efba5a97f",
+      "indexed_file": "cart-638222-source-actor-plus-FAB-local-candidate.oawe",
+      "indexed_bytes": 157548,
+      "indexed_sha256": "48e5188c8e495571b01b5b04b7ec2067629d414ce8fe281f0755f3d63e5a597c",
+      "vertex_count": 1868,
+      "triangles": 1296,
+      "cells": [
+        [
+          0,
+          -14
+        ]
+      ],
+      "runs": [
+        {
+          "material": 10,
+          "first_index": 0,
+          "index_count": 3888,
+          "native_material": 426015,
+          "source_kind_raw": 94,
+          "source_actor_entity": 1390820,
+          "source_array_header": 152,
+          "source_actor_index": 0,
+          "full_range_LOD": true
+        }
+      ],
+      "world_bounds_min": [
+        5472.08642578125,
+        -85490.1953125,
+        5837.31103515625
+      ],
+      "world_bounds_max": [
+        6030.984375,
+        -85268.90625,
+        6100.22216796875
+      ],
+      "world_matrix_column_major": [
+        -0.012500469393914138,
+        -0.9999214991112296,
+        -0.0007826527514493975,
+        0.0,
+        0.9979674208896029,
+        -0.012524946206044829,
+        0.06248224730115792,
+        0.0,
+        -0.062487148863845654,
+        -7.839306981338723e-10,
+        0.9980457684859342,
+        0.0,
+        5717.96142578125,
+        -85493.5546875,
+        5865.5439453125,
+        1.0
+      ]
+    }
+  ],
+  "limits": [
+    "Two authored poses: rawactor and sourceactor+FAB-localcandidate; the latter numerically reproduces capturedtranslation but owning FABnode/bind semantics remainundecoded. Capturedfixture is separatelylabeled.",
+    "Only new sourcegeometry stagingfiles were written; no original source/archive/live assets edited.",
+    "ExistinglegacyMATSrow10 can shade baseline; exact nativefresnelglassmetalprobe family not among recovered static1..4 shaders.",
+    "No fullframe replaygeometry; sole matched sourceasset transformed by documented staticposes."
+  ],
+  "actor_fields": [
+    {
+      "offset": 0,
+      "u32": 0,
+      "float32": 0.0
+    },
+    {
+      "offset": 4,
+      "u32": 1169339996,
+      "float32": 5718.794921875
+    },
+    {
+      "offset": 8,
+      "u32": 3349609159,
+      "float32": -85493.5546875
+    },
+    {
+      "offset": 12,
+      "u32": 1169613281,
+      "float32": 5852.23486328125
+    },
+    {
+      "offset": 16,
+      "u32": 1065353216,
+      "float32": 1.0
+    },
+    {
+      "offset": 20,
+      "u32": 3166057335,
+      "float32": -0.022241337224841118
+    },
+    {
+      "offset": 24,
+      "u32": 1018425054,
+      "float32": 0.021964486688375473
+    },
+    {
+      "offset": 28,
+      "u32": 1060507512,
+      "float32": 0.7111735343933105
+    },
+    {
+      "offset": 32,
+      "u32": 1060358994,
+      "float32": 0.7023211717605591
+    },
+    {
+      "offset": 36,
+      "u32": 1065353216,
+      "float32": 1.0
+    },
+    {
+      "offset": 40,
+      "u32": 1065353216,
+      "float32": 1.0
+    },
+    {
+      "offset": 44,
+      "u32": 1065353216,
+      "float32": 1.0
+    },
+    {
+      "offset": 48,
+      "u32": 94,
+      "float32": 1.317220556465328e-43
+    },
+    {
+      "offset": 52,
+      "u32": 638222,
+      "float32": 8.943395084983134e-40
+    },
+    {
+      "offset": 56,
+      "u32": 1390820,
+      "float32": 1.948953930152242e-39
+    },
+    {
+      "offset": 60,
+      "u32": 1,
+      "float32": 1.401298464324817e-45
+    },
+    {
+      "offset": 64,
+      "u32": 0,
+      "float32": 0.0
+    },
+    {
+      "offset": 68,
+      "u32": 0,
+      "float32": 0.0
+    },
+    {
+      "offset": 72,
+      "u32": 638222,
+      "float32": 8.943395084983134e-40
+    },
+    {
+      "offset": 76,
+      "u32": 1,
+      "float32": 1.401298464324817e-45
+    }
+  ],
+  "source_kind": "space_actor_0x98",
+  "source_kind_raw_at48": 94,
+  "source_instance_id": 1390820,
+  "FAB_local_transform_candidate": {
+    "file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\image-band-audit\\left-bridge-structure\\inputs\\DATA_0.pak\\638222.fab_bxml",
+    "sha256": "0bbf47a620353d828a5fa47243e5f2be3f10fd32386de3cce4c5ff7866b6ad2b",
+    "record_offset": 148,
+    "record_stride": 48,
+    "record_hex": "0000000000000000000000000000803f0000000000000000f35b55410000803f0000803f0000803f0000803f00000000",
+    "quaternion": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "translation": [
+      0.0,
+      0.0,
+      13.334948539733887
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "duplicate_offset": 196,
+    "composed_source_translation_matches_native_float32": true,
+    "meaning_limit": "Transform-shaped source bytes and numerical composition proven; owning node/physics/bind semantics not decoded."
+  }
+}

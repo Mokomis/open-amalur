@@ -1,0 +1,1389 @@
+{
+  "status": "PASS independent source/palette reconstruction +normals-only newpack",
+  "base_pack": "work\\v49-character-create\\packs\\Varani_Male\\character.bin",
+  "base_sha256": "0c9452b0ee5412e8066f830020ccdda2cf28bd7be1539c88d37a8b453bf901e2",
+  "corrected_pack": "work\\v49-character-create\\varani-preview-audit\\corrected\\character.bin",
+  "corrected_sha256": "a3454f607a2245dc8d70a580e09d5d9c2e701133301cfaa8bed87f5009ce1a06",
+  "pack_bytes": 13629260,
+  "parts": 16,
+  "weighted_parts": 11,
+  "weighted_vertices": 7688,
+  "normal_vertices_changed": 3536,
+  "allowed_normal_span_bytes": 92256,
+  "actual_changed_bytes": 40839,
+  "palette_all_slots_match_own_descriptor": true,
+  "palette_all_inverse_records_byte_exact": true,
+  "weighted": [
+    {
+      "part": 0,
+      "fab": 514034,
+      "assembly": 0,
+      "source_palette_count": 24,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 7,
+          "source_hash": 13691488,
+          "target_rig_joint": 24,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 8,
+          "source_hash": 8897517,
+          "target_rig_joint": 25,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 9,
+          "source_hash": 12895349,
+          "target_rig_joint": 26,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 10,
+          "source_hash": 15015636,
+          "target_rig_joint": 27,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 11,
+          "source_hash": 12980356,
+          "target_rig_joint": 28,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 12,
+          "source_hash": 15100643,
+          "target_rig_joint": 29,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 6,
+          "source_bone": 13,
+          "source_hash": 11660343,
+          "target_rig_joint": 30,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 7,
+          "source_bone": 14,
+          "source_hash": 13780630,
+          "target_rig_joint": 31,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 8,
+          "source_bone": 15,
+          "source_hash": 11683820,
+          "target_rig_joint": 32,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 9,
+          "source_bone": 16,
+          "source_hash": 13804107,
+          "target_rig_joint": 33,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 10,
+          "source_bone": 17,
+          "source_hash": 11708827,
+          "target_rig_joint": 34,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 11,
+          "source_bone": 18,
+          "source_hash": 13829114,
+          "target_rig_joint": 35,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 12,
+          "source_bone": 23,
+          "source_hash": 13760350,
+          "target_rig_joint": 43,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 13,
+          "source_bone": 24,
+          "source_hash": 8966379,
+          "target_rig_joint": 44,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 14,
+          "source_bone": 25,
+          "source_hash": 12964211,
+          "target_rig_joint": 45,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 15,
+          "source_bone": 26,
+          "source_hash": 15084498,
+          "target_rig_joint": 46,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 16,
+          "source_bone": 27,
+          "source_hash": 13049218,
+          "target_rig_joint": 47,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 17,
+          "source_bone": 28,
+          "source_hash": 15169505,
+          "target_rig_joint": 48,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 18,
+          "source_bone": 29,
+          "source_hash": 11729205,
+          "target_rig_joint": 49,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 19,
+          "source_bone": 30,
+          "source_hash": 13849492,
+          "target_rig_joint": 50,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 20,
+          "source_bone": 31,
+          "source_hash": 11752682,
+          "target_rig_joint": 51,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 21,
+          "source_bone": 32,
+          "source_hash": 13872969,
+          "target_rig_joint": 52,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 22,
+          "source_bone": 33,
+          "source_hash": 11777689,
+          "target_rig_joint": 53,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 23,
+          "source_bone": 34,
+          "source_hash": 13897976,
+          "target_rig_joint": 54,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 1086
+    },
+    {
+      "part": 1,
+      "fab": 1318952,
+      "assembly": 0,
+      "source_palette_count": 4,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 3,
+          "source_hash": 9628156,
+          "target_rig_joint": 4,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 4,
+          "source_hash": 8704534,
+          "target_rig_joint": 5,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 7,
+          "source_hash": 9697018,
+          "target_rig_joint": 10,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 8,
+          "source_hash": 8773396,
+          "target_rig_joint": 11,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 0
+    },
+    {
+      "part": 2,
+      "fab": 1318954,
+      "assembly": 0,
+      "source_palette_count": 8,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 1,
+          "source_hash": 8370012,
+          "target_rig_joint": 2,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 5,
+          "source_hash": 9565231,
+          "target_rig_joint": 3,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 6,
+          "source_hash": 9628156,
+          "target_rig_joint": 4,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 9,
+          "source_hash": 9634093,
+          "target_rig_joint": 9,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 10,
+          "source_hash": 9697018,
+          "target_rig_joint": 10,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 12,
+          "source_hash": 8071361,
+          "target_rig_joint": 14,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 6,
+          "source_bone": 8,
+          "source_hash": 7945643,
+          "target_rig_joint": 8,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 7,
+          "source_bone": 18,
+          "source_hash": 6849832,
+          "target_rig_joint": 17,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 1104
+    },
+    {
+      "part": 3,
+      "fab": 1318955,
+      "assembly": 0,
+      "source_palette_count": 6,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 5,
+          "source_hash": 8444837,
+          "target_rig_joint": 18,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 6,
+          "source_hash": 7389006,
+          "target_rig_joint": 19,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 9,
+          "source_hash": 16761191,
+          "target_rig_joint": 22,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 10,
+          "source_hash": 15796074,
+          "target_rig_joint": 23,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 16,
+          "source_hash": 16830053,
+          "target_rig_joint": 41,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 17,
+          "source_hash": 15864936,
+          "target_rig_joint": 42,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 99
+    },
+    {
+      "part": 4,
+      "fab": 1318955,
+      "assembly": 1,
+      "source_palette_count": 14,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 1,
+          "source_hash": 8370012,
+          "target_rig_joint": 2,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 13,
+          "source_hash": 10362766,
+          "target_rig_joint": 38,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 20,
+          "source_hash": 10496020,
+          "target_rig_joint": 57,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 12,
+          "source_hash": 17020968,
+          "target_rig_joint": 37,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 4,
+          "source_hash": 6849832,
+          "target_rig_joint": 17,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 5,
+          "source_hash": 8444837,
+          "target_rig_joint": 18,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 6,
+          "source_bone": 6,
+          "source_hash": 7389006,
+          "target_rig_joint": 19,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 7,
+          "source_bone": 7,
+          "source_hash": 6237629,
+          "target_rig_joint": 20,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 8,
+          "source_bone": 9,
+          "source_hash": 16761191,
+          "target_rig_joint": 22,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 9,
+          "source_bone": 10,
+          "source_hash": 15796074,
+          "target_rig_joint": 23,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 10,
+          "source_bone": 11,
+          "source_hash": 13691488,
+          "target_rig_joint": 24,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 11,
+          "source_bone": 16,
+          "source_hash": 16830053,
+          "target_rig_joint": 41,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 12,
+          "source_bone": 17,
+          "source_hash": 15864936,
+          "target_rig_joint": 42,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 13,
+          "source_bone": 18,
+          "source_hash": 13760350,
+          "target_rig_joint": 43,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 0
+    },
+    {
+      "part": 5,
+      "fab": 1362163,
+      "assembly": 0,
+      "source_palette_count": 3,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 5,
+          "source_hash": 5910092,
+          "target_rig_joint": 21,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 16,
+          "source_hash": 2137644,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 26,
+          "source_hash": 4055496,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            26,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 0
+    },
+    {
+      "part": 6,
+      "fab": 1362163,
+      "assembly": 1,
+      "source_palette_count": 25,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 2,
+          "source_hash": 8444837,
+          "target_rig_joint": 18,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 3,
+          "source_hash": 7389006,
+          "target_rig_joint": 19,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 4,
+          "source_hash": 6237629,
+          "target_rig_joint": 20,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 5,
+          "source_hash": 5910092,
+          "target_rig_joint": 21,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 28,
+          "source_hash": 15564028,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            28
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 29,
+          "source_hash": 15730870,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            29
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 6,
+          "source_bone": 32,
+          "source_hash": 27322590,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            32
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 7,
+          "source_bone": 31,
+          "source_hash": 27088956,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            31
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 8,
+          "source_bone": 30,
+          "source_hash": 14374568,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            30
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 9,
+          "source_bone": 16,
+          "source_hash": 2137644,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 10,
+          "source_bone": 24,
+          "source_hash": 27074533,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            24,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 11,
+          "source_bone": 23,
+          "source_hash": 14360145,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            23,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 12,
+          "source_bone": 25,
+          "source_hash": 27308167,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            25,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 13,
+          "source_bone": 6,
+          "source_hash": 15211343,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            6
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 14,
+          "source_bone": 7,
+          "source_hash": 15378185,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            7
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 15,
+          "source_bone": 15,
+          "source_hash": 20133480,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            15
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 16,
+          "source_bone": 9,
+          "source_hash": 12775323,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            9
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 17,
+          "source_bone": 14,
+          "source_hash": 19935594,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            14
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 18,
+          "source_bone": 8,
+          "source_hash": 12619521,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            8
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 19,
+          "source_bone": 13,
+          "source_hash": 19676851,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            13
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 20,
+          "source_bone": 12,
+          "source_hash": 19478965,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            12
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 21,
+          "source_bone": 35,
+          "source_hash": 16761191,
+          "target_rig_joint": 22,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 22,
+          "source_bone": 36,
+          "source_hash": 15796074,
+          "target_rig_joint": 23,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 23,
+          "source_bone": 37,
+          "source_hash": 16830053,
+          "target_rig_joint": 41,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 24,
+          "source_bone": 38,
+          "source_hash": 15864936,
+          "target_rig_joint": 42,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 0
+    },
+    {
+      "part": 7,
+      "fab": 1362163,
+      "assembly": 3,
+      "source_palette_count": 2,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 34,
+          "source_hash": 2402908,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            34
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 27,
+          "source_hash": 2369722,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            27
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 209
+    },
+    {
+      "part": 8,
+      "fab": 1302013,
+      "assembly": 0,
+      "source_palette_count": 8,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 2,
+          "source_hash": 8444837,
+          "target_rig_joint": 18,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 3,
+          "source_hash": 7389006,
+          "target_rig_joint": 19,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 4,
+          "source_hash": 6237629,
+          "target_rig_joint": 20,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 5,
+          "source_hash": 5910092,
+          "target_rig_joint": 21,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 6,
+          "source_hash": 16761191,
+          "target_rig_joint": 22,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 7,
+          "source_hash": 15796074,
+          "target_rig_joint": 23,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 6,
+          "source_bone": 8,
+          "source_hash": 16830053,
+          "target_rig_joint": 41,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 7,
+          "source_bone": 9,
+          "source_hash": 15864936,
+          "target_rig_joint": 42,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 0
+    },
+    {
+      "part": 9,
+      "fab": 1293355,
+      "assembly": 0,
+      "source_palette_count": 18,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 5,
+          "source_hash": 5910092,
+          "target_rig_joint": 21,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 26,
+          "source_hash": 15564028,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            26
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 27,
+          "source_hash": 15730870,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            27
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 30,
+          "source_hash": 27322590,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            30
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 29,
+          "source_hash": 27088956,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            29
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 28,
+          "source_hash": 14374568,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            28
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 6,
+          "source_bone": 16,
+          "source_hash": 2137644,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 7,
+          "source_bone": 24,
+          "source_hash": 27074533,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            24,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 8,
+          "source_bone": 23,
+          "source_hash": 14360145,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            23,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 9,
+          "source_bone": 25,
+          "source_hash": 27308167,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            25,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 10,
+          "source_bone": 20,
+          "source_hash": 10254523,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            20,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 11,
+          "source_bone": 21,
+          "source_hash": 8997099,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            21,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 12,
+          "source_bone": 18,
+          "source_hash": 8920581,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            18,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 13,
+          "source_bone": 17,
+          "source_hash": 10178005,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            17,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 14,
+          "source_bone": 19,
+          "source_hash": 8525799,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            19,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 15,
+          "source_bone": 22,
+          "source_hash": 8602317,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            22,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 16,
+          "source_bone": 10,
+          "source_hash": 3737976,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            10
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 17,
+          "source_bone": 11,
+          "source_hash": 3814494,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            11
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 1038
+    },
+    {
+      "part": 10,
+      "fab": 1293355,
+      "assembly": 1,
+      "source_palette_count": 13,
+      "palette_byte_exact": true,
+      "palette_max_error": 0,
+      "palette_mapping": [
+        {
+          "slot": 0,
+          "source_bone": 5,
+          "source_hash": 5910092,
+          "target_rig_joint": 21,
+          "ancestor_chain": [],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 1,
+          "source_bone": 26,
+          "source_hash": 15564028,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            26
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 2,
+          "source_bone": 27,
+          "source_hash": 15730870,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            27
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 3,
+          "source_bone": 30,
+          "source_hash": 27322590,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            30
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 4,
+          "source_bone": 16,
+          "source_hash": 2137644,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 5,
+          "source_bone": 20,
+          "source_hash": 10254523,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            20,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 6,
+          "source_bone": 21,
+          "source_hash": 8997099,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            21,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 7,
+          "source_bone": 18,
+          "source_hash": 8920581,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            18,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 8,
+          "source_bone": 17,
+          "source_hash": 10178005,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            17,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 9,
+          "source_bone": 19,
+          "source_hash": 8525799,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            19,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 10,
+          "source_bone": 22,
+          "source_hash": 8602317,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            22,
+            16
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 11,
+          "source_bone": 10,
+          "source_hash": 3737976,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            10
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        },
+        {
+          "slot": 12,
+          "source_bone": 11,
+          "source_hash": 3814494,
+          "target_rig_joint": 21,
+          "ancestor_chain": [
+            11
+          ],
+          "record_byte_exact": true,
+          "max_error": 0.0
+        }
+      ],
+      "changed_normal_vertices": 0
+    }
+  ],
+  "preserved": "Everybyteoutside52BvertexnormalXYZ@12..23 unchanged: clips/textures/header/palettes/P/UV/jointindices/weights/indexorder/rigidweapons remain original.",
+  "limits": [
+    "Current common64rig/facialancestor policy preserved; not a native full-face rig reconstruction.",
+    "No GPU rendering/animation or source defaultcolor application claim.",
+    "Do not apply base-bound OACAT companion to correctedpack; it intentionally matches original SHA only."
+  ]
+}

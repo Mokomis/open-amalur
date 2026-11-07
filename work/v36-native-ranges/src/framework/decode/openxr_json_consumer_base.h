@@ -1,0 +1,117 @@
+/*
+** Copyright (c) 2022-2024 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#ifndef GFXRECON_DECODE_OPENXR_JSON_CONSUMER_BASE_H
+#define GFXRECON_DECODE_OPENXR_JSON_CONSUMER_BASE_H
+
+#if ENABLE_OPENXR_SUPPORT
+
+#include "util/output_stream.h"
+#include "util/defines.h"
+#include "annotation_handler.h"
+#include "format/platform_types.h"
+#include "format/format_json.h"
+#include "generated/generated_openxr_consumer.h"
+#include "decode/json_writer.h"
+#include "util/json_util.h"
+#include "openxr/openxr.h"
+
+#include <cstdio>
+#include <string>
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(decode)
+
+class OpenXrExportJsonConsumerBase : public OpenXrConsumer
+{
+  public:
+    OpenXrExportJsonConsumerBase();
+
+    virtual ~OpenXrExportJsonConsumerBase() override;
+
+    void Initialize(JsonWriter* writer);
+
+    void Destroy();
+
+    bool IsValid() const { return writer_ && writer_->IsValid(); }
+
+  protected:
+    nlohmann::ordered_json& WriteBlockStart() { return writer_->WriteBlockStart(); }
+
+    /// Output the current in-memory json tree to the destination file.
+    void WriteBlockEnd() { writer_->WriteBlockEnd(); }
+
+    nlohmann::ordered_json& WriteApiCallStart(const ApiCallInfo& call_info, const std::string& command_name)
+    {
+        return writer_->WriteApiCallStart(call_info, command_name);
+    }
+
+    /// A utility wrapper so that manual output functions can provide a lambda which only needs to output
+    /// the fields unique to their call and this tops and tails with the standard boilerplate, defining it
+    /// once here. Generated functions avoid the indirection through this.
+    template <typename ToJsonFunctionType>
+    inline void
+    WriteApiCallToFile(const ApiCallInfo& call_info, const std::string& command_name, ToJsonFunctionType toJsonFunction)
+    {
+        nlohmann::ordered_json& function = WriteApiCallStart(call_info, command_name);
+        toJsonFunction(function);
+        WriteBlockEnd();
+    }
+
+    std::string GenerateFilename(const std::string& filename);
+    bool        WriteBinaryFile(const std::string& filename, uint64_t data_size, const uint8_t* data);
+
+    void
+    Process_xrInitializeLoaderKHR(const ApiCallInfo&                                           call_info,
+                                  XrResult                                                     returnValue,
+                                  StructPointerDecoder<Decoded_XrLoaderInitInfoBaseHeaderKHR>* loaderInitInfo) override;
+
+    void Process_xrCreateApiLayerInstance(const ApiCallInfo&                                  call_info,
+                                          XrResult                                            returnValue,
+                                          StructPointerDecoder<Decoded_XrInstanceCreateInfo>* info,
+                                          StructPointerDecoder<Decoded_XrApiLayerCreateInfo>* layerInfo,
+                                          HandlePointerDecoder<XrInstance>*                   instance) override;
+
+    void Process_xrEnumerateSwapchainImages(const ApiCallInfo&        call_info,
+                                            XrResult                  returnValue,
+                                            format::HandleId          swapchain,
+                                            uint32_t                  imageCapacityInput,
+                                            PointerDecoder<uint32_t>* imageCountOutput,
+                                            StructPointerDecoder<Decoded_XrSwapchainImageBaseHeader>* images) override;
+
+    void Process_xrPollEvent(const ApiCallInfo&                               call_info,
+                             XrResult                                         returnValue,
+                             format::HandleId                                 instance,
+                             StructPointerDecoder<Decoded_XrEventDataBuffer>* eventData) override;
+    void ProcessViewRelativeLocation(format::ThreadId thread_id, const format::ViewRelativeLocation& location) override;
+
+    uint32_t submit_index_{ 0 }; // index of submissions across the trace
+
+    JsonWriter* writer_{ nullptr };
+};
+
+GFXRECON_END_NAMESPACE(decode)
+GFXRECON_END_NAMESPACE(gfxrecon)
+
+#endif // ENABLE_OPENXR_SUPPORT
+
+#endif // GFXRECON_DECODE_OPENXR_JSON_CONSUMER_BASE_H

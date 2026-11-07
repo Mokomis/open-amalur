@@ -1,0 +1,91 @@
+{
+  "pixel": [
+    980,
+    100
+  ],
+  "scope": "Existing9regionalprojectioncandidates only; perspectiveUV +isotropicbilinear/trilinearestimate, noGPU/replay; edgequad/derivative differences remain",
+  "hits": [
+    {
+      "source_index": 1360,
+      "fab": 377117,
+      "assembly": 1,
+      "material": 293,
+      "family": 6,
+      "raw_alpha_texture": 679,
+      "uv": [
+        0.14729398230046015,
+        0.961915465356215
+      ],
+      "uv_gradients": [
+        [
+          0.009912258906443478,
+          -2.8660938386088228e-05
+        ],
+        [
+          0.0005299996995188264,
+          0.008117470770385953
+        ]
+      ],
+      "coverage_sample": {
+        "lod": 4.343435617093357,
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "cutoff": 0.39215686274509803,
+      "passes_alpha": false,
+      "clip_w": 25259.147183869267,
+      "depth_ndc": 0.9980264024774197,
+      "screen_signed_area": -12118.979411060625,
+      "world": [
+        -15671.500029434452,
+        -76553.68972505574,
+        12575.72895265262
+      ]
+    },
+    {
+      "source_index": 2061,
+      "fab": 1611848,
+      "assembly": 0,
+      "material": 297,
+      "family": 1,
+      "raw_alpha_texture": 690,
+      "uv": [
+        0.8137125960002455,
+        0.03124451333316431
+      ],
+      "uv_gradients": [
+        [
+          0.0016038065612585563,
+          0.00021531302491219055
+        ],
+        [
+          0.00030796378120876735,
+          0.0015034166057848236
+        ]
+      ],
+      "coverage_sample": {
+        "lod": 0.7286012199001908,
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "cutoff": 0.7843137254901961,
+      "passes_alpha": false,
+      "clip_w": 114181.81039688142,
+      "depth_ndc": 0.9996412235996778,
+      "screen_signed_area": 8902.137540140033,
+      "world": [
+        -101088.83737611996,
+        -39651.505769703304,
+        33989.22069677652
+      ]
+    }
+  ]
+}

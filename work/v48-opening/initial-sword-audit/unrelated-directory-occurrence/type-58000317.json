@@ -1,0 +1,151 @@
+{
+  "format": "native-compiled-Type-carrier",
+  "input_sha256": "fb2062237e823cce03d1a946b7e1c72d93c251ab202c9e2922414c23a60ff17d",
+  "input_bytes": 672,
+  "native_executable_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "header_words_u32": [
+    509493724,
+    200727466,
+    3668889,
+    65280,
+    202082,
+    64,
+    1,
+    140,
+    2600381,
+    68,
+    9,
+    580
+  ],
+  "parent_key_u32": 2600381,
+  "script_key_u32": 202082,
+  "dependency_keys_u32": [
+    641618
+  ],
+  "components": [
+    {
+      "index": 0,
+      "kind": 13,
+      "native_name": ".?AVPartBlockingBlueprint@BHG@@",
+      "payload_offset": 60,
+      "preview_hex": "0d00000006000000000000000000000000000000000000001800000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 1,
+      "kind": 0,
+      "native_name": ".?AVPartCombatBlueprint@BHG@@",
+      "payload_offset": 68,
+      "preview_hex": "0000000000000000000000000000000018000000000000000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 2,
+      "kind": 24,
+      "native_name": ".?AVPartDetectionBlueprint@BHG@@",
+      "payload_offset": 84,
+      "preview_hex": "1800000000000000000000000000000000000000000000000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 3,
+      "kind": 34,
+      "native_name": ".?AVPartInteractionBlueprint@BHG@@",
+      "payload_offset": 124,
+      "preview_hex": "2200000090010000000000000000000000000000000000000000000000000000",
+      "fields_status": "native resolver walks pointer+4/count+8; reference roles unconfirmed",
+      "reference_keys_u32": [],
+      "native_property_copies": [
+        {
+          "blueprint_offset": 12,
+          "native_instance_offset": 36,
+          "bytes": 12,
+          "raw_hex": "000000000000000000000000"
+        },
+        {
+          "blueprint_offset": 24,
+          "native_instance_offset": 48,
+          "bytes": 4,
+          "raw_hex": "00000000"
+        },
+        {
+          "blueprint_offset": 28,
+          "native_instance_offset": 52,
+          "bytes": 4,
+          "raw_hex": "00000000"
+        },
+        {
+          "blueprint_offset": 32,
+          "native_instance_offset": 56,
+          "bytes": 4,
+          "raw_hex": "00401c48"
+        },
+        {
+          "blueprint_offset": 36,
+          "native_instance_offset": 60,
+          "bytes": 4,
+          "raw_hex": "0000c842"
+        },
+        {
+          "blueprint_offset": 40,
+          "native_instance_offset": 64,
+          "bytes": 1,
+          "raw_hex": "01"
+        }
+      ],
+      "property_evidence": {
+        "function": "0xf746a0",
+        "copy_function": "0xf74700",
+        "status": "Native byte-copy layout confirmed; gameplay field names unassigned"
+      }
+    },
+    {
+      "index": 4,
+      "kind": 6,
+      "native_name": ".?AVPartLocationBlueprint@BHG@@",
+      "payload_offset": 168,
+      "preview_hex": "0600000021000000000000000000000000000000000000000000000007000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 5,
+      "kind": 33,
+      "native_name": ".?AVPartLockableBlueprint@BHG@@",
+      "payload_offset": 172,
+      "preview_hex": "2100000000000000000000000000000000000000000000000700000090010000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 6,
+      "kind": 7,
+      "native_name": ".?AVPartRenderingBlueprint@BHG@@",
+      "payload_offset": 196,
+      "preview_hex": "07000000900100000000000090010000000000001fb509000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 7,
+      "kind": 18,
+      "native_name": ".?AVPartTalentBlueprint@BHG@@",
+      "payload_offset": 276,
+      "preview_hex": "120000001400000000000000000000000000000090010000000000000b000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 8,
+      "kind": 11,
+      "native_name": ".?AVPartWeaponBlueprint@BHG@@",
+      "payload_offset": 304,
+      "preview_hex": "0b0000009001000005000000cc01000005000000080200000500000044020000",
+      "fields_status": "opaque except confirmed reference fields"
+    }
+  ],
+  "component_count": 9,
+  "limitations": [
+    "Static native layout only; no original-game runtime validation.",
+    "Does not decode or convert compact .simtype_bxml members.",
+    "Script parameters, property names and gameplay behavior remain unresolved."
+  ],
+  "type_flags_u32": 140,
+  "native_inheritance_guard_set": false
+}

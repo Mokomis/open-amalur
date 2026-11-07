@@ -1,0 +1,39 @@
+{
+  "status": "PASS staged Unicode shared UI + WindowsGDI/Uniscribe",
+  "production_files": [
+    "oa_ui.c",
+    "oa_ui.h",
+    "oa_ui_text_win32.c",
+    "oa_ui_text_win32.h"
+  ],
+  "validation": "test-output.txt",
+  "ascii_gl_pixel_bytes_equal": 2621440,
+  "gl_errors": 0,
+  "provider_allocations": 170,
+  "provider_releases": 170,
+  "gpu_textures_deleted_at_close": 64,
+  "gdi_delta_200_rasters": 0,
+  "live_files_sha256": {
+    "oa_ui.c": "dc5db7d85af09c534661fe292251b108762f39516ad30668e5ba730a0b6f2f2e",
+    "oa_ui.h": "41c4a9942be327fabbeb6722860353fad8fa82de12c50bfe7867916e4b5e3b59"
+  },
+  "staged_sha256": {
+    "ANDROID_PROVIDER_CONTRACT.md": "0ae9284cfd4d88b4c0a6a619ff716d71a096123c953bfe2fcd89275de0ac635d",
+    "ascii-legacy.png": "2df6354c6ec549aaa1b554767a5fff7869af302666030611353c26b450b1c3e1",
+    "ascii-new.png": "2df6354c6ec549aaa1b554767a5fff7869af302666030611353c26b450b1c3e1",
+    "build_and_run.cmd": "ced9f6bb5316cf15d107085023aa8bbc39ec1636c2c48f69526f1aa676d1a989",
+    "legacy_wrap.c": "bbc824b4adac0e1f053afbad828abc422cd80cace81b63225dece7624d89665f",
+    "oa_ui.c": "f8f1fccb44e57e4ba4baa1cb6024263e8c7b70c7a180e65705dfa1ec14658ede",
+    "oa_ui.h": "005d970f97d7ce51260c1534d0becc7e6f3798c14b2f6d9918e43a59df6facfb",
+    "oa_ui_legacy.c": "dc5db7d85af09c534661fe292251b108762f39516ad30668e5ba730a0b6f2f2e",
+    "oa_ui_text_win32.c": "2c26d57a2ca756e146d61085fd43e0c47c3d5cc999d9235fa9cd8630f5574f62",
+    "oa_ui_text_win32.h": "553d8e9868ca67d00c52eb1dbc70a21a87c4f58d865c9723e25b8ca0bc56b8e9",
+    "README.md": "4a5cb918e33c2bf4445841c49dd83d0d13d463cb80f2762e14f7f626e5f0df42",
+    "renderer.txt": "d8ec01e8b9fa24c781989a015416d19a0a1960c5d37aa99a363c6b0837199bb6",
+    "test-errors.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "test-output.txt": "a5628d1f63adb33b77e09f3cfde5d8c029fb48b67b5f32c78073caf3e2ad30a7",
+    "test_unicode_ui.c": "f70bb210573b311d907df7ad1b62eb8352bb192508939b55f0e98d76ba213b31",
+    "unicode-ordering.png": "d288cd1ef85924a986514110a31ec0dfac81b701d238eec0a340c969b0468d1d",
+    "unicode-samples.png": "c5c801866fe3439141ef83d695c7109ffe7ecec24671ba36b68f3063608f3fb0"
+  }
+}

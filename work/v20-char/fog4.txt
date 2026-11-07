@@ -1,0 +1,39 @@
+PROV {"claim": "luminance_shift.bxml supplies tint, luminance, scale and max terms for character, environment and sky, plus fog and bloom scales", "status": "native_confirmed", "consumer": "FUN_00c62d30"}
+PROV {"claim": "Values inside luminance_shift.bxml", "status": "unmapped", "evidence": "File identified, not yet decoded"}
+PROV {"claim": "Fog factor = min(1, 2^-(a*z+b)) from worldToFogConstants", "status": "shader_confirmed"}
+PROV {"claim": "worldToFogConstants.xy = (density/500000, fog_start), with fog scales applied through global weight +0xB8", "status": "native_confirmed", "consumer": "FUN_00c8a880, FUN_00cd6680"}
+PROV {"claim": "Fog color is blended toward a luminance value by min(environment_max, weight)", "status": "native_confirmed", "consumer": "FUN_00cd6680"}
+PROV {"claim": "Packet 0x40 fields reach g_globalbuffer under these names", "status": "hypothesis", "evidence": "Packet stored by FUN_00c90970; the final constant-buffer write was not traced. Field meanings fit the shader use"}
+PROV {"claim": "Fog depth input is clip-space w", "status": "shader_confirmed", "evidence": "One vertex shader computes mad(cb1[1].x, r0.w, cb1[1].y)"}
+PROV {"claim": "Region values reach g_global: sun = rgb*hdr*intensity, direction negated, fog = density/500000 and start, fog color, sky light, environment tint", "evidence": "1587639.region_bxml key Midnight matches live sun within 4.2e-6; 36 regions share these values, so the capture does not single out one region", "status": "live_confirmed"}
+PROV {"claim": "Global scales: ambientDiffuseScale 5.0, ambientSpecularScale 0.9, backlightScale 0.12, sunlightFogTintAmount 0.5, sunlightFogTintPower 10", "evidence": "g_global offsets 1276, 1280, 1284, 1288, 1292", "status": "live_observed_one_scene"}
+PROV {"claim": "Merge output = table(scene + 0.5376*bloom)", "evidence": "Mean error 0.313 of 255 over sampled pixels; other scales tested were worse (0: 0.995, 1: 0.876). The asm for this pass was not identified", "status": "live_measured"}
+PROV {"claim": "Final pass does not sRGB-encode: bytes equal merge output apart from edge filtering", "evidence": "Same-frame mean error 0.096 unchanged vs 43.56 if encoded, though the texture format is R8G8B8A8_UNORM_SRGB", "status": "live_measured"}
+PROV {"claim": "Color-correction table is sampled with sRGB decoding", "evidence": {"b_g_r": {"mean_error_levels": 0.264, "worst_levels": 0.99}, "r_g_b": {"mean_error_levels": 58.31, "worst_levels": 203.55}}, "status": "live_measured"}
+PROV {"claim": "Table generator 317b351e9280c38e applies weights, pow, scale and luminance tint; all neutral in this scene (weights 0, exponent 1, scale 1)", "evidence": "Shader asm and captured 64-byte constants", "status": "live_observed_one_scene"}
+PROV {"claim": "Lit values are not gamma-corrected before the table: combine and merge write R8G8B8A8_UNORM", "evidence": "Render target formats in frame capture", "status": "live_observed"}
+PROV {"claim": "This frame used only the immediate context, though one deferred context is created", "evidence": "All captured events on one context", "status": "live_observed_one_scene"}
+lum.py :: b=open('work/v19-inputs/initial_0.pak/luminance_shift.bxml','rb').read()
+lum.py :: nce',0xe292f8:'character_scale',0x10ecc7d:'environment_scale',0x4a20a1:'sky_scale',0xac9349:'character_max',0xd06184:'environment_max',0x2cced2:'sky_max',0x14401b0:'fog_distance_scale',0x1138f27:'fog_density_scale',0xd18944:'sky_speed_scale',0x182ff62:'bloom_exposure_scale',0x94fa56:'bloom_min_lum',0x9fe5b0:'bloom_max_lum',0x17d4686:'bloom_strength_scale'}
+prov2.py ::  {"claim":"worldToFogConstants.xy = (density/500000, fog_start), with fog scales applied through global weight +0xB8","status":"native_confirmed","consumer":"FUN_00c8a880, FUN_00cd6680"},
+prov2.py ::  "Value of global weight +0xB8 during normal play; when 0, luminance_shift scales have no effect on fog or bloom",
+prov2.py ::  "luminance_shift.bxml name-to-value alignment; hashes match the reader but the table order is not yet decoded",
+write_v19.py ::  {"claim":"luminance_shift.bxml supplies tint, luminance, scale and max terms for character, environment and sky, plus fog and bloom scales","status":"native_confirmed","consumer":"FUN_00c62d30"},
+write_v19.py ::  {"claim":"Values inside luminance_shift.bxml","status":"unmapped","evidence":"File identified, not yet decoded"}],
+write_v19.py ::  {"claim":"Fog factor = min(1, 2^-(a*z+b)) from worldToFogConstants","status":"shader_confirmed"},
+write_v19.py ::  "How fog_start and fog_density derive worldToFogConstants",
+write_v19.py ::  "luminance_shift.bxml values; sky_bxml format; color-correction texture decode; ambient cube channel order",
+fin.py :: OPEN: See unresolved list in lighting-provenance.json. Next: install v0.15 only with user approval and compare with v0.14; decode luminance_shift.bxml alignment; trace final constant-buffer write.
+region from patch_0.pak keys ['fog_color', 'fog_start', 'fog_density', 'post_bloom_scale', 'post_bloom_cutoff', 'post_brightness', 'post_contrast', 'post_focal_distance', 'post_focal_radius', 'post_motion_blur', 'bloom_exposure_level', 'bloom_min_luminance', 'bloom_max_luminance', 'bloom_strength', 'dof_near_fuzzy', 'dof_near_sharp', 'dof_far_fuzzy', 'dof_far_sharp', 'dof_max_fuzzy', 'edge_motion_blur', 'color_correction_texture_id', 'directional_light_color', 'directional_light_intensity', 'shadow_color', 'sky_light_color', 'shadow_opacity', 'particle_tint', 'environment_tint', 'ambient_cube_index', 'character_ambient_cube_index']
+fog_color {"Midnight": {"value": {"rgb": [0.08235294371843338, 0.12156864255666733, 0.1568627506494522], "intensity": 1.0}, "source_offset": 20604, "status": "asset_verified"}, "Dawn": {"value": {"rgb": [0.3333333432674408, 0.3764706254005432, 0.4431372880935669], "intensity": 1.0}, "source_offset": 20620, "status": "asset_verified"}, "Noon": {"value": {"rgb": [0.41960787773132324, 0.3607843220233917, 0.22352942824363708], "intensity": 1.0}, "source_offset": 20636, "status": "asset_verified"}, "Dusk": {"value": {"rgb": [0.4941176772117615, 0.364705890417099, 0.19215688109397888], "intensity": 1.0}, "source_offset": 20652, "status": "asset_verified"}}
+fog_start {"Midnight": {"value": -0.4222549796104431, "source_offset": 20668, "status": "asset_verified"}, "Dawn": {"value": -0.20561601221561432, "source_offset": 20672, "status": "asset_verified"}, "Noon": {"value": -0.1552170217037201, "source_offset": 20676, "status": "asset_verified"}, "Dusk": {"value": -0.0075549897737801075, "source_offset": 20680, "status": "asset_verified"}}
+fog_density {"Midnight": {"value": 46.43840026855469, "source_offset": 20684, "status": "asset_verified"}, "Dawn": {"value": 33.155601501464844, "source_offset": 20688, "status": "asset_verified"}, "Noon": {"value": 23.655099868774414, "source_offset": 20692, "status": "asset_verified"}, "Dusk": {"value": 24.77750015258789, "source_offset": 20696, "status": "asset_verified"}}
+non-time env ['source_offset', 'record_bytes', 'keys', 'time_keyed', 'directional_light_direction', 'flags', 'unmapped_spans']
+OUTPUT continuation.json 1660
+     "Value of global weight +0xB8 during normal play; when 0, luminance_shift scales have no effect on fog or bloom",
+     "luminance_shift.bxml name-to-value alignment; hashes match the reader but the table order is not yet decoded",
+OUTPUT shader-index.json 658928
+   "worldToFogConstants"
+   "worldToFogConstants"
+   "worldToFogConstants"
+   "worldToFogConstants"

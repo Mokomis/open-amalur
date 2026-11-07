@@ -1,0 +1,42 @@
+{
+  "scope": "Focused static review of root shadowproxy source integration and staged header shapes; no edits/build/GPU.",
+  "source_sha256": {
+    "oa_stream.c": "3fb18346b19c3614f5011a3ad509c1c5b7af9ec137a5e7e5e1175529d9f2b446",
+    "oa_stream.h": "db8a94cde89e89f2b623dbb7e5104122133a43b051577728d4f894d937fec2c8",
+    "oa_post.c": "f25708a9eb3e1781e0658f272c4cfb0a8327e93b7a95e6adb047cc473c1b624e",
+    "android_scene.c": "3d5414535b3832a2e90b050a661a01432769e348fd1cc6308f08a7c50b7b2a27"
+  },
+  "baseline_sha256": {
+    "oa_stream.c": "545853345559fd4b8cd388929c94e71639e9673fac7fd61af0d45213633cabbc",
+    "oa_stream.h": "a752bd0e021b69c2b6667841a7dfbea026a45b1f11b0d28612acb58d0e4c2144",
+    "oa_post.c": "ff7a2942e3a80d2d345d5c9ac77f3b7e79fa00c9a82b02522a6a582b631ea6bb",
+    "android_scene.c": "fd7c4a0517e1726b7856bf2c3b18878a580c279afb50356dbd926a4815444559"
+  },
+  "unresolved_blocking_findings": [],
+  "resolved_findings": [
+    {
+      "issue": "Region sourcecard suppression used owncell readiness while proxydraw waited fallbackdependencyclosure, causing a missingcaster during asynchronous/context loading.",
+      "resolution": "Root changed proxyfamily10 admission to owncellGPU+textures independently. Only filteredfamily6 fallbackdraw and oldTREE_LEAF suppression wait directanchor readiness. Region suppression now matches actual proxyadmission, including dependencychains. Fresh source reviewed."
+    }
+  ],
+  "checked": [
+    "LODS7 allocates and iterates slot6 in worker, uploads, textures, GPUclose and finalfree. Dynamic range arrays remain slot-independent; no new accessor/VAO stride mismatch.",
+    "Optional shadowindex bounds/materialcount/size/duplicatecells validated before adding cells; realloc occurs under workerlock before callers can queue loads. Replacement/dependency cells resolved after registration and their row sizes/IDs validated.",
+    "Missing/invalid replacement or dependency tables disable newadmission; absent oldpack registry is quiet. Toggle0 cancels/unloads newslot and retains oldmainleaf/Region caster path.",
+    "shadow_present ensures zero-triangle shadowcells would still be requested; empty readycell semantics are safe for fallbackdependencies. Staged200cells allnonempty; max20ranges (<4096).",
+    "Root fresh independentadmission: family10 proxy ownGPU+texture ready; family6 filteredfallback requires own+directanchor readiness; originalTREE_LEAF retained until then. Region highbit suppression matches corresponding proxycell ownready.",
+    "caster_only1 occurs only nativeCSM call; mainearlydepth/maincolor/transparents/wrapper pass0. Newslot notadmitted by mainpasses. Region highbit branch onlyactiveforcaster pass.",
+    "Newfamily10 uses fullfloat Nwind timesmovement10 timesexisting12scalarpalette, UV2phase; depthgreen selects t2 and100/255 cutoff. Two-sided MATSflag recognized independently of family6 cullspecialcase.",
+    "Nativeprofile family10accepted; loader expands texture_count from t703beforeallocation. Readiness protects materialtexture accesses. Shader seesmatching geometry_kind2/OAWE76 VAO.",
+    "Current changed API definitions/header/callsite agree; stats getter/loglayout agree.",
+    "Stagedleaf-index/region-index/shadow-index allmaterialcount301. OASHR01 has26rows/OASHD01 has17rows, shapesvalid. All200stagedsheaders OARGEO1/76/48, completebyte sizes valid.",
+    "Approvedownership counterfactual checked from existing13hits: only passingfamily6 cards at8texels are l1_-13 triangles137/220, bothunitFAB343974/source469. Removingonlyapprovedsource producesnativeD16 all8exact; no otherfamily6front."
+  ],
+  "nonblocking_notes": [
+    "shadow_proxy_draws currently accumulates lifetime draw count rather than perframe; toggle0 therefore retains prior nonzero stats. Parent was informed; does not affect rendering."
+  ],
+  "limits": [
+    "Static source review only; parent owns actual Windows/ARM builds, packagedasset promotion and A/B image/context smoke.",
+    "Staged geometry/profile byteownership is independently validated by foliage/material receipts; this review does not duplicate all asset reconstruction."
+  ]
+}

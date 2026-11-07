@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "language": "PortableC99 source, compiledasMSVC C11(/TC/std:c11)",
+  "compiler": "VisualStudio2026 BuildTools18 x64 existing installation",
+  "flags": "/W4 /WX /fp:strict",
+  "checks": 47,
+  "source_native_binary_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "inputs": "Exact two source60B C8 records from PATCH1417252; sourcefixture constants arefloat32 roundtrip",
+  "test_output": "spawn weights=(1.00000000,0.00000000) base=0.00000000 secondDistance=24677.69921875\ncamera weights=(1.00000000,0.00000000) base=0.00000000 secondDistance=24442.48437500\nPASS 47 checks: spawn/camera/boundary/fade/outside/overlap/SpaceWeight/zeroFade/rotated/overrideModes/invalid/empty\n",
+  "profiles": "No profile/colour interpolation/auto-selection implemented",
+  "modes": {
+    "normal0": "computed ordinary local/base weights",
+    "additional1": "returns ordinary component plus ADDITIONAL_INPUT_REQUIRED, finaloverride notcomputed",
+    "hard2": "returns HARD_INPUT_REQUIRED, outputbuffers unchanged"
+  },
+  "constraints": [
+    "No core/liveasset edits",
+    "No gameinput/launch/replay",
+    "No analysisDB mutation",
+    "No Macmirror"
+  ],
+  "files": {
+    "00ac11b0.c": "71db196c915146ce4a9425421a35b7399b7e3e98b0cae2509cbb646f52b25215",
+    "00ac1720.c": "f5e4e092c51b1618913eb40e1294151d651bb7f6c81bfb823f6f29fd955097a1",
+    "00ad2000.asm": "7322ca47b329ba37f7ab60b3ee21aca497acea54d7d557c25c018732c12b0276",
+    "00ad2000.c": "8e57727b72461ba3debd01dbfa0a0afed5b4143e783468a2a5032fe34df3d0c5",
+    "00ce21d0.c": "e5cfb11e340eeb6b2dd7bcd84ef4f69a7fb4cb18b36de509cfe125883e6bc194",
+    "00db2820.c": "7ab1f20a30e09a66b53da4b84770e0ce924f1cfe5b2e7d1e69b775e26e8d2abd",
+    "00dd0580.c": "c95ed4a6af6c6f801c167542928b6ef65529e310671772aa1fdf8154f110b09f",
+    "00df6150.asm": "211f78cb344d426d0c70278c642c64998e97c0a8ed96e9aa580e17772659c423",
+    "00df6150.c": "4fc630f3c65a901b208acc96d99b47308155eb989e38777820c86d1507a07376",
+    "00e170b0.c": "01805f890bb2d905426d3ce110990e45abbdfd5148f7dc86e390e74846d65e09",
+    "00fb0bb0.asm": "2ea35d2536c9384c2ca3db039499473032584e9aea31f94525123a0864487371",
+    "00fb0bb0.c": "29a3ad511bd0581e7e143d2df4092650602c1ab5574e69b5ca92a21c8489925f",
+    "00fb8780.c": "e250350aa8c8653a1406dc9427ac830f11a57d6dd438ca8adcbd0486ae5ac8f3",
+    "00fbceb0.c": "c35171c69472c2297114b83a098d737a7859fe4b38d21ba1c266acdab707effd",
+    "00fc1020.c": "247365a06928d6fb77ecac891d181cfc443b575ae65fe4bcaaf03962075a60f5",
+    "00fc6800.c": "37f04c487dcb103b427eaf2fa86059cbfdce9a8843c590d3c23f407a6e0fd5ef",
+    "00fcce20.c": "11722958f42fa0ec7dcac2c7c3eef521374ec7d45cf654acf0973f6f4592f71c",
+    "build_helper_tests.cmd": "b09d7c6d326a0e98a26eb7015e69b1b0285673982292f51fcda6714a439b7901",
+    "native_light_volume_weights.c": "1a04e110bbc65176ad6274abcde1c71837345d940615ccae2db7d23c4ef44be0",
+    "native_light_volume_weights.h": "b8cff4476d788e2b94c8c0efa7046da9b1e68ab6797cc74a8affa7d2c1e18f9a",
+    "space-c0-environment-0.bin": "d7bf3d7e330a2b58cf2df480a39a6d68365ae41bb97a69e950600ff569756153",
+    "space-c0-environment-1.bin": "3f15217208fdf51b493af29515459dc7a400a74c35e90c22a6d6039aefb9f83b",
+    "space-c8-volume-0.bin": "11c013c33e8283e46c6860220b4434be62149a21c08fba49abc0c07e94dbd95c",
+    "space-c8-volume-1.bin": "b3f7c8b20517d1f53ccdf65053493b7686b36fbbb37aea72f3b5d688ec4b0806",
+    "test_light_volume_weights.c": "da3be29beda8515f15098448364cfe9d88f79455e27afdbf3e2fc9580c2d104e"
+  }
+}

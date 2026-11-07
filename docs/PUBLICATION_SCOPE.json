@@ -1,0 +1,22 @@
+{
+  "kind": "public-source-snapshot",
+  "date": "2026-11-06",
+  "engine_tests_rerun": false,
+  "windows_source_candidate_count": 11730,
+  "mac_source_hashes_verified": 1034,
+  "mac_source_read_failures": [
+    {
+      "relative": "2026-10-29/new-project-project-name-is-opem/AGENTS.md",
+      "reason": "cloud-placeholder read timeout; Windows counterpart retained when available"
+    },
+    {
+      "relative": "2026-11-04/open-amalur-native-slice/capture-tools/native_guest.sh",
+      "reason": "cloud-placeholder read timeout; Windows counterpart retained when available"
+    },
+    {
+      "relative": "2026-11-04/open-amalur-native-slice/capture-tools/capture-windows.cmd",
+      "reason": "cloud-placeholder read timeout; Windows counterpart retained when available"
+    }
+  ],
+  "scope": "Source, recipes and selected notes; private payloads intentionally excluded. Not a full disk or latest-assets restore image."
+}

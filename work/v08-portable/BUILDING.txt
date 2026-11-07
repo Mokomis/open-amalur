@@ -1,0 +1,36 @@
+Opem Amalur portable runtime — building and linking
+
+This package is a script-runtime foundation, not a playable game or APK.
+The Windows build ran the supplied tests. Android arm64 was cross-compiled
+on Windows and its ELF inspected; Android execution is not yet verified.
+
+From this package's portable directory, configure with CMake:
+  cmake -S . -B build -DLUA_SOURCE_DIR=./third_party/lua-5.1.5
+  cmake --build build --config Release
+Use a Visual Studio developer shell on Windows. For Android, choose Ninja
+and add the following configure arguments (replace the NDK path):
+  -DCMAKE_TOOLCHAIN_FILE=C:/path/to/ndk/build/cmake/android.toolchain.cmake
+  -DANDROID_ABI=arm64-v8a -DANDROID_PLATFORM=android-26
+  -DCMAKE_BUILD_TYPE=Release
+
+Link your engine target against the CMake target amalur_runtime. It carries
+the Lua dependency and public include directories. Include amalur_runtime.h.
+Supply the runtime directory containing the five included Lua modules when
+creating a realm. Install engine providers through amalur_runtime_set_provider.
+The public header documents exact stack/result ownership and protected calls.
+Each realm is single-threaded and independent. Original x86 addresses are
+reference metadata only and are never called by this portable library.
+
+Prebuilt Android files require arm64 Android API26 or later. To test on an
+attached development device, copy prebuilt/android-arm64/amalur-script,
+runtime/, and tests/ to a new directory under /data/local/tmp, make the binary
+executable, and run:
+  ./amalur-script --runtime-dir runtime tests/native_verified_real_functions.lua
+Expected: ok=true and one numeric result71. This is a CLI test, not a game UI.
+The same command accepts tests/portable_contract.lua for exact handle/nil checks.
+No device installation, game launch, saved-game change or root change occurred.
+
+Dependencies: bundled unmodified Lua5.1.5 source (MIT license in third_party).
+Android NDK and Windows compiler are not redistributed. The project-specific
+build_windows_android.cmd uses this workstation's tool paths; the CMake
+commands above are the relocatable build interface.

@@ -1,0 +1,554 @@
+{
+  "scope": "Existing frozen fullregionalpack geometry and capturecamera only; no alpha/depth/lighting replay, no native queries.",
+  "rectangle_pixels": [
+    [
+      950.0,
+      0.0
+    ],
+    [
+      1020.0,
+      180.0
+    ]
+  ],
+  "camera": {
+    "frame": 1739,
+    "world": 1,
+    "grounded": 1,
+    "reference_camera": 1,
+    "player_hidden_for_reference": 1,
+    "oneshot_clip": -1,
+    "health": 100,
+    "width": 1536,
+    "height": 864,
+    "feet": [
+      8714.13086,
+      -87104,
+      6445.44873
+    ],
+    "eye": [
+      8591.93262,
+      -87036.0312,
+      6493.06641
+    ],
+    "yaw": 1.57079637,
+    "pitch": -0.200000003,
+    "boom": 240,
+    "mvp_column_major": [
+      -0.752033353,
+      -0.1664076,
+      -0.816109061,
+      -0.816027522,
+      -1.07398558,
+      0.116520949,
+      0.571461439,
+      0.571404338,
+      -9.64531296e-07,
+      2.32198572,
+      -0.087164171,
+      -0.0871554688,
+      -87014.0156,
+      -3505.52393,
+      57263.2773,
+      57309.9258
+    ]
+  },
+  "region_distance_scale": 0.5,
+  "active_source_records": 180,
+  "active_physical_poses": 95,
+  "rectangle_candidate_records": 9,
+  "rectangle_candidate_poses": 7,
+  "candidate_records_without_same_pose_capture": 1,
+  "candidate_records_without_same_record_capture": 1,
+  "rows": [
+    {
+      "source_index": 1360,
+      "fab": 377117,
+      "fab_name": "for_flora_treelow01",
+      "assembly": 1,
+      "native_material": 359202,
+      "material_row": 293,
+      "family": 6,
+      "translation": [
+        -16394.3125,
+        -77650.25,
+        7925.84619140625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "group": 0,
+      "record": 1360,
+      "distance_cm": 26729.35075592005,
+      "scaled_distance_cm": 13364.675377960026,
+      "interval_squared": [
+        0.0,
+        852640000.0
+      ],
+      "captured_same_record_draws": [
+        68957
+      ],
+      "captured_same_physical_pose_draws": [
+        68957,
+        69304
+      ],
+      "projected_triangles": 47,
+      "screen_bounds": [
+        [
+          918.1768606416783,
+          -116.20586717817025
+        ],
+        [
+          1115.8192768455651,
+          196.97713889627096
+        ]
+      ],
+      "cells": [
+        "r-3_-12.bin",
+        "r-3_-13.bin"
+      ]
+    },
+    {
+      "source_index": 1364,
+      "fab": 377118,
+      "fab_name": "for_flora_treelow02",
+      "assembly": 1,
+      "native_material": 359202,
+      "material_row": 293,
+      "family": 6,
+      "translation": [
+        -15470.8681640625,
+        -74932.71875,
+        7133.0771484375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.6018165946006775,
+        -0.7986342906951904
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "group": 0,
+      "record": 1364,
+      "distance_cm": 26942.868584861542,
+      "scaled_distance_cm": 13471.434292430771,
+      "interval_squared": [
+        0.0,
+        852640000.0
+      ],
+      "captured_same_record_draws": [
+        69041
+      ],
+      "captured_same_physical_pose_draws": [
+        69041,
+        69298
+      ],
+      "projected_triangles": 36,
+      "screen_bounds": [
+        [
+          850.5412773856581,
+          -108.74080872124298
+        ],
+        [
+          1011.5084713459001,
+          195.47774277528495
+        ]
+      ],
+      "cells": [
+        "r-2_-12.bin",
+        "r-3_-12.bin"
+      ]
+    },
+    {
+      "source_index": 970,
+      "fab": 393858,
+      "fab_name": "for_flora_treelarge02",
+      "assembly": 7,
+      "native_material": 359202,
+      "material_row": 293,
+      "family": 6,
+      "translation": [
+        -10629.84375,
+        -80787.1171875,
+        4468.513671875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.9845166802406311,
+        -0.17529083788394928
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "group": 0,
+      "record": 970,
+      "distance_cm": 20313.15896022474,
+      "scaled_distance_cm": 10156.57948011237,
+      "interval_squared": [
+        81000000.0,
+        144000000.0
+      ],
+      "captured_same_record_draws": [
+        68999
+      ],
+      "captured_same_physical_pose_draws": [
+        68999
+      ],
+      "projected_triangles": 14,
+      "screen_bounds": [
+        [
+          976.8884188895751,
+          -40.98947317338792
+        ],
+        [
+          1089.1326155717352,
+          214.70639390015188
+        ]
+      ],
+      "cells": [
+        "r-2_-13.bin"
+      ]
+    },
+    {
+      "source_index": 501,
+      "fab": 377118,
+      "fab_name": "for_flora_treelow02",
+      "assembly": 0,
+      "native_material": 353286,
+      "material_row": 266,
+      "family": 3,
+      "translation": [
+        -15470.8681640625,
+        -74932.71875,
+        7133.0771484375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.6018165946006775,
+        -0.7986342906951904
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "group": 0,
+      "record": 501,
+      "distance_cm": 26942.868584861542,
+      "scaled_distance_cm": 13471.434292430771,
+      "interval_squared": [
+        0.0,
+        852640000.0
+      ],
+      "captured_same_record_draws": [
+        69298
+      ],
+      "captured_same_physical_pose_draws": [
+        69041,
+        69298
+      ],
+      "projected_triangles": 9,
+      "screen_bounds": [
+        [
+          936.7569462660506,
+          -175.07525887079768
+        ],
+        [
+          955.6155072599406,
+          206.8072042426729
+        ]
+      ],
+      "cells": [
+        "r-3_-12.bin"
+      ]
+    },
+    {
+      "source_index": 488,
+      "fab": 377117,
+      "fab_name": "for_flora_treelow01",
+      "assembly": 0,
+      "native_material": 353286,
+      "material_row": 266,
+      "family": 3,
+      "translation": [
+        -16394.3125,
+        -77650.25,
+        7925.84619140625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "group": 0,
+      "record": 488,
+      "distance_cm": 26729.35075592005,
+      "scaled_distance_cm": 13364.675377960026,
+      "interval_squared": [
+        0.0,
+        852640000.0
+      ],
+      "captured_same_record_draws": [
+        69304
+      ],
+      "captured_same_physical_pose_draws": [
+        68957,
+        69304
+      ],
+      "projected_triangles": 4,
+      "screen_bounds": [
+        [
+          985.836321206793,
+          174.5548654369197
+        ],
+        [
+          1013.4458648187767,
+          199.01733458691757
+        ]
+      ],
+      "cells": [
+        "r-3_-13.bin"
+      ]
+    },
+    {
+      "source_index": 1117,
+      "fab": 377117,
+      "fab_name": "for_flora_treelow01",
+      "assembly": 1,
+      "native_material": 359202,
+      "material_row": 293,
+      "family": 6,
+      "translation": [
+        -33871.4140625,
+        -65555.34375,
+        6678.90869140625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.9986296892166138,
+        -0.052334755659103394
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "group": 0,
+      "record": 1117,
+      "distance_cm": 47587.711461640276,
+      "scaled_distance_cm": 23793.855730820138,
+      "interval_squared": [
+        0.0,
+        852640000.0
+      ],
+      "captured_same_record_draws": [
+        68935
+      ],
+      "captured_same_physical_pose_draws": [
+        68935,
+        69380
+      ],
+      "projected_triangles": 3,
+      "screen_bounds": [
+        [
+          890.5214322135713,
+          159.26469175194458
+        ],
+        [
+          953.0014858563845,
+          241.70580462677532
+        ]
+      ],
+      "cells": [
+        "r-6_-11.bin"
+      ]
+    },
+    {
+      "source_index": 1375,
+      "fab": 363221,
+      "fab_name": "for_flora_leafcover01",
+      "assembly": 0,
+      "native_material": 359202,
+      "material_row": 293,
+      "family": 6,
+      "translation": [
+        -5275.7744140625,
+        -78435.6171875,
+        8594.73046875
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.26828983426094055,
+        0.9633382558822632
+      ],
+      "scale": [
+        1.3640872240066528,
+        1.3640872240066528,
+        1.0
+      ],
+      "group": 0,
+      "record": 1375,
+      "distance_cm": 16452.884591609898,
+      "scaled_distance_cm": 8226.442295804949,
+      "interval_squared": [
+        0.0,
+        900000000.0
+      ],
+      "captured_same_record_draws": [
+        68823
+      ],
+      "captured_same_physical_pose_draws": [
+        68823
+      ],
+      "projected_triangles": 2,
+      "screen_bounds": [
+        [
+          854.5930006389666,
+          167.23671303719186
+        ],
+        [
+          978.8598202465769,
+          211.13451831516957
+        ]
+      ],
+      "cells": [
+        "r-1_-13.bin"
+      ]
+    },
+    {
+      "source_index": 1586,
+      "fab": 363221,
+      "fab_name": "for_flora_leafcover01",
+      "assembly": 0,
+      "native_material": 359202,
+      "material_row": 293,
+      "family": 6,
+      "translation": [
+        -8695.0263671875,
+        -83496.2890625,
+        8754.3056640625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.8232808113098145,
+        1.8232808113098145,
+        1.0
+      ],
+      "group": 0,
+      "record": 1586,
+      "distance_cm": 17789.93896529184,
+      "scaled_distance_cm": 8894.96948264592,
+      "interval_squared": [
+        0.0,
+        900000000.0
+      ],
+      "captured_same_record_draws": [
+        69029
+      ],
+      "captured_same_physical_pose_draws": [
+        69029
+      ],
+      "projected_triangles": 2,
+      "screen_bounds": [
+        [
+          981.0133795360097,
+          150.5915130151166
+        ],
+        [
+          1143.8903738024378,
+          215.66059688430423
+        ]
+      ],
+      "cells": [
+        "r-2_-13.bin"
+      ]
+    },
+    {
+      "source_index": 2061,
+      "fab": 1611848,
+      "fab_name": "for_skyline_mountain01",
+      "assembly": 0,
+      "native_material": 1611839,
+      "material_row": 297,
+      "family": 1,
+      "translation": [
+        -86586.15625,
+        -17710.791015625,
+        8000.0
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.7166354060173035,
+        0.6974480152130127
+      ],
+      "scale": [
+        5.506014823913574,
+        5.506014823913574,
+        5.506014823913574
+      ],
+      "group": 0,
+      "record": 2061,
+      "distance_cm": 117758.7719722466,
+      "scaled_distance_cm": 58879.3859861233,
+      "interval_squared": [
+        900000000.0,
+        99984003301376.0
+      ],
+      "captured_same_record_draws": [],
+      "captured_same_physical_pose_draws": [],
+      "projected_triangles": 7,
+      "screen_bounds": [
+        [
+          876.9633405042052,
+          68.08027798973716
+        ],
+        [
+          1056.980178965133,
+          244.40192447451565
+        ]
+      ],
+      "cells": [
+        "r-15_-6.bin",
+        "r-16_-6.bin",
+        "r-16_-7.bin",
+        "r-16_-8.bin"
+      ]
+    }
+  ],
+  "limits": [
+    "Projected triangle/rectangle intersection proves geometric candidates only; raw alpha, culling, occlusion and final visibility not evaluated.",
+    "Captureset covers189cataloguedtreeGBufferdraws, not everyopaque/skyline/nativepass; absenttreecapturewitness is notalone evidence of extraobjects.",
+    "Fullregionpackselection preserveswholeauthorrecord and mayprojectoutsideoriginal203centroidcells.",
+    "Forward97/97LODfitdoesnotproveabsenceofextraregionalactiveposes orcorrectLODpolicy.",
+    "Trianglecrossingeyewithsomeverticesbehindcamera omitted; reported openingcandidatesallfullyinfront."
+  ]
+}

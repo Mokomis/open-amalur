@@ -1,0 +1,289 @@
+OPEN AMALUR: REBUILDING THE ORIGINAL ENGINE
+Read-only decision audit, 2026-11-06 (America/Chicago)
+
+Conclusion
+
+The route that best fits the stated objective is static recompilation of the
+original x86 engine, with its original 32-bit memory layout and a platform
+runtime, followed by selective, tested replacements. That is a different
+deliverable from an independently reconstructed engine. It is also different
+from recovering clean, original C++ source. Generated C/C++ or LLVM code can be
+compiled and patched without first naming or manually rewriting every function.
+
+This is a technically established approach in other projects. It has NOT yet
+been demonstrated for this executable. The audit supports a qualification
+project, not a promise of a complete Android port or a completion date.
+
+Do not continue treating the existing generated C as a trustworthy engine
+baseline. There are concrete wrong-code defects. Preserve it as a prototype,
+and qualify a repaired or alternative translator before building further on it.
+
+No game, native probe, build, install or device test was run during this audit.
+The original project, analysis databases, saves, keys and installed applications
+were not changed. The findings combine fresh static inspection, retained
+historical runtime receipts and explicitly marked recommendations.
+
+1. The actual target and what we possess
+
+The installed Windows koa.exe matches the retained work/v30-engine/koa.exe:
+SHA256 16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314.
+It is PE32/x86, build cs:15032. Fresh inspection finds 349 static imports from
+19 DLLs, a 1,088-byte static TLS template and three SafeSEH handler entries.
+Import counts do not include all dynamically loaded services or COM methods.
+
+The authoritative Windows project remains:
+C:\Users\rwill\Documents\Opem Amalur
+It is not a Git checkout. Any future implementation branch must use a separate
+checkout and must preserve this working folder and its private data.
+
+The retained Ghidra export contains 45,957 function pseudocode records. These
+are analysis material, not compilable recovered source. Export success does
+not establish correct control-flow discovery or behavioral equivalence.
+
+Five original functions were previously rewritten in C and substituted inside
+the original x86 process. That is useful evidence for incremental replacement;
+the surrounding original engine still supplied the rest of the game.
+
+The separate translator emitted 73,971 entries and produced 50 ARM64 object
+chunks plus a linked animation-decoder harness. Its entries include 27,729
+raw data-pointer seeds, not 27,729 confirmed additional functions. At least one
+such seed comes from UTF-16 string data. There is no retained successful ARM
+execution/equivalence receipt for this translator harness in the reviewed set.
+
+Separate historical work DID execute a manually recovered matrix kernel on
+ARM64 and compare it against original x86 instructions. Native graphics replay
+also rendered a real captured Dalentarth frame. Those are valuable, bounded
+results. They do not establish a running, rebuilt original game loop.
+
+2. Why the existing translator cannot be trusted yet
+
+These are inspected source/emission defects, not claims of observed crashes:
+
+* f_011c1340 starts at a lower shared epilogue instead of its original entry.
+  out/koa_018.c:58203 starts with label L11c1330, pops a register and returns.
+  The original entry at 0x011c1340 begins xor/mov/push. The emitter sorts
+  reachable addresses without jumping to the requested entry first.
+
+* The original CRT _strpbrk at 0x011c1f10 uses a 256-bit character-set bitstring.
+  recomp.py:452-455 masks memory BT/BTS indexes to 31 without advancing the
+  memory word. Distinct characters separated by 32 therefore alias. This has
+  a concrete counterexample, independently of any full-game execution.
+
+* Arithmetic flags are local to each generated function, initialized to zero,
+  and absent from the saved CPU state. General caller-dependent flag behavior
+  is consequently not preserved across calls and tail paths. Ordinary routines
+  can overwrite flags before use; no claim that every call fails follows.
+
+Additional implementation gaps include an integer-only modeled MXCSR without
+applying its floating-point modes, double-only x87 state, non-atomic translation
+of memory XCHG, host-C return handling, and absent game startup/import/TLS/SEH
+initialization in the isolated harness. Their actual gameplay reachability and
+impact have not been established. The accompanying translator report preserves
+specific source lines and examples rather than inferring a completion percentage.
+
+3. The architecture needed to preserve the game
+
+Keep original data structures, pointer widths, asset formats, script interpreter,
+scene selection, visibility/LOD, animation, material selection and game logic.
+Translate their instructions; do not infer replacement behavior from screenshots.
+
+A 64-bit host does not permit widening the original engine's pointers in place.
+Use an explicit 32-bit guest address space and audited memory operations.
+Maintain a mapping between original code addresses and compiled host functions,
+including virtual calls, callbacks, jump tables and shared internal blocks.
+Unknown executable targets must fail visibly or be separately recorded as
+temporary diagnostic fallback; silent no-ops are unacceptable.
+
+The runtime must preserve the actually used x86 state: registers and flags,
+SSE/x87 modes and precision, stack/calling conventions, atomic operations,
+thread-local state, exceptions and callback re-entry. ARM's memory ordering
+must be handled deliberately. Portable-looking C is not proof of these properties.
+
+Separate host adapters must supply file/heap/thread/timer/input/window/audio/
+graphics services. Guest and host pointers, handles, callbacks and COM vtables
+must cross an explicit boundary. A host API cannot be called by simply casting
+a guest function pointer or a 32-bit guest structure to its 64-bit counterpart.
+
+It is not necessary to reimplement all of Windows ourselves. Native Windows
+services are the reference host for a Windows x86 intermediate. Wine/Hangover
+offers another runtime-reuse candidate on ARM64, but integration with a static
+Amalur rebuild has not been demonstrated. A standalone Android host needs a
+deliberate service strategy; an inference that Wine services can just be linked
+into the existing translator would be unsupported.
+
+Closed x86 dependencies cannot be loaded directly as ARM64 libraries. For every
+required dependency, establish whether its original code will be translated,
+an appropriate native implementation is available, or an accurately specified
+adapter/replacement is needed. The current dependency evidence includes Bink,
+Steam and dynamically loaded XAudio2. Optionality must be demonstrated, not
+assumed from the game being single-player. Do not silently disable services and
+claim that the original engine behavior has been retained.
+
+4. Graphics work that can be reused, and its limits
+
+The original-engine D3D11-to-Vulkan layer and DXBC-to-SPIR-V translator are useful
+source assets. Historical PC/tablet runs and 510 recorded, distinct DXBC shaders
+provide regression material. This is a bounded corpus, not proof that every
+game shader and API path is supported.
+
+The current d3d11.dll is x86. Its source includes x86 machine-code fallback
+stubs and Windows-specific imports/COM interfaces. It is not an ARM64 bridge
+that only needs a compiler switch. Source presence of a stub does not by itself
+prove that gameplay requires that stub's behavior.
+
+The game's own shader construction calls D3DReflect. Our shader translator does
+not automatically replace that reflection COM interface. Reflection, resource
+lifetimes, layouts, synchronization, texture uploads and guest/host handles need
+explicit treatment. Recompilation of game logic will not itself fix a bug in
+this graphics translation layer.
+
+Windows parity should initially use the original Microsoft D3D11 backend where
+possible. Validate the Vulkan path separately against it. This separates CPU
+translation errors from graphics-adapter errors.
+
+5. Current external tools: useful candidates, no turnkey solution
+
+These sources were inspected and commit-pinned; no candidate was installed,
+built or run on Amalur during this review.
+
+pcrecomp, commit 2adc02fec0702933325801aa7b29a7646321857f:
+https://github.com/sp00nznet/pcrecomp
+Relevant PE32 translation and a Windows/MSVC x86 native32 API-forwarding path.
+That host path contains x86 inline assembly and is not an ARM runtime. The
+reviewed TIB setup lacks this target's static-TLS initialization. The Win32 HLE
+path explicitly lacks guest SEH/C++ exceptions and modern DirectX support.
+One SSE emitter can emit an UNIMPLEMENTED comment/no-op; such output must be
+rejected before admitting generated code. Different backends have different
+failure behavior. This is a candidate for Windows qualification, not a selected
+Amalur solution.
+
+SwARc, commit 30bd2ad14bf3b0316178fc152ca6621c67ab2fce:
+https://github.com/JTM-rootstorm/SwARc
+Relevant x86 CPU, guest-memory, threading and Win32-runtime scaffolding.
+Current documented/build hosts are Linux x86-64 and macOS Apple Silicon;
+Windows-host and Android-runtime support were not demonstrated. Current graphics
+modules do not provide D3D11. Inspected SSE handling explicitly fails on some
+denormal/FTZ/exception cases. Whether Amalur reaches those cases remains unknown.
+
+Remill/McSema:
+https://github.com/lifting-bits/remill
+https://github.com/lifting-bits/mcsema
+Potential instruction-semantics/analysis infrastructure. They do not supply a
+complete cross-architecture Windows-game runtime. McSema's documented exception
+limitations and host-specific runtime work prevent treating it as a ready port.
+
+SR:
+https://github.com/M-HT/SR
+Useful precedent for static x86 game recompilation to ARM, with substantial
+game-specific information and runtime work. Its existing supported games do
+not demonstrate suitability for this PE32/SSE/D3D11 title.
+
+N64Recomp and XenonRecomp show how generated game code and separate runtimes
+can preserve behavior and accept patches. Their MIPS/PPC front ends do not
+translate this x86 executable. Console recompilation success is architectural
+precedent, not Amalur compatibility evidence.
+https://github.com/N64Recomp/N64Recomp
+https://github.com/hedge-dev/XenonRecomp
+
+6. Recommended work order and acceptance gates
+
+A. Qualify the translation pipeline before expanding it.
+   Pin executable/DLL hashes and tool versions. Use independent original-x86
+   outputs to test the demonstrated wrong-entry/bitset/flags failures, actual
+   FP modes, memory effects, callbacks, TLS, exceptions and synchronization.
+   Reject unsupported generated code. Repair or replace the translator based on
+   these results; do not select a tool from its README alone.
+
+   Reuse the existing animation decoder at 0x0111bf10, real clips and x86 oracle
+   to exercise its full required call closure in the same Windows/ARM64 batch.
+   Save inputs, outputs, command/build identities, exit results and executed
+   target/fallback logs. Compilation alone cannot pass this gate.
+
+B. Prove a connected original-code subsystem on Windows AND ARM64.
+   Generate the original code chain for one real actor's asset-to-animation-
+   state-to-palette/render-command path. Vary time and inputs. Compare state
+   writes and ordered outputs against the original. No recorded-pose or authored
+   preview substitution may stand in for the missing original producers.
+   This qualifies a translation/runtime design, not the whole game.
+
+C. Build a standalone recompiled Windows x86 game.
+   Retain the 32-bit ABI first, using real Windows services as the reference.
+   Bring up original initialization, resource loading, script runtime, game loop,
+   jobs, rendering, input, audio and save/load. The rebuilt game must execute its
+   translated engine code. Jumping back into the original engine executable is
+   temporary diagnostic assistance, not success at this gate.
+
+   Required functional evidence includes loading an existing save, moving,
+   interaction/combat, scene transition, save and reload. Retain originals and
+   use separate test saves. Inventory newly reached targets/imports/failures.
+   A Windows x64 host can follow using the same explicit guest32 model; changing
+   the guest structures to 64-bit is a separate and unnecessary first project.
+
+D. Complete the ARM64 runtime and Android host around the same generated engine.
+   Qualify the chosen Windows-service strategy and dependency disposition;
+   replace the x86-specific graphics bridge boundary; connect Vulkan, Android
+   lifecycle/storage/input/audio and correct callback/thread behavior. Exercise
+   the same game scenarios. A rebuilt Windows executable does not by itself
+   satisfy this stage, so ARM semantic/runtime checks must start before it ends.
+
+E. Improve the engine as controlled patches over the preserved baseline.
+   Keep generated code reproducible and separate from human changes. Patch
+   selected functions and platform backends; regenerate both Windows and ARM64
+   builds from one pinned configuration. Validate scene/state regressions and
+   measure representative gameplay before changing worker count, scheduling,
+   renderer batching, SIMD or resolution policy.
+
+The first substantial visible target is the recompiled original engine loading
+and running a real save on Windows. The connected ARM subsystem is an earlier
+technical acceptance gate, not a substitute for that target. The Android target
+is then that same original engine running its live game loop, not another scene
+viewer or a newly authored interpretation of a screenshot.
+
+7. How this addresses the repeated visual-fidelity problem
+
+The intent is to carry forward the original visibility, material, animation and
+scene decisions together, rather than recover each result independently. It
+reduces the need to rediscover scene-specific behavior. It does not guarantee
+that translation or host-adapter errors disappear.
+
+Validation must compare original vs rebuilt state/resource identities and draw
+decisions, as well as matched images and recorded gameplay scenarios. Collect
+camera/time/weather/save context, exercise scene transitions and fail loudly on
+unknown paths. A matching screenshot proves only that view; a matching function
+count proves neither that view nor the underlying behavior.
+
+8. Facts still missing before a project-wide commitment
+
+* A qualified translator/runtime combination for this particular engine.
+* Complete reachable indirect flow and platform/middleware dependencies.
+* Correct real-world guest TLS, exceptions, callbacks and concurrent execution.
+* A standalone rebuilt Windows startup/game loop and an ARM64 connected subsystem.
+* Cross-scene graphics correctness of the eventual native bridge.
+* Native full-engine gameplay performance, and how much the current FEX path costs.
+
+No measured full-engine native FPS or reliable calendar estimate exists in the
+reviewed evidence. The old fixed-frame replay timings and planning ranges cannot
+answer those questions. Static compilation removes runtime translation from the
+translated paths, but guest-state bookkeeping, original serial bottlenecks,
+graphics-driver cost and thermal behavior can remain. It is not a guaranteed
+performance win over a mature dynamic translator.
+
+9. Model recommendation
+
+Sol 6.1 High remains the recommended implementation and routine evidence-review
+model for credit efficiency. For this consequential architecture choice, one
+independent Astra High review of these findings and the qualification design is
+a reasonable recommendation. It cannot replace the acceptance gates. No switch
+to Astra was made or authorized by this audit.
+
+Official model descriptions, checked during this turn:
+https://developers.openai.com/api/docs/models/gpt-6.1-sol
+https://developers.openai.com/api/docs/models/gpt-6-astra
+
+Audit evidence
+
+Windows evidence is outside the working project:
+C:\Users\rwill\oa-audit\2026-11-06-engine-rebuild
+The translator, platform and external-tool reports and their source/identity
+receipts are retained there. Copies accompany this report on the Mac. These
+are audit notes; they contain no game payload, signing key or save files.

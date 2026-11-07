@@ -1,0 +1,1676 @@
+{
+  "scope": "71 native-compared inputs across19 primitive game function bodies, packaged for portable runtime replay.",
+  "target_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "native_harness_sha256": "e2e0f14aa39ae6bad5503ac8d06591faed8c32da276a75bdb224a81ba361c2c3",
+  "native_comparison_sha256": "b83f4ed44b4bae3ff7e651da30bcabfa31d3047ed68aaf5ad58bde41976e2272",
+  "test_source_sha256": "39e52f78da3cf7901156d98fce27267cd2bc7991c297239591515b41f15fbd9d",
+  "cases": [
+    {
+      "case_id": 0,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/0",
+        "function_signature": "203809ff9104635a15cd5d5d867118420051cf7de4032886ac818f2136332b2c",
+        "instruction_offsets": [
+          1333,
+          1337,
+          1341
+        ]
+      },
+      "generated_source_sha256": "c459cb45cf54e6ac37f7de6eab3102f2212ce8abf49eac12ed4f8e9efc02cf2c",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "case_id": 1,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/0",
+        "function_signature": "203809ff9104635a15cd5d5d867118420051cf7de4032886ac818f2136332b2c",
+        "instruction_offsets": [
+          1333,
+          1337,
+          1341
+        ]
+      },
+      "generated_source_sha256": "c459cb45cf54e6ac37f7de6eab3102f2212ce8abf49eac12ed4f8e9efc02cf2c",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "case_id": 2,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/0",
+        "function_signature": "203809ff9104635a15cd5d5d867118420051cf7de4032886ac818f2136332b2c",
+        "instruction_offsets": [
+          1333,
+          1337,
+          1341
+        ]
+      },
+      "generated_source_sha256": "c459cb45cf54e6ac37f7de6eab3102f2212ce8abf49eac12ed4f8e9efc02cf2c",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "case_id": 3,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/0",
+        "function_signature": "203809ff9104635a15cd5d5d867118420051cf7de4032886ac818f2136332b2c",
+        "instruction_offsets": [
+          1333,
+          1337,
+          1341
+        ]
+      },
+      "generated_source_sha256": "c459cb45cf54e6ac37f7de6eab3102f2212ce8abf49eac12ed4f8e9efc02cf2c",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "case_id": 4,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/0",
+        "function_signature": "203809ff9104635a15cd5d5d867118420051cf7de4032886ac818f2136332b2c",
+        "instruction_offsets": [
+          1333,
+          1337,
+          1341
+        ]
+      },
+      "generated_source_sha256": "c459cb45cf54e6ac37f7de6eab3102f2212ce8abf49eac12ed4f8e9efc02cf2c",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "case_id": 5,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/1",
+        "function_signature": "eee5217d1f6a2bb6f4019f26dedc48558edb4447c62c9a2ad9ac04874afef50f",
+        "instruction_offsets": [
+          1398,
+          1402,
+          1406
+        ]
+      },
+      "generated_source_sha256": "202f7d6b2006b7cb3d1388c2d099bb43c6fd9579b1affadded93c9e8abd79364",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "case_id": 6,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/1",
+        "function_signature": "eee5217d1f6a2bb6f4019f26dedc48558edb4447c62c9a2ad9ac04874afef50f",
+        "instruction_offsets": [
+          1398,
+          1402,
+          1406
+        ]
+      },
+      "generated_source_sha256": "202f7d6b2006b7cb3d1388c2d099bb43c6fd9579b1affadded93c9e8abd79364",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "case_id": 7,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/1",
+        "function_signature": "eee5217d1f6a2bb6f4019f26dedc48558edb4447c62c9a2ad9ac04874afef50f",
+        "instruction_offsets": [
+          1398,
+          1402,
+          1406
+        ]
+      },
+      "generated_source_sha256": "202f7d6b2006b7cb3d1388c2d099bb43c6fd9579b1affadded93c9e8abd79364",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "case_id": 8,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/1",
+        "function_signature": "eee5217d1f6a2bb6f4019f26dedc48558edb4447c62c9a2ad9ac04874afef50f",
+        "instruction_offsets": [
+          1398,
+          1402,
+          1406
+        ]
+      },
+      "generated_source_sha256": "202f7d6b2006b7cb3d1388c2d099bb43c6fd9579b1affadded93c9e8abd79364",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "case_id": 9,
+      "real_source": {
+        "file": "109404.lua_bxml",
+        "input_sha256": "ee6472917b67c8bb4f5c72f456c04a79dfc9f727491ffc6dd24d45726d432872",
+        "function_path": "0/1",
+        "function_signature": "eee5217d1f6a2bb6f4019f26dedc48558edb4447c62c9a2ad9ac04874afef50f",
+        "instruction_offsets": [
+          1398,
+          1402,
+          1406
+        ]
+      },
+      "generated_source_sha256": "202f7d6b2006b7cb3d1388c2d099bb43c6fd9579b1affadded93c9e8abd79364",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "case_id": 10,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/0",
+        "function_signature": "9fb8a07e0f29dcbbfbfb997034e6d95fdcb610630b6a031aa9c9946935ae5427",
+        "instruction_offsets": [
+          2574,
+          2578,
+          2582
+        ]
+      },
+      "generated_source_sha256": "be7cb5a32341387c3da75134aea0b18c580caea1967aaf77e3c1487ef175084a",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 100000
+        }
+      ]
+    },
+    {
+      "case_id": 11,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/0",
+        "function_signature": "9fb8a07e0f29dcbbfbfb997034e6d95fdcb610630b6a031aa9c9946935ae5427",
+        "instruction_offsets": [
+          2574,
+          2578,
+          2582
+        ]
+      },
+      "generated_source_sha256": "be7cb5a32341387c3da75134aea0b18c580caea1967aaf77e3c1487ef175084a",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": -100000
+        }
+      ]
+    },
+    {
+      "case_id": 12,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/0",
+        "function_signature": "9fb8a07e0f29dcbbfbfb997034e6d95fdcb610630b6a031aa9c9946935ae5427",
+        "instruction_offsets": [
+          2574,
+          2578,
+          2582
+        ]
+      },
+      "generated_source_sha256": "be7cb5a32341387c3da75134aea0b18c580caea1967aaf77e3c1487ef175084a",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 700000
+        }
+      ]
+    },
+    {
+      "case_id": 13,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/0",
+        "function_signature": "9fb8a07e0f29dcbbfbfb997034e6d95fdcb610630b6a031aa9c9946935ae5427",
+        "instruction_offsets": [
+          2574,
+          2578,
+          2582
+        ]
+      },
+      "generated_source_sha256": "be7cb5a32341387c3da75134aea0b18c580caea1967aaf77e3c1487ef175084a",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 14,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/0",
+        "function_signature": "9fb8a07e0f29dcbbfbfb997034e6d95fdcb610630b6a031aa9c9946935ae5427",
+        "instruction_offsets": [
+          2574,
+          2578,
+          2582
+        ]
+      },
+      "generated_source_sha256": "be7cb5a32341387c3da75134aea0b18c580caea1967aaf77e3c1487ef175084a",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 15,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/2",
+        "function_signature": "3408ab99d8864ca2b1b4021b4a6c04ad68cb4130dc4e15cbee9bb987ac750b80",
+        "instruction_offsets": [
+          2714,
+          2718,
+          2722
+        ]
+      },
+      "generated_source_sha256": "409e4fdf062283ed6253a5ac81db5ce3150beceba708541ed0985d0d147fd90f",
+      "arguments": [],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "case_id": 16,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/3",
+        "function_signature": "ebf6d9ec066d963bd56ba37c2828513694d3079e47047eb7d5a2e4377e06e39d",
+        "instruction_offsets": [
+          2784,
+          2788,
+          2792
+        ]
+      },
+      "generated_source_sha256": "c7e3af49a16787b228bc340fb09856833e65f3eef01af29ea647b2584b6eade9",
+      "arguments": [],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "case_id": 17,
+      "real_source": {
+        "file": "1295730.lua_bxml",
+        "input_sha256": "e49d798ba9427d406647dc45c6c8fb77fbab56fd0a17818bcb818e1fa61f7f54",
+        "function_path": "0/5",
+        "function_signature": "4e32286880ab84c4d5421ef671df3635d3e13dce922bc4acaacb8f79eeb21449",
+        "instruction_offsets": [
+          3178,
+          3182,
+          3186
+        ]
+      },
+      "generated_source_sha256": "677ec62cc36c8e01b567aa982c540793c424a9715b6b3e521d3a925f178bd9a9",
+      "arguments": [],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "case_id": 18,
+      "real_source": {
+        "file": "13016.lua_bxml",
+        "input_sha256": "5921334cfb568a2ccd026211eaf80de2caf5b1ee742d1b907a884652bbc780d8",
+        "function_path": "0/8",
+        "function_signature": "5ca1a171c1b96aba92584b2c21e767633570437d12d700de61a80c5b326d574d",
+        "instruction_offsets": [
+          15725,
+          15729
+        ]
+      },
+      "generated_source_sha256": "c37f681f6ae5243de36439294dbd19e41392db643edc741a72764c071c5bdad3",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 19,
+      "real_source": {
+        "file": "13016.lua_bxml",
+        "input_sha256": "5921334cfb568a2ccd026211eaf80de2caf5b1ee742d1b907a884652bbc780d8",
+        "function_path": "0/8",
+        "function_signature": "5ca1a171c1b96aba92584b2c21e767633570437d12d700de61a80c5b326d574d",
+        "instruction_offsets": [
+          15725,
+          15729
+        ]
+      },
+      "generated_source_sha256": "c37f681f6ae5243de36439294dbd19e41392db643edc741a72764c071c5bdad3",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 20,
+      "real_source": {
+        "file": "13016.lua_bxml",
+        "input_sha256": "5921334cfb568a2ccd026211eaf80de2caf5b1ee742d1b907a884652bbc780d8",
+        "function_path": "0/8",
+        "function_signature": "5ca1a171c1b96aba92584b2c21e767633570437d12d700de61a80c5b326d574d",
+        "instruction_offsets": [
+          15725,
+          15729
+        ]
+      },
+      "generated_source_sha256": "c37f681f6ae5243de36439294dbd19e41392db643edc741a72764c071c5bdad3",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 21,
+      "real_source": {
+        "file": "13016.lua_bxml",
+        "input_sha256": "5921334cfb568a2ccd026211eaf80de2caf5b1ee742d1b907a884652bbc780d8",
+        "function_path": "0/8",
+        "function_signature": "5ca1a171c1b96aba92584b2c21e767633570437d12d700de61a80c5b326d574d",
+        "instruction_offsets": [
+          15725,
+          15729
+        ]
+      },
+      "generated_source_sha256": "c37f681f6ae5243de36439294dbd19e41392db643edc741a72764c071c5bdad3",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 22,
+      "real_source": {
+        "file": "13016.lua_bxml",
+        "input_sha256": "5921334cfb568a2ccd026211eaf80de2caf5b1ee742d1b907a884652bbc780d8",
+        "function_path": "0/8",
+        "function_signature": "5ca1a171c1b96aba92584b2c21e767633570437d12d700de61a80c5b326d574d",
+        "instruction_offsets": [
+          15725,
+          15729
+        ]
+      },
+      "generated_source_sha256": "c37f681f6ae5243de36439294dbd19e41392db643edc741a72764c071c5bdad3",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 23,
+      "real_source": {
+        "file": "13171.lua_bxml",
+        "input_sha256": "92bf46018eb5082bc2d4c26e3a9ad0f0af8ac0a10cc6e9c3c307e79b3701ef6b",
+        "function_path": "0/49",
+        "function_signature": "5641976ec6fe61f784ff5d1507717b1d800b25b3bd4cdf50ff61cc84618571d3",
+        "instruction_offsets": [
+          35407,
+          35411,
+          35415
+        ]
+      },
+      "generated_source_sha256": "f5548f1f7905583026e01422daddddacf413699654fc7cd242608feb91af923b",
+      "arguments": [],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 24,
+      "real_source": {
+        "file": "13484.lua_bxml",
+        "input_sha256": "28a8cc3012d65a9a88461a78fe6f2defbe1bc43616ed3ebd0e856dbf32643942",
+        "function_path": "0/8",
+        "function_signature": "414418a33fcce87361439c2a8ec8fc9326e7c28fac9344a3efbc2dbd210629d4",
+        "instruction_offsets": [
+          8376,
+          8380,
+          8384
+        ]
+      },
+      "generated_source_sha256": "c68d294f023cb73c4a30dcde4e288b64e3cb4fb2ec3186c64fc7142636d7d3ac",
+      "arguments": [],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "case_id": 25,
+      "real_source": {
+        "file": "13488.lua_bxml",
+        "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+        "function_path": "0/10",
+        "function_signature": "4745177c426db695ba56e0bc032ad690441dbda2dea650856f6b6bb63d3160d4",
+        "instruction_offsets": [
+          16190,
+          16194,
+          16198,
+          16202
+        ]
+      },
+      "generated_source_sha256": "b2308bfb171079ca72e8a0f42cecb39a2547121856995b739d8ab95a7bad3538",
+      "arguments": [
+        1,
+        1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 26,
+      "real_source": {
+        "file": "13488.lua_bxml",
+        "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+        "function_path": "0/10",
+        "function_signature": "4745177c426db695ba56e0bc032ad690441dbda2dea650856f6b6bb63d3160d4",
+        "instruction_offsets": [
+          16190,
+          16194,
+          16198,
+          16202
+        ]
+      },
+      "generated_source_sha256": "b2308bfb171079ca72e8a0f42cecb39a2547121856995b739d8ab95a7bad3538",
+      "arguments": [
+        -1,
+        -1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 27,
+      "real_source": {
+        "file": "13488.lua_bxml",
+        "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+        "function_path": "0/10",
+        "function_signature": "4745177c426db695ba56e0bc032ad690441dbda2dea650856f6b6bb63d3160d4",
+        "instruction_offsets": [
+          16190,
+          16194,
+          16198,
+          16202
+        ]
+      },
+      "generated_source_sha256": "b2308bfb171079ca72e8a0f42cecb39a2547121856995b739d8ab95a7bad3538",
+      "arguments": [
+        7,
+        3
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 28,
+      "real_source": {
+        "file": "13488.lua_bxml",
+        "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+        "function_path": "0/10",
+        "function_signature": "4745177c426db695ba56e0bc032ad690441dbda2dea650856f6b6bb63d3160d4",
+        "instruction_offsets": [
+          16190,
+          16194,
+          16198,
+          16202
+        ]
+      },
+      "generated_source_sha256": "b2308bfb171079ca72e8a0f42cecb39a2547121856995b739d8ab95a7bad3538",
+      "arguments": [
+        0,
+        0
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 29,
+      "real_source": {
+        "file": "13488.lua_bxml",
+        "input_sha256": "4dcd7f6a290a0f1aec308554d0252947b3359a56ea544118a1486ca82e10282f",
+        "function_path": "0/10",
+        "function_signature": "4745177c426db695ba56e0bc032ad690441dbda2dea650856f6b6bb63d3160d4",
+        "instruction_offsets": [
+          16190,
+          16194,
+          16198,
+          16202
+        ]
+      },
+      "generated_source_sha256": "b2308bfb171079ca72e8a0f42cecb39a2547121856995b739d8ab95a7bad3538",
+      "arguments": [
+        -2147483648,
+        2147483647
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 30,
+      "real_source": {
+        "file": "13526.lua_bxml",
+        "input_sha256": "2a75eb9eea2606b18368f4dee287428be9b7290d1669538ee59b2840404dc8b6",
+        "function_path": "0/1",
+        "function_signature": "10b9e6273d2c6dfcf5bd45e1982f99d288d0436fac7b4ffc6505eb226e217779",
+        "instruction_offsets": [
+          2242,
+          2246,
+          2250,
+          2254
+        ]
+      },
+      "generated_source_sha256": "c79a0f323451c36107dc8f17660f6bf6caa618668a2525fab6e1edb2a643e223",
+      "arguments": [
+        1,
+        1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 31,
+      "real_source": {
+        "file": "13526.lua_bxml",
+        "input_sha256": "2a75eb9eea2606b18368f4dee287428be9b7290d1669538ee59b2840404dc8b6",
+        "function_path": "0/1",
+        "function_signature": "10b9e6273d2c6dfcf5bd45e1982f99d288d0436fac7b4ffc6505eb226e217779",
+        "instruction_offsets": [
+          2242,
+          2246,
+          2250,
+          2254
+        ]
+      },
+      "generated_source_sha256": "c79a0f323451c36107dc8f17660f6bf6caa618668a2525fab6e1edb2a643e223",
+      "arguments": [
+        -1,
+        -1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 32,
+      "real_source": {
+        "file": "13526.lua_bxml",
+        "input_sha256": "2a75eb9eea2606b18368f4dee287428be9b7290d1669538ee59b2840404dc8b6",
+        "function_path": "0/1",
+        "function_signature": "10b9e6273d2c6dfcf5bd45e1982f99d288d0436fac7b4ffc6505eb226e217779",
+        "instruction_offsets": [
+          2242,
+          2246,
+          2250,
+          2254
+        ]
+      },
+      "generated_source_sha256": "c79a0f323451c36107dc8f17660f6bf6caa618668a2525fab6e1edb2a643e223",
+      "arguments": [
+        7,
+        3
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 33,
+      "real_source": {
+        "file": "13526.lua_bxml",
+        "input_sha256": "2a75eb9eea2606b18368f4dee287428be9b7290d1669538ee59b2840404dc8b6",
+        "function_path": "0/1",
+        "function_signature": "10b9e6273d2c6dfcf5bd45e1982f99d288d0436fac7b4ffc6505eb226e217779",
+        "instruction_offsets": [
+          2242,
+          2246,
+          2250,
+          2254
+        ]
+      },
+      "generated_source_sha256": "c79a0f323451c36107dc8f17660f6bf6caa618668a2525fab6e1edb2a643e223",
+      "arguments": [
+        0,
+        0
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 34,
+      "real_source": {
+        "file": "13526.lua_bxml",
+        "input_sha256": "2a75eb9eea2606b18368f4dee287428be9b7290d1669538ee59b2840404dc8b6",
+        "function_path": "0/1",
+        "function_signature": "10b9e6273d2c6dfcf5bd45e1982f99d288d0436fac7b4ffc6505eb226e217779",
+        "instruction_offsets": [
+          2242,
+          2246,
+          2250,
+          2254
+        ]
+      },
+      "generated_source_sha256": "c79a0f323451c36107dc8f17660f6bf6caa618668a2525fab6e1edb2a643e223",
+      "arguments": [
+        -2147483648,
+        2147483647
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 35,
+      "real_source": {
+        "file": "13535.lua_bxml",
+        "input_sha256": "68b2481b6790872a7ac4bd3d879826cc88c754859dd22427f56e323b292e7d4b",
+        "function_path": "0/2",
+        "function_signature": "eaa427b62bbfaecd19846d440ae2c145e6053b2177071379d0a9acd4270527f9",
+        "instruction_offsets": [
+          37185,
+          37189
+        ]
+      },
+      "generated_source_sha256": "312712239e49e1fc4bfc7cd353d2facc2d5af15d76ec6af6ed3a0dce55e9da8b",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "case_id": 36,
+      "real_source": {
+        "file": "13535.lua_bxml",
+        "input_sha256": "68b2481b6790872a7ac4bd3d879826cc88c754859dd22427f56e323b292e7d4b",
+        "function_path": "0/2",
+        "function_signature": "eaa427b62bbfaecd19846d440ae2c145e6053b2177071379d0a9acd4270527f9",
+        "instruction_offsets": [
+          37185,
+          37189
+        ]
+      },
+      "generated_source_sha256": "312712239e49e1fc4bfc7cd353d2facc2d5af15d76ec6af6ed3a0dce55e9da8b",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "case_id": 37,
+      "real_source": {
+        "file": "13535.lua_bxml",
+        "input_sha256": "68b2481b6790872a7ac4bd3d879826cc88c754859dd22427f56e323b292e7d4b",
+        "function_path": "0/2",
+        "function_signature": "eaa427b62bbfaecd19846d440ae2c145e6053b2177071379d0a9acd4270527f9",
+        "instruction_offsets": [
+          37185,
+          37189
+        ]
+      },
+      "generated_source_sha256": "312712239e49e1fc4bfc7cd353d2facc2d5af15d76ec6af6ed3a0dce55e9da8b",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "case_id": 38,
+      "real_source": {
+        "file": "13535.lua_bxml",
+        "input_sha256": "68b2481b6790872a7ac4bd3d879826cc88c754859dd22427f56e323b292e7d4b",
+        "function_path": "0/2",
+        "function_signature": "eaa427b62bbfaecd19846d440ae2c145e6053b2177071379d0a9acd4270527f9",
+        "instruction_offsets": [
+          37185,
+          37189
+        ]
+      },
+      "generated_source_sha256": "312712239e49e1fc4bfc7cd353d2facc2d5af15d76ec6af6ed3a0dce55e9da8b",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 39,
+      "real_source": {
+        "file": "13535.lua_bxml",
+        "input_sha256": "68b2481b6790872a7ac4bd3d879826cc88c754859dd22427f56e323b292e7d4b",
+        "function_path": "0/2",
+        "function_signature": "eaa427b62bbfaecd19846d440ae2c145e6053b2177071379d0a9acd4270527f9",
+        "instruction_offsets": [
+          37185,
+          37189
+        ]
+      },
+      "generated_source_sha256": "312712239e49e1fc4bfc7cd353d2facc2d5af15d76ec6af6ed3a0dce55e9da8b",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": -2147483648
+        }
+      ]
+    },
+    {
+      "case_id": 40,
+      "real_source": {
+        "file": "1716154.lua_bxml",
+        "input_sha256": "4f5b607f7c16d8fe07f3be075ff336aa48029903aa11a3ec46871fdd32544249",
+        "function_path": "0/1",
+        "function_signature": "31c4f2b68db52126c8414310422ee0ee02867198e33199a3d12c5ec6da701e09",
+        "instruction_offsets": [
+          870,
+          874
+        ]
+      },
+      "generated_source_sha256": "2ba022dafd4fd5724a6e65b9639e94319e077c93c950dda96b72a5bf6eee5508",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 41,
+      "real_source": {
+        "file": "1716154.lua_bxml",
+        "input_sha256": "4f5b607f7c16d8fe07f3be075ff336aa48029903aa11a3ec46871fdd32544249",
+        "function_path": "0/1",
+        "function_signature": "31c4f2b68db52126c8414310422ee0ee02867198e33199a3d12c5ec6da701e09",
+        "instruction_offsets": [
+          870,
+          874
+        ]
+      },
+      "generated_source_sha256": "2ba022dafd4fd5724a6e65b9639e94319e077c93c950dda96b72a5bf6eee5508",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 42,
+      "real_source": {
+        "file": "1716154.lua_bxml",
+        "input_sha256": "4f5b607f7c16d8fe07f3be075ff336aa48029903aa11a3ec46871fdd32544249",
+        "function_path": "0/1",
+        "function_signature": "31c4f2b68db52126c8414310422ee0ee02867198e33199a3d12c5ec6da701e09",
+        "instruction_offsets": [
+          870,
+          874
+        ]
+      },
+      "generated_source_sha256": "2ba022dafd4fd5724a6e65b9639e94319e077c93c950dda96b72a5bf6eee5508",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 43,
+      "real_source": {
+        "file": "1716154.lua_bxml",
+        "input_sha256": "4f5b607f7c16d8fe07f3be075ff336aa48029903aa11a3ec46871fdd32544249",
+        "function_path": "0/1",
+        "function_signature": "31c4f2b68db52126c8414310422ee0ee02867198e33199a3d12c5ec6da701e09",
+        "instruction_offsets": [
+          870,
+          874
+        ]
+      },
+      "generated_source_sha256": "2ba022dafd4fd5724a6e65b9639e94319e077c93c950dda96b72a5bf6eee5508",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 44,
+      "real_source": {
+        "file": "1716154.lua_bxml",
+        "input_sha256": "4f5b607f7c16d8fe07f3be075ff336aa48029903aa11a3ec46871fdd32544249",
+        "function_path": "0/1",
+        "function_signature": "31c4f2b68db52126c8414310422ee0ee02867198e33199a3d12c5ec6da701e09",
+        "instruction_offsets": [
+          870,
+          874
+        ]
+      },
+      "generated_source_sha256": "2ba022dafd4fd5724a6e65b9639e94319e077c93c950dda96b72a5bf6eee5508",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": []
+    },
+    {
+      "case_id": 45,
+      "real_source": {
+        "file": "1964633.lua_bxml",
+        "input_sha256": "5dc180b83be24512d5876832b2e838187a43a1d9c3f1c3e2c0debb04218f61e7",
+        "function_path": "0/11",
+        "function_signature": "eedf5708a14b7d115fa6950a7c670c06c24bf807716ee93934deef8647f1192f",
+        "instruction_offsets": [
+          14155,
+          14159,
+          14163
+        ]
+      },
+      "generated_source_sha256": "948c7677ca51bb940c1f80f317214d1ca32abefc579c30b2cba0e6548f7f2d8b",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 46,
+      "real_source": {
+        "file": "1964633.lua_bxml",
+        "input_sha256": "5dc180b83be24512d5876832b2e838187a43a1d9c3f1c3e2c0debb04218f61e7",
+        "function_path": "0/11",
+        "function_signature": "eedf5708a14b7d115fa6950a7c670c06c24bf807716ee93934deef8647f1192f",
+        "instruction_offsets": [
+          14155,
+          14159,
+          14163
+        ]
+      },
+      "generated_source_sha256": "948c7677ca51bb940c1f80f317214d1ca32abefc579c30b2cba0e6548f7f2d8b",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 47,
+      "real_source": {
+        "file": "1964633.lua_bxml",
+        "input_sha256": "5dc180b83be24512d5876832b2e838187a43a1d9c3f1c3e2c0debb04218f61e7",
+        "function_path": "0/11",
+        "function_signature": "eedf5708a14b7d115fa6950a7c670c06c24bf807716ee93934deef8647f1192f",
+        "instruction_offsets": [
+          14155,
+          14159,
+          14163
+        ]
+      },
+      "generated_source_sha256": "948c7677ca51bb940c1f80f317214d1ca32abefc579c30b2cba0e6548f7f2d8b",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 48,
+      "real_source": {
+        "file": "1964633.lua_bxml",
+        "input_sha256": "5dc180b83be24512d5876832b2e838187a43a1d9c3f1c3e2c0debb04218f61e7",
+        "function_path": "0/11",
+        "function_signature": "eedf5708a14b7d115fa6950a7c670c06c24bf807716ee93934deef8647f1192f",
+        "instruction_offsets": [
+          14155,
+          14159,
+          14163
+        ]
+      },
+      "generated_source_sha256": "948c7677ca51bb940c1f80f317214d1ca32abefc579c30b2cba0e6548f7f2d8b",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 49,
+      "real_source": {
+        "file": "1964633.lua_bxml",
+        "input_sha256": "5dc180b83be24512d5876832b2e838187a43a1d9c3f1c3e2c0debb04218f61e7",
+        "function_path": "0/11",
+        "function_signature": "eedf5708a14b7d115fa6950a7c670c06c24bf807716ee93934deef8647f1192f",
+        "instruction_offsets": [
+          14155,
+          14159,
+          14163
+        ]
+      },
+      "generated_source_sha256": "948c7677ca51bb940c1f80f317214d1ca32abefc579c30b2cba0e6548f7f2d8b",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 50,
+      "real_source": {
+        "file": "319979.lua_bxml",
+        "input_sha256": "eb894652a8a02756473a5e17b8443f6b2a989defc7ac958fd5a646f2ec401dcc",
+        "function_path": "0/0",
+        "function_signature": "f463c99d210e5ef79f25cded9375762c6722cadd52fabb07b4fb0514a771f738",
+        "instruction_offsets": [
+          1285,
+          1289,
+          1293,
+          1297,
+          1301,
+          1305,
+          1309,
+          1313,
+          1317,
+          1321,
+          1325,
+          1329,
+          1333,
+          1337,
+          1341,
+          1345,
+          1349
+        ]
+      },
+      "generated_source_sha256": "ede7337192c716fddfe6b0b63261be12766b55fa7311dfd32a404dd4ead025ae",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "case_id": 51,
+      "real_source": {
+        "file": "319979.lua_bxml",
+        "input_sha256": "eb894652a8a02756473a5e17b8443f6b2a989defc7ac958fd5a646f2ec401dcc",
+        "function_path": "0/0",
+        "function_signature": "f463c99d210e5ef79f25cded9375762c6722cadd52fabb07b4fb0514a771f738",
+        "instruction_offsets": [
+          1285,
+          1289,
+          1293,
+          1297,
+          1301,
+          1305,
+          1309,
+          1313,
+          1317,
+          1321,
+          1325,
+          1329,
+          1333,
+          1337,
+          1341,
+          1345,
+          1349
+        ]
+      },
+      "generated_source_sha256": "ede7337192c716fddfe6b0b63261be12766b55fa7311dfd32a404dd4ead025ae",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "case_id": 52,
+      "real_source": {
+        "file": "319979.lua_bxml",
+        "input_sha256": "eb894652a8a02756473a5e17b8443f6b2a989defc7ac958fd5a646f2ec401dcc",
+        "function_path": "0/0",
+        "function_signature": "f463c99d210e5ef79f25cded9375762c6722cadd52fabb07b4fb0514a771f738",
+        "instruction_offsets": [
+          1285,
+          1289,
+          1293,
+          1297,
+          1301,
+          1305,
+          1309,
+          1313,
+          1317,
+          1321,
+          1325,
+          1329,
+          1333,
+          1337,
+          1341,
+          1345,
+          1349
+        ]
+      },
+      "generated_source_sha256": "ede7337192c716fddfe6b0b63261be12766b55fa7311dfd32a404dd4ead025ae",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "case_id": 53,
+      "real_source": {
+        "file": "319979.lua_bxml",
+        "input_sha256": "eb894652a8a02756473a5e17b8443f6b2a989defc7ac958fd5a646f2ec401dcc",
+        "function_path": "0/0",
+        "function_signature": "f463c99d210e5ef79f25cded9375762c6722cadd52fabb07b4fb0514a771f738",
+        "instruction_offsets": [
+          1285,
+          1289,
+          1293,
+          1297,
+          1301,
+          1305,
+          1309,
+          1313,
+          1317,
+          1321,
+          1325,
+          1329,
+          1333,
+          1337,
+          1341,
+          1345,
+          1349
+        ]
+      },
+      "generated_source_sha256": "ede7337192c716fddfe6b0b63261be12766b55fa7311dfd32a404dd4ead025ae",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "case_id": 54,
+      "real_source": {
+        "file": "319979.lua_bxml",
+        "input_sha256": "eb894652a8a02756473a5e17b8443f6b2a989defc7ac958fd5a646f2ec401dcc",
+        "function_path": "0/0",
+        "function_signature": "f463c99d210e5ef79f25cded9375762c6722cadd52fabb07b4fb0514a771f738",
+        "instruction_offsets": [
+          1285,
+          1289,
+          1293,
+          1297,
+          1301,
+          1305,
+          1309,
+          1313,
+          1317,
+          1321,
+          1325,
+          1329,
+          1333,
+          1337,
+          1341,
+          1345,
+          1349
+        ]
+      },
+      "generated_source_sha256": "ede7337192c716fddfe6b0b63261be12766b55fa7311dfd32a404dd4ead025ae",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "case_id": 55,
+      "real_source": {
+        "file": "320346.lua_bxml",
+        "input_sha256": "6bfb0729bd2ccb03b6a67e802022eb501c42301f3cf114dcfc78bd7ee2fb8add",
+        "function_path": "0/10",
+        "function_signature": "bdef94275425b07f30fac9a74a71a524944b2157eb71b99235ba30a7d53ae4a0",
+        "instruction_offsets": [
+          5661,
+          5665,
+          5669
+        ]
+      },
+      "generated_source_sha256": "ebda83f5dd74174e4bdb87b4ce1c92f4cf294b786e9e399b0eaf6a9e9d1d063c",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 110
+        }
+      ]
+    },
+    {
+      "case_id": 56,
+      "real_source": {
+        "file": "320346.lua_bxml",
+        "input_sha256": "6bfb0729bd2ccb03b6a67e802022eb501c42301f3cf114dcfc78bd7ee2fb8add",
+        "function_path": "0/10",
+        "function_signature": "bdef94275425b07f30fac9a74a71a524944b2157eb71b99235ba30a7d53ae4a0",
+        "instruction_offsets": [
+          5661,
+          5665,
+          5669
+        ]
+      },
+      "generated_source_sha256": "ebda83f5dd74174e4bdb87b4ce1c92f4cf294b786e9e399b0eaf6a9e9d1d063c",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 110
+        }
+      ]
+    },
+    {
+      "case_id": 57,
+      "real_source": {
+        "file": "320346.lua_bxml",
+        "input_sha256": "6bfb0729bd2ccb03b6a67e802022eb501c42301f3cf114dcfc78bd7ee2fb8add",
+        "function_path": "0/10",
+        "function_signature": "bdef94275425b07f30fac9a74a71a524944b2157eb71b99235ba30a7d53ae4a0",
+        "instruction_offsets": [
+          5661,
+          5665,
+          5669
+        ]
+      },
+      "generated_source_sha256": "ebda83f5dd74174e4bdb87b4ce1c92f4cf294b786e9e399b0eaf6a9e9d1d063c",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 110
+        }
+      ]
+    },
+    {
+      "case_id": 58,
+      "real_source": {
+        "file": "320346.lua_bxml",
+        "input_sha256": "6bfb0729bd2ccb03b6a67e802022eb501c42301f3cf114dcfc78bd7ee2fb8add",
+        "function_path": "0/10",
+        "function_signature": "bdef94275425b07f30fac9a74a71a524944b2157eb71b99235ba30a7d53ae4a0",
+        "instruction_offsets": [
+          5661,
+          5665,
+          5669
+        ]
+      },
+      "generated_source_sha256": "ebda83f5dd74174e4bdb87b4ce1c92f4cf294b786e9e399b0eaf6a9e9d1d063c",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 110
+        }
+      ]
+    },
+    {
+      "case_id": 59,
+      "real_source": {
+        "file": "320346.lua_bxml",
+        "input_sha256": "6bfb0729bd2ccb03b6a67e802022eb501c42301f3cf114dcfc78bd7ee2fb8add",
+        "function_path": "0/10",
+        "function_signature": "bdef94275425b07f30fac9a74a71a524944b2157eb71b99235ba30a7d53ae4a0",
+        "instruction_offsets": [
+          5661,
+          5665,
+          5669
+        ]
+      },
+      "generated_source_sha256": "ebda83f5dd74174e4bdb87b4ce1c92f4cf294b786e9e399b0eaf6a9e9d1d063c",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 110
+        }
+      ]
+    },
+    {
+      "case_id": 60,
+      "real_source": {
+        "file": "409999.lua_bxml",
+        "input_sha256": "ca11f24848cfa4e424948862b5d6d6690e917d363c8deb400ce65acfb1b59427",
+        "function_path": "0/7",
+        "function_signature": "3386615bf267747b03d237892a187ddcbc3bc004208a707b4e4785067127bfad",
+        "instruction_offsets": [
+          4956,
+          4960,
+          4964
+        ]
+      },
+      "generated_source_sha256": "0b36ed606f644f66d9675190b24040c45b0cb6cd9986922430ea085665d221c7",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 2821100
+        }
+      ]
+    },
+    {
+      "case_id": 61,
+      "real_source": {
+        "file": "409999.lua_bxml",
+        "input_sha256": "ca11f24848cfa4e424948862b5d6d6690e917d363c8deb400ce65acfb1b59427",
+        "function_path": "0/7",
+        "function_signature": "3386615bf267747b03d237892a187ddcbc3bc004208a707b4e4785067127bfad",
+        "instruction_offsets": [
+          4956,
+          4960,
+          4964
+        ]
+      },
+      "generated_source_sha256": "0b36ed606f644f66d9675190b24040c45b0cb6cd9986922430ea085665d221c7",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 2821100
+        }
+      ]
+    },
+    {
+      "case_id": 62,
+      "real_source": {
+        "file": "409999.lua_bxml",
+        "input_sha256": "ca11f24848cfa4e424948862b5d6d6690e917d363c8deb400ce65acfb1b59427",
+        "function_path": "0/7",
+        "function_signature": "3386615bf267747b03d237892a187ddcbc3bc004208a707b4e4785067127bfad",
+        "instruction_offsets": [
+          4956,
+          4960,
+          4964
+        ]
+      },
+      "generated_source_sha256": "0b36ed606f644f66d9675190b24040c45b0cb6cd9986922430ea085665d221c7",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 2821100
+        }
+      ]
+    },
+    {
+      "case_id": 63,
+      "real_source": {
+        "file": "409999.lua_bxml",
+        "input_sha256": "ca11f24848cfa4e424948862b5d6d6690e917d363c8deb400ce65acfb1b59427",
+        "function_path": "0/7",
+        "function_signature": "3386615bf267747b03d237892a187ddcbc3bc004208a707b4e4785067127bfad",
+        "instruction_offsets": [
+          4956,
+          4960,
+          4964
+        ]
+      },
+      "generated_source_sha256": "0b36ed606f644f66d9675190b24040c45b0cb6cd9986922430ea085665d221c7",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 2821100
+        }
+      ]
+    },
+    {
+      "case_id": 64,
+      "real_source": {
+        "file": "409999.lua_bxml",
+        "input_sha256": "ca11f24848cfa4e424948862b5d6d6690e917d363c8deb400ce65acfb1b59427",
+        "function_path": "0/7",
+        "function_signature": "3386615bf267747b03d237892a187ddcbc3bc004208a707b4e4785067127bfad",
+        "instruction_offsets": [
+          4956,
+          4960,
+          4964
+        ]
+      },
+      "generated_source_sha256": "0b36ed606f644f66d9675190b24040c45b0cb6cd9986922430ea085665d221c7",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 2821100
+        }
+      ]
+    },
+    {
+      "case_id": 65,
+      "real_source": {
+        "file": "417426.lua_bxml",
+        "input_sha256": "d1963a864dd8246f799032b3b843a271a5d20b08fc8223ab54f3bd4d0f55ff32",
+        "function_path": "0/25",
+        "function_signature": "0888bd13caf4e477912ee3a76e51e2414e3534bd3d17cec9205a3cd07e762466",
+        "instruction_offsets": [
+          21128,
+          21132,
+          21136
+        ]
+      },
+      "generated_source_sha256": "f4abc1e6d7678c7e05907db1e373400c99033f87ddeef88b684c31c1063ba440",
+      "arguments": [],
+      "expected_native_results": [
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "case_id": 66,
+      "real_source": {
+        "file": "548484.lua_bxml",
+        "input_sha256": "7f1efd48b701151c7e11b4b09ef85af92cf6fad06e10190db45797bedd0e5f0d",
+        "function_path": "0/0",
+        "function_signature": "48ea77c31975703ed7e6a46aa3817a0033d6a43714b5fb98031bc559332b5a16",
+        "instruction_offsets": [
+          3289,
+          3293,
+          3297
+        ]
+      },
+      "generated_source_sha256": "556b05cb216393140ae84f36e885b91708c054b29ab7d5ed9e60c545a39c4536",
+      "arguments": [
+        1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 10000
+        }
+      ]
+    },
+    {
+      "case_id": 67,
+      "real_source": {
+        "file": "548484.lua_bxml",
+        "input_sha256": "7f1efd48b701151c7e11b4b09ef85af92cf6fad06e10190db45797bedd0e5f0d",
+        "function_path": "0/0",
+        "function_signature": "48ea77c31975703ed7e6a46aa3817a0033d6a43714b5fb98031bc559332b5a16",
+        "instruction_offsets": [
+          3289,
+          3293,
+          3297
+        ]
+      },
+      "generated_source_sha256": "556b05cb216393140ae84f36e885b91708c054b29ab7d5ed9e60c545a39c4536",
+      "arguments": [
+        -1
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": -10000
+        }
+      ]
+    },
+    {
+      "case_id": 68,
+      "real_source": {
+        "file": "548484.lua_bxml",
+        "input_sha256": "7f1efd48b701151c7e11b4b09ef85af92cf6fad06e10190db45797bedd0e5f0d",
+        "function_path": "0/0",
+        "function_signature": "48ea77c31975703ed7e6a46aa3817a0033d6a43714b5fb98031bc559332b5a16",
+        "instruction_offsets": [
+          3289,
+          3293,
+          3297
+        ]
+      },
+      "generated_source_sha256": "556b05cb216393140ae84f36e885b91708c054b29ab7d5ed9e60c545a39c4536",
+      "arguments": [
+        7
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 70000
+        }
+      ]
+    },
+    {
+      "case_id": 69,
+      "real_source": {
+        "file": "548484.lua_bxml",
+        "input_sha256": "7f1efd48b701151c7e11b4b09ef85af92cf6fad06e10190db45797bedd0e5f0d",
+        "function_path": "0/0",
+        "function_signature": "48ea77c31975703ed7e6a46aa3817a0033d6a43714b5fb98031bc559332b5a16",
+        "instruction_offsets": [
+          3289,
+          3293,
+          3297
+        ]
+      },
+      "generated_source_sha256": "556b05cb216393140ae84f36e885b91708c054b29ab7d5ed9e60c545a39c4536",
+      "arguments": [
+        0
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "case_id": 70,
+      "real_source": {
+        "file": "548484.lua_bxml",
+        "input_sha256": "7f1efd48b701151c7e11b4b09ef85af92cf6fad06e10190db45797bedd0e5f0d",
+        "function_path": "0/0",
+        "function_signature": "48ea77c31975703ed7e6a46aa3817a0033d6a43714b5fb98031bc559332b5a16",
+        "instruction_offsets": [
+          3289,
+          3293,
+          3297
+        ]
+      },
+      "generated_source_sha256": "556b05cb216393140ae84f36e885b91708c054b29ab7d5ed9e60c545a39c4536",
+      "arguments": [
+        -2147483648
+      ],
+      "expected_native_results": [
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

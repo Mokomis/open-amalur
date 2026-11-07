@@ -1,0 +1,1660 @@
+{
+  "status": "STAGED ordinary-default sourceCloseIdle frame0 candidate; noGPU/currentoriginalactor state validation",
+  "fab": 1789717,
+  "GOR": 1790948,
+  "instance": 1789992,
+  "space": 1417252,
+  "geometry": {
+    "file": "world\\r-1_0.bin",
+    "bytes": 124672,
+    "sha256": "23c267086956c7bf178e0bcb3d51bb6c40f032942879321b88039680279efcff",
+    "vertices": 1413,
+    "triangles": 1370,
+    "ranges": 17,
+    "bounds": [
+      [
+        -1709.3052978515625,
+        2728.520263671875,
+        33.19043731689453
+      ],
+      [
+        -1576.5396728515625,
+        3011.66748046875,
+        398.12225341796875
+      ]
+    ]
+  },
+  "material_count": 4,
+  "texture_count": 14,
+  "profiles": [
+    {
+      "local_material": 0,
+      "native_material": 459142,
+      "family": 1,
+      "flags": 268435456,
+      "source_alpha_test": 0,
+      "cutoff_byte": 0,
+      "source_cull": 2,
+      "assets": [
+        488732,
+        489079,
+        488734,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture_slots": [
+        6,
+        8,
+        7,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ]
+    },
+    {
+      "local_material": 1,
+      "native_material": 464114,
+      "family": 11,
+      "flags": 268435456,
+      "source_alpha_test": 0,
+      "cutoff_byte": 0,
+      "source_cull": 2,
+      "assets": [
+        464115,
+        464116,
+        464117,
+        464128,
+        null,
+        null,
+        null,
+        null
+      ],
+      "color": [
+        0.8980392813682556,
+        0.6666666865348816,
+        0.5647059082984924,
+        1.0
+      ],
+      "specular": [
+        1.7599999904632568,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        0.4000000059604645,
+        1.0
+      ],
+      "probe_asset": 505647,
+      "environment_requirement": "Authored current-scene EnvironmentTint and exact cube505647 binding, see family11-integration-contract.json",
+      "texture_slots": [
+        0,
+        1,
+        2,
+        5,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ]
+    },
+    {
+      "local_material": 2,
+      "native_material": 464123,
+      "family": 1,
+      "flags": 268435456,
+      "source_alpha_test": 0,
+      "cutoff_byte": 0,
+      "source_cull": 2,
+      "assets": [
+        464119,
+        464120,
+        576181,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture_slots": [
+        3,
+        4,
+        9,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ]
+    },
+    {
+      "local_material": 3,
+      "native_material": 737050,
+      "family": 1,
+      "flags": 805339138,
+      "source_alpha_test": 1,
+      "cutoff_byte": 128,
+      "source_cull": 2,
+      "assets": [
+        737047,
+        737048,
+        737049,
+        null,
+        null,
+        null,
+        737046,
+        null
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.5,
+        10.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture_slots": [
+        11,
+        12,
+        13,
+        4294967295,
+        4294967295,
+        4294967295,
+        10,
+        4294967295
+      ]
+    }
+  ],
+  "copied_material_texture_files": [
+    {
+      "file": "materials.bin",
+      "bytes": 116,
+      "sha256": "42ac0cd1e48a94ef7fa2985c03802124e3c253a30c1717655d7c487adc8d530c",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\materials.bin"
+    },
+    {
+      "file": "native-materials.bin",
+      "bytes": 348,
+      "sha256": "5fba449b94df7438d3be01550f3348df46149350fa8c2d78e91941a96f5ba05f",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\native-materials.bin"
+    },
+    {
+      "file": "t0.bin",
+      "bytes": 699056,
+      "sha256": "36b3b07fcc54d07b41c1bdadb06b7b3d419040f963dc30765f798817c68b12eb",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t0.bin"
+    },
+    {
+      "file": "t1.bin",
+      "bytes": 699056,
+      "sha256": "7feef876fc105a3540efb17cec2ee3127d461dade0d194446354d7a33be4f7d8",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t1.bin"
+    },
+    {
+      "file": "t10.bin",
+      "bytes": 1398132,
+      "sha256": "df8202003f6360e811e7400ccb0508911ad9249e6d97822c582b8502e48477e6",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t10.bin"
+    },
+    {
+      "file": "t11.bin",
+      "bytes": 1398132,
+      "sha256": "64ed27221f7f50fbb0f9e8c95eb8798c40239304d9430caeefda9b34c7ed8af2",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t11.bin"
+    },
+    {
+      "file": "t12.bin",
+      "bytes": 1398132,
+      "sha256": "b9cfed17c75244cf4e42552eae4c7a8c5e955abf49017d85cf791d7e817e8bf5",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t12.bin"
+    },
+    {
+      "file": "t13.bin",
+      "bytes": 1398132,
+      "sha256": "e6942cff8f9e77ace75e2ebf2bbe981c62623b7029a75534d4bf05270bfa95a8",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t13.bin"
+    },
+    {
+      "file": "t2.bin",
+      "bytes": 699056,
+      "sha256": "4e509e25ac190cf7e33a2750e723e4aa91126b076b9996f1121e2cc4a3efd81d",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t2.bin"
+    },
+    {
+      "file": "t3.bin",
+      "bytes": 1398132,
+      "sha256": "4b39f5b7ab055142fe141d9a08f6ae79e993ae09798a2a0c8194ff2a850b9d2a",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t3.bin"
+    },
+    {
+      "file": "t4.bin",
+      "bytes": 1398132,
+      "sha256": "814dbdbb77d2f41c4006672790d0bf15a359ef95a2f0b1cfd1f1ff6d23e2e429",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t4.bin"
+    },
+    {
+      "file": "t5.bin",
+      "bytes": 699056,
+      "sha256": "e5165e0f8853eff19b23b4de6e92a1f81dc3d852823ecff90cbc37d8baff36b8",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t5.bin"
+    },
+    {
+      "file": "t6.bin",
+      "bytes": 699056,
+      "sha256": "2f39eb2753438b9c2a425033bd344d4bcf62b2020be34f676b6447c41e604502",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t6.bin"
+    },
+    {
+      "file": "t7.bin",
+      "bytes": 699056,
+      "sha256": "2cc2c7a9aa88e4daf3250d3137a5ff0f94312cd794403789d4c7034270427fa5",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t7.bin"
+    },
+    {
+      "file": "t8.bin",
+      "bytes": 699056,
+      "sha256": "df8c31cbf2a21f4f536cf7990f78b6455b9d06dbd95904fedc4f0ff67540d9fc",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t8.bin"
+    },
+    {
+      "file": "t9.bin",
+      "bytes": 1398132,
+      "sha256": "727324fff7f8cd112697c18a2a95f47001737d66c11dd87292c0df4b9e296efe",
+      "source": "work\\v48-opening\\initial-sword-visuals\\placed-container-rigid-candidate\\world\\t9.bin"
+    }
+  ],
+  "parts": [
+    {
+      "fab": 1789717,
+      "assembly": 1,
+      "native_material": 464123,
+      "bone": 53,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 144,
+      "triangles": 72,
+      "source_vb_sha256": "c19bbad1800afcf28c1c9a6abd82b574bc43a7fac0f215e3de74881459fd45e7",
+      "source_ib_sha256": "360a0ed3431a6eb700d1aa3490ec591461d61dfd2ac200a42a018b9c44b531e1",
+      "source_descriptor_file_offset": 3573,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -6.248152256011963,
+          -10.308947563171387,
+          -157.4730224609375
+        ],
+        [
+          174.86019897460938,
+          14.660673141479492,
+          157.47544860839844
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          -104.38068389892578,
+          -21.346851348876953,
+          0.5947563648223877
+        ],
+        [
+          76.72718811035156,
+          3.61958909034729,
+          315.5440979003906
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1688.093994140625,
+          2785.09130859375,
+          41.16722106933594
+        ],
+        [
+          -1660.46044921875,
+          2966.35205078125,
+          356.1165771484375
+        ]
+      ],
+      "source_bone_global_matrix": [
+        1.0,
+        -4.31528314948082e-05,
+        4.315469413995743e-05,
+        -98.13925170898438,
+        4.315469413995743e-05,
+        1.0,
+        -4.31528314948082e-05,
+        -11.049633979797363,
+        -4.31528314948082e-05,
+        4.315469413995743e-05,
+        1.0,
+        158.0728302001953,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 2,
+      "native_material": 464114,
+      "bone": 52,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 246,
+      "triangles": 220,
+      "source_vb_sha256": "4d5f148159d38132dbf655059bb1359a6e8d53eb0111f7cec342d177dfb2e81a",
+      "source_ib_sha256": "c1f4da6ca65c01d503ce19b86d0d2b6b63c40a56dece6f9f41f304636b96cdc9",
+      "source_descriptor_file_offset": 3642,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -152.21331787109375,
+          -41.64279556274414,
+          -6.104127883911133
+        ],
+        [
+          129.6278839111328,
+          12.694615364074707,
+          358.3076477050781
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          -149.28533935546875,
+          -39.269710540771484,
+          -6.862008094787598
+        ],
+        [
+          132.5558624267578,
+          15.067699432373047,
+          357.5497741699219
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1709.3052978515625,
+          2728.520263671875,
+          33.71045684814453
+        ],
+        [
+          -1646.56103515625,
+          3011.66748046875,
+          398.12225341796875
+        ]
+      ],
+      "source_bone_global_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2.9279849529266357,
+        0.0,
+        1.0,
+        0.0,
+        2.3730838298797607,
+        0.0,
+        0.0,
+        1.0,
+        -0.7578800916671753,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 3,
+      "native_material": 459142,
+      "bone": 52,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 48,
+      "triangles": 24,
+      "source_vb_sha256": "e1f6cfc8dc35e6795c6f3e15ec332b228c81ee36d02e07046ebd0c4379807fe1",
+      "source_ib_sha256": "8d2e5389a7c8df145f0ffe67c21eb805d14d00e5a863c7c7010d0a1920a9ddb7",
+      "source_descriptor_file_offset": 3711,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -142.41932678222656,
+          -31.554927825927734,
+          41.13275909423828
+        ],
+        [
+          121.28348541259766,
+          5.305018901824951,
+          347.771728515625
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          -139.49134826660156,
+          -29.18184471130371,
+          40.3748779296875
+        ],
+        [
+          124.21147155761719,
+          7.678102493286133,
+          347.01385498046875
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1699.087158203125,
+          2737.0380859375,
+          80.94734191894531
+        ],
+        [
+          -1654.218994140625,
+          3001.6171875,
+          387.5863037109375
+        ]
+      ],
+      "source_bone_global_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2.9279849529266357,
+        0.0,
+        1.0,
+        0.0,
+        2.3730838298797607,
+        0.0,
+        0.0,
+        1.0,
+        -0.7578800916671753,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 4,
+      "native_material": 464123,
+      "bone": 52,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 16,
+      "triangles": 8,
+      "source_vb_sha256": "dc2f08ff9571dbbbcd06a93fb155992e45acbc6b4a37a04208ad2309f21823c0",
+      "source_ib_sha256": "5db074bbbc0e7d44b4612b76a7a64d10bbc67e6e7b84aed82ac9686acc3a1677",
+      "source_descriptor_file_offset": 3780,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -16.55510902404785,
+          -13.423646926879883,
+          200.92189025878906
+        ],
+        [
+          88.475830078125,
+          -7.151827335357666,
+          324.7034606933594
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          -13.627123832702637,
+          -11.050562858581543,
+          200.1640167236328
+        ],
+        [
+          91.40381622314453,
+          -4.778743743896484,
+          323.9455871582031
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1678.7392578125,
+          2770.218505859375,
+          240.73648071289062
+        ],
+        [
+          -1672.95556640625,
+          2875.39404296875,
+          364.51806640625
+        ]
+      ],
+      "source_bone_global_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        2.9279849529266357,
+        0.0,
+        1.0,
+        0.0,
+        2.3730838298797607,
+        0.0,
+        0.0,
+        1.0,
+        -0.7578800916671753,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 5,
+      "native_material": 737050,
+      "bone": 33,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 30,
+      "triangles": 32,
+      "source_vb_sha256": "906cbd7ffc9e1826554ffa77fcac509569b0cf8d57ddbd77763935b0db89c25b",
+      "source_ib_sha256": "5fe08c5b8a3d756ab91f17cafa49fb8f392aebad52e816399e0f141931412a96",
+      "source_descriptor_file_offset": 3849,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -4.071528911590576,
+          16.090015411376953,
+          69.77177429199219
+        ],
+        [
+          7.082912921905518,
+          23.150230407714844,
+          116.80855560302734
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          44.89039611816406,
+          -4.063830375671387,
+          -7.382026195526123
+        ],
+        [
+          75.34867095947266,
+          9.026288986206055,
+          31.28976058959961
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1671.7093505859375,
+          2785.9375,
+          33.19043731689453
+        ],
+        [
+          -1659.52587890625,
+          2816.68701171875,
+          71.86222839355469
+        ]
+      ],
+      "source_bone_global_matrix": [
+        -0.842697805228724,
+        0.1748113358302868,
+        -0.5092163467000759,
+        106.29909322854483,
+        -0.07477735103780768,
+        -0.974654987804098,
+        -0.21084552367534656,
+        40.44718930335266,
+        -0.5331683008753283,
+        -0.1396011226415736,
+        0.8344117434937762,
+        -61.28582094234753,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 6,
+      "native_material": 737050,
+      "bone": 34,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 44,
+      "triangles": 48,
+      "source_vb_sha256": "145fd8b5af5005c5bd2293fa7eab0b49c9108c567298dfc0e6d99bfef4bd794f",
+      "source_ib_sha256": "e529f1e08e944594db3ccc3071733c88d107aa0e7796978b69f3923e403d007c",
+      "source_descriptor_file_offset": 3918,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -1.3292170763015747,
+          14.491954803466797,
+          112.99803161621094
+        ],
+        [
+          4.592599391937256,
+          22.837560653686523,
+          145.29441833496094
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          41.94980239868164,
+          -8.310006141662598,
+          27.62175750732422
+        ],
+        [
+          48.57779312133789,
+          -0.1875147819519043,
+          59.918174743652344
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1675.95263671875,
+          2813.046630859375,
+          68.19422149658203
+        ],
+        [
+          -1667.8343505859375,
+          2819.674560546875,
+          100.49063873291016
+        ]
+      ],
+      "source_bone_global_matrix": [
+        -0.9828828465908648,
+        0.13510065238312452,
+        -0.12525711202268172,
+        61.40932924323296,
+        -0.11333577796273134,
+        -0.9794134788434278,
+        -0.1670465228180149,
+        35.407926900433246,
+        -0.145246236664717,
+        -0.14999122298614415,
+        0.9779602912549316,
+        -79.65637342609085,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 7,
+      "native_material": 737050,
+      "bone": 35,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 29,
+      "triangles": 28,
+      "source_vb_sha256": "ab6ef254b0b165ade587193d81c788ddd6334a2f6e85a3b9876cf59994567952",
+      "source_ib_sha256": "a516ca0cddd92fd63e4db00a45afd93ece70ac90ed542c032440cbb34fd134e2",
+      "source_descriptor_file_offset": 3987,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -8.378726959228516,
+          1.179630994796753,
+          145.18772888183594
+        ],
+        [
+          1.4351537227630615,
+          15.925333023071289,
+          149.1453094482422
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          29.489742279052734,
+          -4.385727882385254,
+          57.040958404541016
+        ],
+        [
+          44.23654556274414,
+          4.160455226898193,
+          63.427589416503906
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1671.9708251953125,
+          2817.28662109375,
+          97.61341857910156
+        ],
+        [
+          -1663.0579833984375,
+          2831.86962890625,
+          104.00005340576172
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.0002341178454731267,
+        0.9999999803553344,
+        -0.0001811104249354981,
+        28.338244645335415,
+        -0.9303929644891955,
+        0.00028412751863415435,
+        0.36656368500380504,
+        -57.36437912436304,
+        0.36656375280782016,
+        8.260312144546512e-05,
+        0.9303929751118738,
+        -75.61910746918984,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 8,
+      "native_material": 737050,
+      "bone": 36,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 100,
+      "triangles": 112,
+      "source_vb_sha256": "1067e57a190f34e6176168fa33abf97f7ee67d7a04eb90d745cd7db11af53fb5",
+      "source_ib_sha256": "ab7e3e89df0dec478f4303676f3425a3769b105ffb20118fbf35b6f82282ea53",
+      "source_descriptor_file_offset": 4056,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -5.675051212310791,
+          -5.515657901763916,
+          -9.371580123901367
+        ],
+        [
+          5.675053596496582,
+          5.515697956085205,
+          9.371849060058594
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          33.601966857910156,
+          -16.936552047729492,
+          46.94435501098633
+        ],
+        [
+          44.63123321533203,
+          -2.1045565605163574,
+          62.05430603027344
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1684.3807373046875,
+          2817.052001953125,
+          87.51681518554688
+        ],
+        [
+          -1669.626220703125,
+          2828.273681640625,
+          102.62677001953125
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.0002338759179478129,
+        1.0000000658767967,
+        -0.0001803733522661832,
+        39.11684208498402,
+        -0.9303929765987795,
+        0.0002836471965014749,
+        0.36656372200483806,
+        -9.875821439659827,
+        0.36656379688289087,
+        8.196323174412908e-05,
+        0.9303929806107285,
+        54.35809475673401,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 9,
+      "native_material": 737050,
+      "bone": 43,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 31,
+      "triangles": 32,
+      "source_vb_sha256": "83c9d4ac7f43fadff434da55f7cfec89f13fd87d369e923c33164bd136698807",
+      "source_ib_sha256": "07d032f8f4229e138b84d1693d218d0b379f8103688e221e12880bc24efb050a",
+      "source_descriptor_file_offset": 4125,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -4.609469890594482,
+          -23.313505172729492,
+          69.77179718017578
+        ],
+        [
+          8.223600387573242,
+          -16.253313064575195,
+          117.1621322631836
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          -12.280813217163086,
+          -6.754111289978027,
+          -2.48796010017395
+        ],
+        [
+          8.91793441772461,
+          26.141557693481445,
+          30.94022560119629
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1673.2447509765625,
+          2852.6474609375,
+          38.084503173828125
+        ],
+        [
+          -1639.876220703125,
+          2872.95263671875,
+          71.51268768310547
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.4055479680136772,
+        0.8387861953778293,
+        0.36327448471441887,
+        -19.9042482430212,
+        -0.6284723912410224,
+        0.5444523828888834,
+        -0.555512366963388,
+        74.4011677230383,
+        -0.6637418873504889,
+        -0.0030210323951629417,
+        0.74795567102159,
+        -53.294345938175255,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 10,
+      "native_material": 737050,
+      "bone": 44,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 48,
+      "triangles": 48,
+      "source_vb_sha256": "8baa7fb8bd09f5bb4889bba4ed98185330f09672d33228327bff854a8bc1a4b8",
+      "source_ib_sha256": "2b85a3d087d25bfb329f5e45b1c5d66976aeba9ad31a7cf6cb9eec06dca99c20",
+      "source_descriptor_file_offset": 4194,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -1.8194423913955688,
+          -22.94938087463379,
+          112.99805450439453
+        ],
+        [
+          4.030184268951416,
+          -14.705559730529785,
+          145.29443359375
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          4.735663890838623,
+          -7.11974573135376,
+          27.638593673706055
+        ],
+        [
+          13.45012378692627,
+          -2.1894869804382324,
+          59.816402435302734
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1673.7652587890625,
+          2848.109619140625,
+          68.2110595703125
+        ],
+        [
+          -1668.68603515625,
+          2856.816162109375,
+          100.38887023925781
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.5795515083264766,
+        0.8098466601412858,
+        0.09093072825053596,
+        11.677416745105166,
+        -0.7956123084857682,
+        0.5864303294653654,
+        -0.15198814399680916,
+        27.302181946876203,
+        -0.17641152215118427,
+        0.015739325285563547,
+        0.9841907074133006,
+        -82.83727063422992,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 11,
+      "native_material": 737050,
+      "bone": 45,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 29,
+      "triangles": 28,
+      "source_vb_sha256": "097c4c279a77cac64bb7d562118ac45d29ebec4a942d1aa1e8beef3d22060c66",
+      "source_ib_sha256": "c2dd5e5ce87f1facd96ade115eee9646b164f1fb48194e3b2422b88e32c665da",
+      "source_descriptor_file_offset": 4263,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -8.378756523132324,
+          -16.088653564453125,
+          145.18756103515625
+        ],
+        [
+          1.4351317882537842,
+          -1.3429577350616455,
+          149.1451416015625
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          12.222396850585938,
+          -4.394624710083008,
+          57.04000473022461
+        ],
+        [
+          26.96663475036621,
+          4.158698558807373,
+          63.42522430419922
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1671.068603515625,
+          2834.3916015625,
+          97.61247253417969
+        ],
+        [
+          -1662.8819580078125,
+          2849.28564453125,
+          103.99768829345703
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.0002825372162364831,
+        1.0000000976784857,
+        -0.00014778284047988098,
+        28.333171797626594,
+        -0.9303920243495012,
+        0.00031683950862207303,
+        0.3665663214196901,
+        -57.364771559386725,
+        0.366566410041634,
+        3.40085580536099e-05,
+        0.9303922886748116,
+        -75.61943545171877,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 12,
+      "native_material": 737050,
+      "bone": 46,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 100,
+      "triangles": 112,
+      "source_vb_sha256": "cba089176dd6175f5a068f13851d904ad817ea84562f835731888846b7bc6195",
+      "source_ib_sha256": "f93106c67cef08e71244f1d97b58316be237699f7a34aba4b024e7ebf5a69a02",
+      "source_descriptor_file_offset": 4332,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -5.675032615661621,
+          -5.515661239624023,
+          -9.371573448181152
+        ],
+        [
+          5.675073146820068,
+          5.515686988830566,
+          9.371830940246582
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          10.817989349365234,
+          -16.94317626953125,
+          46.94279479980469
+        ],
+        [
+          21.85147476196289,
+          -2.112501621246338,
+          62.05195617675781
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1683.706298828125,
+          2840.0185546875,
+          87.5152587890625
+        ],
+        [
+          -1668.8123779296875,
+          2850.84912109375,
+          102.62442016601562
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.0002834107937579906,
+        1.0000000938370488,
+        -0.00014823193832567532,
+        16.33467745374901,
+        -0.9303919228655501,
+        0.00031773208284262896,
+        0.3665665163829509,
+        -9.88269240401481,
+        0.3665665823746393,
+        3.4117005871639274e-05,
+        0.9303922651650807,
+        54.35639271706576,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 13,
+      "native_material": 737050,
+      "bone": 26,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 102,
+      "triangles": 132,
+      "source_vb_sha256": "76111962ff44defdc00196728f5f2343ef3fcac08be50b821626d3f30e96b5f1",
+      "source_ib_sha256": "ea350a24c2e3dea3facc7376a06a210a3e89e9f3f0b2684fcbfb49c475b80018",
+      "source_descriptor_file_offset": 4401,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -11.997310638427734,
+          -8.24878978729248,
+          152.63821411132812
+        ],
+        [
+          10.324003219604492,
+          8.769386291503906,
+          176.0610809326172
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          10.951654434204102,
+          -0.9281703233718872,
+          57.53924560546875
+        ],
+        [
+          30.402143478393555,
+          18.523035049438477,
+          80.70479583740234
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1667.895751953125,
+          2830.77490234375,
+          98.11170959472656
+        ],
+        [
+          -1648.2332763671875,
+          2850.24560546875,
+          121.27725982666016
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.23163177550450978,
+        0.6491026542872972,
+        -0.7245776068804688,
+        140.7710937312474,
+        -0.5100124713906847,
+        0.7152942382402356,
+        0.4777463976978801,
+        -71.29593953656251,
+        0.828392564740786,
+        0.2588822370196424,
+        0.49673521780286334,
+        -10.984969719900192,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 14,
+      "native_material": 737050,
+      "bone": 47,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 92,
+      "triangles": 92,
+      "source_vb_sha256": "137bdda00e05707a63ae1657c09926e1b01299795c07357f7a026f6f2cdc87f1",
+      "source_ib_sha256": "9bdf2cfa719e931198a64157560408f29295924ad06b229315d4e9622775e653",
+      "source_descriptor_file_offset": 4470,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -18.144229888916016,
+          -15.111798286437988,
+          114.06224822998047
+        ],
+        [
+          4.950621604919434,
+          14.948591232299805,
+          149.53514099121094
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          13.201226234436035,
+          -11.808883666992188,
+          28.279930114746094
+        ],
+        [
+          43.261619567871094,
+          11.880228042602539,
+          63.22249221801758
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1678.9739990234375,
+          2818.314697265625,
+          68.8523941040039
+        ],
+        [
+          -1655.253173828125,
+          2848.36083984375,
+          103.79495239257812
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.00019850185330005417,
+        1.0000000509278903,
+        -6.714818156688833e-05,
+        28.322552786515786,
+        -0.998354534194531,
+        0.0001944906541311931,
+        -0.057343103037889274,
+        0.8754098246160891,
+        -0.05734317100459883,
+        7.828316519772125e-05,
+        0.9983546851316552,
+        -85.92401678592277,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 15,
+      "native_material": 737050,
+      "bone": 11,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 69,
+      "triangles": 78,
+      "source_vb_sha256": "2c0aecac81c6dcc3f1cf94e90f4d9552127eed1ce5fff0f7e0b2d61848867961",
+      "source_ib_sha256": "1eb48d65e42a11674da532f4cbb1601182cf00928fc7c0bf8cc8370d7f9ef789",
+      "source_descriptor_file_offset": 4539,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -21.770057678222656,
+          13.2552490234375,
+          0.44098320603370667
+        ],
+        [
+          -1.1830012798309326,
+          23.313505172729492,
+          16.910419464111328
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          50.46576690673828,
+          65.15171813964844,
+          2.293699026107788
+        ],
+        [
+          60.5235481262207,
+          89.37432098388672,
+          12.18723201751709
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1602.7772216796875,
+          2798.333740234375,
+          42.86616134643555
+        ],
+        [
+          -1578.61083984375,
+          2808.68896484375,
+          52.75969696044922
+        ]
+      ],
+      "source_bone_global_matrix": [
+        3.077665461466903e-05,
+        0.9999995913060864,
+        3.549208574797124e-05,
+        37.21040043185323,
+        -0.9446885241520492,
+        4.075084235662155e-05,
+        -0.3279682346366848,
+        69.05505824319536,
+        -0.327968457825896,
+        -2.345941427338887e-05,
+        0.9446887825549041,
+        -5.226711802805994,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 16,
+      "native_material": 737050,
+      "bone": 19,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 70,
+      "triangles": 80,
+      "source_vb_sha256": "8132054163ddf34ce2e8398389ec7bff2a85073474007c5ffa3beba886d20aad",
+      "source_ib_sha256": "8355cb1fa8323922c72c6c2bd15c31d8027b1527a4e621fa0659e7f9eb1318f7",
+      "source_descriptor_file_offset": 4608,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -21.91973114013672,
+          -22.509511947631836,
+          0.8592696785926819
+        ],
+        [
+          -1.3326709270477295,
+          -12.451303482055664,
+          17.0695743560791
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          5.793668270111084,
+          78.2325210571289,
+          0.8913024663925171
+        ],
+        [
+          15.852184295654297,
+          90.12538146972656,
+          24.077335357666016
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1588.485107421875,
+          2843.02099609375,
+          41.463768005371094
+        ],
+        [
+          -1576.5396728515625,
+          2852.915283203125,
+          64.64979553222656
+        ]
+      ],
+      "source_bone_global_matrix": [
+        2.2282733105166336e-05,
+        0.9999999449239196,
+        2.0882783602954067e-05,
+        28.30345457472277,
+        0.21011218663372533,
+        1.5772343690764695e-05,
+        -0.9776770409542742,
+        95.52473147005794,
+        -0.9776771265736334,
+        2.614519145498621e-05,
+        -0.21011215273756811,
+        2.839259424749695,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 17,
+      "native_material": 737050,
+      "bone": 48,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "vertices": 215,
+      "triangles": 224,
+      "source_vb_sha256": "7b59dc4b0f9921e9ded39ea1c138b267737698e0e7bc6a3a2ba826d6fa387390",
+      "source_ib_sha256": "490389fec51abc59750d1a1d051c283f2ca8f50979b7032317f0d35d1192c3a1",
+      "source_descriptor_file_offset": 4677,
+      "source_vertex_type": 22,
+      "source_stride": 60,
+      "source_local_bounds": [
+        [
+          -16.885984420776367,
+          -16.164941787719727,
+          83.29370880126953
+        ],
+        [
+          3.452861785888672,
+          16.001718521118164,
+          108.74349212646484
+        ]
+      ],
+      "frame0_assembled_local_bounds": [
+        [
+          12.147107124328613,
+          -5.085319995880127,
+          -1.3878357410430908
+        ],
+        [
+          44.31377029418945,
+          15.253985404968262,
+          24.063234329223633
+        ]
+      ],
+      "frame0_world_bounds": [
+        [
+          -1672.21044921875,
+          2816.925537109375,
+          39.184627532958984
+        ],
+        [
+          -1651.7874755859375,
+          2849.07666015625,
+          64.63569641113281
+        ]
+      ],
+      "source_bone_global_matrix": [
+        0.00010818122152699557,
+        1.0000000581034632,
+        8.177104792941588e-05,
+        28.304178233696444,
+        -1.000000059408272,
+        0.00010830166475274226,
+        -1.9788655762913535e-05,
+        -1.6305058937139423,
+        -1.9914597564226535e-05,
+        -8.189023195283113e-05,
+        1.0000001179291695,
+        -84.68134632164394,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "withheld": [
+    {
+      "assembly": 0,
+      "triangles": 610,
+      "reason": "HardLight1880463 unsupported inthis4rowbank"
+    },
+    {
+      "assembly": 18,
+      "triangles": 70,
+      "reason": "multibone/remap path withheld"
+    },
+    {
+      "assembly": 19,
+      "triangles": 128,
+      "reason": "multibone/remap path withheld"
+    },
+    {
+      "assembly": 20,
+      "triangles": 120,
+      "reason": "multibone/remap path withheld"
+    }
+  ],
+  "shifts_from_rest": [
+    {
+      "assembly": 1,
+      "bone": 53,
+      "max_world_vertex_delta_from_rest": 0.017418694697683396,
+      "mean_world_vertex_delta_from_rest": 0.009563301624089384
+    },
+    {
+      "assembly": 2,
+      "bone": 52,
+      "max_world_vertex_delta_from_rest": 0.0,
+      "mean_world_vertex_delta_from_rest": 0.0
+    },
+    {
+      "assembly": 3,
+      "bone": 52,
+      "max_world_vertex_delta_from_rest": 0.0,
+      "mean_world_vertex_delta_from_rest": 0.0
+    },
+    {
+      "assembly": 4,
+      "bone": 52,
+      "max_world_vertex_delta_from_rest": 0.0,
+      "mean_world_vertex_delta_from_rest": 0.0
+    },
+    {
+      "assembly": 5,
+      "bone": 33,
+      "max_world_vertex_delta_from_rest": 0.03269713749094824,
+      "mean_world_vertex_delta_from_rest": 0.02541916863596479
+    },
+    {
+      "assembly": 6,
+      "bone": 34,
+      "max_world_vertex_delta_from_rest": 0.012968794825487916,
+      "mean_world_vertex_delta_from_rest": 0.008955877162853721
+    },
+    {
+      "assembly": 7,
+      "bone": 35,
+      "max_world_vertex_delta_from_rest": 0.0026883197687433153,
+      "mean_world_vertex_delta_from_rest": 0.0015083899467958125
+    },
+    {
+      "assembly": 8,
+      "bone": 36,
+      "max_world_vertex_delta_from_rest": 0.0060967646456482625,
+      "mean_world_vertex_delta_from_rest": 0.002334913276751311
+    },
+    {
+      "assembly": 9,
+      "bone": 43,
+      "max_world_vertex_delta_from_rest": 0.012074167676983941,
+      "mean_world_vertex_delta_from_rest": 0.0095803316328396
+    },
+    {
+      "assembly": 10,
+      "bone": 44,
+      "max_world_vertex_delta_from_rest": 0.008746364644043622,
+      "mean_world_vertex_delta_from_rest": 0.006291749182795948
+    },
+    {
+      "assembly": 11,
+      "bone": 45,
+      "max_world_vertex_delta_from_rest": 0.008404255116239505,
+      "mean_world_vertex_delta_from_rest": 0.006115162638224625
+    },
+    {
+      "assembly": 12,
+      "bone": 46,
+      "max_world_vertex_delta_from_rest": 0.009005853128027751,
+      "mean_world_vertex_delta_from_rest": 0.007448103198082637
+    },
+    {
+      "assembly": 13,
+      "bone": 26,
+      "max_world_vertex_delta_from_rest": 0.01408955840111875,
+      "mean_world_vertex_delta_from_rest": 0.008738898095757388
+    },
+    {
+      "assembly": 14,
+      "bone": 47,
+      "max_world_vertex_delta_from_rest": 0.005379069432142942,
+      "mean_world_vertex_delta_from_rest": 0.003340211980863166
+    },
+    {
+      "assembly": 15,
+      "bone": 11,
+      "max_world_vertex_delta_from_rest": 78.44393064839974,
+      "mean_world_vertex_delta_from_rest": 78.44363018209886
+    },
+    {
+      "assembly": 16,
+      "bone": 19,
+      "max_world_vertex_delta_from_rest": 99.63166594369551,
+      "mean_world_vertex_delta_from_rest": 99.63021587966902
+    },
+    {
+      "assembly": 17,
+      "bone": 48,
+      "max_world_vertex_delta_from_rest": 0.0025960157034341075,
+      "mean_world_vertex_delta_from_rest": 0.0013103611544985191
+    }
+  ],
+  "source_clip_pose": {
+    "file": "work\\v48-opening\\initial-sword-visuals\\initial-state-consumer-audit\\close-idle-variant\\close-idle-native-local-trs.bin",
+    "sha256": "5fc86c721ea73d10dc896a3a919542fa115e0b884f6cc2b9878f4506310d55f3",
+    "joints": 54,
+    "frames": 1,
+    "animation": 1789841,
+    "sample_time": 0,
+    "chooser_variant": 0,
+    "motion": "Close Idle4514355",
+    "proof": "work\\v48-opening\\initial-sword-visuals\\initial-state-consumer-audit\\close-idle-variant\\close-idle-proof.json"
+  },
+  "source_mesh": {
+    "file": "work\\v48-opening\\initial-sword-audit\\inputs\\initial_0.pak\\1789717.fab_visual_data_streamable_bin",
+    "sha256": "7a87a8ff5c353cbdb7b01b8c3e84fe36cdcd0459f66145f5b6135408766eea85"
+  },
+  "vertex_contract": {
+    "evidence": "work/v49-character-create/vertex-contract-audit/REPORT.md +evidence/recorded-input-layouts.json",
+    "source_type": 22,
+    "stride": 60,
+    "fields": "Pfloat3@0,jointsUINT8x4@12,weightsSNORM16x4@16,UV0float2@24,N/T/B SNORM16x4@32/40/48,RGBA8@56",
+    "scope": "Recorded native type22 declaration correspondence; not a captured pipeline for thiscontainer. No length-scoring used.",
+    "UV1": "No authoredstream1 available; derivedstaticOAWE UV1duplicatesUV0 forreadercompatibility; noneofselectedfamilies useUV1"
+  },
+  "transforms": "RawEdgeQ conjugatedexactlyonce bymatrix();54bone parent hierarchy; sourceunitS; descriptorbone rigidtransform then provenGOR TRS. NoInverseBind inrigidpath.",
+  "validation": {
+    "triangle_index_occurrence_order_equals_frozen_rest": true,
+    "UV_RGBA_nativeMID_flags_byte_identity": true,
+    "material_texture_bytes_equal_frozen_rest": true,
+    "newpositions_TBN_sourceformula_valid": true,
+    "range_material_first_count_flags_anchor_intervals_source_unchanged": true,
+    "draw_spheres_and_registry_bounds_recomputed": true,
+    "reader_reparse_payload_identity": true
+  },
+  "limits": [
+    "Ordinary defaultpath, notdeath orMotionSetoverride proof; noinitialstate timer/event executed.",
+    "Threeblendedparts18/19/20 withheld318tri,HardLightpart0 withheld610tri; nofallbackmaterial/pose invented.",
+    "Fourmaterialprofilebank sameasfrozenrest; family11 stillrequires exactcube505647/currentauthoredEnvironmentTint integration.",
+    "RootmustremaplocalbankIDs andreviewbeforemerge. No live/default/source/core edits.",
+    "Oldrestcandidate andallpriorclipreceipts untouched."
+  ]
+}

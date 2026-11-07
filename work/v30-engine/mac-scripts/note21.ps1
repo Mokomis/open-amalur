@@ -1,0 +1,10 @@
+$note=@'
+
+V20 OUTSIDE SURVEY (2026-10-31): shop exit object int_dal_gorhart_alchemistshop_exit (gor record: id space at +8, pos at +24) is in space 431638 out_dal_north_01 at (1575.1,-62759.2,5152.1). Region 431608 names terrain 431658 at file +20. Space holds 1757 render records at slot 0x160 (84 bytes), refs slot 0x1b0 typed top nibble 15 = FAB, centers 0x1a8, FAB list 0x118 and counts 0x120; collision set 485422 holds 240982 triangles but not the ground.
+TERRAIN SOLVED: terrain_streamable_bin = 16 MB block then zlib records (u32 raw,total,0,raw,comp, zlib); raw 66568 records are 129x129 RGBA maps. Other records are chunks: u32 grid count, u16 x0,x1,y0,y1 x2; each grid is u32 361 then 19x19 u16 heights, 65535 = hole, then u32 361 and a mask. Sixteen-grid chunks are row-major. A chunk of width w has patches w grid units wide at key + col*w, so samples are w/16 units apart with 1 border sample, and units are 50 world units from origin -102425. Levels 16,32,64,128,256 overlap; use the finest. Partial chunks are placed by exact edge matching. World z = 0.219086*h + 4811.47 fitted to 18 ground references: median error 0.9 units, door predicted 5146.8 vs 5152.1. Scripts work/v20-char/terrain_chunk.py, terrain_graph.py, terrain_lod.py; intermediates terrain-grids.pkl, terrain-abs.pkl, terrain-fit.json.
+'@
+Add-Content -Encoding UTF8 'work\CURRENT_STATE.txt' $note
+'--- geometry'; Get-Content work\v17-props\build_geometry.py | ForEach-Object { $_.Substring(0,[Math]::Min(210,$_.Length)) } | Select-Object -First 75
+'--- mesh header'; Get-ChildItem work\v19-host\include -Filter *.h | ForEach-Object Name; Select-String -Path work\v19-host\src\amalur_scene_mesh.c -Pattern 'magic|OMSC|MAGIC|memcmp|version' | Select-Object -First 8 | ForEach-Object { $_.Line.Trim().Substring(0,[Math]::Min(170,$_.Line.Trim().Length)) }
+'--- materials'; Get-Content work\v09-textures\material_package.py | ForEach-Object { $_.Substring(0,[Math]::Min(190,$_.Length)) } | Select-Object -First 45
+'--- builder'; Get-Content work\v11-textures\build_scene_materials.py | ForEach-Object { $_.Substring(0,[Math]::Min(170,$_.Length)) } | Select-Object -First 50

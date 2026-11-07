@@ -1,0 +1,8 @@
+﻿{
+    "label":  "save_restore_namespace_strings",
+    "arguments":  {
+                      "pattern":  "^SAVE_RESTORE$|^does_platform_support_quick_save$|LuaSave",
+                      "mode":  "regex"
+                  },
+    "tool":  "search_strings"
+}

@@ -1,0 +1,181 @@
+{
+  "body_free_preflight": [
+    {
+      "address": "00c8ab60",
+      "name": "BHG_FabInstanceRender__vf3",
+      "machine_bytes": 205,
+      "pseudocode_chars": 796,
+      "file": "BHG_FabInstanceRender.c",
+      "offset": 95
+    },
+    {
+      "address": "00cccaf0",
+      "name": "BHG_FabInstanceRender__vf5",
+      "machine_bytes": 205,
+      "pseudocode_chars": 1129,
+      "file": "BHG_FabInstanceRender.c",
+      "offset": 929
+    },
+    {
+      "address": "00ce2b00",
+      "name": "BHG_FabInstanceRender__vf6",
+      "machine_bytes": 293,
+      "pseudocode_chars": 1475,
+      "file": "BHG_FabInstanceRender.c",
+      "offset": 2096
+    },
+    {
+      "address": "00d1b520",
+      "name": "BHG_FabInstanceRender__vf4",
+      "machine_bytes": 67,
+      "pseudocode_chars": 397,
+      "file": "BHG_FabInstanceRender.c",
+      "offset": 3609
+    },
+    {
+      "address": "00d2d9e0",
+      "name": "BHG_FabInstanceRender__vf2",
+      "machine_bytes": 216,
+      "pseudocode_chars": 1044,
+      "file": "BHG_FabInstanceRender.c",
+      "offset": 5464
+    },
+    {
+      "address": "00d28dc0",
+      "name": "BHG_RsSceneRenderController__vf1",
+      "machine_bytes": 5231,
+      "pseudocode_chars": 14411,
+      "file": "BHG_RsSceneRenderController.c",
+      "offset": 7214
+    },
+    {
+      "address": "00d32b10",
+      "name": "BHG_RsSceneRenderController__vf4",
+      "machine_bytes": 1330,
+      "pseudocode_chars": 6812,
+      "file": "BHG_RsSceneRenderController.c",
+      "offset": 21669
+    },
+    {
+      "address": "00c961e0",
+      "name": "FUN_00c961e0",
+      "machine_bytes": 4156,
+      "pseudocode_chars": 28506,
+      "file": "unnamed_00c9.c",
+      "offset": 87434
+    },
+    {
+      "address": "00cd24e0",
+      "name": "FUN_00cd24e0",
+      "machine_bytes": 72,
+      "pseudocode_chars": 443,
+      "file": "unnamed_00cd.c",
+      "offset": 39468
+    },
+    {
+      "address": "00cd2570",
+      "name": "FUN_00cd2570",
+      "machine_bytes": 72,
+      "pseudocode_chars": 450,
+      "file": "unnamed_00cd.c",
+      "offset": 40334
+    }
+  ],
+  "direct_callers": {
+    "00d2d9e0": [
+      {
+        "caller": "00d6efb0",
+        "name": "BHG_FabInstancePhysics__vf2",
+        "machine_bytes": 38
+      },
+      {
+        "caller": "00d2d9e0",
+        "name": "BHG_FabInstanceRender__vf2",
+        "machine_bytes": 216
+      }
+    ],
+    "00d1b520": [
+      {
+        "caller": "00d1b520",
+        "name": "BHG_FabInstanceRender__vf4",
+        "machine_bytes": 67
+      }
+    ],
+    "00d28dc0": [
+      {
+        "caller": "00d28dc0",
+        "name": "BHG_RsSceneRenderController__vf1",
+        "machine_bytes": 5231
+      }
+    ],
+    "00cd24e0": [
+      {
+        "caller": "00cd24e0",
+        "name": "FUN_00cd24e0",
+        "machine_bytes": 72
+      },
+      {
+        "caller": "00fec370",
+        "name": "FUN_00fec370",
+        "machine_bytes": 1426
+      }
+    ],
+    "00cd2570": [
+      {
+        "caller": "00cd2570",
+        "name": "FUN_00cd2570",
+        "machine_bytes": 72
+      },
+      {
+        "caller": "00fec370",
+        "name": "FUN_00fec370",
+        "machine_bytes": 1426
+      }
+    ],
+    "00c961e0": [
+      {
+        "caller": "00c961e0",
+        "name": "FUN_00c961e0",
+        "machine_bytes": 4156
+      },
+      {
+        "caller": "00c97e20",
+        "name": "FUN_00c97e20",
+        "machine_bytes": 101
+      }
+    ],
+    "00cccaf0": [
+      {
+        "caller": "00cccaf0",
+        "name": "BHG_FabInstanceRender__vf5",
+        "machine_bytes": 205
+      }
+    ],
+    "00d32b10": [
+      {
+        "caller": "00d32b10",
+        "name": "BHG_RsSceneRenderController__vf4",
+        "machine_bytes": 1330
+      }
+    ],
+    "00c8ab60": [
+      {
+        "caller": "00c8ab60",
+        "name": "BHG_FabInstanceRender__vf3",
+        "machine_bytes": 205
+      }
+    ],
+    "00ce2b00": [
+      {
+        "caller": "00d63560",
+        "name": "BHG_FabInstancePhysics__vf6",
+        "machine_bytes": 173
+      },
+      {
+        "caller": "00ce2b00",
+        "name": "BHG_FabInstanceRender__vf6",
+        "machine_bytes": 293
+      }
+    ]
+  }
+}

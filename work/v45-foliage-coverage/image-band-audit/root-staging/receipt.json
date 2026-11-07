@@ -1,0 +1,236 @@
+{
+  "source_mesh": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\DATA_0.pak\\359268.fab_visual_data_streamable_bin",
+  "source_sha256": "ebe7fef71b8f2aae7460fa599a36bf61ed954f817f2bd2ffc62803a185779111",
+  "source_space": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431646.space_bxml",
+  "source_space_sha256": "310a233c264e7ddd413f4f981d302b4a3ab8990bf96a4791416e83e00d870c48",
+  "source_render_slot": "0x160",
+  "source_render_index": 211,
+  "source_material353286_row266": true,
+  "source_only_direct_matrix": [
+    [
+      1.3709847824825876,
+      -0.39816691696245143,
+      -0.18954289784200123,
+      0.0
+    ],
+    [
+      0.4043690067226309,
+      1.3820570784598976,
+      0.0216011793596041,
+      0.0
+    ],
+    [
+      0.17926419032893623,
+      -0.07518460943493152,
+      1.4545757246634496,
+      0.0
+    ],
+    [
+      7439.86767578125,
+      -81928.9609375,
+      6441.9970703125,
+      1.0
+    ]
+  ],
+  "captured_world_matrix": [
+    [
+      1.3709847927093506,
+      -0.3981668949127197,
+      -0.18954290449619293,
+      0.0
+    ],
+    [
+      0.4043690264225006,
+      1.3820570707321167,
+      0.021601181477308273,
+      0.0
+    ],
+    [
+      0.17926420271396637,
+      -0.07518461346626282,
+      1.454575777053833,
+      0.0
+    ],
+    [
+      7439.86767578125,
+      -81928.9609375,
+      6441.9970703125,
+      1.0
+    ]
+  ],
+  "matrix_max_abs_error": 5.2390383364908644e-08,
+  "centered_translation": [
+    7548.32392474185,
+    -81742.59066508134,
+    6555.162879997139
+  ],
+  "direct_translation": [
+    7439.86767578125,
+    -81928.9609375,
+    6441.9970703125
+  ],
+  "centered_minus_direct_translation": [
+    108.45624896059962,
+    186.37027241865871,
+    113.16580968463859
+  ],
+  "centered_shift_length": 243.5223539258531,
+  "native_source_vertex_max_error": 0.0038884636742295697,
+  "native_frame_max_errors": [
+    6.384217510202461e-08,
+    6.127564144975395e-08,
+    5.717963713625096e-08
+  ],
+  "current_attribute_checks": {
+    "asm1": {
+      "vertices": 121,
+      "position_max": 0.0,
+      "uv_max": 0.0,
+      "rgba_exact": 121,
+      "rgba_max_error": 0,
+      "normal_max": 0.0,
+      "tangent_max": 0.0,
+      "bitangent_max": 0.0
+    },
+    "asm2": {
+      "vertices": 68,
+      "position_max": 0.0,
+      "uv_max": 0.0,
+      "rgba_exact": 68,
+      "rgba_max_error": 0,
+      "normal_max": 0.4038686454296112,
+      "tangent_max": 0.6568185091018677,
+      "bitangent_max": 0.7899485230445862
+    }
+  },
+  "current_selected_source": {
+    "assembly": 1,
+    "vertices": 121,
+    "triangles": 165,
+    "vertex_buffer": 1,
+    "index_buffer": 1,
+    "vertex_sha256": "3e5963b2aa8ea9cfc4c00f026a02c471da36e026af98ff86053f92f0aecd407f",
+    "index_sha256": "97c0069deb635c9d0643383ccc54578a6e17cb93c61e0641003f97937e5c5408"
+  },
+  "staged_source": {
+    "assembly": 0,
+    "vertices": 253,
+    "triangles": 366,
+    "vertex_buffer": 0,
+    "index_buffer": 0,
+    "vertex_sha256": "04bd6ab77a0dd71465ecdf8ffc0d447957632c9d5aaa9932fdf23723b9f0a010",
+    "index_sha256": "c1f6f8932d590be4f2088c6bd8c2eeadce97a307561a9713537caf56a6eac9ce"
+  },
+  "other_source_assembly": {
+    "assembly": 2,
+    "vertices": 68,
+    "triangles": 79,
+    "vertex_buffer": 2,
+    "index_buffer": 2,
+    "vertex_sha256": "e24ffc00d4041786e62cce35b546e269f0e4c779fca8ec9f2be0e227ad279bde",
+    "index_sha256": "eb2b1d3da055825c121710e3010b6b146afebd2d478fbfcd1968846b91e22358"
+  },
+  "native_vertex_samples": [
+    {
+      "index": 0,
+      "local": [
+        -28.16682243347168,
+        -787.7911376953125,
+        -673.7401123046875
+      ],
+      "native_world": [
+        6961.915571123171,
+        -82955.86326346367,
+        5450.31262492747
+      ],
+      "staged_world": [
+        6961.91552734375,
+        -82955.859375,
+        5450.3125
+      ],
+      "source_rgba": [
+        127,
+        114,
+        114,
+        255
+      ],
+      "uv": [
+        -1.547260046005249,
+        1.520569086074829
+      ]
+    },
+    {
+      "index": 1,
+      "local": [
+        -98.25252532958984,
+        -813.5137329101562,
+        -726.0869140625
+      ],
+      "native_world": [
+        6846.04380980042,
+        -82959.57187730164,
+        5386.898844327601
+      ],
+      "staged_world": [
+        6846.0439453125,
+        -82959.5703125,
+        5386.89892578125
+      ],
+      "source_rgba": [
+        127,
+        114,
+        114,
+        255
+      ],
+      "uv": [
+        -1.6985199451446533,
+        1.5962319374084473
+      ]
+    },
+    {
+      "index": 2,
+      "local": [
+        -87.34500122070312,
+        -793.18359375,
+        -670.9307861328125
+      ],
+      "native_world": [
+        6879.106257357145,
+        -82939.96437189069,
+        5465.499323195203
+      ],
+      "staged_world": [
+        6879.1064453125,
+        -82939.9609375,
+        5465.49951171875
+      ],
+      "source_rgba": [
+        127,
+        114,
+        114,
+        255
+      ],
+      "uv": [
+        -1.6520999670028687,
+        1.4944970607757568
+      ]
+    }
+  ],
+  "input_cell": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\assets\\world\\c1_-13_0.bin",
+  "input_cell_sha256": "b5a893a08a53443a98383c644b60e0bad008f2c375ea674a3c4adaf58ba1987c",
+  "staged_cell_sha256": "d897d9930dab9bafed07e2e64a037516622280488b41e0810124b0d1b97f5aa7",
+  "removed_triangles": 165,
+  "added_triangles": 366,
+  "before_after_index_counts": [
+    158940,
+    159543
+  ],
+  "nonroot_vertices_byte_preserved": true,
+  "nonroot_triangle_order_preserved": true,
+  "limits": [
+    "One source-authored root fixture only; no global placement or LOD policy inferred.",
+    "Source quaternion conjugate rotation and scale produce native matrix within measured error; direct TRS needs no captured save-specific placement.",
+    "Staged whole cell changes only matching target root triangles and appends its near assembly; all original vertex bytes remain.",
+    "No deployment, core editing or waterfall asset changes."
+  ]
+}

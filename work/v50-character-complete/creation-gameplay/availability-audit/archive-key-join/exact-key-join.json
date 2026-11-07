@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "strict_missing_key_to_payload_link_closed": true,
+  "assetinfo": {
+    "path": "work\\v50-character-complete\\creation-gameplay\\availability-audit\\archive-key-join\\source\\initial_0.pak\\assetinfos.bin",
+    "bytes": 5141691,
+    "sha256": "133d8d02aa3978eff2e15ffce6495672841fbba7eda76231db6dca66fca28154",
+    "header_counts": [
+      220162,
+      2490
+    ],
+    "whole_file_exact_EOF": true,
+    "matches": [
+      {
+        "record": 222650,
+        "file_offset": 5141602,
+        "key": 330590315,
+        "kind_raw": 28,
+        "name": "main_table.conditional_expression",
+        "raw_hex": "6b68b4131c216d61696e5f7461626c652e636f6e646974696f6e616c5f65787072657373696f6e",
+        "partition": "second"
+      }
+    ]
+  },
+  "archive": {
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Kingdoms of Amalur Re-Reckoning\\data\\initial_0.pak",
+    "bytes": 5230887138,
+    "filename_CRC32": 1897158241,
+    "directory_index": 66387,
+    "entry_raw_hex": "61561471a7c62700af212300",
+    "block_offset": 41708144,
+    "decoded_size": 2302383,
+    "chunks": 563,
+    "compressed_block_bytes": 469205,
+    "compressed_block_sha256": "cb19dfb565bcbe996cb726654135328a0ebaf3fa8f42c40b1d75b7bee8c0d1ee"
+  },
+  "official_decode": {
+    "argv": [
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Kingdoms of Amalur Re-Reckoning\\modding\\pakfileunpacker.exe",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Kingdoms of Amalur Re-Reckoning\\data\\initial_0.pak",
+      "unpack",
+      "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v50-character-complete\\creation-gameplay\\availability-audit\\archive-key-join\\official-single-extract",
+      "main_table.conditional_expression"
+    ],
+    "exit": 0,
+    "tool_sha256": "5944ba436eaffa1fab407f711a00451388c737b65f0f8b00570481e9e71f3f3a",
+    "bytes": 2302383,
+    "sha256": "c5d3b1e8d10754f433518e85bc9ea39fce3df9c725904638c5b91781e5907bf9",
+    "byteidentical_to_prior_extraction": true
+  },
+  "condition": {
+    "handle": 133120,
+    "page": 1,
+    "table": 0,
+    "entry": 2,
+    "payload_file_offset": 1580,
+    "payload_hex": "00",
+    "native_evaluator": "00df9c00 dispatch017423b0[0] ->00db0850 returns TRUE; status0"
+  },
+  "upstream_parser_reference": {
+    "url": "https://github.com/atom0s/depak/blob/ed92b178f30347de4027b511fcdd6176305932b2/depak/main.cpp",
+    "used_for": "read-only PAKdirectory/header locations; no upstream code/binary built or executed",
+    "caveat": "stringentry block size includes its8byteblockheader; adapted bounded reader excludes8beforeparsing names"
+  },
+  "all_shipped_assetinfo_versions": [
+    {
+      "path": "source\\initial_0.pak\\assetinfos.bin",
+      "bytes": 5141691,
+      "sha256": "133d8d02aa3978eff2e15ffce6495672841fbba7eda76231db6dca66fca28154",
+      "header_counts": [
+        220162,
+        2490
+      ],
+      "whole_file_exact_EOF": true,
+      "matches": [
+        {
+          "record": 222650,
+          "file_offset": 5141602,
+          "key": 330590315,
+          "kind_raw": 28,
+          "name": "main_table.conditional_expression",
+          "raw_hex": "6b68b4131c216d61696e5f7461626c652e636f6e646974696f6e616c5f65787072657373696f6e",
+          "partition": "second"
+        }
+      ]
+    },
+    {
+      "path": "source\\patch_0.pak\\assetinfos.bin",
+      "bytes": 5695536,
+      "sha256": "159283e0105a444479c3858a7112499db1f86dd852a90c91dca708695755971a",
+      "header_counts": [
+        240224,
+        2683
+      ],
+      "whole_file_exact_EOF": true,
+      "matches": [
+        {
+          "record": 242905,
+          "file_offset": 5695447,
+          "key": 330590315,
+          "kind_raw": 28,
+          "name": "main_table.conditional_expression",
+          "raw_hex": "6b68b4131c216d61696e5f7461626c652e636f6e646974696f6e616c5f65787072657373696f6e",
+          "partition": "second"
+        }
+      ]
+    }
+  ],
+  "active_patch_assetinfo": {
+    "path": "source\\patch_0.pak\\assetinfos.bin",
+    "bytes": 5695536,
+    "sha256": "159283e0105a444479c3858a7112499db1f86dd852a90c91dca708695755971a",
+    "header_counts": [
+      240224,
+      2683
+    ],
+    "whole_file_exact_EOF": true,
+    "matches": [
+      {
+        "record": 242905,
+        "file_offset": 5695447,
+        "key": 330590315,
+        "kind_raw": 28,
+        "name": "main_table.conditional_expression",
+        "raw_hex": "6b68b4131c216d61696e5f7461626c652e636f6e646974696f6e616c5f65787072657373696f6e",
+        "partition": "second"
+      }
+    ]
+  }
+}

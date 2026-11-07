@@ -1,0 +1,16 @@
+{
+  "status": "implemented, pending batched build/runtime validation",
+  "policy": "available process-affinity CPUs; half of cores remaining after reserve2, min1 max4; no assumed 2+6 layout or pinning; best-effort below-normal priority",
+  "auto_examples": {
+    "1": 1,
+    "2": 1,
+    "4": 1,
+    "6": 2,
+    "8": 3,
+    "12": 4,
+    "16": 4
+  },
+  "override": "debug.opem.workers=1..4 at scene open",
+  "scope": "independent asset reads only; GPU upload and collision publication remain serialized; no FPS gain claimed",
+  "limitations": "logical count is not core performance or thermal budget; OS handles placement; auto count chosen at scene open, no live thermal pool resizing"
+}

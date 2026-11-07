@@ -1,0 +1,56 @@
+{
+  "material_id": 1302009,
+  "path": "work\\v20-inputs\\initial_0.pak\\1302009.mat_bxml",
+  "sha256": "2b37eafc276cf9e93519e26465e03b09da33048d246d7c83c8c953e054429c1c",
+  "shader_id": 737390,
+  "source_slots": [
+    {
+      "source_slot": 1,
+      "texture_id": 1302005,
+      "file_offset": 136
+    },
+    {
+      "source_slot": 2,
+      "texture_id": 1302006,
+      "file_offset": 144
+    },
+    {
+      "source_slot": 3,
+      "texture_id": 1302007,
+      "file_offset": 152
+    },
+    {
+      "source_slot": 7,
+      "texture_id": 1302006,
+      "file_offset": 160
+    }
+  ],
+  "parameters": [
+    {
+      "file_offset": 40,
+      "value_bytes": "0000803f0000803f0000803f0000803f",
+      "type": 11,
+      "key": 10276250
+    },
+    {
+      "file_offset": 64,
+      "value_bytes": "0000803e0000a0410000000000000000",
+      "type": 11,
+      "key": 11960536
+    },
+    {
+      "file_offset": 88,
+      "value_bytes": "9a99193e0000803f0000803f00000000",
+      "type": 4,
+      "key": 23195542
+    },
+    {
+      "file_offset": 112,
+      "value_bytes": "3333b33f9a9919400000000000000000",
+      "type": 4,
+      "key": 10120212
+    }
+  ],
+  "header_bytes": "a000000008000000280000000400000088000000040000006e400b00010000000200000080000000",
+  "runtime_sampler_identity": "Not recovered by this source-only join"
+}

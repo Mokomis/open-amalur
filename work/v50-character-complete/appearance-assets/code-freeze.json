@@ -1,0 +1,28 @@
+{
+  "status": "Runtime code and model/clip bytes frozen after production checks",
+  "files": {
+    "oa_appearance.h": {
+      "bytes": 2720,
+      "sha256": "701401343e2e95ce2e641ae9b23594188ef48b270b04646c4d6144e64842e751"
+    },
+    "oa_appearance.c": {
+      "bytes": 8026,
+      "sha256": "f60bdf9ca6db9400a42dc643f08d0165094016abfee0658cd420a69ad203afed"
+    },
+    "oa_appearance_selection.h": {
+      "bytes": 2735,
+      "sha256": "f150cf45b5fc4d5896f980b2e21c7de3e9c0ff5462e7796ae78b21f8a539a2ad"
+    },
+    "oa_appearance_selection.c": {
+      "bytes": 6055,
+      "sha256": "f64d08ea1280a76fcb31a687cab1c4abd31182cfeb4b989594498b20a60bde82"
+    },
+    "oa_appearance_selection_data.h": {
+      "bytes": 15147,
+      "sha256": "83ff5b856a07f95af1b92fc3286a12290e7398ecfe31f38334c680f7d5e99cb4"
+    }
+  },
+  "native_availability": "Exact current184-row shared native TRUE condition: ../creation-gameplay/availability-audit/REPORT.md",
+  "head_dependent_plans": 4868,
+  "head_dependent_pair_additions": 3590
+}

@@ -1,0 +1,9 @@
+
+v0.24.0 (2026-10-31) Veil menus
+- New: work/v19-host/oa_ui.c/.h (batched sprites, distance-field text), oa_menu.c/.h (screens, focus navigation, HUD config, settings and save files), tests/oa_menu_test.c (76 checks). Assets: work/v20-char/build_ui.py -> work/v21-ui/oa_ui.bin. Fonts Cinzel and Alegreya are OFL, bundled with licences; the game's own Sava and Byngve atlases exist but their glyph tables were not decoded.
+- Screens: title (ui_main_menu_1 art), pause, options, HUD layout editor. HUD elements each have on/off, size 50-200%, position. Settings: files/opem-settings-v1.bin. Save: files/opem-save-v1.bin (world, position, facing, health only).
+- Input: touch, gamepad keys, sticks, hat, R1/R2/RT attack, Start menu; keyboard WASD, F attack, E interact, Esc menu; mouse left attack, hold right to look (no pointer capture under NativeActivity).
+- Verified on tablet: title, new game, continue including Gorhart, save, pause, options, layout drag/toggle/size and restart persistence by touch; gamepad, keyboard and mouse via adb-injected events. No physical controller or mouse has been tried. Sticks and triggers are unit-tested only.
+- Placeholder: Mana and Fate bars show fixed values because those systems do not exist; off by default. Ledger tabs on pause are dimmed, not built. Alchemy window still uses the old pixel overlay. Not started: inventory, quests, map, abilities, destinies, merchant, dialogue, in-menu load confirmation.
+- Test aid: setprop debug.opem.hud off hides the HUD; debug.opem.world town skips the title.
+- APK outputs/scene-v19/opem-amalur-scene-v0.24-arm64.apk sha starts 5e6b4add792085dd, versionCode 25.

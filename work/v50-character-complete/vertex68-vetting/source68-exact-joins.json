@@ -1,0 +1,165 @@
+{
+  "source": {
+    "1322374.fab_bxml": {
+      "path": "work\\v20-inputs\\initial_0.pak\\1322374.fab_bxml",
+      "sha256": "30bb065d852e6891a2701286e306b38f9df649555fb343bd6415dcb0b9afa6dd"
+    },
+    "1322374.fab_visual_data_streamable_bin": {
+      "path": "work\\v20-inputs\\initial_0.pak\\1322374.fab_visual_data_streamable_bin",
+      "sha256": "7c9c3b5218d9693b87fc47c894ff73a28e60c74cece032e047b7c7516d6667b5"
+    }
+  },
+  "assemblies": [
+    {
+      "assembly": 1,
+      "source_assembly": {
+        "index": 1,
+        "file_offset": 182170,
+        "bytes": 52,
+        "raw_hex": "01000000010000001a00000001000000040000000007000000000000001500000000000000000000a90500000000000000000000",
+        "vertex_buffer": 1,
+        "index_buffer": 1,
+        "unknown_u16_at2": 0,
+        "unknown_u32_at8": [
+          26,
+          1,
+          4,
+          1792,
+          0,
+          5376,
+          0,
+          0,
+          1449,
+          0,
+          0
+        ],
+        "referenced_indices_in_range": true,
+        "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges"
+      },
+      "vb": {
+        "index": 1,
+        "header_file_offset": 12144,
+        "header_word0": 68,
+        "stride_bytes": 68,
+        "vertex_count": 1449,
+        "data_file_offset": 12156,
+        "data_bytes": 98532,
+        "data_sha256": "621997ad626826fe03245b6a46fe54f5825d0ade0e2bbe193fa9981698fe05c4"
+      },
+      "descriptor": {
+        "index": 1,
+        "file_offset": 3402,
+        "byte_length": 1369,
+        "position_xyz_uninterpreted": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "unknown_four_floats": [
+          1.0,
+          32.4694709777832,
+          0.0,
+          2500.0
+        ],
+        "unknown_two_floats": [
+          1.0,
+          0.0
+        ],
+        "bone_index": -1,
+        "bone_index_file_offset": 4742,
+        "tail25_hex": "816c1300dce80900030000001a000000847f97029e543a5504",
+        "static_bind_candidate": null,
+        "static_bind_candidate_error": "mesh has no mapped bone"
+      },
+      "material_shader_variant_type": [
+        1272961,
+        649436,
+        3,
+        26
+      ]
+    },
+    {
+      "assembly": 6,
+      "source_assembly": {
+        "index": 6,
+        "file_offset": 182430,
+        "bytes": 52,
+        "raw_hex": "01000080060000001a0000000100000004000000bf010000000000003d0500000000000000000000a90500000000000000000000",
+        "vertex_buffer": 1,
+        "index_buffer": 6,
+        "unknown_u16_at2": 32768,
+        "unknown_u32_at8": [
+          26,
+          1,
+          4,
+          447,
+          0,
+          1341,
+          0,
+          0,
+          1449,
+          0,
+          0
+        ],
+        "referenced_indices_in_range": true,
+        "export_policy": "whole referenced buffers; unknown assembly words do not drive draw ranges"
+      },
+      "vb": {
+        "index": 1,
+        "header_file_offset": 12144,
+        "header_word0": 68,
+        "stride_bytes": 68,
+        "vertex_count": 1449,
+        "data_file_offset": 12156,
+        "data_bytes": 98532,
+        "data_sha256": "621997ad626826fe03245b6a46fe54f5825d0ade0e2bbe193fa9981698fe05c4"
+      },
+      "descriptor": {
+        "index": 6,
+        "file_offset": 5619,
+        "byte_length": 1369,
+        "position_xyz_uninterpreted": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "unknown_four_floats": [
+          1.0,
+          32.4694709777832,
+          2500.0,
+          5000.0
+        ],
+        "unknown_two_floats": [
+          1.0,
+          0.0
+        ],
+        "bone_index": -1,
+        "bone_index_file_offset": 6959,
+        "tail25_hex": "816c1300dce80900030000001a000000b473b50407ba805204",
+        "static_bind_candidate": null,
+        "static_bind_candidate_error": "mesh has no mapped bone"
+      },
+      "material_shader_variant_type": [
+        1272961,
+        649436,
+        3,
+        26
+      ]
+    }
+  ],
+  "recorded_layout": "work/v49-character-create/vertex-contract-audit/evidence/weighted-layout-correspondence.json: profiles.68",
+  "source_type": 26,
+  "domain": "Exact source assembly+FAB descriptor type26/stride68 correspondence to original recorded full UV1+RGBA weighted declaration. Not per-part executed draw identity.",
+  "offsets": {
+    "P": 0,
+    "J": 12,
+    "W4_snorm16": 16,
+    "UV0": 24,
+    "UV1": 32,
+    "N_snorm16": 40,
+    "T_snorm16": 48,
+    "B_snorm16": 56,
+    "RGBA_unorm8": 64
+  },
+  "snorm": "max(-1, int16/32767); preserve source triplets, no normalization before native VS"
+}

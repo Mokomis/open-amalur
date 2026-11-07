@@ -1,0 +1,17 @@
+# Native object placement and actor heading — 2026-11-05
+
+Read-only native-record decoder: work/v20-char/native_instances.py. It parses bounded 104-byte placement records. Space root is file+8; pointer/count at root+0x210/+0x214. Standalone GOR records start at file+16, with quaternion at file+40, not the legacy reader's file+36. Record type is +56 (GOR file+72). Unknown words/tails are preserved; no invented semantic names.
+
+Original cs:15032 executable SHA256: 16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314 (freshly verified).
+
+Static exported-code evidence: 00fdc910 obtains array pointer/count and 0x68 stride; 00fe4970 drives iteration; 00f92480 consumes/increments records; 00f92080 resolves the +56 simtype field; 00f873a0 instantiates; 00f72340 passes record+8 to transform setup. Relevant pseudocode and entry bytes are saved here privately. These exported functions are not compilable source and were not dynamically re-executed this session. Original Ghidra database unchanged.
+
+validate_native_instances.py selects latest cached archive data (patch > initial > DATA), validates lengths, spans, finite transforms and an invalid-array rejection. Native catalog: 23 Dalentarth spaces / 2,095 records, 6,612 standalone GOR files. All parsed quaternions are unit length within tolerance. 6,196 legacy GOR quaternion reads were non-unit. There were no shared instance keys between the local-space and standalone datasets; this is not a matched-record equivalence test. Two local records have type<2; unnamed types remain preserved. GOR header word12 is opaque, not a universal record count.
+
+Actor importers build_actors.py/build_npcs.py now use the strict GOR type/quaternion fields. heading_xy uses the native conjugated world rotation projected onto local +X in the XY plane. Previously saved native routine 00ac3a70 output validates this convention in 79 positive-X-scale placements: max angular error 5.49465155597062e-08 radians. Evidence: native-heading-validation.json. This does not reconstruct native motion/AI or full tilted transforms.
+
+repair_actor_yaw.py defaults to a dry run. --apply requires native heading evidence. All 91 placed actors matched uniquely by type and exact XYZ. 65 headings were repaired in work/v23-actors/index.bin and the isolated Windows desktop asset copy. Byte integrity verifies only yaw fields changed and all encounter records stayed unchanged. before/ retains original indices and importer source. Full model rebake was not necessary/run. Existing tablet and Erathell packages are unchanged.
+
+Private reports: native-placement-catalog.json, yaw-repair-applied.json, yaw-byte-integrity.json. Early bridge-crate placement candidate JSON and yaw-repair-preview.json predate corrections and are superseded exploratory evidence, not implementation inputs. Missing visible bridge clutter is still unresolved; do not treat this parser as a completed visual-component decoder.
+
+Static scene join audit: static-pairing-audit.json rejects direct index pairing (224 of 18,802 stored centers align by index). Model-reference and render arrays are reordered. Existing coordinate join is preserved; 297 duplicated centers remain a potential ambiguity, not a proven native mapping or completed fix. Broad exported-code offset searches did not recover the join; static-join-function-candidates.json contains candidates only. No geometry rebake or placement change was made from this hypothesis.

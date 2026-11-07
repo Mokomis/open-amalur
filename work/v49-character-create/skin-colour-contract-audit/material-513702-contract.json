@@ -1,0 +1,172 @@
+{
+  "source_material": 513702,
+  "source_shader": 649640,
+  "source_path": "work\\v20-inputs\\initial_0.pak\\513702.mat_bxml",
+  "source_sha256": "fe38fd52d0af762442ad8957d1583f7e4fab8b3f4169e22e5c80953626bc1161",
+  "parameters": {
+    "SpecularValues": {
+      "value4": [
+        0.6499999761581421,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "source_values_file_offset": 40,
+      "raw16_hex": "6666263f0000a0410000000000000000"
+    },
+    "ConstantColor": {
+      "value4": [
+        0.49803924560546875,
+        0.5529412031173706,
+        1.0,
+        1.0
+      ],
+      "source_values_file_offset": 64,
+      "raw16_hex": "00fffe3e8e8d0d3f0000803f0000803f"
+    },
+    "CharacterExtraTerms2": {
+      "value4": [
+        0.30000001192092896,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "source_values_file_offset": 88,
+      "raw16_hex": "9a99993e0000803f0000803f00000000"
+    },
+    "FresnelValues2": {
+      "value4": [
+        1.5,
+        4.0,
+        0.0,
+        0.0
+      ],
+      "source_values_file_offset": 112,
+      "raw16_hex": "0000c03f000080400000000000000000"
+    }
+  },
+  "source_texture_slots": [
+    {
+      "asset": 1290634,
+      "slot": 0
+    },
+    {
+      "asset": 518404,
+      "slot": 1
+    },
+    {
+      "asset": 513642,
+      "slot": 2
+    },
+    {
+      "asset": 513640,
+      "slot": 3
+    }
+  ],
+  "source_alpha_test_flag": 1,
+  "source_cull": 2,
+  "source_cutoff_byte": 232,
+  "capture_draw": 67663,
+  "capture_PS": 462,
+  "source4vector_parameter_bytes_equal_captured64B": true,
+  "captured_alpha_cutoff": 0.9098039269447327,
+  "captured_cutoff_equals_float32_byte_div255": true,
+  "resources": [
+    {
+      "binding": 32,
+      "image": 12633,
+      "view": 12637,
+      "view_format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "image_format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 2048,
+        "height": 2048,
+        "depth": 1
+      },
+      "mip_levels": 9,
+      "identity_swizzles": {
+        "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+      }
+    },
+    {
+      "binding": 33,
+      "image": 12756,
+      "view": 12760,
+      "view_format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "image_format": "VK_FORMAT_BC3_UNORM_BLOCK",
+      "extent": {
+        "width": 2048,
+        "height": 2048,
+        "depth": 1
+      },
+      "mip_levels": 9,
+      "identity_swizzles": {
+        "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+      }
+    },
+    {
+      "binding": 34,
+      "image": 12765,
+      "view": 12769,
+      "view_format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "image_format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 2048,
+        "height": 2048,
+        "depth": 1
+      },
+      "mip_levels": 9,
+      "identity_swizzles": {
+        "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+      }
+    },
+    {
+      "binding": 35,
+      "image": 3347,
+      "view": 3351,
+      "view_format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "image_format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+      "extent": {
+        "width": 128,
+        "height": 128,
+        "depth": 1
+      },
+      "mip_levels": 6,
+      "identity_swizzles": {
+        "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+      }
+    },
+    {
+      "binding": 36,
+      "image": 7502,
+      "view": 7504,
+      "view_format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "image_format": "VK_FORMAT_R8G8B8A8_UNORM",
+      "extent": {
+        "width": 8,
+        "height": 8,
+        "depth": 1
+      },
+      "mip_levels": 1,
+      "identity_swizzles": {
+        "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+        "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+      }
+    }
+  ],
+  "material_identity_limit": "Exact source parameter tuple and alpha properties match; active texture pixels/MIDs were NOT byte-joined here. None of current12avatar source VBs matches mainGB inventory. Do not claim full sourceHands-instance identity."
+}

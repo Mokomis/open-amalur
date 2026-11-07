@@ -1,0 +1,108 @@
+v0.8 Android host/package audit and tablet fixture bundle
+
+Staged changes (not built or run by this worker)
+
+1. Fixed descriptor drift: Android setup listed6 generic macros while the
+   current packaging manifest lists10. BUFF_ID52,FAB_ID20,UIXML_ID46,REGION_KEY69
+   were absent from the host despite available package assets. The host now
+   includes a CMake-generated table from the same explicit manifest used by
+   package_android.py: outputs/scene-v08/asset-macros.json. It installs10 generic
+   macros plus the separate input-action adapter, retaining correct ABILITY_ID78
+   ->player_ability_init and ACTOR_STATE_ID53->ability_init. Future manifest
+   additions regenerate the table. No categories or archive precedence inferred.
+
+2. Added compiled_enums.bin outside the generic macro manifest. Host preloads
+   12..786444 bytes and installs through scene_enums_v08_install before macros.
+   Its bytes are freed on all bootstrap exits. CMake links amalur_scene_enums_v08.
+   Parent's package script already includes this selected native enum snapshot.
+
+3. Added a16MiB aggregate cap across input actions, generic snapshots and enums,
+   complementing per-snapshot caps. Sources are copied into Lua-owned tables;
+   host snapshot buffers are freed whether bootstrap succeeds or fails.
+
+4. Generated table embeds a tagged source-manifest SHA256 in the shared library
+   and logs it. verify_android_package_inputs.py checks the current generated
+   include/receipt, compiled library marker, all selected snapshot headers,
+   exact lengths and uniqueness, and combined byte cap. Run it after building
+   and before packaging; it writes android-package-input-preflight.json. A stale
+   APK build must fail this check rather than silently package missing bindings.
+
+5. prepare_tablet_tests.py builds/stages current arm64 fixture targets from the
+   configured Android host build (or standalone portable build via --build-dir).
+   It includes controller119,layout97,content460,platform24,fresh105,quicksave24,
+   asset44,playerregistry3042,STE enum64,language catalog,type11 fixture, and GC.
+   Historical exact counts are checked where supplied; native exit/assertions
+   remain required. Language-catalog count is logged without an expected count
+   until parent confirms it; its target must be added/built before bundling.
+   Tests consume the CURRENT nine-namespace1498-method registry.
+   No older namespace fixture is incorrectly paired with that expanded registry.
+
+Bundle safety and provenance
+
+The builder runs only on Windows; it invokes CMake and llvm-readelf, never adb.
+It rejects non-arm64/non-PIE executables and unbundled non-system dependencies,
+records build/source/runtime/binary hashes, and checks type11 harness provenance
+against the current carrier and adapter. It stages only required runtime Lua,
+the selected loot fixture, generated type11 fixture and GC script; no geometry,
+original game modules or user saves. A new output directory is required.
+
+The emitted run-tests.sh is for a dedicated new /data/local/tmp bundle directory.
+It verifies SHA256SUMS, uses per-test timeout120s, records separate logs and exit
+codes, and continues after failures. A historical check-count mismatch fails
+explicitly for review. It changes executable bits only on its bundled binaries
+and writes results under that directory. It performs no install/uninstall,
+app-data clearing, save writes, root operations, or cleanup of older bundles.
+The script/tar.gz generation is preparation, not tablet validation. These are
+portable library tests, not Activity lifecycle, graphics, or controller tests.
+
+Parent Windows commands
+
+  python work/v08-host/test_android_macro_table.py
+  cmake --build work/v08-host/build-android-arm64 --parallel 8
+  python work/v08-host/verify_android_package_inputs.py
+  python work/v08-host/prepare_tablet_tests.py
+
+CMake requires a host Python3 interpreter to generate descriptors at configure.
+The --extra-test-spec and --extra-file SOURCE BUNDLE_PATH options admit additional
+explicit fixture targets/assets without shell interpolation or runtime changes.
+Use --no-build only to stage already-built binaries deliberately; the manifest
+records that choice and all executable hashes. No silent binary-name guessing.
+
+Concrete remaining findings
+
+- Source packaging currently filters out .json files. The new generated build
+  REQUIRES its explicit macro manifest. Include the exact current
+  outputs/scene-v08/asset-macros.json in the source archive (or supply an explicit
+  -DAMALUR_ASSET_MACRO_MANIFEST path). Otherwise source-only rebuild fails or a
+  stale source-side copy could be chosen by a human. The generator .py is already
+  covered by the source packaging whitelist. Generated .inc need not be shipped.
+- package_android.py does not yet invoke the new preflight automatically. Parent
+  should run it immediately before APK assembly or wire that explicit check in.
+- Bootstrap runs synchronously on the render worker before EGL/input queue work.
+  onDestroy joins that worker. Lua instructions are bounded10M per evaluation,
+  but native asset I/O, C setup and destruction have no wall-clock cancellation.
+  A slow launch/shutdown can therefore block Activity teardown; no ANR has been
+  demonstrated by this source audit. Measure cold boot and teardown on tablet
+  once the real root completes before extending gameplay lifecycle work.
+- Memory caps are separate: mesh input permits256MiB and copies vertex data,
+  allowing roughly512MiB transient during parsing. Later CPU vertices plus GPU
+  upload plus128MiB Lua can approach640MiB plus driver/framebuffer overhead at
+  admitted maxima. Snapshot cap does not bound this combined usage. This is a
+  bound analysis, not a claim the selected real scene consumes that amount.
+  Parent should record actual scene bytes/Lua bytes/device PSS during validation.
+  Parent now reports root bootstrap at104.8MiB against128MiB (about23.2MiB
+  remaining); this figure was reported by parent, not measured by this worker.
+- EGL draw failure closes graphics; it only retries on a new window/configuration
+  epoch, so a transient swap failure may leave a blank preview until lifecycle
+  activity. This existing behavior was preserved; it is logged, not recovered.
+
+Lifecycle review
+
+JNIEnv is acquired/attached on the worker and only detached when that worker
+attached itself. Local frames bound device references. Device inventory is
+separate from explicit Android logical layout and stops polling while paused.
+Queue destruction waits for worker detach; window refs are acquired/released
+under the existing lifetime protocol; worker destroy joins before Activity-owned
+resources are released. Successful Lua realms remain worker-owned and are freed
+before worker exit, while failed realms are already destroyed by bootstrap.
+No new gameplay callbacks, fake player state or save support were introduced.

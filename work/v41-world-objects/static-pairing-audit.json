@@ -1,0 +1,593 @@
+{
+  "stats": {
+    "refs": 18802,
+    "centers": 18802,
+    "renders": 18802,
+    "exact_index_center_matches": 224,
+    "legacy_replaced_render_records": 18585
+  },
+  "spaces": [
+    {
+      "space": "out_dal_north_01",
+      "stats": {
+        "refs": 1757,
+        "centers": 1757,
+        "renders": 1757,
+        "exact_index_center_matches": 8,
+        "legacy_replaced_render_records": 1749
+      }
+    },
+    {
+      "space": "out_dal_north_02",
+      "stats": {
+        "refs": 1678,
+        "centers": 1678,
+        "renders": 1678,
+        "exact_index_center_matches": 6,
+        "legacy_replaced_render_records": 1672
+      }
+    },
+    {
+      "space": "out_dal_north_03",
+      "stats": {
+        "refs": 2063,
+        "centers": 2063,
+        "renders": 2063,
+        "exact_index_center_matches": 2,
+        "legacy_replaced_render_records": 2061
+      }
+    },
+    {
+      "space": "out_dal_north_04",
+      "stats": {
+        "refs": 2253,
+        "centers": 2253,
+        "renders": 2253,
+        "exact_index_center_matches": 0,
+        "legacy_replaced_render_records": 2253
+      }
+    },
+    {
+      "space": "out_dal_south_01",
+      "stats": {
+        "refs": 1768,
+        "centers": 1768,
+        "renders": 1768,
+        "exact_index_center_matches": 2,
+        "legacy_replaced_render_records": 1766
+      }
+    },
+    {
+      "space": "out_dal_south_02",
+      "stats": {
+        "refs": 1145,
+        "centers": 1145,
+        "renders": 1145,
+        "exact_index_center_matches": 5,
+        "legacy_replaced_render_records": 1140
+      }
+    },
+    {
+      "space": "out_dal_south_03",
+      "stats": {
+        "refs": 925,
+        "centers": 925,
+        "renders": 925,
+        "exact_index_center_matches": 11,
+        "legacy_replaced_render_records": 914
+      }
+    },
+    {
+      "space": "out_dal_south_04",
+      "stats": {
+        "refs": 1175,
+        "centers": 1175,
+        "renders": 1175,
+        "exact_index_center_matches": 2,
+        "legacy_replaced_render_records": 1173
+      }
+    },
+    {
+      "space": "out_dal_west_01",
+      "stats": {
+        "refs": 840,
+        "centers": 840,
+        "renders": 840,
+        "exact_index_center_matches": 10,
+        "legacy_replaced_render_records": 830
+      }
+    },
+    {
+      "space": "out_dal_tran_north_01_to_north_02",
+      "stats": {
+        "refs": 65,
+        "centers": 65,
+        "renders": 65,
+        "exact_index_center_matches": 9,
+        "legacy_replaced_render_records": 56
+      }
+    },
+    {
+      "space": "out_dal_tran_north_02_to_north_03",
+      "stats": {
+        "refs": 146,
+        "centers": 146,
+        "renders": 146,
+        "exact_index_center_matches": 17,
+        "legacy_replaced_render_records": 131
+      }
+    },
+    {
+      "space": "out_dal_tran_north_03_to_north_04",
+      "stats": {
+        "refs": 184,
+        "centers": 184,
+        "renders": 184,
+        "exact_index_center_matches": 15,
+        "legacy_replaced_render_records": 169
+      }
+    },
+    {
+      "space": "out_dal_tran_north_01_to_west_01",
+      "stats": {
+        "refs": 139,
+        "centers": 139,
+        "renders": 139,
+        "exact_index_center_matches": 0,
+        "legacy_replaced_render_records": 139
+      }
+    },
+    {
+      "space": "out_dal_tran_north_02_to_windemere",
+      "stats": {
+        "refs": 52,
+        "centers": 52,
+        "renders": 52,
+        "exact_index_center_matches": 1,
+        "legacy_replaced_render_records": 51
+      }
+    },
+    {
+      "space": "out_dal_tran_south_01_to_south_02",
+      "stats": {
+        "refs": 97,
+        "centers": 97,
+        "renders": 97,
+        "exact_index_center_matches": 10,
+        "legacy_replaced_render_records": 87
+      }
+    },
+    {
+      "space": "out_dal_tran_south_02_to_south_03_b",
+      "stats": {
+        "refs": 122,
+        "centers": 122,
+        "renders": 122,
+        "exact_index_center_matches": 12,
+        "legacy_replaced_render_records": 110
+      }
+    },
+    {
+      "space": "out_dal_tran_south_03_to_south_04",
+      "stats": {
+        "refs": 157,
+        "centers": 157,
+        "renders": 157,
+        "exact_index_center_matches": 2,
+        "legacy_replaced_render_records": 155
+      }
+    },
+    {
+      "space": "out_dal_tran_north_02_to_south_02",
+      "stats": {
+        "refs": 98,
+        "centers": 98,
+        "renders": 98,
+        "exact_index_center_matches": 3,
+        "legacy_replaced_render_records": 95
+      }
+    },
+    {
+      "space": "out_dal_tran_north_03_to_south_03_b",
+      "stats": {
+        "refs": 29,
+        "centers": 29,
+        "renders": 29,
+        "exact_index_center_matches": 29
+      }
+    },
+    {
+      "space": "out_dal_tran_north_04_to_south_04",
+      "stats": {
+        "refs": 100,
+        "centers": 100,
+        "renders": 100,
+        "exact_index_center_matches": 10,
+        "legacy_replaced_render_records": 91
+      }
+    },
+    {
+      "space": "out_dal_tran_south_02_to_south_03_a",
+      "stats": {
+        "refs": 192,
+        "centers": 192,
+        "renders": 192,
+        "exact_index_center_matches": 0,
+        "legacy_replaced_render_records": 192
+      }
+    },
+    {
+      "space": "out_dal_tran_north_02_to_north_03_a",
+      "stats": {
+        "refs": 143,
+        "centers": 143,
+        "renders": 143,
+        "exact_index_center_matches": 16,
+        "legacy_replaced_render_records": 131
+      }
+    },
+    {
+      "space": "out_dal_dgn_summersend",
+      "stats": {
+        "refs": 1030,
+        "centers": 1030,
+        "renders": 1030,
+        "exact_index_center_matches": 0,
+        "legacy_replaced_render_records": 1030
+      }
+    },
+    {
+      "space": "out_dal_nyralim",
+      "stats": {
+        "refs": 248,
+        "centers": 248,
+        "renders": 248,
+        "exact_index_center_matches": 13,
+        "legacy_replaced_render_records": 235
+      }
+    },
+    {
+      "space": "out_dal_dreamend",
+      "stats": {
+        "refs": 940,
+        "centers": 940,
+        "renders": 940,
+        "exact_index_center_matches": 0,
+        "legacy_replaced_render_records": 940
+      }
+    },
+    {
+      "space": "out_dal_windemere",
+      "stats": {
+        "refs": 794,
+        "centers": 794,
+        "renders": 794,
+        "exact_index_center_matches": 33,
+        "legacy_replaced_render_records": 761
+      }
+    },
+    {
+      "space": "out_dal_travelers_grounds",
+      "stats": {
+        "refs": 541,
+        "centers": 541,
+        "renders": 541,
+        "exact_index_center_matches": 5,
+        "legacy_replaced_render_records": 536
+      }
+    },
+    {
+      "space": "out_dal_tran_south_04_to_ysa",
+      "stats": {
+        "refs": 121,
+        "centers": 121,
+        "renders": 121,
+        "exact_index_center_matches": 3,
+        "legacy_replaced_render_records": 118
+      }
+    }
+  ],
+  "examples": [
+    {
+      "space": "out_dal_north_01",
+      "index": 0,
+      "typed_fab": "0xf005640a",
+      "sphere": [
+        36596.01953125,
+        -57697.1640625,
+        6966.09912109375,
+        136.41140747070312
+      ],
+      "original_assembly": 0,
+      "legacy_assembly": 5,
+      "original_material": 253048,
+      "legacy_material": 359202
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 1,
+      "typed_fab": "0xf005640a",
+      "sphere": [
+        34690.82421875,
+        -54326.7890625,
+        7276.08544921875,
+        136.41140747070312
+      ],
+      "original_assembly": 0,
+      "legacy_assembly": 6,
+      "original_material": 253048,
+      "legacy_material": 353286
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 2,
+      "typed_fab": "0xf005640a",
+      "sphere": [
+        32670.86328125,
+        -53486.2109375,
+        7280.0224609375,
+        136.41140747070312
+      ],
+      "original_assembly": 0,
+      "legacy_assembly": 10,
+      "original_material": 253048,
+      "legacy_material": 1744210
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 3,
+      "typed_fab": "0xf006452c",
+      "sphere": [
+        28508.287109375,
+        -64426.05859375,
+        7212.88720703125,
+        136.41140747070312
+      ],
+      "original_assembly": 0,
+      "legacy_assembly": 2,
+      "original_material": 253048,
+      "legacy_material": 414763
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 4,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        38232.30078125,
+        -60356.4453125,
+        6870.28857421875,
+        136.41140747070312
+      ],
+      "original_assembly": 0,
+      "legacy_assembly": 6,
+      "original_material": 253048,
+      "legacy_material": 359202
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 5,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        6178.3349609375,
+        -62787.046875,
+        5238.283203125,
+        136.41140747070312
+      ],
+      "original_assembly": 0,
+      "legacy_assembly": 7,
+      "original_material": 253048,
+      "legacy_material": 359202
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 6,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        5969.3486328125,
+        -61517.53515625,
+        5214.32275390625,
+        59.60120391845703
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 8,
+      "original_material": 301336,
+      "legacy_material": 353286
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 7,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        5364.92626953125,
+        -63377.96484375,
+        5226.13427734375,
+        53.76515197753906
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 13,
+      "original_material": 301336,
+      "legacy_material": 1744210
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 8,
+      "typed_fab": "0xf006e700",
+      "sphere": [
+        5705.9384765625,
+        -63562.83984375,
+        5222.8896484375,
+        59.60120391845703
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 4,
+      "original_material": 301336,
+      "legacy_material": 1423023
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 9,
+      "typed_fab": "0xf00641f6",
+      "sphere": [
+        4733.27197265625,
+        -63078.84765625,
+        5208.5771484375,
+        53.76515197753906
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 1,
+      "original_material": 301336,
+      "legacy_material": 414763
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 10,
+      "typed_fab": "0xf006452c",
+      "sphere": [
+        3888.0888671875,
+        -62764.2890625,
+        5207.453125,
+        53.76515197753906
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 2,
+      "original_material": 301336,
+      "legacy_material": 414763
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 11,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        23292.396484375,
+        -55826.05859375,
+        6068.4951171875,
+        53.76515197753906
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 6,
+      "original_material": 301336,
+      "legacy_material": 359202
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 12,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        4796.4296875,
+        -63118.125,
+        5205.40380859375,
+        53.76515197753906
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 7,
+      "original_material": 301336,
+      "legacy_material": 359202
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 13,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        23360.333984375,
+        -55995.4609375,
+        6069.40673828125,
+        53.76515197753906
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 8,
+      "original_material": 301336,
+      "legacy_material": 353286
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 14,
+      "typed_fab": "0xf0053108",
+      "sphere": [
+        5454.44384765625,
+        -63347.1171875,
+        5226.06396484375,
+        75.4529037475586
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 13,
+      "original_material": 301336,
+      "legacy_material": 1744210
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 15,
+      "typed_fab": "0xf00654b3",
+      "sphere": [
+        4924.734375,
+        -63093.99609375,
+        5201.134765625,
+        75.4529037475586
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 2,
+      "original_material": 301336,
+      "legacy_material": 414763
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 16,
+      "typed_fab": "0xf00661ee",
+      "sphere": [
+        5357.08154296875,
+        -63461.16796875,
+        5242.27490234375,
+        59.60120391845703
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 2,
+      "original_material": 301336,
+      "legacy_material": 414763
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 17,
+      "typed_fab": "0xf00661ee",
+      "sphere": [
+        4820.8759765625,
+        -63011.546875,
+        5235.9951171875,
+        53.76515197753906
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 2,
+      "original_material": 301336,
+      "legacy_material": 414763
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 18,
+      "typed_fab": "0xf00661ee",
+      "sphere": [
+        4824.15234375,
+        -63011.6015625,
+        5201.134765625,
+        75.4529037475586
+      ],
+      "original_assembly": 1,
+      "legacy_assembly": 2,
+      "original_material": 301336,
+      "legacy_material": 414763
+    },
+    {
+      "space": "out_dal_north_01",
+      "index": 19,
+      "typed_fab": "0xf00661ee",
+      "sphere": [
+        -3392.044921875,
+        -60492.37890625,
+        6180.67431640625,
+        1048.595703125
+      ],
+      "original_assembly": 7,
+      "legacy_assembly": 2,
+      "original_material": 343549,
+      "legacy_material": 414763
+    }
+  ],
+  "conclusion": "Direct index pairing REJECTED: 224/18802 centers align by index. Arrays are differently ordered; preserve current importer pending native evidence."
+}

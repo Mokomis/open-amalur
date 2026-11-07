@@ -1,0 +1,1900 @@
+{
+  "schema": "oa.patron-presentation.source.v1",
+  "presentation_decision": "Keep original domain choices and stable buff IDs/order. Add the original deity detail and bonus panel; original UI has distinct label/description lookups.",
+  "buffs": {
+    "1254079": {
+      "buff_id": 1254079,
+      "domain_key": "Earth",
+      "original_choice_label": "Earth",
+      "deity_name": "Gaea",
+      "original_creator_detail": "Gaea - Goddess of Earth, the Harvest, and Fertility",
+      "original_buff_title": "Gaea's Blessing",
+      "original_buff_description": "The earth goddess Gaea's star shone brightly on the day you were reborn. It would seem you have her blessing.",
+      "derived_bonus_lines": [
+        "+5% Elemental Resistance"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 25163959,
+          "op": 3,
+          "bits": 1084227584,
+          "value": 5.0,
+          "file_offset": 136,
+          "source_parameter_name": "elemental_resistance",
+          "source_parameter_record_file_offset": 1904,
+          "source_parameter_SL_hash": "134adbf5769780a8",
+          "source_parameter_localization_key": "@@Elemental Resistance@@",
+          "derived_human_label": "Elemental Resistance",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Elemental Resistance",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254079.buff_bxml",
+      "source_buff_SHA256": "bf97706bc89d45b24b64c4cf9714e6f51b4da464db232a70a29421a6cb821056",
+      "label_proof": {
+        "SL_hash": "cb1bcf3c2d27fb40",
+        "global_key_row": 66901,
+        "global_key_record_file_offset": 1070420,
+        "global_key_string_file_offset": 5958725,
+        "raw_key": "@@Earth@@",
+        "english_main_matches": [
+          {
+            "index": 3653,
+            "file_offset": 153298,
+            "text": "Earth",
+            "parallel_loc_symbols": [
+              [
+                "43654e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "50d11570bdbdab2a",
+        "global_key_row": 26927,
+        "global_key_record_file_offset": 430836,
+        "global_key_string_file_offset": 3210818,
+        "raw_key": "@@Gaea - Goddess of Earth, the Harvest, and Fertility@@",
+        "english_main_matches": [
+          {
+            "index": 3707,
+            "file_offset": 155797,
+            "text": "Gaea - Goddess of Earth, the Harvest, and Fertility",
+            "parallel_loc_symbols": [
+              [
+                "43676e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "4e54c73ae1e1db50",
+        "global_key_row": 26115,
+        "global_key_record_file_offset": 417844,
+        "global_key_string_file_offset": 3161206,
+        "raw_key": "@@Gaea's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 642,
+            "file_offset": 30945,
+            "text": "Gaea's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19574e",
+                "1254079-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "369f2e652e818115",
+        "global_key_row": 18159,
+        "global_key_record_file_offset": 290548,
+        "global_key_string_file_offset": 2616352,
+        "raw_key": "@@The earth goddess Gaea's star shone brightly on the day you were reborn. It would seem you have her blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 641,
+            "file_offset": 30832,
+            "text": "The earth goddess Gaea's star shone brightly on the day you were reborn. It would seem you have her blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19575e",
+                "1254079-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254091": {
+      "buff_id": 1254091,
+      "domain_key": "Air",
+      "original_choice_label": "Air",
+      "deity_name": "Ohnshan",
+      "original_creator_detail": "Ohnshan - God of Air, Sky, Stars, and the Winds",
+      "original_buff_title": "Ohnshan's Blessing",
+      "original_buff_description": "The wind goddess Ohnshan's star shone brightly on the day you were reborn. It would seem you have her blessing.",
+      "derived_bonus_lines": [
+        "+6% Lightning Damage",
+        "+6% Lightning Resistance"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 33719719,
+          "op": 1,
+          "bits": 1065856532,
+          "value": 1.059999942779541,
+          "file_offset": 136,
+          "source_parameter_name": "Lightning_damage_amount",
+          "source_parameter_record_file_offset": 624,
+          "source_parameter_SL_hash": "b5c09921c406c38c",
+          "source_parameter_localization_key": "@@Lightning Damage   -1 default@@",
+          "derived_human_label": "Lightning Damage",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Lightning Damage",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 24553536,
+          "op": 3,
+          "bits": 1086324736,
+          "value": 6.0,
+          "file_offset": 148,
+          "source_parameter_name": "Lightning_resistance",
+          "source_parameter_record_file_offset": 672,
+          "source_parameter_SL_hash": "f2aeaff72fec3b6c",
+          "source_parameter_localization_key": "@@Lightning Resistance@@",
+          "derived_human_label": "Lightning Resistance",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Lightning Resistance",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254091.buff_bxml",
+      "source_buff_SHA256": "743df26deb68ae7fa2f286acddf7a99d5f1be8be3b5edbf8da268cc9d06d076b",
+      "label_proof": {
+        "SL_hash": "e4e61d3999f4f541",
+        "global_key_row": 75452,
+        "global_key_record_file_offset": 1207236,
+        "global_key_string_file_offset": 6535369,
+        "raw_key": "@@Air@@",
+        "english_main_matches": [
+          {
+            "index": 3654,
+            "file_offset": 153307,
+            "text": "Air",
+            "parallel_loc_symbols": [
+              [
+                "43657e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "56fa4425e458201c",
+        "global_key_row": 28954,
+        "global_key_record_file_offset": 463268,
+        "global_key_string_file_offset": 3354256,
+        "raw_key": "@@Ohnshan - God of Air, Sky, Stars, and the Winds@@",
+        "english_main_matches": [
+          {
+            "index": 3702,
+            "file_offset": 155242,
+            "text": "Ohnshan - God of Air, Sky, Stars, and the Winds",
+            "parallel_loc_symbols": [
+              [
+                "43675e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "1b4b36f06683d771",
+        "global_key_row": 8958,
+        "global_key_record_file_offset": 143332,
+        "global_key_string_file_offset": 1962847,
+        "raw_key": "@@Ohnshan's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 627,
+            "file_offset": 29929,
+            "text": "Ohnshan's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19572e",
+                "1254091-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "2b67d7bfe27a7f5f",
+        "global_key_row": 14413,
+        "global_key_record_file_offset": 230612,
+        "global_key_string_file_offset": 2359023,
+        "raw_key": "@@The wind goddess Ohnshan's star shone brightly on the day you were reborn. It would seem you have her blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 628,
+            "file_offset": 29951,
+            "text": "The wind goddess Ohnshan's star shone brightly on the day you were reborn. It would seem you have her blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19573e",
+                "1254091-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254092": {
+      "buff_id": 1254092,
+      "domain_key": "Fire",
+      "original_choice_label": "Fire",
+      "deity_name": "Vraekor",
+      "original_creator_detail": "Vraekor - God of Fire, and Patron of the Forge",
+      "original_buff_title": "Vraekor's Blessing",
+      "original_buff_description": "The fire god Vraekor's crimson star shone brightly on the day you were reborn. It would seem you have his blessing.",
+      "derived_bonus_lines": [
+        "+6% Fire Damage",
+        "+6% Fire Resistance"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 20100342,
+          "op": 1,
+          "bits": 1065856532,
+          "value": 1.059999942779541,
+          "file_offset": 136,
+          "source_parameter_name": "Fire_damage_amount",
+          "source_parameter_record_file_offset": 384,
+          "source_parameter_SL_hash": "35e22336dec54e29",
+          "source_parameter_localization_key": "@@Fire Damage   -1 default@@",
+          "derived_human_label": "Fire Damage",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Fire Damage",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 13764558,
+          "op": 3,
+          "bits": 1086324736,
+          "value": 6.0,
+          "file_offset": 148,
+          "source_parameter_name": "Fire_resistance",
+          "source_parameter_record_file_offset": 432,
+          "source_parameter_SL_hash": "0ea7905b017ed3aa",
+          "source_parameter_localization_key": "@@Fire Resistance@@",
+          "derived_human_label": "Fire Resistance",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Fire Resistance",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254092.buff_bxml",
+      "source_buff_SHA256": "5d80c0e87373dcef8a215ad0a71c37af18a091a756b72f4cdbde009d2ac3e0f7",
+      "label_proof": {
+        "SL_hash": "1dab27e8f0559ee9",
+        "global_key_row": 9770,
+        "global_key_record_file_offset": 156324,
+        "global_key_string_file_offset": 2023218,
+        "raw_key": "@@Fire@@",
+        "english_main_matches": [
+          {
+            "index": 3655,
+            "file_offset": 153314,
+            "text": "Fire",
+            "parallel_loc_symbols": [
+              [
+                "43660e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "6ff0dd72e2864c63",
+        "global_key_row": 37168,
+        "global_key_record_file_offset": 594692,
+        "global_key_string_file_offset": 3916953,
+        "raw_key": "@@Vraekor - God of Fire, and Patron of the Forge@@",
+        "english_main_matches": [
+          {
+            "index": 3703,
+            "file_offset": 155293,
+            "text": "Vraekor - God of Fire, and Patron of the Forge",
+            "parallel_loc_symbols": [
+              [
+                "43674e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "bce94b05bf285c67",
+        "global_key_row": 62319,
+        "global_key_record_file_offset": 997108,
+        "global_key_string_file_offset": 5638337,
+        "raw_key": "@@Vraekor's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 644,
+            "file_offset": 31083,
+            "text": "Vraekor's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19570e",
+                "1254092-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "62a7eca46fafd3be",
+        "global_key_row": 32825,
+        "global_key_record_file_offset": 525204,
+        "global_key_string_file_offset": 3624692,
+        "raw_key": "@@The fire god Vraekor's crimson star shone brightly on the day you were reborn. It would seem you have his blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 643,
+            "file_offset": 30964,
+            "text": "The fire god Vraekor's crimson star shone brightly on the day you were reborn. It would seem you have his blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19571e",
+                "1254092-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254093": {
+      "buff_id": 1254093,
+      "domain_key": "Water",
+      "original_choice_label": "Water",
+      "deity_name": "Njordir",
+      "original_creator_detail": "Njordir - God of Water, Patron of Fishing and Sailing",
+      "original_buff_title": "Njordir's Blessing",
+      "original_buff_description": "The water god Njordir's azure star shone brightly on the day you were reborn. Somehow it would seem you have his favor.",
+      "derived_bonus_lines": [
+        "+6% Ice Damage",
+        "+6% Ice Resistance"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 17917247,
+          "op": 1,
+          "bits": 1065856532,
+          "value": 1.059999942779541,
+          "file_offset": 136,
+          "source_parameter_name": "Ice_damage_amount",
+          "source_parameter_record_file_offset": 544,
+          "source_parameter_SL_hash": "73b1c52a167e6dbb",
+          "source_parameter_localization_key": "@@Ice Damage   -1 default@@",
+          "derived_human_label": "Ice Damage",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Ice Damage",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 12162558,
+          "op": 3,
+          "bits": 1086324736,
+          "value": 6.0,
+          "file_offset": 148,
+          "source_parameter_name": "Ice_resistance",
+          "source_parameter_record_file_offset": 592,
+          "source_parameter_SL_hash": "912c81b60ad0f392",
+          "source_parameter_localization_key": "@@Ice Resistance@@",
+          "derived_human_label": "Ice Resistance",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Ice Resistance",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254093.buff_bxml",
+      "source_buff_SHA256": "ee9684acdab272a9dd46bcc9b98e27e0216452f0d013f07c8702150f35dab007",
+      "label_proof": {
+        "SL_hash": "31986e9c3222b2db",
+        "global_key_row": 16454,
+        "global_key_record_file_offset": 263268,
+        "global_key_string_file_offset": 2504551,
+        "raw_key": "@@Water@@",
+        "english_main_matches": [
+          {
+            "index": 3650,
+            "file_offset": 153272,
+            "text": "Water",
+            "parallel_loc_symbols": [
+              [
+                "43659e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "fea7840d20eed29b",
+        "global_key_row": 83943,
+        "global_key_record_file_offset": 1343092,
+        "global_key_string_file_offset": 7120595,
+        "raw_key": "@@Njordir - God of Water, Patron of Fishing and Sailing@@",
+        "english_main_matches": [
+          {
+            "index": 3704,
+            "file_offset": 155343,
+            "text": "Njordir - God of Water, Patron of Fishing and Sailing",
+            "parallel_loc_symbols": [
+              [
+                "43677e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "96645026d7a16408",
+        "global_key_row": 49593,
+        "global_key_record_file_offset": 793492,
+        "global_key_string_file_offset": 4775830,
+        "raw_key": "@@Njordir's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 637,
+            "file_offset": 30525,
+            "text": "Njordir's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19568e",
+                "1254093-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "84b8326676aaceea",
+        "global_key_row": 43872,
+        "global_key_record_file_offset": 701956,
+        "global_key_string_file_offset": 4386820,
+        "raw_key": "@@The water god Njordir's azure star shone brightly on the day you were reborn. Somehow it would seem you have his favor.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 639,
+            "file_offset": 30688,
+            "text": "The water god Njordir's azure star shone brightly on the day you were reborn. Somehow it would seem you have his favor.",
+            "parallel_loc_symbols": [
+              [
+                "19569e",
+                "1254093-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254094": {
+      "buff_id": 1254094,
+      "domain_key": "Wisdom",
+      "original_choice_label": "Wisdom",
+      "deity_name": "Ethene",
+      "original_creator_detail": "Ethene - Goddess of Wisdom and Art",
+      "original_buff_title": "Ethene's Blessing",
+      "original_buff_description": "The star of Ethene, goddess of wisdom, shone brightly on the day you were reborn. It would seem that somehow you have acquired her favor.",
+      "derived_bonus_lines": [
+        "+10% Mana"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 981938,
+          "op": 1,
+          "bits": 1066192077,
+          "value": 1.100000023841858,
+          "file_offset": 136,
+          "source_parameter_name": "Power",
+          "source_parameter_record_file_offset": 1152,
+          "source_parameter_SL_hash": "71939be197cdecbc",
+          "source_parameter_localization_key": "@@Mana@@",
+          "derived_human_label": "Mana",
+          "derived_percent": 10,
+          "derived_bonus": "+10% Mana",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254094.buff_bxml",
+      "source_buff_SHA256": "801ccd57f696ae3287db0cf13ea3bf44878232e6a4295b5ee113381bde12a68b",
+      "label_proof": {
+        "SL_hash": "72a489db9146b0fe",
+        "global_key_row": 38061,
+        "global_key_record_file_offset": 608980,
+        "global_key_string_file_offset": 3972988,
+        "raw_key": "@@Wisdom@@",
+        "english_main_matches": [
+          {
+            "index": 3651,
+            "file_offset": 153281,
+            "text": "Wisdom",
+            "parallel_loc_symbols": [
+              [
+                "43658e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "035d5d2fbff0e4de",
+        "global_key_row": 1131,
+        "global_key_record_file_offset": 18100,
+        "global_key_string_file_offset": 1424339,
+        "raw_key": "@@Ethene - Goddess of Wisdom and Art@@",
+        "english_main_matches": [
+          {
+            "index": 3686,
+            "file_offset": 154289,
+            "text": "Ethene - Goddess of Wisdom and Art",
+            "parallel_loc_symbols": [
+              [
+                "43680e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "754433f1064637f8",
+        "global_key_row": 38906,
+        "global_key_record_file_offset": 622500,
+        "global_key_string_file_offset": 4027168,
+        "raw_key": "@@Ethene's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 640,
+            "file_offset": 30811,
+            "text": "Ethene's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19566e",
+                "1254094-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "9fb0463dbb40229a",
+        "global_key_row": 52656,
+        "global_key_record_file_offset": 842500,
+        "global_key_string_file_offset": 4983401,
+        "raw_key": "@@The star of Ethene, goddess of wisdom, shone brightly on the day you were reborn. It would seem that somehow you have acquired her favor.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 638,
+            "file_offset": 30547,
+            "text": "The star of Ethene, goddess of wisdom, shone brightly on the day you were reborn. It would seem that somehow you have acquired her favor.",
+            "parallel_loc_symbols": [
+              [
+                "19567e",
+                "1254094-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254095": {
+      "buff_id": 1254095,
+      "domain_key": "War",
+      "original_choice_label": "War",
+      "deity_name": "Thyrdon",
+      "original_creator_detail": "Thyrdon - God of War, Battle, and Tactics",
+      "original_buff_title": "Thyrdon's Blessing",
+      "original_buff_description": "The war god Thyrdon's star shone brightly on the day you were reborn. It would seem you have his blessing.",
+      "derived_bonus_lines": [
+        "+5% Physical Damage",
+        "+5% Armor"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 31567303,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 136,
+          "source_parameter_name": "Physical_damage_amount",
+          "source_parameter_record_file_offset": 960,
+          "source_parameter_SL_hash": "1706df5cb5f881cf",
+          "source_parameter_localization_key": "@@Physical Damage@@",
+          "derived_human_label": "Physical Damage",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Physical Damage",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 12471488,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 148,
+          "source_parameter_name": "armor_Physical",
+          "source_parameter_record_file_offset": 1712,
+          "source_parameter_SL_hash": "acd56b859425940b",
+          "source_parameter_localization_key": "@@Armor@@",
+          "derived_human_label": "Armor",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Armor",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254095.buff_bxml",
+      "source_buff_SHA256": "26252032f7e61cd1dbe935fcc037c46ab57544de9a21de6943a11e728253939e",
+      "label_proof": {
+        "SL_hash": "6c27e09f1d9aba18",
+        "global_key_row": 35925,
+        "global_key_record_file_offset": 574804,
+        "global_key_string_file_offset": 3835246,
+        "raw_key": "@@War@@",
+        "english_main_matches": [
+          {
+            "index": 3652,
+            "file_offset": 153291,
+            "text": "War",
+            "parallel_loc_symbols": [
+              [
+                "43653e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "41defad127738d5b",
+        "global_key_row": 21980,
+        "global_key_record_file_offset": 351684,
+        "global_key_string_file_offset": 2868668,
+        "raw_key": "@@Thyrdon - God of War, Battle, and Tactics@@",
+        "english_main_matches": [
+          {
+            "index": 3659,
+            "file_offset": 153422,
+            "text": "Thyrdon - God of War, Battle, and Tactics",
+            "parallel_loc_symbols": [
+              [
+                "43679e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "7d33fde72a72e87a",
+        "global_key_row": 41516,
+        "global_key_record_file_offset": 664260,
+        "global_key_string_file_offset": 4214390,
+        "raw_key": "@@Thyrdon's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 629,
+            "file_offset": 30066,
+            "text": "Thyrdon's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19564e",
+                "1254095-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "bb969028c25acbab",
+        "global_key_row": 61830,
+        "global_key_record_file_offset": 989284,
+        "global_key_string_file_offset": 5602642,
+        "raw_key": "@@The war god Thyrdon's star shone brightly on the day you were reborn. It would seem you have his blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 631,
+            "file_offset": 30115,
+            "text": "The war god Thyrdon's star shone brightly on the day you were reborn. It would seem you have his blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19565e",
+                "1254095-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254096": {
+      "buff_id": 1254096,
+      "domain_key": "Love",
+      "original_choice_label": "Love",
+      "deity_name": "Aryllia",
+      "original_creator_detail": "Aryllia - Goddess of Love and Beauty",
+      "original_buff_title": "Aryllia's Blessing",
+      "original_buff_description": "The star of Aryllia, goddess of love, shone brightly on the day you were reborn. Blessed by this soothing light, it would seem you have her blessing.",
+      "derived_bonus_lines": [
+        "+5% Health",
+        "+1% Critical Hit Chance"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 1657941,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 136,
+          "source_parameter_name": "Health",
+          "source_parameter_record_file_offset": 496,
+          "source_parameter_SL_hash": "b273ebb1a5a8b2a3",
+          "source_parameter_localization_key": "@@Health@@",
+          "derived_human_label": "Health",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Health",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 3817837,
+          "op": 3,
+          "bits": 1008981770,
+          "value": 0.009999999776482582,
+          "file_offset": 148,
+          "source_parameter_name": "critical",
+          "source_parameter_record_file_offset": 1856,
+          "source_parameter_SL_hash": "f9c04135b9f5e2b7",
+          "source_parameter_localization_key": "@@Chance to Critical Hit@@",
+          "derived_human_label": "Critical Hit Chance",
+          "derived_percent": 1,
+          "derived_bonus": "+1% Critical Hit Chance",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254096.buff_bxml",
+      "source_buff_SHA256": "9b6789979fe022cc1de88e5531b9bd86b4795cfd645104e27df4fd8c686c8f4f",
+      "label_proof": {
+        "SL_hash": "a8e60d216b22aa7d",
+        "global_key_row": 55665,
+        "global_key_record_file_offset": 890644,
+        "global_key_string_file_offset": 5187352,
+        "raw_key": "@@Love@@",
+        "english_main_matches": [
+          {
+            "index": 3677,
+            "file_offset": 153839,
+            "text": "Love",
+            "parallel_loc_symbols": [
+              [
+                "20059e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "3c8fb82f66bdf9b7",
+        "global_key_row": 20173,
+        "global_key_record_file_offset": 322772,
+        "global_key_string_file_offset": 2750996,
+        "raw_key": "@@Aryllia - Goddess of Love and Beauty@@",
+        "english_main_matches": [
+          {
+            "index": 3660,
+            "file_offset": 153467,
+            "text": "Aryllia - Goddess of Love and Beauty",
+            "parallel_loc_symbols": [
+              [
+                "43678e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "ad665c567b384481",
+        "global_key_row": 57150,
+        "global_key_record_file_offset": 914404,
+        "global_key_string_file_offset": 5287034,
+        "raw_key": "@@Aryllia's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 461,
+            "file_offset": 23364,
+            "text": "Aryllia's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19424e",
+                "1254096-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "487953b62ad28266",
+        "global_key_row": 24158,
+        "global_key_record_file_offset": 386532,
+        "global_key_string_file_offset": 3026874,
+        "raw_key": "@@The star of Aryllia, goddess of love, shone brightly on the day you were reborn. Blessed by this soothing light, it would seem you have her blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 460,
+            "file_offset": 23211,
+            "text": "The star of Aryllia, goddess of love, shone brightly on the day you were reborn. Blessed by this soothing light, it would seem you have her blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19425e",
+                "1254096-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254097": {
+      "buff_id": 1254097,
+      "domain_key": "Death",
+      "original_choice_label": "Death",
+      "deity_name": "Belen",
+      "original_creator_detail": "Belen - God of Death",
+      "original_buff_title": "Belen's Blessing",
+      "original_buff_description": "The death god Belen's star shone brightly on the day you were reborn. It would seem you have his blessing.",
+      "derived_bonus_lines": [
+        "+1% Critical Hit Chance",
+        "+8% Critical Hit Damage"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 3817837,
+          "op": 3,
+          "bits": 1008981770,
+          "value": 0.009999999776482582,
+          "file_offset": 136,
+          "source_parameter_name": "critical",
+          "source_parameter_record_file_offset": 1856,
+          "source_parameter_SL_hash": "f9c04135b9f5e2b7",
+          "source_parameter_localization_key": "@@Chance to Critical Hit@@",
+          "derived_human_label": "Critical Hit Chance",
+          "derived_percent": 1,
+          "derived_bonus": "+1% Critical Hit Chance",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 14222424,
+          "op": 1,
+          "bits": 1066024305,
+          "value": 1.0800000429153442,
+          "file_offset": 148,
+          "source_parameter_name": "critical_amount",
+          "source_parameter_record_file_offset": 1872,
+          "source_parameter_SL_hash": "cd6779cc6eba1ec1",
+          "source_parameter_localization_key": "@@Critical Hit Damage@@",
+          "derived_human_label": "Critical Hit Damage",
+          "derived_percent": 8,
+          "derived_bonus": "+8% Critical Hit Damage",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254097.buff_bxml",
+      "source_buff_SHA256": "cf2ab229dce86f702e74f3c906ddd4362fd400cbb351fcc7136be68bf78c4d1f",
+      "label_proof": {
+        "SL_hash": "ffb4cf26b771a8d1",
+        "global_key_row": 84293,
+        "global_key_record_file_offset": 1348692,
+        "global_key_string_file_offset": 7147089,
+        "raw_key": "@@Death@@",
+        "english_main_matches": [
+          {
+            "index": 3678,
+            "file_offset": 153847,
+            "text": "Death",
+            "parallel_loc_symbols": [
+              [
+                "43649e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "53583b305372c65a",
+        "global_key_row": 27775,
+        "global_key_record_file_offset": 444404,
+        "global_key_string_file_offset": 3271444,
+        "raw_key": "@@Belen - God of Death@@",
+        "english_main_matches": [
+          {
+            "index": 3661,
+            "file_offset": 153507,
+            "text": "Belen - God of Death",
+            "parallel_loc_symbols": [
+              [
+                "43695e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "05dae31eff82433a",
+        "global_key_row": 1914,
+        "global_key_record_file_offset": 30628,
+        "global_key_string_file_offset": 1479654,
+        "raw_key": "@@Belen's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 632,
+            "file_offset": 30225,
+            "text": "Belen's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19562e",
+                "1254097-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "70c8c25f0a1b0715",
+        "global_key_row": 37469,
+        "global_key_record_file_offset": 599508,
+        "global_key_string_file_offset": 3936285,
+        "raw_key": "@@The death god Belen's star shone brightly on the day you were reborn. It would seem you have his blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 635,
+            "file_offset": 30395,
+            "text": "The death god Belen's star shone brightly on the day you were reborn. It would seem you have his blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19563e",
+                "1254097-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254098": {
+      "buff_id": 1254098,
+      "domain_key": "Fate",
+      "original_choice_label": "Fate",
+      "deity_name": "Lyria",
+      "original_creator_detail": "Lyria - Goddess of Fate, Magic, and Luck",
+      "original_buff_title": "Lyria's Blessing",
+      "original_buff_description": "The star of Lyria, goddess of magic and fate, shone brightly on the day you were reborn. It would seem you have her blessing.",
+      "derived_bonus_lines": [
+        "+5% Mana",
+        "+5% Mana Regeneration"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 981938,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 136,
+          "source_parameter_name": "Power",
+          "source_parameter_record_file_offset": 1152,
+          "source_parameter_SL_hash": "71939be197cdecbc",
+          "source_parameter_localization_key": "@@Mana@@",
+          "derived_human_label": "Mana",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Mana",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 9846907,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 148,
+          "source_parameter_name": "PowerRecovery",
+          "source_parameter_record_file_offset": 1168,
+          "source_parameter_SL_hash": "e4c333b9f91e0356",
+          "source_parameter_localization_key": "@@Mana Regen per Sec (Non-Combat)@@",
+          "derived_human_label": "Mana Regeneration (Non-Combat)",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Mana Regeneration (Non-Combat)",
+          "original_UI_visible": false,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 24156528,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 160,
+          "source_parameter_name": "PowerRecoveryCombat",
+          "source_parameter_record_file_offset": 1184,
+          "source_parameter_SL_hash": "c4a031239a48715b",
+          "source_parameter_localization_key": "@@Mana Regen per Sec@@",
+          "derived_human_label": "Mana Regeneration (Combat)",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Mana Regeneration (Combat)",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254098.buff_bxml",
+      "source_buff_SHA256": "4ff32b37a060f1d98b4e2ee3db64fcaac6d085f7b3998f19f3fac924e5e46dd4",
+      "label_proof": {
+        "SL_hash": "50aa3a4a87a582d5",
+        "global_key_row": 26875,
+        "global_key_record_file_offset": 430004,
+        "global_key_string_file_offset": 3206571,
+        "raw_key": "@@Fate@@",
+        "english_main_matches": [
+          {
+            "index": 3676,
+            "file_offset": 153831,
+            "text": "Fate",
+            "parallel_loc_symbols": [
+              [
+                "43651e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "9f70f600b278c325",
+        "global_key_row": 52576,
+        "global_key_record_file_offset": 841220,
+        "global_key_string_file_offset": 4978411,
+        "raw_key": "@@Lyria - Goddess of Fate, Magic, and Luck@@",
+        "english_main_matches": [
+          {
+            "index": 3662,
+            "file_offset": 153531,
+            "text": "Lyria - Goddess of Fate, Magic, and Luck",
+            "parallel_loc_symbols": [
+              [
+                "43699e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "6ac116dbaf4d1cb4",
+        "global_key_row": 35449,
+        "global_key_record_file_offset": 567188,
+        "global_key_string_file_offset": 3804549,
+        "raw_key": "@@Lyria's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 636,
+            "file_offset": 30505,
+            "text": "Lyria's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19436e",
+                "*1254098-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "911b042bf230bb68",
+        "global_key_row": 47833,
+        "global_key_record_file_offset": 765332,
+        "global_key_string_file_offset": 4659956,
+        "raw_key": "@@The star of Lyria, goddess of magic and fate, shone brightly on the day you were reborn. It would seem you have her blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 633,
+            "file_offset": 30245,
+            "text": "The star of Lyria, goddess of magic and fate, shone brightly on the day you were reborn. It would seem you have her blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19561e",
+                "1254098-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254099": {
+      "buff_id": 1254099,
+      "domain_key": "Order",
+      "original_choice_label": "Order",
+      "deity_name": "Mitharu",
+      "original_creator_detail": "Mitharu - God of Order",
+      "original_buff_title": "Mitharu's Blessing",
+      "original_buff_description": "The holy light of Mitharu, god of order, shone brightly on the day you were reborn. It would seem you have his blessing.",
+      "derived_bonus_lines": [
+        "+5% Health",
+        "+5% Mana"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 1657941,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 136,
+          "source_parameter_name": "Health",
+          "source_parameter_record_file_offset": 496,
+          "source_parameter_SL_hash": "b273ebb1a5a8b2a3",
+          "source_parameter_localization_key": "@@Health@@",
+          "derived_human_label": "Health",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Health",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 981938,
+          "op": 1,
+          "bits": 1065772646,
+          "value": 1.0499999523162842,
+          "file_offset": 148,
+          "source_parameter_name": "Power",
+          "source_parameter_record_file_offset": 1152,
+          "source_parameter_SL_hash": "71939be197cdecbc",
+          "source_parameter_localization_key": "@@Mana@@",
+          "derived_human_label": "Mana",
+          "derived_percent": 5,
+          "derived_bonus": "+5% Mana",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254099.buff_bxml",
+      "source_buff_SHA256": "b04d14710581d3304f2e56a5e55309367175e7870353422967854366b43767c1",
+      "label_proof": {
+        "SL_hash": "6e39a50c7e0c7636",
+        "global_key_row": 36585,
+        "global_key_record_file_offset": 585364,
+        "global_key_string_file_offset": 3877952,
+        "raw_key": "@@Order@@",
+        "english_main_matches": [
+          {
+            "index": 3674,
+            "file_offset": 153810,
+            "text": "Order",
+            "parallel_loc_symbols": [
+              [
+                "43650e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "46d6992704281933",
+        "global_key_row": 23599,
+        "global_key_record_file_offset": 377588,
+        "global_key_string_file_offset": 2986123,
+        "raw_key": "@@Mitharu - God of Order@@",
+        "english_main_matches": [
+          {
+            "index": 3657,
+            "file_offset": 153349,
+            "text": "Mitharu - God of Order",
+            "parallel_loc_symbols": [
+              [
+                "43693e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "6ac245e41501f06b",
+        "global_key_row": 35450,
+        "global_key_record_file_offset": 567204,
+        "global_key_string_file_offset": 3804570,
+        "raw_key": "@@Mitharu's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 459,
+            "file_offset": 23189,
+            "text": "Mitharu's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19422e",
+                "1254099-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "ab9eb5b39d3ee655",
+        "global_key_row": 56581,
+        "global_key_record_file_offset": 905300,
+        "global_key_string_file_offset": 5248789,
+        "raw_key": "@@The holy light of Mitharu, god of order, shone brightly on the day you were reborn. It would seem you have his blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 457,
+            "file_offset": 23044,
+            "text": "The holy light of Mitharu, god of order, shone brightly on the day you were reborn. It would seem you have his blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19423e",
+                "1254099-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254101": {
+      "buff_id": 1254101,
+      "domain_key": "Justice",
+      "original_choice_label": "Justice",
+      "deity_name": "Ynadon",
+      "original_creator_detail": "Ynadon - God of Justice",
+      "original_buff_title": "Ynadon's Blessing",
+      "original_buff_description": "The star of Ynadon, god of justice, shone brightly on the day you were reborn. It would seem you have his blessing.",
+      "derived_bonus_lines": [
+        "+10% Health"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 1657941,
+          "op": 1,
+          "bits": 1066192077,
+          "value": 1.100000023841858,
+          "file_offset": 136,
+          "source_parameter_name": "Health",
+          "source_parameter_record_file_offset": 496,
+          "source_parameter_SL_hash": "b273ebb1a5a8b2a3",
+          "source_parameter_localization_key": "@@Health@@",
+          "derived_human_label": "Health",
+          "derived_percent": 10,
+          "derived_bonus": "+10% Health",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254101.buff_bxml",
+      "source_buff_SHA256": "5e20a4a1724fab04eff670a44666ff118aa5c7023332256b144b6796e635a22f",
+      "label_proof": {
+        "SL_hash": "0290715a177a54cc",
+        "global_key_row": 866,
+        "global_key_record_file_offset": 13860,
+        "global_key_string_file_offset": 1406357,
+        "raw_key": "@@Justice@@",
+        "english_main_matches": [
+          {
+            "index": 3679,
+            "file_offset": 153856,
+            "text": "Justice",
+            "parallel_loc_symbols": [
+              [
+                "43648e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "3b60bd6e169478d4",
+        "global_key_row": 19752,
+        "global_key_record_file_offset": 316036,
+        "global_key_string_file_offset": 2724359,
+        "raw_key": "@@Ynadon - God of Justice@@",
+        "english_main_matches": [
+          {
+            "index": 3656,
+            "file_offset": 153322,
+            "text": "Ynadon - God of Justice",
+            "parallel_loc_symbols": [
+              [
+                "43694e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "9f8dbf8a35536993",
+        "global_key_row": 52612,
+        "global_key_record_file_offset": 841796,
+        "global_key_string_file_offset": 4980608,
+        "raw_key": "@@Ynadon's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 634,
+            "file_offset": 30374,
+            "text": "Ynadon's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19559e",
+                "1254101-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "7e686aa26f5bfd60",
+        "global_key_row": 41928,
+        "global_key_record_file_offset": 670852,
+        "global_key_string_file_offset": 4244968,
+        "raw_key": "@@The star of Ynadon, god of justice, shone brightly on the day you were reborn. It would seem you have his blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 616,
+            "file_offset": 28866,
+            "text": "The star of Ynadon, god of justice, shone brightly on the day you were reborn. It would seem you have his blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19560e",
+                "1254101-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1254102": {
+      "buff_id": 1254102,
+      "domain_key": "Mischief",
+      "original_choice_label": "Mischief",
+      "deity_name": "Lupoku",
+      "original_creator_detail": "Lupoku - God of Mischief, Patron of Brewing",
+      "original_buff_title": "Lupoku's Blessing",
+      "original_buff_description": "The mischievious god Lupoku's glittering star shone brightly on the day you were reborn. It would seem you have his blessing.",
+      "derived_bonus_lines": [
+        "+6% Poison Damage",
+        "+6% Poison Resistance"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 17514000,
+          "op": 1,
+          "bits": 1065856532,
+          "value": 1.059999942779541,
+          "file_offset": 136,
+          "source_parameter_name": "Poison_dot_amount",
+          "source_parameter_record_file_offset": 1104,
+          "source_parameter_SL_hash": "5c159643a9e3a081",
+          "source_parameter_localization_key": "@@Poison Damage   -1 default@@",
+          "derived_human_label": "Poison Damage",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Poison Damage",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        },
+        {
+          "key": 17720999,
+          "op": 3,
+          "bits": 1086324736,
+          "value": 6.0,
+          "file_offset": 148,
+          "source_parameter_name": "Poison_resistance",
+          "source_parameter_record_file_offset": 1136,
+          "source_parameter_SL_hash": "1bf00afd725141e8",
+          "source_parameter_localization_key": "@@Poison Resistance@@",
+          "derived_human_label": "Poison Resistance",
+          "derived_percent": 6,
+          "derived_bonus": "+6% Poison Resistance",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1254102.buff_bxml",
+      "source_buff_SHA256": "ca930f78ee3c5d7b348c30b501e4b8e7d2ce528ff7e0ec8cc861371352b61c3c",
+      "label_proof": {
+        "SL_hash": "8230e043333853f8",
+        "global_key_row": 43098,
+        "global_key_record_file_offset": 689572,
+        "global_key_string_file_offset": 4331981,
+        "raw_key": "@@Mischief@@",
+        "english_main_matches": [
+          {
+            "index": 3675,
+            "file_offset": 153819,
+            "text": "Mischief",
+            "parallel_loc_symbols": [
+              [
+                "43652e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "368c76d7cd1c1dca",
+        "global_key_row": 18135,
+        "global_key_record_file_offset": 290164,
+        "global_key_string_file_offset": 2615027,
+        "raw_key": "@@Lupoku - God of Mischief, Patron of Brewing@@",
+        "english_main_matches": [
+          {
+            "index": 3658,
+            "file_offset": 153375,
+            "text": "Lupoku - God of Mischief, Patron of Brewing",
+            "parallel_loc_symbols": [
+              [
+                "43696e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "7317666b0af7cb67",
+        "global_key_row": 38200,
+        "global_key_record_file_offset": 611204,
+        "global_key_string_file_offset": 3981992,
+        "raw_key": "@@Lupoku's Blessing@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 458,
+            "file_offset": 23168,
+            "text": "Lupoku's Blessing",
+            "parallel_loc_symbols": [
+              [
+                "19557e",
+                "1254102-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "849445e2bd6ed53c",
+        "global_key_row": 43828,
+        "global_key_record_file_offset": 701252,
+        "global_key_string_file_offset": 4383593,
+        "raw_key": "@@The mischievious god Lupoku's glittering star shone brightly on the day you were reborn. It would seem you have his blessing.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 463,
+            "file_offset": 23400,
+            "text": "The mischievious god Lupoku's glittering star shone brightly on the day you were reborn. It would seem you have his blessing.",
+            "parallel_loc_symbols": [
+              [
+                "19558e",
+                "1254102-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "1697849": {
+      "buff_id": 1697849,
+      "domain_key": "None",
+      "original_choice_label": "None",
+      "deity_name": null,
+      "original_creator_detail": "Beholden to no god, your self-sufficiency yields its own rewards.",
+      "original_buff_title": "Self-Sufficient",
+      "original_buff_description": "A boon granted by your own strength of will. You are beholden to no god.",
+      "derived_bonus_lines": [
+        "+1% Experience"
+      ],
+      "bonus_text_status": "Readable summaries derived from exact source stat names/operators/float bits plus original Lua formatting/visibility. Not claimed as captured original UI line raster or punctuation.",
+      "effects": [
+        {
+          "key": 25760551,
+          "op": 1,
+          "bits": 1065437102,
+          "value": 1.0099999904632568,
+          "file_offset": 136,
+          "source_parameter_name": "exp_amount_multiplier",
+          "source_parameter_record_file_offset": 1936,
+          "source_parameter_SL_hash": "57c837b628a379a9",
+          "source_parameter_localization_key": "@@Experience Bonus@@",
+          "derived_human_label": "Experience",
+          "derived_percent": 1,
+          "derived_bonus": "+1% Experience",
+          "original_UI_visible": true,
+          "UI_visibility_evidence": "buff_utils.m_do_not_display excludes PowerRecovery/HealthRecovery; its get_buffed_parameter_list_for_display0/9 checks table"
+        }
+      ],
+      "source_buff_file": "work\\v50-character-complete\\creation-gameplay\\inputs\\initial_0.pak\\1697849.buff_bxml",
+      "source_buff_SHA256": "04caeb31852bb70935bc3b21b1a52fba8bb165eee1b4384c6d68a82b6e848469",
+      "label_proof": {
+        "SL_hash": "1d6216c6a2c07136",
+        "global_key_row": 9670,
+        "global_key_record_file_offset": 154724,
+        "global_key_string_file_offset": 2016668,
+        "raw_key": "@@None@@",
+        "english_main_matches": [
+          {
+            "index": 2449,
+            "file_offset": 94488,
+            "text": "None",
+            "parallel_loc_symbols": [
+              [
+                "41666e",
+                "*1293218-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "creator_detail_proof": {
+        "SL_hash": "ee49474099f9dcb2",
+        "global_key_row": 78592,
+        "global_key_record_file_offset": 1257476,
+        "global_key_string_file_offset": 6752535,
+        "raw_key": "@@Beholden to no god, your self-sufficiency yields its own rewards.@@",
+        "english_main_matches": [
+          {
+            "index": 3666,
+            "file_offset": 153611,
+            "text": "Beholden to no god, your self-sufficiency yields its own rewards.",
+            "parallel_loc_symbols": [
+              [
+                "43698e",
+                "417410-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_title_proof": {
+        "SL_hash": "c909631d28232825",
+        "global_key_row": 66269,
+        "global_key_record_file_offset": 1060308,
+        "global_key_string_file_offset": 5908394,
+        "raw_key": "@@Self-Sufficient@@",
+        "buff_file_offset": 48,
+        "english_main_matches": [
+          {
+            "index": 8094,
+            "file_offset": 549761,
+            "text": "Self-Sufficient",
+            "parallel_loc_symbols": [
+              [
+                "19641e",
+                "1697849-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      },
+      "buff_description_proof": {
+        "SL_hash": "3c18483d7d072afd",
+        "global_key_row": 20011,
+        "global_key_record_file_offset": 320180,
+        "global_key_string_file_offset": 2739777,
+        "raw_key": "@@A boon granted by your own strength of will. You are beholden to no god.@@",
+        "buff_file_offset": 56,
+        "english_main_matches": [
+          {
+            "index": 8093,
+            "file_offset": 549685,
+            "text": "A boon granted by your own strength of will. You are beholden to no god.",
+            "parallel_loc_symbols": [
+              [
+                "19642e",
+                "1697849-1",
+                "1/1/0001"
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "per_race_order": {
+    "Almain": [
+      {
+        "source_index1": 1,
+        "host_index0": 0,
+        "domain": "Fire",
+        "buff_id": 1254092
+      },
+      {
+        "source_index1": 2,
+        "host_index0": 1,
+        "domain": "Wisdom",
+        "buff_id": 1254094
+      },
+      {
+        "source_index1": 3,
+        "host_index0": 2,
+        "domain": "War",
+        "buff_id": 1254095
+      },
+      {
+        "source_index1": 4,
+        "host_index0": 3,
+        "domain": "Order",
+        "buff_id": 1254099
+      },
+      {
+        "source_index1": 5,
+        "host_index0": 4,
+        "domain": "Justice",
+        "buff_id": 1254101
+      },
+      {
+        "source_index1": 6,
+        "host_index0": 5,
+        "domain": "None",
+        "buff_id": 1697849
+      }
+    ],
+    "Varani": [
+      {
+        "source_index1": 1,
+        "host_index0": 0,
+        "domain": "Fire",
+        "buff_id": 1254092
+      },
+      {
+        "source_index1": 2,
+        "host_index0": 1,
+        "domain": "Water",
+        "buff_id": 1254093
+      },
+      {
+        "source_index1": 3,
+        "host_index0": 2,
+        "domain": "War",
+        "buff_id": 1254095
+      },
+      {
+        "source_index1": 4,
+        "host_index0": 3,
+        "domain": "Death",
+        "buff_id": 1254097
+      },
+      {
+        "source_index1": 5,
+        "host_index0": 4,
+        "domain": "Mischief",
+        "buff_id": 1254102
+      },
+      {
+        "source_index1": 6,
+        "host_index0": 5,
+        "domain": "None",
+        "buff_id": 1697849
+      }
+    ],
+    "Ljosalfar": [
+      {
+        "source_index1": 1,
+        "host_index0": 0,
+        "domain": "Earth",
+        "buff_id": 1254079
+      },
+      {
+        "source_index1": 2,
+        "host_index0": 1,
+        "domain": "Air",
+        "buff_id": 1254091
+      },
+      {
+        "source_index1": 3,
+        "host_index0": 2,
+        "domain": "Wisdom",
+        "buff_id": 1254094
+      },
+      {
+        "source_index1": 4,
+        "host_index0": 3,
+        "domain": "Order",
+        "buff_id": 1254099
+      },
+      {
+        "source_index1": 5,
+        "host_index0": 4,
+        "domain": "Justice",
+        "buff_id": 1254101
+      },
+      {
+        "source_index1": 6,
+        "host_index0": 5,
+        "domain": "None",
+        "buff_id": 1697849
+      }
+    ],
+    "Dokkalfar": [
+      {
+        "source_index1": 1,
+        "host_index0": 0,
+        "domain": "Wisdom",
+        "buff_id": 1254094
+      },
+      {
+        "source_index1": 2,
+        "host_index0": 1,
+        "domain": "Love",
+        "buff_id": 1254096
+      },
+      {
+        "source_index1": 3,
+        "host_index0": 2,
+        "domain": "Death",
+        "buff_id": 1254097
+      },
+      {
+        "source_index1": 4,
+        "host_index0": 3,
+        "domain": "Fate",
+        "buff_id": 1254098
+      },
+      {
+        "source_index1": 5,
+        "host_index0": 4,
+        "domain": "Mischief",
+        "buff_id": 1254102
+      },
+      {
+        "source_index1": 6,
+        "host_index0": 5,
+        "domain": "None",
+        "buff_id": 1697849
+      }
+    ]
+  },
+  "validation": {
+    "live_pairs_24_match_source": true,
+    "race_sex_patron_pairs48_identical": true,
+    "all13_buff_graphs_retained": true,
+    "all18_stat_keys_resolved": true,
+    "original_game_executed": false,
+    "source_UI_reconstructed_top_level_only": true
+  },
+  "source_registry": {
+    "character_data751829": "a7a3739dcf1830095983e123adc9bc20358aa2eedd53116bdf6798784beafec3",
+    "character_gen_win417410": "2b644ef265295689d26e7350380e2bbb9adf6bb1f170c3e6b93f0de38876369c",
+    "buff_utils686835": "0629dae880700670b704e102f6e529a5ca1fa634daf98fc119fb417c9d491b02",
+    "buff_vars_patch": "bfc5c3dc9210f380e0d0e87bf701ff99627ff2940e356464e32bb120260e6b55",
+    "source_live_tables_sha256": "d8b8c7f9f0eccdb60ff163621d5389acfcb20d69531ff188d7668aa8c3cc7c07",
+    "localization_key_source_sha256": "448c96de5f22ade83f86f48c10576b774884abab3a0208f3e9a0fd8a76798667",
+    "english_main_table_sha256": "19ed64bc7b7bc72a555c80d98bd1a87231d77b6f1e535648a41cd7b177bad366"
+  },
+  "qualifications": [
+    "Original creator description lookup contains the full deity/title line, not the longer post-selection blessing lore. Both are supplied separately.",
+    "Original English stat dictionary keys contain developer annotations for some damage names; product readable bonus summaries are explicitly derivative, not direct claims that fallback key annotations are visible.",
+    "Source original Ohnshan creator detail says God, while blessing lore says goddess; exact source text retained without editorial correction.",
+    "No original game/UI execution, live file writes, save/CRC changes or new gameplay modifier tests. Existing13buff/48combination validation is reused; this audit independently verifies source identity/order and presentation.",
+    "25 of26 creator label/detail English main rows have owner417410. None label reuses generic English None entry2449 (owner1293218); its sourceUI SLhash still directly resolves@@None@@."
+  ]
+}

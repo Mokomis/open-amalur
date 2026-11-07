@@ -1,0 +1,111 @@
+{
+  "material_rows": [
+    {
+      "material": 293,
+      "family": 6,
+      "textures": [
+        0,
+        678,
+        679,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "controls": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "specular_controls": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cutoff_byte": 100,
+      "cutoff": 0.39215686274509803
+    },
+    {
+      "material": 294,
+      "family": 6,
+      "textures": [
+        17,
+        18,
+        680,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "controls": [
+        1.0,
+        600.0,
+        0.0,
+        0.0
+      ],
+      "specular_controls": [
+        0.0,
+        10.0,
+        0.0,
+        0.0
+      ],
+      "cutoff_byte": 128,
+      "cutoff": 0.5019607843137255
+    },
+    {
+      "material": 295,
+      "family": 6,
+      "textures": [
+        22,
+        18,
+        680,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ],
+      "controls": [
+        0.9781200289726257,
+        600.0,
+        0.0,
+        0.0
+      ],
+      "specular_controls": [
+        0.0,
+        10.0,
+        0.0,
+        0.0
+      ],
+      "cutoff_byte": 128,
+      "cutoff": 0.5019607843137255
+    }
+  ],
+  "native_color_format": "VK_FORMAT_BC1_RGBA_UNORM_BLOCK",
+  "root_color_format": "GL_RGBA8 0x8058; unnormalized artistencoded values sampled asUNORM inbothpaths",
+  "native_main_diffuse": {
+    "image": 13901,
+    "asset": 343437,
+    "top_bc1_sha256": "0cdf3dc9bce1579c932a7f1a390268ae8d10a956c78eb6250865c5ff9f35d8aa"
+  },
+  "shader_evidence": {
+    "color_pipeline": 8194,
+    "vertex": 877,
+    "pixel": 878,
+    "depth_pipeline": 13110,
+    "depth_vertex": 324,
+    "depth_pixel": 325
+  },
+  "native_depth_alpha": "g_alpha t1.GREEN; shaderfilename0846c6c833c4aba3.asm; rootcorrespondingrawalphaist2.GREEN",
+  "root_cull": "oa_stream.c disablesGL_CULL_FACE fornative_family6",
+  "root_wrap_filter": "GL_REPEAT U/V, GL_LINEAR_MIPMAP_LINEAR min,GL_LINEAR mag",
+  "root_snapshot_sha256": {
+    "oa_post.c": "ab942e1a7958bb8f235f9c7f00975cbf5a3d3126db91b7d4c9a213a2dde59800",
+    "oa_stream.c": "5e69aab2ac98a7cb8d05e9561d85a9c6cac8d72df84d106ec4aeb78bc6ecbefa"
+  },
+  "review_status": "Root staged rawalpha correction aftertheinitialread; snapshotsmayalreadyincludeit; noGPUlaunchorcorrectedrender validationbythisaudit"
+}

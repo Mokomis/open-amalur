@@ -1,0 +1,36 @@
+{
+  "source_before": {
+    "oa_menu.c": "5fdb02d64f6fe7176bd98797d2efe2e1e139877ac0b35e62aa8b5a557c9f065f",
+    "oa_menu.h": "c7b552d0dbe899e9a3366984725b0ea9862c20b7a5b3310fd0543add2e92190d"
+  },
+  "source_after": {
+    "oa_menu.c": "91175598362d952ee8220992e52b41537da71fdca37e3974fb51a8e317083bbb",
+    "oa_menu.h": "376bc49ece9f1e9617860ffe448eb69be2de2859950ce9ade508a926f245e5da"
+  },
+  "backup_directory": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v46-canopy\\before-menu",
+  "owned_files": [
+    "work/v19-host/oa_menu.c",
+    "work/v19-host/oa_menu.h"
+  ],
+  "user_files_touched": false,
+  "setting": "canopy_dense appended;default0corrected;1dense",
+  "API": "int oa_menu_canopy_dense(const oa_menu *m)",
+  "formats": {
+    "magic": "OASET002 unchanged",
+    "legacy_files_supported": [
+      184,
+      188
+    ],
+    "new_file_bytes": 192
+  },
+  "option_rows": 10,
+  "row_height_design_units": 56,
+  "last_row_design_y": [
+    676,
+    732
+  ],
+  "line_endings": "LF preserved",
+  "strict_file_size": "Only exact184/188/192B files accepted; trailing or partial payload rejected",
+  "full_app_build_performed": false,
+  "isolated_C_harness_build_authorized_and_passed": true
+}

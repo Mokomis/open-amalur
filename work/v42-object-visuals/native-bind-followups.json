@@ -1,0 +1,244 @@
+[
+  {
+    "file": "BHG_CinematicScene.c",
+    "header": "// 00e1c1f0 BHG_CinematicScene__xtor",
+    "calls": [
+      "BHG_CinematicScene__xtor(",
+      "BHG_Vignette__xtor(",
+      "FUN_00ac7570(",
+      "FUN_00ac7570(",
+      "FUN_00b09e60(",
+      "FUN_00b09e60(",
+      "FUN_00b09e60(",
+      "FUN_00b09e60("
+    ],
+    "lines": [
+      "  FUN_00ac7570();",
+      "  FUN_00ac7570();"
+    ]
+  },
+  {
+    "file": "BHG_NewCinematicDialogEvent.c",
+    "header": "// 00f31040 BHG_NewCinematicDialogEvent__vf4",
+    "calls": [
+      "BHG_NewCinematicDialogEvent__vf4(",
+      "FUN_00a70b80(",
+      "FUN_00a71e80(",
+      "FUN_00e35390(",
+      "FUN_00ddbef0(",
+      "FUN_00ac0730(",
+      "FUN_00dcf0b0("
+    ],
+    "lines": [
+      "        iStack_c = *(int *)(param_1 + 0x124);",
+      "    FUN_00ac0730();"
+    ]
+  },
+  {
+    "file": "unnamed_00a8.c",
+    "header": "// 00a864c0 FUN_00a864c0",
+    "calls": [
+      "FUN_00a864c0(",
+      "FUN_00af4d70(",
+      "FUN_00af3740(",
+      "FUN_00af14b0(",
+      "FUN_00af2060(",
+      "FUN_00af4d70(",
+      "FUN_00af3740(",
+      "FUN_00af14b0("
+    ],
+    "lines": [
+      "  *(undefined4 *)(param_1 + 0x124) = 0xe;",
+      "  *(undefined4 *)(param_1 + 0x1a0) = local_8;"
+    ]
+  },
+  {
+    "file": "unnamed_00ca.c",
+    "header": "// 00caefe0 FUN_00caefe0",
+    "calls": [
+      "FUN_00caefe0(",
+      "FUN_00ac38e0(",
+      "FUN_00ac5560(",
+      "FUN_00ac5770(",
+      "FUN_00ac38e0(",
+      "FUN_00ac5560(",
+      "FUN_00ac5770("
+    ],
+    "lines": [
+      "  FUN_00ac38e0();",
+      "    FUN_00ac5560(iVar1);",
+      "    FUN_00ac5770(iVar1,param_4);",
+      "  FUN_00ac38e0();",
+      "  FUN_00ac5560(param_1 + 0x124);",
+      "  FUN_00ac5770(local_34,local_64);"
+    ]
+  },
+  {
+    "file": "unnamed_00ca.c",
+    "header": "// 00caf5f0 FUN_00caf5f0",
+    "calls": [
+      "FUN_00caf5f0(",
+      "FUN_00ac38e0(",
+      "FUN_00ac5560(",
+      "FUN_00a6df80(",
+      "FUN_00ac5560(",
+      "FUN_00ac53b0(",
+      "FUN_00ac5770(",
+      "FUN_00ac56f0("
+    ],
+    "lines": [
+      "  FUN_00ac38e0();",
+      "  FUN_00ac5560(param_1 + 0x124);",
+      "    FUN_00ac5560(local_64);",
+      "    FUN_00ac53b0(iVar1 * 0x30 + *(int *)(param_1 + 0x34));",
+      "    FUN_00ac5770(local_64,local_34);",
+      "  FUN_00ac56f0(&local_70);"
+    ]
+  },
+  {
+    "file": "unnamed_00ce.c",
+    "header": "// 00ce2d40 FUN_00ce2d40",
+    "calls": [
+      "FUN_00ce2d40(",
+      "FUN_00ac5560(",
+      "FUN_00cccda0("
+    ],
+    "lines": [
+      "      FUN_00ac5560(iVar2);",
+      "      puVar3 = (undefined4 *)(*(int *)(param_1 + 0x124) + -0x10 + *(int *)(param_1 + 0x128) * 0x10);",
+      "      puVar4 = (undefined4 *)(param_2 * 0x10 + *(int *)(param_1 + 0x124));",
+      "    *(int *)(*(int *)(*(int *)(param_1 + 0x124) + 8 + param_2 * 0x10) + 4) = param_2;"
+    ]
+  },
+  {
+    "file": "unnamed_00d7.c",
+    "header": "// 00d758f0 FUN_00d758f0",
+    "calls": [
+      "FUN_00d758f0(",
+      "FUN_00afdbe0(",
+      "FUN_00b0b000(",
+      "FUN_00b0b0d0(",
+      "FUN_011bd5aa(",
+      "FUN_011bd5aa(",
+      "FUN_00ac6170(",
+      "FUN_00d743c0("
+    ],
+    "lines": [
+      "    uVar5 = *(undefined4 *)(param_1 + 0x124);",
+      "  puVar6 = (undefined8 *)FUN_00ac6170(auStack_10);",
+      "  FUN_00ac7730(DAT_017417c0);",
+      "  FUN_00ac60f0(&uStack_1c);",
+      "  FUN_00ac7590(&uStack_1c);",
+      "  FUN_00ac60f0(&uStack_1c);",
+      "  FUN_00ac7590(&uStack_1c);"
+    ]
+  },
+  {
+    "file": "unnamed_00d7.c",
+    "header": "// 00d787b0 FUN_00d787b0",
+    "calls": [
+      "FUN_00d787b0(",
+      "FUN_00c49310(",
+      "FUN_00ac7570(",
+      "FUN_00ac7570(",
+      "FUN_00ac7570(",
+      "FUN_00ac7570(",
+      "FUN_00af4d70(",
+      "FUN_00af14b0("
+    ],
+    "lines": [
+      "  FUN_00ac7570();",
+      "  FUN_00ac7570();",
+      "  FUN_00ac7570();",
+      "  FUN_00ac7570();",
+      "  *(undefined4 *)(param_1 + 0x124) = 1000;"
+    ]
+  },
+  {
+    "file": "unnamed_00e0.c",
+    "header": "// 00e0a070 FUN_00e0a070",
+    "calls": [
+      "FUN_00e0a070(",
+      "FUN_00b42980(",
+      "FUN_00b42980(",
+      "FUN_00af4d70(",
+      "FUN_00b49b70(",
+      "FUN_00b429b0(",
+      "FUN_00b483c0(",
+      "FUN_00b481d0("
+    ],
+    "lines": [
+      "  FUN_00e061c0(local_d08,param_1 + 0x104,uVar3,uVar1,uVar4);",
+      "  FUN_00e061c0(local_d08,param_1 + 0x124,uVar3,uVar1,uVar4);",
+      "  uVar1 = FUN_00af4d70(\"MOVEMENT/SPEED_FACTOR\",&DAT_015e57a2,0x1a0f786,1);",
+      "  uVar1 = FUN_00af4d70(\"MOVEMENT/SPEED_FACTOR\",&DAT_015e57a2,0x1a0f786,1);",
+      "  uVar1 = FUN_00af4d70(\"MOVEMENT/SPEED_FACTOR\",&DAT_015e57a2,0x1a0f786,1);",
+      "  uVar1 = FUN_00af4d70(\"MOVEMENT/SPEED_FACTOR\",&DAT_015e57a2,0x1a0f786,1);",
+      "  uVar1 = FUN_00af4d70(\"MOVEMENT/SPEED_FACTOR\",&DAT_015e57a2,0x1a0f786,1);",
+      "  uVar1 = FUN_00af4d70(\"MOVEMENT/SPEED_FACTOR\",&DAT_015e57a2,0x1a0f786,1);",
+      "  uVar1 = FUN_00af4d70(\"MOVEMENT/SPEED_FACTOR\",&DAT_015e57a2,0x1a0f786,1);",
+      "  FUN_00e06e50(local_d08,param_1 + 0x1a0,uVar3,uVar1,uVar4,uVar5);",
+      "  uVar3 = FUN_00af4d70(\"alert_ally_volume\",0x104d457,0x104d457,1);"
+    ]
+  },
+  {
+    "file": "unnamed_00fc.c",
+    "header": "// 00fc71e0 FUN_00fc71e0",
+    "calls": [
+      "FUN_00fc71e0(",
+      "FUN_00f24ef0(",
+      "FUN_00f16d40(",
+      "FUN_00f16e10(",
+      "FUN_00f2acf0(",
+      "FUN_00f24ef0(",
+      "FUN_00f16cf0(",
+      "FUN_00f16dc0("
+    ],
+    "lines": [
+      "          FUN_00ac38e0();",
+      "          puVar2 = (undefined8 *)FUN_00ac6170(&ppuStack_64);",
+      "            FUN_00ac60f0(&uStack_50);",
+      "            FUN_00f02510(*(undefined4 *)(param_1 + 0x120),*(undefined4 *)(param_1 + 0x124),"
+    ]
+  },
+  {
+    "file": "unnamed_00fe.c",
+    "header": "// 00fe1a60 FUN_00fe1a60",
+    "calls": [
+      "FUN_00fe1a60(",
+      "FUN_00ab8e80(",
+      "FUN_00afdbe0(",
+      "FUN_00ac0730(",
+      "FUN_00af14b0(",
+      "FUN_00f221a0("
+    ],
+    "lines": [
+      "  *(undefined4 *)(param_1 + 0x124) = 1;",
+      "  FUN_00ac0730();",
+      "  *(undefined4 *)(param_1 + 0x1a0) = 0;",
+      "  *(undefined4 *)(param_1 + 0x104) = 0;"
+    ]
+  },
+  {
+    "file": "unnamed_00fe.c",
+    "header": "// 00fe5bb0 FUN_00fe5bb0",
+    "calls": [
+      "FUN_00fe5bb0(",
+      "FUN_00fe2470(",
+      "FUN_00e2cbe0(",
+      "FUN_00afdf70(",
+      "FUN_00e4dea0(",
+      "FUN_00e04240(",
+      "FUN_00afdf70(",
+      "FUN_00afdf70("
+    ],
+    "lines": [
+      "  *(int *)(param_1 + 0x104) = param_2[0x14];",
+      "  FUN_00ac0a00(param_2 + 0x4e);",
+      "  *(int *)(param_1 + 0x1a0) = param_2[0x4d];",
+      "  *(undefined4 *)(param_1 + 0x124) = 1;",
+      "    switch(*(undefined4 *)(param_1 + 0x1a0)) {",
+      "      *(undefined4 *)(param_1 + 0x124) = *(undefined4 *)(iVar2 + 0x1c);"
+    ]
+  }
+]

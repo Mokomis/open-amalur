@@ -1,0 +1,2127 @@
+{
+  "cells": 175,
+  "triangles": 51831,
+  "material_triangles": {
+    "293": 36056,
+    "294": 12782,
+    "295": 2993
+  },
+  "geometry_changed": false,
+  "new_instances": 0,
+  "full_vertex_identity_verified": true,
+  "legacy_to_native_materials": {
+    "0": 293,
+    "6": 294,
+    "8": 295
+  },
+  "inputs": [
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-12_-15_0.bin",
+      "source_sha256": "367574005c1af8eef32187d5a964ce471c844258adca42f7845d106a1a064871",
+      "file": "l-12_-15.bin",
+      "sha256": "10266aed155f56f0ef3167362f5924bb0a2d99ff6b3944604e1c8e934c40632d",
+      "triangles": 52,
+      "vertices": 102
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-12_-14_0.bin",
+      "source_sha256": "aee1687d49ba7d798fcac995f31f0ea38870484d3681813a5337d5ab2cb74bdd",
+      "file": "l-12_-14.bin",
+      "sha256": "f1540436c02a9748b6605eec26c7062bc4b7f85c5c3a94536a30ed362144cf85",
+      "triangles": 71,
+      "vertices": 128
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-12_-13_0.bin",
+      "source_sha256": "7d2e406fe22db37f758a65640c0eeb2eaf4f704cad3526c540216755d52881c1",
+      "file": "l-12_-13.bin",
+      "sha256": "c5a8ee2c63066512b3c15a2bc587a04e459500d314e4d448b0a1d4ed60758d21",
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-12_-12_0.bin",
+      "source_sha256": "54be5aa3a60ce2b6ef56e0375ab255af0b8f6de53a4b925e9feb7344b0ec6dab",
+      "file": "l-12_-12.bin",
+      "sha256": "2c5aefe5fd8b6880b5f8dc683312744a336d6450cb5f144191ec6a2bb57e1ac1",
+      "triangles": 39,
+      "vertices": 76
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-12_-11_0.bin",
+      "source_sha256": "6251a3a79b6dea2c6bc40d722d7dc43f65f86123fb7b72d6516290c1b6ef2a53",
+      "file": "l-12_-11.bin",
+      "sha256": "e7a44afa2c19eaca6ac344479f8d2c6b059e091b434ccb63af540ddb70abe449",
+      "triangles": 8,
+      "vertices": 18
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-11_-15_0.bin",
+      "source_sha256": "1da6ba15ab327947cd8613b2de952597c696c8e07a45f304219b91676457e157",
+      "file": "l-11_-15.bin",
+      "sha256": "fbacbf50191fc5f3bd8b9c02ff28a614351cbd384cd0cde9022cc9da8a12dabd",
+      "triangles": 98,
+      "vertices": 166
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-11_-14_0.bin",
+      "source_sha256": "46950224d2a55c79459bc85c569575b9d3ab5cc627badb83b09fbfc2e30e3852",
+      "file": "l-11_-14.bin",
+      "sha256": "54cbb9fb6eddd8de7529f9d3d5c9ed71ffa7b88c360e673f2541153cd5caa5b8",
+      "triangles": 219,
+      "vertices": 366
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-11_-13_0.bin",
+      "source_sha256": "60669202ba316afc4aa7b64d43f407f57df22ec1ecce5929fe622959e5d7a041",
+      "file": "l-11_-13.bin",
+      "sha256": "2a80ea0c130af8a842fe4a41da7a8a516ed5356dd76845bdb3b551114115e0a3",
+      "triangles": 402,
+      "vertices": 724
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-11_-12_0.bin",
+      "source_sha256": "90ef6cd4951499f9103dd15152482dadc2b8372ab28e330a02492e4d8c2b2083",
+      "file": "l-11_-12.bin",
+      "sha256": "8bcb34cd0da9875ecc82e68591fbbdad3c128a9381f37603c0990af3bb33c766",
+      "triangles": 254,
+      "vertices": 464
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-11_-11_0.bin",
+      "source_sha256": "56c662ea025be2c007a9e044554197f9658ccca64a4bf9987f2fae0c4490168a",
+      "file": "l-11_-11.bin",
+      "sha256": "0acf43416105850670cc472651213d2167ad49491116c8de02c0bc22dafd33f9",
+      "triangles": 185,
+      "vertices": 321
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-11_-10_0.bin",
+      "source_sha256": "3c303a18075adf3af974360ae07d83f87cd20bbb043944efe72e2670b69885fb",
+      "file": "l-11_-10.bin",
+      "sha256": "78a4870d8443c878726ccbe5c29fba5c71a6093d86020fc03ce174789fadf84f",
+      "triangles": 109,
+      "vertices": 191
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-11_-9_0.bin",
+      "source_sha256": "bc46f100d1034a5865cde8b69192bdfffd7e3a61161a25acf0e1b83aff5400fb",
+      "file": "l-11_-9.bin",
+      "sha256": "0834117b917b9311e32ae12eb88fee5294b893c5af4aa3505bc49863dd6782f6",
+      "triangles": 32,
+      "vertices": 60
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-15_0.bin",
+      "source_sha256": "7d0d6c78d9b67afb97bef990319f61522d724943eacd64c213eebe43d0cf98b8",
+      "file": "l-10_-15.bin",
+      "sha256": "77fb77c0f019fdc028f85edaceae59dca2a6206ddeaf3d8db3dbda160cb73c92",
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-14_0.bin",
+      "source_sha256": "ad48c2e29fd9e420f9dac26bb528ff6f00dc5f0235b4c1ce9df0073871d15f48",
+      "file": "l-10_-14.bin",
+      "sha256": "5c146786ced59b142e52214b65f59d3e7c683a076fcb3f174f4ab6bd1c786c96",
+      "triangles": 32,
+      "vertices": 70
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-13_0.bin",
+      "source_sha256": "4ec797e6958d312e05d5a1427b0f1a8aa025dca7dcd3c9786b4e991fd09121e1",
+      "file": "l-10_-13.bin",
+      "sha256": "3061186c870307aaf3a4c0cd89eaf7ea0d5a66f53d25bec08d4da4f8d7d7bccf",
+      "triangles": 643,
+      "vertices": 1327
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-12_0.bin",
+      "source_sha256": "e954598d06a41259ac1bfa2d986c074df7de2552b0884ed4381870800c74bdf3",
+      "file": "l-10_-12.bin",
+      "sha256": "ce121b4fe2a390ac516c0dfd5f6c20add9fd124af818b2be6a15ba5c015e0122",
+      "triangles": 565,
+      "vertices": 1081
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-11_0.bin",
+      "source_sha256": "80c82ce72994a362f001f32e4cb6d7c0bd83b74ad78efbca54a0a6f76e76515e",
+      "file": "l-10_-11.bin",
+      "sha256": "e00d1a860a4cbf5b124f5481bffea56c0b799428ecda8446836ed2babc2f0a4e",
+      "triangles": 240,
+      "vertices": 434
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-10_0.bin",
+      "source_sha256": "b81c1bc33c7006e7bd1ca48d613bf0652baf17a23f79e5788bfc77aeb3991e24",
+      "file": "l-10_-10.bin",
+      "sha256": "74caca66efcedb1ff137032d3aa2ed1c6fc1b7ead129cd96be3a504595601f35",
+      "triangles": 102,
+      "vertices": 182
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-9_0.bin",
+      "source_sha256": "195836d425b68c58a9d08a608003ae76c9dcbe635803a8fb696349f595a827bb",
+      "file": "l-10_-9.bin",
+      "sha256": "2afd78034fe3ab503262239a182631d4b4b9ec5dd356c2199a6caafcd15ad084",
+      "triangles": 91,
+      "vertices": 167
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-10_-8_0.bin",
+      "source_sha256": "ef25f245bbec0a6f2c3913de5a255398bee45dea817780bab3cbce6301fdccd8",
+      "file": "l-10_-8.bin",
+      "sha256": "00f7793721702d3db56a8a26b2c06b313ba2996c07d84c0daad6e8dc7efa1ef0",
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-15_0.bin",
+      "source_sha256": "3d0285b5afcfebc020fd5e82466716dc3ac59dde0faafded137b6d2b03a6b869",
+      "file": "l-9_-15.bin",
+      "sha256": "13b91d8a5f12ff5f3f659c3f08424538d63d30886a9eac2c72acdbaf87f7bc35",
+      "triangles": 397,
+      "vertices": 697
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-14_0.bin",
+      "source_sha256": "05aebf4f24567c7bb2bcb0f0f1ef8c38456816ee77ba585241b871c4ed8a5198",
+      "file": "l-9_-14.bin",
+      "sha256": "4277e538b0464ad4cf43902d8419618832ea7ca41e39da5f3520a8ddf1c25b28",
+      "triangles": 70,
+      "vertices": 126
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-13_0.bin",
+      "source_sha256": "3553567e8ae4c4292f5de304a24f49cacae80d5df6a4350c3159a7086598c511",
+      "file": "l-9_-13.bin",
+      "sha256": "26a47d5e14e7ab08d219a7fcfc49da4f022df38529d157ec03fef29c122d7604",
+      "triangles": 237,
+      "vertices": 481
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-12_0.bin",
+      "source_sha256": "2a986815ecf27f8bcf0dcaef904df529b76d4222f84454a936b478408aa74b9f",
+      "file": "l-9_-12.bin",
+      "sha256": "ea7a0a4a5c1b07439044cbcef0608056e5bbb87076789574a5b273a22be2f42a",
+      "triangles": 281,
+      "vertices": 462
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-11_0.bin",
+      "source_sha256": "c2cf2739a6937d2b5a547e2af8bb11fffb7ff53d96dbf3695ae5a7f9494e67b6",
+      "file": "l-9_-11.bin",
+      "sha256": "3eac10bd709cb16797491961340e576a729510e2e582d30b1467a1ce5fbe31e4",
+      "triangles": 248,
+      "vertices": 458
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-10_0.bin",
+      "source_sha256": "0b5d22df403e43ed921788edd05fcbe061233ed1ff6d417bf859cd700155c616",
+      "file": "l-9_-10.bin",
+      "sha256": "1bf78ea545b6aa3b15ebb8eb3abe63b33241cdf6b8b9da28962f145f39ccccf2",
+      "triangles": 351,
+      "vertices": 644
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-9_0.bin",
+      "source_sha256": "70d52a8349294697aa3f5024a585714e28aaeb5532dd690e1576530c7241611a",
+      "file": "l-9_-9.bin",
+      "sha256": "de0d5505b70fa1a0a883bbdcf9805a92a4adb336c3301183f5651729e554dcd3",
+      "triangles": 219,
+      "vertices": 365
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-8_0.bin",
+      "source_sha256": "448b842cb2381279b09eb41bddec5a4fd07960ae112678849e9422003f0c088c",
+      "file": "l-9_-8.bin",
+      "sha256": "7b3c788246c7e78ab228678f518fd0b785fb4814629180a6042142d313c4f17f",
+      "triangles": 135,
+      "vertices": 256
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-7_0.bin",
+      "source_sha256": "b321b3944cf603de449e1cfc0bce2f2346ff54749bf298feff22ca64fc297cd5",
+      "file": "l-9_-7.bin",
+      "sha256": "d9c5ef95470d45840abfe8f31ab0cea701a136244d576ea30d923c9db3dbb42c",
+      "triangles": 146,
+      "vertices": 275
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-6_0.bin",
+      "source_sha256": "3120791b4756481cefb1f67e1b559e7c6ce9b633ee187c18d9f83097275fd217",
+      "file": "l-9_-6.bin",
+      "sha256": "396507cdb52cc00b2f7d676482e1ba9a6edc787b368553b3336672548ca3bfa0",
+      "triangles": 39,
+      "vertices": 67
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-5_0.bin",
+      "source_sha256": "bf856207b6fab39996e5c2e3b6b2c7ac699968e2e76e1ea7e8c8abfc06f73a30",
+      "file": "l-9_-5.bin",
+      "sha256": "78946c8405e22a1bf0a8e91fc78f03b3a4a69f30a983a16ccb2e20ccd97364b6",
+      "triangles": 155,
+      "vertices": 266
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-4_0.bin",
+      "source_sha256": "916f24ced12f19f4fbb5c30dd273669727450d5a9fcd1a3ff48b927f7631e97e",
+      "file": "l-9_-4.bin",
+      "sha256": "ff38b4a78457f01c41abdccaf22080b44357a8d642d32e7a2d8b765023fffb62",
+      "triangles": 136,
+      "vertices": 257
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-3_0.bin",
+      "source_sha256": "79532d084fde1f7a37f3935f7481b6eee001297d735b3e9fa4cde02dcce7c1fd",
+      "file": "l-9_-3.bin",
+      "sha256": "ad4e4fa66c6b449bd1d9ce3a29f3f213d3fa063ce75829b523876abb7d8d0c80",
+      "triangles": 100,
+      "vertices": 202
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-2_0.bin",
+      "source_sha256": "4251d10b4734685d1c87d280ebd56346e2170fe03b5dc74345b4657130ba3346",
+      "file": "l-9_-2.bin",
+      "sha256": "c88e93d1705782ff294337ef44dcc7e3cc09704b829dd8604493db5b145852c8",
+      "triangles": 21,
+      "vertices": 47
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-9_-1_0.bin",
+      "source_sha256": "ec4dd2bebd8354c7fcef46f068f41a274ae2fc49072f49a8563bb08bea1e86d9",
+      "file": "l-9_-1.bin",
+      "sha256": "76d97c2a1d2bb2aa35bf6eb201a539e73ca34f99cb9bee98d9413e7c5e799660",
+      "triangles": 11,
+      "vertices": 25
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_0_0.bin",
+      "source_sha256": "cbb46fba63ab0ee745a618745639a0e4ab297f5ad32324db14951589ee73e68b",
+      "file": "l-8_0.bin",
+      "sha256": "9b93e496dfe74fdb3b188dcdcfdb8e042b806538c9f5da94072b7ca943b72bb3",
+      "triangles": 305,
+      "vertices": 561
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_1_0.bin",
+      "source_sha256": "e9ba8785d68af0a7c2eab138300b6c755665ba051ab8f7ffb3b720ef11ef9a30",
+      "file": "l-8_1.bin",
+      "sha256": "3631ad25b04707f893e46af433458dcc3b01337ac02d726729c7c3138e883883",
+      "triangles": 465,
+      "vertices": 863
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-15_0.bin",
+      "source_sha256": "522c300661142734b6e4b69030197d8e2511eccd66e166ecc71d42264b3a48f8",
+      "file": "l-8_-15.bin",
+      "sha256": "7a1a7278252983cfbeb1efecd88eb71d838ecef09c5e941fb710dc14fc401ae8",
+      "triangles": 355,
+      "vertices": 698
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-14_0.bin",
+      "source_sha256": "b543a1d854b98a32a4b832c39d2bfd2e13b5b45e7be3e3f65f1256530e2c701b",
+      "file": "l-8_-14.bin",
+      "sha256": "b9c9abd6a1cb7fcd5b269da38c452e769fabbc50757464fbe6e06aa70662ad92",
+      "triangles": 334,
+      "vertices": 628
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-13_0.bin",
+      "source_sha256": "29a5904ebc26876a97c4b1de607f00f6f2c75d52afb9e9842b8d99c4d7924a47",
+      "file": "l-8_-13.bin",
+      "sha256": "3c12d71894e2a59f12b6599551d81e2d578091767304394c189634379fae3eeb",
+      "triangles": 343,
+      "vertices": 635
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-12_0.bin",
+      "source_sha256": "fd97ef967448b5a3e90b4fe6f0ab28144bb277f92144941e89ce1696327c33c5",
+      "file": "l-8_-12.bin",
+      "sha256": "8e38d6b1e10a399c748dfe7cdd81ab7ce94d1063369851ad57bb2d4d987ff8fe",
+      "triangles": 396,
+      "vertices": 769
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-11_0.bin",
+      "source_sha256": "2b5904b8e26f858c8fb644b437bcbf6fab4715547952d2bd0034a4af8d11781f",
+      "file": "l-8_-11.bin",
+      "sha256": "9a437b576f03ba1b022d43426b4379e2c995d6e8ca928d4468033c9418e5d3de",
+      "triangles": 243,
+      "vertices": 465
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-10_0.bin",
+      "source_sha256": "68438e6e991444cb9bcf5a6175ba1a42b6ec6432cbca7ee4cd2e82317f168c50",
+      "file": "l-8_-10.bin",
+      "sha256": "f7338f1c78fcb36825697559652194204be106eb54fb290421de2120e375efa8",
+      "triangles": 33,
+      "vertices": 71
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-9_0.bin",
+      "source_sha256": "eb73fa48917dc9b059f8462d830c8949a1cb96d35256150361d8d6a16c7b32f7",
+      "file": "l-8_-9.bin",
+      "sha256": "ba241aa0055eaf17aa2fe2d010b43c31214c785e51ff0c771f2ab6a01dc98d25",
+      "triangles": 527,
+      "vertices": 1019
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-8_0.bin",
+      "source_sha256": "0ababcf7b9b97a0c792af60003610455a38982698abe500b21bf2e829aea8d57",
+      "file": "l-8_-8.bin",
+      "sha256": "04920faaeae7454d49ce09a08bd326f690a05baa722ff0571c0c30bf58572083",
+      "triangles": 81,
+      "vertices": 173
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-7_0.bin",
+      "source_sha256": "9fa5ef1b6c7125019aebd0c553bafdc1e2d54ec7d7549b1a1c10b70aed73a6eb",
+      "file": "l-8_-7.bin",
+      "sha256": "e6df96f8f682a57068cc5d8ea2b4ee4332403d3c50077566147dbc61d1367f8c",
+      "triangles": 180,
+      "vertices": 343
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-6_0.bin",
+      "source_sha256": "7afe5ccab1331281e33bf5441f7ae47c3306695d052e1aab69d7b3206e5d0dd5",
+      "file": "l-8_-6.bin",
+      "sha256": "85daef12804a00733dc93e80c38177637f8fa8b33caa7f60ea8baa1e27e7a4c7",
+      "triangles": 256,
+      "vertices": 481
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-5_0.bin",
+      "source_sha256": "22476a5636783407a4ab46a38458b03063959d911905f1d51bce7cada7b165c5",
+      "file": "l-8_-5.bin",
+      "sha256": "d5d6d943e649f5b94162e40da439aa79ebf610c6984686f44ae6e8fa46e2bbe7",
+      "triangles": 192,
+      "vertices": 390
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-4_0.bin",
+      "source_sha256": "f9403cd8ba76f4f73225fbb84d5699a68b58e347a29fda8b9a1694371688fd4c",
+      "file": "l-8_-4.bin",
+      "sha256": "baba4031f51c3b6ac51dce7832485c9cedc59c0d691ab24d30185cc27c6404cf",
+      "triangles": 380,
+      "vertices": 645
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-3_0.bin",
+      "source_sha256": "a0e75545e76a81aca20d1315be29810044d0c097c7b80d8d0cc5a61c2b27f888",
+      "file": "l-8_-3.bin",
+      "sha256": "71ee7f79ae2cdf5427c7d6593277dc34e7c041099dea21cda07a00a7ef144d55",
+      "triangles": 434,
+      "vertices": 733
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-2_0.bin",
+      "source_sha256": "c8798cef4fc7d711ef21e4efbd922f41802b5b84a2a2ce19b0b3f69db55bc57c",
+      "file": "l-8_-2.bin",
+      "sha256": "11cd63fc704a2c820e87626c95f550e351cd13231be586852be982e5f9615c9f",
+      "triangles": 206,
+      "vertices": 351
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-8_-1_0.bin",
+      "source_sha256": "65ed165dc670ef3514e0ffd0c77484ac6e8606def2e1c239c7fb90ea2fe246ea",
+      "file": "l-8_-1.bin",
+      "sha256": "94aaa4ea12024675f2d049cf9f1d23f2ba3fabb463ba9e39cfc31c8bd1fc1670",
+      "triangles": 68,
+      "vertices": 153
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_0_0.bin",
+      "source_sha256": "302211cf58f6256dd787c6a2b69ec101e5887f5aaf42493391a2d6b67cdc91bd",
+      "file": "l-7_0.bin",
+      "sha256": "40ffea8dd449dd49a554168d70b8ec4d8cc23d6b762a3ebed75c6fddc534907f",
+      "triangles": 684,
+      "vertices": 1179
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-15_0.bin",
+      "source_sha256": "091ba11de73802f406cc015b5c59c247386821b0ca4a14594451b368c2ed9c17",
+      "file": "l-7_-15.bin",
+      "sha256": "f08e0e6ba05e939e0b4d03c958992296819a0a45a845200fdaef8e6ebefe2feb",
+      "triangles": 422,
+      "vertices": 840
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-14_0.bin",
+      "source_sha256": "7e7114912fdc7abe6af4123c65895f754a43bce2947df1f06a23e2b03654ee56",
+      "file": "l-7_-14.bin",
+      "sha256": "035e210f552c53d30c0e2b0eeb12afab6c773dfa17a76a6d5401b8bd1be8933c",
+      "triangles": 255,
+      "vertices": 475
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-13_0.bin",
+      "source_sha256": "6f8d7dc77f22bdc479be0012e38c24cc416e943640f03b6c9f51fd60090b19a8",
+      "file": "l-7_-13.bin",
+      "sha256": "efce5551da1419e6e45245fe84ec23634768c5e075db15009ff22f2f36edb00f",
+      "triangles": 323,
+      "vertices": 621
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-12_0.bin",
+      "source_sha256": "712e98397e512eef44e95edf7f628c4f635546c2c616415f4eb4e35f1bbf52f7",
+      "file": "l-7_-12.bin",
+      "sha256": "22eb99e358768a28efa72430a9aefaf9ae895a39d76ade4739fd4ac95441420c",
+      "triangles": 385,
+      "vertices": 723
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-11_0.bin",
+      "source_sha256": "486011917e593998b1c7f9893c7d66f6a678b682ebb956742135e7cac7696bdf",
+      "file": "l-7_-11.bin",
+      "sha256": "ad5f4ee9135d31b442120c0d37a7690d2e542889642a5a52473e1ce40df6aaad",
+      "triangles": 475,
+      "vertices": 925
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-10_0.bin",
+      "source_sha256": "a2714126ccfe31e0bf1c85417d71c9d1a0cde72a5c8f5bd854c3d6426f4b456a",
+      "file": "l-7_-10.bin",
+      "sha256": "a1e079fc0145224a6296be456f313f17a6de1a513233ca50d76b5630ecfb6256",
+      "triangles": 244,
+      "vertices": 487
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-9_0.bin",
+      "source_sha256": "fcc35a5d43df03162d732f297782262bd0145e8f3f3671ccc08c3ae223d69635",
+      "file": "l-7_-9.bin",
+      "sha256": "cde27d69dd2ee71581b68f02720d20c274100c671db36eebdaaa932a01e2865c",
+      "triangles": 284,
+      "vertices": 542
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-8_0.bin",
+      "source_sha256": "700a8634f7d81e48231ba0e30e24ccf9fd431be67c1737a3572d2fb36ba2538d",
+      "file": "l-7_-8.bin",
+      "sha256": "626854885607beea7b1a9b14239c80097d82235b5d695ef1e344c94c19ce2565",
+      "triangles": 458,
+      "vertices": 872
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-7_0.bin",
+      "source_sha256": "5a9b5ad7b1ff1a866998e8d97bfea573c9fcda3c2f59443344b734053ec838a7",
+      "file": "l-7_-7.bin",
+      "sha256": "e8d3d423f30eac73763263a1a8732a2a2b27ba885d8402457ee1e25b25f84ca8",
+      "triangles": 421,
+      "vertices": 777
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-6_0.bin",
+      "source_sha256": "5bf12c27d13d784d3d3d99c509805f1a22878bf69c1558120d5a8ebb5f054a41",
+      "file": "l-7_-6.bin",
+      "sha256": "bec1ef9cba1083cb89487eaf2c97a10aad9feb2c0dfaccbe161e4322675017cf",
+      "triangles": 130,
+      "vertices": 283
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-5_0.bin",
+      "source_sha256": "e5824fecc24d194282dceb9e1673eac38105a6f9bd2dc3edb53b5c87da8b83c9",
+      "file": "l-7_-5.bin",
+      "sha256": "41337bc74c0e677e4b2eefbc1491a3f58de90c0f97efe20e4f4028a6b2a1f93a",
+      "triangles": 700,
+      "vertices": 1286
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-4_0.bin",
+      "source_sha256": "4738975b471a8f9873566c613efcef864a7770f5f829ff9d844bc3926b286cf5",
+      "file": "l-7_-4.bin",
+      "sha256": "d7e1bf0aed5fc6c4310a04a378c073a11cb7a1824cbdd84d4df9e17d389b36e1",
+      "triangles": 691,
+      "vertices": 1172
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-3_0.bin",
+      "source_sha256": "4676873fa43d6511c70865ed95072aeb1b5fd3d834d42bdadb5f11b9d6391a59",
+      "file": "l-7_-3.bin",
+      "sha256": "a2607a87f5d8f6258a844ee70b5b71d386f8842e344ae44b611756084f665e47",
+      "triangles": 484,
+      "vertices": 932
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-2_0.bin",
+      "source_sha256": "991cab45fcd0b1da8e0daa048dc0cdfe47b1d394f97455fbe53fc0e4ea2ccfea",
+      "file": "l-7_-2.bin",
+      "sha256": "d7cdd480f7226ba6d2cdc32be5fb6b4156ce6372da7e2f0fc2965b47357cbb3c",
+      "triangles": 186,
+      "vertices": 312
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-7_-1_0.bin",
+      "source_sha256": "4ce6a09b7f67077e1a4d41169b909c759126f376b7f4f62f1e858e18b6a8175a",
+      "file": "l-7_-1.bin",
+      "sha256": "c02f5cf2721be3ee1b8b59cc25db0685e33410cf9c004db520e45f49b6b78f5a",
+      "triangles": 288,
+      "vertices": 525
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_0_0.bin",
+      "source_sha256": "f19bf68f25929e5bb77ad3abe5b616e802e82431676af47bcbbac9e38109408a",
+      "file": "l-6_0.bin",
+      "sha256": "bf85d8eb9fcf7972740538c047bfde0b52bb29f887b98eaa91f7054e0ec0b106",
+      "triangles": 544,
+      "vertices": 935
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_1_0.bin",
+      "source_sha256": "e12e533a273b0e0a88a488547425ef23a9e62a5f069eda050a9914fb215d1b7d",
+      "file": "l-6_1.bin",
+      "sha256": "b0c88f719e2aa571517f30826da330e1cd553df559d12ece6c0bb02e2812085b",
+      "triangles": 434,
+      "vertices": 772
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-15_0.bin",
+      "source_sha256": "6abc6e49ec72fba717a69124acc453daee4f136c36af870de143c7d170b3fa1b",
+      "file": "l-6_-15.bin",
+      "sha256": "4c2a2e16fffa298ea8ce5b568b822120cd0d2a40bebf644559ed277e7d9d6864",
+      "triangles": 435,
+      "vertices": 797
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-14_0.bin",
+      "source_sha256": "15ea3d127686d8553abeeb5d4c4d7ef991f30adc85d593a5ba6e81ab8227bbce",
+      "file": "l-6_-14.bin",
+      "sha256": "0c89b913daa4bc9507a017791aa6bc93d76f96f909ec39531981564296a99974",
+      "triangles": 338,
+      "vertices": 634
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-13_0.bin",
+      "source_sha256": "3652a5032e8bd4f7173b5af60a7ee5cef1af9259b060075138424d8c27834220",
+      "file": "l-6_-13.bin",
+      "sha256": "6fd67d7383567a20f23721a6b39275c113263e5ca3be32315fd772d777efa497",
+      "triangles": 310,
+      "vertices": 592
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-12_0.bin",
+      "source_sha256": "15ef0923131fea960c7d3ee91e25173c802b4a6820ce52d612abad83924e6229",
+      "file": "l-6_-12.bin",
+      "sha256": "10eb8fba8c7edea03f5c76cdc9f9f7ccb829163884a36c03cf8ad5b74892e200",
+      "triangles": 396,
+      "vertices": 662
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-11_0.bin",
+      "source_sha256": "016f70defc71eb14d741a6e21903a8b220ca32f00de31d097b67642ca0c6df80",
+      "file": "l-6_-11.bin",
+      "sha256": "ecaa47939cf6ea26ee8d6e4311383dc126b0d22a159858cf1a05a3f75eeffbfc",
+      "triangles": 162,
+      "vertices": 336
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-10_0.bin",
+      "source_sha256": "6f4ab7488b17872a89a9efe82eb3c73c704d5afb05032bd962f7bdec9d1227e5",
+      "file": "l-6_-10.bin",
+      "sha256": "0103ee21a1ef48d7f262dba8104377dfa7b9bbae1873920e213e641443966946",
+      "triangles": 169,
+      "vertices": 284
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-9_0.bin",
+      "source_sha256": "27350c24e40317e22cef8ad168ab5f12abe857f0127ef55739082e12af9ad2cf",
+      "file": "l-6_-9.bin",
+      "sha256": "2f7a500b172864c8c6e7a2d9be0fdbb8d75fc67eafe856c56ab3d38a22b4ab80",
+      "triangles": 183,
+      "vertices": 372
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-8_0.bin",
+      "source_sha256": "f368f885d164152c739e5d413a9db91d80b26973f56c0f5c279e8c6c22938390",
+      "file": "l-6_-8.bin",
+      "sha256": "5d98bf618b89df0abf6124fea900746b648e75c6519c1494ad71700471dd00de",
+      "triangles": 236,
+      "vertices": 447
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-7_0.bin",
+      "source_sha256": "de475036ca28f3fb3c6768cac07bf692b814cb086d3c83c6154a6db1d1efbe7f",
+      "file": "l-6_-7.bin",
+      "sha256": "53fa7a8dc3e614384791a940a7fc14cba010433eff30e426f70548d3319678d0",
+      "triangles": 412,
+      "vertices": 700
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-6_0.bin",
+      "source_sha256": "3dae92545bf9dc94378bc35c0fda5699b58cc39745150173c8e3a16bf5fb5f35",
+      "file": "l-6_-6.bin",
+      "sha256": "7e349d0aeb0d9f32f19e8b6a9a7f212078fed5347f722e45b4e5bbdfcdee869d",
+      "triangles": 230,
+      "vertices": 409
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-5_0.bin",
+      "source_sha256": "a4087ecfd5472956e66b53386b510709521ef3a1beb5a189f47fb812ceef9472",
+      "file": "l-6_-5.bin",
+      "sha256": "d4daae235ebcdeee3fab49ac0c316551637e0e8b0443ac09c201a8c51f1c42bb",
+      "triangles": 495,
+      "vertices": 869
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-4_0.bin",
+      "source_sha256": "0107723e3ec4462acb250612398c5b3b0c9111f74bb1e9ac93aab199dcc5cee7",
+      "file": "l-6_-4.bin",
+      "sha256": "9e0c695164081a8df6619735527c0979377069feca2c299cf5d491adceeb3904",
+      "triangles": 456,
+      "vertices": 783
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-3_0.bin",
+      "source_sha256": "3eb9f28bf02a9a2e47c77ef905c00a6c389e6ee1dcf38572fb4d5de35d61fc5a",
+      "file": "l-6_-3.bin",
+      "sha256": "9856e97aa532db5a43541f8cb7622637faf1abc77774b795871fc0636ff9ddeb",
+      "triangles": 595,
+      "vertices": 1105
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-2_0.bin",
+      "source_sha256": "9066445ec3917d175a6002b0a645057f455b3544ee049097594a1feb9ab76fc4",
+      "file": "l-6_-2.bin",
+      "sha256": "ac6765423ad263e8ec463ce2a08843bc74aaa371a1ba1ff7a636f9503146e358",
+      "triangles": 238,
+      "vertices": 442
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-6_-1_0.bin",
+      "source_sha256": "a396a3cb795e718ea368b3621ee789cbe6150411ff910d25cb11da75ee5dffad",
+      "file": "l-6_-1.bin",
+      "sha256": "a4fbb0077b53bfc7c0237b44529f3f19c91791cc42664fce24e343eefd3ab6db",
+      "triangles": 764,
+      "vertices": 1330
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_0_0.bin",
+      "source_sha256": "f761049f388dff78ba2492d333963f33db9b4b865bc7c16fcb06629de903b71f",
+      "file": "l-5_0.bin",
+      "sha256": "fb8b655364657d0ebcaa8d6a39fefbed9de6e037c20e4f97ae97ff17877483ea",
+      "triangles": 134,
+      "vertices": 280
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_1_0.bin",
+      "source_sha256": "1e67fdc32826f2c41205856627456cfedce3c4c0fda6ee24b60aaa9643ac8817",
+      "file": "l-5_1.bin",
+      "sha256": "1c75927cb5eb9201beed336753b8c44e99ed842c42290164af2ce88a722f8401",
+      "triangles": 11,
+      "vertices": 23
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-15_0.bin",
+      "source_sha256": "f5c752dd70d4dd20a91180968ca99f282da9e4f69a2a00655de337134b8a668b",
+      "file": "l-5_-15.bin",
+      "sha256": "bae9fae1b2c0b0b11b3a51c8e86b3a5a075d980a952e2c927f24fe56eeb38ac1",
+      "triangles": 223,
+      "vertices": 399
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-14_0.bin",
+      "source_sha256": "5a224650ded3b19d0491e16347d856c6feeba7326418e7185aaf563d2c7fb22a",
+      "file": "l-5_-14.bin",
+      "sha256": "39524b777fd0c98b6a52b9b6d2603ebcd57a6b2e1c2313c5419e90ab6dabb690",
+      "triangles": 61,
+      "vertices": 129
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-13_0.bin",
+      "source_sha256": "64be7d109c9dede801cd9ac9641e7f414576626c8c52c84e4c81a58344390a08",
+      "file": "l-5_-13.bin",
+      "sha256": "718d8af016a95fc4014dde5b8b72facb60a6ce8373d3fb2a60e2515e93ca83fe",
+      "triangles": 279,
+      "vertices": 495
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-12_0.bin",
+      "source_sha256": "7980ff6e2d011a4c5c7d739d42832cc720c7e934f26d1c6ae435bf09d3041823",
+      "file": "l-5_-12.bin",
+      "sha256": "154ccece1ce8c65be0f8076f0dccf5137d44ef1af8f5226b9156db0b6f9696af",
+      "triangles": 347,
+      "vertices": 617
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-11_0.bin",
+      "source_sha256": "199a5da473f73aea9919efb65bedc3816272e7292a51715be46f7e830b110873",
+      "file": "l-5_-11.bin",
+      "sha256": "77a170759326214618c8ac7ca2f6420ac498967178ee86fdc6e8c0bbf9ea3205",
+      "triangles": 809,
+      "vertices": 1510
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-10_0.bin",
+      "source_sha256": "7de3b4d0ef5a4ec5ae4d2e0e2952060c34d21cd0a882b9058cf07038553e3f65",
+      "file": "l-5_-10.bin",
+      "sha256": "599fc76642275618e0f22cdee3d2eaea290b27d13d9bbf549c1eb3b5aca09e3b",
+      "triangles": 394,
+      "vertices": 778
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-9_0.bin",
+      "source_sha256": "4b29f55be6df60f6473c403e528cd40a7fdaa04cad94c2ea734f6cbd5bf204dc",
+      "file": "l-5_-9.bin",
+      "sha256": "06ad62aa8648a462d5434c18988ae5602a5a40915be2eb1dd5159ec7a68de3c6",
+      "triangles": 199,
+      "vertices": 409
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-8_0.bin",
+      "source_sha256": "bf3b5b25c32c57da5d02bddb23be0557335bddd222c7509b6ae7c3235e7b9e29",
+      "file": "l-5_-8.bin",
+      "sha256": "8c8ea817a2e511ceee6f13b6f89f69daddfc1eee6620e6c550f763a2b2964a30",
+      "triangles": 202,
+      "vertices": 387
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-7_0.bin",
+      "source_sha256": "379838926817a8b3a36cc107d453c2c43b10d8dff2d1df42e16f9960d8e7a6cb",
+      "file": "l-5_-7.bin",
+      "sha256": "fd2d8eedd053cac3d382cf5c6bd901345d93883def95e2d94a0a1442e650d131",
+      "triangles": 423,
+      "vertices": 735
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-6_0.bin",
+      "source_sha256": "e0ad21b47249bbb336e0aabda4a7da58d919116e9e460eb2f57020a6555a6ad5",
+      "file": "l-5_-6.bin",
+      "sha256": "fb7aabcf510cbb004e678f5a20d59a3b860f5f3da61dd4bd553cd6d34a5befe5",
+      "triangles": 576,
+      "vertices": 1098
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-5_0.bin",
+      "source_sha256": "71f0b0d8421020556a4308fa7ddf29a8dc83f21d7ff627e6aeb027907e0c6e94",
+      "file": "l-5_-5.bin",
+      "sha256": "450d6dcf9a5a912ec989675531592baaf98f0cbbeddeb9e8daf128119c5b5d51",
+      "triangles": 309,
+      "vertices": 560
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-4_0.bin",
+      "source_sha256": "6e8cc3cfa49efa1ad3de414ce3543b1488de2135b9d1ea8124548ceb6c0353fb",
+      "file": "l-5_-4.bin",
+      "sha256": "1b44502de046c7228b140e209c675b1f906dd718c62fe06f9efad862add30b82",
+      "triangles": 181,
+      "vertices": 367
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-3_0.bin",
+      "source_sha256": "25a36d825f127f3b6978d939b216ee8575cd23c9cbb5b193e9ca9f20c6efa6b2",
+      "file": "l-5_-3.bin",
+      "sha256": "c92a630655abf298e1306aded6f3ac4af77cb3ed6e24e5138140ff650786c4f8",
+      "triangles": 443,
+      "vertices": 855
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-2_0.bin",
+      "source_sha256": "90c5cd4218c38cd7960b10fc07e260835fcc1618d43c2d3216fcec2016cab16c",
+      "file": "l-5_-2.bin",
+      "sha256": "ea57d4907f7364aacb45cc3fbe508b3d0104b2a23088b7c5ba98beac72c6832b",
+      "triangles": 53,
+      "vertices": 130
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-5_-1_0.bin",
+      "source_sha256": "185d92164d949308fd351f7ca3e0457b1ebe1362c97127244b14c5fbb2796801",
+      "file": "l-5_-1.bin",
+      "sha256": "18922c6f6162c0e5e79fab7282052f3edcacae82a1464a77ed64d62939dceb29",
+      "triangles": 706,
+      "vertices": 1267
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_0_0.bin",
+      "source_sha256": "05af919c9714c6e75cf605f37f68ebce80d6826f69dcbe8593f286150407357c",
+      "file": "l-4_0.bin",
+      "sha256": "5e05326465e3360521113a3aa837fcae8396b5d8fca67005a0864b55a221c077",
+      "triangles": 479,
+      "vertices": 863
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_1_0.bin",
+      "source_sha256": "e03a783842bca5dbed73de9c4cafec3923d94ae3196199f2073a9b88c20d0b6a",
+      "file": "l-4_1.bin",
+      "sha256": "0eb7df53adf51bed7eeecaad922d7e12a29ae01908a9484edb802f5840c7c1b0",
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-15_0.bin",
+      "source_sha256": "1d11652a7322fdf89f6b1f4774bd8d01458f66f277c08477bc126b188d3ef758",
+      "file": "l-4_-15.bin",
+      "sha256": "f059a3333fc0f495bc6f4e3cb047ee375fc0e489ca088ea5ab239209e0ba9acc",
+      "triangles": 285,
+      "vertices": 521
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-14_0.bin",
+      "source_sha256": "194418c987eebaa1d0fc06fd0cf9537daf5295bd7982d18ea86a2a80115e2185",
+      "file": "l-4_-14.bin",
+      "sha256": "ae9a8bb347f91efeb4ecf480a561f4d9f4975f82ef488390fd898224c2d7fc0d",
+      "triangles": 862,
+      "vertices": 1672
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-13_0.bin",
+      "source_sha256": "0ddb9649c0ca866ff263f9657a90b1353e5c352dadfbec82bcab29b8c805f457",
+      "file": "l-4_-13.bin",
+      "sha256": "76413a5a786e030081be1ddc7e7d5ab05874ed5bcbe720720aeccf3371369583",
+      "triangles": 443,
+      "vertices": 816
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-12_0.bin",
+      "source_sha256": "3c2c690b3e049ed9c278c54714c5b986b31bcafe5e6c15e7c9db711a8892540e",
+      "file": "l-4_-12.bin",
+      "sha256": "75f5a6bc464aafe3d80ea419c7b8ab7bd8b2bf306b99afa300379a20c77d4825",
+      "triangles": 418,
+      "vertices": 737
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-11_0.bin",
+      "source_sha256": "a1706ea7b35e744ecc3eca365c20dafb3ed1eaa4292409ee84e9a532cc550d7a",
+      "file": "l-4_-11.bin",
+      "sha256": "7741e135adcc6d021223d6fa4b345ed831e35fe7a936f3bb16d98897e3831c9e",
+      "triangles": 275,
+      "vertices": 595
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-10_0.bin",
+      "source_sha256": "880fd677440747b04538ba3e27e2ca4280f4f2a9cde11495be950454128ecaa5",
+      "file": "l-4_-10.bin",
+      "sha256": "55c9d509083faa4c22ff70501f21c925a78606a972055b37710ab34cf0bcb34b",
+      "triangles": 685,
+      "vertices": 996
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-9_0.bin",
+      "source_sha256": "0c4332ec8cd36a7f9ae712677fdc284af2732bae6bc9b3c8a8e25b1d95f43827",
+      "file": "l-4_-9.bin",
+      "sha256": "7cbe91c2a22c8857a7de03a5552442be1fe43cf001494c3ff46f3da6cabfbf85",
+      "triangles": 154,
+      "vertices": 258
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-8_0.bin",
+      "source_sha256": "5437c7fc43c22aa8f7ab3a310ff3949557684c4f9d7c97121618bb42846bde0b",
+      "file": "l-4_-8.bin",
+      "sha256": "ce1272db063074900f32f21320378674353105b266dcfd3e05db6588c06ca700",
+      "triangles": 165,
+      "vertices": 288
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-7_0.bin",
+      "source_sha256": "d0053dd7870f7ba16984d617457d90d94464ce782c0b186d18a38db1c5171bab",
+      "file": "l-4_-7.bin",
+      "sha256": "2347d2412c0619db5a718901721a3259185211a7dbd3bb0c6f95215a4096c81e",
+      "triangles": 275,
+      "vertices": 539
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-6_0.bin",
+      "source_sha256": "443f0bff1a5497a41c2668beff71b897c2e1c49e6c6d211539de5daea7367904",
+      "file": "l-4_-6.bin",
+      "sha256": "374d87c136abbff658a49e1d817c6e81bf7f5e7d0fb035d9e46b3d06bdfaaa0f",
+      "triangles": 241,
+      "vertices": 473
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-5_0.bin",
+      "source_sha256": "7ead6a31bf2a31c043d04731d63e299179bc55c66677d7ca9e4bd3b8584e8a03",
+      "file": "l-4_-5.bin",
+      "sha256": "596ffeddda608372af55e1185bb4693c61c46c0503bd87200f7bd172acaee7d7",
+      "triangles": 416,
+      "vertices": 842
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-4_0.bin",
+      "source_sha256": "cf63d012bdeec1846c214fcea81ef7520d95a7264fbed5ded01e7bcd1d2d23a5",
+      "file": "l-4_-4.bin",
+      "sha256": "fc8f3dd0cbb22882eb3afe6702581a95b617cee010015f208a45dd967a6b4487",
+      "triangles": 272,
+      "vertices": 562
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-3_0.bin",
+      "source_sha256": "92b6d5d016ad2ff1ca1aa71ae59fe0de0dda6d5d6f0166d1255c51af48772584",
+      "file": "l-4_-3.bin",
+      "sha256": "94a9f8f08eb2ee5ff0426dab02677e20f94c36e59fc67f0d76d06852be334e47",
+      "triangles": 173,
+      "vertices": 343
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-2_0.bin",
+      "source_sha256": "6f78f35106b2e26443104d471b8c134a6a9665704f3d35006184689ddb8ee72f",
+      "file": "l-4_-2.bin",
+      "sha256": "1249ee35e2ea8274fe84eff587e79847174e3ec4c855998391621f8b4f680ed4",
+      "triangles": 232,
+      "vertices": 436
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-4_-1_0.bin",
+      "source_sha256": "b4381c221bf801d5fe4adb1486a19f8393ef0836decf2ea375bd9ecdc07555e4",
+      "file": "l-4_-1.bin",
+      "sha256": "bd6d2ccd8901fcd21cdcb1f6a03b2adef1a08e878c876d702984f9249580ad24",
+      "triangles": 896,
+      "vertices": 1642
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_0_0.bin",
+      "source_sha256": "964cf56b8f3946746e1014151f8ebebd11ca87adb3eb6f92e6e83cd934f2b8f7",
+      "file": "l-3_0.bin",
+      "sha256": "127af5060aa0d383d5b88983cb2a8b40b94118e33fd8f5295c27ca6c891b7030",
+      "triangles": 672,
+      "vertices": 1314
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_1_0.bin",
+      "source_sha256": "3d916c3ffe3da520bb863c493f54ea448ea0f029d48b874c6d623d996da7b34d",
+      "file": "l-3_1.bin",
+      "sha256": "aae708745faf452d8dd8578a47fca307bd2bc5337ca5d7a78e8ac9f6866e407e",
+      "triangles": 158,
+      "vertices": 341
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-15_0.bin",
+      "source_sha256": "bbc5bf73da995f65f9dc4046274cdc4d1dd48fa8a10f6df81b50f36b135f62e1",
+      "file": "l-3_-15.bin",
+      "sha256": "f76e13264b39a27a6047edb547d5ea7fe6da352babe3652483a3d998ce80f276",
+      "triangles": 102,
+      "vertices": 217
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-14_0.bin",
+      "source_sha256": "0cb7adde7e8622e0be05d5ff476e51977ff17d4e00129acfe29e15fd2b841616",
+      "file": "l-3_-14.bin",
+      "sha256": "6e456dd866ebd9b9640a5e73248287d0e5c3814a9c64c3939b55b9673a8931dd",
+      "triangles": 161,
+      "vertices": 353
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-13_0.bin",
+      "source_sha256": "77ef46e1ce1ade008779ae8dc3fdd75a0f882b67397683b31031693fe2b9c76f",
+      "file": "l-3_-13.bin",
+      "sha256": "36677a1bee24bc6071a585a3fab8ca7d2726c4565e1a5750031c61a0309bf3d8",
+      "triangles": 682,
+      "vertices": 1237
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-12_0.bin",
+      "source_sha256": "a22e10647e4660893beebd6529083b5e1d0f2c1664ce8857a3a96db5cc3dc6a2",
+      "file": "l-3_-12.bin",
+      "sha256": "ceeee9f0a1ff3b577561eb42c3b609d43b18f4f1d3a0f2ce88c77a371dbc4df4",
+      "triangles": 164,
+      "vertices": 304
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-11_0.bin",
+      "source_sha256": "34370677b6336d5801167291c5ab731524ebc43b0bb92d6c6afd513c2c121b84",
+      "file": "l-3_-11.bin",
+      "sha256": "b593c3096a9a792ac15e3b8125b49b31e7a016240c7d1d94bbcca0203f1c9cbb",
+      "triangles": 454,
+      "vertices": 870
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-10_0.bin",
+      "source_sha256": "55f4e9dde10720092a40e86d31c1168b2cd0f578e5b9533899d39767a6fa16f7",
+      "file": "l-3_-10.bin",
+      "sha256": "d7baf1cc8cc3d5a3d9f4738912ece7a3fb4b4e7609e1386b8e7faf5e624401a6",
+      "triangles": 532,
+      "vertices": 1004
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-9_0.bin",
+      "source_sha256": "ad09624a7289910a8baaf0dffa862362fa494c8bee7e09a4c1a5205a99a841d1",
+      "file": "l-3_-9.bin",
+      "sha256": "a61dc940aaa896c2899b4870b15023ead21a004c2467b3696688537e5558ed3a",
+      "triangles": 47,
+      "vertices": 97
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-8_0.bin",
+      "source_sha256": "d144ceff4dbb5b85be7ac6a44f080ab9ee5e202e070ad9c3f40b2d742dbbaba9",
+      "file": "l-3_-8.bin",
+      "sha256": "454d3a8528e5c751d0de1d1e091a17bf981f5885304183f85949c211c3c09c17",
+      "triangles": 333,
+      "vertices": 620
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-7_0.bin",
+      "source_sha256": "888c84a2f6db511a6c685f05298cb1c9e6c6285c2b3b7837f85e567b48186648",
+      "file": "l-3_-7.bin",
+      "sha256": "cdb883403d3e2d4a9900aa86a9755cde081d7ab4dad6569fa56a83b295d82260",
+      "triangles": 435,
+      "vertices": 834
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-6_0.bin",
+      "source_sha256": "8772c779d163b47d1e2dde0247d111a68f94c99e641cb081a3f6bef9c0f169da",
+      "file": "l-3_-6.bin",
+      "sha256": "1626bcbec4e8ffd14e07f2719b4c67f62e93637e05765ae328589b86190b580f",
+      "triangles": 479,
+      "vertices": 833
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-5_0.bin",
+      "source_sha256": "a6fb143a22819167659a248bb3f6412d3ba0b910b8f2dbef384fc9442a33a46c",
+      "file": "l-3_-5.bin",
+      "sha256": "2d6c02a517a7fb6e3565def7c58a926555020727723926178cad5a136a0ee5aa",
+      "triangles": 118,
+      "vertices": 216
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-4_0.bin",
+      "source_sha256": "0c2fbd7c8ed6636072c3066d8de2f84fc949040d3aa9a5da4118bfe7ac1be69d",
+      "file": "l-3_-4.bin",
+      "sha256": "103dec40c81fc59bc761318f5d8b14234499621980c687b3a08fc65a41045bb3",
+      "triangles": 179,
+      "vertices": 373
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-3_0.bin",
+      "source_sha256": "8c15b7fd10d40a16c0ac6288d5c1d0937b0fd0d3eec2351386cbef79b752674c",
+      "file": "l-3_-3.bin",
+      "sha256": "d8b48a9a0726dd9d64b66e7c499f9939c5c582b7a57e401dbe8e7f363b2e794e",
+      "triangles": 313,
+      "vertices": 632
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-2_0.bin",
+      "source_sha256": "4b1ded7d275970b2041b566fae6c5b4e6c9db9de35995401a9ea37cd9d183595",
+      "file": "l-3_-2.bin",
+      "sha256": "dc697e2ffec22926cdb41988837dc4ee085b71acd1793fe718e37aafc6f0f2fd",
+      "triangles": 281,
+      "vertices": 585
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-3_-1_0.bin",
+      "source_sha256": "c1577e409ffceb209e64c487cf076f47331292d1c880387c7a1750e9e715c3b3",
+      "file": "l-3_-1.bin",
+      "sha256": "534981972146922873c2189eac184884fac234c970f6677ad99d0c144f776917",
+      "triangles": 1317,
+      "vertices": 2419
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-14_0.bin",
+      "source_sha256": "1d20f6d24e30ebe0154e297de8820d9524286fd888cfa66dbe7e0d7b9cd2e871",
+      "file": "l-2_-14.bin",
+      "sha256": "8038b8e47026530c52502f29abb6d0ed7069047963c728d82673d5bb21d3dee4",
+      "triangles": 66,
+      "vertices": 156
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-13_0.bin",
+      "source_sha256": "977f2d10560666b5fead756238008c9eadf24f29bc9c0a14c6f5ab5b35a46f84",
+      "file": "l-2_-13.bin",
+      "sha256": "54332cf83c5aa5797fa8e3b50c749ba9e0f0dca4f06ec5d4990f8ce579640446",
+      "triangles": 357,
+      "vertices": 699
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-12_0.bin",
+      "source_sha256": "a889ed415868b4b0fcb969f32469c269a6c200a5cda272f7ab19aacf2cec4894",
+      "file": "l-2_-12.bin",
+      "sha256": "199b31fd662814a94c20aea033102d065a97001fe7cc1d7f3356d7fe904b1cf4",
+      "triangles": 241,
+      "vertices": 483
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-11_0.bin",
+      "source_sha256": "f962fc2d6f4afc65de8b0d1612b73402a730c2ced109a50e134001e6255ccb3b",
+      "file": "l-2_-11.bin",
+      "sha256": "d0228bc4fe496abbf21bb97738f72c59b41692e0d6f7a536d03c36e1ffd54473",
+      "triangles": 352,
+      "vertices": 667
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-10_0.bin",
+      "source_sha256": "14afcde4355eb344266e0541d8ad2a3bdd1894559969104e85f8d4e2247d13cf",
+      "file": "l-2_-10.bin",
+      "sha256": "630a2cde0a8b86b72204cbd9f74d0b9d4990a6eb3845343b9bd070ac44b19254",
+      "triangles": 186,
+      "vertices": 357
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-9_0.bin",
+      "source_sha256": "f0515bedb88982d37a4ed83ef466fca791dd9d1ed8c3078f67adf6e1589725f7",
+      "file": "l-2_-9.bin",
+      "sha256": "a6ba5d1e3888191f3570709f86c606794b054adb695d41b57695b2cfaebb7dd0",
+      "triangles": 7,
+      "vertices": 17
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-8_0.bin",
+      "source_sha256": "d92e557d68fda24cefc2509df0c36306d11b1b5c62a9ead6914a3c085c2fc9d7",
+      "file": "l-2_-8.bin",
+      "sha256": "68b06a5c8c1ade00033b6b8171a6c768b2ba0d28cccc86ed7db012ff383fcbc4",
+      "triangles": 66,
+      "vertices": 122
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-7_0.bin",
+      "source_sha256": "d5c536acfa176f588e56339e73a4017a03f971448501c8ddf85a4571c79054dd",
+      "file": "l-2_-7.bin",
+      "sha256": "8e5aa2fe161e8b686ad15e720dd56a3cf0f15ab4205c2678c1cf606cd2706290",
+      "triangles": 268,
+      "vertices": 562
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-6_0.bin",
+      "source_sha256": "aca7d51325174863866bac96abfd5c90b8a369a7669b8b21bd02027ab311ba4e",
+      "file": "l-2_-6.bin",
+      "sha256": "927c5c8147eb7f6d774678fde8e8b9d12ff4f2e1a100dc7f549b0350bd722c3d",
+      "triangles": 209,
+      "vertices": 420
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-5_0.bin",
+      "source_sha256": "1d930988183bf7a138d470294cda6b95a8d22320931502d8df69d2fc40226fc6",
+      "file": "l-2_-5.bin",
+      "sha256": "d6ce9fee0ee26e6e6d40166bbba03fbd07ba3a1542b4f08a77b17d4c3bad9f3e",
+      "triangles": 523,
+      "vertices": 1020
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-4_0.bin",
+      "source_sha256": "646126dbbb10c1b1e36a1622344855d8398abd6c69a40faaaefe331ac3c35c58",
+      "file": "l-2_-4.bin",
+      "sha256": "94667bca188aea9a2ee13fa6de830e837e30a40ed04c16d525eb1919775581c7",
+      "triangles": 104,
+      "vertices": 216
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-3_0.bin",
+      "source_sha256": "a73724b04580f5c44c6bd30677ce92b30409bb8e649dc22e221aabb96748dc35",
+      "file": "l-2_-3.bin",
+      "sha256": "d184dccb96e6bf1682db838ae8c04c8ec50a89e7c60c5a9415329416f4f48222",
+      "triangles": 386,
+      "vertices": 754
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-2_-2_0.bin",
+      "source_sha256": "ad7ee0fb112064105588ec64bdb6db4b3eebef66cc851fc429ab36c294fb8fdc",
+      "file": "l-2_-2.bin",
+      "sha256": "e38df4fdd0ba6583f608350831b9896906fe5b3e08d00c05420b229e4c53b72a",
+      "triangles": 870,
+      "vertices": 1514
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-1_-14_0.bin",
+      "source_sha256": "604bc7c7bd1f4f8d1ad43a753a9b2c0855e4b7b6353d8bf7b92ea95b9dab952d",
+      "file": "l-1_-14.bin",
+      "sha256": "17a773a16ccb99cd073619d912841c5cd1ac26a3689417b94e9091aa4b4df928",
+      "triangles": 321,
+      "vertices": 646
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-1_-13_0.bin",
+      "source_sha256": "36fa50b1074788755dabf4194e50993a9c71b5d9104c6af52914a08b61cdefab",
+      "file": "l-1_-13.bin",
+      "sha256": "395611b5c906999aaacfaf03e19adac56da596bd90ecfe4b9230451052112a13",
+      "triangles": 293,
+      "vertices": 566
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-1_-12_0.bin",
+      "source_sha256": "254e92ce7e5149ffc5af5dc267fcb65f4b67ba7f51d91b58fad50873ea4c3c9d",
+      "file": "l-1_-12.bin",
+      "sha256": "a19ccd8e7b32ee0307e64ac0227615194d878714c9dfb1cfe652ef964b974875",
+      "triangles": 17,
+      "vertices": 44
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c-1_-11_0.bin",
+      "source_sha256": "72d3aeb72996ecb1c33983bbb0fa86edfed2f919c96b83f25ddb7c5a8c054ba2",
+      "file": "l-1_-11.bin",
+      "sha256": "ec454eb6651fbeddf6b4e93687da0fa55981e27ae78c58e8e36190a92113dc34",
+      "triangles": 195,
+      "vertices": 355
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c-1_-10_0.bin",
+      "source_sha256": "2d74209d577025cf0fb51d854b3b5e03fe5c6dea62fab10919e8fe19cdb312ea",
+      "file": "l-1_-10.bin",
+      "sha256": "4ed5309b76d6fb02e92e69ef6a62eb43811a643212525ee98d805f99a3a01f26",
+      "triangles": 315,
+      "vertices": 628
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c-1_-9_0.bin",
+      "source_sha256": "d7fee9c5fa62fedc00488f3f4122ff197511c1fb6c15c02bcf6b83aec6371157",
+      "file": "l-1_-9.bin",
+      "sha256": "cab0af7e636426c4ba0889f5939ef2a4ec5a4e3a834e7956b6caa73a7cbbec4f",
+      "triangles": 349,
+      "vertices": 613
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-1_-8_0.bin",
+      "source_sha256": "1a6f2ef090d12458865df2f3a88210dc3c66df320a3f05c269d8186674a0de51",
+      "file": "l-1_-8.bin",
+      "sha256": "418b3b7188ac70e7ad723fc336ba239352ab31a2801e086d3f9a0a92a647c8d1",
+      "triangles": 295,
+      "vertices": 545
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-1_-7_0.bin",
+      "source_sha256": "365b1a75afd5853b85f603d22036439d6a6333839549f7a7ed58dd116663fb65",
+      "file": "l-1_-7.bin",
+      "sha256": "f7d2129e11364e0a9ef2ccc2d11ebcc59cf306e1a11067f12f4f029d7f0aa1be",
+      "triangles": 163,
+      "vertices": 330
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-1_-6_0.bin",
+      "source_sha256": "d9aa11a23d9126e2d865fe76bffeec248b480f0f32ef26b63f2b4d2fe7f0c36c",
+      "file": "l-1_-6.bin",
+      "sha256": "347798be74355503a877febaf4f5a22bbb2a07bb47635f9370aee97817556014",
+      "triangles": 362,
+      "vertices": 684
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c-1_-5_0.bin",
+      "source_sha256": "d4efbf1164dc555020c3872425c6cbec37c8c0153aac9a7b52f41d7b93de8f17",
+      "file": "l-1_-5.bin",
+      "sha256": "b38317422070f204f0cd223467b1803f78780a3c9a93f10f1d24a8c68f2ef10e",
+      "triangles": 36,
+      "vertices": 88
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c0_-14_0.bin",
+      "source_sha256": "81127167b13c11de4eed9e8caa86fd65356932528eff4fd26256a0f6c78dc95b",
+      "file": "l0_-14.bin",
+      "sha256": "aabdb190ed1d165f3eefe6eb53fc2c19307673880ecef3414f5df5188252d4a8",
+      "triangles": 192,
+      "vertices": 402
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c0_-13_0.bin",
+      "source_sha256": "afd748fb90a81d3773b6eee59b7ade68c00a52ff942c1ee72702e4b0ab08a684",
+      "file": "l0_-13.bin",
+      "sha256": "25e7a4bf35de30a03fa4ff2b3b4b50a0a105498315614db762d938e2a70915c0",
+      "triangles": 470,
+      "vertices": 825
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c0_-12_0.bin",
+      "source_sha256": "b202e73dfed62250e716a392c53a93b9f37a24861d06ed710273d362dce41577",
+      "file": "l0_-12.bin",
+      "sha256": "7168cf9f827ebc107ae993735651ec121e0c42f3884ea294e7b327cef39c0281",
+      "triangles": 100,
+      "vertices": 192
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c0_-11_0.bin",
+      "source_sha256": "3f68f76cd440727aad9f1af759439b5fbe9db0f0fe1573b6e14e1c51191e6ac9",
+      "file": "l0_-11.bin",
+      "sha256": "d6dd562d52f6c5880e8ba373de35ade659f63dcd025726947252b0e1d05f2097",
+      "triangles": 345,
+      "vertices": 651
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c0_-10_0.bin",
+      "source_sha256": "f5907449412dcb3c0aa6edc45706081067d62d43aa214ab77e8d65c617c25bdb",
+      "file": "l0_-10.bin",
+      "sha256": "68541894da3031f7ef201a832d65bce3370431e4826f56c36c5ec1fad96f0b0e",
+      "triangles": 200,
+      "vertices": 436
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c0_-9_0.bin",
+      "source_sha256": "d680da08bce12288b13aeb4b329776b88fce112b1a09a8675dd9473438de92de",
+      "file": "l0_-9.bin",
+      "sha256": "c596207c616e79ba8ce7cf4362e9f12049c7956b3c66e1caeea892b85736a6c3",
+      "triangles": 282,
+      "vertices": 577
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c0_-8_0.bin",
+      "source_sha256": "7a15127e78ec05b397a8366c2a1805fb3c47d4a302bd18916119b48998d2aa47",
+      "file": "l0_-8.bin",
+      "sha256": "ecfb8446f5433b2fb3789bb08147e0e7846081af2a3e0692d933209e39cbb645",
+      "triangles": 396,
+      "vertices": 690
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c0_-7_0.bin",
+      "source_sha256": "f17d45929e7b71dd9fcdd776a5e626423051b7d49430da4de0e94130ab1b3875",
+      "file": "l0_-7.bin",
+      "sha256": "5fee10e7fc85085dcb951035809b2bfc27b27903f9f886bd287c332c0e003401",
+      "triangles": 90,
+      "vertices": 172
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c0_-6_0.bin",
+      "source_sha256": "5f97392aaaea3f257ceced03af82b7bafb58845953ebd6335b54c03c2046c746",
+      "file": "l0_-6.bin",
+      "sha256": "75ba4e1aaf68febc96db39f806c6b4f8ed5ee19b57f58b7c66b74d00df4948cd",
+      "triangles": 123,
+      "vertices": 251
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c1_-14_0.bin",
+      "source_sha256": "3ecc8fd97451db82cdf9409c93f5d353f06d9e6653e461ce90cfd9030371bf15",
+      "file": "l1_-14.bin",
+      "sha256": "ddffbc49dd0fc66e00f4b19d23cb9cee57c239f5ae39198ae0bee4c113106ba1",
+      "triangles": 269,
+      "vertices": 563
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c1_-13_0.bin",
+      "source_sha256": "b5a893a08a53443a98383c644b60e0bad008f2c375ea674a3c4adaf58ba1987c",
+      "file": "l1_-13.bin",
+      "sha256": "8f0493e96f50b412b7fdda9dc3b60ff98ee64da9f8c60b622bcbf39e46dc46b5",
+      "triangles": 322,
+      "vertices": 552
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c1_-12_0.bin",
+      "source_sha256": "607ec832c9e86f2bdea95c10c0a69cf87c9bef5fa049512747fe6a7fcd70ba15",
+      "file": "l1_-12.bin",
+      "sha256": "8ce257850fda3a58eb5732fc57131ea2ed3103e2080f684cc9c06fdc8f4ba9ac",
+      "triangles": 352,
+      "vertices": 656
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c1_-11_0.bin",
+      "source_sha256": "2dc878fb074841d75adbf1d12fc35fe6bbf5ba03c00e6ff1235626d4ecb28945",
+      "file": "l1_-11.bin",
+      "sha256": "7d5bec397e3967037810e677ee69ca738ea8d1375320245d253c95e75277cdb2",
+      "triangles": 427,
+      "vertices": 841
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c1_-9_0.bin",
+      "source_sha256": "967ce0b814532ef2b399c24ed454db86b5170e91ce30140ab29a72a7fce04d64",
+      "file": "l1_-9.bin",
+      "sha256": "235c66ac602c11808a9b6db50ad06abcc73ea6b76e9680b79b620abb073fa76c",
+      "triangles": 282,
+      "vertices": 552
+    },
+    {
+      "source": "work\\v40-windows-host\\assets\\world\\c2_-14_0.bin",
+      "source_sha256": "518fb7d6c600cba9f358b5fb57624a38a0722172b5a1337ec764fd7cd514972b",
+      "file": "l2_-14.bin",
+      "sha256": "e4f1322fcc6ad827707a170b099f0734019d5518e7566fe99f2220b9811283a5",
+      "triangles": 170,
+      "vertices": 335
+    },
+    {
+      "source": "work\\v45-foliage-coverage\\expanded-leaf-attributes\\fine-overlays\\c2_-11_0.bin",
+      "source_sha256": "e962521507f0f6ce0097fb41881f2435cfdcb425761766acf49045fb216e777a",
+      "file": "l2_-11.bin",
+      "sha256": "e9034d9ea581c44c26d81fb5c5df3c455c6ee9c66ed18258f26a27e872132cb0",
+      "triangles": 455,
+      "vertices": 832
+    }
+  ],
+  "files": {
+    "l-10_-10.bin": {
+      "bytes": 15084,
+      "sha256": "74caca66efcedb1ff137032d3aa2ed1c6fc1b7ead129cd96be3a504595601f35"
+    },
+    "l-10_-11.bin": {
+      "bytes": 35904,
+      "sha256": "e00d1a860a4cbf5b124f5481bffea56c0b799428ecda8446836ed2babc2f0a4e"
+    },
+    "l-10_-12.bin": {
+      "bytes": 88976,
+      "sha256": "ce121b4fe2a390ac516c0dfd5f6c20add9fd124af818b2be6a15ba5c015e0122"
+    },
+    "l-10_-13.bin": {
+      "bytes": 108620,
+      "sha256": "3061186c870307aaf3a4c0cd89eaf7ea0d5a66f53d25bec08d4da4f8d7d7bccf"
+    },
+    "l-10_-14.bin": {
+      "bytes": 5744,
+      "sha256": "5c146786ced59b142e52214b65f59d3e7c683a076fcb3f174f4ab6bd1c786c96"
+    },
+    "l-10_-15.bin": {
+      "bytes": 1948,
+      "sha256": "77fb77c0f019fdc028f85edaceae59dca2a6206ddeaf3d8db3dbda160cb73c92"
+    },
+    "l-10_-8.bin": {
+      "bytes": 508,
+      "sha256": "00f7793721702d3db56a8a26b2c06b313ba2996c07d84c0daad6e8dc7efa1ef0"
+    },
+    "l-10_-9.bin": {
+      "bytes": 13812,
+      "sha256": "2afd78034fe3ab503262239a182631d4b4b9ec5dd356c2199a6caafcd15ad084"
+    },
+    "l-11_-10.bin": {
+      "bytes": 15852,
+      "sha256": "78a4870d8443c878726ccbe5c29fba5c71a6093d86020fc03ce174789fadf84f"
+    },
+    "l-11_-11.bin": {
+      "bytes": 26644,
+      "sha256": "0acf43416105850670cc472651213d2167ad49491116c8de02c0bc22dafd33f9"
+    },
+    "l-11_-12.bin": {
+      "bytes": 38340,
+      "sha256": "8bcb34cd0da9875ecc82e68591fbbdad3c128a9381f37603c0990af3bb33c766"
+    },
+    "l-11_-13.bin": {
+      "bytes": 59900,
+      "sha256": "2a80ea0c130af8a842fe4a41da7a8a516ed5356dd76845bdb3b551114115e0a3"
+    },
+    "l-11_-14.bin": {
+      "bytes": 30472,
+      "sha256": "54cbb9fb6eddd8de7529f9d3d5c9ed71ffa7b88c360e673f2541153cd5caa5b8"
+    },
+    "l-11_-15.bin": {
+      "bytes": 13820,
+      "sha256": "fbacbf50191fc5f3bd8b9c02ff28a614351cbd384cd0cde9022cc9da8a12dabd"
+    },
+    "l-11_-9.bin": {
+      "bytes": 4972,
+      "sha256": "0834117b917b9311e32ae12eb88fee5294b893c5af4aa3505bc49863dd6782f6"
+    },
+    "l-12_-11.bin": {
+      "bytes": 1492,
+      "sha256": "e7a44afa2c19eaca6ac344479f8d2c6b059e091b434ccb63af540ddb70abe449"
+    },
+    "l-12_-12.bin": {
+      "bytes": 6272,
+      "sha256": "2c5aefe5fd8b6880b5f8dc683312744a336d6450cb5f144191ec6a2bb57e1ac1"
+    },
+    "l-12_-13.bin": {
+      "bytes": 508,
+      "sha256": "c5a8ee2c63066512b3c15a2bc587a04e459500d314e4d448b0a1d4ed60758d21"
+    },
+    "l-12_-14.bin": {
+      "bytes": 10608,
+      "sha256": "f1540436c02a9748b6605eec26c7062bc4b7f85c5c3a94536a30ed362144cf85"
+    },
+    "l-12_-15.bin": {
+      "bytes": 8404,
+      "sha256": "10266aed155f56f0ef3167362f5924bb0a2d99ff6b3944604e1c8e934c40632d"
+    },
+    "l-1_-10.bin": {
+      "bytes": 51548,
+      "sha256": "4ed5309b76d6fb02e92e69ef6a62eb43811a643212525ee98d805f99a3a01f26"
+    },
+    "l-1_-11.bin": {
+      "bytes": 29360,
+      "sha256": "ec454eb6651fbeddf6b4e93687da0fa55981e27ae78c58e8e36190a92113dc34"
+    },
+    "l-1_-12.bin": {
+      "bytes": 3588,
+      "sha256": "a19ccd8e7b32ee0307e64ac0227615194d878714c9dfb1cfe652ef964b974875"
+    },
+    "l-1_-13.bin": {
+      "bytes": 46584,
+      "sha256": "395611b5c906999aaacfaf03e19adac56da596bd90ecfe4b9230451052112a13"
+    },
+    "l-1_-14.bin": {
+      "bytes": 53000,
+      "sha256": "17a773a16ccb99cd073619d912841c5cd1ac26a3689417b94e9091aa4b4df928"
+    },
+    "l-1_-5.bin": {
+      "bytes": 7148,
+      "sha256": "b38317422070f204f0cd223467b1803f78780a3c9a93f10f1d24a8c68f2ef10e"
+    },
+    "l-1_-6.bin": {
+      "bytes": 56368,
+      "sha256": "347798be74355503a877febaf4f5a22bbb2a07bb47635f9370aee97817556014"
+    },
+    "l-1_-7.bin": {
+      "bytes": 27064,
+      "sha256": "f7d2129e11364e0a9ef2ccc2d11ebcc59cf306e1a11067f12f4f029d7f0aa1be"
+    },
+    "l-1_-8.bin": {
+      "bytes": 44988,
+      "sha256": "418b3b7188ac70e7ad723fc336ba239352ab31a2801e086d3f9a0a92a647c8d1"
+    },
+    "l-1_-9.bin": {
+      "bytes": 50804,
+      "sha256": "cab0af7e636426c4ba0889f5939ef2a4ec5a4e3a834e7956b6caa73a7cbbec4f"
+    },
+    "l-2_-10.bin": {
+      "bytes": 29404,
+      "sha256": "630a2cde0a8b86b72204cbd9f74d0b9d4990a6eb3845343b9bd070ac44b19254"
+    },
+    "l-2_-11.bin": {
+      "bytes": 54968,
+      "sha256": "d0228bc4fe496abbf21bb97738f72c59b41692e0d6f7a536d03c36e1ffd54473"
+    },
+    "l-2_-12.bin": {
+      "bytes": 39652,
+      "sha256": "199b31fd662814a94c20aea033102d065a97001fe7cc1d7f3356d7fe904b1cf4"
+    },
+    "l-2_-13.bin": {
+      "bytes": 57448,
+      "sha256": "54332cf83c5aa5797fa8e3b50c749ba9e0f0dca4f06ec5d4990f8ce579640446"
+    },
+    "l-2_-14.bin": {
+      "bytes": 12688,
+      "sha256": "8038b8e47026530c52502f29abb6d0ed7069047963c728d82673d5bb21d3dee4"
+    },
+    "l-2_-2.bin": {
+      "bytes": 125532,
+      "sha256": "e38df4fdd0ba6583f608350831b9896906fe5b3e08d00c05420b229e4c53b72a"
+    },
+    "l-2_-3.bin": {
+      "bytes": 61988,
+      "sha256": "d184dccb96e6bf1682db838ae8c04c8ec50a89e7c60c5a9415329416f4f48222"
+    },
+    "l-2_-4.bin": {
+      "bytes": 17716,
+      "sha256": "94667bca188aea9a2ee13fa6de830e837e30a40ed04c16d525eb1919775581c7"
+    },
+    "l-2_-5.bin": {
+      "bytes": 83848,
+      "sha256": "d6ce9fee0ee26e6e6d40166bbba03fbd07ba3a1542b4f08a77b17d4c3bad9f3e"
+    },
+    "l-2_-6.bin": {
+      "bytes": 34480,
+      "sha256": "927c5c8147eb7f6d774678fde8e8b9d12ff4f2e1a100dc7f549b0350bd722c3d"
+    },
+    "l-2_-7.bin": {
+      "bytes": 45968,
+      "sha256": "8e5aa2fe161e8b686ad15e720dd56a3cf0f15ab4205c2678c1cf606cd2706290"
+    },
+    "l-2_-8.bin": {
+      "bytes": 10092,
+      "sha256": "68b06a5c8c1ade00033b6b8171a6c768b2ba0d28cccc86ed7db012ff383fcbc4"
+    },
+    "l-2_-9.bin": {
+      "bytes": 1404,
+      "sha256": "a6ba5d1e3888191f3570709f86c606794b054adb695d41b57695b2cfaebb7dd0"
+    },
+    "l-3_-1.bin": {
+      "bytes": 199688,
+      "sha256": "534981972146922873c2189eac184884fac234c970f6677ad99d0c144f776917"
+    },
+    "l-3_-10.bin": {
+      "bytes": 82728,
+      "sha256": "d7baf1cc8cc3d5a3d9f4738912ece7a3fb4b4e7609e1386b8e7faf5e624401a6"
+    },
+    "l-3_-11.bin": {
+      "bytes": 71608,
+      "sha256": "b593c3096a9a792ac15e3b8125b49b31e7a016240c7d1d94bbcca0203f1c9cbb"
+    },
+    "l-3_-12.bin": {
+      "bytes": 25100,
+      "sha256": "ceeee9f0a1ff3b577561eb42c3b609d43b18f4f1d3a0f2ce88c77a371dbc4df4"
+    },
+    "l-3_-13.bin": {
+      "bytes": 102236,
+      "sha256": "36677a1bee24bc6071a585a3fab8ca7d2726c4565e1a5750031c61a0309bf3d8"
+    },
+    "l-3_-14.bin": {
+      "bytes": 28800,
+      "sha256": "6e456dd866ebd9b9640a5e73248287d0e5c3814a9c64c3939b55b9673a8931dd"
+    },
+    "l-3_-15.bin": {
+      "bytes": 17744,
+      "sha256": "f76e13264b39a27a6047edb547d5ea7fe6da352babe3652483a3d998ce80f276"
+    },
+    "l-3_-2.bin": {
+      "bytes": 47884,
+      "sha256": "dc697e2ffec22926cdb41988837dc4ee085b71acd1793fe718e37aafc6f0f2fd"
+    },
+    "l-3_-3.bin": {
+      "bytes": 51840,
+      "sha256": "d8b48a9a0726dd9d64b66e7c499f9939c5c582b7a57e401dbe8e7f363b2e794e"
+    },
+    "l-3_-4.bin": {
+      "bytes": 30536,
+      "sha256": "103dec40c81fc59bc761318f5d8b14234499621980c687b3a08fc65a41045bb3"
+    },
+    "l-3_-5.bin": {
+      "bytes": 17860,
+      "sha256": "2d6c02a517a7fb6e3565def7c58a926555020727723926178cad5a136a0ee5aa"
+    },
+    "l-3_-6.bin": {
+      "bytes": 69096,
+      "sha256": "1626bcbec4e8ffd14e07f2719b4c67f62e93637e05765ae328589b86190b580f"
+    },
+    "l-3_-7.bin": {
+      "bytes": 68644,
+      "sha256": "cdb883403d3e2d4a9900aa86a9755cde081d7ab4dad6569fa56a83b295d82260"
+    },
+    "l-3_-8.bin": {
+      "bytes": 51156,
+      "sha256": "454d3a8528e5c751d0de1d1e091a17bf981f5885304183f85949c211c3c09c17"
+    },
+    "l-3_-9.bin": {
+      "bytes": 7964,
+      "sha256": "a61dc940aaa896c2899b4870b15023ead21a004c2467b3696688537e5558ed3a"
+    },
+    "l-3_0.bin": {
+      "bytes": 107968,
+      "sha256": "127af5060aa0d383d5b88983cb2a8b40b94118e33fd8f5295c27ca6c891b7030"
+    },
+    "l-3_1.bin": {
+      "bytes": 27852,
+      "sha256": "aae708745faf452d8dd8578a47fca307bd2bc5337ca5d7a78e8ac9f6866e407e"
+    },
+    "l-4_-1.bin": {
+      "bytes": 135584,
+      "sha256": "bd6d2ccd8901fcd21cdcb1f6a03b2adef1a08e878c876d702984f9249580ad24"
+    },
+    "l-4_-10.bin": {
+      "bytes": 83956,
+      "sha256": "55c9d509083faa4c22ff70501f21c925a78606a972055b37710ab34cf0bcb34b"
+    },
+    "l-4_-11.bin": {
+      "bytes": 48560,
+      "sha256": "7741e135adcc6d021223d6fa4b345ed831e35fe7a936f3bb16d98897e3831c9e"
+    },
+    "l-4_-12.bin": {
+      "bytes": 61068,
+      "sha256": "75f5a6bc464aafe3d80ea419c7b8ab7bd8b2bf306b99afa300379a20c77d4825"
+    },
+    "l-4_-13.bin": {
+      "bytes": 67372,
+      "sha256": "76413a5a786e030081be1ddc7e7d5ab05874ed5bcbe720720aeccf3371369583"
+    },
+    "l-4_-14.bin": {
+      "bytes": 137468,
+      "sha256": "ae9a8bb347f91efeb4ecf480a561f4d9f4975f82ef488390fd898224c2d7fc0d"
+    },
+    "l-4_-15.bin": {
+      "bytes": 43044,
+      "sha256": "f059a3333fc0f495bc6f4e3cb047ee375fc0e489ca088ea5ab239209e0ba9acc"
+    },
+    "l-4_-2.bin": {
+      "bytes": 35948,
+      "sha256": "1249ee35e2ea8274fe84eff587e79847174e3ec4c855998391621f8b4f680ed4"
+    },
+    "l-4_-3.bin": {
+      "bytes": 28184,
+      "sha256": "94a9f8f08eb2ee5ff0426dab02677e20f94c36e59fc67f0d76d06852be334e47"
+    },
+    "l-4_-4.bin": {
+      "bytes": 46016,
+      "sha256": "fc8f3dd0cbb22882eb3afe6702581a95b617cee010015f208a45dd967a6b4487"
+    },
+    "l-4_-5.bin": {
+      "bytes": 69036,
+      "sha256": "596ffeddda608372af55e1185bb4693c61c46c0503bd87200f7bd172acaee7d7"
+    },
+    "l-4_-6.bin": {
+      "bytes": 38880,
+      "sha256": "374d87c136abbff658a49e1d817c6e81bf7f5e7d0fb035d9e46b3d06bdfaaa0f"
+    },
+    "l-4_-7.bin": {
+      "bytes": 44304,
+      "sha256": "2347d2412c0619db5a718901721a3259185211a7dbd3bb0c6f95215a4096c81e"
+    },
+    "l-4_-8.bin": {
+      "bytes": 23896,
+      "sha256": "ce1272db063074900f32f21320378674353105b266dcfd3e05db6588c06ca700"
+    },
+    "l-4_-9.bin": {
+      "bytes": 21484,
+      "sha256": "7cbe91c2a22c8857a7de03a5552442be1fe43cf001494c3ff46f3da6cabfbf85"
+    },
+    "l-4_0.bin": {
+      "bytes": 71376,
+      "sha256": "5e05326465e3360521113a3aa837fcae8396b5d8fca67005a0864b55a221c077"
+    },
+    "l-4_1.bin": {
+      "bytes": 508,
+      "sha256": "0eb7df53adf51bed7eeecaad922d7e12a29ae01908a9484edb802f5840c7c1b0"
+    },
+    "l-5_-1.bin": {
+      "bytes": 104792,
+      "sha256": "18922c6f6162c0e5e79fab7282052f3edcacae82a1464a77ed64d62939dceb29"
+    },
+    "l-5_-10.bin": {
+      "bytes": 63896,
+      "sha256": "599fc76642275618e0f22cdee3d2eaea290b27d13d9bbf549c1eb3b5aca09e3b"
+    },
+    "l-5_-11.bin": {
+      "bytes": 124508,
+      "sha256": "77a170759326214618c8ac7ca2f6420ac498967178ee86fdc6e8c0bbf9ea3205"
+    },
+    "l-5_-12.bin": {
+      "bytes": 51084,
+      "sha256": "154ccece1ce8c65be0f8076f0dccf5137d44ef1af8f5226b9156db0b6f9696af"
+    },
+    "l-5_-13.bin": {
+      "bytes": 40996,
+      "sha256": "718d8af016a95fc4014dde5b8b72facb60a6ce8373d3fb2a60e2515e93ca83fe"
+    },
+    "l-5_-14.bin": {
+      "bytes": 10588,
+      "sha256": "39524b777fd0c98b6a52b9b6d2603ebcd57a6b2e1c2313c5419e90ab6dabb690"
+    },
+    "l-5_-15.bin": {
+      "bytes": 33040,
+      "sha256": "bae9fae1b2c0b0b11b3a51c8e86b3a5a075d980a952e2c927f24fe56eeb38ac1"
+    },
+    "l-5_-2.bin": {
+      "bytes": 10544,
+      "sha256": "ea57d4907f7364aacb45cc3fbe508b3d0104b2a23088b7c5ba98beac72c6832b"
+    },
+    "l-5_-3.bin": {
+      "bytes": 70336,
+      "sha256": "c92a630655abf298e1306aded6f3ac4af77cb3ed6e24e5138140ff650786c4f8"
+    },
+    "l-5_-4.bin": {
+      "bytes": 30104,
+      "sha256": "1b44502de046c7228b140e209c675b1f906dd718c62fe06f9efad862add30b82"
+    },
+    "l-5_-5.bin": {
+      "bytes": 46308,
+      "sha256": "450d6dcf9a5a912ec989675531592baaf98f0cbbeddeb9e8daf128119c5b5d51"
+    },
+    "l-5_-6.bin": {
+      "bytes": 90412,
+      "sha256": "fb7aabcf510cbb004e678f5a20d59a3b860f5f3da61dd4bd553cd6d34a5befe5"
+    },
+    "l-5_-7.bin": {
+      "bytes": 60976,
+      "sha256": "fd2d8eedd053cac3d382cf5c6bd901345d93883def95e2d94a0a1442e650d131"
+    },
+    "l-5_-8.bin": {
+      "bytes": 31876,
+      "sha256": "8c8ea817a2e511ceee6f13b6f89f69daddfc1eee6620e6c550f763a2b2964a30"
+    },
+    "l-5_-9.bin": {
+      "bytes": 33524,
+      "sha256": "06ad62aa8648a462d5434c18988ae5602a5a40915be2eb1dd5159ec7a68de3c6"
+    },
+    "l-5_0.bin": {
+      "bytes": 22928,
+      "sha256": "fb8b655364657d0ebcaa8d6a39fefbed9de6e037c20e4f97ae97ff17877483ea"
+    },
+    "l-5_1.bin": {
+      "bytes": 1908,
+      "sha256": "1c75927cb5eb9201beed336753b8c44e99ed842c42290164af2ce88a722f8401"
+    },
+    "l-6_-1.bin": {
+      "bytes": 110276,
+      "sha256": "a4fbb0077b53bfc7c0237b44529f3f19c91791cc42664fce24e343eefd3ab6db"
+    },
+    "l-6_-10.bin": {
+      "bytes": 23640,
+      "sha256": "0103ee21a1ef48d7f262dba8104377dfa7b9bbae1873920e213e641443966946"
+    },
+    "l-6_-11.bin": {
+      "bytes": 27520,
+      "sha256": "ecaa47939cf6ea26ee8d6e4311383dc126b0d22a159858cf1a05a3f75eeffbfc"
+    },
+    "l-6_-12.bin": {
+      "bytes": 55092,
+      "sha256": "10eb8fba8c7edea03f5c76cdc9f9f7ccb829163884a36c03cf8ad5b74892e200"
+    },
+    "l-6_-13.bin": {
+      "bytes": 48752,
+      "sha256": "6fd67d7383567a20f23721a6b39275c113263e5ca3be32315fd772d777efa497"
+    },
+    "l-6_-14.bin": {
+      "bytes": 52280,
+      "sha256": "0c89b913daa4bc9507a017791aa6bc93d76f96f909ec39531981564296a99974"
+    },
+    "l-6_-15.bin": {
+      "bytes": 65832,
+      "sha256": "4c2a2e16fffa298ea8ce5b568b822120cd0d2a40bebf644559ed277e7d9d6864"
+    },
+    "l-6_-2.bin": {
+      "bytes": 36488,
+      "sha256": "ac6765423ad263e8ec463ce2a08843bc74aaa371a1ba1ff7a636f9503146e358"
+    },
+    "l-6_-3.bin": {
+      "bytes": 91160,
+      "sha256": "9856e97aa532db5a43541f8cb7622637faf1abc77774b795871fc0636ff9ddeb"
+    },
+    "l-6_-4.bin": {
+      "bytes": 65008,
+      "sha256": "9e0c695164081a8df6619735527c0979377069feca2c299cf5d491adceeb3904"
+    },
+    "l-6_-5.bin": {
+      "bytes": 72012,
+      "sha256": "d4daae235ebcdeee3fab49ac0c316551637e0e8b0443ac09c201a8c51f1c42bb"
+    },
+    "l-6_-6.bin": {
+      "bytes": 33872,
+      "sha256": "7e349d0aeb0d9f32f19e8b6a9a7f212078fed5347f722e45b4e5bbdfcdee869d"
+    },
+    "l-6_-7.bin": {
+      "bytes": 58172,
+      "sha256": "53fa7a8dc3e614384791a940a7fc14cba010433eff30e426f70548d3319678d0"
+    },
+    "l-6_-8.bin": {
+      "bytes": 36844,
+      "sha256": "5d98bf618b89df0abf6124fea900746b648e75c6519c1494ad71700471dd00de"
+    },
+    "l-6_-9.bin": {
+      "bytes": 30508,
+      "sha256": "2f7a500b172864c8c6e7a2d9be0fdbb8d75fc67eafe856c56ab3d38a22b4ab80"
+    },
+    "l-6_0.bin": {
+      "bytes": 77616,
+      "sha256": "bf85d8eb9fcf7972740538c047bfde0b52bb29f887b98eaa91f7054e0ec0b106"
+    },
+    "l-6_1.bin": {
+      "bytes": 63908,
+      "sha256": "b0c88f719e2aa571517f30826da330e1cd553df559d12ece6c0bb02e2812085b"
+    },
+    "l-7_-1.bin": {
+      "bytes": 43384,
+      "sha256": "c02f5cf2721be3ee1b8b59cc25db0685e33410cf9c004db520e45f49b6b78f5a"
+    },
+    "l-7_-10.bin": {
+      "bytes": 39980,
+      "sha256": "a1e079fc0145224a6296be456f313f17a6de1a513233ca50d76b5630ecfb6256"
+    },
+    "l-7_-11.bin": {
+      "bytes": 76040,
+      "sha256": "ad5f4ee9135d31b442120c0d37a7690d2e542889642a5a52473e1ce40df6aaad"
+    },
+    "l-7_-12.bin": {
+      "bytes": 59596,
+      "sha256": "22eb99e358768a28efa72430a9aefaf9ae895a39d76ade4739fd4ac95441420c"
+    },
+    "l-7_-13.bin": {
+      "bytes": 51112,
+      "sha256": "efce5551da1419e6e45245fe84ec23634768c5e075db15009ff22f2f36edb00f"
+    },
+    "l-7_-14.bin": {
+      "bytes": 39200,
+      "sha256": "035e210f552c53d30c0e2b0eeb12afab6c773dfa17a76a6d5401b8bd1be8933c"
+    },
+    "l-7_-15.bin": {
+      "bytes": 68944,
+      "sha256": "f08e0e6ba05e939e0b4d03c958992296819a0a45a845200fdaef8e6ebefe2feb"
+    },
+    "l-7_-2.bin": {
+      "bytes": 25972,
+      "sha256": "d7cdd480f7226ba6d2cdc32be5fb6b4156ce6372da7e2f0fc2965b47357cbb3c"
+    },
+    "l-7_-3.bin": {
+      "bytes": 76692,
+      "sha256": "a2607a87f5d8f6258a844ee70b5b71d386f8842e344ae44b611756084f665e47"
+    },
+    "l-7_-4.bin": {
+      "bytes": 97392,
+      "sha256": "d7e1bf0aed5fc6c4310a04a378c073a11cb7a1824cbdd84d4df9e17d389b36e1"
+    },
+    "l-7_-5.bin": {
+      "bytes": 106176,
+      "sha256": "41337bc74c0e677e4b2eefbc1491a3f58de90c0f97efe20e4f4028a6b2a1f93a"
+    },
+    "l-7_-6.bin": {
+      "bytes": 23108,
+      "sha256": "bec1ef9cba1083cb89487eaf2c97a10aad9feb2c0dfaccbe161e4322675017cf"
+    },
+    "l-7_-7.bin": {
+      "bytes": 64144,
+      "sha256": "e8d3d423f30eac73763263a1a8732a2a2b27ba885d8402457ee1e25b25f84ca8"
+    },
+    "l-7_-8.bin": {
+      "bytes": 71808,
+      "sha256": "626854885607beea7b1a9b14239c80097d82235b5d695ef1e344c94c19ce2565"
+    },
+    "l-7_-9.bin": {
+      "bytes": 44640,
+      "sha256": "cde27d69dd2ee71581b68f02720d20c274100c671db36eebdaaa932a01e2865c"
+    },
+    "l-7_0.bin": {
+      "bytes": 97840,
+      "sha256": "40ffea8dd449dd49a554168d70b8ec4d8cc23d6b762a3ebed75c6fddc534907f"
+    },
+    "l-8_-1.bin": {
+      "bytes": 12472,
+      "sha256": "94aaa4ea12024675f2d049cf9f1d23f2ba3fabb463ba9e39cfc31c8bd1fc1670"
+    },
+    "l-8_-10.bin": {
+      "bytes": 5832,
+      "sha256": "f7338f1c78fcb36825697559652194204be106eb54fb290421de2120e375efa8"
+    },
+    "l-8_-11.bin": {
+      "bytes": 38284,
+      "sha256": "9a437b576f03ba1b022d43426b4379e2c995d6e8ca928d4468033c9418e5d3de"
+    },
+    "l-8_-12.bin": {
+      "bytes": 63236,
+      "sha256": "8e38d6b1e10a399c748dfe7cdd81ab7ce94d1063369851ad57bb2d4d987ff8fe"
+    },
+    "l-8_-13.bin": {
+      "bytes": 52416,
+      "sha256": "3c12d71894e2a59f12b6599551d81e2d578091767304394c189634379fae3eeb"
+    },
+    "l-8_-14.bin": {
+      "bytes": 51776,
+      "sha256": "b9c9abd6a1cb7fcd5b269da38c452e769fabbc50757464fbe6e06aa70662ad92"
+    },
+    "l-8_-15.bin": {
+      "bytes": 57348,
+      "sha256": "7a1a7278252983cfbeb1efecd88eb71d838ecef09c5e941fb710dc14fc401ae8"
+    },
+    "l-8_-2.bin": {
+      "bytes": 29176,
+      "sha256": "11cd63fc704a2c820e87626c95f550e351cd13231be586852be982e5f9615c9f"
+    },
+    "l-8_-3.bin": {
+      "bytes": 60944,
+      "sha256": "71ee7f79ae2cdf5427c7d6593277dc34e7c041099dea21cda07a00a7ef144d55"
+    },
+    "l-8_-4.bin": {
+      "bytes": 53608,
+      "sha256": "baba4031f51c3b6ac51dce7832485c9cedc59c0d691ab24d30185cc27c6404cf"
+    },
+    "l-8_-5.bin": {
+      "bytes": 31984,
+      "sha256": "d5d6d943e649f5b94162e40da439aa79ebf610c6984686f44ae6e8fa46e2bbe7"
+    },
+    "l-8_-6.bin": {
+      "bytes": 39668,
+      "sha256": "85daef12804a00733dc93e80c38177637f8fa8b33caa7f60ea8baa1e27e7a4c7"
+    },
+    "l-8_-7.bin": {
+      "bytes": 28256,
+      "sha256": "e6df96f8f682a57068cc5d8ea2b4ee4332403d3c50077566147dbc61d1367f8c"
+    },
+    "l-8_-8.bin": {
+      "bytes": 14148,
+      "sha256": "04920faaeae7454d49ce09a08bd326f690a05baa722ff0571c0c30bf58572083"
+    },
+    "l-8_-9.bin": {
+      "bytes": 83808,
+      "sha256": "ba241aa0055eaf17aa2fe2d010b43c31214c785e51ff0c771f2ab6a01dc98d25"
+    },
+    "l-8_0.bin": {
+      "bytes": 46324,
+      "sha256": "9b93e496dfe74fdb3b188dcdcfdb8e042b806538c9f5da94072b7ca943b72bb3"
+    },
+    "l-8_1.bin": {
+      "bytes": 71208,
+      "sha256": "3631ad25b04707f893e46af433458dcc3b01337ac02d726729c7c3138e883883"
+    },
+    "l-9_-1.bin": {
+      "bytes": 2060,
+      "sha256": "76d97c2a1d2bb2aa35bf6eb201a539e73ca34f99cb9bee98d9413e7c5e799660"
+    },
+    "l-9_-10.bin": {
+      "bytes": 53196,
+      "sha256": "1bf78ea545b6aa3b15ebb8eb3abe63b33241cdf6b8b9da28962f145f39ccccf2"
+    },
+    "l-9_-11.bin": {
+      "bytes": 37812,
+      "sha256": "3eac10bd709cb16797491961340e576a729510e2e582d30b1467a1ce5fbe31e4"
+    },
+    "l-9_-12.bin": {
+      "bytes": 38512,
+      "sha256": "ea7a0a4a5c1b07439044cbcef0608056e5bbb87076789574a5b273a22be2f42a"
+    },
+    "l-9_-13.bin": {
+      "bytes": 39440,
+      "sha256": "26a47d5e14e7ab08d219a7fcfc49da4f022df38529d157ec03fef29c122d7604"
+    },
+    "l-9_-14.bin": {
+      "bytes": 10444,
+      "sha256": "4277e538b0464ad4cf43902d8419618832ea7ca41e39da5f3520a8ddf1c25b28"
+    },
+    "l-9_-15.bin": {
+      "bytes": 57764,
+      "sha256": "13b91d8a5f12ff5f3f659c3f08424538d63d30886a9eac2c72acdbaf87f7bc35"
+    },
+    "l-9_-2.bin": {
+      "bytes": 3852,
+      "sha256": "c88e93d1705782ff294337ef44dcc7e3cc09704b829dd8604493db5b145852c8"
+    },
+    "l-9_-3.bin": {
+      "bytes": 16580,
+      "sha256": "ad4e4fa66c6b449bd1d9ce3a29f3f213d3fa063ce75829b523876abb7d8d0c80"
+    },
+    "l-9_-4.bin": {
+      "bytes": 21192,
+      "sha256": "ff38b4a78457f01c41abdccaf22080b44357a8d642d32e7a2d8b765023fffb62"
+    },
+    "l-9_-5.bin": {
+      "bytes": 22104,
+      "sha256": "78946c8405e22a1bf0a8e91fc78f03b3a4a69f30a983a16ccb2e20ccd97364b6"
+    },
+    "l-9_-6.bin": {
+      "bytes": 5588,
+      "sha256": "396507cdb52cc00b2f7d676482e1ba9a6edc787b368553b3336672548ca3bfa0"
+    },
+    "l-9_-7.bin": {
+      "bytes": 22680,
+      "sha256": "d9c5ef95470d45840abfe8f31ab0cea701a136244d576ea30d923c9db3dbb42c"
+    },
+    "l-9_-8.bin": {
+      "bytes": 21104,
+      "sha256": "7b3c788246c7e78ab228678f518fd0b785fb4814629180a6042142d313c4f17f"
+    },
+    "l-9_-9.bin": {
+      "bytes": 30408,
+      "sha256": "de0d5505b70fa1a0a883bbdcf9805a92a4adb336c3301183f5651729e554dcd3"
+    },
+    "l0_-10.bin": {
+      "bytes": 35564,
+      "sha256": "68541894da3031f7ef201a832d65bce3370431e4826f56c36c5ec1fad96f0b0e"
+    },
+    "l0_-11.bin": {
+      "bytes": 53668,
+      "sha256": "d6dd562d52f6c5880e8ba373de35ade659f63dcd025726947252b0e1d05f2097"
+    },
+    "l0_-12.bin": {
+      "bytes": 15820,
+      "sha256": "7168cf9f827ebc107ae993735651ec121e0c42f3884ea294e7b327cef39c0281"
+    },
+    "l0_-13.bin": {
+      "bytes": 68380,
+      "sha256": "25e7a4bf35de30a03fa4ff2b3b4b50a0a105498315614db762d938e2a70915c0"
+    },
+    "l0_-14.bin": {
+      "bytes": 32908,
+      "sha256": "aabdb190ed1d165f3eefe6eb53fc2c19307673880ecef3414f5df5188252d4a8"
+    },
+    "l0_-6.bin": {
+      "bytes": 20592,
+      "sha256": "75ba4e1aaf68febc96db39f806c6b4f8ed5ee19b57f58b7c66b74d00df4948cd"
+    },
+    "l0_-7.bin": {
+      "bytes": 14180,
+      "sha256": "5fee10e7fc85085dcb951035809b2bfc27b27903f9f886bd287c332c0e003401"
+    },
+    "l0_-8.bin": {
+      "bytes": 57220,
+      "sha256": "ecfb8446f5433b2fb3789bb08147e0e7846081af2a3e0692d933209e39cbb645"
+    },
+    "l0_-9.bin": {
+      "bytes": 47288,
+      "sha256": "c596207c616e79ba8ce7cf4362e9f12049c7956b3c66e1caeea892b85736a6c3"
+    },
+    "l1_-11.bin": {
+      "bytes": 69080,
+      "sha256": "7d5bec397e3967037810e677ee69ca738ea8d1375320245d253c95e75277cdb2"
+    },
+    "l1_-12.bin": {
+      "bytes": 54120,
+      "sha256": "8ce257850fda3a58eb5732fc57131ea2ed3103e2080f684cc9c06fdc8f4ba9ac"
+    },
+    "l1_-13.bin": {
+      "bytes": 45844,
+      "sha256": "8f0493e96f50b412b7fdda9dc3b60ff98ee64da9f8c60b622bcbf39e46dc46b5"
+    },
+    "l1_-14.bin": {
+      "bytes": 46056,
+      "sha256": "ddffbc49dd0fc66e00f4b19d23cb9cee57c239f5ae39198ae0bee4c113106ba1"
+    },
+    "l1_-9.bin": {
+      "bytes": 45376,
+      "sha256": "235c66ac602c11808a9b6db50ad06abcc73ea6b76e9680b79b620abb073fa76c"
+    },
+    "l2_-11.bin": {
+      "bytes": 68732,
+      "sha256": "e9034d9ea581c44c26d81fb5c5df3c455c6ee9c66ed18258f26a27e872132cb0"
+    },
+    "l2_-14.bin": {
+      "bytes": 27528,
+      "sha256": "e4f1322fcc6ad827707a170b099f0734019d5518e7566fe99f2220b9811283a5"
+    },
+    "leaf-index.bin": {
+      "bytes": 2144,
+      "sha256": "3fdf773be4e1d7082bef62d65a5b238b2c58dd1e8fd756e90a53caa5cdffd26b"
+    }
+  },
+  "total_bytes": 7989460,
+  "scope": "Native source attributes on all203 currentfrustum cells; only proven existingleaftriangles, separate leaf cells preserve bodies/terrain and replace fallbackleafdraws whenready."
+}

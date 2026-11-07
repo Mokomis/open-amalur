@@ -1,0 +1,26 @@
+{
+  "status": "STAGING_ONLY_NOT_PROMOTED",
+  "spawn": {
+    "script_asset": 1411319,
+    "script": "cinematic_post_char_gen_2",
+    "call": "GAME.set_post_cinematic_player_loc_and_rot(4312,2806,-314,-180)",
+    "space": 1417252,
+    "region": 1262814,
+    "collision_floor": -314.79068666092564
+  },
+  "preview_root": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\portable-preview",
+  "world_root": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\portable-preview\\world",
+  "preview_manifest": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\portable-preview\\preview-manifest.json",
+  "full_candidate_manifest": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\candidate-first-room\\geometry-manifest.json",
+  "textures": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\candidate-first-room\\texture-stage-manifest.json",
+  "environment": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\portable-preview\\environment\\environment-manifest.json",
+  "materials": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\first-room-material-contracts.json",
+  "volumes": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\opening-volume-world-contract.json",
+  "room_graph": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\content-audit\\1262814-portal-graph.json",
+  "constraints": [
+    "No core/live assets/GPU/gameinput/savechanges",
+    "Preview onlynativefamilies1,3,4;nonunittransformsquarantined",
+    "lighting.bin absentperparentinstruction;roomreaderneeded",
+    "Allcandidate+outdoorassets preserved"
+  ]
+}

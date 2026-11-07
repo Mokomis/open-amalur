@@ -1,0 +1,424 @@
+[
+  {
+    "pc": 91,
+    "file_offset": 314820,
+    "word_hex": "32002400",
+    "opcode": 25,
+    "name": "LOADK",
+    "A": 0,
+    "B": 0,
+    "C": 36,
+    "Bx": 36,
+    "reads": [],
+    "writes": [
+      0
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      92
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010af677 copies K[Bx] to R[A]"
+    ],
+    "kind": "loadk",
+    "uint64_constants": [
+      {
+        "index": 36,
+        "serialized_hex": "00001f3000000320"
+      }
+    ],
+    "constant_index": 36,
+    "constant_lua": "__uint64(\"00001f3000000320\")",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "preserve",
+    "cache_predecessor_pcs": [
+      90
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "pc": 92,
+    "file_offset": 314824,
+    "word_hex": "36002300",
+    "opcode": 27,
+    "name": "SETGLOBAL",
+    "A": 0,
+    "B": 0,
+    "C": 35,
+    "Bx": 35,
+    "reads": [
+      0
+    ],
+    "writes": [],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      93
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010b06c2 reloads closure environment and assigns key K[Bx] from R[A]"
+    ],
+    "kind": "setglobal",
+    "constant_index": 35,
+    "constant_lua": "\"str_danger_room\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "unmodeled_invalidates",
+    "cache_predecessor_pcs": [
+      91
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "pc": 93,
+    "file_offset": 314828,
+    "word_hex": "32002600",
+    "opcode": 25,
+    "name": "LOADK",
+    "A": 0,
+    "B": 0,
+    "C": 38,
+    "Bx": 38,
+    "reads": [],
+    "writes": [
+      0
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      94
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010af677 copies K[Bx] to R[A]"
+    ],
+    "kind": "loadk",
+    "uint64_constants": [
+      {
+        "index": 38,
+        "serialized_hex": "00037b5f00000320"
+      }
+    ],
+    "constant_index": 38,
+    "constant_lua": "__uint64(\"00037b5f00000320\")",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "preserve",
+    "cache_predecessor_pcs": [
+      92
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "pc": 94,
+    "file_offset": 314832,
+    "word_hex": "36002500",
+    "opcode": 27,
+    "name": "SETGLOBAL",
+    "A": 0,
+    "B": 0,
+    "C": 37,
+    "Bx": 37,
+    "reads": [
+      0
+    ],
+    "writes": [],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      95
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010b06c2 reloads closure environment and assigns key K[Bx] from R[A]"
+    ],
+    "kind": "setglobal",
+    "constant_index": 37,
+    "constant_lua": "\"str_QA_BVT_Space\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "unmodeled_invalidates",
+    "cache_predecessor_pcs": [
+      93
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "pc": 95,
+    "file_offset": 314836,
+    "word_hex": "32002800",
+    "opcode": 25,
+    "name": "LOADK",
+    "A": 0,
+    "B": 0,
+    "C": 40,
+    "Bx": 40,
+    "reads": [],
+    "writes": [
+      0
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      96
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010af677 copies K[Bx] to R[A]"
+    ],
+    "kind": "loadk",
+    "uint64_constants": [
+      {
+        "index": 40,
+        "serialized_hex": "0014a6b300000390"
+      }
+    ],
+    "constant_index": 40,
+    "constant_lua": "__uint64(\"0014a6b300000390\")",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "preserve",
+    "cache_predecessor_pcs": [
+      94
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "pc": 96,
+    "file_offset": 314840,
+    "word_hex": "36002700",
+    "opcode": 27,
+    "name": "SETGLOBAL",
+    "A": 0,
+    "B": 0,
+    "C": 39,
+    "Bx": 39,
+    "reads": [
+      0
+    ],
+    "writes": [],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      97
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010b06c2 reloads closure environment and assigns key K[Bx] from R[A]"
+    ],
+    "kind": "setglobal",
+    "constant_index": 39,
+    "constant_lua": "\"m_gamestart_quest\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "unmodeled_invalidates",
+    "cache_predecessor_pcs": [
+      95
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "pc": 97,
+    "file_offset": 314844,
+    "word_hex": "34000000",
+    "opcode": 26,
+    "name": "LOADNIL",
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "Bx": 0,
+    "reads": [],
+    "writes": [
+      0
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      98
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b: case 0x1a"
+    ],
+    "kind": "loadnil",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "preserve",
+    "cache_predecessor_pcs": [
+      96
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+]

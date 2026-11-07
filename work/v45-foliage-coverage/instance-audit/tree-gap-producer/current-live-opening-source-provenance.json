@@ -1,0 +1,242 @@
+{
+  "pixel": [
+    980,
+    100
+  ],
+  "observed_current_depth24": 16762614,
+  "cpu_depth24": 16762614,
+  "exact_depth_identity": true,
+  "current_hit": {
+    "cell": [
+      -3,
+      -12
+    ],
+    "lod": -1,
+    "cell_distance": 20935.586382670648,
+    "file": "l-3_-12.bin",
+    "magic": "OAWE",
+    "triangle": 33,
+    "index_offset": 99,
+    "vertex_indices": [
+      73,
+      161,
+      248
+    ],
+    "material": 293,
+    "family": 6,
+    "distance": 30528.020445067632,
+    "depth_ndc": 0.9982594542886998,
+    "depth24": 16762614,
+    "depth24_error_from_observed": 0,
+    "world": [
+      -18743.885337315307,
+      -75226.35113859974,
+      13345.953118715683
+    ],
+    "uv": [
+      0.7396466014607381,
+      0.584326995330264
+    ],
+    "uv_gradients": [
+      [
+        -0.07585391498276242,
+        -0.02563366339802396
+      ],
+      [
+        -0.010720958580551389,
+        0.00650011854365694
+      ]
+    ],
+    "det": 959444.1286946934,
+    "barycentric": [
+      0.25923244131718826,
+      0.5855219633188752,
+      0.1552455953639366
+    ],
+    "position_triangle": [
+      [
+        -20639.1328125,
+        -74823.2109375,
+        14671.1201171875
+      ],
+      [
+        -18060.283203125,
+        -75299.65625,
+        12319.943359375
+      ],
+      [
+        -18157.423828125,
+        -75623.046875,
+        15002.84375
+      ]
+    ],
+    "uv_triangle": [
+      [
+        0.0015910000074654818,
+        0.0022929906845092773
+      ],
+      [
+        0.9979299902915955,
+        0.9963359832763672
+      ],
+      [
+        0.9979299902915955,
+        0.0022929906845092773
+      ]
+    ],
+    "native_material_fields": [
+      359202,
+      359202,
+      359202
+    ],
+    "vertex_rgba": [
+      [
+        232,
+        234,
+        230,
+        255
+      ],
+      [
+        50,
+        71,
+        40,
+        255
+      ],
+      [
+        173,
+        181,
+        168,
+        255
+      ]
+    ],
+    "normal_triangle": [
+      [
+        -0.9467558264732361,
+        -0.32195255160331726,
+        0.0
+      ],
+      [
+        0.7667657732963562,
+        -0.6419269442558289,
+        0.0
+      ],
+      [
+        0.6333951354026794,
+        -0.7738285660743713,
+        0.0
+      ]
+    ],
+    "flags": 134243330,
+    "cutoff": 0.39215686274509803,
+    "diffuse_texture": 681,
+    "diffuse_sample": {
+      "lod": 7.357371435954875,
+      "rgba": [
+        0.40414093290399256,
+        0.39242240589176075,
+        0.1244859700900439,
+        0.9375972426899455
+      ]
+    },
+    "raw_alpha_texture": 679,
+    "raw_alpha_sample": {
+      "lod": 7.357371435954875,
+      "rgba": [
+        0.6629208505462341,
+        0.65884825609919,
+        0.6629208505462341,
+        1.0
+      ]
+    },
+    "coverage": 0.65884825609919,
+    "passes_current_cutout": true,
+    "culled_backface": false
+  },
+  "leaf_source_instance": 198,
+  "source_triangle_within_selected_record": 4,
+  "source": {
+    "space": 431642,
+    "space_name": "out_dal_south_01",
+    "instance": 569,
+    "group": "refs",
+    "fab": 340232,
+    "fab_name": "for_flora_tree01",
+    "assembly": 6,
+    "material": 359202,
+    "material_name": "for_flora_treeleaf",
+    "normal_mode": 0.0,
+    "wind_displacement_quantization_max": 0.0,
+    "wind_palette_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "center_z_offset": 0.0,
+    "pivot": [
+      -19209.921875,
+      -74337.1953125,
+      6912.13134765625
+    ],
+    "shader": "treeleaf",
+    "stride": 48,
+    "triangles": 78,
+    "mesh_path": "work\\v20-inputs\\DATA_0.pak\\340232.fab_visual_data_streamable_bin",
+    "mesh_sha256": "1de7ce39f68b084f38607b8db25ceb268cf2a27c771bac512436c7853c023297",
+    "render_record_hex": "58bf9bc64e8a90c76e93504698688045d81396c6993091c70d01d8450000803f0000000000000000916065bea97e793f0000803f0000803f0000803f5e000000227b0500060000000000000000000000fab9094b",
+    "color_min": [
+      50,
+      71,
+      40,
+      255
+    ],
+    "color_max": [
+      232,
+      234,
+      230,
+      255
+    ]
+  },
+  "authored_source_records": [
+    {
+      "group": 0,
+      "record": 1096,
+      "reference_file_offset": 45512,
+      "bounds_file_offset": 220024,
+      "render_file_offset": 604328,
+      "interval_squared": [
+        144000000.0,
+        852640000.0
+      ],
+      "flags": 7,
+      "reference_hex": "00000000000000000831050000000000",
+      "bounds_hex": "58bf9bc64e8a90c76e935046730b67451443e044000000000443e0c4630b674500000000000000000000000098688045d81396c6993091c70d01d845000000004054094d04494b4e0700000048040000",
+      "render_hex": "58bf9bc64e8a90c76e93504698688045d81396c6993091c70d01d8450000803f0000000000000000916065bea97e793f0000803f0000803f0000803f5e000000227b0500060000000000000000000000fab9094b"
+    },
+    {
+      "group": 1,
+      "record": 358,
+      "reference_file_offset": 109688,
+      "bounds_file_offset": 939820,
+      "render_file_offset": 1082692,
+      "interval_squared": [
+        852640000.0,
+        900000000.0
+      ],
+      "flags": 23,
+      "reference_hex": "00000000000000000831050000000000",
+      "bounds_hex": "58bf9bc64e8a90c76e935046730b67451443e044000000000443e0c4630b674500000000000000000000000098688045d81396c6993091c70d01d8450000000004494b4ea493564e1700000066010000",
+      "render_hex": "58bf9bc64e8a90c76e93504698688045d81396c6993091c70d01d8450000803f0000000000000000916065bea97e793f0000803f0000803f0000803f5e000000227b0500060000000000000000000000fab9094b"
+    }
+  ],
+  "raw_origin_distance_cm": 30567.616225031066,
+  "matched_pose_native_gbuffer_draws": [],
+  "scope": "All799existingnativeGBufferdrawmatrices checked; absence there doesnotexclude nonGBuffer farbillboardproducer",
+  "conclusion": "CurrentSPACEleafauxrendersassembly6 beyonditsauthored30000cm interval; unobservedfarproducer semantics remain. Do notinferalphamipfix or deleteRegiontrees."
+}

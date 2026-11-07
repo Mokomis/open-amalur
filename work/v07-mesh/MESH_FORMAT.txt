@@ -1,0 +1,62 @@
+Opem Amalur bounded geometry extraction
+
+Reference observations
+  The author's original-game importer describes a stream beginning with three
+  little-endian uint32 counts: assemblies, vertex buffers, index buffers.
+  A vertex buffer contains three uint32 words: an uninterpreted field, stride,
+  vertex count, then count*stride bytes. Position is the leading three float32.
+  Admitted strides from that reference are20,24,44,48,52,56,60,64,68.
+  Index buffers contain a uint32 count followed by uint16 triangle-list indices.
+  Assembly records are52 bytes; the first uint16 selects the vertex buffer and
+  the uint32 at+4 selects the index buffer. Other fields remain uninterpreted.
+
+  Primary source: Lukas Cone's2018 Kingdoms of Amalur import tool:
+  https://lukascone.wordpress.com/2018/04/11/kingdoms-of-amalur-import-tool/
+  This package contains an independent format reader, not the Maxscript source.
+  No Maxscript was executed. The original-game layout must be validated against
+  each admitted Re-Reckoning sample; no generic edition compatibility is claimed.
+
+Export behavior and limits
+  Native xyz, units, triangle winding, float32 values and source buffer references
+  remain unchanged. The evidence JSON retains source offsets, whole-file and
+  buffer hashes, opaque vertex bytes and every unknown assembly word.
+  OBJ exports positions and faces, grouped by assembly. There are no invented
+  materials, textures, bones, weights, world transforms or animation bindings.
+  Whole referenced index buffers are exported; possible draw-range meaning in
+  unknown assembly words remains unconfirmed. Repeated buffer pairs therefore
+  remain repeated groups instead of silently inventing ranges or deduplicating.
+
+Authored portable interchange, version1
+  Magic: eight bytes OMMESH1 followed by NUL.
+  uint32 little-endian submesh_count.
+  For each submesh:
+    uint32 vertex_count; uint32 index_count;
+    vertex_count triples of little-endian float32 xyz;
+    index_count little-endian uint32 indices, zero-based within that submesh.
+  Each submesh is independent. Positions are duplicated when assemblies share a
+  native vertex buffer. No trailing bytes are emitted. This is our interchange
+  format; it is not presented as an original game format.
+
+Validation
+  Parsers reject incomplete records, unsupported strides, nonfinite positions,
+  invalid triangle counts/references, configured-size overruns and trailing data.
+  Fifteen synthetic tests cover these boundaries and export precision/order.
+  Parent workflow runs all artifact inspection and tests on Windows. Real-sample
+  results and native-loader confirmation must be recorded separately.
+
+  Initial Windows result reported by parent workflow: asset643694,
+  154,656 bytes completely consumed;3 vertex buffers,3 index buffers,
+  3 assemblies,2,874 vertices,8,244 indices/2,748 triangles, stride48.
+  Native-coordinate bounds approximately[-180.80,-135.87,-3.45] through
+  [173.11,138.94,322.10]. The generated native-mesh JSON carries exact hashes,
+  offsets and coordinates. This sample result is not corpus-wide compatibility.
+
+Windows diagnostic helpers
+  render_mesh_preview.py reads a decoded JSON and produces three orthographic
+  CPU depth-buffer views plus a SHA256 receipt. It requires NumPy and Pillow;
+  preview colors/lighting are explicitly synthetic and no world placement is
+  applied. Native coordinates remain unchanged.
+  batch_decode_meshes.py processes explicit extracted directories and optional
+  selected asset IDs. Conflicting archive variants are rejected unless the
+  caller explicitly chooses last-root precedence. Every unresolved asset is
+  recorded; successful-only totals are not presented as a complete scene.

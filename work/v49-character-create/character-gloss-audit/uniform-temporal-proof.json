@@ -1,0 +1,67 @@
+{
+  "capture": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v31-native-slice\\captures\\amalur_trim_trigger_20261105T113036.gfxr",
+  "draw": 67406,
+  "memory": 52,
+  "reconstructed_range": [
+    651264,
+    651776
+  ],
+  "fills_applied_before_submission": [
+    {
+      "index": 73631,
+      "file_offset": 525920194,
+      "memory": 52,
+      "offset": 0,
+      "bytes": 33554432,
+      "stored_size": 10516740,
+      "compressed": true,
+      "intersected_range": [
+        651264,
+        651776
+      ],
+      "uncompressed_sha256": "a9433c481e510e8777abfaa9105019d735e66551125b7fb083deac6ea9e3befd"
+    }
+  ],
+  "submission_event": 76331,
+  "command_buffer": 46,
+  "temporal_note": "Draw67406 is recorded before host writes; GPU execution occurs at QueueSubmit76331, so use final intersecting FillMemory before this actual submission.",
+  "matches_prior_prefix_all512bytes": true,
+  "cb0_16f": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    20.0,
+    0.0,
+    0.0,
+    0.15000000596046448,
+    1.0,
+    1.0,
+    0.0,
+    1.399999976158142,
+    2.4000000953674316,
+    0.0,
+    0.0
+  ],
+  "world_16f": [
+    0.6354823112487793,
+    0.5893834829330444,
+    0.49878790974617004,
+    0.0,
+    0.5933947563171387,
+    -0.7861242294311523,
+    0.17289245128631592,
+    0.0,
+    0.4940091073513031,
+    0.18610799312591553,
+    -0.8493051528930664,
+    0.0,
+    8479.7978515625,
+    -86891.59375,
+    6402.40380859375,
+    1.0
+  ],
+  "cb0_sha256": "41913edc0de64282851046af1175815491053d72e848cc23ef21a0dcacb47ad5",
+  "world_cb256_sha256": "783a66602cd3e206da7251bd87ae94998924e6e9c5e9b7d9a25fa5932c88c7f2"
+}

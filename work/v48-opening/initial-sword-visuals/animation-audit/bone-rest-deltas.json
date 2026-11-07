@@ -1,0 +1,1676 @@
+[
+  {
+    "bone": 0,
+    "parent": null,
+    "name_hash": 4357362,
+    "source_transform_file_offset": 340,
+    "source_parent_file_offset": 2932,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 1,
+    "parent": 0,
+    "name_hash": 1686229,
+    "source_transform_file_offset": 388,
+    "source_parent_file_offset": 2934,
+    "rest_q": [
+      0.0,
+      0.0,
+      -0.7071064710617065,
+      0.7071071863174438
+    ],
+    "rest_t": [
+      28.701236724853516,
+      5.2458109855651855,
+      10.346003532409668,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0034971635752596318,
+    "end_translation_delta": 4.946650981903076,
+    "end_rotation_delta_degrees": 50.00411706440793,
+    "clip_max_translation_delta": 4.946651935577853,
+    "clip_max_rotation_delta_degrees": 50.00412144150481
+  },
+  {
+    "bone": 2,
+    "parent": 1,
+    "name_hash": 9432931,
+    "source_transform_file_offset": 436,
+    "source_parent_file_offset": 2936,
+    "rest_q": [
+      -0.49999967217445374,
+      0.5000001192092896,
+      -0.5000001192092896,
+      0.5000001788139343
+    ],
+    "rest_t": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0063318637297051315,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 8.564420156118162,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 19.28030693568217
+  },
+  {
+    "bone": 3,
+    "parent": 2,
+    "name_hash": 7862580,
+    "source_transform_file_offset": 484,
+    "source_parent_file_offset": 2938,
+    "rest_q": [
+      -1.7700000398690463e-06,
+      2.900000026784255e-07,
+      -0.15762752294540405,
+      0.9874986410140991
+    ],
+    "rest_t": [
+      9.805822372436523,
+      0.008387080393731594,
+      1.2700000297627412e-05,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 9.313230187045825e-10,
+    "frame0_rotation_delta_degrees": 0.0037130426432711934,
+    "end_translation_delta": 1.4640600735573106,
+    "end_rotation_delta_degrees": 71.82613141758299,
+    "clip_max_translation_delta": 3.299491007546589,
+    "clip_max_rotation_delta_degrees": 71.82613508431388
+  },
+  {
+    "bone": 4,
+    "parent": 3,
+    "name_hash": 10771733,
+    "source_transform_file_offset": 532,
+    "source_parent_file_offset": 2940,
+    "rest_q": [
+      -0.8202667236328125,
+      0.5643335580825806,
+      -0.012906097806990147,
+      0.09232329577207565
+    ],
+    "rest_t": [
+      -9.321165084838867,
+      3.0447487831115723,
+      12.750723838806152,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.003272250982079507,
+    "end_translation_delta": 16.829872096719193,
+    "end_rotation_delta_degrees": 51.533153221263255,
+    "clip_max_translation_delta": 16.82987256168037,
+    "clip_max_rotation_delta_degrees": 68.9005350428393
+  },
+  {
+    "bone": 5,
+    "parent": 4,
+    "name_hash": 10836383,
+    "source_transform_file_offset": 580,
+    "source_parent_file_offset": 2942,
+    "rest_q": [
+      0.0,
+      0.0,
+      -0.5320680141448975,
+      0.8467016220092773
+    ],
+    "rest_t": [
+      34.61943817138672,
+      0.0,
+      5.079999937152024e-06,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.004981188523922277,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 9.360465414873152,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 12.665063777599107
+  },
+  {
+    "bone": 6,
+    "parent": 5,
+    "name_hash": 9796371,
+    "source_transform_file_offset": 628,
+    "source_parent_file_offset": 2944,
+    "rest_q": [
+      0.07098839432001114,
+      0.06042000651359558,
+      -0.5396768450737,
+      0.8366953730583191
+    ],
+    "rest_t": [
+      42.64609146118164,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0030310835472097345,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 22.748744993563626,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 34.57081469655899
+  },
+  {
+    "bone": 7,
+    "parent": 6,
+    "name_hash": 9976961,
+    "source_transform_file_offset": 676,
+    "source_parent_file_offset": 2946,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.7071068286895752,
+      0.7071067690849304
+    ],
+    "rest_t": [
+      9.80859088897705,
+      -12.623215675354004,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.007814502457192089,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.007814502457192089,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 6.697382733099832
+  },
+  {
+    "bone": 8,
+    "parent": 7,
+    "name_hash": 11825836,
+    "source_transform_file_offset": 724,
+    "source_parent_file_offset": 2948,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      1.279380202293396,
+      0.0,
+      -2.539999968576012e-06,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 9,
+    "parent": 8,
+    "name_hash": 10593789,
+    "source_transform_file_offset": 772,
+    "source_parent_file_offset": 2950,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      1.279380202293396,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 10,
+    "parent": 9,
+    "name_hash": 16025351,
+    "source_transform_file_offset": 820,
+    "source_parent_file_offset": 2952,
+    "rest_q": [
+      0.0,
+      0.0,
+      -1.0,
+      1.5999999902760464e-07
+    ],
+    "rest_t": [
+      1.2793878316879272,
+      0.0,
+      2.539999968576012e-06,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 11,
+    "parent": 6,
+    "name_hash": 4396539,
+    "source_transform_file_offset": 868,
+    "source_parent_file_offset": 2954,
+    "rest_q": [
+      0.5792281627655029,
+      0.4055798053741455,
+      -0.40557995438575745,
+      0.5792276263237
+    ],
+    "rest_t": [
+      20.432647705078125,
+      69.30339050292969,
+      53.37174987792969,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 78.44540012104788,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 78.44540012104788,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 78.44540012104788,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 12,
+    "parent": 3,
+    "name_hash": 10848251,
+    "source_transform_file_offset": 916,
+    "source_parent_file_offset": 2956,
+    "rest_q": [
+      -0.7268863916397095,
+      0.6859824061393738,
+      -0.009080101735889912,
+      -0.03133649751543999
+    ],
+    "rest_t": [
+      -9.321165084838867,
+      3.044672727584839,
+      -12.750748634338379,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0059420503952934715,
+    "end_translation_delta": 18.751946216501004,
+    "end_rotation_delta_degrees": 39.74435755594034,
+    "clip_max_translation_delta": 18.75194721013934,
+    "clip_max_rotation_delta_degrees": 129.3921928641191
+  },
+  {
+    "bone": 13,
+    "parent": 12,
+    "name_hash": 10912901,
+    "source_transform_file_offset": 964,
+    "source_parent_file_offset": 2958,
+    "rest_q": [
+      0.0,
+      0.0,
+      -0.3862367272377014,
+      0.9223997592926025
+    ],
+    "rest_t": [
+      34.61943817138672,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.004359417397451007,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 7.521350892055951,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 16.669660954905858
+  },
+  {
+    "bone": 14,
+    "parent": 13,
+    "name_hash": 9872889,
+    "source_transform_file_offset": 1012,
+    "source_parent_file_offset": 2960,
+    "rest_q": [
+      0.014012830331921577,
+      -0.029463939368724823,
+      0.14015279710292816,
+      0.9895921945571899
+    ],
+    "rest_t": [
+      42.64609146118164,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.005800914384545079,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 20.740291676340238,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 23.036756011916225
+  },
+  {
+    "bone": 15,
+    "parent": 14,
+    "name_hash": 10053479,
+    "source_transform_file_offset": 1060,
+    "source_parent_file_offset": 2962,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.7071068286895752,
+      0.7071067690849304
+    ],
+    "rest_t": [
+      9.80859088897705,
+      -12.623215675354004,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.007814502457192089,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.007814502457192089,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 21.50776431759357
+  },
+  {
+    "bone": 16,
+    "parent": 15,
+    "name_hash": 11902354,
+    "source_transform_file_offset": 1108,
+    "source_parent_file_offset": 2964,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      1.2793827056884766,
+      7.6199999057280365e-06,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 17,
+    "parent": 16,
+    "name_hash": 10670307,
+    "source_transform_file_offset": 1156,
+    "source_parent_file_offset": 2966,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      1.279380202293396,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 18,
+    "parent": 17,
+    "name_hash": 16101869,
+    "source_transform_file_offset": 1204,
+    "source_parent_file_offset": 2968,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      1.2793853282928467,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 19,
+    "parent": 14,
+    "name_hash": 4408490,
+    "source_transform_file_offset": 1252,
+    "source_parent_file_offset": 2970,
+    "rest_q": [
+      0.5792281627655029,
+      0.4055798053741455,
+      -0.40557995438575745,
+      0.5792276263237
+    ],
+    "rest_t": [
+      -75.2233657836914,
+      13.326667785644531,
+      12.264593124389648,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 99.63449334718928,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 99.63449334718928,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 99.63449334718928,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 20,
+    "parent": 3,
+    "name_hash": 9566488,
+    "source_transform_file_offset": 1300,
+    "source_parent_file_offset": 2972,
+    "rest_q": [
+      0.0,
+      0.0,
+      -0.047883886843919754,
+      0.9988529682159424
+    ],
+    "rest_t": [
+      11.087124824523926,
+      0.008785859681665897,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0035026011551013386,
+    "end_translation_delta": 0.00458303780541285,
+    "end_rotation_delta_degrees": 35.9283217423641,
+    "clip_max_translation_delta": 0.00458303780541285,
+    "clip_max_rotation_delta_degrees": 57.807292411353906
+  },
+  {
+    "bone": 21,
+    "parent": 20,
+    "name_hash": 8422181,
+    "source_transform_file_offset": 1348,
+    "source_parent_file_offset": 2974,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.10957907140254974,
+      0.9939781427383423
+    ],
+    "rest_t": [
+      11.089893341064453,
+      0.008615680038928986,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.004079107830060014,
+    "end_translation_delta": 0.0003660536074115044,
+    "end_rotation_delta_degrees": 19.76665627686039,
+    "clip_max_translation_delta": 0.006780954602198792,
+    "clip_max_rotation_delta_degrees": 48.10736717812518
+  },
+  {
+    "bone": 22,
+    "parent": 21,
+    "name_hash": 8442232,
+    "source_transform_file_offset": 1396,
+    "source_parent_file_offset": 2976,
+    "rest_q": [
+      0.0,
+      4.899999339613714e-07,
+      0.2147003561258316,
+      0.9766799807548523
+    ],
+    "rest_t": [
+      11.091670989990234,
+      0.00801623985171318,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.003548348189748833,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 4.2761272976649565,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 29.787413201135344
+  },
+  {
+    "bone": 23,
+    "parent": 22,
+    "name_hash": 7230066,
+    "source_transform_file_offset": 1444,
+    "source_parent_file_offset": 2978,
+    "rest_q": [
+      0.0,
+      4.700000033608376e-07,
+      0.34339916706085205,
+      0.939189612865448
+    ],
+    "rest_t": [
+      11.091239929199219,
+      0.0038938201032578945,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.006249167495513479,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 67.44486513880271,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 73.48509543782215
+  },
+  {
+    "bone": 24,
+    "parent": 23,
+    "name_hash": 6867481,
+    "source_transform_file_offset": 1492,
+    "source_parent_file_offset": 2980,
+    "rest_q": [
+      -0.1221449002623558,
+      -0.4004630446434021,
+      -0.012135299853980541,
+      0.9080544114112854
+    ],
+    "rest_t": [
+      6.396914005279541,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.005500008769421485,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 67.92565804819927,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 110.54654288462494
+  },
+  {
+    "bone": 25,
+    "parent": 24,
+    "name_hash": 12093663,
+    "source_transform_file_offset": 1540,
+    "source_parent_file_offset": 2982,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      20.043622970581055,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 26,
+    "parent": 24,
+    "name_hash": 4355303,
+    "source_transform_file_offset": 1588,
+    "source_parent_file_offset": 2984,
+    "rest_q": [
+      -0.5000001192092896,
+      -0.5000001192092896,
+      -0.49999967217445374,
+      0.5000001788139343
+    ],
+    "rest_t": [
+      -155.06979370117188,
+      -0.15002256631851196,
+      -0.3899763524532318,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 27,
+    "parent": 23,
+    "name_hash": 18537788,
+    "source_transform_file_offset": 1636,
+    "source_parent_file_offset": 2986,
+    "rest_q": [
+      -0.5603386163711548,
+      -0.27042829990386963,
+      -0.7504444122314453,
+      -0.22298525273799896
+    ],
+    "rest_t": [
+      0.0,
+      -0.0050850799307227135,
+      2.985236644744873,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 4.656612873077393e-10,
+    "frame0_rotation_delta_degrees": 0.0031602156746700933,
+    "end_translation_delta": 3.3147531184932255,
+    "end_rotation_delta_degrees": 67.45014138206614,
+    "clip_max_translation_delta": 3.5718181924540886,
+    "clip_max_rotation_delta_degrees": 73.49243365343648
+  },
+  {
+    "bone": 28,
+    "parent": 27,
+    "name_hash": 17483835,
+    "source_transform_file_offset": 1684,
+    "source_parent_file_offset": 2988,
+    "rest_q": [
+      -0.5379326343536377,
+      -0.5628824234008789,
+      0.27722951769828796,
+      0.5629705190658569
+    ],
+    "rest_t": [
+      13.348105430603027,
+      0.0,
+      2.539999968576012e-06,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.00783736250011338,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 112.18217942864432,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 122.45583045818611
+  },
+  {
+    "bone": 29,
+    "parent": 28,
+    "name_hash": 15190250,
+    "source_transform_file_offset": 1732,
+    "source_parent_file_offset": 2990,
+    "rest_q": [
+      0.0,
+      0.0,
+      -0.3037671148777008,
+      0.9527463316917419
+    ],
+    "rest_t": [
+      25.587705612182617,
+      -2.539999968576012e-06,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0038006339690984806,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 81.93146898460256,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 84.46850098913436
+  },
+  {
+    "bone": 30,
+    "parent": 29,
+    "name_hash": 10027428,
+    "source_transform_file_offset": 1780,
+    "source_parent_file_offset": 2992,
+    "rest_q": [
+      -0.7068254351615906,
+      0.0,
+      0.0,
+      0.7073881030082703
+    ],
+    "rest_t": [
+      25.587705612182617,
+      2.539999968576012e-06,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.005038106350585091,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 55.59718526375556,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 56.918928653426974
+  },
+  {
+    "bone": 31,
+    "parent": 30,
+    "name_hash": 14322805,
+    "source_transform_file_offset": 1828,
+    "source_parent_file_offset": 2994,
+    "rest_q": [
+      0.0003452700038906187,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      10.661498069763184,
+      0.0,
+      2.539999968576012e-06,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 32,
+    "parent": 31,
+    "name_hash": 22008826,
+    "source_transform_file_offset": 1876,
+    "source_parent_file_offset": 2996,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      2.665374517440796,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 33,
+    "parent": 29,
+    "name_hash": 3784927,
+    "source_transform_file_offset": 1924,
+    "source_parent_file_offset": 2998,
+    "rest_q": [
+      0.45281800627708435,
+      -0.49526652693748474,
+      -0.5521522164344788,
+      -0.494767427444458
+    ],
+    "rest_t": [
+      117.42292785644531,
+      -8.100237846374512,
+      -30.56788444519043,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 34,
+    "parent": 28,
+    "name_hash": 3796878,
+    "source_transform_file_offset": 1972,
+    "source_parent_file_offset": 3000,
+    "rest_q": [
+      -0.49999988079071045,
+      0.4475860893726349,
+      0.4999999403953552,
+      0.5474185347557068
+    ],
+    "rest_t": [
+      142.27911376953125,
+      15.389579772949219,
+      -30.56788444519043,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 2.4148365394514667e-06,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 2.4148365394514667e-06,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 2.4148365394514667e-06
+  },
+  {
+    "bone": 35,
+    "parent": 27,
+    "name_hash": 5039867,
+    "source_transform_file_offset": 2020,
+    "source_parent_file_offset": 3002,
+    "rest_q": [
+      -0.03062717244029045,
+      0.13869114220142365,
+      0.6488980054855347,
+      0.7475012540817261
+    ],
+    "rest_t": [
+      33.590736389160156,
+      -21.190610885620117,
+      -143.37283325195312,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 36,
+    "parent": 27,
+    "name_hash": 5091058,
+    "source_transform_file_offset": 2068,
+    "source_parent_file_offset": 3004,
+    "rest_q": [
+      -0.030626898631453514,
+      0.13869090378284454,
+      0.6488981246948242,
+      0.7475012540817261
+    ],
+    "rest_t": [
+      10.210952758789062,
+      -4.330471515655518,
+      -7.598994255065918,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 37,
+    "parent": 23,
+    "name_hash": 18614306,
+    "source_transform_file_offset": 2116,
+    "source_parent_file_offset": 3006,
+    "rest_q": [
+      0.563226580619812,
+      0.2620626389980316,
+      -0.7491183876991272,
+      -0.2300451099872589
+    ],
+    "rest_t": [
+      0.0,
+      -0.005100320093333721,
+      -2.985211133956909,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 4.656612873077393e-10,
+    "frame0_rotation_delta_degrees": 0.005850108111392568,
+    "end_translation_delta": 3.314738941619749,
+    "end_rotation_delta_degrees": 92.01613462888851,
+    "clip_max_translation_delta": 3.5718044671496094,
+    "clip_max_rotation_delta_degrees": 97.894897642789
+  },
+  {
+    "bone": 38,
+    "parent": 37,
+    "name_hash": 17560353,
+    "source_transform_file_offset": 2164,
+    "source_parent_file_offset": 3008,
+    "rest_q": [
+      0.2815030515193939,
+      0.5903054475784302,
+      0.047437138855457306,
+      0.7550134658813477
+    ],
+    "rest_t": [
+      13.947064399719238,
+      0.0,
+      -2.539999968576012e-06,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.00787847776653461,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 124.30244793076776,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 125.66853742197578
+  },
+  {
+    "bone": 39,
+    "parent": 38,
+    "name_hash": 15266768,
+    "source_transform_file_offset": 2212,
+    "source_parent_file_offset": 3010,
+    "rest_q": [
+      0.0,
+      0.0,
+      -0.36661994457244873,
+      0.9303707480430603
+    ],
+    "rest_t": [
+      25.587705612182617,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.003496683309261384,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 26.538397106281113,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 28.586392372555476
+  },
+  {
+    "bone": 40,
+    "parent": 39,
+    "name_hash": 10103946,
+    "source_transform_file_offset": 2260,
+    "source_parent_file_offset": 3012,
+    "rest_q": [
+      0.706825852394104,
+      0.0,
+      0.0,
+      0.7073876857757568
+    ],
+    "rest_t": [
+      25.587705612182617,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0048907230811180875,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 48.00038891608753,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 49.98089531705242
+  },
+  {
+    "bone": 41,
+    "parent": 40,
+    "name_hash": 14399323,
+    "source_transform_file_offset": 2308,
+    "source_parent_file_offset": 3014,
+    "rest_q": [
+      -0.0003452700038906187,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      10.661498069763184,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 42,
+    "parent": 41,
+    "name_hash": 22085344,
+    "source_transform_file_offset": 2356,
+    "source_parent_file_offset": 3016,
+    "rest_q": [
+      0.0,
+      0.0,
+      -1.0,
+      1.5999999902760464e-07
+    ],
+    "rest_t": [
+      2.665374517440796,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 43,
+    "parent": 39,
+    "name_hash": 4299237,
+    "source_transform_file_offset": 2404,
+    "source_parent_file_offset": 3018,
+    "rest_q": [
+      0.4947670102119446,
+      -0.5521524548530579,
+      -0.4952661991119385,
+      -0.45281854271888733
+    ],
+    "rest_t": [
+      117.28730010986328,
+      -8.324392318725586,
+      30.393386840820312,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 44,
+    "parent": 38,
+    "name_hash": 4313510,
+    "source_transform_file_offset": 2452,
+    "source_parent_file_offset": 3020,
+    "rest_q": [
+      -0.547418475151062,
+      0.4999999403953552,
+      0.4475855231285095,
+      0.5000002980232239
+    ],
+    "rest_t": [
+      142.1907196044922,
+      15.142895698547363,
+      30.393386840820312,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 2.4148365394514667e-06,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 2.4148365394514667e-06,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 2.4148365394514667e-06
+  },
+  {
+    "bone": 45,
+    "parent": 37,
+    "name_hash": 4328701,
+    "source_transform_file_offset": 2500,
+    "source_parent_file_offset": 3022,
+    "rest_q": [
+      -0.7400756478309631,
+      0.6574593782424927,
+      0.13797390460968018,
+      0.03159989416599274
+    ],
+    "rest_t": [
+      34.12159729003906,
+      -21.079383850097656,
+      143.24761962890625,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 46,
+    "parent": 37,
+    "name_hash": 4341624,
+    "source_transform_file_offset": 2548,
+    "source_parent_file_offset": 3024,
+    "rest_q": [
+      -0.7400753498077393,
+      0.6574597358703613,
+      0.137973815202713,
+      0.031599730253219604
+    ],
+    "rest_t": [
+      12.012701988220215,
+      -4.254652500152588,
+      7.158126354217529,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 47,
+    "parent": 21,
+    "name_hash": 4381510,
+    "source_transform_file_offset": 2596,
+    "source_parent_file_offset": 3026,
+    "rest_q": [
+      -0.53270024061203,
+      -0.4650059938430786,
+      -0.46500542759895325,
+      0.5327006578445435
+    ],
+    "rest_t": [
+      -125.09601593017578,
+      20.811742782592773,
+      -0.39003732800483704,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 2.4148365394514667e-06,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 2.4148365394514667e-06,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 2.4148365394514667e-06
+  },
+  {
+    "bone": 48,
+    "parent": 2,
+    "name_hash": 5084108,
+    "source_transform_file_offset": 2644,
+    "source_parent_file_offset": 3028,
+    "rest_q": [
+      -0.5000002980232239,
+      -0.4999992847442627,
+      -0.5000007152557373,
+      0.4999998211860657
+    ],
+    "rest_t": [
+      -95.0272445678711,
+      6.878167629241943,
+      -0.39009830355644226,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 49,
+    "parent": 0,
+    "name_hash": 205404,
+    "source_transform_file_offset": 2692,
+    "source_parent_file_offset": 3030,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 362.82373046875,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 362.8237609863281,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 50,
+    "parent": 0,
+    "name_hash": 3794661,
+    "source_transform_file_offset": 2740,
+    "source_parent_file_offset": 3032,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 51,
+    "parent": 0,
+    "name_hash": 25062240,
+    "source_transform_file_offset": 2788,
+    "source_parent_file_offset": 3034,
+    "rest_q": [
+      -0.9006664156913757,
+      0.13523820042610168,
+      0.23853835463523865,
+      -0.3370610177516937
+    ],
+    "rest_t": [
+      56.01029968261719,
+      52.72074890136719,
+      91.9975357055664,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 165.31799810696563,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 165.3180014835908,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 52,
+    "parent": 0,
+    "name_hash": 8044741,
+    "source_transform_file_offset": 2836,
+    "source_parent_file_offset": 3036,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      2.9279849529266357,
+      2.3730838298797607,
+      -0.7578800916671753,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.0,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 0.0,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 0.0
+  },
+  {
+    "bone": 53,
+    "parent": 0,
+    "name_hash": 5052029,
+    "source_transform_file_offset": 2884,
+    "source_parent_file_offset": 3038,
+    "rest_q": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "rest_t": [
+      -98.13925170898438,
+      -11.049633979797363,
+      158.0728302001953,
+      1.0
+    ],
+    "rest_s": [
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "frame0_translation_delta": 0.0,
+    "frame0_rotation_delta_degrees": 0.004282544949981524,
+    "end_translation_delta": 0.0,
+    "end_rotation_delta_degrees": 95.0051472470687,
+    "clip_max_translation_delta": 0.0,
+    "clip_max_rotation_delta_degrees": 95.0051472470687
+  }
+]

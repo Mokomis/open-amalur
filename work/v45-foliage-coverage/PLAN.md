@@ -1,0 +1,1 @@
+Compare original and current canopy coverage. Diagnostic leaflod0 forces finest cutout geometry only; opaque trunks/ground retain normalLOD. Originalv035 source/exe/referenceproperties preserved inbefore. NoAndroid update. Independently auditinstanceplacement andmissingparts fromcapturedsource evidence.

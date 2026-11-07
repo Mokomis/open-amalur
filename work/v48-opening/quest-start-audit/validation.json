@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "static_consistency_checks": 11,
+  "checks": [
+    "main_menu normalNewGame route",
+    "main_menu_packed normalNewGame route",
+    "main_menu passes source callback",
+    "main_menu_packed passes source callback",
+    "loading_screen stores function callback",
+    "loading_screen_packed stores function callback",
+    "creator finish guarded source callback",
+    "MQ source call order",
+    "native unstarted set guard",
+    "native successful start setsindex0",
+    "native absent/unstarted sentinel"
+  ],
+  "quest_source_versions_preserved": true,
+  "gameplay_executed": false,
+  "native_executed": false
+}

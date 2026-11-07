@@ -1,0 +1,5251 @@
+{
+  "passed": true,
+  "case_files": 48,
+  "source_unique_buffs": 13,
+  "atomic_opening_file": {
+    "file": "atomic.creation-gameplay-v1.bin",
+    "size": 3326,
+    "sha256": "8aca043c197cc42c2b527a35ef11e7a64f030e245b21dfbd1616325a1505fce9",
+    "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+    "race": 0,
+    "sex": 0,
+    "patron_index": 0,
+    "name": "Elrid",
+    "transaction": 987,
+    "catalogue_crc": 2693632117,
+    "owner": {
+      "patron": 1254092,
+      "health": 100,
+      "maxhealth": 100,
+      "destiny_buff": 385357,
+      "destiny_identifier": 9325294,
+      "started": 1,
+      "passive": 1,
+      "destiny_locked": 1,
+      "fateweaver_locked": 1,
+      "quest_stage": 5,
+      "finalized": 1,
+      "package4": 0,
+      "stealth_registered": 1,
+      "reckoning_registered": 1,
+      "stealth": 0,
+      "sees": 0,
+      "reckoning": 0,
+      "revision": 6
+    },
+    "skills": [
+      10,
+      20,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0
+    ],
+    "item_count": 162,
+    "opening": {
+      "inside": 1,
+      "initialized": 1,
+      "skipped": 1,
+      "container_count": 0,
+      "owned": 1,
+      "equipped": 1,
+      "door_open": 1,
+      "secondary_disabled": 1,
+      "compare_enabled": 1,
+      "revision": 6,
+      "quest_noops": 1,
+      "pose": [
+        4015.905029296875,
+        2805.991943359375,
+        -315.7879943847656,
+        -3.1415927410125732,
+        0.125
+      ],
+      "identity": "scene1417252:player1:g17",
+      "lua": {
+        "version": 1,
+        "wos_flags": 28544,
+        "sword_flags": 3,
+        "cinematic_flags": 1,
+        "sword_get": 1,
+        "clock": 15,
+        "serial": 2
+      },
+      "timers": [],
+      "tutorials": [
+        {
+          "id": 17524338,
+          "active": 0,
+          "fired": 0,
+          "kills": 1
+        },
+        {
+          "id": 26339831,
+          "active": 0,
+          "fired": 0,
+          "kills": 1
+        },
+        {
+          "id": 40879367,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 61835887,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 49968583,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        }
+      ]
+    }
+  },
+  "all_case_receipts": [
+    {
+      "file": "r0-s0-p0.creation-gameplay-v1.bin",
+      "size": 3326,
+      "sha256": "17f83d2fe4e7d3e8560a373ad5bc1fa694f3982496fbb9e9bbdeab957b266a8d",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 0,
+      "patron_index": 0,
+      "name": "Elrid",
+      "transaction": 100,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254092,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s0-p1.creation-gameplay-v1.bin",
+      "size": 3374,
+      "sha256": "bb0c034e2beadf4760928e6666407556a7c72cdb0c916da2eff095e176c173ce",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 0,
+      "patron_index": 1,
+      "name": "Elrid",
+      "transaction": 101,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254094,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s0-p2.creation-gameplay-v1.bin",
+      "size": 3326,
+      "sha256": "9d17d509b19d3d92cbae3ddc6b5abb28370c3a007ac2ec3cd1c74eb588eca69a",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 0,
+      "patron_index": 2,
+      "name": "Elrid",
+      "transaction": 102,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254095,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s0-p3.creation-gameplay-v1.bin",
+      "size": 3374,
+      "sha256": "ba3b7c4c45c752d2d776f7076e49a16fdb5835e1d8043117a0ff08dd9d38e6b8",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 0,
+      "patron_index": 3,
+      "name": "Elrid",
+      "transaction": 103,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 93,
+        "maxhealth": 104,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s0-p4.creation-gameplay-v1.bin",
+      "size": 3326,
+      "sha256": "37b69bf5bd51c7f520a856f4ba7e00abf20e900cf77dfa75abc21b7aaae32e24",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 0,
+      "patron_index": 4,
+      "name": "Elrid",
+      "transaction": 104,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254101,
+        "health": 99,
+        "maxhealth": 110,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s0-p5.creation-gameplay-v1.bin",
+      "size": 3374,
+      "sha256": "419e1bef9632aab24dab1339d07748ea6098b0766c133e9239957615648e9bf1",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 0,
+      "patron_index": 5,
+      "name": "Elrid",
+      "transaction": 105,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s1-p0.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "f6bf5820b9171d93fef5e1967ee2202be96717140f1fb6efa7303f42d54d720a",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 0,
+      "name": "Aidith",
+      "transaction": 106,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254092,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s1-p1.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "9da1c3235640da7d98f6358e6b75f684a9475f263585ffb25fd912f95f1156d1",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 1,
+      "name": "Aidith",
+      "transaction": 107,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254094,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s1-p2.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "85eae2cc8867c2b497397646237742572c4dc43bd69a12d05495ebc625a47443",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 2,
+      "name": "Aidith",
+      "transaction": 108,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254095,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s1-p3.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "c48f3e1de8041af718936884ecd415c027fd30fa9f1adc2b192140056cc72e81",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 3,
+      "name": "Aidith",
+      "transaction": 109,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 93,
+        "maxhealth": 104,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s1-p4.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "13a9183b13a211b9dd9e9f7a6a4d3a4aacb6ae2d5ca1e4b6ca95e83e7ebbb21d",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 4,
+      "name": "Aidith",
+      "transaction": 110,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254101,
+        "health": 99,
+        "maxhealth": 110,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r0-s1-p5.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "2abd05d2feb8c0b8645e15389499bf6b152bf194f05363f3b7b667bbb3a61534",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 5,
+      "name": "Aidith",
+      "transaction": 111,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s0-p0.creation-gameplay-v1.bin",
+      "size": 3377,
+      "sha256": "5bfc4c2f396a9642cc2492b90e5e9ee47622f5eed05bda3321c61940021c2418",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 0,
+      "patron_index": 0,
+      "name": "Stigandr",
+      "transaction": 112,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254092,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s0-p1.creation-gameplay-v1.bin",
+      "size": 3329,
+      "sha256": "b5f04cb2cc554363ae8fb08edb8783be0dea364dc4b9bfd69c2fdf4d2f09d8e3",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 0,
+      "patron_index": 1,
+      "name": "Stigandr",
+      "transaction": 113,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254093,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s0-p2.creation-gameplay-v1.bin",
+      "size": 3377,
+      "sha256": "105e56848802e3787301adb5377b3b425f141b84efda4ef84a7954e6a4f199ff",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 0,
+      "patron_index": 2,
+      "name": "Stigandr",
+      "transaction": 114,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254095,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s0-p3.creation-gameplay-v1.bin",
+      "size": 3329,
+      "sha256": "3478f4e0ee2de8a8fe32f5686d241c2f66632ca599ed56953d393211ebcd9331",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 0,
+      "patron_index": 3,
+      "name": "Stigandr",
+      "transaction": 115,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254097,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s0-p4.creation-gameplay-v1.bin",
+      "size": 3377,
+      "sha256": "9fe28445607296f146b6ba3088bec2b6cdf8256826a71ac9da169d53107d0660",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 0,
+      "patron_index": 4,
+      "name": "Stigandr",
+      "transaction": 116,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254102,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s0-p5.creation-gameplay-v1.bin",
+      "size": 3329,
+      "sha256": "f1b1cba72d18f85ecc461a929f9b8b1c5d63a690d4599bb9f7a14b2656d47e9c",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 0,
+      "patron_index": 5,
+      "name": "Stigandr",
+      "transaction": 117,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s1-p0.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "1d03555c325c037763cfcaa54b969558bbce8a8da251a70fce6f01ce830d46f2",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 1,
+      "patron_index": 0,
+      "name": "Isolda",
+      "transaction": 118,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254092,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s1-p1.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "11112de59c3926be8e29b49f703ef3ea8afffdc60e989f5eba24896fd9810b30",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 1,
+      "patron_index": 1,
+      "name": "Isolda",
+      "transaction": 119,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254093,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s1-p2.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "62972c07a6e07cea0838533d095b79c38332d74a216799abfcfaa1b853c3d300",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 1,
+      "patron_index": 2,
+      "name": "Isolda",
+      "transaction": 120,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254095,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s1-p3.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "69be24d6f40d4058a4b23f4c3945ef9dc8ea72a9ea324870c53dd17b46336e61",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 1,
+      "patron_index": 3,
+      "name": "Isolda",
+      "transaction": 121,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254097,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s1-p4.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "9e6a3f8ab755d0c45e35a66481f30e02650d2716f9fef422d6436785ad317d53",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 1,
+      "patron_index": 4,
+      "name": "Isolda",
+      "transaction": 122,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254102,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r1-s1-p5.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "7d5685a778bb49e59c360891fc425862ff488f3b7ac6b8eccdf3d4d5090d783e",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 1,
+      "sex": 1,
+      "patron_index": 5,
+      "name": "Isolda",
+      "transaction": 123,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        10,
+        0,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s0-p0.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "e9d8670953658ed79cad4e623aa6d77f33ea4ad97feb33b6cfe672e7296f7506",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 0,
+      "name": "Lorcan",
+      "transaction": 124,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254079,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s0-p1.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "07d875d39c7563f129010f6995ce59ce0a07660b7d2daae72cc3f13f65066ea9",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 1,
+      "name": "Lorcan",
+      "transaction": 125,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254091,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s0-p2.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "eda74aadbfdf9e24a9bdb8a7fc29cf80fd7c2c0594b37eafe5d755584055922b",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 2,
+      "name": "Lorcan",
+      "transaction": 126,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254094,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s0-p3.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "0609fcc7010d8808a92128e1db5d421b81cff0bffa58c5e615871c1bc32884ee",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 3,
+      "name": "Lorcan",
+      "transaction": 127,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 93,
+        "maxhealth": 104,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s0-p4.creation-gameplay-v1.bin",
+      "size": 3327,
+      "sha256": "791a2fd32818449eee2368508b49796c53f06505155f2a46d34cd90bb92c67a4",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 4,
+      "name": "Lorcan",
+      "transaction": 128,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254101,
+        "health": 99,
+        "maxhealth": 110,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s0-p5.creation-gameplay-v1.bin",
+      "size": 3375,
+      "sha256": "d1349114c5a8e29e1df9c42e129262c1ab4ec7c19776ea0bc18bf77f75122827",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 5,
+      "name": "Lorcan",
+      "transaction": 129,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s1-p0.creation-gameplay-v1.bin",
+      "size": 3376,
+      "sha256": "7af03da0dd427888608c0431da8a11e2a48b97014333aa5fcd1f1b8ed635aeaf",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 1,
+      "patron_index": 0,
+      "name": "Siobhan",
+      "transaction": 130,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254079,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s1-p1.creation-gameplay-v1.bin",
+      "size": 3328,
+      "sha256": "b5c66a55119cc365069baefa63ca00e103c5d2022ee21c4d076fbec6ca00c8c6",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 1,
+      "patron_index": 1,
+      "name": "Siobhan",
+      "transaction": 131,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254091,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s1-p2.creation-gameplay-v1.bin",
+      "size": 3376,
+      "sha256": "c5ca391b06b5a37cf3d506e6f63a0fc7bb0c1a4a1a38883c5b1ba025f8861e38",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 1,
+      "patron_index": 2,
+      "name": "Siobhan",
+      "transaction": 132,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254094,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s1-p3.creation-gameplay-v1.bin",
+      "size": 3328,
+      "sha256": "f7ac56e6b17d099fe3965e9ede8d9bd002b2117059afa51df87ca7f943898c91",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 1,
+      "patron_index": 3,
+      "name": "Siobhan",
+      "transaction": 133,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 93,
+        "maxhealth": 104,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s1-p4.creation-gameplay-v1.bin",
+      "size": 3376,
+      "sha256": "ec90fb84407d8de33ee5b1bdde271dc79d441a0862a8885d491343b9001e9a88",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 1,
+      "patron_index": 4,
+      "name": "Siobhan",
+      "transaction": 134,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254101,
+        "health": 99,
+        "maxhealth": 110,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r2-s1-p5.creation-gameplay-v1.bin",
+      "size": 3328,
+      "sha256": "a0e6c402e58bfc90f0d7b85bc921f5cb4e4a3f380521ef3718f4e7029a289404",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 1,
+      "patron_index": 5,
+      "name": "Siobhan",
+      "transaction": 135,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s0-p0.creation-gameplay-v1.bin",
+      "size": 3376,
+      "sha256": "cc013a41d77fe8edeb5c16096d7f46d3946ad542b4aff2b94f5205dcbf49ab42",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 0,
+      "patron_index": 0,
+      "name": "Caerwyn",
+      "transaction": 136,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254094,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s0-p1.creation-gameplay-v1.bin",
+      "size": 3328,
+      "sha256": "49ab8bc7314939161a736b9a96dbfcf21d2e52c17af22bd33bf5517dbc68f028",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 0,
+      "patron_index": 1,
+      "name": "Caerwyn",
+      "transaction": 137,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254096,
+        "health": 93,
+        "maxhealth": 104,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s0-p2.creation-gameplay-v1.bin",
+      "size": 3376,
+      "sha256": "d167ca8d00ac32bdb183ac1eff392ccf3e7241e38d6213242d00e5bbe08044a4",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 0,
+      "patron_index": 2,
+      "name": "Caerwyn",
+      "transaction": 138,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254097,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s0-p3.creation-gameplay-v1.bin",
+      "size": 3328,
+      "sha256": "381481f2eb8cf39f31690b4ada8cf03a2a5c856859942da600bded8892c61f7b",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 0,
+      "patron_index": 3,
+      "name": "Caerwyn",
+      "transaction": 139,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254098,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s0-p4.creation-gameplay-v1.bin",
+      "size": 3376,
+      "sha256": "36e8c50063b18004e0fb4575d1d083617a429326476355b0230881c4b891ef46",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 0,
+      "patron_index": 4,
+      "name": "Caerwyn",
+      "transaction": 140,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254102,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s0-p5.creation-gameplay-v1.bin",
+      "size": 3328,
+      "sha256": "1ba11e1f01a239350dbce662486f3869637b27ddc7a73355ff57f17c7f168bd3",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 0,
+      "patron_index": 5,
+      "name": "Caerwyn",
+      "transaction": 141,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s1-p0.creation-gameplay-v1.bin",
+      "size": 3325,
+      "sha256": "a32f6d02facd24ce68a0c901bbd3638e25ee88874baa615cb4f7ea12d0828d5c",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 1,
+      "patron_index": 0,
+      "name": "Niah",
+      "transaction": 142,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254094,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s1-p1.creation-gameplay-v1.bin",
+      "size": 3373,
+      "sha256": "edc0b1d437a20cf831db67596edef2834cb7a08317b824fcf54673a98a6ea098",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 1,
+      "patron_index": 1,
+      "name": "Niah",
+      "transaction": 143,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254096,
+        "health": 93,
+        "maxhealth": 104,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s1-p2.creation-gameplay-v1.bin",
+      "size": 3325,
+      "sha256": "112ee249b1f28a91b60164f1219c5609da6a63a5b8ec973441cccd4d04782c5f",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 1,
+      "patron_index": 2,
+      "name": "Niah",
+      "transaction": 144,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254097,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s1-p3.creation-gameplay-v1.bin",
+      "size": 3373,
+      "sha256": "322aaa7f6fcaf36fa326f269ec7546f5786d6691e58b3b303ca10ee86666a9f2",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 1,
+      "patron_index": 3,
+      "name": "Niah",
+      "transaction": 145,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254098,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s1-p4.creation-gameplay-v1.bin",
+      "size": 3325,
+      "sha256": "866b39b256001da6828e7a90708f744c4d31a1caf707a9a40d660420b6ae0857",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 1,
+      "patron_index": 4,
+      "name": "Niah",
+      "transaction": 146,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254102,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 0,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 162,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "r3-s1-p5.creation-gameplay-v1.bin",
+      "size": 3373,
+      "sha256": "53fe221a07bc4165616fe9e7ed3641f47f458c67dbd63568d1a94ea7446534a0",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 3,
+      "sex": 1,
+      "patron_index": 5,
+      "name": "Niah",
+      "transaction": 147,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1697849,
+        "health": 89,
+        "maxhealth": 100,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        10,
+        20
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 1,
+        "owned": 0,
+        "equipped": 0,
+        "door_open": 0,
+        "secondary_disabled": 0,
+        "compare_enabled": 0,
+        "revision": 1,
+        "quest_noops": 0,
+        "pose": [
+          4311.998046875,
+          2805.991943359375,
+          -314.53900146484375,
+          -3.1415927410125732,
+          0.125
+        ],
+        "identity": "scene1417252:player1:g17",
+        "lua": {
+          "version": 1,
+          "wos_flags": 1920,
+          "sword_flags": 0,
+          "cinematic_flags": 0,
+          "sword_get": 0,
+          "clock": 0,
+          "serial": 0
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "actual private C production-runtime output; independent field-wise/checksum/source-data comparison"
+}

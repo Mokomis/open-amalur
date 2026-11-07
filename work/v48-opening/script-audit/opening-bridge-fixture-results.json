@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "checks": 46,
+  "source_functions": 8,
+  "scope": "Original Lua first-room callbacks via authored explicit bridge, simulated acknowledged host services; no game/live/user-state execution",
+  "main_route_effects": [
+    {
+      "name": "tutorial_win.kill_tutorial",
+      "args": {
+        "1": 17524338,
+        "n": 1
+      }
+    },
+    {
+      "name": "tutorial_win.kill_tutorial",
+      "args": {
+        "1": 26339831,
+        "n": 1
+      }
+    },
+    {
+      "name": "interfaceLibrary.autosave_request",
+      "args": {
+        "1": 0,
+        "n": 1
+      }
+    },
+    {
+      "name": "tutorial_win.disable_secondary_weapon",
+      "args": {
+        "1": true,
+        "n": 1
+      }
+    },
+    {
+      "name": "tutorial_win.launch_modal_tutorial",
+      "args": {
+        "1": 49968583,
+        "n": 1
+      }
+    },
+    {
+      "name": "ACTOR.open_gateway",
+      "args": {
+        "1": 1790948,
+        "n": 1
+      }
+    },
+    {
+      "name": "loot_popup.enable_compare",
+      "args": {
+        "n": 0
+      }
+    },
+    {
+      "name": "QUEST.set_stage",
+      "args": {
+        "1": 613083,
+        "2": 25,
+        "n": 2
+      }
+    }
+  ],
+  "unknowns_fail": true,
+  "transactional_internal_state": true,
+  "clock_policy": "Monotonic paused-game milliseconds supplied by host; newly scheduled timers run from current frame time; native scheduler/pause behavior not claimed."
+}

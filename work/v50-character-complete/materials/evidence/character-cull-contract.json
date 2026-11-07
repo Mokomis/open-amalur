@@ -1,0 +1,55 @@
+{
+  "native_function": "01070c60",
+  "sourceCull_to_D3D11CullMode": {
+    "0": 1,
+    "1": 2,
+    "2": 3
+  },
+  "source_winding_to_FrontCounterClockwise": {
+    "0": true,
+    "1": false
+  },
+  "native_recorded_cull": "BACK",
+  "native_recorded_front": "CLOCKWISE",
+  "native_viewport": {
+    "index": 62519,
+    "vkFunc": {
+      "name": "vkCmdSetViewport",
+      "args": {
+        "commandBuffer": 46,
+        "firstViewport": 0,
+        "viewportCount": 1,
+        "pViewports": [
+          {
+            "x": 0.0,
+            "y": 864.0,
+            "width": 1536.0,
+            "height": -864.0,
+            "minDepth": 0.0,
+            "maxDepth": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "source_outward_cross_dot_normal": {
+    "positive": 10991,
+    "negative": 3
+  },
+  "GL_fixture": {
+    "cw": {
+      "pixels_different_from_disabled": 26627,
+      "rgb_sum_abs_delta": 1341412,
+      "nonzero_alpha": 27066,
+      "sha256": "ed379719a56dc26e82536c0c00d72bed58976f6444040a84248f37543fb71cee"
+    },
+    "ccw": {
+      "pixels_different_from_disabled": 405,
+      "rgb_sum_abs_delta": 14063,
+      "nonzero_alpha": 27086,
+      "sha256": "6c51df77e5a405a45a879d4acee3e8d25d6ff0e30de2d023576af48bab2936d2"
+    }
+  },
+  "conclusion": "For unchanged source indices, orientation-preserving component transforms and ordinary positive-height GLES viewport with no clipY inversion: GL_BACK, GL_CCW. Reflection or explicit clipY inversion would reverse this; caller owns state.",
+  "implementation_modified": false
+}

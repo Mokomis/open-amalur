@@ -1,0 +1,15 @@
+{
+  "action": "source-only directTRS/native nearroot mesh; othergeometrypreserved",
+  "source_receipt": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\image-band-audit\\root-staging\\receipt.json",
+  "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\assets\\world\\c1_-13_0.bin",
+  "before": "b5a893a08a53443a98383c644b60e0bad008f2c375ea674a3c4adaf58ba1987c",
+  "after": "d897d9930dab9bafed07e2e64a037516622280488b41e0810124b0d1b97f5aa7",
+  "backup": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\before-world\\c1_-13_0.bin",
+  "waterfall_files_changed": false,
+  "limits": [
+    "One source-authored root fixture only; no global placement or LOD policy inferred.",
+    "Source quaternion conjugate rotation and scale produce native matrix within measured error; direct TRS needs no captured save-specific placement.",
+    "Staged whole cell changes only matching target root triangles and appends its near assembly; all original vertex bytes remain.",
+    "No deployment, core editing or waterfall asset changes."
+  ]
+}

@@ -1,0 +1,51 @@
+Opem Amalur Android scene viewer — staged integration component
+
+This NativeActivity displays the imported geometry in assets/scene.bin. It has
+no Java/Dex, no invented scene geometry and no fallback assets. A missing or
+invalid scene produces an explicit Android log error and an empty surface.
+This is an inspection viewer, not a playable reconstruction or original-render
+equivalence claim. Lighting and orbit controls are authored inspection aids.
+
+Import format
+The format is authored for this project and is not the original game format:
+  8bytes OMSC07\0\0
+  little-endian u32 vertex count
+  6little-endian binary32 bounds: minXYZ then maxXYZ
+  vertex count records of9binary32: positionXYZ,normalXYZ,colorRGB
+The count is a nonempty multiple of3. Header36bytes, records36bytes. Input
+length must match exactly, all components must be finite and all positions
+must fall within declared bounds (small rounding tolerance). Bounds must have
+usable extent; the viewer admits absolute coordinates up to1e9. Maximum file
+size256MiB. Parent importer evidence must tie each record to real game data.
+
+Build integration
+Add include(android_scene.cmake) at the end of the enclosing CMakeLists.txt.
+The fragment adds portable parser test/inspector targets on Windows and the
+opem_amalur_scene shared library on Android. It links only native platform
+libraries (android,log,EGL,GLESv3,m) plus the portable scene parser.
+Use arm64-v8a, AndroidAPI26 or later. Shared-library LOAD alignment is16KiB.
+Package libopem_amalur_scene.so under lib/arm64-v8a and scene.bin under assets.
+AndroidManifest.xml declares NativeActivity, no Java code, targetSDK35 and
+GLES3. APK assembly/signing is performed by the parent workflow.
+
+Controls and lifecycle
+One finger or pointer drags the orbit camera; two-finger pinch changes distance.
+Game coordinates remainZ-up. Initial framing derives from real scene bounds.
+No original camera, world units, materials or lighting behavior is claimed.
+The render worker alone owns EGL/GLES and attaches/detaches input queues.
+Framework window/queue destroy callbacks wait for worker teardown before their
+objects can retire. Native windows use acquired references. Activity destruction
+sets stop, wakes, joins the worker and releases instance resources. Paused
+activities wait on the looper rather than continuously drawing.
+
+Script connection
+The optional weak C hook amalur_scene_script_hook(mesh,asset_manager) runs once
+on the worker after a real mesh validates. If absent, no scripts are executed.
+A host-supplied implementation must bound work and establish real provider
+contracts. This hook does not fabricate world queries or infer game behavior.
+
+Validation to perform on Windows
+Build amalur-scene-mesh-test and amalur-scene-mesh-inspect; run the test and
+inspect the actual scene.bin. Cross-build the Android shared library and inspect
+its ELF. Actual Android launch, rendering, touch and lifecycle checks require
+device/emulator execution and remain unverified until recorded separately.

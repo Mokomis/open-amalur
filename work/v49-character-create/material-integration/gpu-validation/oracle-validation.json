@@ -1,0 +1,1338 @@
+{
+  "case_count": 26,
+  "width": 32,
+  "height": 32,
+  "production_material_cases": 24,
+  "diagnostic_basis_cases": 2,
+  "source_math": "NativePS352: rim=sat(Fx*pow(1-sat(dot(mappedN,V)),Fy));rawBase=(D+ExtraX*rim)*VCrgb*VCa;G2=half(sat(CharacterCube*VCa*rawBase));lights/shadow/sun/fog/AOoff;RGBA8=roundEven(sat(G2)*255). ConstantColor and generic ambient globals intentionally absent from oracle.",
+  "comparison_tolerance_codes": 1,
+  "tolerance_reason": "CPU source arithmetic and ANGLE highp pow/normalize/interpolation may differ around an 8bit rounding boundary; all exact per-channel differences reported, no ignored samples.",
+  "max_abs_code_delta": 1,
+  "total_mismatched_channels": 618,
+  "total_channels": 106496,
+  "constant_and_genericambient_all_pairs_byte_identical": true,
+  "basis_scaled_vs_unit_max_code_delta": 0,
+  "counterfactual_no_vertex_normalization_max_normal_code_delta": 19,
+  "all_alpha_zero_black": true,
+  "tests_passed": true,
+  "cases": [
+    {
+      "id": 0,
+      "file": "case-00.rgba",
+      "alpha": 0,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-00-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 1,
+      "file": "case-01.rgba",
+      "alpha": 0,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-01-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 2,
+      "file": "case-02.rgba",
+      "alpha": 0,
+      "fresnel_on": 0,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-02-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 3,
+      "file": "case-03.rgba",
+      "alpha": 0,
+      "fresnel_on": 0,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-03-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 4,
+      "file": "case-04.rgba",
+      "alpha": 0,
+      "fresnel_on": 1,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-04-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 5,
+      "file": "case-05.rgba",
+      "alpha": 0,
+      "fresnel_on": 1,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-05-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 6,
+      "file": "case-06.rgba",
+      "alpha": 0,
+      "fresnel_on": 1,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-06-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 7,
+      "file": "case-07.rgba",
+      "alpha": 0,
+      "fresnel_on": 1,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "oracle_file": "case-07-oracle.rgba",
+      "actual_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "oracle_center_rgba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center_G2_F16": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": 8,
+      "file": "case-08.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "oracle_file": "case-08-oracle.rgba",
+      "actual_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.1505882441997528,
+        0.1694117784500122,
+        0.33956173062324524
+      ],
+      "center_G2_F16": [
+        0.035797119140625,
+        0.0689697265625,
+        0.1749267578125
+      ]
+    },
+    {
+      "id": 9,
+      "file": "case-09.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "oracle_file": "case-09-oracle.rgba",
+      "actual_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.1505882441997528,
+        0.1694117784500122,
+        0.33956173062324524
+      ],
+      "center_G2_F16": [
+        0.035797119140625,
+        0.0689697265625,
+        0.1749267578125
+      ]
+    },
+    {
+      "id": 10,
+      "file": "case-10.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 0,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "oracle_file": "case-10-oracle.rgba",
+      "actual_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.1505882441997528,
+        0.1694117784500122,
+        0.33956173062324524
+      ],
+      "center_G2_F16": [
+        0.035797119140625,
+        0.0689697265625,
+        0.1749267578125
+      ]
+    },
+    {
+      "id": 11,
+      "file": "case-11.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 0,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "oracle_file": "case-11-oracle.rgba",
+      "actual_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "oracle_center_rgba": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.1505882441997528,
+        0.1694117784500122,
+        0.33956173062324524
+      ],
+      "center_G2_F16": [
+        0.035797119140625,
+        0.0689697265625,
+        0.1749267578125
+      ]
+    },
+    {
+      "id": 12,
+      "file": "case-12.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 1,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "oracle_file": "case-12-oracle.rgba",
+      "actual_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "oracle_sha256": "185ffd6894c3ae39cf50e52be9f041a5f86a9d704fa705bfdc259341fb6e09c2",
+      "oracle_center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 19,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.17951548099517822,
+        0.19110718369483948,
+        0.37217575311660767
+      ],
+      "center_G2_F16": [
+        0.04266357421875,
+        0.07781982421875,
+        0.1917724609375
+      ]
+    },
+    {
+      "id": 13,
+      "file": "case-13.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 1,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "oracle_file": "case-13-oracle.rgba",
+      "actual_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "oracle_sha256": "185ffd6894c3ae39cf50e52be9f041a5f86a9d704fa705bfdc259341fb6e09c2",
+      "oracle_center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 19,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.17951548099517822,
+        0.19110718369483948,
+        0.37217575311660767
+      ],
+      "center_G2_F16": [
+        0.04266357421875,
+        0.07781982421875,
+        0.1917724609375
+      ]
+    },
+    {
+      "id": 14,
+      "file": "case-14.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 1,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "oracle_file": "case-14-oracle.rgba",
+      "actual_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "oracle_sha256": "185ffd6894c3ae39cf50e52be9f041a5f86a9d704fa705bfdc259341fb6e09c2",
+      "oracle_center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 19,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.17951548099517822,
+        0.19110718369483948,
+        0.37217575311660767
+      ],
+      "center_G2_F16": [
+        0.04266357421875,
+        0.07781982421875,
+        0.1917724609375
+      ]
+    },
+    {
+      "id": 15,
+      "file": "case-15.rgba",
+      "alpha": 0.600000024,
+      "fresnel_on": 1,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "oracle_file": "case-15-oracle.rgba",
+      "actual_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "oracle_sha256": "185ffd6894c3ae39cf50e52be9f041a5f86a9d704fa705bfdc259341fb6e09c2",
+      "oracle_center_rgba": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 19,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.17951548099517822,
+        0.19110718369483948,
+        0.37217575311660767
+      ],
+      "center_G2_F16": [
+        0.04266357421875,
+        0.07781982421875,
+        0.1917724609375
+      ]
+    },
+    {
+      "id": 16,
+      "file": "case-16.rgba",
+      "alpha": 1,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "oracle_file": "case-16-oracle.rgba",
+      "actual_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.250980406999588,
+        0.2823529541492462,
+        0.5659362077713013
+      ],
+      "center_G2_F16": [
+        0.09942626953125,
+        0.1915283203125,
+        0.486083984375
+      ]
+    },
+    {
+      "id": 17,
+      "file": "case-17.rgba",
+      "alpha": 1,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "oracle_file": "case-17-oracle.rgba",
+      "actual_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.250980406999588,
+        0.2823529541492462,
+        0.5659362077713013
+      ],
+      "center_G2_F16": [
+        0.09942626953125,
+        0.1915283203125,
+        0.486083984375
+      ]
+    },
+    {
+      "id": 18,
+      "file": "case-18.rgba",
+      "alpha": 1,
+      "fresnel_on": 0,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "oracle_file": "case-18-oracle.rgba",
+      "actual_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.250980406999588,
+        0.2823529541492462,
+        0.5659362077713013
+      ],
+      "center_G2_F16": [
+        0.09942626953125,
+        0.1915283203125,
+        0.486083984375
+      ]
+    },
+    {
+      "id": 19,
+      "file": "case-19.rgba",
+      "alpha": 1,
+      "fresnel_on": 0,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "oracle_file": "case-19-oracle.rgba",
+      "actual_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "oracle_center_rgba": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.0,
+      "center_raw_base": [
+        0.250980406999588,
+        0.2823529541492462,
+        0.5659362077713013
+      ],
+      "center_G2_F16": [
+        0.09942626953125,
+        0.1915283203125,
+        0.486083984375
+      ]
+    },
+    {
+      "id": 20,
+      "file": "case-20.rgba",
+      "alpha": 1,
+      "fresnel_on": 1,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "oracle_file": "case-20-oracle.rgba",
+      "actual_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "oracle_sha256": "8e7a45d96be830ffdcc75411666f7b3de27476ce4345fb38c516bbe4424a52fc",
+      "oracle_center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 88,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.2991924583911896,
+        0.318511962890625,
+        0.6202929019927979
+      ],
+      "center_G2_F16": [
+        0.1185302734375,
+        0.216064453125,
+        0.53271484375
+      ]
+    },
+    {
+      "id": 21,
+      "file": "case-21.rgba",
+      "alpha": 1,
+      "fresnel_on": 1,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "oracle_file": "case-21-oracle.rgba",
+      "actual_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "oracle_sha256": "8e7a45d96be830ffdcc75411666f7b3de27476ce4345fb38c516bbe4424a52fc",
+      "oracle_center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 88,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.2991924583911896,
+        0.318511962890625,
+        0.6202929019927979
+      ],
+      "center_G2_F16": [
+        0.1185302734375,
+        0.216064453125,
+        0.53271484375
+      ]
+    },
+    {
+      "id": 22,
+      "file": "case-22.rgba",
+      "alpha": 1,
+      "fresnel_on": 1,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "oracle_file": "case-22-oracle.rgba",
+      "actual_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "oracle_sha256": "8e7a45d96be830ffdcc75411666f7b3de27476ce4345fb38c516bbe4424a52fc",
+      "oracle_center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 88,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.2991924583911896,
+        0.318511962890625,
+        0.6202929019927979
+      ],
+      "center_G2_F16": [
+        0.1185302734375,
+        0.216064453125,
+        0.53271484375
+      ]
+    },
+    {
+      "id": 23,
+      "file": "case-23.rgba",
+      "alpha": 1,
+      "fresnel_on": 1,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "diagnostic_normal": 0,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "oracle_file": "case-23-oracle.rgba",
+      "actual_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "oracle_sha256": "8e7a45d96be830ffdcc75411666f7b3de27476ce4345fb38c516bbe4424a52fc",
+      "oracle_center_rgba": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 88,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ],
+      "center_rim": 0.4017670452594757,
+      "center_raw_base": [
+        0.2991924583911896,
+        0.318511962890625,
+        0.6202929019927979
+      ],
+      "center_G2_F16": [
+        0.1185302734375,
+        0.216064453125,
+        0.53271484375
+      ]
+    },
+    {
+      "id": 24,
+      "file": "case-24.rgba",
+      "alpha": 1,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 1,
+      "unit_basis_input": 0,
+      "center_rgba": [
+        206,
+        107,
+        226,
+        255
+      ],
+      "oracle_file": "case-24-oracle.rgba",
+      "actual_sha256": "caba340d97e665070177deaf2fce012c9cb2cc9b1427fce32617ed0d1655ca09",
+      "oracle_sha256": "fd1024f4ffd4cbe2ec6edca888fef5a5be549ecc4d480344e2b2d0da65d6f531",
+      "oracle_center_rgba": [
+        206,
+        108,
+        226,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 95,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ]
+    },
+    {
+      "id": 25,
+      "file": "case-25.rgba",
+      "alpha": 1,
+      "fresnel_on": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "diagnostic_normal": 1,
+      "unit_basis_input": 1,
+      "center_rgba": [
+        206,
+        107,
+        226,
+        255
+      ],
+      "oracle_file": "case-25-oracle.rgba",
+      "actual_sha256": "caba340d97e665070177deaf2fce012c9cb2cc9b1427fce32617ed0d1655ca09",
+      "oracle_sha256": "fd1024f4ffd4cbe2ec6edca888fef5a5be549ecc4d480344e2b2d0da65d6f531",
+      "oracle_center_rgba": [
+        206,
+        108,
+        226,
+        255
+      ],
+      "max_abs_code_delta": 1,
+      "mismatched_channels": 95,
+      "channels_over_one_code": 0,
+      "compared_channels": 4096,
+      "center_normal": [
+        0.6122797131538391,
+        -0.15682147443294525,
+        0.7749326229095459
+      ]
+    }
+  ],
+  "invariance_pairs": [
+    {
+      "baseline": 0,
+      "comparison": 0,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 0,
+      "comparison": 1,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 0,
+      "comparison": 2,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 0,
+      "comparison": 3,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 4,
+      "comparison": 4,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 4,
+      "comparison": 5,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 4,
+      "comparison": 6,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 4,
+      "comparison": 7,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 8,
+      "comparison": 8,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 8,
+      "comparison": 9,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 8,
+      "comparison": 10,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 8,
+      "comparison": 11,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 12,
+      "comparison": 12,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 12,
+      "comparison": 13,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 12,
+      "comparison": 14,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 12,
+      "comparison": 15,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 16,
+      "comparison": 16,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 16,
+      "comparison": 17,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 16,
+      "comparison": 18,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 16,
+      "comparison": 19,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 20,
+      "comparison": 20,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 20,
+      "comparison": 21,
+      "constant_changed": 0,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 20,
+      "comparison": 22,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 0,
+      "all4096bytes_equal": true
+    },
+    {
+      "baseline": 20,
+      "comparison": 23,
+      "constant_changed": 1,
+      "generic_ambient_nonzero": 1,
+      "all4096bytes_equal": true
+    }
+  ]
+}

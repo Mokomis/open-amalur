@@ -1,0 +1,93 @@
+{
+  "counts": {
+    "instances": 65,
+    "triangles": 4872
+  },
+  "cells": [
+    [
+      -1,
+      -11
+    ],
+    [
+      -1,
+      -10
+    ],
+    [
+      -1,
+      -9
+    ],
+    [
+      0,
+      -15
+    ],
+    [
+      0,
+      -14
+    ],
+    [
+      0,
+      -13
+    ],
+    [
+      0,
+      -11
+    ],
+    [
+      0,
+      -10
+    ],
+    [
+      0,
+      -9
+    ],
+    [
+      1,
+      -15
+    ],
+    [
+      1,
+      -14
+    ],
+    [
+      1,
+      -13
+    ],
+    [
+      1,
+      -11
+    ],
+    [
+      1,
+      -10
+    ],
+    [
+      1,
+      -9
+    ],
+    [
+      2,
+      -15
+    ],
+    [
+      2,
+      -14
+    ],
+    [
+      2,
+      -13
+    ]
+  ],
+  "bytes": 1110836,
+  "sha256": "75ff86736822fc4e46a03abf67236097d09d933fbc5e80e6a62d953aaf5adffc",
+  "header": "OAWT u32version1,u32stride76,u32vertexCount,u32indexCount0; triangle soup",
+  "vertex": "16float32 = pos3,N3,T3,B3,UV0_2,UV1_2;RGBA8;u32nativeMaterialId;u32flags",
+  "limitations": [
+    "source positions use current-generation recipe only for joining; joined outputs preserve exact existingpositions",
+    "materialmode keys proven bynativehashreflection; profile defaults zeroed by00c58d40",
+    "N is native radial leafnormal; T/B are untransformed sourceSNORM16, not generalstaticframe",
+    "source48 hasnoUV1; UV1holds2floatbitcastsof4half values:worldWindDirectionXYZ,paletteIndex; flags@72holdsfloatradialLength;directionquantization measuredperinstance",
+    "only cached source files; no extraction or oldfilewrites",
+    "source-triangle soup still needs exact existingcell join beforedeployment",
+    "LOD1/2clusterattributeownership not recovered"
+  ]
+}

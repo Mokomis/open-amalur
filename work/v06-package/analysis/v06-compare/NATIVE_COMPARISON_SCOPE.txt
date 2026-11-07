@@ -1,0 +1,79 @@
+Opem Amalur original native VM comparison — isolated Windows x86 harness
+
+Purpose
+Execute original x86 instructions from the installed koa.exe, with standard
+loader base relocations, and compare their results to reconstructed Lua 5.1.
+This is an independent execution reference for admitted VM semantics, not a
+rewritten interpreter or an assumed stock-Lua numeric model. See README.md
+for Windows build/run commands and reported comparison families.
+
+Isolation
+The console harness reads and SHA256-verifies the game executable, maps PE
+sections at a free base, validates and applies PE HIGHLOW relocations, and
+records base, delta and relocation count. It does not invoke the PE entrypoint,
+TLS/CRT initialization, import resolution, Steam/game startup, process attach,
+or save access. Its states and frames are synthetic and privately allocated.
+Each runner enforces a 45-second subprocess limit; native faults fail explicitly.
+
+Admission modes
+- OMVM06: primitive nil/boolean/signed-int32 registers and constants; explicit
+  opcode allowlist for arithmetic, branches, counted loops and RETURN.
+- OMCB06: direct original abs/sqrt/pow/min/max callbacks, valid int32 arguments.
+- OMCL06: original CALL/TAILCALL and cached variants, explicitly seeded allowed
+  C closures, 128 spare register slots, and 32 reserved call-info records.
+  Allowed callees are the five math functions or authored empty/nil/multivalue/
+  echo/count-and-echo boundary inputs. Native dispatch/setup/result movement
+  execute unchanged. Authored callee behavior is not an engine parity claim.
+- OMLU06: explicitly seeded nonvararg Lua prototypes (at most 8 per fixture,
+  64 words and 32 registers each). Child instructions admit primitives and
+  direct C-call only. Root CALL/cachedCALL is permitted; Lua tail calls are
+  rejected. Captures, vararg flags and close-upvalue flags remain zero.
+
+No mode admits engine context, object/table/string allocation, CLOSURE creation,
+GC, captured values, metamethods or arbitrary callback pointers. Fixture files
+are generated bounded test inputs, not a general-purpose untrusted program
+execution interface.
+
+Native frame evidence
+Interpreter entry 0x010adce0..0x010add21 and RETURN 0x010b0b67..0x010b0ba1:
+  cdecl uint32 VM(L, code_pointer, depth)
+  L+0x24: top; L+0x28: register base; base[-4]: packed function pointer
+  function+0x10: close-upvalue flag; +0x11: constant-pool pointer
+  function+0x15: code pointer; +0x19: max-stack ushort
+  function+0x1b: vararg flags; +0x1c: fixed parameter count
+  Depth zero returns directly; native entry ends in ordinary cdecl RET.
+
+C call setup 0x010ad490 and result mover 0x010888c0:
+  Call-info manager at L+0x0c holds begin/end/current pointers.
+  Records are 16 bytes; current record pointer is L+0x14.
+  Setup saves caller base, wanted results and PC, then sets callee base/top.
+  Result mover restores base and moves/truncates/pads results. Fixed result
+  requests nil-clear the remaining caller register tail; open results set
+  top to the end of actual results.
+
+Lua call setup 0x010ad2e0:
+  Reads parameters, flags and max stack from seeded prototype offsets above.
+  Nonvararg setup nil-fills missing parameters without argument rotation or
+  legacy arg-table allocation. Sufficient spare stack avoids allocator calls.
+  VM reads child code/constants, then nested RETURN restores caller PC/base,
+  moves results and decrements the call-info index through original code.
+
+Evidence pointers (existing REA outputs)
+  outputs/bytecode-reader/rea-session/vm_a_pseudocode.c
+    ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b
+  work/v06-compare/v06-vm-exact-return.json: raw prologue/return confirmation
+  work/openlist-audit/c_call_setup.json
+    ev_528c8a2e531491b39f83ce9b893874abaa7a504625e83b23b69e46d5c4a0e42b
+  work/openlist-audit/result_restore.json
+    ev_555ee1443848ba8097472c2a0803e0205218ee9bc3d991397be016e559530ce1
+  work/openlist-audit/lua_call_setup.json
+  work/v06-bindings/v06-native-math.json: exact original math bodies
+
+Interpretation
+Matches support the tested original machine-code paths for exact admitted
+inputs. Real-function fixtures preserve bytecode/constants and input-file
+hashes, but synthetic-state replay is not an actual in-game observation.
+No result proves full VM initialization, engine APIs, game state, saves,
+scheduling/yields/errors, capture lifetime, GC, or whole-game equivalence.
+Android compilation/runtime needs separate portable host and engine work;
+this Windows x86 harness is a validation oracle, not the Android implementation.

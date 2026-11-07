@@ -1,0 +1,3 @@
+@echo off
+call "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
+cl /nologo /FIdesktop_compat.h /std:c11 /W3 /D_CRT_SECURE_NO_WARNINGS /DGL_APICALL= /I"C:\Users\rwill\Documents\Opem Amalur\work\v40-windows-host\include" /I"C:\Users\rwill\Documents\Opem Amalur\work\v40-windows-host\dependencies\include" "C:\Users\rwill\Documents\Opem Amalur\work\v45-foliage-coverage\image-band-audit\left-bridge-structure\cart-material\oa_cart_probe.c" "C:\Users\rwill\Documents\Opem Amalur\work\v45-foliage-coverage\image-band-audit\left-bridge-structure\cart-material\check_cart_probe.c" /Fe:"C:\Users\rwill\Documents\Opem Amalur\work\v45-foliage-coverage\image-band-audit\left-bridge-structure\cart-material\check_cart_probe.exe"

@@ -1,0 +1,43 @@
+[
+  {
+    "index": 72653,
+    "vkFunc": {
+      "name": "vkCmdClearColorImage",
+      "args": {
+        "commandBuffer": 46,
+        "image": 164,
+        "imageLayout": "VK_IMAGE_LAYOUT_GENERAL",
+        "pColor": {
+          "float32": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "int32": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "uint32": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "rangeCount": 1,
+        "pRanges": [
+          {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        ]
+      }
+    }
+  }
+]

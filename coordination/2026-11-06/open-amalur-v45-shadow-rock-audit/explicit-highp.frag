@@ -1,0 +1,2 @@
+#version 310 es
+precision highp float;precision highp sampler2DShadow;in vec2 uv;uniform highp sampler2D scene_depth;uniform sampler2DShadow shadow_depth;uniform vec2 depth_ab;uniform vec4 fade;uniform mat4 screen_to_light;out vec4 o;void main(){float z=depth_ab.y/(texture(scene_depth,uv).r-depth_ab.x);vec2 ndc=uv*2.-1.;vec3 q=(screen_to_light*vec4(ndc*z,z,1.)).xyz;vec2 a=clamp(z*fade.xy+fade.zw,0.,1.);float alpha=min(a.x,a.y);float shadow=texture(shadow_depth,vec3(q.x,1.-q.y,q.z));o=vec4(shadow,shadow,shadow,alpha);}

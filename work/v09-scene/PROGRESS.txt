@@ -1,0 +1,20 @@
+Opem Amalur v0.9: Installed on tablet and functional walking/textures verified.
+
+New authored exploration controller: first-person touch/gamepad/keyboard movement, look, Reset and overview; bounded swept standing-capsule collision, sliding, low steps, gravity, conservative grounded ledge guard, deterministic clearance-checked indoor spawn. This is approximate collision against 115,418 recovered render triangles; native collision_set data and original player behavior are not reconstructed.
+
+Fixed the stair descent regression introduced by the ledge guard: rounded-edge support is allowed only when a nearby lower walkable tread exists within step height. Tests now pass53/53. Eight real-scene walks,360 frames each, passed clearance at every frame with zero recoveries. Missing-floor routes now stop at a supported boundary.
+
+Textures: native KEEN magic/descriptor reader and BC1/BC3 format mapping traced in the original executable with REA/Ghidra on Windows. Strict bounded decoder passes12 tests. Opaque preview selects44 material slot-zero textures and stride48 UVs. 164,781/206,088 architecture vertices (~80%) textured; 181,473/346,254 total vertices retain fallback colors, including props. Material/UV association and slot-zero base-color semantics remain partly inferred. Complete original shaders, normal maps, transparency and lighting are not reconstructed.
+
+Final Windows checks: input35, collision53, material carrier219, decoder12; eight real-scene paths/2,880 frames. Android arm64 compilation, signed APK verification and exact payload hash verification passed. The v0.8 Lua runtime and startup inputs remain in use (190 registered modules/3,819 function bodies); actual v0.9 tablet bootstrap completed twice and the textured first-person scene rendered successfully.
+
+Tablet validation: 99cc517a reconnected. Upgrade-installed v0.9.0 without clearing data. Actual touch movement/look, collision contacts/sliding, Reset/View, Home/resume, and Back/reopen with fresh completed Lua bootstrap observed. Android CLI checks passed53 collision,219 material,35 input; real-scene2,880frames passed with zero failures/recoveries. Foreground PSS286,190KiB (~279.5MiB), one brief sample. No FPS/endurance or physical gamepad validation. Left at validated spawn in WALK view.
+
+Next priorities: confirm native vertex declarations and material/shader semantics, add unsupported texture/prop coverage, recover native collision assets, extend original player/interaction bindings. Do not repeat successful Windows/native work without a new failure or source change.
+
+Final APK: outputs/scene-v09/opem-amalur-scene-v0.9-arm64.apk
+SHA256 81c25f1e9002590d0097882e4073c48ad2c1b620865aa459898d2b7909f642a1
+Bytes 13,642,049
+REA session closed and input integrity preserved in outputs/scene-v09/rea-session-live.
+
+Source and evidence snapshots preserve authored changes and exclude extracted game assets, recovered game Lua, external importer source, signing keys and toolchains. Existing v0.8 artifacts are retained.

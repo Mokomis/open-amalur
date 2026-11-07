@@ -1,0 +1,7 @@
+# Remaining native local-bind question
+
+Nine supported prop FABs have identity render binds, so their world placements are handled without choosing a disputed local matrix convention. Barrel02 FAB1425589 has a 15-degree local rotation. Keep it omitted until the actual pose/draw path is established.
+
+Focused static pass reused the pinned cs:15032 Ghidra exports, preserving original databases. Exact 00ac3a70 callers were enumerated. Candidate draw routines 00c98ce0/00c9a530 compose matrices, but that alone does not link serialized FAB bone poses to a draw. FabRender reader 00d400d0 calls 00d3c980 (a reader with unresolved hidden/register arguments) and 00d196c0 (0x5c mesh records). 00caf5f0 references instance+0x198 (FAB), render descriptor+0x34 bone index and instance pose buffer+0x34 with 0x30 stride. Its helper 00ac53b0 only copies 48 bytes, not a quaternion conversion. 00caefe0 also composes pose transforms. These are follow-up anchors, not a completed bind proof.
+
+Current gap: connect the source q-first 48-byte FAB pose to the instance's computed pose buffer, establish parent composition/inversion, and then the actual draw transform. Do not reuse generic native world-matrix proof as if it already proves serialized FAB local binding. No original-game runtime instrumentation was performed in this pass. A narrowly captured native pose/draw sample or a focused ABI/disassembly pass is the next useful evidence; repeat broad offset searches are unlikely to help.

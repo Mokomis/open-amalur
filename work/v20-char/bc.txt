@@ -1,0 +1,509 @@
+head candidate None 1362163 stride 60 2072 161 195
+texture 1430980_0.dds failed ValueError('Truncated KEEN mip payload')
+texture 1430980_1.dds failed ValueError('Truncated KEEN mip payload')
+texture 1430980_2.dds failed ValueError('Truncated KEEN mip payload')
+texture 1430980_3.dds failed ValueError('Truncated KEEN mip payload')
+texture 1430980_4.dds failed ValueError('Truncated KEEN mip payload')
+{
+"parts": [
+{
+"label": "torso",
+"fab": 1926576,
+"vertices": 1334,
+"indices": 6186,
+"palette": 15,
+"max_vertex_joint": 14,
+"inverse_bind_error": 0.0,
+"material": "me_torso",
+"textures": [
+"me_torso_d",
+"me_torso_s",
+"me_torso_n",
+"1590418_cubemap"
+],
+"chosen": "me_torso_d from 1926592_1.dds 512x512"
+},
+{
+"label": "legs",
+"fab": 1926575,
+"vertices": 1712,
+"indices": 7485,
+"palette": 8,
+"max_vertex_joint": 7,
+"inverse_bind_error": 0.0,
+"material": "me_legs",
+"textures": [
+"me_legs_d",
+"me_legs_s",
+"me_legs_n",
+"1590418_cubemap"
+],
+"chosen": "me_legs_d from 1924075_1.dds 512x512"
+},
+{
+"label": "hands",
+"fab": 1926574,
+"vertices": 1220,
+"indices": 5592,
+"palette": 28,
+"max_vertex_joint": 27,
+"inverse_bind_error": 0.001,
+"material": "me_hands",
+"textures": [
+"me_hands_d",
+"me_hands_s",
+"me_hands_n",
+"1590418_cubemap"
+],
+"chosen": "me_hands_d from 1923201_1.dds 512x512"
+},
+{
+"label": "feet",
+"fab": 1923507,
+"vertices": 1392,
+"indices": 5910,
+"palette": 5,
+"max_vertex_joint": 4,
+"inverse_bind_error": 0.233,
+"material": "me_armor_feet",
+"textures": [
+"me_armor_feet_d",
+"me_armor_feet_s",
+"me_armor_feet_n",
+"1590418_cubemap"
+],
+"chosen": "me_armor_feet_d from 1923516_1.dds 512x512"
+},
+{
+"label": "head",
+"fab": 1362163,
+"vertices": 412,
+"indices": 1704,
+"palette": 3,
+"max_vertex_joint": 2,
+"inverse_bind_error": 177.977,
+"material": "human_mouth_interior_01",
+"textures": [
+"mouth_interior_d",
+"mouth_interior_s",
+"mouth_interior_n"
+],
+"chosen": "mouth_interior_d from 535019_1.dds 512x512"
+},
+{
+"label": "head",
+"fab": 1362163,
+"vertices": 1299,
+"indices": 5532,
+"palette": 25,
+"max_vertex_joint": 24,
+"inverse_bind_error": 184.428,
+"material": "base_male_varani_head_01",
+"textures": [
+"base_male_varani_head_02_d",
+"base_male_body_01_a",
+"base_male_head_01_s",
+"base_male_varani_head_01_n",
+"varani_male_head_det"
+],
+"chosen": "base_male_varani_head_02_d from 1430980_1.dds 256x512"
+},
+{
+"label": "head",
+"fab": 1362163,
+"vertices": 209,
+"indices": 864,
+"palette": 2,
+"max_vertex_joint": 1,
+"inverse_bind_error": 182.304,
+"material": "human_eye_01",
+"textures": [
+"human_eye_d",
+"editor_white",
+"human_eye_mask",
+"eye_reflection"
+],
+"chosen": "human_eye_d from 744833_1.dds 512x512"
+},
+{
+"label": "02_steel_sword_1h",
+"vertices": 321,
+"texture": 7
+},
+{
+"label": "01_iron_sword_1h",
+"vertices": 391,
+"texture": 8
+},
+{
+"label": "03_azurite_sword_1h",
+"vertices": 784,
+"texture": 9
+},
+{
+"label": "04_sylvanite_sword_1h",
+"vertices": 832,
+"texture": 10
+},
+{
+"label": "05_prismere_sword_1h",
+"vertices": 1099,
+"texture": 11
+}
+],
+"clips": [
+[
+"human_idle_01",
+101,
+29.999998092651367
+],
+[
+"human_walk_01",
+33,
+29.999998092651367
+],
+[
+"human_run_01",
+21,
+29.999998092651367
+],
+[
+"human_sword_attack_x_02",
+51,
+29.999998092651367
+],
+[
+"human_sword_attack_xx_02",
+59,
+29.999998092651367
+],
+[
+"human_sword_attack_xxx_02",
+51,
+29.999998092651367
+],
+[
+"human_norreacfrt",
+36,
+29.999998092651367
+],
+[
+"human_Death_01",
+121,
+29.999998092651367
+],
+[
+"human_sword_idle_01",
+61,
+29.999998092651367
+],
+[
+"human_walk_01",
+33,
+29.999998092651367
+],
+[
+"human_run_01",
+21,
+29.999998092651367
+],
+[
+"human_sword_attack_xxxx_02",
+76,
+29.999998092651367
+],
+[
+"human_run_start_01",
+21,
+29.999998092651367
+],
+[
+"human_run_stop_01",
+36,
+29.999998092651367
+],
+[
+"human_run_stop_short_01",
+31,
+29.999998092651367
+],
+[
+"human_M_walk_Start",
+33,
+29.999998092651367
+],
+[
+"human_M_walk_stop",
+31,
+29.999998092651367
+],
+[
+"Human_Idle_turn_90_Left_Ent_Run",
+28,
+29.999998092651367
+],
+[
+"Human_Idle_turn_90_Right_Ent_Run",
+28,
+29.999998092651367
+],
+[
+"Human_Idle_turn_180_Right_Ent_Run",
+19,
+29.999998092651367
+],
+[
+"human_M_Idle_Turn_90_Left_walk",
+33,
+29.999998092651367
+],
+[
+"human_M_Idle_Turn_90_Rgt_walk",
+58,
+29.999998092651367
+],
+[
+"human_run_Slope_Up_Blend",
+11,
+29.999998092651367
+],
+[
+"human_run_Slope_Down_Blend",
+11,
+29.999998092651367
+],
+[
+"human_run_turn_left_Blend",
+11,
+29.999998092651367
+],
+[
+"human_run_turn_Right_Blend",
+11,
+29.999998092651367
+],
+[
+"Player_Idle_Variation01",
+101,
+29.999998092651367
+],
+[
+"Player_Idle_Variation03",
+101,
+29.999998092651367
+],
+[
+"Player_Idle_Variation04",
+128,
+29.999998092651367
+],
+[
+"Player_Idle_Variation05",
+120,
+29.999998092651367
+]
+],
+"bytes": 12838328,
+"strikes": {
+"human_idle_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_walk_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_run_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_sword_attack_x_02": [
+0.30000001907348756,
+0.0,
+0.0,
+0.0
+],
+"human_sword_attack_xx_02": [
+0.33333335452609725,
+0.0,
+0.0,
+0.0
+],
+"human_sword_attack_xxx_02": [
+0.30000001907348756,
+0.0,
+0.0,
+0.0
+],
+"human_norreacfrt": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_Death_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_sword_idle_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_sword_attack_xxxx_02": [
+0.6000000381469751,
+0.0,
+0.0,
+0.0
+],
+"human_run_start_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_run_stop_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_run_stop_short_01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_M_walk_Start": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_M_walk_stop": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"Human_Idle_turn_90_Left_Ent_Run": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"Human_Idle_turn_90_Right_Ent_Run": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"Human_Idle_turn_180_Right_Ent_Run": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_M_Idle_Turn_90_Left_walk": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_M_Idle_Turn_90_Rgt_walk": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_run_Slope_Up_Blend": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_run_Slope_Down_Blend": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_run_turn_left_Blend": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"human_run_turn_Right_Blend": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"Player_Idle_Variation01": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"Player_Idle_Variation03": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"Player_Idle_Variation04": [
+0.0,
+0.0,
+0.0,
+0.0
+],
+"Player_Idle_Variation05": [
+0.0,
+0.0,
+0.0,
+0.0
+]
+},
+"seconds": [
+3.3333335452609725,
+1.0666667344835112,
+0.6666667090521945,
+1.6666667726304862,
+1.9333334562513642,
+1.6666667726304862,
+1.1666667408413405,
+4.000000254313167,
+2.0000001271565835,
+1.0666667344835112,
+0.6666667090521945,
+2.5000001589457295,
+0.6666667090521945,
+1.1666667408413405,
+1.0000000635782917,
+1.0666667344835112,
+1.0000000635782917,
+0.9000000572204626,
+0.9000000572204626,
+0.6000000381469751,
+1.0666667344835112,
+1.9000001207987545,
+0.33333335452609725,
+0.33333335452609725,
+0.33333335452609725,
+0.33333335452609725,
+3.3333335452609725,
+3.3333335452609725,
+4.233333602481435,
+3.9666669188605574
+]
+}

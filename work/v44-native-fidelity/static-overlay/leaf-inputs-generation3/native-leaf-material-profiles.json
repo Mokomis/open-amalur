@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "material": 293,
+      "native_material": 359202,
+      "family": 6,
+      "legacy_material": 0,
+      "name": "for_flora_treeleaf",
+      "shader8859": true,
+      "parameters": {
+        "UseSphericalNormals": 0.0,
+        "CenterZOffset": 0.0,
+        "NormalDisable": 1.0,
+        "TranslucencyDisable": 1.0,
+        "SpecularDisable": 1.0,
+        "TreeLeafMovementScale": 0.0
+      },
+      "cb0": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0,
+        0
+      ],
+      "alpha_cutoff": 0.39215686274509803,
+      "alpha_reference_u8": 100,
+      "packed_header36": 100,
+      "textures": [
+        [
+          343437,
+          0
+        ],
+        [
+          343436,
+          1
+        ],
+        [
+          1451347,
+          3
+        ]
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\359202.mat_bxml",
+      "source_sha256": "043867c02eba425608c73083032956c4c80738bfbe2852bbb78f74dbf5dca2fa"
+    },
+    {
+      "material": 294,
+      "native_material": 419060,
+      "family": 6,
+      "legacy_material": 6,
+      "name": "for_flora_treeleafsapling",
+      "shader8859": true,
+      "parameters": {
+        "UseSphericalNormals": 1.0,
+        "CenterZOffset": 600.0,
+        "NormalDisable": 0.0,
+        "TranslucencyDisable": 0.0,
+        "SpecularDisable": 0.0,
+        "TreeLeafMovementScale": 10.0
+      },
+      "cb0": [
+        1.0,
+        600.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0,
+        0
+      ],
+      "alpha_cutoff": 0.5019607843137255,
+      "alpha_reference_u8": 128,
+      "packed_header36": 16512,
+      "textures": [
+        [
+          457709,
+          0
+        ],
+        [
+          477449,
+          1
+        ],
+        [
+          457710,
+          3
+        ]
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\419060.mat_bxml",
+      "source_sha256": "a35cb94356f9042d84c28bfa64d04abebfcaa2730efc77fcea8e8c8303c2a215"
+    },
+    {
+      "material": 295,
+      "native_material": 559590,
+      "family": 6,
+      "legacy_material": 8,
+      "name": "for_flora_treeleafsaplinggreen",
+      "shader8859": true,
+      "parameters": {
+        "UseSphericalNormals": 0.9781200289726257,
+        "CenterZOffset": 600.0,
+        "NormalDisable": 0.0,
+        "TranslucencyDisable": 0.0,
+        "SpecularDisable": 0.0,
+        "TreeLeafMovementScale": 10.0
+      },
+      "cb0": [
+        0.9781200289726257,
+        600.0,
+        0.0,
+        0.0,
+        0.0,
+        10.0,
+        0,
+        0
+      ],
+      "alpha_cutoff": 0.5019607843137255,
+      "alpha_reference_u8": 128,
+      "packed_header36": 128,
+      "textures": [
+        [
+          566740,
+          0
+        ],
+        [
+          477449,
+          1
+        ],
+        [
+          457710,
+          3
+        ]
+      ],
+      "source": "work\\v20-inputs\\initial_0.pak\\559590.mat_bxml",
+      "source_sha256": "97b8b95ccc0822a187aa051381f2322c98d7c62ee8c9985f4cb5fcaa425bbd74"
+    }
+  ],
+  "key_mapping_evidence": "native reflection00c58570 hashes member names with00af09a0; exact50u32tableVA01721040; independently corroborated main359202 capturedCB0",
+  "defaults_evidence": "00c8dbe0 obtainsconstantbuffer00c58d40 -> _memset zero, copies explicitparams then AlphaCutoff override from materialdata+0x1c byte/255; sourcefileoffset0x24",
+  "vertex_contract": "N=normalize(W-pivot-(0,0,CenterZOffset)) ifUseSpherical>=.5 else normalize(W.xy-pivot.xy,0);sourceT/B passedrawSNORM;RGBA8 rawsource",
+  "color_contract": "D=diffuse.rgb*sourceVertexRGB; no globalTint. Spec=(1-SpecularDisable)*globaltreeLeafSpecAlpha; power=globaltreeLeafSpecPower; N=mapped+(radial-mapped)*NormalDisable",
+  "depth_contract": "discard noise(leafUV).B>instanceDissolve; discard alpha(leafUV).G<AlphaCutoff; capturedmain dissolve1",
+  "limitations": [
+    "18LOD0cell exactgeometrysourcejoins only;LOD1/2clusterattributeownership pending",
+    "Nativeleaftranslucency flag ismaterialdata; later deferredlighting materialflags integration separate"
+  ],
+  "wind_encoding": "UV1@56 float-bitcast packHalf2x16(worlddirectionXY), packHalf2x16(worlddirectionZ,index);flags@72 float radialLength;profile6only;native_tree_leaf_contract.glsl decodes",
+  "wind_palette": "native_foliage_wind.h oa_native_leaf_palette, exact12capturedfloats at305493984ms in independentC harness",
+  "wind_quantization_max_cm": 0.00244140625
+}

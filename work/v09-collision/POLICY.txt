@@ -1,0 +1,60 @@
+Opem Amalur v0.9 authored movement policy
+
+This is a new approximate controller over recovered render triangles. It is not
+the original game's physics, collision asset interpretation, navigation, player
+body, camera, or movement constants. Render meshes can include decorative solids,
+missing collision surfaces, overlapping parts, roofs, and one-sided artwork; this
+controller treats all admitted triangles as two-sided solids.
+
+Coordinates are unchanged, Z up. Defaults assume 100 units per metre: capsule
+radius32, height170, eye suggested at153 above feet, speed240/s, gravity980/s2,
+step25, floor snap6, skin0.25, maximum slope45 degrees. These are authored policy
+choices. No jump, crouch, swimming, animations, doors, actor collision, triggers,
+quest actions, or native game callback is implied.
+
+The scene is copied into an immutable, median-split AABB tree. Each query admits
+at most4096 candidate triangles. Mesh count, coordinate range, build work, tree
+depth, query stack, sweep iterations, contact iterations and per-frame substeps
+are bounded. Query/convergence failure freezes the entire requested frame and
+returns an error. Host must display an unavailable/error state; do not silently
+enable walking without a collision world. Discarded contact residual is safe
+under-motion, not an attempt to force the capsule through nearby geometry.
+
+Capsule/triangle separation includes triangle faces, edges, and vertices, and
+movement uses conservative continuous advancement. Float contact positions retain
+at least half the configured skin in final validation. Horizontal contact slides
+against walls; steep surfaces cannot redirect walking upward. Step candidates
+require an unobstructed lift, swept horizontal movement, and floor landing.
+Rounded curb-edge landings also require a nearby elevated walkable tread.
+
+Spawn is deterministic: finite walkable triangle centroids sorted by distance to
+the explicit interior hint(-350,380,0), with vertical distance weighted fourfold.
+Candidate triangle area, full standing clearance, ground contact and overhead
+geometry within1000 units are required. Up to4096 candidates are tested. This is
+an indoor policy to avoid choosing a roof; overhead geometry alone does not prove
+that a location is an original game spawn point. Failure leaves state unchanged.
+
+Grounded walking requires a walkable landing within the larger of step height
+and floor snap. Lower supported treads in this range are snapped down; deeper
+drop-offs and missing floors reject horizontal movement and count an edge block.
+This conservative policy also prevents intentionally walking off a real cliff.
+It does not manufacture replacement floors or claim the recovered mesh is whole.
+
+Gravity applies to airborne states. Falling250 units below the last validated
+grounded pose, or below scene minimum Z minus two radii, restores that pose and
+reports recovery. This is a missing-geometry safeguard, not native falling rules.
+Last safe means collision-clear and supported; it is not a gameplay checkpoint.
+
+Host owns input/yaw/pitch and controller state on one worker. Desired movement is
+world XY velocity. Host may call at1/120 second; the library itself subdivides
+accepted frames of up to0.1 second and clamps desired speed. Changing world/config
+requires spawning anew. A failed step leaves the previous controller byte-for-byte
+unchanged. Looking around may continue while walking is unavailable.
+
+Validation entry points (execute on Windows):
+  build_collision.cmd
+  walk_scene.exe <path-to-OMSC07-scene.bin>
+Synthetic tests exercise specific geometry and fail-closed policies. The real
+scene CLI repeats spawn and performs eight six-second straight walking trials
+with clearance checks at each frame. These tests do not establish all-scene
+navigation, native physics equivalence, game completion, or comfortable controls.

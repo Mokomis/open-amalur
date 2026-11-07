@@ -1,0 +1,60 @@
+--- before/oa_menu.c
+
++++ after/oa_menu.c
+
+@@ -2,6 +2,7 @@
+
+ #include "android_input_probe.h"
+ #include <android/keycodes.h>
+ #include <math.h>
++#include <stddef.h>
+ #include <stdio.h>
+ #include <string.h>
+ /* Design units are 1/840 of screen height, so a 3:2 tablet is 1260 wide. */
+@@ -13,18 +14,23 @@
+
+ static const float PAPER[4]={.937f,.902f,.824f,1},DIM[4]={.84f,.81f,.73f,1},GOLD[4]={.902f,.812f,.58f,1},LINE[4]={.788f,.655f,.396f,.75f},SHADE[4]={.024f,.031f,.035f,.72f},CLEAR[4]={.024f,.031f,.035f,0},GLOW[4]={.788f,.655f,.396f,.3f},GLOW0[4]={.788f,.655f,.396f,0};
+ const char *oa_hud_name(int i){return i>=0&&i<OA_HUD_COUNT?HUD[i].name:"";}
+ static float clampf_(float v,float a,float b){return !isfinite(v)?a:v<a?a:v>b?b:v;}
+-void oa_settings_default(oa_settings *s){int i;memset(s,0,sizeof(*s));for(i=0;i<OA_HUD_COUNT;i++){s->hud[i].on=HUD[i].on;s->hud[i].scale=1;s->hud[i].x=HUD[i].x;s->hud[i].y=HUD[i].y;}s->opacity=1;s->look_speed=1;s->shadows=1;}
++void oa_settings_default(oa_settings *s){int i;memset(s,0,sizeof(*s));for(i=0;i<OA_HUD_COUNT;i++){s->hud[i].on=HUD[i].on;s->hud[i].scale=1;s->hud[i].x=HUD[i].x;s->hud[i].y=HUD[i].y;}s->opacity=1;s->look_speed=1;s->shadows=1;s->canopy_dense=0;}
+ void oa_settings_sanitize(oa_settings *s){int i;for(i=0;i<OA_HUD_COUNT;i++){s->hud[i].on=!!s->hud[i].on;s->hud[i].scale=clampf_(s->hud[i].scale,.5f,2);s->hud[i].x=clampf_(s->hud[i].x,0,1);s->hud[i].y=clampf_(s->hud[i].y,0,1);}
+- s->opacity=clampf_(s->opacity,.3f,1);s->look_speed=clampf_(s->look_speed,.25f,3);s->invert_look=!!s->invert_look;s->shadows=!!s->shadows;if(s->rate<0||s->rate>4)s->rate=0;}
++ s->opacity=clampf_(s->opacity,.3f,1);s->look_speed=clampf_(s->look_speed,.25f,3);s->invert_look=!!s->invert_look;s->shadows=!!s->shadows;s->canopy_dense=!!s->canopy_dense;if(s->rate<0||s->rate>4)s->rate=0;}
+ static const char SET_MAGIC[8]={'O','A','S','E','T','0','0','2'},SAVE_MAGIC[8]={'O','A','S','A','V','0','0','2'};
+ int oa_settings_save(const oa_settings *s,const char *path){FILE *f=fopen(path,"wb");int ok;if(!f)return 0;ok=fwrite(SET_MAGIC,8,1,f)==1&&fwrite(s,sizeof(*s),1,f)==1;return fclose(f)==0&&ok;}
+-int oa_settings_load(oa_settings *s,const char *path){FILE *f=fopen(path,"rb");char magic[8];oa_settings t;int ok;oa_settings_default(s);if(!f)return 0;ok=fread(magic,8,1,f)==1&&!memcmp(magic,SET_MAGIC,8)&&fread(&t,sizeof(t),1,f)==1;fclose(f);if(!ok)return 0;*s=t;oa_settings_sanitize(s);return 1;}
++int oa_settings_load(oa_settings *s,const char *path){FILE *f=fopen(path,"rb");char magic[8];oa_settings t;int ok;size_t bytes=0;oa_settings_default(s);if(!f)return 0;oa_settings_default(&t);
++ /* Keep OASET002 and its existing prefix: older readers ignore appended fields.
++  * Legacy files stop before shadows (184B file) or canopy_dense (188B file).
++  * Default missing fields before reading so existing HUD/look/rate choices survive. */
++ ok=fread(magic,8,1,f)==1&&!memcmp(magic,SET_MAGIC,8);if(ok){bytes=fread(&t,1,sizeof(t),f);ok=!ferror(f)&&(bytes==offsetof(oa_settings,shadows)||bytes==offsetof(oa_settings,canopy_dense)||bytes==sizeof(t));if(ok)ok=fgetc(f)==EOF&&!ferror(f);}fclose(f);if(!ok)return 0;*s=t;oa_settings_sanitize(s);return 1;}
+ int oa_save_write(const oa_save *save,const char *path){oa_save t=*save;FILE *f=fopen(path,"wb");int ok;memcpy(t.magic,SAVE_MAGIC,8);if(!f)return 0;ok=fwrite(&t,sizeof(t),1,f)==1;return fclose(f)==0&&ok;}
+ int oa_save_read(oa_save *save,const char *path){FILE *f=fopen(path,"rb");oa_save t;int ok,i;if(!f)return 0;ok=fread(&t,sizeof(t),1,f)==1;fclose(f);if(!ok||memcmp(t.magic,SAVE_MAGIC,8)||t.world<0||t.world>1)return 0;for(i=0;i<3;i++)if(!isfinite(t.feet[i]))return 0;if(!isfinite(t.yaw)||!isfinite(t.pitch)||!isfinite(t.health))return 0;oa_bag_sanitize(&t.bag);*save=t;return 1;}
+ void oa_menu_init(oa_menu *m,const char *dir,int start_in_game){oa_save probe;memset(m,0,sizeof(*m));m->pointer_id=-1;snprintf(m->settings_path,sizeof(m->settings_path),"%s/opem-settings-v1.bin",dir);snprintf(m->save_path,sizeof(m->save_path),"%s/opem-save-v1.bin",dir);
+  oa_settings_load(&m->settings,m->settings_path);m->has_save=oa_save_read(&probe,m->save_path);m->screen=start_in_game?OA_SCREEN_GAME:OA_SCREEN_TITLE;m->from=OA_SCREEN_TITLE;oa_bag_new(&m->bag);m->inv_sort=1;m->inv_dir=-1;}
+ void oa_menu_open(oa_menu *m,oa_screen s){if(s==OA_SCREEN_OPTIONS&&m->screen!=OA_SCREEN_LAYOUT)m->from=m->screen;if(s==OA_SCREEN_INVENTORY){m->inv_from=m->screen;m->inv_row=0;m->inv_scroll=0;}m->screen=s;m->focus=0;m->count=0;m->pointer_down=m->pressed=m->released=0;m->pointer_id=-1;m->dragging=0;m->mouse_look=0;m->selected=0;}
+ int oa_menu_rate(const oa_menu *m){return RATES[m->settings.rate];}
++int oa_menu_canopy_dense(const oa_menu *m){return m?!!m->settings.canopy_dense:0;}
+ void oa_menu_status(oa_menu *m,const char *t){m->status=t;m->status_time=2.5f;}
+ void oa_hud_rect(const oa_menu *m,int i,int w,int h,float r[4]){float s=SCALE(h)*m->settings.hud[i].scale;r[2]=HUD[i].w*s;r[3]=HUD[i].h*s;r[0]=m->settings.hud[i].x*w-r[2]*.5f;r[1]=m->settings.hud[i].y*h-r[3]*.5f;}
+ static int inside(const float r[4],float x,float y){return x>=r[0]&&y>=r[1]&&x<r[0]+r[2]&&y<r[1]+r[3];}
+@@ -176,7 +182,7 @@
+
+  oa_ui_text(f->u,OA_FONT_HEAD,x+20*s,y+h*.5f-13*s,18*s,OA_ALIGN_LEFT,PAPER,label);
+  oa_ui_text(f->u,OA_FONT_HEAD,minus[0]+30*s,y+h*.5f-15*s,22*s,OA_ALIGN_CENTER,GOLD,"-");oa_ui_text(f->u,OA_FONT_BODY,x+w-105*s,y+h*.5f-13*s,19*s,OA_ALIGN_CENTER,PAPER,value);oa_ui_text(f->u,OA_FONT_HEAD,plus[0]+30*s,y+h*.5f-15*s,22*s,OA_ALIGN_CENTER,GOLD,"+");
+  oa_ui_rect(f->u,x,y+h,w,1,GLOW);}
+-static void options_screen(frame *f,const oa_hud_view *v){oa_menu *m=f->m;float s=f->s,x=f->w*.5f-330*s,y=118*s,w=660*s,h=62*s;oa_settings *c=&m->settings;char b[32];int d;const float back[4]={.024f,.031f,.035f,.92f};
++static void options_screen(frame *f,const oa_hud_view *v){oa_menu *m=f->m;float s=f->s,x=f->w*.5f-330*s,y=118*s,w=660*s,h=56*s;oa_settings *c=&m->settings;char b[32];int d;const float back[4]={.024f,.031f,.035f,.92f};
+  if(m->from==OA_SCREEN_TITLE)oa_ui_title(f->u,0,0,(float)f->w,(float)f->h);oa_ui_rect(f->u,0,0,(float)f->w,(float)f->h,back);
+  oa_ui_text(f->u,OA_FONT_HEAD,x,50*s,28*s,OA_ALIGN_LEFT,PAPER,"Options");oa_ui_rect(f->u,x,100*s,w,1,LINE);
+  if(menu_row(f,x,y,w,h,18,"HUD Layout",0))oa_menu_open(m,OA_SCREEN_LAYOUT);y+=h+6*s;
+@@ -185,6 +191,7 @@
+
+  value_row(f,x,y,w,h,"Invert Look",c->invert_look?"On":"Off",&d);if(d){c->invert_look=!c->invert_look;m->dirty=1;}y+=h+6*s;
+  if(c->rate)snprintf(b,sizeof(b),"%d Hz",RATES[c->rate]);else snprintf(b,sizeof(b),"Automatic");value_row(f,x,y,w,h,"Refresh Rate",b,&d);if(d){c->rate=(c->rate+d+5)%5;m->dirty=1;m->action=OA_ACTION_APPLY_RATE;}y+=h+6*s;
+  value_row(f,x,y,w,h,"Shadows",c->shadows?"On":"Off",&d);if(d){c->shadows=!c->shadows;m->dirty=1;}y+=h+6*s;
++ value_row(f,x,y,w,h,"Canopy",c->canopy_dense?"Dense":"Corrected",&d);if(d){c->canopy_dense=!c->canopy_dense;m->dirty=1;}y+=h+6*s;
+  value_row(f,x,y,w,h,"Lighting Test",v->room_lighting?"Room":"Preview",&d);if(d)m->action=OA_ACTION_TOGGLE_LIGHTING;y+=h+6*s;
+  if(menu_row(f,x,y,w,h,18,"Reset to Defaults",0)){oa_settings_default(c);m->dirty=1;m->action=OA_ACTION_APPLY_RATE;oa_menu_status(m,"Defaults restored");}y+=h+6*s;
+  if(menu_row(f,x,y,w,h,18,"Back",0))oa_menu_open(m,m->from);

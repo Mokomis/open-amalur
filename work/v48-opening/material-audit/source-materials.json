@@ -1,0 +1,94 @@
+{
+  "469438.mat_bxml": {
+    "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\469438.mat_bxml",
+    "bytes": 184,
+    "shader_id": 358224,
+    "shader_name": "glassmetalprobe",
+    "parameter_pointer": 40,
+    "parameter_count": 4,
+    "parameters_raw": "02000000000000000000204000008c4200000000000000000b000000d880b600cdcc4c3e00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00",
+    "textures": [
+      {
+        "id": 469469,
+        "name": "NCA_Wall01_D",
+        "source_slot": 0
+      },
+      {
+        "id": 498117,
+        "name": "NCA_Wall01_M",
+        "source_slot": 1
+      },
+      {
+        "id": 469471,
+        "name": "NCA_Wall01_S",
+        "source_slot": 2
+      },
+      {
+        "id": 469470,
+        "name": "NCA_Wall01_N",
+        "source_slot": 3
+      },
+      {
+        "id": 1259503,
+        "name": "1259502_cubemap",
+        "source_slot": 21
+      }
+    ]
+  },
+  "570823.mat_bxml": {
+    "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\570823.mat_bxml",
+    "bytes": 192,
+    "shader_id": 12569,
+    "shader_name": "textureblend",
+    "parameter_pointer": 40,
+    "parameter_count": 3,
+    "parameters_raw": "02000000000000007899993e0000484400000000000000000b000000d880b6000000803f000000000000000000000000020000008e7f0e000000803f000000000000000000000000020000006f9d0e00",
+    "textures": [
+      {
+        "id": 570816,
+        "name": "GNO_Brick_D",
+        "source_slot": 0
+      },
+      {
+        "id": 250070,
+        "name": "PAR_Color_White_D",
+        "source_slot": 1
+      },
+      {
+        "id": 570818,
+        "name": "GNO_Brick_S",
+        "source_slot": 2
+      },
+      {
+        "id": 570817,
+        "name": "GNO_Brick_N",
+        "source_slot": 3
+      },
+      {
+        "id": 585557,
+        "name": "GNO_Alpha_Mask",
+        "source_slot": 6
+      },
+      {
+        "id": 585558,
+        "name": "GNO_Brick_Dirt_D",
+        "source_slot": 8
+      },
+      {
+        "id": 250070,
+        "name": "PAR_Color_White_D",
+        "source_slot": 9
+      },
+      {
+        "id": 570818,
+        "name": "GNO_Brick_S",
+        "source_slot": 10
+      },
+      {
+        "id": 570817,
+        "name": "GNO_Brick_N",
+        "source_slot": 11
+      }
+    ]
+  }
+}

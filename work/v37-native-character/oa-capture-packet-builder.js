@@ -1,0 +1,10 @@
+'use strict';
+const mod=Process.mainModule;if(Process.arch!=='ia32'||mod.name.toLowerCase()!=='koa.exe')throw new Error('Wrong target');
+const target=mod.base.add(0xcb64c0-0x400000);const prefix=Array.from(new Uint8Array(target.readByteArray(16))).map(x=>x.toString(16).padStart(2,'0')).join('');if(prefix!=='837c241800558b6c2408578bf875055f')throw new Error('Builder instruction identity mismatch');
+let calls=0,eligible=0,complete=false;const source=ptr('0x3d4c4de0');
+function span(name,p,size){send({kind:'span',name,address:p.toString(),size},p.readByteArray(size));}
+const hook=Interceptor.attach(target,{
+ onEnter(args){++calls;if(complete)return;try{const owner=args[0];if(owner.isNull()||owner.add(0x34).readU32()!==25||!owner.add(0x30).readPointer().equals(source))return;++eligible;this.target=true;this.record={kind:'draw',function_va:'0x00cb64c0',relocated:target.toString(),owner:owner.toString(),source:source.toString(),count:25,arena:this.context.eax.toString(),arguments:Array.from({length:7},(_,i)=>args[i].toString()),caller:this.returnAddress.toString(),caller_original_va:mod.base.compare(this.returnAddress)<=0?'0x'+this.returnAddress.sub(mod.base).add(0x400000).toUInt32().toString(16):null};span('builder_owner',owner,0x80);span('builder_geometry',args[2],0x38);span('builder_constants',source,1200);}catch(e){if(calls<4)send({kind:'error',where:'builder-entry',message:String(e)});}},
+ onLeave(ret){if(!this.target||complete)return;try{if(ret.isNull())throw new Error('Selected builder returned null');span('builder_packet',ret,0x38);const sourceMatch=ret.add(0x30).readPointer().equals(source),countMatch=ret.add(0x34).readU32()===25;send({...this.record,result:ret.toString(),geometry:ret.add(0x2c).readPointer().toString(),kind_value:ret.readU32(),source_match:sourceMatch,count_match:countMatch});complete=sourceMatch&&countMatch;hook.detach();send({kind:'finished',complete,calls,eligible});}catch(e){send({kind:'error',where:'builder-return',message:String(e)});}}
+});
+send({kind:'ready',function_va:'0x00cb64c0',target:target.toString(),prefix});rpc.exports.status=()=>({calls,eligible,complete});

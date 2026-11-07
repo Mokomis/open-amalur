@@ -1,0 +1,5736 @@
+{
+  "path": "0",
+  "parameter_count": 0,
+  "maximum_stack_size": 3,
+  "upvalue_count": 0,
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 509,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        2
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"module\""
+    },
+    {
+      "pc": 2,
+      "file_offset": 517,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 3,
+      "Bx": 3,
+      "successors": [
+        3
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"WoS_Start_Room\""
+    },
+    {
+      "pc": 3,
+      "file_offset": 521,
+      "name": "GETGLOBAL_MEM",
+      "A": 2,
+      "B": 0,
+      "C": 4,
+      "Bx": 4,
+      "successors": [
+        5
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"package\""
+    },
+    {
+      "pc": 5,
+      "file_offset": 529,
+      "name": "GETFIELD_R1",
+      "A": 2,
+      "B": 2,
+      "C": 7,
+      "Bx": 1031,
+      "successors": [
+        8
+      ],
+      "kind": "getfield_cached_k",
+      "constant_lua": "\"seeall\""
+    },
+    {
+      "pc": 8,
+      "file_offset": 541,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 3,
+      "C": 1,
+      "Bx": 1537,
+      "successors": [
+        9
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 9,
+      "file_offset": 545,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        11
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 11,
+      "file_offset": 553,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 11,
+      "Bx": 11,
+      "successors": [
+        12
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"tutorial_win\""
+    },
+    {
+      "pc": 12,
+      "file_offset": 557,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        13
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 13,
+      "file_offset": 561,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        15
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 15,
+      "file_offset": 569,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 12,
+      "Bx": 12,
+      "successors": [
+        16
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"loading_screen\""
+    },
+    {
+      "pc": 16,
+      "file_offset": 573,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        17
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 17,
+      "file_offset": 577,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        19
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 19,
+      "file_offset": 585,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 13,
+      "Bx": 13,
+      "successors": [
+        20
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"cinematic_post_char_gen_2\""
+    },
+    {
+      "pc": 20,
+      "file_offset": 589,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        21
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 21,
+      "file_offset": 593,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        23
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 23,
+      "file_offset": 601,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 14,
+      "Bx": 14,
+      "successors": [
+        24
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"message_box_win\""
+    },
+    {
+      "pc": 24,
+      "file_offset": 605,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        25
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 25,
+      "file_offset": 609,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        27
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 27,
+      "file_offset": 617,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 15,
+      "Bx": 15,
+      "successors": [
+        28
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"game_quest_alert\""
+    },
+    {
+      "pc": 28,
+      "file_offset": 621,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        29
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 29,
+      "file_offset": 625,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        31
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 31,
+      "file_offset": 633,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 16,
+      "Bx": 16,
+      "successors": [
+        32
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"interfaceLibrary\""
+    },
+    {
+      "pc": 32,
+      "file_offset": 637,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        33
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 33,
+      "file_offset": 641,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        35
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 35,
+      "file_offset": 649,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 17,
+      "Bx": 17,
+      "successors": [
+        36
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"MQ01\""
+    },
+    {
+      "pc": 36,
+      "file_offset": 653,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        37
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 37,
+      "file_offset": 657,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 19,
+      "Bx": 19,
+      "successors": [
+        38
+      ],
+      "kind": "loadk",
+      "constant_lua": "5000"
+    },
+    {
+      "pc": 38,
+      "file_offset": 661,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 18,
+      "Bx": 18,
+      "successors": [
+        39
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_DELAY_UNTIL_MOVE_HINT\""
+    },
+    {
+      "pc": 39,
+      "file_offset": 665,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 21,
+      "Bx": 21,
+      "successors": [
+        40
+      ],
+      "kind": "loadk",
+      "constant_lua": "30000"
+    },
+    {
+      "pc": 40,
+      "file_offset": 669,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 20,
+      "Bx": 20,
+      "successors": [
+        41
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_MIN_SHAKE_REPEAT\""
+    },
+    {
+      "pc": 41,
+      "file_offset": 673,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 23,
+      "Bx": 23,
+      "successors": [
+        42
+      ],
+      "kind": "loadk",
+      "constant_lua": "45000"
+    },
+    {
+      "pc": 42,
+      "file_offset": 677,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 22,
+      "Bx": 22,
+      "successors": [
+        43
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_MAX_SHAKE_REPEAT\""
+    },
+    {
+      "pc": 43,
+      "file_offset": 681,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 25,
+      "Bx": 25,
+      "successors": [
+        44
+      ],
+      "kind": "loadk",
+      "constant_lua": "1000"
+    },
+    {
+      "pc": 44,
+      "file_offset": 685,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 24,
+      "Bx": 24,
+      "successors": [
+        45
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_CALLBACK_HEARTBEAT\""
+    },
+    {
+      "pc": 45,
+      "file_offset": 689,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 27,
+      "Bx": 27,
+      "successors": [
+        46
+      ],
+      "kind": "loadk",
+      "constant_lua": "20000"
+    },
+    {
+      "pc": 46,
+      "file_offset": 693,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 26,
+      "Bx": 26,
+      "successors": [
+        47
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_MOVEMENT_REMINDER_COOLDOWN\""
+    },
+    {
+      "pc": 47,
+      "file_offset": 697,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 27,
+      "Bx": 27,
+      "successors": [
+        48
+      ],
+      "kind": "loadk",
+      "constant_lua": "20000"
+    },
+    {
+      "pc": 48,
+      "file_offset": 701,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 28,
+      "Bx": 28,
+      "successors": [
+        49
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_LOOK_REMINDER_COOLDOWN\""
+    },
+    {
+      "pc": 49,
+      "file_offset": 705,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 27,
+      "Bx": 27,
+      "successors": [
+        50
+      ],
+      "kind": "loadk",
+      "constant_lua": "20000"
+    },
+    {
+      "pc": 50,
+      "file_offset": 709,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 29,
+      "Bx": 29,
+      "successors": [
+        51
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_LOOT_REMINDER_COOLDOWN\""
+    },
+    {
+      "pc": 51,
+      "file_offset": 713,
+      "name": "LOADK",
+      "A": 0,
+      "B": 0,
+      "C": 27,
+      "Bx": 27,
+      "successors": [
+        52
+      ],
+      "kind": "loadk",
+      "constant_lua": "20000"
+    },
+    {
+      "pc": 52,
+      "file_offset": 717,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 30,
+      "Bx": 30,
+      "successors": [
+        53
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_EQUIP_REMINDER_COOLDOWN\""
+    },
+    {
+      "pc": 53,
+      "file_offset": 721,
+      "name": "NEWTABLE",
+      "A": 0,
+      "B": 0,
+      "C": 17,
+      "Bx": 17,
+      "successors": [
+        54
+      ],
+      "kind": "newtable"
+    },
+    {
+      "pc": 54,
+      "file_offset": 725,
+      "name": "SETFIELD_R1",
+      "A": 0,
+      "B": 32,
+      "C": 289,
+      "Bx": 16673,
+      "successors": [
+        55
+      ],
+      "kind": "setfield_cached",
+      "field_key": "\"started_movement_tutorial\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 55,
+      "file_offset": 729,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 34,
+      "C": 289,
+      "Bx": 17697,
+      "successors": [
+        56
+      ],
+      "kind": "setfield",
+      "field_key": "\"is_in_start_room\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 56,
+      "file_offset": 733,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 35,
+      "C": 289,
+      "Bx": 18209,
+      "successors": [
+        57
+      ],
+      "kind": "setfield",
+      "field_key": "\"left_starting_room\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 57,
+      "file_offset": 737,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 36,
+      "C": 289,
+      "Bx": 18721,
+      "successors": [
+        58
+      ],
+      "kind": "setfield",
+      "field_key": "\"gave_player_movement_command\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 58,
+      "file_offset": 741,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 37,
+      "C": 289,
+      "Bx": 19233,
+      "successors": [
+        59
+      ],
+      "kind": "setfield",
+      "field_key": "\"gave_player_look_command\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 59,
+      "file_offset": 745,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 38,
+      "C": 289,
+      "Bx": 19745,
+      "successors": [
+        60
+      ],
+      "kind": "setfield",
+      "field_key": "\"gave_player_loot_command\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 60,
+      "file_offset": 749,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 39,
+      "C": 289,
+      "Bx": 20257,
+      "successors": [
+        61
+      ],
+      "kind": "setfield",
+      "field_key": "\"gave_player_equip_command\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 61,
+      "file_offset": 753,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 40,
+      "C": 297,
+      "Bx": 20777,
+      "successors": [
+        62
+      ],
+      "kind": "setfield",
+      "field_key": "\"movement_on_cooldown\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 41,
+        "lua": "true"
+      }
+    },
+    {
+      "pc": 62,
+      "file_offset": 757,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 42,
+      "C": 297,
+      "Bx": 21801,
+      "successors": [
+        63
+      ],
+      "kind": "setfield",
+      "field_key": "\"look_on_cooldown\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 41,
+        "lua": "true"
+      }
+    },
+    {
+      "pc": 63,
+      "file_offset": 761,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 43,
+      "C": 297,
+      "Bx": 22313,
+      "successors": [
+        64
+      ],
+      "kind": "setfield",
+      "field_key": "\"loot_on_cooldown\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 41,
+        "lua": "true"
+      }
+    },
+    {
+      "pc": 64,
+      "file_offset": 765,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 44,
+      "C": 297,
+      "Bx": 22825,
+      "successors": [
+        65
+      ],
+      "kind": "setfield",
+      "field_key": "\"equip_on_cooldown\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 41,
+        "lua": "true"
+      }
+    },
+    {
+      "pc": 65,
+      "file_offset": 769,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 45,
+      "C": 289,
+      "Bx": 23329,
+      "successors": [
+        66
+      ],
+      "kind": "setfield",
+      "field_key": "\"player_has_moved\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 66,
+      "file_offset": 773,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 46,
+      "C": 289,
+      "Bx": 23841,
+      "successors": [
+        67
+      ],
+      "kind": "setfield",
+      "field_key": "\"player_has_looked_up\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 67,
+      "file_offset": 777,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 47,
+      "C": 289,
+      "Bx": 24353,
+      "successors": [
+        68
+      ],
+      "kind": "setfield",
+      "field_key": "\"player_has_looted\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 68,
+      "file_offset": 781,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 48,
+      "C": 289,
+      "Bx": 24865,
+      "successors": [
+        69
+      ],
+      "kind": "setfield",
+      "field_key": "\"player_has_equipped\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 69,
+      "file_offset": 785,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 49,
+      "C": 289,
+      "Bx": 25377,
+      "successors": [
+        70
+      ],
+      "kind": "setfield",
+      "field_key": "\"did_shake\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 70,
+      "file_offset": 789,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 50,
+      "C": 289,
+      "Bx": 25889,
+      "successors": [
+        71
+      ],
+      "kind": "setfield",
+      "field_key": "\"shake_once\"",
+      "value_operand": {
+        "kind": "constant",
+        "index": 33,
+        "lua": "false"
+      }
+    },
+    {
+      "pc": 71,
+      "file_offset": 793,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 31,
+      "Bx": 31,
+      "successors": [
+        72
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"module_state\""
+    },
+    {
+      "pc": 72,
+      "file_offset": 797,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        73
+      ],
+      "kind": "closure",
+      "child_index": 0,
+      "captures": []
+    },
+    {
+      "pc": 73,
+      "file_offset": 801,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 51,
+      "Bx": 51,
+      "successors": [
+        74
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"start_room_heartbeat\""
+    },
+    {
+      "pc": 74,
+      "file_offset": 805,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "Bx": 1,
+      "successors": [
+        75
+      ],
+      "kind": "closure",
+      "child_index": 1,
+      "captures": []
+    },
+    {
+      "pc": 75,
+      "file_offset": 809,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 52,
+      "Bx": 52,
+      "successors": [
+        76
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_player_entered_move_volume\""
+    },
+    {
+      "pc": 76,
+      "file_offset": 813,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 2,
+      "Bx": 2,
+      "successors": [
+        77
+      ],
+      "kind": "closure",
+      "child_index": 2,
+      "captures": []
+    },
+    {
+      "pc": 77,
+      "file_offset": 817,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 53,
+      "Bx": 53,
+      "successors": [
+        78
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"check_movement_popup\""
+    },
+    {
+      "pc": 78,
+      "file_offset": 821,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 3,
+      "Bx": 3,
+      "successors": [
+        79
+      ],
+      "kind": "closure",
+      "child_index": 3,
+      "captures": []
+    },
+    {
+      "pc": 79,
+      "file_offset": 825,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 54,
+      "Bx": 54,
+      "successors": [
+        80
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_enter_starting_room\""
+    },
+    {
+      "pc": 80,
+      "file_offset": 829,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 4,
+      "Bx": 4,
+      "successors": [
+        81
+      ],
+      "kind": "closure",
+      "child_index": 4,
+      "captures": []
+    },
+    {
+      "pc": 81,
+      "file_offset": 833,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 55,
+      "Bx": 55,
+      "successors": [
+        82
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_leave_starting_room\""
+    },
+    {
+      "pc": 82,
+      "file_offset": 837,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 5,
+      "Bx": 5,
+      "successors": [
+        83
+      ],
+      "kind": "closure",
+      "child_index": 5,
+      "captures": []
+    },
+    {
+      "pc": 83,
+      "file_offset": 841,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 56,
+      "Bx": 56,
+      "successors": [
+        84
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_player_moved\""
+    },
+    {
+      "pc": 84,
+      "file_offset": 845,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 6,
+      "Bx": 6,
+      "successors": [
+        85
+      ],
+      "kind": "closure",
+      "child_index": 6,
+      "captures": []
+    },
+    {
+      "pc": 85,
+      "file_offset": 849,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 57,
+      "Bx": 57,
+      "successors": [
+        86
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"check_motion\""
+    },
+    {
+      "pc": 86,
+      "file_offset": 853,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 7,
+      "Bx": 7,
+      "successors": [
+        87
+      ],
+      "kind": "closure",
+      "child_index": 7,
+      "captures": []
+    },
+    {
+      "pc": 87,
+      "file_offset": 857,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 58,
+      "Bx": 58,
+      "successors": [
+        88
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_vignette_end\""
+    },
+    {
+      "pc": 88,
+      "file_offset": 861,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        89
+      ],
+      "kind": "closure",
+      "child_index": 8,
+      "captures": []
+    },
+    {
+      "pc": 89,
+      "file_offset": 865,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 59,
+      "Bx": 59,
+      "successors": [
+        90
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"shake_ground\""
+    },
+    {
+      "pc": 90,
+      "file_offset": 869,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 9,
+      "Bx": 9,
+      "successors": [
+        91
+      ],
+      "kind": "closure",
+      "child_index": 9,
+      "captures": []
+    },
+    {
+      "pc": 91,
+      "file_offset": 873,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 60,
+      "Bx": 60,
+      "successors": [
+        92
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"reset_shake\""
+    },
+    {
+      "pc": 92,
+      "file_offset": 877,
+      "name": "NEWTABLE",
+      "A": 0,
+      "B": 0,
+      "C": 4,
+      "Bx": 4,
+      "successors": [
+        93
+      ],
+      "kind": "newtable"
+    },
+    {
+      "pc": 93,
+      "file_offset": 881,
+      "name": "GETGLOBAL_MEM",
+      "A": 1,
+      "B": 0,
+      "C": 54,
+      "Bx": 54,
+      "successors": [
+        95
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"on_enter_starting_room\""
+    },
+    {
+      "pc": 95,
+      "file_offset": 889,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 3,
+      "C": 1,
+      "Bx": 1537,
+      "successors": [
+        96
+      ],
+      "kind": "setfield",
+      "field_key": "\"WoS_Start_Room\"",
+      "value_operand": {
+        "kind": "register",
+        "index": 1
+      }
+    },
+    {
+      "pc": 96,
+      "file_offset": 893,
+      "name": "GETGLOBAL_MEM",
+      "A": 1,
+      "B": 0,
+      "C": 52,
+      "Bx": 52,
+      "successors": [
+        98
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"on_player_entered_move_volume\""
+    },
+    {
+      "pc": 98,
+      "file_offset": 901,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 64,
+      "C": 1,
+      "Bx": 32769,
+      "successors": [
+        99
+      ],
+      "kind": "setfield",
+      "field_key": "\"Tutorial_Volume_Move\"",
+      "value_operand": {
+        "kind": "register",
+        "index": 1
+      }
+    },
+    {
+      "pc": 99,
+      "file_offset": 905,
+      "name": "GETGLOBAL_MEM",
+      "A": 1,
+      "B": 0,
+      "C": 52,
+      "Bx": 52,
+      "successors": [
+        101
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"on_player_entered_move_volume\""
+    },
+    {
+      "pc": 101,
+      "file_offset": 913,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 67,
+      "C": 1,
+      "Bx": 34305,
+      "successors": [
+        102
+      ],
+      "kind": "setfield",
+      "field_key": "\"Tutorial_Volume_Move2\"",
+      "value_operand": {
+        "kind": "register",
+        "index": 1
+      }
+    },
+    {
+      "pc": 102,
+      "file_offset": 917,
+      "name": "GETGLOBAL_MEM",
+      "A": 1,
+      "B": 0,
+      "C": 59,
+      "Bx": 59,
+      "successors": [
+        104
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"shake_ground\""
+    },
+    {
+      "pc": 104,
+      "file_offset": 925,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 68,
+      "C": 1,
+      "Bx": 34817,
+      "successors": [
+        105
+      ],
+      "kind": "setfield",
+      "field_key": "\"GroundShake\"",
+      "value_operand": {
+        "kind": "register",
+        "index": 1
+      }
+    },
+    {
+      "pc": 105,
+      "file_offset": 929,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 61,
+      "Bx": 61,
+      "successors": [
+        106
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_VOLUME_ENTER_FUNCS\""
+    },
+    {
+      "pc": 106,
+      "file_offset": 933,
+      "name": "NEWTABLE",
+      "A": 0,
+      "B": 0,
+      "C": 3,
+      "Bx": 3,
+      "successors": [
+        107
+      ],
+      "kind": "newtable"
+    },
+    {
+      "pc": 107,
+      "file_offset": 937,
+      "name": "GETGLOBAL_MEM",
+      "A": 1,
+      "B": 0,
+      "C": 55,
+      "Bx": 55,
+      "successors": [
+        109
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"on_leave_starting_room\""
+    },
+    {
+      "pc": 109,
+      "file_offset": 945,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 3,
+      "C": 1,
+      "Bx": 1537,
+      "successors": [
+        110
+      ],
+      "kind": "setfield",
+      "field_key": "\"WoS_Start_Room\"",
+      "value_operand": {
+        "kind": "register",
+        "index": 1
+      }
+    },
+    {
+      "pc": 110,
+      "file_offset": 949,
+      "name": "GETGLOBAL_MEM",
+      "A": 1,
+      "B": 0,
+      "C": 56,
+      "Bx": 56,
+      "successors": [
+        112
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"on_player_moved\""
+    },
+    {
+      "pc": 112,
+      "file_offset": 957,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 64,
+      "C": 1,
+      "Bx": 32769,
+      "successors": [
+        113
+      ],
+      "kind": "setfield",
+      "field_key": "\"Tutorial_Volume_Move\"",
+      "value_operand": {
+        "kind": "register",
+        "index": 1
+      }
+    },
+    {
+      "pc": 113,
+      "file_offset": 961,
+      "name": "GETGLOBAL_MEM",
+      "A": 1,
+      "B": 0,
+      "C": 56,
+      "Bx": 56,
+      "successors": [
+        115
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"on_player_moved\""
+    },
+    {
+      "pc": 115,
+      "file_offset": 969,
+      "name": "SETFIELD",
+      "A": 0,
+      "B": 67,
+      "C": 1,
+      "Bx": 34305,
+      "successors": [
+        116
+      ],
+      "kind": "setfield",
+      "field_key": "\"Tutorial_Volume_Move2\"",
+      "value_operand": {
+        "kind": "register",
+        "index": 1
+      }
+    },
+    {
+      "pc": 116,
+      "file_offset": 973,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 71,
+      "Bx": 71,
+      "successors": [
+        117
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"M_VOLUME_EXIT_FUNCS\""
+    },
+    {
+      "pc": 117,
+      "file_offset": 977,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 10,
+      "Bx": 10,
+      "successors": [
+        118
+      ],
+      "kind": "closure",
+      "child_index": 10,
+      "captures": []
+    },
+    {
+      "pc": 118,
+      "file_offset": 981,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 76,
+      "Bx": 76,
+      "successors": [
+        119
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_volume_enter\""
+    },
+    {
+      "pc": 119,
+      "file_offset": 985,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 11,
+      "Bx": 11,
+      "successors": [
+        120
+      ],
+      "kind": "closure",
+      "child_index": 11,
+      "captures": []
+    },
+    {
+      "pc": 120,
+      "file_offset": 989,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 77,
+      "Bx": 77,
+      "successors": [
+        121
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_volume_exit\""
+    },
+    {
+      "pc": 121,
+      "file_offset": 993,
+      "name": "RETURN",
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "Bx": 512,
+      "successors": [],
+      "kind": "return_fixed"
+    }
+  ],
+  "children": [
+    {
+      "path": "0/0",
+      "parameter_count": 0,
+      "maximum_stack_size": 4,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 2365,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 2373,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_is_in_start_room\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 2385,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            6
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 2389,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            17,
+            8
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "true"
+          }
+        },
+        {
+          "pc": 8,
+          "file_offset": 2397,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 2405,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            13
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 13,
+          "file_offset": 2417,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 9,
+          "Bx": 9,
+          "successors": [
+            14
+          ],
+          "kind": "loadk",
+          "constant_lua": "88357421"
+        },
+        {
+          "pc": 14,
+          "file_offset": 2421,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            16
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_CALLBACK_HEARTBEAT\""
+        },
+        {
+          "pc": 16,
+          "file_offset": 2429,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 3,
+          "C": 1,
+          "Bx": 1537,
+          "successors": [
+            17
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 17,
+          "file_offset": 2433,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            19
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 19,
+          "file_offset": 2441,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            22
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_gave_player_movement_command\""
+        },
+        {
+          "pc": 22,
+          "file_offset": 2453,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            23
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 23,
+          "file_offset": 2457,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            58,
+            25
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "true"
+          }
+        },
+        {
+          "pc": 25,
+          "file_offset": 2465,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            27
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 27,
+          "file_offset": 2473,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            30
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_player_has_moved\""
+        },
+        {
+          "pc": 30,
+          "file_offset": 2485,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            31
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 31,
+          "file_offset": 2489,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 271,
+          "Bx": 271,
+          "successors": [
+            58,
+            33
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 15,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 33,
+          "file_offset": 2497,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            35
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 35,
+          "file_offset": 2505,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 16,
+          "Bx": 16,
+          "successors": [
+            38
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_movement_on_cooldown\""
+        },
+        {
+          "pc": 38,
+          "file_offset": 2517,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            39
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 39,
+          "file_offset": 2521,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 271,
+          "Bx": 271,
+          "successors": [
+            58,
+            41
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 15,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 41,
+          "file_offset": 2529,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            43
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 43,
+          "file_offset": 2537,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 17,
+          "Bx": 17,
+          "successors": [
+            46
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"set_movement_on_cooldown\""
+        },
+        {
+          "pc": 46,
+          "file_offset": 2549,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            47
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 47,
+          "file_offset": 2553,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            48
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 48,
+          "file_offset": 2557,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            50
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 50,
+          "file_offset": 2565,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            53
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 53,
+          "file_offset": 2577,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 18,
+          "Bx": 18,
+          "successors": [
+            54
+          ],
+          "kind": "loadk",
+          "constant_lua": "106814864"
+        },
+        {
+          "pc": 54,
+          "file_offset": 2581,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            56
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_MOVEMENT_REMINDER_COOLDOWN\""
+        },
+        {
+          "pc": 56,
+          "file_offset": 2589,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            57
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 57,
+          "file_offset": 2593,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 4,
+          "C": 1,
+          "Bx": 2049,
+          "successors": [
+            58
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 58,
+          "file_offset": 2597,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/1",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 2943,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 2951,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_started_movement_tutorial\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 2963,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            6
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 2967,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            28,
+            8
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 8,
+          "file_offset": 2975,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 2983,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            13
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"set_started_movement_tutorial\""
+        },
+        {
+          "pc": 13,
+          "file_offset": 2995,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            14
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 14,
+          "file_offset": 2999,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            15
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 15,
+          "file_offset": 3003,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            17
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 17,
+          "file_offset": 3011,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            20
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"set_is_in_start_room\""
+        },
+        {
+          "pc": 20,
+          "file_offset": 3023,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            21
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 21,
+          "file_offset": 3027,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            22
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 22,
+          "file_offset": 3031,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            24
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"start_room_heartbeat\""
+        },
+        {
+          "pc": 24,
+          "file_offset": 3039,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Bx": 513,
+          "successors": [
+            25
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 25,
+          "file_offset": 3043,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            27
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"check_movement_popup\""
+        },
+        {
+          "pc": 27,
+          "file_offset": 3051,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Bx": 513,
+          "successors": [
+            28
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 28,
+          "file_offset": 3055,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/2",
+      "parameter_count": 0,
+      "maximum_stack_size": 5,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 3288,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"cinematic_post_char_gen_2\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 3296,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_cinematic_finished\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 3308,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            6
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 3312,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            31,
+            8
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "true"
+          }
+        },
+        {
+          "pc": 8,
+          "file_offset": 3320,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 3328,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            13
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 13,
+          "file_offset": 3340,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 9,
+          "Bx": 9,
+          "successors": [
+            14
+          ],
+          "kind": "loadk",
+          "constant_lua": "44109305"
+        },
+        {
+          "pc": 14,
+          "file_offset": 3344,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            15
+          ],
+          "kind": "loadk",
+          "constant_lua": "2000"
+        },
+        {
+          "pc": 15,
+          "file_offset": 3348,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            17
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"QUEST_ID\""
+        },
+        {
+          "pc": 17,
+          "file_offset": 3356,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            18
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"MQ01\""
+        },
+        {
+          "pc": 18,
+          "file_offset": 3360,
+          "name": "CALL_I",
+          "A": 3,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            19
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 19,
+          "file_offset": 3364,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 15,
+          "Bx": 15,
+          "successors": [
+            20
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"new\""
+        },
+        {
+          "pc": 20,
+          "file_offset": 3368,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 5,
+          "C": 1,
+          "Bx": 2561,
+          "successors": [
+            21
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 21,
+          "file_offset": 3372,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            23
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 23,
+          "file_offset": 3380,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            26
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 26,
+          "file_offset": 3392,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 16,
+          "Bx": 16,
+          "successors": [
+            27
+          ],
+          "kind": "loadk",
+          "constant_lua": "47850951"
+        },
+        {
+          "pc": 27,
+          "file_offset": 3396,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 17,
+          "Bx": 17,
+          "successors": [
+            29
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_DELAY_UNTIL_MOVE_HINT\""
+        },
+        {
+          "pc": 29,
+          "file_offset": 3404,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 3,
+          "C": 1,
+          "Bx": 1537,
+          "successors": [
+            30
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 30,
+          "file_offset": 3408,
+          "name": "JMP",
+          "A": 0,
+          "B": 128,
+          "C": 7,
+          "Bx": 65543,
+          "successors": [
+            39
+          ],
+          "kind": "jump"
+        },
+        {
+          "pc": 31,
+          "file_offset": 3412,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            33
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 33,
+          "file_offset": 3420,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            36
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 36,
+          "file_offset": 3432,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 20,
+          "Bx": 20,
+          "successors": [
+            37
+          ],
+          "kind": "loadk",
+          "constant_lua": "84278937"
+        },
+        {
+          "pc": 37,
+          "file_offset": 3436,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 21,
+          "Bx": 21,
+          "successors": [
+            38
+          ],
+          "kind": "loadk",
+          "constant_lua": "500"
+        },
+        {
+          "pc": 38,
+          "file_offset": 3440,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 3,
+          "C": 1,
+          "Bx": 1537,
+          "successors": [
+            39
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 39,
+          "file_offset": 3444,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/3",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 3694,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/4",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 3751,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tutorial_win\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 3759,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"is_tutorial_active\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 3771,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            6
+          ],
+          "kind": "loadk",
+          "constant_lua": "40879367"
+        },
+        {
+          "pc": 6,
+          "file_offset": 3775,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            7
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 7,
+          "file_offset": 3779,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 261,
+          "Bx": 261,
+          "successors": [
+            16,
+            9
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 5,
+            "lua": "true"
+          }
+        },
+        {
+          "pc": 9,
+          "file_offset": 3787,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            11
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tutorial_win\""
+        },
+        {
+          "pc": 11,
+          "file_offset": 3795,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            14
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"kill_tutorial\""
+        },
+        {
+          "pc": 14,
+          "file_offset": 3807,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            15
+          ],
+          "kind": "loadk",
+          "constant_lua": "40879367"
+        },
+        {
+          "pc": 15,
+          "file_offset": 3811,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            16
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 16,
+          "file_offset": 3815,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            18
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"set_left_starting_room\""
+        },
+        {
+          "pc": 18,
+          "file_offset": 3823,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            19
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 19,
+          "file_offset": 3827,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            20
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 20,
+          "file_offset": 3831,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/5",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 3988,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"cinematic_post_char_gen_2\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 3996,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_cinematic_finished\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 4008,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            6
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 4012,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            44,
+            8
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "true"
+          }
+        },
+        {
+          "pc": 8,
+          "file_offset": 4020,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 4028,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            13
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_player_has_moved\""
+        },
+        {
+          "pc": 13,
+          "file_offset": 4040,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            14
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 14,
+          "file_offset": 4044,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 265,
+          "Bx": 265,
+          "successors": [
+            44,
+            16
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 9,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 16,
+          "file_offset": 4052,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            18
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 18,
+          "file_offset": 4060,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            21
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"set_player_has_moved\""
+        },
+        {
+          "pc": 21,
+          "file_offset": 4072,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            22
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 22,
+          "file_offset": 4076,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            23
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 23,
+          "file_offset": 4080,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            25
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tutorial_win\""
+        },
+        {
+          "pc": 25,
+          "file_offset": 4088,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            28
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"kill_tutorial\""
+        },
+        {
+          "pc": 28,
+          "file_offset": 4100,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 15,
+          "Bx": 15,
+          "successors": [
+            29
+          ],
+          "kind": "loadk",
+          "constant_lua": "17524338"
+        },
+        {
+          "pc": 29,
+          "file_offset": 4104,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            30
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 30,
+          "file_offset": 4108,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            32
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tutorial_win\""
+        },
+        {
+          "pc": 32,
+          "file_offset": 4116,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            35
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"kill_tutorial\""
+        },
+        {
+          "pc": 35,
+          "file_offset": 4128,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 16,
+          "Bx": 16,
+          "successors": [
+            36
+          ],
+          "kind": "loadk",
+          "constant_lua": "26339831"
+        },
+        {
+          "pc": 36,
+          "file_offset": 4132,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            37
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 37,
+          "file_offset": 4136,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 17,
+          "Bx": 17,
+          "successors": [
+            39
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"interfaceLibrary\""
+        },
+        {
+          "pc": 39,
+          "file_offset": 4144,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 20,
+          "Bx": 20,
+          "successors": [
+            42
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"autosave\""
+        },
+        {
+          "pc": 42,
+          "file_offset": 4156,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 21,
+          "Bx": 21,
+          "successors": [
+            43
+          ],
+          "kind": "loadk",
+          "constant_lua": "0"
+        },
+        {
+          "pc": 43,
+          "file_offset": 4160,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            44
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 44,
+          "file_offset": 4164,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/6",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 4452,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"WoS_Start_Room\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 4460,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_player_has_moved\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 4472,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            6
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 4476,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            24,
+            8
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 8,
+          "file_offset": 4484,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tutorial_win\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 4492,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            13
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"has_tutorial_fired\""
+        },
+        {
+          "pc": 13,
+          "file_offset": 4504,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 9,
+          "Bx": 9,
+          "successors": [
+            14
+          ],
+          "kind": "loadk",
+          "constant_lua": "17524338"
+        },
+        {
+          "pc": 14,
+          "file_offset": 4508,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            15
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 15,
+          "file_offset": 4512,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 260,
+          "Bx": 260,
+          "successors": [
+            24,
+            17
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 17,
+          "file_offset": 4520,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            19
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"tutorial_win\""
+        },
+        {
+          "pc": 19,
+          "file_offset": 4528,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            22
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"launch_tutorial\""
+        },
+        {
+          "pc": 22,
+          "file_offset": 4540,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 9,
+          "Bx": 9,
+          "successors": [
+            23
+          ],
+          "kind": "loadk",
+          "constant_lua": "17524338"
+        },
+        {
+          "pc": 23,
+          "file_offset": 4544,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            24
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 24,
+          "file_offset": 4548,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/7",
+      "parameter_count": 0,
+      "maximum_stack_size": 4,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 4725,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 4733,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"set_actor_state\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 4745,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            7
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_player\""
+        },
+        {
+          "pc": 7,
+          "file_offset": 4753,
+          "name": "CALL_I_R1",
+          "A": 1,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            8
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 8,
+          "file_offset": 4757,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR_STATE_ID\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 4765,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            11
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"Idle_Lock_Vignette\""
+        },
+        {
+          "pc": 11,
+          "file_offset": 4769,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            12
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 12,
+          "file_offset": 4773,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            13
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 13,
+          "file_offset": 4777,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 4,
+          "C": 1,
+          "Bx": 2049,
+          "successors": [
+            14
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 14,
+          "file_offset": 4781,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            16
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"check_looking_at_target\""
+        },
+        {
+          "pc": 16,
+          "file_offset": 4789,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Bx": 513,
+          "successors": [
+            17
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 17,
+          "file_offset": 4793,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/8",
+      "parameter_count": 0,
+      "maximum_stack_size": 6,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 4979,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_did_shake\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 4987,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            3
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 3,
+          "file_offset": 4991,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 259,
+          "Bx": 259,
+          "successors": [
+            151,
+            5
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 3,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 5,
+          "file_offset": 4999,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            7
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_left_starting_room\""
+        },
+        {
+          "pc": 7,
+          "file_offset": 5007,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            8
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 8,
+          "file_offset": 5011,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 259,
+          "Bx": 259,
+          "successors": [
+            151,
+            10
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 3,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 10,
+          "file_offset": 5019,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            12
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"set_did_shake\""
+        },
+        {
+          "pc": 12,
+          "file_offset": 5027,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            13
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 13,
+          "file_offset": 5031,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            14
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 14,
+          "file_offset": 5035,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            16
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 16,
+          "file_offset": 5043,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            19
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_anim\""
+        },
+        {
+          "pc": 19,
+          "file_offset": 5055,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            21
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 21,
+          "file_offset": 5063,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 17,
+          "Bx": 17,
+          "successors": [
+            22
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"OBJ_WoS_Start_Debris_01\""
+        },
+        {
+          "pc": 22,
+          "file_offset": 5067,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            23
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 23,
+          "file_offset": 5071,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 18,
+          "Bx": 18,
+          "successors": [
+            24
+          ],
+          "kind": "loadk",
+          "constant_lua": "2060936"
+        },
+        {
+          "pc": 24,
+          "file_offset": 5075,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            25
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 25,
+          "file_offset": 5079,
+          "name": "LOADBOOL",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            26
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 26,
+          "file_offset": 5083,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            27
+          ],
+          "kind": "loadk",
+          "constant_lua": "100"
+        },
+        {
+          "pc": 27,
+          "file_offset": 5087,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            28
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 28,
+          "file_offset": 5091,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            30
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 30,
+          "file_offset": 5099,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            33
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_anim\""
+        },
+        {
+          "pc": 33,
+          "file_offset": 5111,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            35
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 35,
+          "file_offset": 5119,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 20,
+          "Bx": 20,
+          "successors": [
+            36
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"OBJ_WoS_Start_Debris_02\""
+        },
+        {
+          "pc": 36,
+          "file_offset": 5123,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            37
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 37,
+          "file_offset": 5127,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 18,
+          "Bx": 18,
+          "successors": [
+            38
+          ],
+          "kind": "loadk",
+          "constant_lua": "2060936"
+        },
+        {
+          "pc": 38,
+          "file_offset": 5131,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            39
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 39,
+          "file_offset": 5135,
+          "name": "LOADBOOL",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            40
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 40,
+          "file_offset": 5139,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            41
+          ],
+          "kind": "loadk",
+          "constant_lua": "100"
+        },
+        {
+          "pc": 41,
+          "file_offset": 5143,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            42
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 42,
+          "file_offset": 5147,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            44
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 44,
+          "file_offset": 5155,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            47
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_anim\""
+        },
+        {
+          "pc": 47,
+          "file_offset": 5167,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            49
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 49,
+          "file_offset": 5175,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 21,
+          "Bx": 21,
+          "successors": [
+            50
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"OBJ_WoS_Start_Debris_03\""
+        },
+        {
+          "pc": 50,
+          "file_offset": 5179,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            51
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 51,
+          "file_offset": 5183,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 18,
+          "Bx": 18,
+          "successors": [
+            52
+          ],
+          "kind": "loadk",
+          "constant_lua": "2060936"
+        },
+        {
+          "pc": 52,
+          "file_offset": 5187,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            53
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 53,
+          "file_offset": 5191,
+          "name": "LOADBOOL",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            54
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 54,
+          "file_offset": 5195,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            55
+          ],
+          "kind": "loadk",
+          "constant_lua": "100"
+        },
+        {
+          "pc": 55,
+          "file_offset": 5199,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            56
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 56,
+          "file_offset": 5203,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            58
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 58,
+          "file_offset": 5211,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            61
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_anim\""
+        },
+        {
+          "pc": 61,
+          "file_offset": 5223,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            63
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 63,
+          "file_offset": 5231,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 22,
+          "Bx": 22,
+          "successors": [
+            64
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"OBJ_WoS_Start_Debris_04\""
+        },
+        {
+          "pc": 64,
+          "file_offset": 5235,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            65
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 65,
+          "file_offset": 5239,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 18,
+          "Bx": 18,
+          "successors": [
+            66
+          ],
+          "kind": "loadk",
+          "constant_lua": "2060936"
+        },
+        {
+          "pc": 66,
+          "file_offset": 5243,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            67
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 67,
+          "file_offset": 5247,
+          "name": "LOADBOOL",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            68
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 68,
+          "file_offset": 5251,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            69
+          ],
+          "kind": "loadk",
+          "constant_lua": "100"
+        },
+        {
+          "pc": 69,
+          "file_offset": 5255,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            70
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 70,
+          "file_offset": 5259,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            72
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 72,
+          "file_offset": 5267,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            75
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_anim\""
+        },
+        {
+          "pc": 75,
+          "file_offset": 5279,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            77
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 77,
+          "file_offset": 5287,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 23,
+          "Bx": 23,
+          "successors": [
+            78
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"OBJ_WoS_Start_Rumble_01\""
+        },
+        {
+          "pc": 78,
+          "file_offset": 5291,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            79
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 79,
+          "file_offset": 5295,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 24,
+          "Bx": 24,
+          "successors": [
+            80
+          ],
+          "kind": "loadk",
+          "constant_lua": "17089749"
+        },
+        {
+          "pc": 80,
+          "file_offset": 5299,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            81
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 81,
+          "file_offset": 5303,
+          "name": "LOADBOOL",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            82
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 82,
+          "file_offset": 5307,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            83
+          ],
+          "kind": "loadk",
+          "constant_lua": "100"
+        },
+        {
+          "pc": 83,
+          "file_offset": 5311,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            84
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 84,
+          "file_offset": 5315,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 25,
+          "Bx": 25,
+          "successors": [
+            86
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_shake_once\""
+        },
+        {
+          "pc": 86,
+          "file_offset": 5323,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            87
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 87,
+          "file_offset": 5327,
+          "name": "EQ",
+          "A": 0,
+          "B": 0,
+          "C": 259,
+          "Bx": 259,
+          "successors": [
+            133,
+            89
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 0
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 3,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 89,
+          "file_offset": 5335,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 28,
+          "Bx": 28,
+          "successors": [
+            91
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"set_shake_once\""
+        },
+        {
+          "pc": 91,
+          "file_offset": 5343,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            92
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 92,
+          "file_offset": 5347,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            93
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 93,
+          "file_offset": 5351,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            95
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 95,
+          "file_offset": 5359,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            98
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_anim\""
+        },
+        {
+          "pc": 98,
+          "file_offset": 5371,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            100
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 100,
+          "file_offset": 5379,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 31,
+          "Bx": 31,
+          "successors": [
+            101
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"OBJ_WoS_Bats_01\""
+        },
+        {
+          "pc": 101,
+          "file_offset": 5383,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            102
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 102,
+          "file_offset": 5387,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 32,
+          "Bx": 32,
+          "successors": [
+            103
+          ],
+          "kind": "loadk",
+          "constant_lua": "3525925"
+        },
+        {
+          "pc": 103,
+          "file_offset": 5391,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            104
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 104,
+          "file_offset": 5395,
+          "name": "LOADBOOL",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            105
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 105,
+          "file_offset": 5399,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            106
+          ],
+          "kind": "loadk",
+          "constant_lua": "100"
+        },
+        {
+          "pc": 106,
+          "file_offset": 5403,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            107
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 107,
+          "file_offset": 5407,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            109
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 109,
+          "file_offset": 5415,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 13,
+          "Bx": 13,
+          "successors": [
+            112
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_anim\""
+        },
+        {
+          "pc": 112,
+          "file_offset": 5427,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 14,
+          "Bx": 14,
+          "successors": [
+            114
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 114,
+          "file_offset": 5435,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 33,
+          "Bx": 33,
+          "successors": [
+            115
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"OBJ_WoS_Bats_02\""
+        },
+        {
+          "pc": 115,
+          "file_offset": 5439,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            116
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 116,
+          "file_offset": 5443,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 32,
+          "Bx": 32,
+          "successors": [
+            117
+          ],
+          "kind": "loadk",
+          "constant_lua": "3525925"
+        },
+        {
+          "pc": 117,
+          "file_offset": 5447,
+          "name": "LOADBOOL",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            118
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 118,
+          "file_offset": 5451,
+          "name": "LOADBOOL",
+          "A": 4,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            119
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 119,
+          "file_offset": 5455,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            120
+          ],
+          "kind": "loadk",
+          "constant_lua": "100"
+        },
+        {
+          "pc": 120,
+          "file_offset": 5459,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            121
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 121,
+          "file_offset": 5463,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 34,
+          "Bx": 34,
+          "successors": [
+            123
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"MQ01\""
+        },
+        {
+          "pc": 123,
+          "file_offset": 5471,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 37,
+          "Bx": 37,
+          "successors": [
+            126
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_room_collapse_event\""
+        },
+        {
+          "pc": 126,
+          "file_offset": 5483,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Bx": 513,
+          "successors": [
+            127
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 127,
+          "file_offset": 5487,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 34,
+          "Bx": 34,
+          "successors": [
+            129
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"MQ01\""
+        },
+        {
+          "pc": 129,
+          "file_offset": 5495,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 38,
+          "Bx": 38,
+          "successors": [
+            132
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_room_quest_update\""
+        },
+        {
+          "pc": 132,
+          "file_offset": 5507,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Bx": 513,
+          "successors": [
+            133
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 133,
+          "file_offset": 5511,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 39,
+          "Bx": 39,
+          "successors": [
+            135
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"MATH\""
+        },
+        {
+          "pc": 135,
+          "file_offset": 5519,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 42,
+          "Bx": 42,
+          "successors": [
+            138
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_random_range\""
+        },
+        {
+          "pc": 138,
+          "file_offset": 5531,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 43,
+          "Bx": 43,
+          "successors": [
+            140
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_MIN_SHAKE_REPEAT\""
+        },
+        {
+          "pc": 140,
+          "file_offset": 5539,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 46,
+          "Bx": 46,
+          "successors": [
+            142
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_MAX_SHAKE_REPEAT\""
+        },
+        {
+          "pc": 142,
+          "file_offset": 5547,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 3,
+          "C": 2,
+          "Bx": 1538,
+          "successors": [
+            143
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 143,
+          "file_offset": 5551,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 49,
+          "Bx": 49,
+          "successors": [
+            145
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 145,
+          "file_offset": 5559,
+          "name": "GETFIELD_R1",
+          "A": 1,
+          "B": 1,
+          "C": 52,
+          "Bx": 564,
+          "successors": [
+            148
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 148,
+          "file_offset": 5571,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 53,
+          "Bx": 53,
+          "successors": [
+            149
+          ],
+          "kind": "loadk",
+          "constant_lua": "42880537"
+        },
+        {
+          "pc": 149,
+          "file_offset": 5575,
+          "name": "MOVE",
+          "A": 3,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            150
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 150,
+          "file_offset": 5579,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 3,
+          "C": 1,
+          "Bx": 1537,
+          "successors": [
+            151
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 151,
+          "file_offset": 5583,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/9",
+      "parameter_count": 0,
+      "maximum_stack_size": 2,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 6210,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"set_did_shake\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 6218,
+          "name": "LOADBOOL",
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            3
+          ],
+          "kind": "loadbool"
+        },
+        {
+          "pc": 3,
+          "file_offset": 6222,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 2,
+          "C": 1,
+          "Bx": 1025,
+          "successors": [
+            4
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 4,
+          "file_offset": 6226,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            6
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"shake_ground\""
+        },
+        {
+          "pc": 6,
+          "file_offset": 6234,
+          "name": "CALL_I_R1",
+          "A": 0,
+          "B": 1,
+          "C": 1,
+          "Bx": 513,
+          "successors": [
+            7
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 7,
+          "file_offset": 6238,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/10",
+      "parameter_count": 5,
+      "maximum_stack_size": 11,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 6336,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_player\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 6344,
+          "name": "CALL_I_R1",
+          "A": 5,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            3
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 3,
+          "file_offset": 6348,
+          "name": "EQ",
+          "A": 1,
+          "B": 1,
+          "C": 5,
+          "Bx": 517,
+          "successors": [
+            6,
+            5
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 1
+          },
+          "right_operand": {
+            "kind": "register",
+            "index": 5
+          }
+        },
+        {
+          "pc": 5,
+          "file_offset": 6356,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 6360,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            8
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 8,
+          "file_offset": 6368,
+          "name": "GETGLOBAL_MEM",
+          "A": 6,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            10
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_VOLUME_ENTER_FUNCS\""
+        },
+        {
+          "pc": 10,
+          "file_offset": 6376,
+          "name": "GETTABLE_S",
+          "A": 6,
+          "B": 6,
+          "C": 0,
+          "Bx": 3072,
+          "successors": [
+            13
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 13,
+          "file_offset": 6388,
+          "name": "CALL_I",
+          "A": 5,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            14
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 14,
+          "file_offset": 6392,
+          "name": "EQ",
+          "A": 1,
+          "B": 5,
+          "C": 265,
+          "Bx": 2825,
+          "successors": [
+            27,
+            16
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 5
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 9,
+            "lua": "\"nil\""
+          }
+        },
+        {
+          "pc": 16,
+          "file_offset": 6400,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 6,
+          "Bx": 6,
+          "successors": [
+            18
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_VOLUME_ENTER_FUNCS\""
+        },
+        {
+          "pc": 18,
+          "file_offset": 6408,
+          "name": "GETTABLE_S",
+          "A": 5,
+          "B": 5,
+          "C": 0,
+          "Bx": 2560,
+          "successors": [
+            21
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 21,
+          "file_offset": 6420,
+          "name": "MOVE",
+          "A": 6,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            22
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 22,
+          "file_offset": 6424,
+          "name": "MOVE",
+          "A": 7,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            23
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 23,
+          "file_offset": 6428,
+          "name": "MOVE",
+          "A": 8,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            24
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 24,
+          "file_offset": 6432,
+          "name": "MOVE",
+          "A": 9,
+          "B": 3,
+          "C": 0,
+          "Bx": 1536,
+          "successors": [
+            25
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 25,
+          "file_offset": 6436,
+          "name": "MOVE",
+          "A": 10,
+          "B": 4,
+          "C": 0,
+          "Bx": 2048,
+          "successors": [
+            26
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 26,
+          "file_offset": 6440,
+          "name": "CALL_I",
+          "A": 5,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            27
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 27,
+          "file_offset": 6444,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/11",
+      "parameter_count": 5,
+      "maximum_stack_size": 11,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 6568,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"cinematic_post_char_gen_2\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 6576,
+          "name": "GETFIELD_R1",
+          "A": 5,
+          "B": 5,
+          "C": 3,
+          "Bx": 2563,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"get_cinematic_finished\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 6588,
+          "name": "CALL_I_R1",
+          "A": 5,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            6
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 6,
+          "file_offset": 6592,
+          "name": "EQ",
+          "A": 0,
+          "B": 5,
+          "C": 260,
+          "Bx": 2820,
+          "successors": [
+            9,
+            8
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 5
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 4,
+            "lua": "false"
+          }
+        },
+        {
+          "pc": 8,
+          "file_offset": 6600,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 9,
+          "file_offset": 6604,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 5,
+          "Bx": 5,
+          "successors": [
+            11
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_player\""
+        },
+        {
+          "pc": 11,
+          "file_offset": 6612,
+          "name": "CALL_I_R1",
+          "A": 5,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            12
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 12,
+          "file_offset": 6616,
+          "name": "EQ",
+          "A": 1,
+          "B": 1,
+          "C": 5,
+          "Bx": 517,
+          "successors": [
+            15,
+            14
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 1
+          },
+          "right_operand": {
+            "kind": "register",
+            "index": 5
+          }
+        },
+        {
+          "pc": 14,
+          "file_offset": 6624,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        },
+        {
+          "pc": 15,
+          "file_offset": 6628,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            17
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"type\""
+        },
+        {
+          "pc": 17,
+          "file_offset": 6636,
+          "name": "GETGLOBAL_MEM",
+          "A": 6,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            19
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_VOLUME_EXIT_FUNCS\""
+        },
+        {
+          "pc": 19,
+          "file_offset": 6644,
+          "name": "GETTABLE_S",
+          "A": 6,
+          "B": 6,
+          "C": 0,
+          "Bx": 3072,
+          "successors": [
+            22
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 22,
+          "file_offset": 6656,
+          "name": "CALL_I",
+          "A": 5,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            23
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 23,
+          "file_offset": 6660,
+          "name": "EQ",
+          "A": 1,
+          "B": 5,
+          "C": 270,
+          "Bx": 2830,
+          "successors": [
+            36,
+            25
+          ],
+          "kind": "eq_branch",
+          "left_operand": {
+            "kind": "register",
+            "index": 5
+          },
+          "right_operand": {
+            "kind": "constant",
+            "index": 14,
+            "lua": "\"nil\""
+          }
+        },
+        {
+          "pc": 25,
+          "file_offset": 6668,
+          "name": "GETGLOBAL_MEM",
+          "A": 5,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            27
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"M_VOLUME_EXIT_FUNCS\""
+        },
+        {
+          "pc": 27,
+          "file_offset": 6676,
+          "name": "GETTABLE_S",
+          "A": 5,
+          "B": 5,
+          "C": 0,
+          "Bx": 2560,
+          "successors": [
+            30
+          ],
+          "kind": "gettable"
+        },
+        {
+          "pc": 30,
+          "file_offset": 6688,
+          "name": "MOVE",
+          "A": 6,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            31
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 31,
+          "file_offset": 6692,
+          "name": "MOVE",
+          "A": 7,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [
+            32
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 32,
+          "file_offset": 6696,
+          "name": "MOVE",
+          "A": 8,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            33
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 33,
+          "file_offset": 6700,
+          "name": "MOVE",
+          "A": 9,
+          "B": 3,
+          "C": 0,
+          "Bx": 1536,
+          "successors": [
+            34
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 34,
+          "file_offset": 6704,
+          "name": "MOVE",
+          "A": 10,
+          "B": 4,
+          "C": 0,
+          "Bx": 2048,
+          "successors": [
+            35
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 35,
+          "file_offset": 6708,
+          "name": "CALL_I",
+          "A": 5,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            36
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 36,
+          "file_offset": 6712,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

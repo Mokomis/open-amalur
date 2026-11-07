@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\runtime-integration",
+  "reviewed": [
+    "Bounded production amalur_runtime eval for every public operation",
+    "Host effects deferred until typed post-snapshot under reset Lua budget",
+    "Rebuild+last-committed-state restore on reject/OOM/budget failure",
+    "Copied scene/generation identity string; no native userdata equality assumed",
+    "Known source IDs1790948/613083 only, unknown quest stage reserved INT32_MIN",
+    "No file I/O or implicit external service success in wrapper; root host still required"
+  ],
+  "status": "approved for next integration batch; sources copied into live core but not CMake/main-loop referenced yet",
+  "host_required": "Actual volume transitions, real atomic checkpoint and tutorial registry; unspawned door/unknown quest remain unavailable"
+}

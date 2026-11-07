@@ -1,0 +1,61 @@
+{
+  "native_executable_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "buff_stats": {
+    "source_array": "Buff graph+0x64 pointer/+0x68count,12B records",
+    "native_accessors": [
+      "00d8f900",
+      "00d87bc0"
+    ],
+    "native_binding": "BHG_PartBuff__vf9 00f73820 ->00f682e0",
+    "operations": {
+      "1": "multiply",
+      "3": "add"
+    },
+    "float_evaluator": "00e2c6b0",
+    "signed_int_evaluator": "00e2c5b0 (truncate each op)"
+  },
+  "conditions": {
+    "source_framing": "graph+0x78 pointer/+0x7clength; leadingu16 bodyLength removed by00e03150",
+    "dispatch_table": "017423b0, firstprogrambyte index",
+    "all_13_patrons": {
+      "serialized_body_hex": "00",
+      "handler": "00db0850 MOV AL,1;RET",
+      "meaning": "unconditional true"
+    },
+    "Stealth_GlobalCritBonus1621687": {
+      "source_condition": "Stealth_Exiting(owner) AND NOT can_see_player(target)",
+      "exact_guarded_function": "assets/stealth-condition.lua",
+      "stat_key": 3817837,
+      "op": 3,
+      "value": 1.0
+    },
+    "DestinyBuff_All_reckoning633989": {
+      "serialized_body_hex": "20f587090001",
+      "handler": "00dcd6f0",
+      "asset_state_id": 624629,
+      "source_name": "ReckoningMode",
+      "polarity": 1,
+      "actual_query": "00dcd6f0 ->00f0df30 ownerstate list+14/count+18/stride12",
+      "independent_actor_binding": "ACTOR.has_actor_state=00e7fe90 ->00e76f20 ->00f0df30",
+      "important_stack_note": "00dcd718 tests summary-mode ARG2, NOT serialized polarity; actualpolarity readintoarg1slot thencomparedat00dcd752."
+    }
+  },
+  "initial_health": {
+    "all4_final_types": {
+      "PartTargetBlueprint_plus4_float": 50.0,
+      "PartTargetBlueprint_plus8_progression_key": 0
+    },
+    "native_copy": "00f76af0 ->00dfdfd0 ->maxHealth atTarget+4c",
+    "limit": "This is concrete source initial base before other actual host modifiers; config must pass actual host base, not silently replace host rules."
+  },
+  "initial_inventory": "All4finaltypes+base207480 PartInventory9 initialitemcount0/counts0; exact common/hidden/recipe grants are source script, noUNRESOLVED entries.",
+  "fresh_color_offsets": {
+    "skin": "+10\u2192Stats30",
+    "eyebrow": "+1c\u2192Stats3c",
+    "eyeliner": "+24\u2192Stats44",
+    "all12_skin_alpha": 255,
+    "all12_eyebrow_alpha": 0,
+    "field_join_peer": "native_lighting_contract_v44 checked00f76530/00dda730"
+  },
+  "optional_content": "Onlyexplicit package4 active adds recipes2105162/3/4; presence is not ownership; unknown returns unavailable"
+}

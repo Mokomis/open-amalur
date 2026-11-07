@@ -1,0 +1,364 @@
+{
+  "scope": "All3 glassmetalprobe materials in existing first-room material catalogue; not all installed-game materials",
+  "materials": [
+    {
+      "material": 464114,
+      "name": "min_metaltrim01",
+      "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\464114.mat_bxml",
+      "source_sha256": "347549e34f5d4790a5da9bf2666fe9923efb21b58b75af614ed4550b8ec4ea58",
+      "shader": 358224,
+      "shader_name": "glassmetalprobe",
+      "alpha_test": 0,
+      "cull": 2,
+      "cutoff_byte": 0,
+      "texture_references": [
+        {
+          "asset": 464115,
+          "name": "min_metaltrim01_d",
+          "file_offset": 160
+        },
+        {
+          "asset": 464128,
+          "name": "min_metaltrim01_a",
+          "file_offset": 168
+        },
+        {
+          "asset": 464117,
+          "name": "min_metaltrim01_s",
+          "file_offset": 176
+        },
+        {
+          "asset": 464116,
+          "name": "min_metaltrim01_n",
+          "file_offset": 184
+        },
+        {
+          "asset": 505647,
+          "name": "505646_cubemap",
+          "file_offset": 192
+        }
+      ],
+      "raw_hex": "c0000000080000002800000005000000a00000000500000050770500000000000200000000000000ae47e13f0000c84200000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f00cdcccc3e00000000000000000000000002000000ae8c3d01e7e5653fabaa2a3f9190103f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00f3140700000000000015070001000000f514070002000000f4140700030000002fb70700150000000000000008000000",
+      "parameters": [
+        {
+          "hash": 11960536,
+          "name": "SpecularValues",
+          "type": 11,
+          "values": [
+            1.7599999904632568,
+            100.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "hash": 10447209,
+          "name": "SpecularColor",
+          "type": 3,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "hash": 20810926,
+          "name": "ReflectionInfluence",
+          "type": 2,
+          "values": [
+            0.4000000059604645,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "hash": 4394951,
+          "name": "TintColor",
+          "type": 4,
+          "values": [
+            0.8980392813682556,
+            0.6666666865348816,
+            0.5647059082984924,
+            1.0
+          ]
+        },
+        {
+          "hash": 2873547,
+          "name": "Opacity",
+          "type": 11,
+          "values": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "texture_slots": [
+        {
+          "asset": 464115,
+          "slot": 0,
+          "name": "min_metaltrim01_d"
+        },
+        {
+          "asset": 464128,
+          "slot": 1,
+          "name": "min_metaltrim01_a"
+        },
+        {
+          "asset": 464117,
+          "slot": 2,
+          "name": "min_metaltrim01_s"
+        },
+        {
+          "asset": 464116,
+          "slot": 3,
+          "name": "min_metaltrim01_n"
+        },
+        {
+          "asset": 505647,
+          "slot": 21,
+          "name": "505646_cubemap"
+        }
+      ],
+      "candidate_existing_family": null,
+      "family_status": "exactsourcecontractretained; namedshadernotassumedcoveredbygenericfallback"
+    },
+    {
+      "material": 469438,
+      "name": "nca_wall01",
+      "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\469438.mat_bxml",
+      "source_sha256": "13f8243af8a0e8ea43506bd89a4d5e3fabca2f8b9ddcd16b70c96b5553d8cb9a",
+      "shader": 358224,
+      "shader_name": "glassmetalprobe",
+      "alpha_test": 0,
+      "cull": 2,
+      "cutoff_byte": 0,
+      "texture_references": [
+        {
+          "asset": 469469,
+          "name": "nca_wall01_d",
+          "file_offset": 136
+        },
+        {
+          "asset": 498117,
+          "name": "nca_wall01_m",
+          "file_offset": 144
+        },
+        {
+          "asset": 469471,
+          "name": "nca_wall01_s",
+          "file_offset": 152
+        },
+        {
+          "asset": 469470,
+          "name": "nca_wall01_n",
+          "file_offset": 160
+        },
+        {
+          "asset": 1259503,
+          "name": "1259502_cubemap",
+          "file_offset": 168
+        }
+      ],
+      "raw_hex": "a80000000800000028000000040000008800000005000000507705000000000002000000000000000000204000008c4200000000000000000b000000d880b600cdcc4c3e00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00dd29070000000000c599070001000000df29070002000000de29070003000000ef371300150000000000000008000000",
+      "parameters": [
+        {
+          "hash": 11960536,
+          "name": "SpecularValues",
+          "type": 11,
+          "values": [
+            2.5,
+            70.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "hash": 20810926,
+          "name": "ReflectionInfluence",
+          "type": 2,
+          "values": [
+            0.20000000298023224,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "hash": 4394951,
+          "name": "TintColor",
+          "type": 4,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "hash": 2873547,
+          "name": "Opacity",
+          "type": 11,
+          "values": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "texture_slots": [
+        {
+          "asset": 469469,
+          "slot": 0,
+          "name": "nca_wall01_d"
+        },
+        {
+          "asset": 498117,
+          "slot": 1,
+          "name": "nca_wall01_m"
+        },
+        {
+          "asset": 469471,
+          "slot": 2,
+          "name": "nca_wall01_s"
+        },
+        {
+          "asset": 469470,
+          "slot": 3,
+          "name": "nca_wall01_n"
+        },
+        {
+          "asset": 1259503,
+          "slot": 21,
+          "name": "1259502_cubemap"
+        }
+      ],
+      "candidate_existing_family": null,
+      "family_status": "exactsourcecontractretained; namedshadernotassumedcoveredbygenericfallback"
+    },
+    {
+      "material": 476693,
+      "name": "nca_stalagmite01",
+      "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\476693.mat_bxml",
+      "source_sha256": "ef2eaaefdc9dc87957f69d7197712293be7f2088b796840047a96a10cc5d3eaf",
+      "shader": 358224,
+      "shader_name": "glassmetalprobe",
+      "alpha_test": 0,
+      "cull": 2,
+      "cutoff_byte": 0,
+      "texture_references": [
+        {
+          "asset": 488729,
+          "name": "nca_stalagmite01_d",
+          "file_offset": 160
+        },
+        {
+          "asset": 498117,
+          "name": "nca_wall01_m",
+          "file_offset": 168
+        },
+        {
+          "asset": 488731,
+          "name": "nca_stalagmite01_s",
+          "file_offset": 176
+        },
+        {
+          "asset": 488730,
+          "name": "nca_stalagmite01_n",
+          "file_offset": 184
+        }
+      ],
+      "raw_hex": "c0000000080000002800000005000000a000000005000000507705000000000002000000000000000000803f0000c84200000000000000000b000000d880b6000000803ffdfb7b3fdcda5a3f0000803f0300000069699f00cdcccc3d00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b001975070000000000c5990700010000001b750700020000001a7507000300000000000000150000000000000008000000",
+      "parameters": [
+        {
+          "hash": 11960536,
+          "name": "SpecularValues",
+          "type": 11,
+          "values": [
+            1.0,
+            100.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "hash": 10447209,
+          "name": "SpecularColor",
+          "type": 3,
+          "values": [
+            1.0,
+            0.9843137860298157,
+            0.8549020290374756,
+            1.0
+          ]
+        },
+        {
+          "hash": 20810926,
+          "name": "ReflectionInfluence",
+          "type": 2,
+          "values": [
+            0.10000000149011612,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "hash": 4394951,
+          "name": "TintColor",
+          "type": 4,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "hash": 2873547,
+          "name": "Opacity",
+          "type": 11,
+          "values": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "texture_slots": [
+        {
+          "asset": 488729,
+          "slot": 0,
+          "name": "nca_stalagmite01_d"
+        },
+        {
+          "asset": 498117,
+          "slot": 1,
+          "name": "nca_wall01_m"
+        },
+        {
+          "asset": 488731,
+          "slot": 2,
+          "name": "nca_stalagmite01_s"
+        },
+        {
+          "asset": 488730,
+          "slot": 3,
+          "name": "nca_stalagmite01_n"
+        },
+        {
+          "asset": 0,
+          "slot": 21,
+          "name": null
+        }
+      ],
+      "candidate_existing_family": null,
+      "family_status": "exactsourcecontractretained; namedshadernotassumedcoveredbygenericfallback"
+    }
+  ]
+}

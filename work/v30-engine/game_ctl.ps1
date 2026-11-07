@@ -1,0 +1,6 @@
+# game_ctl.ps1 close|start: close the game window or start the recording build, on the desktop session.
+param([string]$Do)
+$E='C:\Users\rwill\Documents\Opem Amalur\work\v30-engine'; $R="$E\run-rec"
+function intask($exe,$arg){ $a=New-ScheduledTaskAction -Execute $exe -Argument $arg; $p=New-ScheduledTaskPrincipal -UserId 'rwill' -LogonType Interactive -RunLevel Limited; Register-ScheduledTask -TaskName OA_t -Action $a -Principal $p -Force | Out-Null; Start-ScheduledTask -TaskName OA_t; Start-Sleep 4; Unregister-ScheduledTask -TaskName OA_t -Confirm:$false }
+if($Do -eq 'close'){ intask 'conhost.exe' "--headless powershell.exe -NoProfile -ExecutionPolicy Bypass -File `"$E\closewin.ps1`" -Title Kingdoms -Out `"$E\pc\close.txt`""; 1..40 | % { if(-not (Get-Process koa -ErrorAction SilentlyContinue)){ return }; Start-Sleep 1 }; "koa running: " + [bool](Get-Process koa -ErrorAction SilentlyContinue) }
+if($Do -eq 'start'){ Remove-Item "$R\oa_rec" -Recurse -Force -ErrorAction SilentlyContinue; intask 'cmd.exe' "/c `"$E\run-rec.cmd`""; 1..60 | % { if(Get-Process koa -ErrorAction SilentlyContinue){ return }; Start-Sleep 1 }; "koa started: " + [bool](Get-Process koa -ErrorAction SilentlyContinue); Start-Sleep 45 }

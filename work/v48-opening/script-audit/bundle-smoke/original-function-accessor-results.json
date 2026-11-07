@@ -1,0 +1,304 @@
+{
+  "passed": true,
+  "checks": 95,
+  "lua_version": "5.1",
+  "scope": "Original recovered function bodies with explicit recording fixtures; not native runtime equivalence or production services",
+  "unknown_engine_calls_fail": true,
+  "source_functions": {
+    "cinematic_post_char_gen_2": "5dd016ba88ae386d2efbe0e95525a29c279f5d8fd5e8d4a0db4a43fc7062a3a0",
+    "WoS_Start_Room": "1495b89c539fda953ce0e2f827df7f058aa0a89f3b72a4d26c6a39f871d0db98",
+    "Sword_WoS_InitialWeapon": "cab141b3ea48cb82b25c964b6b897dbf038f6c0547e2d3be3e515ad90946d86c",
+    "WoS_FirstCombatRoom": "29666e2899b764f8d78f2a9439df675f69fe7811859e6a17a2fbccf1635bfe80"
+  },
+  "scenarios": [
+    {
+      "scenario": "post-char-gen location",
+      "effects": [
+        [
+          "GAME.set_post_cinematic_player_loc_and_rot",
+          4312,
+          2806,
+          -314,
+          -180
+        ]
+      ]
+    },
+    {
+      "scenario": "first real movement after cinematic",
+      "effects": [
+        [
+          "state",
+          "WoS_Start_Room",
+          "player_has_moved",
+          true
+        ],
+        [
+          "tutorial_win.kill_tutorial",
+          17524338
+        ],
+        [
+          "tutorial_win.kill_tutorial",
+          26339831
+        ],
+        [
+          "interfaceLibrary.autosave",
+          0
+        ]
+      ]
+    },
+    {
+      "scenario": "pickup then equip then door timer",
+      "pickup_effects": [
+        [
+          "state",
+          "Sword_WoS_InitialWeapon",
+          "acquired_once",
+          true
+        ],
+        [
+          "TIME.delayed_function_call",
+          151774118,
+          15,
+          7
+        ],
+        [
+          "state",
+          "WoS_Start_Room",
+          "player_has_looted",
+          true
+        ],
+        [
+          "tutorial_win.disable_secondary_weapon",
+          true
+        ],
+        [
+          "TIME.delayed_function_call",
+          165407883,
+          15
+        ],
+        [
+          "state",
+          "MQ01",
+          "sword_get",
+          1
+        ]
+      ],
+      "door_effects": [
+        [
+          "ACTOR.open_gateway",
+          "MQ01_Start_Door_01"
+        ],
+        [
+          "loot_popup.enable_compare"
+        ],
+        [
+          "QUEST.set_stage",
+          613083,
+          25
+        ],
+        [
+          "state",
+          "MQ01",
+          "sword_get",
+          1
+        ]
+      ]
+    },
+    {
+      "scenario": "door boundary matrix",
+      "stages": [
+        -1,
+        0,
+        5,
+        20,
+        21,
+        25,
+        100
+      ],
+      "option_equipped_combinations": 3
+    },
+    {
+      "scenario": "first combat volume entry",
+      "effects": [
+        [
+          "state",
+          "WoS_FirstCombatRoom",
+          "event_started",
+          true
+        ],
+        [
+          "TIME.delayed_function_call",
+          59489868,
+          150
+        ]
+      ]
+    },
+    {
+      "scenario": "first combat check",
+      "inputs": {
+        "near": 0,
+        "force": false,
+        "fired": false,
+        "enabled": true,
+        "ui": 283690,
+        "primary": 0,
+        "active": 0
+      },
+      "effects": [
+        [
+          "TIME.delayed_function_call",
+          59489868,
+          125
+        ]
+      ]
+    },
+    {
+      "scenario": "first combat check",
+      "inputs": {
+        "near": 0,
+        "force": true,
+        "fired": false,
+        "enabled": true,
+        "ui": 283690,
+        "primary": 0,
+        "active": 0
+      },
+      "effects": [
+        [
+          "factionsLibrary.set_faction_hostile",
+          "Player",
+          "Quest_MQ01_Rats"
+        ],
+        [
+          "PLAYER.equip",
+          7,
+          0
+        ],
+        [
+          "PlayerInput.switch_pc_weapon_mode"
+        ],
+        [
+          "tutorial_win.launch_modal_tutorial",
+          25608663
+        ]
+      ]
+    },
+    {
+      "scenario": "first combat check",
+      "inputs": {
+        "near": 1,
+        "force": false,
+        "fired": false,
+        "enabled": true,
+        "ui": 283690,
+        "primary": 1360571,
+        "active": 1360571
+      },
+      "effects": [
+        [
+          "factionsLibrary.set_faction_hostile",
+          "Player",
+          "Quest_MQ01_Rats"
+        ],
+        [
+          "tutorial_win.launch_modal_tutorial",
+          25608663
+        ]
+      ]
+    },
+    {
+      "scenario": "first combat check",
+      "inputs": {
+        "near": 1,
+        "force": false,
+        "fired": true,
+        "enabled": true,
+        "ui": 283690,
+        "primary": 0,
+        "active": 0
+      },
+      "effects": []
+    },
+    {
+      "scenario": "first combat check",
+      "inputs": {
+        "near": 1,
+        "force": false,
+        "fired": false,
+        "enabled": false,
+        "ui": 283690,
+        "primary": 0,
+        "active": 0
+      },
+      "effects": [
+        [
+          "factionsLibrary.set_faction_hostile",
+          "Player",
+          "Quest_MQ01_Rats"
+        ]
+      ]
+    },
+    {
+      "scenario": "first combat check",
+      "inputs": {
+        "near": 1,
+        "force": false,
+        "fired": false,
+        "enabled": true,
+        "ui": 0,
+        "primary": 0,
+        "active": 0
+      },
+      "effects": [
+        [
+          "factionsLibrary.set_faction_hostile",
+          "Player",
+          "Quest_MQ01_Rats"
+        ],
+        [
+          "PLAYER.equip",
+          7,
+          0
+        ],
+        [
+          "tutorial_win.launch_modal_tutorial",
+          25608663
+        ]
+      ]
+    },
+    {
+      "scenario": "movement-popup gate",
+      "cinematic_finished": false,
+      "effects": [
+        [
+          "TIME.delayed_function_call",
+          84278937,
+          500
+        ]
+      ]
+    },
+    {
+      "scenario": "movement-popup gate",
+      "cinematic_finished": true,
+      "effects": [
+        [
+          "TIME.delayed_function_call",
+          44109305,
+          2000,
+          613083,
+          "new"
+        ],
+        [
+          "TIME.delayed_function_call",
+          47850951,
+          5000
+        ]
+      ]
+    },
+    {
+      "scenario": "missing-service partial-state evidence",
+      "guard_changed_before_error": true,
+      "requirement": "host readiness/preflight or explicit rollback policy"
+    }
+  ]
+}

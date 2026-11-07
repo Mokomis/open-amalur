@@ -1,0 +1,25 @@
+{
+  "read_only_UI_review": true,
+  "timestamp_utc": "2026-11-06T23:27:37.860025+00:00",
+  "reviewed_stage_hashes": {
+    "oa_creation_live.inc": {
+      "sha256": "5cf2ba1adda3c0eaade0f8899f380d3346d6db52abb4f95e26bb319c43371c7e",
+      "bytes": 11728
+    },
+    "android_scene.c": {
+      "sha256": "dbcef7379b657e047f2c82fe3515500d9d1b43468fbd323683b0dcbde98157ff",
+      "bytes": 119946
+    },
+    "oa_menu.c": {
+      "sha256": "c394847bf9df5332e6b312fc0bca158a470b0903dd989d298872c2d1129c4e4a",
+      "bytes": 45674
+    }
+  },
+  "pending": [
+    "P1 realhealthdeltas missingowner sync(parentowned)",
+    "P2 Resumeallowedafterlatchedsource/GPUfailure"
+  ],
+  "resolved": "authorizedfailclosedSessionloadguard",
+  "guard_source_sha256": "80894172aaeb7e08f25b4e320e8403ebe9ad7f76e0ff70d20bad9f07f8e71aaa",
+  "regression": "../load-guard-regression/receipt.json"
+}

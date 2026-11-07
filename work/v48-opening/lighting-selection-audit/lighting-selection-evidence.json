@@ -1,0 +1,2014 @@
+{
+  "status": "BOUNDED STATIC PASS COMPLETE; noactualopeningruntime mode/payloadobserved",
+  "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417252.space_bxml",
+  "source_sha256": "118e4b67ecd5684957b3619dc10c64079ddd2e8eabe01fd0f891c783f82c643d",
+  "settings_slot": 192,
+  "settings_count": 2,
+  "settings_stride": 1392,
+  "volume_slot": 200,
+  "volume_count": 2,
+  "volume_stride": 60,
+  "environments": [
+    {
+      "index": 0,
+      "file": "space-c0-environment-0.bin",
+      "file_offset": 23848,
+      "bytes": 1392,
+      "sha256": "d7bf3d7e330a2b58cf2df480a39a6d68365ae41bb97a69e950600ff569756153",
+      "decoded": {
+        "source_offset": 23840,
+        "record_bytes": 1392,
+        "keys": [
+          "Midnight",
+          "Dawn",
+          "Noon",
+          "Dusk"
+        ],
+        "time_keyed": {
+          "fog_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.21176472306251526,
+                  0.32549020648002625,
+                  0.3764706254005432
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24416,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.21176472306251526,
+                  0.32549020648002625,
+                  0.3764706254005432
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24432,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.21176472306251526,
+                  0.32549020648002625,
+                  0.3764706254005432
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24448,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.21176472306251526,
+                  0.32549020648002625,
+                  0.3764706254005432
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24464,
+              "status": "asset_verified"
+            }
+          },
+          "fog_start": {
+            "Midnight": {
+              "value": -0.15000000596046448,
+              "source_offset": 24480,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": -0.15000000596046448,
+              "source_offset": 24484,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": -0.15000000596046448,
+              "source_offset": 24488,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": -0.15000000596046448,
+              "source_offset": 24492,
+              "status": "asset_verified"
+            }
+          },
+          "fog_density": {
+            "Midnight": {
+              "value": 35.0,
+              "source_offset": 24496,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 35.0,
+              "source_offset": 24500,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 35.0,
+              "source_offset": 24504,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 35.0,
+              "source_offset": 24508,
+              "status": "asset_verified"
+            }
+          },
+          "post_bloom_scale": {
+            "Midnight": {
+              "value": 0.5098000168800354,
+              "source_offset": 24512,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.5098000168800354,
+              "source_offset": 24516,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.5098000168800354,
+              "source_offset": 24520,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.5098000168800354,
+              "source_offset": 24524,
+              "status": "asset_verified"
+            }
+          },
+          "post_bloom_cutoff": {
+            "Midnight": {
+              "value": 0.6779000163078308,
+              "source_offset": 24528,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.6779000163078308,
+              "source_offset": 24532,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.6779000163078308,
+              "source_offset": 24536,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.6779000163078308,
+              "source_offset": 24540,
+              "status": "asset_verified"
+            }
+          },
+          "post_brightness": {
+            "Midnight": {
+              "value": 1.2000000476837158,
+              "source_offset": 24544,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 1.2000000476837158,
+              "source_offset": 24548,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 1.2000000476837158,
+              "source_offset": 24552,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 1.2000000476837158,
+              "source_offset": 24556,
+              "status": "asset_verified"
+            }
+          },
+          "post_contrast": {
+            "Midnight": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 24560,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 24572,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 24584,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 24596,
+              "status": "asset_verified"
+            }
+          },
+          "post_focal_distance": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 24608,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 24612,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 24616,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 24620,
+              "status": "asset_verified"
+            }
+          },
+          "post_focal_radius": {
+            "Midnight": {
+              "value": 12000.0,
+              "source_offset": 24624,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 12000.0,
+              "source_offset": 24628,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 12000.0,
+              "source_offset": 24632,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 12000.0,
+              "source_offset": 24636,
+              "status": "asset_verified"
+            }
+          },
+          "post_motion_blur": {
+            "Midnight": {
+              "value": 0.20000000298023224,
+              "source_offset": 24640,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.20000000298023224,
+              "source_offset": 24644,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.20000000298023224,
+              "source_offset": 24648,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.20000000298023224,
+              "source_offset": 24652,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_exposure_level": {
+            "Midnight": {
+              "value": 0.800000011920929,
+              "source_offset": 24656,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.800000011920929,
+              "source_offset": 24660,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.800000011920929,
+              "source_offset": 24664,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.800000011920929,
+              "source_offset": 24668,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_min_luminance": {
+            "Midnight": {
+              "value": 0.15000000596046448,
+              "source_offset": 24672,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.15000000596046448,
+              "source_offset": 24676,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.15000000596046448,
+              "source_offset": 24680,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.15000000596046448,
+              "source_offset": 24684,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_max_luminance": {
+            "Midnight": {
+              "value": 1.0,
+              "source_offset": 24688,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 1.0,
+              "source_offset": 24692,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 1.0,
+              "source_offset": 24696,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 1.0,
+              "source_offset": 24700,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_strength": {
+            "Midnight": {
+              "value": 0.800000011920929,
+              "source_offset": 24704,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.800000011920929,
+              "source_offset": 24708,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.800000011920929,
+              "source_offset": 24712,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.800000011920929,
+              "source_offset": 24716,
+              "status": "asset_verified"
+            }
+          },
+          "dof_near_fuzzy": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 24720,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 24724,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 24728,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 24732,
+              "status": "asset_verified"
+            }
+          },
+          "dof_near_sharp": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 24736,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 24740,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 24744,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 24748,
+              "status": "asset_verified"
+            }
+          },
+          "dof_far_fuzzy": {
+            "Midnight": {
+              "value": 25000.0,
+              "source_offset": 24752,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 25000.0,
+              "source_offset": 24756,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 25000.0,
+              "source_offset": 24760,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 25000.0,
+              "source_offset": 24764,
+              "status": "asset_verified"
+            }
+          },
+          "dof_far_sharp": {
+            "Midnight": {
+              "value": 3000.0,
+              "source_offset": 24768,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 3000.0,
+              "source_offset": 24772,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 3000.0,
+              "source_offset": 24776,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 3000.0,
+              "source_offset": 24780,
+              "status": "asset_verified"
+            }
+          },
+          "dof_max_fuzzy": {
+            "Midnight": {
+              "value": 0.5,
+              "source_offset": 24784,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.5,
+              "source_offset": 24788,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.5,
+              "source_offset": 24792,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.5,
+              "source_offset": 24796,
+              "status": "asset_verified"
+            }
+          },
+          "edge_motion_blur": {
+            "Midnight": {
+              "value": 0.5,
+              "source_offset": 24800,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.5,
+              "source_offset": 24804,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.5,
+              "source_offset": 24808,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.5,
+              "source_offset": 24812,
+              "status": "asset_verified"
+            }
+          },
+          "color_correction_texture_id": {
+            "Midnight": {
+              "value": 1529772,
+              "source_offset": 24816,
+              "status": "native_confirmed"
+            },
+            "Dawn": {
+              "value": 1529772,
+              "source_offset": 24820,
+              "status": "native_confirmed"
+            },
+            "Noon": {
+              "value": 1529772,
+              "source_offset": 24824,
+              "status": "native_confirmed"
+            },
+            "Dusk": {
+              "value": 1529772,
+              "source_offset": 24828,
+              "status": "native_confirmed"
+            }
+          },
+          "directional_light_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.2392157018184662,
+                  0.874509871006012,
+                  0.8117647767066956
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24832,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.2392157018184662,
+                  0.874509871006012,
+                  0.8117647767066956
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24848,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.2392157018184662,
+                  0.874509871006012,
+                  0.8117647767066956
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24864,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.2392157018184662,
+                  0.874509871006012,
+                  0.8117647767066956
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24880,
+              "status": "asset_verified"
+            }
+          },
+          "directional_light_intensity": {
+            "Midnight": {
+              "value": 0.23999999463558197,
+              "source_offset": 24896,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.23999999463558197,
+              "source_offset": 24900,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.23999999463558197,
+              "source_offset": 24904,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.23999999463558197,
+              "source_offset": 24908,
+              "status": "asset_verified"
+            }
+          },
+          "shadow_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24928,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24944,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24960,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24976,
+              "status": "asset_verified"
+            }
+          },
+          "sky_light_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.30000001192092896
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 24992,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.30000001192092896
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25008,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.30000001192092896
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25024,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.30000001192092896
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25040,
+              "status": "asset_verified"
+            }
+          },
+          "shadow_opacity": {
+            "Midnight": {
+              "value": 1.0,
+              "source_offset": 25056,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 1.0,
+              "source_offset": 25060,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 1.0,
+              "source_offset": 25064,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 1.0,
+              "source_offset": 25068,
+              "status": "asset_verified"
+            }
+          },
+          "particle_tint": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25072,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25088,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25104,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25120,
+              "status": "asset_verified"
+            }
+          },
+          "environment_tint": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25136,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25152,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25168,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25184,
+              "status": "asset_verified"
+            }
+          },
+          "ambient_cube_index": {
+            "Midnight": {
+              "value": 0,
+              "source_offset": 25200,
+              "status": "native_confirmed"
+            },
+            "Dawn": {
+              "value": 0,
+              "source_offset": 25204,
+              "status": "native_confirmed"
+            },
+            "Noon": {
+              "value": 0,
+              "source_offset": 25208,
+              "status": "native_confirmed"
+            },
+            "Dusk": {
+              "value": 0,
+              "source_offset": 25212,
+              "status": "native_confirmed"
+            }
+          },
+          "character_ambient_cube_index": {
+            "Midnight": {
+              "value": 1,
+              "source_offset": 25216,
+              "status": "native_confirmed"
+            },
+            "Dawn": {
+              "value": 1,
+              "source_offset": 25220,
+              "status": "native_confirmed"
+            },
+            "Noon": {
+              "value": 1,
+              "source_offset": 25224,
+              "status": "native_confirmed"
+            },
+            "Dusk": {
+              "value": 1,
+              "source_offset": 25228,
+              "status": "native_confirmed"
+            }
+          }
+        },
+        "directional_light_direction": {
+          "value": [
+            0.49019694328308105,
+            0.01867477037012577,
+            -0.8714116811752319
+          ],
+          "source_offset": 24912,
+          "status": "asset_verified"
+        },
+        "flags": {
+          "value": 1,
+          "source_offset": 24924,
+          "status": "native_confirmed",
+          "native_note": "FUN_00ccb310 copies only bit 0"
+        },
+        "unmapped_spans": [
+          {
+            "source_offset": 23840,
+            "bytes": 576,
+            "sha256": "bf9544d12a393090e35bd86eac32daa4eb6e18d70963b9b6aa7bed2f02cfe88a",
+            "status": "unmapped"
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "file": "space-c0-environment-1.bin",
+      "file_offset": 25240,
+      "bytes": 1392,
+      "sha256": "3f15217208fdf51b493af29515459dc7a400a74c35e90c22a6d6039aefb9f83b",
+      "decoded": {
+        "source_offset": 25232,
+        "record_bytes": 1392,
+        "keys": [
+          "Midnight",
+          "Dawn",
+          "Noon",
+          "Dusk"
+        ],
+        "time_keyed": {
+          "fog_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.0470588281750679,
+                  0.0941176563501358,
+                  0.30980393290519714
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25808,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.0470588281750679,
+                  0.0941176563501358,
+                  0.30980393290519714
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25824,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.0470588281750679,
+                  0.0941176563501358,
+                  0.30980393290519714
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25840,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.0470588281750679,
+                  0.0941176563501358,
+                  0.30980393290519714
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 25856,
+              "status": "asset_verified"
+            }
+          },
+          "fog_start": {
+            "Midnight": {
+              "value": -0.10000000149011612,
+              "source_offset": 25872,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": -0.10000000149011612,
+              "source_offset": 25876,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": -0.10000000149011612,
+              "source_offset": 25880,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": -0.10000000149011612,
+              "source_offset": 25884,
+              "status": "asset_verified"
+            }
+          },
+          "fog_density": {
+            "Midnight": {
+              "value": 55.0,
+              "source_offset": 25888,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 55.0,
+              "source_offset": 25892,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 55.0,
+              "source_offset": 25896,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 55.0,
+              "source_offset": 25900,
+              "status": "asset_verified"
+            }
+          },
+          "post_bloom_scale": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 25904,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 25908,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 25912,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 25916,
+              "status": "asset_verified"
+            }
+          },
+          "post_bloom_cutoff": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 25920,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 25924,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 25928,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 25932,
+              "status": "asset_verified"
+            }
+          },
+          "post_brightness": {
+            "Midnight": {
+              "value": 1.0,
+              "source_offset": 25936,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 1.0,
+              "source_offset": 25940,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 1.0,
+              "source_offset": 25944,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 1.0,
+              "source_offset": 25948,
+              "status": "asset_verified"
+            }
+          },
+          "post_contrast": {
+            "Midnight": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 25952,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 25964,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 25976,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "source_offset": 25988,
+              "status": "asset_verified"
+            }
+          },
+          "post_focal_distance": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 26000,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 26004,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 26008,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 26012,
+              "status": "asset_verified"
+            }
+          },
+          "post_focal_radius": {
+            "Midnight": {
+              "value": 12000.0,
+              "source_offset": 26016,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 12000.0,
+              "source_offset": 26020,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 12000.0,
+              "source_offset": 26024,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 12000.0,
+              "source_offset": 26028,
+              "status": "asset_verified"
+            }
+          },
+          "post_motion_blur": {
+            "Midnight": {
+              "value": 0.20000000298023224,
+              "source_offset": 26032,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.20000000298023224,
+              "source_offset": 26036,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.20000000298023224,
+              "source_offset": 26040,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.20000000298023224,
+              "source_offset": 26044,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_exposure_level": {
+            "Midnight": {
+              "value": 0.8317000269889832,
+              "source_offset": 26048,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.8317000269889832,
+              "source_offset": 26052,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.8317000269889832,
+              "source_offset": 26056,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.8317000269889832,
+              "source_offset": 26060,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_min_luminance": {
+            "Midnight": {
+              "value": 0.08789999783039093,
+              "source_offset": 26064,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.08789999783039093,
+              "source_offset": 26068,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.08789999783039093,
+              "source_offset": 26072,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.08789999783039093,
+              "source_offset": 26076,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_max_luminance": {
+            "Midnight": {
+              "value": 1.0,
+              "source_offset": 26080,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 1.0,
+              "source_offset": 26084,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 1.0,
+              "source_offset": 26088,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 1.0,
+              "source_offset": 26092,
+              "status": "asset_verified"
+            }
+          },
+          "bloom_strength": {
+            "Midnight": {
+              "value": 0.75,
+              "source_offset": 26096,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.75,
+              "source_offset": 26100,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.75,
+              "source_offset": 26104,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.75,
+              "source_offset": 26108,
+              "status": "asset_verified"
+            }
+          },
+          "dof_near_fuzzy": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 26112,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 26116,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 26120,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 26124,
+              "status": "asset_verified"
+            }
+          },
+          "dof_near_sharp": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 26128,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 26132,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 26136,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 26140,
+              "status": "asset_verified"
+            }
+          },
+          "dof_far_fuzzy": {
+            "Midnight": {
+              "value": 15000.0,
+              "source_offset": 26144,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 15000.0,
+              "source_offset": 26148,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 15000.0,
+              "source_offset": 26152,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 15000.0,
+              "source_offset": 26156,
+              "status": "asset_verified"
+            }
+          },
+          "dof_far_sharp": {
+            "Midnight": {
+              "value": 0.0,
+              "source_offset": 26160,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.0,
+              "source_offset": 26164,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.0,
+              "source_offset": 26168,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.0,
+              "source_offset": 26172,
+              "status": "asset_verified"
+            }
+          },
+          "dof_max_fuzzy": {
+            "Midnight": {
+              "value": 1.0,
+              "source_offset": 26176,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 1.0,
+              "source_offset": 26180,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 1.0,
+              "source_offset": 26184,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 1.0,
+              "source_offset": 26188,
+              "status": "asset_verified"
+            }
+          },
+          "edge_motion_blur": {
+            "Midnight": {
+              "value": 0.5,
+              "source_offset": 26192,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.5,
+              "source_offset": 26196,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.5,
+              "source_offset": 26200,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.5,
+              "source_offset": 26204,
+              "status": "asset_verified"
+            }
+          },
+          "color_correction_texture_id": {
+            "Midnight": {
+              "value": 1437928,
+              "source_offset": 26208,
+              "status": "native_confirmed"
+            },
+            "Dawn": {
+              "value": 1437928,
+              "source_offset": 26212,
+              "status": "native_confirmed"
+            },
+            "Noon": {
+              "value": 1437928,
+              "source_offset": 26216,
+              "status": "native_confirmed"
+            },
+            "Dusk": {
+              "value": 1437928,
+              "source_offset": 26220,
+              "status": "native_confirmed"
+            }
+          },
+          "directional_light_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.364705890417099,
+                  0.24705883860588074,
+                  0.09019608050584793
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26224,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.364705890417099,
+                  0.24705883860588074,
+                  0.09019608050584793
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26240,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.364705890417099,
+                  0.24705883860588074,
+                  0.09019608050584793
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26256,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.364705890417099,
+                  0.24705883860588074,
+                  0.09019608050584793
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26272,
+              "status": "asset_verified"
+            }
+          },
+          "directional_light_intensity": {
+            "Midnight": {
+              "value": 0.44999998807907104,
+              "source_offset": 26288,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 0.44999998807907104,
+              "source_offset": 26292,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 0.44999998807907104,
+              "source_offset": 26296,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 0.44999998807907104,
+              "source_offset": 26300,
+              "status": "asset_verified"
+            }
+          },
+          "shadow_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0313725508749485,
+                  0.13725490868091583
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26320,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0313725508749485,
+                  0.13725490868091583
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26336,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0313725508749485,
+                  0.13725490868091583
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26352,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.0,
+                  0.0313725508749485,
+                  0.13725490868091583
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26368,
+              "status": "asset_verified"
+            }
+          },
+          "sky_light_color": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.5,
+                  0.5,
+                  0.6000000238418579
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26384,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.5,
+                  0.5,
+                  0.6000000238418579
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26400,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.5,
+                  0.5,
+                  0.6000000238418579
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26416,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.5,
+                  0.5,
+                  0.6000000238418579
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26432,
+              "status": "asset_verified"
+            }
+          },
+          "shadow_opacity": {
+            "Midnight": {
+              "value": 1.0,
+              "source_offset": 26448,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": 1.0,
+              "source_offset": 26452,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": 1.0,
+              "source_offset": 26456,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": 1.0,
+              "source_offset": 26460,
+              "status": "asset_verified"
+            }
+          },
+          "particle_tint": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26464,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26480,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26496,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26512,
+              "status": "asset_verified"
+            }
+          },
+          "environment_tint": {
+            "Midnight": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26528,
+              "status": "asset_verified"
+            },
+            "Dawn": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26544,
+              "status": "asset_verified"
+            },
+            "Noon": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26560,
+              "status": "asset_verified"
+            },
+            "Dusk": {
+              "value": {
+                "rgb": [
+                  0.5490196347236633,
+                  0.5490196347236633,
+                  0.5490196347236633
+                ],
+                "intensity": 1.0
+              },
+              "source_offset": 26576,
+              "status": "asset_verified"
+            }
+          },
+          "ambient_cube_index": {
+            "Midnight": {
+              "value": 2,
+              "source_offset": 26592,
+              "status": "native_confirmed"
+            },
+            "Dawn": {
+              "value": 2,
+              "source_offset": 26596,
+              "status": "native_confirmed"
+            },
+            "Noon": {
+              "value": 2,
+              "source_offset": 26600,
+              "status": "native_confirmed"
+            },
+            "Dusk": {
+              "value": 2,
+              "source_offset": 26604,
+              "status": "native_confirmed"
+            }
+          },
+          "character_ambient_cube_index": {
+            "Midnight": {
+              "value": 3,
+              "source_offset": 26608,
+              "status": "native_confirmed"
+            },
+            "Dawn": {
+              "value": 3,
+              "source_offset": 26612,
+              "status": "native_confirmed"
+            },
+            "Noon": {
+              "value": 3,
+              "source_offset": 26616,
+              "status": "native_confirmed"
+            },
+            "Dusk": {
+              "value": 3,
+              "source_offset": 26620,
+              "status": "native_confirmed"
+            }
+          }
+        },
+        "directional_light_direction": {
+          "value": [
+            0.0,
+            0.03211382031440735,
+            -0.9994843006134033
+          ],
+          "source_offset": 26304,
+          "status": "asset_verified"
+        },
+        "flags": {
+          "value": 0,
+          "source_offset": 26316,
+          "status": "native_confirmed",
+          "native_note": "FUN_00ccb310 copies only bit 0"
+        },
+        "unmapped_spans": [
+          {
+            "source_offset": 25232,
+            "bytes": 576,
+            "sha256": "bf9544d12a393090e35bd86eac32daa4eb6e18d70963b9b6aa7bed2f02cfe88a",
+            "status": "unmapped"
+          }
+        ]
+      }
+    }
+  ],
+  "volumes": [
+    {
+      "index": 0,
+      "settings_index": 0,
+      "translation": [
+        4104.50244140625,
+        2541.97900390625,
+        12.481781005859375
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        9.918001174926758,
+        8.458000183105469,
+        5.296000003814697
+      ],
+      "half_extents": [
+        4959.00048828125,
+        4229.0,
+        2648.0
+      ],
+      "fade": 2000.0,
+      "source_id": 1417552,
+      "file": "space-c8-volume-0.bin",
+      "file_offset": 26632,
+      "sha256": "11c013c33e8283e46c6860220b4434be62149a21c08fba49abc0c07e94dbd95c",
+      "bounds": [
+        [
+          -854.498046875,
+          -1687.02099609375,
+          -2635.518310546875
+        ],
+        [
+          9063.5029296875,
+          6770.97900390625,
+          2660.481689453125
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "settings_index": 1,
+      "translation": [
+        38989.69921875,
+        -1308.2301025390625,
+        55.30353546142578
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        20.0,
+        50.0,
+        30.0
+      ],
+      "half_extents": [
+        10000.0,
+        25000.0,
+        15000.0
+      ],
+      "fade": 1000.0,
+      "source_id": 1565002,
+      "file": "space-c8-volume-1.bin",
+      "file_offset": 26692,
+      "sha256": "b3f7c8b20517d1f53ccdf65053493b7686b36fbbb37aea72f3b5d688ec4b0806",
+      "bounds": [
+        [
+          28989.69921875,
+          -26308.23046875,
+          -14944.6962890625
+        ],
+        [
+          48989.69921875,
+          23691.76953125,
+          15055.3037109375
+        ]
+      ]
+    }
+  ],
+  "source_xml_match": {
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\lighting_dgn_wellofsouls_start.koalighting",
+    "sha256": "0cd54ea100bffaacfe44eead505f37368aea8d6be121a4414775f4b534999dd3",
+    "float32_field_comparisons": 112,
+    "failures": [],
+    "excluded": "ambientcubeindicesarenativebankindicesvsXMLpathstrings;notcomparedbyname"
+  },
+  "evaluations": [
+    {
+      "query": "authored_player_spawn",
+      "point_f32": [
+        4312.0,
+        2806.0,
+        -314.0
+      ],
+      "volumes": [
+        {
+          "volume": 0,
+          "local_delta": [
+            207.49755859375,
+            264.02099609375,
+            -326.4817810058594
+          ],
+          "outside_axis_distance": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distance": 0.0,
+          "raw_weight": 1.0
+        },
+        {
+          "volume": 1,
+          "local_delta": [
+            -34677.69921875,
+            4114.22998046875,
+            -369.30352783203125
+          ],
+          "outside_axis_distance": [
+            24677.69921875,
+            0.0,
+            0.0
+          ],
+          "distance": 24677.69921875,
+          "raw_weight": 0.0
+        }
+      ],
+      "raw_total": 1.0,
+      "base_residual": 0.0,
+      "normalized_volume_weights": [
+        1.0,
+        0.0
+      ],
+      "normalized_base_weight": 0.0
+    },
+    {
+      "query": "recorded_custom_camera_eye",
+      "point_f32": [
+        4547.2138671875,
+        2805.9921875,
+        -116.85830688476562
+      ],
+      "volumes": [
+        {
+          "volume": 0,
+          "local_delta": [
+            442.71142578125,
+            264.01318359375,
+            -129.340087890625
+          ],
+          "outside_axis_distance": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distance": 0.0,
+          "raw_weight": 1.0
+        },
+        {
+          "volume": 1,
+          "local_delta": [
+            -34442.484375,
+            4114.22216796875,
+            -172.16183471679688
+          ],
+          "outside_axis_distance": [
+            24442.484375,
+            0.0,
+            0.0
+          ],
+          "distance": 24442.484375,
+          "raw_weight": 0.0
+        }
+      ],
+      "raw_total": 1.0,
+      "base_residual": 0.0,
+      "normalized_volume_weights": [
+        1.0,
+        0.0
+      ],
+      "normalized_base_weight": 0.0
+    }
+  ],
+  "normalization": "rawWeights wi=spaceWeight*(1-clamp(distance/fade,0,1)); iffade<=0 use1iffdistance<=0. BaseResidual=max(0,1-sumwi). Normalizeallby(sumwi+base).",
+  "query_point_proof": "SpaceRenderEvent+0x1c\u219200fc6800 callbackcontext\u219200fb0bb0 reads queryObject+4/+8/+0xc. No direct player-coordinate lookup in thispath; payloadproducer identity not resolved. Bothplayer+camera checkedandclassificationidentical.",
+  "modes": {
+    "0": "ordinarylocalvolumes thenregionbase residual",
+    "1": "ordinarylocal/base then00fb8990 additionaloverride; finaloverrideinputsunknown",
+    "2": "00fb8870 hardoverride bypassesnormalvolume path; unknownactivevalues"
+  },
+  "runtime_limit": "Actualnewgame overrideMode dccd00 result, eventquerypayload, neighborcontributions and temporalstate notobserved; freshcorrelatednativecapture/RPM neededforactualfinalcolors. Thisstaticpassdoesnotauthorizeforcingstart orretuningcolors.",
+  "start_time_keys_identical_by_field": {
+    "fog_color": true,
+    "fog_start": true,
+    "fog_density": true,
+    "post_bloom_scale": true,
+    "post_bloom_cutoff": true,
+    "post_brightness": true,
+    "post_contrast": true,
+    "post_focal_distance": true,
+    "post_focal_radius": true,
+    "post_motion_blur": true,
+    "bloom_exposure_level": true,
+    "bloom_min_luminance": true,
+    "bloom_max_luminance": true,
+    "bloom_strength": true,
+    "dof_near_fuzzy": true,
+    "dof_near_sharp": true,
+    "dof_far_fuzzy": true,
+    "dof_far_sharp": true,
+    "dof_max_fuzzy": true,
+    "edge_motion_blur": true,
+    "color_correction_texture_id": true,
+    "directional_light_color": true,
+    "directional_light_intensity": true,
+    "shadow_color": true,
+    "sky_light_color": true,
+    "shadow_opacity": true,
+    "particle_tint": true,
+    "environment_tint": true,
+    "ambient_cube_index": true,
+    "character_ambient_cube_index": true
+  }
+}

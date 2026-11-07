@@ -1,0 +1,111 @@
+[
+  {
+    "address": "00d36d50",
+    "file": "BHG_FabVisualDataBundleLoader.c",
+    "size": 2794,
+    "lines": [
+      "iVar3 = DAT_019fe000;",
+      "if (*(uint *)(DAT_019fe000 + 0x114) <= *(uint *)(DAT_019fe000 + 0x110)) {",
+      "FUN_00ca4f00((int)*(short *)(DAT_019fe000 + 0x11a));"
+    ],
+    "header": "// 00d36d50 BHG_FabVisualDataBundleLoader__xtor_2"
+  },
+  {
+    "address": "00d33b10",
+    "file": "BHG_IdleProcessingProcess.c",
+    "size": 1482,
+    "lines": [
+      "DAT_019fe000 = param_1;",
+      "DAT_019fe000 = (undefined4 *)0x0;"
+    ],
+    "header": "// 00d33b10 BHG_IdleProcessingProcess__xtor_11"
+  },
+  {
+    "address": "00d457a0",
+    "file": "BHG_ITextureGatherer.c",
+    "size": 1944,
+    "lines": [
+      "iVar2 = DAT_019fe000;",
+      "if (*(uint *)(DAT_019fe000 + 0x114) <= *(uint *)(DAT_019fe000 + 0x110)) {",
+      "FUN_00ca4f00((int)*(short *)(DAT_019fe000 + 0x11a));"
+    ],
+    "header": "// 00d457a0 BHG_ITextureGatherer__xtor_2"
+  },
+  {
+    "address": "00fe7af0",
+    "file": "BHG_RegionMgr.c",
+    "size": 174,
+    "lines": [
+      "*(byte *)(DAT_019fe000 + 0x147) = *(byte *)(DAT_019fe000 + 0x147) & 0xfe;"
+    ],
+    "header": "// 00fe7af0 BHG_RegionMgr__vf27"
+  },
+  {
+    "address": "00fe7b10",
+    "file": "BHG_RegionMgr.c",
+    "size": 1767,
+    "lines": [
+      "*(byte *)(DAT_019fe000 + 0x147) = *(byte *)(DAT_019fe000 + 0x147) | 1;",
+      "*(byte *)(DAT_019fe000 + 0x147) = *(byte *)(DAT_019fe000 + 0x147) | 1;"
+    ],
+    "header": "// 00fe7b10 BHG_RegionMgr__vf29"
+  },
+  {
+    "address": "00d32700",
+    "file": "BHG_RsScreenshotUtil.c",
+    "size": 3232,
+    "lines": [
+      "iVar4 = FUN_00a71e80(*(undefined4 *)(DAT_019fe000 + 0xf0),1);"
+    ],
+    "header": "// 00d32700 BHG_RsScreenshotUtil__xtor"
+  },
+  {
+    "address": "00cebd10",
+    "file": "BHG_TerrainMeshRenderMgr.c",
+    "size": 9142,
+    "lines": [
+      "iVar11 = DAT_019fe000;"
+    ],
+    "header": "// 00cebd10 BHG_TerrainMeshRenderMgr__vf1"
+  },
+  {
+    "address": "00d14b30",
+    "file": "BHG_TerrainMeshRenderMgr.c",
+    "size": 1482,
+    "lines": [
+      "iVar1 = DAT_019fe000;",
+      "if (*(uint *)(DAT_019fe000 + 0x114) <= *(uint *)(DAT_019fe000 + 0x110)) {",
+      "FUN_00ca4f00((int)*(short *)(DAT_019fe000 + 0x11a));"
+    ],
+    "header": "// 00d14b30 BHG_TerrainMeshRenderMgr__xtor_2"
+  },
+  {
+    "address": "00cd9480",
+    "file": "BHG_VeggieGrid.c",
+    "size": 1816,
+    "lines": [
+      "iVar6 = DAT_019fe000;",
+      "iVar6 = DAT_019fe000;",
+      "iVar6 = DAT_019fe000;"
+    ],
+    "header": "// 00cd9480 BHG_VeggieGrid__vf1"
+  },
+  {
+    "address": "00d15da0",
+    "file": "T_AssetCategoryMgrProxy_02VTexture_BHG_VHashNamePolicy_2_VActiveReferencePolicy_2_BHG.c",
+    "size": 2221,
+    "lines": [
+      "DAT_019fe000 = 0;"
+    ],
+    "header": "// 00d15da0 T_AssetCategoryMgrProxy_02VTexture_BHG_VHashNamePolicy_2_VActiveReferencePolicy_2_BHG__xtor_2"
+  },
+  {
+    "address": "00cd6680",
+    "file": "unnamed_00cd.c",
+    "size": 5317,
+    "lines": [
+      "iVar20 = DAT_019fe000;"
+    ],
+    "header": "// 00cd6680 FUN_00cd6680"
+  }
+]

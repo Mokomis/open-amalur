@@ -1,0 +1,59 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v31-native-slice\\render-20261105\\windows-replay.png",
+      "sha256": "16a03e835a970b87f92bead67bedfac8e44cd26bc7f7996b7bd1696e990205b7",
+      "size": [
+        1536,
+        864
+      ]
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\bridge-native-leaves-expanded.png",
+      "sha256": "f1d807d2b79e68cc9734b8818e473263b00eeb2d6e0895b567c36867f7229c60",
+      "size": [
+        1536,
+        864
+      ]
+    }
+  ],
+  "crops": {
+    "top": [
+      0,
+      0,
+      1536,
+      288
+    ],
+    "middle": [
+      0,
+      288,
+      1536,
+      576
+    ],
+    "bottom": [
+      0,
+      576,
+      1536,
+      864
+    ],
+    "roots-left": [
+      0,
+      350,
+      450,
+      640
+    ],
+    "bridge-left": [
+      700,
+      400,
+      980,
+      650
+    ],
+    "bridge-right": [
+      1040,
+      390,
+      1536,
+      650
+    ]
+  },
+  "layout": "original left, current right; both identical source coordinates;28px title strip"
+}

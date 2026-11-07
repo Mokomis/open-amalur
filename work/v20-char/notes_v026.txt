@@ -1,0 +1,11 @@
+
+v0.26.0 (2026-10-31) World streaming
+- New: work/v19-host/oa_stream.c/.h, work/v20-char/build_world_pack.py -> work/v22-stress/pack, packaged as assets/world. 201 cells of 64 m, three LODs by global vertex clustering with terrain skirts, indexed 28-byte vertices, textures loaded on demand. Background thread for file reads and collision builds; GL uploads on the render thread, 6 MB and 2 textures per frame. Frustum culling per cell. Near 128 m, mid 256 m, far 640 m. Collision is the 3x3 cells around the player, swapped on cell change.
+- Sun shadow map: 2048, 60 m half range, 4-tap PCF, authored host filtering. Options > Shadows, default on. Characters cast but do not receive.
+- Movement: a failed collision validation now respawns at last safe spot instead of ending control.
+- Settings magic is OASET002, so older settings reset. Test props: debug.opem.profile, skip, scale, crowd, shadow, walk (heading+1), tour.
+- Measured, tablet in full 2520x1680, same 480 m world, characters on, uncapped: 2.0 ms, 354 MB (was 4.6-5.1 ms, 885 MB). Shadows 3.6 ms. World load 165 ms (was 2082 ms), excludes surface recreation.
+- Foliage load test uses synthetic placement of for_flora_grass01 cards to 128 m, not the game's veggie data: 2/m2 3.1 ms 390 MB; 8/m2 6.3 ms 503 MB; 8/m2 with shadows 10.6 ms 505 MB. Sustained 2 min at 60 Hz with 8/m2 and shadows held 60 fps, 35.7 C. Those grass runs before the character fix excluded characters except the 10.6 ms run.
+- Streaming: fast tour 30 m/s 90 s, 47 collision swaps at most 0.03 ms each, worst frame 32.7 ms at startup, other windows under 24 ms, 303 MB. Real walking crossed one cell boundary only, because terrain and buildings blocked straight-line walks. Shop to town and back, and Home then return, all reloaded correctly.
+- Not covered: real veggie data, real game texture sizes, ASTC, other world spaces or regions beyond 431638, AI at scale, physics, audio, thermal soak over 6 minutes. Visible LOD popping and far terrain quality not fixed. Characters do not receive shadows. Foliage is not shipped: the default pack has no added grass.
+- APK outputs/scene-v19/opem-amalur-scene-v0.26-arm64.apk sha starts b3e3e5cbd80c7c3f, versionCode 28, 78 MB. It still packs the unused monolithic town files.

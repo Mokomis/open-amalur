@@ -1,0 +1,8 @@
+{
+  "native_module": 651,
+  "cases": 512,
+  "max_abs_output_error": 3.3306690738754696e-16,
+  "verified": "Original SPIRV SSA interpreter vs compact material/reflection equations, randomized non-unit interpolated bases, masks,colors,globals,reflectiondirections; float64 algebra comparison.",
+  "gpu_validation": false,
+  "notes": "Shader compile separately checked byglslangValidator. This validates equations and channel/coordinate mappings, not GPUinstruction rounding or texture filtering."
+}

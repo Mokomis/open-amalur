@@ -1,0 +1,35 @@
+GAME.get_empty_object_handle — exact constant marshaling, v08
+
+Native callback00e43060, mirrored in work/v08-native/empty_object_handle.json
+and v08-empty-handle.json, calls00aa0850 then writes the Lua stack result's
+high word0 and low word0xfb, advances the stack by8 bytes and returns1.
+The helper reads callback metadata; its return does not change the value.
+This is tag11 with the original domain bits preserved, not Lua nil.
+
+The pinned scene profile precreates from_words(0xfb,0) once during protected
+installation from the trusted fresh realm's plain handle adapter. A provider
+closure captures that canonical token and returns exactly one result. Later
+changes or removal of public handle/carrier constructors cannot alter it.
+The supported call domain is zero arguments. Extra arguments are explicit
+unmodeled errors; native acceptance of arbitrary arguments is not claimed.
+No object lookup, validity, dereference, existence or lifecycle behavior is
+implemented. Existing providers and host-state options are unchanged.
+
+All allocation and constructor invocation occur under the existing lua_cpcall
+installer protection. Captured token lifetime belongs to Lua, with no host
+allocation or retained borrowed pointer. Discard the realm after install
+failure under the preexisting profile contract. The host must install this
+profile before executing untrusted scene modules, as for the asset installers.
+
+Windows integration after copying empty_object_handle_test.c into tests/:
+  add_executable(amalur-empty-object-handle-test tests/empty_object_handle_test.c)
+  target_link_libraries(amalur-empty-object-handle-test PRIVATE amalur_scene_profile_v08)
+Run:
+  amalur-empty-object-handle-test.exe RUNTIME_DIR
+Use the existing current registry containing GAME.get_empty_object_handle.
+The test checks canonical exact words, return count, repeated identity,
+distinct domain/ID words, strict arity, post-install public constructor
+mutation/removal, new-realm isolation and missing/invalid constructor errors.
+It checks neighboring provider behavior without modeling any more services.
+Original-native isolated execution and actual root progression are separate
+parent-owned evidence; staging is not a Windows test pass.

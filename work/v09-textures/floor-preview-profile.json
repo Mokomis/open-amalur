@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "scope": "Explicit approximate floor slot0 opaque texture visualization; materialID/slot interpreted from observed blob shape and UV48 from external importer plus finite data. Native full material/shader equivalence not claimed.",
+  "uv_layouts": [
+    {
+      "header_word0": 48,
+      "stride_bytes": 48,
+      "uv_offset": 12,
+      "evidence": [
+        "Original-game importer observed float32 UV0 at byte12 for stride48; native D3D11 declaration confirmation pending.",
+        "Windows uv-layout-diagnostic.json verifies finite UVs for selected floor assembly2 of536933. Native floats retained without1-v conversion."
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "material_id": 493000,
+      "material_file": "work/scene-inputs-v09/initial_0.pak/493000.mat_bxml",
+      "material_sha256": "76d540ca8e6e70cd8c4b59638d5df043220886d64e539bab87bacf545bcbe13c",
+      "shader_id": 8827,
+      "texture_slot": 0,
+      "texture_id": 492997,
+      "texture_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\scene-inputs-v09\\DATA_0.pak\\492997_2.dds",
+      "texture_sha256": "d0e25a1147580554ada4d3a07094b38a9305ee7da73e42a702277bf73194aa68",
+      "decode_level": 0,
+      "evidence": [
+        "Explicit parent-approved approximate slot0 opaque visualization; no complete original shader/base-color semantic equivalence claim.",
+        "Original compiled material pair must uniquely equal texture492997/slot0; assembler checks exact bytes and source SHA.",
+        "KEEN native reader c5a950 and formatlookup1194c10 establish BC1 carrier; selected existing512 mip stream decoded, never resized."
+      ]
+    }
+  ]
+}

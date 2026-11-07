@@ -1,0 +1,1023 @@
+/*
+** Copyright (c) 2024 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#ifndef GFXRECON_GENERATED_VULKAN_REPLAY_DUMP_RESOURCES_BASE_H
+#define GFXRECON_GENERATED_VULKAN_REPLAY_DUMP_RESOURCES_BASE_H
+
+#include "decode/api_decoder.h"
+#include "decode/common_object_info_table.h"
+#include "decode/vulkan_device_address_tracker.h"
+#include "decode/vulkan_object_info.h"
+#include "decode/vulkan_replay_options.h"
+#include "decode/vulkan_replay_dump_resources_common.h"
+#include "decode/vulkan_replay_dump_resources_draw_calls.h"
+#include "decode/vulkan_replay_dump_resources_transfer.h"
+#include "decode/vulkan_replay_dump_resources_compute_ray_tracing.h"
+#include "generated/generated_vulkan_dispatch_table.h"
+#include "graphics/vulkan_injected_calls.h"
+#include "format/format.h"
+#include "generated/generated_vulkan_struct_decoders.h"
+#include "util/compressor.h"
+#include "util/defines.h"
+#include "vulkan/vulkan_core.h"
+
+#include <cstdint>
+#include <type_traits>
+#include <memory>
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(decode)
+
+class VulkanReplayDumpResourcesBase
+{
+  public:
+    VulkanReplayDumpResourcesBase() = delete;
+
+    VulkanReplayDumpResourcesBase(const VulkanReplayOptions&                 options,
+                                  CommonObjectInfoTable*                     object_info_table,
+                                  const VulkanPerDeviceAddressTrackers&      address_trackers,
+                                  const graphics::InstanceDispatchTablesMap& instance_tables,
+                                  const graphics::DeviceDispatchTablesMap&   device_tables);
+
+    ~VulkanReplayDumpResourcesBase();
+
+    VkResult BeginCommandBuffer(uint64_t                                   bcb_index,
+                                VulkanCommandBufferInfo*                   original_command_buffer_info,
+                                const graphics::VulkanInjectedDeviceCalls& device_table,
+                                const graphics::VulkanInstanceTable*       inst_table,
+                                const VkCommandBufferBeginInfo*            begin_info);
+
+    void OverrideCmdDraw(const ApiCallInfo& call_info,
+                         PFN_vkCmdDraw      func,
+                         VkCommandBuffer    original_command_buffer,
+                         uint32_t           vertex_count,
+                         uint32_t           instance_count,
+                         uint32_t           first_vertex,
+                         uint32_t           first_instance);
+
+    void OverrideCmdDrawIndexed(const ApiCallInfo&   call_info,
+                                PFN_vkCmdDrawIndexed func,
+                                VkCommandBuffer      original_command_buffer,
+                                uint32_t             index_count,
+                                uint32_t             instance_count,
+                                uint32_t             first_index,
+                                int32_t              vertex_offset,
+                                uint32_t             first_instance);
+
+    void OverrideCmdDrawIndirect(const ApiCallInfo&      call_info,
+                                 PFN_vkCmdDrawIndirect   func,
+                                 VkCommandBuffer         original_command_buffer,
+                                 const VulkanBufferInfo* buffer_info,
+                                 VkDeviceSize            offset,
+                                 uint32_t                draw_count,
+                                 uint32_t                stride);
+
+    void OverrideCmdDrawIndexedIndirect(const ApiCallInfo&           call_info,
+                                        PFN_vkCmdDrawIndexedIndirect func,
+                                        VkCommandBuffer              original_command_buffer,
+                                        const VulkanBufferInfo*      buffer_info,
+                                        VkDeviceSize                 offset,
+                                        uint32_t                     draw_count,
+                                        uint32_t                     stride);
+
+    void OverrideCmdDrawIndirectCount(const ApiCallInfo&         call_info,
+                                      PFN_vkCmdDrawIndirectCount func,
+                                      VkCommandBuffer            original_command_buffer,
+                                      const VulkanBufferInfo*    buffer_info,
+                                      VkDeviceSize               offset,
+                                      const VulkanBufferInfo*    count_buffer_info,
+                                      VkDeviceSize               count_buffer_offset,
+                                      uint32_t                   max_draw_count,
+                                      uint32_t                   stride)
+    {
+        HandleCmdDrawIndirectCount(call_info,
+                                   func,
+                                   original_command_buffer,
+                                   buffer_info,
+                                   offset,
+                                   count_buffer_info,
+                                   count_buffer_offset,
+                                   max_draw_count,
+                                   stride,
+                                   DrawCallsDumpingContext::kDrawIndirectCount);
+    }
+
+    void OverrideCmdDrawIndirectCountKHR(const ApiCallInfo&            call_info,
+                                         PFN_vkCmdDrawIndirectCountKHR func,
+                                         VkCommandBuffer               original_command_buffer,
+                                         const VulkanBufferInfo*       buffer_info,
+                                         VkDeviceSize                  offset,
+                                         const VulkanBufferInfo*       count_buffer_info,
+                                         VkDeviceSize                  count_buffer_offset,
+                                         uint32_t                      max_draw_count,
+                                         uint32_t                      stride)
+    {
+        HandleCmdDrawIndirectCount(call_info,
+                                   func,
+                                   original_command_buffer,
+                                   buffer_info,
+                                   offset,
+                                   count_buffer_info,
+                                   count_buffer_offset,
+                                   max_draw_count,
+                                   stride,
+                                   DrawCallsDumpingContext::kDrawIndirectCountKHR);
+    }
+
+    void OverrideCmdDrawIndirectCountAMD(const ApiCallInfo&            call_info,
+                                         PFN_vkCmdDrawIndirectCountAMD func,
+                                         VkCommandBuffer               original_command_buffer,
+                                         const VulkanBufferInfo*       buffer_info,
+                                         VkDeviceSize                  offset,
+                                         const VulkanBufferInfo*       count_buffer_info,
+                                         VkDeviceSize                  count_buffer_offset,
+                                         uint32_t                      max_draw_count,
+                                         uint32_t                      stride)
+    {
+        HandleCmdDrawIndirectCount(call_info,
+                                   func,
+                                   original_command_buffer,
+                                   buffer_info,
+                                   offset,
+                                   count_buffer_info,
+                                   count_buffer_offset,
+                                   max_draw_count,
+                                   stride,
+                                   DrawCallsDumpingContext::kDrawIndirectCountAMD);
+    }
+
+    void OverrideCmdDrawIndexedIndirectCount(const ApiCallInfo&                call_info,
+                                             PFN_vkCmdDrawIndexedIndirectCount func,
+                                             VkCommandBuffer                   original_command_buffer,
+                                             const VulkanBufferInfo*           buffer_info,
+                                             VkDeviceSize                      offset,
+                                             const VulkanBufferInfo*           count_buffer_info,
+                                             VkDeviceSize                      count_buffer_offset,
+                                             uint32_t                          max_draw_count,
+                                             uint32_t                          stride)
+    {
+        HandleCmdDrawIndexedIndirectCount(call_info,
+                                          func,
+                                          original_command_buffer,
+                                          buffer_info,
+                                          offset,
+                                          count_buffer_info,
+                                          count_buffer_offset,
+                                          max_draw_count,
+                                          stride,
+                                          DrawCallsDumpingContext::kDrawIndexedIndirectCount);
+    }
+
+    void OverrideCmdDrawIndexedIndirectCountKHR(const ApiCallInfo&                   call_info,
+                                                PFN_vkCmdDrawIndexedIndirectCountKHR func,
+                                                VkCommandBuffer                      original_command_buffer,
+                                                const VulkanBufferInfo*              buffer_info,
+                                                VkDeviceSize                         offset,
+                                                const VulkanBufferInfo*              count_buffer_info,
+                                                VkDeviceSize                         count_buffer_offset,
+                                                uint32_t                             max_draw_count,
+                                                uint32_t                             stride)
+    {
+        HandleCmdDrawIndexedIndirectCount(call_info,
+                                          func,
+                                          original_command_buffer,
+                                          buffer_info,
+                                          offset,
+                                          count_buffer_info,
+                                          count_buffer_offset,
+                                          max_draw_count,
+                                          stride,
+                                          DrawCallsDumpingContext::kDrawIndexedIndirectCountKHR);
+    }
+
+    void OverrideCmdDrawIndexedIndirectCountAMD(const ApiCallInfo&                   call_info,
+                                                PFN_vkCmdDrawIndexedIndirectCountAMD func,
+                                                VkCommandBuffer                      original_command_buffer,
+                                                const VulkanBufferInfo*              buffer_info,
+                                                VkDeviceSize                         offset,
+                                                const VulkanBufferInfo*              count_buffer_info,
+                                                VkDeviceSize                         count_buffer_offset,
+                                                uint32_t                             max_draw_count,
+                                                uint32_t                             stride)
+    {
+        HandleCmdDrawIndexedIndirectCount(call_info,
+                                          func,
+                                          original_command_buffer,
+                                          buffer_info,
+                                          offset,
+                                          count_buffer_info,
+                                          count_buffer_offset,
+                                          max_draw_count,
+                                          stride,
+                                          DrawCallsDumpingContext::kDrawIndexedIndirectCountAMD);
+    }
+
+    void OverrideCmdBeginRenderPass(const ApiCallInfo&                                   call_info,
+                                    PFN_vkCmdBeginRenderPass                             func,
+                                    VkCommandBuffer                                      original_command_buffer,
+                                    StructPointerDecoder<Decoded_VkRenderPassBeginInfo>* pRenderPassBegin,
+                                    VkSubpassContents                                    contents);
+
+    void OverrideCmdBeginRenderPass2(const ApiCallInfo&                                   call_info,
+                                     PFN_vkCmdBeginRenderPass2                            func,
+                                     VkCommandBuffer                                      original_command_buffer,
+                                     StructPointerDecoder<Decoded_VkRenderPassBeginInfo>* pRenderPassBegin,
+                                     StructPointerDecoder<Decoded_VkSubpassBeginInfo>*    pSubpassBeginInfo);
+
+    void OverrideCmdEndRenderPass(const ApiCallInfo&     call_info,
+                                  PFN_vkCmdEndRenderPass func,
+                                  VkCommandBuffer        original_command_buffer);
+
+    void OverrideCmdEndRenderPass2(const ApiCallInfo&                              call_info,
+                                   PFN_vkCmdEndRenderPass2                         func,
+                                   VkCommandBuffer                                 original_command_buffer,
+                                   StructPointerDecoder<Decoded_VkSubpassEndInfo>* pSubpassEndInfo);
+
+    void OverrideCmdNextSubpass(const ApiCallInfo&   call_info,
+                                PFN_vkCmdNextSubpass func,
+                                VkCommandBuffer      original_command_buffer,
+                                VkSubpassContents    contents);
+
+    void OverrideCmdNextSubpass2(const ApiCallInfo&                                call_info,
+                                 PFN_vkCmdNextSubpass2                             func,
+                                 VkCommandBuffer                                   original_command_buffer,
+                                 StructPointerDecoder<Decoded_VkSubpassBeginInfo>* pSubpassBeginInfo,
+                                 StructPointerDecoder<Decoded_VkSubpassEndInfo>*   pSubpassEndInfo);
+
+    void OverrideCmdBindPipeline(const ApiCallInfo&        call_info,
+                                 PFN_vkCmdBindPipeline     func,
+                                 VkCommandBuffer           original_command_buffer,
+                                 VkPipelineBindPoint       pipelineBindPoint,
+                                 const VulkanPipelineInfo* pipeline);
+
+    void OverrideCmdDispatch(const ApiCallInfo& call_info,
+                             PFN_vkCmdDispatch  func,
+                             VkCommandBuffer    original_command_buffer,
+                             uint32_t           groupCountX,
+                             uint32_t           groupCountY,
+                             uint32_t           groupCountZ);
+
+    void OverrideCmdDispatchIndirect(const ApiCallInfo&        call_info,
+                                     PFN_vkCmdDispatchIndirect func,
+                                     VkCommandBuffer           original_command_buffer,
+                                     const VulkanBufferInfo*   buffer_info,
+                                     VkDeviceSize              offset);
+
+    void
+    OverrideCmdTraceRaysKHR(const ApiCallInfo&                                             call_info,
+                            PFN_vkCmdTraceRaysKHR                                          func,
+                            VkCommandBuffer                                                original_command_buffer,
+                            StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pRaygenShaderBindingTable,
+                            StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pMissShaderBindingTable,
+                            StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pHitShaderBindingTable,
+                            StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pCallableShaderBindingTable,
+                            uint32_t                                                       width,
+                            uint32_t                                                       height,
+                            uint32_t                                                       depth);
+
+    void OverrideCmdTraceRaysIndirectKHR(
+        const ApiCallInfo&                                             call_info,
+        PFN_vkCmdTraceRaysIndirectKHR                                  func,
+        VkCommandBuffer                                                original_command_buffer,
+        StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pRaygenShaderBindingTable,
+        StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pMissShaderBindingTable,
+        StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pHitShaderBindingTable,
+        StructPointerDecoder<Decoded_VkStridedDeviceAddressRegionKHR>* pCallableShaderBindingTable,
+        VkDeviceAddress                                                indirectDeviceAddress);
+
+    void OverrideCmdTraceRaysIndirect2KHR(const ApiCallInfo&             call_info,
+                                          PFN_vkCmdTraceRaysIndirect2KHR func,
+                                          VkCommandBuffer                original_command_buffer,
+                                          VkDeviceAddress                indirectDeviceAddress);
+
+    void OverrideCmdBindDescriptorSets(const ApiCallInfo&              call_info,
+                                       PFN_vkCmdBindDescriptorSets     func,
+                                       VkCommandBuffer                 original_command_buffer,
+                                       VkPipelineBindPoint             pipeline_bind_point,
+                                       const VulkanPipelineLayoutInfo* layout_info,
+                                       uint32_t                        first_set,
+                                       uint32_t                        descriptor_sets_count,
+                                       const format::HandleId*         descriptor_sets_ids,
+                                       uint32_t                        dynamicOffsetCount,
+                                       const uint32_t*                 pDynamicOffsets);
+
+    void OverrideCmdPushDescriptorSet(const ApiCallInfo&                                  call_info,
+                                      PFN_vkCmdPushDescriptorSet                          func,
+                                      VkCommandBuffer                                     original_command_buffer,
+                                      VkPipelineBindPoint                                 pipeline_bind_point,
+                                      const VulkanPipelineLayoutInfo*                     layout_info,
+                                      uint32_t                                            set,
+                                      uint32_t                                            descriptor_write_count,
+                                      StructPointerDecoder<Decoded_VkWriteDescriptorSet>* p_descriptor_writes);
+
+    void OverrideCmdPushDescriptorSetKHR(const ApiCallInfo&                                  call_info,
+                                         PFN_vkCmdPushDescriptorSet                          func,
+                                         VkCommandBuffer                                     original_command_buffer,
+                                         VkPipelineBindPoint                                 pipeline_bind_point,
+                                         const VulkanPipelineLayoutInfo*                     layout_info,
+                                         uint32_t                                            set,
+                                         uint32_t                                            descriptor_write_count,
+                                         StructPointerDecoder<Decoded_VkWriteDescriptorSet>* p_descriptor_writes);
+
+    void OverrideCmdPushDescriptorSet2(const ApiCallInfo&                                     call_info,
+                                       PFN_vkCmdPushDescriptorSet2                            func,
+                                       VkCommandBuffer                                        original_command_buffer,
+                                       StructPointerDecoder<Decoded_VkPushDescriptorSetInfo>* pPushDescriptorSetInfo);
+
+    void
+    OverrideCmdPushDescriptorSet2KHR(const ApiCallInfo&                                     call_info,
+                                     PFN_vkCmdPushDescriptorSet2KHR                         func,
+                                     VkCommandBuffer                                        original_command_buffer,
+                                     StructPointerDecoder<Decoded_VkPushDescriptorSetInfo>* pPushDescriptorSetInfo);
+
+    void
+    OverrideCmdBindDescriptorSets2(const ApiCallInfo&                                      call_info,
+                                   PFN_vkCmdBindDescriptorSets2                            func,
+                                   VkCommandBuffer                                         original_command_buffer,
+                                   StructPointerDecoder<Decoded_VkBindDescriptorSetsInfo>* pBindDescriptorSetsInfo);
+
+    void OverrideCmdBindIndexBuffer(const ApiCallInfo&       call_info,
+                                    PFN_vkCmdBindIndexBuffer func,
+                                    VkCommandBuffer          original_command_buffer,
+                                    const VulkanBufferInfo*  buffer,
+                                    VkDeviceSize             offset,
+                                    VkIndexType              indexType);
+
+    void OverrideCmdBindVertexBuffers(const ApiCallInfo&         call_info,
+                                      PFN_vkCmdBindVertexBuffers func,
+                                      VkCommandBuffer            original_command_buffer,
+                                      uint32_t                   firstBinding,
+                                      uint32_t                   bindingCount,
+                                      const format::HandleId*    buffer_ids,
+                                      const VkDeviceSize*        pOffsets);
+
+    void OverrideCmdSetVertexInputEXT(
+        const ApiCallInfo&                                                   call_info,
+        PFN_vkCmdSetVertexInputEXT                                           func,
+        VkCommandBuffer                                                      original_command_buffer,
+        uint32_t                                                             vertexBindingDescriptionCount,
+        StructPointerDecoder<Decoded_VkVertexInputBindingDescription2EXT>*   pVertexBindingDescriptions,
+        uint32_t                                                             vertexAttributeDescriptionCount,
+        StructPointerDecoder<Decoded_VkVertexInputAttributeDescription2EXT>* pVertexAttributeDescriptions);
+
+    void OverrideCmdBindVertexBuffers2(const ApiCallInfo&          call_info,
+                                       PFN_vkCmdBindVertexBuffers2 func,
+                                       VkCommandBuffer             original_command_buffer,
+                                       uint32_t                    firstBinding,
+                                       uint32_t                    bindingCount,
+                                       const format::HandleId*     pBuffers_ids,
+                                       const VkDeviceSize*         pOffsets,
+                                       const VkDeviceSize*         pSizes,
+                                       const VkDeviceSize*         pStrides);
+
+    void OverrideCmdBindVertexBuffers2EXT(const ApiCallInfo&             call_info,
+                                          PFN_vkCmdBindVertexBuffers2EXT func,
+                                          VkCommandBuffer                original_command_buffer,
+                                          uint32_t                       firstBinding,
+                                          uint32_t                       bindingCount,
+                                          const format::HandleId*        pBuffers_ids,
+                                          const VkDeviceSize*            pOffsets,
+                                          const VkDeviceSize*            pSizes,
+                                          const VkDeviceSize*            pStrides);
+
+    void OverrideCmdBindIndexBuffer2KHR(const ApiCallInfo&           call_info,
+                                        PFN_vkCmdBindIndexBuffer2KHR func,
+                                        VkCommandBuffer              commandBuffer,
+                                        const VulkanBufferInfo*      buffer,
+                                        VkDeviceSize                 offset,
+                                        VkDeviceSize                 size,
+                                        VkIndexType                  indexType);
+
+    void OverrideCmdBeginRendering(const ApiCallInfo&                             call_info,
+                                   PFN_vkCmdBeginRendering                        func,
+                                   VkCommandBuffer                                commandBuffer,
+                                   StructPointerDecoder<Decoded_VkRenderingInfo>* pRenderingInfo);
+
+    void OverrideCmdBeginRenderingKHR(const ApiCallInfo&                             call_info,
+                                      PFN_vkCmdBeginRenderingKHR                     func,
+                                      VkCommandBuffer                                commandBuffer,
+                                      StructPointerDecoder<Decoded_VkRenderingInfo>* pRenderingInfo);
+
+    void
+    OverrideCmdEndRendering(const ApiCallInfo& call_info, PFN_vkCmdEndRendering func, VkCommandBuffer commandBuffer);
+
+    void OverrideCmdEndRenderingKHR(const ApiCallInfo&       call_info,
+                                    PFN_vkCmdEndRenderingKHR func,
+                                    VkCommandBuffer          commandBuffer);
+
+    void OverrideCmdEndRendering2KHR(const ApiCallInfo&                                   call_info,
+                                     PFN_vkCmdEndRendering2KHR                            func,
+                                     VkCommandBuffer                                      commandBuffer,
+                                     StructPointerDecoder<Decoded_VkRenderingEndInfoKHR>* pRenderingEndInfo);
+
+    void OverrideCmdSetRenderingAttachmentLocations(
+        const ApiCallInfo&                                               call_info,
+        PFN_vkCmdSetRenderingAttachmentLocations                         func,
+        VkCommandBuffer                                                  commandBuffer,
+        StructPointerDecoder<Decoded_VkRenderingAttachmentLocationInfo>* pLocationInfo);
+
+    void OverrideCmdSetRenderingInputAttachmentIndices(
+        const ApiCallInfo&                                                 call_info,
+        PFN_vkCmdSetRenderingInputAttachmentIndices                        func,
+        VkCommandBuffer                                                    commandBuffer,
+        StructPointerDecoder<Decoded_VkRenderingInputAttachmentIndexInfo>* pInputAttachmentIndexInfo);
+
+    void
+    OverrideEndCommandBuffer(const ApiCallInfo& call_info, PFN_vkEndCommandBuffer func, VkCommandBuffer commandBuffer);
+
+    void OverrideCmdBeginQuery(const ApiCallInfo&         call_info,
+                               PFN_vkCmdBeginQuery        func,
+                               VkCommandBuffer            original_command_buffer,
+                               const VulkanQueryPoolInfo* queryPool,
+                               uint32_t                   query,
+                               VkQueryControlFlags        flags);
+
+    void OverrideCmdEndQuery(const ApiCallInfo&         call_info,
+                             PFN_vkCmdEndQuery          func,
+                             VkCommandBuffer            original_command_buffer,
+                             const VulkanQueryPoolInfo* queryPool,
+                             uint32_t                   query);
+
+    void OverrideCmdResetQueryPool(const ApiCallInfo&         call_info,
+                                   PFN_vkCmdResetQueryPool    func,
+                                   VkCommandBuffer            original_command_buffer,
+                                   const VulkanQueryPoolInfo* queryPool,
+                                   uint32_t                   firstQuery,
+                                   uint32_t                   queryCount);
+
+    void OverrideCmdWriteTimestamp(const ApiCallInfo&         call_info,
+                                   PFN_vkCmdWriteTimestamp    func,
+                                   VkCommandBuffer            original_command_buffer,
+                                   VkPipelineStageFlagBits    pipelineStage,
+                                   const VulkanQueryPoolInfo* queryPool,
+                                   uint32_t                   query);
+
+    void OverrideCmdCopyQueryPoolResults(const ApiCallInfo&            call_info,
+                                         PFN_vkCmdCopyQueryPoolResults func,
+                                         VkCommandBuffer               original_command_buffer,
+                                         const VulkanQueryPoolInfo*    queryPool,
+                                         uint32_t                      firstQuery,
+                                         uint32_t                      queryCount,
+                                         const VulkanBufferInfo*       dstBuffer,
+                                         VkDeviceSize                  dstOffset,
+                                         VkDeviceSize                  stride,
+                                         VkQueryResultFlags            flags);
+
+    void
+    OverrideCmdCopyQueryPoolResultsToMemoryKHR(const ApiCallInfo&                       call_info,
+                                               PFN_vkCmdCopyQueryPoolResultsToMemoryKHR func,
+                                               VkCommandBuffer                          original_command_buffer,
+                                               const VulkanQueryPoolInfo*               queryPool,
+                                               uint32_t                                 firstQuery,
+                                               uint32_t                                 queryCount,
+                                               StructPointerDecoder<Decoded_VkStridedDeviceAddressRangeKHR>* pDstRange,
+                                               VkAddressCommandFlagsKHR                                      dstFlags,
+                                               VkQueryResultFlags queryResultFlags);
+
+    void OverrideCmdWriteTimestamp2(const ApiCallInfo&         call_info,
+                                    PFN_vkCmdWriteTimestamp2   func,
+                                    VkCommandBuffer            original_command_buffer,
+                                    VkPipelineStageFlags2      stage,
+                                    const VulkanQueryPoolInfo* queryPool,
+                                    uint32_t                   query);
+
+    void OverrideCmdWriteTimestamp2KHR(const ApiCallInfo&          call_info,
+                                       PFN_vkCmdWriteTimestamp2KHR func,
+                                       VkCommandBuffer             original_command_buffer,
+                                       VkPipelineStageFlags2       stage,
+                                       const VulkanQueryPoolInfo*  queryPool,
+                                       uint32_t                    query);
+
+    void OverrideCmdBeginQueryIndexedEXT(const ApiCallInfo&            call_info,
+                                         PFN_vkCmdBeginQueryIndexedEXT func,
+                                         VkCommandBuffer               original_command_buffer,
+                                         const VulkanQueryPoolInfo*    queryPool,
+                                         uint32_t                      query,
+                                         VkQueryControlFlags           flags,
+                                         uint32_t                      index);
+
+    void OverrideCmdEndQueryIndexedEXT(const ApiCallInfo&          call_info,
+                                       PFN_vkCmdEndQueryIndexedEXT func,
+                                       VkCommandBuffer             original_command_buffer,
+                                       const VulkanQueryPoolInfo*  queryPool,
+                                       uint32_t                    query,
+                                       uint32_t                    index);
+
+    void OverrideCmdWriteAccelerationStructuresPropertiesNV(const ApiCallInfo&                               call_info,
+                                                            PFN_vkCmdWriteAccelerationStructuresPropertiesNV func,
+                                                            VkCommandBuffer            original_command_buffer,
+                                                            uint32_t                   accelerationStructureCount,
+                                                            const format::HandleId*    pAccelerationStructures,
+                                                            VkQueryType                queryType,
+                                                            const VulkanQueryPoolInfo* queryPool,
+                                                            uint32_t                   firstQuery);
+
+    void OverrideCmdWriteMicromapsPropertiesEXT(const ApiCallInfo&                   call_info,
+                                                PFN_vkCmdWriteMicromapsPropertiesEXT func,
+                                                VkCommandBuffer                      original_command_buffer,
+                                                uint32_t                             micromapCount,
+                                                const format::HandleId*              pMicromaps,
+                                                VkQueryType                          queryType,
+                                                const VulkanQueryPoolInfo*           queryPool,
+                                                uint32_t                             firstQuery);
+
+    void OverrideCmdWriteAccelerationStructuresPropertiesKHR(const ApiCallInfo& call_info,
+                                                             PFN_vkCmdWriteAccelerationStructuresPropertiesKHR func,
+                                                             VkCommandBuffer            original_command_buffer,
+                                                             uint32_t                   accelerationStructureCount,
+                                                             const format::HandleId*    pAccelerationStructures,
+                                                             VkQueryType                queryType,
+                                                             const VulkanQueryPoolInfo* queryPool,
+                                                             uint32_t                   firstQuery);
+
+    void OverrideCmdExecuteCommands(const ApiCallInfo&       call_info,
+                                    PFN_vkCmdExecuteCommands func,
+                                    VkCommandBuffer          commandBuffer,
+                                    uint32_t                 commandBufferCount,
+                                    const VkCommandBuffer*   pCommandBuffers);
+
+    VkResult QueueSubmit(std::span<const VkSubmitInfo>              submit_infos,
+                         const graphics::VulkanInjectedDeviceCalls& device_table,
+                         const VulkanQueueInfo*                     queue,
+                         VkFence                                    fence,
+                         uint64_t                                   index);
+
+    VkResult QueueSubmit2(std::span<const VkSubmitInfo2>             submit_infos_2,
+                          const graphics::VulkanInjectedDeviceCalls& device_table,
+                          const VulkanQueueInfo*                     queue,
+                          VkFence                                    fence,
+                          uint64_t                                   index);
+
+    bool MustDumpQueueSubmitIndex(uint64_t index) const;
+
+    bool IsRecording() const { return active_contexts_; }
+
+    void Release();
+
+    void ResetCommandBuffer(VkCommandBuffer original_command_buffer);
+
+    void DumpGraphicsPipelineInfos(const StructPointerDecoder<Decoded_VkGraphicsPipelineCreateInfo>* pCreateInfos,
+                                   uint32_t                                                          createInfoCount,
+                                   HandlePointerDecoder<VkPipeline>*                                 pPipelines);
+
+    template <typename DecodedCreateInfoType>
+    void DumpRayTracingPipelineInfos(DecodedCreateInfoType             pCreateInfos,
+                                     uint32_t                          createInfoCount,
+                                     HandlePointerDecoder<VkPipeline>* pPipelines)
+    {
+        static_assert((std::is_same<decltype(pCreateInfos),
+                                    const StructPointerDecoder<Decoded_VkRayTracingPipelineCreateInfoKHR>*>::value) ||
+                          (std::is_same<decltype(pCreateInfos),
+                                        const StructPointerDecoder<Decoded_VkRayTracingPipelineCreateInfoNV>*>::value),
+                      "pCreateInfos is of wrong type");
+
+        const auto* create_info_meta  = pCreateInfos->GetMetaStructPointer();
+        const auto* in_p_create_infos = pCreateInfos->GetPointer();
+        if (create_info_meta != nullptr && in_p_create_infos != nullptr)
+        {
+            for (uint32_t i = 0; i < createInfoCount; ++i)
+            {
+                VulkanPipelineInfo* pipeline_info =
+                    reinterpret_cast<VulkanPipelineInfo*>(pPipelines->GetConsumerData(i));
+
+                // Copy pipeline layout information
+                const auto ppl_layout_info = object_info_table_->GetVkPipelineLayoutInfo(create_info_meta[i].layout);
+                if (ppl_layout_info != nullptr)
+                {
+                    pipeline_info->desc_set_layouts = ppl_layout_info->desc_set_layouts;
+                }
+
+                // Aggregate used shader stages flags
+                for (uint32_t ss = 0; ss < in_p_create_infos[i].stageCount; ++ss)
+                {
+                    pipeline_info->shader_stages |=
+                        static_cast<VkShaderStageFlags>(in_p_create_infos[i].pStages[ss].stage);
+                }
+
+                // handle optional VkPipelineLibraryCreateInfoKHR
+                const auto* pipeline_library_info =
+                    GetPNextMetaStruct<Decoded_VkPipelineLibraryCreateInfoKHR>(create_info_meta->pNext);
+                if (pipeline_library_info != nullptr)
+                {
+                    const auto library_count =
+                        GFXRECON_NARROWING_CAST(uint32_t, pipeline_library_info->pLibraries.GetLength());
+                    const format::HandleId* ppl_ids = pipeline_library_info->pLibraries.GetPointer();
+
+                    for (uint32_t lib_idx = 0; lib_idx < library_count; ++lib_idx)
+                    {
+                        const VulkanPipelineInfo* gpl_ppl = object_info_table_->GetVkPipelineInfo(ppl_ids[lib_idx]);
+
+                        // Accumulate shader stages from the other pipelines from the library
+                        pipeline_info->shader_stages |= gpl_ppl->shader_stages;
+                    }
+                }
+            }
+        }
+    }
+
+    void DumpComputePipelineInfos(const StructPointerDecoder<Decoded_VkComputePipelineCreateInfo>* pCreateInfos,
+                                  uint32_t                                                         createInfoCount,
+                                  HandlePointerDecoder<VkPipeline>*                                pPipelines)
+    {
+        const auto* create_info_meta  = pCreateInfos->GetMetaStructPointer();
+        const auto* in_p_create_infos = pCreateInfos->GetPointer();
+        if (create_info_meta != nullptr && in_p_create_infos != nullptr)
+        {
+            for (uint32_t i = 0; i < createInfoCount; ++i)
+            {
+                VulkanPipelineInfo* pipeline_info =
+                    reinterpret_cast<VulkanPipelineInfo*>(pPipelines->GetConsumerData(i));
+
+                // Copy pipeline layout information
+                const auto ppl_layout_info = object_info_table_->GetVkPipelineLayoutInfo(create_info_meta[i].layout);
+                if (ppl_layout_info != nullptr)
+                {
+                    pipeline_info->desc_set_layouts = ppl_layout_info->desc_set_layouts;
+                }
+
+                // Used shader stages
+                pipeline_info->shader_stages = in_p_create_infos->stage.stage;
+            }
+        }
+    }
+
+    // Handles population of acceleration_structures_context_ map. For each AS that is build an entry in that map is
+    // created and the input buffers are cloned
+    void OverrideCmdBuildAccelerationStructuresKHR(
+        const VulkanCommandBufferInfo*                                             original_command_buffer,
+        const graphics::VulkanInjectedDeviceCalls&                                 device_table,
+        uint32_t                                                                   infoCount,
+        StructPointerDecoder<Decoded_VkAccelerationStructureBuildGeometryInfoKHR>* pInfos,
+        StructPointerDecoder<Decoded_VkAccelerationStructureBuildRangeInfoKHR*>*   ppBuildRangeInfos);
+
+    // Like OverrideCmdBuildAccelerationStructuresKHR Handles population of acceleration_structures_context_ map.
+    // In this case of copying AS it simply makes the new entry in the map to point at the src AS's entry.
+    void HandleCmdCopyAccelerationStructureKHR(const graphics::VulkanInjectedDeviceCalls& device_table,
+                                               const VulkanCommandBufferInfo*             original_command_buffer,
+                                               const VulkanAccelerationStructureKHRInfo*  src,
+                                               const VulkanAccelerationStructureKHRInfo*  dst);
+
+    void HandleDestroyAccelerationStructureKHR(const VulkanAccelerationStructureKHRInfo* as_info);
+
+    void ProcessStateEndMarker();
+
+    std::vector<std::shared_ptr<DrawCallsDumpingContext>>
+    FindDrawCallDumpingContexts(VkCommandBuffer original_command_buffer);
+
+    std::vector<std::shared_ptr<DispatchTraceRaysDumpingContext>>
+    FindDispatchTraceRaysContexts(VkCommandBuffer original_command_buffer);
+
+    void ProcessInitBufferCommand(uint64_t         cmd_index,
+                                  format::HandleId device_id,
+                                  format::HandleId buffer_id,
+                                  uint64_t         data_size,
+                                  const uint8_t*   data);
+
+    void ProcessInitImageCommand(VkCommandBuffer              command_buffer,
+                                 uint64_t                     cmd_index,
+                                 format::HandleId             device_id,
+                                 format::HandleId             image_id,
+                                 uint64_t                     data_size,
+                                 uint32_t                     aspect,
+                                 uint32_t                     layout,
+                                 const std::vector<uint64_t>& level_sizes,
+                                 const uint8_t*               data);
+
+    void OverrideCmdCopyBuffer(const ApiCallInfo&                          call_info,
+                               PFN_vkCmdCopyBuffer                         func,
+                               VkCommandBuffer                             commandBuffer,
+                               const VulkanBufferInfo*                     srcBuffer,
+                               const VulkanBufferInfo*                     dstBuffer,
+                               uint32_t                                    regionCount,
+                               StructPointerDecoder<Decoded_VkBufferCopy>* pRegions,
+                               bool                                        before_command);
+
+    void OverrideCmdCopyBuffer2(const ApiCallInfo&                               call_info,
+                                PFN_vkCmdCopyBuffer2                             func,
+                                VkCommandBuffer                                  commandBuffer,
+                                StructPointerDecoder<Decoded_VkCopyBufferInfo2>* pCopyBufferInfo,
+                                bool                                             before_command);
+
+    void OverrideCmdCopyBuffer2KHR(const ApiCallInfo&                               call_info,
+                                   PFN_vkCmdCopyBuffer2KHR                          func,
+                                   VkCommandBuffer                                  commandBuffer,
+                                   StructPointerDecoder<Decoded_VkCopyBufferInfo2>* pCopyBufferInfo,
+                                   bool                                             before_command);
+
+    void OverrideCmdCopyBufferToImage(const ApiCallInfo&                               call_info,
+                                      PFN_vkCmdCopyBufferToImage                       func,
+                                      VkCommandBuffer                                  commandBuffer,
+                                      const VulkanBufferInfo*                          srcBuffer,
+                                      const VulkanImageInfo*                           dstImage,
+                                      VkImageLayout                                    dstImageLayout,
+                                      uint32_t                                         regionCount,
+                                      StructPointerDecoder<Decoded_VkBufferImageCopy>* pRegions,
+                                      bool                                             before_command);
+
+    void OverrideCmdCopyBufferToImage2(const ApiCallInfo&                                      call_info,
+                                       PFN_vkCmdCopyBufferToImage2                             func,
+                                       VkCommandBuffer                                         commandBuffer,
+                                       StructPointerDecoder<Decoded_VkCopyBufferToImageInfo2>* pCopyBufferToImageInfo,
+                                       bool                                                    before_command);
+
+    void
+    OverrideCmdCopyBufferToImage2KHR(const ApiCallInfo&                                      call_info,
+                                     PFN_vkCmdCopyBufferToImage2KHR                          func,
+                                     VkCommandBuffer                                         commandBuffer,
+                                     StructPointerDecoder<Decoded_VkCopyBufferToImageInfo2>* pCopyBufferToImageInfo,
+                                     bool                                                    before_command);
+
+    void OverrideCmdCopyImage(const ApiCallInfo&                         call_info,
+                              PFN_vkCmdCopyImage                         func,
+                              VkCommandBuffer                            commandBuffer,
+                              const VulkanImageInfo*                     srcImage,
+                              VkImageLayout                              srcImageLayout,
+                              const VulkanImageInfo*                     dstImage,
+                              VkImageLayout                              dstImageLayout,
+                              uint32_t                                   regionCount,
+                              StructPointerDecoder<Decoded_VkImageCopy>* pRegions,
+                              bool                                       before_command);
+
+    void OverrideCmdCopyImage2(const ApiCallInfo&                              call_info,
+                               PFN_vkCmdCopyImage2                             func,
+                               VkCommandBuffer                                 commandBuffer,
+                               StructPointerDecoder<Decoded_VkCopyImageInfo2>* pCopyImageInfo,
+                               bool                                            before_command);
+
+    void OverrideCmdCopyImage2KHR(const ApiCallInfo&                              call_info,
+                                  PFN_vkCmdCopyImage2KHR                          func,
+                                  VkCommandBuffer                                 commandBuffer,
+                                  StructPointerDecoder<Decoded_VkCopyImageInfo2>* pCopyImageInfo,
+                                  bool                                            before_command);
+
+    void OverrideCmdCopyImageToBuffer(const ApiCallInfo&                               call_info,
+                                      PFN_vkCmdCopyImageToBuffer                       func,
+                                      VkCommandBuffer                                  commandBuffer,
+                                      const VulkanImageInfo*                           srcImage,
+                                      VkImageLayout                                    srcImageLayout,
+                                      const VulkanBufferInfo*                          dstBuffer,
+                                      uint32_t                                         regionCount,
+                                      StructPointerDecoder<Decoded_VkBufferImageCopy>* pRegions,
+                                      bool                                             before_command);
+
+    void OverrideCmdCopyImageToBuffer2(const ApiCallInfo&                                      call_info,
+                                       PFN_vkCmdCopyImageToBuffer2                             func,
+                                       VkCommandBuffer                                         commandBuffer,
+                                       StructPointerDecoder<Decoded_VkCopyImageToBufferInfo2>* pCopyImageToBufferInfo,
+                                       bool                                                    before_command);
+
+    void
+    OverrideCmdCopyImageToBuffer2KHR(const ApiCallInfo&                                      call_info,
+                                     PFN_vkCmdCopyImageToBuffer2                             func,
+                                     VkCommandBuffer                                         commandBuffer,
+                                     StructPointerDecoder<Decoded_VkCopyImageToBufferInfo2>* pCopyImageToBufferInfo,
+                                     bool                                                    before_command);
+
+    void OverrideCmdBlitImage(const ApiCallInfo&                         call_info,
+                              PFN_vkCmdBlitImage                         func,
+                              VkCommandBuffer                            commandBuffer,
+                              const VulkanImageInfo*                     srcImage,
+                              VkImageLayout                              srcImageLayout,
+                              const VulkanImageInfo*                     dstImage,
+                              VkImageLayout                              dstImageLayout,
+                              uint32_t                                   regionCount,
+                              StructPointerDecoder<Decoded_VkImageBlit>* pRegions,
+                              VkFilter                                   filter,
+                              bool                                       before_command);
+
+    void OverrideCmdBlitImage2(const ApiCallInfo&                              call_info,
+                               PFN_vkCmdBlitImage2                             func,
+                               VkCommandBuffer                                 commandBuffer,
+                               StructPointerDecoder<Decoded_VkBlitImageInfo2>* pBlitImageInfo,
+                               bool                                            before_command);
+
+    void OverrideCmdBlitImage2KHR(const ApiCallInfo&                              call_info,
+                                  PFN_vkCmdBlitImage2KHR                          func,
+                                  VkCommandBuffer                                 commandBuffer,
+                                  StructPointerDecoder<Decoded_VkBlitImageInfo2>* pBlitImageInfo,
+                                  bool                                            before_command);
+
+    void OverrideCmdBuildAccelerationStructuresKHR(
+        const ApiCallInfo&                                                         call_info,
+        PFN_vkCmdBuildAccelerationStructuresKHR                                    func,
+        VkCommandBuffer                                                            commandBuffer,
+        uint32_t                                                                   infoCount,
+        StructPointerDecoder<Decoded_VkAccelerationStructureBuildGeometryInfoKHR>* pInfos,
+        StructPointerDecoder<Decoded_VkAccelerationStructureBuildRangeInfoKHR*>*   ppBuildRangeInfos,
+        bool                                                                       before_command);
+
+    // The clones that take original_command_buffer's next work command, instead of or besides the original.
+    std::vector<VkCommandBuffer> GetWorkCommandBuffers(VkCommandBuffer original_command_buffer)
+    {
+        std::vector<VkCommandBuffer> command_buffers;
+        ForEachWorkCommandBuffer(original_command_buffer,
+                                 [&](VkCommandBuffer command_buffer) { command_buffers.push_back(command_buffer); });
+        return command_buffers;
+    }
+
+    void
+    OverrideCmdCopyAccelerationStructureKHR(const ApiCallInfo&                    call_info,
+                                            PFN_vkCmdCopyAccelerationStructureKHR func,
+                                            VkCommandBuffer                       commandBuffer,
+                                            StructPointerDecoder<Decoded_VkCopyAccelerationStructureInfoKHR>* pInfo,
+                                            bool before_command);
+
+  private:
+    std::vector<std::shared_ptr<DispatchTraceRaysDumpingContext>> FindDispatchTraceRaysContexts(uint64_t bcb_id);
+    std::shared_ptr<DispatchTraceRaysDumpingContext>
+    FindDispatchTraceRaysContext(VkCommandBuffer original_command_buffer, decode::Index qs_index);
+
+    std::vector<std::shared_ptr<DrawCallsDumpingContext>> FindDrawCallDumpingContexts(uint64_t bcb_id);
+    std::shared_ptr<DrawCallsDumpingContext> FindDrawCallDumpingContext(VkCommandBuffer original_command_buffer,
+                                                                        decode::Index   qs_index);
+
+    template <typename ContextMap>
+    static typename ContextMap::mapped_type
+    FindContext(ContextMap& contexts, decode::Index bcb_index, decode::Index qs_index)
+    {
+        const auto entry = contexts.find(std::make_pair(bcb_index, qs_index));
+        return (entry != contexts.end()) ? entry->second : nullptr;
+    }
+
+    // every clone recording this command buffer's work. a command not routed here does not run at all.
+    template <typename Callback>
+    void ForEachWorkCommandBuffer(VkCommandBuffer original_command_buffer, Callback callback)
+    {
+        const std::vector<std::shared_ptr<DispatchTraceRaysDumpingContext>> dr_contexts =
+            FindDispatchTraceRaysContexts(original_command_buffer);
+        for (const auto& dr_context : dr_contexts)
+        {
+            VkCommandBuffer dispatch_rays_command_buffer = dr_context->GetDispatchRaysCommandBuffer();
+            if (dispatch_rays_command_buffer != VK_NULL_HANDLE)
+            {
+                callback(dispatch_rays_command_buffer);
+            }
+        }
+
+        ForEachDrawCallWorkCommandBuffer(original_command_buffer, callback);
+    }
+
+    // every clone from the one taking work to the last. query commands go here, so each clone resets, begins and
+    // ends its queries in order.
+    template <typename Callback>
+    void ForEachStateCommandBuffer(VkCommandBuffer original_command_buffer, Callback callback)
+    {
+        const std::vector<std::shared_ptr<DispatchTraceRaysDumpingContext>> dr_contexts =
+            FindDispatchTraceRaysContexts(original_command_buffer);
+        for (const auto& dr_context : dr_contexts)
+        {
+            VkCommandBuffer dispatch_rays_command_buffer = dr_context->GetDispatchRaysCommandBuffer();
+            if (dispatch_rays_command_buffer != VK_NULL_HANDLE)
+            {
+                callback(dispatch_rays_command_buffer);
+            }
+        }
+
+        const std::vector<std::shared_ptr<DrawCallsDumpingContext>> dc_contexts =
+            FindDrawCallDumpingContexts(original_command_buffer);
+        for (const auto& dc_context : dc_contexts)
+        {
+            CommandBufferIterator first, last;
+            dc_context->GetDrawCallActiveCommandBuffers(first, last);
+            for (CommandBufferIterator it = first; it < last; ++it)
+            {
+                callback(*it);
+            }
+        }
+    }
+
+    // draw call clone currently taking work, for each context on this command buffer.
+    template <typename Callback>
+    void ForEachDrawCallWorkCommandBuffer(VkCommandBuffer original_command_buffer, Callback callback)
+    {
+        const std::vector<std::shared_ptr<DrawCallsDumpingContext>> dc_contexts =
+            FindDrawCallDumpingContexts(original_command_buffer);
+        for (const auto& dc_context : dc_contexts)
+        {
+            callback(dc_context->GetWorkCommandBuffer());
+        }
+    }
+
+    // Transfer dumping records its snapshot copies into the stream where the command sits. With a draw call
+    // context the clones are the only execution, so the snapshots belong in the clone taking work.
+    VkCommandBuffer TransferRecordingCommandBuffer(VkCommandBuffer original_command_buffer)
+    {
+        VkCommandBuffer clone = VK_NULL_HANDLE;
+        ForEachDrawCallWorkCommandBuffer(original_command_buffer, [&clone](VkCommandBuffer cb) { clone = cb; });
+        return (clone != VK_NULL_HANDLE) ? clone : original_command_buffer;
+    }
+
+    // Transfer contexts search funcs
+    std::vector<std::shared_ptr<const TransferDumpingContext>> FindTransferContextBcbIndex(uint64_t bcb_index) const;
+    std::vector<std::shared_ptr<TransferDumpingContext>>       FindTransferContextCmdIndex(uint64_t cmd_index);
+
+    // Context tracking. This functions should be called when a dumping context has done its job.
+    // The context will be erased from its corresponding map and the active_contexts_ counter will be
+    // adjusted accordingly.
+    template <typename MapOfContexts>
+    void ReleaseDumpingContexts(MapOfContexts& contexts, decode::Index qs_index);
+
+    void ReleaseDumpingContexts(decode::Index qs_index);
+
+    void HandleCmdBindVertexBuffers2(const ApiCallInfo&          call_info,
+                                     PFN_vkCmdBindVertexBuffers2 func,
+                                     VkCommandBuffer             original_command_buffer,
+                                     uint32_t                    firstBinding,
+                                     uint32_t                    bindingCount,
+                                     const format::HandleId*     pBuffers_ids,
+                                     const VkDeviceSize*         pOffsets,
+                                     const VkDeviceSize*         pSizes,
+                                     const VkDeviceSize*         pStrides);
+
+    void HandleCmdDrawIndirectCount(const ApiCallInfo&                    call_info,
+                                    PFN_vkCmdDrawIndirectCount            func,
+                                    VkCommandBuffer                       original_command_buffer,
+                                    const VulkanBufferInfo*               buffer_info,
+                                    VkDeviceSize                          offset,
+                                    const VulkanBufferInfo*               count_buffer_info,
+                                    VkDeviceSize                          count_buffer_offset,
+                                    uint32_t                              max_draw_count,
+                                    uint32_t                              stride,
+                                    DrawCallsDumpingContext::DrawCallType drawcall_type);
+
+    void HandleCmdDrawIndexedIndirectCount(const ApiCallInfo&                    call_info,
+                                           PFN_vkCmdDrawIndexedIndirectCount     func,
+                                           VkCommandBuffer                       original_command_buffer,
+                                           const VulkanBufferInfo*               buffer_info,
+                                           VkDeviceSize                          offset,
+                                           const VulkanBufferInfo*               count_buffer_info,
+                                           VkDeviceSize                          count_buffer_offset,
+                                           uint32_t                              max_draw_count,
+                                           uint32_t                              stride,
+                                           DrawCallsDumpingContext::DrawCallType drawcall_type);
+
+    // Mapping between the original VkCommandBuffer handle and BeginCommandBuffer index
+    std::unordered_map<VkCommandBuffer, uint64_t> cmd_buf_begin_map_;
+
+    // BeginCommandBuffer - QueueSubmit pairs
+    std::vector<BeginCmdBufQueueSubmitPair> BeginCommandBufferQueueSubmit_Indices_;
+
+    // Mapping between the original VkCommandBuffer handle and its BeginCommandBuffer indices we care about
+    std::unordered_map<VkCommandBuffer, decode::Index> cb_bcb_map_;
+
+    // DrawCall dumping contexts. One per BeginCommandBuffer - QueueSubmit pair
+    std::map<BeginCmdBufQueueSubmitPair, std::shared_ptr<DrawCallsDumpingContext>> draw_call_contexts_;
+
+    // Dispatch-TraceRays call dumping contexts. One per BeginCommandBuffer - QueueSubmit pair
+    std::map<BeginCmdBufQueueSubmitPair, std::shared_ptr<DispatchTraceRaysDumpingContext>> dispatch_ray_contexts_;
+
+    // Transfer call dumping contexts. One per BeginCommandBuffer - QueueSubmit pair
+    std::map<BeginCmdBufQueueSubmitPair, std::shared_ptr<TransferDumpingContext>> transfer_contexts_;
+
+    // Keep track of the number of active dumping contexts. A context is considered active when it's associated
+    // BeginCommandBuffer is issued and until it is submitted in its associated QueueSubmit index.
+    //
+    // TransferDumpingContext is a bit different as it is not strictly associated with a command buffer and as a result
+    // it does not require to a BeginCommandBuffer to become active. This is convenient in cases when dumping transfer
+    // commands from the state setup section which are not recorded as part of a Vulkan command buffer
+    size_t active_contexts_;
+
+    bool                   dump_resources_before_;
+    CommonObjectInfoTable* object_info_table_;
+    bool                   output_json_per_command;
+
+    std::unique_ptr<DefaultVulkanDumpResourcesDelegate> default_delegate_;
+    VulkanDumpResourcesDelegate*                        user_delegate_;
+    VulkanDumpResourcesDelegate*                        active_delegate_;
+
+    std::unique_ptr<util::Compressor> compressor_;
+
+    std::string capture_filename;
+
+    const VulkanPerDeviceAddressTrackers& address_trackers_;
+
+    DumpResourcesAccelerationStructuresContext acceleration_structures_context_;
+    bool                                       dump_as_build_input_buffers_;
+};
+
+GFXRECON_END_NAMESPACE(gfxrecon)
+GFXRECON_END_NAMESPACE(decode)
+
+#endif /* GFXRECON_GENERATED_VULKAN_REPLAY_DUMP_RESOURCES_BASE_H */

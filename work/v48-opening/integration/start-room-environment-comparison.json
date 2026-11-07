@@ -1,0 +1,22 @@
+{
+  "profile": "lighting_dgn_wellofsouls_start",
+  "source_xml": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\lighting_dgn_wellofsouls_start.koalighting",
+  "source_xml_sha256": "0cd54ea100bffaacfe44eead505f37368aea8d6be121a4414775f4b534999dd3",
+  "time_key": "Noon",
+  "authored_lut_id": 1529772,
+  "reference_footage": "https://www.youtube.com/watch?v=NExi7gPfkEA&t=897s",
+  "observed_reference_seconds": [
+    897,
+    902
+  ],
+  "reason": "First-hand gameplay footage shows cooler blue opening-room lighting; authored start-room preset matches qualitative palette. This is an explicit preview candidate, NOT proof of automatic native selection.",
+  "native_activation_rule": "unresolved",
+  "preserved_base_profile": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\integration\\probe-preview\\scene-profile.bin",
+  "remaining": [
+    "Camera/graphics settings differ from reference video; no quantitative pixel-parity claim",
+    "Unknown ambient shader globals remain explicitly disabled",
+    "Unsupported shader families/nonunit transforms remain excluded"
+  ],
+  "default": "source base dungeon profile, restored following owner visual feedback",
+  "start_candidate_status": "retained separately; owner prefers prior appearance, native activation unproven"
+}

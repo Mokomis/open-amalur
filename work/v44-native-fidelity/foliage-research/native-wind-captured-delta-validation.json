@@ -1,0 +1,66 @@
+{
+  "memory_before": 60,
+  "memory_after": 52,
+  "global_time_delta_seconds": 0.008,
+  "base_wind_x": 25,
+  "method": "Choose arcsin branch consistent with positive native phase advance; all8 independently agree with8ms step. Does not establish whole historical phase state.",
+  "phases": [
+    {
+      "phase": 0,
+      "rate": 0.4000000059604645,
+      "observed_phase_delta": 0.003200416337192813,
+      "expected_8ms_delta": 0.003200000047683716,
+      "delta_error": 4.1628950909686213e-07
+    },
+    {
+      "phase": 1,
+      "rate": 0.45000001788139343,
+      "observed_phase_delta": 0.0035998654931268526,
+      "expected_8ms_delta": 0.0036000001430511477,
+      "delta_error": -1.346499242950959e-07
+    },
+    {
+      "phase": 2,
+      "rate": 0.5,
+      "observed_phase_delta": 0.0040000381962314036,
+      "expected_8ms_delta": 0.004,
+      "delta_error": 3.819623140347006e-08
+    },
+    {
+      "phase": 3,
+      "rate": 0.5499999523162842,
+      "observed_phase_delta": 0.004399700670538742,
+      "expected_8ms_delta": 0.004399999618530274,
+      "delta_error": -2.989479915317672e-07
+    },
+    {
+      "phase": 4,
+      "rate": 0.6000000238418579,
+      "observed_phase_delta": 0.00480006370589825,
+      "expected_8ms_delta": 0.004800000190734863,
+      "delta_error": 6.35151633865752e-08
+    },
+    {
+      "phase": 5,
+      "rate": 0.6499999761581421,
+      "observed_phase_delta": 0.005200061043883597,
+      "expected_8ms_delta": 0.005199999809265137,
+      "delta_error": 6.123461846006123e-08
+    },
+    {
+      "phase": 6,
+      "rate": 0.699999988079071,
+      "observed_phase_delta": 0.005599998431330178,
+      "expected_8ms_delta": 0.005599999904632568,
+      "delta_error": -1.4733023898094721e-09
+    },
+    {
+      "phase": 7,
+      "rate": 0.75,
+      "observed_phase_delta": 0.006000090698580429,
+      "expected_8ms_delta": 0.006,
+      "delta_error": 9.069858042907997e-08
+    }
+  ],
+  "max_phase_delta_error": 4.1628950909686213e-07
+}

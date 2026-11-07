@@ -1,0 +1,8 @@
+
+v0.25.0 (2026-10-31) Veil inventory
+- New: work/v19-host/oa_items.c/.h, inventory screen in oa_menu.c. Tabs All, Weapons, Armor, Consumables, Reagents. Sort, scroll, compare, equip, unequip, use by touch, controller, keyboard and mouse. Save format OASAV002 includes the bag; v0.24 saves are ignored.
+- Item names and icons are the game's, except Iron/Steel/Azurite/Sylvanite/Prismere Longsword names, inferred from model names. Power, value, heal, loot odds and starting gear are authored host values. Item records live in batch_8130.simtype_bxml (count, id/size table, records with parent id); per-item damage is not stored there and appears to come from curves not yet decoded.
+- Effects: weapon power sets damage, armor scales incoming damage by 100/(100+armor), the five longsword models swap on the character, potions heal. Armor pieces do not change the visible character.
+- Verified on tablet: loot from the bandit, potion heal 66 to 91, equip iron and its model in play, save then reload in Gorhart keeping gold and gear. Not visually checked: Azurite, Sylvanite, Prismere models and the Reagents tab with real entries (unit-tested only). Pad, keyboard and mouse used injected events.
+- Engine state measured: shop 16.3 ms and town 17.9 ms mean frame interval on SM8845P with 65,864 town triangles in 29 draws. One worker thread, no LOD, no instancing, no streaming, no pathfinding, no GPU profile yet. Town slightly misses 60 Hz and the cause is unmeasured.
+- APK outputs/scene-v19/opem-amalur-scene-v0.25-arm64.apk sha starts 88d5e62bf4d5999d, versionCode 26.

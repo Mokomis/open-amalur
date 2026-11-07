@@ -1,0 +1,409 @@
+{
+  "status": "SEALED decoded data contract; no active-state selection",
+  "format": {
+    "header_bytes": 12,
+    "header_fields": [
+      "u32jointCount",
+      "u32frameCount",
+      "f32fps"
+    ],
+    "endianness": "little",
+    "joint_count": 54,
+    "frame_count": 101,
+    "frame_stride_bytes": 2592,
+    "joint_stride_bytes": 48,
+    "payload_order": "frame-major then source-skeleton-bone-index ascending",
+    "per_joint_fields": [
+      {
+        "name": "rotation_xyzw",
+        "float_offset": 0,
+        "byte_offset": 0,
+        "count": 4
+      },
+      {
+        "name": "translation_xyzw",
+        "float_offset": 4,
+        "byte_offset": 16,
+        "count": 4
+      },
+      {
+        "name": "scale_xyzw",
+        "float_offset": 8,
+        "byte_offset": 32,
+        "count": 4
+      }
+    ],
+    "exact_bytes": 261804,
+    "sha256": "1dd30ca9441d98d8c8a308d93c434c8c9baac8f7d5226419a79ed2a1a94d3ede"
+  },
+  "bone_order": [
+    {
+      "index": 0,
+      "parent": null,
+      "source_name_hash": 4357362,
+      "source_transform_file_offset": 340
+    },
+    {
+      "index": 1,
+      "parent": 0,
+      "source_name_hash": 1686229,
+      "source_transform_file_offset": 388
+    },
+    {
+      "index": 2,
+      "parent": 1,
+      "source_name_hash": 9432931,
+      "source_transform_file_offset": 436
+    },
+    {
+      "index": 3,
+      "parent": 2,
+      "source_name_hash": 7862580,
+      "source_transform_file_offset": 484
+    },
+    {
+      "index": 4,
+      "parent": 3,
+      "source_name_hash": 10771733,
+      "source_transform_file_offset": 532
+    },
+    {
+      "index": 5,
+      "parent": 4,
+      "source_name_hash": 10836383,
+      "source_transform_file_offset": 580
+    },
+    {
+      "index": 6,
+      "parent": 5,
+      "source_name_hash": 9796371,
+      "source_transform_file_offset": 628
+    },
+    {
+      "index": 7,
+      "parent": 6,
+      "source_name_hash": 9976961,
+      "source_transform_file_offset": 676
+    },
+    {
+      "index": 8,
+      "parent": 7,
+      "source_name_hash": 11825836,
+      "source_transform_file_offset": 724
+    },
+    {
+      "index": 9,
+      "parent": 8,
+      "source_name_hash": 10593789,
+      "source_transform_file_offset": 772
+    },
+    {
+      "index": 10,
+      "parent": 9,
+      "source_name_hash": 16025351,
+      "source_transform_file_offset": 820
+    },
+    {
+      "index": 11,
+      "parent": 6,
+      "source_name_hash": 4396539,
+      "source_transform_file_offset": 868
+    },
+    {
+      "index": 12,
+      "parent": 3,
+      "source_name_hash": 10848251,
+      "source_transform_file_offset": 916
+    },
+    {
+      "index": 13,
+      "parent": 12,
+      "source_name_hash": 10912901,
+      "source_transform_file_offset": 964
+    },
+    {
+      "index": 14,
+      "parent": 13,
+      "source_name_hash": 9872889,
+      "source_transform_file_offset": 1012
+    },
+    {
+      "index": 15,
+      "parent": 14,
+      "source_name_hash": 10053479,
+      "source_transform_file_offset": 1060
+    },
+    {
+      "index": 16,
+      "parent": 15,
+      "source_name_hash": 11902354,
+      "source_transform_file_offset": 1108
+    },
+    {
+      "index": 17,
+      "parent": 16,
+      "source_name_hash": 10670307,
+      "source_transform_file_offset": 1156
+    },
+    {
+      "index": 18,
+      "parent": 17,
+      "source_name_hash": 16101869,
+      "source_transform_file_offset": 1204
+    },
+    {
+      "index": 19,
+      "parent": 14,
+      "source_name_hash": 4408490,
+      "source_transform_file_offset": 1252
+    },
+    {
+      "index": 20,
+      "parent": 3,
+      "source_name_hash": 9566488,
+      "source_transform_file_offset": 1300
+    },
+    {
+      "index": 21,
+      "parent": 20,
+      "source_name_hash": 8422181,
+      "source_transform_file_offset": 1348
+    },
+    {
+      "index": 22,
+      "parent": 21,
+      "source_name_hash": 8442232,
+      "source_transform_file_offset": 1396
+    },
+    {
+      "index": 23,
+      "parent": 22,
+      "source_name_hash": 7230066,
+      "source_transform_file_offset": 1444
+    },
+    {
+      "index": 24,
+      "parent": 23,
+      "source_name_hash": 6867481,
+      "source_transform_file_offset": 1492
+    },
+    {
+      "index": 25,
+      "parent": 24,
+      "source_name_hash": 12093663,
+      "source_transform_file_offset": 1540
+    },
+    {
+      "index": 26,
+      "parent": 24,
+      "source_name_hash": 4355303,
+      "source_transform_file_offset": 1588
+    },
+    {
+      "index": 27,
+      "parent": 23,
+      "source_name_hash": 18537788,
+      "source_transform_file_offset": 1636
+    },
+    {
+      "index": 28,
+      "parent": 27,
+      "source_name_hash": 17483835,
+      "source_transform_file_offset": 1684
+    },
+    {
+      "index": 29,
+      "parent": 28,
+      "source_name_hash": 15190250,
+      "source_transform_file_offset": 1732
+    },
+    {
+      "index": 30,
+      "parent": 29,
+      "source_name_hash": 10027428,
+      "source_transform_file_offset": 1780
+    },
+    {
+      "index": 31,
+      "parent": 30,
+      "source_name_hash": 14322805,
+      "source_transform_file_offset": 1828
+    },
+    {
+      "index": 32,
+      "parent": 31,
+      "source_name_hash": 22008826,
+      "source_transform_file_offset": 1876
+    },
+    {
+      "index": 33,
+      "parent": 29,
+      "source_name_hash": 3784927,
+      "source_transform_file_offset": 1924
+    },
+    {
+      "index": 34,
+      "parent": 28,
+      "source_name_hash": 3796878,
+      "source_transform_file_offset": 1972
+    },
+    {
+      "index": 35,
+      "parent": 27,
+      "source_name_hash": 5039867,
+      "source_transform_file_offset": 2020
+    },
+    {
+      "index": 36,
+      "parent": 27,
+      "source_name_hash": 5091058,
+      "source_transform_file_offset": 2068
+    },
+    {
+      "index": 37,
+      "parent": 23,
+      "source_name_hash": 18614306,
+      "source_transform_file_offset": 2116
+    },
+    {
+      "index": 38,
+      "parent": 37,
+      "source_name_hash": 17560353,
+      "source_transform_file_offset": 2164
+    },
+    {
+      "index": 39,
+      "parent": 38,
+      "source_name_hash": 15266768,
+      "source_transform_file_offset": 2212
+    },
+    {
+      "index": 40,
+      "parent": 39,
+      "source_name_hash": 10103946,
+      "source_transform_file_offset": 2260
+    },
+    {
+      "index": 41,
+      "parent": 40,
+      "source_name_hash": 14399323,
+      "source_transform_file_offset": 2308
+    },
+    {
+      "index": 42,
+      "parent": 41,
+      "source_name_hash": 22085344,
+      "source_transform_file_offset": 2356
+    },
+    {
+      "index": 43,
+      "parent": 39,
+      "source_name_hash": 4299237,
+      "source_transform_file_offset": 2404
+    },
+    {
+      "index": 44,
+      "parent": 38,
+      "source_name_hash": 4313510,
+      "source_transform_file_offset": 2452
+    },
+    {
+      "index": 45,
+      "parent": 37,
+      "source_name_hash": 4328701,
+      "source_transform_file_offset": 2500
+    },
+    {
+      "index": 46,
+      "parent": 37,
+      "source_name_hash": 4341624,
+      "source_transform_file_offset": 2548
+    },
+    {
+      "index": 47,
+      "parent": 21,
+      "source_name_hash": 4381510,
+      "source_transform_file_offset": 2596
+    },
+    {
+      "index": 48,
+      "parent": 2,
+      "source_name_hash": 5084108,
+      "source_transform_file_offset": 2644
+    },
+    {
+      "index": 49,
+      "parent": 0,
+      "source_name_hash": 205404,
+      "source_transform_file_offset": 2692
+    },
+    {
+      "index": 50,
+      "parent": 0,
+      "source_name_hash": 3794661,
+      "source_transform_file_offset": 2740
+    },
+    {
+      "index": 51,
+      "parent": 0,
+      "source_name_hash": 25062240,
+      "source_transform_file_offset": 2788
+    },
+    {
+      "index": 52,
+      "parent": 0,
+      "source_name_hash": 8044741,
+      "source_transform_file_offset": 2836
+    },
+    {
+      "index": 53,
+      "parent": 0,
+      "source_name_hash": 5052029,
+      "source_transform_file_offset": 2884
+    }
+  ],
+  "mapping": "SourceEdge track-index arrays scatter directly into 48B output slots; no reordering by names. Unanimated components copy corresponding54-bone FAB bind slot exactly eachframe.",
+  "scale": {
+    "xyz_min": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "xyz_max": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "all_xyz_unit_bit_exact": true,
+    "fourth_min": 0.0,
+    "fourth_max": 1.0
+  },
+  "translation_fourth_min": 1.0,
+  "translation_fourth_max": 1.0,
+  "quaternion": {
+    "stored": "RAW sourceEdge xyzw, same orientation convention as sourceFAB Q, no conjugation or normalization performed",
+    "native_TQS": "00adcd40 copies rawQ into runtimeTQS+16;00ac4b10 converts to R(conjugate(rawQ)).",
+    "standard_Hamilton_consumer": "Conjugate xyz ONCE before standard quaternion rotate/FK; then globalHamilton=parentGlobal*local. Or directly build R(conjugate(rawQ)) matrices. Do not conjugate an already-converted quaternion again.",
+    "native_raw_composition": "00ac5770 rawQ multiplication order is childRaw*parentRaw; conjugation reverses it to conventional parentConj*childConj.",
+    "norm_min": 0.9997583059264644,
+    "norm_max": 1.0000001814351798,
+    "preserve": "Native decoded float words retained as-is; normalized angular comparisons are analysis only."
+  },
+  "rig_math_evidence": [
+    "../native-rigid-audit/REPORT.md",
+    "../native-rigid-audit/00ac4b10-unnamed_00ac.c",
+    "../native-rigid-audit/00ac5770-unnamed_00ac.c",
+    "../native-rigid-audit/00adcd40-unnamed_00ad.c"
+  ],
+  "vertex_declaration_status": {
+    "stride48": "Actual draw67406 pipeline13252 VS351/PS352, active vkCmdBindVertexBuffers2 stride48: loc0 float3@0;loc1 float2@12;loc2/3/4 SNORM16x4@20/28/36;loc5 UNORM8x4@44. Native certificate work/v49-character-create/character-gloss-audit/pipeline-13252.json, lighting-agent reviewed. Does not certify container60.",
+    "stride60": "Container format22: P0,indices4u8@12,weights4u16@16,UV24,N32,T40,B48,RGBA56 inherited from existing character/NPC reader; source raw bytes and one-bone field pattern preserved, but no actual container60 input-layout/native variant certificate yet. Do not promote semantic labels as actual-capture proof.",
+    "not_inferred": [
+      "No new skin-weight normalization",
+      "No inverse-bind palette emitted",
+      "No active initialmotion/frame selected",
+      "No animation blending/rootmotion/IK/custombone handlers"
+    ]
+  },
+  "vector_fourth_components": "Preserve outputQ/T/S fourthwords. T.w/S.w range0..1; these are source/Edge vector padding, NOT native runtimeTQS flags. Native00adcd40 creates runtime flags and consumesS.xyz."
+}

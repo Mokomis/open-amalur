@@ -1,0 +1,55 @@
+{
+  "width": 4096,
+  "height": 4096,
+  "format": "R8UI",
+  "world_origin": [
+    -102425,
+    -102425
+  ],
+  "world_units_per_texel": 50,
+  "scope": "native terrain431658 finest-height coverage only",
+  "sentinel": 255,
+  "counts": {
+    "grids": 35039,
+    "unowned_triangles": 376555
+  },
+  "valid_quads": 8969984,
+  "empty_quads": 7807232,
+  "door_byte": 73,
+  "sha256": "6ef5a1f2ba993cf1cbd506b1dcecc2b848eda2603627e5b27a65da6ca1607822",
+  "triangle_test_cases": [
+    {
+      "diagonal": "primary",
+      "fraction": [
+        0.8,
+        0.2
+      ],
+      "triangle": 0
+    },
+    {
+      "diagonal": "primary",
+      "fraction": [
+        0.2,
+        0.8
+      ],
+      "triangle": 1
+    },
+    {
+      "diagonal": "alternate",
+      "fraction": [
+        0.2,
+        0.2
+      ],
+      "triangle": 0
+    },
+    {
+      "diagonal": "alternate",
+      "fraction": [
+        0.8,
+        0.8
+      ],
+      "triangle": 1
+    }
+  ],
+  "shader": "byte=texelFetch(selector,ivec2(floor(mapXY)),0).r; f=fract(mapXY); tri=((byte&64u)!=0u)?uint(f.x+f.y>1.):uint(f.y>f.x); materialSet=(byte>>(tri*3u))&7u;"
+}

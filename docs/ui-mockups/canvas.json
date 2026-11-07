@@ -1,0 +1,24 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-10-31T22:30:00Z"},
+  "title": "Open Amalur UI Mockups",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1260, "h": 840, "title": "Veil HUD: exploring"},
+    "VeilCombat.dc.html": {"x": 1340, "y": 0, "w": 1260, "h": 840, "title": "Veil HUD: combat"},
+    "VeilInventory.dc.html": {"x": 2680, "y": 0, "w": 1260, "h": 840, "title": "Veil inventory (tap the rows)", "is_interactive": true},
+    "VeilTitle.dc.html": {"x": 0, "y": 1320, "w": 1260, "h": 840, "title": "Title screen"},
+    "VeilPause.dc.html": {"x": 1340, "y": 1320, "w": 1260, "h": 840, "title": "Pause and ledger"},
+    "VeilDialogue.dc.html": {"x": 2680, "y": 1320, "w": 1260, "h": 840, "title": "Dialogue"},
+    "IronHud.dc.html": {"x": 0, "y": 2640, "w": 1260, "h": 840, "title": "Ironbound HUD"},
+    "IronInventory.dc.html": {"x": 1340, "y": 2640, "w": 1260, "h": 840, "title": "Ironbound inventory"}
+  },
+  "order": ["Main.dc.html", "VeilCombat.dc.html", "VeilInventory.dc.html", "VeilTitle.dc.html", "VeilPause.dc.html", "VeilDialogue.dc.html", "IronHud.dc.html", "IronInventory.dc.html"],
+  "notes": {
+    "rowA": {"x": 0, "y": -300, "text": "Direction A: Veil. Edge UI's restraint, Amalur's materials. In play.", "kind": "title1", "maxW": 3940},
+    "rowB": {"x": 0, "y": 1020, "text": "Direction A: Veil. Menus.", "kind": "title1", "maxW": 3940},
+    "rowC": {"x": 0, "y": 2340, "text": "Direction B: Ironbound. SkyUI's data table, the game's own iron.", "kind": "title1", "maxW": 2600}
+  },
+  "designSystems": []
+}

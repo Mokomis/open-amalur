@@ -1,0 +1,23 @@
+--- a/third_party/lua-5.1.5/src/lgc.c
++++ b/third_party/lua-5.1.5/src/lgc.c
+@@ -164,8 +164,18 @@
+     markobject(g, h->metatable);
+   mode = gfasttm(g, h->metatable, TM_MODE);
+   if (mode && ttisstring(mode)) {  /* is there a weak mode? */
+-    weakkey = (strchr(svalue(mode), 'k') != NULL);
+-    weakvalue = (strchr(svalue(mode), 'v') != NULL);
++    /* TString characters follow its separately allocated header.  Bound the
++    ** scan by the stored length: fortified libc cannot always infer this
++    ** trailing allocation's extent.  Keep Lua 5.1's first-NUL semantics. */
++    const char *modestr = svalue(mode);
++    size_t modelen = tsvalue(mode)->len;
++    size_t modeindex;
++    for (modeindex = 0; modeindex < modelen; ++modeindex) {
++      unsigned char modechar = cast(unsigned char, modestr[modeindex]);
++      if (modechar == '\0') break;
++      if (modechar == 'k') weakkey = 1;
++      if (modechar == 'v') weakvalue = 1;
++    }
+     if (weakkey || weakvalue) {  /* is really weak? */
+       h->marked &= ~(KEYWEAK | VALUEWEAK);  /* clear bits */
+       h->marked |= cast_byte((weakkey << KEYWEAKBIT) |

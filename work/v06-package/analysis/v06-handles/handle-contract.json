@@ -1,0 +1,74 @@
+{
+  "schema": "amalur-typed-engine-handle-contract-v1",
+  "target_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "evidence_type": "native static callback pseudocode correlated with existing type11 reader evidence; no live engine execution",
+  "layout": {
+    "native_tvalue_bytes": 8,
+    "low_word": "type tag in bits0..3; domain in remaining low-word bits",
+    "high_word": "unsigned32 engine resource key for admitted callback paths",
+    "canonical_tag": 11,
+    "serialized_provenance": "Original low nibble is replaced by native reader; raw serialized bytes remain in parser/IR, not recoverable from canonical token."
+  },
+  "domains": {
+    "quest": {
+      "masked_low_word": "0x00000390",
+      "canonical_low_word": "0x0000039b",
+      "callbacks": [
+        {
+          "name": "QUEST.get_stage",
+          "address": "0x00e65610",
+          "evidence_id": "ev_78807c39fca21626cd498c4e85bba320feb8ace33f01800c1bcf2d0e491f6538",
+          "source": "work/v06-bindings/quest_get_stage_corrected.json"
+        },
+        {
+          "name": "QUEST.set_stage",
+          "address": "0x00e65a60",
+          "evidence_id": "ev_f2de95e145e1b648124778d644dc7d089acbe6978d7b4e7c8d47d1401fb8656f",
+          "source": "work/v06-bindings/quest_set_stage_corrected.json"
+        }
+      ]
+    },
+    "space": {
+      "masked_low_word": "0x00000320",
+      "canonical_low_word": "0x0000032b",
+      "callbacks": [
+        {
+          "name": "GAME.is_space_loaded",
+          "address": "0x00e5eae0",
+          "evidence_id": "ev_5bb9162e51f694f47e7fb17e368e5f89a884f77950bf7d1e96b0b174556bf9dd",
+          "source": "work/v06-bindings/game_space_loaded_corrected.json"
+        }
+      ]
+    }
+  },
+  "invalid_argument_observations": [
+    "GAME.is_space_loaded initializes key0. A valid type11/domain0x320 argument copies high32 into key; other non-number/string arguments eventually call0x00fb0b10 with key0. This does not establish a false result without that downstream function and engine state.",
+    "GAME.is_space_loaded number/string cases route0x00aa7900. Its meaning and results are outside this module.",
+    "QUEST.get_stage/set_stage likewise admit the typed0x390 fast path; number/string routes and key0 fallback are not modeled.",
+    "Required-argument setup0x010a9210 precedes wrapper checks; missing-argument semantics are not inferred from the later fallback."
+  ],
+  "module_contract": {
+    "factory": "module.new(shared_uint64_carrier)",
+    "methods": [
+      "from_words(low_u32,high_u32)",
+      "to_words(token) -> low_u32,high_u32",
+      "inspect(token) -> fresh metadata table",
+      "from_key(quest|space,key_u32)",
+      "quest_key(token)",
+      "space_key(token)"
+    ],
+    "properties": [
+      "Separate exact32-bit words; never a combined64-bit Lua number",
+      "Opaque tokens remain interned and immutable in shared carrier",
+      "Foreign realm tokens, ordinary numbers/strings, wrong domains and malformed words are rejected",
+      "Unknown canonical type11 domains may be transported but have no kind and cannot pass typed quest/space accessors",
+      "Creating a typed key does not prove resource existence or validity"
+    ]
+  },
+  "limits": [
+    "Marshaling support only, not native engine implementation or Lua query results",
+    "No numeric/string coercion or fallback behavior imitation",
+    "No native callback execution performed by these tests",
+    "Only quest and space domain interpretation established; do not infer other domains by pattern"
+  ]
+}

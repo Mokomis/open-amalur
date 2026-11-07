@@ -1,0 +1,37 @@
+[
+  {
+    "caller": "00fdc910",
+    "name": "BHG_Space__vf3",
+    "callee": "FUN_00dd0580",
+    "file": "BHG_Space.c",
+    "line": "  FUN_00dd0580(*(int *)(param_1 + 0x33c) + 0xb8);"
+  },
+  {
+    "caller": "00ce2260",
+    "name": "FUN_00ce2260",
+    "callee": "FUN_00ce21d0",
+    "file": "unnamed_00ce.c",
+    "line": "      FUN_00ce21d0(uVar4);"
+  },
+  {
+    "caller": "00fb0bb0",
+    "name": "FUN_00fb0bb0",
+    "callee": "FUN_00df6150",
+    "file": "unnamed_00fb.c",
+    "line": "  FUN_00df6150(*param_1,&local_1c,DAT_013be4a0);"
+  },
+  {
+    "caller": "00fbceb0",
+    "name": "FUN_00fbceb0",
+    "callee": "FUN_00df6150",
+    "file": "unnamed_00fb.c",
+    "line": "    FUN_00df6150(*param_1,&local_1c,(float)dVar3);"
+  },
+  {
+    "caller": "00fcb620",
+    "name": "FUN_00fcb620",
+    "callee": "FUN_00ce21d0",
+    "file": "unnamed_00fc.c",
+    "line": "  FUN_00ce21d0(iVar2);"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "material": 1880463,
+  "shader_family": 545212,
+  "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\1880463.mat_bxml",
+  "source_sha256": "d50c4534ddc3007fdcda966e8fb1c766c847765b97d99f95065519d0fbd4142f",
+  "parameters": [
+    {
+      "name": "ConstantColor",
+      "hash": 10276250,
+      "file_values_offset": 40,
+      "source_4f": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "source16bytes_hex": "0000803f0000803f0000803f0000803f"
+    },
+    {
+      "name": "SpecularValues",
+      "hash": 11960536,
+      "file_values_offset": 64,
+      "source_4f": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "source16bytes_hex": "0000803f0000a0410000000000000000"
+    },
+    {
+      "name": "CharacterExtraTerms2",
+      "hash": 23195542,
+      "file_values_offset": 88,
+      "source_4f": [
+        0.15000000596046448,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "source16bytes_hex": "9a99193e0000803f0000803f00000000"
+    },
+    {
+      "name": "FresnelValues2",
+      "hash": 10120212,
+      "file_values_offset": 112,
+      "source_4f": [
+        1.399999976158142,
+        2.4000000953674316,
+        0.0,
+        0.0
+      ],
+      "source16bytes_hex": "3333b33f9a9919400000000000000000"
+    }
+  ],
+  "source16floats_equals_runtimeCB0_all64bytes": true,
+  "source_gloss": 20,
+  "runtime_gloss": 20,
+  "upload_scale_for_this_material": 1,
+  "source_geometry": [
+    {
+      "source": "work\\v48-opening\\initial-sword-visuals\\raw-meshes\\1880465\\assembly-00.vb48",
+      "native_buffer": 3343,
+      "buffer": 3343,
+      "bytes": 20352,
+      "sha256": "e233102852916da55d655feb6683ee9da46c4887febf094318704affaecc8145",
+      "file_offset": 12980527,
+      "all_bytes_equal": true
+    },
+    {
+      "source": "work\\v48-opening\\initial-sword-visuals\\raw-meshes\\1880465\\assembly-00.u16",
+      "native_buffer": 3345,
+      "buffer": 3345,
+      "bytes": 3624,
+      "sha256": "182a00979767a1a4d09d8f5a8f3a390a355778a37470679501be9367f3adefd5",
+      "file_offset": 12996146,
+      "all_bytes_equal": true
+    }
+  ],
+  "gloss_f16_bytes": "004d",
+  "native_deferred_specular_exponent": 5,
+  "scope_limit": "One captured CharacterHardLight source material, with exact VB/IB and all3 actual texture bindings all7mips. Not a direct captured skin/head/hair draw; do not claim arbitrary material-family setters from one specimen."
+}

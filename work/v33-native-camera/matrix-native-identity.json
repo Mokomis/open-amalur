@@ -1,0 +1,10 @@
+{
+  "source": "koa.exe cs:15032",
+  "source_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "address": "0x00abc070",
+  "bytes": 1618,
+  "function_sha256": "be9a7a669ee2309ca456abdd93a5175f7f3623a8da9e9bd5e663d9a11bfd8b49",
+  "no_external_calls_or_absolute_data_operands": true,
+  "precision": "SSE double arithmetic; final float conversion",
+  "output": "left * right; destination in ECX, right/left on stack; ret 8"
+}

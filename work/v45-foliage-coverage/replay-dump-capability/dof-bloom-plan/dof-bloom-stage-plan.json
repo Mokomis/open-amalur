@@ -1,0 +1,550 @@
+{
+  "scope": "one additional original-frame replay; only nativeDOF/fuzz/effect and bloom checkpoints",
+  "events": {
+    "73221": {
+      "name": "DOF-input-copy-and-depth",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73217,
+      "descriptors": {
+        "32": {
+          "view": 169,
+          "image": 167
+        },
+        "16": {
+          "sampler": 145,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_NEAREST",
+            "minFilter": "VK_FILTER_NEAREST",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73217,
+        73222
+      ],
+      "phase": 112,
+      "pipeline": 7559,
+      "fragment_module": 1839,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 176,
+          "view": 230,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 1536,
+          "height": 864,
+          "raw_bytes": 5308416
+        }
+      ]
+    },
+    "73230": {
+      "name": "DOF-quarter-fuzz-downsample",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73224,
+      "descriptors": {
+        "32": {
+          "view": 178,
+          "image": 176
+        },
+        "16": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73224,
+        73231
+      ],
+      "phase": 113,
+      "pipeline": 7563,
+      "fragment_module": 1845,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 203,
+          "view": 251,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 384,
+          "height": 216,
+          "raw_bytes": 331776
+        }
+      ]
+    },
+    "73237": {
+      "name": "DOF-quarter-blur-horizontal",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73233,
+      "descriptors": {
+        "32": {
+          "view": 205,
+          "image": 203
+        },
+        "16": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73233,
+        73238
+      ],
+      "phase": 114,
+      "pipeline": 7567,
+      "fragment_module": 1847,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 206,
+          "view": 252,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 384,
+          "height": 216,
+          "raw_bytes": 331776
+        }
+      ]
+    },
+    "73244": {
+      "name": "DOF-quarter-blur-vertical",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73240,
+      "descriptors": {
+        "32": {
+          "view": 208,
+          "image": 206
+        },
+        "16": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73240,
+        73245
+      ],
+      "phase": 115,
+      "pipeline": 7567,
+      "fragment_module": 1847,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 203,
+          "view": 251,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 384,
+          "height": 216,
+          "raw_bytes": 331776
+        }
+      ]
+    },
+    "73253": {
+      "name": "DOF-half-fuzz",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73247,
+      "descriptors": {
+        "32": {
+          "view": 169,
+          "image": 167
+        },
+        "16": {
+          "sampler": 145,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_NEAREST",
+            "minFilter": "VK_FILTER_NEAREST",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        },
+        "33": {
+          "view": 205,
+          "image": 203
+        },
+        "17": {
+          "sampler": 145,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_NEAREST",
+            "minFilter": "VK_FILTER_NEAREST",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73247,
+        73254
+      ],
+      "phase": 116,
+      "pipeline": 7572,
+      "fragment_module": 1841,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 197,
+          "view": 249,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 768,
+          "height": 432,
+          "raw_bytes": 1327104
+        }
+      ]
+    },
+    "73262": {
+      "name": "DOF-full-effect",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73256,
+      "descriptors": {
+        "32": {
+          "view": 175,
+          "image": 173
+        },
+        "16": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        },
+        "33": {
+          "view": 199,
+          "image": 197
+        },
+        "17": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73256,
+        73263
+      ],
+      "phase": 117,
+      "pipeline": 7576,
+      "fragment_module": 1849,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 176,
+          "view": 230,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 1536,
+          "height": 864,
+          "raw_bytes": 5308416
+        }
+      ]
+    },
+    "73271": {
+      "name": "post-DOF-half-downsample",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73265,
+      "descriptors": {
+        "32": {
+          "view": 175,
+          "image": 173
+        },
+        "16": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73265,
+        73272
+      ],
+      "phase": 118,
+      "pipeline": 7580,
+      "fragment_module": 1844,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 197,
+          "view": 249,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 768,
+          "height": 432,
+          "raw_bytes": 1327104
+        }
+      ]
+    },
+    "73280": {
+      "name": "bloom-extraction-quarter",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73274,
+      "descriptors": {
+        "32": {
+          "view": 199,
+          "image": 197
+        },
+        "16": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73274,
+        73281
+      ],
+      "phase": 119,
+      "pipeline": 7584,
+      "fragment_module": 1851,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 203,
+          "view": 251,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 384,
+          "height": 216,
+          "raw_bytes": 331776
+        }
+      ]
+    },
+    "73386": {
+      "name": "final-bloom-quarter",
+      "command_buffer": 46,
+      "begin_command_buffer": 62473,
+      "render_begin": 73380,
+      "descriptors": {
+        "32": {
+          "view": 211,
+          "image": 209
+        },
+        "16": {
+          "sampler": 153,
+          "state": {
+            "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+            "pNext": null,
+            "flags": 0,
+            "magFilter": "VK_FILTER_LINEAR",
+            "minFilter": "VK_FILTER_LINEAR",
+            "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_NEAREST",
+            "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "addressModeW": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+            "mipLodBias": 0.0,
+            "anisotropyEnable": 0,
+            "maxAnisotropy": 0.0,
+            "compareEnable": 0,
+            "compareOp": "VK_COMPARE_OP_NEVER",
+            "minLod": 0.0,
+            "maxLod": 1000.0,
+            "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+            "unnormalizedCoordinates": 0
+          }
+        }
+      },
+      "queue_submit": 76331,
+      "render_range": [
+        73380,
+        73387
+      ],
+      "phase": 133,
+      "pipeline": 7594,
+      "fragment_module": 1853,
+      "color_attachments": [
+        {
+          "index": 0,
+          "image": 203,
+          "view": 251,
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "width": 384,
+          "height": 216,
+          "raw_bytes": 331776
+        }
+      ]
+    }
+  },
+  "selected_draws": 9,
+  "raw_bytes": 14929920,
+  "output_budget_bytes": 33554432,
+  "depth_and_descriptors": false,
+  "sampling_note": "Full-resolution requested pixel is sampled directly at x,y for full-size outputs. For lower-resolution intermediate maps, report native texels plus bilinear sampling at the actual consumer UV; do not assume integer divide. UV vertex/half-texel offsets require source inspection and are not inferred by eye."
+}

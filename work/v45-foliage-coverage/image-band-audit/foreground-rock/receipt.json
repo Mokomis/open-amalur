@@ -1,0 +1,212 @@
+{
+  "native_draw": 69783,
+  "VS": 923,
+  "PS": 924,
+  "pipeline": 12360,
+  "FAB": 424996,
+  "source_name": "for_rock_stone05",
+  "material": 414763,
+  "material_row": 270,
+  "material_family": 4,
+  "source_space": 431646,
+  "source_render_slot": "0x160",
+  "source_render_index": 470,
+  "prior_provenance_instance_ordinal": 672,
+  "source_render_record_hex": "d149054693eda8c7ef8fc245fda08d432e10064636e6a8c7220fc4450000803fe6d0043cdb62623c4ffbe13eb9ad653f0000803f0000803f0000803f5e0000002b5406000200000000000000000000008e50af4b",
+  "source_TRS": {
+    "translation": [
+      8580.044921875,
+      -86476.421875,
+      6273.8916015625
+    ],
+    "quaternion": [
+      0.008106445893645287,
+      0.013817514292895794,
+      0.4413704574108124,
+      0.897182047367096
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "source_stream": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\424996.fab_visual_data_streamable_bin",
+  "source_stream_sha256": "e7044beb14e61d7d29c9f80a6ab758e96124a86b585d9088023b2329e184d81a",
+  "source_space_sha256": "310a233c264e7ddd413f4f981d302b4a3ab8990bf96a4791416e83e00d870c48",
+  "source_direct_matrix": [
+    [
+      0.6100023912474717,
+      -0.7917552793903685,
+      0.03194954298975716,
+      0.0
+    ],
+    [
+      0.7922033231183686,
+      0.6102528097198874,
+      -0.002348630239990823,
+      0.0
+    ],
+    [
+      -0.017637760061540275,
+      0.02674320065493424,
+      0.999486723667478,
+      0.0
+    ],
+    [
+      8580.044921875,
+      -86476.421875,
+      6273.8916015625,
+      1.0
+    ]
+  ],
+  "native_world_matrix": [
+    [
+      0.6100023984909058,
+      -0.7917553186416626,
+      0.031949542462825775,
+      0.0
+    ],
+    [
+      0.7922033071517944,
+      0.6102527976036072,
+      -0.00234863068908453,
+      0.0
+    ],
+    [
+      -0.01763775944709778,
+      0.026743199676275253,
+      0.9994867444038391,
+      0.0
+    ],
+    [
+      8580.044921875,
+      -86476.421875,
+      6273.8916015625,
+      1.0
+    ]
+  ],
+  "matrix_max_abs_error": 3.9251294103870293e-08,
+  "replacement": {
+    "assembly": 0,
+    "vertices": 119,
+    "triangles": 190,
+    "VB_SHA256": "c6775ac0c914b385a424a60afd8a7c7e5044cd0f841dcfb627c54689fa7ba6d5",
+    "IB_SHA256": "909d7ccddfe9c133673bb0e787cc540a2953f2e808712e5cbb4bffde2efed7dd",
+    "source_vs_native_world_position_max": 9.697032510302961e-06,
+    "source_vs_native_frame_max": 6.620457793093948e-08
+  },
+  "removed": {
+    "assembly": 2,
+    "vertices": 55,
+    "triangles": 50,
+    "VB_SHA256": "66f85cf4b9a2f1d1afebf95b12b77a3cc6c82fac97ffb1308162340bb21695d2",
+    "IB_SHA256": "d32b9e9ece83f087b0118b5df1ea9960c3ab0f70ddf6279a164556232821de74",
+    "source_vs_native_world_position_max": 9.697032510302961e-06,
+    "source_vs_native_frame_max": 6.531592566805244e-08
+  },
+  "native_source_VB_and_IB_exact": true,
+  "source_position_UV_RGBA_raw_bytes": true,
+  "all_retained_vertex_bytes_exact": true,
+  "all_retained_triangle_indices_and_order_exact": true,
+  "removed_triangle_count": 50,
+  "appended_triangle_count": 190,
+  "preserved_triangle_count": 71578,
+  "before_counts": {
+    "vertices": 77609,
+    "indices": 214884,
+    "draws": 29,
+    "triangles": 71628
+  },
+  "after_counts": {
+    "vertices": 77728,
+    "indices": 215304,
+    "draws": 29,
+    "triangles": 71768
+  },
+  "current_input_cell": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\assets\\world\\c1_-14_0.bin",
+  "current_input_sha256": "3ecc8fd97451db82cdf9409c93f5d353f06d9e6653e461ce90cfd9030371bf15",
+  "candidate_cell": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v45-foliage-coverage\\image-band-audit\\foreground-rock\\candidate-cell\\c1_-14_0.bin",
+  "candidate_sha256": "203809d07d6416c1a4c9b671bc40558dc9b6592ce5b972324cf652388dd3b384",
+  "rock_only_sha256": "c9d683c63791a21e909207a53e16521b516c02b339c18c26f5c9ceb03c6aea07",
+  "cell_bounds_before": [
+    [
+      5536.9267578125,
+      -91316.3984375,
+      4772.11279296875
+    ],
+    [
+      14555.7744140625,
+      -80934.0546875,
+      29431.38671875
+    ]
+  ],
+  "replacement_bounds": [
+    [
+      8325.2763671875,
+      -86681.34375,
+      6151.83837890625
+    ],
+    [
+      8762.1455078125,
+      -86217.578125,
+      6345.09814453125
+    ]
+  ],
+  "replacement_inside_existing_cell_AABB": true,
+  "replacement_inside_nominal_xy_cell_1_minus14": true,
+  "native_visible_positive_w_vertices": 119,
+  "native_projected_bounds_positive_w": [
+    [
+      -2274.9667293881466,
+      658.5613857921718
+    ],
+    [
+      287.335340569433,
+      2486.6724487511688
+    ]
+  ],
+  "request_frustum_change": "No expanded cell AABB/request envelope: all new vertices inside existing bounds; same material/draw list; native capture verifies frontmost coverage at both requested pixels. Parent promotes only after checking input SHA.",
+  "promotion_performed": false,
+  "no_material_texture_shader_edits": true,
+  "limits": [
+    "Native shader/texture filtering and full brightness attribution not claimed resolved by this geometry fixture.",
+    "Changes only this requested LOD0 cell instance; no universal dynamic LOD policy or coarse cell changes."
+  ],
+  "index_bin_sha256": "21ed77617e991d9a9dbafcd7d2b6f7fb3bdb2dd9b53302b1f4586d35b7d5ba3b",
+  "index_row_index": 666,
+  "actual_index_cell_bounds": [
+    [
+      5536.9267578125,
+      -91316.3984375,
+      4772.11279296875
+    ],
+    [
+      14555.7744140625,
+      -80934.0546875,
+      29431.38671875
+    ]
+  ],
+  "replacement_inside_actual_index_cell_AABB": true,
+  "index_row_triangle_counts_before": [
+    71628,
+    13567,
+    4670,
+    11256
+  ],
+  "index_LOD0_triangle_count_after": 71768,
+  "candidate_index": {
+    "file": "candidate-index.bin",
+    "index_row": 666,
+    "index_target_xy": [
+      1,
+      -14
+    ],
+    "index_LOD0_offset": 32020,
+    "index_old_count": 71628,
+    "index_new_count": 71768,
+    "index_input_sha256": "21ed77617e991d9a9dbafcd7d2b6f7fb3bdb2dd9b53302b1f4586d35b7d5ba3b",
+    "index_candidate_sha256": "0de234893618e42ee37f99d8218d374b34999b3f14843092dabe721b64c356b6",
+    "only_target_u32_field_changed": true
+  }
+}

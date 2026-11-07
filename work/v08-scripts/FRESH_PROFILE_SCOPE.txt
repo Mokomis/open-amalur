@@ -1,0 +1,43 @@
+Fresh in-memory preference session
+
+scene_profile_v08_options has trailing int fresh_profile:0 means unknown,
+1 explicitly creates a new initially empty host preference session. Other flags
+reject before provider installation. The flag is immutable per realm; its
+mutable dictionary is Lua-owned and shared by the getter and setter closures.
+The closures retain no caller pointer, native profile, or filesystem resource.
+
+PROFILE.get_variable admits exactly one Lua numeric signed-int32 hash and returns
+exactly one stored number or nil if missing. PROFILE.set_variable admits exactly
+two arguments: that hash and a numeric signed-int32 value. It replaces a matching
+entry or creates a new entry and returns zero values. Numeric strings, nil values,
+booleans, tables, fractions, NaN/infinity, out-of-range numbers and wrong arities
+fail before mutation. Both calls error when the preference session is unknown.
+Only this numeric subset is modeled; no deletion, table-valued variables,
+persistence, save loading, native profile import, or profile file access exists.
+Dictionary allocation uses the realm's Lua allocator and memory limit.
+
+Native getter proof confirmed by parent and mirrored at work/v08-native:
+- lua_parameter_default.json:00aa1e40 zeroes payload+18/+1c, sets kind+20=12.
+- platform_profile_variable_get.json:00f1ebf0 scans exact32-bit hashes; missing
+  returns0 without assigning output.00e28000 begins with the default parameter.
+- Parent confirmed00b50cf0 copies payload and kind.
+- profile_nil_marshalling.json:00aadd20 type12 takes the default switch branch,
+  fails the19..99 handle range, emits TValue tag0 and advances stack one value.
+Native setter proof summarized by parent:
+-00e299a0 marshals argument2, then00e27f60's non-table path calls00f2c300.
+-00f2c300 scans matching hash and replaces via00aa1ac0, else appends via00f202f0.
+The host's signed-int32 numeric subset follows these lookup/replace semantics.
+The native implementation accepts other LuaParameter kinds, not yet modeled.
+
+Android setup selects fresh_profile=1 and logs scope=fresh_session_in_memory,
+initial_entries=0,imported_user_profile=0,persistence=0. This describes a new
+Android session, not the user's existing game profile. Existing user profiles
+and saves remain untouched. The expanded macro descriptor array is unchanged.
+
+fresh_profile_test.c takes RUNTIME_DIR_WITH_PROFILE. It retains initial empty,
+unset, invalid-flag/read-domain, captured lifetime and service-isolation checks,
+then adds signed extrema/zero write-read, overwrites, disjoint keys, zero setter
+return count, invalid writes preserving old state, captured/public alias
+coherence, GC survival, unknown writes, and independent mutable realms.
+Run on Windows with the current seven-namespace registry and existing profile
+regressions. No local build, Windows copy, or device operation was performed.

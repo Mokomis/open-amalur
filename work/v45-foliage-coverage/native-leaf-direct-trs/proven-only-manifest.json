@@ -1,0 +1,4427 @@
+{
+  "status": "Individually native-observed matrix corrections only; full candidate retained separately",
+  "selected_source_indices": [
+    457,
+    458,
+    467,
+    468,
+    484
+  ],
+  "counts": {
+    "triangles": 51831,
+    "selected_triangles": 331,
+    "changed_vertices": 582
+  },
+  "cells": 175,
+  "changed_cells": 6,
+  "material_count": 299,
+  "index_sha256": "d276f64f6e008b1f134ca1939f57b9386b6c1a45b80d49a1eb8b04279087bce7",
+  "bytes": 7989460,
+  "bounds_expansion_cells": 1,
+  "bounds_union_input_sha256": {
+    "base": "21ed77617e991d9a9dbafcd7d2b6f7fb3bdb2dd9b53302b1f4586d35b7d5ba3b",
+    "region": "0c36ceb03659d34ce8504c413a05c57ec6f0cfb5829f14644d31216e10b786b4"
+  },
+  "files": [
+    {
+      "file": "l-12_-15.bin",
+      "cell": [
+        -12,
+        -15
+      ],
+      "triangles": 52,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 8404,
+      "input_sha256": "10266aed155f56f0ef3167362f5924bb0a2d99ff6b3944604e1c8e934c40632d",
+      "output_sha256": "10266aed155f56f0ef3167362f5924bb0a2d99ff6b3944604e1c8e934c40632d",
+      "bounds": [
+        [
+          -76452.8125,
+          -97929.4609375,
+          9831.859375
+        ],
+        [
+          -69233.1171875,
+          -91942.1015625,
+          23767.87109375
+        ]
+      ]
+    },
+    {
+      "file": "l-12_-14.bin",
+      "cell": [
+        -12,
+        -14
+      ],
+      "triangles": 71,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 10608,
+      "input_sha256": "f1540436c02a9748b6605eec26c7062bc4b7f85c5c3a94536a30ed362144cf85",
+      "output_sha256": "f1540436c02a9748b6605eec26c7062bc4b7f85c5c3a94536a30ed362144cf85",
+      "bounds": [
+        [
+          -77478.3359375,
+          -91137.96875,
+          10283.54296875
+        ],
+        [
+          -68061.0703125,
+          -80752.8828125,
+          22504.849609375
+        ]
+      ]
+    },
+    {
+      "file": "l-12_-13.bin",
+      "cell": [
+        -12,
+        -13
+      ],
+      "triangles": 2,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 508,
+      "input_sha256": "c5a8ee2c63066512b3c15a2bc587a04e459500d314e4d448b0a1d4ed60758d21",
+      "output_sha256": "c5a8ee2c63066512b3c15a2bc587a04e459500d314e4d448b0a1d4ed60758d21",
+      "bounds": [
+        [
+          -76173.625,
+          -85235.9375,
+          15532.244140625
+        ],
+        [
+          -68090.609375,
+          -75837.5625,
+          18368.1328125
+        ]
+      ]
+    },
+    {
+      "file": "l-12_-12.bin",
+      "cell": [
+        -12,
+        -12
+      ],
+      "triangles": 39,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 6272,
+      "input_sha256": "2c5aefe5fd8b6880b5f8dc683312744a336d6450cb5f144191ec6a2bb57e1ac1",
+      "output_sha256": "2c5aefe5fd8b6880b5f8dc683312744a336d6450cb5f144191ec6a2bb57e1ac1",
+      "bounds": [
+        [
+          -72945.578125,
+          -77310.0859375,
+          9084.873046875
+        ],
+        [
+          -67972.703125,
+          -69061.9140625,
+          17286.04296875
+        ]
+      ]
+    },
+    {
+      "file": "l-12_-11.bin",
+      "cell": [
+        -12,
+        -11
+      ],
+      "triangles": 8,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 1492,
+      "input_sha256": "e7a44afa2c19eaca6ac344479f8d2c6b059e091b434ccb63af540ddb70abe449",
+      "output_sha256": "e7a44afa2c19eaca6ac344479f8d2c6b059e091b434ccb63af540ddb70abe449",
+      "bounds": [
+        [
+          -72385.2734375,
+          -71634.234375,
+          9433.716796875
+        ],
+        [
+          -68688.5859375,
+          -68533.453125,
+          14934.9755859375
+        ]
+      ]
+    },
+    {
+      "file": "l-11_-15.bin",
+      "cell": [
+        -11,
+        -15
+      ],
+      "triangles": 98,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 13820,
+      "input_sha256": "fbacbf50191fc5f3bd8b9c02ff28a614351cbd384cd0cde9022cc9da8a12dabd",
+      "output_sha256": "fbacbf50191fc5f3bd8b9c02ff28a614351cbd384cd0cde9022cc9da8a12dabd",
+      "bounds": [
+        [
+          -70990.125,
+          -98194.1328125,
+          8703.123046875
+        ],
+        [
+          -63832.6875,
+          -90253.890625,
+          17256.56640625
+        ]
+      ]
+    },
+    {
+      "file": "l-11_-14.bin",
+      "cell": [
+        -11,
+        -14
+      ],
+      "triangles": 219,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 30472,
+      "input_sha256": "54cbb9fb6eddd8de7529f9d3d5c9ed71ffa7b88c360e673f2541153cd5caa5b8",
+      "output_sha256": "54cbb9fb6eddd8de7529f9d3d5c9ed71ffa7b88c360e673f2541153cd5caa5b8",
+      "bounds": [
+        [
+          -74055.0078125,
+          -90199.796875,
+          8647.5595703125
+        ],
+        [
+          -63211.0546875,
+          -80752.8828125,
+          20080.9609375
+        ]
+      ]
+    },
+    {
+      "file": "l-11_-13.bin",
+      "cell": [
+        -11,
+        -13
+      ],
+      "triangles": 402,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 59900,
+      "input_sha256": "2a80ea0c130af8a842fe4a41da7a8a516ed5356dd76845bdb3b551114115e0a3",
+      "output_sha256": "2a80ea0c130af8a842fe4a41da7a8a516ed5356dd76845bdb3b551114115e0a3",
+      "bounds": [
+        [
+          -72253.1328125,
+          -84865.0,
+          7163.95654296875
+        ],
+        [
+          -63380.1171875,
+          -74557.03125,
+          24787.77734375
+        ]
+      ]
+    },
+    {
+      "file": "l-11_-12.bin",
+      "cell": [
+        -11,
+        -12
+      ],
+      "triangles": 254,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 38340,
+      "input_sha256": "8bcb34cd0da9875ecc82e68591fbbdad3c128a9381f37603c0990af3bb33c766",
+      "output_sha256": "8bcb34cd0da9875ecc82e68591fbbdad3c128a9381f37603c0990af3bb33c766",
+      "bounds": [
+        [
+          -71951.484375,
+          -78847.734375,
+          8830.478515625
+        ],
+        [
+          -62463.28125,
+          -68336.2421875,
+          25155.64453125
+        ]
+      ]
+    },
+    {
+      "file": "l-11_-11.bin",
+      "cell": [
+        -11,
+        -11
+      ],
+      "triangles": 185,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 26644,
+      "input_sha256": "0acf43416105850670cc472651213d2167ad49491116c8de02c0bc22dafd33f9",
+      "output_sha256": "0acf43416105850670cc472651213d2167ad49491116c8de02c0bc22dafd33f9",
+      "bounds": [
+        [
+          -71871.046875,
+          -73072.703125,
+          8882.6005859375
+        ],
+        [
+          -62294.59375,
+          -63129.8671875,
+          23059.67578125
+        ]
+      ]
+    },
+    {
+      "file": "l-11_-10.bin",
+      "cell": [
+        -11,
+        -10
+      ],
+      "triangles": 109,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 15852,
+      "input_sha256": "78a4870d8443c878726ccbe5c29fba5c71a6093d86020fc03ce174789fadf84f",
+      "output_sha256": "78a4870d8443c878726ccbe5c29fba5c71a6093d86020fc03ce174789fadf84f",
+      "bounds": [
+        [
+          -70034.34375,
+          -64640.34765625,
+          10446.693359375
+        ],
+        [
+          -62684.46484375,
+          -57030.08203125,
+          24382.70703125
+        ]
+      ]
+    },
+    {
+      "file": "l-11_-9.bin",
+      "cell": [
+        -11,
+        -9
+      ],
+      "triangles": 32,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 4972,
+      "input_sha256": "0834117b917b9311e32ae12eb88fee5294b893c5af4aa3505bc49863dd6782f6",
+      "output_sha256": "0834117b917b9311e32ae12eb88fee5294b893c5af4aa3505bc49863dd6782f6",
+      "bounds": [
+        [
+          -66431.9453125,
+          -59456.5078125,
+          10639.169921875
+        ],
+        [
+          -62355.36328125,
+          -52663.4453125,
+          21889.845703125
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-15.bin",
+      "cell": [
+        -10,
+        -15
+      ],
+      "triangles": 8,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 1948,
+      "input_sha256": "77fb77c0f019fdc028f85edaceae59dca2a6206ddeaf3d8db3dbda160cb73c92",
+      "output_sha256": "77fb77c0f019fdc028f85edaceae59dca2a6206ddeaf3d8db3dbda160cb73c92",
+      "bounds": [
+        [
+          -66287.6875,
+          -99558.671875,
+          10289.779296875
+        ],
+        [
+          -56465.8203125,
+          -92906.6171875,
+          18727.380859375
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-14.bin",
+      "cell": [
+        -10,
+        -14
+      ],
+      "triangles": 32,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 5744,
+      "input_sha256": "5c146786ced59b142e52214b65f59d3e7c683a076fcb3f174f4ab6bd1c786c96",
+      "output_sha256": "5c146786ced59b142e52214b65f59d3e7c683a076fcb3f174f4ab6bd1c786c96",
+      "bounds": [
+        [
+          -65137.99609375,
+          -89165.21875,
+          7105.78271484375
+        ],
+        [
+          -59089.95703125,
+          -81992.65625,
+          11759.220703125
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-13.bin",
+      "cell": [
+        -10,
+        -13
+      ],
+      "triangles": 643,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 108620,
+      "input_sha256": "3061186c870307aaf3a4c0cd89eaf7ea0d5a66f53d25bec08d4da4f8d7d7bccf",
+      "output_sha256": "3061186c870307aaf3a4c0cd89eaf7ea0d5a66f53d25bec08d4da4f8d7d7bccf",
+      "bounds": [
+        [
+          -64899.90234375,
+          -83980.7578125,
+          6918.43359375
+        ],
+        [
+          -57496.15625,
+          -76281.953125,
+          14214.791015625
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-12.bin",
+      "cell": [
+        -10,
+        -12
+      ],
+      "triangles": 565,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 88976,
+      "input_sha256": "ce121b4fe2a390ac516c0dfd5f6c20add9fd124af818b2be6a15ba5c015e0122",
+      "output_sha256": "ce121b4fe2a390ac516c0dfd5f6c20add9fd124af818b2be6a15ba5c015e0122",
+      "bounds": [
+        [
+          -64866.59375,
+          -77787.25,
+          6819.85791015625
+        ],
+        [
+          -56460.88671875,
+          -69322.2109375,
+          23122.35546875
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-11.bin",
+      "cell": [
+        -10,
+        -11
+      ],
+      "triangles": 240,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 35904,
+      "input_sha256": "e00d1a860a4cbf5b124f5481bffea56c0b799428ecda8446836ed2babc2f0a4e",
+      "output_sha256": "e00d1a860a4cbf5b124f5481bffea56c0b799428ecda8446836ed2babc2f0a4e",
+      "bounds": [
+        [
+          -66071.2890625,
+          -71295.28125,
+          7232.833984375
+        ],
+        [
+          -56281.6484375,
+          -61668.96484375,
+          23538.5
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-10.bin",
+      "cell": [
+        -10,
+        -10
+      ],
+      "triangles": 102,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 15084,
+      "input_sha256": "74caca66efcedb1ff137032d3aa2ed1c6fc1b7ead129cd96be3a504595601f35",
+      "output_sha256": "74caca66efcedb1ff137032d3aa2ed1c6fc1b7ead129cd96be3a504595601f35",
+      "bounds": [
+        [
+          -65763.4765625,
+          -66689.7890625,
+          8857.7529296875
+        ],
+        [
+          -55720.55859375,
+          -56385.796875,
+          20853.1640625
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-9.bin",
+      "cell": [
+        -10,
+        -9
+      ],
+      "triangles": 91,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 13812,
+      "input_sha256": "2afd78034fe3ab503262239a182631d4b4b9ec5dd356c2199a6caafcd15ad084",
+      "output_sha256": "2afd78034fe3ab503262239a182631d4b4b9ec5dd356c2199a6caafcd15ad084",
+      "bounds": [
+        [
+          -65738.734375,
+          -59456.5078125,
+          10541.6142578125
+        ],
+        [
+          -56496.10546875,
+          -50498.34765625,
+          24575.18359375
+        ]
+      ]
+    },
+    {
+      "file": "l-10_-8.bin",
+      "cell": [
+        -10,
+        -8
+      ],
+      "triangles": 2,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 508,
+      "input_sha256": "00f7793721702d3db56a8a26b2c06b313ba2996c07d84c0daad6e8dc7efa1ef0",
+      "output_sha256": "00f7793721702d3db56a8a26b2c06b313ba2996c07d84c0daad6e8dc7efa1ef0",
+      "bounds": [
+        [
+          -58759.12890625,
+          -51865.77734375,
+          10287.4375
+        ],
+        [
+          -57422.41015625,
+          -49676.703125,
+          11218.677734375
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-15.bin",
+      "cell": [
+        -9,
+        -15
+      ],
+      "triangles": 397,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 57764,
+      "input_sha256": "13b91d8a5f12ff5f3f659c3f08424538d63d30886a9eac2c72acdbaf87f7bc35",
+      "output_sha256": "13b91d8a5f12ff5f3f659c3f08424538d63d30886a9eac2c72acdbaf87f7bc35",
+      "bounds": [
+        [
+          -58661.625,
+          -98392.2265625,
+          8191.45263671875
+        ],
+        [
+          -49812.65625,
+          -88910.453125,
+          23150.8828125
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-14.bin",
+      "cell": [
+        -9,
+        -14
+      ],
+      "triangles": 70,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 10444,
+      "input_sha256": "4277e538b0464ad4cf43902d8419618832ea7ca41e39da5f3520a8ddf1c25b28",
+      "output_sha256": "4277e538b0464ad4cf43902d8419618832ea7ca41e39da5f3520a8ddf1c25b28",
+      "bounds": [
+        [
+          -55270.75390625,
+          -90883.3359375,
+          7442.5185546875
+        ],
+        [
+          -50331.390625,
+          -86255.9609375,
+          15995.9609375
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-13.bin",
+      "cell": [
+        -9,
+        -13
+      ],
+      "triangles": 237,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 39440,
+      "input_sha256": "26a47d5e14e7ab08d219a7fcfc49da4f022df38529d157ec03fef29c122d7604",
+      "output_sha256": "26a47d5e14e7ab08d219a7fcfc49da4f022df38529d157ec03fef29c122d7604",
+      "bounds": [
+        [
+          -56522.77734375,
+          -82838.7265625,
+          6690.623046875
+        ],
+        [
+          -49884.59375,
+          -75506.3203125,
+          15825.27734375
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-12.bin",
+      "cell": [
+        -9,
+        -12
+      ],
+      "triangles": 281,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 38512,
+      "input_sha256": "ea7a0a4a5c1b07439044cbcef0608056e5bbb87076789574a5b273a22be2f42a",
+      "output_sha256": "ea7a0a4a5c1b07439044cbcef0608056e5bbb87076789574a5b273a22be2f42a",
+      "bounds": [
+        [
+          -57922.7421875,
+          -78464.90625,
+          7173.7431640625
+        ],
+        [
+          -49311.24609375,
+          -69167.7890625,
+          16535.544921875
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-11.bin",
+      "cell": [
+        -9,
+        -11
+      ],
+      "triangles": 248,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 37812,
+      "input_sha256": "3eac10bd709cb16797491961340e576a729510e2e582d30b1467a1ce5fbe31e4",
+      "output_sha256": "3eac10bd709cb16797491961340e576a729510e2e582d30b1467a1ce5fbe31e4",
+      "bounds": [
+        [
+          -59126.15625,
+          -71996.2890625,
+          8812.23828125
+        ],
+        [
+          -49239.27734375,
+          -62894.828125,
+          23167.8203125
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-10.bin",
+      "cell": [
+        -9,
+        -10
+      ],
+      "triangles": 351,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 53196,
+      "input_sha256": "1bf78ea545b6aa3b15ebb8eb3abe63b33241cdf6b8b9da28962f145f39ccccf2",
+      "output_sha256": "1bf78ea545b6aa3b15ebb8eb3abe63b33241cdf6b8b9da28962f145f39ccccf2",
+      "bounds": [
+        [
+          -59391.125,
+          -65707.71875,
+          7201.4296875
+        ],
+        [
+          -50997.27734375,
+          -56768.828125,
+          17411.1953125
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-9.bin",
+      "cell": [
+        -9,
+        -9
+      ],
+      "triangles": 219,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 30408,
+      "input_sha256": "de0d5505b70fa1a0a883bbdcf9805a92a4adb336c3301183f5651729e554dcd3",
+      "output_sha256": "de0d5505b70fa1a0a883bbdcf9805a92a4adb336c3301183f5651729e554dcd3",
+      "bounds": [
+        [
+          -58371.0390625,
+          -58715.93359375,
+          7010.0830078125
+        ],
+        [
+          -50409.99609375,
+          -49389.51171875,
+          21189.26953125
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-8.bin",
+      "cell": [
+        -9,
+        -8
+      ],
+      "triangles": 135,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 21104,
+      "input_sha256": "7b3c788246c7e78ab228678f518fd0b785fb4814629180a6042142d313c4f17f",
+      "output_sha256": "7b3c788246c7e78ab228678f518fd0b785fb4814629180a6042142d313c4f17f",
+      "bounds": [
+        [
+          -59417.1953125,
+          -53229.96875,
+          9938.59375
+        ],
+        [
+          -49000.78125,
+          -42657.51171875,
+          23874.60546875
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-7.bin",
+      "cell": [
+        -9,
+        -7
+      ],
+      "triangles": 146,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 22680,
+      "input_sha256": "d9c5ef95470d45840abfe8f31ab0cea701a136244d576ea30d923c9db3dbb42c",
+      "output_sha256": "d9c5ef95470d45840abfe8f31ab0cea701a136244d576ea30d923c9db3dbb42c",
+      "bounds": [
+        [
+          -56800.71875,
+          -47375.51171875,
+          8579.5478515625
+        ],
+        [
+          -48510.328125,
+          -36982.875,
+          24354.892578125
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-6.bin",
+      "cell": [
+        -9,
+        -6
+      ],
+      "triangles": 39,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 5588,
+      "input_sha256": "396507cdb52cc00b2f7d676482e1ba9a6edc787b368553b3336672548ca3bfa0",
+      "output_sha256": "396507cdb52cc00b2f7d676482e1ba9a6edc787b368553b3336672548ca3bfa0",
+      "bounds": [
+        [
+          -56778.609375,
+          -39839.30078125,
+          9789.5966796875
+        ],
+        [
+          -52411.33203125,
+          -35987.6875,
+          17132.990234375
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-5.bin",
+      "cell": [
+        -9,
+        -5
+      ],
+      "triangles": 155,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 22104,
+      "input_sha256": "78946c8405e22a1bf0a8e91fc78f03b3a4a69f30a983a16ccb2e20ccd97364b6",
+      "output_sha256": "78946c8405e22a1bf0a8e91fc78f03b3a4a69f30a983a16ccb2e20ccd97364b6",
+      "bounds": [
+        [
+          -56866.95703125,
+          -32674.080078125,
+          9003.748046875
+        ],
+        [
+          -49232.4375,
+          -23289.19140625,
+          23943.0703125
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-4.bin",
+      "cell": [
+        -9,
+        -4
+      ],
+      "triangles": 136,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 21192,
+      "input_sha256": "ff38b4a78457f01c41abdccaf22080b44357a8d642d32e7a2d8b765023fffb62",
+      "output_sha256": "ff38b4a78457f01c41abdccaf22080b44357a8d642d32e7a2d8b765023fffb62",
+      "bounds": [
+        [
+          -57536.15625,
+          -27066.619140625,
+          7727.3505859375
+        ],
+        [
+          -49761.96875,
+          -17670.33203125,
+          22823.53515625
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-3.bin",
+      "cell": [
+        -9,
+        -3
+      ],
+      "triangles": 100,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 16580,
+      "input_sha256": "ad4e4fa66c6b449bd1d9ce3a29f3f213d3fa063ce75829b523876abb7d8d0c80",
+      "output_sha256": "ad4e4fa66c6b449bd1d9ce3a29f3f213d3fa063ce75829b523876abb7d8d0c80",
+      "bounds": [
+        [
+          -57150.5234375,
+          -21875.49609375,
+          9236.3671875
+        ],
+        [
+          -49609.43359375,
+          -11107.9140625,
+          23479.1640625
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-2.bin",
+      "cell": [
+        -9,
+        -2
+      ],
+      "triangles": 21,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 3852,
+      "input_sha256": "c88e93d1705782ff294337ef44dcc7e3cc09704b829dd8604493db5b145852c8",
+      "output_sha256": "c88e93d1705782ff294337ef44dcc7e3cc09704b829dd8604493db5b145852c8",
+      "bounds": [
+        [
+          -56388.21484375,
+          -14190.0107421875,
+          9891.99609375
+        ],
+        [
+          -50680.8828125,
+          -10128.435546875,
+          18422.7890625
+        ]
+      ]
+    },
+    {
+      "file": "l-9_-1.bin",
+      "cell": [
+        -9,
+        -1
+      ],
+      "triangles": 11,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 2060,
+      "input_sha256": "76d97c2a1d2bb2aa35bf6eb201a539e73ca34f99cb9bee98d9413e7c5e799660",
+      "output_sha256": "76d97c2a1d2bb2aa35bf6eb201a539e73ca34f99cb9bee98d9413e7c5e799660",
+      "bounds": [
+        [
+          -58623.66796875,
+          -3243.468994140625,
+          12416.1328125
+        ],
+        [
+          -50279.046875,
+          1056.2784423828125,
+          15011.8916015625
+        ]
+      ]
+    },
+    {
+      "file": "l-8_0.bin",
+      "cell": [
+        -8,
+        0
+      ],
+      "triangles": 305,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 46324,
+      "input_sha256": "9b93e496dfe74fdb3b188dcdcfdb8e042b806538c9f5da94072b7ca943b72bb3",
+      "output_sha256": "9b93e496dfe74fdb3b188dcdcfdb8e042b806538c9f5da94072b7ca943b72bb3",
+      "bounds": [
+        [
+          -53185.7265625,
+          -1841.705078125,
+          6645.24365234375
+        ],
+        [
+          -42872.51953125,
+          8463.59765625,
+          22685.26171875
+        ]
+      ]
+    },
+    {
+      "file": "l-8_1.bin",
+      "cell": [
+        -8,
+        1
+      ],
+      "triangles": 465,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 71208,
+      "input_sha256": "3631ad25b04707f893e46af433458dcc3b01337ac02d726729c7c3138e883883",
+      "output_sha256": "3631ad25b04707f893e46af433458dcc3b01337ac02d726729c7c3138e883883",
+      "bounds": [
+        [
+          -53528.15234375,
+          3924.979736328125,
+          5908.47119140625
+        ],
+        [
+          -43597.265625,
+          13320.00390625,
+          22128.939453125
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-15.bin",
+      "cell": [
+        -8,
+        -15
+      ],
+      "triangles": 355,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 57348,
+      "input_sha256": "7a1a7278252983cfbeb1efecd88eb71d838ecef09c5e941fb710dc14fc401ae8",
+      "output_sha256": "7a1a7278252983cfbeb1efecd88eb71d838ecef09c5e941fb710dc14fc401ae8",
+      "bounds": [
+        [
+          -52969.0078125,
+          -98059.15625,
+          7555.19677734375
+        ],
+        [
+          -44286.53515625,
+          -88912.7890625,
+          23608.89453125
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-14.bin",
+      "cell": [
+        -8,
+        -14
+      ],
+      "triangles": 334,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 51776,
+      "input_sha256": "b9c9abd6a1cb7fcd5b269da38c452e769fabbc50757464fbe6e06aa70662ad92",
+      "output_sha256": "b9c9abd6a1cb7fcd5b269da38c452e769fabbc50757464fbe6e06aa70662ad92",
+      "bounds": [
+        [
+          -50891.44140625,
+          -88354.046875,
+          6703.5263671875
+        ],
+        [
+          -43941.1953125,
+          -82602.96875,
+          15461.9287109375
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-13.bin",
+      "cell": [
+        -8,
+        -13
+      ],
+      "triangles": 343,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 52416,
+      "input_sha256": "3c12d71894e2a59f12b6599551d81e2d578091767304394c189634379fae3eeb",
+      "output_sha256": "3c12d71894e2a59f12b6599551d81e2d578091767304394c189634379fae3eeb",
+      "bounds": [
+        [
+          -52751.9609375,
+          -81845.0625,
+          6519.6845703125
+        ],
+        [
+          -43540.97265625,
+          -75925.2265625,
+          15715.1435546875
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-12.bin",
+      "cell": [
+        -8,
+        -12
+      ],
+      "triangles": 396,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 63236,
+      "input_sha256": "8e38d6b1e10a399c748dfe7cdd81ab7ce94d1063369851ad57bb2d4d987ff8fe",
+      "output_sha256": "8e38d6b1e10a399c748dfe7cdd81ab7ce94d1063369851ad57bb2d4d987ff8fe",
+      "bounds": [
+        [
+          -52326.99609375,
+          -78464.90625,
+          6818.6201171875
+        ],
+        [
+          -43359.75390625,
+          -68397.78125,
+          15605.5546875
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-11.bin",
+      "cell": [
+        -8,
+        -11
+      ],
+      "triangles": 243,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 38284,
+      "input_sha256": "9a437b576f03ba1b022d43426b4379e2c995d6e8ca928d4468033c9418e5d3de",
+      "output_sha256": "9a437b576f03ba1b022d43426b4379e2c995d6e8ca928d4468033c9418e5d3de",
+      "bounds": [
+        [
+          -53535.140625,
+          -72103.4375,
+          7047.0830078125
+        ],
+        [
+          -43490.00390625,
+          -62647.86328125,
+          18767.1953125
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-10.bin",
+      "cell": [
+        -8,
+        -10
+      ],
+      "triangles": 33,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 5832,
+      "input_sha256": "f7338f1c78fcb36825697559652194204be106eb54fb290421de2120e375efa8",
+      "output_sha256": "f7338f1c78fcb36825697559652194204be106eb54fb290421de2120e375efa8",
+      "bounds": [
+        [
+          -51527.87109375,
+          -65979.6640625,
+          7049.19140625
+        ],
+        [
+          -43502.328125,
+          -57048.83203125,
+          12808.84765625
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-9.bin",
+      "cell": [
+        -8,
+        -9
+      ],
+      "triangles": 527,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 83808,
+      "input_sha256": "ba241aa0055eaf17aa2fe2d010b43c31214c785e51ff0c771f2ab6a01dc98d25",
+      "output_sha256": "ba241aa0055eaf17aa2fe2d010b43c31214c785e51ff0c771f2ab6a01dc98d25",
+      "bounds": [
+        [
+          -51656.25,
+          -57983.87109375,
+          6700.6083984375
+        ],
+        [
+          -44010.49609375,
+          -50445.14453125,
+          16980.232421875
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-8.bin",
+      "cell": [
+        -8,
+        -8
+      ],
+      "triangles": 81,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 14148,
+      "input_sha256": "04920faaeae7454d49ce09a08bd326f690a05baa722ff0571c0c30bf58572083",
+      "output_sha256": "04920faaeae7454d49ce09a08bd326f690a05baa722ff0571c0c30bf58572083",
+      "bounds": [
+        [
+          -53320.05078125,
+          -52247.86328125,
+          9320.3896484375
+        ],
+        [
+          -42914.8671875,
+          -42773.6875,
+          23506.73828125
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-7.bin",
+      "cell": [
+        -8,
+        -7
+      ],
+      "triangles": 180,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 28256,
+      "input_sha256": "e6df96f8f682a57068cc5d8ea2b4ee4332403d3c50077566147dbc61d1367f8c",
+      "output_sha256": "e6df96f8f682a57068cc5d8ea2b4ee4332403d3c50077566147dbc61d1367f8c",
+      "bounds": [
+        [
+          -53788.0703125,
+          -46297.11328125,
+          9841.96484375
+        ],
+        [
+          -42586.35546875,
+          -37348.12890625,
+          23987.0234375
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-6.bin",
+      "cell": [
+        -8,
+        -6
+      ],
+      "triangles": 256,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 39668,
+      "input_sha256": "85daef12804a00733dc93e80c38177637f8fa8b33caa7f60ea8baa1e27e7a4c7",
+      "output_sha256": "85daef12804a00733dc93e80c38177637f8fa8b33caa7f60ea8baa1e27e7a4c7",
+      "bounds": [
+        [
+          -51432.7890625,
+          -39744.9921875,
+          7384.34375
+        ],
+        [
+          -43320.6953125,
+          -29690.322265625,
+          22531.90234375
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-5.bin",
+      "cell": [
+        -8,
+        -5
+      ],
+      "triangles": 192,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 31984,
+      "input_sha256": "d5d6d943e649f5b94162e40da439aa79ebf610c6984686f44ae6e8fa46e2bbe7",
+      "output_sha256": "d5d6d943e649f5b94162e40da439aa79ebf610c6984686f44ae6e8fa46e2bbe7",
+      "bounds": [
+        [
+          -53171.27734375,
+          -34597.1328125,
+          6283.2431640625
+        ],
+        [
+          -44016.62109375,
+          -23869.091796875,
+          22939.76171875
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-4.bin",
+      "cell": [
+        -8,
+        -4
+      ],
+      "triangles": 380,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 53608,
+      "input_sha256": "baba4031f51c3b6ac51dce7832485c9cedc59c0d691ab24d30185cc27c6404cf",
+      "output_sha256": "baba4031f51c3b6ac51dce7832485c9cedc59c0d691ab24d30185cc27c6404cf",
+      "bounds": [
+        [
+          -53238.3515625,
+          -28015.2109375,
+          7500.8349609375
+        ],
+        [
+          -44071.9453125,
+          -18153.80078125,
+          22571.890625
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-3.bin",
+      "cell": [
+        -8,
+        -3
+      ],
+      "triangles": 434,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 60944,
+      "input_sha256": "71ee7f79ae2cdf5427c7d6593277dc34e7c041099dea21cda07a00a7ef144d55",
+      "output_sha256": "71ee7f79ae2cdf5427c7d6593277dc34e7c041099dea21cda07a00a7ef144d55",
+      "bounds": [
+        [
+          -52317.76171875,
+          -20759.76953125,
+          6560.90185546875
+        ],
+        [
+          -44425.9609375,
+          -11327.3310546875,
+          22823.53515625
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-2.bin",
+      "cell": [
+        -8,
+        -2
+      ],
+      "triangles": 206,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 29176,
+      "input_sha256": "11cd63fc704a2c820e87626c95f550e351cd13231be586852be982e5f9615c9f",
+      "output_sha256": "11cd63fc704a2c820e87626c95f550e351cd13231be586852be982e5f9615c9f",
+      "bounds": [
+        [
+          -51718.6875,
+          -14226.4873046875,
+          6541.56005859375
+        ],
+        [
+          -45564.265625,
+          -6710.01025390625,
+          15318.716796875
+        ]
+      ]
+    },
+    {
+      "file": "l-8_-1.bin",
+      "cell": [
+        -8,
+        -1
+      ],
+      "triangles": 68,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 12472,
+      "input_sha256": "94aaa4ea12024675f2d049cf9f1d23f2ba3fabb463ba9e39cfc31c8bd1fc1670",
+      "output_sha256": "94aaa4ea12024675f2d049cf9f1d23f2ba3fabb463ba9e39cfc31c8bd1fc1670",
+      "bounds": [
+        [
+          -52182.38671875,
+          -4233.5791015625,
+          8218.8828125
+        ],
+        [
+          -43325.98828125,
+          2245.6201171875,
+          21431.53515625
+        ]
+      ]
+    },
+    {
+      "file": "l-7_0.bin",
+      "cell": [
+        -7,
+        0
+      ],
+      "triangles": 684,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 97840,
+      "input_sha256": "40ffea8dd449dd49a554168d70b8ec4d8cc23d6b762a3ebed75c6fddc534907f",
+      "output_sha256": "40ffea8dd449dd49a554168d70b8ec4d8cc23d6b762a3ebed75c6fddc534907f",
+      "bounds": [
+        [
+          -47679.01953125,
+          -2804.12646484375,
+          5720.57177734375
+        ],
+        [
+          -37336.5078125,
+          7235.83544921875,
+          21869.111328125
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-15.bin",
+      "cell": [
+        -7,
+        -15
+      ],
+      "triangles": 422,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 68944,
+      "input_sha256": "f08e0e6ba05e939e0b4d03c958992296819a0a45a845200fdaef8e6ebefe2feb",
+      "output_sha256": "f08e0e6ba05e939e0b4d03c958992296819a0a45a845200fdaef8e6ebefe2feb",
+      "bounds": [
+        [
+          -45476.15625,
+          -97156.75,
+          7031.9921875
+        ],
+        [
+          -36303.32421875,
+          -89097.40625,
+          22806.48828125
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-14.bin",
+      "cell": [
+        -7,
+        -14
+      ],
+      "triangles": 255,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 39200,
+      "input_sha256": "035e210f552c53d30c0e2b0eeb12afab6c773dfa17a76a6d5401b8bd1be8933c",
+      "output_sha256": "035e210f552c53d30c0e2b0eeb12afab6c773dfa17a76a6d5401b8bd1be8933c",
+      "bounds": [
+        [
+          -45859.71875,
+          -87506.8828125,
+          7004.8583984375
+        ],
+        [
+          -37571.734375,
+          -82121.390625,
+          17184.486328125
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-13.bin",
+      "cell": [
+        -7,
+        -13
+      ],
+      "triangles": 323,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 51112,
+      "input_sha256": "efce5551da1419e6e45245fe84ec23634768c5e075db15009ff22f2f36edb00f",
+      "output_sha256": "efce5551da1419e6e45245fe84ec23634768c5e075db15009ff22f2f36edb00f",
+      "bounds": [
+        [
+          -46064.69140625,
+          -84977.8203125,
+          6688.85498046875
+        ],
+        [
+          -37986.1796875,
+          -75149.0,
+          15617.5859375
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-12.bin",
+      "cell": [
+        -7,
+        -12
+      ],
+      "triangles": 385,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 59596,
+      "input_sha256": "22eb99e358768a28efa72430a9aefaf9ae895a39d76ade4739fd4ac95441420c",
+      "output_sha256": "22eb99e358768a28efa72430a9aefaf9ae895a39d76ade4739fd4ac95441420c",
+      "bounds": [
+        [
+          -46474.56640625,
+          -78233.453125,
+          7648.57275390625
+        ],
+        [
+          -37396.71875,
+          -68399.4453125,
+          15605.5546875
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-11.bin",
+      "cell": [
+        -7,
+        -11
+      ],
+      "triangles": 475,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 76040,
+      "input_sha256": "ad5f4ee9135d31b442120c0d37a7690d2e542889642a5a52473e1ce40df6aaad",
+      "output_sha256": "ad5f4ee9135d31b442120c0d37a7690d2e542889642a5a52473e1ce40df6aaad",
+      "bounds": [
+        [
+          -46399.234375,
+          -72223.5703125,
+          6537.50390625
+        ],
+        [
+          -37176.98046875,
+          -62589.34765625,
+          15312.3525390625
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-10.bin",
+      "cell": [
+        -7,
+        -10
+      ],
+      "triangles": 244,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 39980,
+      "input_sha256": "a1e079fc0145224a6296be456f313f17a6de1a513233ca50d76b5630ecfb6256",
+      "output_sha256": "a1e079fc0145224a6296be456f313f17a6de1a513233ca50d76b5630ecfb6256",
+      "bounds": [
+        [
+          -45830.203125,
+          -65569.453125,
+          6907.85595703125
+        ],
+        [
+          -36202.83203125,
+          -57352.18359375,
+          17912.705078125
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-9.bin",
+      "cell": [
+        -7,
+        -9
+      ],
+      "triangles": 284,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 44640,
+      "input_sha256": "cde27d69dd2ee71581b68f02720d20c274100c671db36eebdaaa932a01e2865c",
+      "output_sha256": "cde27d69dd2ee71581b68f02720d20c274100c671db36eebdaaa932a01e2865c",
+      "bounds": [
+        [
+          -45619.1796875,
+          -57940.05859375,
+          7318.7568359375
+        ],
+        [
+          -37281.90234375,
+          -49632.06640625,
+          15433.4765625
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-8.bin",
+      "cell": [
+        -7,
+        -8
+      ],
+      "triangles": 458,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 71808,
+      "input_sha256": "626854885607beea7b1a9b14239c80097d82235b5d695ef1e344c94c19ce2565",
+      "output_sha256": "626854885607beea7b1a9b14239c80097d82235b5d695ef1e344c94c19ce2565",
+      "bounds": [
+        [
+          -45999.92578125,
+          -52826.8046875,
+          7691.94482421875
+        ],
+        [
+          -36503.671875,
+          -42600.59765625,
+          25065.17578125
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-7.bin",
+      "cell": [
+        -7,
+        -7
+      ],
+      "triangles": 421,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 64144,
+      "input_sha256": "e8d3d423f30eac73763263a1a8732a2a2b27ba885d8402457ee1e25b25f84ca8",
+      "output_sha256": "e8d3d423f30eac73763263a1a8732a2a2b27ba885d8402457ee1e25b25f84ca8",
+      "bounds": [
+        [
+          -46882.875,
+          -46737.421875,
+          6379.1337890625
+        ],
+        [
+          -36595.765625,
+          -37146.8203125,
+          24492.9140625
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-6.bin",
+      "cell": [
+        -7,
+        -6
+      ],
+      "triangles": 130,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 23108,
+      "input_sha256": "bec1ef9cba1083cb89487eaf2c97a10aad9feb2c0dfaccbe161e4322675017cf",
+      "output_sha256": "bec1ef9cba1083cb89487eaf2c97a10aad9feb2c0dfaccbe161e4322675017cf",
+      "bounds": [
+        [
+          -46212.578125,
+          -39688.45703125,
+          6894.416015625
+        ],
+        [
+          -36223.85546875,
+          -29748.2734375,
+          18887.1796875
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-5.bin",
+      "cell": [
+        -7,
+        -5
+      ],
+      "triangles": 700,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 106176,
+      "input_sha256": "41337bc74c0e677e4b2eefbc1491a3f58de90c0f97efe20e4f4028a6b2a1f93a",
+      "output_sha256": "41337bc74c0e677e4b2eefbc1491a3f58de90c0f97efe20e4f4028a6b2a1f93a",
+      "bounds": [
+        [
+          -45631.1796875,
+          -34156.8203125,
+          6189.6240234375
+        ],
+        [
+          -36158.30078125,
+          -23557.3515625,
+          21754.98046875
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-4.bin",
+      "cell": [
+        -7,
+        -4
+      ],
+      "triangles": 691,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 97392,
+      "input_sha256": "d7e1bf0aed5fc6c4310a04a378c073a11cb7a1824cbdd84d4df9e17d389b36e1",
+      "output_sha256": "d7e1bf0aed5fc6c4310a04a378c073a11cb7a1824cbdd84d4df9e17d389b36e1",
+      "bounds": [
+        [
+          -46289.8515625,
+          -28188.05078125,
+          5771.9248046875
+        ],
+        [
+          -36665.6875,
+          -17425.82421875,
+          21387.109375
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-3.bin",
+      "cell": [
+        -7,
+        -3
+      ],
+      "triangles": 484,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 76692,
+      "input_sha256": "a2607a87f5d8f6258a844ee70b5b71d386f8842e344ae44b611756084f665e47",
+      "output_sha256": "a2607a87f5d8f6258a844ee70b5b71d386f8842e344ae44b611756084f665e47",
+      "bounds": [
+        [
+          -44984.87109375,
+          -20390.583984375,
+          3915.839111328125
+        ],
+        [
+          -36956.3828125,
+          -13163.654296875,
+          14434.9150390625
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-2.bin",
+      "cell": [
+        -7,
+        -2
+      ],
+      "triangles": 186,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 25972,
+      "input_sha256": "d7cdd480f7226ba6d2cdc32be5fb6b4156ce6372da7e2f0fc2965b47357cbb3c",
+      "output_sha256": "d7cdd480f7226ba6d2cdc32be5fb6b4156ce6372da7e2f0fc2965b47357cbb3c",
+      "bounds": [
+        [
+          -44871.1640625,
+          -12506.080078125,
+          5913.7822265625
+        ],
+        [
+          -37445.8046875,
+          -7094.83056640625,
+          14734.2294921875
+        ]
+      ]
+    },
+    {
+      "file": "l-7_-1.bin",
+      "cell": [
+        -7,
+        -1
+      ],
+      "triangles": 288,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 43384,
+      "input_sha256": "c02f5cf2721be3ee1b8b59cc25db0685e33410cf9c004db520e45f49b6b78f5a",
+      "output_sha256": "c02f5cf2721be3ee1b8b59cc25db0685e33410cf9c004db520e45f49b6b78f5a",
+      "bounds": [
+        [
+          -46183.53125,
+          -5585.93408203125,
+          6432.7138671875
+        ],
+        [
+          -36584.09765625,
+          2102.68603515625,
+          22154.89453125
+        ]
+      ]
+    },
+    {
+      "file": "l-6_0.bin",
+      "cell": [
+        -6,
+        0
+      ],
+      "triangles": 544,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 77616,
+      "input_sha256": "bf85d8eb9fcf7972740538c047bfde0b52bb29f887b98eaa91f7054e0ec0b106",
+      "output_sha256": "bf85d8eb9fcf7972740538c047bfde0b52bb29f887b98eaa91f7054e0ec0b106",
+      "bounds": [
+        [
+          -40097.19921875,
+          -1241.2882080078125,
+          5230.49951171875
+        ],
+        [
+          -29447.58984375,
+          7302.599609375,
+          19666.46875
+        ]
+      ]
+    },
+    {
+      "file": "l-6_1.bin",
+      "cell": [
+        -6,
+        1
+      ],
+      "triangles": 434,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 63908,
+      "input_sha256": "b0c88f719e2aa571517f30826da330e1cd553df559d12ece6c0bb02e2812085b",
+      "output_sha256": "b0c88f719e2aa571517f30826da330e1cd553df559d12ece6c0bb02e2812085b",
+      "bounds": [
+        [
+          -39897.01953125,
+          4391.80419921875,
+          5207.4921875
+        ],
+        [
+          -30740.537109375,
+          13779.283203125,
+          15911.4267578125
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-15.bin",
+      "cell": [
+        -6,
+        -15
+      ],
+      "triangles": 435,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 65832,
+      "input_sha256": "4c2a2e16fffa298ea8ce5b568b822120cd0d2a40bebf644559ed277e7d9d6864",
+      "output_sha256": "4c2a2e16fffa298ea8ce5b568b822120cd0d2a40bebf644559ed277e7d9d6864",
+      "bounds": [
+        [
+          -40561.12109375,
+          -96646.7578125,
+          7052.951171875
+        ],
+        [
+          -29679.52734375,
+          -86996.34375,
+          22438.619140625
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-14.bin",
+      "cell": [
+        -6,
+        -14
+      ],
+      "triangles": 338,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 52280,
+      "input_sha256": "0c89b913daa4bc9507a017791aa6bc93d76f96f909ec39531981564296a99974",
+      "output_sha256": "0c89b913daa4bc9507a017791aa6bc93d76f96f909ec39531981564296a99974",
+      "bounds": [
+        [
+          -39704.140625,
+          -91074.8359375,
+          6839.35595703125
+        ],
+        [
+          -30452.896484375,
+          -82472.4375,
+          22239.0859375
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-13.bin",
+      "cell": [
+        -6,
+        -13
+      ],
+      "triangles": 310,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 48752,
+      "input_sha256": "6fd67d7383567a20f23721a6b39275c113263e5ca3be32315fd772d777efa497",
+      "output_sha256": "6fd67d7383567a20f23721a6b39275c113263e5ca3be32315fd772d777efa497",
+      "bounds": [
+        [
+          -38714.9609375,
+          -83816.2578125,
+          6607.5693359375
+        ],
+        [
+          -30331.453125,
+          -74668.5703125,
+          18457.19921875
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-12.bin",
+      "cell": [
+        -6,
+        -12
+      ],
+      "triangles": 396,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 55092,
+      "input_sha256": "10eb8fba8c7edea03f5c76cdc9f9f7ccb829163884a36c03cf8ad5b74892e200",
+      "output_sha256": "10eb8fba8c7edea03f5c76cdc9f9f7ccb829163884a36c03cf8ad5b74892e200",
+      "bounds": [
+        [
+          -39409.921875,
+          -77721.0625,
+          7804.9794921875
+        ],
+        [
+          -29515.98046875,
+          -69852.828125,
+          21513.990234375
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-11.bin",
+      "cell": [
+        -6,
+        -11
+      ],
+      "triangles": 162,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 27520,
+      "input_sha256": "ecaa47939cf6ea26ee8d6e4311383dc126b0d22a159858cf1a05a3f75eeffbfc",
+      "output_sha256": "ecaa47939cf6ea26ee8d6e4311383dc126b0d22a159858cf1a05a3f75eeffbfc",
+      "bounds": [
+        [
+          -39967.2578125,
+          -72504.40625,
+          6739.0634765625
+        ],
+        [
+          -29639.880859375,
+          -63639.98828125,
+          19761.267578125
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-10.bin",
+      "cell": [
+        -6,
+        -10
+      ],
+      "triangles": 169,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 23640,
+      "input_sha256": "0103ee21a1ef48d7f262dba8104377dfa7b9bbae1873920e213e641443966946",
+      "output_sha256": "0103ee21a1ef48d7f262dba8104377dfa7b9bbae1873920e213e641443966946",
+      "bounds": [
+        [
+          -39850.640625,
+          -65101.7421875,
+          7283.9169921875
+        ],
+        [
+          -33852.2265625,
+          -58288.42578125,
+          17541.38671875
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-9.bin",
+      "cell": [
+        -6,
+        -9
+      ],
+      "triangles": 183,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 30508,
+      "input_sha256": "2f7a500b172864c8c6e7a2d9be0fdbb8d75fc67eafe856c56ab3d38a22b4ab80",
+      "output_sha256": "2f7a500b172864c8c6e7a2d9be0fdbb8d75fc67eafe856c56ab3d38a22b4ab80",
+      "bounds": [
+        [
+          -39486.65625,
+          -56688.3125,
+          6794.20751953125
+        ],
+        [
+          -33671.078125,
+          -52765.64453125,
+          14239.78515625
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-8.bin",
+      "cell": [
+        -6,
+        -8
+      ],
+      "triangles": 236,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 36844,
+      "input_sha256": "5d98bf618b89df0abf6124fea900746b648e75c6519c1494ad71700471dd00de",
+      "output_sha256": "5d98bf618b89df0abf6124fea900746b648e75c6519c1494ad71700471dd00de",
+      "bounds": [
+        [
+          -39802.16796875,
+          -51637.89453125,
+          7036.54345703125
+        ],
+        [
+          -31379.240234375,
+          -43667.54296875,
+          17957.36328125
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-7.bin",
+      "cell": [
+        -6,
+        -7
+      ],
+      "triangles": 412,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 58172,
+      "input_sha256": "53fa7a8dc3e614384791a940a7fc14cba010433eff30e426f70548d3319678d0",
+      "output_sha256": "53fa7a8dc3e614384791a940a7fc14cba010433eff30e426f70548d3319678d0",
+      "bounds": [
+        [
+          -39884.55859375,
+          -46595.05078125,
+          8040.26953125
+        ],
+        [
+          -30046.28125,
+          -36681.671875,
+          22304.123046875
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-6.bin",
+      "cell": [
+        -6,
+        -6
+      ],
+      "triangles": 230,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 33872,
+      "input_sha256": "7e349d0aeb0d9f32f19e8b6a9a7f212078fed5347f722e45b4e5bbdfcdee869d",
+      "output_sha256": "7e349d0aeb0d9f32f19e8b6a9a7f212078fed5347f722e45b4e5bbdfcdee869d",
+      "bounds": [
+        [
+          -39884.55859375,
+          -40720.8359375,
+          7611.77978515625
+        ],
+        [
+          -30723.0546875,
+          -31645.49609375,
+          17247.744140625
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-5.bin",
+      "cell": [
+        -6,
+        -5
+      ],
+      "triangles": 495,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 72012,
+      "input_sha256": "d4daae235ebcdeee3fab49ac0c316551637e0e8b0443ac09c201a8c51f1c42bb",
+      "output_sha256": "d4daae235ebcdeee3fab49ac0c316551637e0e8b0443ac09c201a8c51f1c42bb",
+      "bounds": [
+        [
+          -40454.8203125,
+          -33131.5234375,
+          7004.36474609375
+        ],
+        [
+          -30235.482421875,
+          -23278.10546875,
+          20461.40234375
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-4.bin",
+      "cell": [
+        -6,
+        -4
+      ],
+      "triangles": 456,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 65008,
+      "input_sha256": "9e0c695164081a8df6619735527c0979377069feca2c299cf5d491adceeb3904",
+      "output_sha256": "9e0c695164081a8df6619735527c0979377069feca2c299cf5d491adceeb3904",
+      "bounds": [
+        [
+          -40889.890625,
+          -28211.755859375,
+          5823.17041015625
+        ],
+        [
+          -30656.462890625,
+          -17954.73828125,
+          17354.3515625
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-3.bin",
+      "cell": [
+        -6,
+        -3
+      ],
+      "triangles": 595,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 91160,
+      "input_sha256": "9856e97aa532db5a43541f8cb7622637faf1abc77774b795871fc0636ff9ddeb",
+      "output_sha256": "9856e97aa532db5a43541f8cb7622637faf1abc77774b795871fc0636ff9ddeb",
+      "bounds": [
+        [
+          -39840.80078125,
+          -20819.791015625,
+          4136.24609375
+        ],
+        [
+          -30806.982421875,
+          -11836.2275390625,
+          14738.302734375
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-2.bin",
+      "cell": [
+        -6,
+        -2
+      ],
+      "triangles": 238,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 36488,
+      "input_sha256": "ac6765423ad263e8ec463ce2a08843bc74aaa371a1ba1ff7a636f9503146e358",
+      "output_sha256": "ac6765423ad263e8ec463ce2a08843bc74aaa371a1ba1ff7a636f9503146e358",
+      "bounds": [
+        [
+          -38897.4921875,
+          -13722.537109375,
+          4307.18408203125
+        ],
+        [
+          -30524.5703125,
+          -4905.65380859375,
+          14813.333984375
+        ]
+      ]
+    },
+    {
+      "file": "l-6_-1.bin",
+      "cell": [
+        -6,
+        -1
+      ],
+      "triangles": 764,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 110276,
+      "input_sha256": "a4fbb0077b53bfc7c0237b44529f3f19c91791cc42664fce24e343eefd3ab6db",
+      "output_sha256": "a4fbb0077b53bfc7c0237b44529f3f19c91791cc42664fce24e343eefd3ab6db",
+      "bounds": [
+        [
+          -40969.03515625,
+          -8270.462890625,
+          4886.67919921875
+        ],
+        [
+          -29536.0234375,
+          2609.220458984375,
+          18881.576171875
+        ]
+      ]
+    },
+    {
+      "file": "l-5_0.bin",
+      "cell": [
+        -5,
+        0
+      ],
+      "triangles": 134,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 22928,
+      "input_sha256": "fb8b655364657d0ebcaa8d6a39fefbed9de6e037c20e4f97ae97ff17877483ea",
+      "output_sha256": "fb8b655364657d0ebcaa8d6a39fefbed9de6e037c20e4f97ae97ff17877483ea",
+      "bounds": [
+        [
+          -33424.22265625,
+          -1574.3411865234375,
+          323.1529541015625
+        ],
+        [
+          -24054.265625,
+          6821.06494140625,
+          14548.40625
+        ]
+      ]
+    },
+    {
+      "file": "l-5_1.bin",
+      "cell": [
+        -5,
+        1
+      ],
+      "triangles": 11,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 1908,
+      "input_sha256": "1c75927cb5eb9201beed336753b8c44e99ed842c42290164af2ce88a722f8401",
+      "output_sha256": "1c75927cb5eb9201beed336753b8c44e99ed842c42290164af2ce88a722f8401",
+      "bounds": [
+        [
+          -32980.37890625,
+          5850.33251953125,
+          5608.5029296875
+        ],
+        [
+          -29858.623046875,
+          8311.5302734375,
+          7536.365234375
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-15.bin",
+      "cell": [
+        -5,
+        -15
+      ],
+      "triangles": 223,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 33040,
+      "input_sha256": "bae9fae1b2c0b0b11b3a51c8e86b3a5a075d980a952e2c927f24fe56eeb38ac1",
+      "output_sha256": "bae9fae1b2c0b0b11b3a51c8e86b3a5a075d980a952e2c927f24fe56eeb38ac1",
+      "bounds": [
+        [
+          -33994.79296875,
+          -97493.8203125,
+          7913.86572265625
+        ],
+        [
+          -24407.162109375,
+          -87936.8671875,
+          20273.353515625
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-14.bin",
+      "cell": [
+        -5,
+        -14
+      ],
+      "triangles": 61,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 10588,
+      "input_sha256": "39524b777fd0c98b6a52b9b6d2603ebcd57a6b2e1c2313c5419e90ab6dabb690",
+      "output_sha256": "39524b777fd0c98b6a52b9b6d2603ebcd57a6b2e1c2313c5419e90ab6dabb690",
+      "bounds": [
+        [
+          -29130.71484375,
+          -90831.9921875,
+          6861.12646484375
+        ],
+        [
+          -24407.162109375,
+          -84627.375,
+          17230.658203125
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-13.bin",
+      "cell": [
+        -5,
+        -13
+      ],
+      "triangles": 279,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 40996,
+      "input_sha256": "718d8af016a95fc4014dde5b8b72facb60a6ce8373d3fb2a60e2515e93ca83fe",
+      "output_sha256": "718d8af016a95fc4014dde5b8b72facb60a6ce8373d3fb2a60e2515e93ca83fe",
+      "bounds": [
+        [
+          -33582.52734375,
+          -82171.421875,
+          7286.14111328125
+        ],
+        [
+          -25225.716796875,
+          -75819.3359375,
+          16530.296875
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-12.bin",
+      "cell": [
+        -5,
+        -12
+      ],
+      "triangles": 347,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 51084,
+      "input_sha256": "154ccece1ce8c65be0f8076f0dccf5137d44ef1af8f5226b9156db0b6f9696af",
+      "output_sha256": "154ccece1ce8c65be0f8076f0dccf5137d44ef1af8f5226b9156db0b6f9696af",
+      "bounds": [
+        [
+          -34473.0703125,
+          -78623.8828125,
+          8696.6484375
+        ],
+        [
+          -25225.564453125,
+          -68260.203125,
+          22632.66015625
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-11.bin",
+      "cell": [
+        -5,
+        -11
+      ],
+      "triangles": 809,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 124508,
+      "input_sha256": "77a170759326214618c8ac7ca2f6420ac498967178ee86fdc6e8c0bbf9ea3205",
+      "output_sha256": "77a170759326214618c8ac7ca2f6420ac498967178ee86fdc6e8c0bbf9ea3205",
+      "bounds": [
+        [
+          -33787.2421875,
+          -72568.703125,
+          6373.939453125
+        ],
+        [
+          -24217.84765625,
+          -63351.78125,
+          21671.458984375
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-10.bin",
+      "cell": [
+        -5,
+        -10
+      ],
+      "triangles": 394,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 63896,
+      "input_sha256": "599fc76642275618e0f22cdee3d2eaea290b27d13d9bbf549c1eb3b5aca09e3b",
+      "output_sha256": "599fc76642275618e0f22cdee3d2eaea290b27d13d9bbf549c1eb3b5aca09e3b",
+      "bounds": [
+        [
+          -31696.447265625,
+          -64638.5625,
+          6824.7626953125
+        ],
+        [
+          -25258.1953125,
+          -56185.8828125,
+          14936.8125
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-9.bin",
+      "cell": [
+        -5,
+        -9
+      ],
+      "triangles": 199,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 33524,
+      "input_sha256": "06ad62aa8648a462d5434c18988ae5602a5a40915be2eb1dd5159ec7a68de3c6",
+      "output_sha256": "06ad62aa8648a462d5434c18988ae5602a5a40915be2eb1dd5159ec7a68de3c6",
+      "bounds": [
+        [
+          -32515.982421875,
+          -59030.59375,
+          7097.1748046875
+        ],
+        [
+          -24863.740234375,
+          -50741.99609375,
+          14936.8125
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-8.bin",
+      "cell": [
+        -5,
+        -8
+      ],
+      "triangles": 202,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 31876,
+      "input_sha256": "8c8ea817a2e511ceee6f13b6f89f69daddfc1eee6620e6c550f763a2b2964a30",
+      "output_sha256": "8c8ea817a2e511ceee6f13b6f89f69daddfc1eee6620e6c550f763a2b2964a30",
+      "bounds": [
+        [
+          -32654.79296875,
+          -51961.08984375,
+          7353.5478515625
+        ],
+        [
+          -24741.154296875,
+          -43569.953125,
+          17155.63671875
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-7.bin",
+      "cell": [
+        -5,
+        -7
+      ],
+      "triangles": 423,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 60976,
+      "input_sha256": "fd2d8eedd053cac3d382cf5c6bd901345d93883def95e2d94a0a1442e650d131",
+      "output_sha256": "fd2d8eedd053cac3d382cf5c6bd901345d93883def95e2d94a0a1442e650d131",
+      "bounds": [
+        [
+          -34336.98046875,
+          -45913.72265625,
+          5157.0078125
+        ],
+        [
+          -24018.294921875,
+          -37540.3359375,
+          21404.8828125
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-6.bin",
+      "cell": [
+        -5,
+        -6
+      ],
+      "triangles": 576,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 90412,
+      "input_sha256": "fb7aabcf510cbb004e678f5a20d59a3b860f5f3da61dd4bd553cd6d34a5befe5",
+      "output_sha256": "fb7aabcf510cbb004e678f5a20d59a3b860f5f3da61dd4bd553cd6d34a5befe5",
+      "bounds": [
+        [
+          -33137.87890625,
+          -39531.6328125,
+          4804.6396484375
+        ],
+        [
+          -23983.27734375,
+          -30110.904296875,
+          17107.66015625
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-5.bin",
+      "cell": [
+        -5,
+        -5
+      ],
+      "triangles": 309,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 46308,
+      "input_sha256": "450d6dcf9a5a912ec989675531592baaf98f0cbbeddeb9e8daf128119c5b5d51",
+      "output_sha256": "450d6dcf9a5a912ec989675531592baaf98f0cbbeddeb9e8daf128119c5b5d51",
+      "bounds": [
+        [
+          -33595.76953125,
+          -33463.0546875,
+          5870.3857421875
+        ],
+        [
+          -24465.033203125,
+          -26099.349609375,
+          18972.029296875
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-4.bin",
+      "cell": [
+        -5,
+        -4
+      ],
+      "triangles": 181,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 30104,
+      "input_sha256": "1b44502de046c7228b140e209c675b1f906dd718c62fe06f9efad862add30b82",
+      "output_sha256": "1b44502de046c7228b140e209c675b1f906dd718c62fe06f9efad862add30b82",
+      "bounds": [
+        [
+          -33848.77734375,
+          -23760.763671875,
+          4866.8935546875
+        ],
+        [
+          -25489.36328125,
+          -17489.90625,
+          14473.076171875
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-3.bin",
+      "cell": [
+        -5,
+        -3
+      ],
+      "triangles": 443,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 70336,
+      "input_sha256": "c92a630655abf298e1306aded6f3ac4af77cb3ed6e24e5138140ff650786c4f8",
+      "output_sha256": "c92a630655abf298e1306aded6f3ac4af77cb3ed6e24e5138140ff650786c4f8",
+      "bounds": [
+        [
+          -33894.62890625,
+          -20399.48828125,
+          5016.56005859375
+        ],
+        [
+          -24026.21484375,
+          -12549.015625,
+          14798.49609375
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-2.bin",
+      "cell": [
+        -5,
+        -2
+      ],
+      "triangles": 53,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 10544,
+      "input_sha256": "ea57d4907f7364aacb45cc3fbe508b3d0104b2a23088b7c5ba98beac72c6832b",
+      "output_sha256": "ea57d4907f7364aacb45cc3fbe508b3d0104b2a23088b7c5ba98beac72c6832b",
+      "bounds": [
+        [
+          -33704.64453125,
+          -9652.22265625,
+          2608.20068359375
+        ],
+        [
+          -24072.59375,
+          -4133.63623046875,
+          18119.73046875
+        ]
+      ]
+    },
+    {
+      "file": "l-5_-1.bin",
+      "cell": [
+        -5,
+        -1
+      ],
+      "triangles": 706,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 104792,
+      "input_sha256": "18922c6f6162c0e5e79fab7282052f3edcacae82a1464a77ed64d62939dceb29",
+      "output_sha256": "18922c6f6162c0e5e79fab7282052f3edcacae82a1464a77ed64d62939dceb29",
+      "bounds": [
+        [
+          -34153.18359375,
+          -8577.15625,
+          120.2069091796875
+        ],
+        [
+          -22711.712890625,
+          2019.2581787109375,
+          20805.0703125
+        ]
+      ]
+    },
+    {
+      "file": "l-4_0.bin",
+      "cell": [
+        -4,
+        0
+      ],
+      "triangles": 479,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 71376,
+      "input_sha256": "5e05326465e3360521113a3aa837fcae8396b5d8fca67005a0864b55a221c077",
+      "output_sha256": "5e05326465e3360521113a3aa837fcae8396b5d8fca67005a0864b55a221c077",
+      "bounds": [
+        [
+          -26487.912109375,
+          -2098.05517578125,
+          -462.568603515625
+        ],
+        [
+          -16697.80859375,
+          8333.9375,
+          20556.6015625
+        ]
+      ]
+    },
+    {
+      "file": "l-4_1.bin",
+      "cell": [
+        -4,
+        1
+      ],
+      "triangles": 2,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 508,
+      "input_sha256": "0eb7df53adf51bed7eeecaad922d7e12a29ae01908a9484edb802f5840c7c1b0",
+      "output_sha256": "0eb7df53adf51bed7eeecaad922d7e12a29ae01908a9484edb802f5840c7c1b0",
+      "bounds": [
+        [
+          -24597.119140625,
+          4358.60986328125,
+          7379.54541015625
+        ],
+        [
+          -18799.392578125,
+          8914.7431640625,
+          10047.865234375
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-15.bin",
+      "cell": [
+        -4,
+        -15
+      ],
+      "triangles": 285,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 43044,
+      "input_sha256": "f059a3333fc0f495bc6f4e3cb047ee375fc0e489ca088ea5ab239209e0ba9acc",
+      "output_sha256": "f059a3333fc0f495bc6f4e3cb047ee375fc0e489ca088ea5ab239209e0ba9acc",
+      "bounds": [
+        [
+          -26724.8046875,
+          -97368.953125,
+          9123.1328125
+        ],
+        [
+          -17191.796875,
+          -87021.6875,
+          24890.373046875
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-14.bin",
+      "cell": [
+        -4,
+        -14
+      ],
+      "triangles": 862,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 137468,
+      "input_sha256": "ae9a8bb347f91efeb4ecf480a561f4d9f4975f82ef488390fd898224c2d7fc0d",
+      "output_sha256": "ae9a8bb347f91efeb4ecf480a561f4d9f4975f82ef488390fd898224c2d7fc0d",
+      "bounds": [
+        [
+          -26059.79296875,
+          -92166.1875,
+          6690.1884765625
+        ],
+        [
+          -17007.927734375,
+          -81228.328125,
+          23059.115234375
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-13.bin",
+      "cell": [
+        -4,
+        -13
+      ],
+      "triangles": 443,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 67372,
+      "input_sha256": "76413a5a786e030081be1ddc7e7d5ab05874ed5bcbe720720aeccf3371369583",
+      "output_sha256": "76413a5a786e030081be1ddc7e7d5ab05874ed5bcbe720720aeccf3371369583",
+      "bounds": [
+        [
+          -26616.36328125,
+          -84610.09375,
+          7398.2255859375
+        ],
+        [
+          -17354.970703125,
+          -75548.4453125,
+          16628.232421875
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-12.bin",
+      "cell": [
+        -4,
+        -12
+      ],
+      "triangles": 418,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 61068,
+      "input_sha256": "75f5a6bc464aafe3d80ea419c7b8ab7bd8b2bf306b99afa300379a20c77d4825",
+      "output_sha256": "75f5a6bc464aafe3d80ea419c7b8ab7bd8b2bf306b99afa300379a20c77d4825",
+      "bounds": [
+        [
+          -26684.298828125,
+          -77890.6875,
+          7075.98388671875
+        ],
+        [
+          -17819.8359375,
+          -69801.8046875,
+          17132.8359375
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-11.bin",
+      "cell": [
+        -4,
+        -11
+      ],
+      "triangles": 275,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 48560,
+      "input_sha256": "7741e135adcc6d021223d6fa4b345ed831e35fe7a936f3bb16d98897e3831c9e",
+      "output_sha256": "7741e135adcc6d021223d6fa4b345ed831e35fe7a936f3bb16d98897e3831c9e",
+      "bounds": [
+        [
+          -26589.48046875,
+          -70951.265625,
+          -15276.2275390625
+        ],
+        [
+          -17613.560546875,
+          -62197.21484375,
+          15818.9677734375
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-10.bin",
+      "cell": [
+        -4,
+        -10
+      ],
+      "triangles": 685,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 83956,
+      "input_sha256": "55c9d509083faa4c22ff70501f21c925a78606a972055b37710ab34cf0bcb34b",
+      "output_sha256": "55c9d509083faa4c22ff70501f21c925a78606a972055b37710ab34cf0bcb34b",
+      "bounds": [
+        [
+          -25289.912109375,
+          -66248.1015625,
+          -14372.2041015625
+        ],
+        [
+          -17797.8046875,
+          -56546.6796875,
+          17383.537109375
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-9.bin",
+      "cell": [
+        -4,
+        -9
+      ],
+      "triangles": 154,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 21484,
+      "input_sha256": "7cbe91c2a22c8857a7de03a5552442be1fe43cf001494c3ff46f3da6cabfbf85",
+      "output_sha256": "7cbe91c2a22c8857a7de03a5552442be1fe43cf001494c3ff46f3da6cabfbf85",
+      "bounds": [
+        [
+          -23579.400390625,
+          -58897.5078125,
+          8556.5791015625
+        ],
+        [
+          -18886.66796875,
+          -53515.44140625,
+          17333.736328125
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-8.bin",
+      "cell": [
+        -4,
+        -8
+      ],
+      "triangles": 165,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 23896,
+      "input_sha256": "ce1272db063074900f32f21320378674353105b266dcfd3e05db6588c06ca700",
+      "output_sha256": "ce1272db063074900f32f21320378674353105b266dcfd3e05db6588c06ca700",
+      "bounds": [
+        [
+          -26643.80859375,
+          -50614.8671875,
+          8449.23046875
+        ],
+        [
+          -18363.548828125,
+          -44948.34375,
+          14682.4150390625
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-7.bin",
+      "cell": [
+        -4,
+        -7
+      ],
+      "triangles": 275,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 44304,
+      "input_sha256": "2347d2412c0619db5a718901721a3259185211a7dbd3bb0c6f95215a4096c81e",
+      "output_sha256": "2347d2412c0619db5a718901721a3259185211a7dbd3bb0c6f95215a4096c81e",
+      "bounds": [
+        [
+          -26788.69921875,
+          -42705.91015625,
+          5114.3662109375
+        ],
+        [
+          -18855.5703125,
+          -37408.734375,
+          14960.59765625
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-6.bin",
+      "cell": [
+        -4,
+        -6
+      ],
+      "triangles": 241,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 38880,
+      "input_sha256": "374d87c136abbff658a49e1d817c6e81bf7f5e7d0fb035d9e46b3d06bdfaaa0f",
+      "output_sha256": "374d87c136abbff658a49e1d817c6e81bf7f5e7d0fb035d9e46b3d06bdfaaa0f",
+      "bounds": [
+        [
+          -26897.65625,
+          -39331.328125,
+          4975.578125
+        ],
+        [
+          -17390.34765625,
+          -30851.916015625,
+          15636.673828125
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-5.bin",
+      "cell": [
+        -4,
+        -5
+      ],
+      "triangles": 416,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 69036,
+      "input_sha256": "596ffeddda608372af55e1185bb4693c61c46c0503bd87200f7bd172acaee7d7",
+      "output_sha256": "596ffeddda608372af55e1185bb4693c61c46c0503bd87200f7bd172acaee7d7",
+      "bounds": [
+        [
+          -26740.681640625,
+          -33664.17578125,
+          4853.96142578125
+        ],
+        [
+          -18679.375,
+          -24351.744140625,
+          15636.673828125
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-4.bin",
+      "cell": [
+        -4,
+        -4
+      ],
+      "triangles": 272,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 46016,
+      "input_sha256": "fc8f3dd0cbb22882eb3afe6702581a95b617cee010015f208a45dd967a6b4487",
+      "output_sha256": "fc8f3dd0cbb22882eb3afe6702581a95b617cee010015f208a45dd967a6b4487",
+      "bounds": [
+        [
+          -25942.66015625,
+          -23485.43359375,
+          4866.8935546875
+        ],
+        [
+          -20546.98828125,
+          -18636.755859375,
+          7314.4990234375
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-3.bin",
+      "cell": [
+        -4,
+        -3
+      ],
+      "triangles": 173,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 28184,
+      "input_sha256": "94a9f8f08eb2ee5ff0426dab02677e20f94c36e59fc67f0d76d06852be334e47",
+      "output_sha256": "94a9f8f08eb2ee5ff0426dab02677e20f94c36e59fc67f0d76d06852be334e47",
+      "bounds": [
+        [
+          -27072.662109375,
+          -19815.646484375,
+          3895.699462890625
+        ],
+        [
+          -18445.111328125,
+          -10814.76171875,
+          14114.322265625
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-2.bin",
+      "cell": [
+        -4,
+        -2
+      ],
+      "triangles": 232,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 35948,
+      "input_sha256": "1249ee35e2ea8274fe84eff587e79847174e3ec4c855998391621f8b4f680ed4",
+      "output_sha256": "1249ee35e2ea8274fe84eff587e79847174e3ec4c855998391621f8b4f680ed4",
+      "bounds": [
+        [
+          -26629.0078125,
+          -14953.15625,
+          643.3406372070312
+        ],
+        [
+          -17870.255859375,
+          -4153.451171875,
+          17765.2421875
+        ]
+      ]
+    },
+    {
+      "file": "l-4_-1.bin",
+      "cell": [
+        -4,
+        -1
+      ],
+      "triangles": 896,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 135584,
+      "input_sha256": "bd6d2ccd8901fcd21cdcb1f6a03b2adef1a08e878c876d702984f9249580ad24",
+      "output_sha256": "bd6d2ccd8901fcd21cdcb1f6a03b2adef1a08e878c876d702984f9249580ad24",
+      "bounds": [
+        [
+          -28286.978515625,
+          -8015.7353515625,
+          -937.6253662109375
+        ],
+        [
+          -17678.4609375,
+          2382.47021484375,
+          22600.12890625
+        ]
+      ]
+    },
+    {
+      "file": "l-3_0.bin",
+      "cell": [
+        -3,
+        0
+      ],
+      "triangles": 672,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 107968,
+      "input_sha256": "127af5060aa0d383d5b88983cb2a8b40b94118e33fd8f5295c27ca6c891b7030",
+      "output_sha256": "127af5060aa0d383d5b88983cb2a8b40b94118e33fd8f5295c27ca6c891b7030",
+      "bounds": [
+        [
+          -21341.076171875,
+          -2568.612548828125,
+          -3463.052734375
+        ],
+        [
+          -10890.3251953125,
+          8700.0234375,
+          20450.759765625
+        ]
+      ]
+    },
+    {
+      "file": "l-3_1.bin",
+      "cell": [
+        -3,
+        1
+      ],
+      "triangles": 158,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 27852,
+      "input_sha256": "aae708745faf452d8dd8578a47fca307bd2bc5337ca5d7a78e8ac9f6866e407e",
+      "output_sha256": "aae708745faf452d8dd8578a47fca307bd2bc5337ca5d7a78e8ac9f6866e407e",
+      "bounds": [
+        [
+          -17242.51171875,
+          3982.014892578125,
+          5019.86328125
+        ],
+        [
+          -10346.740234375,
+          13259.7578125,
+          20082.890625
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-15.bin",
+      "cell": [
+        -3,
+        -15
+      ],
+      "triangles": 102,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 17744,
+      "input_sha256": "f76e13264b39a27a6047edb547d5ea7fe6da352babe3652483a3d998ce80f276",
+      "output_sha256": "f76e13264b39a27a6047edb547d5ea7fe6da352babe3652483a3d998ce80f276",
+      "bounds": [
+        [
+          -21118.783203125,
+          -98517.8203125,
+          9199.23046875
+        ],
+        [
+          -10382.236328125,
+          -88277.9921875,
+          23563.10546875
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-14.bin",
+      "cell": [
+        -3,
+        -14
+      ],
+      "triangles": 161,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 28800,
+      "input_sha256": "6e456dd866ebd9b9640a5e73248287d0e5c3814a9c64c3939b55b9673a8931dd",
+      "output_sha256": "6e456dd866ebd9b9640a5e73248287d0e5c3814a9c64c3939b55b9673a8931dd",
+      "bounds": [
+        [
+          -21596.322265625,
+          -89041.2734375,
+          7861.38525390625
+        ],
+        [
+          -13238.9970703125,
+          -80834.5546875,
+          22930.40625
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-13.bin",
+      "cell": [
+        -3,
+        -13
+      ],
+      "triangles": 682,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 102236,
+      "input_sha256": "36677a1bee24bc6071a585a3fab8ca7d2726c4565e1a5750031c61a0309bf3d8",
+      "output_sha256": "36677a1bee24bc6071a585a3fab8ca7d2726c4565e1a5750031c61a0309bf3d8",
+      "bounds": [
+        [
+          -20679.724609375,
+          -85448.2734375,
+          7715.35986328125
+        ],
+        [
+          -11640.4990234375,
+          -74264.46875,
+          25234.64453125
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-12.bin",
+      "cell": [
+        -3,
+        -12
+      ],
+      "triangles": 164,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 25100,
+      "input_sha256": "ceeee9f0a1ff3b577561eb42c3b609d43b18f4f1d3a0f2ce88c77a371dbc4df4",
+      "output_sha256": "ceeee9f0a1ff3b577561eb42c3b609d43b18f4f1d3a0f2ce88c77a371dbc4df4",
+      "bounds": [
+        [
+          -20639.1328125,
+          -78560.984375,
+          8355.6796875
+        ],
+        [
+          -12072.4892578125,
+          -69301.1015625,
+          23330.30859375
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-11.bin",
+      "cell": [
+        -3,
+        -11
+      ],
+      "triangles": 454,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 71608,
+      "input_sha256": "b593c3096a9a792ac15e3b8125b49b31e7a016240c7d1d94bbcca0203f1c9cbb",
+      "output_sha256": "b593c3096a9a792ac15e3b8125b49b31e7a016240c7d1d94bbcca0203f1c9cbb",
+      "bounds": [
+        [
+          -20837.2109375,
+          -72234.375,
+          -15184.359375
+        ],
+        [
+          -8690.4189453125,
+          -58132.83984375,
+          23925.966796875
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-10.bin",
+      "cell": [
+        -3,
+        -10
+      ],
+      "triangles": 532,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 82728,
+      "input_sha256": "d7baf1cc8cc3d5a3d9f4738912ece7a3fb4b4e7609e1386b8e7faf5e624401a6",
+      "output_sha256": "d7baf1cc8cc3d5a3d9f4738912ece7a3fb4b4e7609e1386b8e7faf5e624401a6",
+      "bounds": [
+        [
+          -21587.3125,
+          -66705.4765625,
+          -14646.5400390625
+        ],
+        [
+          -8690.4189453125,
+          -54347.70703125,
+          23558.09765625
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-9.bin",
+      "cell": [
+        -3,
+        -9
+      ],
+      "triangles": 47,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 7964,
+      "input_sha256": "a61dc940aaa896c2899b4870b15023ead21a004c2467b3696688537e5558ed3a",
+      "output_sha256": "a61dc940aaa896c2899b4870b15023ead21a004c2467b3696688537e5558ed3a",
+      "bounds": [
+        [
+          -19780.46875,
+          -59463.78125,
+          8412.66796875
+        ],
+        [
+          -15488.2294921875,
+          -55647.77734375,
+          16145.3076171875
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-8.bin",
+      "cell": [
+        -3,
+        -8
+      ],
+      "triangles": 333,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 51156,
+      "input_sha256": "454d3a8528e5c751d0de1d1e091a17bf981f5885304183f85949c211c3c09c17",
+      "output_sha256": "454d3a8528e5c751d0de1d1e091a17bf981f5885304183f85949c211c3c09c17",
+      "bounds": [
+        [
+          -19689.234375,
+          -50653.8203125,
+          6856.3359375
+        ],
+        [
+          -14518.5625,
+          -44199.703125,
+          16888.46484375
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-7.bin",
+      "cell": [
+        -3,
+        -7
+      ],
+      "triangles": 435,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 68644,
+      "input_sha256": "cdb883403d3e2d4a9900aa86a9755cde081d7ab4dad6569fa56a83b295d82260",
+      "output_sha256": "cdb883403d3e2d4a9900aa86a9755cde081d7ab4dad6569fa56a83b295d82260",
+      "bounds": [
+        [
+          -19340.162109375,
+          -46275.1796875,
+          -19679.037109375
+        ],
+        [
+          -9652.7119140625,
+          -35324.8046875,
+          17291.642578125
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-6.bin",
+      "cell": [
+        -3,
+        -6
+      ],
+      "triangles": 479,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 69096,
+      "input_sha256": "1626bcbec4e8ffd14e07f2719b4c67f62e93637e05765ae328589b86190b580f",
+      "output_sha256": "1626bcbec4e8ffd14e07f2719b4c67f62e93637e05765ae328589b86190b580f",
+      "bounds": [
+        [
+          -20646.67578125,
+          -41930.046875,
+          -9726.6220703125
+        ],
+        [
+          -8671.806640625,
+          -30186.716796875,
+          20790.95703125
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-5.bin",
+      "cell": [
+        -3,
+        -5
+      ],
+      "triangles": 118,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 17860,
+      "input_sha256": "2d6c02a517a7fb6e3565def7c58a926555020727723926178cad5a136a0ee5aa",
+      "output_sha256": "2d6c02a517a7fb6e3565def7c58a926555020727723926178cad5a136a0ee5aa",
+      "bounds": [
+        [
+          -19816.166015625,
+          -33341.3125,
+          -9923.86328125
+        ],
+        [
+          -10623.6640625,
+          -24738.83203125,
+          12710.576171875
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-4.bin",
+      "cell": [
+        -3,
+        -4
+      ],
+      "triangles": 179,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 30536,
+      "input_sha256": "103dec40c81fc59bc761318f5d8b14234499621980c687b3a08fc65a41045bb3",
+      "output_sha256": "103dec40c81fc59bc761318f5d8b14234499621980c687b3a08fc65a41045bb3",
+      "bounds": [
+        [
+          -19611.74609375,
+          -26850.234375,
+          -16266.3798828125
+        ],
+        [
+          -11005.8740234375,
+          -17357.5625,
+          8086.84375
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-3.bin",
+      "cell": [
+        -3,
+        -3
+      ],
+      "triangles": 313,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 51840,
+      "input_sha256": "d8b48a9a0726dd9d64b66e7c499f9939c5c582b7a57e401dbe8e7f363b2e794e",
+      "output_sha256": "d8b48a9a0726dd9d64b66e7c499f9939c5c582b7a57e401dbe8e7f363b2e794e",
+      "bounds": [
+        [
+          -20435.900390625,
+          -22304.322265625,
+          -15566.5791015625
+        ],
+        [
+          -8321.0419921875,
+          -10751.501953125,
+          8240.5947265625
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-2.bin",
+      "cell": [
+        -3,
+        -2
+      ],
+      "triangles": 281,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 47884,
+      "input_sha256": "dc697e2ffec22926cdb41988837dc4ee085b71acd1793fe718e37aafc6f0f2fd",
+      "output_sha256": "dc697e2ffec22926cdb41988837dc4ee085b71acd1793fe718e37aafc6f0f2fd",
+      "bounds": [
+        [
+          -20828.00390625,
+          -13741.826171875,
+          -12746.0244140625
+        ],
+        [
+          -9648.6923828125,
+          -4713.4892578125,
+          14976.8671875
+        ]
+      ]
+    },
+    {
+      "file": "l-3_-1.bin",
+      "cell": [
+        -3,
+        -1
+      ],
+      "triangles": 1317,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 199688,
+      "input_sha256": "534981972146922873c2189eac184884fac234c970f6677ad99d0c144f776917",
+      "output_sha256": "534981972146922873c2189eac184884fac234c970f6677ad99d0c144f776917",
+      "bounds": [
+        [
+          -22118.51171875,
+          -8995.337890625,
+          -2177.87744140625
+        ],
+        [
+          -10341.0966796875,
+          2270.267578125,
+          21090.986328125
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-14.bin",
+      "cell": [
+        -2,
+        -14
+      ],
+      "triangles": 66,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 12688,
+      "input_sha256": "8038b8e47026530c52502f29abb6d0ed7069047963c728d82673d5bb21d3dee4",
+      "output_sha256": "8038b8e47026530c52502f29abb6d0ed7069047963c728d82673d5bb21d3dee4",
+      "bounds": [
+        [
+          -13596.02734375,
+          -90621.1796875,
+          5843.52197265625
+        ],
+        [
+          -5430.95068359375,
+          -84125.5,
+          13397.1494140625
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-13.bin",
+      "cell": [
+        -2,
+        -13
+      ],
+      "triangles": 357,
+      "selected_triangles": 34,
+      "changed": true,
+      "bytes": 57448,
+      "input_sha256": "54332cf83c5aa5797fa8e3b50c749ba9e0f0dca4f06ec5d4990f8ce579640446",
+      "output_sha256": "36750754ade63e6711d7a8333e63f745b83e1c6d21707818c1c1f93b48b1c5fa",
+      "bounds": [
+        [
+          -13974.228515625,
+          -83356.484375,
+          4854.5849609375
+        ],
+        [
+          -5741.6845703125,
+          -76088.2890625,
+          13007.779296875
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-12.bin",
+      "cell": [
+        -2,
+        -12
+      ],
+      "triangles": 241,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 39652,
+      "input_sha256": "199b31fd662814a94c20aea033102d065a97001fe7cc1d7f3356d7fe904b1cf4",
+      "output_sha256": "199b31fd662814a94c20aea033102d065a97001fe7cc1d7f3356d7fe904b1cf4",
+      "bounds": [
+        [
+          -12141.9765625,
+          -77531.046875,
+          4963.84228515625
+        ],
+        [
+          -6002.89013671875,
+          -69958.8515625,
+          9177.5908203125
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-11.bin",
+      "cell": [
+        -2,
+        -11
+      ],
+      "triangles": 352,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 54968,
+      "input_sha256": "d0228bc4fe496abbf21bb97738f72c59b41692e0d6f7a536d03c36e1ffd54473",
+      "output_sha256": "d0228bc4fe496abbf21bb97738f72c59b41692e0d6f7a536d03c36e1ffd54473",
+      "bounds": [
+        [
+          -15467.41015625,
+          -70780.203125,
+          -18096.78125
+        ],
+        [
+          -5493.04541015625,
+          -61868.55859375,
+          17736.837890625
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-10.bin",
+      "cell": [
+        -2,
+        -10
+      ],
+      "triangles": 186,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 29404,
+      "input_sha256": "630a2cde0a8b86b72204cbd9f74d0b9d4990a6eb3845343b9bd070ac44b19254",
+      "output_sha256": "630a2cde0a8b86b72204cbd9f74d0b9d4990a6eb3845343b9bd070ac44b19254",
+      "bounds": [
+        [
+          -18735.818359375,
+          -67241.2890625,
+          -18796.583984375
+        ],
+        [
+          -4030.58349609375,
+          -54543.26953125,
+          22480.755859375
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-9.bin",
+      "cell": [
+        -2,
+        -9
+      ],
+      "triangles": 7,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 1404,
+      "input_sha256": "a6ba5d1e3888191f3570709f86c606794b054adb695d41b57695b2cfaebb7dd0",
+      "output_sha256": "a6ba5d1e3888191f3570709f86c606794b054adb695d41b57695b2cfaebb7dd0",
+      "bounds": [
+        [
+          -9525.345703125,
+          -58533.41015625,
+          10700.53515625
+        ],
+        [
+          -5131.27490234375,
+          -50698.1015625,
+          16061.109375
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-8.bin",
+      "cell": [
+        -2,
+        -8
+      ],
+      "triangles": 66,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 10092,
+      "input_sha256": "68b06a5c8c1ade00033b6b8171a6c768b2ba0d28cccc86ed7db012ff383fcbc4",
+      "output_sha256": "68b06a5c8c1ade00033b6b8171a6c768b2ba0d28cccc86ed7db012ff383fcbc4",
+      "bounds": [
+        [
+          -14447.6220703125,
+          -50206.70703125,
+          -20474.376953125
+        ],
+        [
+          -3856.84228515625,
+          -41360.91015625,
+          23203.177734375
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-7.bin",
+      "cell": [
+        -2,
+        -7
+      ],
+      "triangles": 268,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 45968,
+      "input_sha256": "8e5aa2fe161e8b686ad15e720dd56a3cf0f15ab4205c2678c1cf606cd2706290",
+      "output_sha256": "8e5aa2fe161e8b686ad15e720dd56a3cf0f15ab4205c2678c1cf606cd2706290",
+      "bounds": [
+        [
+          -16869.33203125,
+          -48654.4140625,
+          -19986.953125
+        ],
+        [
+          -3618.0439453125,
+          -33244.23828125,
+          16045.4072265625
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-6.bin",
+      "cell": [
+        -2,
+        -6
+      ],
+      "triangles": 209,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 34480,
+      "input_sha256": "927c5c8147eb7f6d774678fde8e8b9d12ff4f2e1a100dc7f549b0350bd722c3d",
+      "output_sha256": "927c5c8147eb7f6d774678fde8e8b9d12ff4f2e1a100dc7f549b0350bd722c3d",
+      "bounds": [
+        [
+          -17065.7265625,
+          -41965.453125,
+          -16954.021484375
+        ],
+        [
+          -4191.45361328125,
+          -30186.716796875,
+          13774.28125
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-5.bin",
+      "cell": [
+        -2,
+        -5
+      ],
+      "triangles": 523,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 83848,
+      "input_sha256": "d6ce9fee0ee26e6e6d40166bbba03fbd07ba3a1542b4f08a77b17d4c3bad9f3e",
+      "output_sha256": "d6ce9fee0ee26e6e6d40166bbba03fbd07ba3a1542b4f08a77b17d4c3bad9f3e",
+      "bounds": [
+        [
+          -15861.14453125,
+          -33300.21875,
+          -9019.83984375
+        ],
+        [
+          -6955.49267578125,
+          -25174.4921875,
+          9957.5546875
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-4.bin",
+      "cell": [
+        -2,
+        -4
+      ],
+      "triangles": 104,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 17716,
+      "input_sha256": "94667bca188aea9a2ee13fa6de830e837e30a40ed04c16d525eb1919775581c7",
+      "output_sha256": "94667bca188aea9a2ee13fa6de830e837e30a40ed04c16d525eb1919775581c7",
+      "bounds": [
+        [
+          -16289.4951171875,
+          -24567.765625,
+          -16195.2998046875
+        ],
+        [
+          -3713.959228515625,
+          -16109.421875,
+          6303.14013671875
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-3.bin",
+      "cell": [
+        -2,
+        -3
+      ],
+      "triangles": 386,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 61988,
+      "input_sha256": "d184dccb96e6bf1682db838ae8c04c8ec50a89e7c60c5a9415329416f4f48222",
+      "output_sha256": "d184dccb96e6bf1682db838ae8c04c8ec50a89e7c60c5a9415329416f4f48222",
+      "bounds": [
+        [
+          -16222.11328125,
+          -23402.921875,
+          -15514.8603515625
+        ],
+        [
+          -2692.069091796875,
+          -10183.28125,
+          19092.21484375
+        ]
+      ]
+    },
+    {
+      "file": "l-2_-2.bin",
+      "cell": [
+        -2,
+        -2
+      ],
+      "triangles": 870,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 125532,
+      "input_sha256": "e38df4fdd0ba6583f608350831b9896906fe5b3e08d00c05420b229e4c53b72a",
+      "output_sha256": "e38df4fdd0ba6583f608350831b9896906fe5b3e08d00c05420b229e4c53b72a",
+      "bounds": [
+        [
+          -15384.021484375,
+          -15526.2294921875,
+          -12654.15625
+        ],
+        [
+          -4793.65966796875,
+          -4059.4169921875,
+          19030.669921875
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-14.bin",
+      "cell": [
+        -1,
+        -14
+      ],
+      "triangles": 321,
+      "selected_triangles": 78,
+      "changed": true,
+      "bytes": 53000,
+      "input_sha256": "17a773a16ccb99cd073619d912841c5cd1ac26a3689417b94e9091aa4b4df928",
+      "output_sha256": "13c92f3dcec8a7b15573c9524522fc4f769861798640a79e1ed17b37fb4e4adf",
+      "bounds": [
+        [
+          -7314.42919921875,
+          -90545.6953125,
+          5775.48291015625
+        ],
+        [
+          421.8364562988281,
+          -82874.078125,
+          15090.0283203125
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-13.bin",
+      "cell": [
+        -1,
+        -13
+      ],
+      "triangles": 293,
+      "selected_triangles": 78,
+      "changed": true,
+      "bytes": 46584,
+      "input_sha256": "395611b5c906999aaacfaf03e19adac56da596bd90ecfe4b9230451052112a13",
+      "output_sha256": "6efa43da253ba5d6c596b3f20e6c09099c37275182a5d0e7d87742bfe49c1848",
+      "bounds": [
+        [
+          -6866.9775390625,
+          -83552.0390625,
+          5549.1357421875
+        ],
+        [
+          1704.629638671875,
+          -77493.7265625,
+          14228.603515625
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-12.bin",
+      "cell": [
+        -1,
+        -12
+      ],
+      "triangles": 17,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 3588,
+      "input_sha256": "a19ccd8e7b32ee0307e64ac0227615194d878714c9dfb1cfe652ef964b974875",
+      "output_sha256": "a19ccd8e7b32ee0307e64ac0227615194d878714c9dfb1cfe652ef964b974875",
+      "bounds": [
+        [
+          -6825.2099609375,
+          -72362.5390625,
+          4963.84228515625
+        ],
+        [
+          1713.2501220703125,
+          -68985.4375,
+          17682.0546875
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-11.bin",
+      "cell": [
+        -1,
+        -11
+      ],
+      "triangles": 195,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 29360,
+      "input_sha256": "ec454eb6651fbeddf6b4e93687da0fa55981e27ae78c58e8e36190a92113dc34",
+      "output_sha256": "ec454eb6651fbeddf6b4e93687da0fa55981e27ae78c58e8e36190a92113dc34",
+      "bounds": [
+        [
+          -7218.98046875,
+          -71896.3671875,
+          5411.22314453125
+        ],
+        [
+          1316.8734130859375,
+          -63432.078125,
+          24469.568359375
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-10.bin",
+      "cell": [
+        -1,
+        -10
+      ],
+      "triangles": 315,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 51548,
+      "input_sha256": "4ed5309b76d6fb02e92e69ef6a62eb43811a643212525ee98d805f99a3a01f26",
+      "output_sha256": "4ed5309b76d6fb02e92e69ef6a62eb43811a643212525ee98d805f99a3a01f26",
+      "bounds": [
+        [
+          -8855.154296875,
+          -64613.5859375,
+          5563.64599609375
+        ],
+        [
+          1135.068603515625,
+          -55125.71484375,
+          22848.625
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-9.bin",
+      "cell": [
+        -1,
+        -9
+      ],
+      "triangles": 349,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 50804,
+      "input_sha256": "cab0af7e636426c4ba0889f5939ef2a4ec5a4e3a834e7956b6caa73a7cbbec4f",
+      "output_sha256": "cab0af7e636426c4ba0889f5939ef2a4ec5a4e3a834e7956b6caa73a7cbbec4f",
+      "bounds": [
+        [
+          -7260.4482421875,
+          -59882.09375,
+          7662.12255859375
+        ],
+        [
+          1323.91748046875,
+          -49305.046875,
+          24287.703125
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-8.bin",
+      "cell": [
+        -1,
+        -8
+      ],
+      "triangles": 295,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 44988,
+      "input_sha256": "418b3b7188ac70e7ad723fc336ba239352ab31a2801e086d3f9a0a92a647c8d1",
+      "output_sha256": "418b3b7188ac70e7ad723fc336ba239352ab31a2801e086d3f9a0a92a647c8d1",
+      "bounds": [
+        [
+          -9734.2802734375,
+          -53586.89453125,
+          -7202.26123046875
+        ],
+        [
+          3020.935302734375,
+          -43091.69140625,
+          25888.515625
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-7.bin",
+      "cell": [
+        -1,
+        -7
+      ],
+      "triangles": 163,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 27064,
+      "input_sha256": "f7d2129e11364e0a9ef2ccc2d11ebcc59cf306e1a11067f12f4f029d7f0aa1be",
+      "output_sha256": "f7d2129e11364e0a9ef2ccc2d11ebcc59cf306e1a11067f12f4f029d7f0aa1be",
+      "bounds": [
+        [
+          -9734.2802734375,
+          -47213.5078125,
+          -10395.390625
+        ],
+        [
+          1985.7310791015625,
+          -35434.76953125,
+          23767.58984375
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-6.bin",
+      "cell": [
+        -1,
+        -6
+      ],
+      "triangles": 362,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 56368,
+      "input_sha256": "347798be74355503a877febaf4f5a22bbb2a07bb47635f9370aee97817556014",
+      "output_sha256": "347798be74355503a877febaf4f5a22bbb2a07bb47635f9370aee97817556014",
+      "bounds": [
+        [
+          -7124.400390625,
+          -40813.5625,
+          5904.2412109375
+        ],
+        [
+          1830.5946044921875,
+          -31955.326171875,
+          23507.55078125
+        ]
+      ]
+    },
+    {
+      "file": "l-1_-5.bin",
+      "cell": [
+        -1,
+        -5
+      ],
+      "triangles": 36,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 7148,
+      "input_sha256": "b38317422070f204f0cd223467b1803f78780a3c9a93f10f1d24a8c68f2ef10e",
+      "output_sha256": "b38317422070f204f0cd223467b1803f78780a3c9a93f10f1d24a8c68f2ef10e",
+      "bounds": [
+        [
+          -4591.53564453125,
+          -26617.53125,
+          5238.564453125
+        ],
+        [
+          -2168.039794921875,
+          -24926.728515625,
+          6966.7392578125
+        ]
+      ]
+    },
+    {
+      "file": "l0_-14.bin",
+      "cell": [
+        0,
+        -14
+      ],
+      "triangles": 192,
+      "selected_triangles": 56,
+      "changed": true,
+      "bytes": 32908,
+      "input_sha256": "aabdb190ed1d165f3eefe6eb53fc2c19307673880ecef3414f5df5188252d4a8",
+      "output_sha256": "b06d304f70c7297837f6019cd2947b34abe2780b19212a91f7901c568a1e76f6",
+      "bounds": [
+        [
+          -642.96044921875,
+          -90399.609375,
+          6275.02783203125
+        ],
+        [
+          7252.6171875,
+          -84583.4453125,
+          14211.7119140625
+        ]
+      ]
+    },
+    {
+      "file": "l0_-13.bin",
+      "cell": [
+        0,
+        -13
+      ],
+      "triangles": 470,
+      "selected_triangles": 78,
+      "changed": true,
+      "bytes": 68380,
+      "input_sha256": "25e7a4bf35de30a03fa4ff2b3b4b50a0a105498315614db762d938e2a70915c0",
+      "output_sha256": "e1180ab03e8ec4e074a46b7a7cbc52bb6e8bb9a9b660dbcba4dfce1336dfab93",
+      "bounds": [
+        [
+          -1589.6146240234375,
+          -83403.09375,
+          5980.0869140625
+        ],
+        [
+          6940.2646484375,
+          -75847.1796875,
+          15951.9228515625
+        ]
+      ]
+    },
+    {
+      "file": "l0_-12.bin",
+      "cell": [
+        0,
+        -12
+      ],
+      "triangles": 100,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 15820,
+      "input_sha256": "7168cf9f827ebc107ae993735651ec121e0c42f3884ea294e7b327cef39c0281",
+      "output_sha256": "7168cf9f827ebc107ae993735651ec121e0c42f3884ea294e7b327cef39c0281",
+      "bounds": [
+        [
+          888.7374267578125,
+          -78178.34375,
+          8934.41796875
+        ],
+        [
+          7535.39013671875,
+          -69632.9921875,
+          17322.6640625
+        ]
+      ]
+    },
+    {
+      "file": "l0_-11.bin",
+      "cell": [
+        0,
+        -11
+      ],
+      "triangles": 345,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 53668,
+      "input_sha256": "d6dd562d52f6c5880e8ba373de35ade659f63dcd025726947252b0e1d05f2097",
+      "output_sha256": "d6dd562d52f6c5880e8ba373de35ade659f63dcd025726947252b0e1d05f2097",
+      "bounds": [
+        [
+          -1622.982666015625,
+          -72407.7109375,
+          5620.6748046875
+        ],
+        [
+          7035.861328125,
+          -63629.69140625,
+          23735.15625
+        ]
+      ]
+    },
+    {
+      "file": "l0_-10.bin",
+      "cell": [
+        0,
+        -10
+      ],
+      "triangles": 200,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 35564,
+      "input_sha256": "68541894da3031f7ef201a832d65bce3370431e4826f56c36c5ec1fad96f0b0e",
+      "output_sha256": "68541894da3031f7ef201a832d65bce3370431e4826f56c36c5ec1fad96f0b0e",
+      "bounds": [
+        [
+          -574.2201538085938,
+          -64467.2890625,
+          5240.28515625
+        ],
+        [
+          7283.18359375,
+          -58153.69140625,
+          7758.4765625
+        ]
+      ]
+    },
+    {
+      "file": "l0_-9.bin",
+      "cell": [
+        0,
+        -9
+      ],
+      "triangles": 282,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 47288,
+      "input_sha256": "c596207c616e79ba8ce7cf4362e9f12049c7956b3c66e1caeea892b85736a6c3",
+      "output_sha256": "c596207c616e79ba8ce7cf4362e9f12049c7956b3c66e1caeea892b85736a6c3",
+      "bounds": [
+        [
+          -2512.164306640625,
+          -59126.29296875,
+          -12165.517578125
+        ],
+        [
+          7275.49609375,
+          -49594.51171875,
+          17051.80859375
+        ]
+      ]
+    },
+    {
+      "file": "l0_-8.bin",
+      "cell": [
+        0,
+        -8
+      ],
+      "triangles": 396,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 57220,
+      "input_sha256": "ecfb8446f5433b2fb3789bb08147e0e7846081af2a3e0692d933209e39cbb645",
+      "output_sha256": "ecfb8446f5433b2fb3789bb08147e0e7846081af2a3e0692d933209e39cbb645",
+      "bounds": [
+        [
+          -2211.63525390625,
+          -53050.10546875,
+          -12906.7431640625
+        ],
+        [
+          10117.2607421875,
+          -43091.69140625,
+          23594.10546875
+        ]
+      ]
+    },
+    {
+      "file": "l0_-7.bin",
+      "cell": [
+        0,
+        -7
+      ],
+      "triangles": 90,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 14180,
+      "input_sha256": "5fee10e7fc85085dcb951035809b2bfc27b27903f9f886bd287c332c0e003401",
+      "output_sha256": "5fee10e7fc85085dcb951035809b2bfc27b27903f9f886bd287c332c0e003401",
+      "bounds": [
+        [
+          -2686.113037109375,
+          -46308.00390625,
+          9717.404296875
+        ],
+        [
+          3191.0546875,
+          -36581.4453125,
+          20507.9609375
+        ]
+      ]
+    },
+    {
+      "file": "l0_-6.bin",
+      "cell": [
+        0,
+        -6
+      ],
+      "triangles": 123,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 20592,
+      "input_sha256": "75ba4e1aaf68febc96db39f806c6b4f8ed5ee19b57f58b7c66b74d00df4948cd",
+      "output_sha256": "75ba4e1aaf68febc96db39f806c6b4f8ed5ee19b57f58b7c66b74d00df4948cd",
+      "bounds": [
+        [
+          -2055.700927734375,
+          -38401.03125,
+          7246.6240234375
+        ],
+        [
+          7401.791015625,
+          -31955.326171875,
+          19856.630859375
+        ]
+      ]
+    },
+    {
+      "file": "l1_-14.bin",
+      "cell": [
+        1,
+        -14
+      ],
+      "triangles": 269,
+      "selected_triangles": 7,
+      "changed": true,
+      "bytes": 46056,
+      "input_sha256": "ddffbc49dd0fc66e00f4b19d23cb9cee57c239f5ae39198ae0bee4c113106ba1",
+      "output_sha256": "df362c060811fe39751006154c51dc381b337e8ba8cd235c2d96cb80aaf0d958",
+      "bounds": [
+        [
+          5536.79248046875,
+          -91316.3984375,
+          6485.99267578125
+        ],
+        [
+          14555.7744140625,
+          -80934.0546875,
+          25066.65625
+        ]
+      ]
+    },
+    {
+      "file": "l1_-13.bin",
+      "cell": [
+        1,
+        -13
+      ],
+      "triangles": 322,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 45844,
+      "input_sha256": "8f0493e96f50b412b7fdda9dc3b60ff98ee64da9f8c60b622bcbf39e46dc46b5",
+      "output_sha256": "8f0493e96f50b412b7fdda9dc3b60ff98ee64da9f8c60b622bcbf39e46dc46b5",
+      "bounds": [
+        [
+          5285.9267578125,
+          -85984.6484375,
+          9519.01953125
+        ],
+        [
+          14770.884765625,
+          -74923.2109375,
+          23964.9296875
+        ]
+      ]
+    },
+    {
+      "file": "l1_-12.bin",
+      "cell": [
+        1,
+        -12
+      ],
+      "triangles": 352,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 54120,
+      "input_sha256": "8ce257850fda3a58eb5732fc57131ea2ed3103e2080f684cc9c06fdc8f4ba9ac",
+      "output_sha256": "8ce257850fda3a58eb5732fc57131ea2ed3103e2080f684cc9c06fdc8f4ba9ac",
+      "bounds": [
+        [
+          4966.2216796875,
+          -78014.2890625,
+          7485.1435546875
+        ],
+        [
+          15448.98828125,
+          -68142.328125,
+          23665.765625
+        ]
+      ]
+    },
+    {
+      "file": "l1_-11.bin",
+      "cell": [
+        1,
+        -11
+      ],
+      "triangles": 427,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 69080,
+      "input_sha256": "7d5bec397e3967037810e677ee69ca738ea8d1375320245d253c95e75277cdb2",
+      "output_sha256": "7d5bec397e3967037810e677ee69ca738ea8d1375320245d253c95e75277cdb2",
+      "bounds": [
+        [
+          4451.52783203125,
+          -72589.6484375,
+          5655.0654296875
+        ],
+        [
+          14257.486328125,
+          -63525.29296875,
+          24649.244140625
+        ]
+      ]
+    },
+    {
+      "file": "l1_-9.bin",
+      "cell": [
+        1,
+        -9
+      ],
+      "triangles": 282,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 45376,
+      "input_sha256": "235c66ac602c11808a9b6db50ad06abcc73ea6b76e9680b79b620abb073fa76c",
+      "output_sha256": "235c66ac602c11808a9b6db50ad06abcc73ea6b76e9680b79b620abb073fa76c",
+      "bounds": [
+        [
+          4611.39111328125,
+          -59066.9921875,
+          -12491.5712890625
+        ],
+        [
+          13286.16015625,
+          -50789.8046875,
+          15669.66015625
+        ]
+      ]
+    },
+    {
+      "file": "l2_-14.bin",
+      "cell": [
+        2,
+        -14
+      ],
+      "triangles": 170,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 27528,
+      "input_sha256": "e4f1322fcc6ad827707a170b099f0734019d5518e7566fe99f2220b9811283a5",
+      "output_sha256": "e4f1322fcc6ad827707a170b099f0734019d5518e7566fe99f2220b9811283a5",
+      "bounds": [
+        [
+          10020.1884765625,
+          -91970.4140625,
+          11421.3203125
+        ],
+        [
+          21134.982421875,
+          -81234.9609375,
+          26151.578125
+        ]
+      ]
+    },
+    {
+      "file": "l2_-11.bin",
+      "cell": [
+        2,
+        -11
+      ],
+      "triangles": 455,
+      "selected_triangles": 0,
+      "changed": false,
+      "bytes": 68732,
+      "input_sha256": "e9034d9ea581c44c26d81fb5c5df3c455c6ee9c66ed18258f26a27e872132cb0",
+      "output_sha256": "e9034d9ea581c44c26d81fb5c5df3c455c6ee9c66ed18258f26a27e872132cb0",
+      "bounds": [
+        [
+          10715.296875,
+          -73247.90625,
+          7034.0400390625
+        ],
+        [
+          20366.76171875,
+          -61873.1953125,
+          23620.7578125
+        ]
+      ]
+    }
+  ],
+  "source_proof": {
+    "instances": 5,
+    "triangles": 331,
+    "max_shift_cm": 117.23190459487567,
+    "source_indices": [
+      457,
+      458,
+      467,
+      468,
+      484
+    ],
+    "unique_witness_draws": [
+      68169,
+      68177,
+      68805,
+      68815,
+      68827,
+      68897,
+      68909,
+      69170,
+      69398,
+      69400
+    ]
+  },
+  "unobserved_generalization_status": "73unobserved changedrecords blockedpendingactualproducer/bindsemantics evidence; notapprovedforpromotion, noquerylooprequested"
+}

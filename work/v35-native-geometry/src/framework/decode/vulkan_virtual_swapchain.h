@@ -1,0 +1,321 @@
+/*
+** Copyright (c) 2021-2023 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#ifndef GFXRECON_DECODE_VULKAN_VIRTUAL_SWAPCHAIN_H
+#define GFXRECON_DECODE_VULKAN_VIRTUAL_SWAPCHAIN_H
+
+#include "decode/vulkan_swapchain.h"
+#include "graphics/vulkan_resources_util.h"
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(decode)
+
+class VulkanVirtualSwapchain : public VulkanSwapchain
+{
+  public:
+    ~VulkanVirtualSwapchain() override = default;
+
+    void CleanDeviceResources(VkDevice device, const graphics::VulkanInjectedDeviceCalls* device_table) override;
+
+    VkResult CreateSurface(VkResult                             original_result,
+                           VulkanInstanceInfo*                  instance_info,
+                           const std::string&                   wsi_extension,
+                           VkFlags                              flags,
+                           HandlePointerDecoder<VkSurfaceKHR>*  surface,
+                           const graphics::VulkanInstanceTable* instance_table,
+                           application::Application*            application) override;
+
+    virtual VkResult CreateSwapchainKHR(VkResult                                   original_result,
+                                        PFN_vkCreateSwapchainKHR                   func,
+                                        const VulkanDeviceInfo*                    device_info,
+                                        const VkSwapchainCreateInfoKHR*            create_info,
+                                        const VkAllocationCallbacks*               allocator,
+                                        HandlePointerDecoder<VkSwapchainKHR>*      swapchain,
+                                        const graphics::VulkanInjectedDeviceCalls& injected_calls) override;
+
+    virtual void DestroySwapchainKHR(PFN_vkDestroySwapchainKHR     func,
+                                     const VulkanDeviceInfo*       device_info,
+                                     const VulkanSwapchainKHRInfo* swapchain_info,
+                                     const VkAllocationCallbacks*  allocator) override;
+
+    virtual VkResult GetSwapchainImagesKHR(VkResult                    original_result,
+                                           PFN_vkGetSwapchainImagesKHR func,
+                                           const VulkanDeviceInfo*     device_info,
+                                           VulkanSwapchainKHRInfo*     swapchain_info,
+                                           uint32_t                    capture_image_count,
+                                           uint32_t*                   image_count,
+                                           VkImage*                    images) override;
+
+    virtual VkResult AcquireNextImageKHR(VkResult                  original_result,
+                                         PFN_vkAcquireNextImageKHR func,
+                                         const VulkanDeviceInfo*   device_info,
+                                         VulkanSwapchainKHRInfo*   swapchain_info,
+                                         uint64_t                  timeout,
+                                         VkSemaphore               semaphore,
+                                         VkFence                   fence,
+                                         uint32_t                  capture_image_index,
+                                         uint32_t*                 image_index) override;
+
+    virtual VkResult AcquireNextImage2KHR(VkResult                         original_result,
+                                          PFN_vkAcquireNextImage2KHR       func,
+                                          const VulkanDeviceInfo*          device_info,
+                                          VulkanSwapchainKHRInfo*          swapchain_info,
+                                          const VkAcquireNextImageInfoKHR* acquire_info,
+                                          uint32_t                         capture_image_index,
+                                          uint32_t*                        image_index) override;
+
+    virtual VkResult QueuePresentKHR(VkResult                                    original_result,
+                                     PFN_vkQueuePresentKHR                       func,
+                                     const std::vector<uint32_t>&                capture_image_indices,
+                                     const std::vector<VulkanSwapchainKHRInfo*>& swapchain_infos,
+                                     const VulkanQueueInfo*                      queue_info,
+                                     const VkPresentInfoKHR*                     present_info) override;
+
+    virtual VkResult CreateRenderPass(VkResult                      original_result,
+                                      PFN_vkCreateRenderPass        func,
+                                      const VulkanDeviceInfo*       device_info,
+                                      const VkRenderPassCreateInfo* create_info,
+                                      const VkAllocationCallbacks*  allocator,
+                                      VkRenderPass*                 render_pass) override;
+
+    virtual VkResult CreateRenderPass2(VkResult                       original_result,
+                                       PFN_vkCreateRenderPass2        func,
+                                       const VulkanDeviceInfo*        device_info,
+                                       const VkRenderPassCreateInfo2* create_info,
+                                       const VkAllocationCallbacks*   allocator,
+                                       VkRenderPass*                  render_pass) override;
+
+    virtual void CmdPipelineBarrier(PFN_vkCmdPipelineBarrier       func,
+                                    const VulkanCommandBufferInfo* command_buffer_info,
+                                    VkPipelineStageFlags           src_stage_mask,
+                                    VkPipelineStageFlags           dst_stage_mask,
+                                    VkDependencyFlags              dependency_flags,
+                                    uint32_t                       memory_barrier_count,
+                                    const VkMemoryBarrier*         memory_barriers,
+                                    uint32_t                       buffer_memory_barrier_count,
+                                    const VkBufferMemoryBarrier*   buffer_memory_barriers,
+                                    uint32_t                       image_memory_barrier_count,
+                                    const VkImageMemoryBarrier*    image_memory_barriers) override;
+
+    virtual void CmdPipelineBarrier2(PFN_vkCmdPipelineBarrier2 func,
+                                     VulkanCommandBufferInfo*  command_buffer_info,
+                                     const VkDependencyInfo*   pDependencyInfo) override;
+
+    bool PresentImageAdHoc(const VulkanDeviceInfo*                    device_info,
+                           const VulkanSemaphoreInfo*                 semaphore_info,
+                           const VulkanImageInfo*                     image_info,
+                           VulkanInstanceInfo*                        instance_info,
+                           const graphics::VulkanInstanceTable*       instance_table,
+                           const graphics::VulkanInjectedDeviceCalls& injected_calls,
+                           application::Application*                  application,
+                           const std::optional<std::array<float, 2>>& scale) override;
+
+    void ProcessSetSwapchainImageStateCommand(const VulkanDeviceInfo*                             device_info,
+                                              VulkanSwapchainKHRInfo*                             swapchain_info,
+                                              uint32_t                                            last_presented_image,
+                                              const std::vector<format::SwapchainImageStateInfo>& image_infos,
+                                              const CommonObjectInfoTable&                        object_info_table,
+                                              SwapchainImageTracker& swapchain_image_tracker) override;
+
+  protected:
+    // Structure necessary to track the necessary information related to the virtual swapchain images
+    struct VirtualImage
+    {
+        VkDeviceMemory                        memory{ VK_NULL_HANDLE };
+        VkImage                               image{ VK_NULL_HANDLE };
+        VulkanResourceAllocator::MemoryData   memory_allocator_data{ 0 };
+        VulkanResourceAllocator::ResourceData resource_allocator_data{ 0 };
+    };
+
+    // Structure to store data required per device queue family to properly handle creating the
+    // virtual swapchain images and copying that data to the actual swapchain images.
+    struct CopyCmdData
+    {
+        VkCommandPool                command_pool;
+        std::vector<VkCommandBuffer> command_buffers;
+        std::vector<VkFence>         fences;
+        std::vector<VkSemaphore>     semaphores;
+    };
+
+    // Structure to track VulkanVirtualSwapchain private data specific to a particular VkSwapchainKHR handle.
+    // Offscreen only need virtual_swapchain_images.
+    struct SwapchainResourceData
+    {
+        bool              forced_offscreen{ false };
+        std::vector<bool> image_index_transitioned;
+
+        // Create a map that correlates copy command data with a queue family index.
+        std::unordered_map<uint32_t, CopyCmdData> copy_cmd_data;
+
+        // Swapchain images, these include the virtual ones created by this
+        // class that are returned in place of the hardware ones, as well
+        // as a vector of the actual hardware ones used during replay.
+        std::vector<VirtualImage> virtual_swapchain_images;
+        std::vector<VkImage>      replay_swapchain_images;
+
+        VkExtent2D actual_extent;
+    };
+
+    bool AddSwapchainResourceData(VkSwapchainKHR swapchain);
+
+    VkResult CreateSwapchainResourceData(const VulkanDeviceInfo*       device_info,
+                                         const VulkanSwapchainKHRInfo* swapchain_info,
+                                         uint32_t                      capture_image_count,
+                                         uint32_t*                     replay_image_count,
+                                         VkImage*                      images);
+
+    void CleanSwapchainResourceData(const VulkanDeviceInfo* device_info, const VulkanSwapchainKHRInfo* swapchain_info);
+
+    VkResult CreateVirtualSwapchainImage(const VulkanDeviceInfo*  device_info,
+                                         const VkImageCreateInfo& image_create_info,
+                                         VirtualImage&            image);
+
+    VkResult TransitionSwapchainImage(VkDevice                                device,
+                                      const VulkanSwapchainKHRInfo*           swapchain_info,
+                                      std::unique_ptr<SwapchainResourceData>& swapchain_resources,
+                                      uint32_t                                image_index,
+                                      uint32_t                                image_count,
+                                      VkSemaphore                             acquire_semaphore,
+                                      VkFence                                 acquire_fence);
+
+    // Create an unordered map to associate the swapchain resource data with a particular Vulkan swapchain
+    std::unordered_map<VkSwapchainKHR, std::unique_ptr<SwapchainResourceData>> swapchain_resources_;
+
+    // This structure contains the data tied to a swapchain image created for presenting offscreen frame boundaries
+    struct AdhocSwapChainImageData
+    {
+        VkImage       image{ VK_NULL_HANDLE };
+        VkImageLayout image_layout{ VK_IMAGE_LAYOUT_UNDEFINED };
+        VkSemaphore   semaphore{ VK_NULL_HANDLE };
+    };
+
+    struct AdhocSwapChainFrameData
+    {
+        VkCommandBuffer command_buffer    = VK_NULL_HANDLE;
+        VkFence         fence             = VK_NULL_HANDLE;
+        VkSemaphore     acquire_semaphore = VK_NULL_HANDLE;
+    };
+
+    struct AdhocSwapChain
+    {
+        AdhocSwapChain() = default;
+        ~AdhocSwapChain();
+
+        AdhocSwapChain(const AdhocSwapChain&)            = delete;
+        AdhocSwapChain& operator=(const AdhocSwapChain&) = delete;
+
+        // idiomatic copy & swap
+        AdhocSwapChain(AdhocSwapChain&& other) noexcept : AdhocSwapChain() { swap(*this, other); }
+        AdhocSwapChain& operator=(AdhocSwapChain other) noexcept
+        {
+            swap(*this, other);
+            return *this;
+        }
+
+        friend void swap(AdhocSwapChain& lhs, AdhocSwapChain& rhs) noexcept
+        {
+            using std::swap;
+            swap(lhs.device, rhs.device);
+            swap(lhs.injected_calls, rhs.injected_calls);
+            swap(lhs.instance_info, rhs.instance_info);
+            swap(lhs.owner, rhs.owner);
+            swap(lhs.command_pool, rhs.command_pool);
+            swap(lhs.surface_info, rhs.surface_info);
+            swap(lhs.surface_ptr, rhs.surface_ptr);
+            swap(lhs.queue, rhs.queue);
+            swap(lhs.surface_formats, rhs.surface_formats);
+            swap(lhs.requested_size, rhs.requested_size);
+            swap(lhs.image_extent, rhs.image_extent);
+            swap(lhs.acquire_index, rhs.acquire_index);
+            swap(lhs.handle, rhs.handle);
+            swap(lhs.frame_data, rhs.frame_data);
+            swap(lhs.image_data, rhs.image_data);
+        }
+
+        // required for lifetime-management
+        VkDevice                                           device{ VK_NULL_HANDLE };
+        std::optional<graphics::VulkanInjectedDeviceCalls> injected_calls;
+        const VulkanInstanceInfo*                          instance_info{ nullptr };
+        VulkanSwapchain*                                   owner{ nullptr };
+
+        // non-owning handle
+        VkCommandPool command_pool{ VK_NULL_HANDLE };
+
+        // contains window
+        VulkanSurfaceKHRInfo               surface_info{};
+        HandlePointerDecoder<VkSurfaceKHR> surface_ptr{};
+
+        VkQueue                      queue{ VK_NULL_HANDLE };
+        std::unordered_set<VkFormat> surface_formats{};
+
+        // last size requested from the window-system. the window-manager is free to grant something else,
+        // so this must not be used to derive any geometry.
+        VkExtent2D requested_size{};
+
+        // extent the current swapchain-images were created with. authoritative for blit-destinations.
+        VkExtent2D image_extent{};
+
+        uint32_t acquire_index{ 0 };
+
+        VkSwapchainKHR handle{ VK_NULL_HANDLE };
+
+        std::vector<AdhocSwapChainFrameData> frame_data{};
+        std::vector<AdhocSwapChainImageData> image_data{};
+
+        // destroy swapchain and per-frame resources, keep surface
+        void DestroySwapchain();
+    };
+
+    // This structure groups device-specific, custom/adhoc surfaces/swapchains and shared resources for those.
+    struct AdhocDeviceData
+    {
+        AdhocDeviceData() = default;
+        ~AdhocDeviceData();
+        AdhocDeviceData(AdhocDeviceData&&)            = delete;
+        AdhocDeviceData& operator=(AdhocDeviceData&&) = delete;
+
+        // required for lifetime-management
+        VkDevice                                           device{ VK_NULL_HANDLE };
+        std::optional<graphics::VulkanInjectedDeviceCalls> injected_calls;
+
+        // command-pool for all AdhocSwapChains
+        VkCommandPool command_pool{ VK_NULL_HANDLE };
+
+        VkQueue queue{ VK_NULL_HANDLE };
+
+        std::vector<AdhocSwapChain> swapchains;
+
+        std::unique_ptr<graphics::VulkanResourcesUtil> copy_util;
+    };
+
+    std::unordered_map<VkDevice, AdhocDeviceData> adhoc_device_data_;
+    std::unordered_map<VkDevice, uint32_t>        copy_queue_family_index_;
+    std::unordered_map<VkDevice, VkQueue>         initial_copy_queue_;
+
+    // set on android once the application owns the ANativeWindow, never cleared
+    bool disable_adhoc_presentation_{ false };
+};
+
+GFXRECON_END_NAMESPACE(decode)
+GFXRECON_END_NAMESPACE(gfxrecon)
+
+#endif // GFXRECON_DECODE_VULKAN_VIRTUAL_SWAPCHAIN_H

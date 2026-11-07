@@ -1,0 +1,154 @@
+Opem Amalur — explicit recovered-module loading candidate
+
+Files in this staging directory do not modify the frozen v0.5 reconstructor or
+the v0.6 portable source. amalur_runtime.c/h are proposed v0.7 runtime copies.
+Parent workflow performs all compilation and fresh execution on Windows.
+
+The portable implementation uses stock Lua5.1 require/module behavior with a
+preload-only private searcher. Each module is explicitly registered by trusted
+host code using a name and source buffer or file. Original registration APIs
+compile but do not run the chunk; separate *_lazy APIs retain the explicit
+filename or a Lua-owned copy of source and compile only on require. Lazy syntax
+and file errors are intentionally deferred. File contents must stay unchanged
+until loading; the API itself provides no file hash or snapshot guarantee.
+Dependencies run when require reaches them and share the
+evaluation's instruction and memory budgets. The public package interface has
+loaded and seeall only; no filesystem or dynamic-library search path is used.
+This does not establish that every native Amalur module-loading edge is identical.
+
+Module tables
+Lua5.1 module(..., package.seeall) installs __index=_G on its module table. The
+v0.5 generated field guards rejected all metatables, so valid module field reads
+would otherwise fail. module_source_adapter.py opt-in adapts only generated
+field/table read and write guards. Length/list/key/custom-type restrictions are
+unchanged. The public getmetatable function is untouched.
+
+The host records seeall tables only when their name has an explicit source
+registration and their _M identity matches the loaded module. A field access is
+admitted only while the marked metatable is still the same object and contains
+exactly __index=_G. Arbitrary lookalike metatables, replaced metatables, added
+metamethods, and altered __index values are rejected. Other metatable behavior
+remains unsupported. This is an admitted semantic domain, not a security sandbox.
+
+Corpus selection
+export_scene_modules.py starts from SpaceCommon by default, using existing
+standalone names and frozen v0.5 whole-script/IR files. It conservatively follows
+literal require arguments within individual IR basic blocks. Unresolved dynamic
+requires, names absent from the standalone index, and ambiguous name variants
+are reported. It does not guess archive precedence or invent missing modules.
+Original and adapted source digests are recorded for every selected module.
+
+Build integration
+Copy amalur_runtime.c/h into a new candidate portable tree. Add CMake targets
+amalur-module-api-test (module_api_test.c) and amalur-module-inspect
+(module_inspect.c), linked against amalur_runtime. The original v0.6 runtime API
+tests should also pass against the candidate library.
+Add amalur-runtime-sources-test (runtime_sources_test.c), linked to that library.
+
+Run:
+  amalur-module-api-test RUNTIME_DIR
+  amalur-runtime-sources-test RUNTIME_DIR
+  python export_scene_modules.py --maximum 4096
+  amalur-module-inspect --runtime-dir RUNTIME_DIR --manifest MODULES/modules.tsv
+    --module SpaceCommon --lazy
+  amalur-module-inspect --runtime-dir RUNTIME_DIR --manifest MODULES/modules.tsv
+    --module SpaceCommon --event on_object_creation_complete --lazy
+
+APK bootstrap
+Config accepts runtime_sources/count: exactly five fixed bootstrap basenames
+with borrowed bytes/lengths. The host opens assets before create and closes them
+after create returns, including failure. Runtime retains none of these pointers.
+This mode never falls back to runtime_dir. Zero-initialized config retains the
+directory-based behavior. Recovered module assets use the source_lazy API, which
+copies bytes into the capped Lua allocator. This avoids filesystem extraction.
+It does not implement asset manager code or Android installation itself.
+
+Shared scene bootstrap
+scene_script_bootstrap.c/h supplies shared Windows/APK loading logic. The host
+implements size and exact-read callbacks for logical runtime/ and modules/
+resources. The function parses the explicit manifest, rejects path traversal,
+duplicate names and excessive counts, preflights every source length, creates
+the runtime from five in-memory bootstrap sources, lazily registers copied
+module source bytes, then requires the root and optionally invokes a zero-arg
+event. It returns the live realm to its caller on success. On failure it destroys
+the realm and frees all C buffers; source copies use the capped Lua allocator.
+The result preserves phase/error, module count, byte totals and event status.
+No provider state is invented. Limits default to1MiB manifest,16MiB/source,
+64MiB total resource bytes, and the runtime's64MiB Lua cap. Resource byte and Lua
+allocator limits are separate; an honest memory failure remains possible.
+
+Compile scene_script_inspect.c and scene_script_bootstrap.c with amalur_runtime
+for the directory-backed Windows front end. Compile scene_script_bootstrap_test.c
+and scene_script_bootstrap.c with amalur_runtime for synthetic shared-logic tests.
+The test accepts RUNTIME_DIR. Inspector accepts --runtime-dir DIR --modules-dir
+DIR [--module NAME] [--event NAME] [--memory-mib N]. Android can use this same bootstrap function
+with AAsset size/read callbacks; reader code must verify unchanged length.
+The optional options.setup callback runs protected after core initialization,
+before recovered modules. It is for explicit trusted host integration; it has
+no automatic providers and does not bound arbitrary native host work.
+
+Optional native executable profile
+scene_profile.c/h installs only zero-argument GAME.get_game_engine_version
+through the existing registry/provider API when explicitly selected with original
+SHA25616a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314.
+Native callback00e267f0 constructs parameter1000 using00aa18e0; that constructor
+stores kind6 and payload1000, and00aadd20 case6 returns numeric tag3/payload1000.
+No recovered version guard is removed. Other engine services remain missing.
+Other argument shapes are explicitly unsupported. Inspector selection is
+--native-profile SHA256, independent of --input-actions FILE. The setup applies
+the profile before the asset-key installer. It replaces the provider set through
+normal runtime API behavior, so use it during fresh initialization. Compile
+scene_profile_test.c with scene_profile.c and amalur_runtime; test takes RUNTIME_DIR.
+
+SL identifier primitive
+Static native callback00aaf2d0/table reader00aa70e0/constructor00aa18b0/pusher
+00aadd20 establish the plain-table SL identifier normalization path. Native raw
+strings at01730a1c and01730a18 confirm SL1 and SL2. Two signed-int32 fields become
+a fresh plain table with exactly those fields when either word is nonzero; both
+zero become nil. Unsupported arity, non-string/non-table input, or missing/wrong
+field types return nil. Metatables and non-int32 numeric input fail explicitly.
+String-form localization fails explicitly because its service is unimplemented.
+sl_identifier_test.c tests this admitted domain. This is evidence-led static
+reconstruction, without original-game dynamic comparison.
+
+The last command invokes an observed empty recovered event with zero arguments.
+Success proves event lookup and invocation, not gameplay or engine correctness.
+Nontrivial events must run against explicitly implemented engine services, with
+native-reference validation. No missing provider is replaced by a guessed no-op,
+false query result, successful transition, or fabricated jail/world state.
+
+Validation reported by parent: Windows module API32, runtime sources37, shared
+bootstrap40, SL12, and base runtime API20 checks passed. Generated GuardHarness
+also passed through the shared bootstrap. Eager registration of178 modules
+exceeded64MiB before require. The asset-backed178 module sources total65,301,565
+bytes; they register but exceed the default64MiB Lua cap when loading starts.
+With explicit128MiB cap, the SL table primitive and optional original input-action
+snapshot adapter, actual SpaceCommon loading advances beyond INPUT_ACTION_KEY.
+Parent reports36 asset-key checks passed. The narrow function/nil equality
+extension passed EqualityHarness; it admits only native mismatched-tag EQ, both
+polarities and operand orders, leaving other custom/same-tag/ordering domains
+unchanged. Actual root loading then reaches GAME.get_game_engine_version.
+The explicit SHA-specific profile passed10 checks on Windows. Real root loading
+then exceeds the default1M Lua instruction budget. With explicit10M budget it
+advances to button_rose_tools pc233, whose INPUT namespace was missing from the
+five-namespace registry. Native INPUT registration is now proven:42 initializer
+descriptors at00ed3500, owner vtable0174a5e8 slots3/5 pairing getter00ea4310 with
+initializer00ed3500, and getter literal INPUT. build_scene_registry.py stages an
+evidence-checked extension preserving the original five tables and emitting a
+receipt. input_registry_test.c verifies42 installed methods and explicit missing
+behavior before/after GAME profile selection. Windows generation/tests pending.
+The input-swap callback depends on native controller state; no empty namespace
+or guessed input state is supplied. Root/event success is not
+yet established. Inspector accepts --instruction-budget N in1..100000000, with
+the default still1M. The default Lua cap remains64MiB. No scene gameplay claimed.
+
+Ownership review: the shared bootstrap frees its manifest, source scratch buffers
+and core buffers on all inspected success/error paths; lazy source registrations
+copy into Lua memory. Failures destroy the partial realm; successful return gives
+realm ownership to the caller. Android's current one-shot hook destroys it after
+logging. All inspected AAsset handles close. Source strings remain retained by
+lazy loader closures, so Lua memory includes both retained text and compiled
+chunks. The Lua cap is not a whole-process RSS limit. Asset I/O and compilation
+are not Lua instructions and therefore are not bounded by the instruction hook.
+The hook currently precedes rendering/input setup on its worker; device startup
+and teardown latency has not been measured.

@@ -1,0 +1,48 @@
+{
+  "draw": 73253,
+  "vertex_shader": 1838,
+  "vertex_shader_sha256": "735fe83c8e10b0e4b35cd9c0c3b416e00238ccb8ffe3f7fa81c712c1e4e7184b",
+  "vertex_buffer": 128,
+  "bound_memory": 129,
+  "vertex_buffer_offset": 79128,
+  "stride": 8,
+  "vertex_count": 6,
+  "positions": [
+    [
+      -1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      -1,
+      -1
+    ]
+  ],
+  "clip_formula": "clip=(input.xy,0,1)",
+  "uv_formula": "input.xy*(.5,-.5)+(.5,.5)",
+  "viewport": {
+    "x": 0,
+    "y": 432,
+    "width": 768,
+    "height": -432
+  },
+  "authored_halftexel_offset": false,
+  "depth_sampling": "texture normalized UV, native sampler145 NEAREST/NEAREST, nearest mip, CLAMP_TO_EDGE, anisotropy disabled",
+  "ideal_uv": "(halfPixel+.5)/halfSize; full-size depth accesses lie on nearest boundaries",
+  "observation": "12captured halftexels compared to full-depth even-candidate CoCs:11exactU8,1within1LSB; forcedodd800predicts166,34,35,24 butnative51,34,51,18. Evidence does not justify inventing an authoredhalftexel offset."
+}

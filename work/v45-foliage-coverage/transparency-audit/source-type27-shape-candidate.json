@@ -1,0 +1,148 @@
+{
+  "type": 27,
+  "particleTask": 2132,
+  "emitterTask": 2131,
+  "cluster": 4878,
+  "material": 4093,
+  "shader": 363355,
+  "shaderName": "particlefogadditivesoft",
+  "diffuseTexture": 250070,
+  "alphaTexture": 236125,
+  "sourceWidthKeys": [
+    [
+      0,
+      550
+    ],
+    [
+      1,
+      750
+    ]
+  ],
+  "sourceHeightKeys": [
+    [
+      0,
+      2500
+    ],
+    [
+      1,
+      2500
+    ]
+  ],
+  "sourceAngleChannel": {
+    "nameHash": "0x30a626",
+    "classHash": "0xc263f8",
+    "value": 10,
+    "resolvedClassName": "BHG_TaskletFlatness",
+    "isRotation": false
+  },
+  "capturedHalfExtents": [
+    550,
+    2500
+  ],
+  "capturedAngleRadians": 0.08726646259971647,
+  "widthSamplingPolicy": "NativeTaskletDimensions evaluates authored property-bound inputs or caller fallback with persistent per-instance random offsets, not hardcoded lifetime. Source binding/caller and random helper remain unresolved; all6 captured half-widths550.",
+  "orientationPolicy": "MEASURED: axis=qconjRotate(-X), B=normalize(cross(cameraForward,axis)); U=B*cos(angle)+axis*sin(angle), V=axis*cos(angle)-B*sin(angle). Angle relationship source10 ->5degrees remains inference.",
+  "typesSharingTexture5": [
+    6,
+    27
+  ],
+  "otherTasksSameMaterial4093": [
+    {
+      "task": 2130,
+      "name": "Ambient_Godray_Medium_02_Ray_particle_task",
+      "material4093": true,
+      "angle": "00002041",
+      "sizeOffset": 136
+    },
+    {
+      "task": 2132,
+      "name": "Ambient-Godray_Medium_03_Ray_particle_task",
+      "material4093": true,
+      "angle": "00002041",
+      "sizeOffset": 144
+    },
+    {
+      "task": 1451272,
+      "name": "Staff_Ice_Attack_03_VolLight_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 152
+    },
+    {
+      "task": 1498569,
+      "name": "Hero-Summon_Hand_01_beam_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 152
+    },
+    {
+      "task": 1504576,
+      "name": "Hero-Summon_NPC_01_beam_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 152
+    },
+    {
+      "task": 1553318,
+      "name": "Hero-Desummon_Hand_01_beam_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 152
+    },
+    {
+      "task": 1747866,
+      "name": "Staff_Dly_Ice_Sprt1_Sml1_VolLight_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 160
+    },
+    {
+      "task": 1769543,
+      "name": "Staff_Dly_Ice_Imp_Sml1_VolLight_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 152
+    },
+    {
+      "task": 1928154,
+      "name": "Hmn_NCI_Spllcstng_AOE1_Glow_01_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 136
+    },
+    {
+      "task": 1932330,
+      "name": "Tilera_Retrieve_Spear_beam_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 144
+    },
+    {
+      "task": 2110351,
+      "name": "DLC2_CIN_Hyperion_Rise_Ext_Beam_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 136
+    },
+    {
+      "task": 2110380,
+      "name": "DLC2_CIN_Hyperion_Rise_Int_Beam_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 136
+    },
+    {
+      "task": 2110872,
+      "name": "DLC2_Hyperion_Rise_Ext_Beam_particle_task",
+      "material4093": true,
+      "angle": null,
+      "sizeOffset": 136
+    }
+  ],
+  "sourceEmitterAngleChannels": {
+    "0x1234094": 5,
+    "0x1261f62": 5,
+    "nativeAnchor": "BHG_TaskletMinMaxAngle__vf3 @00cba630 writes second angle toLAB_01261f62",
+    "limits": "exact radians conversion and sign policy not followed within8-body cap"
+  }
+}

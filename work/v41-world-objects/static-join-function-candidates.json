@@ -1,0 +1,582 @@
+[
+  {
+    "file": "BHG_FabInstanceRender.c",
+    "header": "// 00d2d9e0 BHG_FabInstanceRender__vf2",
+    "lines": [
+      "    FUN_00afe180((int)*(short *)(param_1 + 0x1b0),*piVar1);",
+      "  *(undefined4 *)(param_1 + 0x1a8) = 0;"
+    ]
+  },
+  {
+    "file": "BHG_FabInstanceRender.c",
+    "header": "// 00d35150 BHG_FabInstanceRender__vf1",
+    "lines": [
+      "  *(undefined4 *)(param_1 + 0x1a8) = 0;",
+      "      FUN_00afe180((int)*(short *)(param_1 + 0x1b0),*(int *)(param_1 + 0x1a4));",
+      "      uVar6 = FUN_00afdf70((int)*(short *)(param_1 + 0x1b0),uVar4);",
+      "  if (uVar4 <= *(uint *)(param_1 + 0x1a8)) {",
+      "    uVar4 = *(uint *)(param_1 + 0x1a8);",
+      "  *(uint *)(param_1 + 0x1a8) = uVar4;"
+    ]
+  },
+  {
+    "file": "BHG_GameConstants.c",
+    "header": "// 00dff810 BHG_GameConstants__xtor",
+    "lines": [
+      "  param_1[0x1b0] = 0;",
+      "  param_1[0x1a8] = 0;"
+    ]
+  },
+  {
+    "file": "BHG_GamePlayer.c",
+    "header": "// 00de8ae0 BHG_GamePlayer__vf3",
+    "lines": [
+      "  if (*(int *)(param_1 + 0x160) != 0) {",
+      "    FUN_00afe180((int)*(short *)(param_1 + 0x16c),*(int *)(param_1 + 0x160));",
+      "  *(undefined4 *)(param_1 + 0x160) = 0;",
+      "    FUN_00afe180((int)*(short *)(param_1 + 0x1b0),*(int *)(param_1 + 0x1a4));",
+      "  *(undefined4 *)(param_1 + 0x1a8) = 0;"
+    ]
+  },
+  {
+    "file": "BHG_PartAmmo.c",
+    "header": "// 00f72cd0 BHG_PartAmmo__vf10",
+    "lines": [
+      "    FUN_00f0a9c0(*(int *)(param_1 + 0x1a0),*(undefined4 *)(param_1 + 0x1a8),",
+      "  *(undefined4 *)(param_1 + 0x1a8) = 0;",
+      "  if (*(int *)(param_1 + 0x1b0) != 0) {",
+      "                 *(int *)(param_1 + 0x1b0));",
+      "  *(undefined4 *)(param_1 + 0x1b0) = 0;"
+    ]
+  },
+  {
+    "file": "BHG_PartAnimation.c",
+    "header": "// 00f1b850 BHG_PartAnimation__vf20",
+    "lines": [
+      "  FUN_00a94910(param_1 + 0x160,4);",
+      "  FUN_00a94910(param_1 + 0x1a8,4);",
+      "  FUN_00a94910(param_1 + 0x1b0,2);"
+    ]
+  },
+  {
+    "file": "BHG_PartAnimation.c",
+    "header": "// 00f59750 BHG_PartAnimation__vf21",
+    "lines": [
+      "  puStack_1c = (undefined4 *)(param_1 + 0x160);",
+      "  uStack_e4 = param_1 + 0x1a8;",
+      "  (**(code **)(*piVar2 + 4))(param_1 + 0x1b0);"
+    ]
+  },
+  {
+    "file": "BHG_PartWeapon.c",
+    "header": "// 00f859a0 BHG_PartWeapon__vf10",
+    "lines": [
+      "  if (*(int *)(param_1 + 0x1a8) != 0) {",
+      "    FUN_00f785b0((int)*(short *)(param_1 + 0x1b4),*(undefined4 *)(param_1 + 0x1b0),",
+      "                 *(int *)(param_1 + 0x1a8));",
+      "  *(undefined4 *)(param_1 + 0x1a8) = 0;",
+      "  *(undefined4 *)(param_1 + 0x1b0) = 0;"
+    ]
+  },
+  {
+    "file": "BHG_PartWeapon.c",
+    "header": "// 00f8b510 BHG_PartWeapon__vf5",
+    "lines": [
+      "  if (*(int *)(param_1 + 0x1a8) != 0) {",
+      "    FUN_00f785b0((int)*(short *)(param_1 + 0x1b4),*(undefined4 *)(param_1 + 0x1b0),",
+      "                 *(int *)(param_1 + 0x1a8));",
+      "  *(undefined4 *)(param_1 + 0x1a8) = 0;",
+      "  *(undefined4 *)(param_1 + 0x1b0) = 0;",
+      "  if (*(uint *)(param_1 + 0x1b0) < uVar6) {",
+      "    if (*(int *)(param_1 + 0x1a8) != 0) {",
+      "      FUN_00f785b0((int)*(short *)(param_1 + 0x1b4),*(uint *)(param_1 + 0x1b0),",
+      "                   *(int *)(param_1 + 0x1a8));",
+      "    *(uint *)(param_1 + 0x1b0) = uVar6;",
+      "      *(undefined4 *)(param_1 + 0x1a8) = uVar7;",
+      "      uVar6 = *(uint *)(param_1 + 0x1b0);",
+      "        iVar8 = *(int *)(param_1 + 0x1a8);",
+      "        *(int *)(param_1 + 0x1b0) = *(int *)(param_1 + 0x1b0) + uVar10;",
+      "        *(undefined4 *)(param_1 + 0x1a8) = uVar7;",
+      "          piVar11 = (int *)(*(int *)(param_1 + 0x1a8) + uStack_4);"
+    ]
+  },
+  {
+    "file": "BHG_PartWeapon.c",
+    "header": "// 00f97fb0 BHG_PartWeapon__vf6",
+    "lines": [
+      "  if ((undefined4 *)(param_1 + 0x1a8) != (undefined4 *)(param_2 + 0x1a8)) {",
+      "    uVar4 = *(uint *)(param_1 + 0x1b0);",
+      "    FUN_00f6e710(*(undefined4 *)(param_1 + 0x1a8),*(undefined4 *)(param_2 + 0x1a8),uVar2);"
+    ]
+  },
+  {
+    "file": "BHG_Talent.c",
+    "header": "// 00fe8790 BHG_Talent__vf3",
+    "lines": [
+      "    FUN_00fd8d20(param_1 + 0x160,&ppuStack_ac);",
+      "      *(undefined4 **)(param_1 + 0x1a8) = puVar4;",
+      "      *(undefined **)(param_1 + 0x1a8) = &DAT_019fed18;",
+      "    (*(code *)pppiVar9[1])((int *)(param_1 + 0x1b0),4);",
+      "    iVar3 = *(int *)(param_1 + 0x1b0);"
+    ]
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "header": "// 00d021f0 BHG_TaskCameraImplementation__vf2_o16",
+    "lines": [
+      "      *(undefined8 *)param_2 = *(undefined8 *)(iVar1 + 0x1a8);",
+      "      param_2[2] = *(float *)(iVar1 + 0x1b0);"
+    ]
+  },
+  {
+    "file": "btConeTwistConstraint.c",
+    "header": "// 0085a280 btConeTwistConstraint__vf9",
+    "lines": [
+      "  *(undefined4 *)(param_2 + 0x44) = *(undefined4 *)(param_1 + 0x160);",
+      "  *(undefined4 *)(param_2 + 0x8c) = *(undefined4 *)(param_1 + 0x1a8);",
+      "  *(undefined4 *)(param_2 + 0x94) = *(undefined4 *)(param_1 + 0x1b0);"
+    ]
+  },
+  {
+    "file": "btConeTwistConstraint.c",
+    "header": "// 00862040 btConeTwistConstraint__vf5",
+    "lines": [
+      "      fVar13 = *(float *)(iVar5 + 0x160);",
+      "      fVar15 = *(float *)(iVar5 + 0x160);",
+      "        local_260 = *(float *)(iVar5 + 0x160) * fVar15 + fVar23 * *(float *)(iVar5 + 0x150) +",
+      "                                     (*(float *)(iVar11 + 0x160) * fVar15 +",
+      "        fStack_21c = *(float *)(iVar11 + 0x164) * fVar21 + fVar4 * *(float *)(iVar11 + 0x160) +",
+      "        fVar23 = *(float *)(iVar11 + 0x164) * fVar21 + fVar4 * *(float *)(iVar11 + 0x160) +",
+      "    fStack_24c = fVar20 * 0.0 + fVar1 * 0.0 + *(float *)(param_1 + 0x1a8) * 0.0;",
+      "                 *(float *)(param_1 + 0x1b0) * 0.0 + *(float *)(param_1 + 0x1b4) * 0.0 +",
+      "    local_1e8 = fStack_188 * *(float *)(param_1 + 0x1b4) + fStack_198 * *(float *)(param_1 + 0x1b0)",
+      "    local_264 = *(float *)(param_1 + 0x1b4) * fStack_18c + fStack_19c * *(float *)(param_1 + 0x1b0)",
+      "                                 *(float *)(param_1 + 0x1b0) * local_1a0 +",
+      "    local_1e4 = fStack_188 * fVar1 + fStack_198 * fVar20 + fStack_178 * *(float *)(param_1 + 0x1a8);",
+      "    local_1f0 = fVar1 * fStack_18c + fStack_19c * fVar20 + *(float *)(param_1 + 0x1a8) * fStack_17c;",
+      "    local_1ec = local_1a0 * fVar20 + local_190 * fVar1 + local_180 * *(float *)(param_1 + 0x1a8);",
+      "      local_280 = *(float *)(iVar11 + 0x160) * fStack_21c + *(float *)(iVar11 + 0x150) * local_220 +",
+      "      local_280 = *(float *)(iVar11 + 0x160) * fStack_1fc + *(float *)(iVar11 + 0x150) * local_200 +",
+      "      fVar18 = (*(float *)(iVar11 + 0x160) * fVar17 + fVar23 * *(float *)(iVar11 + 0x150) +",
+      "      fVar23 = (*(float *)(iVar5 + 0x160) * fVar17 + *(float *)(iVar5 + 0x150) * fVar23 +",
+      "      fStack_27c = *(float *)(iVar11 + 0x164) * fVar20 + *(float *)(iVar11 + 0x160) * fVar1 +",
+      "      fVar23 = *(float *)(iVar11 + 0x164) * fVar20 + *(float *)(iVar11 + 0x160) * fVar1 +",
+      "    fStack_21c = *(float *)(iVar11 + 0x164) * fVar17 + *(float *)(iVar11 + 0x160) * fVar18 +",
+      "    fVar15 = *(float *)(iVar11 + 0x160);",
+      "    fVar4 = *(float *)(iVar11 + 0x160);",
+      "    fVar4 = *(float *)(iVar11 + 0x160);"
+    ]
+  },
+  {
+    "file": "btDiscreteDynamicsWorld.c",
+    "header": "// 008a54f0 btDiscreteDynamicsWorld__vf43",
+    "lines": [
+      "    dVar23 = *(double *)(param_2 + 0x160);",
+      "                 *(float *)(param_2 + 0x160) * *(float *)(iVar20 + 0x34) +",
+      "                 *(float *)(param_2 + 0x160) * fVar2 +",
+      "    fStack_1e0 = *(float *)(param_2 + 0x150) * fVar13 + *(float *)(param_2 + 0x160) * fVar22 +",
+      "                   *(float *)(iVar20 + 0x34) * *(float *)(param_2 + 0x1a8) +",
+      "                        (double)*(float *)(iVar20 + 0x38) * (double)*(float *)(param_2 + 0x1b0));",
+      "                 fVar2 * *(float *)(param_2 + 0x1a8) +",
+      "                 *(float *)(iVar20 + 0x28) * *(float *)(param_2 + 0x1b0);",
+      "    fStack_254 = fVar13 * *(float *)(param_2 + 0x198) + fVar22 * *(float *)(param_2 + 0x1a8) +",
+      "                 fVar1 * *(float *)(param_2 + 0x1b0);",
+      "      fVar6 = *(float *)(param_2 + 0x160);",
+      "                   *(float *)(param_2 + 0x1a8) * *(float *)(iVar20 + 0x34) +",
+      "                    *(float *)(param_2 + 0x1b0) * *(float *)(iVar20 + 0x38));",
+      "                              *(float *)(param_2 + 0x1a8) * fVar2 +",
+      "      fStack_248 = *(float *)(param_2 + 0x1b0);",
+      "      fStack_220 = *(float *)(param_2 + 0x198) * fVar13 + *(float *)(param_2 + 0x1a8) * fVar22 +"
+    ]
+  },
+  {
+    "file": "btGeneric6DofSpring2Constraint.c",
+    "header": "// 008698d0 btGeneric6DofSpring2Constraint__vf9",
+    "lines": [
+      "  *(undefined4 *)(param_2 + 0x1b0) = *(undefined4 *)(param_1 + 0x488);",
+      "  *(undefined4 *)(param_2 + 0x1a8) = 0;",
+      "  *(undefined4 *)(param_2 + 0x160) = *(undefined4 *)(param_1 + 0x38c);"
+    ]
+  },
+  {
+    "file": "btMultiBodyDynamicsWorld.c",
+    "header": "// 008ef5d0 btMultiBodyDynamicsWorld__vf36",
+    "lines": [
+      "        iVar8 = *(int *)(param_1 + 0x1a8);",
+      "            iVar10 = *(int *)(param_1 + 0x1a8);",
+      "                  iVar2 = *(int *)(param_1 + 0x1b0);",
+      "            if (*(int *)(param_1 + 0x1b0) != 0) {",
+      "                FUN_00915790(*(int *)(param_1 + 0x1b0));",
+      "              *(undefined4 *)(param_1 + 0x1b0) = 0;",
+      "            *(undefined8 **)(param_1 + 0x1b0) = puVar6;",
+      "              puVar6 = (undefined8 *)(*(int *)(param_1 + 0x1b0) + iVar10);",
+      "        *(int *)(param_1 + 0x1a8) = iVar11;"
+    ]
+  },
+  {
+    "file": "btRigidBody.c",
+    "header": "// 008adfd0 btRigidBody__vf4",
+    "lines": [
+      "  *(undefined4 *)(param_2 + 0x120) = *(undefined4 *)(param_1 + 0x160);",
+      "  *(undefined4 *)(param_2 + 0x160) = *(undefined4 *)(param_1 + 0x280);",
+      "  *(undefined4 *)(param_2 + 0x170) = *(undefined4 *)(param_1 + 0x1b0);",
+      "  *(undefined4 *)(param_2 + 0x1a8) = *(undefined4 *)(param_1 + 0x1e8);",
+      "  *(undefined4 *)(param_2 + 0x1b0) = *(undefined4 *)(param_1 + 0x1f0);"
+    ]
+  },
+  {
+    "file": "btSoftBody.c",
+    "header": "// 00964d50 btSoftBody__vf4",
+    "lines": [
+      "  *(undefined4 *)(param_2 + 0x160) = *(undefined4 *)(param_1 + 0x174);",
+      "  *(undefined4 *)(param_2 + 0x1b0) = *(undefined4 *)(param_1 + 0x1c4);",
+      "  *(undefined4 *)(param_2 + 0x1a8) = *(undefined4 *)(param_1 + 0x1bc);",
+      "  *(undefined4 *)(param_2 + 0x194) = *(undefined4 *)(param_1 + 0x1a8);",
+      "  *(undefined4 *)(param_2 + 0x19c) = *(undefined4 *)(param_1 + 0x1b0);",
+      "        puVar9[0x40] = *(undefined4 *)(iVar2 + 0x160);"
+    ]
+  },
+  {
+    "file": "btSoftBodyCollisionShape.c",
+    "header": "// 0095f2a0 btSoftBodyCollisionShape__xtor_2",
+    "lines": [
+      "  *(undefined4 *)(param_1 + 0x1a8) = uVar2;",
+      "  *(undefined4 *)(param_1 + 0x1b0) = uVar2;"
+    ]
+  },
+  {
+    "file": "unnamed_0085.c",
+    "header": "// 0085bd60 FUN_0085bd60",
+    "lines": [
+      "      fVar7 = *(float *)(param_1 + 0x160);",
+      "      local_158 = *(float *)(param_1 + 0x1b0);",
+      "    local_b0 = *(float *)(param_1 + 0x150) * param_2[8] + *(float *)(param_1 + 0x160) * param_2[9] +",
+      "    local_c0 = (float *)(*(float *)(param_1 + 0x150) * fVar6 + *(float *)(param_1 + 0x160) * fVar16",
+      "    local_d0 = *(float *)(param_1 + 0x150) * fVar9 + *(float *)(param_1 + 0x160) * fVar8 +",
+      "    fVar14 = *(float *)(param_1 + 0x198) * fVar13 + *(float *)(param_1 + 0x1a8) * fVar11 +",
+      "                *(float *)(param_1 + 0x1b0) * fVar1;",
+      "    local_184 = *(float *)(param_1 + 0x198) * fVar16 + *(float *)(param_1 + 0x1a8) * fVar10 +",
+      "            *(float *)(param_1 + 0x1b0) * fVar6;",
+      "    local_1a4 = *(float *)(param_1 + 0x198) * fVar8 + *(float *)(param_1 + 0x1a8) * fVar9 +",
+      "            *(float *)(param_1 + 0x1b0) * fVar7;"
+    ]
+  },
+  {
+    "file": "unnamed_008c.c",
+    "header": "// 008c53a0 FUN_008c53a0",
+    "lines": [
+      "    fVar5 = *(float *)(param_1 + 0x160) * fVar2 - fVar3 * fVar9;",
+      "    fVar6 = fVar3 * fVar16 - *(float *)(param_1 + 0x160) * fVar1;",
+      "                              *(float *)(param_1 + 0x148) * *(float *)(param_1 + 0x160)) * fVar10) *",
+      "    fVar12 = (float)((double)((*(float *)(param_1 + 0x144) * *(float *)(param_1 + 0x160) -",
+      "    fVar8 = *(float *)(param_1 + 0x1b4) * fVar14 + *(float *)(param_1 + 0x1b0) * local_b8 +",
+      "    fVar2 = *(float *)(param_1 + 0x1b4) * fVar15 + *(float *)(param_1 + 0x1b0) * local_dc +",
+      "    fVar3 = *(float *)(param_1 + 0x1b4) * local_d8 + *(float *)(param_1 + 0x1b0) * local_d4 +",
+      "            *(float *)(param_1 + 0x1a8) * fVar11;",
+      "             *(float *)(param_1 + 0x1a8) * fVar12;",
+      "            *(float *)(param_1 + 0x1a8) * fVar13;",
+      "    fVar9 = local_11c * *(float *)(param_1 + 0x1a8) + local_118 * *(float *)(param_1 + 0x1b8) +",
+      "    fVar1 = local_118 * *(float *)(param_1 + 0x1b0) + local_11c * *(float *)(param_1 + 0x1a0) +",
+      "    fVar2 = local_f4 * *(float *)(param_1 + 0x1a8) + local_e4 * *(float *)(param_1 + 0x1b8) +",
+      "    fVar4 = local_e4 * *(float *)(param_1 + 0x1b0) + local_f4 * *(float *)(param_1 + 0x1a0) +",
+      "    fVar5 = local_108 * *(float *)(param_1 + 0x1a8) + local_e8 * *(float *)(param_1 + 0x1b8) +",
+      "    fVar7 = local_e8 * *(float *)(param_1 + 0x1b0) + local_108 * *(float *)(param_1 + 0x1a0) +"
+    ]
+  },
+  {
+    "file": "unnamed_008c.c",
+    "header": "// 008c7520 FUN_008c7520",
+    "lines": [
+      "    fVar8 = *(float *)(param_1 + 0x160) * fVar4 - fVar5 * fVar1;",
+      "    fVar9 = fVar5 * fVar2 - *(float *)(param_1 + 0x160) * fVar3;",
+      "                              *(float *)(param_1 + 0x160) * *(float *)(param_1 + 0x148)) * fVar12) *",
+      "    fVar14 = (float)((double)((*(float *)(param_1 + 0x144) * *(float *)(param_1 + 0x160) -",
+      "    fVar5 = *(float *)(param_1 + 0x1b4) * fVar16 + *(float *)(param_1 + 0x1b0) * local_c4 +",
+      "    fVar6 = *(float *)(param_1 + 0x1b4) * fVar17 + *(float *)(param_1 + 0x1b0) * local_cc +",
+      "    fVar8 = *(float *)(param_1 + 0x1b4) * local_c8 + *(float *)(param_1 + 0x1b0) * local_d0 +",
+      "            *(float *)(param_1 + 0x1a8) * fVar13;",
+      "             *(float *)(param_1 + 0x1a8) * fVar14;",
+      "             *(float *)(param_1 + 0x1a8) * fVar15;",
+      "    fVar1 = local_108 * *(float *)(param_1 + 0x1b8) + local_110 * *(float *)(param_1 + 0x1a8) +",
+      "    fVar3 = local_108 * *(float *)(param_1 + 0x1b0) + local_110 * *(float *)(param_1 + 0x1a0) +",
+      "    fVar4 = local_e8 * *(float *)(param_1 + 0x1a8) + local_d4 * *(float *)(param_1 + 0x1b8) +",
+      "    fVar6 = local_e8 * *(float *)(param_1 + 0x1a0) + local_d4 * *(float *)(param_1 + 0x1b0) +",
+      "    fVar8 = local_114 * *(float *)(param_1 + 0x1a8) + local_dc * *(float *)(param_1 + 0x1b8) +",
+      "    fVar12 = local_114 * *(float *)(param_1 + 0x1a0) + local_dc * *(float *)(param_1 + 0x1b0) +"
+    ]
+  },
+  {
+    "file": "unnamed_008c.c",
+    "header": "// 008cf330 FUN_008cf330",
+    "lines": [
+      "          local_538 = (float *)(*(int *)(param_1 + 0xd4) + 0x18 + *(int *)(iVar13 + 0x160) * 4);",
+      "        pauVar11 = (undefined1 (*) [16])(iVar13 + 0x1b0);",
+      "          pfVar6 = (float *)((*(int *)(local_660 + 0x160 + *(int *)(param_1 + 0xac)) +",
+      "          local_5fc[*(int *)(local_660 + 0x160 + iVar13) + (int)local_654] =",
+      "          pfVar5 = (float *)(*(int *)((int)local_64c + 0x160) * 0x20 + 0x18 + local_648);",
+      "      local_624 = local_620 + *(int *)((int)local_64c + 0x160) * *(int *)((int)local_64c + 0x160);",
+      "          local_5d0 = (float *)(*(int *)((int)local_64c + 0x160) * 0x20 + 0x18 + local_648);",
+      "                               (*(int *)(local_660 + 0x160 + *(int *)(param_1 + 0xac)) +",
+      "          pfVar5 = local_5fc + *(int *)((int)local_64c + 0x160);",
+      "      *(undefined8 *)(param_1 + 0x160) = local_5dc[10];",
+      "      *(ulonglong *)(param_1 + 0x1a8) = CONCAT44(uStack_424,local_428);",
+      "      *(ulonglong *)(param_1 + 0x1b0) = CONCAT44(fStack_41c,local_420);",
+      "          iVar8 = *(int *)(*(int *)(param_1 + 0xac) + 0x160 + local_660) + iVar13;",
+      "        local_620 = (float *)(*(int *)(param_1 + 0xd4) + 0x18 + *(int *)(iVar13 + 0x160) * 4);"
+    ]
+  },
+  {
+    "file": "unnamed_0093.c",
+    "header": "// 00937d30 FUN_00937d30",
+    "lines": [
+      "      switch(*(undefined4 *)(iVar5 + 0x1b0)) {",
+      "        *(undefined8 *)(iVar5 + 0x160) = *(undefined8 *)(iVar5 + 0x1c0);",
+      "        *(undefined4 *)(iVar5 + 0x1a8) = 0;",
+      "        *(undefined8 *)(iVar5 + 0x160) = *(undefined8 *)(iVar5 + 0x1c0);",
+      "        *(undefined8 *)(iVar5 + 0x160) = *(undefined8 *)(iVar5 + 0x1c0);",
+      "        *(undefined4 *)(iVar5 + 0x1a8) = 0;"
+    ]
+  },
+  {
+    "file": "unnamed_009c.c",
+    "header": "// 009c2560 FUN_009c2560",
+    "lines": [
+      "  *(uint *)(*param_4 + 0x160) = (uint)(*(int *)(iVar3 + 0x1b0) == 1);",
+      "    if (*(int *)(iVar3 + 0x1a8) != 0 || *(int *)(iVar3 + 0x1ac) != 0) {",
+      "      *(int *)(iVar3 + 8) = *(int *)(iVar3 + 0x1a8);",
+      "      *(int *)(iVar3 + 0x1b0) = *(int *)(iVar3 + 0x1b0) + 1;",
+      "      *(undefined4 *)(iVar3 + 0x1a8) = 0;"
+    ]
+  },
+  {
+    "file": "unnamed_009c.c",
+    "header": "// 009c2690 FUN_009c2690",
+    "lines": [
+      "        *(undefined4 *)(iVar3 + 0x1a8) = *(undefined4 *)(iVar3 + 8);",
+      "        *(undefined4 *)(iVar3 + 0x1b0) = 1;",
+      "      *(undefined4 *)(iVar3 + 0x1b0) = 2;"
+    ]
+  },
+  {
+    "file": "unnamed_009c.c",
+    "header": "// 009cc1a0 FUN_009cc1a0",
+    "lines": [
+      "    if (*(int *)(in_EAX + 0x1a8) != -1) {",
+      "    if (*(int *)(in_EAX + 0x1b0) != -1) {"
+    ]
+  },
+  {
+    "file": "unnamed_009d.c",
+    "header": "// 009d7cc0 FUN_009d7cc0",
+    "lines": [
+      "    pcVar4 = *(char **)(param_1 + 0x1a8);",
+      "    *(uint *)(param_1 + 0x4c80) = *(uint *)(param_1 + 0x1b0);",
+      "       ((*(uint *)(param_1 + 0x1b0) & *(uint *)(param_1 + 0x4c84)) != 0xffffffff))"
+    ]
+  },
+  {
+    "file": "unnamed_009d.c",
+    "header": "// 009d8ea0 FUN_009d8ea0",
+    "lines": [
+      "  if ((*(int *)(param_2 + 0x1b0) != 0 || *(int *)(param_2 + 0x1b4) != 0) &&",
+      "    uVar2 = FUN_009eea50(*(int *)(param_2 + 0x1b0),*(int *)(param_2 + 0x1b4));",
+      "    *(int *)(param_1 + 0x1a8) = iVar3;"
+    ]
+  },
+  {
+    "file": "unnamed_009d.c",
+    "header": "// 009dd660 FUN_009dd660",
+    "lines": [
+      "      iVar1 = *(int *)(iVar2 + 0x1b0);",
+      "        *param_2 = *(int *)(iVar2 + 0x1a8);"
+    ]
+  },
+  {
+    "file": "unnamed_009f.c",
+    "header": "// 009f9420 FUN_009f9420",
+    "lines": [
+      "        *(uint *)(param_1 + 0x1a8) = *param_3;",
+      "           (((*(int *)(param_1 + 0x1b4) < (int)uVar3 || (*(uint *)(param_1 + 0x1b0) < uVar8)) &&",
+      "            (*(int *)(param_1 + 0x1a8) == *(int *)(param_1 + 0x6b4))))) {",
+      "          *(undefined4 *)(param_1 + 0x1a8) = 0;",
+      "        *(uint *)(param_1 + 0x1b0) = uVar8;",
+      "         (uVar3 = *(uint *)(param_1 + 0x1b4), (*(uint *)(param_1 + 0x1b0) & uVar3) == 0xffffffff)) {",
+      "          iVar7 = *(int *)(param_1 + 0x1b0);",
+      "            if (*(int *)(param_1 + 0x1b0) != 0 || *(int *)(param_1 + 0x1b4) != 0) {",
+      "              FID_conflict__memcpy(_Dst,_Src,*(size_t *)(param_1 + 0x1b0));",
+      "      *(undefined4 *)(param_1 + 0x1a8) = *(undefined4 *)(param_1 + 0x6b4);",
+      "       (((*(int *)(param_1 + 0x1b4) < iVar7 || (*(uint *)(param_1 + 0x1b0) < uVar3)) &&",
+      "        (*(int *)(param_1 + 0x1a8) == *(int *)(param_1 + 0x6b4))))) {",
+      "      *(undefined4 *)(param_1 + 0x1a8) = 0;",
+      "    *(uint *)(param_1 + 0x1b0) = uVar3;"
+    ]
+  },
+  {
+    "file": "unnamed_00c3.c",
+    "header": "// 00c36a00 FUN_00c36a00",
+    "lines": [
+      "  *(undefined8 *)(param_1 + 0x1a8) = *puVar5;",
+      "  *(undefined4 *)(param_1 + 0x1b0) = *(undefined4 *)(puVar5 + 1);"
+    ]
+  },
+  {
+    "file": "unnamed_00c3.c",
+    "header": "// 00c36b50 FUN_00c36b50",
+    "lines": [
+      "  *(float *)(param_1 + 0x68) = *(float *)(param_1 + 0x1b0);",
+      "  *(float *)(param_1 + 0x48) = *(float *)(param_1 + 0x1a8);",
+      "                        (double)fVar3 * (double)*(float *)(param_1 + 0x1a8) +",
+      "                       (double)fVar1 * (double)*(float *)(param_1 + 0x1b0)) ^ uVar4);"
+    ]
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "header": "// 00cf2c10 FUN_00cf2c10",
+    "lines": [
+      "             fVar3 * *(float *)(param_1 + 0x1a8)) * param_5;",
+      "             *(float *)(param_1 + 0x1b0) * fVar3) * param_5;"
+    ]
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "header": "// 00cf3450 FUN_00cf3450",
+    "lines": [
+      "  fVar4 = *(float *)(param_1 + 0x1a8) * local_50;",
+      "  local_50 = *(float *)(param_1 + 0x1b0) * local_50;"
+    ]
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "header": "// 00cf8d70 FUN_00cf8d70",
+    "lines": [
+      "    local_4 = *(undefined4 *)(param_3 + 0x1b0);",
+      "    local_c = *(undefined8 *)(param_3 + 0x1a8);"
+    ]
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "header": "// 00cfa0c0 FUN_00cfa0c0",
+    "lines": [
+      "  local_68 = *(undefined8 *)(param_2 + 0x1a8);",
+      "  local_60 = *(undefined4 *)(param_2 + 0x1b0);"
+    ]
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "header": "// 00cfafc0 FUN_00cfafc0",
+    "lines": [
+      "  fVar7 = *(float *)(unaff_ESI + 0x1a8) * fVar2;",
+      "  fVar2 = *(float *)(unaff_ESI + 0x1b0) * fVar2;"
+    ]
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "header": "// 00cfc640 FUN_00cfc640",
+    "lines": [
+      "             *(float *)(param_1 + 0x1a8) * fVar5;",
+      "             *(float *)(param_1 + 0x1b0) * fVar5;",
+      "             *(float *)(param_1 + 0x1a8) * fVar7;",
+      "             *(float *)(param_1 + 0x1b0) * fVar7;",
+      "             *(float *)(param_1 + 0x1a8) * fVar7;",
+      "             *(float *)(param_1 + 0x1b0) * fVar7;",
+      "             *(float *)(param_1 + 0x1a8) * fVar7;",
+      "             fVar7 * *(float *)(param_1 + 0x1b0);"
+    ]
+  },
+  {
+    "file": "unnamed_00cf.c",
+    "header": "// 00cfdcf0 FUN_00cfdcf0",
+    "lines": [
+      "  uVar1 = *(undefined4 *)(param_4 + 0x1b0);",
+      "  *(undefined8 *)(param_1 + 0x16) = *(undefined8 *)(param_4 + 0x1a8);",
+      "  FUN_00c37d60(param_4 + 0x1b4,param_4 + 0x19c,param_4 + 0x1a8,param_1[0x56],param_1[0x57]);"
+    ]
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "header": "// 00d00f70 FUN_00d00f70",
+    "lines": [
+      "    local_18c = *(undefined4 *)(param_3 + 0x1b0);",
+      "    local_194 = (undefined4)*(undefined8 *)(param_3 + 0x1a8);",
+      "    uStack_190 = (undefined4)((ulonglong)*(undefined8 *)(param_3 + 0x1a8) >> 0x20);"
+    ]
+  },
+  {
+    "file": "unnamed_00d0.c",
+    "header": "// 00d095f0 FUN_00d095f0",
+    "lines": [
+      "    local_2c = *(float *)(param_3 + 0x1a8) * param_2;",
+      "    local_24 = *(float *)(param_3 + 0x1b0) * param_2;"
+    ]
+  },
+  {
+    "file": "unnamed_00d1.c",
+    "header": "// 00d13500 FUN_00d13500",
+    "lines": [
+      "  local_1b0 = *(float *)(param_2 + 0x1b0) * local_1e0;",
+      "                       *(float *)(param_2 + 0x1a8) * local_1e0);"
+    ]
+  },
+  {
+    "file": "unnamed_00d4.c",
+    "header": "// 00d40fd0 FUN_00d40fd0",
+    "lines": [
+      "  *(int **)(param_1 + 0x1a8) = piVar1;",
+      "  *(undefined4 *)(param_1 + 0x1b0) = 0;"
+    ]
+  },
+  {
+    "file": "unnamed_00d7.c",
+    "header": "// 00d78510 FUN_00d78510",
+    "lines": [
+      "  if (*(int *)(param_1 + 0x1a8) != 0) {",
+      "    iVar2 = FUN_00a70b80(*(int *)(param_1 + 0x1a8));",
+      "  if (*(int *)(param_1 + 0x1b0) != 0) {",
+      "    iVar2 = FUN_00a70b80(*(int *)(param_1 + 0x1b0));"
+    ]
+  },
+  {
+    "file": "unnamed_00e0.c",
+    "header": "// 00e0a070 FUN_00e0a070",
+    "lines": [
+      "  uVar1 = FUN_00af4d70(\"FORMATION_MGR/DISTANCES\",0x1a8bdbd,0x1ff97a9,1);",
+      "  uVar1 = FUN_00af4d70(\"FORMATION_MGR/DISTANCES\",0x1a8bdbd,0x1ff97a9,1);",
+      "  FUN_00e061c0(local_d08,param_1 + 0x160,uVar3,uVar1,uVar4);",
+      "  FUN_00e05db0(local_d08,param_1 + 0x1b0,uVar3,uVar1,uVar4,uVar5);"
+    ]
+  },
+  {
+    "file": "unnamed_00fe.c",
+    "header": "// 00fe5bb0 FUN_00fe5bb0",
+    "lines": [
+      "  *(undefined **)(param_1 + 0x1a8) = &DAT_019fed18;",
+      "          *(undefined4 *)(*(int *)(param_1 + 0x160) + uVar4 * 4) =",
+      "      *(int *)(param_1 + 0x1b0) = iVar8;",
+      "      *(undefined4 **)(param_1 + 0x1a8) = puVar7;",
+      "      *(undefined4 *)(*(int *)(param_1 + 0x1a8) + 4) = *(undefined4 *)(iVar2 + 8);",
+      "      *(undefined4 *)(*(int *)(param_1 + 0x1a8) + 8) = *(undefined4 *)(iVar2 + 0xc);",
+      "      *(undefined4 *)(*(int *)(param_1 + 0x1a8) + 0xc) = *(undefined4 *)(iVar2 + 0x10);",
+      "      *(undefined4 *)(*(int *)(param_1 + 0x1a8) + 0x10) = *(undefined4 *)(iVar2 + 0x14);",
+      "      *(undefined4 *)(*(int *)(param_1 + 0x1a8) + 0x14) = *(undefined4 *)(iVar2 + 0x18);",
+      "      *(undefined4 *)(*(int *)(param_1 + 0x1a8) + 0x18) = *(undefined4 *)(iVar2 + 0x1c);",
+      "      *(undefined4 *)(*(int *)(param_1 + 0x1a8) + 0x1c) = *(undefined4 *)(iVar2 + 0x20);"
+    ]
+  },
+  {
+    "file": "unnamed_0108.c",
+    "header": "// 010807f0 FUN_010807f0",
+    "lines": [
+      "    (**(code **)(*param_2 + 0x160))();",
+      "    (**(code **)(*param_2 + 0x1a8))();",
+      "    (**(code **)(*param_2 + 0x1b0))();"
+    ]
+  },
+  {
+    "file": "unnamed_010c.c",
+    "header": "// 010cf8b0 FUN_010cf8b0",
+    "lines": [
+      "    (**(code **)(**(int **)(param_1 + 0x10) + 0x1b0))();",
+      "    (**(code **)(**(int **)(param_1 + 0x10) + 0x1a8))();"
+    ]
+  }
+]

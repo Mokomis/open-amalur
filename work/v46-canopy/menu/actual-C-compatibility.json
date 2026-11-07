@@ -1,0 +1,29 @@
+{
+  "actual_current_and_backup_C_functions": true,
+  "legacy184": true,
+  "old188": true,
+  "new192": true,
+  "old_loader_reads_new_prefix": true,
+  "exact_176_180_byte_prefixes_preserved": true,
+  "dense_and_corrected_roundtrip": true,
+  "invalid_sizes_and_magic_rejected": true,
+  "user_files_touched": false,
+  "harness_directory": "/private/tmp/oa-v46-menu-compat-qp0o9jeh",
+  "source_sha256_normalized_lf": {
+    "c": "91175598362d952ee8220992e52b41537da71fdca37e3974fb51a8e317083bbb",
+    "h": "376bc49ece9f1e9617860ffe448eb69be2de2859950ce9ade508a926f245e5da"
+  },
+  "compile_command": [
+    "cc",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "/private/tmp/oa-v46-menu-compat-qp0o9jeh/check_menu_settings.c",
+    "-lm",
+    "-o",
+    "/private/tmp/oa-v46-menu-compat-qp0o9jeh/check_menu_settings"
+  ],
+  "full_app_build": false,
+  "platform": "MacARM64, int32/float32 layout with explicit sizeof/offsetof assertions; Windows/Android fullbuild remains parent"
+}

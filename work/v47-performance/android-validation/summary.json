@@ -1,0 +1,44 @@
+{
+  "measurements": [
+    {
+      "tag": "cached-a",
+      "mean_frame_ms": 28.665,
+      "fps": 34.88574917146346,
+      "submit_ms": 21.475,
+      "gpu_ms": 25.665
+    },
+    {
+      "tag": "legacy",
+      "mean_frame_ms": 29.240000000000002,
+      "fps": 34.19972640218878,
+      "submit_ms": 23.16,
+      "gpu_ms": 26.005000000000003
+    },
+    {
+      "tag": "cached-b",
+      "mean_frame_ms": 29.92,
+      "fps": 33.42245989304813,
+      "submit_ms": 20.68,
+      "gpu_ms": 27.14
+    },
+    {
+      "tag": "half-cached",
+      "mean_frame_ms": 16.675,
+      "fps": 59.97001499250374,
+      "submit_ms": 15.85,
+      "gpu_ms": 9.48
+    },
+    {
+      "tag": "half-legacy",
+      "mean_frame_ms": 19.105,
+      "fps": 52.34231876472128,
+      "submit_ms": 18.625,
+      "gpu_ms": 9.51
+    }
+  ],
+  "save_unchanged": true,
+  "settings_unchanged": true,
+  "properties_restored": true,
+  "version": "0.38.0",
+  "scope": "Short stationary same-view tests, live cache toggles; auto3loadingworkers active for all tablet measurements, not isolated as FPS source; no sustained/campaign claim"
+}

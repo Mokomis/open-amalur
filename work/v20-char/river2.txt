@@ -1,0 +1,189 @@
+sample ('out_dal_north_01', '00000000000000001b1c060000000000', 'e6ca0347822976c700dcd245da83fd3ac058614500000000c05861c5da83fd3a000000000000000000000000c0586145e6ca0347822976c700dcd2450000000000000000a493564e0000000000000000', 'e6ca0347822976c700dcd245bf586145e6ca0347822976c700dcd2450000803f0000000000000000f10435bff704353f0000803f0000803f0000803f5e000000902a0600000000000000000000000000fb2b724a', (33738.8984375, -63017.5078125, 6747.5), (0.0, 0.0, -0.7071066498756409, 0.7071070075035095), (1.0, 1.0, 1.0), (33738.8984375, -63017.5078125, 6747.5, 3605.546630859375), (404112, 0))
+fabs [(('0x140', 'for_doober_web_large_03', 1194934869), 12), (('0x140', 'for_doober_web_large_04', 1192992791), 12), (('0x140', 'for_doober_web_large_02', 1194920382), 12), (('0x140', 'for_doober_web_large_01', 1192974845), 12), (('0x140', 'for_doober_web_large_04', 1192690412), 12), (('0x140', 'for_doober_web_large_03', 1193666702), 12), (('0x140', 'for_doober_web_large_03', 1195024363), 12), (('0x140', 'for_doober_web_large_04', 1191874794), 12), (('0x140', 'for_doober_web_large_04', 1192230531), 12), (('0x140', 'for_doober_web_large_03', 1192541556), 12), (('0x140', 'for_doober_web_large_02', 1191660443), 12), (('0x140', 'for_doober_web_large_02', 1191904080), 12), (('0x140', 'for_doober_web_large_04', 1191554879), 12), (('0x140', 'for_doober_web_large_01', 1191623448), 12), (('0x140', 'for_doober_web_large_04', 1193191637), 12), (('0x140', 'for_doober_web_large_02', 1193248032), 12), (('0x140', 'for_doober_web_large_03', 1192574704), 12), (('0x140', 'for_doober_web_large_02', 1192893058), 12), (('0x140', 'for_doober_web_large_02', 1192553583), 12), (('0x140', 'for_doober_web_large_03', 1192950353), 12), (('0x140', 'for_doober_web_large_02', 1193347356), 12), (('0x140', 'for_doober_web_large_01', 1193829503), 12), (('0x140', 'for_doober_web_large_02', 3338551954), 12), (('0x140', 'for_doober_web_large_04', 3338785399), 12), (('0x140', 'for_doober_web_large_02', 3337596722), 12), (('0x140', 'for_doober_web_large_02', 3332263052), 12), (('0x140', 'for_doober_web_large_03', 3339129043), 12), (('0x140', 'for_doober_web_large_04', 3327117735), 12), (('0x140', 'for_doober_web_large_02', 3332843149), 12), (('0x140', 'for_doober_web_large_04', 3331045811), 12)]
+mats [(('0x140', 'for_web_02'), 657), (('0x140', 'for_web_04'), 582), (('0x140', 'for_web_01'), 483), (('0x140', 'for_web_03'), 438), (('0x140', 'for_waterfall'), 389), (('0x138', 'riverwater'), 189), (('0x138', 'riverwaterfall'), 170), (('0x140', 'for_web_05'), 156), (('0x138', 'pln_riverpond'), 30), (('0x140', 'gno_allestar_smoke'), 18), (('0x138', 'riverpond'), 9), (('0x140', 'det_mountainclouds'), 6), (('0x138', 'for_pond'), 3)]
+by shader [('emissivewithalphafog', 2316), ('scrollingwaterfall', 413), ('river', 362), ('rivernopointlights', 39)]
+riverwater 488 shader river d8010000080000002800000010000000a801000007000000f61b010002000000020000000004000000000040000000000000000000000000020000003fe0440100000040000000000000000000000000020000004f4c5c000000004000000000000000000000000002000000a8c262008fc2f53c00000000000000000000000002000000e8c5bc010ad7233c000000000000000000000000020000003bcabc018fc2f53c0000000000000000000000000200000072218b010ad7a33c000000000000000000000000020000006a6508018fc2f53c00000000000000000000000002000000bd6908016ff43d3f00000000000000000000000002000000ba3e0001f71d033d0000000000000000000000000200000057f0d70017b75138000000000000000000000000020000009b742a00cecc4c3ef6f4743e8382823e0000803f040000008c56af0000ff7e3fecea6a3fb7b6363f0000803f0400000069699f003333333f0000000000000000000000000b000000b249900000007a44000000000000000000000000020000002b564e0029b3e13e00000000000000000000000002000000d1a4c000fb1b010000000000fc1b010001000000fc1b010003000000fe1b010008000000fd1b01000b00000080e8060010000000f5570b00150000000000000008000000
+  words [(10, 2.0), (16, 2.0), (22, 2.0), (28, 0.03), (34, 0.01), (40, 0.03), (46, 0.02), (52, 0.03), (58, 0.742), (64, 0.032), (76, 0.2), (77, 0.239), (78, 0.255), (79, 1.0), (82, 0.996), (83, 0.918), (84, 0.714), (85, 1.0), (88, 0.7), (94, 1000.0), (100, 0.441)]
+  refs ['odv-river_base_d', 'odv-river_base_n', 'odv-river_froth_d', 'odv-river_detail_n', 'odv-river_base_b', '743412_cubemap']
+river 488 shader river d8010000080000002800000010000000a801000007000000f61b01000200000002000000000400000000803f000000000000000000000000020000003fe044010000803f000000000000000000000000020000004f4c5c000000803f00000000000000000000000002000000a8c26200cdcccc3d00000000000000000000000002000000e8c5bc01cdcccc3d000000000000000000000000020000003bcabc01cdcccc3d0000000000000000000000000200000072218b01cdcccc3d000000000000000000000000020000006a650801cdcccc3d00000000000000000000000002000000bd6908010000803f00000000000000000000000002000000ba3e0001b9a5d53c0000000000000000000000000200000057f0d700acc52738000000000000000000000000020000009b742a009796963eb7b6b63ed6d4d43e0000803f040000008c56af00f9f7773fc3c1413fcccaca3e0000803f0400000069699f003333333f0000000000000000000000000b000000b249900000002444000000000000000000000000020000002b564e00e525173f00000000000000000000000002000000d1a4c000fb1b010000000000fc1b010001000000fc1b010003000000fe1b010008000000fd1b01000b0000000640020010000000ad290600150000000000000008000000
+  words [(10, 1.0), (16, 1.0), (22, 1.0), (28, 0.1), (34, 0.1), (40, 0.1), (46, 0.1), (52, 0.1), (58, 1.0), (64, 0.026), (76, 0.294), (77, 0.357), (78, 0.416), (79, 1.0), (82, 0.969), (83, 0.757), (84, 0.396), (85, 1.0), (88, 0.7), (94, 656.0), (100, 0.59)]
+  refs ['odv-river_base_d', 'odv-river_base_n', 'odv-river_froth_d', 'odv-river_detail_n', 'noise_low', '403884_cubemap']
+for_pond 488 shader river d8010000080000002800000010000000a801000007000000f61b01000200000002000000000400000000803f000000000000000000000000020000003fe0440100008040000000000000000000000000020000004f4c5c000000803f00000000000000000000000002000000a8c262000ad723bc00000000000000000000000002000000e8c5bc010ad723bc000000000000000000000000020000003bcabc010ad7233c0000000000000000000000000200000072218b010ad723bc000000000000000000000000020000006a6508010ad723bc00000000000000000000000002000000bd6908010000803f00000000000000000000000002000000ba3e000175c80d3d0000000000000000000000000200000057f0d700acc52738000000000000000000000000020000009b742a00f1f0703de2e0e03d9190103e0000803f040000008c56af00f9f7773fc3c1413fcccaca3e0000803f0400000069699f003333333f0000000000000000000000000b000000b249900000002444000000000000000000000000020000002b564e00c7d9ec3e00000000000000000000000002000000d1a4c000fb1b010000000000fc1b010001000000fc1b010003000000fe1b010008000000fd1b01000b00000080e8060010000000d6d00300150000000000000008000000
+  words [(10, 1.0), (16, 4.0), (22, 1.0), (28, -0.01), (34, -0.01), (40, 0.01), (46, -0.01), (52, -0.01), (58, 1.0), (64, 0.035), (76, 0.059), (77, 0.11), (78, 0.141), (79, 1.0), (82, 0.969), (83, 0.757), (84, 0.396), (85, 1.0), (88, 0.7), (94, 656.0), (100, 0.463)]
+  refs ['odv-river_base_d', 'odv-river_base_n', 'odv-river_froth_d', 'odv-river_detail_n', 'odv-river_base_b', 'par_color_white_d']
+for_waterfall 264 shader scrollingwaterfall f8000000080000002800000007000000d0000000060000006c4a06000200000002000000640000000000000000000000000000000000000002000000ed1772003333333f00000000000000000000000002000000de6f72000000000000000000000000000000000002000000dea17a000000003f00000000000000000000000002000000cff97a000000a04000c0794400000000000000000b000000d880b6000000803f0000803f0000803f0000803f0400000069699f00b5b4343eb5b4343eb5b4343e0000803f030000002ff0da004f740600000000004e74060001000000b47806000300000051740600080000005074060009000000b47806000b0000000000000008000000
+  words [(16, 0.7), (28, 0.5), (34, 5.0), (35, 999.0), (40, 1.0), (41, 1.0), (42, 1.0), (43, 1.0), (46, 0.176), (47, 0.176), (48, 0.176), (49, 1.0)]
+  refs ['for_waterfall01_d', 'for_waterfall01_a', 'for_waterfall02_n', 'for_waterfall02_d', 'for_waterfall02_a']
+cbuffer g_materialbuffer
+// {
+//
+//   struct
+//   {
+//       
+//       float DetailNormalTileAmount;  // Offset:    0
+//       float NormalTileAmount;        // Offset:    4
+//       float DetailNormalScrollSpeed; // Offset:    8
+//       float NormalScrollSpeed;       // Offset:   12
+//       float WaterOpacity;            // Offset:   16
+//       float DetailInfluence;         // Offset:   20
+//       float HorizonRatio;            // Offset:   24
+//       float4 TintColor;              // Offset:   32
+//
+//   } g_material;                      // Offset:    0 Size:    48
+//
+// }
+//
+// cbuffer g_globalbuffer
+// {
+//
+//   struct
+//   {
+//       
+//       float4 fogColor;               // Offset:    0
+//       float4 worldToFogConstants;    // Offset:   16
+//       float3 sunLightDirection;      // Offset:   32
+//       float sunLightDirection_PAD0;  // Offset:   44
+//       float3 sunLi
+Resource Bindings:
+//
+// Name                                 Type  Format         Dim      HLSL Bind  Count
+// ------------------------------ ---------- ------- ----------- -------------- ------
+// g_ambient_cube_F_TLNR_U_CLMP_V_CLMP_S_GLBL_E_AmbientMap_sampler    sampler      NA          NA             s0      1 
+// g_diffuse_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_DiffuseMap_sampler    sampler      NA          NA             s1      1 
+// g_normal_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_NormalMap_sampler    sampler      NA          NA             s2      1 
+// g_specular_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_SpecularMap_sampler    sampler      NA          NA             s3      1 
+// g_detail_normal_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_NormalMap2_sampler    sampler      NA          NA             s4      1 
+// g_detail_specular_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_SpecularMap2_sampler    sampler      NA          NA             s5      1 
+// g_reflection_sampler_F_TLNR_U_CLMP_V_CLMP_S_MTRL_E_EnvironmentMap_sampler    sampler      NA          NA             s6      1 
+// g_ambient_cube_F_TLNR_U_CLMP_V_CLMP_S_GLBL_E_AmbientMap_texture    texture  float4        cube             t0      1 
+// g_diffuse_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_DiffuseMap_texture    texture  float4          2d             t1      1 
+// g_normal_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_NormalMap_texture    texture  float4          2d             t2      1 
+// g_specular_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_SpecularMap_texture    texture  float4          2d             t3      1 
+// g_detail_normal_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_NormalMap2_texture    texture  float4          2d             t4      1 
+// g_detail_specular_sampler_F_TLNR_U_WRAP_V_WRAP_S_MTRL_E_SpecularMap2_texture    texture  float4          2d             t5      1 
+// g_reflection_sampler_F_TLNR_U_CLMP_V_CLMP_S_MTRL_E_EnvironmentMap_texture    texture  float4        cube             t6      1 
+// g_materialbuffer                  cbuffer      NA          NA            cb0      1 
+// g_globalbuffer                    cbuffer      NA          NA            cb1      1 
+// g_viewbuffer                      cbuffer      NA          NA            cb2      1 
+// g_dynamicbuffer                   cbuffer      NA          NA
+ps_4_0
+dcl_constantbuffer CB0[3], immediateIndexed
+dcl_constantbuffer CB1[6], immediateIndexed
+dcl_constantbuffer CB2[5], immediateIndexed
+dcl_constantbuffer CB4[16], immediateIndexed
+dcl_constantbuffer CB5[8], dynamicIndexed
+dcl_sampler s0, mode_default
+dcl_sampler s1, mode_default
+dcl_sampler s2, mode_default
+dcl_sampler s3, mode_default
+dcl_sampler s4, mode_default
+dcl_sampler s5, mode_default
+dcl_sampler s6, mode_default
+dcl_resource_texturecube (float,float,float,float) t0
+dcl_resource_texture2d (float,float,float,float) t1
+dcl_resource_texture2d (float,float,float,float) t2
+dcl_resource_texture2d (float,float,float,float) t3
+dcl_resource_texture2d (float,float,float,float) t4
+dcl_resource_texture2d (float,float,float,float) t5
+dcl_resource_texturecube (float,float,float,float) t6
+dcl_input_ps linear v2.xyzw
+dcl_input_ps linear v4.xyz
+dcl_input_ps linear v6.xyz
+dcl_input_ps linear v7.xyz
+dcl_input_ps linear v8.xyz
+dcl_output o0.xyzw
+dcl_temps 10
+add r0.xyz, -v4.xyzx, cb2[4].xyzx
+dp3 r0.w, r0.xyzx, r0.xyzx
+sqrt r0.w, r0.w
+div r1.xyz, r0.xyzx, r0.wwww
+mul r0.x, r0.z, cb0[1].z
+add r0.y, -r0.z, r0.w
+div_sat r0.x, r0.y, r0.x
+add r0.x, -r0.x, l(1.000000)
+sample r2.xyzw, v2.xyxx, t2.xyzw, s2
+mul r2.x, r2.w, r2.x
+mad r2.xy, r2.xyxx, l(2.000000, 2.000000, 0.000000, 0.000000), l(-1.000000, -1.000000, 0.000000, 0.000000)
+dp2 r0.y, r2.xyxx, -r2.xyxx
+add_sat r0.y, r0.y, l(1.000000)
+sqrt r2.z, r0.y
+sample r3.xyzw, v2.xyxx, t3.xyzw, s3
+sample r4.xyzw, v2.zwzz, t4.xyzw, s4
+mul r4.x, r4.w, r4.x
+mad r4.xy, r4.xyxx, l(2.000000, 2.000000, 0.000000, 0.000000), l(-1.000000, -1.000000, 0.000000, 0.000000)
+dp2 r0.y, r4.xyxx, -r4.xyxx
+add_sat r0.y, r0.y, l(1.000000)
+sqrt r4.z, r0.y
+sample r5.xyzw, v2.zwzz, t5.xyzw, s5
+mad r0.yzw, r4.xxyz, cb0[1].yyyy, r2.xxyz
+dp3 r1.w, r0.yzwy, r0.yzwy
+rsq r1.w, r1.w
+mul r0.yzw, r0.yyzw, r1.wwww
+mul r2.xyz, r0.zzzz, v8.xyzx
+mad r2.xyz, r0.yyyy, v7.xyzx, r2.xyzx
+mad r0.yzw, r0.wwww, v6.xxyz, r2.xxyz
+dp3 r1.w, r0.yzwy, r0.yzwy
+rsq r1.w, r1.w
+mul r0.yzw, r0.yyzw, r1.wwww
+sample r2.xyzw, v2.xyxx, t1.xyzw, s1
+mul r1.w, r3.y, r5.y
+dp3 r2.w, -r1.xyzx, r0.yzwy
+add r2.w, r2.w, r2.w
+mad r3.xyz, r0.ywzy, -r2.wwww, -r1.xzyx
+sample r3.xyzw, r3.xyzx, t6.xyzw, s6
+add r3.xyz, -r2.xyzx, r3.xyzx
+mul r3.xyz, r3.xyzx, cb0[2].xyzx
+mul r4.w, r0.x, cb0[1].x
+dp3 r0.x, r1.xyzx, r0.yzwy
+add r0.x, r0.x, r0.x
+mad r1.xyz, r0.yzwy, -r0.xxxx, r1.xyzx
+sample r5.xyzw, r0.ywzy, t0.xyzw, s0
+mov r6.xyz, r5.xyzx
+mov r7.xyz, l(0,0,0,0)
+mov r8.xyz, l(0,0,0,0)
+mov r0.x, l(0)
+loop 
+  ige r2.w, r0.x, l(4)
+  breakc_nz r2.w
+  ishl r2.w, r0.x, l(1)
+  iadd r3.w, r2.w, l(1)
+  add r9.xyz, -v4.xyzx, cb5[r2.w + 0].xyzx
+  dp3 r5.w, r9.xyzx, r9.xyzx
+  sqrt r5.w, r5.w
+  mad_sat r2.w, r5.w, cb5[r2.w + 0].w, cb5[r3.w + 0].w
+  div r9.xyz, r9.xyzx, r5.wwww
+  dp3_sat r5.w, r0.yzwy, r9.xyzx
+  dp3_sat r6.w, r9.xyzx, -r1.xyzx
+  max r6.w, r6.w, l(0.000010)
+  log r6.w, r6.w
+  mul r6.w, r6.w, l(20.000000)
+  exp r6.w, r6.w
+  mul r2.w, r2.w, r5.w
+  mad r7.xyz, cb5[r3.w + 0].xyzx, r2.wwww, r7.xyzx
+  mul r9.xyz, r6.wwww, cb5[r3.w + 0].xyzx
+  mad r8.xyz, r9.xyzx, r2.wwww, r8.xyzx
+  iadd r0.x, r0.x, l(1)
+endloop 
+dp3_sat r0.x, r0.yzwy, cb1[2].xyzx
+dp3_sat r0.y, cb1[2].xyzx, -r1.xyzx
+max r0.y, r0.y, l(0.000010)
+log r0.y, r0.y
+mul r0.y, r0.y, l(20.000000)
+exp r0.y, r0.y
+add r0.z, -r0.x, l(1.000000)
+mad r1.xyz, cb1[3].xyzx, r0.xxxx, r7.xyzx
+mul r5.xyz, r0.yyyy, cb1[3].xyzx
+mad r0.xyw, r5.xyxz, r0.xxxx, r8.xyxz
+mad r5.xyz, r0.zzzz, cb1[5].xyzx, r6.xyzx
+mul r1.xyz, r2.xyzx, r1.xyzx
+mad r1.xyz, r5.xyzx, r2.xyzx, r1.xyzx
+mad r0.xyz, r0.xywx, r1.wwww, r1.xyzx
+mad r4.xyz, r3.xyzx, cb0[2].wwww, r0.xyzx
+mul r0.xyzw, r4.xyzw, cb4[13].xyzw
+dp3 r1.x, r0.xyzx, cb4[14].xyzx
+mad r1.xyz, r1.xxxx, cb4[15].xyzx, -r0.xyzx
+mad o0.xyz, cb4[14].wwww, r1.xyzx, r0.xyzx
+mov o0.w, r0.w
+ret 
+// Approximately 92 instruction slots used
+ 

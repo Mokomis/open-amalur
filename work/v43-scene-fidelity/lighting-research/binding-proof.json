@@ -1,0 +1,281 @@
+{
+  "binds_with_offset_360896": 2848,
+  "examples": [
+    {
+      "bind_index": 43247,
+      "bind": {
+        "commandBuffer": 46,
+        "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+        "layout": 7843,
+        "firstSet": 0,
+        "descriptorSetCount": 1,
+        "pDescriptorSets": [
+          13918
+        ],
+        "dynamicOffsetCount": 4,
+        "pDynamicOffsets": [
+          360640,
+          360640,
+          360896,
+          362304
+        ]
+      },
+      "descriptor_writes": {
+        "13918": {
+          "32": {
+            "index": 33930,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 32,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+              "pImageInfo": [
+                {
+                  "sampler": 0,
+                  "imageView": 13912,
+                  "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+                }
+              ]
+            }
+          },
+          "16": {
+            "index": 33931,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 16,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+              "pImageInfo": [
+                {
+                  "sampler": 149,
+                  "imageView": 0,
+                  "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+                }
+              ]
+            }
+          },
+          "0": {
+            "index": 33932,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 0,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 256
+                }
+              ]
+            }
+          },
+          "64": {
+            "index": 33933,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 64,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 256
+                }
+              ]
+            }
+          },
+          "65": {
+            "index": 33934,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 65,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 1376
+                }
+              ]
+            }
+          },
+          "68": {
+            "index": 33935,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 68,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 256
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "bind_index": 43250,
+      "bind": {
+        "commandBuffer": 46,
+        "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+        "layout": 7843,
+        "firstSet": 0,
+        "descriptorSetCount": 1,
+        "pDescriptorSets": [
+          13918
+        ],
+        "dynamicOffsetCount": 4,
+        "pDynamicOffsets": [
+          362560,
+          362560,
+          360896,
+          362816
+        ]
+      },
+      "descriptor_writes": {
+        "13918": {
+          "32": {
+            "index": 33930,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 32,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+              "pImageInfo": [
+                {
+                  "sampler": 0,
+                  "imageView": 13912,
+                  "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+                }
+              ]
+            }
+          },
+          "16": {
+            "index": 33931,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 16,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+              "pImageInfo": [
+                {
+                  "sampler": 149,
+                  "imageView": 0,
+                  "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+                }
+              ]
+            }
+          },
+          "0": {
+            "index": 33932,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 0,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 256
+                }
+              ]
+            }
+          },
+          "64": {
+            "index": 33933,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 64,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 256
+                }
+              ]
+            }
+          },
+          "65": {
+            "index": 33934,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 65,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 1376
+                }
+              ]
+            }
+          },
+          "68": {
+            "index": 33935,
+            "write": {
+              "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+              "pNext": null,
+              "dstSet": 13918,
+              "dstBinding": 68,
+              "dstArrayElement": 0,
+              "descriptorCount": 1,
+              "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+              "pBufferInfo": [
+                {
+                  "buffer": 51,
+                  "offset": 0,
+                  "range": 256
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

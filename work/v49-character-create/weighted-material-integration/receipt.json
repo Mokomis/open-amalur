@@ -1,0 +1,47 @@
+{
+  "status": "PASS staging-only bounded adapter",
+  "ready_part_mask": 46,
+  "supported_parts": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "actual_renderer": {
+    "egl": "1.5",
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4080 SUPER (0x00002702) Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.16.1692)",
+    "version": "OpenGL ES 3.0 (ANGLE 2.1.27600 git hash: f39c3524d091)",
+    "glsl": "OpenGL ES GLSL ES 3.00 (ANGLE 2.1.27600 git hash: f39c3524d091)",
+    "surface": "256x256pbuffer,no native window"
+  },
+  "production_poses": 4,
+  "part_cases": 16,
+  "feedback_vertices": 12752,
+  "max_feedback_error": {
+    "world_position_cm": 3.0517578125e-05,
+    "N": 1.7881393432617188e-07,
+    "T": 1.7881393432617188e-07,
+    "B": 1.7881393432617188e-07,
+    "VC": 0.0,
+    "UV0": 0.0
+  },
+  "missing_feet_texture_mask": 44,
+  "core_before_after_equal": true,
+  "arm64_C99_object_compile": "PASS -Wall -Wextra -Werror",
+  "no_live_merge_or_deploy": true,
+  "source_and_adapter_hashes": {
+    "oa_weighted_hardlight.c": "8311b14631f04cc5008ac0e2842b665ea56b4eb9913c1c3f1fa2f8813a823fea",
+    "oa_weighted_hardlight.h": "5f4f8bd9c6a3d283b59d81d200bf6eeb0047daf56205fca9c568b8cad7a3b020",
+    "clothing_source_tables.inc": "24e63141f7dc704d179c35d0f461d47e4ef4aceccd8be2f85074454b2e4b4e55",
+    "actual-weighted-vertex.glsl": "7d3b29d47c7853c13a005d8ceb6cc427d0c079901957e43f6f8946c1ee89b035",
+    "actual-weighted-fragment.glsl": "cdef9975dc4c0fa50df39338f075d031bad7e345bc6b8a530156e1118a634925"
+  },
+  "scope_limits": [
+    "no original clothing-instance capture",
+    "no native animation timing equality",
+    "no full creator/skin/all races",
+    "no illuminated room/point113/shadow/AO/fog validation",
+    "no AndroidGPU/FPS"
+  ]
+}

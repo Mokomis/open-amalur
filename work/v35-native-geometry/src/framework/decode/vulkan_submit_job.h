@@ -1,0 +1,271 @@
+/*
+** Copyright (c) 2026 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#ifndef GFXRECON_DECODE_VULKAN_SUBMIT_JOB_H
+#define GFXRECON_DECODE_VULKAN_SUBMIT_JOB_H
+
+#include <functional>
+#include <span>
+#include <vector>
+#include <unordered_map>
+
+#include "decode/vulkan_object_info.h"
+#include "graphics/vulkan_injected_calls.h"
+#include "graphics/vulkan_semaphore_util.h"
+#include "decode/common_object_info_table.h"
+#include "decode/vulkan_submit_info_helper.h"
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(decode)
+
+/**
+ * @brief   Callback executed before a queue submit.
+ *
+ * The callback receives the submit's original wait-semaphores and returns a semaphore that should be waited on by
+ * the original submit-info.
+ */
+typedef std::function<graphics::VulkanSemaphore(const std::span<graphics::VulkanSemaphore>)> VulkanSubmitJob;
+
+/**
+ * @brief   For each submit entry, multiple jobs can be registered.
+ */
+struct VulkanSubmitJobs
+{
+    std::vector<VulkanSubmitJob> jobs;
+};
+
+/**
+ * @brief   Stores pre-submit jobs grouped by submit index.
+ *
+ * Submit indices correspond to entries in the VkSubmitInfo/VkSubmitInfo2 arrays passed to VulkanSubmitJobExecution.
+ */
+class VulkanSubmitJobPlan
+{
+  public:
+    VulkanSubmitJobPlan()  = default;
+    ~VulkanSubmitJobPlan() = default;
+
+    /**
+     * @brief   Append a job for one submit entry.
+     *
+     * @param   submit_index     index in the submit array where the job will run.
+     * @param   job              callback that performs injected work and returns a signal semaphore.
+     */
+    void Push(uint32_t submit_index, VulkanSubmitJob job);
+
+    /**
+     * @brief   Access submit-indexed jobs.
+     *
+     * @return  vector of job lists indexed by submit index.
+     */
+    const std::vector<VulkanSubmitJobs>& GetSubmitJobs() const { return submit_jobs_; }
+
+    /**
+     * @brief   Access submit-indexed jobs for a specific submit index.
+     *
+     * @param   submit_index     index in the submit array.
+     * @return  pointer to the VulkanSubmitJobs for the given index, or nullptr if none exist.
+     */
+    const VulkanSubmitJobs* GetSubmitJobsForIndex(uint32_t submit_index) const;
+
+    /**
+     * @brief   Check if there are jobs for a specific submit index.
+     *
+     * @param   submit_index     index in the submit array.
+     * @return  true if there are jobs for the given index, false otherwise.
+     */
+    bool HasJobsForIndex(uint32_t submit_index) const;
+
+  private:
+    std::vector<VulkanSubmitJobs> submit_jobs_;
+};
+
+class VulkanSubmitJobExecutor;
+
+/**
+ * @brief   An execution for Vulkan submit jobs.
+ *
+ * This is useful for both injecting new jobs and serializing submit entries within a single
+ * `vkQueueSubmit()`/`vkQueueSubmit2()` call by making each `VkSubmitInfo`/`VkSubmitInfo2` wait on semaphores
+ * signaled by the previous submit.
+ * Submit serialization uses one executor-owned timeline semaphore for the full submit array. Each submit waits on the
+ * current timeline value and signals the next value, so the timeline value advances once per submit entry.
+ *
+ * It does not preserve state across separate queue-submit calls.
+ *
+ * @note This object owns backing storage for pointers written into submit structs, including semaphore arrays, wait
+ *       stage masks, timeline values, and injected pNext structures.
+ *       It must outlive the queue submit that consumes those structs.
+ */
+class VulkanSubmitJobExecution
+{
+  public:
+    VulkanSubmitJobExecution(VulkanSubmitJobExecutor& executor) : executor_(executor) {}
+
+    /**
+     * @brief   Execute jobs and inject wait-semaphores into VkSubmitInfo.
+     *
+     * @param   plan             submit-indexed jobs to execute.
+     * @param   submit_infos     submit array to mutate in place.
+     */
+    void InjectBefore(VulkanSubmitJobPlan plan, std::span<VkSubmitInfo> submit_infos);
+
+    /**
+     * @brief   Execute jobs and inject wait-semaphore infos into VkSubmitInfo2.
+     *
+     * @param   plan             submit-indexed jobs to execute.
+     * @param   submit_infos2    submit2 array to mutate in place.
+     */
+    void InjectBefore(VulkanSubmitJobPlan plan, std::span<VkSubmitInfo2> submit_infos2);
+
+    /**
+     * @brief  SerializeExecution submit entries within one queue-submit call.
+     *
+     * Mutates the provided submit array to serialize execution order within one `vkQueueSubmit()` call. One injected
+     * timeline semaphore is added to every submit: each submit waits on the current timeline value and signals the next
+     * value. The first submit waits on the semaphore's initial value, and each subsequent submit waits for the value
+     * signaled by the previous submit.
+     *
+     * @param  submit_infos     submit array to mutate in place.
+     */
+    void SerializeExecution(std::span<VkSubmitInfo> submit_infos);
+
+    /**
+     * @brief  SerializeExecution submit entries within one queue-submit call.
+     *
+     * Mutates the provided submit2 array to serialize execution order within one `vkQueueSubmit2()` call. One injected
+     * timeline semaphore is added to every submit: each submit waits on the current timeline value and signals the next
+     * value. The first submit waits on the semaphore's initial value, and each subsequent submit waits for the value
+     * signaled by the previous submit.
+     *
+     * @param  submit_infos2    submit2 array to mutate in place.
+     */
+    void SerializeExecution(std::span<VkSubmitInfo2> submit_infos2);
+
+  private:
+    /**
+     * @brief  Just submit the jobs in the plan without modifying any other submit infos.
+     *
+     * @param  plan             plan with submit-indexed jobs to submit.
+     *
+     * @note   Any signal semaphores returned by the jobs will be ignored.
+     */
+    void SubmitStandalone(VulkanSubmitJobPlan plan) const;
+
+    VulkanSubmitInfoHelper&  GetSubmitInfoHelper(VkSubmitInfo& submit_info);
+    VulkanSubmitInfo2Helper& GetSubmitInfo2Helper(VkSubmitInfo2& submit_info2);
+
+    VulkanSubmitJobExecutor& executor_;
+
+    /// Original waits stripped from each submit before injection, keyed by either `VkSubmitInfo*` or `VkSubmitInfo2*`.
+    std::unordered_map<void*, VulkanSubmitSemaphores> original_wait_semaphores_;
+
+    std::unordered_map<VkSubmitInfo*, std::unique_ptr<VulkanSubmitInfoHelper>>   submit_info_helpers_;
+    std::unordered_map<VkSubmitInfo2*, std::unique_ptr<VulkanSubmitInfo2Helper>> submit_info2_helpers_;
+};
+
+/**
+ * @brief   Executor managing device resources for submit job execution.
+ *
+ * `VulkanSubmitJobExecutor` owns device-side resources used by `VulkanSubmitJobExecution`
+ * instances to implement injected jobs and serialization of submit entries.
+ * Create one executor per device and call `CreateExecution()` to obtain a short-lived
+ * execution object that borrows the executor for the duration of a single queue-submit call.
+ *
+ * The executor creates and destroys semaphores used for chaining submits and
+ * holds them so their handles remain valid while modified submit structures
+ * are in use. The executor must outlive any `VulkanSubmitJobExecution` and
+ * the actual `vkQueueSubmit`/`vkQueueSubmit2` call that consumes the modified
+ * submit arrays.
+ * Semaphores created for serialization remain tracked until their final target value has been reached; pruning checks
+ * that target value before destroying them.
+ *
+ * @note Instances are intended to be per-device and may be reused across
+ *       multiple queue-submit calls. `VulkanSubmitJobExecution` objects are
+ *       short-lived and are not safe to use after the executor is destroyed.
+ */
+class VulkanSubmitJobExecutor
+{
+  public:
+    /**
+     * @brief Construct a submit job executor for a device.
+     *
+     * @param device_info Pointer to VulkanDeviceInfo for the device this executor manages.
+     * @param device_table Pointer to the Vulkan device dispatch table used to create/destroy resources.
+     */
+    VulkanSubmitJobExecutor(const VulkanDeviceInfo*                    device_info,
+                            const graphics::VulkanInjectedDeviceCalls& device_table);
+
+    /**
+     * @brief Create a short-lived execution object for a single queue-submit call.
+     *
+     * The returned `VulkanSubmitJobExecution` borrows this executor and is intended to be used to
+     * inject job work and/or serialize submits for the duration of a single `vkQueueSubmit`/`vkQueueSubmit2` call.
+     *
+     * @return VulkanSubmitJobExecution execution object tied to this executor.
+     */
+    VulkanSubmitJobExecution CreateExecution() { return VulkanSubmitJobExecution(*this); }
+
+    /**
+     * @brief Create a timeline semaphore.
+     *
+     * Semaphores are stored internally and destroyed when their target value is reached or when the executor is
+     * destroyed. A serialization pass uses one created semaphore across all submits in that queue-submit call.
+     *
+     * @return A pointer to the `VulkanInjectedSemaphore` just created or `nullptr` on error.
+     */
+    VulkanInjectedSemaphore* CreateTimelineSemaphore();
+
+    /**
+     * @brief Create a timeline semaphore info.
+     *
+     * Semaphores are stored internally and destroyed when their target value is reached or when the executor is
+     * destroyed. A serialization pass uses one created semaphore across all submits in that queue-submit call.
+     *
+     * @return A pointer to the `VulkanInjectedSemaphoreInfo` just created or `nullptr` on error.
+     */
+    VulkanInjectedSemaphoreInfo* CreateTimelineSemaphoreInfo();
+
+    /**
+     * @brief Prunes timeline semaphores that have reached or exceeded their final target value.
+     */
+    void PruneSignaledTimelineSemaphores();
+
+    /**
+     * @brief Prunes timeline semaphore infos that have reached or exceeded their final target value.
+     */
+    void PruneSignaledTimelineSemaphoreInfos();
+
+  private:
+    const VulkanDeviceInfo*             device_info_ = nullptr;
+    graphics::VulkanInjectedDeviceCalls device_table_;
+
+    std::vector<std::unique_ptr<VulkanInjectedSemaphore>>     injected_semaphores_;
+    std::vector<std::unique_ptr<VulkanInjectedSemaphoreInfo>> injected_semaphore_infos_;
+};
+
+using VulkanPerDeviceSubmitJobExecutors = std::unordered_map<const VulkanDeviceInfo*, VulkanSubmitJobExecutor>;
+
+GFXRECON_END_NAMESPACE(decode)
+GFXRECON_END_NAMESPACE(gfxrecon)
+
+#endif // GFXRECON_DECODE_VULKAN_SUBMIT_JOB_H

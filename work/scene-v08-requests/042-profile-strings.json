@@ -1,0 +1,8 @@
+﻿{
+    "label":  "profile_namespace_strings",
+    "arguments":  {
+                      "pattern":  "^PROFILE$|^get_variable$|^set_variable$",
+                      "mode":  "regex"
+                  },
+    "tool":  "search_strings"
+}

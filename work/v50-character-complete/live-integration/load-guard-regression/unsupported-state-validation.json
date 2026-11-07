@@ -1,0 +1,685 @@
+{
+  "passed": true,
+  "checksummed_valid_external_state_files": [
+    {
+      "file": "unsupported-0.bin",
+      "size": 3400,
+      "sha256": "a9434431e5abd124b63c003cc42ca42028b8fea87dac7f2a2dc4f7ef03a44a31",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 3,
+      "name": "Mira",
+      "transaction": 101,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 49,
+        "maxhealth": 52,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 0,
+        "owned": 1,
+        "equipped": 0,
+        "door_open": 1,
+        "secondary_disabled": 1,
+        "compare_enabled": 1,
+        "revision": 3,
+        "quest_noops": 1,
+        "pose": [
+          4311.99755859375,
+          2805.989501953125,
+          -314.5389099121094,
+          0.0,
+          0.0
+        ],
+        "identity": "scene1417252:player1:g1",
+        "lua": {
+          "version": 1,
+          "wos_flags": 10112,
+          "sword_flags": 1,
+          "cinematic_flags": 0,
+          "sword_get": 1,
+          "clock": 15,
+          "serial": 1
+        },
+        "timers": [
+          {
+            "hash": 151774118,
+            "due": 30,
+            "serial": 1,
+            "argc": 1,
+            "item": 0
+          }
+        ],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      },
+      "path": "test-output-1794007448720399400\\case-0-1\\unsupported-0.bin"
+    },
+    {
+      "file": "unsupported-1.bin",
+      "size": 3400,
+      "sha256": "aa6dacff6385d3c27a96d31ceead777c345aed557aa0343b30809fb85db8d1b7",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 3,
+      "name": "Mira",
+      "transaction": 101,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 49,
+        "maxhealth": 52,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 0,
+        "owned": 1,
+        "equipped": 1,
+        "door_open": 1,
+        "secondary_disabled": 1,
+        "compare_enabled": 1,
+        "revision": 4,
+        "quest_noops": 1,
+        "pose": [
+          4311.99755859375,
+          2805.989501953125,
+          -314.5389099121094,
+          0.0,
+          0.0
+        ],
+        "identity": "scene1417252:player1:g1",
+        "lua": {
+          "version": 1,
+          "wos_flags": 26496,
+          "sword_flags": 3,
+          "cinematic_flags": 0,
+          "sword_get": 1,
+          "clock": 15,
+          "serial": 1
+        },
+        "timers": [
+          {
+            "hash": 151774118,
+            "due": 30,
+            "serial": 1,
+            "argc": 1,
+            "item": 0
+          }
+        ],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      },
+      "path": "test-output-1794007448720399400\\case-0-1\\unsupported-1.bin"
+    },
+    {
+      "file": "unsupported-2.bin",
+      "size": 3372,
+      "sha256": "e8011f9104e6dd2ba9566fa926fe6012d9387e0a21044750b6a0edd09a62caac",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 0,
+      "sex": 1,
+      "patron_index": 3,
+      "name": "Mira",
+      "transaction": 101,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 49,
+        "maxhealth": 52,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        20,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 0,
+        "owned": 1,
+        "equipped": 1,
+        "door_open": 1,
+        "secondary_disabled": 1,
+        "compare_enabled": 1,
+        "revision": 5,
+        "quest_noops": 1,
+        "pose": [
+          4311.99755859375,
+          2805.989501953125,
+          -314.5389099121094,
+          0.0,
+          0.0
+        ],
+        "identity": "scene1417252:player1:g1",
+        "lua": {
+          "version": 1,
+          "wos_flags": 26496,
+          "sword_flags": 3,
+          "cinematic_flags": 0,
+          "sword_get": 1,
+          "clock": 30,
+          "serial": 1
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      },
+      "path": "test-output-1794007448720399400\\case-0-1\\unsupported-2.bin"
+    },
+    {
+      "file": "unsupported-0.bin",
+      "size": 3401,
+      "sha256": "220a692473d1b2f51ac693a69917e3210fa259edcd124f1e7f47b246f27efeaf",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 3,
+      "name": "Aelar",
+      "transaction": 101,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 49,
+        "maxhealth": 52,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 0,
+        "owned": 1,
+        "equipped": 0,
+        "door_open": 1,
+        "secondary_disabled": 1,
+        "compare_enabled": 1,
+        "revision": 3,
+        "quest_noops": 1,
+        "pose": [
+          4311.99755859375,
+          2805.989501953125,
+          -314.5389099121094,
+          0.0,
+          0.0
+        ],
+        "identity": "scene1417252:player1:g1",
+        "lua": {
+          "version": 1,
+          "wos_flags": 10112,
+          "sword_flags": 1,
+          "cinematic_flags": 0,
+          "sword_get": 1,
+          "clock": 15,
+          "serial": 1
+        },
+        "timers": [
+          {
+            "hash": 151774118,
+            "due": 30,
+            "serial": 1,
+            "argc": 1,
+            "item": 0
+          }
+        ],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      },
+      "path": "test-output-1794007448720399400\\case-2-0\\unsupported-0.bin"
+    },
+    {
+      "file": "unsupported-1.bin",
+      "size": 3401,
+      "sha256": "9276d16343973de6dfe7df4311f9a77652e0a0c80436a338bdd2bc9aa4ae3a32",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 3,
+      "name": "Aelar",
+      "transaction": 101,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 49,
+        "maxhealth": 52,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 0,
+        "owned": 1,
+        "equipped": 1,
+        "door_open": 1,
+        "secondary_disabled": 1,
+        "compare_enabled": 1,
+        "revision": 4,
+        "quest_noops": 1,
+        "pose": [
+          4311.99755859375,
+          2805.989501953125,
+          -314.5389099121094,
+          0.0,
+          0.0
+        ],
+        "identity": "scene1417252:player1:g1",
+        "lua": {
+          "version": 1,
+          "wos_flags": 26496,
+          "sword_flags": 3,
+          "cinematic_flags": 0,
+          "sword_get": 1,
+          "clock": 15,
+          "serial": 1
+        },
+        "timers": [
+          {
+            "hash": 151774118,
+            "due": 30,
+            "serial": 1,
+            "argc": 1,
+            "item": 0
+          }
+        ],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      },
+      "path": "test-output-1794007448720399400\\case-2-0\\unsupported-1.bin"
+    },
+    {
+      "file": "unsupported-2.bin",
+      "size": 3373,
+      "sha256": "1f12306e98309e55d16ec2429b8751808415dd4f1649dedc3a15f81e0a2f154a",
+      "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+      "race": 2,
+      "sex": 0,
+      "patron_index": 3,
+      "name": "Aelar",
+      "transaction": 101,
+      "catalogue_crc": 2693632117,
+      "owner": {
+        "patron": 1254099,
+        "health": 49,
+        "maxhealth": 52,
+        "destiny_buff": 385357,
+        "destiny_identifier": 9325294,
+        "started": 1,
+        "passive": 1,
+        "destiny_locked": 1,
+        "fateweaver_locked": 1,
+        "quest_stage": 5,
+        "finalized": 1,
+        "package4": 1,
+        "stealth_registered": 1,
+        "reckoning_registered": 1,
+        "stealth": 0,
+        "sees": 0,
+        "reckoning": 0,
+        "revision": 2
+      },
+      "skills": [
+        10,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      "item_count": 165,
+      "opening": {
+        "inside": 3,
+        "initialized": 1,
+        "skipped": 0,
+        "container_count": 0,
+        "owned": 1,
+        "equipped": 1,
+        "door_open": 1,
+        "secondary_disabled": 1,
+        "compare_enabled": 1,
+        "revision": 5,
+        "quest_noops": 1,
+        "pose": [
+          4311.99755859375,
+          2805.989501953125,
+          -314.5389099121094,
+          0.0,
+          0.0
+        ],
+        "identity": "scene1417252:player1:g1",
+        "lua": {
+          "version": 1,
+          "wos_flags": 26496,
+          "sword_flags": 3,
+          "cinematic_flags": 0,
+          "sword_get": 1,
+          "clock": 30,
+          "serial": 1
+        },
+        "timers": [],
+        "tutorials": [
+          {
+            "id": 17524338,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 26339831,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 40879367,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 61835887,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          },
+          {
+            "id": 49968583,
+            "active": 0,
+            "fired": 0,
+            "kills": 0
+          }
+        ]
+      },
+      "path": "test-output-1794007448720399400\\case-2-0\\unsupported-2.bin"
+    }
+  ]
+}

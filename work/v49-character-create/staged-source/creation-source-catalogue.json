@@ -1,0 +1,1409 @@
+{
+  "schema_version": 1,
+  "evidence_scope": "Source declarations and cached native code, not original-engine execution; staged geometry validated by current custom C parser/bones only.",
+  "original_ui_phases": [
+    "Race",
+    "Patron",
+    "Presets",
+    "Customization"
+  ],
+  "name_ui_limit": 16,
+  "name_unit": "Original editbox units; byte/Unicode code-unit semantics not established.",
+  "skill_raw_units_per_rank": 10,
+  "types": [
+    {
+      "type": "Almain_Male",
+      "race": "Almain",
+      "gender": "Male",
+      "default_name": "Elrid",
+      "race_hash": 1812351,
+      "gender_hash": 673049,
+      "full_player_simtype": 669805,
+      "creator_simtype": 1536820,
+      "rig_fab": 456813,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 4,
+        "EyeLiner": 1,
+        "EyeColor": 1,
+        "Tattoo": 1431913,
+        "TattooColor": 1,
+        "Head": 1304307,
+        "EyebrowAlpha": 220,
+        "BeardColor": 16,
+        "Lipstick": 16,
+        "Eyebrow": 16,
+        "HairColor": 16,
+        "LipstickAlpha": 120,
+        "EyeLinerAlpha": 90,
+        "TattooAlpha": 180,
+        "Beard": 1371890,
+        "Hair": 1388827
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 4,
+          "EyeLiner": 1,
+          "EyeColor": 1,
+          "Tattoo": 1431913,
+          "TattooColor": 1,
+          "Head": 1304307,
+          "EyebrowAlpha": 220,
+          "BeardColor": 16,
+          "Lipstick": 16,
+          "Eyebrow": 16,
+          "HairColor": 16,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 180,
+          "Beard": 1371890,
+          "Hair": 1388827
+        },
+        "2": {
+          "FaceAccesory": 1506635,
+          "SkinTone": 10,
+          "EyeLiner": 1,
+          "EyeColor": 8,
+          "Tattoo": 1431913,
+          "TattooColor": 1,
+          "Head": 1304353,
+          "EyebrowAlpha": 255,
+          "BeardColor": 19,
+          "Lipstick": 19,
+          "Eyebrow": 19,
+          "HairColor": 19,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 180,
+          "Beard": 1389480,
+          "Hair": 1304513
+        },
+        "3": {
+          "FaceAccesory": 1499153,
+          "SkinTone": 6,
+          "EyeLiner": 1,
+          "EyeColor": 3,
+          "Tattoo": 1431985,
+          "TattooColor": 1,
+          "Head": 1304356,
+          "EyebrowAlpha": 220,
+          "BeardColor": 11,
+          "Lipstick": 11,
+          "Eyebrow": 11,
+          "HairColor": 11,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 120,
+          "Beard": 1373561,
+          "Hair": 1304583
+        },
+        "4": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 3,
+          "EyeLiner": 1,
+          "EyeColor": 8,
+          "Tattoo": 1431913,
+          "TattooColor": 1,
+          "Head": 1304352,
+          "EyebrowAlpha": 255,
+          "BeardColor": 19,
+          "Lipstick": 19,
+          "Eyebrow": 19,
+          "HairColor": 19,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 180,
+          "Beard": 1371888,
+          "Hair": 1304587
+        },
+        "5": {
+          "FaceAccesory": 1506630,
+          "SkinTone": 7,
+          "EyeLiner": 1,
+          "EyeColor": 4,
+          "Tattoo": 1431913,
+          "TattooColor": 1,
+          "Head": 1304355,
+          "EyebrowAlpha": 255,
+          "BeardColor": 13,
+          "Lipstick": 19,
+          "Eyebrow": 13,
+          "HairColor": 13,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 180,
+          "Beard": 1371889,
+          "Hair": 1304584
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 20,
+        "Persuasion": 10,
+        "Alchemy": 10,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 2,
+        "Persuasion": 1,
+        "Alchemy": 1,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "allowed_patrons": [
+        {
+          "name": "Fire",
+          "buff_id": 1254092
+        },
+        {
+          "name": "Wisdom",
+          "buff_id": 1254094
+        },
+        {
+          "name": "War",
+          "buff_id": 1254095
+        },
+        {
+          "name": "Order",
+          "buff_id": 1254099
+        },
+        {
+          "name": "Justice",
+          "buff_id": 1254101
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": {
+        "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v49-character-create\\packs\\Almain_Male\\character.bin",
+        "sha256": "ede399d687bcbbc9d1534a208e81a13b9b3785a6f2b52dc25b28f78f36a484a4",
+        "core_parser_and_bones_validated": true,
+        "GPU_validated": false,
+        "material_fidelity": false,
+        "header": [
+          64,
+          30,
+          17,
+          15
+        ]
+      }
+    },
+    {
+      "type": "Almain_Female",
+      "race": "Almain",
+      "gender": "Female",
+      "default_name": "Aidith",
+      "race_hash": 1812351,
+      "gender_hash": 1641879,
+      "full_player_simtype": 669806,
+      "creator_simtype": 1536818,
+      "rig_fab": 611642,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 4,
+        "HairColor": 16,
+        "EyeColor": 1,
+        "Tattoo": 1431913,
+        "EyebrowAlpha": 220,
+        "Eyebrow": 16,
+        "Lipstick": 3,
+        "LipstickAlpha": 120,
+        "EyeLinerAlpha": 120,
+        "EyeLiner": 2,
+        "TattooAlpha": 180,
+        "TattooColor": 1,
+        "Head": 1384512,
+        "Hair": 1384365
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 4,
+          "HairColor": 16,
+          "EyeColor": 1,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 16,
+          "Lipstick": 3,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 2,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1384512,
+          "Hair": 1384365
+        },
+        "2": {
+          "FaceAccesory": 1506625,
+          "SkinTone": 2,
+          "HairColor": 16,
+          "EyeColor": 6,
+          "Tattoo": 1432262,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 2,
+          "Lipstick": 2,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 2,
+          "TattooAlpha": 210,
+          "TattooColor": 8,
+          "Head": 1384516,
+          "Hair": 1399876
+        },
+        "3": {
+          "FaceAccesory": 1499159,
+          "SkinTone": 1,
+          "HairColor": 20,
+          "EyeColor": 2,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 20,
+          "Lipstick": 9,
+          "LipstickAlpha": 100,
+          "EyeLinerAlpha": 180,
+          "EyeLiner": 10,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1384513,
+          "Hair": 1384363
+        },
+        "4": {
+          "FaceAccesory": 1506634,
+          "SkinTone": 9,
+          "HairColor": 19,
+          "EyeColor": 1,
+          "Tattoo": 1432033,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 19,
+          "Lipstick": 8,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 5,
+          "TattooAlpha": 130,
+          "TattooColor": 2,
+          "Head": 1384515,
+          "Hair": 1384365
+        },
+        "5": {
+          "FaceAccesory": 1498545,
+          "SkinTone": 5,
+          "HairColor": 15,
+          "EyeColor": 15,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 130,
+          "Eyebrow": 15,
+          "Lipstick": 10,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 9,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1384514,
+          "Hair": 1384359
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 20,
+        "Persuasion": 10,
+        "Alchemy": 10,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 2,
+        "Persuasion": 1,
+        "Alchemy": 1,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "allowed_patrons": [
+        {
+          "name": "Fire",
+          "buff_id": 1254092
+        },
+        {
+          "name": "Wisdom",
+          "buff_id": 1254094
+        },
+        {
+          "name": "War",
+          "buff_id": 1254095
+        },
+        {
+          "name": "Order",
+          "buff_id": 1254099
+        },
+        {
+          "name": "Justice",
+          "buff_id": 1254101
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": null
+    },
+    {
+      "type": "Varani_Male",
+      "race": "Varani",
+      "gender": "Male",
+      "default_name": "Stigandr",
+      "race_hash": 1889828,
+      "gender_hash": 673049,
+      "full_player_simtype": 669805,
+      "creator_simtype": 1536821,
+      "rig_fab": 456813,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 2,
+        "EyeLiner": 1,
+        "EyeColor": 5,
+        "Tattoo": 1431913,
+        "TattooColor": 1,
+        "Head": 1304403,
+        "EyebrowAlpha": 220,
+        "BeardColor": 4,
+        "Lipstick": 5,
+        "Eyebrow": 4,
+        "HairColor": 4,
+        "LipstickAlpha": 120,
+        "EyeLinerAlpha": 90,
+        "TattooAlpha": 180,
+        "Beard": 1389483,
+        "Hair": 1304591
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 2,
+          "EyeLiner": 1,
+          "EyeColor": 5,
+          "Tattoo": 1431913,
+          "TattooColor": 8,
+          "Head": 1304403,
+          "EyebrowAlpha": 220,
+          "BeardColor": 4,
+          "Lipstick": 5,
+          "Eyebrow": 4,
+          "HairColor": 4,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 180,
+          "Beard": 1389483,
+          "Hair": 1304591
+        },
+        "2": {
+          "FaceAccesory": 1506633,
+          "SkinTone": 10,
+          "EyeLiner": 5,
+          "EyeColor": 7,
+          "Tattoo": 1432035,
+          "TattooColor": 3,
+          "Head": 1304402,
+          "EyebrowAlpha": 210,
+          "BeardColor": 19,
+          "Lipstick": 3,
+          "Eyebrow": 19,
+          "HairColor": 19,
+          "LipstickAlpha": 240,
+          "EyeLinerAlpha": 100,
+          "TattooAlpha": 125,
+          "Beard": 1371889,
+          "Hair": 1304588
+        },
+        "3": {
+          "FaceAccesory": 1506625,
+          "SkinTone": 2,
+          "EyeLiner": 1,
+          "EyeColor": 6,
+          "Tattoo": 1432033,
+          "TattooColor": 7,
+          "Head": 1304398,
+          "EyebrowAlpha": 190,
+          "BeardColor": 8,
+          "Lipstick": 12,
+          "Eyebrow": 8,
+          "HairColor": 8,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 210,
+          "TattooAlpha": 80,
+          "Beard": 1371885,
+          "Hair": 1304589
+        },
+        "4": {
+          "FaceAccesory": 1506627,
+          "SkinTone": 4,
+          "EyeLiner": 1,
+          "EyeColor": 1,
+          "Tattoo": 1431913,
+          "TattooColor": 7,
+          "Head": 1304362,
+          "EyebrowAlpha": 200,
+          "BeardColor": 12,
+          "Lipstick": 11,
+          "Eyebrow": 12,
+          "HairColor": 12,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 150,
+          "Beard": 1389484,
+          "Hair": 1304592
+        },
+        "5": {
+          "FaceAccesory": 1498545,
+          "SkinTone": 1,
+          "EyeLiner": 8,
+          "EyeColor": 8,
+          "Tattoo": 1431999,
+          "TattooColor": 12,
+          "Head": 1304397,
+          "EyebrowAlpha": 190,
+          "BeardColor": 17,
+          "Lipstick": 2,
+          "Eyebrow": 17,
+          "HairColor": 17,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 125,
+          "TattooAlpha": 140,
+          "Beard": 1371890,
+          "Hair": 1304590
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 0,
+        "Mercantile": 10,
+        "DetectHidden": 10,
+        "Lockpicking": 20,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 0,
+        "Mercantile": 1,
+        "DetectHidden": 1,
+        "Lockpicking": 2,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "allowed_patrons": [
+        {
+          "name": "Fire",
+          "buff_id": 1254092
+        },
+        {
+          "name": "Water",
+          "buff_id": 1254093
+        },
+        {
+          "name": "War",
+          "buff_id": 1254095
+        },
+        {
+          "name": "Death",
+          "buff_id": 1254097
+        },
+        {
+          "name": "Mischief",
+          "buff_id": 1254102
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": {
+        "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v49-character-create\\packs\\Varani_Male\\character.bin",
+        "sha256": "0c9452b0ee5412e8066f830020ccdda2cf28bd7be1539c88d37a8b453bf901e2",
+        "core_parser_and_bones_validated": true,
+        "GPU_validated": false,
+        "material_fidelity": false,
+        "header": [
+          64,
+          30,
+          16,
+          15
+        ]
+      }
+    },
+    {
+      "type": "Varani_Female",
+      "race": "Varani",
+      "gender": "Female",
+      "default_name": "Isolda",
+      "race_hash": 1889828,
+      "gender_hash": 1641879,
+      "full_player_simtype": 669806,
+      "creator_simtype": 1536819,
+      "rig_fab": 611642,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 2,
+        "HairColor": 4,
+        "EyeColor": 5,
+        "Tattoo": 1431913,
+        "EyebrowAlpha": 220,
+        "Eyebrow": 4,
+        "Lipstick": 2,
+        "LipstickAlpha": 60,
+        "EyeLinerAlpha": 120,
+        "EyeLiner": 2,
+        "TattooAlpha": 180,
+        "TattooColor": 1,
+        "Head": 1385080,
+        "Hair": 1384498
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 2,
+          "HairColor": 4,
+          "EyeColor": 5,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 4,
+          "Lipstick": 2,
+          "LipstickAlpha": 60,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 2,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1385080,
+          "Hair": 1384498
+        },
+        "2": {
+          "FaceAccesory": 1506632,
+          "SkinTone": 5,
+          "HairColor": 16,
+          "EyeColor": 9,
+          "Tattoo": 1432002,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 16,
+          "Lipstick": 2,
+          "LipstickAlpha": 63,
+          "EyeLinerAlpha": 178,
+          "EyeLiner": 10,
+          "TattooAlpha": 63,
+          "TattooColor": 1,
+          "Head": 1385080,
+          "Hair": 1384496
+        },
+        "3": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 4,
+          "HairColor": 12,
+          "EyeColor": 5,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 12,
+          "Lipstick": 5,
+          "LipstickAlpha": 60,
+          "EyeLinerAlpha": 63,
+          "EyeLiner": 7,
+          "TattooAlpha": 1,
+          "TattooColor": 1,
+          "Head": 1385123,
+          "Hair": 1384508
+        },
+        "4": {
+          "FaceAccesory": 1506627,
+          "SkinTone": 9,
+          "HairColor": 19,
+          "EyeColor": 4,
+          "Tattoo": 1432025,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 19,
+          "Lipstick": 3,
+          "LipstickAlpha": 63,
+          "EyeLinerAlpha": 70,
+          "EyeLiner": 7,
+          "TattooAlpha": 125,
+          "TattooColor": 1,
+          "Head": 1385120,
+          "Hair": 1384495
+        },
+        "5": {
+          "FaceAccesory": 1506628,
+          "SkinTone": 4,
+          "HairColor": 20,
+          "EyeColor": 20,
+          "Tattoo": 1431972,
+          "EyebrowAlpha": 180,
+          "Eyebrow": 20,
+          "Lipstick": 11,
+          "LipstickAlpha": 63,
+          "EyeLinerAlpha": 70,
+          "EyeLiner": 3,
+          "TattooAlpha": 200,
+          "TattooColor": 8,
+          "Head": 1385114,
+          "Hair": 1384436
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 0,
+        "Mercantile": 10,
+        "DetectHidden": 10,
+        "Lockpicking": 20,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 0,
+        "Mercantile": 1,
+        "DetectHidden": 1,
+        "Lockpicking": 2,
+        "Sagecraft": 0,
+        "Stealth": 0,
+        "Dispelling": 0
+      },
+      "allowed_patrons": [
+        {
+          "name": "Fire",
+          "buff_id": 1254092
+        },
+        {
+          "name": "Water",
+          "buff_id": 1254093
+        },
+        {
+          "name": "War",
+          "buff_id": 1254095
+        },
+        {
+          "name": "Death",
+          "buff_id": 1254097
+        },
+        {
+          "name": "Mischief",
+          "buff_id": 1254102
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": null
+    },
+    {
+      "type": "Ljosalfar_Male",
+      "race": "Ljosalfar",
+      "gender": "Male",
+      "default_name": "Lorcan",
+      "race_hash": 4668301,
+      "gender_hash": 673049,
+      "full_player_simtype": 669807,
+      "creator_simtype": 1536816,
+      "rig_fab": 456813,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 1,
+        "EyeLiner": 2,
+        "EyeColor": 2,
+        "Tattoo": 1431913,
+        "TattooColor": 1,
+        "Head": 1304443,
+        "EyebrowAlpha": 220,
+        "BeardColor": 5,
+        "Lipstick": 5,
+        "Eyebrow": 5,
+        "HairColor": 5,
+        "LipstickAlpha": 120,
+        "EyeLinerAlpha": 90,
+        "TattooAlpha": 180,
+        "Beard": 1390251,
+        "Hair": 1304600
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 1,
+          "EyeLiner": 2,
+          "EyeColor": 2,
+          "Tattoo": 1431913,
+          "TattooColor": 1,
+          "Head": 1304443,
+          "EyebrowAlpha": 220,
+          "BeardColor": 5,
+          "Lipstick": 5,
+          "Eyebrow": 5,
+          "HairColor": 5,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 180,
+          "Beard": 1390251,
+          "Hair": 1304600
+        },
+        "2": {
+          "FaceAccesory": 1506634,
+          "SkinTone": 8,
+          "EyeLiner": 2,
+          "EyeColor": 10,
+          "Tattoo": 1431917,
+          "TattooColor": 8,
+          "Head": 1304444,
+          "EyebrowAlpha": 200,
+          "BeardColor": 8,
+          "Lipstick": 3,
+          "Eyebrow": 9,
+          "HairColor": 9,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 110,
+          "TattooAlpha": 80,
+          "Beard": 1390253,
+          "Hair": 1304597
+        },
+        "3": {
+          "FaceAccesory": 1499155,
+          "SkinTone": 5,
+          "EyeLiner": 4,
+          "EyeColor": 9,
+          "Tattoo": 1431964,
+          "TattooColor": 9,
+          "Head": 1304450,
+          "EyebrowAlpha": 240,
+          "BeardColor": 1,
+          "Lipstick": 5,
+          "Eyebrow": 4,
+          "HairColor": 1,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 120,
+          "TattooAlpha": 180,
+          "Beard": 1390261,
+          "Hair": 1304601
+        },
+        "4": {
+          "FaceAccesory": 1499153,
+          "SkinTone": 9,
+          "EyeLiner": 1,
+          "EyeColor": 8,
+          "Tattoo": 1432035,
+          "TattooColor": 8,
+          "Head": 1304456,
+          "EyebrowAlpha": 190,
+          "BeardColor": 5,
+          "Lipstick": 8,
+          "Eyebrow": 3,
+          "HairColor": 14,
+          "LipstickAlpha": 210,
+          "EyeLinerAlpha": 200,
+          "TattooAlpha": 130,
+          "Beard": 1304514,
+          "Hair": 1304513
+        },
+        "5": {
+          "FaceAccesory": 1499159,
+          "SkinTone": 7,
+          "EyeLiner": 5,
+          "EyeColor": 7,
+          "Tattoo": 1432020,
+          "TattooColor": 1,
+          "Head": 1304489,
+          "EyebrowAlpha": 150,
+          "BeardColor": 19,
+          "Lipstick": 1,
+          "Eyebrow": 19,
+          "HairColor": 19,
+          "LipstickAlpha": 0,
+          "EyeLinerAlpha": 250,
+          "TattooAlpha": 130,
+          "Beard": 1371889,
+          "Hair": 1304598
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 10,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 10,
+        "Stealth": 0,
+        "Dispelling": 20
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 1,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 1,
+        "Stealth": 0,
+        "Dispelling": 2
+      },
+      "allowed_patrons": [
+        {
+          "name": "Earth",
+          "buff_id": 1254079
+        },
+        {
+          "name": "Air",
+          "buff_id": 1254091
+        },
+        {
+          "name": "Wisdom",
+          "buff_id": 1254094
+        },
+        {
+          "name": "Order",
+          "buff_id": 1254099
+        },
+        {
+          "name": "Justice",
+          "buff_id": 1254101
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": null
+    },
+    {
+      "type": "Ljosalfar_Female",
+      "race": "Ljosalfar",
+      "gender": "Female",
+      "default_name": "Siobhan",
+      "race_hash": 4668301,
+      "gender_hash": 1641879,
+      "full_player_simtype": 669808,
+      "creator_simtype": 1536839,
+      "rig_fab": 611642,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 1,
+        "HairColor": 5,
+        "EyeColor": 2,
+        "Tattoo": 1431913,
+        "EyebrowAlpha": 220,
+        "Eyebrow": 5,
+        "Lipstick": 2,
+        "LipstickAlpha": 180,
+        "EyeLinerAlpha": 120,
+        "EyeLiner": 2,
+        "TattooAlpha": 180,
+        "TattooColor": 1,
+        "Head": 1385165,
+        "Hair": 1384650
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 1,
+          "HairColor": 5,
+          "EyeColor": 2,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 5,
+          "Lipstick": 2,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 2,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1385165,
+          "Hair": 1384650
+        },
+        "2": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 8,
+          "HairColor": 4,
+          "EyeColor": 9,
+          "Tattoo": 1432025,
+          "EyebrowAlpha": 200,
+          "Eyebrow": 18,
+          "Lipstick": 4,
+          "LipstickAlpha": 84,
+          "EyeLinerAlpha": 84,
+          "EyeLiner": 6,
+          "TattooAlpha": 70,
+          "TattooColor": 3,
+          "Head": 1385194,
+          "Hair": 1384365
+        },
+        "3": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 10,
+          "HairColor": 12,
+          "EyeColor": 7,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 56,
+          "Eyebrow": 18,
+          "Lipstick": 4,
+          "LipstickAlpha": 84,
+          "EyeLinerAlpha": 84,
+          "EyeLiner": 6,
+          "TattooAlpha": 130,
+          "TattooColor": 1,
+          "Head": 1385198,
+          "Hair": 1384657
+        },
+        "4": {
+          "FaceAccesory": 1506632,
+          "SkinTone": 4,
+          "HairColor": 19,
+          "EyeColor": 6,
+          "Tattoo": 1431972,
+          "EyebrowAlpha": 180,
+          "Eyebrow": 19,
+          "Lipstick": 17,
+          "LipstickAlpha": 245,
+          "EyeLinerAlpha": 10,
+          "EyeLiner": 7,
+          "TattooAlpha": 87,
+          "TattooColor": 1,
+          "Head": 1385188,
+          "Hair": 1384393
+        },
+        "5": {
+          "FaceAccesory": 1498545,
+          "SkinTone": 5,
+          "HairColor": 19,
+          "EyeColor": 7,
+          "Tattoo": 1431985,
+          "EyebrowAlpha": 134,
+          "Eyebrow": 19,
+          "Lipstick": 17,
+          "LipstickAlpha": 85,
+          "EyeLinerAlpha": 135,
+          "EyeLiner": 2,
+          "TattooAlpha": 87,
+          "TattooColor": 1,
+          "Head": 1385165,
+          "Hair": 1384510
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 10,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 10,
+        "Stealth": 0,
+        "Dispelling": 20
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 0,
+        "Persuasion": 0,
+        "Alchemy": 1,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 1,
+        "Stealth": 0,
+        "Dispelling": 2
+      },
+      "allowed_patrons": [
+        {
+          "name": "Earth",
+          "buff_id": 1254079
+        },
+        {
+          "name": "Air",
+          "buff_id": 1254091
+        },
+        {
+          "name": "Wisdom",
+          "buff_id": 1254094
+        },
+        {
+          "name": "Order",
+          "buff_id": 1254099
+        },
+        {
+          "name": "Justice",
+          "buff_id": 1254101
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": null
+    },
+    {
+      "type": "Dokkalfar_Male",
+      "race": "Dokkalfar",
+      "gender": "Male",
+      "default_name": "Caerwyn",
+      "race_hash": 4602950,
+      "gender_hash": 673049,
+      "full_player_simtype": 669807,
+      "creator_simtype": 1536813,
+      "rig_fab": 456813,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 1,
+        "EyeLiner": 1,
+        "EyeColor": 3,
+        "Tattoo": 1431913,
+        "TattooColor": 1,
+        "Head": 1304512,
+        "EyebrowAlpha": 220,
+        "BeardColor": 19,
+        "Lipstick": 19,
+        "Eyebrow": 19,
+        "HairColor": 19,
+        "LipstickAlpha": 120,
+        "EyeLinerAlpha": 90,
+        "TattooAlpha": 180,
+        "Beard": 1390268,
+        "Hair": 1304602
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 1,
+          "EyeLiner": 1,
+          "EyeColor": 3,
+          "Tattoo": 1431913,
+          "TattooColor": 1,
+          "Head": 1304512,
+          "EyebrowAlpha": 220,
+          "BeardColor": 19,
+          "Lipstick": 19,
+          "Eyebrow": 19,
+          "HairColor": 19,
+          "LipstickAlpha": 120,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 180,
+          "Beard": 1390268,
+          "Hair": 1304602
+        },
+        "2": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 3,
+          "EyeLiner": 5,
+          "EyeColor": 1,
+          "Tattoo": 1431916,
+          "TattooColor": 1,
+          "Head": 1304511,
+          "EyebrowAlpha": 240,
+          "BeardColor": 20,
+          "Lipstick": 4,
+          "Eyebrow": 20,
+          "HairColor": 19,
+          "LipstickAlpha": 0,
+          "EyeLinerAlpha": 200,
+          "TattooAlpha": 120,
+          "Beard": 1390266,
+          "Hair": 1304513
+        },
+        "3": {
+          "FaceAccesory": 1499161,
+          "SkinTone": 8,
+          "EyeLiner": 1,
+          "EyeColor": 7,
+          "Tattoo": 1431972,
+          "TattooColor": 1,
+          "Head": 1304510,
+          "EyebrowAlpha": 240,
+          "BeardColor": 14,
+          "Lipstick": 1,
+          "Eyebrow": 15,
+          "HairColor": 15,
+          "LipstickAlpha": 0,
+          "EyeLinerAlpha": 110,
+          "TattooAlpha": 100,
+          "Beard": 1304514,
+          "Hair": 1304603
+        },
+        "4": {
+          "FaceAccesory": 1506634,
+          "SkinTone": 6,
+          "EyeLiner": 2,
+          "EyeColor": 9,
+          "Tattoo": 1431913,
+          "TattooColor": 1,
+          "Head": 1304508,
+          "EyebrowAlpha": 220,
+          "BeardColor": 1,
+          "Lipstick": 1,
+          "Eyebrow": 1,
+          "HairColor": 1,
+          "LipstickAlpha": 130,
+          "EyeLinerAlpha": 80,
+          "TattooAlpha": 180,
+          "Beard": 1390268,
+          "Hair": 1304605
+        },
+        "5": {
+          "FaceAccesory": 1506626,
+          "SkinTone": 10,
+          "EyeLiner": 1,
+          "EyeColor": 8,
+          "Tattoo": 1431988,
+          "TattooColor": 2,
+          "Head": 1304512,
+          "EyebrowAlpha": 220,
+          "BeardColor": 19,
+          "Lipstick": 19,
+          "Eyebrow": 19,
+          "HairColor": 1,
+          "LipstickAlpha": 0,
+          "EyeLinerAlpha": 90,
+          "TattooAlpha": 130,
+          "Beard": 1304514,
+          "Hair": 1304604
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 0,
+        "Persuasion": 10,
+        "Alchemy": 0,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 10,
+        "Stealth": 20,
+        "Dispelling": 0
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 0,
+        "Persuasion": 1,
+        "Alchemy": 0,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 1,
+        "Stealth": 2,
+        "Dispelling": 0
+      },
+      "allowed_patrons": [
+        {
+          "name": "Wisdom",
+          "buff_id": 1254094
+        },
+        {
+          "name": "Love",
+          "buff_id": 1254096
+        },
+        {
+          "name": "Death",
+          "buff_id": 1254097
+        },
+        {
+          "name": "Fate",
+          "buff_id": 1254098
+        },
+        {
+          "name": "Mischief",
+          "buff_id": 1254102
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": null
+    },
+    {
+      "type": "Dokkalfar_Female",
+      "race": "Dokkalfar",
+      "gender": "Female",
+      "default_name": "Niah",
+      "race_hash": 4602950,
+      "gender_hash": 1641879,
+      "full_player_simtype": 669808,
+      "creator_simtype": 1536800,
+      "rig_fab": 611642,
+      "default_customization": {
+        "FaceAccesory": 1498507,
+        "SkinTone": 1,
+        "HairColor": 19,
+        "EyeColor": 3,
+        "Tattoo": 1431913,
+        "EyebrowAlpha": 220,
+        "Eyebrow": 19,
+        "Lipstick": 2,
+        "LipstickAlpha": 180,
+        "EyeLinerAlpha": 120,
+        "EyeLiner": 2,
+        "TattooAlpha": 180,
+        "TattooColor": 1,
+        "Head": 1389535,
+        "Hair": 1384370
+      },
+      "presets": {
+        "1": {
+          "FaceAccesory": 1506635,
+          "SkinTone": 1,
+          "HairColor": 19,
+          "EyeColor": 3,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 19,
+          "Lipstick": 2,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 2,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1389535,
+          "Hair": 1384370
+        },
+        "2": {
+          "FaceAccesory": 1506631,
+          "SkinTone": 4,
+          "HairColor": 19,
+          "EyeColor": 5,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 19,
+          "Lipstick": 3,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 2,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1389536,
+          "Hair": 1384397
+        },
+        "3": {
+          "FaceAccesory": 1506628,
+          "SkinTone": 8,
+          "HairColor": 14,
+          "EyeColor": 2,
+          "Tattoo": 1432009,
+          "EyebrowAlpha": 255,
+          "Eyebrow": 16,
+          "Lipstick": 12,
+          "LipstickAlpha": 80,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 2,
+          "TattooAlpha": 85,
+          "TattooColor": 13,
+          "Head": 1389538,
+          "Hair": 1384393
+        },
+        "4": {
+          "FaceAccesory": 1498507,
+          "SkinTone": 3,
+          "HairColor": 18,
+          "EyeColor": 8,
+          "Tattoo": 1431913,
+          "EyebrowAlpha": 255,
+          "Eyebrow": 18,
+          "Lipstick": 3,
+          "LipstickAlpha": 255,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 19,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1389537,
+          "Hair": 1385062
+        },
+        "5": {
+          "FaceAccesory": 1506634,
+          "SkinTone": 9,
+          "HairColor": 19,
+          "EyeColor": 6,
+          "Tattoo": 1432025,
+          "EyebrowAlpha": 220,
+          "Eyebrow": 19,
+          "Lipstick": 17,
+          "LipstickAlpha": 180,
+          "EyeLinerAlpha": 120,
+          "EyeLiner": 3,
+          "TattooAlpha": 180,
+          "TattooColor": 1,
+          "Head": 1389539,
+          "Hair": 1399876
+        }
+      },
+      "source_skill_bonus_raw": {
+        "Blacksmithing": 0,
+        "Persuasion": 10,
+        "Alchemy": 0,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 10,
+        "Stealth": 20,
+        "Dispelling": 0
+      },
+      "source_skill_bonus_ranks": {
+        "Blacksmithing": 0,
+        "Persuasion": 1,
+        "Alchemy": 0,
+        "Mercantile": 0,
+        "DetectHidden": 0,
+        "Lockpicking": 0,
+        "Sagecraft": 1,
+        "Stealth": 2,
+        "Dispelling": 0
+      },
+      "allowed_patrons": [
+        {
+          "name": "Wisdom",
+          "buff_id": 1254094
+        },
+        {
+          "name": "Love",
+          "buff_id": 1254096
+        },
+        {
+          "name": "Death",
+          "buff_id": 1254097
+        },
+        {
+          "name": "Fate",
+          "buff_id": 1254098
+        },
+        {
+          "name": "Mischief",
+          "buff_id": 1254102
+        },
+        {
+          "name": "None",
+          "buff_id": 1697849
+        }
+      ],
+      "geometry_candidate": null
+    }
+  ],
+  "palette_json": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v49-character-create\\analysis\\resolved-cosmetic-palettes.json",
+  "commit_contract": {
+    "apply_racial_bonus_once": true,
+    "apply_selected_patron_buff_including_None": true,
+    "patron_buff_caster_tag": 1731073,
+    "patron_buff_duration": -1,
+    "rebuild_skill_actor_states": true,
+    "set_health_to_max": true,
+    "do_not_assume_missing_buff_effects_implemented": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "native_blueprint_reader": "00f76530",
+  "source_offset": "0x1c",
+  "stats_offset": "0x3c",
+  "instance_vec4": 4,
+  "instance_byte_offset": 64,
+  "shader_name": "blushColor",
+  "source_all12_initial_packed": "0x00000000",
+  "eyebrow_color_wrapper": "0102d980",
+  "eyebrow_color_native": "0102b510",
+  "blush_color_wrapper": "0102d840",
+  "blush_color_native": "0102b3c0",
+  "eyebrow_setter_behavior": "If existing alpha is nonzero preserve it, otherwise retain selected palette highbyte (normally255); unlike always-preserving blush setter.",
+  "evidence": [
+    "00f76530 source reader",
+    "00dda730 instance producer",
+    "0102b510.c",
+    "0102b3c0.c",
+    "0102d980-eyebrow-wrapper.asm"
+  ]
+}

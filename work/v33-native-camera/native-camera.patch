@@ -1,0 +1,100 @@
+--- a/tools/replay/android_main.cpp
++++ b/tools/replay/android_main.cpp
+@@ -1,3 +1,4 @@
++#include "util/oa_camera_control.h"
+ /*
+ ** Copyright (c) 2018-2020 Valve Corporation
+ ** Copyright (c) 2018-2026 LunarG, Inc.
+@@ -83,6 +84,7 @@
+     const auto oa_static = gfxrecon::util::GetIntentExtra(app, "oa_static_memory");
+     setenv("OA_STATIC_MEMORY", oa_static == "2" ? "2" : (oa_static == "1" ? "1" : "0"), 1);
+ 
++    setenv("OA_CAMERA", gfxrecon::util::GetIntentExtra(app, "oa_camera") == "1" ? "1" : "0", 1);
+     gfxrecon::replay::LoadFeatures(g_features);
+ 
+     // Each Feature adds its own command-line entries to the shared name lists, so an entry exists only
+@@ -216,6 +218,24 @@
+ 
+ int32_t ProcessInputEvent(struct android_app* app, AInputEvent* event)
+ {
++    if (oa_camera::Enabled() && AInputEvent_getType(event)==AINPUT_EVENT_TYPE_MOTION) {
++        static float lastx=0,lasty=0,startx=0,starty=0;static bool moved=false;
++        const int action=AMotionEvent_getAction(event)&AMOTION_EVENT_ACTION_MASK;
++        const float x=AMotionEvent_getX(event,0),y=AMotionEvent_getY(event,0);
++        if(action==AMOTION_EVENT_ACTION_DOWN) {lastx=startx=x;lasty=starty=y;moved=false;}
++        else if(action==AMOTION_EVENT_ACTION_MOVE) {
++            const float dx=x-lastx,dy=y-lasty;
++            moved=moved || std::abs(x-startx)+std::abs(y-starty)>12;
++            if(AMotionEvent_getPointerCount(event)>1) {oa_camera::pose.right-=dx;oa_camera::pose.forward-=dy;}
++            else {oa_camera::pose.yaw-=dx*0.00035f;oa_camera::pose.pitch+=dy*0.00035f;}
++            oa_camera::Clamp();lastx=x;lasty=y;
++        } else if(action==AMOTION_EVENT_ACTION_UP) {
++            if(!moved) oa_camera::pose={};
++            GFXRECON_LOG_INFO("OA CAMERA TOUCH yaw=%f pitch=%f right=%f forward=%f",oa_camera::pose.yaw,oa_camera::pose.pitch,oa_camera::pose.right,oa_camera::pose.forward);
++        }
++        return 1;
++    }
++
+     if (app->userData != nullptr)
+     {
+         int32_t type = AInputEvent_getType(event);
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.h
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.h
+@@ -395,6 +395,10 @@
+   private:
+     graphics::FrameLoopInfo& frame_loop_info_;
+     bool oa_static_memory_{ false };
++    std::vector<uint8_t> oa_camera_baseline_;
++    std::vector<uint8_t> oa_camera_upload_;
++    float oa_camera_last_[4]{ 1000,1000,1000,1000 };
++    void OaApplyCamera();
+     bool oa_static_resources_{ false };
+     uint64_t oa_layout_only_restores_{ 0 };
+     uint64_t oa_skipped_fill_calls_{ 0 };
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.cpp
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.cpp
+@@ -1,3 +1,4 @@
++#include "util/oa_camera_control.h"
+ /*
+ ** Copyright (c) 2026 LunarG, Inc.
+ **
+@@ -335,11 +336,39 @@
+ {
+     if (oa_static_memory_ && frame_loop_info_.IsRepetition())
+     {
++        if(oa_camera::Enabled() && memory_id==52 && offset==0) OaApplyCamera();
+         ++oa_skipped_fill_calls_;
+         oa_skipped_fill_bytes_ += size;
+         return;
+     }
+     VulkanReplayFrameLoopConsumerBase::ProcessFillMemoryCommand(memory_id, offset, size, data);
++    if(oa_camera::Enabled() && oa_static_resources_ && memory_id==52 && offset==0 && size==33554432) {
++        // Require exact captured inputs at every selected matrix before admitting this capture-specific patch.
++        constexpr size_t needed=1763904+64;
++        uint64_t hash=14695981039346656037ull;for(size_t i=0;i<needed;++i)hash=(hash^data[i])*1099511628211ull;
++        // The manifest is specific to one immutable captured resource image.
++        if(hash!=6033220689869735878ull) {GFXRECON_LOG_ERROR("OA CAMERA capture fingerprint mismatch; disabled");oa_camera_baseline_.clear();return;}
++        oa_camera_baseline_.assign(data,data+needed);oa_camera_upload_=oa_camera_baseline_;
++        for(float& v:oa_camera_last_)v=1000;
++        GFXRECON_LOG_INFO("OA CAMERA initialized memory=52 bytes=%zu",needed);
++        OaApplyCamera();
++    }
++}
++
++#include "oa_camera_offsets.inc"
++void VulkanReplayFrameLoopConsumer::OaApplyCamera() {
++    if(oa_camera_baseline_.empty())return;
++    auto p=oa_camera::Read();float current[4]={p.yaw,p.pitch,p.right,p.forward};
++    if(std::memcmp(current,oa_camera_last_,sizeof(current))==0)return;
++    // Always derive from immutable captured input; no cumulative matrix drift.
++    oa_camera_upload_=oa_camera_baseline_;
++    for(uint64_t off:oa_camera_offsets) {
++        float before[16],after[16];std::memcpy(before,oa_camera_baseline_.data()+off,64);
++        oa_camera::Transform(before,after,p);std::memcpy(oa_camera_upload_.data()+off,after,64);
++    }
++    VulkanReplayFrameLoopConsumerBase::ProcessFillMemoryCommand(52,0,oa_camera_upload_.size(),oa_camera_upload_.data());
++    std::memcpy(oa_camera_last_,current,sizeof(current));
++    GFXRECON_LOG_INFO("OA CAMERA applied matrices=%zu yaw=%f pitch=%f right=%f forward=%f",sizeof(oa_camera_offsets)/sizeof(oa_camera_offsets[0]),p.yaw,p.pitch,p.right,p.forward);
+ }
+ 
+ VulkanReplayFrameLoopConsumer::~VulkanReplayFrameLoopConsumer()

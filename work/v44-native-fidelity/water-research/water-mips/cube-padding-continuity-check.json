@@ -1,0 +1,90 @@
+{
+  "scope": "corroboration only: authored lower levels compared with2x2average of previous authoredlevel; not a mipgeneration step",
+  "all_correct_layout_errors_lower": true,
+  "levels": [
+    {
+      "image": 3549,
+      "level": 3,
+      "width": 16,
+      "correct_tight_faces_MSE": 10.210272894965279,
+      "incorrect_per_face512_stride_MSE": 8437.48870171441
+    },
+    {
+      "image": 3549,
+      "level": 4,
+      "width": 8,
+      "correct_tight_faces_MSE": 10.4384765625,
+      "incorrect_per_face512_stride_MSE": 11728.377712673611
+    },
+    {
+      "image": 3549,
+      "level": 5,
+      "width": 4,
+      "correct_tight_faces_MSE": 11.275390625,
+      "incorrect_per_face512_stride_MSE": 10906.294487847223
+    },
+    {
+      "image": 3574,
+      "level": 3,
+      "width": 16,
+      "correct_tight_faces_MSE": 36.8607177734375,
+      "incorrect_per_face512_stride_MSE": 5247.172349717882
+    },
+    {
+      "image": 3574,
+      "level": 4,
+      "width": 8,
+      "correct_tight_faces_MSE": 43.340060763888886,
+      "incorrect_per_face512_stride_MSE": 7142.476345486111
+    },
+    {
+      "image": 3574,
+      "level": 5,
+      "width": 4,
+      "correct_tight_faces_MSE": 46.194661458333336,
+      "incorrect_per_face512_stride_MSE": 6408.968967013889
+    },
+    {
+      "image": 3594,
+      "level": 3,
+      "width": 16,
+      "correct_tight_faces_MSE": 37.0537109375,
+      "incorrect_per_face512_stride_MSE": 5021.129991319444
+    },
+    {
+      "image": 3594,
+      "level": 4,
+      "width": 8,
+      "correct_tight_faces_MSE": 49.843424479166664,
+      "incorrect_per_face512_stride_MSE": 6961.856011284723
+    },
+    {
+      "image": 3594,
+      "level": 5,
+      "width": 4,
+      "correct_tight_faces_MSE": 45.787326388888886,
+      "incorrect_per_face512_stride_MSE": 6402.013020833333
+    },
+    {
+      "image": 5807,
+      "level": 3,
+      "width": 16,
+      "correct_tight_faces_MSE": 19.46535915798611,
+      "incorrect_per_face512_stride_MSE": 8096.696912977431
+    },
+    {
+      "image": 5807,
+      "level": 4,
+      "width": 8,
+      "correct_tight_faces_MSE": 45.94249131944444,
+      "incorrect_per_face512_stride_MSE": 8501.516710069445
+    },
+    {
+      "image": 5807,
+      "level": 5,
+      "width": 4,
+      "correct_tight_faces_MSE": 78.98524305555556,
+      "incorrect_per_face512_stride_MSE": 7185.768229166667
+    }
+  ]
+}

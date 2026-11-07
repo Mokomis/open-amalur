@@ -1,0 +1,835 @@
+{
+  "total_joined": 108786,
+  "shader_counts": {
+    "vertexblend": 12552,
+    "vertexblendmodifiedmask": 46796,
+    "dot3": 46633,
+    "trunkdot3": 2805
+  },
+  "cells": [
+    {
+      "cell": [
+        -1,
+        -11
+      ],
+      "source_cell": "c-1_-11_0.bin",
+      "source_sha256": "149bb7ffbeb8cbf71d9f8cfb701b90e7041cf8e6fd30c1dcf223049ebfd0a370",
+      "triangles": 13576,
+      "joined": 4398,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 418
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2528
+        },
+        {
+          "material": 344647,
+          "shader": "dot3",
+          "triangles": 1119
+        },
+        {
+          "material": 360066,
+          "shader": "dot3",
+          "triangles": 305
+        },
+        {
+          "material": 405601,
+          "shader": "dot3",
+          "triangles": 28
+        }
+      ],
+      "overlay_bytes": 1002764,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        -1,
+        -10
+      ],
+      "source_cell": "c-1_-10_0.bin",
+      "source_sha256": "8d06c729ac4b27b5097d6d1b519aba8e823508749a64392e5a6bcb23dc5b8816",
+      "triangles": 13131,
+      "joined": 3315,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 764
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2304
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 201
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 46
+        }
+      ],
+      "overlay_bytes": 755840,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        -1,
+        -9
+      ],
+      "source_cell": "c-1_-9_0.bin",
+      "source_sha256": "de2af1c7f1152bbc40c1f91287ba8878dfe6bd291767e506c26c2999549b81df",
+      "triangles": 10194,
+      "joined": 1141,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 894
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 247
+        }
+      ],
+      "overlay_bytes": 260168,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        0,
+        -15
+      ],
+      "source_cell": "c0_-15_0.bin",
+      "source_sha256": "57d72f64b13adde9ca8c848db4ed76be195f5a0723e5fca185edfef6e1a20f73",
+      "triangles": 12536,
+      "joined": 1207,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 228
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 793
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 114
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 17
+        },
+        {
+          "material": 410417,
+          "shader": "dot3",
+          "triangles": 55
+        }
+      ],
+      "overlay_bytes": 275216,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        0,
+        -14
+      ],
+      "source_cell": "c0_-14_0.bin",
+      "source_sha256": "eaac6d546429e5cd2cffade39e93dbd6a85006070dc6ae876a349404dd480849",
+      "triangles": 29229,
+      "joined": 5515,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 579
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 3027
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 151
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 32
+        },
+        {
+          "material": 489077,
+          "shader": "dot3",
+          "triangles": 1726
+        }
+      ],
+      "overlay_bytes": 1257440,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        0,
+        -13
+      ],
+      "source_cell": "c0_-13_0.bin",
+      "source_sha256": "5e114e5c16bfa4a8111f7f520d4ef7cfba295f646014aad57df1552a6d4f3a89",
+      "triangles": 34544,
+      "joined": 9881,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 2485
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 4227
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 126
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 26
+        },
+        {
+          "material": 301336,
+          "shader": "dot3",
+          "triangles": 60
+        },
+        {
+          "material": 344647,
+          "shader": "dot3",
+          "triangles": 332
+        },
+        {
+          "material": 360066,
+          "shader": "dot3",
+          "triangles": 152
+        },
+        {
+          "material": 1718348,
+          "shader": "dot3",
+          "triangles": 2473
+        }
+      ],
+      "overlay_bytes": 2252888,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        0,
+        -11
+      ],
+      "source_cell": "c0_-11_0.bin",
+      "source_sha256": "1b5404de567ad12d7f2a4d5241066bf14fcb68b16f55899bf6f43ce1b409cac0",
+      "triangles": 24973,
+      "joined": 12629,
+      "ambiguous": 0,
+      "max_position_error": 0.02392578125,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 280
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2433
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 255
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 49
+        },
+        {
+          "material": 489074,
+          "shader": "dot3",
+          "triangles": 313
+        },
+        {
+          "material": 489077,
+          "shader": "dot3",
+          "triangles": 3077
+        },
+        {
+          "material": 1264778,
+          "shader": "dot3",
+          "triangles": 1360
+        },
+        {
+          "material": 757463,
+          "shader": "dot3",
+          "triangles": 1288
+        },
+        {
+          "material": 745175,
+          "shader": "dot3",
+          "triangles": 3344
+        },
+        {
+          "material": 1238607,
+          "shader": "dot3",
+          "triangles": 230
+        }
+      ],
+      "overlay_bytes": 2879432,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        0,
+        -10
+      ],
+      "source_cell": "c0_-10_0.bin",
+      "source_sha256": "ddf84caa86923633cb33304cdc813d05a98617555a794563e69afa274903c6ef",
+      "triangles": 62362,
+      "joined": 16929,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 793
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 228
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 43
+        },
+        {
+          "material": 489074,
+          "shader": "dot3",
+          "triangles": 766
+        },
+        {
+          "material": 489077,
+          "shader": "dot3",
+          "triangles": 2597
+        },
+        {
+          "material": 301336,
+          "shader": "dot3",
+          "triangles": 678
+        },
+        {
+          "material": 1287829,
+          "shader": "dot3",
+          "triangles": 1016
+        },
+        {
+          "material": 410417,
+          "shader": "dot3",
+          "triangles": 127
+        },
+        {
+          "material": 1365224,
+          "shader": "dot3",
+          "triangles": 10016
+        },
+        {
+          "material": 429844,
+          "shader": "dot3",
+          "triangles": 665
+        }
+      ],
+      "overlay_bytes": 3859832,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        0,
+        -9
+      ],
+      "source_cell": "c0_-9_0.bin",
+      "source_sha256": "f26befaa5c3eac2f94081969fceb840ae68a22f8fc9715e663ab55d0917111ec",
+      "triangles": 15409,
+      "joined": 5401,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 342
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 3107
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 252
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 52
+        },
+        {
+          "material": 758834,
+          "shader": "dot3",
+          "triangles": 382
+        },
+        {
+          "material": 758827,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 523
+        },
+        {
+          "material": 410417,
+          "shader": "dot3",
+          "triangles": 323
+        },
+        {
+          "material": 1402188,
+          "shader": "dot3",
+          "triangles": 420
+        }
+      ],
+      "overlay_bytes": 1231448,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        1,
+        -15
+      ],
+      "source_cell": "c1_-15_0.bin",
+      "source_sha256": "692285f2c403667b30f5c57b12549246fac70f2d866f6857a394001163982e0c",
+      "triangles": 9472,
+      "joined": 729,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 44
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 603
+        },
+        {
+          "material": 588460,
+          "shader": "dot3",
+          "triangles": 16
+        },
+        {
+          "material": 1653821,
+          "shader": "dot3",
+          "triangles": 59
+        },
+        {
+          "material": 618928,
+          "shader": "dot3",
+          "triangles": 7
+        }
+      ],
+      "overlay_bytes": 166232,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        1,
+        -14
+      ],
+      "source_cell": "c1_-14_0.bin",
+      "source_sha256": "3343376082bb0f3e5c5fd8964b55ef356aa0d3ac6390801dd9d6fd860f66661d",
+      "triangles": 45695,
+      "joined": 8254,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 142
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 3477
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 169
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 39
+        },
+        {
+          "material": 1402188,
+          "shader": "dot3",
+          "triangles": 594
+        },
+        {
+          "material": 588460,
+          "shader": "dot3",
+          "triangles": 2005
+        },
+        {
+          "material": 1653821,
+          "shader": "dot3",
+          "triangles": 1197
+        },
+        {
+          "material": 585765,
+          "shader": "dot3",
+          "triangles": 251
+        },
+        {
+          "material": 618928,
+          "shader": "dot3",
+          "triangles": 185
+        },
+        {
+          "material": 1777276,
+          "shader": "dot3",
+          "triangles": 195
+        }
+      ],
+      "overlay_bytes": 1881932,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        1,
+        -13
+      ],
+      "source_cell": "c1_-13_0.bin",
+      "source_sha256": "b0e264e81c220f817e15412e1d3abee8e4f3553b3dd0b7010d7b6dfc64cbba7c",
+      "triangles": 35922,
+      "joined": 5694,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 1934
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 3756
+        },
+        {
+          "material": 588460,
+          "shader": "dot3",
+          "triangles": 4
+        }
+      ],
+      "overlay_bytes": 1298252,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        1,
+        -11
+      ],
+      "source_cell": "c1_-11_0.bin",
+      "source_sha256": "0db3a129ae6024f539e35786bf13035204fe52ce97723a526eb348587f5493a6",
+      "triangles": 34761,
+      "joined": 13807,
+      "ambiguous": 0,
+      "max_position_error": 0.03125,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 567
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2232
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 450
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 67
+        },
+        {
+          "material": 489074,
+          "shader": "dot3",
+          "triangles": 547
+        },
+        {
+          "material": 489077,
+          "shader": "dot3",
+          "triangles": 5487
+        },
+        {
+          "material": 1412176,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2257
+        },
+        {
+          "material": 1412177,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 930
+        },
+        {
+          "material": 577592,
+          "shader": "dot3",
+          "triangles": 12
+        },
+        {
+          "material": 1238607,
+          "shader": "dot3",
+          "triangles": 1258
+        }
+      ],
+      "overlay_bytes": 3148016,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        1,
+        -10
+      ],
+      "source_cell": "c1_-10_0.bin",
+      "source_sha256": "20c2c67336dc36436690839b3699cf8df7e7bc687b4828ddb946d9b2ae97e30a",
+      "triangles": 20220,
+      "joined": 7508,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 654
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2981
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 146
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 38
+        },
+        {
+          "material": 1412176,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2847
+        },
+        {
+          "material": 1412177,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 830
+        },
+        {
+          "material": 577592,
+          "shader": "dot3",
+          "triangles": 12
+        }
+      ],
+      "overlay_bytes": 1711844,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        1,
+        -9
+      ],
+      "source_cell": "c1_-9_0.bin",
+      "source_sha256": "78947398e73c6852e6cc71a71f35b3730522becb50a824961278bd31a501098b",
+      "triangles": 21199,
+      "joined": 4915,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 949
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 3125
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 126
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 26
+        },
+        {
+          "material": 1412176,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 689
+        }
+      ],
+      "overlay_bytes": 1120640,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        2,
+        -15
+      ],
+      "source_cell": "c2_-15_0.bin",
+      "source_sha256": "6bf8cab69be7b36eacbcefbd4ecc509b120fe3dbfd0e680378356d20db6f21f7",
+      "triangles": 9418,
+      "joined": 554,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 334
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 220
+        }
+      ],
+      "overlay_bytes": 126332,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        2,
+        -14
+      ],
+      "source_cell": "c2_-14_0.bin",
+      "source_sha256": "e318e262dff634db71395a19575426d28b910149256eaf06a6a7d537af6c8f48",
+      "triangles": 22741,
+      "joined": 3246,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 450
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 844
+        },
+        {
+          "material": 588460,
+          "shader": "dot3",
+          "triangles": 1713
+        },
+        {
+          "material": 585765,
+          "shader": "dot3",
+          "triangles": 239
+        }
+      ],
+      "overlay_bytes": 740108,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    },
+    {
+      "cell": [
+        2,
+        -13
+      ],
+      "source_cell": "c2_-13_0.bin",
+      "source_sha256": "e29be5a66270ac7a8adb70ab7cf1db2f1d6c8d8cd7ff3982dcb7e5c895286d05",
+      "triangles": 12971,
+      "joined": 3663,
+      "ambiguous": 0,
+      "max_position_error": 0,
+      "material_triangles": [
+        {
+          "material": 353286,
+          "shader": "vertexblend",
+          "triangles": 1488
+        },
+        {
+          "material": 414763,
+          "shader": "vertexblendmodifiedmask",
+          "triangles": 2023
+        },
+        {
+          "material": 343549,
+          "shader": "trunkdot3",
+          "triangles": 126
+        },
+        {
+          "material": 489469,
+          "shader": "trunkdot3",
+          "triangles": 26
+        }
+      ],
+      "overlay_bytes": 835184,
+      "remove_format": "u32 offsets into original OAWC index array; each offset identifies3 original indices; rebuild draws excluding those triples; source vertex+index positions preserved in overlay"
+    }
+  ],
+  "scope": "LOD0 only; actual cell positions+UV copied unchanged; source material/TBN/RGBA/UV2 attached after source geometry match; shader implementation remains independent"
+}

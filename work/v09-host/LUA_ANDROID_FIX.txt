@@ -1,0 +1,36 @@
+Lua 5.1 Android collector compatibility patch
+
+Evidence: work/v07-scene/tablet-first-crash.log records Android FORTIFY
+strchr read-past-end abort in propagatemark+644 while luaL_openlibs loads os.
+The freshly mirrored Windows lgc-original.c has the upstream two strchr
+calls in traversetable, which is inlined into propagatemark in that build.
+TString stores a length in its header and text after the header allocation;
+the compiler's object-size inference at this direct svalue access is the
+suspected cause. The stack identifies the call, but by itself does not prove
+the allocation is intact. On-device success remains required validation.
+
+Staged replacement: lgc-android.c, or lua51-android-weak-mode.patch.
+Only the two weak-mode searches change. An explicit byte loop is bounded by
+TString.len and stops at an embedded NUL, recording k and v before that point.
+It never needs the final terminator, and retains upstream first-NUL behavior.
+Scanning the whole TString.len for k/v without stopping at NUL would change
+Lua 5.1 semantics. The loop also avoids passing a trailing-allocation pointer
+to memchr, which could inherit the same erroneous object-size bound in some
+compiler/hardening configurations. No compiler hardening flags are disabled.
+
+Regression test: compile tests/lua_weak_mode_test.c against the SAME patched
+Lua 5.1 library, then run it with tests/lua_weak_mode_test.lua as its argument.
+It opens/closes eight independent states and runs 32 GC assertions per state:
+empty, key/value/both modes, irrelevant/repeated flags, NULs before/after
+flags, long mode strings, and non-string modes. Long modes also challenge
+mistaken compile-time assumptions about the trailing allocation size.
+Run on Windows for semantics, then rebuild the Android viewer and verify
+luaL_openlibs, script bootstrap, and rendering on the tablet with FORTIFY on.
+Windows tests do not establish Android FORTIFY behavior.
+
+Audit: lgc.c's pair are the only direct strchr(svalue(...)) sites in the
+bundled upstream 5.1.5 source archive. Remaining strchr uses are in lauxlib,
+ldblib, ldebug, llex, loadlib, lobject, and lstrlib; they take API/external
+string pointers, literals, or local formatting buffers. They are unchanged.
+This is a scoped audit of strchr calls, not a claim about every fortified C
+library call or correctness of the entire vendored Lua runtime.

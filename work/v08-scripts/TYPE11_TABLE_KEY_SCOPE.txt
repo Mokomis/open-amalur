@@ -1,0 +1,41 @@
+v08 canonical realm type11 table keys
+
+Native basis, exact koa.exe SHA256
+16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314:
+  vm_generic_table_get.json: 0108cb40 type11 branch compares the entire low
+  word and the entire high word. REA evidence
+  ev_12cf3a3f62778882ba62af88a2ed79c594e48a0c801ea7967f0f348693ccaeda.
+  vm_generic_table_set.json: 010b9bf0 calls that lookup then updates the
+  existing value or enters the insertion path. REA evidence
+  ev_e935b4326f405d782c284bf3fcc552457fbeef25630a7fac1c5b9cd527a06b8d.
+  Parent separately reports 64/64 isolated original native lookup/existing-key
+  write cases. No native allocator, iteration, deletion, or GC equivalence claim.
+
+Implementation:
+  amalur_uint64.lua remains unchanged. Its strong interning maps all16
+  canonical hexadecimal characters to one userdata per realm. The original
+  is predicate closes over private metadata; marker text is not membership.
+  amalur_runtime-v08.c captures that original predicate before recovered scripts
+  load and exposes a strict userdata/boolean wrapper. Later mutation of public
+  carrier.is cannot broaden membership. Callback state is entirely Lua-owned;
+  initialization is protected by existing lua_cpcall and failure destroys realm.
+  module_source_adapter.py admits this predicate only in exact frozen-emitter
+  GETTABLE/SETTABLE key guards. Existing string/int32 domains remain admitted.
+  SELF's separate string-only restriction is preserved, including its original
+  key guard. No comparison, ordering, iteration, length, list, or metatable
+  policy is widened. Host helper absent => type11 key guard remains closed.
+
+Trust boundary:
+  Core runtime Lua files and bootstrap global helpers are host-owned trusted
+  resources, as with the existing module-table predicate. This is correctness
+  modeling for recovered scripts, not a hostile-Lua sandbox guarantee. Public
+  helper global replacement by a prior malicious script is outside that model.
+
+Validation staging:
+  prepare_type11_key_tests.py runs only on Windows and consumes the frozen
+  reconstructor plus explicit original carrier path. It generates six adapted
+  read/write fixtures and one unchanged SELF fixture. provenance.json reports
+  per-fixture counts and source hashes; Type11KeyHarness returns the assertion
+  count. Parent runs it with the v08 runtime before real-module regeneration.
+  Original v05/v07 sources and current Windows module files are not overwritten
+  by this staging work.

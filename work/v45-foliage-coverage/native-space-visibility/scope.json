@@ -1,0 +1,18 @@
+{
+  "question": "Which activeSPACE render loop feeds Fab collections and what activation/cull state is consulted?",
+  "seed": "BHG_SpaceRenderEventHandler recovered vtable1/2 in names.tsv",
+  "cached_bodies_opened": [
+    "00ff1850",
+    "00fcce20",
+    "00ff1220",
+    "00c9b1a0",
+    "00fef1c0",
+    "00fcc430"
+  ],
+  "initial_body_budget": 2,
+  "target_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "no_new_analysis_database": true,
+  "expanded_body_budget": 6,
+  "expansion_reason": "Two known event entries only forward current-space/render setup; direct callees239/36bytes are exact bounded next edges.",
+  "expansion_reason_2": "Exact setup-loop perSPACE callees271/121bytes bound whether this path controls render visibility or asset lifecycle; stop this chain at6."
+}

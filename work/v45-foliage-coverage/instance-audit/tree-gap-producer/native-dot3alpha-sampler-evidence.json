@@ -1,0 +1,100 @@
+{
+  "draw": 68145,
+  "native_material": 343630,
+  "descriptor_set": 13890,
+  "bindings": {
+    "16": {
+      "sampler": 336,
+      "create_info": {
+        "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+        "pNext": null,
+        "flags": 0,
+        "magFilter": "VK_FILTER_LINEAR",
+        "minFilter": "VK_FILTER_LINEAR",
+        "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_LINEAR",
+        "addressModeU": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+        "addressModeV": "VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE",
+        "addressModeW": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "mipLodBias": 0.0,
+        "anisotropyEnable": 0,
+        "maxAnisotropy": 0.0,
+        "compareEnable": 0,
+        "compareOp": "VK_COMPARE_OP_NEVER",
+        "minLod": 0.0,
+        "maxLod": 1000.0,
+        "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+        "unnormalizedCoordinates": 0
+      }
+    },
+    "17": {
+      "sampler": 149,
+      "create_info": {
+        "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+        "pNext": null,
+        "flags": 0,
+        "magFilter": "VK_FILTER_LINEAR",
+        "minFilter": "VK_FILTER_LINEAR",
+        "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_LINEAR",
+        "addressModeU": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "addressModeV": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "addressModeW": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "mipLodBias": 0.0,
+        "anisotropyEnable": 0,
+        "maxAnisotropy": 0.0,
+        "compareEnable": 0,
+        "compareOp": "VK_COMPARE_OP_NEVER",
+        "minLod": 0.0,
+        "maxLod": 1000.0,
+        "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+        "unnormalizedCoordinates": 0
+      }
+    },
+    "19": {
+      "sampler": 149,
+      "create_info": {
+        "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+        "pNext": null,
+        "flags": 0,
+        "magFilter": "VK_FILTER_LINEAR",
+        "minFilter": "VK_FILTER_LINEAR",
+        "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_LINEAR",
+        "addressModeU": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "addressModeV": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "addressModeW": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "mipLodBias": 0.0,
+        "anisotropyEnable": 0,
+        "maxAnisotropy": 0.0,
+        "compareEnable": 0,
+        "compareOp": "VK_COMPARE_OP_NEVER",
+        "minLod": 0.0,
+        "maxLod": 1000.0,
+        "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+        "unnormalizedCoordinates": 0
+      }
+    },
+    "20": {
+      "sampler": 149,
+      "create_info": {
+        "sType": "VK_STRUCTURE_TYPE_SAMPLER_CREATE_INFO",
+        "pNext": null,
+        "flags": 0,
+        "magFilter": "VK_FILTER_LINEAR",
+        "minFilter": "VK_FILTER_LINEAR",
+        "mipmapMode": "VK_SAMPLER_MIPMAP_MODE_LINEAR",
+        "addressModeU": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "addressModeV": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "addressModeW": "VK_SAMPLER_ADDRESS_MODE_REPEAT",
+        "mipLodBias": 0.0,
+        "anisotropyEnable": 0,
+        "maxAnisotropy": 0.0,
+        "compareEnable": 0,
+        "compareOp": "VK_COMPARE_OP_NEVER",
+        "minLod": 0.0,
+        "maxLod": 1000.0,
+        "borderColor": "VK_BORDER_COLOR_FLOAT_TRANSPARENT_BLACK",
+        "unnormalizedCoordinates": 0
+      }
+    }
+  },
+  "skyline_limit": "No1611839source-witness identifiedin97-treecorrespondence;sameprogramnotampleridentityproof."
+}

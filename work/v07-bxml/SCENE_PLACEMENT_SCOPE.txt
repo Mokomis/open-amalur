@@ -1,0 +1,61 @@
+Selected scene placement extraction and diagnostic baking
+
+Input profile is pinned to DATA_0.pak/524859.space_bxml:
+SHA256775fb38b3fd9ff67ed3181579e935c70b33bd6831ccebf744ce4b2f6cd590143.
+No patch space or geometry variant is merged. Geometry may come from explicitly
+identified DATA_0.pak or initial_0.pak source paths; patch inputs are rejected.
+
+Native evidence establishes:
+  - Carrier relocation at0x00a6e7c0: target_payload_offset=stored_word-8.
+  - Instance constructor0x00dddde0 resolves the FAB reference at record+52 and
+    passes record+4 into the native transform path.
+  - Copy helper0x00ac5560 copies45 bytes of that transform object.
+The scene's root relocation slot at+152 selects79 records of80 bytes in this
+observed profile. The selected array target4436 is a file-relative offset:
+payload offset4428. Raw record bytes and every word are retained.
+
+Inferred components used by the diagnostic baker:
+  position xyz at record+4, W at+16;
+  quaternion xyzw at+20;
+  scale xyz at+36;
+  FAB reference at+52; instance ID candidate at+56; repeated FAB ID at+72.
+Position/quaternion/scale arithmetic is still an explicit assumption pending
+native consumer proof. Diagnostic transformation is scale, Hamilton xyzw
+rotation, then translation. No axis correction or global recentering is baked.
+
+The baker consumes the independently decoded geometry JSON. It writes OMSC07:
+8-byte magic OMSC07 NUL NUL, uint32 vertex count,6 float32 bounds, then triangle
+soup of position3/normal3/color3 float32. This is our interchange format.
+Normals are computed per face; zero-area triangles keep zero normals. Colors
+are invented stable per-model preview colors, not recovered game materials.
+Unknown assembly draw ranges remain a separate obligation.
+
+Optional --fab-root selects ID.json FAB bind reports. Each report SHA256 is
+checked against the original FAB file beside the selected native mesh stream,
+binding it to the same asset ID and archive variant even if the report was
+produced from a flat copy. Static binds require matching descriptor counts,
+finite affine matrices, mapped bones, and external-reference unskinned strides
+20/24/44/48/52. Bind matrices apply before the inferred instance pose. Missing
+or unsupported binds omit the entire asset only with --allow-partial, recording
+every omitted placement and assembly reason. Malformed matrices, descriptor
+count mismatches, or source hash/provenance mismatches always fail. No mapped
+bone never means implicit identity. Without --fab-root the output is explicitly
+labeled a raw mesh diagnostic without FAB binding. Bind semantics remain based
+on the 2018 external reference, not native confirmation.
+
+The 79-record collection supplies props. The room shell has not been found;
+this output must not be presented as the complete room or complete scene.
+
+Missing geometry fails by default. An explicit --allow-partial records each
+omitted model and loaded/requested placement totals. No successful-only total
+is presented as scene completeness. Dynamic objects, materials, animation,
+collision, lighting and gameplay remain outside this static geometry slice.
+
+Windows CLI:
+  python amalur_scene.py INPUT --variant DATA_0.pak --output placements.json
+    --mesh-root DECODED_MESH_ROOT --scene-bin scene.bin
+    --fab-root SELECTED_FAB_REPORTS --allow-partial
+Mesh root contains asset-ID/native-mesh.json directories.
+
+Windows synthetic tests:
+  python -m unittest -v test_amalur_blob.py test_amalur_scene.py

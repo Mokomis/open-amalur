@@ -1,0 +1,153 @@
+{
+  "source": "work\\v20-char\\build_character.py",
+  "sha256": "59fde8c16311fd5ba7395dc9a1e6dc0e9058ab5adfbecee745dd338c4e3ca198",
+  "function_source": "def palettes(fb, joints):\n    \"\"\"Every joint table in file order. There is one per surface, lower detail copies included.\"\"\"\n    tables, start = [], 0\n    while start < len(fb) - 52:\n        chain, at = [], start\n        while at + 52 <= len(fb):\n            s = struct.unpack_from(\"<3f\", fb, at + 32)\n            q = struct.unpack_from(\"<4f\", fb, at + 16)\n            count, idx = struct.unpack_from(\"<II\", fb, at + 44)\n            if not all(abs(x - 1) < .02 for x in s) or abs(sum(x * x for x in q) - 1) > .02 or idx >= joints or count > 300:\n                break\n            chain.append((idx, struct.unpack_from(\"<3f\", fb, at), q))\n            at += 52\n        if chain:\n            tables.append(chain); start = at\n        else:\n            start += 1\n    return tables",
+  "cases": [
+    {
+      "fab": 514034,
+      "table_count": 3,
+      "lengths": [
+        24,
+        24,
+        1
+      ],
+      "first_source_bone_indices": [
+        [
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "fab": 660455,
+      "table_count": 4,
+      "lengths": [
+        4,
+        4,
+        1,
+        1
+      ],
+      "first_source_bone_indices": [
+        [
+          3,
+          4,
+          7,
+          8
+        ],
+        [
+          3,
+          4,
+          7,
+          8
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "fab": 660458,
+      "table_count": 8,
+      "lengths": [
+        1,
+        1,
+        1,
+        18,
+        1,
+        18,
+        1,
+        1
+      ],
+      "first_source_bone_indices": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          7
+        ],
+        [
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          7
+        ],
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "fab": 660459,
+      "table_count": 6,
+      "lengths": [
+        12,
+        12,
+        12,
+        12,
+        1,
+        1
+      ],
+      "first_source_bone_indices": [
+        [
+          13,
+          20,
+          19,
+          12
+        ],
+        [
+          1,
+          13,
+          20,
+          4
+        ],
+        [
+          13,
+          20,
+          19,
+          12
+        ],
+        [
+          1,
+          13,
+          20,
+          4
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+--- a/tools/replay/android_main.cpp
++++ b/tools/replay/android_main.cpp
+@@ -81,7 +81,7 @@
+ 
+     // Explicit benchmark-only mode: freeze host buffer contents after the first play.
+     const auto oa_static = gfxrecon::util::GetIntentExtra(app, "oa_static_memory");
+-    setenv("OA_STATIC_MEMORY", oa_static == "1" ? "1" : "0", 1);
++    setenv("OA_STATIC_MEMORY", oa_static == "2" ? "2" : (oa_static == "1" ? "1" : "0"), 1);
+ 
+     gfxrecon::replay::LoadFeatures(g_features);
+ 
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.h
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.h
+@@ -47,7 +47,8 @@
+         frame_loop_info_(frame_loop_info)
+     {
+         const char* frozen = std::getenv("OA_STATIC_MEMORY");
+-        oa_static_memory_ = frozen && frozen[0] == '1';
++        oa_static_memory_ = frozen && (frozen[0] == '1' || frozen[0] == '2');
++        oa_static_resources_ = frozen && frozen[0] == '2';
+     }
+ 
+     ~VulkanReplayFrameLoopConsumer() override;
+@@ -365,6 +366,7 @@
+                                 const std::vector<format::HandleId>& restorable_image_ids);
+ 
+         void Restore(format::HandleId queue);
++        void RestoreLayoutsOnly(format::HandleId queue);
+ 
+         void DestroyShadowImages();
+ 
+@@ -393,6 +395,8 @@
+   private:
+     graphics::FrameLoopInfo& frame_loop_info_;
+     bool oa_static_memory_{ false };
++    bool oa_static_resources_{ false };
++    uint64_t oa_layout_only_restores_{ 0 };
+     uint64_t oa_skipped_fill_calls_{ 0 };
+     uint64_t oa_skipped_fill_bytes_{ 0 };
+     uint64_t oa_skipped_buffer_restores_{ 0 };
+--- a/framework/decode/vulkan_replay_frame_loop_consumer.cpp
++++ b/framework/decode/vulkan_replay_frame_loop_consumer.cpp
+@@ -351,6 +351,7 @@
+             static_cast<unsigned long long>(oa_skipped_fill_bytes_),
+             static_cast<unsigned long long>(oa_skipped_buffer_restores_));
+     }
++    if (oa_static_resources_) GFXRECON_LOG_INFO("OA STATIC IMAGES: layout-only restores=%llu", static_cast<unsigned long long>(oa_layout_only_restores_));
+     ResetBufferTracking();
+     ResetImageTracking();
+ }
+@@ -1852,7 +1853,15 @@
+         return;
+     }
+ 
+-    it->second.Restore(queue);
++    if (oa_static_resources_)
++    {
++        ++oa_layout_only_restores_;
++        it->second.RestoreLayoutsOnly(queue);
++    }
++    else
++    {
++        it->second.Restore(queue);
++    }
+ }
+ 
+ void VulkanReplayFrameLoopConsumer::ResetImageTracking()
+@@ -2153,6 +2162,32 @@
+     }
+ }
+ 
++// Fixed-scene benchmark only: retain layouts but do not recopy image contents.
++void VulkanReplayFrameLoopConsumer::ImageTracking::RestoreLayoutsOnly(format::HandleId queue)
++{
++    std::vector<VkImageMemoryBarrier> barriers;
++    for (auto& [image_id, state] : image_states_)
++    {
++        VulkanImageInfo* info = object_table_.GetVkImageInfo(image_id);
++        if (!info || info->handle == VK_NULL_HANDLE) continue;
++        const size_t before = barriers.size();
++        AppendImageLayoutBarriers(info, state.initial_layouts, barriers);
++        if (barriers.size() != before)
++        {
++            info->subresource_layouts = state.initial_layouts;
++            info->intermediate_layout = barriers.back().newLayout;
++        }
++    }
++    if (barriers.empty()) return;
++    VulkanDeviceInfo* device = object_table_.GetVkDeviceInfo(device_id_);
++    VulkanQueueInfo* qi = object_table_.GetVkQueueInfo(queue);
++    GFXRECON_ASSERT(device && qi);
++    TemporaryCommandBuffer cmd(*device, device_table_);
++    if (cmd.CreateAndBegin(qi->family_index, qi->handle) != VK_SUCCESS) return;
++    CmdImageLayoutBarriers(device_table_, cmd.command_buffer, barriers);
++    CHECK_VK_RESULT(cmd.SubmitAndDestroy(), "Static scene layout restore");
++}
++
+ void VulkanReplayFrameLoopConsumer::ImageTracking::Restore(format::HandleId queue)
+ {
+     if (image_states_.empty())

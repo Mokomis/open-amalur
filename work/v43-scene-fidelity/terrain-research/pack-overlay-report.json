@@ -1,0 +1,933 @@
+{
+  "base": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\assets\\world",
+  "output": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\pack-overlay",
+  "counts": {
+    "cells_patched": 18
+  },
+  "base_material_count": 258,
+  "new_material_count": 263,
+  "texture_base": 637,
+  "new_texture_count": 655,
+  "profiles": [
+    {
+      "material": 258,
+      "native_set": 0,
+      "texture_indices": [
+        643,
+        645,
+        639,
+        637,
+        644,
+        646,
+        640,
+        638
+      ],
+      "source_texture_ids": [
+        343447,
+        343449,
+        343442,
+        343440,
+        343448,
+        343450,
+        343443,
+        343441
+      ],
+      "map_uv_scales": [
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ]
+    },
+    {
+      "material": 259,
+      "native_set": 1,
+      "texture_indices": [
+        651,
+        645,
+        639,
+        637,
+        652,
+        646,
+        640,
+        638
+      ],
+      "source_texture_ids": [
+        641635,
+        343449,
+        343442,
+        343440,
+        641638,
+        343450,
+        343443,
+        343441
+      ],
+      "map_uv_scales": [
+        0.10000000149011612,
+        0.125,
+        0.125,
+        0.125
+      ]
+    },
+    {
+      "material": 260,
+      "native_set": 2,
+      "texture_indices": [
+        649,
+        645,
+        639,
+        637,
+        650,
+        646,
+        640,
+        638
+      ],
+      "source_texture_ids": [
+        419802,
+        343449,
+        343442,
+        343440,
+        419803,
+        343450,
+        343443,
+        343441
+      ],
+      "map_uv_scales": [
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ]
+    },
+    {
+      "material": 261,
+      "native_set": 3,
+      "texture_indices": [
+        647,
+        645,
+        639,
+        637,
+        648,
+        646,
+        640,
+        638
+      ],
+      "source_texture_ids": [
+        375092,
+        343449,
+        343442,
+        343440,
+        375093,
+        343450,
+        343443,
+        343441
+      ],
+      "map_uv_scales": [
+        0.09000000357627869,
+        0.125,
+        0.125,
+        0.125
+      ]
+    },
+    {
+      "material": 262,
+      "native_set": 4,
+      "texture_indices": [
+        653,
+        645,
+        639,
+        637,
+        654,
+        646,
+        640,
+        638
+      ],
+      "source_texture_ids": [
+        1255035,
+        343449,
+        343442,
+        343440,
+        1255036,
+        343450,
+        343443,
+        343441
+      ],
+      "map_uv_scales": [
+        0.10000000149011612,
+        0.125,
+        0.125,
+        0.125
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "asset_id": 343440,
+      "texture_index": 637,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343440_1.dds",
+      "source_sha256": "35e0416c650981ea875b9ee24fcb61a5a44ca5812bd1f4c690065d664d9e9e8a",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 28,
+      "alpha_max": 79,
+      "output_sha256": "c6f5481d81f4685e42bdaed09517f347d3a926bb61709473fc90c91bbbbce8c1"
+    },
+    {
+      "asset_id": 343441,
+      "texture_index": 638,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343441_1.dds",
+      "source_sha256": "f9cbbfd9084987630386e040ef5a25975404434d064ad81b8911e7540dc2d68f",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 207,
+      "output_sha256": "19517059be03e0ac5b67ac8f7442da850879ace4e2b2232fac2da1c3a1f3493a"
+    },
+    {
+      "asset_id": 343442,
+      "texture_index": 639,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343442_1.dds",
+      "source_sha256": "20361d76b3dbae222cb76d9f8de7c687e88c24078edfb8742bba33d3e800e148",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 16,
+      "alpha_max": 102,
+      "output_sha256": "d7a26f149add7eb8018312633441a26b5b34facb73f09c335257c62f806a7f32"
+    },
+    {
+      "asset_id": 343443,
+      "texture_index": 640,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343443_1.dds",
+      "source_sha256": "b7a3c4e6e7aa42f30514ae5e4593d76bc0e0d60c6abca93c6de0e8881dede72e",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 115,
+      "output_sha256": "8c74e79f4e8508de861cec29821ffdeaf9c5d627ae51287723a945e7fc7f80f6"
+    },
+    {
+      "asset_id": 343444,
+      "texture_index": 641,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343444_1.dds",
+      "source_sha256": "73d637a94cddf747d7294ead0761c1d790e21fc7a9b339e1729a0100f46a6452",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 4,
+      "alpha_max": 255,
+      "output_sha256": "932281856c99c32e6c0d6ec53eb82c1ac93ce2c04472927ac1a65701d9ed5107"
+    },
+    {
+      "asset_id": 343445,
+      "texture_index": 642,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343445_1.dds",
+      "source_sha256": "c59dd32c2eabed184c0d0f338ec3753caa5b77a3966dc51235d98cb5ca4fd54a",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "output_sha256": "66fceeb3ad757c45b606f3819c01bbb7d731689ae2b05a4fa7a61c3a416d940e"
+    },
+    {
+      "asset_id": 343447,
+      "texture_index": 643,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343447_1.dds",
+      "source_sha256": "26d7781b5e38b9a5a67437c40f5ca291fbd44feab4475ca9e54d6b2ec640c221",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 23,
+      "alpha_max": 255,
+      "output_sha256": "df4a0cd5e8a477ba68d25c65b43103407e7f4b03e012808fa1b15d9258cb0fa7"
+    },
+    {
+      "asset_id": 343448,
+      "texture_index": 644,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343448_1.dds",
+      "source_sha256": "a1647f96d456e9dfc287b3b5f7a8bdd4c5a9d1cd6b86c097235a1b0041139c70",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 220,
+      "output_sha256": "a46ee85f0f99fec307a7c7529ea3a8736c3717fbddf4d772788134054cfd1d96"
+    },
+    {
+      "asset_id": 343449,
+      "texture_index": 645,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343449_1.dds",
+      "source_sha256": "1ce49d2bed0ae5d009d2c106f02619c538d939799f34f28baad646b4db3462cd",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 20,
+      "alpha_max": 152,
+      "output_sha256": "db94244d279608897e84e463d5c60e4c8421d9ac4b9814190e83d4b109275f2d"
+    },
+    {
+      "asset_id": 343450,
+      "texture_index": 646,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\343450_1.dds",
+      "source_sha256": "7c759c86c0b9886023db875a6450454f6c6cd8d79444d0c69307b71b01fedc46",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 97,
+      "output_sha256": "37b3335fcecb530ee3c77663c15f218297226b1ff17f0aa565ec8e87005c7284"
+    },
+    {
+      "asset_id": 375092,
+      "texture_index": 647,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\375092_1.dds",
+      "source_sha256": "faba500e9f68de6480c8ece9d0561028cf9d1512d573f118100c6d42de5b5381",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 2,
+      "alpha_max": 255,
+      "output_sha256": "427748a3b00286d6f72f618405b737a5668adf59b181f3de280c1d611055fd92"
+    },
+    {
+      "asset_id": 375093,
+      "texture_index": 648,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\375093_1.dds",
+      "source_sha256": "776ff199dfd35e2581f8fbe9672d86acc57fe4e76f06bc55c5955618e95b8345",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 177,
+      "output_sha256": "3d9b90ef7b8f19c8ce0bb59e057cc690d62b8d354b14873b1cdd00041bacca31"
+    },
+    {
+      "asset_id": 419802,
+      "texture_index": 649,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\419802_1.dds",
+      "source_sha256": "f9a41d5d854f0064aaa7ffa6f287fca9549f8299ca3d20c8b86ee142ae65b83d",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 216,
+      "output_sha256": "3d95f413ca6ad74b565c9ae2986e878ca12e2a750761caa8521378e19fefaf9a"
+    },
+    {
+      "asset_id": 419803,
+      "texture_index": 650,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\419803_1.dds",
+      "source_sha256": "634b2c34e075a94336d2a0a1a29b42f950288cb82f57d751a54c4ec8a06c65c5",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 185,
+      "output_sha256": "62c841d342ca5a7e3154fa9384506c67a6c847074a0d2a6e6102acc2bd140709"
+    },
+    {
+      "asset_id": 641635,
+      "texture_index": 651,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\641635_1.dds",
+      "source_sha256": "b101b1f80773f401ac627f04567648f12c7fda51995074aab19d7b6f307b1309",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "output_sha256": "8ee1d3232d5a37da6badfda766ec983bc770d0f4b1a42ec63dd81fe29d1b5ddd"
+    },
+    {
+      "asset_id": 641638,
+      "texture_index": 652,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\641638_1.dds",
+      "source_sha256": "10589bd6eac937c92a20c2f663ff9d557d04f5169846bb62b1838bb19c18799d",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "output_sha256": "6de992acd71c97c1e8ea9a0bae1ef32628afc1635220729e4f6cf6b2eabaa3ac"
+    },
+    {
+      "asset_id": 1255035,
+      "texture_index": 653,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\1255035_1.dds",
+      "source_sha256": "515570f684386f05631fc23c1f246076793d2e1a388eaac353e918781cd77376",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "output_sha256": "23f792d28488ff286d4326b6c8ca6357949324ad9bae3b91726ec9123ae21a3b"
+    },
+    {
+      "asset_id": 1255036,
+      "texture_index": 654,
+      "source_file": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\terrain-research\\source-textures\\1255036_1.dds",
+      "source_sha256": "97817b11151d599214b38978902f90272f2cdf410249b6092dccd35f275bb2cb",
+      "width": 1024,
+      "height": 1024,
+      "levels": 11,
+      "alpha_min": 0,
+      "alpha_max": 232,
+      "output_sha256": "cd4cc777e1267f94f5cbe0604135521b2283723ad53c47065661a607f767b0e7"
+    }
+  ],
+  "cells": [
+    {
+      "cell": [
+        -1,
+        -11
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 11,
+          "new_draws": 14,
+          "ground_draws": 1,
+          "geometry_sha256": "833576435c5ec59ef454140215b376f6bbcd09f1639c8d46b0fccbee73b495d2"
+        },
+        {
+          "lod": 1,
+          "old_draws": 11,
+          "new_draws": 14,
+          "ground_draws": 1,
+          "geometry_sha256": "f8b83765800f7417e8cef6207f1d3250736457aaa946173d2810f4a5f680a8f1"
+        },
+        {
+          "lod": 2,
+          "old_draws": 9,
+          "new_draws": 13,
+          "ground_draws": 1,
+          "geometry_sha256": "3fa4a3c8b08f1299eac7a8f510b68d83aad8f770e609dd751b1cca6dba767711"
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -10
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 11,
+          "new_draws": 14,
+          "ground_draws": 1,
+          "geometry_sha256": "ec046de20338197d82b4cb48a3dc7280eb43384b103844d23e6b2d87da140ece"
+        },
+        {
+          "lod": 1,
+          "old_draws": 10,
+          "new_draws": 13,
+          "ground_draws": 1,
+          "geometry_sha256": "99a433275fe984e6dd6e3de3c21ad79a056598a6fa2550cfc50db707f9698958"
+        },
+        {
+          "lod": 2,
+          "old_draws": 7,
+          "new_draws": 10,
+          "ground_draws": 1,
+          "geometry_sha256": "1e00afeed5589606b08aa5b00bd73c282885b7c5ebb6525e11276dc0929aec33"
+        }
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -9
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 4,
+          "new_draws": 6,
+          "ground_draws": 1,
+          "geometry_sha256": "33fad1a823ab897b2fe0e152ce2bb98dd9bdb864e52271270b0929f48959381e"
+        },
+        {
+          "lod": 1,
+          "old_draws": 4,
+          "new_draws": 6,
+          "ground_draws": 1,
+          "geometry_sha256": "003896920d7f132505a681b3d88b87ae43bd4ad691a570c8eed78222a909578f"
+        },
+        {
+          "lod": 2,
+          "old_draws": 4,
+          "new_draws": 6,
+          "ground_draws": 1,
+          "geometry_sha256": "be835321caeddbd3742f89320e5b835f703897c673bc1fdb662bf947df8c8833"
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -15
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 13,
+          "new_draws": 17,
+          "ground_draws": 1,
+          "geometry_sha256": "e9467d8d0905bb7d8163702d4ca2c037e20e69aa9bb04a8b9faec0b13ec3f93d"
+        },
+        {
+          "lod": 1,
+          "old_draws": 12,
+          "new_draws": 16,
+          "ground_draws": 1,
+          "geometry_sha256": "eadcf725d5c1e144395d9c7e3fd207e2c152bc677d6facccc24124dc61ec6adc"
+        },
+        {
+          "lod": 2,
+          "old_draws": 10,
+          "new_draws": 14,
+          "ground_draws": 1,
+          "geometry_sha256": "17036729365efc6cca6fa2a788ad0a1ac2db1563cd6d1cb2f8e0e26ef814ef73"
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -14
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 22,
+          "new_draws": 26,
+          "ground_draws": 1,
+          "geometry_sha256": "4aac66f1cbf338f7a06bd3dbd52652929fc5e8477bed2cfbf722847521ff262d"
+        },
+        {
+          "lod": 1,
+          "old_draws": 22,
+          "new_draws": 26,
+          "ground_draws": 1,
+          "geometry_sha256": "39ca79e468f96530c3344878f77c1a652b49b3acc0b058cc6e23601504a5c9d2"
+        },
+        {
+          "lod": 2,
+          "old_draws": 19,
+          "new_draws": 23,
+          "ground_draws": 1,
+          "geometry_sha256": "2087f73291302454a97474a64ed18ffd37ba62f4f65171bb32feb83fdd0b1a7c"
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -13
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 20,
+          "new_draws": 23,
+          "ground_draws": 1,
+          "geometry_sha256": "53f59bd9659a6bc8778262808bfbaf68e08197607fbe8853cf6f9714a90edd48"
+        },
+        {
+          "lod": 1,
+          "old_draws": 18,
+          "new_draws": 21,
+          "ground_draws": 1,
+          "geometry_sha256": "fa3d834dd94223a1aa56ba7f2ed8d9b0363aae230ce9553a5e54fe07bdca1253"
+        },
+        {
+          "lod": 2,
+          "old_draws": 12,
+          "new_draws": 16,
+          "ground_draws": 1,
+          "geometry_sha256": "00202feb881b7fb6a07e8bb6b3cbccf86dde1cb7e090b6565f93209da47c502a"
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -11
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 23,
+          "new_draws": 26,
+          "ground_draws": 1,
+          "geometry_sha256": "dfb2498af9c80a574c45fd5225bf2a1ca119406d7a83cccfbcc198177852af74"
+        },
+        {
+          "lod": 1,
+          "old_draws": 19,
+          "new_draws": 22,
+          "ground_draws": 1,
+          "geometry_sha256": "14d3eeb48754e5a30f26a419b85ac74bfc54794c0adcb58965f821341487da21"
+        },
+        {
+          "lod": 2,
+          "old_draws": 15,
+          "new_draws": 18,
+          "ground_draws": 1,
+          "geometry_sha256": "1979ba6cca705ca6638ff031fa1bb8268e3f1a3fab108acabb909a064bd5695f"
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -10
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 27,
+          "new_draws": 29,
+          "ground_draws": 1,
+          "geometry_sha256": "97c729808aa64f4fb2e7a0f88e4111ba9649d938a5a016c375d7f0f10254fde3"
+        },
+        {
+          "lod": 1,
+          "old_draws": 23,
+          "new_draws": 25,
+          "ground_draws": 1,
+          "geometry_sha256": "461b9d5e32fe7fe95175de582af0a5534e28767248bf8b4e772ff34265034105"
+        },
+        {
+          "lod": 2,
+          "old_draws": 15,
+          "new_draws": 17,
+          "ground_draws": 1,
+          "geometry_sha256": "e0fcb84b32dfa4f25b4803d3ce196c7e8f638a1fda6af6370fb88ad411f9f485"
+        }
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -9
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 15,
+          "new_draws": 16,
+          "ground_draws": 1,
+          "geometry_sha256": "ab471b1a41bac6143c469053e7c2bfbaeab51d1b73a53694b098b87d2f4110b8"
+        },
+        {
+          "lod": 1,
+          "old_draws": 15,
+          "new_draws": 16,
+          "ground_draws": 1,
+          "geometry_sha256": "b122a1e5901cb3c131b9ae483203b119e63b9df4c93197789bed024d622efc01"
+        },
+        {
+          "lod": 2,
+          "old_draws": 11,
+          "new_draws": 12,
+          "ground_draws": 1,
+          "geometry_sha256": "7ea3e866aead281f5823686c1ec5318effa1eeca9b367eded2b1f8bd7cf837f4"
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -15
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 8,
+          "new_draws": 11,
+          "ground_draws": 1,
+          "geometry_sha256": "f85c079da8571d894888dd5dcd440fcf35448eec187814b20958db565aa6f542"
+        },
+        {
+          "lod": 1,
+          "old_draws": 6,
+          "new_draws": 9,
+          "ground_draws": 1,
+          "geometry_sha256": "eca2164f967c083050460f39662c5962c5613112f00662594acc2cf3d659464d"
+        },
+        {
+          "lod": 2,
+          "old_draws": 5,
+          "new_draws": 8,
+          "ground_draws": 1,
+          "geometry_sha256": "ba21d9df76f63c4152941982768c13cefe223adb1caee1609cd4edb81e0da49d"
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -14
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 29,
+          "new_draws": 32,
+          "ground_draws": 1,
+          "geometry_sha256": "a411d2a89db0dfa160adf2066939ac0bd324b84045f9971b178cfdda5e57078f"
+        },
+        {
+          "lod": 1,
+          "old_draws": 28,
+          "new_draws": 31,
+          "ground_draws": 1,
+          "geometry_sha256": "5aad3d988a3ac271624b6d4856111532c53fc343be1e5e067dc507170b0d3fa2"
+        },
+        {
+          "lod": 2,
+          "old_draws": 24,
+          "new_draws": 27,
+          "ground_draws": 1,
+          "geometry_sha256": "33efe379d8b5af6a5ed359d3208ade2dbe0f25ba8a30719b61809b1d2420244e"
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -13
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 15,
+          "new_draws": 17,
+          "ground_draws": 1,
+          "geometry_sha256": "5d14ed68c0432321eb5a20400c385c948c04828bf32143315bd3f3ea03dcb414"
+        },
+        {
+          "lod": 1,
+          "old_draws": 15,
+          "new_draws": 17,
+          "ground_draws": 1,
+          "geometry_sha256": "51f4303ae7858558f180940d9b487118c18f4da1fe8f5f30c3377cc037275e08"
+        },
+        {
+          "lod": 2,
+          "old_draws": 11,
+          "new_draws": 13,
+          "ground_draws": 1,
+          "geometry_sha256": "333e8e24deb1b4be70527e6f96570c4cef648c5eb8d95f9b176ff453acf14069"
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -11
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 22,
+          "new_draws": 24,
+          "ground_draws": 1,
+          "geometry_sha256": "4f8de3e8fb9eae99af38f4cdb489b650a2fa2d84128750f06f7ffa9c4fdecd61"
+        },
+        {
+          "lod": 1,
+          "old_draws": 20,
+          "new_draws": 22,
+          "ground_draws": 1,
+          "geometry_sha256": "fd6520c0ae330ce195ca7728f5a883f169ff006296943ffad68573b2fbd63b42"
+        },
+        {
+          "lod": 2,
+          "old_draws": 17,
+          "new_draws": 20,
+          "ground_draws": 1,
+          "geometry_sha256": "12a2fdb0f57928bbec8ad3fe89ca0403bfbf74fc641de11fe2380ee29f6b3dbc"
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -10
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 16,
+          "new_draws": 18,
+          "ground_draws": 1,
+          "geometry_sha256": "ed236a1154bd09e931a2622897de0a390386596ccceb7c454a9e5f053bd30f1a"
+        },
+        {
+          "lod": 1,
+          "old_draws": 13,
+          "new_draws": 15,
+          "ground_draws": 1,
+          "geometry_sha256": "19ff1eadec819a760daab761d7e9d80f489d42572e9b3e2bc169ccc90223a36f"
+        },
+        {
+          "lod": 2,
+          "old_draws": 11,
+          "new_draws": 13,
+          "ground_draws": 1,
+          "geometry_sha256": "b5fb7cfe3750d070f258507f0249ae307257672159f5c72c71f3cbc8b9323315"
+        }
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -9
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 9,
+          "new_draws": 10,
+          "ground_draws": 1,
+          "geometry_sha256": "d965cf937c312730bf70bfd13e1dd2030871b255657556caae0b238f3878b2b8"
+        },
+        {
+          "lod": 1,
+          "old_draws": 9,
+          "new_draws": 10,
+          "ground_draws": 1,
+          "geometry_sha256": "952d9d1f1790539247e8281cef04b2b547d62cd92822a2c73ec6e8f663b3ae77"
+        },
+        {
+          "lod": 2,
+          "old_draws": 7,
+          "new_draws": 8,
+          "ground_draws": 1,
+          "geometry_sha256": "b7ddf943c52a4dc909181ba791b160cac8f48aa4cc2e6f5977d1916979a62092"
+        }
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -15
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 4,
+          "new_draws": 7,
+          "ground_draws": 1,
+          "geometry_sha256": "31c63fc3fa8facb5b13fc2505dc479b116a1eddb59dcbef4803346f5c81d37a2"
+        },
+        {
+          "lod": 1,
+          "old_draws": 4,
+          "new_draws": 7,
+          "ground_draws": 1,
+          "geometry_sha256": "1994c793fcbc3d1873aa066f5e7048ba1a108e44ae622096442e26a1e7b78788"
+        },
+        {
+          "lod": 2,
+          "old_draws": 4,
+          "new_draws": 7,
+          "ground_draws": 1,
+          "geometry_sha256": "0400a195915b7cbf05e8e5f6e6f8ee2d58ec8d1710bc39c95a42dafac80953f5"
+        }
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -14
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 12,
+          "new_draws": 15,
+          "ground_draws": 1,
+          "geometry_sha256": "304e6b6a3dd4cac7bf40dc6be35a9fcec809393df0985462b5062316cb420e92"
+        },
+        {
+          "lod": 1,
+          "old_draws": 12,
+          "new_draws": 15,
+          "ground_draws": 1,
+          "geometry_sha256": "e9c2e211c3b6d33532f45e0e225c7d57379fe4d101daec5aef89b1ead30bf7dd"
+        },
+        {
+          "lod": 2,
+          "old_draws": 10,
+          "new_draws": 13,
+          "ground_draws": 1,
+          "geometry_sha256": "d8bebeba397fed9944979f0f47e79876a0c992938df7c392e0ec02c4bb9fdbfd"
+        }
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -13
+      ],
+      "patched": true,
+      "lods": [
+        {
+          "lod": 0,
+          "old_draws": 8,
+          "new_draws": 11,
+          "ground_draws": 1,
+          "geometry_sha256": "c2ab1512a3e0efeda76f5e3cd62d943168e748197d524a86273657e255c64b93"
+        },
+        {
+          "lod": 1,
+          "old_draws": 8,
+          "new_draws": 11,
+          "ground_draws": 1,
+          "geometry_sha256": "d60856dc0fa161810b8eccb7282951491221344ef85049c5b53fbe2ef8e4b291"
+        },
+        {
+          "lod": 2,
+          "old_draws": 6,
+          "new_draws": 9,
+          "ground_draws": 1,
+          "geometry_sha256": "d171309532dc9c6dc75890593427c20a3f50529e0185262486c6f8e2331c88a0"
+        }
+      ]
+    }
+  ],
+  "legacy_terrain_draws_retained": true,
+  "feature_gate": 32,
+  "fallback_contract": "Legacy terrain draws discard only when feature32 enabled and fragment selector chosen materialSet<5. Native draws discard when feature32 disabled or selector chosen materialSet!=draw expected set. Out-of-domain,ID7 and255 stay legacy.",
+  "geometry_vertex_index_bytes_unchanged": true,
+  "index_cell_count_bounds_triangle_metadata_unchanged": true,
+  "terrain_material_flag": "0x40000000 marks native terrain; bit0 remains terrain",
+  "sidecar_format": "OATP,u32version1,u32count; perrow <2I8I4f>: materialIndex,nativeSetID,diffuseTex[4],normalTex[4],mapUVScale[4]",
+  "diffuse_alpha_preserved": true,
+  "mip_policy": "At most1024 source mip (_1 with original higher levels skipped); decoded BC1/BC3 with existing Pillow; full generated box mips down to1x1; no alpha replacement. GPU BC rounding and normal-map mip renormalization parity are unverified.",
+  "deployment": false
+}

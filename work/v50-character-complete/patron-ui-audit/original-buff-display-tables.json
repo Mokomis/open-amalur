@@ -1,0 +1,442 @@
+{
+  "m_debuffed_flat_mod_string": {
+    "SL2": -1218682880,
+    "SL1": 1592948496
+  },
+  "m_steal_string_chance_mana": {
+    "SL2": 1814487204,
+    "SL1": -1769078772
+  },
+  "m_percent_mod_string_chance_cond": {
+    "SL2": 1714317687,
+    "SL1": -90794968
+  },
+  "m_flat_damage_mod_string": {
+    "SL2": -1218682880,
+    "SL1": 1592948496
+  },
+  "m_flat_damage_params": {
+    "Piercing_damage_amount": true,
+    "Bleeding_damage_amount": true,
+    "Poison_damage_amount": true,
+    "Fire_damage_amount": true,
+    "Lightning_damage_amount": true,
+    "Physical_damage_amount": true,
+    "Ice_damage_amount": true
+  },
+  "m_debuffed_flat_mod_string_cond": {
+    "SL2": -1363282921,
+    "SL1": -1970948566
+  },
+  "m_percent_mod_string": {
+    "SL2": -785947364,
+    "SL1": 241597119
+  },
+  "m_use_fraction_as_whole_number": {
+    "critical": true
+  },
+  "m_flat_mod_string": {
+    "SL2": 1544490488,
+    "SL1": 537629465
+  },
+  "m_percent_reduction_string_chance_cond": {
+    "SL2": -345859443,
+    "SL1": -769876993
+  },
+  "m_special_case_params": {
+    "Ice_dot_amount": {
+      "required_operator": 3,
+      "param_string_chance": {
+        "SL2": 1156968506,
+        "SL1": -1038801063
+      },
+      "param_string": {
+        "SL2": -1617823921,
+        "SL1": 1640786393
+      },
+      "param_string_chance_cond": {
+        "SL2": -1614707407,
+        "SL1": 1344028975
+      },
+      "param_string_cond": {
+        "SL2": 620471643,
+        "SL1": 333130847
+      }
+    },
+    "Bleeding_dot_amount": {
+      "required_operator": 3,
+      "param_string_chance": {
+        "SL2": 1156968506,
+        "SL1": -1038801063
+      },
+      "param_string": {
+        "SL2": -1617823921,
+        "SL1": 1640786393
+      },
+      "param_string_chance_cond": {
+        "SL2": -1614707407,
+        "SL1": 1344028975
+      },
+      "param_string_cond": {
+        "SL2": 620471643,
+        "SL1": 333130847
+      }
+    },
+    "Lightning_dot_amount": {
+      "required_operator": 3,
+      "param_string_chance": {
+        "SL2": 1156968506,
+        "SL1": -1038801063
+      },
+      "param_string": {
+        "SL2": -1617823921,
+        "SL1": 1640786393
+      },
+      "param_string_chance_cond": {
+        "SL2": -1614707407,
+        "SL1": 1344028975
+      },
+      "param_string_cond": {
+        "SL2": 620471643,
+        "SL1": 333130847
+      }
+    },
+    "Fire_dot_amount": {
+      "required_operator": 3,
+      "param_string_chance": {
+        "SL2": 1156968506,
+        "SL1": -1038801063
+      },
+      "param_string": {
+        "SL2": -1617823921,
+        "SL1": 1640786393
+      },
+      "param_string_chance_cond": {
+        "SL2": -1614707407,
+        "SL1": 1344028975
+      },
+      "param_string_cond": {
+        "SL2": 620471643,
+        "SL1": 333130847
+      }
+    },
+    "manasteal_damage_amount": {
+      "required_operator": 3,
+      "param_string_chance": {
+        "SL2": 1814487204,
+        "SL1": -1769078772
+      },
+      "param_string": {
+        "SL2": -1575962136,
+        "SL1": 671599410
+      },
+      "param_string_chance_cond": {
+        "SL2": -1320978188,
+        "SL1": 2094687156
+      },
+      "param_string_cond": {
+        "SL2": 1115536405,
+        "SL1": -402039509
+      }
+    },
+    "healthsteal_damage_amount": {
+      "required_operator": 3,
+      "param_string_chance": {
+        "SL2": -1100130805,
+        "SL1": 1969330835
+      },
+      "param_string": {
+        "SL2": 1148171442,
+        "SL1": 2022571683
+      },
+      "param_string_chance_cond": {
+        "SL2": 1251555518,
+        "SL1": 1217026990
+      },
+      "param_string_cond": {
+        "SL2": -2011496192,
+        "SL1": 1865089647
+      }
+    },
+    "Poison_dot_amount": {
+      "required_operator": 3,
+      "param_string_chance": {
+        "SL2": 1156968506,
+        "SL1": -1038801063
+      },
+      "param_string": {
+        "SL2": -1617823921,
+        "SL1": 1640786393
+      },
+      "param_string_chance_cond": {
+        "SL2": -1614707407,
+        "SL1": 1344028975
+      },
+      "param_string_cond": {
+        "SL2": 620471643,
+        "SL1": 333130847
+      }
+    }
+  },
+  "m_steal_string_chance_health": {
+    "SL2": -1100130805,
+    "SL1": 1969330835
+  },
+  "m_debuffed_percent_mod_string_chance_cond": {
+    "SL2": -200913523,
+    "SL1": 1438055592
+  },
+  "m_flat_reduction_string_chance_cond": {
+    "SL2": 615876675,
+    "SL1": 394254222
+  },
+  "m_debuffed_percent_mod_string": {
+    "SL2": -389830609,
+    "SL1": -758146235
+  },
+  "m_percent_reduction_string": {
+    "SL2": -1729593679,
+    "SL1": 806895674
+  },
+  "m_do_not_display": {
+    "PowerRecovery": true,
+    "HealthRecovery": true
+  },
+  "m_percent_mod_string_cond": {
+    "SL2": 531039051,
+    "SL1": -2125534417
+  },
+  "m_dot_damage_strings": {
+    "Lightning": {
+      "SL2": 1397522549,
+      "SL1": -441249539
+    },
+    "Poison": {
+      "SL2": -1444700031,
+      "SL1": 1544918595
+    },
+    "Fire": {
+      "SL2": 1432143546,
+      "SL1": -1157285709
+    },
+    "Bleeding": {
+      "SL2": 2687721,
+      "SL1": 516789394
+    },
+    "Ice": {
+      "SL2": 1270669322,
+      "SL1": 515964908
+    }
+  },
+  "m_flat_reduction_string_cond": {
+    "SL2": 1571954198,
+    "SL1": 1175459098
+  },
+  "m_dot_string": {
+    "SL2": -1617823921,
+    "SL1": 1640786393
+  },
+  "m_debuffed_percent_mod_string_cond": {
+    "SL2": -1581277132,
+    "SL1": 438713829
+  },
+  "m_flat_damage_mod_string_chance": {
+    "SL2": -2108359569,
+    "SL1": -454235986
+  },
+  "m_dot_type_to_damage_param": {
+    "Lightning": "Lightning_dot_amount",
+    "Poison": "Poison_dot_amount",
+    "Bleeding": "Bleeding_dot_amount",
+    "Fire": "Fire_dot_amount",
+    "Ice": "Ice_dot_amount"
+  },
+  "m_damage_params_for_display": {
+    "Lightning_damage_amount": true,
+    "Bleeding_dot_amount": true,
+    "Poison_dot_amount": true,
+    "Piercing_damage_amount": true,
+    "Ice_dot_amount": true,
+    "Lightning_dot_amount": true,
+    "Physical_damage_amount": true,
+    "Fire_dot_amount": true,
+    "Fire_damage_amount": true,
+    "Ice_damage_amount": true
+  },
+  "m_steal_string_cond_mana": {
+    "SL2": 1115536405,
+    "SL1": -402039509
+  },
+  "m_flat_mod_string_cond": {
+    "SL2": 1585439212,
+    "SL1": -1624143089
+  },
+  "m_percent_mod_string_chance": {
+    "SL2": -1093163206,
+    "SL1": -1793227058
+  },
+  "m_steal_string_mana": {
+    "SL2": -1575962136,
+    "SL1": 671599410
+  },
+  "m_percent_reduction_string_cond": {
+    "SL2": -1830031183,
+    "SL1": -1446714120
+  },
+  "m_dot_string_cond": {
+    "SL2": 620471643,
+    "SL1": 333130847
+  },
+  "m_flat_damage_mod_string_chance_cond": {
+    "SL2": -875276581,
+    "SL1": -1762698109
+  },
+  "m_damage_type_to_param": {
+    "Physical": "Physical_damage_amount",
+    "Piercing": "Piercing_damage_amount",
+    "Fire": "Fire_damage_amount",
+    "Lightning": "Lightning_damage_amount",
+    "Ice": "Ice_damage_amount"
+  },
+  "m_steal_string_health": {
+    "SL2": 1148171442,
+    "SL1": 2022571683
+  },
+  "m_flat_mod_string_chance_cond": {
+    "SL2": 197528661,
+    "SL1": -794736062
+  },
+  "m_special_case_merge": {
+    "Ice_dot_duration": "duration",
+    "Poison_dot_duration": "duration",
+    "Lightning_dot_duration": "duration",
+    "Bleeding_dot_duration": "duration",
+    "Fire_dot_duration": "duration"
+  },
+  "m_debuffed_percent_mod_string_chance": {
+    "SL2": -262085420,
+    "SL1": -732881487
+  },
+  "m_steal_string_cond_health": {
+    "SL2": -2011496192,
+    "SL1": 1865089647
+  },
+  "m_steal_string_chance_cond_mana": {
+    "SL2": -1320978188,
+    "SL1": 2094687156
+  },
+  "m_flat_reduction_string": {
+    "SL2": 178750576,
+    "SL1": -1813935496
+  },
+  "m_buff_rarity": {
+    "unique": 4,
+    "common": 1,
+    "set": 5,
+    "infrequent": 2,
+    "rare": 3
+  },
+  "m_flat_mod_string_chance": {
+    "SL2": 1152139523,
+    "SL1": 647304685
+  },
+  "m_percent_reduction_string_chance": {
+    "SL2": -149373801,
+    "SL1": -1419527093
+  },
+  "m_special_reduction_param": {
+    "powercostreduction": true,
+    "equipment_requirements_multiplier": true,
+    "cooldownreduction": true
+  },
+  "m_chance_string": {
+    "SL2": -211522103,
+    "SL1": 1431096363
+  },
+  "m_divide_whole_by_10": {
+    "Blacksmithing": true,
+    "Persuasion": true,
+    "Alchemy": true,
+    "Mercantile": true,
+    "DetectHidden": true,
+    "Lockpicking": true,
+    "Sagecraft": true,
+    "Stealth": true,
+    "Dispelling": true
+  },
+  "m_force_percent": {
+    "Fire_resistance": true,
+    "StunChanceModifier": true,
+    "mana_steal_chance": true,
+    "Ice_resistance": true,
+    "Bleeding_resistance": true,
+    "health_steal_chance": true,
+    "Stun_resistance": true,
+    "Physical_resistance": true,
+    "Piercing_resistance": true,
+    "Lightning_resistance": true,
+    "elemental_resistance": true,
+    "critical": true,
+    "Poison_resistance": true,
+    "SuperArmorHealth": true,
+    "total_damage_resistance": true,
+    "BlockDamageMitigationPercent": true
+  },
+  "m_flat_damage_mod_string_cond": {
+    "SL2": -1363282921,
+    "SL1": -1970948566
+  },
+  "m_dot_string_chance_cond": {
+    "SL2": -1614707407,
+    "SL1": 1344028975
+  },
+  "m_dot_string_chance": {
+    "SL2": 1156968506,
+    "SL1": -1038801063
+  },
+  "m_debuffed_flat_mod_string_chance_cond": {
+    "SL2": -1770506726,
+    "SL1": -1646500720
+  },
+  "m_debuffed_flat_mod_string_chance": {
+    "SL2": -1473715948,
+    "SL1": -1961476186
+  },
+  "m_dot_type_to_duration_param": {
+    "Lightning": "Lightning_dot_duration",
+    "Poison": "Poison_dot_duration",
+    "Bleeding": "Bleeding_dot_duration",
+    "Fire": "Fire_dot_duration",
+    "Ice": "Ice_dot_duration"
+  },
+  "m_damage_strings": {
+    "Physical": {
+      "SL2": -1242005041,
+      "SL1": 386326364
+    },
+    "Piercing": {
+      "SL2": 2015215193,
+      "SL1": -712832285
+    },
+    "Fire": {
+      "SL2": -557494743,
+      "SL1": 904012598
+    },
+    "Lightning": {
+      "SL2": -1006189684,
+      "SL1": -1245669087
+    },
+    "Ice": {
+      "SL2": 377384379,
+      "SL1": 1941030186
+    }
+  },
+  "m_flat_reduction_string_chance": {
+    "SL2": 302303371,
+    "SL1": -1786835828
+  },
+  "m_steal_string_chance_cond_health": {
+    "SL2": 1251555518,
+    "SL1": 1217026990
+  }
+}

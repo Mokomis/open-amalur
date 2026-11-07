@@ -1,0 +1,214 @@
+{
+  "scope": "Windows production C runtime; simulated host only; no live/core/user-data edits; no Mac mirrors",
+  "result": {
+    "passed": true,
+    "checks": 51,
+    "backend": "simulated acknowledged host",
+    "lua": "production amalur_runtime + Lua5.1.5",
+    "budget_rollback": true,
+    "asset_hash_rejection": true,
+    "user_files_touched": false
+  },
+  "lua_bytes_after_route": 821028,
+  "default_lua_cap": 67108864,
+  "default_eval_budget": 200000,
+  "forced_budget": 40000,
+  "forced_allocator_cap": 32768,
+  "assets": [
+    {
+      "path": "runtime/amalur_uint64.lua",
+      "size": 1712,
+      "sha256": "f34cf7a740acb1697d3b6bb6867f8da468d187195c72c6bd07f0ebfcd697da00",
+      "kind": 0,
+      "name": "amalur_uint64.lua"
+    },
+    {
+      "path": "runtime/amalur_engine_handles.lua",
+      "size": 3310,
+      "sha256": "2a1b4b515cec283d9eab02d20e5cc036337138ece1ee4db9f18619fac229fcae",
+      "kind": 0,
+      "name": "amalur_engine_handles.lua"
+    },
+    {
+      "path": "runtime/engine_binding_registry.lua",
+      "size": 66411,
+      "sha256": "877055e55fff54beeae2fdc396a8a4a6cf283f477d9dd9b8acc2547b0c66e204",
+      "kind": 0,
+      "name": "engine_binding_registry.lua"
+    },
+    {
+      "path": "runtime/amalur_engine_bindings.lua",
+      "size": 2502,
+      "sha256": "07a62657e31cdb9aae0712aa19604caab885ca9a72785fa2571bc5fd4738241b",
+      "kind": 0,
+      "name": "amalur_engine_bindings.lua"
+    },
+    {
+      "path": "runtime/amalur_native_math.lua",
+      "size": 2344,
+      "sha256": "7a14b0a4e04d0a6e650412960282678f255b0a2fae57607388200a4fca43b477",
+      "kind": 0,
+      "name": "amalur_native_math.lua"
+    },
+    {
+      "path": "opening/opening_state_accessors.lua",
+      "size": 3244,
+      "sha256": "8ad3e9a48470500c11f06cf0f6aef5deb95e84ba1cee619ea2173559262c467b",
+      "kind": 1,
+      "name": "__oa_accessors"
+    },
+    {
+      "path": "opening/opening_bridge.lua",
+      "size": 12460,
+      "sha256": "8ae569f3825c00694c65c1126502b8f5ff04214ccdd993e5598e441620fd8680",
+      "kind": 2,
+      "name": "__oa_bridge_impl"
+    },
+    {
+      "path": "opening/opening-function-manifest.json",
+      "size": 3087,
+      "sha256": "74062a0bc965d27b22c55926e850cec687094ee2b9f7fb7fd52ef3752eb40ba2",
+      "kind": 4,
+      "name": "manifest"
+    },
+    {
+      "path": "opening/evidence/WoS_Start_Room/functions/function_0_5.lua",
+      "size": 6296,
+      "sha256": "4cbc94a849adc7861e976f967b3eef9171d230c12f0ca7d464f894c0e257eb78",
+      "kind": 3,
+      "name": "WoS_Start_Room.on_player_moved"
+    },
+    {
+      "path": "opening/evidence/WoS_Start_Room/functions/function_0_4.lua",
+      "size": 3293,
+      "sha256": "1546d79542d81317e71b352892cf57cc8e214a118ca6f6800f2cd33fbea5e8e2",
+      "kind": 3,
+      "name": "WoS_Start_Room.on_leave_starting_room"
+    },
+    {
+      "path": "opening/evidence/WoS_Start_Room/functions/function_0_11.lua",
+      "size": 6517,
+      "sha256": "cd8f821c5852f1780dfe617058511abd4bff504917b1a5ec64b893ef5985f37a",
+      "kind": 3,
+      "name": "WoS_Start_Room.on_volume_exit"
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_0.lua",
+      "size": 8977,
+      "sha256": "54b8378ef1a2604aca186cc8556cdd315308353e33a34a9379b60abd272e589b",
+      "kind": 3,
+      "name": "Sword_WoS_InitialWeapon.on_item_acquired"
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_1.lua",
+      "size": 7587,
+      "sha256": "b3dc6fc248944e5ba9b3c646f705ef2c04986720b2426a8f076b60f1278ca49e",
+      "kind": 3,
+      "name": "Sword_WoS_InitialWeapon.launch_equip_tutorial"
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_2.lua",
+      "size": 3497,
+      "sha256": "8efe71e86226a7eaa508f09455e7cacc9504569f7748f27f17450fecb1575305",
+      "kind": 3,
+      "name": "Sword_WoS_InitialWeapon.on_equip_item"
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_3.lua",
+      "size": 4635,
+      "sha256": "7a8d88089f183d696b6186a5fecc35b421a2ee5a7639c4a0ff1561e7f115b2d4",
+      "kind": 3,
+      "name": "Sword_WoS_InitialWeapon.check_open_initial_door"
+    },
+    {
+      "path": "opening/evidence/Sword_WoS_InitialWeapon/functions/function_0_4.lua",
+      "size": 8857,
+      "sha256": "765d612907189118f24ff7525c9a0809783e7c757f3bb432578cacc57be07ae4",
+      "kind": 3,
+      "name": "Sword_WoS_InitialWeapon.open_initial_door"
+    }
+  ],
+  "files": [
+    {
+      "path": "oa_opening_runtime.c",
+      "bytes": 21268,
+      "sha256": "fc341465659b2637979ad2fffd8137111ccd0171c749dbab82fc69d8723899ba"
+    },
+    {
+      "path": "oa_opening_runtime.h",
+      "bytes": 3792,
+      "sha256": "23a898bb2b8a5785234e96ece2d791aa749997f452478d5b5197af7ce935c11f"
+    },
+    {
+      "path": "opening_sha256.h",
+      "bytes": 2403,
+      "sha256": "109112be8c3a06db8a7c59dde8ee5a098c77ee0febd0b3b5c8b52fab36455fa6"
+    },
+    {
+      "path": "opening_assets.h",
+      "bytes": 4330,
+      "sha256": "bf5e9c3e91b06ae86c698e7fcd5ff04f11bf6575ad91e13a807ab51562bc467c"
+    },
+    {
+      "path": "oa_opening_runtime_test.c",
+      "bytes": 8330,
+      "sha256": "95b2952e390b4794914a7771838b5b32f9f8a46c81120c849ef212bb2c8fde47"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 1258,
+      "sha256": "e9b2e50f166396b8e009f33993a690d9f2beaaefc07f68e76263f06333aba508"
+    },
+    {
+      "path": "build-test.cmd",
+      "bytes": 701,
+      "sha256": "eabdfb0ee3e26adc6e1d26e7e22318cdc3ddb36445d42ff218c66883f2860512"
+    },
+    {
+      "path": "INTEGRATION.txt",
+      "bytes": 5990,
+      "sha256": "45e291f3beffbcc6b8c01c0f57bed5038aa7f9b05872d9319ba0c9682684750f"
+    },
+    {
+      "path": "verify_assets.py",
+      "bytes": 391,
+      "sha256": "32a5b0265f9337eeecf88075531b033a3b5887338e4571dd012f53f7d807e7f6"
+    },
+    {
+      "path": "asset-integrity.json",
+      "bytes": 3824,
+      "sha256": "3dc2a635d7b45b5c086ad4b3f924b2c10d7054d134ba9316fce9bc72d940a8fa"
+    },
+    {
+      "path": "snapshot-schema.json",
+      "bytes": 1230,
+      "sha256": "74d238d6c4eb17e7de7f813bb3a5f8b8aa29363373227f51aa4040a99c4c8155"
+    },
+    {
+      "path": "build-test.log",
+      "bytes": 760,
+      "sha256": "68d8d4e448791bb263b74e64372a11865075a7c4c1ef15501ff280c9660c02f9"
+    },
+    {
+      "path": "runtime-test.log",
+      "bytes": 229,
+      "sha256": "b70639146568324b17044f2fa1d25bf40028bc4cb453d698b534e6ec092b5359"
+    },
+    {
+      "path": "asset-verification.log",
+      "bytes": 58,
+      "sha256": "e907bc2edcd245cb24a85964adb438ac9f18e6127ccf1d5692fc4946787e646c"
+    },
+    {
+      "path": "build/oa-opening-runtime-test.exe",
+      "bytes": 406016,
+      "sha256": "793a49d0060b77a4eb05a5bcdd8b3d29a0fdc74c949d4cd39934293547dd80fe"
+    }
+  ],
+  "production_inputs": {
+    "work/v08-portable/src/amalur_runtime.c": "5fe504adeb719eec5a221fd655ea96673e8958d00e5711e910b1d5e6194f44ee",
+    "work/v08-portable/include/amalur_runtime.h": "d3e2c40fccacbec66232eaefb6711eefc53c57d0a013a57301307ec062c7e481",
+    "work/v08-portable/CMakeLists.txt": "6f2e90b37bf9092b0e00a5301e344bf418ef7e270b3026e723dcbba617a14bbb",
+    "work/v08-portable/third_party/lua-5.1.5/src/lua.h": "470551c185f058360f8d0f9e5c54a29a3950f78af6a93f3fe9e4039a380c7b87"
+  }
+}

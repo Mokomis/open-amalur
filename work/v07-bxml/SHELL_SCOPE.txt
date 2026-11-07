@@ -1,0 +1,72 @@
+Selected scene shell reconstruction: evidence and limits
+
+The selected input remains DATA_0.pak/524859.space_bxml, SHA256
+775fb38b3fd9ff67ed3181579e935c70b33bd6831ccebf744ce4b2f6cd590143.
+The game archives are never changed. Candidate geometry is written separately.
+
+Windows probes establish:
+
+100: root+0x118 lists 76 FAB IDs, and root+0x120 lists 76 associated counts.
+Their counts sum to 135. The paired root+0x1b0 list contains 172 references whose
+high nibble is 0xf; every low 28-bit value occurs in the FAB list.
+
+102: equal array lengths do NOT establish index association. Joining the typed
+reference list directly to the 84-byte render list gives wrong model poses.
+Consecutive duplicate/LOD assumptions also fail and must not drive drawing.
+
+103: the 172 centers at root+0x1a8 match the 172 sphere centers in root+0x160
+one-to-one, recovering the permutation. The render word at+68 is within the
+corresponding model's assembly count. For model534872 it selects assemblies0..8
+at render indices48,97,87,73,112,101,53,94,105, respectively.
+
+104: model534872's nine assembly descriptor centers and all its vertex positions
+agree with the stored world spheres using the render pose alone. Applying the
+FAB bind again adds an erroneous380.047485 to Z. These render poses therefore
+already incorporate the assembly bind for this measured sample.
+
+105: among151 records with then-available model reports, all radius checks pass.
+Conjugated stored xyzw quaternions pass both center and vertex enclosure checks
+for112 records; direct quaternions pass41, all included among those112. There
+are no direct-only successes. The39 residual failures all use non-unit scale.
+This supports one consistent conjugate convention; it does not support choosing
+between conventions per record. The earlier prop baker still has its original
+inferred direct convention, which must be revisited separately.
+
+106: all172 records with the expanded model corpus pass center and actual vertex
+enclosure checks when scaling is consistently performed about the descriptor
+center, followed by conjugate rotation and translation. This is the selected
+candidate profile. No vertex or bound threshold was relaxed. Native arithmetic
+and live rendering equivalence remain unproven.
+
+Current candidate baker:
+
+amalur_shell.py uses the original scene bytes and a hash-pinned profile. It
+reconstructs the primary172-record permutation, verifies original mesh and FAB
+source hashes, and uses the measured assembly selector. Its private quaternion
+convention conjugates stored xyz consistently; scaling is about the descriptor
+center. It does not apply another bind.
+It checks descriptor center/radius, all actual vertex positions against the
+stored sphere plus0.1, index bounds, and assembly count words before admission.
+Unsupported records require explicit --allow-partial and retain precise reasons.
+Missing FAB reports can use a selected cross-archive report only when its hash
+matches an actual allowed DATA/initial original; no patch precedence is inferred.
+
+The344-record root+0x150 and75-record root+0x180 sets are excluded. Their LOD,
+sorting, transparency, and draw-selection meanings need more evidence. Colors
+and normals are authored diagnostics. No original material, texture, animation,
+collision, gameplay, or complete scene equivalence is claimed.
+
+The79 gameplay prop placements and the primary static render set can refer to
+the same models. Never merge their geometry merely because they were extracted
+through different arrays. The prior prop scene remains a separate diagnostic
+until per-instance duplication is resolved.
+
+The record associations and pose convention are corroborated through the data,
+not yet a native render-consumer trace. Static sphere agreement cannot establish
+live rendering equivalence. The typed references are model candidates until the
+native resource dispatch is traced, even though all inspected IDs and geometry
+counts agree. Stride56 is not labeled skin solely from an older importer: this
+sample has static mapped descriptors and no remaps; only its positions are used.
+
+Windows tests: python -m unittest -v test_amalur_shell.py
+All new target parsing, measurements, renders, and tests run on Windows.

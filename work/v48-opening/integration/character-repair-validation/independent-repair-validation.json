@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "runtime_checks": 22,
+  "expected_normal_defects": 2781,
+  "repaired_palette_parts": [
+    2,
+    5
+  ],
+  "all_8144_normals_equal_independent_source_SNORM_decode": true,
+  "all_other_bytes_preserved": true,
+  "only_two_palette_prefixes_changed": true,
+  "repaired_heap_copy_sha256": "40b7c1ba7147a1b0d35e754362d7313603f748a7733b75210098a4de7ce40026",
+  "original_pack_sha256": "ede399d687bcbbc9d1534a208e81a13b9b3785a6f2b52dc25b28f78f36a484a4",
+  "runtime_source_sha256": "4d34e217942e819dc0d4adf17aa6a243517335d24280ecbd60a1041bda27a1a3",
+  "original_file_unchanged": true
+}

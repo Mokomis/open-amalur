@@ -1,0 +1,24 @@
+--- before/oa_menu.h
+
++++ after/oa_menu.h
+
+@@ -9,7 +9,7 @@
+
+ typedef enum oa_menu_action{OA_ACTION_NONE,OA_ACTION_NEW_GAME,OA_ACTION_LOAD,OA_ACTION_SAVE,OA_ACTION_EXIT,OA_ACTION_APPLY_RATE,OA_ACTION_TOGGLE_LIGHTING}oa_menu_action;
+ enum{OA_DEVICE_TOUCH,OA_DEVICE_PAD,OA_DEVICE_KEYBOARD};
+ typedef struct oa_hud_item{int on;float scale,x,y;}oa_hud_item;
+-typedef struct oa_settings{oa_hud_item hud[OA_HUD_COUNT];float opacity,look_speed;int invert_look,rate,shadows;}oa_settings;
++typedef struct oa_settings{oa_hud_item hud[OA_HUD_COUNT];float opacity,look_speed;int invert_look,rate,shadows,canopy_dense;}oa_settings;
+ /* What the game tells the HUD this frame. */
+ typedef struct oa_reagent_row{const char *name;unsigned count;}oa_reagent_row;
+ typedef struct oa_hud_view{float health,foe,health_now,health_max,yaw,target_x,target_y,feet_x,feet_y;int dead,has_target,show_hud,room_lighting;const char *location,*zone,*prompt,*foe_name;int move_active;float move_origin_x,move_origin_y,move_x,move_y;const oa_reagent_row *reagents;int reagent_count;}oa_hud_view;
+@@ -41,6 +41,8 @@
+
+ void oa_menu_open(oa_menu *m,oa_screen screen);
+ void oa_menu_status(oa_menu *m,const char *text);
+ int oa_menu_rate(const oa_menu *m);
++/* Canopy selection: 0 Corrected (default), 1 Dense. Renderer owns the selector. */
++int oa_menu_canopy_dense(const oa_menu *m);
+ /* Returns 1 when consumed. During play only menu, attack-trigger and mouse events are taken here. */
+ int oa_menu_event(oa_menu *m,AInputEvent *event,int width,int height,exploration_input *play);
+ void oa_hud_rect(const oa_menu *m,int item,int width,int height,float rect[4]);

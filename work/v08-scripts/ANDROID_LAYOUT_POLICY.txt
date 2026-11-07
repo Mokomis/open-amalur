@@ -1,0 +1,50 @@
+Explicit Android logical-layout policy
+
+scene_controller_state_v08 now has a trailing domain field. Native fixtures
+using {is_set,native_kind} or zero initialization retain domain0. Recompile all
+callers: this is source compatibility, not binary struct-layout compatibility.
+
+SCENE_CONTROLLER_DOMAIN_NATIVE_KIND=0:
+  Exact proven native predicate: true for kind13 or15, false otherwise.
+SCENE_CONTROLLER_DOMAIN_ANDROID_LOGICAL_STANDARD=1:
+  Explicit new Android host policy; query false, native_device_kind ignored.
+  Logical Android keycode A confirms and B cancels/goes back.
+SCENE_CONTROLLER_DOMAIN_ANDROID_LOGICAL_REVERSED=2:
+  Explicit new Android host policy; query true, native_device_kind ignored.
+  Logical Android keycode B confirms and A cancels/goes back.
+
+All domains require is_set=1. With is_set=0, queries raise an explicit error.
+Invalid flags or unknown domains are rejected before installation/mutation.
+Neither connection status nor language nor printed labels selects this domain.
+The existing scene_profile_v08_set_controller API copies the full state, so
+actual host configuration can change policy without replacing captured query
+functions. No new hardcoded Android provider callback is introduced.
+
+Parent Android integration can explicitly initialize:
+  scene_controller_state_v08 state = {
+      1, 0, SCENE_CONTROLLER_DOMAIN_ANDROID_LOGICAL_STANDARD
+  };
+and pass it through options.controller or scene_profile_v08_set_controller.
+This value means a known selected policy, not a proven connected controller.
+If host configuration is unknown, use is_set=0. For a service intentionally
+bound to an active device, loss of that device may invalidate state according
+to the host's separately documented lifecycle. Do not silently infer either
+native kind13 or15 from Android observations.
+
+The official historical Android controller guide recommends BUTTON_A and
+DPAD_CENTER for primary/confirm actions and BUTTON_B for back, with a locale
+caveat. We choose A-confirm/B-back as explicit default host behavior and keep
+reversal as a separate preference. Current Android guidance says logical
+BUTTON_A stays at the south position even on reverse-lettered controllers;
+printed glyph choice is separate from logical action policy.
+https://android.googlesource.com/platform/frameworks/base/+/9672ee125d6aee73bf1e5425c4089285714f25bf/docs/html/training/game-controllers/controller-input.jd
+https://developer.android.com/games/sdk/game-controller/controller-input
+
+Build android_layout_test.c with the same scene_profile_v08.c and portable
+runtime as controller_state_test.c. Pass the six-namespace runtime directory.
+Run both fixtures on Windows; then parent builds/installs Android integration.
+New fixture covers native/domain transition behavior, ignored native integers
+in Android domains (including13/15), unset policy in all domains, invalid
+domains/flags, rejection before provider publication, captured-callback updates,
+copied input lifetime, realm isolation, stack preservation, and argument errors.
+No Windows or tablet execution was performed by this staging task.

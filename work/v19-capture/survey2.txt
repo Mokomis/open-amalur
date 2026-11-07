@@ -1,0 +1,171 @@
+===== batch_decode_meshes.py 3828
+"""Decode only explicitly supplied extracted-stream directories on Windows."""
+import argparse
+import hashlib
+import json
+import platform
+from pathlib import Path
+assert platform.system()=='Windows', 'Fresh target decoding runs on Windows'
+from amalur_mesh import MeshError, export_obj, export_portable, parse_file
+
+def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--input-root',action='append',required=True,type=Path)
+    parser.add_argument('--output',required=True,type=Path)
+    parser.add_argument('--ids',nargs='+')
+    parser.add_argument('--prefer-last',action='store_true',help='Explicit analyst root precedence; not inferred game load order')
+    parser.add_argument('--obj',action='store_true')
+    args=parser.parse_args()
+    suffix='.fab_visual_data_streamable_bin'
+    wanted=set(args.ids) if args.ids else None
+    candidates={}
+    for root in args.input_root:
+        if not root.is_dir():raise ValueError('missing input root '+str(root))
+        for path in sorted(root.glob('*'+suffix)):
+            key=path.name[:-len(suffix)]
+            if wanted is not None and key not in wanted:continue
+            candidates.setdefault(key,[]).append(path)
+    args.output.mkdir(parents=True,exist_ok=True)
+    records=[]
+    for key,paths in sorted(candidates.items()):
+        provenance=[{'path':str(path),'sha256':digest(path),'bytes':path.stat().st_size} for path in paths]
+        row={'asset_id_text':key,'candidate_inputs':provenance}
+        try:
+            if len({r['sha256'] for r in provenance})>1 and not args.prefer_last:
+                raise ValueError('conflicting extracted variants require explicit --prefer-last or one selected root')
+            chosen=paths[-1] if args.prefer_last else paths[0]
+            source=parse_file(chosen)
+            dest=args.output/key;dest.mkdir(exist_ok=True)
+            mesh=dest/'native-mesh.json';portable=dest/'mesh.ommesh'
+            source['portable_export']=export_portable(source,portable)
+            mesh.write_text(json.dumps(source,indent=2)+'\n',encoding='utf-8')
+            if args.obj:export_obj(source,dest/'mesh.obj')
+            row.update(status='decoded',selected_input=str(chosen),input_sha256=source['input_sha256'],
+                       summary=source['summary'],mesh_json=str(mesh),mesh_json_sha256=digest(mesh),
+                       portable=source['portable_export'])
+        except (MeshError,ValueError,OSError) as exc:row.update(status='unresolved',reason=str(exc))
+        records.append(row)
+    for key in sorted((wanted or set())-set(candidates)):
+        records.append({'asset_id_text':key,'status':'unresolved','reason':'no stream in supplied input directories','candidate_inputs':[]})
+    success=[r for r in records if r['status']=='decoded']
+    report={'scope':'Selected extracted geometry streams only; no world placement, skeleton, material or complete render claim.',
+            'input_roots':[str(p) for p in args.input_root],
+            'variant_policy':'last supplied root wins by explicit analyst choice' if args.prefer_last else 'conflicting variants rejected',
+            'selected_asset_ids':sorted(wanted) if wanted else None,
+            'decoded':len(success),'unresolved':len(records)-len(success),
+            'unique_mesh_vertices':sum(r['summary']['vertices'] for r in success),
+            'unique_mesh_triangles':sum(r['summary']['triangles_in_buffers'] for r in success),
+            'records':records}
+    (args.output/'manifest.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+    print(json.dumps({key:value for key,value in report.items() if key!='records'},indent=2))
+    if report['unresolved']:raise SystemExit(1)
+
+if __name__=='__main__':main()
+
+===== amalur_scene.py 17364
+"""Extract the selected DATA Gorhart scene's inferred static placements.
+
+The carrier relocation is native-confirmed. The80-byte record field meanings
+remain an explicitly inferred profile until its native consumers are traced.
+The optional baker produces our diagnostic OMSC07 geometry interchange only.
+"""
+from __future__ import annotations
+import argparse
+import hashlib
+import json
+import math
+import struct
+from pathlib import Path
+from amalur_blob import parse_bytes as parse_blob
+
+SPACE_ID=524859
+SPACE_SHA256='775fb38b3fd9ff67ed3181579e935c70b33bd6831ccebf744ce4b2f6cd590143'
+ARRAY_SLOT=152
+RECORD_BYTES=80
+SCENE_MAGIC=b'OMSC07\0\0'
+MAX_SCENE_BYTES=256*1024*1024
+ALLOWED_MESH_ARCHIVES=frozenset({'DATA_0.pak','initial_0.pak'})
+PLACEMENT_NATIVE_EVIDENCE={
+    'fab_instance_constructor':{'function':'0x00dddde0','evidence_id':'ev_7c621e91fd50ecf2c9ceae1ba776b6ffd3e0eca2d81a8fc1d4667b06ca52c1a9',
+                                'observation':'Resolves record+0x34(52) as the FAB resource and passes record+4 to the transform path.'},
+    'transform_copy':{'function':'0x00ac5560','evidence_id':'ev_01248ca54ee41a82f132d012aa3e6ca12b2b5c8ef5149a9bb6e7eb17bbd77d9b',
+                      'observation':'Copies45 bytes from the supplied transform object; component arithmetic is not established by copying.'},
+}
+
+class SceneError(ValueError):pass
+def sha(data):return hashlib.sha256(data).hexdigest()
+def f32(x):return struct.unpack('<f',struct.pack('<f',x))[0]
+
+def parse_bytes(data,expected_space_id=SPACE_ID):
+    blob=parse_blob(data)
+    payload=data[8:8+blob['header']['payload_bytes']]
+    if len(payload)<ARRAY_SLOT+8:raise SceneError('payload is too short for selected root array slot')
+    space_id=struct.unpack_from('<I',payload,0)[0]
+    if space_id!=expected_space_id:raise SceneError('space identity differs from selected profile')
+    if ARRAY_SLOT not in {r['slot_payload_offset'] for r in blob['slots']}:
+        raise SceneError('selected array pointer is absent from native relocation slots')
+    raw_pointer,count=struct.unpack_from('<II',payload,ARRAY_SLOT)
+    target=raw_pointer-8
+    if count>100_000:raise SceneError('placement count exceeds selected-profile budget')
+    if target<0 or target>len(payload) or count*RECORD_BYTES>len(payload)-target:
+        raise SceneError('placement array exceeds payload span')
+    records=[]
+    for i in range(count):
+        offset=target+i*RECORD_BYTES
+        raw=payload[offset:offset+RECORD_BYTES]
+        words=list(struct.unpack('<20I',raw))
+        position=list(struct.unpack_from('<3f',raw,4))
+        w=struct.unpack_from('<f',raw,16)[0]
+        quaternion=list(struct.unpack_from('<4f',raw,20))
+        scale=list(struct.unpack_from('<3f',raw,36))
+        if not all(math.isfinite(x) for x in position+[w]+quaternion+scale):
+            raise SceneError(f'nonfinite inferred transform at record{i}')
+        if max(map(abs,position),default=0)>1e9:raise SceneError(f'position outside viewer domain at record{i}')
+        norm2=sum(x*x for x in quaternion)
+        if abs(norm2-1)>0.002:raise SceneError(f'inferred quaternion is not approximately unit at record{i}')
+        if abs(w-1)>1e-5:raise SceneError(f'inferred position W differs from1 at record{i}')
+        asset_id=words[13]
+        records.append({'index':i,'payload_offset':offset,'file_offset':offset+8,'bytes':RECORD_BYTES,
+            'raw_hex':raw.hex(),'raw_words_u32':words,
+            'position_xyz':position,'position_w':w,'quaternion_xyzw':quaternion,
+            'quaternion_norm_squared':norm2,'scale_xyz':scale,'flags_u32':words[12],
+            'fab_id':asset_id,'instance_id':words[14],'repeated_fab_id':words[18],
+            'repeated_fab_id_matches':words[18]==asset_id,
+            'unknown_words':{str(j*4):words[j] for j in [0,15,16,17,19]}})
+    return {'schema_version':1,'tool':'opem-amalur-selected-scene-reader',
+        'profile':'DATA-space524859 inferred80-byte static-placement records',
+        'source_sha256':sha(data),'source_bytes':len(data),'space_id':space_id,
+        'carrier_native_evidence':blob['native_relocation'],
+        'placement_native_evidence':PLACEMENT_NATIVE_EVIDENCE,
+        'field_semantics_status':'FAB reference at+52 and transform block at+4 statically confirmed; component roles and transform arithmetic remain inferred',
+        'array':{'slot_payload_offset':ARRAY_SLOT,'raw_pointer':raw_pointer,
+                 'payload_offset':target,'file_offset':target+8,'count':count,'stride_bytes':RECORD_BYTES},
+        'placement_count':count,'unique_fab_ids':sorted({r['fab_id'] for r in records}),'placements':records,
+        'limitations':['Carrier relocation, FAB reference and transform block are statically confirmed; component roles and transform arithmetic remain inferred.',
+                       'Only this static placement array is decoded. Dynamic objects, collision, materials, lighting and scripts are separate.',
+                       'No patch archive is merged and game archive precedence is not inferred.']}
+
+def parse_file(path,variant):
+    path=Path(path)
+    if variant!='DATA_0.pak':raise SceneError('this admitted scene profile explicitly selects DATA_0.pak')
+    if pat
+.anm_bxml 9527 ['1301967.anm_bxml', '1751631.anm_bxml', '1778208.anm_bxml', '673920.anm_bxml', '1623817.anm_bxml', '1962111.anm_bxml', '702740.anm_bxml', '5451.anm_bxml', '1814583.anm_bxml', '1975680.anm_bxml', '1892885.anm_bxml', '1617030.anm_bxml']
+.mtns_bxml 3997 ['1883700.mtns_bxml', '645735.mtns_bxml', '1753079.mtns_bxml', '1815586.mtns_bxml', '2063738.mtns_bxml', '1566152.mtns_bxml', '1724595.mtns_bxml', '1680018.mtns_bxml', '1876947.mtns_bxml', '1802087.mtns_bxml', '1704840.mtns_bxml', '1153319.mtns_bxml']
+.mtn_tree_bxml 116 ['661417.mtn_tree_bxml', '1269637.mtn_tree_bxml', '1951351.mtn_tree_bxml', '366100.mtn_tree_bxml', '2035244.mtn_tree_bxml', '630381.mtn_tree_bxml', '733909.mtn_tree_bxml', '2097301.mtn_tree_bxml', '1715249.mtn_tree_bxml', '376231.mtn_tree_bxml', '1379891.mtn_tree_bxml', 'batch_666832.mtn_tree_bxml']
+.animset 1065 ['german_1367283_npc.animset', 'french_576439_npc.animset', 'english_589922_npc.animset', 'english_553300_npc.animset', 'german_1521231_npc.animset', 'english_589915_npc.animset', 'english_1292772_npc.animset', 'french_1646577_npc.animset', 'german_611656_npc.animset', 'english_1352899_npc.animset', 'german_525551_npc.animset', 'french_1354229_npc.animset']
+.gor_bxml 6612 ['obj_jailgift_melsenshirjail.gor_bxml', '03_04_tuathawarrior_18.gor_bxml', 'dlc2_mq05_jottuncorpse_8.gor_bxml', 'lorestone_glo_cradleofwinter_08.gor_bxml', 'npc_poe_ljo_meyramaun.gor_bxml', 'loc_wellofsouls_lab_postcine.gor_bxml', 'npc_klu_uns_ordob.gor_bxml', 'gor_loaddoor_tilerasquarters.gor_bxml', 'npc_quest_hm02_prisoner_8.gor_bxml', 'fp04_scaleb.gor_bxml', 'citizen_rathir_wg_3.gor_bxml', 'mq04_reward_chest.gor_bxml']
+['symbol_table_task_duplicate2.bin', 'symbol_table_player_ability_duplicate0.bin', 'symbol_table_monstergroup_duplicate0.bin', 'symbol_table_weapon_effect_table_duplicate2.bin', 'symbol_table_quest_duplicate4.bin', 'symbol_table_terrainpaletteset_duplicate3.bin', 'symbol_table_inputdevicesequence_duplicate3.bin', 'symbol_table_ragdoll_duplicate5.bin', 'symbol_table_itemset_duplicate4.bin', 'symbol_table_cinematic_scene_duplicate5.bin', 'symbol_table_collision_profile_duplicate1.bin', 'symbol_table_fxactor_duplicate3.bin', 'symbol_table_animation.bin', 'symbol_table_rumble_sequence.bin', 'symbol_table_buff_duplicate1.bin', 'symbol_table_motionset.bin', 'symbol_table_dynamic_character_weapon_fx_table_duplicate0.bin', 'symbol_table_interaction.bin', 'symbol_table_inputdeviceaction_duplicate2.bin', 'symbol_table_vignette_duplicate4.bin', 'symbol_table_globalobjectref.bin', 'symbol_table_behavior_duplicate4.bin', 'symbol_table_dialogaudio_duplicate5.bin', 'symbol_table_buff_duplicate8.bin', 'symbol_table_collisionset.bin', 'symbol_table_simtype_duplicate5.bin', 'symbol_table_globalobjectref_duplicate0.bin', 'symbol_table_decal_duplicate2.bin', 'symbol_table_dialog_topic_duplicate2.bin', 'symbol_table_behaviortree_duplicate2.bin', 'symbol_table_voicetype_duplicate0.bin', 'symbol_table_rumble_sequence_duplicate2.bin', 'symbol_table_collision_effect_table_duplicate4.bin', 'symbol_table_lua_script_path_duplicate1.bin', 'symbol_table_uixml_duplicate3.bin', 'symbol_table_inputdevicesequence.bin', 'symbol_table_ability_duplicate3.bin', 'symbol_table_cluster_duplicate5.bin', 'symbol_table_dynamic_character_weapon_fx_table.bin', 'symbol_table_motionset_duplicate4.bin']
+----- 1301967.anm_bxml 10633 400600008029000035304145cdcccc3fffffef41d0034000310003000020010002002e0000002a000700000000000000400000000000000000000000d0030000
+['vKzWF2uI_CF', 'YbkT2zWRj', 'Wf3_GCV', 'KsSSRH', 'F2uI_C', 'F2uI_C']
+----- 1883700.mtns_bxml 352 01000000b0fb4a0001000000010000000100000001000000b4c51c00010000000100000000000000d0070000010000000100000002000000000000000000803f
+[]
+----- 661417.mtn_tree_bxml 776 0800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000803f
+[]
+----- obj_jailgift_melsenshirjail.gor_bxml 160 8c0000000c0000001c5c17000000000078000000949f1b005478afc4685952c540ab303f000000000000000000000000000000000000803f0000803f0000803f
+['OBJ_JailGift_MelSenshirJail']
+----- symbol_table_animation.bin 368480 38250000fb1300000000000009000000fc1300000900000017000000fd1300001700000027000000fe130000270000003b000000ff1300003b0000004f000000
+['flex_animFXMesh-Moth_01fx-moths_10_animFX-StoneC']
+----- symbol_table_motionset.bin 117340 8f0f0000321800000000000010000000401800001000000028000000431800002800000038000000461800003800000045000000471800004500000053000000
+['null_fab_motionsdark_smoke_large_motionsfireball']

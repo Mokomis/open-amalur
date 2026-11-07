@@ -1,0 +1,45 @@
+Recovered ParentUtils bootstrap and dependency inventory
+
+Original input SHA256:
+29df50b90af3955046a530292163bce959e4f6248edadc1b53865c349cde042c
+Frozen v05 source SHA256 after CRLF-to-LF normalization:
+b2146e4c32633e7519193687304f4d000592ff7bdb3c95b08cdcd3bbd943d762
+
+Recovered root pc23 loads _G, pc25 loads parent_internal and pc27 executes
+SETFIELD parent. Therefore the missing helper is an actual realm export of
+this original script, not a fabricated native binding. Exporter pins both
+identities plus those IR sites and requires no unresolved ParentUtils bodies.
+
+ParentUtils uses original require when no_dependency_require is absent. That
+absence is the selected host condition, recorded in the export receipt. The
+original helper itself remains unchanged. No synthetic parent implementation,
+module-name alias, path normalization or alternate require service is added.
+
+export_scene_modules_v08.py defaults to explicit ParentUtils and SpaceCommon
+inventory roots. It follows only literal first arguments to block-local direct
+require/parent references, including explicit MOVE propagation. It does not
+infer cross-block/dynamic calls, module environment overrides or execution
+ordering. Requires and parent sites are separately reported. Ambiguous or
+missing exact names retain explicit inventory diagnostics. No case folding.
+
+Candidate export limits: at most256 visited module names,16MiB per frozen or
+adapted source,128MiB total adapted module sources. Manifest/core resources are
+still separately bounded by the existing runtime bootstrap. Existing nonempty
+output directories are refused; frozen v05/v07 output is not overwritten.
+
+New v08 scene_script_options.bootstrap_module is optional and exact-name only.
+The sequence is core initialization, trusted host setup, registration of every
+listed lazy module source, optional bootstrap require, root require, event.
+Each require/event evaluation has the existing finite instruction/memory limits.
+Bootstrap failure reports phase preload, leaves root_loaded false and destroys
+the realm. Result.bootstrap_loaded becomes true only on successful bootstrap.
+NULL bootstrap retains prior behavior; names are copied into Lua globals under
+protected setup, never interpolated into executable source or filesystem paths.
+
+Tests staged for Windows:
+  test_parent_dependencies.py checks exact literal inventory and explicit misses.
+  bootstrap_order_test.c checks ordering, pre-registered dependency loading,
+  require caching, absent/error/syntax/budget failures and name bounds.
+These synthetic tests do not prove native boot order. The selected ParentUtils
+prelude restores this recovered definition before scripts that need it; actual
+scene bootstrap execution is separately validated by the parent agent.

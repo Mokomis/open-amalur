@@ -1,0 +1,3025 @@
+{
+  "profiles": [
+    {
+      "name": "Almain_Male",
+      "race_bit": 64,
+      "sex_bit": 1,
+      "creator_type": 1536820,
+      "gameplay_type": 669805,
+      "creator_fab": 1507280,
+      "gameplay_fab": 456813,
+      "default_options": [
+        1304307,
+        1388827,
+        1371890,
+        0,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 703318,
+      "creator_face_idle_clip": 1576362,
+      "gameplay_idle_clip": 703318,
+      "gameplay_walk_clip": 457557,
+      "gameplay_run_clip": 457536
+    },
+    {
+      "name": "Almain_Female",
+      "race_bit": 64,
+      "sex_bit": 2,
+      "creator_type": 1536818,
+      "gameplay_type": 669806,
+      "creator_fab": 1507282,
+      "gameplay_fab": 611642,
+      "default_options": [
+        1384512,
+        1384365,
+        0,
+        0,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 1293793,
+      "creator_face_idle_clip": 1666387,
+      "gameplay_idle_clip": 1293793,
+      "gameplay_walk_clip": 656035,
+      "gameplay_run_clip": 655636
+    },
+    {
+      "name": "Varani_Male",
+      "race_bit": 128,
+      "sex_bit": 1,
+      "creator_type": 1536821,
+      "gameplay_type": 669805,
+      "creator_fab": 1507280,
+      "gameplay_fab": 456813,
+      "default_options": [
+        1304403,
+        1304591,
+        1389483,
+        0,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 703318,
+      "creator_face_idle_clip": 1576362,
+      "gameplay_idle_clip": 703318,
+      "gameplay_walk_clip": 457557,
+      "gameplay_run_clip": 457536
+    },
+    {
+      "name": "Varani_Female",
+      "race_bit": 128,
+      "sex_bit": 2,
+      "creator_type": 1536819,
+      "gameplay_type": 669806,
+      "creator_fab": 1507282,
+      "gameplay_fab": 611642,
+      "default_options": [
+        1385080,
+        1384498,
+        0,
+        0,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 1293793,
+      "creator_face_idle_clip": 1666387,
+      "gameplay_idle_clip": 1293793,
+      "gameplay_walk_clip": 656035,
+      "gameplay_run_clip": 655636
+    },
+    {
+      "name": "Ljosalfar_Male",
+      "race_bit": 512,
+      "sex_bit": 1,
+      "creator_type": 1536816,
+      "gameplay_type": 669807,
+      "creator_fab": 1507280,
+      "gameplay_fab": 456813,
+      "default_options": [
+        1304443,
+        1304600,
+        1390251,
+        1467060,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 703318,
+      "creator_face_idle_clip": 1576362,
+      "gameplay_idle_clip": 703318,
+      "gameplay_walk_clip": 457557,
+      "gameplay_run_clip": 457536
+    },
+    {
+      "name": "Ljosalfar_Female",
+      "race_bit": 512,
+      "sex_bit": 2,
+      "creator_type": 1536839,
+      "gameplay_type": 669808,
+      "creator_fab": 1507282,
+      "gameplay_fab": 611642,
+      "default_options": [
+        1385165,
+        1384650,
+        0,
+        1425372,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 1293793,
+      "creator_face_idle_clip": 1666387,
+      "gameplay_idle_clip": 1293793,
+      "gameplay_walk_clip": 656035,
+      "gameplay_run_clip": 655636
+    },
+    {
+      "name": "Dokkalfar_Male",
+      "race_bit": 1024,
+      "sex_bit": 1,
+      "creator_type": 1536813,
+      "gameplay_type": 669807,
+      "creator_fab": 1507280,
+      "gameplay_fab": 456813,
+      "default_options": [
+        1304512,
+        1304602,
+        1390268,
+        1422238,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 703318,
+      "creator_face_idle_clip": 1576362,
+      "gameplay_idle_clip": 703318,
+      "gameplay_walk_clip": 457557,
+      "gameplay_run_clip": 457536
+    },
+    {
+      "name": "Dokkalfar_Female",
+      "race_bit": 1024,
+      "sex_bit": 2,
+      "creator_type": 1536800,
+      "gameplay_type": 669808,
+      "creator_fab": 1507282,
+      "gameplay_fab": 611642,
+      "default_options": [
+        1389535,
+        1384370,
+        0,
+        1400051,
+        1431913,
+        1498507
+      ],
+      "creator_idle_clip": 1293793,
+      "creator_face_idle_clip": 1666387,
+      "gameplay_idle_clip": 1293793,
+      "gameplay_walk_clip": 656035,
+      "gameplay_run_clip": 655636
+    }
+  ],
+  "options": [
+    {
+      "simtype": 1304307,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1465831,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304352,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1301785,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304353,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1466339,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304355,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1466476,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304356,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1466563,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304362,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1511362,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304397,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1511353,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304398,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1511351,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304402,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1482435,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304403,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1362163,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304443,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1465716,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304444,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1548016,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304450,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1548021,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304456,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1548022,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304489,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1548023,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304506,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1522320,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304508,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1522319,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304510,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1522318,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304511,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1522317,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304512,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1421245,
+        0,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304513,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304514,
+      "category_hash": 1139995,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304558,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1301941,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304577,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1301942,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304578,
+      "category_hash": 481813,
+      "race_mask": 192,
+      "sex_mask": 1,
+      "model_variants": [
+        1301943,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304579,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        733138,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304580,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1301944,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304583,
+      "category_hash": 481813,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1301835,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304584,
+      "category_hash": 481813,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1301836,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304586,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        675154,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304587,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1301837,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304588,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        675275,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304589,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1302011,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304590,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        675281,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304591,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1302013,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304592,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        675286,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304597,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        708903,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304598,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        994667,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304599,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        708906,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304600,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        708908,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304601,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        708899,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304602,
+      "category_hash": 481813,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        708891,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304603,
+      "category_hash": 481813,
+      "race_mask": 1536,
+      "sex_mask": 1,
+      "model_variants": [
+        708893,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304604,
+      "category_hash": 481813,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        708895,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304605,
+      "category_hash": 481813,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        708897,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1304606,
+      "category_hash": 481813,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        708901,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1371885,
+      "category_hash": 1139995,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1293352,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1371888,
+      "category_hash": 1139995,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        675176,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1371889,
+      "category_hash": 1139995,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        666267,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1371890,
+      "category_hash": 1139995,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        666271,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1373561,
+      "category_hash": 1139995,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1293364,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384359,
+      "category_hash": 481813,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1254122,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384360,
+      "category_hash": 481813,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1275457,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384361,
+      "category_hash": 481813,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1260723,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384363,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1275458,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384365,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1275459,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384370,
+      "category_hash": 481813,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1317766,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384393,
+      "category_hash": 481813,
+      "race_mask": 1536,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1294655,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384397,
+      "category_hash": 481813,
+      "race_mask": 1536,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1317767,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384436,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1294652,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384495,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1294656,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384496,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1294658,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384497,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1294660,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384498,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1275460,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384500,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1541443,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384507,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        733502,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384508,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1687229,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384509,
+      "category_hash": 481813,
+      "race_mask": 1664,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1254122,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384510,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        733132,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384511,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1260726,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384512,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1465846,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384513,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1484008,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384514,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1484687,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384515,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1484892,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384516,
+      "category_hash": 701554,
+      "race_mask": 64,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1484915,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384646,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1541444,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384650,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1523510,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384653,
+      "category_hash": 481813,
+      "race_mask": 1536,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1523508,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1384657,
+      "category_hash": 481813,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        747788,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385062,
+      "category_hash": 481813,
+      "race_mask": 1536,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1389728,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385069,
+      "category_hash": 481813,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1389729,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385080,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1379400,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385114,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1519616,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385118,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1519617,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385120,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1519625,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385123,
+      "category_hash": 701554,
+      "race_mask": 128,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1524628,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385165,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1425066,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385188,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1532465,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385191,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1532466,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385194,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1533074,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1385198,
+      "category_hash": 701554,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1533081,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1388827,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1302979,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389478,
+      "category_hash": 1139995,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        666261,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389479,
+      "category_hash": 1139995,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        675138,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389480,
+      "category_hash": 1139995,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        666265,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389481,
+      "category_hash": 1139995,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        666270,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389482,
+      "category_hash": 1139995,
+      "race_mask": 64,
+      "sex_mask": 1,
+      "model_variants": [
+        1293363,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389483,
+      "category_hash": 1139995,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1293355,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389484,
+      "category_hash": 1139995,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1293357,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389485,
+      "category_hash": 1139995,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        675261,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389486,
+      "category_hash": 1139995,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1293360,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389487,
+      "category_hash": 1139995,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        675270,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389535,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1322374,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389536,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1499701,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389537,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1521431,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389538,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1521590,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1389539,
+      "category_hash": 701554,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1524474,
+        0
+      ],
+      "mount_hash": 701554,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390251,
+      "category_hash": 1139995,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1389625,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390253,
+      "category_hash": 1139995,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1389318,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390254,
+      "category_hash": 1139995,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1389353,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390255,
+      "category_hash": 1139995,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1389659,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390261,
+      "category_hash": 1139995,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1389627,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390266,
+      "category_hash": 1139995,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1389587,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390267,
+      "category_hash": 1139995,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1389317,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390268,
+      "category_hash": 1139995,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1389319,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390269,
+      "category_hash": 1139995,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1389619,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1390270,
+      "category_hash": 1139995,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1389617,
+        0,
+        0
+      ],
+      "mount_hash": 6044425,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1399876,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1400051,
+      "category_hash": 771605,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1322375,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1400063,
+      "category_hash": 771605,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1499706,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1400064,
+      "category_hash": 771605,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1322375,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1400065,
+      "category_hash": 771605,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1322375,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1400066,
+      "category_hash": 771605,
+      "race_mask": 1024,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1322375,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1422238,
+      "category_hash": 771605,
+      "race_mask": 1024,
+      "sex_mask": 1,
+      "model_variants": [
+        1421281,
+        0,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1425372,
+      "category_hash": 771605,
+      "race_mask": 512,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1425340,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1431913,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 365597
+    },
+    {
+      "simtype": 1431916,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1344715
+    },
+    {
+      "simtype": 1431917,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1414760
+    },
+    {
+      "simtype": 1431962,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421563
+    },
+    {
+      "simtype": 1431964,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421564
+    },
+    {
+      "simtype": 1431972,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421565
+    },
+    {
+      "simtype": 1431985,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421566
+    },
+    {
+      "simtype": 1431986,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421567
+    },
+    {
+      "simtype": 1431988,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421568
+    },
+    {
+      "simtype": 1431989,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421569
+    },
+    {
+      "simtype": 1431991,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421570
+    },
+    {
+      "simtype": 1431992,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421571
+    },
+    {
+      "simtype": 1431999,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421572
+    },
+    {
+      "simtype": 1432002,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421573
+    },
+    {
+      "simtype": 1432003,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421574
+    },
+    {
+      "simtype": 1432009,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421575
+    },
+    {
+      "simtype": 1432010,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421576
+    },
+    {
+      "simtype": 1432018,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421577
+    },
+    {
+      "simtype": 1432019,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421578
+    },
+    {
+      "simtype": 1432020,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421579
+    },
+    {
+      "simtype": 1432025,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421581
+    },
+    {
+      "simtype": 1432033,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421582
+    },
+    {
+      "simtype": 1432035,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421583
+    },
+    {
+      "simtype": 1432036,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1421584
+    },
+    {
+      "simtype": 1432262,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1344321
+    },
+    {
+      "simtype": 1467060,
+      "category_hash": 771605,
+      "race_mask": 512,
+      "sex_mask": 1,
+      "model_variants": [
+        1467056,
+        0,
+        0
+      ],
+      "mount_hash": 771605,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1498507,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1498545,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1423843,
+        1423843,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1498674,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1423198,
+        1423198,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1499153,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1424862,
+        1424862,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1499155,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1425010,
+        1425010,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1499158,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427724,
+        1427724,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1499159,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427725,
+        1427725,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1499160,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427726,
+        1427726,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1499161,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427727,
+        1427727,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1499162,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427728,
+        1427728,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506624,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427729,
+        1427729,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506625,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427730,
+        1427730,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506626,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427732,
+        1427732,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506627,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427733,
+        1427733,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506628,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427734,
+        1427734,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506629,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427735,
+        1427735,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506630,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427736,
+        1427736,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506631,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427737,
+        1427737,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506632,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427738,
+        1427738,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506633,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427739,
+        1427739,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506634,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427740,
+        1427740,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1506635,
+      "category_hash": 9441502,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        1427741,
+        1427741,
+        0
+      ],
+      "mount_hash": 13495373,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1601650,
+      "category_hash": 481813,
+      "race_mask": 1536,
+      "sex_mask": 1,
+      "model_variants": [
+        1601431,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1638493,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1638477
+    },
+    {
+      "simtype": 1638495,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1638504
+    },
+    {
+      "simtype": 1638496,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1638505
+    },
+    {
+      "simtype": 1638497,
+      "category_hash": 1756520,
+      "race_mask": 1728,
+      "sex_mask": 7,
+      "model_variants": [
+        0,
+        0,
+        0
+      ],
+      "mount_hash": 0,
+      "tattoo_texture": 1638506
+    },
+    {
+      "simtype": 1711035,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 1,
+      "model_variants": [
+        1707859,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1715723,
+      "category_hash": 481813,
+      "race_mask": 192,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1715691,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1717302,
+      "category_hash": 481813,
+      "race_mask": 1728,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1717280,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1718965,
+      "category_hash": 481813,
+      "race_mask": 128,
+      "sex_mask": 1,
+      "model_variants": [
+        1718001,
+        0,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1719694,
+      "category_hash": 481813,
+      "race_mask": 192,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1719197,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    },
+    {
+      "simtype": 1719695,
+      "category_hash": 481813,
+      "race_mask": 192,
+      "sex_mask": 2,
+      "model_variants": [
+        0,
+        1719198,
+        0
+      ],
+      "mount_hash": 8917587,
+      "tattoo_texture": 0
+    }
+  ],
+  "equipment": [
+    {
+      "simtype": 1321542,
+      "model_variants": [
+        1579977,
+        1580319,
+        0
+      ],
+      "mount_hash": 1024178,
+      "scale": 1.0
+    },
+    {
+      "simtype": 1321543,
+      "model_variants": [
+        1579972,
+        1580320,
+        0
+      ],
+      "mount_hash": 578143,
+      "scale": 1.0
+    },
+    {
+      "simtype": 1330206,
+      "model_variants": [
+        1324209,
+        1324209,
+        1324209
+      ],
+      "mount_hash": 16813353,
+      "scale": 0.800000011920929
+    },
+    {
+      "simtype": 1330207,
+      "model_variants": [
+        1324209,
+        1324209,
+        1324209
+      ],
+      "mount_hash": 16813353,
+      "scale": 0.800000011920929
+    },
+    {
+      "simtype": 1381439,
+      "model_variants": [
+        1324209,
+        1324209,
+        1324209
+      ],
+      "mount_hash": 16813353,
+      "scale": 1.0
+    }
+  ],
+  "base_attachments": [
+    [
+      [
+        [
+          660455,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1465831,
+          701554
+        ],
+        [
+          660458,
+          578143
+        ],
+        [
+          660459,
+          1024178
+        ]
+      ],
+      [
+        [
+          513984,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1465831,
+          701554
+        ],
+        [
+          514080,
+          578143
+        ],
+        [
+          514083,
+          1024178
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          728923,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1465846,
+          701554
+        ],
+        [
+          728925,
+          578143
+        ],
+        [
+          728926,
+          1024178
+        ]
+      ],
+      [
+        [
+          590478,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1465846,
+          701554
+        ],
+        [
+          590480,
+          578143
+        ],
+        [
+          590481,
+          1024178
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1318952,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1465831,
+          701554
+        ],
+        [
+          1318954,
+          578143
+        ],
+        [
+          1318955,
+          1024178
+        ]
+      ],
+      [
+        [
+          513984,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1465831,
+          701554
+        ],
+        [
+          514080,
+          578143
+        ],
+        [
+          514083,
+          1024178
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1329930,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1465846,
+          701554
+        ],
+        [
+          1329932,
+          578143
+        ],
+        [
+          1329933,
+          1024178
+        ]
+      ],
+      [
+        [
+          590478,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1465846,
+          701554
+        ],
+        [
+          590480,
+          578143
+        ],
+        [
+          590481,
+          1024178
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1626619,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1421245,
+          701554
+        ],
+        [
+          1626596,
+          766872
+        ]
+      ],
+      [
+        [
+          513984,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1421245,
+          701554
+        ],
+        [
+          514080,
+          578143
+        ],
+        [
+          514083,
+          1024178
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1641641,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1322374,
+          701554
+        ],
+        [
+          1641646,
+          578143
+        ],
+        [
+          1641649,
+          1024178
+        ]
+      ],
+      [
+        [
+          590478,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1322374,
+          701554
+        ],
+        [
+          590480,
+          578143
+        ],
+        [
+          590481,
+          1024178
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1446741,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1421245,
+          701554
+        ],
+        [
+          1446810,
+          578143
+        ],
+        [
+          1446832,
+          1024178
+        ]
+      ],
+      [
+        [
+          513984,
+          570662
+        ],
+        [
+          1368585,
+          13360872
+        ],
+        [
+          514034,
+          1057589
+        ],
+        [
+          1421245,
+          701554
+        ],
+        [
+          514080,
+          578143
+        ],
+        [
+          514083,
+          1024178
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1476265,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1322374,
+          701554
+        ],
+        [
+          2004410,
+          578143
+        ],
+        [
+          1476282,
+          1024178
+        ]
+      ],
+      [
+        [
+          590478,
+          570662
+        ],
+        [
+          590479,
+          1057589
+        ],
+        [
+          1322374,
+          701554
+        ],
+        [
+          590480,
+          578143
+        ],
+        [
+          590481,
+          1024178
+        ]
+      ]
+    ]
+  ],
+  "native_route": "00f10660: primaryalias rootfirst,headfallback;00ccd2c0: explicitparent/childmap +unmatchedsourcehierarchy. Hidden Ears absentdefault=firstsourcefilteredoption sourceinit, not0."
+}

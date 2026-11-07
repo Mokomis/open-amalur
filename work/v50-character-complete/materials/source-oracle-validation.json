@@ -1,0 +1,429 @@
+{
+  "cases": 20,
+  "compared_channels": 327680,
+  "max_delta": 0,
+  "mismatched_channels": 0,
+  "rounding_qualification": "Observed ANGLE nonnegative half towardzero model, previously independently probed; no new universal/native rounding claim.",
+  "results": [
+    {
+      "case": 0,
+      "kind": 1,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        9,
+        12,
+        32,
+        255
+      ],
+      "oracle_center": [
+        9,
+        12,
+        32,
+        255
+      ],
+      "actual_sha256": "0e64da7da05e7fe619aa9b26e89e16d43ca1048ded9e5e9194b6e39923068a68",
+      "oracle_sha256": "0e64da7da05e7fe619aa9b26e89e16d43ca1048ded9e5e9194b6e39923068a68"
+    },
+    {
+      "case": 1,
+      "kind": 1,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        8,
+        10,
+        24,
+        255
+      ],
+      "oracle_center": [
+        8,
+        10,
+        24,
+        255
+      ],
+      "actual_sha256": "fd84b077eab0cedc2f4bd797faa6bc4e442337bfc2d52766abb5f50555f04cbb",
+      "oracle_sha256": "fd84b077eab0cedc2f4bd797faa6bc4e442337bfc2d52766abb5f50555f04cbb"
+    },
+    {
+      "case": 2,
+      "kind": 1,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "oracle_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "actual_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3",
+      "oracle_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3"
+    },
+    {
+      "case": 3,
+      "kind": 1,
+      "discarded": true,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "oracle_center": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe",
+      "oracle_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    {
+      "case": 4,
+      "kind": 1,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "oracle_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "actual_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3",
+      "oracle_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3"
+    },
+    {
+      "case": 5,
+      "kind": 1,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "oracle_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "actual_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3",
+      "oracle_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3"
+    },
+    {
+      "case": 6,
+      "kind": 2,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "oracle_center": [
+        8,
+        8,
+        19,
+        255
+      ],
+      "actual_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3",
+      "oracle_sha256": "aa29fc46f04a6d302ecb26028875bf997f18133bbb7186649753c7fb92815fc3"
+    },
+    {
+      "case": 7,
+      "kind": 2,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        8,
+        8,
+        20,
+        255
+      ],
+      "oracle_center": [
+        8,
+        8,
+        20,
+        255
+      ],
+      "actual_sha256": "811c8ae6d869c1cd8d4c168c7c81862ee3547a9ef523a7a0fa6a4908e2f1e738",
+      "oracle_sha256": "811c8ae6d869c1cd8d4c168c7c81862ee3547a9ef523a7a0fa6a4908e2f1e738"
+    },
+    {
+      "case": 8,
+      "kind": 2,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        8,
+        8,
+        22,
+        255
+      ],
+      "oracle_center": [
+        8,
+        8,
+        22,
+        255
+      ],
+      "actual_sha256": "178689539a48dd9727a499533d53333ee2336f58ae81f7a6ea0494d8e6fc4702",
+      "oracle_sha256": "178689539a48dd9727a499533d53333ee2336f58ae81f7a6ea0494d8e6fc4702"
+    },
+    {
+      "case": 9,
+      "kind": 2,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        9,
+        8,
+        22,
+        255
+      ],
+      "oracle_center": [
+        9,
+        8,
+        22,
+        255
+      ],
+      "actual_sha256": "910e705a946a7130aafda756deddd92429176e296e0d45bdc197928a54e124d6",
+      "oracle_sha256": "910e705a946a7130aafda756deddd92429176e296e0d45bdc197928a54e124d6"
+    },
+    {
+      "case": 10,
+      "kind": 2,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        10,
+        8,
+        22,
+        255
+      ],
+      "oracle_center": [
+        10,
+        8,
+        22,
+        255
+      ],
+      "actual_sha256": "93c32edd80484cc5c198d148896fe0b1c5c05016f05802ee828ae07e9a90231b",
+      "oracle_sha256": "93c32edd80484cc5c198d148896fe0b1c5c05016f05802ee828ae07e9a90231b"
+    },
+    {
+      "case": 11,
+      "kind": 3,
+      "discarded": true,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "oracle_center": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe",
+      "oracle_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    },
+    {
+      "case": 12,
+      "kind": 3,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        5,
+        10,
+        34,
+        255
+      ],
+      "oracle_center": [
+        5,
+        10,
+        34,
+        255
+      ],
+      "actual_sha256": "6571e7202727eba616ff17a1ae87ca1bdde40810ed127779602dd3464321300c",
+      "oracle_sha256": "6571e7202727eba616ff17a1ae87ca1bdde40810ed127779602dd3464321300c"
+    },
+    {
+      "case": 13,
+      "kind": 3,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        5,
+        10,
+        34,
+        255
+      ],
+      "oracle_center": [
+        5,
+        10,
+        34,
+        255
+      ],
+      "actual_sha256": "6571e7202727eba616ff17a1ae87ca1bdde40810ed127779602dd3464321300c",
+      "oracle_sha256": "6571e7202727eba616ff17a1ae87ca1bdde40810ed127779602dd3464321300c"
+    },
+    {
+      "case": 14,
+      "kind": 3,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        5,
+        10,
+        34,
+        255
+      ],
+      "oracle_center": [
+        5,
+        10,
+        34,
+        255
+      ],
+      "actual_sha256": "6571e7202727eba616ff17a1ae87ca1bdde40810ed127779602dd3464321300c",
+      "oracle_sha256": "6571e7202727eba616ff17a1ae87ca1bdde40810ed127779602dd3464321300c"
+    },
+    {
+      "case": 15,
+      "kind": 4,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        19,
+        24,
+        70,
+        255
+      ],
+      "oracle_center": [
+        19,
+        24,
+        70,
+        255
+      ],
+      "actual_sha256": "da6817cd563b0e2352e487a3d0fb840d30a56a956105608061b88ff3a3a14aa0",
+      "oracle_sha256": "da6817cd563b0e2352e487a3d0fb840d30a56a956105608061b88ff3a3a14aa0"
+    },
+    {
+      "case": 16,
+      "kind": 4,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        69,
+        67,
+        163,
+        255
+      ],
+      "oracle_center": [
+        69,
+        67,
+        163,
+        255
+      ],
+      "actual_sha256": "d7217bf342a2cee9d17fe6e5a6e8a13443a0712d32e2140f6bc4ec00c4a64633",
+      "oracle_sha256": "d7217bf342a2cee9d17fe6e5a6e8a13443a0712d32e2140f6bc4ec00c4a64633"
+    },
+    {
+      "case": 17,
+      "kind": 0,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        9,
+        12,
+        32,
+        255
+      ],
+      "oracle_center": [
+        9,
+        12,
+        32,
+        255
+      ],
+      "actual_sha256": "0e64da7da05e7fe619aa9b26e89e16d43ca1048ded9e5e9194b6e39923068a68",
+      "oracle_sha256": "0e64da7da05e7fe619aa9b26e89e16d43ca1048ded9e5e9194b6e39923068a68"
+    },
+    {
+      "case": 19,
+      "kind": 6,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        29,
+        42,
+        72,
+        255
+      ],
+      "oracle_center": [
+        29,
+        42,
+        72,
+        255
+      ],
+      "actual_sha256": "493d8c0183766599867cb0ba827beb81820aa8241a8d48127f7df121a824782f",
+      "oracle_sha256": "493d8c0183766599867cb0ba827beb81820aa8241a8d48127f7df121a824782f"
+    },
+    {
+      "case": 20,
+      "kind": 6,
+      "discarded": false,
+      "max_delta": 0,
+      "mismatched_channels": 0,
+      "actual_center": [
+        13,
+        27,
+        64,
+        255
+      ],
+      "oracle_center": [
+        13,
+        27,
+        64,
+        255
+      ],
+      "actual_sha256": "b3c9e7880727b120e56643f00218699c633cb615362fc83d5f4beb8227314332",
+      "oracle_sha256": "b3c9e7880727b120e56643f00218699c633cb615362fc83d5f4beb8227314332"
+    }
+  ]
+}

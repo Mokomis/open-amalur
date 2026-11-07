@@ -1,0 +1,90 @@
+Opem Amalur v0.7 — Windows build and Android scene viewer
+
+The source package builds a Windows validation host and an Android arm64
+NativeActivity viewer. It is authored replacement code, not recovered original
+C++ source. Lua 5.1.5 is vendored with its license and a documented collector fix.
+This is a viewable real-scene prototype, not a playable game.
+
+Environment used:
+MSVC 18 BuildTools, CMake 4.4.4, Ninja, Android NDK r30 (30.0.16248370),
+Android SDK platform 35/build-tools 35.0.0, JDK 21.0.13+9, Python 3.12.10.
+The application targets API 35, minimum API 26; the attached tablet runs API 36.
+No Gradle or Java source is needed. No private signing key is included.
+
+Source layout:
+  work/v07-host       C scene loaders, GLES3 viewer, Android hook/manifest
+  work/v07-portable   Lua host, shared bootstrap, explicit native profile, tests
+  work/v07-bxml       structural readers, prop/static bakers, mapping diagnostics
+  work/v07-mesh       mesh/FAB readers and previews
+  work/v07-scripts    generated-source adapters and binding-registry generator
+  work/v07-native     isolated original ASCII-hash comparison harness
+  work/v07-scene      Windows extraction/build/package helpers and scope notes
+
+Portable host, from a Windows Developer Command Prompt:
+  cmake -S work/v07-portable -B work/v07-portable/build-windows -G Ninja -DCMAKE_BUILD_TYPE=Release -DLUA_SOURCE_DIR=<absolute-path>/work/v07-portable/third_party/lua-5.1.5
+  cmake --build work/v07-portable/build-windows
+
+Android viewer:
+  cmake -S work/v07-host -B work/v07-host/build-android-arm64 -G Ninja -DCMAKE_TOOLCHAIN_FILE=<NDK>/build/cmake/android.toolchain.cmake -DANDROID_ABI=arm64-v8a -DANDROID_PLATFORM=android-26 -DCMAKE_BUILD_TYPE=Release
+  cmake --build work/v07-host/build-android-arm64
+
+Batch helpers contain this machine's Visual Studio/NDK paths; adjust them for a
+different setup. Windows processing helpers assume Documents/Opem Amalur.
+The source ZIP contains no original game binaries, decoded game meshes, or
+recovered game Lua. The private APK does contain converted assets/scripts from
+the installed game. Building hosts needs no game assets; reproducing this APK
+also needs the earlier archive inventories and frozen v0.5 corpus evidence.
+
+Asset pipeline, using the existing Windows workspace:
+1. extract_scene_inputs.py extracts explicit asset names into per-archive work
+   directories outside the game installation. Preserve variants separately.
+2. batch_decode_meshes.py rejects conflicting streams. batch_inspect_fabs.py
+   produces source-hashed descriptor reports. Select FABs from the stream's
+   archive, or require all available cross-archive candidates to be identical.
+3. amalur_scene.py bakes the 79-record prop collection with matching reports,
+   --allow-partial and --scene-bin outputs/scene-v07/scene.bin. Two skinned
+   instances remain omitted. Preserve this receipt as placements.json.
+4. prepare_shell_assets.py and complete_shell_fab_selection.py prepare all 76
+   catalog resources. amalur_shell.py reads the actual primary 172-record set,
+   --mesh-root outputs/scene-v07/shell-meshes --fab-root outputs/scene-v07/shell-fabs
+   --native-root work/scene-inputs-v07 --scene-bin outputs/scene-v07/scene-shell-candidate.bin
+   --output outputs/scene-v07/shell-candidate.json. This selected primary set
+   passes every center/radius/vertex check; secondary/LOD sets stay excluded.
+5. Run 107_audit_scene_collections.py and combine_scene_collections.py. The latter
+   preserves the original prop file as scene-props.bin, verifies both receipts
+   and disjoint collection IDs, then emits scene.bin and combined-scene.json.
+6. export_scene_modules.py --module SpaceCommon --maximum 4096 consumes the
+   frozen v0.5 corpus. It registers 178 unambiguous modules. Six entitlements
+   variants remain excluded. Original generated sources remain untouched;
+   adapted copies admit only exact host module tables and function/nil equality.
+7. The v0.7 registry included here has 42 INPUT registrations added to the five
+   previous namespaces. Its generator checks descriptor/vtable/getter evidence.
+8. package_android.py adds explicit assets, aligns and signs with a local debug
+   key, and verifies signatures. It never installs automatically. Change SDK/JDK
+   paths as needed. On a fresh workspace it generates a local development key.
+
+Current scene and script scope:
+The APK shows 172 static assemblies plus 77 props (115,418 triangles). Static
+poses use descriptor-center scaling and conjugated quaternion rotation, measured
+against stored bounds. Prop transforms retain their earlier inferred profile.
+No original textures/materials, collision, animation, player simulation or combat.
+
+The Android hook runs the shared bootstrap once, with a 128 MiB Lua cap and
+10 million instruction budget. It supplies the exact input-action snapshot,
+ASCII SH, table-form SL and engine-version profile for executable SHA256
+16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314.
+Initialization stops explicitly at INPUT.is_east_asian_controller_button_swap_required.
+That controller state is not implemented. SpaceCommon's event is not invoked;
+there is no persistent gameplay realm or frame-event loop.
+
+Example Windows scene probe:
+  amalur-scene-script-inspect.exe --runtime-dir work/v07-portable/runtime --modules-dir outputs/scene-v07/modules --module SpaceCommon --event on_object_creation_complete --memory-mib 128 --instruction-budget 10000000 --input-actions work/scene-inputs-v07/initial_0.pak/inputdeviceaction_init.bin --native-profile 16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314
+The current expected result is a diagnosed missing provider, not success.
+
+Device validation:
+Physical OPPO OPD2515 rendering and orbit drag observed. The initial FORTIFY
+collector crash was fixed using a length-bounded scan preserving first-NUL weak
+mode semantics; eight states each passed 32 GC checks on Windows and Android.
+Signatures/alignment passed; ELF LOAD alignment is 16 KiB. No performance,
+long endurance or comprehensive lifecycle claim. See VALIDATION.json, the
+separate evidence ZIP, and tablet screenshots for exact limits.

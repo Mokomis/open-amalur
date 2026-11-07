@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN for root integration; no live edits",
+  "files": {
+    "oa_cosmetic_material.c": {
+      "bytes": 17178,
+      "sha256": "06afd5ad580d2a9242173d7ce5f19dcb8fde200a6f52ff00b0ac20aa6bfe3022"
+    },
+    "oa_cosmetic_material.h": {
+      "bytes": 4870,
+      "sha256": "aeb56638784c7a16ec9fcaf9dee935cdc8ed6c1a86ddbf50752898dacedf54c1"
+    },
+    "oa_cosmetic_texture_bank.c": {
+      "bytes": 3545,
+      "sha256": "b72400fd3b1e82432ad51f15eb2e80045e8785f27adff862294e056b0515e0f6"
+    },
+    "oa_cosmetic_texture_bank.h": {
+      "bytes": 936,
+      "sha256": "88316f2f88be07865b7ff37e2bb8c8b6bb655bbc9bd741e3092bf50e73aa3dd7"
+    },
+    "cosmetic_source_tables.inc": {
+      "bytes": 33478,
+      "sha256": "67ee4e872b85bbfd7f562448327c41e5d969fbbb5f4109f92ee1dde3b569ff34"
+    },
+    "cosmetic_tattoo_tables.inc": {
+      "bytes": 767,
+      "sha256": "7559de034f1605d1d64c3aec9485bbd5a5998e8dde955f8f393329afbfffca2f"
+    },
+    "cosmetic_texture_pins.inc": {
+      "bytes": 39532,
+      "sha256": "aa3be0656a8434fc28f98615d5c01767af759120ae5f2a5f5405a07f53356489"
+    }
+  },
+  "material_count": 124,
+  "texture_count": 412,
+  "whole_model_test": "actual-test-output.txt",
+  "oracle": "source-oracle-validation.json",
+  "scope": "Native equations/source-resource matches +actual ANGLE compile/upload/raster. Original creator draw/camera/lighting/animation timing not claimed."
+}

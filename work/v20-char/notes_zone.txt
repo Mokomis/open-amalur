@@ -1,0 +1,7 @@
+
+Whole-zone test (2026-10-31). work/v20-char/build_zone.py + build_world_pack.py -> work/v22-stress/zone-pack, now the packaged default. Dalentarth: 23 outdoor spaces, 1.79 x 2.05 km, 13,201 model assemblies, 6.74M triangles at 1 m terrain, 181 textures at 256 px, 1,206 cells, 244 MB APK, 592 MB unpacked. Default view distance 1 km.
+- Standing at Gorhart, shadows, uncapped 2520x1680: view 640 m 4.5 ms 377 MB; 1 km 5.7 ms 385 MB; 2.2 km 6.9 ms 396 MB, 3170 draws. World load about 185 ms.
+- Sweep, 3 min, 30 m/s, radius 600 m, view 2.2 km, uncapped full res: max window 7.16 ms, worst frame 17.1 ms, 3711 draws max, 481k tris max. Part of the loop leaves the terrain.
+- Tour, 5 min, 30 m/s, view 1 km, 60 Hz: worst frame 27 ms, memory 319-365 MB with no upward trend, 34.0 C, 84 collision swaps at most 0.12 ms. Tour 2 min at 60 m/s: worst frame 29 ms, 109 swaps. No window over 33 ms. Worst upload step 10 ms.
+- Tour moves the player by script and does not exercise the movement controller. Real walking across many cells is not tested. 'No collision cell' messages came from parts of the loop off the terrain.
+- Not covered: real foliage data, higher-resolution or compressed textures, AI and encounters across the zone, audio, other zones, sessions over about 10 minutes.

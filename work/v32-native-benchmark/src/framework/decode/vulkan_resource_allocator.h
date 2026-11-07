@@ -1,0 +1,612 @@
+/*
+** Copyright (c) 2020 LunarG, Inc.
+**
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and associated documentation files (the "Software"),
+** to deal in the Software without restriction, including without limitation
+** the rights to use, copy, modify, merge, publish, distribute, sublicense,
+** and/or sell copies of the Software, and to permit persons to whom the
+** Software is furnished to do so, subject to the following conditions:
+**
+** The above copyright notice and this permission notice shall be included in
+** all copies or substantial portions of the Software.
+**
+** THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+** IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+** FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+** AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+** LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+** FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+** DEALINGS IN THE SOFTWARE.
+*/
+
+#ifndef GFXRECON_DECODE_VULKAN_RESOURCE_ALLOCATOR_H
+#define GFXRECON_DECODE_VULKAN_RESOURCE_ALLOCATOR_H
+
+#include "generated/generated_vulkan_dispatch_table.h"
+#include "graphics/vulkan_injected_calls.h"
+#include "decode/handle_pointer_decoder.h"
+#include "decode/struct_pointer_decoder.h"
+#include "format/format.h"
+#include "util/defines.h"
+
+#include "vulkan/vulkan.h"
+
+#include <string>
+#include <vector>
+
+GFXRECON_BEGIN_NAMESPACE(gfxrecon)
+GFXRECON_BEGIN_NAMESPACE(decode)
+
+struct VulkanDeviceMemoryInfo;
+struct VulkanBufferInfo;
+struct VulkanImageInfo;
+struct VulkanPhysicalDeviceInfo;
+
+class VulkanResourceAllocator
+{
+  public:
+    typedef uintptr_t ResourceData;
+    typedef uintptr_t MemoryData;
+
+    /// One member of an aliasing group, with the replay memory requirements the consumer queried for it.
+    struct AliasingGroupMember
+    {
+        format::HandleId     resource_id{ format::kNullHandleId };
+        VkDeviceSize         bind_offset{ 0 };
+        VkMemoryRequirements requirements{};
+        bool                 requires_dedicated_allocation{ false };
+        bool                 prefers_dedicated_allocation{ false };
+    };
+
+    /// A set of resources that aliased one another inside one captured device memory object.
+    struct AliasingGroup
+    {
+        format::HandleId                 memory_id{ format::kNullHandleId };
+        uint32_t                         group_id{ 0 };
+        std::vector<AliasingGroupMember> members;
+    };
+
+  public:
+    struct Functions
+    {
+        PFN_vkGetPhysicalDeviceProperties                  get_physical_device_properties{ nullptr };
+        PFN_vkGetPhysicalDeviceMemoryProperties            get_physical_device_memory_properties{ nullptr };
+        PFN_vkGetPhysicalDeviceMemoryProperties2           get_physical_device_memory_properties2{ nullptr };
+        PFN_vkAllocateMemory                               allocate_memory{ nullptr };
+        PFN_vkFreeMemory                                   free_memory{ nullptr };
+        PFN_vkGetDeviceMemoryCommitment                    get_device_memory_commitment{ nullptr };
+        PFN_vkMapMemory                                    map_memory{ nullptr };
+        PFN_vkMapMemory2                                   map_memory2{ nullptr };
+        PFN_vkUnmapMemory                                  unmap_memory{ nullptr };
+        PFN_vkUnmapMemory2                                 unmap_memory2{ nullptr };
+        PFN_vkFlushMappedMemoryRanges                      flush_memory_ranges{ nullptr };
+        PFN_vkInvalidateMappedMemoryRanges                 invalidate_memory_ranges{ nullptr };
+        PFN_vkCreateBuffer                                 create_buffer{ nullptr };
+        PFN_vkDestroyBuffer                                destroy_buffer{ nullptr };
+        PFN_vkGetBufferMemoryRequirements                  get_buffer_memory_requirements{ nullptr };
+        PFN_vkGetBufferMemoryRequirements2                 get_buffer_memory_requirements2{ nullptr };
+        PFN_vkBindBufferMemory                             bind_buffer_memory{ nullptr };
+        PFN_vkBindBufferMemory2                            bind_buffer_memory2{ nullptr };
+        PFN_vkCmdCopyBuffer                                cmd_copy_buffer{ nullptr };
+        PFN_vkCreateImage                                  create_image{ nullptr };
+        PFN_vkDestroyImage                                 destroy_image{ nullptr };
+        PFN_vkCreateVideoSessionKHR                        create_video_session{ nullptr };
+        PFN_vkDestroyVideoSessionKHR                       destroy_video_session{ nullptr };
+        PFN_vkGetImageMemoryRequirements                   get_image_memory_requirements{ nullptr };
+        PFN_vkGetImageMemoryRequirements2                  get_image_memory_requirements2{ nullptr };
+        PFN_vkGetVideoSessionMemoryRequirementsKHR         get_video_session_memory_requirements{ nullptr };
+        PFN_vkGetImageSubresourceLayout                    get_image_subresource_layout{ nullptr };
+        PFN_vkBindImageMemory                              bind_image_memory{ nullptr };
+        PFN_vkBindImageMemory2                             bind_image_memory2{ nullptr };
+        PFN_vkBindVideoSessionMemoryKHR                    bind_video_session_memory{ nullptr };
+        PFN_vkGetInstanceProcAddr                          get_instance_proc_addr{ nullptr };
+        PFN_vkGetDeviceProcAddr                            get_device_proc_addr{ nullptr };
+        PFN_vkGetPhysicalDeviceQueueFamilyProperties       get_physical_device_queue_family_properties{ nullptr };
+        PFN_vkSetDebugUtilsObjectNameEXT                   set_debug_utils_object_name{ nullptr };
+        PFN_vkSetDebugUtilsObjectTagEXT                    set_debug_utils_object_tag{ nullptr };
+        PFN_vkSetDeviceMemoryPriorityEXT                   set_device_memory_priority{ nullptr };
+        PFN_vkGetMemoryRemoteAddressNV                     get_memory_remote_address_nv{ nullptr };
+        PFN_vkCreateAccelerationStructureNV                create_acceleration_structure_nv{ nullptr };
+        PFN_vkDestroyAccelerationStructureNV               destroy_acceleration_structure_nv{ nullptr };
+        PFN_vkBindAccelerationStructureMemoryNV            bind_acceleration_structure_memory_nv{ nullptr };
+        PFN_vkGetAccelerationStructureMemoryRequirementsNV get_acceleration_structure_memory_requirements_nv{ nullptr };
+        PFN_vkGetMemoryFdKHR                               get_memory_fd{ nullptr };
+        PFN_vkQueueBindSparse                              queue_bind_sparse{ nullptr };
+        PFN_vkGetDeviceMemoryOpaqueCaptureAddress          get_device_memory_opaque_capture_address{ nullptr };
+        PFN_vkCreateTensorARM                              create_tensor{ nullptr };
+        PFN_vkDestroyTensorARM                             destroy_tensor{ nullptr };
+        PFN_vkGetTensorMemoryRequirementsARM               get_tensor_memory_requirements{ nullptr };
+        PFN_vkBindTensorMemoryARM                          bind_tensor_memory{ nullptr };
+        PFN_vkCreateDataGraphPipelineSessionARM            create_data_graph_pipeline_session{ nullptr };
+        PFN_vkGetDataGraphPipelineSessionMemoryRequirementsARM get_data_graph_pipeline_session_memory_requirements{
+            nullptr
+        };
+        PFN_vkBindDataGraphPipelineSessionMemoryARM bind_data_graph_pipeline_session_memory{ nullptr };
+        PFN_vkDestroyDataGraphPipelineSessionARM    destroy_data_graph_pipeline_session{ nullptr };
+        PFN_vkGetDataGraphPipelineSessionBindPointRequirementsARM
+            get_data_graph_pipeline_session_bind_point_requirements{ nullptr };
+    };
+
+  public:
+    VulkanResourceAllocator() = default;
+
+    virtual ~VulkanResourceAllocator() {}
+
+    virtual VkResult Initialize(const VulkanPhysicalDeviceInfo*      physical_device_info,
+                                VkDevice                             device,
+                                const VkDeviceCreateInfo&            device_create_info,
+                                const std::vector<std::string>&      enabled_device_extensions,
+                                const graphics::VulkanInstanceTable& instance_table,
+                                const graphics::VulkanDeviceTable*   device_table);
+
+    virtual void Destroy() = 0;
+
+    virtual VkResult CreateBuffer(const VkBufferCreateInfo*    create_info,
+                                  const VkAllocationCallbacks* allocation_callbacks,
+                                  format::HandleId             capture_id,
+                                  VkBuffer*                    buffer,
+                                  ResourceData*                allocator_data) = 0;
+
+    virtual void
+    DestroyBuffer(VkBuffer buffer, const VkAllocationCallbacks* allocation_callbacks, ResourceData allocator_data) = 0;
+
+    virtual VkResult CreateImage(const VkImageCreateInfo*     create_info,
+                                 const VkAllocationCallbacks* allocation_callbacks,
+                                 format::HandleId             capture_id,
+                                 VkImage*                     image,
+                                 ResourceData*                allocator_data) = 0;
+
+    virtual void
+    DestroyImage(VkImage image, const VkAllocationCallbacks* allocation_callbacks, ResourceData allocator_data) = 0;
+
+    virtual VkResult CreateVideoSession(const VkVideoSessionCreateInfoKHR* create_info,
+                                        const VkAllocationCallbacks*       allocation_callbacks,
+                                        format::HandleId                   capture_id,
+                                        VkVideoSessionKHR*                 session,
+                                        ResourceData*                      allocator_data) = 0;
+
+    virtual void DestroyVideoSession(VkVideoSessionKHR            session,
+                                     const VkAllocationCallbacks* allocation_callbacks,
+                                     ResourceData                 allocator_data) = 0;
+
+    virtual void GetBufferMemoryRequirements(VkBuffer              buffer,
+                                             VkMemoryRequirements* memory_requirements,
+                                             ResourceData          allocator_data) = 0;
+
+    virtual void GetBufferMemoryRequirements2(const VkBufferMemoryRequirementsInfo2* info,
+                                              VkMemoryRequirements2*                 memory_requirements,
+                                              ResourceData                           allocator_data) = 0;
+
+    virtual void GetImageSubresourceLayout(VkImage                    image,
+                                           const VkImageSubresource*  subresource,
+                                           VkSubresourceLayout*       layout,
+                                           const VkSubresourceLayout* original_layout,
+                                           ResourceData               allocator_data) = 0;
+
+    virtual void GetImageMemoryRequirements(VkImage               image,
+                                            VkMemoryRequirements* memory_requirements,
+                                            ResourceData          allocator_data) = 0;
+
+    virtual void GetImageMemoryRequirements2(const VkImageMemoryRequirementsInfo2* info,
+                                             VkMemoryRequirements2*                memory_requirements,
+                                             ResourceData                          allocator_data) = 0;
+
+    virtual VkResult GetVideoSessionMemoryRequirementsKHR(VkVideoSessionKHR video_session,
+                                                          uint32_t*         memory_requirements_count,
+                                                          VkVideoSessionMemoryRequirementsKHR* memory_requirements,
+                                                          ResourceData                         allocator_data) = 0;
+
+    virtual VkResult AllocateMemory(const VkMemoryAllocateInfo*  allocate_info,
+                                    const VkAllocationCallbacks* allocation_callbacks,
+                                    format::HandleId             capture_id,
+                                    VkDeviceMemory*              memory,
+                                    MemoryData*                  allocator_data) = 0;
+
+    virtual void
+    FreeMemory(VkDeviceMemory memory, const VkAllocationCallbacks* allocation_callbacks, MemoryData allocator_data) = 0;
+
+    virtual void GetDeviceMemoryCommitment(VkDeviceMemory memory,
+                                           VkDeviceSize*  committed_memory_in_bytes,
+                                           MemoryData     allocator_data) = 0;
+
+    virtual VkResult BindBufferMemory(VkBuffer               buffer,
+                                      VkDeviceMemory         memory,
+                                      VkDeviceSize           memory_offset,
+                                      ResourceData           allocator_buffer_data,
+                                      MemoryData             allocator_memory_data,
+                                      VkMemoryPropertyFlags* bind_memory_properties) = 0;
+
+    virtual VkResult BindBufferMemory2(uint32_t                      bind_info_count,
+                                       const VkBindBufferMemoryInfo* bind_infos,
+                                       const ResourceData*           allocator_buffer_datas,
+                                       const MemoryData*             allocator_memory_datas,
+                                       VkMemoryPropertyFlags*        bind_memory_properties) = 0;
+
+    virtual VkResult BindImageMemory(VkImage                image,
+                                     VkDeviceMemory         memory,
+                                     VkDeviceSize           memory_offset,
+                                     ResourceData           allocator_image_data,
+                                     MemoryData             allocator_memory_data,
+                                     VkMemoryPropertyFlags* bind_memory_properties) = 0;
+
+    virtual VkResult BindImageMemory2(uint32_t                     bind_info_count,
+                                      const VkBindImageMemoryInfo* bind_infos,
+                                      const ResourceData*          allocator_image_datas,
+                                      const MemoryData*            allocator_memory_datas,
+                                      VkMemoryPropertyFlags*       bind_memory_properties) = 0;
+
+    // allocator_memory_datas and bind_memory_properties match to bind_infos, but not memoryBindIndex in
+    // VkBindVideoSessionMemoryInfoKHR.
+    virtual VkResult BindVideoSessionMemory(VkVideoSessionKHR                      video_session,
+                                            uint32_t                               bind_info_count,
+                                            const VkBindVideoSessionMemoryInfoKHR* bind_infos,
+                                            const ResourceData                     allocator_session_data,
+                                            const MemoryData*                      allocator_memory_datas,
+                                            VkMemoryPropertyFlags*                 bind_memory_properties) = 0;
+
+    virtual VkResult MapMemory(VkDeviceMemory   memory,
+                               VkDeviceSize     offset,
+                               VkDeviceSize     size,
+                               VkMemoryMapFlags flags,
+                               void**           data,
+                               MemoryData       allocator_data) = 0;
+
+    virtual VkResult MapMemory2(const VkMemoryMapInfo* memory_map_info, void** data, MemoryData allocator_data) = 0;
+
+    virtual void UnmapMemory(VkDeviceMemory memory, MemoryData allocator_data) = 0;
+
+    virtual VkResult UnmapMemory2(const VkMemoryUnmapInfo* memory_unmap_info, MemoryData allocator_data) = 0;
+
+    virtual VkResult FlushMappedMemoryRanges(uint32_t                   memory_range_count,
+                                             const VkMappedMemoryRange* memory_ranges,
+                                             const MemoryData*          allocator_datas) = 0;
+
+    virtual VkResult InvalidateMappedMemoryRanges(uint32_t                   memory_range_count,
+                                                  const VkMappedMemoryRange* memory_ranges,
+                                                  const MemoryData*          allocator_datas) = 0;
+
+    // allocator_data can be either MemoryData or ResourceData depending on name_info->objectType
+    virtual VkResult
+    SetDebugUtilsObjectNameEXT(VkDevice device, VkDebugUtilsObjectNameInfoEXT* name_info, uintptr_t allocator_data) = 0;
+
+    virtual VkResult
+    SetDebugUtilsObjectTagEXT(VkDevice device, VkDebugUtilsObjectTagInfoEXT* tag_info, uintptr_t allocator_data) = 0;
+
+    // Offset is relative to the start of the pointer returned by vkMapMemory.
+    virtual VkResult
+    WriteMappedMemoryRange(MemoryData allocator_data, uint64_t offset, uint64_t size, const uint8_t* data) = 0;
+
+    virtual void ReportAllocateMemoryIncompatibility(const VkMemoryAllocateInfo* allocate_info) = 0;
+
+    virtual void ReportBindBufferIncompatibility(VkBuffer     buffer,
+                                                 ResourceData allocator_resource_data,
+                                                 MemoryData   allocator_memory_data) = 0;
+
+    virtual void ReportBindBuffer2Incompatibility(uint32_t                      bind_info_count,
+                                                  const VkBindBufferMemoryInfo* bind_infos,
+                                                  const ResourceData*           allocator_resource_datas,
+                                                  const MemoryData*             allocator_memory_datas) = 0;
+
+    virtual void ReportBindImageIncompatibility(VkImage      image,
+                                                ResourceData allocator_resource_data,
+                                                MemoryData   allocator_memory_data) = 0;
+
+    virtual void ReportBindImage2Incompatibility(uint32_t                     bind_info_count,
+                                                 const VkBindImageMemoryInfo* bind_infos,
+                                                 const ResourceData*          allocator_resource_datas,
+                                                 const MemoryData*            allocator_memory_datas) = 0;
+
+    virtual void ReportBindVideoSessionIncompatibility(VkVideoSessionKHR                      video_session,
+                                                       uint32_t                               bind_info_count,
+                                                       const VkBindVideoSessionMemoryInfoKHR* bind_infos,
+                                                       const ResourceData                     allocator_resource_data,
+                                                       const MemoryData* allocator_memory_datas) = 0;
+
+    virtual void
+    ReportBindAccelerationStructureMemoryNVIncompatibility(uint32_t bind_info_count,
+                                                           const VkBindAccelerationStructureMemoryInfoNV* bind_infos,
+                                                           const ResourceData* allocator_acc_datas,
+                                                           const MemoryData*   allocator_memory_datas) = 0;
+
+    virtual void ReportQueueBindSparseIncompatibility(VkQueue                 queue,
+                                                      uint32_t                bind_info_count,
+                                                      const VkBindSparseInfo* bind_infos,
+                                                      VkFence                 fence,
+                                                      const ResourceData*     allocator_buf_datas,
+                                                      const MemoryData*       allocator_buf_mem_datas,
+                                                      const ResourceData*     allocator_img_op_datas,
+                                                      const MemoryData*       allocator_img_op_mem_datas,
+                                                      const ResourceData*     allocator_img_datas,
+                                                      const MemoryData*       allocator_img_mem_datas) = 0;
+
+    // Direct allocation methods allocate memory and create resources without performing memory translation, while using
+    // the replay memory type of the current allocator implementation.
+    //
+    // Replay allocates staging resources, which were not created during capture, for operations such as screenshot
+    // creation and resource initialization during the initial state setup for trimmed files. Allocating staging
+    // resources through the resource allocator allows the resource allocator to be aware of all memory allocations
+    // performed for replay.
+    VkResult CreateBufferDirect(const VkBufferCreateInfo*    create_info,
+                                const VkAllocationCallbacks* allocation_callbacks,
+                                VkBuffer*                    buffer,
+                                ResourceData*                allocator_data)
+    {
+        auto injected = device_table_.Open();
+        return CreateBuffer(create_info, allocation_callbacks, format::kNullHandleId, buffer, allocator_data);
+    }
+
+    void
+    DestroyBufferDirect(VkBuffer buffer, const VkAllocationCallbacks* allocation_callbacks, ResourceData allocator_data)
+    {
+        auto injected = device_table_.Open();
+        DestroyBuffer(buffer, allocation_callbacks, allocator_data);
+    }
+
+    VkResult CreateImageDirect(const VkImageCreateInfo*     create_info,
+                               const VkAllocationCallbacks* allocation_callbacks,
+                               VkImage*                     image,
+                               ResourceData*                allocator_data)
+    {
+        auto injected = device_table_.Open();
+        return CreateImage(create_info, allocation_callbacks, format::kNullHandleId, image, allocator_data);
+    }
+
+    void
+    DestroyImageDirect(VkImage image, const VkAllocationCallbacks* allocation_callbacks, ResourceData allocator_data)
+    {
+        auto injected = device_table_.Open();
+        DestroyImage(image, allocation_callbacks, allocator_data);
+    }
+
+    VkResult AllocateMemoryDirect(const VkMemoryAllocateInfo*  allocate_info,
+                                  const VkAllocationCallbacks* allocation_callbacks,
+                                  VkDeviceMemory*              memory,
+                                  MemoryData*                  allocator_data)
+    {
+        auto injected = device_table_.Open();
+        return AllocateMemoryDirectImpl(allocate_info, allocation_callbacks, memory, allocator_data);
+    }
+
+    void FreeMemoryDirect(VkDeviceMemory               memory,
+                          const VkAllocationCallbacks* allocation_callbacks,
+                          MemoryData                   allocator_data)
+    {
+        auto injected = device_table_.Open();
+        FreeMemory(memory, allocation_callbacks, allocator_data);
+    }
+
+    VkResult BindBufferMemoryDirect(VkBuffer               buffer,
+                                    VkDeviceMemory         memory,
+                                    VkDeviceSize           memory_offset,
+                                    ResourceData           allocator_buffer_data,
+                                    MemoryData             allocator_memory_data,
+                                    VkMemoryPropertyFlags* bind_memory_properties)
+    {
+        auto injected = device_table_.Open();
+        return BindBufferMemoryDirectImpl(
+            buffer, memory, memory_offset, allocator_buffer_data, allocator_memory_data, bind_memory_properties);
+    }
+
+    VkResult BindImageMemoryDirect(VkImage                image,
+                                   VkDeviceMemory         memory,
+                                   VkDeviceSize           memory_offset,
+                                   ResourceData           allocator_image_data,
+                                   MemoryData             allocator_memory_data,
+                                   VkMemoryPropertyFlags* bind_memory_properties)
+    {
+        auto injected = device_table_.Open();
+        return BindImageMemoryDirectImpl(
+            image, memory, memory_offset, allocator_image_data, allocator_memory_data, bind_memory_properties);
+    }
+
+    // Map the memory that the buffer was bound to.  The returned pointer references the start of the buffer memory (it
+    // is the start of the memory the resource was bound to plus the resource bind offset).
+    VkResult
+    MapResourceMemoryDirect(VkDeviceSize size, VkMemoryMapFlags flags, void** data, ResourceData allocator_data)
+    {
+        auto injected = device_table_.Open();
+        return MapResourceMemoryDirectImpl(size, flags, data, allocator_data);
+    }
+
+    void UnmapResourceMemoryDirect(ResourceData allocator_data)
+    {
+        auto injected = device_table_.Open();
+        UnmapResourceMemoryDirectImpl(allocator_data);
+    }
+
+    VkResult FlushMappedMemoryRangesDirect(uint32_t                   memory_range_count,
+                                           const VkMappedMemoryRange* memory_ranges,
+                                           const MemoryData*          allocator_datas)
+    {
+        auto injected = device_table_.Open();
+        return FlushMappedMemoryRanges(memory_range_count, memory_ranges, allocator_datas);
+    }
+
+    VkResult InvalidateMappedMemoryRangesDirect(uint32_t                   memory_range_count,
+                                                const VkMappedMemoryRange* memory_ranges,
+                                                const MemoryData*          allocator_datas)
+    {
+        auto injected = device_table_.Open();
+        return InvalidateMappedMemoryRanges(memory_range_count, memory_ranges, allocator_datas);
+    }
+
+    virtual bool SupportsOpaqueDeviceAddresses() = 0;
+    virtual bool SupportBindVideoSessionMemory() = 0;
+
+    /**
+     * @brief   SetResourceAliasingGroups hands over the aliasing groups a resource aliasing groups
+     *          meta-data block described, resolved to replay memory requirements.
+     *
+     * Allocators that place resources exactly as captured have nothing to do with them.
+     *
+     * @param   groups  the groups, added to any already set for this allocator.
+     */
+    virtual void SetResourceAliasingGroups(const std::vector<AliasingGroup>& groups)
+    {
+        GFXRECON_UNREFERENCED_PARAMETER(groups);
+    }
+
+    virtual VkResult CreateDataGraphPipelineSession(const VkDataGraphPipelineSessionCreateInfoARM* create_info,
+                                                    const VkAllocationCallbacks*                   allocation_callbacks,
+                                                    format::HandleId                               capture_id,
+                                                    VkDataGraphPipelineSessionARM* data_graph_pipeline_session,
+                                                    ResourceData*                  allocator_data) = 0;
+
+    virtual void DestroyDataGraphPipelineSession(VkDataGraphPipelineSessionARM data_graph_pipeline_session,
+                                                 const VkAllocationCallbacks*  allocation_callbacks,
+                                                 ResourceData                  allocator_data) = 0;
+
+    virtual VkResult CreateTensor(const VkTensorCreateInfoARM* create_info,
+                                  const VkAllocationCallbacks* allocation_callbacks,
+                                  format::HandleId             capture_id,
+                                  VkTensorARM*                 tensor,
+                                  ResourceData*                allocator_data) = 0;
+
+    virtual void DestroyTensor(VkTensorARM                  tensor,
+                               const VkAllocationCallbacks* allocation_callbacks,
+                               ResourceData                 allocator_data) = 0;
+
+    virtual void GetTensorMemoryRequirementsARM(VkTensorMemoryRequirementsInfoARM* tensor_memory_requirements,
+                                                VkMemoryRequirements2*             memory_requirements,
+                                                ResourceData                       allocator_data) = 0;
+
+    virtual VkResult BindDataGraphPipelineSessionMemory(uint32_t bind_info_count,
+                                                        const VkBindDataGraphPipelineSessionMemoryInfoARM* bind_infos,
+                                                        const ResourceData*    allocator_session_datas,
+                                                        const MemoryData*      allocator_memory_datas,
+                                                        VkMemoryPropertyFlags* bind_memory_properties) = 0;
+
+    virtual VkResult BindTensorMemory(uint32_t                         bind_info_count,
+                                      const VkBindTensorMemoryInfoARM* bind_infos,
+                                      const ResourceData*              allocator_tensor_datas,
+                                      const MemoryData*                allocator_memory_datas,
+                                      VkMemoryPropertyFlags*           bind_memory_properties) = 0;
+
+    VkResult CreateTensorDirect(const VkTensorCreateInfoARM* create_info,
+                                const VkAllocationCallbacks* allocation_callbacks,
+                                VkTensorARM*                 tensor,
+                                ResourceData*                allocator_data)
+    {
+        auto injected = device_table_.Open();
+        return CreateTensor(create_info, allocation_callbacks, format::kNullHandleId, tensor, allocator_data);
+    }
+
+    void DestroyTensorDirect(VkTensorARM                  tensor,
+                             const VkAllocationCallbacks* allocation_callbacks,
+                             ResourceData                 allocator_data)
+    {
+        auto injected = device_table_.Open();
+        DestroyTensor(tensor, allocation_callbacks, allocator_data);
+    }
+
+    VkResult BindTensorMemoryDirect(uint32_t                         bind_info_count,
+                                    const VkBindTensorMemoryInfoARM* bind_infos,
+                                    const ResourceData*              allocator_tensor_datas,
+                                    const MemoryData*                allocator_memory_datas,
+                                    VkMemoryPropertyFlags*           bind_memory_properties)
+    {
+        auto injected = device_table_.Open();
+        return BindTensorMemory(
+            bind_info_count, bind_infos, allocator_tensor_datas, allocator_memory_datas, bind_memory_properties);
+    }
+
+    virtual void SetDeviceMemoryPriority(VkDeviceMemory memory, float priority, MemoryData allocator_data) = 0;
+
+    virtual VkResult GetMemoryRemoteAddressNV(const VkMemoryGetRemoteAddressInfoNV* memory_get_remote_address_info,
+                                              VkRemoteAddressNV*                    address,
+                                              MemoryData                            allocator_data) = 0;
+
+    virtual VkResult CreateAccelerationStructureNV(const VkAccelerationStructureCreateInfoNV* create_info,
+                                                   const VkAllocationCallbacks*               allocation_callbacks,
+                                                   format::HandleId                           capture_id,
+                                                   VkAccelerationStructureNV*                 acc_str,
+                                                   ResourceData*                              allocator_data) = 0;
+
+    virtual void DestroyAccelerationStructureNV(VkAccelerationStructureNV    acc_str,
+                                                const VkAllocationCallbacks* allocation_callbacks,
+                                                ResourceData                 allocator_data) = 0;
+
+    virtual void
+    GetAccelerationStructureMemoryRequirementsNV(const VkAccelerationStructureMemoryRequirementsInfoNV* info,
+                                                 VkMemoryRequirements2KHR* memory_requirements,
+                                                 ResourceData              allocator_data) = 0;
+
+    virtual VkResult BindAccelerationStructureMemoryNV(uint32_t                                       bind_info_count,
+                                                       const VkBindAccelerationStructureMemoryInfoNV* bind_infos,
+                                                       const ResourceData*    allocator_acc_datas,
+                                                       const MemoryData*      allocator_memory_datas,
+                                                       VkMemoryPropertyFlags* bind_memory_properties) = 0;
+
+    virtual VkResult GetMemoryFd(const VkMemoryGetFdInfoKHR* get_fd_info, int* pFd, MemoryData allocator_data) = 0;
+
+    virtual VkResult QueueBindSparse(VkQueue                 queue,
+                                     uint32_t                bind_info_count,
+                                     const VkBindSparseInfo* bind_infos,
+                                     VkFence                 fence,
+                                     ResourceData*           allocator_buf_datas,
+                                     const MemoryData*       allocator_buf_mem_datas,
+                                     VkMemoryPropertyFlags*  bind_buf_mem_properties,
+                                     ResourceData*           allocator_img_op_datas,
+                                     const MemoryData*       allocator_img_op_mem_datas,
+                                     VkMemoryPropertyFlags*  bind_img_op_mem_properties,
+                                     ResourceData*           allocator_img_datas,
+                                     const MemoryData*       allocator_img_mem_datas,
+                                     VkMemoryPropertyFlags*  bind_img_mem_properties) = 0;
+
+    virtual uint64_t GetDeviceMemoryOpaqueCaptureAddress(const VkDeviceMemoryOpaqueCaptureAddressInfo* info,
+                                                         MemoryData allocator_data) = 0;
+    virtual void     ClearStagingResources(){};
+
+  protected:
+    // Customization points for the *Direct dispatchers above.  They run inside the injected-commands scope the
+    // dispatcher has already opened; overrides that need the call table may open a nested scope, which is cheap.
+    virtual VkResult AllocateMemoryDirectImpl(const VkMemoryAllocateInfo*  allocate_info,
+                                              const VkAllocationCallbacks* allocation_callbacks,
+                                              VkDeviceMemory*              memory,
+                                              MemoryData*                  allocator_data)
+    {
+        return AllocateMemory(allocate_info, allocation_callbacks, format::kNullHandleId, memory, allocator_data);
+    }
+
+    virtual VkResult BindBufferMemoryDirectImpl(VkBuffer               buffer,
+                                                VkDeviceMemory         memory,
+                                                VkDeviceSize           memory_offset,
+                                                ResourceData           allocator_buffer_data,
+                                                MemoryData             allocator_memory_data,
+                                                VkMemoryPropertyFlags* bind_memory_properties)
+    {
+        return BindBufferMemory(
+            buffer, memory, memory_offset, allocator_buffer_data, allocator_memory_data, bind_memory_properties);
+    }
+
+    virtual VkResult BindImageMemoryDirectImpl(VkImage                image,
+                                               VkDeviceMemory         memory,
+                                               VkDeviceSize           memory_offset,
+                                               ResourceData           allocator_image_data,
+                                               MemoryData             allocator_memory_data,
+                                               VkMemoryPropertyFlags* bind_memory_properties)
+    {
+        return BindImageMemory(
+            image, memory, memory_offset, allocator_image_data, allocator_memory_data, bind_memory_properties);
+    }
+
+    virtual VkResult MapResourceMemoryDirectImpl(VkDeviceSize     size,
+                                                 VkMemoryMapFlags flags,
+                                                 void**           data,
+                                                 ResourceData     allocator_data) = 0;
+
+    virtual void UnmapResourceMemoryDirectImpl(ResourceData allocator_data) = 0;
+
+  protected:
+    VkDevice                            device_{ VK_NULL_HANDLE };
+    Functions                           functions_;
+    graphics::VulkanInjectedDeviceCalls device_table_;
+    VkPhysicalDeviceMemoryProperties    replay_memory_properties_{};
+    VkDeviceSize                        replay_non_coherent_atom_size_{ 0 };
+};
+
+GFXRECON_END_NAMESPACE(decode)
+GFXRECON_END_NAMESPACE(gfxrecon)
+
+#endif // GFXRECON_DECODE_VULKAN_RESOURCE_ALLOCATOR_H

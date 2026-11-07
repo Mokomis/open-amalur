@@ -1,0 +1,81 @@
+{
+  "scope": "desktop-only diagnostic;8stableframes afterpropertychange;fullyloaded203cells/native_leaf175/queue0;RGBA8probes cannot resolve subbyte nativealbedo;selected3pixels notwholeimage",
+  "log": "custom-material-probe-stable.log",
+  "pixel800": {
+    "normal_u8": [
+      20,
+      62,
+      127
+    ],
+    "albedo_u8": [
+      0,
+      0,
+      0
+    ],
+    "VC_u8": [
+      206,
+      211,
+      203
+    ],
+    "regular_postfog": [
+      34,
+      29,
+      18
+    ],
+    "after_transparents": [
+      38,
+      36,
+      25
+    ],
+    "DOF_effect_rgba": [
+      73,
+      69,
+      43,
+      91
+    ],
+    "bloom_rgb_u8": [
+      31,
+      30,
+      18
+    ],
+    "final": [
+      74,
+      70,
+      41
+    ]
+  },
+  "original800": {
+    "normal_f16": [
+      0.07769775390625,
+      0.2427978515625,
+      0.5,
+      64
+    ],
+    "albedo_f16": [
+      0.001415252685546875,
+      0.001476287841796875,
+      0.00040030479431152344,
+      0
+    ],
+    "postfog": [
+      34,
+      29,
+      18
+    ],
+    "after_transparents": [
+      37,
+      34,
+      22
+    ],
+    "final": [
+      35,
+      32,
+      20
+    ]
+  },
+  "finding": "same sampled leafnormal and subbyte darkalbedo;postfog pixel matches exactly;major residual difference ariseslater, DOF/bloom reference still needed",
+  "current_source_sha256": {
+    "oa_post.c": "d93107ab27ee02f0075ef011f0acbd7adc10dd8ec62655b90c48bc9428f9e2e3",
+    "android_scene.c": "ca9d921a9e766684e474272c1a7e34dc7d5e11340a89859bae136de7db29de1d"
+  }
+}

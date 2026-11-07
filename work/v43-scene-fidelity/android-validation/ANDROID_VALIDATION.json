@@ -1,0 +1,92 @@
+{
+  "device": "OPPO OPD2515 / 99cc517a / Android16 / Adreno829",
+  "apk_version": "0.34.0",
+  "versionCode": 36,
+  "apk_sha256": "ecae89e850c37a7819b719f261e8a8580b5a280b165b5eab42cbf57a4f9b9c4a",
+  "installed_update_r": true,
+  "same_signing_identity": true,
+  "owner_save_and_settings_identical_before_after": true,
+  "native_arm64_gles": true,
+  "rendering": {
+    "native_terrain_draws": 19,
+    "native_material_draws": 42,
+    "features": 127,
+    "atlas_uploaded": true,
+    "post_constants_consumed": true,
+    "world": "Dalentarth / Gorhart",
+    "resolution": [
+      2520,
+      1680
+    ]
+  },
+  "movement": {
+    "touch_walk_start": [
+      1575.06,
+      -62759.434,
+      5145.83
+    ],
+    "touch_walk_end": [
+      1575.06,
+      -62558.645,
+      5137.924
+    ],
+    "grounded": true,
+    "recoveries": 0
+  },
+  "prop_collision": {
+    "same_cpu_win_fixture_start": [
+      6246.516,
+      -85881.188,
+      5863.322
+    ],
+    "stopped": [
+      6376.775,
+      -85831.508,
+      5862.581
+    ],
+    "backed_out": [
+      6129.411,
+      -85831.508,
+      5863.03
+    ],
+    "grounded_at_stop_and_back": true,
+    "recoveries": 0,
+    "classification": "static visual-mesh collision, not native rigid body"
+  },
+  "lifecycle": {
+    "shop_enter_exit": true,
+    "home_resume_same_pid": true,
+    "atlas_and_post_recreated": true,
+    "settled_image_valid": true,
+    "transition_holes": "Recorded before async cells finished; later settled capture complete. No loading screen added."
+  },
+  "performance": {
+    "samples": 8,
+    "sample_frames": 240,
+    "elapsed_frame_interval_mean_ms": 17.67875,
+    "fps_from_mean_interval": 56.56508520115958,
+    "sample_mean_interval_range_ms": [
+      17.64,
+      17.76
+    ],
+    "largest_reported_frame_ms": 27.2,
+    "mean_submit_ms": 12.20125,
+    "mean_swap_ms": 5.20625,
+    "mean_gpu_query_ms": 18.33,
+    "scope": "Stationary shop approach, short sample; not a sustained gameplay benchmark. GPU timer samples asynchronous, do not add to CPU/swap times.",
+    "raw_samples": 10,
+    "excluded_initial_samples": 2
+  },
+  "final_state": {
+    "app_force_stopped": true,
+    "screen_sleep_requested": true,
+    "temporary_properties_restored": true,
+    "new_renderer_remains_enabled": 127
+  },
+  "limitations": [
+    "Short stationary sample only; no campaign/full gameplay or sustained thermal claim.",
+    "Native illumination is scoped family reconstruction, not full parity.",
+    "Android keyboard E injection did not enter shop; touch interaction did.",
+    "First return capture caught asynchronous stream gaps; settled/resumed view correct."
+  ]
+}

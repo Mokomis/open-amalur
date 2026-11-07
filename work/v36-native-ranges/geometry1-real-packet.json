@@ -1,0 +1,29 @@
+{
+  "captured": "capture-2026-11-05T20-38-32-454Z",
+  "bytes": 596,
+  "sha256": "280fa3d9c542de616db6b4830957ea980703ba912b1f73f1171322ece19e183b",
+  "aliases_deduplicated": [
+    [
+      "format",
+      "strides"
+    ]
+  ],
+  "expected": [
+    2863503504,
+    2861576112,
+    60,
+    8,
+    0,
+    0,
+    4,
+    2863503144,
+    57,
+    474,
+    1,
+    0,
+    0,
+    0
+  ],
+  "native_evidence": "c96fd2 range; c96fe2 vertex offset multiply; c97000 index*2; c97006-c97017/c970d1 count fallback; holder strides c97028-c97055",
+  "runtime_scope": "explicit count474; offsets0; VS5 constant-copy setup excluded"
+}

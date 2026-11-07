@@ -1,0 +1,666 @@
+{
+  "recording": "/private/tmp/oa-dalentarth-20261105.gfxr",
+  "recording_sha256": "72c3524703435311542d555dc419771d820f6baf81c84676ef2c6dc28c367209",
+  "fills52": [
+    {
+      "block": 73631,
+      "file_offset": 525920194,
+      "stored_size": 10516740,
+      "memory": 52,
+      "offset": 0,
+      "size": 33554432,
+      "compressed": true,
+      "sha256": "a9433c481e510e8777abfaa9105019d735e66551125b7fb083deac6ea9e3befd"
+    }
+  ],
+  "mapped_memory_events": [
+    {
+      "index": 18689,
+      "vkFunc": {
+        "name": "vkMapMemory",
+        "return": "VK_SUCCESS",
+        "args": {
+          "device": 3,
+          "memory": 52,
+          "offset": 0,
+          "size": 18446744073709551615,
+          "flags": 0,
+          "ppData": "0x708c02dc"
+        }
+      }
+    }
+  ],
+  "submission": [
+    {
+      "index": 76331,
+      "vkFunc": {
+        "name": "vkQueueSubmit",
+        "return": "VK_SUCCESS",
+        "args": {
+          "queue": 43,
+          "submitCount": 1,
+          "pSubmits": [
+            {
+              "sType": "VK_STRUCTURE_TYPE_SUBMIT_INFO",
+              "pNext": null,
+              "waitSemaphoreCount": 1,
+              "pWaitSemaphores": [
+                48
+              ],
+              "pWaitDstStageMask": [
+                65536
+              ],
+              "commandBufferCount": 1,
+              "pCommandBuffers": [
+                46
+              ],
+              "signalSemaphoreCount": 1,
+              "pSignalSemaphores": [
+                49
+              ]
+            }
+          ],
+          "fence": 47
+        }
+      }
+    }
+  ],
+  "gpu_writes_to_buffer51": [],
+  "draws": [
+    {
+      "index": 68811,
+      "args": {
+        "commandBuffer": 46,
+        "indexCount": 234,
+        "instanceCount": 1,
+        "firstIndex": 0,
+        "vertexOffset": 0,
+        "firstInstance": 0
+      },
+      "pipeline": 8194,
+      "vs": 877,
+      "descriptor_bind": {
+        "index": 68809,
+        "vkFunc": {
+          "name": "vkCmdBindDescriptorSets",
+          "args": {
+            "commandBuffer": 46,
+            "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+            "layout": 8030,
+            "firstSet": 0,
+            "descriptorSetCount": 1,
+            "pDescriptorSets": [
+              13920
+            ],
+            "dynamicOffsetCount": 7,
+            "pDynamicOffsets": [
+              1162560,
+              360896,
+              639296,
+              1162816,
+              1162560,
+              360896,
+              1162816
+            ]
+          }
+        }
+      },
+      "set": 13920,
+      "layout": 7974,
+      "dynamic_binding_order": [
+        0,
+        1,
+        2,
+        4,
+        64,
+        65,
+        68
+      ],
+      "uniforms": [
+        {
+          "binding": 0,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1162560,
+          "range": 256
+        },
+        {
+          "binding": 1,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 360896,
+          "range": 1376
+        },
+        {
+          "binding": 2,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 639296,
+          "range": 144
+        },
+        {
+          "binding": 4,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1162816,
+          "range": 256
+        },
+        {
+          "binding": 64,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1162560,
+          "range": 256
+        },
+        {
+          "binding": 65,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 360896,
+          "range": 1376
+        },
+        {
+          "binding": 68,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1162816,
+          "range": 256
+        }
+      ],
+      "last_descriptor_write": 33959,
+      "vertex": {
+        "index": 68808,
+        "vkFunc": {
+          "name": "vkCmdBindVertexBuffers2",
+          "args": {
+            "commandBuffer": 46,
+            "firstBinding": 0,
+            "bindingCount": 4,
+            "pBuffers": [
+              11824,
+              1831,
+              64,
+              64
+            ],
+            "pOffsets": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "pSizes": [
+              18446744073709551615,
+              18446744073709551615,
+              18446744073709551615,
+              18446744073709551615
+            ],
+            "pStrides": [
+              48,
+              12,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "index_bind": {
+        "index": 68810,
+        "vkFunc": {
+          "name": "vkCmdBindIndexBuffer",
+          "args": {
+            "commandBuffer": 46,
+            "buffer": 11826,
+            "offset": 0,
+            "indexType": "VK_INDEX_TYPE_UINT16"
+          }
+        }
+      },
+      "world_matrix_row_major": [
+        -0.6011549234390259,
+        0.7991328835487366,
+        0.0,
+        0.0,
+        -0.7991328835487366,
+        -0.6011549234390259,
+        -0.0,
+        0.0,
+        -0.0,
+        0.0,
+        1.0,
+        0.0,
+        506.4974365234375,
+        -79625.0703125,
+        5574.79833984375,
+        1.0
+      ],
+      "world_view_projection_row_major": [
+        -0.4061686396598816,
+        0.19315247237682343,
+        0.9472342729568481,
+        0.9471869468688965,
+        1.2466063499450684,
+        0.06293464452028275,
+        0.30862730741500854,
+        0.3086118996143341,
+        -9.645312957218266e-07,
+        2.3219857215881348,
+        -0.08715981990098953,
+        -0.08715546876192093,
+        -1878.7469482421875,
+        76.8044662475586,
+        10886.982421875,
+        10912.625
+      ],
+      "matrix_export_bit_exact": true,
+      "ubo_slice_sha256": "08949440d34d80cfb13ca50f892db165ec4ad337a7148d10e915627b3893c778",
+      "args_bit_exact": true,
+      "camera_vp_reconstructed_row_major": [
+        -0.75203339271039,
+        -0.16640760259443332,
+        -0.8160682811573321,
+        -0.8160275179911362,
+        -1.0739856085849004,
+        0.11652095001521359,
+        0.5714328834133755,
+        0.5714043260728282,
+        -9.645312957218266e-07,
+        2.3219857215881348,
+        -0.08715981990098953,
+        -0.08715546876192093,
+        -87014.01818377269,
+        -3505.523817630096,
+        57286.60085425902,
+        57309.92464897296
+      ]
+    },
+    {
+      "index": 69284,
+      "args": {
+        "commandBuffer": 46,
+        "indexCount": 11172,
+        "instanceCount": 1,
+        "firstIndex": 0,
+        "vertexOffset": 0,
+        "firstInstance": 0
+      },
+      "pipeline": 12356,
+      "vs": 903,
+      "descriptor_bind": {
+        "index": 69282,
+        "vkFunc": {
+          "name": "vkCmdBindDescriptorSets",
+          "args": {
+            "commandBuffer": 46,
+            "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+            "layout": 12355,
+            "firstSet": 0,
+            "descriptorSetCount": 1,
+            "pDescriptorSets": [
+              15098
+            ],
+            "dynamicOffsetCount": 6,
+            "pDynamicOffsets": [
+              1226560,
+              360896,
+              639296,
+              1226816,
+              1226560,
+              1226816
+            ]
+          }
+        }
+      },
+      "set": 15098,
+      "layout": 12354,
+      "dynamic_binding_order": [
+        0,
+        1,
+        2,
+        4,
+        64,
+        68
+      ],
+      "uniforms": [
+        {
+          "binding": 0,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1226560,
+          "range": 256
+        },
+        {
+          "binding": 1,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 360896,
+          "range": 1376
+        },
+        {
+          "binding": 2,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 639296,
+          "range": 144
+        },
+        {
+          "binding": 4,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1226816,
+          "range": 256
+        },
+        {
+          "binding": 64,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1226560,
+          "range": 256
+        },
+        {
+          "binding": 68,
+          "buffer": 51,
+          "memory": 52,
+          "offset": 1226816,
+          "range": 256
+        }
+      ],
+      "last_descriptor_write": 38818,
+      "vertex": {
+        "index": 69281,
+        "vkFunc": {
+          "name": "vkCmdBindVertexBuffers2",
+          "args": {
+            "commandBuffer": 46,
+            "firstBinding": 0,
+            "bindingCount": 4,
+            "pBuffers": [
+              11696,
+              1831,
+              64,
+              64
+            ],
+            "pOffsets": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "pSizes": [
+              18446744073709551615,
+              18446744073709551615,
+              18446744073709551615,
+              18446744073709551615
+            ],
+            "pStrides": [
+              48,
+              12,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      "index_bind": {
+        "index": 69283,
+        "vkFunc": {
+          "name": "vkCmdBindIndexBuffer",
+          "args": {
+            "commandBuffer": 46,
+            "buffer": 11698,
+            "offset": 0,
+            "indexType": "VK_INDEX_TYPE_UINT16"
+          }
+        }
+      },
+      "world_matrix_row_major": [
+        -0.5605401992797852,
+        -0.8281272649765015,
+        0.0,
+        0.0,
+        0.8281272649765015,
+        -0.5605401992797852,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -880.2670288085938,
+        -76023.859375,
+        5371.81640625,
+        1.0
+      ],
+      "world_view_projection_row_major": [
+        1.3109416961669922,
+        -0.003216025186702609,
+        -0.015780072659254074,
+        -0.01577928103506565,
+        -0.02076723426580429,
+        -0.2031213492155075,
+        -0.996119499206543,
+        -0.9960697293281555,
+        -9.645312957218266e-07,
+        2.3219857215881348,
+        -0.08715981990098953,
+        -0.08715546876192093,
+        -4703.501953125,
+        255.86798095703125,
+        14094.2197265625,
+        14119.7021484375
+      ],
+      "matrix_export_bit_exact": true,
+      "ubo_slice_sha256": "65b27e60f45a3da398813c4adf579a9eba7a7f20a4065029b816fcf0154a98e1",
+      "args_bit_exact": true,
+      "camera_vp_reconstructed_row_major": [
+        -0.7520333708559765,
+        -0.16640760233869514,
+        -0.8160682844720493,
+        -0.8160275124193059,
+        -1.073985603683228,
+        0.11652095015377216,
+        0.5714328841431802,
+        0.5714043305623981,
+        -9.645312957218266e-07,
+        2.3219857215881348,
+        -0.08715981990098953,
+        -0.08715546876192093,
+        -87014.01745795646,
+        -3505.523810298442,
+        57286.601499347074,
+        57309.92568458555
+      ]
+    }
+  ],
+  "raw_draw_events": [
+    {
+      "index": 68808,
+      "vkFunc": {
+        "name": "vkCmdBindVertexBuffers2",
+        "args": {
+          "commandBuffer": 46,
+          "firstBinding": 0,
+          "bindingCount": 4,
+          "pBuffers": [
+            11824,
+            1831,
+            64,
+            64
+          ],
+          "pOffsets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "pSizes": [
+            18446744073709551615,
+            18446744073709551615,
+            18446744073709551615,
+            18446744073709551615
+          ],
+          "pStrides": [
+            48,
+            12,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "index": 68809,
+      "vkFunc": {
+        "name": "vkCmdBindDescriptorSets",
+        "args": {
+          "commandBuffer": 46,
+          "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+          "layout": 8030,
+          "firstSet": 0,
+          "descriptorSetCount": 1,
+          "pDescriptorSets": [
+            13920
+          ],
+          "dynamicOffsetCount": 7,
+          "pDynamicOffsets": [
+            1162560,
+            360896,
+            639296,
+            1162816,
+            1162560,
+            360896,
+            1162816
+          ]
+        }
+      }
+    },
+    {
+      "index": 68810,
+      "vkFunc": {
+        "name": "vkCmdBindIndexBuffer",
+        "args": {
+          "commandBuffer": 46,
+          "buffer": 11826,
+          "offset": 0,
+          "indexType": "VK_INDEX_TYPE_UINT16"
+        }
+      }
+    },
+    {
+      "index": 68811,
+      "vkFunc": {
+        "name": "vkCmdDrawIndexed",
+        "args": {
+          "commandBuffer": 46,
+          "indexCount": 234,
+          "instanceCount": 1,
+          "firstIndex": 0,
+          "vertexOffset": 0,
+          "firstInstance": 0
+        }
+      }
+    },
+    {
+      "index": 69281,
+      "vkFunc": {
+        "name": "vkCmdBindVertexBuffers2",
+        "args": {
+          "commandBuffer": 46,
+          "firstBinding": 0,
+          "bindingCount": 4,
+          "pBuffers": [
+            11696,
+            1831,
+            64,
+            64
+          ],
+          "pOffsets": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "pSizes": [
+            18446744073709551615,
+            18446744073709551615,
+            18446744073709551615,
+            18446744073709551615
+          ],
+          "pStrides": [
+            48,
+            12,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "index": 69282,
+      "vkFunc": {
+        "name": "vkCmdBindDescriptorSets",
+        "args": {
+          "commandBuffer": 46,
+          "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+          "layout": 12355,
+          "firstSet": 0,
+          "descriptorSetCount": 1,
+          "pDescriptorSets": [
+            15098
+          ],
+          "dynamicOffsetCount": 6,
+          "pDynamicOffsets": [
+            1226560,
+            360896,
+            639296,
+            1226816,
+            1226560,
+            1226816
+          ]
+        }
+      }
+    },
+    {
+      "index": 69283,
+      "vkFunc": {
+        "name": "vkCmdBindIndexBuffer",
+        "args": {
+          "commandBuffer": 46,
+          "buffer": 11698,
+          "offset": 0,
+          "indexType": "VK_INDEX_TYPE_UINT16"
+        }
+      }
+    },
+    {
+      "index": 69284,
+      "vkFunc": {
+        "name": "vkCmdDrawIndexed",
+        "args": {
+          "commandBuffer": 46,
+          "indexCount": 11172,
+          "instanceCount": 1,
+          "firstIndex": 0,
+          "vertexOffset": 0,
+          "firstInstance": 0
+        }
+      }
+    },
+    {
+      "index": 73630,
+      "vkFunc": {
+        "name": "vkEndCommandBuffer",
+        "return": "VK_SUCCESS",
+        "args": {
+          "commandBuffer": 46
+        }
+      }
+    }
+  ],
+  "two_draw_camera_max_linear_delta": 2.185441350111006e-08,
+  "two_draw_camera_translation_deltas": [
+    -0.0007258162222569808,
+    -7.331653705477947e-06,
+    -0.000645088053715881,
+    -0.0010356125858379528
+  ]
+}

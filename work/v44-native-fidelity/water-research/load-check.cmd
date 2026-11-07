@@ -1,0 +1,8 @@
+@echo off
+call "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Auxiliary\Build\vcvars64.bat" > nul
+lib /nologo /def:"C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\water-GLESv2.def" /machine:x64 /out:"C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\water-GLESv2.lib" > nul
+cl /nologo /std:c11 /W4 /FI"C:\Users\rwill\Documents\Opem Amalur\work\v40-windows-host\include\desktop_compat.h" /I"C:\Users\rwill\Documents\Opem Amalur\work\v40-windows-host\include" /I"C:\Users\rwill\Documents\Opem Amalur\work\v40-windows-host\dependencies\include" "C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\load-check.c" "C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\oa_native_water.obj" "C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\water-GLESv2.lib" /Fe:"C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\load-check.exe" /Fo:"C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\load-check.obj" > "C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\load-check-build.log" 2>&1
+if errorlevel 1 exit /b %errorlevel%
+set "PATH=C:\Users\rwill\Documents\Opem Amalur\work\v40-windows-host\dependencies;%PATH%"
+"C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\load-check.exe" "C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\water-native.bin" > "C:\Users\rwill\Documents\Opem Amalur\work\v44-native-fidelity\water-research\load-check.log" 2>&1
+exit /b %errorlevel%

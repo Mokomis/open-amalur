@@ -1,0 +1,33 @@
+{
+  "version_name": "0.37.0",
+  "version_code": 39,
+  "apk_sha256": "8a817ab01b48aa96ad1e7b1957f4e6816d9f4beba84534e3d6287b94e60a419f",
+  "installed_hash_verified": true,
+  "corrected_native_draw_verified": true,
+  "dense_touch_toggle_verified": true,
+  "dense_persists_after_restart": true,
+  "corrected_rejected_runs": 353,
+  "dense_rejected_runs": 0,
+  "view_space": 431646,
+  "admitted_space_count": 2,
+  "original_files": {
+    "opem-save-v1.bin": {
+      "bytes": 88,
+      "sha256": "13734501b6cdbd25fbe8fa8202226ea084382755d2522ee46d0b985045e85f11"
+    },
+    "opem-settings-v1.bin": {
+      "bytes": 184,
+      "sha256": "27665629f70cf1902ed4e5bec8daadcd6cdb5dfef857dfd3a0430ab475af0c55"
+    }
+  },
+  "save_never_overwritten": true,
+  "preferences_restored": true,
+  "test_properties_restored": true,
+  "power_state": "Dozing",
+  "app_stopped": true,
+  "limits": [
+    "Android view camera/aspect differs from exact Windows reference.",
+    "No sustained FPS claim.",
+    "Once-only startup log rotated out on second PID; ongoing renderer counters validate persisted Dense execution."
+  ]
+}

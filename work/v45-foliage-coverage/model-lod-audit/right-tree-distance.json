@@ -1,0 +1,93 @@
+{
+  "draw": 69083,
+  "native_eye": [
+    8591.9326171875,
+    -87036.03125,
+    6493.06640625
+  ],
+  "world_pose": [
+    4757.779296875,
+    -86588.828125,
+    5833.80712890625
+  ],
+  "euclidean_pose_distance": 3916.036914207645,
+  "xy_pose_distance": 3860.145375328905,
+  "world_matrix": [
+    -1.0,
+    3.199999980552093e-07,
+    0.0,
+    0.0,
+    -3.199999980552093e-07,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    4757.779296875,
+    -86588.828125,
+    5833.80712890625,
+    1.0
+  ],
+  "material_cb0_consumed_first32_bytes": [
+    0.9781200289726257,
+    600.0,
+    0.0,
+    0.0,
+    0.0,
+    10.0,
+    0.0,
+    0.0
+  ],
+  "cached_parts": [
+    {
+      "assembly": 5,
+      "material": 343549,
+      "sphere": [
+        4832.9384765625,
+        -86456.0546875,
+        6218.5146484375,
+        583.9371948242188
+      ],
+      "surface_sphere_distance": 3229.432500080844,
+      "tail72_84_hex": "00000000000000004a16634a"
+    },
+    {
+      "assembly": 6,
+      "material": 489469,
+      "sphere": [
+        4738.12548828125,
+        -86534.859375,
+        6774.0419921875,
+        650.3097534179688
+      ],
+      "surface_sphere_distance": 3246.092422306782,
+      "tail72_84_hex": "0000000000000000be4ae548"
+    },
+    {
+      "assembly": 8,
+      "material": 559590,
+      "sphere": [
+        4658.169921875,
+        -86648.0703125,
+        6896.55908203125,
+        1031.171875
+      ],
+      "surface_sphere_distance": 2942.215718913694,
+      "tail72_84_hex": "0000000000000000b6d15549"
+    }
+  ],
+  "expected_reference_colour_group": 1,
+  "expected_assemblies": [
+    0,
+    1,
+    2
+  ],
+  "observed_cached_assemblies": [
+    5,
+    6,
+    8
+  ],
+  "distance_metric_proof_scope": "Actual pose distance from captured current camera; not proof of full native per-group LOD metric"
+}

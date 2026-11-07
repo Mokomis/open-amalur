@@ -1,0 +1,29 @@
+{
+  "captured_pipeline56": 13260,
+  "captured_pipeline60": 13262,
+  "VS": 375,
+  "PS": 376,
+  "PS376_exact_text_equals_source_matched_PS352": true,
+  "VS375_sha256": "526bae7c5776fc55f414b72987ee34c46addc60b869e7aa8c76372541af6d440",
+  "PS376_sha256": "778dce0a8f010eed316e3d4763cf513d4fb5ac826bdd28370ea6bf2cb09e78be",
+  "palette69_float4_rows": 234,
+  "palette69_3x4_entries": 78,
+  "entity68_float4_rows": 12,
+  "basis": {
+    "N": "normalize(R68(skinLinear(Nsource,weights,joints)))",
+    "T": "normalize(R68(skinLinear(Tsource,weights,joints)))",
+    "B": "normalize(R68(Bsource)); no bones,weights,joints"
+  },
+  "weight4": "1-w0-w1-w2; no clamp, no raw stored fourth",
+  "accumulation_order": [
+    1,
+    0,
+    2,
+    3
+  ],
+  "indices": "native SINT8x4; multipliedby3, directly indexes palette; no remap/clamp in shader",
+  "normalization": "Each N/T/B once in vertex AFTER its final entity transform; normalize combined mappedNormal in fragment, no per-fragment basis renormalize, no cross/reorthogonalize",
+  "current_oa_character_bones_has_world_facing_and_feet": true,
+  "current_oa_character_c_sha256": "6132b4833aec4dbd93d2e7cf2add510e8caa72604d0a4909d1049246308c2ea8",
+  "source_clothing_specific_capture": "not joined; previous exact4VB-negative inventory remains qualification"
+}

@@ -1,0 +1,116 @@
+Android input acquisition proposal, 2026-10-30
+
+Observed owning source
+
+work/v07-host/android_scene.c:169-190 treats every motion source as touch.
+Joystick MOVE therefore reaches touch camera code and can alter dragging state.
+Key events are currently returned unhandled. Existing AInputQueue worker-thread
+ownership is suitable: observe after preDispatchEvent and before finishEvent.
+An observation does not itself mean the app consumed the action.
+
+work/v07-host/android_scripts.c is a one-shot initialization probe and destroys
+the Lua runtime before returning. Current code cannot deliver later controller
+events to recovered scripts. A service callback may read a fresh host snapshot
+during setup, but frame/event delivery needs a retained realm with explicit
+worker-thread ownership and teardown. Do not infer that the probe is gameplay.
+
+Staged component (not integrated or compiled)
+
+android_input_probe.h/.c provide:
+- Source-qualified event classification and value copies using Android NDK
+  accessors, with raw device ID, source, action, keycode, repeat count, time,
+  and standard joystick axis samples. No Amalur kind is returned.
+- JNI InputDevice inventory with IDs, source bitfields, and virtual status.
+  It enumerates actual devices even before a button is pressed. Failure,
+  overflow, or a disconnect race returns unknown, never known-disconnected.
+- No static mutable state, Java/Dex additions, UI or device changes.
+
+Minimum viewer repair: only call input_motion for a motion event whose source
+satisfies (source & AINPUT_SOURCE_TOUCHSCREEN) == AINPUT_SOURCE_TOUCHSCREEN.
+Do not check only SOURCE_CLASS_POINTER or a nonzero source-mask intersection.
+Touchpads, mouse events, joystick axes and touch screen coordinates differ.
+Observer recognition must not blindly become finishEvent(..., handled=1).
+Keep irrelevant system/back/volume keys unhandled until the app owns an action.
+
+Use an activity-owned snapshot and publish/copy it under its lifetime mutex.
+Initialize connection state UNKNOWN. Attach the worker via activity->vm and
+obtain its own JNIEnv; activity->env belongs to the activity main thread and
+cannot be used from worker_main. Detach only if this worker attached itself.
+Refresh inventory on resume and periodically (proposed 500 ms while active);
+timestamp successful reads and preserve an explicit unknown/stale state when
+JNI fails. For immediate hotplug, a small InputDeviceListener bridge or the
+official Game Controller Library is preferable to polling once gameplay starts.
+
+Per-frame held input is future integration, not implemented by this observer:
+store key state per device ID, generate press edges on fresh DOWN (repeat=0),
+clear on UP/cancel, focus loss, pause, queue replacement and removal. Reject
+ACTION_MULTIPLE as a new press. Never let a disconnected device retain held
+buttons/axes. Derive last-active family from intentional button/touch activity
+or calibrated axis thresholds, not connection inventory or tiny stick jitter.
+Use device motion-range flat/fuzz information before deriving stick activity.
+Store D-pad keys and hats separately then merge/deduplicate logical directions.
+Similarly combine L2/R2 key and trigger-axis forms; do not fire twice.
+SOURCE_DPAD-only events need separate routing/capability lookup; observer leaves
+them OTHER rather than falsely labeling a TV remote a gamepad. It also leaves
+mouse/stylus OTHER. Raw zero axes do not establish that an axis is supported.
+
+Controller connection, layout, locale, and native kinds
+
+Connected controllers can be identified by a complete source-mask match for
+GAMEPAD or JOYSTICK in an inventory entry; count each ID once. Keep virtual
+status separate rather than dropping virtual controllers automatically.
+Runtime IDs are not stable model IDs and cannot be mapped to Amalur kind13/15.
+SOURCE_KEYBOARD means keyboard-like capability, not necessarily a full typing
+keyboard; getKeyboardType() is needed if that distinction matters.
+
+Recommend an explicit Android host menu policy: Android BUTTON_A confirms,
+BUTTON_B cancels/goes back. This describes Android keycodes/positions, not the
+letters printed on every controller. Allow an explicit swap preference later.
+The older official Android controller guide recommends A/DPAD_CENTER primary
+action and B back while recognizing locale expectations; locale should remain
+a separate preference input, not evidence that a controller is attached.
+Current Android guidance says BUTTON_A stays at the south position even when
+printed B on Switch-style controllers. Prompt glyphs can vary by layout while
+logical action mappings remain explicit. The official Game Controller Library
+reports standard/shapes/reverse/arcade layout metadata if added later.
+
+No mapping from Android sources, country, locale, vendor, printed labels, or
+connection state to Amalur controller kind13/15 is established here. The native
+13-or-15 condition alone proves only that those two native states swap the
+native callback result. Parent tracing must establish what produces the states
+before a compatibility provider returns either value. An Android menu policy
+can instead be named as new host behavior without claiming native equivalence.
+
+Validation for parent Windows build/tablet run
+
+Compile source as C with NDK and link android. Review JNI thread ownership.
+Record a successful inventory with no controller, then attach/detach one and
+check that known presence follows enumeration rather than event activity.
+Capture actual A/B DOWN/repeat/UP, D-pad key+hat variants, sticks/triggers, a
+keyboard, and touchscreen; confirm joystick MOVE never invokes touch orbit.
+Verify pause/focus loss/queue recreation clears held state in final integration.
+Verify null/disappearing device yields unknown and that resume refreshes it.
+Source is staged only; no build or device execution was performed by this task.
+
+Primary sources consulted
+
+Android NDK Input: event sources, device IDs, queue and event accessors
+https://developer.android.com/ndk/reference/group/input
+
+InputDevice: getDeviceIds/getDevice/getSources/isVirtual and ephemeral IDs
+https://developer.android.com/reference/android/view/InputDevice
+
+Device connection/change/removal listener
+https://developer.android.com/reference/android/hardware/input/InputManager.InputDeviceListener
+
+Current Android controller actions: input types, keycode position, layout
+variants, trigger forms, duplicate events, and Game Controller recommendation
+https://developer.android.com/games/sdk/game-controller/controller-input
+
+Official historical controller guide source, pinned revision: A confirm/B back
+policy and locale caveat (historical guidance, not a native Amalur enum source)
+https://android.googlesource.com/platform/frameworks/base/+/9672ee125d6aee73bf1e5425c4089285714f25bf/docs/html/training/game-controllers/controller-input.jd
+
+Official Game Controller Library: NativeActivity/JNI initialization, event
+processing, status callbacks, controller data, and layout flags
+https://developer.android.com/games/sdk/game-controller/controller

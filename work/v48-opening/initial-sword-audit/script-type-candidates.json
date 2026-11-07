@@ -1,0 +1,58 @@
+[
+  {
+    "type_id": 1360571,
+    "name": "sword_wos_initialweapon",
+    "parent_type_id": 252852,
+    "script_id": 1360572,
+    "script_name": "sword_wos_initialweapon",
+    "type_flags_u32": 196,
+    "component_kinds": [
+      4,
+      20,
+      10,
+      6,
+      7,
+      32,
+      11
+    ],
+    "interaction_reference_keys": [],
+    "source": {
+      "archive": "patch_0.pak",
+      "batch": "134225858_ksmt.batch",
+      "offset": 6005359,
+      "bytes": 1260,
+      "sha256": "88b0a4784f358709a74984b1ea10050985fb726abba989a57e384cad7740b0aa"
+    }
+  },
+  {
+    "type_id": 1789987,
+    "name": "door_std_wos_start_door_01",
+    "parent_type_id": 0,
+    "script_id": 1794170,
+    "script_name": "door_std_wos_start",
+    "type_flags_u32": 204,
+    "component_kinds": [
+      4,
+      13,
+      0,
+      24,
+      34,
+      9,
+      6,
+      33,
+      7,
+      18,
+      11
+    ],
+    "interaction_reference_keys": [
+      458017
+    ],
+    "source": {
+      "archive": "patch_0.pak",
+      "batch": "134225858_ksmt.batch",
+      "offset": 19611635,
+      "bytes": 772,
+      "sha256": "448d4159ca4ed6f40d36279979131162dde53f3e8c341e1476ee83e6072e9e25"
+    }
+  }
+]

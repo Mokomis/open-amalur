@@ -1,0 +1,46 @@
+--- a/tools/replay/android_main.cpp
++++ b/tools/replay/android_main.cpp
+@@ -85,12 +85,21 @@
+     setenv("OA_STATIC_MEMORY", oa_static == "2" ? "2" : (oa_static == "1" ? "1" : "0"), 1);
+ 
+     setenv("OA_CAMERA", gfxrecon::util::GetIntentExtra(app, "oa_camera") == "1" ? "1" : "0", 1);
++    // This dedicated app is useful directly from its launcher, without host intent arguments.
++    std::string args = gfxrecon::util::GetIntentExtra(app, kArgsExtentKey);
++    if(args.empty()) {
++        const std::string base=app->activity->internalDataPath;
++        args="--loop-frame 1 --remove-unsupported --memory-translation rebind --opcd --log-file "+base+"/camera-default.log "+base+"/dalentarth.gfxr";
++        setenv("OA_CAMERA","1",1);setenv("OA_STATIC_MEMORY","2",1);
++        FILE* control=std::fopen((base+"/camera.txt").c_str(),"w");
++        if(control) {std::fputs("0 0 0 0\n",control);std::fclose(control);}
++    }
+     gfxrecon::replay::LoadFeatures(g_features);
+ 
+     // Each Feature adds its own command-line entries to the shared name lists, so an entry exists only
+     // when the build contains the Feature that reads it. The lists outlive the parser because remote
+     // settings are parsed against the same names.
+-    const std::string args      = gfxrecon::util::GetIntentExtra(app, kArgsExtentKey);
++
+     std::string       options   = kOptions;
+     std::string       arguments = kArguments;
+     AppendFeatureOptions(g_features, options, arguments);
+@@ -218,7 +227,19 @@
+ 
+ int32_t ProcessInputEvent(struct android_app* app, AInputEvent* event)
+ {
+-    if (oa_camera::Enabled() && AInputEvent_getType(event)==AINPUT_EVENT_TYPE_MOTION) {
++    if(oa_camera::Enabled() && AInputEvent_getType(event)==AINPUT_EVENT_TYPE_KEY && AKeyEvent_getAction(event)==AKEY_EVENT_ACTION_DOWN) {
++        bool handled=true;
++        switch(AKeyEvent_getKeyCode(event)) {
++            case AKEYCODE_DPAD_UP:case AKEYCODE_W:oa_camera::pose.forward+=20;break;
++            case AKEYCODE_DPAD_DOWN:case AKEYCODE_S:oa_camera::pose.forward-=20;break;
++            case AKEYCODE_DPAD_LEFT:case AKEYCODE_A:oa_camera::pose.right-=20;break;
++            case AKEYCODE_DPAD_RIGHT:case AKEYCODE_D:oa_camera::pose.right+=20;break;
++            case AKEYCODE_R:oa_camera::pose={};break;
++            default:handled=false;break;
++        }
++        if(handled) {oa_camera::Clamp();GFXRECON_LOG_INFO("OA CAMERA KEY yaw=%f pitch=%f right=%f forward=%f",oa_camera::pose.yaw,oa_camera::pose.pitch,oa_camera::pose.right,oa_camera::pose.forward);return 1;}
++    }
++    if (oa_camera::Enabled() && AInputEvent_getType(event)==AINPUT_EVENT_TYPE_MOTION && (AInputEvent_getSource(event)&AINPUT_SOURCE_CLASS_POINTER)) {
+         static float lastx=0,lasty=0,startx=0,starty=0;static bool moved=false;
+         const int action=AMotionEvent_getAction(event)&AMOTION_EVENT_ACTION_MASK;
+         const float x=AMotionEvent_getX(event,0),y=AMotionEvent_getY(event,0);

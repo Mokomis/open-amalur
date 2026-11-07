@@ -1,0 +1,58 @@
+v08 one-hop read-only table fallback admission
+
+Trigger: recovered Constants script SHA256
+b113cce79cec3bf17b061b79eb6fac88f20e41a537556d0c8cf26db03bcb93d1
+installs a metatable whose __index is its internal plain constants table and
+whose __newindex is the original no-op closure. Reads of general_audio must
+follow the table-valued index; that does not justify executing write callbacks.
+
+Native evidence, same exact original koa.exe SHA as preceding audits:
+  01095c80/01095e00 find __index in the metatable.
+  0109a3f0/0109a580 distinguish table-valued fallback from callable fallback;
+  table values use raw lookup, then recurse on miss with decremented budget.
+  Original caller supplies32, not stock Lua's assumed generic limit.
+  table_index_dispatch_generic.json,table_index_dispatch_string.json and
+  table_index_fallback_generic.json/table_index_fallback_string.json hold REA
+  proof. native-table-index-comparison.json records40 isolated original
+  dispatcher cases for type11 keys and numeric/handle/nil/miss outcomes.
+  These do not prove function metamethod, allocator, GC, or complete VM parity.
+
+Admitted read domain:
+  Existing plain/approved-seeall reads remain admitted.
+  Exactly one additional table-valued __index hop to a plain table, or to an
+  exact existing host-approved seeall module table, is admitted. The seeall
+  target may fall through to plain realm globals under its existing contract.
+  All other multi-hop chains, cycles, callable/userdata index values, protected
+  metatables and metatables that themselves carry metatables are rejected.
+  __newindex does not grant write permission and is never called by this guard.
+
+Host predicate __amalur_read_table_allowed uses C lua_getmetatable and rawget
+to inspect actual metadata. Lua getmetatable alone is insufficient: a forged
+table-valued __metatable marker can hide a function-valued __index. No public
+metatable behavior is changed. Predicate state is Lua-owned; source helper
+captures it under the existing trusted bootstrap-global contract.
+
+Source adaptation:
+  Only frozen opcode-comment sites GETFIELD/GETFIELD_R1 and
+  GETTABLE/GETTABLE_S/GETTABLE_N use __read_table_allowed.
+  WRITE and SELF table guards retain the preceding __field_table_allowed
+  spelling/semantics. SELF remains string-only. Canonical type11 key and EQ
+  restrictions are unchanged. Missing/unexpected opcode ownership errors
+  rather than broadly rewriting unknown sites. Frozen v05/v07 are untouched.
+
+Validation staging:
+  prepare_read_proxy_tests.py builds nine frozen-emitter Windows fixtures:
+  two field reads, three table reads, three writes and one SELF. It covers
+  Constants-like reads, nil/own/integer/handle keys, unchanged write rejection,
+  function fallback side effects never occurring, forged protected markers,
+  cycles/two-hop rejection, exact approved-seeall target and helper absence.
+  Prior v07 tests that rejected every unregistered table-valued __index read
+  describe the old narrower domain; their write restrictions still hold.
+  Regenerate the existing type11 fixtures with the new adapter for regression.
+
+Subsequent parent-run validation:
+  Windows ReadProxyHarness passed. Across178 adapted modules:27191 read guards,
+  25165 preserved write guards,1059 preserved SELF table guards;27827 canonical
+  type11 key guards retained. Parent also reports actual tablet read-proxy115
+  checks and canonical type11 fixture176 checks passed. These remain the bounded
+  fixture/selected-module claims above, not unrestricted metamethod parity.

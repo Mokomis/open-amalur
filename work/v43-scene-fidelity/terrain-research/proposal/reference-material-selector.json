@@ -1,0 +1,29 @@
+{
+  "file": "reference-material-selector.r8ui",
+  "format": "R8UI, nearest fetch",
+  "width": 256,
+  "height": 256,
+  "map_bounds": [
+    1952,
+    2208,
+    672,
+    928
+  ],
+  "world_origin": [
+    -4825,
+    -68825
+  ],
+  "world_units_per_texel": 50,
+  "byte_layout": "bits0..2 primary triangle material-set ID; bits3..5 second triangle material-set ID; bit6 alternate diagonal; ID7 means no owner",
+  "shader_decode": "q=floor(mapXY); f=fract(mapXY); alt=(byte&64)!=0; tri=alt ? (f.x+f.y>1) : (f.y>f.x); set=(byte>>(tri*3))&7",
+  "native_sources": [
+    "00ceae80",
+    "VA0173e014=[0,1,2,0,2,3]",
+    "VA0173dffc=[3,0,1,3,1,2]"
+  ],
+  "triangle_owner_count_histogram": {
+    "1": 131072
+  },
+  "overlapping_triangle_owners": 0,
+  "sha256": "a762d1685264f52cdc6086bdfe66f399c3e76f549b2703089d94a8034847fb08"
+}

@@ -1,0 +1,30 @@
+{
+  "outcome": "No concrete new-family8 implementation mistake found",
+  "scope": "Actual source snapshots plus staged material298 mappings; shared combine unchanged and not re-audited",
+  "source_sha256": {
+    "oa_post.c": "3f9313690b2f57d9098858cb5044c15681d130433231434743ce58af77f7d44d",
+    "oa_stream.c": "6ef39c8860b2ef7380980c2a6b8f0b21c7e7208d489b13d4084f5a2831299691"
+  },
+  "checks": {
+    "raw_spec_without_vertex_alpha": true,
+    "q_uses_raw_spec_without_vertex_alpha_or_second_strength": true,
+    "base_uses_diffuse_vertexRGB_vertexAlpha": true,
+    "emission_uses_maskG_diffuse_emissiveRGB_strength_without_vertexColor": true,
+    "emission_added_inside_G2_clamp_and_HALF_before_shared_AO": true,
+    "normal_uses_raw_interpolated_N0_TW_BW_and_final_normalize": true,
+    "DXT5nm_decode_matches_native838": true,
+    "gloss_full_HALF_then_quarter_exponent": true,
+    "UV_scroll_gameTime_times_profileZW": true,
+    "gameTime_uniform_setter_present": true,
+    "family8_native_profile_accepted": true,
+    "native_profile_texture_0_1_2_3_D_N_S_mask_mapping": true,
+    "material298_staged_profile_bytes_match": true,
+    "material298_BACK_no_alpha_phase0": true,
+    "loader_supports_299_rows_and_84_byte_profiles": true,
+    "aux_staged_material_count299": true
+  },
+  "source_edits": false,
+  "new_CPU_validation_run": false,
+  "GPU_run": false,
+  "merged_live_asset_tables_reviewed": false
+}

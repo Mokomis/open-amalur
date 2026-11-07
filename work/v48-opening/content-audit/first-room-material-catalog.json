@@ -1,0 +1,1903 @@
+[
+  {
+    "material": 420035,
+    "name": "for_web_02",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\420035.mat_bxml",
+    "source_sha256": "a4f7d49f739b4453c08dc3206741c9d515340ad5a9c5eaf6ee736193b1223aba",
+    "shader": 430067,
+    "shader_name": "emissivewithalphafog",
+    "alpha_test": 2,
+    "cull": 0,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 419971,
+        "name": "for_web_dark_01_d",
+        "file_offset": 40
+      },
+      {
+        "asset": 420033,
+        "name": "for_web_02_a",
+        "file_offset": 48
+      }
+    ],
+    "raw_hex": "300000000800000028000000000000002800000002000000f38f06000200000000000000000000008368060000000000c1680600010000000000000008000000"
+  },
+  {
+    "material": 422610,
+    "name": "for_web_04",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\422610.mat_bxml",
+    "source_sha256": "553facfc7bdd9ee420ca0d53ee8c7324ec0aa91dbd52aab62314c389c13abd0b",
+    "shader": 430067,
+    "shader_name": "emissivewithalphafog",
+    "alpha_test": 2,
+    "cull": 0,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 419971,
+        "name": "for_web_dark_01_d",
+        "file_offset": 40
+      },
+      {
+        "asset": 422611,
+        "name": "for_web_04_a",
+        "file_offset": 48
+      }
+    ],
+    "raw_hex": "300000000800000028000000000000002800000002000000f38f06000200000000000000000000008368060000000000d3720600010000000000000008000000"
+  },
+  {
+    "material": 422613,
+    "name": "for_web_05",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\422613.mat_bxml",
+    "source_sha256": "aba9f7d3a0a97e65f5a31b31eb767f5976d68c8f3328c66c87fd2e0edb4cd32b",
+    "shader": 430067,
+    "shader_name": "emissivewithalphafog",
+    "alpha_test": 2,
+    "cull": 0,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 419971,
+        "name": "for_web_dark_01_d",
+        "file_offset": 40
+      },
+      {
+        "asset": 422612,
+        "name": "for_web_05_a",
+        "file_offset": 48
+      }
+    ],
+    "raw_hex": "300000000800000028000000000000002800000002000000f38f06000200000000000000000000008368060000000000d4720600010000000000000008000000"
+  },
+  {
+    "material": 422631,
+    "name": "for_waterfall",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\422631.mat_bxml",
+    "source_sha256": "36a791764852ab31924ed775efb6f05e7ca85d5e1c9c2a0d16594408faa2b6b9",
+    "shader": 412268,
+    "shader_name": "scrollingwaterfall",
+    "alpha_test": 2,
+    "cull": 2,
+    "cutoff_byte": 100,
+    "texture_references": [
+      {
+        "asset": 422991,
+        "name": "for_waterfall01_d",
+        "file_offset": 208
+      },
+      {
+        "asset": 422990,
+        "name": "for_waterfall01_a",
+        "file_offset": 216
+      },
+      {
+        "asset": 424116,
+        "name": "for_waterfall02_n",
+        "file_offset": 224
+      },
+      {
+        "asset": 422993,
+        "name": "for_waterfall02_d",
+        "file_offset": 232
+      },
+      {
+        "asset": 422992,
+        "name": "for_waterfall02_a",
+        "file_offset": 240
+      }
+    ],
+    "raw_hex": "f8000000080000002800000007000000d0000000060000006c4a06000200000002000000640000000000000000000000000000000000000002000000ed1772003333333f00000000000000000000000002000000de6f72000000000000000000000000000000000002000000dea17a000000003f00000000000000000000000002000000cff97a000000a04000c0794400000000000000000b000000d880b6000000803f0000803f0000803f0000803f0400000069699f00b5b4343eb5b4343eb5b4343e0000803f030000002ff0da004f740600000000004e74060001000000b47806000300000051740600080000005074060009000000b47806000b0000000000000008000000"
+  },
+  {
+    "material": 442846,
+    "name": "for_corpse",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\442846.mat_bxml",
+    "source_sha256": "b63db435240429846f25a2d8cf48f8f3d9c79e1e2d536e563d158b51da609fc2",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 442841,
+        "name": "for_corpse_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 442843,
+        "name": "for_corpse_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 442842,
+        "name": "for_corpse_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600d9c1060000000000d6d0030001000000dbc1060002000000dac10600030000000000000008000000"
+  },
+  {
+    "material": 459142,
+    "name": "min_woodbase01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\459142.mat_bxml",
+    "source_sha256": "293083dcd62a715298d331799c9802a4512ccd2b69ae966e3f6f237f72c74635",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 488732,
+        "name": "min_woodbase01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 488734,
+        "name": "min_woodbase01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 489079,
+        "name": "min_woodbase01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b6001c75070000000000d6d00300010000001e7507000200000077760700030000000000000008000000"
+  },
+  {
+    "material": 464114,
+    "name": "min_metaltrim01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\464114.mat_bxml",
+    "source_sha256": "347549e34f5d4790a5da9bf2666fe9923efb21b58b75af614ed4550b8ec4ea58",
+    "shader": 358224,
+    "shader_name": "glassmetalprobe",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 464115,
+        "name": "min_metaltrim01_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 464128,
+        "name": "min_metaltrim01_a",
+        "file_offset": 168
+      },
+      {
+        "asset": 464117,
+        "name": "min_metaltrim01_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 464116,
+        "name": "min_metaltrim01_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 505647,
+        "name": "505646_cubemap",
+        "file_offset": 192
+      }
+    ],
+    "raw_hex": "c0000000080000002800000005000000a00000000500000050770500000000000200000000000000ae47e13f0000c84200000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f00cdcccc3e00000000000000000000000002000000ae8c3d01e7e5653fabaa2a3f9190103f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00f3140700000000000015070001000000f514070002000000f4140700030000002fb70700150000000000000008000000"
+  },
+  {
+    "material": 464123,
+    "name": "min_woodplanks",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\464123.mat_bxml",
+    "source_sha256": "086142ccbbbc5a7e63b19c19d7737f8c07a6e3a1b7cbcb4b1a57dc214a0a7b3f",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 464119,
+        "name": "min_woodplanks_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 576181,
+        "name": "min_woodplanks_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 464120,
+        "name": "min_woodplanks_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600f714070000000000d6d0030001000000b5ca080002000000f8140700030000000000000008000000"
+  },
+  {
+    "material": 465903,
+    "name": "min_metalwheel",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\465903.mat_bxml",
+    "source_sha256": "efeb16e7f1ffb80a91ff3c39306930552ad696c4c351854f25ef5355cd0a17c1",
+    "shader": 8832,
+    "shader_name": "glassmetal",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 465896,
+        "name": "min_metalwheel_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 467466,
+        "name": "min_metalwheel_a",
+        "file_offset": 168
+      },
+      {
+        "asset": 467474,
+        "name": "min_metalwheel_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 465895,
+        "name": "min_metalwheel_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 4049,
+        "name": "spacesky2",
+        "file_offset": 192
+      }
+    ],
+    "raw_hex": "c0000000080000002800000005000000a000000005000000802200000000000002000000000000000000803f0000a04100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f00cdcccc3d00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00e81b0700000000000a220700010000001222070002000000e71b070003000000d10f00000c0000000000000008000000"
+  },
+  {
+    "material": 465904,
+    "name": "min_woodwheel",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\465904.mat_bxml",
+    "source_sha256": "fed4414b7d11c482ac20e92966d53de87edbcb0c5a28907a1e60b10d2c6ea154",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 465901,
+        "name": "min_woodwheel_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 467455,
+        "name": "min_woodwheel_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 465902,
+        "name": "min_woodwheel_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600ed1b070000000000d6d0030001000000ff21070002000000ee1b0700030000000000000008000000"
+  },
+  {
+    "material": 465905,
+    "name": "min_woodpanels",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\465905.mat_bxml",
+    "source_sha256": "f764856017ea15bae5f6ea7e6d019ba5e98a03a1cf4139eab5d4f5ee7cfbcf9f",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 465899,
+        "name": "min_woodpanels_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 467480,
+        "name": "min_woodpanels_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 465900,
+        "name": "min_woodpanels_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600eb1b070000000000d6d00300010000001822070002000000ec1b0700030000000000000008000000"
+  },
+  {
+    "material": 465906,
+    "name": "min_woodchipped",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\465906.mat_bxml",
+    "source_sha256": "a0a202082e5a7911b3e8f8afc19596ff98a40ef15beef31fc019c49160d0fdb3",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 465897,
+        "name": "min_woodchipped_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 467476,
+        "name": "min_woodchipped_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 465898,
+        "name": "min_woodchipped_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600e91b070000000000d6d00300010000001422070002000000ea1b0700030000000000000008000000"
+  },
+  {
+    "material": 469438,
+    "name": "nca_wall01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\469438.mat_bxml",
+    "source_sha256": "13f8243af8a0e8ea43506bd89a4d5e3fabca2f8b9ddcd16b70c96b5553d8cb9a",
+    "shader": 358224,
+    "shader_name": "glassmetalprobe",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 469469,
+        "name": "nca_wall01_d",
+        "file_offset": 136
+      },
+      {
+        "asset": 498117,
+        "name": "nca_wall01_m",
+        "file_offset": 144
+      },
+      {
+        "asset": 469471,
+        "name": "nca_wall01_s",
+        "file_offset": 152
+      },
+      {
+        "asset": 469470,
+        "name": "nca_wall01_n",
+        "file_offset": 160
+      },
+      {
+        "asset": 1259503,
+        "name": "1259502_cubemap",
+        "file_offset": 168
+      }
+    ],
+    "raw_hex": "a80000000800000028000000040000008800000005000000507705000000000002000000000000000000204000008c4200000000000000000b000000d880b600cdcc4c3e00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00dd29070000000000c599070001000000df29070002000000de29070003000000ef371300150000000000000008000000"
+  },
+  {
+    "material": 473302,
+    "name": "nca_floor01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\473302.mat_bxml",
+    "source_sha256": "692dc17355a2bc827b513f6ca6265b48e5f43627bd5d6dae96155e596e390275",
+    "shader": 12446,
+    "shader_name": "vertexblend",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 491496,
+        "name": "nca_floor02_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 168
+      },
+      {
+        "asset": 491498,
+        "name": "nca_floor02_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 491497,
+        "name": "nca_floor02_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 476360,
+        "name": "nca_floor01_d",
+        "file_offset": 192
+      },
+      {
+        "asset": 476362,
+        "name": "nca_floor01_s",
+        "file_offset": 208
+      },
+      {
+        "asset": 476361,
+        "name": "nca_floor01_n",
+        "file_offset": 216
+      }
+    ],
+    "raw_hex": "d8000000080000002800000005000000a0000000080000009e3000000000000002000000000000000000804000008c4200000000000000000b000000d880b60000002040000000000000000000000000020000000c7c0d0000002040000000000000000000000000020000005f800d000000004000000000000000000000000002000000842011000000004000000000000000000000000002000000d7241100e87f070000000000d6d0030001000000ea7f070002000000e97f070003000000c844070008000000d6d0030009000000ca4407000a000000c94407000b0000000000000008000000"
+  },
+  {
+    "material": 474330,
+    "name": "for_temp",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\474330.mat_bxml",
+    "source_sha256": "d529925055768676a2d2c1871b482c71d10563c6c25453251259256bbb818f0a",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 474331,
+        "name": "for_temp",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 4002,
+        "name": "blanknormal",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600db3c070000000000d6d00300010000000000000002000000a20f0000030000000000000008000000"
+  },
+  {
+    "material": 476693,
+    "name": "nca_stalagmite01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\476693.mat_bxml",
+    "source_sha256": "ef2eaaefdc9dc87957f69d7197712293be7f2088b796840047a96a10cc5d3eaf",
+    "shader": 358224,
+    "shader_name": "glassmetalprobe",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 488729,
+        "name": "nca_stalagmite01_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 498117,
+        "name": "nca_wall01_m",
+        "file_offset": 168
+      },
+      {
+        "asset": 488731,
+        "name": "nca_stalagmite01_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 488730,
+        "name": "nca_stalagmite01_n",
+        "file_offset": 184
+      }
+    ],
+    "raw_hex": "c0000000080000002800000005000000a000000005000000507705000000000002000000000000000000803f0000c84200000000000000000b000000d880b6000000803ffdfb7b3fdcda5a3f0000803f0300000069699f00cdcccc3d00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b001975070000000000c5990700010000001b750700020000001a7507000300000000000000150000000000000008000000"
+  },
+  {
+    "material": 491718,
+    "name": "min_woodcap",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\491718.mat_bxml",
+    "source_sha256": "62197ed546ab17c583c9fabbc29406749d094c6eb3eb4840cd3d36fdc6dc2f39",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 491715,
+        "name": "min_woodcap_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 491717,
+        "name": "min_woodcap_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 2855,
+        "name": "special_null_normal",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600c380070000000000d6d0030001000000c580070002000000270b0000030000000000000008000000"
+  },
+  {
+    "material": 509884,
+    "name": "nca_grass01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\509884.mat_bxml",
+    "source_sha256": "a0226026a11d7c6f199b1f27dd2ee4b73d1d760565b2135094cb505e9b850a8e",
+    "shader": 257617,
+    "shader_name": "textureemissivealphamask",
+    "alpha_test": 1,
+    "cull": 2,
+    "cutoff_byte": 150,
+    "texture_references": [
+      {
+        "asset": 577587,
+        "name": "nca_grass01_d",
+        "file_offset": 112
+      },
+      {
+        "asset": 577590,
+        "name": "nca_grass01_a",
+        "file_offset": 120
+      },
+      {
+        "asset": 365597,
+        "name": "blank_black",
+        "file_offset": 128
+      },
+      {
+        "asset": 365596,
+        "name": "normal_blank",
+        "file_offset": 136
+      },
+      {
+        "asset": 577647,
+        "name": "nca_grass01_e",
+        "file_offset": 144
+      }
+    ],
+    "raw_hex": "90000000080000002800000003000000700000000500000051ee03000100000002000000960000000000803f0000803f0000803f0000803f03000000c7349300000000000000803f00000000000000000b000000d880b600c3f5a83e00000000000000000000000002000000b670990033d008000000000036d00800010000001d940500020000001c940500030000006fd00800060000000000000008000000"
+  },
+  {
+    "material": 570823,
+    "name": "gno_brick",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\570823.mat_bxml",
+    "source_sha256": "6c388bd420be2eae173197d2948f7704d284ee765023e815c7e4550aca270c2a",
+    "shader": 12569,
+    "shader_name": "textureblend",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 570816,
+        "name": "gno_brick_d",
+        "file_offset": 112
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 120
+      },
+      {
+        "asset": 570818,
+        "name": "gno_brick_s",
+        "file_offset": 128
+      },
+      {
+        "asset": 570817,
+        "name": "gno_brick_n",
+        "file_offset": 136
+      },
+      {
+        "asset": 585557,
+        "name": "gno_alpha_mask",
+        "file_offset": 144
+      },
+      {
+        "asset": 585558,
+        "name": "gno_brick_dirt_d",
+        "file_offset": 152
+      }
+    ],
+    "raw_hex": "b00000000800000028000000030000007000000009000000193100000000000002000000000000007899993e0000484400000000000000000b000000d880b6000000803f000000000000000000000000020000008e7f0e000000803f000000000000000000000000020000006f9d0e00c0b5080000000000d6d0030001000000c2b5080002000000c1b508000300000055ef08000600000056ef080008000000d6d0030009000000c2b508000a000000c1b508000b0000000000000008000000"
+  },
+  {
+    "material": 570948,
+    "name": "gno_base_stone",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\570948.mat_bxml",
+    "source_sha256": "0e698c9a8cc7ca4f5a56fb582ee752331581c8f394c80a03d0a187103aa52022",
+    "shader": 12569,
+    "shader_name": "textureblend",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 570945,
+        "name": "gno_base_stone_d",
+        "file_offset": 112
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 120
+      },
+      {
+        "asset": 570947,
+        "name": "gno_base_stone_s",
+        "file_offset": 128
+      },
+      {
+        "asset": 570946,
+        "name": "gno_base_stone_n",
+        "file_offset": 136
+      },
+      {
+        "asset": 585557,
+        "name": "gno_alpha_mask",
+        "file_offset": 144
+      },
+      {
+        "asset": 585550,
+        "name": "gno_base_stone_dirt_d",
+        "file_offset": 152
+      }
+    ],
+    "raw_hex": "b00000000800000028000000030000007000000009000000193100000000000002000000000000005666663f86ebdf4100000000000000000b000000d880b6000000803f000000000000000000000000020000008e7f0e000000803f000000000000000000000000020000006f9d0e0041b6080000000000d6d003000100000043b608000200000042b608000300000055ef0800060000004eef080008000000d6d003000900000043b608000a00000042b608000b0000000000000008000000"
+  },
+  {
+    "material": 572475,
+    "name": "gno_trim01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\572475.mat_bxml",
+    "source_sha256": "7bd947442d9aa4b5b94547f3d6e2f490ff9024c63fb49aa331bef92eef9e443e",
+    "shader": 8828,
+    "shader_name": "dot3offset",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 572472,
+        "name": "gno_trim01_d",
+        "file_offset": 136
+      },
+      {
+        "asset": 572520,
+        "name": "gno_trim01_h",
+        "file_offset": 144
+      },
+      {
+        "asset": 572474,
+        "name": "gno_trim01_s",
+        "file_offset": 152
+      },
+      {
+        "asset": 572473,
+        "name": "gno_trim01_n",
+        "file_offset": 160
+      }
+    ],
+    "raw_hex": "a000000008000000280000000400000088000000040000007c2200000000000002000000000000000000803f0000a04100000000000000000b000000d880b6005839343c00000000000000000000000002000000b7fa5b00f8f6763fdbd9593fa4a3233f0000803f0b0000009acd9c000000003f000000000000000000000000020000004d7a7b0038bc08000000000068bc0800010000003abc08000200000039bc0800030000000000000008000000"
+  },
+  {
+    "material": 576446,
+    "name": "sho_floor_blend",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\576446.mat_bxml",
+    "source_sha256": "9c5c21970e4fcc172d525e7e2dc60e253a36478e15efdcebf757e89929257044",
+    "shader": 445389,
+    "shader_name": "vertexblendmodifiedmask",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 576448,
+        "name": "sho_floor_base_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 1363967,
+        "name": "sho_floor_base_m",
+        "file_offset": 168
+      },
+      {
+        "asset": 588392,
+        "name": "sho_floor_base_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 588187,
+        "name": "sho_floor_base_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 1363964,
+        "name": "sho_grassfloor_d",
+        "file_offset": 192
+      },
+      {
+        "asset": 1363966,
+        "name": "sho_grassfloor_s",
+        "file_offset": 200
+      },
+      {
+        "asset": 1363965,
+        "name": "sho_grassfloor_n",
+        "file_offset": 208
+      }
+    ],
+    "raw_hex": "d0000000080000002800000005000000a000000007000000cdcb0600000000000200000000000000000000400000a04200000000000000000b000000d880b6000000803f000000000000000000000000020000000c7c0d000000803f000000000000000000000000020000005f800d003333b33f00000000000000000000000002000000842011003333b33f00000000000000000000000002000000d7241100c0cb080000000000ffcf14000100000068fa0800020000009bf9080003000000fccf140008000000fecf14000a000000fdcf14000b0000000000000008000000"
+  },
+  {
+    "material": 576476,
+    "name": "sho_stone_trim",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\576476.mat_bxml",
+    "source_sha256": "4d0d62214603137a012971d46f339d3c8a2d7632039c8033bb206a732423571a",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 576451,
+        "name": "sho_stone_trim_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 584685,
+        "name": "sho_stone_trim_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 588004,
+        "name": "sho_stone_trim_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000484300000000000000000b000000d880b600c3cb080000000000d6d0030001000000edeb080002000000e4f80800030000000000000008000000"
+  },
+  {
+    "material": 576594,
+    "name": "gno_column",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\576594.mat_bxml",
+    "source_sha256": "a031cc6b0911dacfb74bcff9476209ad94b64b04825d0a8852b838535c18067b",
+    "shader": 12569,
+    "shader_name": "textureblend",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 576595,
+        "name": "gno_column_d",
+        "file_offset": 112
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 120
+      },
+      {
+        "asset": 576597,
+        "name": "gno_column_s",
+        "file_offset": 128
+      },
+      {
+        "asset": 576596,
+        "name": "gno_column_n",
+        "file_offset": 136
+      },
+      {
+        "asset": 585557,
+        "name": "gno_alpha_mask",
+        "file_offset": 144
+      },
+      {
+        "asset": 585551,
+        "name": "gno_column_dirt_d",
+        "file_offset": 152
+      }
+    ],
+    "raw_hex": "b0000000080000002800000003000000700000000900000019310000000000000200000000000000fa7e6a3e29dc974200000000000000000b000000d880b6000000803f000000000000000000000000020000008e7f0e000000803f000000000000000000000000020000006f9d0e0053cc080000000000d6d003000100000055cc08000200000054cc08000300000055ef0800060000004fef080008000000d6d003000900000055cc08000a00000054cc08000b0000000000000008000000"
+  },
+  {
+    "material": 580119,
+    "name": "sho_stone_base",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\580119.mat_bxml",
+    "source_sha256": "03972984a0b0a614402210ec55f68a063a8257a0e4ea3b021ddf14582a4fb97c",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 580121,
+        "name": "sho_stone_base_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 597088,
+        "name": "sho_stone_base_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 580696,
+        "name": "sho_stone_base_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000484200000000000000000b000000d880b60019da080000000000d6d0030001000000601c09000200000058dc0800030000000000000008000000"
+  },
+  {
+    "material": 582574,
+    "name": "sho_stonecarvings",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\582574.mat_bxml",
+    "source_sha256": "b13c5fb6bb94cb43c17c1d3a0b78e82351125748c98c4e850fe312464c1b2da1",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 582575,
+        "name": "sho_stonecarvings_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 607117,
+        "name": "sho_stonecarvings_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 596329,
+        "name": "sho_stonecarvings_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600afe3080000000000d6d00300010000008d4309000200000069190900030000000000000008000000"
+  },
+  {
+    "material": 582576,
+    "name": "sho_metalgrates",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\582576.mat_bxml",
+    "source_sha256": "11efaed9f7d0beed4f3c33ea17d9c3768c672adf3e893df060cec771962e2226",
+    "shader": 8832,
+    "shader_name": "glassmetal",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 582577,
+        "name": "sho_metalgrates_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 589300,
+        "name": "sho_metalgrates_s",
+        "file_offset": 168
+      },
+      {
+        "asset": 589299,
+        "name": "sho_metalgrates_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 1662370,
+        "name": "sho_metalgrates_cubemap",
+        "file_offset": 192
+      }
+    ],
+    "raw_hex": "c0000000080000002800000005000000a000000005000000802200000000000002000000000000009a99993f0ad7b14200000000000000000b000000d880b600efed6d3fe3e1613fd1cf4f3f0000803f0300000069699f003333b33e00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00b1e3080000000000f4fd080001000000f4fd080002000000f3fd080003000000a25d19000c0000000000000008000000"
+  },
+  {
+    "material": 585674,
+    "name": "int_gno_floor01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\585674.mat_bxml",
+    "source_sha256": "bf67e8079e8fc0d1e324182c3d1bc4f00e920c8e03e1e1d8d1ad9341cd0b003e",
+    "shader": 8832,
+    "shader_name": "glassmetal",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 585671,
+        "name": "int_gno_floor01_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 585670,
+        "name": "int_gno_floor01_a",
+        "file_offset": 168
+      },
+      {
+        "asset": 585673,
+        "name": "int_gno_floor01_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 585672,
+        "name": "int_gno_floor01_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 1366829,
+        "name": "int_gno_lab_floor01_e",
+        "file_offset": 192
+      }
+    ],
+    "raw_hex": "c0000000080000002800000005000000a000000005000000802200000000000002000000000000001a33b33f08d7874100000000000000000b000000d880b600edeb6b3fa6a5253fc6c4c43e0000803f0300000069699f002f4fa53f00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00c7ef080000000000c6ef080001000000c9ef080002000000c8ef0800030000002ddb14000c0000000000000008000000"
+  },
+  {
+    "material": 588163,
+    "name": "int_gno_glass02",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\588163.mat_bxml",
+    "source_sha256": "6b35b5674d92272767a978318e6e59234d615785352061c2c09b20eff996bbcf",
+    "shader": 518262,
+    "shader_name": "glassmetalwithemissive",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 583656,
+        "name": "gno_glass01_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 610970,
+        "name": "gno_glass01_alpha_a",
+        "file_offset": 168
+      },
+      {
+        "asset": 583658,
+        "name": "gno_glass01_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 583657,
+        "name": "gno_glass01_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 585315,
+        "name": "gno_glass01_b",
+        "file_offset": 192
+      },
+      {
+        "asset": 588139,
+        "name": "int_gno_glass_cubemap",
+        "file_offset": 200
+      }
+    ],
+    "raw_hex": "c8000000080000002800000005000000a00000000600000076e807000000000002000000000000000000803f17ae1d4200000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f003d0ead3f00000000000000000000000002000000ae8c3d01dedc5c3fd2d0d03ea9a8283f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00e8e70800000000009a52090001000000eae7080002000000e9e708000300000063ee0800060000006bf908000c0000000000000008000000"
+  },
+  {
+    "material": 590940,
+    "name": "sho_stainglassnew",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\590940.mat_bxml",
+    "source_sha256": "e1b62d25c94d2af5ab7388cfa33fb20cb55710d15acc2cab8647a00e616ca633",
+    "shader": 518262,
+    "shader_name": "glassmetalwithemissive",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 590916,
+        "name": "sho_stainglassnew_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 590918,
+        "name": "sho_stainglassnew_s",
+        "file_offset": 168
+      },
+      {
+        "asset": 590917,
+        "name": "sho_stainglassnew_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 597996,
+        "name": "int_cty_adessa_domuspolitica_environmentcubemap",
+        "file_offset": 200
+      }
+    ],
+    "raw_hex": "c8000000080000002800000005000000a00000000600000076e80700000000000200000000000000000020410000204100000000000000000b000000d880b6000000803ff0ee6e3f000000000000803f0300000069699f000000803f00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b0044040900000000004604090001000000460409000200000045040900030000004404090006000000ec1f09000c0000000000000008000000"
+  },
+  {
+    "material": 594126,
+    "name": "sho_stone_decal",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\594126.mat_bxml",
+    "source_sha256": "b3d23201f70af5a01c4fd505bfe564ce912e3798a438c8ed8631f0917c4a1cbd",
+    "shader": 419915,
+    "shader_name": "dot3alpha",
+    "alpha_test": 1,
+    "cull": 2,
+    "cutoff_byte": 110,
+    "texture_references": [
+      {
+        "asset": 594128,
+        "name": "sho_stone_decal_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 594127,
+        "name": "sho_stone_decal_a",
+        "file_offset": 96
+      },
+      {
+        "asset": 600275,
+        "name": "sho_stone_decal_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 600274,
+        "name": "sho_stone_decal_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000004b68060001000000020000006e0000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000484200000000000000000b000000d880b600d010090000000000cf10090001000000d328090002000000d2280900030000000000000008000000"
+  },
+  {
+    "material": 602343,
+    "name": "gno_doors",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\602343.mat_bxml",
+    "source_sha256": "570f5af57fffd83d7044351a210923cbf48c41d62c92668e2a8afb2948556b3c",
+    "shader": 8832,
+    "shader_name": "glassmetal",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1614453,
+        "name": "gno_doors_b_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 602341,
+        "name": "gno_doors_s",
+        "file_offset": 168
+      },
+      {
+        "asset": 602340,
+        "name": "gno_doors_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 585755,
+        "name": "int_gno_floor01_e",
+        "file_offset": 192
+      }
+    ],
+    "raw_hex": "c0000000080000002800000005000000a000000005000000802200000000000002000000000000005e6666409770004200000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f00e4db573f00000000000000000000000002000000ae8c3d01eae8683fdfdd5d3ff3f1713f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b0075a2180000000000e530090001000000e530090002000000e4300900030000001bf008000c0000000000000008000000"
+  },
+  {
+    "material": 603279,
+    "name": "gno_column_dot3",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\603279.mat_bxml",
+    "source_sha256": "2840dbad1358ebe1cec81a5a8ebd1835d595b1aa6b6a6bece2b7557e579203b1",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 576595,
+        "name": "gno_column_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 576597,
+        "name": "gno_column_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 576596,
+        "name": "gno_column_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b60053cc080000000000d6d003000100000055cc08000200000054cc0800030000000000000008000000"
+  },
+  {
+    "material": 603297,
+    "name": "gno_brick_dot3",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\603297.mat_bxml",
+    "source_sha256": "9bdd782388649b3d0e0db686e82dce7bb1b3fd909b750553141490196f6265e4",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 570816,
+        "name": "gno_brick_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 570818,
+        "name": "gno_brick_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 570817,
+        "name": "gno_brick_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b600c0b5080000000000d6d0030001000000c2b5080002000000c1b50800030000000000000008000000"
+  },
+  {
+    "material": 606352,
+    "name": "sho_stucco",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\606352.mat_bxml",
+    "source_sha256": "e6b90b9ae129919e8a6220beaceb136cc348c3731f8a202e98252c7362bd1add",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 600277,
+        "name": "sho_stucco_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 600287,
+        "name": "sho_stucco_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 600286,
+        "name": "sho_stucco_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c00000000400000484200000000000000000b000000d880b600d528090000000000d50b000001000000df28090002000000de280900030000000000000008000000"
+  },
+  {
+    "material": 606701,
+    "name": "gno_trim_shiny",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\606701.mat_bxml",
+    "source_sha256": "7cc67eeccb51edaf2e57484df08060e5b381bbbc9edbb5c1dd905e7c5e77a1ea",
+    "shader": 346951,
+    "shader_name": "fresnelglassmetal",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 572472,
+        "name": "gno_trim01_d",
+        "file_offset": 208
+      },
+      {
+        "asset": 606731,
+        "name": "gno_trim01_a",
+        "file_offset": 216
+      },
+      {
+        "asset": 572474,
+        "name": "gno_trim01_s",
+        "file_offset": 224
+      },
+      {
+        "asset": 572473,
+        "name": "gno_trim01_n",
+        "file_offset": 232
+      },
+      {
+        "asset": 585755,
+        "name": "int_gno_floor01_e",
+        "file_offset": 240
+      }
+    ],
+    "raw_hex": "f0000000080000002800000007000000d000000005000000474b05000000000002000000000000000000803f0000a04100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f000000803f00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43009a99993f000000000000000000000000020000008cff73000000803f00000000000000000000000002000000099981000000803f0000000000000000000000000b000000cbd82b0038bc0800000000000b420900010000003abc08000200000039bc0800030000001bf008000c0000000000000008000000"
+  },
+  {
+    "material": 609731,
+    "name": "int_gno_marble_flat",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\609731.mat_bxml",
+    "source_sha256": "f5bcdc9a954fa0138511a631b6ace5a6d83a17d8e83030a1087410d310dde89f",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 606546,
+        "name": "int_gno_marble_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 606547,
+        "name": "int_gno_marble_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 606591,
+        "name": "int_gno_marble_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c00b4cccc3f8fc2c14200000000000000000b000000d880b6005241090000000000d6d003000100000053410900020000007f410900030000000000000008000000"
+  },
+  {
+    "material": 618438,
+    "name": "nca_pond",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\618438.mat_bxml",
+    "source_sha256": "6f2d6b63226ab82af7da28f287efb17ad5deb399c5f89fb0a6256260b99f496b",
+    "shader": 72694,
+    "shader_name": "river",
+    "alpha_test": 2,
+    "cull": 2,
+    "cutoff_byte": 1024,
+    "texture_references": [
+      {
+        "asset": 72699,
+        "name": "odv-river_base_d",
+        "file_offset": 400
+      },
+      {
+        "asset": 72700,
+        "name": "odv-river_base_n",
+        "file_offset": 408
+      },
+      {
+        "asset": 72702,
+        "name": "odv-river_froth_d",
+        "file_offset": 424
+      },
+      {
+        "asset": 72701,
+        "name": "odv-river_detail_n",
+        "file_offset": 432
+      },
+      {
+        "asset": 452736,
+        "name": "odv-river_base_b",
+        "file_offset": 440
+      },
+      {
+        "asset": 1962690,
+        "name": "1962689_cubemap",
+        "file_offset": 448
+      }
+    ],
+    "raw_hex": "c001000008000000280000000f0000009001000007000000f61b010002000000020000000004000000000040000000000000000000000000020000003fe0440100002041000000000000000000000000020000004f4c5c000000404000000000000000000000000002000000a8c262006f1283ba00000000000000000000000002000000e8c5bc016f1283ba000000000000000000000000020000003bcabc010ad7a33b0000000000000000000000000200000072218b010ad723bc000000000000000000000000020000006a6508010ad723bc00000000000000000000000002000000bd690801c3f5a83e00000000000000000000000002000000ba3e000175c80d3d0000000000000000000000000200000057f0d700acc5a737000000000000000000000000020000009b742a00e2e0e03eeae8e83e8281013f0000803f040000008c56af003333333f0000000000000000000000000b000000b249900000001644000000000000000000000000020000002b564e00c7d9ec3e00000000000000000000000002000000d1a4c000fb1b010000000000fc1b010001000000fc1b010003000000fe1b010008000000fd1b01000b00000080e8060010000000c2f21d00150000000000000008000000"
+  },
+  {
+    "material": 682599,
+    "name": "vil_int_candlestand_short_01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\682599.mat_bxml",
+    "source_sha256": "4b50633321cfd071dd41ec444d84b04114c84bca5ddd16c7f239eb1f6e6409bc",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 682595,
+        "name": "vil_int_candlestand_short_01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 682597,
+        "name": "vil_int_candlestand_short_01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 682596,
+        "name": "vil_int_candlestand_short_01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c00000000400000a04100000000000000000b000000d880b600636a0a0000000000d6d0030001000000656a0a0002000000646a0a00030000000000000008000000"
+  },
+  {
+    "material": 703509,
+    "name": "klu_fire_pole_01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\703509.mat_bxml",
+    "source_sha256": "c45bd679975324b898a9a62fd67245615e18f871e2f79cff6cd860458a62c126",
+    "shader": 419915,
+    "shader_name": "dot3alpha",
+    "alpha_test": 1,
+    "cull": 0,
+    "cutoff_byte": 100,
+    "texture_references": [
+      {
+        "asset": 703531,
+        "name": "klu_fire_pole_01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 704474,
+        "name": "klu_fire_pole_01_a",
+        "file_offset": 96
+      },
+      {
+        "asset": 703562,
+        "name": "klu_fire_pole_01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 703547,
+        "name": "klu_fire_pole_01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000004b6806000100000000000000640000000000803f0000a04100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0b0000009acd9c002bbc0a0000000000dabf0a00010000004abc0a00020000003bbc0a00030000000000000008000000"
+  },
+  {
+    "material": 1302073,
+    "name": "wos_corpsepile01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1302073.mat_bxml",
+    "source_sha256": "74aeaf2dc444371fe61d74c8932dd63756c5ad73e19bc9a33c7e30293fdf762b",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1302068,
+        "name": "wos_corpsepile01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 1302071,
+        "name": "wos_corpsepile01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1302069,
+        "name": "wos_corpsepile01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803fe3e1613fafae2e3f0000803f0b0000009acd9c00000080400000204200000000000000000b000000d880b60034de130000000000d6d003000100000037de13000200000035de1300030000000000000008000000"
+  },
+  {
+    "material": 1307077,
+    "name": "gen_fishing_01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1307077.mat_bxml",
+    "source_sha256": "4a48079639ebc005a9e78bef405a11678754e3fd3cb7830df2ed44e80e5c87d7",
+    "shader": 419915,
+    "shader_name": "dot3alpha",
+    "alpha_test": 1,
+    "cull": 2,
+    "cutoff_byte": 128,
+    "texture_references": [
+      {
+        "asset": 1307058,
+        "name": "gen_fishing_01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 1307057,
+        "name": "gen_fishing_01_a",
+        "file_offset": 96
+      },
+      {
+        "asset": 1307060,
+        "name": "gen_fishing_01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1307059,
+        "name": "gen_fishing_01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000004b6806000100000002000000800000000000803f0000a04100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0b0000009acd9c00b2f1130000000000b1f1130001000000b4f1130002000000b3f11300030000000000000008000000"
+  },
+  {
+    "material": 1366815,
+    "name": "int_gno_lab_floor01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1366815.mat_bxml",
+    "source_sha256": "6f47b549e26cc2421eb58e84037df7602ef022fc58266056fe2f3b989e5a6574",
+    "shader": 8832,
+    "shader_name": "glassmetal",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 585671,
+        "name": "int_gno_floor01_d",
+        "file_offset": 160
+      },
+      {
+        "asset": 585670,
+        "name": "int_gno_floor01_a",
+        "file_offset": 168
+      },
+      {
+        "asset": 585673,
+        "name": "int_gno_floor01_s",
+        "file_offset": 176
+      },
+      {
+        "asset": 585672,
+        "name": "int_gno_floor01_n",
+        "file_offset": 184
+      },
+      {
+        "asset": 1366829,
+        "name": "int_gno_lab_floor01_e",
+        "file_offset": 192
+      }
+    ],
+    "raw_hex": "c0000000080000002800000005000000a000000005000000802200000000000002000000000000001a33b33f08d7874100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f00274fa53f00000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f43000000803f0000000000000000000000000b000000cbd82b00c7ef080000000000c6ef080001000000c9ef080002000000c8ef0800030000002ddb14000c0000000000000008000000"
+  },
+  {
+    "material": 1369025,
+    "name": "int_lab_bookstack_01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1369025.mat_bxml",
+    "source_sha256": "4c5826a5b453ed75c5b867c629e2ad4684ac188b28068299e00b4dc7f73c96ad",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1368627,
+        "name": "int_lab_bookstack_01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 1368629,
+        "name": "int_lab_bookstack_01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1368628,
+        "name": "int_lab_bookstack_01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b60033e2140000000000d6d003000100000035e214000200000034e21400030000000000000008000000"
+  },
+  {
+    "material": 1369028,
+    "name": "int_lab_gnomeheadsconce_01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1369028.mat_bxml",
+    "source_sha256": "3d5b6a11dcd6ef5998607f337d86e7ee8625038db9fde599d55e934237a3b4da",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1368630,
+        "name": "int_lab_gnomeheadsconce_01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 1368633,
+        "name": "int_lab_gnomeheadsconce_01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1368631,
+        "name": "int_lab_gnomeheadsconce_01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b60036e2140000000000d6d003000100000039e214000200000037e21400030000000000000008000000"
+  },
+  {
+    "material": 1371425,
+    "name": "int_lab_bookstack_01_a",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1371425.mat_bxml",
+    "source_sha256": "e6a46f6d612bba94434386c9396c109dd205bb2ef696f748f47f00ba99e32dbe",
+    "shader": 346951,
+    "shader_name": "fresnelglassmetal",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1368627,
+        "name": "int_lab_bookstack_01_d",
+        "file_offset": 208
+      },
+      {
+        "asset": 1368629,
+        "name": "int_lab_bookstack_01_s",
+        "file_offset": 216
+      },
+      {
+        "asset": 1368628,
+        "name": "int_lab_bookstack_01_n",
+        "file_offset": 232
+      },
+      {
+        "asset": 585755,
+        "name": "int_gno_floor01_e",
+        "file_offset": 240
+      }
+    ],
+    "raw_hex": "f0000000080000002800000007000000d000000005000000474b05000000000002000000000000000000803f0000a04100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0300000069699f000000004000000000000000000000000002000000ae8c3d010000803f0000803f0000803f0000803f04000000c70f4300f2ef0b41000000000000000000000000020000008cff7300cff7a33f00000000000000000000000002000000099981000000803f0000000000000000000000000b000000cbd82b0033e214000000000035e214000100000035e214000200000034e21400030000001bf008000c0000000000000008000000"
+  },
+  {
+    "material": 1436142,
+    "name": "svg_skeleton_01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1436142.mat_bxml",
+    "source_sha256": "437149fd96dc43db7cba67093c0cc55b8b5ddd24bf3087c88a915a6ab14c926b",
+    "shader": 419915,
+    "shader_name": "dot3alpha",
+    "alpha_test": 1,
+    "cull": 2,
+    "cutoff_byte": 128,
+    "texture_references": [
+      {
+        "asset": 1436134,
+        "name": "svg_skeleton_01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 1436132,
+        "name": "svg_skeleton_01_a",
+        "file_offset": 96
+      },
+      {
+        "asset": 1436136,
+        "name": "svg_skeleton_01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1436135,
+        "name": "svg_skeleton_01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000004b6806000100000002000000800000000000803f0000a04100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0b0000009acd9c00e6e9150000000000e4e9150001000000e8e9150002000000e7e91500030000000000000008000000"
+  },
+  {
+    "material": 1436144,
+    "name": "svg_skeleton_02",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1436144.mat_bxml",
+    "source_sha256": "0046ad5cd3ea1ca0dc445a1c192df942d113e9fc0ba3c932e5442f6b9221d9f9",
+    "shader": 419915,
+    "shader_name": "dot3alpha",
+    "alpha_test": 1,
+    "cull": 2,
+    "cutoff_byte": 128,
+    "texture_references": [
+      {
+        "asset": 1436139,
+        "name": "svg_skeleton_02_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 1436138,
+        "name": "svg_skeleton_02_a",
+        "file_offset": 96
+      },
+      {
+        "asset": 1436141,
+        "name": "svg_skeleton_02_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1436140,
+        "name": "svg_skeleton_02_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000004b6806000100000002000000800000000000803f0000a04100000000000000000b000000d880b6000000803f0000803f0000803f0000803f0b0000009acd9c00ebe9150000000000eae9150001000000ede9150002000000ece91500030000000000000008000000"
+  },
+  {
+    "material": 1436197,
+    "name": "godray_largefab_01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1436197.mat_bxml",
+    "source_sha256": "d5090767d35c561a3256cd3f7ff3ab1a8e6a63c450af53d0abfe647ba5fe575a",
+    "shader": 210906,
+    "shader_name": "particlefogadditive",
+    "alpha_test": 3,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 40
+      },
+      {
+        "asset": 1436261,
+        "name": "godray_largefab_01_a",
+        "file_offset": 48
+      }
+    ],
+    "raw_hex": "300000000800000028000000000000002800000002000000da370300030000000200000000000000d6d003000000000065ea1500010000000000000008000000"
+  },
+  {
+    "material": 1437362,
+    "name": "eru_grass01",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1437362.mat_bxml",
+    "source_sha256": "45d28c324d02c66856f1e21c639ec888849b96fd3ce355fdcad50611eb415406",
+    "shader": 257617,
+    "shader_name": "textureemissivealphamask",
+    "alpha_test": 1,
+    "cull": 2,
+    "cutoff_byte": 80,
+    "texture_references": [
+      {
+        "asset": 1438045,
+        "name": "eru_grass01_d",
+        "file_offset": 112
+      },
+      {
+        "asset": 1437354,
+        "name": "eru_grass01_a",
+        "file_offset": 120
+      },
+      {
+        "asset": 4002,
+        "name": "blanknormal",
+        "file_offset": 136
+      },
+      {
+        "asset": 1438046,
+        "name": "eru_grass01_e",
+        "file_offset": 144
+      }
+    ],
+    "raw_hex": "90000000080000002800000003000000700000000500000051ee03000100000002000000500000000000803f0000803f0000803f0000803f03000000c7349300000000000000a04100000000000000000b000000d880b6000000803f00000000000000000000000002000000b67099005df1150000000000aaee1500010000000000000002000000a20f0000030000005ef11500060000000000000008000000"
+  },
+  {
+    "material": 1443430,
+    "name": "gen_black",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1443430.mat_bxml",
+    "source_sha256": "d8abd00ab489f2b39c808b5eb1ecb2fe068c54d5235e65875eb3cc41c468d96b",
+    "shader": 8795,
+    "shader_name": "flat",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 365597,
+        "name": "blank_black",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 365596,
+        "name": "normal_blank",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000005b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c00000000000000803f00000000000000000b000000d880b6001d94050000000000d6d00300010000001d940500020000001c940500030000000000000008000000"
+  },
+  {
+    "material": 1458218,
+    "name": "era_statue_02",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1458218.mat_bxml",
+    "source_sha256": "1252150c1f163d9d124572f924be207e180dabd322ce6352683fe51723ab30f2",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1458214,
+        "name": "era_statue_02_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 1458216,
+        "name": "era_statue_02_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1458215,
+        "name": "era_statue_02_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b6002640160000000000d6d0030001000000284016000200000027401600030000000000000008000000"
+  },
+  {
+    "material": 1472779,
+    "name": "gno_statue_scholar",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1472779.mat_bxml",
+    "source_sha256": "f2b709b5909d8b152969ef4bf791841bd1d9eee1144669124529ebf460ef1d2b",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1472772,
+        "name": "gno_statue_scholar_01_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 1472774,
+        "name": "gno_statue_scholar_01_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1472773,
+        "name": "gno_statue_scholar_01_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b6000479160000000000d6d0030001000000067916000200000005791600030000000000000008000000"
+  },
+  {
+    "material": 1558824,
+    "name": "cin_corpse_pile",
+    "source": "work\\v48-opening\\content-audit\\inputs\\initial_0.pak\\1558824.mat_bxml",
+    "source_sha256": "ba468da778277342a8b86adda2c3465cd2213a2fea97b8c0a26d30fd163ded8c",
+    "shader": 8827,
+    "shader_name": "dot3",
+    "alpha_test": 0,
+    "cull": 2,
+    "cutoff_byte": 0,
+    "texture_references": [
+      {
+        "asset": 1558676,
+        "name": "cin_corpse_body_d",
+        "file_offset": 88
+      },
+      {
+        "asset": 250070,
+        "name": "par_color_white_d",
+        "file_offset": 96
+      },
+      {
+        "asset": 1558678,
+        "name": "cin_corpse_body_s",
+        "file_offset": 104
+      },
+      {
+        "asset": 1558677,
+        "name": "cin_corpse_body_n",
+        "file_offset": 112
+      }
+    ],
+    "raw_hex": "7000000008000000280000000200000058000000040000007b2200000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b60094c8170000000000d6d003000100000096c817000200000095c81700030000000000000008000000"
+  }
+]

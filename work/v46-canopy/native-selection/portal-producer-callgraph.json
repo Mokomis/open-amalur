@@ -1,0 +1,43 @@
+{
+  "preflight": [
+    {
+      "address": "00cd23e0",
+      "bytes": 67,
+      "chars": 460,
+      "file": "unnamed_00cd.c"
+    },
+    {
+      "address": "00ce7a00",
+      "bytes": 116,
+      "chars": 765,
+      "file": "unnamed_00ce.c"
+    },
+    {
+      "address": "00fb8e50",
+      "bytes": 170,
+      "chars": 979,
+      "file": "unnamed_00fb.c"
+    }
+  ],
+  "callers": {
+    "00fb8e50": [
+      {
+        "address": "00fed630",
+        "name": "BHG_Region__vf4",
+        "bytes": 1030,
+        "chars": 3675,
+        "file": "BHG_Region.c"
+      }
+    ],
+    "00cd23e0": [],
+    "00ce7a00": [
+      {
+        "address": "00ff04f0",
+        "name": "BHG_Space__vf4",
+        "bytes": 898,
+        "chars": 4018,
+        "file": "BHG_Space.c"
+      }
+    ]
+  }
+}

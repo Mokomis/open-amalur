@@ -1,0 +1,41 @@
+Explicit module identity selection — v08 preview
+
+export_scene_modules_v08.py accepts repeatable --select-module NAME=SHA256.
+This chooses a byte identity already indexed under the exact wrapper name.
+It never guesses case aliases, archive mount order, newest-file precedence,
+or semantic equivalence between variants. Duplicate selection arguments,
+invalid names/hashes, absent selected identities, ParentUtils pin conflicts,
+and selections outside the exported closure fail explicitly. Existing source,
+module-count and total-byte bounds and pinned ParentUtils contract remain.
+
+All candidates remain in module-inventory.json ambiguous entries. A selected
+ambiguity has resolution=explicit_preview_selection, selected_input_sha256,
+and a reason explaining the preview-only identity choice. Unresolved entries
+remain resolution=unresolved. unresolved_ambiguous contains only the latter.
+explicit_module_selections lists each exact selected identity and all omitted
+identities. A caller must not equate a nonempty ambiguous list with an
+unresolved ambiguity now; inspect resolution or unresolved_ambiguous.
+
+Current explicit preview choice:
+  entitlements
+  file1915103.lua_bxml
+  SHA256 a537ed597916b1a4041da9304fd715822611c5092d297b59a6d6721cde9b4b1c
+The mirrored audit/entitlement-variants.json reports six input identities.
+The selected original symbolic base variant has17 recovered functions and
+0 unresolved bodies. Its root loads require atpc9 and message_box_win atpc11.
+Five other byte identities remain unselected. Selection is a preview content
+profile decision, not proof of the native installed game's selected variant.
+No entitlement checks, grants, returns, service bindings or contents are
+changed by selection. The exact frozen selected source is copied into
+original/ before the same existing source adapter is applied. The normal
+literal require/parent dependency pass handles its complete recovered IR.
+
+Windows validation entry:
+  python work\v08-scripts\test_module_selection.py
+  python work\v08-scripts\test_parent_dependencies.py
+Then export to a fresh candidate output with the full --select-module above.
+Review original source hash, selected input SHA, six preserved ambiguity
+candidates, five unselected identities, and message_box_win dependency in the
+inventory before promoting the new candidate. Existing outputs are never
+replaced by this exporter. Python syntax was checked during staging; Windows
+unit execution and actual corpus export outcomes are recorded separately.

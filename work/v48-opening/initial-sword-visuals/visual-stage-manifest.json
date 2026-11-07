@@ -1,0 +1,2212 @@
+{
+  "status": "STAGED ONLY; no runtime animation/native active pose claim",
+  "source_material_rows": {
+    "459142": 0,
+    "464114": 1,
+    "464123": 2,
+    "737050": 3,
+    "1880463": 4
+  },
+  "placement": {
+    "offset": 16,
+    "name": "MQ01_Start_Door_01",
+    "instance_id": 1789992,
+    "position": [
+      -1666.24658203125,
+      2861.4287109375,
+      40.57246398925781
+    ],
+    "quaternion": [
+      0.0,
+      0.0,
+      0.718055784702301,
+      0.6959856152534485
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "flags": 30,
+    "type_id": 1789987,
+    "opaque_tail_u32": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      120,
+      0,
+      120,
+      0
+    ],
+    "record_sha256": "bb9ba93a5cbb775eb3a322a704985d306e58e0979c831e93244283f1fa600222"
+  },
+  "geometry": [
+    {
+      "file": "source-local\\fab-1789717.bin",
+      "bytes": 192848,
+      "sha256": "1532178b7f700b571c13d5e9ed21bd2065bf30d866efc8d5c40095c1ab554c1b",
+      "vertices": 2161,
+      "triangles": 2298,
+      "ranges": 21,
+      "bounds": [
+        [
+          -152.21331787109375,
+          -41.64279556274414,
+          -157.4730224609375
+        ],
+        [
+          174.86019897460938,
+          160.1680450439453,
+          358.3076477050781
+        ]
+      ],
+      "meaning": "Exact decoded component-local geometry, not assembled/render-ready whole object."
+    },
+    {
+      "file": "source-bind-candidate\\fab-1789717-rigid.bin",
+      "bytes": 165328,
+      "sha256": "d4402a028fa4e058243865ff0fdc77ced12d758cf24e38f4f52f5383d9e82ee4",
+      "vertices": 1851,
+      "triangles": 1980,
+      "ranges": 18,
+      "bounds": [
+        [
+          -149.28533935546875,
+          -80.87076568603516,
+          -7.388655185699463
+        ],
+        [
+          132.5558624267578,
+          69.64002227783203,
+          357.5497741699219
+        ]
+      ],
+      "meaning": "Single-bone source hierarchy rest-pose candidate; excludes multibone parts; unsupported material rows require implementation."
+    },
+    {
+      "file": "source-local\\fab-1880465.bin",
+      "bytes": 39548,
+      "sha256": "c8e8b006233916dcb61ccd9c7d2e64309ec64133a83487c0675cfa1c201f4758",
+      "vertices": 424,
+      "triangles": 604,
+      "ranges": 1,
+      "bounds": [
+        [
+          -11.07607650756836,
+          -4.826735973358154,
+          -107.94999694824219
+        ],
+        [
+          15.082925796508789,
+          5.825641632080078,
+          60.95643615722656
+        ]
+      ],
+      "meaning": "Exact decoded component-local geometry, not assembled/render-ready whole object."
+    },
+    {
+      "file": "source-bind-candidate\\fab-1880465-rigid.bin",
+      "bytes": 39548,
+      "sha256": "2c3d57767db3e5ea0d014d23f3e568fbe9c17c409aed184384f601c562ff87de",
+      "vertices": 424,
+      "triangles": 604,
+      "ranges": 1,
+      "bounds": [
+        [
+          -21.013473510742188,
+          -5.083216667175293,
+          -27.94072914123535
+        ],
+        [
+          5.145313262939453,
+          5.569162368774414,
+          140.96578979492188
+        ]
+      ],
+      "meaning": "Single-bone source hierarchy rest-pose candidate; excludes multibone parts; unsupported material rows require implementation."
+    },
+    {
+      "file": "placed-container-rigid-candidate\\world\\r-1_0.bin",
+      "bytes": 124672,
+      "sha256": "d00823508c80d47838080859e59a4c3d726792244db3302bf1527aeff579316d",
+      "vertices": 1413,
+      "triangles": 1370,
+      "ranges": 17,
+      "bounds": [
+        [
+          -1709.3052978515625,
+          2728.520263671875,
+          33.183807373046875
+        ],
+        [
+          -1639.8699951171875,
+          3011.66748046875,
+          398.12225341796875
+        ]
+      ]
+    }
+  ],
+  "source_parts": [
+    {
+      "fab": 1789717,
+      "assembly": 0,
+      "native_material": 1880463,
+      "vertices": 438,
+      "triangles": 610,
+      "bone": 51,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        16.130882263183594,
+        72.90064239501953,
+        -4.959031105041504
+      ],
+      "descriptor_radius": 91.43236541748047,
+      "source_local_bounds_all": [
+        [
+          -7.595945835113525,
+          -14.366765022277832,
+          -18.42431640625
+        ],
+        [
+          39.85771560668945,
+          160.1680450439453,
+          10.079007148742676
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -7.595945835113525,
+          -14.366765022277832,
+          -18.42431640625
+        ],
+        [
+          39.85771560668945,
+          160.1680450439453,
+          10.079007148742676
+        ]
+      ],
+      "source_vb_sha256": "ead699b70f3bea2d54f8b4e52275857c15160decf59f9dff154a78ee14b969b0",
+      "source_ib_sha256": "3dca6868b5b55f578e326203e906c105e65133ffd2f9a78e69a80d795eec9f6c",
+      "assembly52_raw_hex": "00000000000000001600000001000000040000006202000000000000260700000000000000000000b60100000000000000000000",
+      "source_vb_file_offset": 24,
+      "source_ib_file_offset": 129928,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-00.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-00.u16",
+      "candidate_bind_bounds": [
+        [
+          8.675150871276855,
+          -80.87076568603516,
+          -3.534884214401245
+        ],
+        [
+          61.756675720214844,
+          69.64002227783203,
+          98.14445495605469
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 1,
+      "native_material": 464123,
+      "vertices": 144,
+      "triangles": 72,
+      "bone": 53,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        83.84297180175781,
+        -1.5751374959945679,
+        0.37802013754844666
+      ],
+      "descriptor_radius": 180.02481079101562,
+      "source_local_bounds_all": [
+        [
+          -6.248152256011963,
+          -10.308947563171387,
+          -157.4730224609375
+        ],
+        [
+          174.86019897460938,
+          14.660673141479492,
+          157.47544860839844
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -6.248152256011963,
+          -10.308947563171387,
+          -157.4730224609375
+        ],
+        [
+          174.86019897460938,
+          14.660673141479492,
+          157.47544860839844
+        ]
+      ],
+      "source_vb_sha256": "c19bbad1800afcf28c1c9a6abd82b574bc43a7fac0f215e3de74881459fd45e7",
+      "source_ib_sha256": "360a0ed3431a6eb700d1aa3490ec591461d61dfd2ac200a42a018b9c44b531e1",
+      "assembly52_raw_hex": "01000000010000001600000001000000040000004800000000000000d80000000000000000000000900000000000000000000000",
+      "source_vb_file_offset": 26316,
+      "source_ib_file_offset": 133592,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-01.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-01.u16",
+      "candidate_bind_bounds": [
+        [
+          -104.38740539550781,
+          -21.35858154296875,
+          0.5998077392578125
+        ],
+        [
+          76.720947265625,
+          3.611039161682129,
+          315.54827880859375
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 2,
+      "native_material": 464114,
+      "vertices": 246,
+      "triangles": 220,
+      "bone": 52,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -8.870147705078125,
+        -16.224821090698242,
+        173.8169403076172
+      ],
+      "descriptor_radius": 231.137451171875,
+      "source_local_bounds_all": [
+        [
+          -152.21331787109375,
+          -41.64279556274414,
+          -6.104127883911133
+        ],
+        [
+          129.6278839111328,
+          12.694615364074707,
+          358.3076477050781
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -152.21331787109375,
+          -41.64279556274414,
+          -6.104127883911133
+        ],
+        [
+          129.6278839111328,
+          12.694615364074707,
+          358.3076477050781
+        ]
+      ],
+      "source_vb_sha256": "4d5f148159d38132dbf655059bb1359a6e8d53eb0111f7cec342d177dfb2e81a",
+      "source_ib_sha256": "c1f4da6ca65c01d503ce19b86d0d2b6b63c40a56dece6f9f41f304636b96cdc9",
+      "assembly52_raw_hex": "0200000002000000160000000100000004000000dc00000000000000940200000000000000000000f60000000000000000000000",
+      "source_vb_file_offset": 34968,
+      "source_ib_file_offset": 134028,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-02.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-02.u16",
+      "candidate_bind_bounds": [
+        [
+          -149.28533935546875,
+          -39.269710540771484,
+          -6.862008094787598
+        ],
+        [
+          132.5558624267578,
+          15.067699432373047,
+          357.5497741699219
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 3,
+      "native_material": 459142,
+      "vertices": 48,
+      "triangles": 24,
+      "bone": 52,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -23.399629592895508,
+        -16.4349308013916,
+        183.23219299316406
+      ],
+      "descriptor_radius": 203.95608520507812,
+      "source_local_bounds_all": [
+        [
+          -142.41932678222656,
+          -31.554927825927734,
+          41.13275909423828
+        ],
+        [
+          121.28348541259766,
+          5.305018901824951,
+          347.771728515625
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -142.41932678222656,
+          -31.554927825927734,
+          41.13275909423828
+        ],
+        [
+          121.28348541259766,
+          5.305018901824951,
+          347.771728515625
+        ]
+      ],
+      "source_vb_sha256": "e1f6cfc8dc35e6795c6f3e15ec332b228c81ee36d02e07046ebd0c4379807fe1",
+      "source_ib_sha256": "8d2e5389a7c8df145f0ffe67c21eb805d14d00e5a863c7c7010d0a1920a9ddb7",
+      "assembly52_raw_hex": "03000000030000001600000001000000040000001800000000000000480000000000000000000000300000000000000000000000",
+      "source_vb_file_offset": 49740,
+      "source_ib_file_offset": 135352,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-03.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-03.u16",
+      "candidate_bind_bounds": [
+        [
+          -139.49134826660156,
+          -29.18184471130371,
+          40.3748779296875
+        ],
+        [
+          124.21147155761719,
+          7.678102493286133,
+          347.01385498046875
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 4,
+      "native_material": 464123,
+      "vertices": 16,
+      "triangles": 8,
+      "bone": 52,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        35.96037292480469,
+        -10.287736892700195,
+        262.81268310546875
+      ],
+      "descriptor_radius": 81.22916412353516,
+      "source_local_bounds_all": [
+        [
+          -16.55510902404785,
+          -13.423646926879883,
+          200.92189025878906
+        ],
+        [
+          88.475830078125,
+          -7.151827335357666,
+          324.7034606933594
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -16.55510902404785,
+          -13.423646926879883,
+          200.92189025878906
+        ],
+        [
+          88.475830078125,
+          -7.151827335357666,
+          324.7034606933594
+        ]
+      ],
+      "source_vb_sha256": "dc2f08ff9571dbbbcd06a93fb155992e45acbc6b4a37a04208ad2309f21823c0",
+      "source_ib_sha256": "5db074bbbc0e7d44b4612b76a7a64d10bbc67e6e7b84aed82ac9686acc3a1677",
+      "assembly52_raw_hex": "04000000040000001600000001000000040000000800000000000000180000000000000000000000100000000000000000000000",
+      "source_vb_file_offset": 52632,
+      "source_ib_file_offset": 135500,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-04.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-04.u16",
+      "candidate_bind_bounds": [
+        [
+          -13.627123832702637,
+          -11.050562858581543,
+          200.1640167236328
+        ],
+        [
+          91.40381622314453,
+          -4.778743743896484,
+          323.9455871582031
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 5,
+      "native_material": 737050,
+      "vertices": 30,
+      "triangles": 32,
+      "bone": 33,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        2.641324043273926,
+        19.119985580444336,
+        93.2901611328125
+      ],
+      "descriptor_radius": 23.680206298828125,
+      "source_local_bounds_all": [
+        [
+          -4.071528911590576,
+          16.090015411376953,
+          69.77177429199219
+        ],
+        [
+          7.082912921905518,
+          23.150230407714844,
+          116.80855560302734
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -4.071528911590576,
+          16.090015411376953,
+          69.77177429199219
+        ],
+        [
+          7.082912921905518,
+          23.150230407714844,
+          116.80855560302734
+        ]
+      ],
+      "source_vb_sha256": "906cbd7ffc9e1826554ffa77fcac509569b0cf8d57ddbd77763935b0db89c25b",
+      "source_ib_sha256": "5fe08c5b8a3d756ab91f17cafa49fb8f392aebad52e816399e0f141931412a96",
+      "assembly52_raw_hex": "050000000500000016000000010000000400000020000000000000006000000000000000000000001e0000000000000000000000",
+      "source_vb_file_offset": 53604,
+      "source_ib_file_offset": 135552,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-05.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-05.u16",
+      "candidate_bind_bounds": [
+        [
+          44.887088775634766,
+          -4.0756754875183105,
+          -7.388655185699463
+        ],
+        [
+          75.34440612792969,
+          8.997821807861328,
+          31.287761688232422
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 6,
+      "native_material": 737050,
+      "vertices": 44,
+      "triangles": 48,
+      "bone": 34,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        2.041517734527588,
+        17.181974411010742,
+        129.1547088623047
+      ],
+      "descriptor_radius": 16.248611450195312,
+      "source_local_bounds_all": [
+        [
+          -1.3292170763015747,
+          14.491954803466797,
+          112.99803161621094
+        ],
+        [
+          4.592599391937256,
+          22.837560653686523,
+          145.29441833496094
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -1.3292170763015747,
+          14.491954803466797,
+          112.99803161621094
+        ],
+        [
+          4.592599391937256,
+          22.837560653686523,
+          145.29441833496094
+        ]
+      ],
+      "source_vb_sha256": "145fd8b5af5005c5bd2293fa7eab0b49c9108c567298dfc0e6d99bfef4bd794f",
+      "source_ib_sha256": "e529f1e08e944594db3ccc3071733c88d107aa0e7796978b69f3923e403d007c",
+      "assembly52_raw_hex": "060000000600000016000000010000000400000030000000000000009000000000000000000000002c0000000000000000000000",
+      "source_vb_file_offset": 55416,
+      "source_ib_file_offset": 135748,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-06.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-06.u16",
+      "candidate_bind_bounds": [
+        [
+          41.94878387451172,
+          -8.312188148498535,
+          27.620027542114258
+        ],
+        [
+          48.5742301940918,
+          -0.19890716671943665,
+          59.91741180419922
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 7,
+      "native_material": 737050,
+      "vertices": 29,
+      "triangles": 28,
+      "bone": 35,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -2.7874531745910645,
+        8.25305461883545,
+        147.4694061279297
+      ],
+      "descriptor_radius": 8.182464599609375,
+      "source_local_bounds_all": [
+        [
+          -8.378726959228516,
+          1.179630994796753,
+          145.18772888183594
+        ],
+        [
+          1.4351537227630615,
+          15.925333023071289,
+          149.1453094482422
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -8.378726959228516,
+          1.179630994796753,
+          145.18772888183594
+        ],
+        [
+          1.4351537227630615,
+          15.925333023071289,
+          149.1453094482422
+        ]
+      ],
+      "source_vb_sha256": "ab6ef254b0b165ade587193d81c788ddd6334a2f6e85a3b9876cf59994567952",
+      "source_ib_sha256": "a516ca0cddd92fd63e4db00a45afd93ece70ac90ed542c032440cbb34fd134e2",
+      "assembly52_raw_hex": "07000000070000001600000001000000040000001c000000000000005400000000000000000000001d0000000000000000000000",
+      "source_vb_file_offset": 58068,
+      "source_ib_file_offset": 136040,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-07.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-07.u16",
+      "candidate_bind_bounds": [
+        [
+          29.49102020263672,
+          -4.386724472045898,
+          57.04021072387695
+        ],
+        [
+          44.236724853515625,
+          4.1620330810546875,
+          63.4267692565918
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 8,
+      "native_material": 737050,
+      "vertices": 100,
+      "triangles": 112,
+      "bone": 36,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        0.2104736566543579,
+        1.651781439781189,
+        0.00013446807861328125
+      ],
+      "descriptor_radius": 10.311532974243164,
+      "source_local_bounds_all": [
+        [
+          -5.675051212310791,
+          -5.515657901763916,
+          -9.371580123901367
+        ],
+        [
+          5.675053596496582,
+          5.515697956085205,
+          9.371849060058594
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -5.675051212310791,
+          -5.515657901763916,
+          -9.371580123901367
+        ],
+        [
+          5.675053596496582,
+          5.515697956085205,
+          9.371849060058594
+        ]
+      ],
+      "source_vb_sha256": "1067e57a190f34e6176168fa33abf97f7ee67d7a04eb90d745cd7db11af53fb5",
+      "source_ib_sha256": "ab7e3e89df0dec478f4303676f3425a3769b105ffb20118fbf35b6f82282ea53",
+      "assembly52_raw_hex": "08000000080000001600000001000000040000007000000000000000500100000000000000000000640000000000000000000000",
+      "source_vb_file_offset": 59820,
+      "source_ib_file_offset": 136212,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-08.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-08.u16",
+      "candidate_bind_bounds": [
+        [
+          33.59858322143555,
+          -16.938899993896484,
+          46.94621658325195
+        ],
+        [
+          44.629940032958984,
+          -2.105485439300537,
+          62.053714752197266
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 9,
+      "native_material": 737050,
+      "vertices": 31,
+      "triangles": 32,
+      "bone": 43,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        2.644235134124756,
+        -20.033374786376953,
+        93.46696472167969
+      ],
+      "descriptor_radius": 23.86018180847168,
+      "source_local_bounds_all": [
+        [
+          -4.609469890594482,
+          -23.313505172729492,
+          69.77179718017578
+        ],
+        [
+          8.223600387573242,
+          -16.253313064575195,
+          117.1621322631836
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -4.609469890594482,
+          -23.313505172729492,
+          69.77179718017578
+        ],
+        [
+          8.223600387573242,
+          -16.253313064575195,
+          117.1621322631836
+        ]
+      ],
+      "source_vb_sha256": "83c9d4ac7f43fadff434da55f7cfec89f13fd87d369e923c33164bd136698807",
+      "source_ib_sha256": "07d032f8f4229e138b84d1693d218d0b379f8103688e221e12880bc24efb050a",
+      "assembly52_raw_hex": "090000000900000016000000010000000400000020000000000000006000000000000000000000001f0000000000000000000000",
+      "source_vb_file_offset": 65832,
+      "source_ib_file_offset": 136888,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-09.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-09.u16",
+      "candidate_bind_bounds": [
+        [
+          -12.271430015563965,
+          -6.7489447593688965,
+          -2.4905946254730225
+        ],
+        [
+          8.9188814163208,
+          26.147998809814453,
+          30.941600799560547
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 10,
+      "native_material": 737050,
+      "vertices": 48,
+      "triangles": 48,
+      "bone": 44,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        1.5102986097335815,
+        -17.362485885620117,
+        129.1530303955078
+      ],
+      "descriptor_radius": 16.244651794433594,
+      "source_local_bounds_all": [
+        [
+          -1.8194423913955688,
+          -22.94938087463379,
+          112.99805450439453
+        ],
+        [
+          4.030184268951416,
+          -14.705559730529785,
+          145.29443359375
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -1.8194423913955688,
+          -22.94938087463379,
+          112.99805450439453
+        ],
+        [
+          4.030184268951416,
+          -14.705559730529785,
+          145.29443359375
+        ]
+      ],
+      "source_vb_sha256": "8baa7fb8bd09f5bb4889bba4ed98185330f09672d33228327bff854a8bc1a4b8",
+      "source_ib_sha256": "2b85a3d087d25bfb329f5e45b1c5d66976aeba9ad31a7cf6cb9eec06dca99c20",
+      "assembly52_raw_hex": "0a0000000a0000001600000001000000040000003000000000000000900000000000000000000000300000000000000000000000",
+      "source_vb_file_offset": 67704,
+      "source_ib_file_offset": 137084,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-10.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-10.u16",
+      "candidate_bind_bounds": [
+        [
+          4.736584186553955,
+          -7.112216949462891,
+          27.639785766601562
+        ],
+        [
+          13.449750900268555,
+          -2.184528350830078,
+          59.817996978759766
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 11,
+      "native_material": 737050,
+      "vertices": 29,
+      "triangles": 28,
+      "bone": 45,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -2.7874674797058105,
+        -8.416365623474121,
+        147.46923828125
+      ],
+      "descriptor_radius": 8.18244743347168,
+      "source_local_bounds_all": [
+        [
+          -8.378756523132324,
+          -16.088653564453125,
+          145.18756103515625
+        ],
+        [
+          1.4351317882537842,
+          -1.3429577350616455,
+          149.1451416015625
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -8.378756523132324,
+          -16.088653564453125,
+          145.18756103515625
+        ],
+        [
+          1.4351317882537842,
+          -1.3429577350616455,
+          149.1451416015625
+        ]
+      ],
+      "source_vb_sha256": "097c4c279a77cac64bb7d562118ac45d29ebec4a942d1aa1e8beef3d22060c66",
+      "source_ib_sha256": "c2dd5e5ce87f1facd96ade115eee9646b164f1fb48194e3b2422b88e32c665da",
+      "assembly52_raw_hex": "0b0000000b0000001600000001000000040000001c000000000000005400000000000000000000001d0000000000000000000000",
+      "source_vb_file_offset": 70596,
+      "source_ib_file_offset": 137376,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-11.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-11.u16",
+      "candidate_bind_bounds": [
+        [
+          12.222576141357422,
+          -4.386792182922363,
+          57.04005813598633
+        ],
+        [
+          26.96826934814453,
+          4.162006378173828,
+          63.42659378051758
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 12,
+      "native_material": 737050,
+      "vertices": 100,
+      "triangles": 112,
+      "bone": 46,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        0.21048259735107422,
+        -1.6517506837844849,
+        0.00012874603271484375
+      ],
+      "descriptor_radius": 10.311518669128418,
+      "source_local_bounds_all": [
+        [
+          -5.675032615661621,
+          -5.515661239624023,
+          -9.371573448181152
+        ],
+        [
+          5.675073146820068,
+          5.515686988830566,
+          9.371830940246582
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -5.675032615661621,
+          -5.515661239624023,
+          -9.371573448181152
+        ],
+        [
+          5.675073146820068,
+          5.515686988830566,
+          9.371830940246582
+        ]
+      ],
+      "source_vb_sha256": "cba089176dd6175f5a068f13851d904ad817ea84562f835731888846b7bc6195",
+      "source_ib_sha256": "f93106c67cef08e71244f1d97b58316be237699f7a34aba4b024e7ebf5a69a02",
+      "assembly52_raw_hex": "0c0000000c0000001600000001000000040000007000000000000000500100000000000000000000640000000000000000000000",
+      "source_vb_file_offset": 72348,
+      "source_ib_file_offset": 137548,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-12.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-12.u16",
+      "candidate_bind_bounds": [
+        [
+          10.816543579101562,
+          -16.938915252685547,
+          46.94621276855469
+        ],
+        [
+          21.847911834716797,
+          -2.1055123805999756,
+          62.05370330810547
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 13,
+      "native_material": 737050,
+      "vertices": 102,
+      "triangles": 132,
+      "bone": 26,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -1.2501964569091797,
+        0.21049031615257263,
+        163.45751953125
+      ],
+      "descriptor_radius": 13.261829376220703,
+      "source_local_bounds_all": [
+        [
+          -11.997310638427734,
+          -8.24878978729248,
+          152.63821411132812
+        ],
+        [
+          10.324003219604492,
+          8.769386291503906,
+          176.0610809326172
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -11.997310638427734,
+          -8.24878978729248,
+          152.63821411132812
+        ],
+        [
+          10.324003219604492,
+          8.769386291503906,
+          176.0610809326172
+        ]
+      ],
+      "source_vb_sha256": "76111962ff44defdc00196728f5f2343ef3fcac08be50b821626d3f30e96b5f1",
+      "source_ib_sha256": "ea350a24c2e3dea3facc7376a06a210a3e89e9f3f0b2684fcbfb49c475b80018",
+      "assembly52_raw_hex": "0d0000000d00000016000000010000000400000084000000000000008c0100000000000000000000660000000000000000000000",
+      "source_vb_file_offset": 78360,
+      "source_ib_file_offset": 138224,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-13.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-13.u16",
+      "candidate_bind_bounds": [
+        [
+          10.956892967224121,
+          -0.920743465423584,
+          57.53801727294922
+        ],
+        [
+          30.40671730041504,
+          18.532211303710938,
+          80.70328521728516
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 14,
+      "native_material": 737050,
+      "vertices": 92,
+      "triangles": 92,
+      "bone": 47,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -6.392016410827637,
+        -3.429638385772705,
+        130.396728515625
+      ],
+      "descriptor_radius": 22.821929931640625,
+      "source_local_bounds_all": [
+        [
+          -18.144229888916016,
+          -15.111798286437988,
+          114.06224822998047
+        ],
+        [
+          4.950621604919434,
+          14.948591232299805,
+          149.53514099121094
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -18.144229888916016,
+          -15.111798286437988,
+          114.06224822998047
+        ],
+        [
+          4.950621604919434,
+          14.948591232299805,
+          149.53514099121094
+        ]
+      ],
+      "source_vb_sha256": "137bdda00e05707a63ae1657c09926e1b01299795c07357f7a026f6f2cdc87f1",
+      "source_ib_sha256": "9bdf2cfa719e931198a64157560408f29295924ad06b229315d4e9622775e653",
+      "assembly52_raw_hex": "0e0000000e0000001600000001000000040000005c000000000000001401000000000000000000005c0000000000000000000000",
+      "source_vb_file_offset": 84492,
+      "source_ib_file_offset": 139020,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-14.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-14.u16",
+      "candidate_bind_bounds": [
+        [
+          13.199380874633789,
+          -11.805863380432129,
+          28.280750274658203
+        ],
+        [
+          43.25978088378906,
+          11.881341934204102,
+          63.22346115112305
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 15,
+      "native_material": 737050,
+      "vertices": 69,
+      "triangles": 78,
+      "bone": 11,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -11.42214584350586,
+        16.391136169433594,
+        7.87603235244751
+      ],
+      "descriptor_radius": 12.673900604248047,
+      "source_local_bounds_all": [
+        [
+          -21.770057678222656,
+          13.2552490234375,
+          0.44098320603370667
+        ],
+        [
+          -1.1830012798309326,
+          23.313505172729492,
+          16.910419464111328
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -21.770057678222656,
+          13.2552490234375,
+          0.44098320603370667
+        ],
+        [
+          -1.1830012798309326,
+          23.313505172729492,
+          16.910419464111328
+        ]
+      ],
+      "source_vb_sha256": "2c0aecac81c6dcc3f1cf94e90f4d9552127eed1ce5fff0f7e0b2d61848867961",
+      "source_ib_sha256": "1eb48d65e42a11674da532f4cbb1601182cf00928fc7c0bf8cc8370d7f9ef789",
+      "assembly52_raw_hex": "0f0000000f0000001600000001000000040000004e00000000000000ea0000000000000000000000450000000000000000000000",
+      "source_vb_file_offset": 90024,
+      "source_ib_file_offset": 139576,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-15.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-15.u16",
+      "candidate_bind_bounds": [
+        [
+          13.25518798828125,
+          -3.9046273231506348,
+          2.294685125350952
+        ],
+        [
+          23.313440322875977,
+          20.3182373046875,
+          12.187353134155273
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 16,
+      "native_material": 737050,
+      "vertices": 70,
+      "triangles": 80,
+      "bone": 19,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -11.626201629638672,
+        -15.587197303771973,
+        8.19183349609375
+      ],
+      "descriptor_radius": 12.626953125,
+      "source_local_bounds_all": [
+        [
+          -21.91973114013672,
+          -22.509511947631836,
+          0.8592696785926819
+        ],
+        [
+          -1.3326709270477295,
+          -12.451303482055664,
+          17.0695743560791
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -21.91973114013672,
+          -22.509511947631836,
+          0.8592696785926819
+        ],
+        [
+          -1.3326709270477295,
+          -12.451303482055664,
+          17.0695743560791
+        ]
+      ],
+      "source_vb_sha256": "8132054163ddf34ce2e8398389ec7bff2a85073474007c5ffa3beba886d20aad",
+      "source_ib_sha256": "8355cb1fa8323922c72c6c2bd15c31d8027b1527a4e621fa0659e7f9eb1318f7",
+      "assembly52_raw_hex": "10000000100000001600000001000000040000005000000000000000f00000000000000000000000460000000000000000000000",
+      "source_vb_file_offset": 94176,
+      "source_ib_file_offset": 140048,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-16.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-16.u16",
+      "candidate_bind_bounds": [
+        [
+          -22.509536743164062,
+          -17.292377471923828,
+          0.8935137391090393
+        ],
+        [
+          -12.451323509216309,
+          -5.4016194343566895,
+          24.080810546875
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 17,
+      "native_material": 737050,
+      "vertices": 215,
+      "triangles": 224,
+      "bone": 48,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -7.793920040130615,
+        1.3636988401412964,
+        96.94115447998047
+      ],
+      "descriptor_radius": 20.40557289123535,
+      "source_local_bounds_all": [
+        [
+          -16.885984420776367,
+          -16.164941787719727,
+          83.29370880126953
+        ],
+        [
+          3.452861785888672,
+          16.001718521118164,
+          108.74349212646484
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -16.885984420776367,
+          -16.164941787719727,
+          83.29370880126953
+        ],
+        [
+          3.452861785888672,
+          16.001718521118164,
+          108.74349212646484
+        ]
+      ],
+      "source_vb_sha256": "7b59dc4b0f9921e9ded39ea1c138b267737698e0e7bc6a3a2ba826d6fa387390",
+      "source_ib_sha256": "490389fec51abc59750d1a1d051c283f2ca8f50979b7032317f0d35d1192c3a1",
+      "assembly52_raw_hex": "1100000011000000160000000100000004000000e000000000000000a00200000000000000000000d70000000000000000000000",
+      "source_vb_file_offset": 98388,
+      "source_ib_file_offset": 140532,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-17.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-17.u16",
+      "candidate_bind_bounds": [
+        [
+          12.146260261535645,
+          -5.08521032333374,
+          -1.3875254392623901
+        ],
+        [
+          44.312931060791016,
+          15.253646850585938,
+          24.062271118164062
+        ]
+      ]
+    },
+    {
+      "fab": 1789717,
+      "assembly": 18,
+      "native_material": 737050,
+      "vertices": 72,
+      "triangles": 70,
+      "bone": -1,
+      "remap_count": 6,
+      "remaps": [
+        {
+          "bone_index": 3,
+          "bone_index_file_offset": 4826,
+          "trs": {
+            "file_offset": 4778,
+            "raw_hex": "0c76cfc26b498541d7e900c000000000f8d1343f7ed107bdf8d1343ff9d207bd0100803f0300803f0300803f1e000000",
+            "quaternion_xyzw": [
+              -103.73056030273438,
+              16.66084861755371,
+              -2.014272451400757,
+              0.0
+            ],
+            "position_xyzw": [
+              0.7063288688659668,
+              -0.03315877169370651,
+              0.7063288688659668,
+              -0.03316018357872963
+            ],
+            "scale_xyzw": [
+              1.0000001192092896,
+              1.0000003576278687,
+              1.0000003576278687,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared11041.6703 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 20,
+          "bone_index_file_offset": 4878,
+          "trs": {
+            "file_offset": 4830,
+            "raw_hex": "8865e1c24f78dc4184ea00c000000000d034343f111989bdd034343fbf1989bd0000803f0400803ffbff7f3f1e000000",
+            "quaternion_xyzw": [
+              -112.69830322265625,
+              27.558744430541992,
+              -2.0143136978149414,
+              0.0
+            ],
+            "position_xyzw": [
+              0.7039308547973633,
+              -0.06694234162569046,
+              0.7039308547973633,
+              -0.06694363802671432
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.0000004768371582,
+              0.9999997019767761,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared13464.4494 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 21,
+          "bone_index_file_offset": 4930,
+          "trs": {
+            "file_offset": 4882,
+            "raw_hex": "2931fac2737ea64112ea00c000000000a69a343fe70f44bda69a343f621144bd0000803f0200803f0200803f1e000000",
+            "quaternion_xyzw": [
+              -125.09601593017578,
+              20.811742782592773,
+              -2.014286518096924,
+              0.0
+            ],
+            "position_xyzw": [
+              0.7054847478866577,
+              -0.04786672815680504,
+              0.7054847478866577,
+              -0.047868140041828156
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.000000238418579,
+              1.000000238418579,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared16086.1992 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 22,
+          "bone_index_file_offset": 4982,
+          "trs": {
+            "file_offset": 4934,
+            "raw_hex": "132f08c3586ca64112ea00c000000000a69a343fe70f44bda69a343f621144bd0000803f0200803f0200803f1e000000",
+            "quaternion_xyzw": [
+              -136.1838836669922,
+              20.802902221679688,
+              -2.014286518096924,
+              0.0
+            ],
+            "position_xyzw": [
+              0.7054847478866577,
+              -0.04786672815680504,
+              0.7054847478866577,
+              -0.047868140041828156
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.000000238418579,
+              1.000000238418579,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared18982.8683 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 23,
+          "bone_index_file_offset": 5034,
+          "trs": {
+            "file_offset": 4986,
+            "raw_hex": "a14513c3f061a64112ea00c000000000a69a343fe70f44bda69a343f621144bd0000803f0200803f0200803f1e000000",
+            "quaternion_xyzw": [
+              -147.27198791503906,
+              20.797821044921875,
+              -2.014286518096924,
+              0.0
+            ],
+            "position_xyzw": [
+              0.7054847478866577,
+              -0.04786672815680504,
+              0.7054847478866577,
+              -0.047868140041828156
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.000000238418579,
+              1.000000238418579,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared22125.6451 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 24,
+          "bone_index_file_offset": 5086,
+          "trs": {
+            "file_offset": 5038,
+            "raw_hex": "de111bc37fc919be3be600c000000000f904353ffccfbd34ed04353f08d0bdb40000803f0000803f0000803f1e000000",
+            "quaternion_xyzw": [
+              -155.06979370117188,
+              -0.15018270909786224,
+              -2.014052152633667,
+              0.0
+            ],
+            "position_xyzw": [
+              0.7071071267127991,
+              3.535532187015633e-07,
+              0.7071064114570618,
+              -3.535535597620765e-07
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.0,
+              1.0,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared24050.7199 outside admitted unit domain"
+          }
+        }
+      ],
+      "rigid_single_bone": false,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        1.5447454452514648,
+        0.7559545040130615,
+        131.40005493164062
+      ],
+      "descriptor_radius": 30.031829833984375,
+      "source_local_bounds_all": [
+        [
+          -2.6804068088531494,
+          -10.589007377624512,
+          101.74808502197266
+        ],
+        [
+          5.750286102294922,
+          5.51741361618042,
+          161.1744384765625
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -2.6804068088531494,
+          -10.589007377624512,
+          101.74808502197266
+        ],
+        [
+          5.750286102294922,
+          5.51741361618042,
+          161.1744384765625
+        ]
+      ],
+      "source_vb_sha256": "450fcce47c441035aec2d2bc398e56e528771d865672e4623239020d094fc008",
+      "source_ib_sha256": "a9cb490a03f329d0d57c713aabe9669f2c3177a7ae4472f6296bd69860ac4402",
+      "assembly52_raw_hex": "12000000120000001600000001000000040000004600000000000000d20000000000000000000000480000000000000000000000",
+      "source_vb_file_offset": 111300,
+      "source_ib_file_offset": 141880,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-18.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-18.u16"
+    },
+    {
+      "fab": 1789717,
+      "assembly": 19,
+      "native_material": 737050,
+      "vertices": 121,
+      "triangles": 128,
+      "bone": -1,
+      "remap_count": 4,
+      "remaps": [
+        {
+          "bone_index": 12,
+          "bone_index_file_offset": 5207,
+          "trs": {
+            "file_offset": 5159,
+            "raw_hex": "bb92ba42e1448041166674c100000000126c30bfdeaf09bd3515393f4f75103d0300803ffcff7f3f0400803f1e000000",
+            "quaternion_xyzw": [
+              93.28658294677734,
+              16.033632278442383,
+              -15.274923324584961,
+              0.0
+            ],
+            "position_xyzw": [
+              -0.689149022102356,
+              -0.03361498564481735,
+              0.7229798436164856,
+              0.03526812419295311
+            ],
+            "scale_xyzw": [
+              1.0000003576278687,
+              0.9999997615814209,
+              1.0000004768371582,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared9192.7872 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 13,
+          "bone_index_file_offset": 5259,
+          "trs": {
+            "file_offset": 5211,
+            "raw_hex": "1b4972422554af40b36574c1000000006a7e30bfaf72df3c7528393f2176eabc0300803f0300803f0000803f1e000000",
+            "quaternion_xyzw": [
+              60.57139205932617,
+              5.4790215492248535,
+              -15.274828910827637,
+              0.0
+            ],
+            "position_xyzw": [
+              -0.6894289255142212,
+              0.02727636508643627,
+              0.7232735753059387,
+              -0.028620781376957893
+            ],
+            "scale_xyzw": [
+              1.0000003576278687,
+              1.0000003576278687,
+              1.0,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared3932.23361 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 14,
+          "bone_index_file_offset": 5311,
+          "trs": {
+            "file_offset": 5263,
+            "raw_hex": "133f9b41763f833ef2c166c100000000ee4432bf7e78fb3dee44323fc377fbbd0000803f0300803f0300803f1e000000",
+            "quaternion_xyzw": [
+              19.405797958374023,
+              0.2563435435295105,
+              -14.42234992980957,
+              0.0
+            ],
+            "position_xyzw": [
+              -0.6963642835617065,
+              0.12278841435909271,
+              0.6963642835617065,
+              -0.12278702110052109
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.0000003576278687,
+              1.0000003576278687,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared584.654884 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 19,
+          "bone_index_file_offset": 5363,
+          "trs": {
+            "file_offset": 5315,
+            "raw_hex": "3b54e5a4e2e6cfbf00000000000000000000000000000000f304353ff30435bf0000803f0000803f0000803f1e000000",
+            "quaternion_xyzw": [
+              -9.945561096406005e-17,
+              -1.6242334842681885,
+              0.0,
+              0.0
+            ],
+            "position_xyzw": [
+              0.0,
+              0.0,
+              0.7071067690849304,
+              -0.7071067690849304
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.0,
+              1.0,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared2.63813441 outside admitted unit domain"
+          }
+        }
+      ],
+      "rigid_single_bone": false,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        -11.980084419250488,
+        8.79845905303955,
+        54.829776763916016
+      ],
+      "descriptor_radius": 40.648284912109375,
+      "source_local_bounds_all": [
+        [
+          -16.166385650634766,
+          4.695876121520996,
+          14.389482498168945
+        ],
+        [
+          -5.960587978363037,
+          11.808232307434082,
+          95.27007293701172
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -16.166385650634766,
+          4.695876121520996,
+          14.389482498168945
+        ],
+        [
+          -5.960587978363037,
+          11.808232307434082,
+          95.27007293701172
+        ]
+      ],
+      "source_vb_sha256": "d632fe4b65fb5348da4ff781fa6e207a6913391e364f257f6e7bedac09f69e51",
+      "source_ib_sha256": "6882e7cbb4d1faad341c9f4ebbfa6ceef1fde665bcc0f37161be142589ee20c5",
+      "assembly52_raw_hex": "13000000130000001600000001000000040000008000000000000000800100000000000000000000790000000000000000000000",
+      "source_vb_file_offset": 115632,
+      "source_ib_file_offset": 142304,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-19.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-19.u16"
+    },
+    {
+      "fab": 1789717,
+      "assembly": 20,
+      "native_material": 737050,
+      "vertices": 117,
+      "triangles": 120,
+      "bone": -1,
+      "remap_count": 4,
+      "remaps": [
+        {
+          "bone_index": 4,
+          "bone_index_file_offset": 5484,
+          "trs": {
+            "file_offset": 5436,
+            "raw_hex": "685dba42b0be834147cd934100000000124a383f76c0163d2a3531bf4ffb10bd0300803f0100803f0200803f1e000000",
+            "quaternion_xyzw": [
+              93.18243408203125,
+              16.468109130859375,
+              18.47523307800293,
+              0.0
+            ],
+            "position_xyzw": [
+              0.719880223274231,
+              0.03680463880300522,
+              -0.6922174692153931,
+              -0.03539591655135155
+            ],
+            "scale_xyzw": [
+              1.0000003576278687,
+              1.0000001192092896,
+              1.000000238418579,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared9295.49888 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 5,
+          "bone_index_file_offset": 5536,
+          "trs": {
+            "file_offset": 5488,
+            "raw_hex": "735f72426725ad4097cd934100000000235f383f96a3f4bc6a4931bfe645eb3c0200803f0300803ffeff7f3f1e000000",
+            "quaternion_xyzw": [
+              60.59321212768555,
+              5.410815715789795,
+              18.475385665893555,
+              0.0
+            ],
+            "position_xyzw": [
+              0.7202016711235046,
+              -0.029863160103559494,
+              -0.6925264596939087,
+              0.02871985360980034
+            ],
+            "scale_xyzw": [
+              1.000000238418579,
+              1.0000003576278687,
+              0.9999998807907104,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared4042.15416 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 6,
+          "bone_index_file_offset": 5588,
+          "trs": {
+            "file_offset": 5540,
+            "raw_hex": "353f9b41155e833eda398e4100000000ee4432bf7e78fb3dee44323fc377fbbd0000803f0300803f0300803f1e000000",
+            "quaternion_xyzw": [
+              19.40586280822754,
+              0.25657716393470764,
+              17.778247833251953,
+              0.0
+            ],
+            "position_xyzw": [
+              -0.6963642835617065,
+              0.12278841435909271,
+              0.6963642835617065,
+              -0.12278702110052109
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.0000003576278687,
+              1.0000003576278687,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared692.719439 outside admitted unit domain"
+          }
+        },
+        {
+          "bone_index": 11,
+          "bone_index_file_offset": 5640,
+          "trs": {
+            "file_offset": 5592,
+            "raw_hex": "3b54e5a4e2e6cfbf00000000000000000000000000000000f304353ff30435bf0000803f0000803f0000803f1e000000",
+            "quaternion_xyzw": [
+              -9.945561096406005e-17,
+              -1.6242334842681885,
+              0.0,
+              0.0
+            ],
+            "position_xyzw": [
+              0.0,
+              0.0,
+              0.7071067690849304,
+              -0.7071067690849304
+            ],
+            "scale_xyzw": [
+              1.0,
+              1.0,
+              1.0,
+              4.203895392974451e-44
+            ],
+            "local_matrix_row_major": null,
+            "transform_error": "quaternion norm-squared2.63813441 outside admitted unit domain"
+          }
+        }
+      ],
+      "rigid_single_bone": false,
+      "distance_min": 0.0,
+      "distance_max": 25000.0,
+      "descriptor_bound_center": [
+        16.032485961914062,
+        8.202956199645996,
+        54.78650665283203
+      ],
+      "descriptor_radius": 40.64837646484375,
+      "source_local_bounds_all": [
+        [
+          10.012990951538086,
+          4.1134796142578125,
+          14.346124649047852
+        ],
+        [
+          20.218788146972656,
+          11.212729454040527,
+          95.22689056396484
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          10.012990951538086,
+          4.1134796142578125,
+          14.346124649047852
+        ],
+        [
+          20.218788146972656,
+          11.212729454040527,
+          95.22689056396484
+        ]
+      ],
+      "source_vb_sha256": "0d1921fc0a828f3349ad943b0bb16bce67bec98b96857db74b3b1d8d75a6bf53",
+      "source_ib_sha256": "fe3256c7810f0a03a00311f628bb883bf26f4c61c4b3a14a5855278fb105a18f",
+      "assembly52_raw_hex": "14000000140000001600000001000000040000007800000000000000680100000000000000000000750000000000000000000000",
+      "source_vb_file_offset": 122904,
+      "source_ib_file_offset": 143076,
+      "raw_vertex_file": "raw-meshes\\1789717\\assembly-20.vb60",
+      "raw_index_file": "raw-meshes\\1789717\\assembly-20.u16"
+    },
+    {
+      "fab": 1880465,
+      "assembly": 0,
+      "native_material": 1880463,
+      "vertices": 424,
+      "triangles": 604,
+      "bone": 2,
+      "remap_count": 0,
+      "remaps": [],
+      "rigid_single_bone": true,
+      "distance_min": 0.0,
+      "distance_max": 5000.0,
+      "descriptor_bound_center": [
+        2.003424644470215,
+        0.4978615641593933,
+        -23.496780395507812
+      ],
+      "descriptor_radius": 85.46004486083984,
+      "source_local_bounds_all": [
+        [
+          -11.07607650756836,
+          -4.826735973358154,
+          -107.94999694824219
+        ],
+        [
+          15.082925796508789,
+          5.825641632080078,
+          60.95643615722656
+        ]
+      ],
+      "source_local_bounds_used": [
+        [
+          -11.07607650756836,
+          -4.826735973358154,
+          -107.94999694824219
+        ],
+        [
+          15.082925796508789,
+          5.825641632080078,
+          60.95643615722656
+        ]
+      ],
+      "source_vb_sha256": "e233102852916da55d655feb6683ee9da46c4887febf094318704affaecc8145",
+      "source_ib_sha256": "182a00979767a1a4d09d8f5a8f3a390a355778a37470679501be9367f3adefd5",
+      "assembly52_raw_hex": "00000000000000001200000001000000040000005c02000000000000140700000000000000000000a80100000000000000000000",
+      "source_vb_file_offset": 24,
+      "source_ib_file_offset": 20380,
+      "raw_vertex_file": "raw-meshes\\1880465\\assembly-00.vb48",
+      "raw_index_file": "raw-meshes\\1880465\\assembly-00.u16",
+      "candidate_bind_bounds": [
+        [
+          -21.013473510742188,
+          -5.083216667175293,
+          -27.94072914123535
+        ],
+        [
+          5.145313262939453,
+          5.569162368774414,
+          140.96578979492188
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Bind candidate uses source-conjugated TQS hierarchy, not an observed animation pose. Do not promote as original active pose proof.",
+    "18 rigid container parts source-classified; unsupported sword material removes part0 from placed candidate. Three multibone/remapped parts withheld, not frozen with invented weights.",
+    "Sword model has no proven loose-world GOR/socket placement. Source-local and bind candidate remain unplaced; no arbitrary sword spawn.",
+    "Current family11 requires separate cube505647 and authored scene EnvironmentTint binding; candidate does not fabricate ambient/environment globals.",
+    "Raw source VB/IB retain every bone-index/weight/SNORM fourth component; OAWE76 is a derived static candidate only.",
+    "No collision or interaction/animation is added. Motion set1789863 exists but clip/state mapping has not been decoded."
+  ],
+  "supported_rigid_assemblies": 17,
+  "supported_rigid_triangles": 1370,
+  "withheld": [
+    {
+      "fab": 1789717,
+      "assembly": 0,
+      "triangles": 610,
+      "reason": "unsupported characterhardlight545212"
+    },
+    {
+      "fab": 1789717,
+      "assembly": 18,
+      "triangles": 70,
+      "reason": "multiple-bone remapping/active skin deformation not proven"
+    },
+    {
+      "fab": 1789717,
+      "assembly": 19,
+      "triangles": 128,
+      "reason": "multiple-bone remapping/active skin deformation not proven"
+    },
+    {
+      "fab": 1789717,
+      "assembly": 20,
+      "triangles": 120,
+      "reason": "multiple-bone remapping/active skin deformation not proven"
+    }
+  ],
+  "profiles": [
+    {
+      "local_material": 0,
+      "native_material": 459142,
+      "family": 1,
+      "flags": 268435456,
+      "source_alpha_test": 0,
+      "cutoff_byte": 0,
+      "source_cull": 2,
+      "assets": [
+        488732,
+        489079,
+        488734,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture_slots": [
+        6,
+        8,
+        7,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ]
+    },
+    {
+      "local_material": 1,
+      "native_material": 464114,
+      "family": 11,
+      "flags": 268435456,
+      "source_alpha_test": 0,
+      "cutoff_byte": 0,
+      "source_cull": 2,
+      "assets": [
+        464115,
+        464116,
+        464117,
+        464128,
+        null,
+        null,
+        null,
+        null
+      ],
+      "color": [
+        0.8980392813682556,
+        0.6666666865348816,
+        0.5647059082984924,
+        1.0
+      ],
+      "specular": [
+        1.7599999904632568,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        0.4000000059604645,
+        1.0
+      ],
+      "probe_asset": 505647,
+      "environment_requirement": "Authored current-scene EnvironmentTint and exact cube505647 binding, see family11-integration-contract.json",
+      "texture_slots": [
+        0,
+        1,
+        2,
+        5,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ]
+    },
+    {
+      "local_material": 2,
+      "native_material": 464123,
+      "family": 1,
+      "flags": 268435456,
+      "source_alpha_test": 0,
+      "cutoff_byte": 0,
+      "source_cull": 2,
+      "assets": [
+        464119,
+        464120,
+        576181,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture_slots": [
+        3,
+        4,
+        9,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295,
+        4294967295
+      ]
+    },
+    {
+      "local_material": 3,
+      "native_material": 737050,
+      "family": 1,
+      "flags": 805339138,
+      "source_alpha_test": 1,
+      "cutoff_byte": 128,
+      "source_cull": 2,
+      "assets": [
+        737047,
+        737048,
+        737049,
+        null,
+        null,
+        null,
+        737046,
+        null
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular": [
+        1.5,
+        10.0,
+        0.0,
+        0.0
+      ],
+      "uv": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "texture_slots": [
+        11,
+        12,
+        13,
+        4294967295,
+        4294967295,
+        4294967295,
+        10,
+        4294967295
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "local_texture": 0,
+      "asset": 464115,
+      "source": "textures-portable-512/asset-464115.oatx",
+      "sha256": "36b3b07fcc54d07b41c1bdadb06b7b3d419040f963dc30765f798817c68b12eb"
+    },
+    {
+      "local_texture": 1,
+      "asset": 464116,
+      "source": "textures-portable-512/asset-464116.oatx",
+      "sha256": "7feef876fc105a3540efb17cec2ee3127d461dade0d194446354d7a33be4f7d8"
+    },
+    {
+      "local_texture": 2,
+      "asset": 464117,
+      "source": "textures-portable-512/asset-464117.oatx",
+      "sha256": "4e509e25ac190cf7e33a2750e723e4aa91126b076b9996f1121e2cc4a3efd81d"
+    },
+    {
+      "local_texture": 3,
+      "asset": 464119,
+      "source": "textures-portable-512/asset-464119.oatx",
+      "sha256": "4b39f5b7ab055142fe141d9a08f6ae79e993ae09798a2a0c8194ff2a850b9d2a"
+    },
+    {
+      "local_texture": 4,
+      "asset": 464120,
+      "source": "textures-portable-512/asset-464120.oatx",
+      "sha256": "814dbdbb77d2f41c4006672790d0bf15a359ef95a2f0b1cfd1f1ff6d23e2e429"
+    },
+    {
+      "local_texture": 5,
+      "asset": 464128,
+      "source": "textures-portable-512/asset-464128.oatx",
+      "sha256": "e5165e0f8853eff19b23b4de6e92a1f81dc3d852823ecff90cbc37d8baff36b8"
+    },
+    {
+      "local_texture": 6,
+      "asset": 488732,
+      "source": "textures-portable-512/asset-488732.oatx",
+      "sha256": "2f39eb2753438b9c2a425033bd344d4bcf62b2020be34f676b6447c41e604502"
+    },
+    {
+      "local_texture": 7,
+      "asset": 488734,
+      "source": "textures-portable-512/asset-488734.oatx",
+      "sha256": "2cc2c7a9aa88e4daf3250d3137a5ff0f94312cd794403789d4c7034270427fa5"
+    },
+    {
+      "local_texture": 8,
+      "asset": 489079,
+      "source": "textures-portable-512/asset-489079.oatx",
+      "sha256": "df8c31cbf2a21f4f536cf7990f78b6455b9d06dbd95904fedc4f0ff67540d9fc"
+    },
+    {
+      "local_texture": 9,
+      "asset": 576181,
+      "source": "textures-portable-512/asset-576181.oatx",
+      "sha256": "727324fff7f8cd112697c18a2a95f47001737d66c11dd87292c0df4b9e296efe"
+    },
+    {
+      "local_texture": 10,
+      "asset": 737046,
+      "source": "textures-portable-512/asset-737046.oatx",
+      "sha256": "df8202003f6360e811e7400ccb0508911ad9249e6d97822c582b8502e48477e6"
+    },
+    {
+      "local_texture": 11,
+      "asset": 737047,
+      "source": "textures-portable-512/asset-737047.oatx",
+      "sha256": "64ed27221f7f50fbb0f9e8c95eb8798c40239304d9430caeefda9b34c7ed8af2"
+    },
+    {
+      "local_texture": 12,
+      "asset": 737048,
+      "source": "textures-portable-512/asset-737048.oatx",
+      "sha256": "b9cfed17c75244cf4e42552eae4c7a8c5e955abf49017d85cf791d7e817e8bf5"
+    },
+    {
+      "local_texture": 13,
+      "asset": 737049,
+      "source": "textures-portable-512/asset-737049.oatx",
+      "sha256": "e6942cff8f9e77ace75e2ebf2bbe981c62623b7029a75534d4bf05270bfa95a8"
+    }
+  ],
+  "placement_matrix": [
+    -0.031208219888874567,
+    0.9995129942046574,
+    0.0,
+    -1666.24658203125,
+    -0.9995129942046574,
+    -0.031208219888874567,
+    0.0,
+    2861.4287109375,
+    0.0,
+    0.0,
+    1.0,
+    40.57246398925781,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "full_container_triangles": 2298,
+  "sword_triangles": 604
+}

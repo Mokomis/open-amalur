@@ -1,0 +1,126 @@
+{
+  "hash_source": "work/v07-scripts/scene_asset_keys.c::scene_asset_ascii_hash",
+  "hash_source_sha256": "ad78ead5b4670219f948af2e135f45756c6cff695a708cb3a1dcc6ea9f8bbe1d",
+  "native_exe_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "scope": "NUL-delimited native identifier strings length2..91, only exact13patronstatkeys retained; hash-match evidence, not proof of manager association",
+  "matches": {
+    "24553536": [
+      {
+        "name": "Lightning_resistance",
+        "source": "buff_utils686835",
+        "function": "0",
+        "pc": 623,
+        "file_offset": 2785
+      }
+    ],
+    "12471488": [],
+    "31567303": [
+      {
+        "name": "Physical_damage_amount",
+        "source": "buff_utils686835 evaluated top-level data",
+        "data_path": "/m_flat_damage_params key"
+      }
+    ],
+    "33719719": [
+      {
+        "name": "Lightning_damage_amount",
+        "source": "buff_utils686835 evaluated top-level data",
+        "data_path": "/m_flat_damage_params key"
+      }
+    ],
+    "17720999": [
+      {
+        "name": "Poison_resistance",
+        "source": "buff_utils686835",
+        "function": "0",
+        "pc": 632,
+        "file_offset": 2821
+      }
+    ],
+    "25760551": [
+      {
+        "name": "exp_amount_multiplier",
+        "file_offset": 20368436
+      }
+    ],
+    "3817837": [
+      {
+        "name": "Critical",
+        "file_offset": 20368028
+      }
+    ],
+    "13764558": [
+      {
+        "name": "Fire_resistance",
+        "source": "buff_utils686835",
+        "function": "0",
+        "pc": 617,
+        "file_offset": 2761
+      }
+    ],
+    "17514000": [
+      {
+        "name": "Poison_dot_amount",
+        "source": "buff_utils686835 evaluated top-level data",
+        "data_path": "/m_special_case_params key"
+      }
+    ],
+    "24156528": [
+      {
+        "name": "PowerRecoveryCombat",
+        "file_offset": 20368616
+      }
+    ],
+    "981938": [
+      {
+        "name": "Power",
+        "file_offset": 20368692
+      }
+    ],
+    "1657941": [
+      {
+        "name": "Health",
+        "file_offset": 20370364
+      }
+    ],
+    "20100342": [
+      {
+        "name": "Fire_damage_amount",
+        "source": "buff_utils686835 evaluated top-level data",
+        "data_path": "/m_flat_damage_params key"
+      }
+    ],
+    "25163959": [
+      {
+        "name": "elemental_resistance",
+        "source": "buff_utils686835",
+        "function": "0",
+        "pc": 626,
+        "file_offset": 2797
+      }
+    ],
+    "14222424": [],
+    "9846907": [
+      {
+        "name": "PowerRecovery",
+        "file_offset": 20368636
+      }
+    ],
+    "12162558": [
+      {
+        "name": "Ice_resistance",
+        "source": "buff_utils686835",
+        "function": "0",
+        "pc": 620,
+        "file_offset": 2773
+      }
+    ],
+    "17917247": [
+      {
+        "name": "Ice_damage_amount",
+        "source": "buff_utils686835 evaluated top-level data",
+        "data_path": "/m_flat_damage_params key"
+      }
+    ]
+  }
+}

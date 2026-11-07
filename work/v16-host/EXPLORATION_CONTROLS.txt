@@ -1,0 +1,58 @@
+Opem Amalur Android 0.9 exploration controls
+
+This is a new scene exploration controller using the recovered static geometry.
+It does not fire original game input/gameplay events, move a recovered actor,
+or claim original movement/physics semantics. Script initialization remains the
+v08 implementation and uses the existing v08 portable library.
+
+Touch: left region is a floating movement stick; right region drags the view.
+RESET revalidates the authored interior spawn. VIEW toggles walk and overview.
+In overview, the movement stick forward/back changes distance; right drag rotates.
+Keyboard: W/A/S/D move, arrow keys look, R resets and V toggles view.
+Gamepad: Android X/Y axes move, Z/RZ axes look, Select resets, Start toggles view.
+Raw axis support depends on Android's device mapping; missing axes read neutral.
+A fixed 0.18 dead zone is an explicit preview policy, not device calibration.
+UI labels, font pixels, camera and control rules are authored host functionality.
+
+Default first person requires a collision world and a validated floor/headroom
+spawn. Initial hint is [-350,380,0]; the collision component selects a validated
+nearby position. Feet+0.9*height is the eye position. Z is up. Scale assumption is
+100 source units per metre; radius32,height170,speed240 use that assumption.
+Failure shows MOVEMENT UNAVAILABLE and retains overview instead of free flight.
+Step failure freezes the collision state, disables walking, and requires RESET.
+
+All scene/collision/input/GL state belongs to the render worker. No static mutable
+Activity state. Frame dt is clamped to 50 ms, excess elapsed time is discarded;
+collision implementation substeps at <=1/120 sec. Pauses, lost focus, cancellation,
+queue/window changes and input inventory changes clear held state. Unknown device
+inventory does not preserve old keyboard/gamepad holds. Input event pointers are
+never retained. Touch pointer IDs, not unstable pointer indices, own gestures.
+
+CPU scene geometry and collision BVH persist through EGL recreation. UI GL objects
+are recreated/destroyed with the EGL context. Successful script realm stays owned
+by the worker and is released on the same thread. Existing bounded synchronous
+bootstrap can still delay first frame or shutdown; it is not an asynchronous loader.
+
+Official input references consulted:
+https://developer.android.com/games/sdk/game-controller/controller-input
+https://developer.android.com/ndk/reference/group/input
+
+Verification pending on Windows/Android: build, actual spawn/body clearance,
+combined multitouch, analog mappings, rotation, pause/resume, device removal,
+surface recreation, resets, thin walls/stairs/slopes and sustained memory use.
+
+Material integration: CMake AMALUR_SCENE_SHA256 must be the exact packaged scene.bin
+SHA256 (64 hexadecimal characters). Packaging must revalidate that scene file hash.
+The sidecar asset is scene_materials.bin, parsed against that compiled identity and
+vertex count. Missing/unconfigured/rejected materials use explicit diagnostic colors
+and log the reason. CPU material payload persists across EGL recreation; textures
+are released before context teardown. CPU payload and GPU texture+UV budgets are
+128 MiB each; transient input bytes can add another 128 MiB while parsing. These
+limits are separate from geometry, collision, Lua256MiB and script resources128MiB.
+The recovered RGBA data uses authored opaque diagnostic lighting and sampler rules.
+
+Portable fixture target amalur-exploration-input-test exercises held keys, device
+switches, key repeats, cancel, unknown sources, analog deadzone/nonfinite values,
+diagonal normalization, touch pointer reordering, independent finger release,
+malformed coordinates, and UI button hit regions. Its synthetic Android transport
+headers are isolated to the test target. APK uses real NDK event APIs.

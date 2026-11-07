@@ -1,0 +1,19 @@
+Selected scene: Gorhart alchemist shop, DATA scene524859 and collision set524858.
+Source SHA25692fd44eae2e5787853e1b4db4308171b4ac7ae62d1d189c31045ccc8a8d0b5b4.
+Patch variant remains separately preserved and is not mixed into the selected DATA scene.
+
+Static native corroboration, original pinned koa.exe:
+- d70df0 loads the compiled carrier through a6e7c0, stores its payload at CollisionSet+0x168, resolves the root reference array and calls d70a00.
+- d70a00 reads root+8 cell pointer/root+12 count; advances cells by16, copying cell coordinates. Per cell it reads+8 mesh pointer/+12 count and advances mesh records by20.
+- Each mesh passes triangle pointer/count at+12/+16 and vertex pointer/count at+4/+8 to d69880. The first mesh word affects native collision settings via d6ed20; retain it, do not call its semantics recovered.
+- d69880 constructs BulletMeshInterface and BulletBvhTriangleMeshShapeWrapper. Its indexed-mesh descriptor uses triangle stride16 and vertex stride12; indices have the integer type and positions the float type. Only the first three triangle words are vertex indices. Fourth word is retained as uninterpreted surface data by the parser.
+- d70a00 converts the shape bounds to scene coordinates by multiplying xyz by100. Independent point comparison corroborates that alignment:1243/8821 collision vertices match recovered scene points rounded to0.1 scene unit, versus0/8821 at scale1. Differing collision topology means point equality is not required for every vertex.
+
+Recovered output:5cells,7meshes,14,217triangles. Exact geometry output SHA256fb23a7088e4cb7e00d097e288f426cd56e11e74476526ca388890b98cc79df9c.
+Windows exploratory paths against this geometry:8x360frames, no collision clearance failures or recoveries. This is a prior meaningful milestone check, not a requirement to rebuild/test after every edit.
+
+Reconstruction boundaries:
+- The recovered geometry is used by our authored standing-capsule controller. Original Bullet simulation/filter masks, friction, player motion, dynamic collisions and contact/material behavior are not reproduced.
+- All selected static mesh triangles are admitted; original collision layer settings and dynamic behavior remain pending. Tag/surface metadata remains preserved for subsequent work.
+- The importer fails closed on unknown relocation layout, external collision-set references, nonfinite/out-of-range positions, malformed triangle indices, overlap, gaps, trailing bytes and bounded-count violations.
+- Original executable is read-only; no native game execution is claimed. REA JSON evidence is retained under outputs/scene-v10/rea-session-live.

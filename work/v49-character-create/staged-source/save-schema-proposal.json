@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "format": "Proposed custom save extension, not original native save layout",
+  "storage": "Versioned optional chunk or companion profile; keep existing legacy save reader migration intact",
+  "fields": {
+    "profile_version": "u32",
+    "player_name_utf8": "length-delimited UTF8; validate16UIunits outside raw byte length",
+    "race": "stableenum and sourcehash",
+    "gender": "stableenum and sourcehash",
+    "patron_name_and_buff_id": "preserve None1697849",
+    "full_player_simtype": "u32",
+    "creator_template_simtype": "u32",
+    "preset_index": "u32; retain selected sourcepreset separately",
+    "cosmetic_asset_simtype_ids": "head,hair,beard,ears,tattoo,accessory as applicable",
+    "cosmetic_color_option_keys": "persist actual record optionKey plus sourceindex/category; skin also needs selected head/body diffuseIDs",
+    "cosmetic_alpha": "tattoo/eyebrow/eyeliner/lipstick0..255",
+    "racial_bonus_applied": "bool prevents double grant after loading",
+    "patron_buff_applied": "bool plus active buff data/derived-stat rebuild",
+    "creator_phase_and_committed": "resume safely before commit; naming occurs after creator in original flow",
+    "tutorial_stage": "separate versioned opening progress, owned by tutorial task"
+  },
+  "do_not_persist_as_identity": [
+    "only current partmask",
+    "only bakedcharacter filename",
+    "only presetindex without race/gender or cosmetic changes",
+    "only racial hash while silently ignoring gameplay bonuses"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "source": "lighting-research/captured-global.json + dot3-authored-materials.json",
+  "captured_globals_sha256": "543502f4e615075383f666538b97d6ba735814864083afe1248a1c0005796c0a",
+  "profiles": [
+    {
+      "material_index": 256,
+      "native_material_id": 301326,
+      "constant_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_values": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "shader_id": 8827
+    },
+    {
+      "material_index": 255,
+      "native_material_id": 299790,
+      "constant_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "specular_values": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "shader_id": 8827
+    },
+    {
+      "material_index": 257,
+      "native_material_id": 1377236,
+      "constant_color": [
+        1.0,
+        0.8313726186752319,
+        0.5764706134796143,
+        1.0
+      ],
+      "specular_values": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ],
+      "shader_id": 8827
+    }
+  ],
+  "files": {
+    "lighting.bin": {
+      "sha256": "c09ebf106e3947d77180838493f49dbcc70b90391ac51ee92ef8526c424aef67",
+      "bytes": 32,
+      "before_sha256": null
+    },
+    "material-lighting.bin": {
+      "sha256": "6961e09761d7facd7ccfa76256ec7837ace302d33104604355028ac71103bf3b",
+      "bytes": 9300,
+      "before_sha256": null
+    }
+  },
+  "limitations": [
+    "Plain dot3 family matched layout; exact per-native-material-to-captured-draw correspondence unresolved",
+    "Recovered ambient terms enabled only for three profiled materials; direct lighting, shadows and unsupported families remain current approximations"
+  ]
+}

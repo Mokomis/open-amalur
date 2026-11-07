@@ -1,0 +1,1046 @@
+[
+  {
+    "id": 24356,
+    "state": "running",
+    "stack": [
+      "0x7ffb464c26d8 open-amalur-windows.exe!GetMessageA",
+      "0x7ff7ae15f756 open-amalur-windows.exe!main C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\desktop_platform.c:102:67",
+      "0x7ff7ae1899bf open-amalur-windows.exe!__scrt_common_main_seh D:\\a\\_work\\1\\s\\src\\vctools\\crt\\vcstartup\\src\\startup\\exe_common.inl:288:34",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23104,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb41ab356c open-amalur-windows.exe!DwmpDxGetWindowSharedSurface",
+      "0x7ffb41962868 open-amalur-windows.exe!CompatString",
+      "0x7ffb41963c22 open-amalur-windows.exe!CompatString",
+      "0x7ffb419699dc open-amalur-windows.exe!CompatString",
+      "0x7ffb41969590 open-amalur-windows.exe!CompatString",
+      "0x7ffa936131e6 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93654fb6 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9365528d open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93529783 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa933078f3",
+      "0x7ffa933092d8 open-amalur-windows.exe!EGL_SwapBuffers",
+      "0x7ff7ae15fa78 open-amalur-windows.exe!oa_desktop_swap C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\desktop_platform.c:78:344",
+      "0x7ff7ae125bac open-amalur-windows.exe!graphics_draw C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v19-host\\android_scene.c:394:18",
+      "0x7ff7ae12b840 open-amalur-windows.exe!worker_main C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v19-host\\android_scene.c:745:88",
+      "0x7ff7ae12838c open-amalur-windows.exe!oa_thread_entry C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\include\\pthread.h:10:28"
+    ]
+  },
+  {
+    "id": 6868,
+    "state": "running",
+    "stack": [
+      "0x7ffb4765ba2b open-amalur-windows.exe!RtlSleepConditionVariableCS",
+      "0x7ffb44853ac8 open-amalur-windows.exe!SleepConditionVariableCS",
+      "0x7ff7ae143f70 open-amalur-windows.exe!pthread_cond_wait C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\include\\pthread.h:19:16",
+      "0x7ff7ae144b81 open-amalur-windows.exe!worker C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v19-host\\oa_stream.c:43",
+      "0x7ff7ae143dec open-amalur-windows.exe!oa_thread_entry C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\include\\pthread.h:10:28",
+      "0x7ffb4521cd30 open-amalur-windows.exe!wcsrchr",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 10932,
+    "state": "running",
+    "stack": [
+      "0x7ffb4765ba2b open-amalur-windows.exe!RtlSleepConditionVariableCS",
+      "0x7ffb44853ac8 open-amalur-windows.exe!SleepConditionVariableCS",
+      "0x7ff7ae14a270 open-amalur-windows.exe!pthread_cond_wait C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\include\\pthread.h:19:16",
+      "0x7ff7ae14ae6c open-amalur-windows.exe!worker C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v19-host\\oa_actors.c:40:105",
+      "0x7ff7ae149ffc open-amalur-windows.exe!oa_thread_entry C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\include\\pthread.h:10:28",
+      "0x7ffb4521cd30 open-amalur-windows.exe!wcsrchr",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 16212,
+    "state": "running",
+    "stack": [
+      "0x7ffb4765ba2b open-amalur-windows.exe!RtlSleepConditionVariableCS",
+      "0x7ffb44853ac8 open-amalur-windows.exe!SleepConditionVariableCS",
+      "0x7ff7ae14e140 open-amalur-windows.exe!pthread_cond_wait C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\include\\pthread.h:19:16",
+      "0x7ff7ae14c74e open-amalur-windows.exe!loader C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v19-host\\oa_audio.c:38:94",
+      "0x7ff7ae14de6c open-amalur-windows.exe!oa_thread_entry C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\include\\pthread.h:10:28",
+      "0x7ffb4521cd30 open-amalur-windows.exe!wcsrchr",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 11992,
+    "state": "running",
+    "stack": [
+      "0x7ffb44852773 open-amalur-windows.exe!WaitForMultipleObjectsEx",
+      "0x7ffb14a71f8a",
+      "0x7ffb14a71e55",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21832,
+    "state": "running",
+    "stack": [
+      "0x7ffb47710fd4 open-amalur-windows.exe!RtlDelayExecution",
+      "0x7ffb448bb9c1 open-amalur-windows.exe!SleepEx",
+      "0x7ff7ae15ee4a open-amalur-windows.exe!audio_pump C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v40-windows-host\\desktop_platform.c:91:570",
+      "0x7ffb4521cd30 open-amalur-windows.exe!wcsrchr",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 20052,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cdca271 open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 7488,
+    "state": "running",
+    "stack": [
+      "0x7ffb44852773 open-amalur-windows.exe!WaitForMultipleObjectsEx",
+      "0x7ffb44852641 open-amalur-windows.exe!WaitForMultipleObjects",
+      "0x7ffb2c5bc206 open-amalur-windows.exe!NVAPI_DirectMethods",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 2496,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2ce154af open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 18568,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23768,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 7188,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22240,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 276,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22720,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 9676,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 18748,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22908,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 17976,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23944,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 18320,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 13576,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 20684,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 4132,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23068,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 24440,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2ca31003 open-amalur-windows.exe!SetDependencyInfo",
+      "0x7ffb2ca30975 open-amalur-windows.exe!SetDependencyInfo",
+      "0x7ffb2ca253fd open-amalur-windows.exe!SetDependencyInfo",
+      "0x7ffb2cf0877a open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22980,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 12992,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23416,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 13928,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22988,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22800,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 14016,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22644,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 1528,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 18532,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 4328,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21784,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21428,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23708,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 10004,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 17920,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21828,
+    "state": "running",
+    "stack": [
+      "0x7ffb476997be open-amalur-windows.exe!RtlSleepConditionVariableSRW",
+      "0x7ffb44852a58 open-amalur-windows.exe!SleepConditionVariableSRW",
+      "0x7ffa938102a3 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa937f5930 open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffa9373b3b2 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa93351431 open-amalur-windows.exe!glStartTilingQCOM",
+      "0x7ffa9375ff1f open-amalur-windows.exe!Cr_z_crc32",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 17696,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 19440,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 15472,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22948,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 9608,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21528,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21956,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 11720,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 18024,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 20132,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 24092,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23664,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 6528,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23392,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 15380,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 5632,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 10892,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 8304,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 2788,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23048,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21792,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 3928,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 18860,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 11448,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 6092,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 7508,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 4580,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23916,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 24180,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 3036,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21752,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 23808,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 17572,
+    "state": "running",
+    "stack": [
+      "0x7ffb44852773 open-amalur-windows.exe!WaitForMultipleObjectsEx",
+      "0x7ffb44852641 open-amalur-windows.exe!WaitForMultipleObjects",
+      "0x7ffb2ce10b77 open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb2cf0877a open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 21996,
+    "state": "running",
+    "stack": [
+      "0x7ffb4484be9f open-amalur-windows.exe!WaitForSingleObjectEx",
+      "0x7ffb2cda68a8 open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2cda67cf open-amalur-windows.exe!getDiskCacheFunctionTable",
+      "0x7ffb2d33d2fa open-amalur-windows.exe!NVDEV_Thunk",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 20788,
+    "state": "running",
+    "stack": [
+      "0x7ffb47664d0e open-amalur-windows.exe!TpCallbackMayRunLong",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 22652,
+    "state": "running",
+    "stack": [
+      "0x7ffb47664d0e open-amalur-windows.exe!TpCallbackMayRunLong",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 24772,
+    "state": "running",
+    "stack": [
+      "0x7ffb47664d0e open-amalur-windows.exe!TpCallbackMayRunLong",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 16476,
+    "state": "running",
+    "stack": [
+      "0x7ffb47664d0e open-amalur-windows.exe!TpCallbackMayRunLong",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  },
+  {
+    "id": 24736,
+    "state": "running",
+    "stack": [
+      "0x7ffb47664d0e open-amalur-windows.exe!TpCallbackMayRunLong",
+      "0x7ffb4637dda7 open-amalur-windows.exe!BaseThreadInitThunk",
+      "0x7ffb476bee4c open-amalur-windows.exe!RtlUserThreadStart"
+    ]
+  }
+]

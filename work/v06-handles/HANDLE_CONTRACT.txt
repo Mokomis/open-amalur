@@ -1,0 +1,28 @@
+Opem Amalur typed engine handle marshaling
+
+Use one shared amalur_uint64 carrier per Lua realm. Load this module, then call
+module.new(carrier). Its from_key, from_words, to_words, inspect, quest_key and
+space_key operations preserve exact32-bit words and type11 canonical identity.
+No method queries the game or implements quest/world state.
+
+QUEST.get_stage and QUEST.set_stage admit lowword masked by0xfffffff0 equal to
+0x390; GAME.is_space_loaded admits0x320. The highword is the engine resource key.
+The canonical lowwords include tag0xb:0x39b and0x32b respectively. A key is never
+passed off as an untyped Lua number implicitly; explicit accessors name the
+required domain. These unsigned32 components are exactly representable by
+Lua5.1 numbers, unlike arbitrary combined64-bit values.
+
+The native wrapper does not prove that every invalid space handle returnsfalse.
+Its non-number/string fallback supplies key0 to0x00fb0b10; the downstream result
+is not established here. Number/string handling routes through0x00aa7900. The
+module rejects inputs outside its typed transport domain instead of inventing
+those semantics. It does not replace the GAME or QUEST API.
+
+Original serialized low-nibble bits cannot be reconstructed after canonical
+interning. Retain parser/IR raw_hex alongside the opaque runtime token when
+original-byte provenance is needed. The module only exposes canonical bits.
+
+Windows check: python work\v06-handles\run_handle_tests.py
+The ten Lua checks validate marshaling and realm boundaries, not native engine
+behavior. Native evidence IDs and exact admitted contracts are recorded in
+handle-contract.json.

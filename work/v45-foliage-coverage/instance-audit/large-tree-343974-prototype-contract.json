@@ -1,0 +1,914 @@
+{
+  "fab": 343974,
+  "fab_name": "for_flora_treelarge01",
+  "translation": [
+    8675.91796875,
+    -80072.015625,
+    6627.07666015625
+  ],
+  "quaternion": [
+    0.0,
+    0.0,
+    -0.2321552038192749,
+    0.9726788401603699
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "pose_key": "343974:ac8f074602649cc79d18cf45000000000000000018ba6dbe7b01793f0000803f0000803f0000803f",
+  "source_assemblies": [
+    3,
+    5,
+    7,
+    12
+  ],
+  "source_materials": [
+    353286,
+    359202
+  ],
+  "source_authored_group_candidates": [],
+  "native_authored_group_candidates": [
+    1
+  ],
+  "proven_detail_mismatch": false,
+  "source_parts": [
+    {
+      "source_frustum_candidate": true,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "group": "refs",
+      "record": 546,
+      "render_index": 183,
+      "typed_high4": 15,
+      "fab": 343974,
+      "fab_name": "for_flora_treelarge01",
+      "assembly": 3,
+      "material": 353286,
+      "material_name": "for_flora_treebarkblend",
+      "sphere": [
+        7930.1640625,
+        -80520.7421875,
+        13410.228515625,
+        7563.9013671875
+      ],
+      "translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.2321552038192749,
+        0.9726788401603699
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ported_matrix_row_major": [
+        0.8922079226792619,
+        0.45162490877625316,
+        0.0,
+        0.0,
+        -0.45162490877625316,
+        0.8922079226792619,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625,
+        1.0
+      ],
+      "naive_translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "pose_key": "343974:ac8f074602649cc79d18cf45000000000000000018ba6dbe7b01793f0000803f0000803f0000803f",
+      "triangles": 1242,
+      "frustum_candidate_triangles": 0,
+      "source_vertex_sha256": "9bdc86718707acb9c0c7259942241f7b642f09e43cfd60816d6b9591bcba511d",
+      "source_index_sha256": "dc3e64fe6591be07a115e095099e09c51885277a913edac09c261f60b04f614f",
+      "render_record_hex": "50d1f7455f449dc7ea885146365fec45ac8f074602649cc79d18cf450000803f000000000000000018ba6dbe7b01793f0000803f0000803f0000803f5e00000006640500030000000000000000000000c89b4d4c",
+      "distance": 0
+    },
+    {
+      "source_frustum_candidate": false,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "group": "refs",
+      "record": 547,
+      "render_index": 266,
+      "typed_high4": 15,
+      "fab": 343974,
+      "fab_name": "for_flora_treelarge01",
+      "assembly": 5,
+      "material": 359202,
+      "material_name": "for_flora_treeleaf",
+      "sphere": [
+        8891.6806640625,
+        -80351.140625,
+        18338.0390625,
+        5696.833984375
+      ],
+      "translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.2321552038192749,
+        0.9726788401603699
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ported_matrix_row_major": [
+        0.8922079226792619,
+        0.45162490877625316,
+        0.0,
+        0.0,
+        -0.45162490877625316,
+        0.8922079226792619,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625,
+        1.0
+      ],
+      "naive_translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "pose_key": "343974:ac8f074602649cc79d18cf45000000000000000018ba6dbe7b01793f0000803f0000803f0000803f",
+      "triangles": 110,
+      "frustum_candidate_triangles": 0,
+      "source_vertex_sha256": "398bbd4f53db6e833ad14066f8d86c0755e1c8f75a9248f30cea915cfc615013",
+      "source_index_sha256": "3971213cdd13fae46d86ca47ea0f99ea7a6147f9c2d7e09bf8e484efe707bb5e",
+      "render_record_hex": "b9ee0a4692ef9cc714448f46ac06b245ac8f074602649cc79d18cf450000803f000000000000000018ba6dbe7b01793f0000803f0000803f0000803f5e000000227b05000500000000000000000000001f98934b",
+      "distance": 994.7735123064285
+    },
+    {
+      "source_frustum_candidate": true,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "group": "refs",
+      "record": 548,
+      "render_index": 182,
+      "typed_high4": 15,
+      "fab": 343974,
+      "fab_name": "for_flora_treelarge01",
+      "assembly": 7,
+      "material": 353286,
+      "material_name": "for_flora_treebarkblend",
+      "sphere": [
+        9268.3955078125,
+        -80841.9375,
+        13465.6767578125,
+        7453.841796875
+      ],
+      "translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.2321552038192749,
+        0.9726788401603699
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ported_matrix_row_major": [
+        0.8922079226792619,
+        0.45162490877625316,
+        0.0,
+        0.0,
+        -0.45162490877625316,
+        0.8922079226792619,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625,
+        1.0
+      ],
+      "naive_translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "pose_key": "343974:ac8f074602649cc79d18cf45000000000000000018ba6dbe7b01793f0000803f0000803f0000803f",
+      "triangles": 249,
+      "frustum_candidate_triangles": 0,
+      "source_vertex_sha256": "2cd67e5be337daf5669f96bb64cda9401532d860fb495f79612b1dc94cf00d2a",
+      "source_index_sha256": "2adde4834fa1724bb45a643df0a20dde004f4bf745ed8d3898d47071eff59ded",
+      "render_record_hex": "95d11046f8e49dc7b5665246bceee845ac8f074602649cc79d18cf450000803f000000000000000018ba6dbe7b01793f0000803f0000803f0000803f5e00000006640500070000000000000000000000aefa924b",
+      "distance": 0
+    },
+    {
+      "source_frustum_candidate": false,
+      "space": 431646,
+      "space_name": "out_dal_west_01",
+      "group": "refs",
+      "record": 550,
+      "render_index": 269,
+      "typed_high4": 15,
+      "fab": 343974,
+      "fab_name": "for_flora_treelarge01",
+      "assembly": 12,
+      "material": 359202,
+      "material_name": "for_flora_treeleaf",
+      "sphere": [
+        8682.033203125,
+        -80478.71875,
+        11154.9140625,
+        2785.81591796875
+      ],
+      "translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "quaternion": [
+        0.0,
+        0.0,
+        -0.2321552038192749,
+        0.9726788401603699
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ported_matrix_row_major": [
+        0.8922079226792619,
+        0.45162490877625316,
+        0.0,
+        0.0,
+        -0.45162490877625316,
+        0.8922079226792619,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625,
+        1.0
+      ],
+      "naive_translation": [
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625
+      ],
+      "pose_key": "343974:ac8f074602649cc79d18cf45000000000000000018ba6dbe7b01793f0000803f0000803f0000803f",
+      "triangles": 80,
+      "frustum_candidate_triangles": 0,
+      "source_vertex_sha256": "c7d1a6cd007af6bb3be9131c26c18e8d24a8f2b9ef5f5185d67b3c52916dad89",
+      "source_index_sha256": "0e12098a90eb1eedc9175a211eba6c21f0b2fc545d396b36e058fa1675c6c6f3",
+      "render_record_hex": "22a807465c2f9dc7a84b2e460e1d2e45ac8f074602649cc79d18cf450000803f000000000000000018ba6dbe7b01793f0000803f0000803f0000803f5e000000227b05000c00000000000000000000007180494a",
+      "distance": 3772.1155151894554
+    }
+  ],
+  "native_parts": [
+    {
+      "draw": 69208,
+      "assembly_candidates": [
+        0
+      ],
+      "native_world_matrix": [
+        0.8922079205513,
+        0.45162490010261536,
+        0.0,
+        0.0,
+        -0.45162490010261536,
+        0.8922079205513,
+        -0.0,
+        0.0,
+        -0.0,
+        0.0,
+        1.0,
+        0.0,
+        8675.91796875,
+        -80072.015625,
+        6627.07666015625,
+        1.0
+      ],
+      "vs": 903,
+      "pipeline": 12356,
+      "source_geometry_candidates": [
+        {
+          "fab": 343974,
+          "name": "for_flora_treelarge01",
+          "assembly": 0,
+          "vertex_buffer": 0,
+          "index_buffer": 0,
+          "vertex_sha256": "b33465e313ddb8742066bf06c59f7c82e3a6714c0c9e42ab265b65bd1e7887dd",
+          "index_sha256": "ae51b50cfe8edd538d345c1eb475b33c06946129f4c2d5231f276468981075d3",
+          "stride": 48,
+          "vertices": 4479,
+          "triangles": 6072,
+          "source": "work\\v20-inputs\\patch_0.pak\\343974.fab_visual_data_streamable_bin"
+        }
+      ],
+      "native_index_count": 18216
+    }
+  ],
+  "source_groups": [
+    {
+      "group": 0,
+      "file_offset": 1941,
+      "element_indices": [],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 1,
+      "file_offset": 1969,
+      "element_indices": [
+        0,
+        1,
+        2,
+        10
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 4000.0,
+      "flag": 0
+    },
+    {
+      "group": 2,
+      "file_offset": 2001,
+      "element_indices": [
+        4,
+        8,
+        11
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 12000.0,
+      "flag": 0
+    },
+    {
+      "group": 3,
+      "file_offset": 2032,
+      "element_indices": [
+        3,
+        5,
+        12
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 30000.0,
+      "flag": 0
+    },
+    {
+      "group": 4,
+      "file_offset": 2063,
+      "element_indices": [
+        6,
+        7
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 1000000.0,
+      "flag": 1
+    },
+    {
+      "group": 5,
+      "file_offset": 2093,
+      "element_indices": [
+        9,
+        0
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 6,
+      "file_offset": 2123,
+      "element_indices": [
+        9,
+        3
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 7,
+      "file_offset": 2153,
+      "element_indices": [
+        9,
+        7
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    },
+    {
+      "group": 8,
+      "file_offset": 2183,
+      "element_indices": [
+        9,
+        7
+      ],
+      "second_list": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "threshold": 0.0,
+      "flag": 0
+    }
+  ],
+  "selected_native_group": 1,
+  "native_group_materials": [
+    {
+      "assembly": 0,
+      "native_material": 353286
+    },
+    {
+      "assembly": 1,
+      "native_material": 359202
+    },
+    {
+      "assembly": 2,
+      "native_material": 359202
+    },
+    {
+      "assembly": 10,
+      "native_material": 359202
+    }
+  ],
+  "source_geometry_path": "work\\v20-inputs\\patch_0.pak\\343974.fab_visual_data_streamable_bin",
+  "assembly_frustum_inventory": [
+    {
+      "assembly": 0,
+      "triangles": 6072,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        6808.757308824185,
+        -82613.81940678533,
+        6367.526763916016
+      ],
+      "world_max": [
+        10918.00988030737,
+        -78389.49700410938,
+        20882.49658203125
+      ],
+      "ndc_min": [
+        -4.714337545414763,
+        0.04321762397982106
+      ],
+      "ndc_max": [
+        -1.0712840083978676,
+        15.52009029230552
+      ]
+    },
+    {
+      "assembly": 1,
+      "triangles": 2,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        9256.625142065079,
+        -80757.13438355194,
+        19801.70458984375
+      ],
+      "world_max": [
+        10481.7185194575,
+        -79685.94463830457,
+        19880.35302734375
+      ],
+      "ndc_min": [
+        -8.53370242903748,
+        13.25717414774981
+      ],
+      "ndc_max": [
+        -3.4266180980392558,
+        32.08225431359312
+      ]
+    },
+    {
+      "assembly": 2,
+      "triangles": 110,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        4895.202601968864,
+        -83783.46923065743,
+        12869.10107421875
+      ],
+      "world_max": [
+        12127.801915243588,
+        -75727.0581656235,
+        23806.97705078125
+      ],
+      "ndc_min": [
+        -217.70041439315222,
+        -74.95500595925145
+      ],
+      "ndc_max": [
+        21.24415274407028,
+        918.8340779910372
+      ]
+    },
+    {
+      "assembly": 3,
+      "triangles": 1242,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        6814.597509748779,
+        -82608.13550525975,
+        6367.526763916016
+      ],
+      "world_max": [
+        10915.341807918678,
+        -78419.99860715216,
+        20882.49658203125
+      ],
+      "ndc_min": [
+        -4.631004692226048,
+        0.06093818983197314
+      ],
+      "ndc_max": [
+        -1.0753677241625326,
+        14.885941581561285
+      ]
+    },
+    {
+      "assembly": 4,
+      "triangles": 110,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        5285.928032146159,
+        -83949.87417076663,
+        12869.10107421875
+      ],
+      "world_max": [
+        13315.336880055409,
+        -76900.43305269897,
+        23806.97705078125
+      ],
+      "ndc_min": [
+        -41.99327885848023,
+        -2058.8792118737333
+      ],
+      "ndc_max": [
+        362.0061435379815,
+        131.48417491026092
+      ]
+    },
+    {
+      "assembly": 5,
+      "triangles": 110,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        5285.9269295463055,
+        -83949.87417076663,
+        12869.10107421875
+      ],
+      "world_max": [
+        13315.336880055409,
+        -76900.43305269897,
+        23806.97705078125
+      ],
+      "ndc_min": [
+        -41.99327885848023,
+        -2058.8792118737333
+      ],
+      "ndc_max": [
+        362.0061435379815,
+        131.48417491026092
+      ]
+    },
+    {
+      "assembly": 6,
+      "triangles": 168,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        5841.059585918807,
+        -82285.20716050305,
+        9519.021728515625
+      ],
+      "world_max": [
+        11166.249638318364,
+        -77026.1476864756,
+        23806.97705078125
+      ],
+      "ndc_min": [
+        -10.060651113627321,
+        1.5552130408395588
+      ],
+      "ndc_max": [
+        -1.073355612400426,
+        44.79175670519816
+      ]
+    },
+    {
+      "assembly": 7,
+      "triangles": 249,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        7093.172129826555,
+        -81778.73486265707,
+        6298.6292724609375
+      ],
+      "world_max": [
+        10383.267704931244,
+        -78892.25824122276,
+        20882.49658203125
+      ],
+      "ndc_min": [
+        -3.634214218886171,
+        0.009463780493974486
+      ],
+      "ndc_max": [
+        -1.2187437468599573,
+        14.885941581561285
+      ]
+    },
+    {
+      "assembly": 8,
+      "triangles": 3724,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        6814.597509748779,
+        -82608.13550525975,
+        6367.526763916016
+      ],
+      "world_max": [
+        10915.341807918678,
+        -78419.99860715216,
+        20882.49658203125
+      ],
+      "ndc_min": [
+        -4.659416293314965,
+        0.04968229208147624
+      ],
+      "ndc_max": [
+        -1.0753677241625326,
+        16.445715878923597
+      ]
+    },
+    {
+      "assembly": 9,
+      "triangles": 14,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        6362.232408788717,
+        -82935.38743202438,
+        9724.860595703125
+      ],
+      "world_max": [
+        12208.285886371319,
+        -77483.49059039616,
+        22032.68408203125
+      ],
+      "ndc_min": [
+        -17.162565902345445,
+        -172.58954386198062
+      ],
+      "ndc_max": [
+        63.73326662224073,
+        44.29465233487259
+      ]
+    },
+    {
+      "assembly": 10,
+      "triangles": 80,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        6383.816533910456,
+        -81664.76901057338,
+        9519.021728515625
+      ],
+      "world_max": [
+        11166.249638318364,
+        -78273.74301105322,
+        12464.9697265625
+      ],
+      "ndc_min": [
+        -6.954872899574544,
+        1.5552130408395588
+      ],
+      "ndc_max": [
+        -1.0855391753609476,
+        10.537584227468592
+      ]
+    },
+    {
+      "assembly": 11,
+      "triangles": 80,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        6460.152694598242,
+        -82925.53702974845,
+        9519.019287109375
+      ],
+      "world_max": [
+        10909.283560670334,
+        -78257.64165041214,
+        12464.96142578125
+      ],
+      "ndc_min": [
+        -4.486211056035413,
+        1.833225771959055
+      ],
+      "ndc_max": [
+        -1.072638925412574,
+        6.424682051431484
+      ]
+    },
+    {
+      "assembly": 12,
+      "triangles": 80,
+      "frustum_candidate_triangles": 0,
+      "world_min": [
+        6460.152694598242,
+        -82925.53463368225,
+        9519.019287109375
+      ],
+      "world_max": [
+        10909.283333259114,
+        -78257.63936325804,
+        12464.96142578125
+      ],
+      "ndc_min": [
+        -4.486210321416288,
+        1.833225771959055
+      ],
+      "ndc_max": [
+        -1.0726388664843953,
+        6.424675411821672
+      ]
+    }
+  ],
+  "limit": "Onlynative draw69208 assembly0 observed atthispose. Fullnativegroup1metadata hasleaf1/2/10, allfrustumclippedbyreferenceVP; notmissingdrawproof. Do notforceinvisibleoriginalleafparts orclaimallnativegroup1parts captured."
+}

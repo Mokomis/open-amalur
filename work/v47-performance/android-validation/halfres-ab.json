@@ -1,0 +1,114 @@
+{
+  "pid": "25386",
+  "results": [
+    {
+      "tag": "half-cached",
+      "mode": 1,
+      "samples": [
+        {
+          "counters": {
+            "enabled": "1",
+            "uniform_requests": "24419",
+            "uniform_gl_queries": "0",
+            "uniform_hits": "24419",
+            "texture_requests": "18072",
+            "texture_gl_binds": "13320",
+            "texture_hits": "4752",
+            "world_program_setups": "23"
+          },
+          "profile": {
+            "interval_ms": "16.71",
+            "worst_ms": "29.82",
+            "sim_ms": "0.17",
+            "submit_ms": "15.86",
+            "swap_ms": "0.68",
+            "gpu_ms": "9.49",
+            "gpu_max_ms": "9.64",
+            "gpu_samples": "240",
+            "size": "1260",
+            "vertices": "0"
+          }
+        },
+        {
+          "counters": {
+            "enabled": "1",
+            "uniform_requests": "24419",
+            "uniform_gl_queries": "0",
+            "uniform_hits": "24419",
+            "texture_requests": "18072",
+            "texture_gl_binds": "13320",
+            "texture_hits": "4752",
+            "world_program_setups": "23"
+          },
+          "profile": {
+            "interval_ms": "16.64",
+            "worst_ms": "24.39",
+            "sim_ms": "0.11",
+            "submit_ms": "15.84",
+            "swap_ms": "0.69",
+            "gpu_ms": "9.47",
+            "gpu_max_ms": "9.62",
+            "gpu_samples": "240",
+            "size": "1260",
+            "vertices": "0"
+          }
+        }
+      ]
+    },
+    {
+      "tag": "half-legacy",
+      "mode": 0,
+      "samples": [
+        {
+          "counters": {
+            "enabled": "0",
+            "uniform_requests": "24951",
+            "uniform_gl_queries": "24951",
+            "uniform_hits": "0",
+            "texture_requests": "18930",
+            "texture_gl_binds": "18930",
+            "texture_hits": "0",
+            "world_program_setups": "42"
+          },
+          "profile": {
+            "interval_ms": "19.11",
+            "worst_ms": "20.66",
+            "sim_ms": "0.05",
+            "submit_ms": "18.64",
+            "swap_ms": "0.42",
+            "gpu_ms": "9.53",
+            "gpu_max_ms": "9.74",
+            "gpu_samples": "240",
+            "size": "1260",
+            "vertices": "0"
+          }
+        },
+        {
+          "counters": {
+            "enabled": "0",
+            "uniform_requests": "24951",
+            "uniform_gl_queries": "24951",
+            "uniform_hits": "0",
+            "texture_requests": "18930",
+            "texture_gl_binds": "18930",
+            "texture_hits": "0",
+            "world_program_setups": "42"
+          },
+          "profile": {
+            "interval_ms": "19.10",
+            "worst_ms": "20.11",
+            "sim_ms": "0.07",
+            "submit_ms": "18.61",
+            "swap_ms": "0.42",
+            "gpu_ms": "9.49",
+            "gpu_max_ms": "9.67",
+            "gpu_samples": "240",
+            "size": "1260",
+            "vertices": "0"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Short sequential measurement, 50% linear resolution =25% pixel count; two complete intervals per mode, not long-term thermal proof"
+}

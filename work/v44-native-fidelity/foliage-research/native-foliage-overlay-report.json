@@ -1,0 +1,3785 @@
+{
+  "vertex_format": "OAWF40: pos3float@0, packedWindU32@12, UV2float@16, normal3float@24, RGBA8@36",
+  "native_sources": [
+    "00d46dd0",
+    "00d45f10",
+    "00d3ccb0",
+    "00d3a810",
+    "00d0e2e0",
+    "00cec950",
+    "00b3aad0",
+    "00b0ab40",
+    "00d3a350",
+    "00d398f0",
+    "00d39c80",
+    "00d39fd0",
+    "00d393e0",
+    "00d2ac40"
+  ],
+  "source_terrain_sha256": "f8eb745fde7d7a1a0193c91755f725077176a8d84786a748cfbfd29cb61b7415",
+  "source_stream_sha256": "eb85b122200ba649b98c1d0cfd90517050f00c6d392902f727614f82579ab08a",
+  "metadata": {
+    "mesh_start": 11235,
+    "metadata_end": 14684,
+    "descriptor": [
+      1,
+      21,
+      64,
+      8,
+      32768,
+      3
+    ],
+    "rle_end": 22916,
+    "grid": [
+      64,
+      65,
+      65,
+      50.0
+    ],
+    "field148": 135.93753051757812
+  },
+  "native_material": 344843,
+  "output_material": 254,
+  "seed_examples": [
+    2357136044,
+    2546248239,
+    3071714933,
+    3626093760,
+    2588848963,
+    3684848379,
+    2340255427,
+    3638918503
+  ],
+  "definitions": [
+    {
+      "layer": 0,
+      "definitions": [
+        {
+          "seed": 0,
+          "params": [
+            606.0,
+            600.0,
+            350.0,
+            222.0,
+            450.0,
+            0.0,
+            186.0,
+            554.0,
+            500.0,
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            -38.80510330200195,
+            -57.597599029541016,
+            -8.861197471618652,
+            47.44057083129883,
+            59.18728256225586,
+            135.93753051757812
+          ],
+          "offset": 11316,
+          "end": 11908,
+          "geometry": [
+            {
+              "bounds": [
+                -38.80510330200195,
+                -57.597599029541016,
+                -8.861197471618652,
+                47.44057083129883,
+                59.18728256225586,
+                135.93753051757812
+              ],
+              "material": 344843,
+              "vertex_offset": 11324,
+              "index_offset": 11616,
+              "normal_offset": 11656,
+              "vertex_sha256": "751139dd7ad91c52089250fb0530235e2205ceee633608faa77bd298db194487",
+              "index_sha256": "d61ae5bc9fcc325eca608926dd27c2d1628f7ef8a9d07b8ba8e133bfff8a64ab",
+              "normal_sha256": "8df4c2d54e465abfa7f82168b09be5fc054976eb96e6df9fc3db7db6e316a2bb",
+              "vertices": 12,
+              "indices": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "definitions": [
+        {
+          "seed": 1,
+          "params": [
+            500.0,
+            550.0,
+            328.0,
+            644.0,
+            0.0,
+            0.0,
+            606.0,
+            0.0,
+            500.0,
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            -101.91597747802734,
+            -174.2869110107422,
+            -39.30774688720703,
+            77.42758178710938,
+            32.84651565551758,
+            109.2979965209961
+          ],
+          "offset": 11912,
+          "end": 12564,
+          "geometry": [
+            {
+              "bounds": [
+                -101.91597747802734,
+                -174.2869110107422,
+                -39.30774688720703,
+                77.42758178710938,
+                32.84651565551758,
+                109.2979965209961
+              ],
+              "material": 344843,
+              "vertex_offset": 11920,
+              "index_offset": 12236,
+              "normal_offset": 12300,
+              "vertex_sha256": "91f9dcf278dddf40f9bbcc7e2d36eaaea9dc9ea93186e6d16fb84b5385ea708e",
+              "index_sha256": "c5563b8594262a690b35393dc69aaf928cb1bdc1714b54d965632f1311acec9d",
+              "normal_sha256": "67fc41dc87c2a83fc1e3799045c6d6a81f56f1e58820404c3673e8661dcf1701",
+              "vertices": 13,
+              "indices": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "definitions": [
+        {
+          "seed": 2,
+          "params": [
+            500.0,
+            652.0,
+            274.0,
+            382.0,
+            108.0,
+            0.0,
+            1000.0,
+            0.0,
+            500.0,
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            -37.77030944824219,
+            -59.76320266723633,
+            -7.482204437255859,
+            47.19990539550781,
+            31.64047622680664,
+            61.35474395751953
+          ],
+          "offset": 12568,
+          "end": 13160,
+          "geometry": [
+            {
+              "bounds": [
+                -37.77030944824219,
+                -59.76320266723633,
+                -7.482204437255859,
+                47.19990539550781,
+                31.64047622680664,
+                61.35474395751953
+              ],
+              "material": 344843,
+              "vertex_offset": 12576,
+              "index_offset": 12868,
+              "normal_offset": 12908,
+              "vertex_sha256": "7353f6c73b6af779796c80fff49e6230b9e7f7f0d4f986f5f9326e46b8d90c3b",
+              "index_sha256": "d61ae5bc9fcc325eca608926dd27c2d1628f7ef8a9d07b8ba8e133bfff8a64ab",
+              "normal_sha256": "33a2b20bfaadda8c9e207a3e0890850d5ea854c804030093a9dbe855313e7d21",
+              "vertices": 12,
+              "indices": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "definitions": [
+        {
+          "seed": 3,
+          "params": [
+            550.0,
+            575.0,
+            250.0,
+            220.0,
+            0.0,
+            0.0,
+            998.0,
+            0.0,
+            500.0,
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            -26.916431427001953,
+            -30.13702964782715,
+            -3.968724489212036,
+            15.909823417663574,
+            7.792562484741211,
+            109.15753936767578
+          ],
+          "offset": 13164,
+          "end": 13648,
+          "geometry": [
+            {
+              "bounds": [
+                -26.916431427001953,
+                -30.13702964782715,
+                -3.968724489212036,
+                15.909823417663574,
+                7.792562484741211,
+                109.15753936767578
+              ],
+              "material": 344843,
+              "vertex_offset": 13172,
+              "index_offset": 13392,
+              "normal_offset": 13432,
+              "vertex_sha256": "ea920d804aa667237af447d9d9bd2d8327d9f5aa5f2dde1eaec7f7fb3325731f",
+              "index_sha256": "1827ee19df78e4319b02402444c76aa4035e8e58c94238daa559d6f353c65d25",
+              "normal_sha256": "57b4fbc58ece0a0172ba3f7d051718ed9848044469e4b9db0e11794baa7ec119",
+              "vertices": 9,
+              "indices": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "definitions": [
+        {
+          "seed": 4,
+          "params": [
+            500.0,
+            577.0,
+            250.0,
+            250.0,
+            0.0,
+            0.0,
+            1000.0,
+            0.0,
+            500.0,
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            -32.58560562133789,
+            -44.489444732666016,
+            -19.025413513183594,
+            28.64615821838379,
+            3.4134044647216797,
+            90.72956085205078
+          ],
+          "offset": 13652,
+          "end": 14088,
+          "geometry": [
+            {
+              "bounds": [
+                -32.58560562133789,
+                -44.489444732666016,
+                -19.025413513183594,
+                28.64615821838379,
+                3.4134044647216797,
+                90.72956085205078
+              ],
+              "material": 344843,
+              "vertex_offset": 13660,
+              "index_offset": 13856,
+              "normal_offset": 13884,
+              "vertex_sha256": "df3aa05b616aa3e37e195c481e10655feaf168a3fa2fac5f0fce21b2f0ec69ce",
+              "index_sha256": "7fb2e2ed2e65ff06f736e3e69c1a0f4f29350a72f4fa5adafac2de3c0f338149",
+              "normal_sha256": "b5114f0309f334b6a5db1431ea81aecf2843089070a15d04a60b6f2272a702d2",
+              "vertices": 8,
+              "indices": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "definitions": [
+        {
+          "seed": 5,
+          "params": [
+            500.0,
+            650.0,
+            250.0,
+            250.0,
+            0.0,
+            0.0,
+            1000.0,
+            0.0,
+            500.0,
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "bounds": [
+            -26.008075714111328,
+            -41.10019302368164,
+            -15.044395446777344,
+            52.16143798828125,
+            29.620410919189453,
+            52.308021545410156
+          ],
+          "offset": 14092,
+          "end": 14684,
+          "geometry": [
+            {
+              "bounds": [
+                -26.008075714111328,
+                -41.10019302368164,
+                -15.044395446777344,
+                52.16143798828125,
+                29.620410919189453,
+                52.308021545410156
+              ],
+              "material": 344843,
+              "vertex_offset": 14100,
+              "index_offset": 14392,
+              "normal_offset": 14432,
+              "vertex_sha256": "b10fd33237207eb95bedaceabf5e11bdfb83086c67f0992e3f209492365caac8",
+              "index_sha256": "d61ae5bc9fcc325eca608926dd27c2d1628f7ef8a9d07b8ba8e133bfff8a64ab",
+              "normal_sha256": "d28250a447685088cd8d15d6e7f07278e513169c12edfc94a9ba3ee2d601187a",
+              "vertices": 12,
+              "indices": 18
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "key": 4198396,
+      "stream_offset": 261888,
+      "sha256": "c0debeb5946161cb0aad53981d4cb5e42704960bfbcb2e85a55d540059ed3d4c",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        2
+      ],
+      "key": 4198618,
+      "stream_offset": 276096,
+      "sha256": "57abe40ecd8d754d3cc4b349cfc76b2b162848b6184b95ff6a7fca69882b2ba6",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        2
+      ],
+      "key": 2101800,
+      "stream_offset": 297472,
+      "sha256": "3abd456e037d71c5fc745349c55fb485938e33337568761671435f43c0e7d75a",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        2
+      ],
+      "key": 4199336,
+      "stream_offset": 322048,
+      "sha256": "a46d597b5d9e34e7b7c25585876a5ccab50ab35447f7058802f71f96bbad2442",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        2
+      ],
+      "key": 4199750,
+      "stream_offset": 348544,
+      "sha256": "9961e6630bdcc6dfad9adfbfe41d90335b3813cb98bf9cc7198bd387fe7351e7",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        37,
+        2
+      ],
+      "key": 2102896,
+      "stream_offset": 367616,
+      "sha256": "222a77238e181d900cf4a22797dde7f30f5fbf5f14cc9bffb750bc08bc0ae1fb",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        3
+      ],
+      "key": 4203796,
+      "stream_offset": 607488,
+      "sha256": "7437f1222c4291d66e3cb0ecd0d97a650c6b8d58498365f44f099f52068f9a8d",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        3
+      ],
+      "key": 2106923,
+      "stream_offset": 625344,
+      "sha256": "546debcefd54db22ecb5ab90db87ea84ddc4a5a2a34390167a908ad475f5034f",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        3
+      ],
+      "key": 4204396,
+      "stream_offset": 645888,
+      "sha256": "dd7dc95951d1653227d00b01a363dfbe7719f8daa320e5a7c3496e314efa676b",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        3
+      ],
+      "key": 2107524,
+      "stream_offset": 663808,
+      "sha256": "6c08dcbcb8bd74ce3f349a146be7740ae3db6597b0613582282307144fe56e9e",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        3
+      ],
+      "key": 4204982,
+      "stream_offset": 683392,
+      "sha256": "892198bf7f523139f6862f4e60308183d816195400c173e0a830a57e8a5eb296",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        37,
+        3
+      ],
+      "key": 4205374,
+      "stream_offset": 708480,
+      "sha256": "fa955542e5cf2aa897302dedf26e74e947efb79392291349906de62c1f9dda75",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        4
+      ],
+      "key": 2113300,
+      "stream_offset": 1033472,
+      "sha256": "a9879b6770872b9ba96862d2b6d9fb54e851a9070a42418bacfb5e41e875354f",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        4
+      ],
+      "key": 4210670,
+      "stream_offset": 1047424,
+      "sha256": "fa71b6a02ca36c91078020ce969699a821bb525f3968627b3a4880c541a45ac0",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        4
+      ],
+      "key": 4211001,
+      "stream_offset": 1068608,
+      "sha256": "101ed02b760a83e49a55904d9f768627954a59c505b43a1100d6d9eb4c149f2b",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        4
+      ],
+      "key": 2114314,
+      "stream_offset": 1098368,
+      "sha256": "4571923b2468e062e335226e23df58643aea8d3373321b4f5da762ecec877325",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        4
+      ],
+      "key": 4211633,
+      "stream_offset": 1109056,
+      "sha256": "f37a848850c5ca1c87fdc562eb14975c1a39cd5796dc171af78cfdb68e8181a5",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        5
+      ],
+      "key": 4217999,
+      "stream_offset": 1516480,
+      "sha256": "fb7bf8ba4a031de09aad18486a48bdd6a4e3412d1e49771bcf970e9dd0fb3a02",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        5
+      ],
+      "key": 2121314,
+      "stream_offset": 1546368,
+      "sha256": "7ff3c9b71024de0c288969e4ec2f8bbc9daa712db104e61332dfb98a42524e4f",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        5
+      ],
+      "key": 4218707,
+      "stream_offset": 1561792,
+      "sha256": "0dfcd455217f62ffd7828d2e6a365bf49ee55bdecf2699c07fe388a5f922500f",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        5
+      ],
+      "key": 2121745,
+      "stream_offset": 1573952,
+      "sha256": "2d6cdd075076d9c5445e2a22065148ef438ecb7c8ed38c694efeb61b10285e99",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        5
+      ],
+      "key": 4219254,
+      "stream_offset": 1596800,
+      "sha256": "2c7f26a2b5c4fa2b744920e150d8967c6755434b11b9522abc348005425c3f77",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        37,
+        5
+      ],
+      "key": 2122339,
+      "stream_offset": 1611968,
+      "sha256": "602222fdff6a90a85c0fb77bd61a1f281e1b5ffbf343fdc4195c2192012c88dd",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        38,
+        5
+      ],
+      "key": 4219726,
+      "stream_offset": 1627008,
+      "sha256": "4031f3e37bc0e0347e48c9df5c52e8f7a74a946d692f3b64db94e7ef0d5c76aa",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        6
+      ],
+      "key": 4227769,
+      "stream_offset": 2141760,
+      "sha256": "c06c4c62f477d2b5591d56f1fa61c571e2ce29b67617e6e83a1d40f5278c796f",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        6
+      ],
+      "key": 4228251,
+      "stream_offset": 2172608,
+      "sha256": "79fd452c94dcd441741d004720f239f18a52364d0e9598b58975831e320e524b",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        6
+      ],
+      "key": 2131500,
+      "stream_offset": 2198272,
+      "sha256": "0ffaca195e6fdc584c9a0adbbe4925ebbd770a10be3218dec971d3263ebd200c",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        37,
+        6
+      ],
+      "key": 4228851,
+      "stream_offset": 2211008,
+      "sha256": "c1fa9cad4218158a668d13c78bf146494efce531205424682a59a91b853e92b9",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        38,
+        6
+      ],
+      "key": 2131986,
+      "stream_offset": 2229376,
+      "sha256": "7eb82909929285053192d196f1fe0a8a27ff7babe3d832398e0ad0b4eef8ad94",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        7
+      ],
+      "key": 4238452,
+      "stream_offset": 2825472,
+      "sha256": "09941ac3512db7d3e2f5a9e849706c41312bcb0d29abfe6229a1a0ac1b7dae9d",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        7
+      ],
+      "key": 2141783,
+      "stream_offset": 2856384,
+      "sha256": "38f593cc2920cc62a65927d94c7c93f49d1d9d9e76b23ceb41587830d227d9d0",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        7
+      ],
+      "key": 4239278,
+      "stream_offset": 2878336,
+      "sha256": "1b3bde29b342f6464d26cdaa0d8bca5aa691757e31124122cc9b257a7499e392",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        37,
+        7
+      ],
+      "key": 4239526,
+      "stream_offset": 2894208,
+      "sha256": "434fcef6b4d89f1591f78915ffcfc02ded6c1feb5fc61f8ab6600e051bcbbbfa",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        38,
+        7
+      ],
+      "key": 2142730,
+      "stream_offset": 2916992,
+      "sha256": "b1985a4cb12d05ed2224e17a6b327943daa87f4cb4d3a3b3243c70694b303c33",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        8
+      ],
+      "key": 4249462,
+      "stream_offset": 3530112,
+      "sha256": "ff417cd08720fd9d68e118fdb8aec5603956505800ff68f8971123ea2bf72adf",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        8
+      ],
+      "key": 4249805,
+      "stream_offset": 3552064,
+      "sha256": "73e620851266912b6c0e0f9fd1138c4e489ad0d1f7296d05d17347d1ea21034c",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        8
+      ],
+      "key": 2153059,
+      "stream_offset": 3578048,
+      "sha256": "2d901a03e59c81cb3387f0b604fe949261c7c4b8aceb49bf89172426287c4e30",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        8
+      ],
+      "key": 4250449,
+      "stream_offset": 3593280,
+      "sha256": "675e67b8c76ac552a1485f2c9ca09e108e169e7769b237a2ea1496a84e91bd1b",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        37,
+        8
+      ],
+      "key": 4250846,
+      "stream_offset": 3618688,
+      "sha256": "ed39f0362da1d724079364e80690ac29bcd7bc605572dba7ab04a83d5df30d59",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        38,
+        8
+      ],
+      "key": 2154066,
+      "stream_offset": 3642496,
+      "sha256": "0b3710c93825fea41590fbd5a67ea29cc98f1ca95d455e02d4d7d1506b9fbeda",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        30,
+        10
+      ],
+      "key": 4269555,
+      "stream_offset": 4816064,
+      "sha256": "6cdb5d5437f32db01cec594370c71be9a3d95438af169c17c6864fd16828d1e7",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        10
+      ],
+      "key": 2172691,
+      "stream_offset": 4834496,
+      "sha256": "d5fcd610b3ad893c7852417be82f5f0e8037ea4b9e53acd67e4e8d0fcc3746ab",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        10
+      ],
+      "key": 4270056,
+      "stream_offset": 4848128,
+      "sha256": "76973dd71e36a66f93588792dfd0c663b3ba29afbc459b3f72b535cc62eff3ff",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        10
+      ],
+      "key": 4270300,
+      "stream_offset": 4863744,
+      "sha256": "64819fa834a77ec74d86452ad78d6bd0fe0a399e1d372bba401f1308ab160b0a",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        10
+      ],
+      "key": 2173570,
+      "stream_offset": 4890752,
+      "sha256": "807bc81b37d55f9167d85ca84cdfe0f7bf0c4b7fbbbdc425e47e8e8ec0f7bf31",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        10
+      ],
+      "key": 4271023,
+      "stream_offset": 4910016,
+      "sha256": "edf41a7d53c574ee98c4df0bf9a85e1645d21eccc7a2ee086c0b56fcccf4cc91",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        30,
+        11
+      ],
+      "key": 2183779,
+      "stream_offset": 5544128,
+      "sha256": "a441e07a01c0ba95d42aa983a9359ac4d079f928a3daffc852517032ac78a9c9",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        31,
+        11
+      ],
+      "key": 4281256,
+      "stream_offset": 5564928,
+      "sha256": "8848da9730def7792f6b3cc9234de861ff223e65200a21bbc055d774e028cc69",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        11
+      ],
+      "key": 4281526,
+      "stream_offset": 5582208,
+      "sha256": "67aa37ee0dbb28b98c552403018c8a991314aed2ee59882b9da87ce85c6900a9",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        11
+      ],
+      "key": 4281989,
+      "stream_offset": 5611840,
+      "sha256": "87a764279872b644733a52ed939041f859d61385717d4456974b11e0b9fa7809",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        11
+      ],
+      "key": 2185318,
+      "stream_offset": 5642624,
+      "sha256": "c227a44fea2cb0ebefb7e600f77f84e883fc5f3be25277545020956571d81107",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        11
+      ],
+      "key": 4282844,
+      "stream_offset": 5666560,
+      "sha256": "03a9ef83958b6001721c269f6fcb85641450324a6cbde0ccbb9fcd065eec03d1",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        11
+      ],
+      "key": 4283236,
+      "stream_offset": 5691648,
+      "sha256": "5894111d3661cd6ff454286c47e9a3dc783f3bfebaa30c95e1b57c1082af500b",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        30,
+        12
+      ],
+      "key": 2196482,
+      "stream_offset": 6357120,
+      "sha256": "6ff65f893ca847faa81e70dcb1555b4919d44dc57bd6b685263a3aae70839a0d",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        31,
+        12
+      ],
+      "key": 4294078,
+      "stream_offset": 6385536,
+      "sha256": "ce96eb719f59320223551401ea5e064125840af92baf77d801c34e3577896628",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        12
+      ],
+      "key": 4294497,
+      "stream_offset": 6412352,
+      "sha256": "ef0d59939a04bf0e3b900edb6eaa7342f0e5aa9bce2d0ba2ec41fdeb9681498f",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        12
+      ],
+      "key": 4294871,
+      "stream_offset": 6436288,
+      "sha256": "d829f0dd5c2946fd230bd00827f06def1f3b187bdb75ced7032080a23fffd155",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        12
+      ],
+      "key": 2198080,
+      "stream_offset": 6459392,
+      "sha256": "c24a6abfaa36e8b14dc9373ab73ffaad26decd46460339993c9bf7f70084b4ac",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        12
+      ],
+      "key": 4295581,
+      "stream_offset": 6481728,
+      "sha256": "0ffd10f4f9116e3fdcb666398ab301ac35e729a4b8ce5f30a5fa84ce5c3f16e4",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        12
+      ],
+      "key": 4296040,
+      "stream_offset": 6511104,
+      "sha256": "d6eebb9e53fe34860643b7a4c5139737cfcd89c75bdd0d3ba9d28603b2f2cb70",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        30,
+        13
+      ],
+      "key": 4305836,
+      "stream_offset": 7138048,
+      "sha256": "70a036e41f217a7e84808e80110fd4ee1c615223ec2ae4906c7f593ceed6e8d0",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        31,
+        13
+      ],
+      "key": 4306331,
+      "stream_offset": 7169728,
+      "sha256": "ba91e20fd7e6844dc27892e7f0bae40c599d3ebce4f5016165f5ed78b8b10de9",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        13
+      ],
+      "key": 4306765,
+      "stream_offset": 7197504,
+      "sha256": "bafce733f81660083b54fb200bb10351388a8789265b1eeeee3793fec6db3bb0",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        13
+      ],
+      "key": 4307120,
+      "stream_offset": 7220224,
+      "sha256": "43f3217de78a23ed4bd6c268ab187826b9aa78416e078d39421c6a81892b3826",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        13
+      ],
+      "key": 4307503,
+      "stream_offset": 7244736,
+      "sha256": "d6186d478e42bd39e84f42a710f543531e5d0058fe652ebe5aa32d99e2715a37",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        13
+      ],
+      "key": 4308001,
+      "stream_offset": 7276608,
+      "sha256": "b5d311c1707df487c43f3a183918eadab629c4b2255558d5769d6a029ec2dc4a",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        13
+      ],
+      "key": 2211334,
+      "stream_offset": 7307648,
+      "sha256": "50df8531e13443a94c408e2e5e588a1659392173667051db7dfc10377f35d0d2",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        30,
+        14
+      ],
+      "key": 2220585,
+      "stream_offset": 7899712,
+      "sha256": "0e06f9885fb6ad625a1c813c0a323bbe0d0c357ef073f254f9fb9456250614c9",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        14
+      ],
+      "key": 4317983,
+      "stream_offset": 7915456,
+      "sha256": "159fba33d8d857621b6180ff694dd166ed3a1fcc6f4b9f066c21c0cdf681d10f",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        14
+      ],
+      "key": 2221139,
+      "stream_offset": 7935168,
+      "sha256": "7be8030d9da0107408295536c6516e3250fdff88fa1d5c9f8bcd05ff7bc2984e",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        14
+      ],
+      "key": 4318680,
+      "stream_offset": 7960064,
+      "sha256": "a7f37dd466457b612621dd4cd1a4a015eb8eb14edd48f0146c3be66c3d07c8f3",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        14
+      ],
+      "key": 4319019,
+      "stream_offset": 7981760,
+      "sha256": "e0a8b7393176cea02b44f552d4dd0c79f6efb935a36996d1839eefae57cf82fc",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        15
+      ],
+      "key": 2229900,
+      "stream_offset": 8495872,
+      "sha256": "c809f54a51eb060a44ac34b181696a10479198e275d06a120312eb2cae208b11",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        15
+      ],
+      "key": 4327325,
+      "stream_offset": 8513344,
+      "sha256": "ff962ea0e22230712670af7903ea139c98f98621a87d3a261d3f7524da6304af",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        15
+      ],
+      "key": 4327732,
+      "stream_offset": 8539392,
+      "sha256": "c5802a06595d8df4d18cef4b0030554c0aad7fb9e4b7f5d6ad915a5b727436b0",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        15
+      ],
+      "key": 4328201,
+      "stream_offset": 8569408,
+      "sha256": "3658e76c7110ec52c7cc5469e1254a0eb555c9215639fa6331d1708f87904f95",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        15
+      ],
+      "key": 2231438,
+      "stream_offset": 8594304,
+      "sha256": "f2359748faf57a8cd2916b73f11b94c7a962e1a1f5b998d5c325d44c813e79fa",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        30,
+        16
+      ],
+      "key": 2238578,
+      "stream_offset": 9051264,
+      "sha256": "60dee88849a48c7aae8c8d619b3d5df36f771dcb77e2ee344fd44c7ad2235819",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        32,
+        16
+      ],
+      "key": 4335960,
+      "stream_offset": 9065984,
+      "sha256": "8b7ac1927ef30ff70b6f1c9cbaafcd90ae4fb9054c392a21d180efdf82c6cc42",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        33,
+        16
+      ],
+      "key": 2239086,
+      "stream_offset": 9083776,
+      "sha256": "e10fe1de37ab49ed7f3fe4a869364872add0ed1b8f4cb72fedbf6f865a2658fe",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        34,
+        16
+      ],
+      "key": 4336542,
+      "stream_offset": 9103232,
+      "sha256": "38b43f20559567c08cbd0f72c3e28e9edd5828b09335a0494d7a8a105f197f36",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        35,
+        16
+      ],
+      "key": 4336874,
+      "stream_offset": 9124480,
+      "sha256": "7569d6b3eb9e973bc06cdee38aeef44eb8b9005d7fcbdf1c69467870fad907a0",
+      "density_layers": 6
+    },
+    {
+      "tile": [
+        36,
+        16
+      ],
+      "key": 2240088,
+      "stream_offset": 9147904,
+      "sha256": "2a48c96cafdf3a28cb23e7b08a11c4ec74191611f43507c705ab66a252b3df3c",
+      "density_layers": 6
+    }
+  ],
+  "cells": [
+    {
+      "cell": [
+        -1,
+        -11
+      ],
+      "filename": "g-1_-11.bin",
+      "vertices": 4194,
+      "triangles": 2748,
+      "sha256": "733abf5b0c68df8d6d66470aab350c17fc61a785ddec4bc1989030bce6bb1e80",
+      "old_triangles": 4920,
+      "old_sha256": "104c810cf2d11a0ca1180dcb6524a14b3e024318ea89c7f7d62a51f9325228ec",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -10
+      ],
+      "filename": "g-1_-10.bin",
+      "vertices": 41650,
+      "triangles": 24280,
+      "sha256": "9d8699aeff23a88f7f06e5431dabab947208d062efbcd681554ff58ec8620212",
+      "old_triangles": 36800,
+      "old_sha256": "876b80520ddec7398f34b70016815a7d5498dbe7e4d5eb04ecfec981f5b0ec9f",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.9892579913139343,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        -1,
+        -9
+      ],
+      "filename": "g-1_-9.bin",
+      "vertices": 72,
+      "triangles": 36,
+      "sha256": "a28cc869ee0f297a193bc0dd36cf94a19c1250b5f216248a40d75cf4658615d1",
+      "old_triangles": 32,
+      "old_sha256": "b898d0723d3de6d277f80d290efd3749c49f33177ba03de2425fa9d92c4e02d9",
+      "uv_min": [
+        0.3762289881706238,
+        0.45639902353286743
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        0.998553991317749
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -15
+      ],
+      "filename": "g0_-15.bin",
+      "vertices": 16279,
+      "triangles": 9004,
+      "sha256": "c28f656adc337cec5f5cba63c7b0cbbaa7674f760a328f3591b243f24708039a",
+      "old_triangles": 5956,
+      "old_sha256": "4a697cefc462b851ca8a10f0831508b704189f74066aa8c973b3ff290c9f2f26",
+      "uv_min": [
+        0.022599000483751297,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -14
+      ],
+      "filename": "g0_-14.bin",
+      "vertices": 18309,
+      "triangles": 9732,
+      "sha256": "73ad3bb46b1c66dbe1bef8064b1f611158cf484903d04069ffa3380d71c6e4bc",
+      "old_triangles": 8468,
+      "old_sha256": "1c09ccec8a6dfd0b7a4e5fe24fc03c7d68be09c3a6fb3878ab10000ba72fcc6e",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -13
+      ],
+      "filename": "g0_-13.bin",
+      "vertices": 28861,
+      "triangles": 15946,
+      "sha256": "81a9a512037637c59b46719cb31d4060de7883b03b9dc65f6b67bb4a854d0e3c",
+      "old_triangles": 18452,
+      "old_sha256": "62f3e48aa9c89a6cf09140a899aa9aaba800c0736ee5e67b4fee9390f3bc4b9e",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -11
+      ],
+      "filename": "g0_-11.bin",
+      "vertices": 20364,
+      "triangles": 11550,
+      "sha256": "17331fced75e7bc60085cf876f0a3584094d6df0b109ff415ea1d58e83313c10",
+      "old_triangles": 13032,
+      "old_sha256": "332457242689e1491675176d116d6fa7572dd35754441e43570b5f42b7af93a8",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.9892579913139343,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -10
+      ],
+      "filename": "g0_-10.bin",
+      "vertices": 26693,
+      "triangles": 13994,
+      "sha256": "e57afbd40e157c1832f03b10b48e761cd9988a1fcd9273d76a1cae0bc5e1985f",
+      "old_triangles": 14264,
+      "old_sha256": "3692320a899c158339632f9712cb7d434dfd54f843cb5853e9ff25c0101f590a",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        0,
+        -9
+      ],
+      "filename": "g0_-9.bin",
+      "vertices": 8371,
+      "triangles": 5874,
+      "sha256": "8e32d15b479144a3573d49fe3fbec79c954a99079cb260f5a8aac4cf5e4d7a6f",
+      "old_triangles": 10628,
+      "old_sha256": "fc6586d71dae30ae9848b9999c534a18e4abebbd08759eefe6dd7756c366f35a",
+      "uv_min": [
+        0.022599000483751297,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.9892579913139343,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -15
+      ],
+      "filename": "g1_-15.bin",
+      "vertices": 22720,
+      "triangles": 13600,
+      "sha256": "4fe3d87a05d1040622a5fe2e986b840bfce0f0f5317577d15877e3d6d1369e0a",
+      "old_triangles": 22304,
+      "old_sha256": "cea8759fb9a39b99a8e2e23ef9e358615d83f29b73d3118520334c1298e3a687",
+      "uv_min": [
+        0.022599000483751297,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -14
+      ],
+      "filename": "g1_-14.bin",
+      "vertices": 19782,
+      "triangles": 11256,
+      "sha256": "ece8b7a807032b25d9798707b987f45dc809eb11d559848d3e88785b777f9abe",
+      "old_triangles": 11420,
+      "old_sha256": "e82bc5f915292fa16cbbd0d9782fa14d07af1d09205a87cf2c6c2190c2c7b2aa",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -13
+      ],
+      "filename": "g1_-13.bin",
+      "vertices": 780,
+      "triangles": 600,
+      "sha256": "01b99a14915cbd42510c6a65e5ad2dd68e46b9a5a343cf98eda50a0ddfbd53d7",
+      "old_triangles": 1104,
+      "old_sha256": "68e8068203dc9f93d8740b760810e6acee41cf6e42bbfe347db815c0a1578aac",
+      "uv_min": [
+        0.022599000483751297,
+        0.4350399971008301
+      ],
+      "uv_max": [
+        0.3519600033760071,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -11
+      ],
+      "filename": "g1_-11.bin",
+      "vertices": 25548,
+      "triangles": 14412,
+      "sha256": "7b59b3ed947ef7436e8f5e1c604be9269e0727d4cd3157001addf219bf525676",
+      "old_triangles": 21452,
+      "old_sha256": "b86a8006189d280013e164c5453612e6a11d2fedc8019ee0ba5f4db8d2a4737d",
+      "uv_min": [
+        0.0023670000955462456,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -10
+      ],
+      "filename": "g1_-10.bin",
+      "vertices": 32863,
+      "triangles": 18640,
+      "sha256": "7cb8677339bba5706ebd4114b5f38fc90778a3d2b8f75a6cd949f2cf152f9858",
+      "old_triangles": 26944,
+      "old_sha256": "96f03a8fed4b775c49510ad628526cc2ad97814fbabf3f37bb738949f225805c",
+      "uv_min": [
+        0.022599000483751297,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        1,
+        -9
+      ],
+      "filename": "g1_-9.bin",
+      "vertices": 19168,
+      "triangles": 13012,
+      "sha256": "6315ae0f905355267685b30d7ee1c17d7b2118d9fe15476b97ccabb77ab6315f",
+      "old_triangles": 23488,
+      "old_sha256": "483836c5afd2a7814bdfb05fec9edec77744a3adb211de73ef57efd86c0b8b21",
+      "uv_min": [
+        0.022599000483751297,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.9892579913139343,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -15
+      ],
+      "filename": "g2_-15.bin",
+      "vertices": 8980,
+      "triangles": 5764,
+      "sha256": "162cf0627d412e3eb88ff97d2a845148f5ef8f07140894d111429d9f1d299b93",
+      "old_triangles": 9084,
+      "old_sha256": "2da26736b9316a8b3857c05f1a7c508690b2463e27fcb4a30d2946189f117e0a",
+      "uv_min": [
+        0.022599000483751297,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -14
+      ],
+      "filename": "g2_-14.bin",
+      "vertices": 8010,
+      "triangles": 4194,
+      "sha256": "950383e928ab41142fd2b16cb45b1f856b3996180513bcf771f63df6497537f0",
+      "old_triangles": 3364,
+      "old_sha256": "1a64822a6a8a921fa726dfa7688871f9f16b6f403aef51293875d69855c9ba07",
+      "uv_min": [
+        0.022599000483751297,
+        0.4350399971008301
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    },
+    {
+      "cell": [
+        2,
+        -13
+      ],
+      "filename": "g2_-13.bin",
+      "vertices": 4625,
+      "triangles": 2624,
+      "sha256": "fc9cf514f6c596d7e8579638d1acd7d4d2a0194604db1ce4745a030436d3984f",
+      "old_triangles": 4584,
+      "old_sha256": "55a43cef5305ff672fabef96f801d48cab27ad40f8383bfa34bca4e20f141225",
+      "uv_min": [
+        0.022599000483751297,
+        0.004144012928009033
+      ],
+      "uv_max": [
+        0.6706460118293762,
+        1.0073540210723877
+      ]
+    }
+  ],
+  "instances_by_layer": {
+    "0": 8252,
+    "1": 6610,
+    "2": 6889,
+    "5": 2883,
+    "3": 331,
+    "4": 259
+  },
+  "instance_samples": [
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1560.1484375,
+        -95994.1171875,
+        5560.900390625
+      ],
+      "scale": [
+        0.7934592366218567,
+        0.7934592366218567,
+        0.7549363374710083
+      ],
+      "yaw": 2.3740975856781006,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9250723123550415
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1798.6640625,
+        -95993.71875,
+        5559.4853515625
+      ],
+      "scale": [
+        0.7820786237716675,
+        0.7820786237716675,
+        0.6353553533554077
+      ],
+      "yaw": 1.316386342048645,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.8789899349212646
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2699.2578125,
+        -95997.484375,
+        5554.65185546875
+      ],
+      "scale": [
+        0.88290935754776,
+        0.88290935754776,
+        0.6743714809417725
+      ],
+      "yaw": 4.809556007385254,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9904261231422424
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1301.3125,
+        -95952.5,
+        5562.21923828125
+      ],
+      "scale": [
+        0.8609002232551575,
+        0.8609002232551575,
+        0.6860967874526978
+      ],
+      "yaw": 3.793647050857544,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1414.609375,
+        -95960.109375,
+        5561.56494140625
+      ],
+      "scale": [
+        0.8017792105674744,
+        0.8017792105674744,
+        0.710776686668396
+      ],
+      "yaw": 3.0479187965393066,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9369984865188599
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1487.8984375,
+        -95972.953125,
+        5561.19970703125
+      ],
+      "scale": [
+        0.8829391598701477,
+        0.8829391598701477,
+        0.5690279603004456
+      ],
+      "yaw": 5.6649675369262695,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.8910688161849976
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1548.0625,
+        -95988.171875,
+        5560.93408203125
+      ],
+      "scale": [
+        0.9085320234298706,
+        0.9085320234298706,
+        0.6089485883712769
+      ],
+      "yaw": 5.788840293884277,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9152159094810486
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1677.4453125,
+        -95965.6171875,
+        5560.0107421875
+      ],
+      "scale": [
+        0.9169469475746155,
+        0.9169469475746155,
+        0.9114265441894531
+      ],
+      "yaw": 3.481281280517578,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9867428541183472
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2041.296875,
+        -95961.359375,
+        5557.88427734375
+      ],
+      "scale": [
+        0.8524787425994873,
+        0.8524787425994873,
+        0.5308655500411987
+      ],
+      "yaw": 5.3848161697387695,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2121.65625,
+        -95949.234375,
+        5557.35546875
+      ],
+      "scale": [
+        0.8938611149787903,
+        0.8938611149787903,
+        0.8211153745651245
+      ],
+      "yaw": 3.7982494831085205,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2198.40625,
+        -95989.828125,
+        5557.20849609375
+      ],
+      "scale": [
+        0.9819443225860596,
+        0.9819443225860596,
+        0.7481350898742676
+      ],
+      "yaw": 2.04811692237854,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2236.6875,
+        -95944.0546875,
+        5556.689453125
+      ],
+      "scale": [
+        0.9973441362380981,
+        0.9973441362380981,
+        0.8881665468215942
+      ],
+      "yaw": 2.0193538665771484,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2316.2265625,
+        -95950.765625,
+        5556.306640625
+      ],
+      "scale": [
+        0.8496941924095154,
+        0.8496941924095154,
+        0.8211165070533752
+      ],
+      "yaw": 1.4849375486373901,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2430.46875,
+        -95978.03125,
+        5555.8876953125
+      ],
+      "scale": [
+        0.9477300047874451,
+        0.9477300047874451,
+        0.8792164325714111
+      ],
+      "yaw": 1.720985770225525,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2522.3828125,
+        -95987.625,
+        5555.4775390625
+      ],
+      "scale": [
+        0.9985636472702026,
+        0.9985636472702026,
+        0.7958080172538757
+      ],
+      "yaw": 4.38002872467041,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2619.0859375,
+        -95981.625,
+        5554.94287109375
+      ],
+      "scale": [
+        0.9250943660736084,
+        0.9250943660736084,
+        0.536612331867218
+      ],
+      "yaw": 1.107183575630188,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2677.3828125,
+        -95976.75,
+        5554.6162109375
+      ],
+      "scale": [
+        0.904973566532135,
+        0.904973566532135,
+        0.5585907697677612
+      ],
+      "yaw": 0.2059430330991745,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9999268054962158
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2691.40625,
+        -95985.671875,
+        5554.6083984375
+      ],
+      "scale": [
+        0.8413605690002441,
+        0.8413605690002441,
+        0.8245242834091187
+      ],
+      "yaw": 3.1129229068756104,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9969266653060913
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2778.234375,
+        -95967.703125,
+        5554.0546875
+      ],
+      "scale": [
+        0.7870998382568359,
+        0.7870998382568359,
+        0.5701397657394409
+      ],
+      "yaw": 5.832176208496094,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.8360192179679871
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2937.375,
+        -95970.3046875,
+        5553.3056640625
+      ],
+      "scale": [
+        0.9769240021705627,
+        0.9769240021705627,
+        0.6623224020004272
+      ],
+      "yaw": 2.89432430267334,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2981.234375,
+        -95986.9453125,
+        5553.2158203125
+      ],
+      "scale": [
+        0.8077706098556519,
+        0.8077706098556519,
+        0.6355035901069641
+      ],
+      "yaw": 2.3620171546936035,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9741561412811279
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        3130.2734375,
+        -95963.3125,
+        5680.212890625
+      ],
+      "scale": [
+        0.8944910764694214,
+        0.8944910764694214,
+        0.5542020797729492
+      ],
+      "yaw": 3.1790778636932373,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9985741972923279
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1331.3359375,
+        -95904.359375,
+        5561.72021484375
+      ],
+      "scale": [
+        0.8871759176254272,
+        0.8871759176254272,
+        0.8586981892585754
+      ],
+      "yaw": 6.189796447753906,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9975078701972961
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1396.703125,
+        -95882.140625,
+        5561.17041015625
+      ],
+      "scale": [
+        0.8758843541145325,
+        0.8758843541145325,
+        0.8149266242980957
+      ],
+      "yaw": 4.736881732940674,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9822447896003723
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1534.4609375,
+        -95883.4921875,
+        5560.33251953125
+      ],
+      "scale": [
+        0.7753665447235107,
+        0.7753665447235107,
+        0.43534669280052185
+      ],
+      "yaw": 0.48436883091926575,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9726255536079407
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1945.2421875,
+        -95902.328125,
+        5558.03369140625
+      ],
+      "scale": [
+        0.8130882978439331,
+        0.8130882978439331,
+        0.6263189315795898
+      ],
+      "yaw": 0.31543415784835815,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2019.046875,
+        -95926.453125,
+        5557.77490234375
+      ],
+      "scale": [
+        0.9917072653770447,
+        0.9917072653770447,
+        0.8788157105445862
+      ],
+      "yaw": 3.4222211837768555,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2071.21875,
+        -95881.1015625,
+        5557.1796875
+      ],
+      "scale": [
+        0.9607314467430115,
+        0.9607314467430115,
+        0.6200612783432007
+      ],
+      "yaw": 2.985215187072754,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2306.2578125,
+        -95932.203125,
+        5556.23388671875
+      ],
+      "scale": [
+        0.924714982509613,
+        0.924714982509613,
+        0.5301821827888489
+      ],
+      "yaw": 4.231611728668213,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2422.0859375,
+        -95933.578125,
+        5555.62744140625
+      ],
+      "scale": [
+        0.9473574161529541,
+        0.9473574161529541,
+        0.8100720047950745
+      ],
+      "yaw": 0.08801475912332535,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2484.234375,
+        -95903.1875,
+        5555.09521484375
+      ],
+      "scale": [
+        0.9293423891067505,
+        0.9293423891067505,
+        0.8193128705024719
+      ],
+      "yaw": 4.50524377822876,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2553.8125,
+        -95881.0703125,
+        5554.58447265625
+      ],
+      "scale": [
+        0.7843347191810608,
+        0.7843347191810608,
+        0.729066014289856
+      ],
+      "yaw": 5.886826515197754,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2575.8203125,
+        -95896.0625,
+        5554.57373046875
+      ],
+      "scale": [
+        0.8456494808197021,
+        0.8456494808197021,
+        0.8135378956794739
+      ],
+      "yaw": 0.9631767868995667,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2629.25,
+        -95880.984375,
+        5554.1982421875
+      ],
+      "scale": [
+        0.9897492527961731,
+        0.9897492527961731,
+        0.6052294969558716
+      ],
+      "yaw": 4.6776299476623535,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2697.6171875,
+        -95884.328125,
+        5553.8759765625
+      ],
+      "scale": [
+        0.7847344279289246,
+        0.7847344279289246,
+        0.468105673789978
+      ],
+      "yaw": 3.125386953353882,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2790.609375,
+        -95923.9140625,
+        5553.68896484375
+      ],
+      "scale": [
+        0.971969723701477,
+        0.971969723701477,
+        0.8455591201782227
+      ],
+      "yaw": 2.68608021736145,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9878388047218323
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2829.625,
+        -95892.890625,
+        5553.28271484375
+      ],
+      "scale": [
+        0.9536553621292114,
+        0.9536553621292114,
+        0.543304979801178
+      ],
+      "yaw": 4.143022060394287,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9870665669441223
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2875.3203125,
+        -95912.875,
+        5553.19970703125
+      ],
+      "scale": [
+        0.846713125705719,
+        0.846713125705719,
+        0.4830414652824402
+      ],
+      "yaw": 3.214935779571533,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        3160.296875,
+        -95915.171875,
+        5869.13525390625
+      ],
+      "scale": [
+        0.9204835891723633,
+        0.9204835891723633,
+        0.7272288799285889
+      ],
+      "yaw": 5.575226783752441,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9945622682571411
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1230.390625,
+        -95824.8515625,
+        5561.84912109375
+      ],
+      "scale": [
+        0.9738954901695251,
+        0.9738954901695251,
+        0.8859826922416687
+      ],
+      "yaw": 3.7892370223999023,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1268.5390625,
+        -95859.3359375,
+        5561.8271484375
+      ],
+      "scale": [
+        0.8025123476982117,
+        0.8025123476982117,
+        0.7612821459770203
+      ],
+      "yaw": 2.751084566116333,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1446.96875,
+        -95838.421875,
+        5560.57861328125
+      ],
+      "scale": [
+        0.9727423191070557,
+        0.9727423191070557,
+        0.9440725445747375
+      ],
+      "yaw": 4.735922813415527,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9795870184898376
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1521.3515625,
+        -95831.4296875,
+        5560.07666015625
+      ],
+      "scale": [
+        0.9704998731613159,
+        0.9704998731613159,
+        0.5575764775276184
+      ],
+      "yaw": 5.427001476287842,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9944436550140381
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1646.4609375,
+        -95852.484375,
+        5559.45556640625
+      ],
+      "scale": [
+        0.774524450302124,
+        0.774524450302124,
+        0.5967424511909485
+      ],
+      "yaw": 2.60017466545105,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9497303366661072
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1799.5078125,
+        -95823.1484375,
+        5558.3564453125
+      ],
+      "scale": [
+        0.8205472826957703,
+        0.8205472826957703,
+        0.6974191069602966
+      ],
+      "yaw": 3.1606698036193848,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.7895846366882324
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1990.75,
+        -95862.40625,
+        5557.509765625
+      ],
+      "scale": [
+        0.8210083842277527,
+        0.8210083842277527,
+        0.7590850591659546
+      ],
+      "yaw": 2.342841863632202,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2016.4296875,
+        -95873.9375,
+        5557.44140625
+      ],
+      "scale": [
+        0.8232035040855408,
+        0.8232035040855408,
+        0.8124634027481079
+      ],
+      "yaw": 4.242733478546143,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2114.4296875,
+        -95831.4375,
+        5556.6083984375
+      ],
+      "scale": [
+        0.8182847499847412,
+        0.8182847499847412,
+        0.6468974351882935
+      ],
+      "yaw": 3.5882792472839355,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2188.296875,
+        -95827.4609375,
+        5556.17236328125
+      ],
+      "scale": [
+        0.8809071183204651,
+        0.8809071183204651,
+        0.6455809473991394
+      ],
+      "yaw": 0.056567221879959106,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2294.0390625,
+        -95833.5234375,
+        5555.63427734375
+      ],
+      "scale": [
+        0.9234344959259033,
+        0.9234344959259033,
+        0.6539963483810425
+      ],
+      "yaw": 4.410325527191162,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2358.7734375,
+        -95842.7109375,
+        5555.34765625
+      ],
+      "scale": [
+        0.8438472747802734,
+        0.8438472747802734,
+        0.6999602913856506
+      ],
+      "yaw": 2.1635525226593018,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2439.6640625,
+        -95853.890625,
+        5554.99365234375
+      ],
+      "scale": [
+        0.8152562975883484,
+        0.8152562975883484,
+        0.8148420453071594
+      ],
+      "yaw": 4.609557628631592,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2543.828125,
+        -95857.046875,
+        5554.47216796875
+      ],
+      "scale": [
+        0.9393830895423889,
+        0.9393830895423889,
+        0.6994271278381348
+      ],
+      "yaw": 3.135549783706665,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2624.625,
+        -95872.5546875,
+        5554.1640625
+      ],
+      "scale": [
+        0.831726610660553,
+        0.831726610660553,
+        0.6155238747596741
+      ],
+      "yaw": 0.5882991552352905,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2723.34375,
+        -95839.265625,
+        5553.43701171875
+      ],
+      "scale": [
+        0.7926138639450073,
+        0.7926138639450073,
+        0.6163384914398193
+      ],
+      "yaw": 0.4157211482524872,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2792.6328125,
+        -95822.875,
+        5552.97998046875
+      ],
+      "scale": [
+        0.9533533453941345,
+        0.9533533453941345,
+        0.8522251844406128
+      ],
+      "yaw": 3.798632860183716,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2849.21875,
+        -95838.9765625,
+        5552.81396484375
+      ],
+      "scale": [
+        0.814429759979248,
+        0.814429759979248,
+        0.6389957070350647
+      ],
+      "yaw": 1.0701751708984375,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2928.4921875,
+        -95832.7265625,
+        5552.38720703125
+      ],
+      "scale": [
+        0.9581907987594604,
+        0.9581907987594604,
+        0.6001960635185242
+      ],
+      "yaw": 5.1621904373168945,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        3097.5078125,
+        -95870.140625,
+        5739.7294921875
+      ],
+      "scale": [
+        0.836347222328186,
+        0.836347222328186,
+        0.6453608274459839
+      ],
+      "yaw": 2.1365151405334473,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1200.8671875,
+        -95807.890625,
+        5561.9306640625
+      ],
+      "scale": [
+        0.8873775601387024,
+        0.8873775601387024,
+        0.6410150527954102
+      ],
+      "yaw": 4.529788017272949,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.5173435211181641
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1366.984375,
+        -95770.125,
+        5560.64013671875
+      ],
+      "scale": [
+        0.9166593551635742,
+        0.9166593551635742,
+        0.9060595631599426
+      ],
+      "yaw": 4.636786460876465,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1461.0859375,
+        -95787.421875,
+        5560.1650390625
+      ],
+      "scale": [
+        0.8904752135276794,
+        0.8904752135276794,
+        0.8120967149734497
+      ],
+      "yaw": 1.3102502822875977,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9919227361679077
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1499.6171875,
+        -95799.7734375,
+        5560.00732421875
+      ],
+      "scale": [
+        0.8111407160758972,
+        0.8111407160758972,
+        0.7136154174804688
+      ],
+      "yaw": 2.2467732429504395,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9932520985603333
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1737.9140625,
+        -95777.6640625,
+        5558.42529296875
+      ],
+      "scale": [
+        0.8674522042274475,
+        0.8674522042274475,
+        0.6067631840705872
+      ],
+      "yaw": 6.251924514770508,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.7916833758354187
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1801.9140625,
+        -95775.9765625,
+        5558.0361328125
+      ],
+      "scale": [
+        0.8885477781295776,
+        0.8885477781295776,
+        0.676426112651825
+      ],
+      "yaw": 5.530165195465088,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.8190319538116455
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1976.3359375,
+        -95775.3515625,
+        5557.01904296875
+      ],
+      "scale": [
+        0.9035427570343018,
+        0.9035427570343018,
+        0.7898050546646118
+      ],
+      "yaw": 5.521728038787842,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1996.6875,
+        -95779.78125,
+        5556.931640625
+      ],
+      "scale": [
+        0.9528994560241699,
+        0.9528994560241699,
+        0.7294085025787354
+      ],
+      "yaw": 3.2546286582946777,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2125.6953125,
+        -95784.671875,
+        5556.2353515625
+      ],
+      "scale": [
+        0.7843482494354248,
+        0.7843482494354248,
+        0.7467334270477295
+      ],
+      "yaw": 2.2078475952148438,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2193.765625,
+        -95814.21875,
+        5556.0537109375
+      ],
+      "scale": [
+        0.8690710067749023,
+        0.8690710067749023,
+        0.560151219367981
+      ],
+      "yaw": 6.151637554168701,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2233.3984375,
+        -95786.9609375,
+        5555.654296875
+      ],
+      "scale": [
+        0.9367949962615967,
+        0.9367949962615967,
+        0.6752173900604248
+      ],
+      "yaw": 0.0903158038854599,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2293.6171875,
+        -95783.3046875,
+        5555.30126953125
+      ],
+      "scale": [
+        0.9285361170768738,
+        0.9285361170768738,
+        0.7054035067558289
+      ],
+      "yaw": 2.367194414138794,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2363.3515625,
+        -95762.6796875,
+        5554.787109375
+      ],
+      "scale": [
+        0.9677708148956299,
+        0.9677708148956299,
+        0.7970382571220398
+      ],
+      "yaw": 2.2929859161376953,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2395.859375,
+        -95799.3359375,
+        5554.8583984375
+      ],
+      "scale": [
+        0.9783196449279785,
+        0.9783196449279785,
+        0.7727686166763306
+      ],
+      "yaw": 3.3974850177764893,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2463.59375,
+        -95799.0625,
+        5554.498046875
+      ],
+      "scale": [
+        0.9089899659156799,
+        0.9089899659156799,
+        0.6425555348396301
+      ],
+      "yaw": 0.8726692199707031,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2527.7734375,
+        -95802.8125,
+        5554.1865234375
+      ],
+      "scale": [
+        0.9011579155921936,
+        0.9011579155921936,
+        0.5766000151634216
+      ],
+      "yaw": 1.451380729675293,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2590.171875,
+        -95814.8203125,
+        5553.94580078125
+      ],
+      "scale": [
+        0.9155211448669434,
+        0.9155211448669434,
+        0.5915989875793457
+      ],
+      "yaw": 2.931332588195801,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2726.4140625,
+        -95816.671875,
+        5553.26708984375
+      ],
+      "scale": [
+        0.8154934644699097,
+        0.8154934644699097,
+        0.6894102096557617
+      ],
+      "yaw": 5.7838544845581055,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2803.1875,
+        -95764.5859375,
+        5552.52880859375
+      ],
+      "scale": [
+        0.9956029653549194,
+        0.9956029653549194,
+        0.5482926368713379
+      ],
+      "yaw": 6.109835147857666,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2935.0390625,
+        -95781.4375,
+        5552.00048828125
+      ],
+      "scale": [
+        0.8034676313400269,
+        0.8034676313400269,
+        0.5578665137290955
+      ],
+      "yaw": 5.607058048248291,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1400.9453125,
+        -95732.5859375,
+        5560.19091796875
+      ],
+      "scale": [
+        0.9781568646430969,
+        0.9781568646430969,
+        0.9481713175773621
+      ],
+      "yaw": 4.0753326416015625,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9987703561782837
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1439.671875,
+        -95736.2578125,
+        5559.97265625
+      ],
+      "scale": [
+        0.9772985577583313,
+        0.9772985577583313,
+        0.8657330274581909
+      ],
+      "yaw": 5.766213417053223,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.997514545917511
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1489.2890625,
+        -95746.84375,
+        5559.7333984375
+      ],
+      "scale": [
+        0.9602097868919373,
+        0.9602097868919373,
+        0.7141558527946472
+      ],
+      "yaw": 1.4074691534042358,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1613.78125,
+        -95753.6328125,
+        5559.01513671875
+      ],
+      "scale": [
+        0.987913191318512,
+        0.987913191318512,
+        0.70937579870224
+      ],
+      "yaw": 4.277249336242676,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1697.484375,
+        -95719.0546875,
+        5558.28955078125
+      ],
+      "scale": [
+        0.9947168827056885,
+        0.9947168827056885,
+        0.6326414942741394
+      ],
+      "yaw": 3.805152416229248,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9730460047721863
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1724.8515625,
+        -95754.125,
+        5558.3515625
+      ],
+      "scale": [
+        0.779563844203949,
+        0.779563844203949,
+        0.5648199915885925
+      ],
+      "yaw": 2.389054298400879,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.8592543601989746
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1810.2421875,
+        -95739.09375,
+        5557.74853515625
+      ],
+      "scale": [
+        0.8892006874084473,
+        0.8892006874084473,
+        0.4594933092594147
+      ],
+      "yaw": 1.4124547243118286,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.8541049361228943
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1912.1015625,
+        -95743.4375,
+        5557.181640625
+      ],
+      "scale": [
+        0.8328277468681335,
+        0.8328277468681335,
+        0.5469670295715332
+      ],
+      "yaw": 3.2458078861236572,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9925105571746826
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2076.578125,
+        -95754.6171875,
+        5556.3134765625
+      ],
+      "scale": [
+        0.8093280792236328,
+        0.8093280792236328,
+        0.49729201197624207
+      ],
+      "yaw": 5.750106334686279,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2143.4609375,
+        -95724.234375,
+        5555.73779296875
+      ],
+      "scale": [
+        0.9645729660987854,
+        0.9645729660987854,
+        0.6038228869438171
+      ],
+      "yaw": 0.03585786744952202,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2378.9921875,
+        -95751.1640625,
+        5554.6259765625
+      ],
+      "scale": [
+        0.8280680179595947,
+        0.8280680179595947,
+        0.7652484178543091
+      ],
+      "yaw": 2.4832053184509277,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2446.84375,
+        -95749.9609375,
+        5554.25634765625
+      ],
+      "scale": [
+        0.8415843844413757,
+        0.8415843844413757,
+        0.7672102451324463
+      ],
+      "yaw": 3.393458366394043,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2493.1015625,
+        -95757.7421875,
+        5554.06494140625
+      ],
+      "scale": [
+        0.9811109900474548,
+        0.9811109900474548,
+        0.8503466248512268
+      ],
+      "yaw": 5.230454444885254,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2601.9296875,
+        -95743.03125,
+        5553.39892578125
+      ],
+      "scale": [
+        0.8527836203575134,
+        0.8527836203575134,
+        0.4701436161994934
+      ],
+      "yaw": 4.774081707000732,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2667.1640625,
+        -95754.4375,
+        5553.14208984375
+      ],
+      "scale": [
+        0.8558416366577148,
+        0.8558416366577148,
+        0.8056836128234863
+      ],
+      "yaw": 3.5992093086242676,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9837212562561035
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2962.734375,
+        -95724.4453125,
+        5552.5595703125
+      ],
+      "scale": [
+        0.9284751415252686,
+        0.9284751415252686,
+        0.9169737100601196
+      ],
+      "yaw": 0.18676771223545074,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        2986.25,
+        -95758.015625,
+        5580.57470703125
+      ],
+      "scale": [
+        0.8562389612197876,
+        0.8562389612197876,
+        0.5063731074333191
+      ],
+      "yaw": 1.1836930513381958,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1422.625,
+        -95685.3125,
+        5559.7578125
+      ],
+      "scale": [
+        0.9276214838027954,
+        0.9276214838027954,
+        0.635903537273407
+      ],
+      "yaw": 5.727479457855225,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 1.0
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1777.3125,
+        -95685.0390625,
+        5557.595703125
+      ],
+      "scale": [
+        0.9715865254402161,
+        0.9715865254402161,
+        0.8389527797698975
+      ],
+      "yaw": 0.6862850189208984,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.8922512531280518
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1872.453125,
+        -95663.7734375,
+        5556.8984375
+      ],
+      "scale": [
+        0.9339885115623474,
+        0.9339885115623474,
+        0.6499268412590027
+      ],
+      "yaw": 2.0291333198547363,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9669675827026367
+    },
+    {
+      "tile": [
+        32,
+        2
+      ],
+      "layer": 0,
+      "definition": 0,
+      "position": [
+        1892.2421875,
+        -95654.46875,
+        5556.72314453125
+      ],
+      "scale": [
+        0.8395897150039673,
+        0.8395897150039673,
+        0.6648814082145691
+      ],
+      "yaw": 3.0084173679351807,
+      "spacing": 57.43490982055664,
+      "acceptance": 0.5791463851928711,
+      "density": 0.9824689030647278
+    }
+  ],
+  "limits": [
+    "OAWF stores exact native packed wind bytes. Renderer must index palette using wind&255; second byte wind>>8 is dissolve-related and must not enter64-entry palette.",
+    "OAWF40 preserves native RGBA8 vertex*instance color and float3 normals; shader must multiply diffuse by vertex RGB. Wind palette producer contract is separate.",
+    "Source geometry, exact UVs and native tile ownership are decoded; no random density reduction or atlas substitutions.",
+    "Index overlay is based on existing active index; root must merge only selected grass triangle counts with other overlays.",
+    "Not original x87kernel bitmatch; native-capture correspondence quantified independently. No visual render by thisgenerator."
+  ],
+  "captured_geometry_validation": "overlay-validation.json: all25417vertices of6originalGPUbuffers found in18cell output; UV/wind/RGBA exact; maxpositionerror .008735worldcm;normalabsmax<5e-6"
+}

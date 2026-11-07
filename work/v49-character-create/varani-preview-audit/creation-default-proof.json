@@ -1,0 +1,121 @@
+{
+  "status": "Exact source defaultmesh selection verified; colors/auxiliaryrig remainpreviewlimits",
+  "source_character_data_script": {
+    "asset": 751829,
+    "input_sha256": "a7a3739dcf1830095983e123adc9bc20358aa2eedd53116bdf6798784beafec3",
+    "table_assignment_provenance": [
+      {
+        "pc": 6330,
+        "file_offset": 25617,
+        "name": "SETGLOBAL"
+      }
+    ]
+  },
+  "creator_type": 1536821,
+  "full_player_type": 669805,
+  "rig": 456813,
+  "type": "Varani_Male",
+  "source_default_customization": {
+    "FaceAccesory": 1498507,
+    "SkinTone": 2,
+    "EyeLiner": 1,
+    "EyeColor": 5,
+    "Tattoo": 1431913,
+    "TattooColor": 1,
+    "Head": 1304403,
+    "EyebrowAlpha": 220,
+    "BeardColor": 4,
+    "Lipstick": 5,
+    "Eyebrow": 4,
+    "HairColor": 4,
+    "LipstickAlpha": 120,
+    "EyeLinerAlpha": 90,
+    "TattooAlpha": 180,
+    "Beard": 1389483,
+    "Hair": 1304591
+  },
+  "cosmetic_mesh_checks": [
+    {
+      "slot": "Head",
+      "source_default_simtype": 1304403,
+      "source_fabs": [
+        1362163
+      ],
+      "pack_recipe_fabs": [
+        1362163
+      ],
+      "bundle": {
+        "path": "work\\v49-character-create\\source\\initial_0.pak\\1304403.bundle",
+        "bytes": 42,
+        "sha256": "290496bd17db0f2b7a847daaaa73670375ba7e6b33651be79a3ad69952ae632c"
+      },
+      "exact_match": true
+    },
+    {
+      "slot": "Hair",
+      "source_default_simtype": 1304591,
+      "source_fabs": [
+        1302013
+      ],
+      "pack_recipe_fabs": [
+        1302013
+      ],
+      "bundle": {
+        "path": "work\\v49-character-create\\source\\initial_0.pak\\1304591.bundle",
+        "bytes": 23,
+        "sha256": "92eb72906f09f9f6dff91d56067f0552d94d82f0dd5460b4e1f5d8d3bd82de4c"
+      },
+      "exact_match": true
+    },
+    {
+      "slot": "Beard",
+      "source_default_simtype": 1389483,
+      "source_fabs": [
+        1293355
+      ],
+      "pack_recipe_fabs": [
+        1293355
+      ],
+      "bundle": {
+        "path": "work\\v49-character-create\\source\\initial_0.pak\\1389483.bundle",
+        "bytes": 23,
+        "sha256": "618b1e659d5d69204d1d32943e4b2197dc412f19b5c64dc229b9b7969094aa7f"
+      },
+      "exact_match": true
+    }
+  ],
+  "body_recipe": [
+    [
+      514034,
+      "hands"
+    ],
+    [
+      1318952,
+      "feet"
+    ],
+    [
+      1318954,
+      "legs"
+    ],
+    [
+      1318955,
+      "torso"
+    ]
+  ],
+  "base_pack": {
+    "path": "work\\v49-character-create\\packs\\Varani_Male\\character.bin",
+    "bytes": 13629260,
+    "sha256": "0c9452b0ee5412e8066f830020ccdda2cf28bd7be1539c88d37a8b453bf901e2"
+  },
+  "catalogue_source": {
+    "path": "work\\v49-character-create\\staged-source\\creation-source-catalogue.json",
+    "bytes": 36798,
+    "sha256": "159368a143dbc2b48162c683bf32056c5d0b7f6d2c63b6cc897eee2f6aa1933a"
+  },
+  "tables_source": {
+    "path": "work\\v49-character-create\\analysis\\character-data-tables.json",
+    "bytes": 107371,
+    "sha256": "7e7788c6d188832d4d87de51d9bec8b4239df138592f11b2da9fd726c61867e8"
+  },
+  "limit": "Pack selects defaultHead/Hair/Beard source meshes; sourcecolorpaletteindices andall cosmetic/morph/materialchannels are not baked/applied by thisoldgeometrybuilder. Do not claim exact complete originalpresetappearance."
+}

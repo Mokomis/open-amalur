@@ -1,0 +1,43 @@
+{
+  "status": "five scoped milestones completed",
+  "milestones": [
+    {
+      "name": "Solid restored props",
+      "status": "complete",
+      "evidence": "collision-completed.json; Android prop-full log; Windows grounded-corner caveat documented"
+    },
+    {
+      "name": "Recovered reference lighting/material/post contract",
+      "status": "complete scoped pass",
+      "evidence": "CODEX_EVIDENCE_REVIEW.json; bridge-native127.png; active post bindings",
+      "remaining": "Exact native multiscale filters, deferred AO/shadows and dynamic environment adaptation"
+    },
+    {
+      "name": "Native terrain paint",
+      "status": "complete18cells",
+      "evidence": "terrain-research/overlay-validation.json; bridge and shop GPU captures",
+      "remaining": "Broader terrain height/foliage fidelity"
+    },
+    {
+      "name": "One non-identity local bind",
+      "status": "complete16newplacements",
+      "evidence": "placement-research/BARREL_NATIVE_BIND_FINDINGS.md; original pure kernel output"
+    },
+    {
+      "name": "Android integrated update",
+      "status": "complete v0.34.0",
+      "evidence": "android-validation/ANDROID_VALIDATION.json",
+      "remaining": "Long gameplay and sustained performance testing outside this bounded pass"
+    }
+  ],
+  "final_source_and_library_hashes_verified": true,
+  "live_merged_overlay_hashes_verified": true,
+  "windows_preview_closed": true,
+  "tablet_save_settings_unchanged": true,
+  "source_checkpoint": {
+    "archive": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v43-scene-fidelity\\source-and-notes-checkpoint.zip",
+    "bytes": 2326099,
+    "sha256": "996348df33607a63d2725608130d4d10ecfc7d27efab0fab38627569446ec994",
+    "files": 377
+  }
+}

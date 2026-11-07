@@ -1,0 +1,79 @@
+{
+  "material": 1880463,
+  "name": "01_rusty_sword",
+  "shader": 545212,
+  "shader_name": "characterhardlight",
+  "alpha_test": 0,
+  "cull": 2,
+  "cutoff_byte": 0,
+  "parameters": [
+    {
+      "hash": 10276250,
+      "name": "ConstantColor",
+      "type": 11,
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "hash": 11960536,
+      "name": "SpecularValues",
+      "type": 11,
+      "values": [
+        1.0,
+        20.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hash": 23195542,
+      "name": "CharacterExtraTerms2",
+      "type": 4,
+      "values": [
+        0.15000000596046448,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "hash": 10120212,
+      "name": "FresnelValues2",
+      "type": 4,
+      "values": [
+        1.399999976158142,
+        2.4000000953674316,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "texture_slots": [
+    {
+      "slot": 0,
+      "asset": 1880460,
+      "name": "01_rusty_sword_d"
+    },
+    {
+      "slot": 1,
+      "asset": 250070,
+      "name": "par_color_white_d"
+    },
+    {
+      "slot": 2,
+      "asset": 1880462,
+      "name": "01_rusty_sword_s"
+    },
+    {
+      "slot": 3,
+      "asset": 1880461,
+      "name": "01_rusty_sword_n"
+    }
+  ],
+  "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\1880463.mat_bxml",
+  "raw_hex": "a00000000800000028000000040000008800000004000000bc5108000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b6009a99193e0000803f0000803f000000000400000096ef61013333b33f9a991940000000000000000004000000146c9a008cb11c0000000000d6d00300010000008eb11c00020000008db11c00030000000000000008000000"
+}

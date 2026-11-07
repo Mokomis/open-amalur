@@ -1,0 +1,353 @@
+[
+  {
+    "pc": 47,
+    "file_offset": 2176,
+    "word_hex": "32001301",
+    "opcode": 25,
+    "name": "LOADK",
+    "A": 1,
+    "B": 0,
+    "C": 19,
+    "Bx": 19,
+    "reads": [],
+    "writes": [
+      1
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      48
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010af677 copies K[Bx] to R[A]"
+    ],
+    "kind": "loadk",
+    "constant_index": 19,
+    "constant_lua": "\"cameraLibrary\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [
+      0
+    ],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "preserve",
+    "cache_predecessor_pcs": [
+      45
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "pc": 48,
+    "file_offset": 2180,
+    "word_hex": "04040100",
+    "opcode": 2,
+    "name": "CALL_I",
+    "A": 0,
+    "B": 2,
+    "C": 1,
+    "Bx": 1025,
+    "reads": [
+      0,
+      1
+    ],
+    "writes": [
+      0,
+      1,
+      2
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      49
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "0x010af3d3: B8 argument count; C8-1 result count",
+      "0x010af290: non-Lua-function specialization to CALL_C",
+      "0x010af30c..0x010af38e: native CALL_C argument and result path",
+      "native-openlists.json: exact B8/C8 zero forms and native tail clearing"
+    ],
+    "kind": "call_fixed",
+    "result_count": 0,
+    "clear_fixed_tail": true,
+    "open_top_effect": null,
+    "may_writes": [
+      0,
+      1,
+      2
+    ],
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [
+      0
+    ],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "call_invalidates",
+    "cache_predecessor_pcs": [
+      47
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "pc": 49,
+    "file_offset": 2184,
+    "word_hex": "aa001500",
+    "opcode": 85,
+    "name": "GETGLOBAL_MEM",
+    "A": 0,
+    "B": 0,
+    "C": 21,
+    "Bx": 21,
+    "reads": [],
+    "writes": [
+      0
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [
+      50
+    ],
+    "metadata_words": [
+      {
+        "pc": 50,
+        "file_offset": 2188,
+        "word_hex": "8c001614"
+      }
+    ],
+    "successors": [
+      51
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010af52f cached environment lookup",
+      "0x010af56e skips one payload word on cache hit",
+      "0x010af598 cache miss enters GETGLOBAL; both paths update hidden last result"
+    ],
+    "kind": "getglobal",
+    "cache_constant_indices": [
+      22,
+      23
+    ],
+    "constant_index": 21,
+    "constant_lua": "\"SPACE_ID\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "result_A",
+    "cache_predecessor_pcs": [
+      48
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "pc": 51,
+    "file_offset": 2192,
+    "word_hex": "32001801",
+    "opcode": 25,
+    "name": "LOADK",
+    "A": 1,
+    "B": 0,
+    "C": 24,
+    "Bx": 24,
+    "reads": [],
+    "writes": [
+      1
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      52
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010af677 copies K[Bx] to R[A]"
+    ],
+    "kind": "loadk",
+    "constant_index": 24,
+    "constant_lua": "\"DGN_WellofSouls_1\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [
+      0
+    ],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "preserve",
+    "cache_predecessor_pcs": [
+      49
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "pc": 52,
+    "file_offset": 2196,
+    "word_hex": "04040200",
+    "opcode": 2,
+    "name": "CALL_I",
+    "A": 0,
+    "B": 2,
+    "C": 2,
+    "Bx": 1026,
+    "reads": [
+      0,
+      1
+    ],
+    "writes": [
+      0,
+      1,
+      2
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      53
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "0x010af3d3: B8 argument count; C8-1 result count",
+      "0x010af290: non-Lua-function specialization to CALL_C",
+      "0x010af30c..0x010af38e: native CALL_C argument and result path",
+      "native-openlists.json: exact B8/C8 zero forms and native tail clearing"
+    ],
+    "kind": "call_fixed",
+    "result_count": 1,
+    "clear_fixed_tail": true,
+    "open_top_effect": null,
+    "may_writes": [
+      0,
+      1,
+      2
+    ],
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [
+      0
+    ],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "call_invalidates",
+    "cache_predecessor_pcs": [
+      51
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "pc": 53,
+    "file_offset": 2200,
+    "word_hex": "36001400",
+    "opcode": 27,
+    "name": "SETGLOBAL",
+    "A": 0,
+    "B": 0,
+    "C": 20,
+    "Bx": 20,
+    "reads": [
+      0
+    ],
+    "writes": [],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      54
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010b06c2 reloads closure environment and assigns key K[Bx] from R[A]"
+    ],
+    "kind": "setglobal",
+    "constant_index": 20,
+    "constant_lua": "\"m_CHEAT_START_SPACE\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "unmodeled_invalidates",
+    "cache_predecessor_pcs": [
+      52
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "pc": 54,
+    "file_offset": 2204,
+    "word_hex": "32001a00",
+    "opcode": 25,
+    "name": "LOADK",
+    "A": 0,
+    "B": 0,
+    "C": 26,
+    "Bx": 26,
+    "reads": [],
+    "writes": [
+      0
+    ],
+    "edge_writes": {},
+    "metadata_pcs": [],
+    "metadata_words": [],
+    "successors": [
+      55
+    ],
+    "status": "confirmed_static",
+    "evidence": [
+      "offline-vm-handlers.json: 0x010af677 copies K[Bx] to R[A]"
+    ],
+    "kind": "loadk",
+    "constant_index": 26,
+    "constant_lua": "\"2nd Draft\"",
+    "reachability": "reachable",
+    "reachable": true,
+    "cached_aliases_in": [],
+    "cache_consumer_register": null,
+    "cache_register_proven": null,
+    "cache_effect": "preserve",
+    "cache_predecessor_pcs": [
+      53
+    ],
+    "cache_evidence": "ev_b43d96bdb035be913311172a76bad68bec6088b63f3df7c11c58b9476a01375b",
+    "definitely_initialized_in": [
+      0,
+      1,
+      2
+    ]
+  }
+]

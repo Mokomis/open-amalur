@@ -1,0 +1,39 @@
+{
+  "current_source_path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v19-host\\oa_stream.c",
+  "current_source_bytes": 45074,
+  "current_source_sha256": "a12167ae677472f0c219723281c7dff7336c396a69ec0cff41b521e1ff02cdc2",
+  "current_header_sha256": "32984ab13f33e59910f72889393b09955afbdc98c5dc95730f7176570e355322",
+  "before_source_sha256": "328b27476b91705afb70a881baba0ed08856d0996d0a0bfd2a7e7d4412678a17",
+  "proof": [
+    {
+      "line": 171,
+      "text": " for(i=0;i<s->cell_count;i++){cell *c=s->cells+i;float dx=eye[0]<c->base_lo[0]?c->base_lo[0]-eye[0]:eye[0]>c->base_hi[0]?eye[0]-c->base_hi[0]:0,dy=eye[1]<c->base_lo[1]?c->base_lo[1]-eye[1]:eye[1]>c->base_hi[1]?eye[1]-c->base_hi[1]:0,d=sqrtf(dx*dx+dy*dy);int want=oa_stream_want(d,s->far_range);float rx=fmaxf(fmaxf(c->lo[0]-eye[0],0.f),eye[0]-c->hi[0]),ry=fmaxf(fmaxf(c->lo[1]-eye[1],0.f),eye[1]-c->hi[1]),region_d=sqrtf(rx*rx+ry*ry);int region_want=oa_stream_want(region_d,s->far_range);c->distance=d;"
+    },
+    {
+      "line": 174,
+      "text": "  {lod_data *g=c->lod+REGION;if(oa_stream_region&&g->triangles&&region_want>=0){if(g->state==STATE_NONE){g->state=STATE_QUEUED;push_job(s,0,(int)i,REGION);}}else if((!oa_stream_region||region_d>s->far_range+HYSTERESIS)&&g->state!=STATE_NONE){if(g->state==STATE_GPU)free_gpu(s,g);else if(g->state==STATE_CPU){s->cpu_bytes-=g->size;free(g->bytes);g->bytes=NULL;g->size=0;}g->state=STATE_NONE;}}"
+    },
+    {
+      "line": 241,
+      "text": "  for(i=0;i<count;i++){const cell *c=s->cells+vis[phase>=4?count-1-i:i].index;int leaf_pass,leaf_ready=phase==2&&oa_stream_leaf_native&&(features&128u)&&s->leaf_materials&&c->lod[TREE_LEAF].state==STATE_GPU&&lod_ready(s,c->lod+TREE_LEAF);for(leaf_pass=0;leaf_pass<3;leaf_pass++){int region_pass=leaf_pass==2;const lod_data *q;unsigned d;int bound_array=0;if((leaf_pass==0&&c->shown<0)||(leaf_pass==1&&!leaf_ready)||(region_pass&&(phase==3||!oa_stream_region||!s->region_index_cells)))continue;q=c->lod+(region_pass?REGION:leaf_pass==1?TREE_LEAF:phase==3?GRASS:c->shown);if(leaf_pass==1)native_leaf_cells++;else if(!region_pass&&phase==2&&oa_stream_leaf_lod_override==0&&c->lod[0].state==STATE_GPU&&lod_ready(s,c->lod)){q=c->lod;forced_leaf_cells++;}if(q->state!=STATE_GPU||(!region_pass&&phase==3&&c->distance>OA_STREAM_GRASS)||!lod_ready(s,q))continue;if(region_pass&&phase==0)region_cells++;"
+    }
+  ],
+  "scope": "Bounded source-only comparison of new REGION path vs before-region-runtime; no source edits/builds/runtime tests by reviewer",
+  "findings": [
+    {
+      "priority": "P1",
+      "status": "resolved in final source",
+      "issue": "REGION ranges were classified as grass in phase3",
+      "fix": "region_pass early-skips phase3"
+    },
+    {
+      "priority": "P2",
+      "status": "resolved in final source",
+      "issue": "REGION requests/unloads used base geometry distance despite expanded auxiliary bounds",
+      "fix": "region_d/region_want derived from unionlo/hi; original base d/want retained"
+    }
+  ],
+  "remaining_findings": [],
+  "lifecycle_review": "No additional concrete defect found in range allocation/free, close/context recreation, VAO/material indexing or worker lock publication under the reviewed flow.",
+  "runtime_validation": "Not performed; parent owns Windows/ARM smoke validation."
+}

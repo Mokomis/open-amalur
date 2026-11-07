@@ -1,0 +1,129 @@
+{
+  "draw": 68274,
+  "vertex_shader": 650,
+  "pixel_shader": 651,
+  "source_DXBC": "8af7b90f9cc700d2",
+  "CB0_material": [
+    {
+      "name": "SpecularValues",
+      "byte_offset": 0,
+      "type": "float4",
+      "value": [
+        1.769700050354004,
+        100,
+        0,
+        0
+      ],
+      "used_components": "xy",
+      "source_key": 11960536
+    },
+    {
+      "name": "SpecularColor",
+      "byte_offset": 16,
+      "type": "float3",
+      "value": [
+        1,
+        1,
+        1
+      ],
+      "used_components": "none",
+      "source_key": 10447209
+    },
+    {
+      "name": "ReflectionInfluence",
+      "byte_offset": 28,
+      "type": "float",
+      "value": 1,
+      "used_components": "x",
+      "source_key": 20810926
+    },
+    {
+      "name": "TintColor",
+      "byte_offset": 32,
+      "type": "float4",
+      "value": [
+        0.9019608497619629,
+        0.7098039388656616,
+        0.5254902243614197,
+        1
+      ],
+      "used_components": "rgb",
+      "source_key": 4394951
+    },
+    {
+      "name": "Opacity",
+      "byte_offset": 48,
+      "type": "float",
+      "value": 1,
+      "used_components": "none",
+      "source_key": 2873547
+    },
+    {
+      "name": "FresnelPower",
+      "byte_offset": 52,
+      "type": "float",
+      "value": 1.5839990377426147,
+      "used_components": "x",
+      "source_key": 7602060
+    },
+    {
+      "name": "FresnelScale",
+      "byte_offset": 56,
+      "type": "float",
+      "value": 1.2999999523162842,
+      "used_components": "x",
+      "source_key": 8493321
+    }
+  ],
+  "CB1_global": [
+    {
+      "name": "environmentTint",
+      "byte_offset": 96,
+      "type": "float4",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "used_components": "rgb",
+      "capture_buffer": 51,
+      "capture_memory": 52,
+      "absolute_memory_offset": 360992
+    }
+  ],
+  "CB2_view": [
+    {
+      "name": "cameraPosition",
+      "byte_offset": 64,
+      "type": "float3",
+      "captured_value": [
+        8591.9326171875,
+        -87036.03125,
+        6493.06640625
+      ],
+      "runtime": "live eye"
+    }
+  ],
+  "CB4_dynamic": [
+    {
+      "name": "world",
+      "byte_offset": 0
+    },
+    {
+      "name": "worldVector",
+      "byte_offset": 64
+    },
+    {
+      "name": "worldViewProjection",
+      "byte_offset": 128
+    },
+    {
+      "name": "dynamicLuminanceShiftId",
+      "byte_offset": 252,
+      "value": 0.4375,
+      "scope": "per draw, not source material"
+    }
+  ],
+  "semantic_evidence": "Shipped DXBC RDEF + captured SPIR-V member offsets; source material key matches proven native string hash, not guesses from parameter values."
+}

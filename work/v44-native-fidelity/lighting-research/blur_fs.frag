@@ -1,0 +1,2 @@
+#version 300 es
+precision highp float;in vec2 uv;uniform sampler2D s;uniform vec4 offsets;out vec4 o;void main(){vec4 c=texture(s,uv-offsets.zw)*.390625;c=texture(s,uv-offsets.xy)*.109375+c;c=texture(s,uv+offsets.zw)*.390625+c;o=texture(s,uv+offsets.xy)*.109375+c;}

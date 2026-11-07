@@ -1,0 +1,1028 @@
+[
+  {
+    "draw_index": 73280,
+    "draw": {
+      "commandBuffer": 46,
+      "vertexCount": 6,
+      "instanceCount": 1,
+      "firstVertex": 0,
+      "firstInstance": 0
+    },
+    "bind": {
+      "commandBuffer": 46,
+      "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+      "layout": 7583,
+      "firstSet": 0,
+      "descriptorSetCount": 1,
+      "pDescriptorSets": [
+        7626
+      ],
+      "dynamicOffsetCount": 1,
+      "pDynamicOffsets": [
+        1764928
+      ]
+    },
+    "writes": {
+      "7626": {
+        "32": {
+          "index": 24752,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7626,
+            "dstBinding": 32,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 199,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "16": {
+          "index": 24753,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7626,
+            "dstBinding": 16,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 153,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "0": {
+          "index": 24754,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7626,
+            "dstBinding": 0,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+            "pBufferInfo": [
+              {
+                "buffer": 51,
+                "offset": 0,
+                "range": 16
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sampled_images": {
+      "32": {
+        "view": 199,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 197,
+          "viewType": "VK_IMAGE_VIEW_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "extent": {
+            "width": 768,
+            "height": 432,
+            "depth": 1
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 23,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      }
+    }
+  },
+  {
+    "draw_index": 73395,
+    "draw": {
+      "commandBuffer": 46,
+      "vertexCount": 3,
+      "instanceCount": 1,
+      "firstVertex": 0,
+      "firstInstance": 0
+    },
+    "bind": {
+      "commandBuffer": 46,
+      "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+      "layout": 7598,
+      "firstSet": 0,
+      "descriptorSetCount": 1,
+      "pDescriptorSets": [
+        13406
+      ],
+      "dynamicOffsetCount": 1,
+      "pDynamicOffsets": [
+        1765632
+      ]
+    },
+    "writes": {
+      "13406": {
+        "32": {
+          "index": 28986,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 32,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 4447,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "16": {
+          "index": 28987,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 16,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 145,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "0": {
+          "index": 28988,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 0,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+            "pBufferInfo": [
+              {
+                "buffer": 51,
+                "offset": 0,
+                "range": 64
+              }
+            ]
+          }
+        },
+        "33": {
+          "index": 28989,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 33,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 4447,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "17": {
+          "index": 28990,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 17,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 145,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "34": {
+          "index": 28991,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 34,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 1837,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "18": {
+          "index": 28992,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 18,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 145,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "19": {
+          "index": 28993,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 19,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 145,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "35": {
+          "index": 28994,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 13406,
+            "dstBinding": 35,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 1837,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sampled_images": {
+      "32": {
+        "view": 4447,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 4443,
+          "viewType": "VK_IMAGE_VIEW_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "extent": {
+            "width": 16,
+            "height": 16,
+            "depth": 16
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 7,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      },
+      "33": {
+        "view": 4447,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 4443,
+          "viewType": "VK_IMAGE_VIEW_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "extent": {
+            "width": 16,
+            "height": 16,
+            "depth": 16
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 7,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      },
+      "34": {
+        "view": 1837,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 1833,
+          "viewType": "VK_IMAGE_VIEW_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "extent": {
+            "width": 16,
+            "height": 16,
+            "depth": 16
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 7,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      },
+      "35": {
+        "view": 1837,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 1833,
+          "viewType": "VK_IMAGE_VIEW_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_3D",
+          "format": "VK_FORMAT_R8G8B8A8_SRGB",
+          "extent": {
+            "width": 16,
+            "height": 16,
+            "depth": 16
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 7,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      }
+    }
+  },
+  {
+    "draw_index": 73404,
+    "draw": {
+      "commandBuffer": 46,
+      "vertexCount": 6,
+      "instanceCount": 1,
+      "firstVertex": 0,
+      "firstInstance": 0
+    },
+    "bind": {
+      "commandBuffer": 46,
+      "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+      "layout": 7602,
+      "firstSet": 0,
+      "descriptorSetCount": 1,
+      "pDescriptorSets": [
+        7632
+      ],
+      "dynamicOffsetCount": 1,
+      "pDynamicOffsets": [
+        1765696
+      ]
+    },
+    "writes": {
+      "7632": {
+        "32": {
+          "index": 24782,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 32,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 1864,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "16": {
+          "index": 24783,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 16,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 154,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "0": {
+          "index": 24784,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 0,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+            "pBufferInfo": [
+              {
+                "buffer": 51,
+                "offset": 0,
+                "range": 48
+              }
+            ]
+          }
+        },
+        "33": {
+          "index": 24785,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 33,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 175,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "17": {
+          "index": 24786,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 17,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 145,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "34": {
+          "index": 24787,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 34,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 178,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "18": {
+          "index": 24788,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 18,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 153,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "19": {
+          "index": 24789,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 19,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 153,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "35": {
+          "index": 24790,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7632,
+            "dstBinding": 35,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 205,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sampled_images": {
+      "32": {
+        "view": 1864,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 1862,
+          "viewType": "VK_IMAGE_VIEW_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "extent": {
+            "width": 256,
+            "height": 16,
+            "depth": 1
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 23,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      },
+      "33": {
+        "view": 175,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 173,
+          "viewType": "VK_IMAGE_VIEW_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "extent": {
+            "width": 1536,
+            "height": 864,
+            "depth": 1
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 23,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      },
+      "34": {
+        "view": 178,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 176,
+          "viewType": "VK_IMAGE_VIEW_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "extent": {
+            "width": 1536,
+            "height": 864,
+            "depth": 1
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 23,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      },
+      "35": {
+        "view": 205,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 203,
+          "viewType": "VK_IMAGE_VIEW_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "extent": {
+            "width": 384,
+            "height": 216,
+            "depth": 1
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 23,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      }
+    }
+  },
+  {
+    "draw_index": 73411,
+    "draw": {
+      "commandBuffer": 46,
+      "vertexCount": 3,
+      "instanceCount": 1,
+      "firstVertex": 0,
+      "firstInstance": 0
+    },
+    "bind": {
+      "commandBuffer": 46,
+      "pipelineBindPoint": "VK_PIPELINE_BIND_POINT_GRAPHICS",
+      "layout": 7606,
+      "firstSet": 0,
+      "descriptorSetCount": 1,
+      "pDescriptorSets": [
+        7633
+      ],
+      "dynamicOffsetCount": 1,
+      "pDynamicOffsets": [
+        1765760
+      ]
+    },
+    "writes": {
+      "7633": {
+        "32": {
+          "index": 24792,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7633,
+            "dstBinding": 32,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLED_IMAGE",
+            "pImageInfo": [
+              {
+                "sampler": 0,
+                "imageView": 181,
+                "imageLayout": "VK_IMAGE_LAYOUT_GENERAL"
+              }
+            ]
+          }
+        },
+        "16": {
+          "index": 24793,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7633,
+            "dstBinding": 16,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_SAMPLER",
+            "pImageInfo": [
+              {
+                "sampler": 148,
+                "imageView": 0,
+                "imageLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+              }
+            ]
+          }
+        },
+        "0": {
+          "index": 24794,
+          "write": {
+            "sType": "VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET",
+            "pNext": null,
+            "dstSet": 7633,
+            "dstBinding": 0,
+            "dstArrayElement": 0,
+            "descriptorCount": 1,
+            "descriptorType": "VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC",
+            "pBufferInfo": [
+              {
+                "buffer": 51,
+                "offset": 0,
+                "range": 48
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sampled_images": {
+      "32": {
+        "view": 181,
+        "view_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_VIEW_CREATE_INFO",
+          "pNext": null,
+          "flags": 0,
+          "image": 179,
+          "viewType": "VK_IMAGE_VIEW_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "components": {
+            "r": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "g": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "b": "VK_COMPONENT_SWIZZLE_IDENTITY",
+            "a": "VK_COMPONENT_SWIZZLE_IDENTITY"
+          },
+          "subresourceRange": {
+            "aspectMask": 1,
+            "baseMipLevel": 0,
+            "levelCount": 1,
+            "baseArrayLayer": 0,
+            "layerCount": 1
+          }
+        },
+        "image_info": {
+          "sType": "VK_STRUCTURE_TYPE_IMAGE_CREATE_INFO",
+          "pNext": null,
+          "flags": 8,
+          "imageType": "VK_IMAGE_TYPE_2D",
+          "format": "VK_FORMAT_R8G8B8A8_UNORM",
+          "extent": {
+            "width": 1536,
+            "height": 864,
+            "depth": 1
+          },
+          "mipLevels": 1,
+          "arrayLayers": 1,
+          "samples": "VK_SAMPLE_COUNT_1_BIT",
+          "tiling": "VK_IMAGE_TILING_OPTIMAL",
+          "usage": 23,
+          "sharingMode": "VK_SHARING_MODE_EXCLUSIVE",
+          "queueFamilyIndexCount": 0,
+          "pQueueFamilyIndices": null,
+          "initialLayout": "VK_IMAGE_LAYOUT_UNDEFINED"
+        }
+      }
+    }
+  }
+]

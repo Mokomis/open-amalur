@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": 248,
+  "legacy_bytes": 88,
+  "new_bytes": 92,
+  "space_offset": 88,
+  "user_files_touched": false,
+  "harness_directory": "/var/folders/xm/35tgq_414yj4b_kl17klqhkm0000gn/T/oa-v46-save-compat-tz57vsw6",
+  "compile_argv": [
+    "cc",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-g",
+    "save_compat.c",
+    "oa_items.c",
+    "-lm",
+    "-o",
+    "save_compat"
+  ],
+  "source_extraction": "Actual current/legacy save functions and oa_save definitions, actual oa_items.c/.h, exact sprite enums only from oa_ui.h"
+}

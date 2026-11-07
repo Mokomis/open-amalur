@@ -1,0 +1,30 @@
+Explicit empty Android language catalog
+
+scene_profile_v08_options.no_language_packs is a trailing immutable flag:
+  0 = unknown, all four catalog queries error.
+  1 = explicitly no OST/audio packs mounted by this host.
+Other integers are rejected before provider publication. Existing callers must
+recompile for the struct extension; zero initialization preserves unknown state.
+
+Known-empty ID behavior: GAME.get_available_ost_languages and
+GAME.get_available_audio_languages each return a new plain one-based {-1}.
+Native00eb75c0/00eb76b0 always append -1, then append IDs0..48 only when the
+availability byte is set.00aaebe0 marshals the sequence with indices1..count.
+Evidence: ost_language_array.json,audio_language_array.json,
+language_array_push.json in work/v08-native.
+
+Known-empty display behavior: GAME.get_available_ost_language_names and
+GAME.get_available_audio_language_names each return new {"Automatic"}.
+This is an explicit NEW host fallback. Native00eb77a0/00eb78c0 use a localized
+Automatic/resolved-language label and localized available-language names;
+the host has no packs to supply that formatting. No native label parity claim.
+
+All four require zero arguments and preserve exact one-result table shape.
+Every call allocates a fresh Lua-owned array; caller mutation cannot change
+another result or the immutable copied flag. Existing providers are retained.
+No active-language queries, language setters, translations, OST/audio loading,
+native profile imports, disk changes, or entitlement inference are implemented.
+
+language_catalog_test.c checks unknown state, copied options, exact shape,
+fresh result mutation isolation, captured functions, arity, unchanged existing
+provider behavior, invalid flags and unimplemented setters on Windows.

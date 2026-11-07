@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "portable-interface-design-not-engine-implementation",
+  "target": "Standalone Android reconstruction; Windows native addresses are reference evidence only.",
+  "portable_boundary": {
+    "dispatch": "Namespace and method name, backed by explicit provider implementations. Never dispatch by original x86 addresses.",
+    "receiver": "Provider receiver belongs to the host implementation; reconstructed Lua arguments exclude an automatically inserted self. Native closure upvalue0 supplies receiver in inspected wrappers.",
+    "argument_and_result_lists": "Preserve order, explicit length, trailing nil, multiple results and errors. Do not coerce according to guessed signatures.",
+    "handles": "Opaque identity tokens backed by two uint32 words or canonical16-hex text; shared interning per Lua realm. Domain and key are not a Lua number. Key existence and lifetime belong to the engine implementation.",
+    "strings": "Preserve Lua byte strings and length; do not assume all data is UTF-8 or null-terminated at the portable API boundary.",
+    "numbers": "Keep reconstructed VM numeric semantics explicit; native tests currently cover bounded signed32-bit domains. Do not substitute host floating-point behavior for verified integer rules.",
+    "missing_features": "Return explicit unimplemented errors through the provider layer; do not fabricate empty worlds, false query results, successful quest transitions or missing-handle defaults.",
+    "native_state": "No original lua_State layout, engine context offset, GC header, vtable or calling convention crosses the portable boundary."
+  },
+  "provider_domains": {
+    "QUEST": "Quest key resolution, state/stage transitions and notifications require explicit engine contracts.",
+    "ACTOR": "Entity identity/lifetime and world actions require explicit engine contracts.",
+    "TIME": "Timers require an explicit clock/tick model; registered names alone do not establish time units or pause behavior.",
+    "GAME": "World/space readiness and lifecycle require explicit engine contracts.",
+    "WINDOW": "UI object ownership and widget behavior require explicit engine contracts; rendering may use Android implementation."
+  },
+  "usable_now": [
+    "engine_binding_registry.lua:1062 name/address metadata entries across five bounded namespaces",
+    "amalur_engine_bindings.lua:plain-table provider bridge with explicit missing functions",
+    "Shared type11 carrier and separate typed-handle transport module"
+  ],
+  "not_established": [
+    "A complete inventory of every engine namespace",
+    "Native engine callback behavior parity",
+    "Standalone engine, renderer, physics, assets, UI or playable Android build",
+    "Exact signatures/coercions for all1062 registered names"
+  ],
+  "next_useful_vertical_slice": "Choose one recovered script path and implement only the provider functions it actually reaches against a small portable world, keeping unsupported calls explicit. Compare outcomes against reference observations before widening."
+}

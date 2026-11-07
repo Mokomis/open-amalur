@@ -1,0 +1,107 @@
+{
+  "file": "aidith-live-save-before-restart.bin",
+  "size": 3374,
+  "sha256": "185d65598db304c73057e5de867359697d98a97c75e96a93d1e44461b7c27be1",
+  "profile_hash": "718740c8a567f84fd6eff18d61d66f33587a532bb9487939aa5234ae8fb5a834",
+  "race": 0,
+  "sex": 1,
+  "patron_index": 0,
+  "name": "Aidith",
+  "transaction": 7705202931450303105,
+  "catalogue_crc": 2693632117,
+  "owner": {
+    "patron": 1254092,
+    "health": 50,
+    "maxhealth": 50,
+    "destiny_buff": 385357,
+    "destiny_identifier": 9325294,
+    "started": 1,
+    "passive": 1,
+    "destiny_locked": 1,
+    "fateweaver_locked": 1,
+    "quest_stage": 5,
+    "finalized": 1,
+    "package4": 1,
+    "stealth_registered": 1,
+    "reckoning_registered": 1,
+    "stealth": 0,
+    "sees": 0,
+    "reckoning": 0,
+    "revision": 1
+  },
+  "skills": [
+    10,
+    20,
+    0,
+    0,
+    0,
+    0,
+    10,
+    0,
+    0
+  ],
+  "item_count": 165,
+  "opening": {
+    "inside": 1,
+    "initialized": 1,
+    "skipped": 1,
+    "container_count": 1,
+    "owned": 0,
+    "equipped": 0,
+    "door_open": 0,
+    "secondary_disabled": 0,
+    "compare_enabled": 0,
+    "revision": 6963,
+    "quest_noops": 0,
+    "pose": [
+      3932.745849609375,
+      2805.9921875,
+      -315.6943054199219,
+      -3.1415927410125732,
+      -0.20000000298023224
+    ],
+    "identity": "scene1417252:player1:g1",
+    "lua": {
+      "version": 1,
+      "wos_flags": 3968,
+      "sword_flags": 0,
+      "cinematic_flags": 1,
+      "sword_get": 0,
+      "clock": 56159,
+      "serial": 0
+    },
+    "timers": [],
+    "tutorials": [
+      {
+        "id": 17524338,
+        "active": 0,
+        "fired": 0,
+        "kills": 1
+      },
+      {
+        "id": 26339831,
+        "active": 0,
+        "fired": 0,
+        "kills": 1
+      },
+      {
+        "id": 40879367,
+        "active": 0,
+        "fired": 0,
+        "kills": 0
+      },
+      {
+        "id": 61835887,
+        "active": 0,
+        "fired": 0,
+        "kills": 0
+      },
+      {
+        "id": 49968583,
+        "active": 0,
+        "fired": 0,
+        "kills": 0
+      }
+    ]
+  }
+}

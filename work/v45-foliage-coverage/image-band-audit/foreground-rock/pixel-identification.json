@@ -1,0 +1,70 @@
+{
+  "pixels": [
+    {
+      "xy": [
+        50,
+        735
+      ],
+      "native_depth_u24": 15904343,
+      "native_depth": 0.9479727714045507,
+      "CPU_draw69783_depth": 0.9479726310989758,
+      "triangle": 2,
+      "indices": [
+        4,
+        3,
+        0
+      ],
+      "barycentric": [
+        0.2346644495697178,
+        0.3313700120387876,
+        0.43396553839149465
+      ]
+    },
+    {
+      "xy": [
+        100,
+        725
+      ],
+      "native_depth_u24": 15929796,
+      "native_depth": 0.949489888518446,
+      "CPU_draw69783_depth": 0.9494897339804005,
+      "triangle": 2,
+      "indices": [
+        4,
+        3,
+        0
+      ],
+      "barycentric": [
+        0.3967741714541948,
+        0.489500060382239,
+        0.11372576816356622
+      ]
+    }
+  ],
+  "pixel_centers": "CPU coverage at(x+.5,y+.5), zero-based native top-left; actual attachment sampled at integer pixels.",
+  "source_depth": "Existing replay selected-output/image_6606367322764890778.bin; little-endianu32 low24bits/16777215,1536x864,top-leftrow0",
+  "depth_sha256": "95cc6be3c9c01f8dda32a318bd4c0daadc19922c956308a579aa646b20cadb56",
+  "picker": "Existing /private/tmp/oa-v45-image-band/project_native_points.py with only points dictionary overridden in memory; no existing helper file edited.",
+  "native_draw": 69783,
+  "VB": 10440,
+  "IB": 10442,
+  "VS": 923,
+  "PS": 924,
+  "pipeline": 12360,
+  "culling": "CLOCKWISE/BACK",
+  "phase": 97,
+  "CB0_offset": 1293632,
+  "CB4_offset": 1293888,
+  "CB4_luminance_shift": 0.1875,
+  "material_CB_spec": [
+    0.9240000247955322,
+    67.12000274658203
+  ],
+  "material_CB_uv": [
+    2,
+    2,
+    1,
+    1
+  ],
+  "scope": "Existing captured geometry/depth/source evidence; no new replay/native bodies."
+}

@@ -1,0 +1,492 @@
+{
+  "358224.shader_bxml": {
+    "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\material-audit\\source\\initial_0.pak\\358224.shader_bxml",
+    "platform_references": [
+      {
+        "offset": 8,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 12,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 16,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 20,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 24,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 28,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 32,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 36,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 40,
+        "id": 380423,
+        "name": "GlassMetalProbeGeometry"
+      },
+      {
+        "offset": 44,
+        "id": 549749,
+        "name": "LowGlassMetalProbeGeometry"
+      },
+      {
+        "offset": 48,
+        "id": 380425,
+        "name": "WeightedGlassMetalProbeGeometry"
+      },
+      {
+        "offset": 52,
+        "id": 549743,
+        "name": "LowWeightedGlassMetalProbeGeometry"
+      },
+      {
+        "offset": 56,
+        "id": 380423,
+        "name": "GlassMetalProbeGeometry"
+      },
+      {
+        "offset": 60,
+        "id": 549749,
+        "name": "LowGlassMetalProbeGeometry"
+      },
+      {
+        "offset": 64,
+        "id": 380425,
+        "name": "WeightedGlassMetalProbeGeometry"
+      },
+      {
+        "offset": 68,
+        "id": 549743,
+        "name": "LowWeightedGlassMetalProbeGeometry"
+      },
+      {
+        "offset": 72,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 76,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 80,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 84,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 88,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 92,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 96,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 100,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 104,
+        "id": 8672,
+        "name": "shadow_solid"
+      },
+      {
+        "offset": 108,
+        "id": 8672,
+        "name": "shadow_solid"
+      },
+      {
+        "offset": 112,
+        "id": 8674,
+        "name": "shadow_weighted_solid"
+      },
+      {
+        "offset": 116,
+        "id": 8674,
+        "name": "shadow_weighted_solid"
+      },
+      {
+        "offset": 120,
+        "id": 8670,
+        "name": "shadow_alpha_test"
+      },
+      {
+        "offset": 124,
+        "id": 8670,
+        "name": "shadow_alpha_test"
+      },
+      {
+        "offset": 128,
+        "id": 8673,
+        "name": "shadow_weighted_alpha_test"
+      },
+      {
+        "offset": 132,
+        "id": 8673,
+        "name": "shadow_weighted_alpha_test"
+      },
+      {
+        "offset": 136,
+        "id": 380427,
+        "name": "GlassMetalProbe"
+      },
+      {
+        "offset": 140,
+        "id": 549745,
+        "name": "LowGlassMetalProbe"
+      },
+      {
+        "offset": 144,
+        "id": 358220,
+        "name": "WeightedGlassMetalProbe"
+      },
+      {
+        "offset": 148,
+        "id": 549751,
+        "name": "LowWeightedGlassMetalProbe"
+      },
+      {
+        "offset": 152,
+        "id": 380427,
+        "name": "GlassMetalProbe"
+      },
+      {
+        "offset": 156,
+        "id": 549745,
+        "name": "LowGlassMetalProbe"
+      },
+      {
+        "offset": 160,
+        "id": 358220,
+        "name": "WeightedGlassMetalProbe"
+      },
+      {
+        "offset": 164,
+        "id": 549751,
+        "name": "LowWeightedGlassMetalProbe"
+      },
+      {
+        "offset": 264,
+        "id": 422504,
+        "name": "GlassMetalProbeAlpha"
+      },
+      {
+        "offset": 268,
+        "id": 549746,
+        "name": "LowGlassMetalProbeAlpha"
+      },
+      {
+        "offset": 272,
+        "id": 422505,
+        "name": "WeightedGlassMetalProbeAlpha"
+      },
+      {
+        "offset": 276,
+        "id": 549752,
+        "name": "LowWeightedGlassMetalProbeAlpha"
+      },
+      {
+        "offset": 280,
+        "id": 422504,
+        "name": "GlassMetalProbeAlpha"
+      },
+      {
+        "offset": 284,
+        "id": 549746,
+        "name": "LowGlassMetalProbeAlpha"
+      },
+      {
+        "offset": 288,
+        "id": 422505,
+        "name": "WeightedGlassMetalProbeAlpha"
+      },
+      {
+        "offset": 292,
+        "id": 549752,
+        "name": "LowWeightedGlassMetalProbeAlpha"
+      }
+    ]
+  },
+  "12569.shader_bxml": {
+    "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\material-audit\\source\\initial_0.pak\\12569.shader_bxml",
+    "platform_references": [
+      {
+        "offset": 8,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 12,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 16,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 20,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 24,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 28,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 32,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 36,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 40,
+        "id": 364797,
+        "name": "TextureBlendGeometry"
+      },
+      {
+        "offset": 44,
+        "id": 549772,
+        "name": "LowTextureBlendGeometry"
+      },
+      {
+        "offset": 48,
+        "id": 364796,
+        "name": "WeightedTextureBlendGeometry"
+      },
+      {
+        "offset": 52,
+        "id": 549781,
+        "name": "LowWeightedTextureBlendGeometry"
+      },
+      {
+        "offset": 56,
+        "id": 364797,
+        "name": "TextureBlendGeometry"
+      },
+      {
+        "offset": 60,
+        "id": 549772,
+        "name": "LowTextureBlendGeometry"
+      },
+      {
+        "offset": 64,
+        "id": 364796,
+        "name": "WeightedTextureBlendGeometry"
+      },
+      {
+        "offset": 68,
+        "id": 549781,
+        "name": "LowWeightedTextureBlendGeometry"
+      },
+      {
+        "offset": 72,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 76,
+        "id": 8645,
+        "name": "depth_solid"
+      },
+      {
+        "offset": 80,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 84,
+        "id": 8651,
+        "name": "depth_weighted_solid"
+      },
+      {
+        "offset": 88,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 92,
+        "id": 8642,
+        "name": "depth_alpha_test"
+      },
+      {
+        "offset": 96,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 100,
+        "id": 8650,
+        "name": "depth_weighted_alpha_test"
+      },
+      {
+        "offset": 104,
+        "id": 8672,
+        "name": "shadow_solid"
+      },
+      {
+        "offset": 108,
+        "id": 8672,
+        "name": "shadow_solid"
+      },
+      {
+        "offset": 112,
+        "id": 8674,
+        "name": "shadow_weighted_solid"
+      },
+      {
+        "offset": 116,
+        "id": 8674,
+        "name": "shadow_weighted_solid"
+      },
+      {
+        "offset": 120,
+        "id": 8670,
+        "name": "shadow_alpha_test"
+      },
+      {
+        "offset": 124,
+        "id": 8670,
+        "name": "shadow_alpha_test"
+      },
+      {
+        "offset": 128,
+        "id": 8673,
+        "name": "shadow_weighted_alpha_test"
+      },
+      {
+        "offset": 132,
+        "id": 8673,
+        "name": "shadow_weighted_alpha_test"
+      },
+      {
+        "offset": 136,
+        "id": 12565,
+        "name": "textureblend"
+      },
+      {
+        "offset": 140,
+        "id": 549767,
+        "name": "LowTextureBlend"
+      },
+      {
+        "offset": 144,
+        "id": 12567,
+        "name": "weightedtextureblend"
+      },
+      {
+        "offset": 148,
+        "id": 549775,
+        "name": "LowWeightedTextureBlend"
+      },
+      {
+        "offset": 152,
+        "id": 12565,
+        "name": "textureblend"
+      },
+      {
+        "offset": 156,
+        "id": 549767,
+        "name": "LowTextureBlend"
+      },
+      {
+        "offset": 160,
+        "id": 12567,
+        "name": "weightedtextureblend"
+      },
+      {
+        "offset": 164,
+        "id": 549775,
+        "name": "LowWeightedTextureBlend"
+      },
+      {
+        "offset": 264,
+        "id": 422528,
+        "name": "TextureBlendAlpha"
+      },
+      {
+        "offset": 268,
+        "id": 549768,
+        "name": "LowTextureBlendAlpha"
+      },
+      {
+        "offset": 272,
+        "id": 422529,
+        "name": "WeightedTextureBlendAlpha"
+      },
+      {
+        "offset": 276,
+        "id": 549776,
+        "name": "LowWeightedTextureBlendAlpha"
+      },
+      {
+        "offset": 280,
+        "id": 422528,
+        "name": "TextureBlendAlpha"
+      },
+      {
+        "offset": 284,
+        "id": 549768,
+        "name": "LowTextureBlendAlpha"
+      },
+      {
+        "offset": 288,
+        "id": 422529,
+        "name": "WeightedTextureBlendAlpha"
+      },
+      {
+        "offset": 292,
+        "id": 549776,
+        "name": "LowWeightedTextureBlendAlpha"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+# Private credentials and local-only generated dependencies
+*.keystore
+*.jks
+*.pem
+*.p12
+*.pfx
+.env
+.npmrc
+__pycache__/
+node_modules/
+build-windows/
+build-android-arm64/
+.DS_Store
+# Large artifacts are preserved as private checkpoint release assets.
+*.apk
+*.zip
+
+# Stays on the Windows PC: decompiled game code, game binaries and data, recordings, saves
+work/v30-engine/decomp/
+work/v30-engine/ghidra/
+work/v30-engine/koa.exe
+work/v30-engine/oa_rec*/
+work/v30-engine/pc/
+work/v30-engine/run-*/
+work/v30-engine/save-backup-*/
+work/v30-engine/dxvk/
+work/v30-engine/vk/spv/
+work/v30-engine/vk/include/
+work/v30-engine/mac-scripts.tar
+work/v30-engine/publish.tar
+*.dxbc
+*.sav
+*.pak
+
+# Public final snapshot: private payloads and generated builds stay out.
+*.exe
+*.dll
+*.so
+*.aab
+*.pak
+*.gfxr
+*.bxml
+*.dmp
+*.mdmp
+*.sav
+*.key
+*.dxbc
+*.dds
+*.ktx
+*.astc
+outputs/
+backup-metadata/

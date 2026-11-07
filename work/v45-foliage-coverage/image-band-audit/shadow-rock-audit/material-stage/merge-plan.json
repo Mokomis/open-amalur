@@ -1,0 +1,81 @@
+{
+  "staging_only": true,
+  "material_row": 300,
+  "native_material_ID": 1744210,
+  "family": 10,
+  "material_count": 301,
+  "flags": "0x08006402 two-sided cutout100",
+  "native_texture_slots": [
+    4294967295,
+    4294967295,
+    703,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295,
+    4294967295
+  ],
+  "profile_color": [
+    1,
+    600,
+    0,
+    0
+  ],
+  "profile_specular": [
+    0,
+    10,
+    0,
+    0
+  ],
+  "profile_UV": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "source_inputs": {
+    "materials.bin": {
+      "sha256": "0650c670274c82a56500b98668fff621130b58092844c91df2e200c1f27eb78d",
+      "bytes": 8404,
+      "rows": 300
+    },
+    "native-materials.bin": {
+      "sha256": "07e0d0d9ab5b98309d36a55fc8be6f7d1a755922c3d8b012924e744c97312501",
+      "bytes": 25212,
+      "rows": 300
+    }
+  },
+  "outputs": {
+    "materials.bin": {
+      "sha256": "3d62cd05a0508541f4ce6d756c4033f270c1f705e886fc58b5e3e5de67369720",
+      "bytes": 8432
+    },
+    "native-materials.bin": {
+      "sha256": "5618a5a5b9c6dc37cc270440e7eea0008849c0e6dace0222c2f21c0e15edea90",
+      "bytes": 25296
+    },
+    "t703.bin": {
+      "sha256": "56c83d4e6367e4374cf431059dfc0ee0585780eebeae42ba05e5e8ae2ff6abb7",
+      "bytes": 22369592
+    }
+  },
+  "validation": {
+    "all_rows_0_through299_material_bytes_identical": true,
+    "all_rows_0_through299_native_profile_bytes_identical": true,
+    "count_headers_updated_only_plus_appended_rows": true,
+    "new_alpha_is_exact_captured_authored_9_mips": true
+  },
+  "index_merge": {
+    "current_hash_at_staging": "0de234893618e42ee37f99d8218d374b34999b3f14843092dabe721b64c356b6",
+    "current_texture_count": 685,
+    "required_texture_count_minimum": 704,
+    "field_offset": 12,
+    "format": "little-endianu32; patch max(currentCount,704), preserveallcellrecords/othermetadata",
+    "staged_index": false
+  },
+  "sampler": "linear min/mag/mip,REPEAT,anis1,bias0,MAX_LEVEL8",
+  "vertex_protocol": "OAWE76 pos=direct source worldP;N.xyz=worldLinear*normalize(sourceSNORMN) fullfloat/no worldrenormalization;T/B0;UV0source;UV2=(floatphase0..9,0);nativeMID1744210;flagunused0. VSfamily10 adds N*SPEC.y*leaf_palette[int(UV2.x)].",
+  "ownership": "Newshadow-only stream. Neveradmitfamily10 into maincolor; onlyexactshadow-ownedsourcecardsconditionallyreplacedwhenmatchingproxyGPUready. Preserveallmainleaf/c/r/gfiles.",
+  "water_files_changed": false,
+  "promotion_performed": false
+}

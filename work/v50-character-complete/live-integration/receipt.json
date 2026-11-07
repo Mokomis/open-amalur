@@ -1,0 +1,43 @@
+{
+  "ready_for_root_integration": true,
+  "live_edits": false,
+  "windows_actual_headers_object_compile": "PASS /W4 /WX",
+  "arm64_actual_headers_syntax": "PASS strictC99",
+  "runtime_GPU_execution_this_adapter": false,
+  "borrowed_renderer_API": "work/v19-host/oa_character_appearance.h",
+  "files": {
+    "oa_creation_session.c": {
+      "bytes": 12115,
+      "sha256": "73390e0e1e43a9346933a22a345b7294e3e30fb844a1ffb725e797b529c97b7d"
+    },
+    "oa_creation_session.h": {
+      "bytes": 4081,
+      "sha256": "4c66317508b99dfa00c1a349ca3559d90eb496497c9dfdb644b57a34b04f1afb"
+    },
+    "INTEGRATION.md": {
+      "bytes": 6313,
+      "sha256": "3a198dc9dd2dcf15abbc0a5d1ebd704a54c7877784ff2dcb1ebe2d49d2cebb12"
+    },
+    "compile-windows.cmd": {
+      "bytes": 1080,
+      "sha256": "04e821e0fd07eac031393f423ac592f9443980135def933d32976c487576c412"
+    },
+    "windows-syntax.log": {
+      "bytes": 321,
+      "sha256": "fb56fe70a92bfb327dfcf03fb1d21e67257734ed286fcbac189d569e70d09b4f"
+    },
+    "arm64-command.json": {
+      "bytes": 1124,
+      "sha256": "e08ac07f541b163fa6e8e34a19efdbd58c39d76f3fa3d90e6b1d77e45a9053e8"
+    },
+    "arm64-syntax.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "upstream_header_hashes": {
+    "work\\v19-host\\oa_character_appearance.h": "6796da130c5f73d70f1917a768eee22967cc4f14777497ee98dcdfa5c676a386",
+    "work\\v19-host\\oa_stream.h": "f7c01aad0db77a928de5ad45d0edc1f98de607cbec2b4158a932bf1208f480ec",
+    "work\\v19-host\\opem_collision.h": "c08512a5b9e22c3d294092e2519334105c6d7c0e5e4707945a693fc8ad8414f9"
+  }
+}

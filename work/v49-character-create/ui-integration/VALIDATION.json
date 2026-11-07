@@ -1,0 +1,48 @@
+{
+  "result": "PASS",
+  "actual_process_restart_and_visual_reload": true,
+  "draft_sha256": "d03eacaa02d268f2fa7a194606ce7c7a0a756341e33632ddfaf0c69fd0374932",
+  "draft_phase": "DRAFT",
+  "transaction": 0,
+  "gameplay_effects_granted": false,
+  "appearance_preview": "Live default male Almain and Varani BASE MODELS only; selected colours are not applied; unsupported mesh selections hide preview",
+  "protected_files_before": {
+    "opem-save-v1.bin": null,
+    "opem-settings-v1.bin": null,
+    "opem-inventory-v1.bin": null,
+    "wellofsouls.opening-checkpoint-v1.bin": "6c411553316b6d71c0b888c5c87bc95cc443d021d9e0fa3328d22b161c5250a6",
+    "properties.ini": "4b0dd727d22eca3c5bd850a6df0a33d706a48e2c17160ae245905d09fccc9f55"
+  },
+  "protected_files_after": {
+    "opem-save-v1.bin": null,
+    "opem-settings-v1.bin": null,
+    "opem-inventory-v1.bin": null,
+    "wellofsouls.opening-checkpoint-v1.bin": "6c411553316b6d71c0b888c5c87bc95cc443d021d9e0fa3328d22b161c5250a6",
+    "properties.ini": "4b0dd727d22eca3c5bd850a6df0a33d706a48e2c17160ae245905d09fccc9f55"
+  },
+  "tablet_changed": false,
+  "live_evidence": "live-reloaded-character-draft.png",
+  "c_checks": 14460,
+  "preview_rotates": true,
+  "creator_gameplay_finalize": false,
+  "native_clothing_colour_pass": {
+    "parts": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "mask": 46,
+    "cube": "source character1",
+    "source_lights": 113,
+    "validation": "native-clothing-live-validation/VALIDATION.json",
+    "depth_positions_match_colour": true
+  },
+  "movement_policy": "Actual accepted horizontal displacement, source-native MotionTree equivalence unproven; blocked A/B PASS in movement-policy-validation/VALIDATION.json",
+  "build_receipt": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\integration\\final-renderer-build.json",
+  "tablet": "Still v0.38/code40, no APK/device changes",
+  "diagnostic_properties_restored": true,
+  "all_existing_user_files_preserved": true,
+  "skin_colour_audit": "Sealed source producer/mask contract; no live skin renderer. Fresh alpha/full identity/head-hair bindings remain open.",
+  "workers": "bounded passes completed"
+}

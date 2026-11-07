@@ -1,0 +1,36 @@
+torso 1926576 me_torso ["me_torso_d","me_torso_s","me_torso_n","par_color_white_d","1590418_cubemap"] CHOSEN me_torso_d from 1926592_1.dds 512x512
+legs 1926575 me_legs ["me_legs_d","me_legs_s","me_legs_n","par_color_white_d","1590418_cubemap"] CHOSEN me_legs_d from 1924075_1.dds 512x512
+hands 1926574 me_hands ["me_hands_d","me_hands_s","me_hands_n","par_color_white_d","1590418_cubemap"] CHOSEN me_hands_d from 1923201_1.dds 512x512
+feet 1923507 me_armor_feet ["me_armor_feet_d","me_armor_feet_s","me_armor_feet_n","par_color_white_d","1590418_cubemap"] CHOSEN me_armor_feet_d from 1923516_1.dds 512x512
+head 1362163 human_mouth_interior_01 ["mouth_interior_d","par_color_white_d","mouth_interior_s","mouth_interior_n"] CHOSEN mouth_interior_d from 535019_1.dds 512x512
+head 1362163 base_male_varani_head_01 ["base_male_varani_head_02_d","base_male_body_01_a","base_male_head_01_s","base_male_varani_head_01_n","varani_male CHOSEN par_color_white_d from 250070.dds 32x32
+head 1362163 mouth_black ["blank_black","blanknormal"] CHOSEN blanknormal from 4002.dds 64x64
+head 1362163 human_eye_01 ["human_eye_d","editor_white","human_eye_mask","eye_reflection"] CHOSEN human_eye_d from 744833_1.dds 512x512
+head 1362163 eye_shadow ["blank_black","eyeshadow"] CHOSEN eyeshadow from 518046.dds 64x64
+head surfaces [(535023, 'human_mouth_interior_01'), (1362155, 'base_male_varani_head_01'), (1751215, 'mouth_black'), (790131, 'human_eye_01'), (518048, 'eye_shadow'), (535023, 'human_mouth_interior_01'), (1362155, 'base_male_varani_head_01'), (1751215, 'mouth_black'), (790131, 'human_eye_01'), (518048, 'eye_shadow')]
+human_mouth_interior_01 [(535019, 'mouth_interior_d'), (250070, 'par_color_white_d'), (535021, 'mouth_interior_s'), (535020, 'mouth_interior_n')]
+ shader dot3
+   mouth_interior_d 256 256 mean [65.0, 42.0, 30.0, 255.0]
+   par_color_white_d 32 32 mean [255.0, 255.0, 255.0, 255.0]
+   mouth_interior_s 256 256 mean [75.0, 75.0, 75.0, 255.0]
+   mouth_interior_n 256 256 mean [255.0, 125.0, 0.0, 126.0]
+base_male_varani_head_01 [(1430980, 'base_male_varani_head_02_d'), (518404, 'base_male_body_01_a'), (513765, 'base_male_head_01_s'), (1362162, 'base_male_varani_head_01_n'), (1434369, 'varani_male_head_det'), (250070, 'par_color_white_d')]
+ shader characterhead
+   base_male_varani_head_02_d 128 256 mean [167.0, 129.0, 117.0, 255.0]
+   base_male_body_01_a 128 128 mean [255.0, 255.0, 255.0, 255.0]
+   base_male_head_01_s 128 256 mean [86.0, 88.0, 88.0, 255.0]
+   base_male_varani_head_01_n 128 256 mean [255.0, 122.0, 0.0, 126.0]
+   varani_male_head_det 256 256 mean [1.0, 5.0, 20.0, 255.0]
+   par_color_white_d 32 32 mean [255.0, 255.0, 255.0, 255.0]
+mouth_black [(365597, 'blank_black'), (4002, 'blanknormal')]
+ shader dot3
+   blanknormal 64 64 mean [255.0, 128.0, 0.0, 128.0]
+human_eye_01 [(744833, 'human_eye_d'), (3030, 'editor_white'), (744834, 'human_eye_mask'), (744821, 'eye_reflection')]
+ shader charactereye
+   human_eye_d 256 256 mean [103.0, 75.0, 71.0, 255.0]
+   editor_white 256 256 mean [255.0, 255.0, 255.0, 255.0]
+   human_eye_mask 256 256 mean [4.0, 4.0, 4.0, 255.0]
+   eye_reflection 64 64 mean [3.0, 3.0, 3.0, 255.0]
+eye_shadow [(365597, 'blank_black'), (518046, 'eyeshadow')]
+ shader fogadditive
+   eyeshadow 64 64 mean [111.0, 112.0, 112.0, 255.0]

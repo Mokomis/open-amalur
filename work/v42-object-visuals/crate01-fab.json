@@ -1,0 +1,418 @@
+{
+  "input_sha256": "2f87122f741b17381ad42d774825669515de6aecdae352c03b45e4eb9b6d1fa5",
+  "file_bytes": 1093,
+  "profile": "external-2018-FAB-skeleton-layout",
+  "native_layout_confirmed": false,
+  "matrix_convention": "row-major4x4 storage, column vectors, XYZW unit quaternion; world=parent@local; no axis/unit correction",
+  "header": {
+    "first_word": 336,
+    "magic": 1163079731,
+    "descriptor_section_offset": 336,
+    "unknown_word12": 0,
+    "unknown_word16": 16,
+    "bone_count": 4,
+    "unknown_word24": 3,
+    "relative_offsets": {
+      "transforms": {
+        "field_file_offset": 28,
+        "relative_i32": 88,
+        "file_offset": 116
+      },
+      "parents": {
+        "field_file_offset": 32,
+        "relative_i32": 276,
+        "file_offset": 308
+      },
+      "name_hashes": {
+        "field_file_offset": 36,
+        "relative_i32": 288,
+        "file_offset": 324
+      },
+      "unknown40": {
+        "field_file_offset": 40,
+        "relative_i32": 300,
+        "file_offset": 340
+      },
+      "unknown44": {
+        "field_file_offset": 44,
+        "relative_i32": 296,
+        "file_offset": 340
+      },
+      "unknown48": {
+        "field_file_offset": 48,
+        "relative_i32": 268,
+        "file_offset": 316
+      }
+    }
+  },
+  "bones": [
+    {
+      "index": 0,
+      "name_hash_u32": 7458927,
+      "file_offset": 116,
+      "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale_xyzw": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "local_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "transform_error": null,
+      "parent_raw_i16": -1,
+      "parent_file_offset": 308,
+      "parent_index": null,
+      "root_form": "minus-one",
+      "world_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_transform_error": null
+    },
+    {
+      "index": 1,
+      "name_hash_u32": 1640462,
+      "file_offset": 164,
+      "raw_hex": "0000000000000000000000000000803f00000000000000002e2aac420000803f0000803f0000803f0000803f00000000",
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_xyzw": [
+        0.0,
+        0.0,
+        86.08238220214844,
+        1.0
+      ],
+      "scale_xyzw": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "local_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        86.08238220214844,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "transform_error": null,
+      "parent_raw_i16": 0,
+      "parent_file_offset": 310,
+      "parent_index": 0,
+      "root_form": null,
+      "world_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        86.08238220214844,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_transform_error": null
+    },
+    {
+      "index": 2,
+      "name_hash_u32": 9400494,
+      "file_offset": 212,
+      "raw_hex": "0000000000000000000000000000803f0000000000000000000000000000803f0000803f0000803f0000803f00000000",
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale_xyzw": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "local_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "transform_error": null,
+      "parent_raw_i16": 0,
+      "parent_file_offset": 312,
+      "parent_index": 0,
+      "root_form": null,
+      "world_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_transform_error": null
+    },
+    {
+      "index": 3,
+      "name_hash_u32": 5320802,
+      "file_offset": 260,
+      "raw_hex": "0000000000000000000000000000803fa1a3bcbf5a2d883e000000000000803f0000803f0000803f0000803f00000000",
+      "quaternion_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_xyzw": [
+        -1.4737435579299927,
+        0.26597100496292114,
+        0.0,
+        1.0
+      ],
+      "scale_xyzw": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "local_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        -1.4737435579299927,
+        0.0,
+        1.0,
+        0.0,
+        0.26597100496292114,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "transform_error": null,
+      "parent_raw_i16": 2,
+      "parent_file_offset": 314,
+      "parent_index": 2,
+      "root_form": null,
+      "world_matrix_row_major": [
+        1.0,
+        0.0,
+        0.0,
+        -1.4737435579299927,
+        0.0,
+        1.0,
+        0.0,
+        0.26597100496292114,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_transform_error": null
+    }
+  ],
+  "mesh_descriptors": [
+    {
+      "index": 0,
+      "file_offset": 388,
+      "byte_length": 69,
+      "position_xyz_uninterpreted": [
+        -0.06166604161262512,
+        0.4693799912929535,
+        48.718692779541016
+      ],
+      "unknown_four_floats": [
+        0.0,
+        81.99427795410156,
+        0.0,
+        8000.0
+      ],
+      "remaps": [],
+      "unknown_two_floats": [
+        1.0,
+        0.0
+      ],
+      "bone_index": 2,
+      "bone_index_file_offset": 428,
+      "tail25_hex": "0e99040000000000000000001200000000000000d1393c4801",
+      "static_bind_candidate": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "static_bind_candidate_error": null
+    }
+  ],
+  "limitations": [
+    "Observed reference profile requires real-file and native verification.",
+    "Mesh descriptor position and remap matrix roles are preserved, not assumed as extra transforms.",
+    "Static bind application requires independently identified unskinned geometry.",
+    "Skinning, inverse-bind interpretation, animation and full FAB semantics are not implemented."
+  ],
+  "mesh_count": 1,
+  "definition": {
+    "file_offset": 336,
+    "unknown_hash_u32": 5320802,
+    "unknown_u32_list": {
+      "count": 4,
+      "file_offset": 344
+    },
+    "unknown_blocks": [],
+    "unknown_u32_list2": {
+      "count": 2,
+      "file_offset": 368
+    },
+    "unknown_u16_list": {
+      "count": 2,
+      "file_offset": 380
+    },
+    "mesh_descriptors_offset": 388,
+    "parsed_end_offset": 457
+  },
+  "status": "parsed-reference-profile",
+  "coverage": {
+    "read_ranges": [
+      [
+        0,
+        52
+      ],
+      [
+        116,
+        316
+      ],
+      [
+        324,
+        457
+      ]
+    ],
+    "uninterpreted_ranges": [
+      {
+        "file_offset": 52,
+        "bytes": 64
+      },
+      {
+        "file_offset": 316,
+        "bytes": 8
+      },
+      {
+        "file_offset": 457,
+        "bytes": 636
+      }
+    ],
+    "bytes_read": 385
+  },
+  "input_path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\initial_0.pak\\657354.fab_bxml"
+}

@@ -1,0 +1,443 @@
+{
+  "case_count": 24,
+  "rounding_model": "Nonnegative0..1 G2 float32-to-half towardzero; supported by all3 discriminating direct RGBA16F target and packHalf probes on this actual ANGLE/NVIDIA backend. Not claimed universal/native-opening capture rounding.",
+  "source_math": "IndependentPS352 source arithmetic unchanged; only target HALF rounding differs from original idealRNE oracle. Shader final roundEvenRGBA8 remains.",
+  "max_abs_code_delta": 0,
+  "mismatched_channels": 0,
+  "compared_channels": 98304,
+  "cases": [
+    {
+      "id": 0,
+      "oracle_file": "case-00-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 1,
+      "oracle_file": "case-01-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 2,
+      "oracle_file": "case-02-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 3,
+      "oracle_file": "case-03-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 4,
+      "oracle_file": "case-04-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 5,
+      "oracle_file": "case-05-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 6,
+      "oracle_file": "case-06-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 7,
+      "oracle_file": "case-07-observed-target-oracle.rgba",
+      "oracle_sha256": "df894663e850afa3619ed3d3825d9d1c6520f15fcd76aac25c4407c405fa8cfe",
+      "center_RGBA8": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "center_G2_half": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 8,
+      "oracle_file": "case-08-observed-target-oracle.rgba",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "center_RGBA8": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "center_G2_half": [
+        0.0357666015625,
+        0.06890869140625,
+        0.1749267578125
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 9,
+      "oracle_file": "case-09-observed-target-oracle.rgba",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "center_RGBA8": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "center_G2_half": [
+        0.0357666015625,
+        0.06890869140625,
+        0.1749267578125
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 10,
+      "oracle_file": "case-10-observed-target-oracle.rgba",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "center_RGBA8": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "center_G2_half": [
+        0.0357666015625,
+        0.06890869140625,
+        0.1749267578125
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 11,
+      "oracle_file": "case-11-observed-target-oracle.rgba",
+      "oracle_sha256": "6c1940daa3805b0b5292c128470be79d121c5c646a8a666a14a24d06ba9ac795",
+      "center_RGBA8": [
+        9,
+        18,
+        45,
+        255
+      ],
+      "center_G2_half": [
+        0.0357666015625,
+        0.06890869140625,
+        0.1749267578125
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 12,
+      "oracle_file": "case-12-observed-target-oracle.rgba",
+      "oracle_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "center_RGBA8": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "center_G2_half": [
+        0.042633056640625,
+        0.0777587890625,
+        0.1917724609375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 13,
+      "oracle_file": "case-13-observed-target-oracle.rgba",
+      "oracle_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "center_RGBA8": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "center_G2_half": [
+        0.042633056640625,
+        0.0777587890625,
+        0.1917724609375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 14,
+      "oracle_file": "case-14-observed-target-oracle.rgba",
+      "oracle_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "center_RGBA8": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "center_G2_half": [
+        0.042633056640625,
+        0.0777587890625,
+        0.1917724609375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 15,
+      "oracle_file": "case-15-observed-target-oracle.rgba",
+      "oracle_sha256": "80e2a96037c030b6f6830633b185185722e6aa09d9a637efedd6492fe7ba8fd6",
+      "center_RGBA8": [
+        11,
+        20,
+        49,
+        255
+      ],
+      "center_G2_half": [
+        0.042633056640625,
+        0.0777587890625,
+        0.1917724609375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 16,
+      "oracle_file": "case-16-observed-target-oracle.rgba",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "center_RGBA8": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "center_G2_half": [
+        0.099365234375,
+        0.1915283203125,
+        0.48583984375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 17,
+      "oracle_file": "case-17-observed-target-oracle.rgba",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "center_RGBA8": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "center_G2_half": [
+        0.099365234375,
+        0.1915283203125,
+        0.48583984375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 18,
+      "oracle_file": "case-18-observed-target-oracle.rgba",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "center_RGBA8": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "center_G2_half": [
+        0.099365234375,
+        0.1915283203125,
+        0.48583984375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 19,
+      "oracle_file": "case-19-observed-target-oracle.rgba",
+      "oracle_sha256": "bdcdef56a87a5356e7d48634489989e75028d4ca3468b13326a46aea8e7d7135",
+      "center_RGBA8": [
+        25,
+        49,
+        124,
+        255
+      ],
+      "center_G2_half": [
+        0.099365234375,
+        0.1915283203125,
+        0.48583984375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 20,
+      "oracle_file": "case-20-observed-target-oracle.rgba",
+      "oracle_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "center_RGBA8": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "center_G2_half": [
+        0.11846923828125,
+        0.216064453125,
+        0.53271484375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 21,
+      "oracle_file": "case-21-observed-target-oracle.rgba",
+      "oracle_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "center_RGBA8": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "center_G2_half": [
+        0.11846923828125,
+        0.216064453125,
+        0.53271484375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 22,
+      "oracle_file": "case-22-observed-target-oracle.rgba",
+      "oracle_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "center_RGBA8": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "center_G2_half": [
+        0.11846923828125,
+        0.216064453125,
+        0.53271484375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    },
+    {
+      "id": 23,
+      "oracle_file": "case-23-observed-target-oracle.rgba",
+      "oracle_sha256": "55fc3f6fed0a2a14a24d68273923917fafd04ec6579c2d3ee0d6d56951745f47",
+      "center_RGBA8": [
+        30,
+        55,
+        136,
+        255
+      ],
+      "center_G2_half": [
+        0.11846923828125,
+        0.216064453125,
+        0.53271484375
+      ],
+      "max_abs_code_delta": 0,
+      "mismatched_channels": 0
+    }
+  ],
+  "all_material_pixels_exact": true
+}

@@ -1,0 +1,168 @@
+{
+  "source": "source/patch_0.pak/buff_vars.koabuffvariables",
+  "sha256": "bfc5c3dc9210f380e0d0e87bf701ff99627ff2940e356464e32bb120260e6b55",
+  "rows": [
+    {
+      "stat_key": 20100342,
+      "name": "Fire_damage_amount",
+      "row_index": 23,
+      "record_file_offset": 384,
+      "name_file_offset": 2715,
+      "localized_SL_hash": "35e22336dec54e29",
+      "localized_original_key": "@@Fire Damage   -1 default@@"
+    },
+    {
+      "stat_key": 13764558,
+      "name": "Fire_resistance",
+      "row_index": 26,
+      "record_file_offset": 432,
+      "name_file_offset": 2768,
+      "localized_SL_hash": "0ea7905b017ed3aa",
+      "localized_original_key": "@@Fire Resistance@@"
+    },
+    {
+      "stat_key": 1657941,
+      "name": "Health",
+      "row_index": 30,
+      "record_file_offset": 496,
+      "name_file_offset": 2832,
+      "localized_SL_hash": "b273ebb1a5a8b2a3",
+      "localized_original_key": "@@Health@@"
+    },
+    {
+      "stat_key": 17917247,
+      "name": "Ice_damage_amount",
+      "row_index": 33,
+      "record_file_offset": 544,
+      "name_file_offset": 2875,
+      "localized_SL_hash": "73b1c52a167e6dbb",
+      "localized_original_key": "@@Ice Damage   -1 default@@"
+    },
+    {
+      "stat_key": 12162558,
+      "name": "Ice_resistance",
+      "row_index": 36,
+      "record_file_offset": 592,
+      "name_file_offset": 2925,
+      "localized_SL_hash": "912c81b60ad0f392",
+      "localized_original_key": "@@Ice Resistance@@"
+    },
+    {
+      "stat_key": 33719719,
+      "name": "Lightning_damage_amount",
+      "row_index": 38,
+      "record_file_offset": 624,
+      "name_file_offset": 2963,
+      "localized_SL_hash": "b5c09921c406c38c",
+      "localized_original_key": "@@Lightning Damage   -1 default@@"
+    },
+    {
+      "stat_key": 24553536,
+      "name": "Lightning_resistance",
+      "row_index": 41,
+      "record_file_offset": 672,
+      "name_file_offset": 3031,
+      "localized_SL_hash": "f2aeaff72fec3b6c",
+      "localized_original_key": "@@Lightning Resistance@@"
+    },
+    {
+      "stat_key": 31567303,
+      "name": "Physical_damage_amount",
+      "row_index": 59,
+      "record_file_offset": 960,
+      "name_file_offset": 3402,
+      "localized_SL_hash": "1706df5cb5f881cf",
+      "localized_original_key": "@@Physical Damage@@"
+    },
+    {
+      "stat_key": 17514000,
+      "name": "Poison_dot_amount",
+      "row_index": 68,
+      "record_file_offset": 1104,
+      "name_file_offset": 3593,
+      "localized_SL_hash": "5c159643a9e3a081",
+      "localized_original_key": "@@Poison Damage   -1 default@@"
+    },
+    {
+      "stat_key": 17720999,
+      "name": "Poison_resistance",
+      "row_index": 70,
+      "record_file_offset": 1136,
+      "name_file_offset": 3631,
+      "localized_SL_hash": "1bf00afd725141e8",
+      "localized_original_key": "@@Poison Resistance@@"
+    },
+    {
+      "stat_key": 981938,
+      "name": "Power",
+      "row_index": 71,
+      "record_file_offset": 1152,
+      "name_file_offset": 3649,
+      "localized_SL_hash": "71939be197cdecbc",
+      "localized_original_key": "@@Mana@@"
+    },
+    {
+      "stat_key": 9846907,
+      "name": "PowerRecovery",
+      "row_index": 72,
+      "record_file_offset": 1168,
+      "name_file_offset": 3655,
+      "localized_SL_hash": "e4c333b9f91e0356",
+      "localized_original_key": "@@Mana Regen per Sec (Non-Combat)@@"
+    },
+    {
+      "stat_key": 24156528,
+      "name": "PowerRecoveryCombat",
+      "row_index": 73,
+      "record_file_offset": 1184,
+      "name_file_offset": 3669,
+      "localized_SL_hash": "c4a031239a48715b",
+      "localized_original_key": "@@Mana Regen per Sec@@"
+    },
+    {
+      "stat_key": 12471488,
+      "name": "armor_Physical",
+      "row_index": 106,
+      "record_file_offset": 1712,
+      "name_file_offset": 4232,
+      "localized_SL_hash": "acd56b859425940b",
+      "localized_original_key": "@@Armor@@"
+    },
+    {
+      "stat_key": 3817837,
+      "name": "critical",
+      "row_index": 115,
+      "record_file_offset": 1856,
+      "name_file_offset": 4366,
+      "localized_SL_hash": "f9c04135b9f5e2b7",
+      "localized_original_key": "@@Chance to Critical Hit@@"
+    },
+    {
+      "stat_key": 14222424,
+      "name": "critical_amount",
+      "row_index": 116,
+      "record_file_offset": 1872,
+      "name_file_offset": 4375,
+      "localized_SL_hash": "cd6779cc6eba1ec1",
+      "localized_original_key": "@@Critical Hit Damage@@"
+    },
+    {
+      "stat_key": 25163959,
+      "name": "elemental_resistance",
+      "row_index": 118,
+      "record_file_offset": 1904,
+      "name_file_offset": 4410,
+      "localized_SL_hash": "134adbf5769780a8",
+      "localized_original_key": "@@Elemental Resistance@@"
+    },
+    {
+      "stat_key": 25760551,
+      "name": "exp_amount_multiplier",
+      "row_index": 120,
+      "record_file_offset": 1936,
+      "name_file_offset": 4465,
+      "localized_SL_hash": "57c837b628a379a9",
+      "localized_original_key": "@@Experience Bonus@@"
+    }
+  ]
+}

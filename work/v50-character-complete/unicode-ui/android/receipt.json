@@ -1,0 +1,68 @@
+{
+  "status": "PASS Android provider compile/link + pureCPU helpers; device/runtime untested",
+  "production_sources": {
+    "oa_ui_text_android.c": "62d28d96bbfb81d31ed76172b4569040dd36d485e2e634ec8e7a43b244978d84",
+    "oa_ui_text_android.h": "3ac268eb59c93defad01a2bd1ccbc26d0fa1688e156dfb1599e067e7b0095531",
+    "oa_ui_text_utf16.h": "013f72cd18169f50e23ccfed471e6dfa535771b87a2e198de97a15903bd1e408",
+    "oa_ui_text_pixels.h": "6dbb44108420567a74ea8fc3c18ad30eb78c781d4cfbf0c4970aaa0faa095f34",
+    "java/org/opemamalur/scene/TextRasterizer.java": "50e90504be38173c2d5da6dcc5714df88e08b5c325d74a598360413bc5870bcc"
+  },
+  "source_fonts": {
+    "Cinzel.ttf": {
+      "bytes": 125468,
+      "sha256": "f4d83d34d1f6c741193e4acf4b3dff9531e5a67b6aa65228d00a7db72a4e0f34"
+    },
+    "Alegreya.ttf": {
+      "bytes": 425288,
+      "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+    },
+    "Cinzel-OFL.txt": {
+      "bytes": 4383,
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+    },
+    "Alegreya-OFL.txt": {
+      "bytes": 4395,
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+    }
+  },
+  "sealed_shared_windows_files_unchanged": {
+    "oa_ui.c": "f8f1fccb44e57e4ba4baa1cb6024263e8c7b70c7a180e65705dfa1ec14658ede",
+    "oa_ui.h": "005d970f97d7ce51260c1534d0becc7e6f3798c14b2f6d9918e43a59df6facfb",
+    "oa_ui_text_win32.c": "2c26d57a2ca756e146d61085fd43e0c47c3d5cc999d9235fa9cd8630f5574f62",
+    "oa_ui_text_win32.h": "553d8e9868ca67d00c52eb1dbc70a21a87c4f58d865c9723e25b8ca0bc56b8e9"
+  },
+  "validation": {
+    "javac_sdk35_target8": true,
+    "d8_min_api": 26,
+    "ndk": "r30 aarch64 API26 C99 -Wall -Wextra -Werror",
+    "standalone_link": true,
+    "unicode_conversion": "utf16-results.txt",
+    "bitmap_conversion": "utf16-results.txt",
+    "android_vm_runtime": false,
+    "android_font_visual": false,
+    "android_gl": false,
+    "device_actions": false
+  },
+  "artifacts": {
+    "text-rasterizer.jar": {
+      "bytes": 6497,
+      "sha256": "4c0da1504ccc687d43547d27cbc7484236416a7e582cd3db41fa536a0856d047"
+    },
+    "dex/classes.dex": {
+      "bytes": 7436,
+      "sha256": "3d447fa4dd366bea922092999be803fd34be3f70bb6cb34b663e7ecb0bf7fd19"
+    },
+    "liboa-ui-text-android-check.so": {
+      "bytes": 12064,
+      "sha256": "9c81f4d58a1ec028827ea3425906d8d5f2eb9c41d503760faa2e18fdb389c701"
+    },
+    "test-utf16.exe": {
+      "bytes": 145408,
+      "sha256": "bac2363402fa8222f1527b9b57f5779d8d4128ab3690b46f415ecacf48efa71c"
+    },
+    "README.md": {
+      "bytes": 6150,
+      "sha256": "b73722bbb59f99cd706484f21523b831c56360b4002795ef67f793bbd9fd749d"
+    }
+  }
+}

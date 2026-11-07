@@ -1,0 +1,26 @@
+{
+  "00fdcf20": [
+    {
+      "address": "00fef1c0",
+      "name": "FUN_00fef1c0",
+      "bytes": 271,
+      "chars": 1448,
+      "file": "unnamed_00fe.c",
+      "call_snippets": [
+        "          FUN_00fedb00(&iStack_c,0);\n        }\n        if (0 < local_8) {\n          FUN_00fdcf20(&local_4,local_8 + -1);\n        }\n        iStack_c = iVar2;\n        FUN_00fec200(&iStack_c);"
+      ]
+    }
+  ],
+  "00fdcc20": [
+    {
+      "address": "00fe4c20",
+      "name": "FUN_00fe4c20",
+      "bytes": 123,
+      "chars": 574,
+      "file": "unnamed_00fe.c",
+      "call_snippets": [
+        "      (**(code **)(*DAT_019f4df8 + 0xa4))(iVar1);\n    }\n  }\n  FUN_00fdcc20(param_3);\n  return 0;\n}\n"
+      ]
+    }
+  ]
+}

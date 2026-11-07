@@ -1,0 +1,72 @@
+{
+  "material": 1880463,
+  "name": "01_Rusty_Sword",
+  "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\initial-sword-material-audit\\source\\initial_0.pak\\1880463.mat_bxml",
+  "source_shader": 545212,
+  "raw_hex": "a00000000800000028000000040000008800000004000000bc5108000000000002000000000000000000803f0000803f0000803f0000803f0b0000009acd9c000000803f0000a04100000000000000000b000000d880b6009a99193e0000803f0000803f000000000400000096ef61013333b33f9a991940000000000000000004000000146c9a008cb11c0000000000d6d00300010000008eb11c00020000008db11c00030000000000000008000000",
+  "textures": [
+    {
+      "asset": 1880460,
+      "source_slot": 0,
+      "name": "01_Rusty_Sword_D"
+    },
+    {
+      "asset": 250070,
+      "source_slot": 1,
+      "name": "PAR_Color_White_D"
+    },
+    {
+      "asset": 1880462,
+      "source_slot": 2,
+      "name": "01_Rusty_Sword_S"
+    },
+    {
+      "asset": 1880461,
+      "source_slot": 3,
+      "name": "01_Rusty_Sword_N"
+    }
+  ],
+  "shader_source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\initial-sword-material-audit\\source\\initial_0.pak\\545212.shader_bxml",
+  "platform_programs": [
+    {
+      "offset": 40,
+      "id": 545164,
+      "name": "CharacterHardLightGeometry"
+    },
+    {
+      "offset": 44,
+      "id": 549565,
+      "name": "LowCharacterHardLightGeometry"
+    },
+    {
+      "offset": 48,
+      "id": 545174,
+      "name": "WeightedCharacterHardLightGeometry"
+    },
+    {
+      "offset": 52,
+      "id": 549577,
+      "name": "LowWeightedCharacterHardLightGeometry"
+    },
+    {
+      "offset": 56,
+      "id": 545164,
+      "name": "CharacterHardLightGeometry"
+    },
+    {
+      "offset": 60,
+      "id": 549565,
+      "name": "LowCharacterHardLightGeometry"
+    },
+    {
+      "offset": 64,
+      "id": 545174,
+      "name": "WeightedCharacterHardLightGeometry"
+    },
+    {
+      "offset": 68,
+      "id": 549577,
+      "name": "LowWeightedCharacterHardLightGeometry"
+    }
+  ]
+}

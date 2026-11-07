@@ -1,0 +1,1191 @@
+{
+  "path": "0",
+  "parameter_count": 0,
+  "maximum_stack_size": 3,
+  "upvalue_count": 0,
+  "instructions": [
+    {
+      "pc": 0,
+      "file_offset": 369,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        2
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"module\""
+    },
+    {
+      "pc": 2,
+      "file_offset": 377,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 3,
+      "Bx": 3,
+      "successors": [
+        3
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"MQ01_StartRat\""
+    },
+    {
+      "pc": 3,
+      "file_offset": 381,
+      "name": "GETGLOBAL_MEM",
+      "A": 2,
+      "B": 0,
+      "C": 4,
+      "Bx": 4,
+      "successors": [
+        5
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"package\""
+    },
+    {
+      "pc": 5,
+      "file_offset": 389,
+      "name": "GETFIELD_R1",
+      "A": 2,
+      "B": 2,
+      "C": 7,
+      "Bx": 1031,
+      "successors": [
+        8
+      ],
+      "kind": "getfield_cached_k",
+      "constant_lua": "\"seeall\""
+    },
+    {
+      "pc": 8,
+      "file_offset": 401,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 3,
+      "C": 1,
+      "Bx": 1537,
+      "successors": [
+        9
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 9,
+      "file_offset": 405,
+      "name": "GETGLOBAL_MEM",
+      "A": 0,
+      "B": 0,
+      "C": 8,
+      "Bx": 8,
+      "successors": [
+        11
+      ],
+      "kind": "getglobal",
+      "constant_lua": "\"require\""
+    },
+    {
+      "pc": 11,
+      "file_offset": 413,
+      "name": "LOADK",
+      "A": 1,
+      "B": 0,
+      "C": 11,
+      "Bx": 11,
+      "successors": [
+        12
+      ],
+      "kind": "loadk",
+      "constant_lua": "\"behavior\""
+    },
+    {
+      "pc": 12,
+      "file_offset": 417,
+      "name": "CALL_I",
+      "A": 0,
+      "B": 2,
+      "C": 1,
+      "Bx": 1025,
+      "successors": [
+        13
+      ],
+      "kind": "call_fixed"
+    },
+    {
+      "pc": 13,
+      "file_offset": 421,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "Bx": 0,
+      "successors": [
+        14
+      ],
+      "kind": "closure",
+      "child_index": 0,
+      "captures": []
+    },
+    {
+      "pc": 14,
+      "file_offset": 425,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 12,
+      "Bx": 12,
+      "successors": [
+        15
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_creature_summoned\""
+    },
+    {
+      "pc": 15,
+      "file_offset": 429,
+      "name": "CLOSURE",
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "Bx": 1,
+      "successors": [
+        16
+      ],
+      "kind": "closure",
+      "child_index": 1,
+      "captures": []
+    },
+    {
+      "pc": 16,
+      "file_offset": 433,
+      "name": "SETGLOBAL",
+      "A": 0,
+      "B": 0,
+      "C": 13,
+      "Bx": 13,
+      "successors": [
+        17
+      ],
+      "kind": "setglobal",
+      "constant_lua": "\"on_cleared\""
+    },
+    {
+      "pc": 17,
+      "file_offset": 437,
+      "name": "RETURN",
+      "A": 0,
+      "B": 1,
+      "C": 0,
+      "Bx": 512,
+      "successors": [],
+      "kind": "return_fixed"
+    }
+  ],
+  "children": [
+    {
+      "path": "0/0",
+      "parameter_count": 1,
+      "maximum_stack_size": 7,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 613,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"behavior\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 621,
+          "name": "GETFIELD_R1",
+          "A": 1,
+          "B": 1,
+          "C": 3,
+          "Bx": 515,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"approach_actor\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 633,
+          "name": "MOVE",
+          "A": 2,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            6
+          ],
+          "kind": "move"
+        },
+        {
+          "pc": 6,
+          "file_offset": 637,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            8
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"get_player\""
+        },
+        {
+          "pc": 8,
+          "file_offset": 645,
+          "name": "CALL_I_R1",
+          "A": 3,
+          "B": 1,
+          "C": 2,
+          "Bx": 514,
+          "successors": [
+            9
+          ],
+          "kind": "call_cached_fixed"
+        },
+        {
+          "pc": 9,
+          "file_offset": 649,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            10
+          ],
+          "kind": "loadk",
+          "constant_lua": "200"
+        },
+        {
+          "pc": 10,
+          "file_offset": 653,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            11
+          ],
+          "kind": "loadk",
+          "constant_lua": "926483"
+        },
+        {
+          "pc": 11,
+          "file_offset": 657,
+          "name": "LOADK",
+          "A": 6,
+          "B": 0,
+          "C": 9,
+          "Bx": 9,
+          "successors": [
+            12
+          ],
+          "kind": "loadk",
+          "constant_lua": "717147"
+        },
+        {
+          "pc": 12,
+          "file_offset": 661,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 6,
+          "C": 1,
+          "Bx": 3073,
+          "successors": [
+            13
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 13,
+          "file_offset": 665,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    },
+    {
+      "path": "0/1",
+      "parameter_count": 0,
+      "maximum_stack_size": 10,
+      "upvalue_count": 0,
+      "instructions": [
+        {
+          "pc": 0,
+          "file_offset": 791,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            2
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 2,
+          "file_offset": 799,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 3,
+          "Bx": 3,
+          "successors": [
+            5
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"unlock_object\""
+        },
+        {
+          "pc": 5,
+          "file_offset": 811,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            7
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 7,
+          "file_offset": 819,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            8
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"MQ01_Start_Door\""
+        },
+        {
+          "pc": 8,
+          "file_offset": 823,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            9
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 9,
+          "file_offset": 827,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            10
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 10,
+          "file_offset": 831,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            12
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 12,
+          "file_offset": 839,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 8,
+          "Bx": 8,
+          "successors": [
+            15
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"open_gateway\""
+        },
+        {
+          "pc": 15,
+          "file_offset": 851,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            17
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 17,
+          "file_offset": 859,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 7,
+          "Bx": 7,
+          "successors": [
+            18
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"MQ01_Start_Door\""
+        },
+        {
+          "pc": 18,
+          "file_offset": 863,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            19
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 19,
+          "file_offset": 867,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            20
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 20,
+          "file_offset": 871,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "Bx": 0,
+          "successors": [
+            22
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"ACTOR\""
+        },
+        {
+          "pc": 22,
+          "file_offset": 879,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 9,
+          "Bx": 9,
+          "successors": [
+            25
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"start_npc_to_npc_dialog\""
+        },
+        {
+          "pc": 25,
+          "file_offset": 891,
+          "name": "GETGLOBAL_MEM",
+          "A": 1,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            27
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 27,
+          "file_offset": 899,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            28
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"NPC_MQ_GNO_Guran\""
+        },
+        {
+          "pc": 28,
+          "file_offset": 903,
+          "name": "CALL_I",
+          "A": 1,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            29
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 29,
+          "file_offset": 907,
+          "name": "GETGLOBAL_MEM",
+          "A": 2,
+          "B": 0,
+          "C": 4,
+          "Bx": 4,
+          "successors": [
+            31
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"GOR_ID\""
+        },
+        {
+          "pc": 31,
+          "file_offset": 915,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            32
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"NPC_MQ_GNO_Encel\""
+        },
+        {
+          "pc": 32,
+          "file_offset": 919,
+          "name": "CALL_I",
+          "A": 2,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            33
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 33,
+          "file_offset": 923,
+          "name": "GETGLOBAL_MEM",
+          "A": 3,
+          "B": 0,
+          "C": 12,
+          "Bx": 12,
+          "successors": [
+            35
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"DIALOG_ID\""
+        },
+        {
+          "pc": 35,
+          "file_offset": 931,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 15,
+          "Bx": 15,
+          "successors": [
+            36
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"Wakeup_Intro_1\""
+        },
+        {
+          "pc": 36,
+          "file_offset": 935,
+          "name": "CALL_I",
+          "A": 3,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            37
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 37,
+          "file_offset": 939,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            38
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 38,
+          "file_offset": 943,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 16,
+          "Bx": 16,
+          "successors": [
+            40
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 40,
+          "file_offset": 951,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            43
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 43,
+          "file_offset": 963,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 20,
+          "Bx": 20,
+          "successors": [
+            44
+          ],
+          "kind": "loadk",
+          "constant_lua": "36954798"
+        },
+        {
+          "pc": 44,
+          "file_offset": 967,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 21,
+          "Bx": 21,
+          "successors": [
+            45
+          ],
+          "kind": "loadk",
+          "constant_lua": "2000"
+        },
+        {
+          "pc": 45,
+          "file_offset": 971,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 11,
+          "Bx": 11,
+          "successors": [
+            46
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"NPC_MQ_GNO_Encel\""
+        },
+        {
+          "pc": 46,
+          "file_offset": 975,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 22,
+          "Bx": 22,
+          "successors": [
+            47
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"MQ01_Encel_Walk_Marker\""
+        },
+        {
+          "pc": 47,
+          "file_offset": 979,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 23,
+          "Bx": 23,
+          "successors": [
+            48
+          ],
+          "kind": "loadk",
+          "constant_lua": "0"
+        },
+        {
+          "pc": 48,
+          "file_offset": 983,
+          "name": "GETGLOBAL_MEM",
+          "A": 6,
+          "B": 0,
+          "C": 24,
+          "Bx": 24,
+          "successors": [
+            50
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"SH\""
+        },
+        {
+          "pc": 50,
+          "file_offset": 991,
+          "name": "LOADK",
+          "A": 7,
+          "B": 0,
+          "C": 27,
+          "Bx": 27,
+          "successors": [
+            51
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"loose\""
+        },
+        {
+          "pc": 51,
+          "file_offset": 995,
+          "name": "CALL_I",
+          "A": 6,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            52
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 52,
+          "file_offset": 999,
+          "name": "GETGLOBAL_MEM",
+          "A": 7,
+          "B": 0,
+          "C": 24,
+          "Bx": 24,
+          "successors": [
+            54
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"SH\""
+        },
+        {
+          "pc": 54,
+          "file_offset": 1007,
+          "name": "LOADK",
+          "A": 8,
+          "B": 0,
+          "C": 28,
+          "Bx": 28,
+          "successors": [
+            55
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"walk\""
+        },
+        {
+          "pc": 55,
+          "file_offset": 1011,
+          "name": "CALL_I",
+          "A": 7,
+          "B": 2,
+          "C": 0,
+          "Bx": 1024,
+          "successors": [
+            56
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 56,
+          "file_offset": 1015,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 0,
+          "C": 1,
+          "Bx": 1,
+          "successors": [
+            57
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 57,
+          "file_offset": 1019,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 16,
+          "Bx": 16,
+          "successors": [
+            59
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 59,
+          "file_offset": 1027,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            62
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 62,
+          "file_offset": 1039,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 29,
+          "Bx": 29,
+          "successors": [
+            63
+          ],
+          "kind": "loadk",
+          "constant_lua": "13166267"
+        },
+        {
+          "pc": 63,
+          "file_offset": 1043,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 30,
+          "Bx": 30,
+          "successors": [
+            64
+          ],
+          "kind": "loadk",
+          "constant_lua": "5000"
+        },
+        {
+          "pc": 64,
+          "file_offset": 1047,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 31,
+          "Bx": 31,
+          "successors": [
+            65
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"MQ01\""
+        },
+        {
+          "pc": 65,
+          "file_offset": 1051,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 32,
+          "Bx": 32,
+          "successors": [
+            66
+          ],
+          "kind": "loadk",
+          "constant_lua": "20"
+        },
+        {
+          "pc": 66,
+          "file_offset": 1055,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 5,
+          "C": 1,
+          "Bx": 2561,
+          "successors": [
+            67
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 67,
+          "file_offset": 1059,
+          "name": "GETGLOBAL_MEM",
+          "A": 0,
+          "B": 0,
+          "C": 16,
+          "Bx": 16,
+          "successors": [
+            69
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"TIME\""
+        },
+        {
+          "pc": 69,
+          "file_offset": 1067,
+          "name": "GETFIELD_R1",
+          "A": 0,
+          "B": 0,
+          "C": 19,
+          "Bx": 19,
+          "successors": [
+            72
+          ],
+          "kind": "getfield_cached_k",
+          "constant_lua": "\"delayed_function_call\""
+        },
+        {
+          "pc": 72,
+          "file_offset": 1079,
+          "name": "LOADK",
+          "A": 1,
+          "B": 0,
+          "C": 20,
+          "Bx": 20,
+          "successors": [
+            73
+          ],
+          "kind": "loadk",
+          "constant_lua": "36954798"
+        },
+        {
+          "pc": 73,
+          "file_offset": 1083,
+          "name": "LOADK",
+          "A": 2,
+          "B": 0,
+          "C": 21,
+          "Bx": 21,
+          "successors": [
+            74
+          ],
+          "kind": "loadk",
+          "constant_lua": "2000"
+        },
+        {
+          "pc": 74,
+          "file_offset": 1087,
+          "name": "LOADK",
+          "A": 3,
+          "B": 0,
+          "C": 10,
+          "Bx": 10,
+          "successors": [
+            75
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"NPC_MQ_GNO_Guran\""
+        },
+        {
+          "pc": 75,
+          "file_offset": 1091,
+          "name": "LOADK",
+          "A": 4,
+          "B": 0,
+          "C": 33,
+          "Bx": 33,
+          "successors": [
+            76
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"MQ01_Encel_Guide_Marker\""
+        },
+        {
+          "pc": 76,
+          "file_offset": 1095,
+          "name": "LOADK",
+          "A": 5,
+          "B": 0,
+          "C": 34,
+          "Bx": 34,
+          "successors": [
+            77
+          ],
+          "kind": "loadk",
+          "constant_lua": "200"
+        },
+        {
+          "pc": 77,
+          "file_offset": 1099,
+          "name": "GETGLOBAL_MEM",
+          "A": 6,
+          "B": 0,
+          "C": 24,
+          "Bx": 24,
+          "successors": [
+            79
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"SH\""
+        },
+        {
+          "pc": 79,
+          "file_offset": 1107,
+          "name": "LOADK",
+          "A": 7,
+          "B": 0,
+          "C": 35,
+          "Bx": 35,
+          "successors": [
+            80
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"strict\""
+        },
+        {
+          "pc": 80,
+          "file_offset": 1111,
+          "name": "CALL_I",
+          "A": 6,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            81
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 81,
+          "file_offset": 1115,
+          "name": "GETGLOBAL_MEM",
+          "A": 7,
+          "B": 0,
+          "C": 24,
+          "Bx": 24,
+          "successors": [
+            83
+          ],
+          "kind": "getglobal",
+          "constant_lua": "\"SH\""
+        },
+        {
+          "pc": 83,
+          "file_offset": 1123,
+          "name": "LOADK",
+          "A": 8,
+          "B": 0,
+          "C": 36,
+          "Bx": 36,
+          "successors": [
+            84
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"run\""
+        },
+        {
+          "pc": 84,
+          "file_offset": 1127,
+          "name": "CALL_I",
+          "A": 7,
+          "B": 2,
+          "C": 2,
+          "Bx": 1026,
+          "successors": [
+            85
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 85,
+          "file_offset": 1131,
+          "name": "LOADK",
+          "A": 8,
+          "B": 0,
+          "C": 31,
+          "Bx": 31,
+          "successors": [
+            86
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"MQ01\""
+        },
+        {
+          "pc": 86,
+          "file_offset": 1135,
+          "name": "LOADK",
+          "A": 9,
+          "B": 0,
+          "C": 37,
+          "Bx": 37,
+          "successors": [
+            87
+          ],
+          "kind": "loadk",
+          "constant_lua": "\"Guran_away\""
+        },
+        {
+          "pc": 87,
+          "file_offset": 1139,
+          "name": "CALL_I",
+          "A": 0,
+          "B": 10,
+          "C": 1,
+          "Bx": 5121,
+          "successors": [
+            88
+          ],
+          "kind": "call_fixed"
+        },
+        {
+          "pc": 88,
+          "file_offset": 1143,
+          "name": "RETURN",
+          "A": 0,
+          "B": 1,
+          "C": 0,
+          "Bx": 512,
+          "successors": [],
+          "kind": "return_fixed"
+        }
+      ],
+      "children": []
+    }
+  ]
+}

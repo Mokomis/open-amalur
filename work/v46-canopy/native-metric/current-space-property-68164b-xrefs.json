@@ -1,0 +1,32 @@
+[
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 552,
+    "function": "// 00c46080 BHG_TaskCameraImplementation__vf9_o16",
+    "text": "  if (param_3 != 0x68164b) {"
+  },
+  {
+    "file": "BHG_TaskletCollisionAvoidance.c",
+    "line": 130,
+    "function": "// 00d651e0 BHG_TaskletCollisionAvoidance__vf3",
+    "text": "  uStack_48 = 0x68164b;"
+  },
+  {
+    "file": "BHG_TaskletCollisionReaction.c",
+    "line": 140,
+    "function": "// 00d6a0d0 BHG_TaskletCollisionReaction__vf3",
+    "text": "    uStack_dc = (undefined1 *)0x68164b;"
+  },
+  {
+    "file": "BHG_TaskletFollowObjects.c",
+    "line": 155,
+    "function": "// 00fd3170 BHG_TaskletFollowObjects__vf3",
+    "text": "    uStack_f8 = 0x68164b;"
+  },
+  {
+    "file": "BHG_TaskletLookAtObjects.c",
+    "line": 111,
+    "function": "// 00ffbf40 BHG_TaskletLookAtObjects__vf3",
+    "text": "    psVar2 = (short *)(**(code **)(*param_2 + 0x24))(&local_74,0x68164b,iVar7);"
+  }
+]

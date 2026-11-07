@@ -1,0 +1,69 @@
+{
+  "schema": "open-amalur.scene-lighting.v1",
+  "kind": "space_lights",
+  "source_sha256": "7b305d4c2756e15e33743d86a51c3d7fef73cdcece79b4afe7ded894a59f8eeb",
+  "region_asset_id": {
+    "value": 1583578,
+    "source_offset": 52,
+    "status": "native_confirmed"
+  },
+  "region_key": {
+    "value": "0000000000000000",
+    "source_offset": 72,
+    "status": "asset_verified"
+  },
+  "lights": [
+    {
+      "index": 0,
+      "source_offset": 536,
+      "position": [
+        -39.481353759765625,
+        -85.85845947265625,
+        147.4984130859375
+      ],
+      "time_keyed": {
+        "Midnight": {
+          "color": [
+            0.125490203499794,
+            0.13333334028720856,
+            0.3450980484485626
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 2000.0
+        },
+        "Dawn": {
+          "color": [
+            0.125490203499794,
+            0.13333334028720856,
+            0.3450980484485626
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 2000.0
+        },
+        "Noon": {
+          "color": [
+            0.125490203499794,
+            0.13333334028720856,
+            0.3450980484485626
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 2000.0
+        },
+        "Dusk": {
+          "color": [
+            0.125490203499794,
+            0.13333334028720856,
+            0.3450980484485626
+          ],
+          "multiplier": 1.0,
+          "attenuation_start": 100.0,
+          "attenuation_end": 2000.0
+        }
+      },
+      "field_status": "hypothesis"
+    }
+  ]
+}

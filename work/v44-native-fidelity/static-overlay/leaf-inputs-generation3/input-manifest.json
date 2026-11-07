@@ -1,0 +1,183 @@
+{
+  "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v44-native-fidelity\\foliage-research",
+  "files": {
+    "native-leaf-material-profiles.json": {
+      "bytes": 4568,
+      "sha256": "c7e9e669d44ef185343d24f8263e5cb207db038abd85ce9e44f852aab63682f1"
+    },
+    "leaf-overlay-validation.json": {
+      "bytes": 8438,
+      "sha256": "e23d61565118e0b9073d936b61eaeb14f1cb46bb8fe5d5e998e2f94b506239cf"
+    },
+    "cell-join-manifest.json": {
+      "bytes": 14503,
+      "sha256": "45d04f53b37afff1d55ce2905e5e8bebb7104856f42863a5d891e844fd96f350"
+    },
+    "attributes-manifest.json": {
+      "bytes": 1728,
+      "sha256": "2d12c6f921204e735ecb5ccd32422b8c6ba12839bb0d185aca80188e268e0d43"
+    },
+    "source-provenance.json": {
+      "bytes": 77840,
+      "sha256": "64a1ed48910c6d0243b826fb4516e1270af46060e622ecaf72b107cc433bf94e"
+    },
+    "native_tree_leaf_contract.glsl": {
+      "bytes": 3584,
+      "sha256": "110baa64483a83e15b3253420f4b28ea68d9e022fca2507a7f5df354ddd6dff6"
+    },
+    "recover_leaf_attributes.py": {
+      "bytes": 8193,
+      "sha256": "14610ab193f8f96d1c2985c35161aade19db1c697360299435059a1ddee23a95"
+    },
+    "join_leaf_cells.py": {
+      "bytes": 3373,
+      "sha256": "42412a7ff200fd403ac2884b7e9791f71e8d74edc14859ef4a002cab1617a288"
+    },
+    "cell-overlays/c-1_-10_0.oawt": {
+      "bytes": 71840,
+      "sha256": "6825b747583f58a553856e86cfdd751cbc39a8c3e2aa1d16d85f47a317fe8228"
+    },
+    "cell-overlays/c-1_-10_0.remove.u32": {
+      "bytes": 1260,
+      "sha256": "57a24c9c0aa311adb6016f8743a32f13be79b5863f12c0782dc8607c4137ab94"
+    },
+    "cell-overlays/c-1_-11_0.oawt": {
+      "bytes": 44480,
+      "sha256": "0f27da429e246205826bb0d255cba454f01b7808056083f8d0b312056d8dc28f"
+    },
+    "cell-overlays/c-1_-11_0.remove.u32": {
+      "bytes": 780,
+      "sha256": "d7729d00fb6bc5471a60513c6b77ec3c75405aada957766f8b87a4624386db45"
+    },
+    "cell-overlays/c-1_-9_0.oawt": {
+      "bytes": 79592,
+      "sha256": "f2cf1334d95b2c5c3375fc314c219a58a47705161f25e17be4869e24d302218b"
+    },
+    "cell-overlays/c-1_-9_0.remove.u32": {
+      "bytes": 1396,
+      "sha256": "1f3a12d9641e68f70344f1d91500a1fbae023bd00b21bb46d9d5bf1d00fddb8d"
+    },
+    "cell-overlays/c0_-10_0.oawt": {
+      "bytes": 45620,
+      "sha256": "64882a3ff8de2d97130cf4c8781da55c4881002689c3c7b5c1f0b07cd3d1fa4f"
+    },
+    "cell-overlays/c0_-10_0.remove.u32": {
+      "bytes": 800,
+      "sha256": "91174653ecb5d7269becba0d20fc051d0c5a8bb7660361134812edd381b8ac80"
+    },
+    "cell-overlays/c0_-11_0.oawt": {
+      "bytes": 78680,
+      "sha256": "18f0c9e76b2de15478935aa526149efcc54f3424f0060ae317c807accafb1229"
+    },
+    "cell-overlays/c0_-11_0.remove.u32": {
+      "bytes": 1380,
+      "sha256": "05f90110d1255957f66b21355b7d482dff24f8414171048a0566bf780da28317"
+    },
+    "cell-overlays/c0_-13_0.oawt": {
+      "bytes": 107180,
+      "sha256": "927d1e0b58b803be89921e845337ea9780746ab17cbabfb221f227fc9265b3a2"
+    },
+    "cell-overlays/c0_-13_0.remove.u32": {
+      "bytes": 1880,
+      "sha256": "e8dec8bf01ae36b8ac5138f0e44abcb8cad7c993a89a94ca049f6e6a4f4337d0"
+    },
+    "cell-overlays/c0_-14_0.oawt": {
+      "bytes": 43796,
+      "sha256": "48c903776712fbf70fb5cf7ccbe66b645c3887f0186818484cef925819748b11"
+    },
+    "cell-overlays/c0_-14_0.remove.u32": {
+      "bytes": 768,
+      "sha256": "0e827b2225fc7076a672e33cc104878ce682a0864e519574928f32a8b31b2c24"
+    },
+    "cell-overlays/c0_-15_0.oawt": {
+      "bytes": 37184,
+      "sha256": "ad76fbdf220d2af247d8f0856fbb522efa20a3456f07a958509fa282f30323d6"
+    },
+    "cell-overlays/c0_-15_0.remove.u32": {
+      "bytes": 652,
+      "sha256": "70c85178d3aa61bfe82b5ce3666adb69dfbd3764b461bf801f8f88508c62e8d7"
+    },
+    "cell-overlays/c0_-9_0.oawt": {
+      "bytes": 64316,
+      "sha256": "3e86607a6918f11e12c8f579e758044b8cb40c33b857885e0a7d1feec02f9d05"
+    },
+    "cell-overlays/c0_-9_0.remove.u32": {
+      "bytes": 1128,
+      "sha256": "13e58c6d48c540e48ed254245562871d78132790c0930ff27a2de0eb0bf52a81"
+    },
+    "cell-overlays/c1_-10_0.oawt": {
+      "bytes": 51320,
+      "sha256": "9cbc6866ffa708c6297507b29f914a1c1a8deb86e627802e725d0fc4f0385d69"
+    },
+    "cell-overlays/c1_-10_0.remove.u32": {
+      "bytes": 900,
+      "sha256": "0d16028815e3c9e265e3a5cdad61d59da594f3734353b6379b312b8d43827dc4"
+    },
+    "cell-overlays/c1_-11_0.oawt": {
+      "bytes": 97376,
+      "sha256": "bf2bb164f616946fbcb1bb9956a1899264436b9f1a360141c31b2cd1a981a109"
+    },
+    "cell-overlays/c1_-11_0.remove.u32": {
+      "bytes": 1708,
+      "sha256": "24b3e905c35591bccef45a427754328042db772edb86159a83a8bf7f78498a74"
+    },
+    "cell-overlays/c1_-13_0.oawt": {
+      "bytes": 73436,
+      "sha256": "7025da5e9d4356cfd2069abbda171ebfe769160327c51fc1bbc3f21438457e37"
+    },
+    "cell-overlays/c1_-13_0.remove.u32": {
+      "bytes": 1288,
+      "sha256": "69e55b8ed827b2717b57ebdb51ab243b2ba1ba488788e6b1065757ada686c570"
+    },
+    "cell-overlays/c1_-14_0.oawt": {
+      "bytes": 61352,
+      "sha256": "6aab7bbb4aaab241c67d896f51edbe01bce942be20b7282f7a9584d83aaa2a0d"
+    },
+    "cell-overlays/c1_-14_0.remove.u32": {
+      "bytes": 1076,
+      "sha256": "ac6ca96ede3a3e78fc6258f1a0e82fbf55e16c6c203559be719167e3149eb21a"
+    },
+    "cell-overlays/c1_-15_0.oawt": {
+      "bytes": 5720,
+      "sha256": "788435d67f567e8b081de7a04cb16c4a4440c35373a6dccdd97599032ff67ba6"
+    },
+    "cell-overlays/c1_-15_0.remove.u32": {
+      "bytes": 100,
+      "sha256": "26a50ee47e19d79a9d9466d32ae6661401155fd34f0195da11f7b95d14fdeb38"
+    },
+    "cell-overlays/c1_-9_0.oawt": {
+      "bytes": 64316,
+      "sha256": "af9c8c6765622b29988f361df31c57595b9e3a06184e78c7aa6b6982e64ad86f"
+    },
+    "cell-overlays/c1_-9_0.remove.u32": {
+      "bytes": 1128,
+      "sha256": "abe6eaf7a9f7d5808b422959adc91441167aee57f2808b8cbf60f9eb5c1bdec8"
+    },
+    "cell-overlays/c2_-13_0.oawt": {
+      "bytes": 109688,
+      "sha256": "c0ab512cbd9596716a927b5ba78cfe6bc7285fa56b190109d53a870f3ef45472"
+    },
+    "cell-overlays/c2_-13_0.remove.u32": {
+      "bytes": 1924,
+      "sha256": "6a25cc11a2ddaae19efca431f29831596eb98a9ec80d53abf7b783a85720e758"
+    },
+    "cell-overlays/c2_-14_0.oawt": {
+      "bytes": 38780,
+      "sha256": "358ee67b39b565b3b24da4754499d2034e2c461d52c3fc1dbbfe819a5c8d241a"
+    },
+    "cell-overlays/c2_-14_0.remove.u32": {
+      "bytes": 680,
+      "sha256": "a355fdadd62255d917e47327e3b1d7695c7aae35db01810193f24c0c530ffbee"
+    },
+    "cell-overlays/c2_-15_0.oawt": {
+      "bytes": 36500,
+      "sha256": "fe4033c5c85dd089538f7a3909b27f96e039a5e08afbc9410195cf177f6aba55"
+    },
+    "cell-overlays/c2_-15_0.remove.u32": {
+      "bytes": 640,
+      "sha256": "c29d19bb45796a00c0b49d1123a98fa71693ae65cf750b94fc35d4b81ea49f43"
+    }
+  },
+  "freeze_contract": "Foliage agent frozen final4872leaftriangles;UV1 two float-bitcast packedHalf direction/palette words;finalu32 radialLength floatbits; preservebyteexact",
+  "snapshot_matches_live_source": true
+}

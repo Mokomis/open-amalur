@@ -1,0 +1,182 @@
+{
+  "assumption": "Mip0 bilinear, no occlusion and soft fade=1. Source/native mip identity proven; native depth test not evaluated here. All covered triangles clockwise and survive captured clockwise/back-cull.",
+  "perTriangle": [
+    {
+      "draw": 73063,
+      "point": "50035",
+      "triangle": 0,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 7572.840882744535,
+      "clipW": 7598.648915993617,
+      "sampleMaskG128Bilinear": 0.4722853637711056,
+      "interpolatedFogTransmission": 0.8152671263586367,
+      "effectiveAlphaAssumingSoftFade1": 0.04529867427563678,
+      "additiveRGB8BeforeTargetRounding": [
+        1.9478429938523818,
+        3.578595267775306,
+        2.853816479365117
+      ]
+    },
+    {
+      "draw": 73063,
+      "point": "50035",
+      "triangle": 2,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 7734.285009391257,
+      "clipW": 7760.084976619505,
+      "sampleMaskG128Bilinear": 0.5826370635966616,
+      "interpolatedFogTransmission": 0.8090567864238782,
+      "effectiveAlphaAssumingSoftFade1": 0.06654867816352374,
+      "additiveRGB8BeforeTargetRounding": [
+        2.528849770213902,
+        5.124248218591328,
+        4.1925667243019955
+      ]
+    },
+    {
+      "draw": 73063,
+      "point": "50035",
+      "triangle": 5,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 7379.357522459561,
+      "clipW": 7405.175222463624,
+      "sampleMaskG128Bilinear": 0.6633885226786767,
+      "interpolatedFogTransmission": 0.8227697145057061,
+      "effectiveAlphaAssumingSoftFade1": 0.002140454844747831,
+      "additiveRGB8BeforeTargetRounding": [
+        0.07277546472142626,
+        0.16267456820083517,
+        0.13484865521911335
+      ]
+    },
+    {
+      "draw": 73194,
+      "point": "50035",
+      "triangle": 0,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 1445.8053675963993,
+      "clipW": 1471.9195178727482,
+      "sampleMaskG128Bilinear": 0.4627240801257652,
+      "interpolatedFogTransmission": 1.0,
+      "effectiveAlphaAssumingSoftFade1": 0.05443812707361945,
+      "additiveRGB8BeforeTargetRounding": [
+        2.3408394641656365,
+        4.300612038815937,
+        3.4296020056380256
+      ]
+    },
+    {
+      "draw": 73194,
+      "point": "800150",
+      "triangle": 0,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 1410.8120964195753,
+      "clipW": 1436.9279965079281,
+      "sampleMaskG128Bilinear": 0.5064250979062394,
+      "interpolatedFogTransmission": 1.0,
+      "effectiveAlphaAssumingSoftFade1": 0.059579423283086984,
+      "additiveRGB8BeforeTargetRounding": [
+        2.56191520117274,
+        4.706774439363872,
+        3.75350366683448
+      ]
+    },
+    {
+      "draw": 73194,
+      "point": "980210",
+      "triangle": 1,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 1391.648151339765,
+      "clipW": 1417.7650097102855,
+      "sampleMaskG128Bilinear": 0.6100900515869818,
+      "interpolatedFogTransmission": 0.9999999999999999,
+      "effectiveAlphaAssumingSoftFade1": 0.07177530018670372,
+      "additiveRGB8BeforeTargetRounding": [
+        3.0863379080282596,
+        5.670248714749595,
+        4.521843911762335
+      ]
+    },
+    {
+      "draw": 73194,
+      "point": "980210",
+      "triangle": 3,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 2246.6464345517156,
+      "clipW": 2272.7205771580802,
+      "sampleMaskG128Bilinear": 0.5031441223127698,
+      "interpolatedFogTransmission": 1.0,
+      "effectiveAlphaAssumingSoftFade1": 0.0710321113853322,
+      "additiveRGB8BeforeTargetRounding": [
+        2.699220232642624,
+        5.469472576670579,
+        4.475023017275928
+      ]
+    },
+    {
+      "draw": 73194,
+      "point": "800150",
+      "triangle": 3,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 2277.36693259803,
+      "clipW": 2303.4395390433774,
+      "sampleMaskG128Bilinear": 0.0,
+      "interpolatedFogTransmission": 1.0,
+      "effectiveAlphaAssumingSoftFade1": 0.0,
+      "additiveRGB8BeforeTargetRounding": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "draw": 73194,
+      "point": "980210",
+      "triangle": 4,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 1077.9216953014477,
+      "clipW": 1104.0542274640313,
+      "sampleMaskG128Bilinear": 0.3920280911458915,
+      "interpolatedFogTransmission": 1.0,
+      "effectiveAlphaAssumingSoftFade1": 0.0015373650633172214,
+      "additiveRGB8BeforeTargetRounding": [
+        0.05227041215278553,
+        0.11683974481210883,
+        0.09685399898898495
+      ]
+    },
+    {
+      "draw": 73194,
+      "point": "800150",
+      "triangle": 4,
+      "clockwiseScreen": true,
+      "particleNativeClipZ": 1092.8452613916722,
+      "clipW": 1118.977047309829,
+      "sampleMaskG128Bilinear": 0.42666691901146087,
+      "interpolatedFogTransmission": 1.0,
+      "effectiveAlphaAssumingSoftFade1": 0.0016732036039665131,
+      "additiveRGB8BeforeTargetRounding": [
+        0.05688892253486145,
+        0.127163473901455,
+        0.10541182704989033
+      ]
+    }
+  ],
+  "sumRGB8": {
+    "980210": [
+      5.837828552823669,
+      11.256561036232283,
+      9.093720928027247
+    ],
+    "800150": [
+      2.618804123707602,
+      4.833937913265327,
+      3.8589154938843704
+    ],
+    "50035": [
+      6.890307692953346,
+      13.166130093383407,
+      10.61083386452425
+    ]
+  }
+}

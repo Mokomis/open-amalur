@@ -1,0 +1,132 @@
+{
+  "weighted56_60_draws": 147,
+  "by_stride": {
+    "60": 14,
+    "56": 133
+  },
+  "secondary_buffers": {
+    "1831": 147
+  },
+  "secondary_offsets": {
+    "0": 147
+  },
+  "secondary_strides": {
+    "8": 14,
+    "12": 58,
+    "0": 75
+  },
+  "GPU_destination_writes_to1831": 0,
+  "source4VBmatches": 0,
+  "scope_correction": "147 filters PRIMARY STRIDE only; includes leaf/nonweighted layouts. Exact weighted BONEINDEX layout subset separately recorded.",
+  "byVS_primaryStride_secondaryStride_weighted_COLOR1": [
+    {
+      "vs": 375,
+      "primary_stride": 56,
+      "secondary_stride": 12,
+      "weighted": true,
+      "active_COLOR1": true,
+      "draws": 30
+    },
+    {
+      "vs": 375,
+      "primary_stride": 60,
+      "secondary_stride": 8,
+      "weighted": true,
+      "active_COLOR1": false,
+      "draws": 2
+    },
+    {
+      "vs": 381,
+      "primary_stride": 56,
+      "secondary_stride": 12,
+      "weighted": true,
+      "active_COLOR1": true,
+      "draws": 3
+    },
+    {
+      "vs": 393,
+      "primary_stride": 56,
+      "secondary_stride": 12,
+      "weighted": true,
+      "active_COLOR1": true,
+      "draws": 6
+    },
+    {
+      "vs": 393,
+      "primary_stride": 60,
+      "secondary_stride": 8,
+      "weighted": true,
+      "active_COLOR1": false,
+      "draws": 1
+    },
+    {
+      "vs": 417,
+      "primary_stride": 56,
+      "secondary_stride": 12,
+      "weighted": true,
+      "active_COLOR1": true,
+      "draws": 9
+    },
+    {
+      "vs": 429,
+      "primary_stride": 56,
+      "secondary_stride": 12,
+      "weighted": true,
+      "active_COLOR1": true,
+      "draws": 1
+    },
+    {
+      "vs": 461,
+      "primary_stride": 56,
+      "secondary_stride": 12,
+      "weighted": true,
+      "active_COLOR1": true,
+      "draws": 9
+    },
+    {
+      "vs": 577,
+      "primary_stride": 60,
+      "secondary_stride": 8,
+      "weighted": true,
+      "active_COLOR1": false,
+      "draws": 9
+    },
+    {
+      "vs": 801,
+      "primary_stride": 56,
+      "secondary_stride": 0,
+      "weighted": false,
+      "active_COLOR1": false,
+      "draws": 66
+    },
+    {
+      "vs": 825,
+      "primary_stride": 56,
+      "secondary_stride": 0,
+      "weighted": false,
+      "active_COLOR1": false,
+      "draws": 9
+    },
+    {
+      "vs": 843,
+      "primary_stride": 60,
+      "secondary_stride": 8,
+      "weighted": true,
+      "active_COLOR1": false,
+      "draws": 1
+    },
+    {
+      "vs": 859,
+      "primary_stride": 60,
+      "secondary_stride": 8,
+      "weighted": true,
+      "active_COLOR1": false,
+      "draws": 1
+    }
+  ],
+  "actually_weighted_count": 72,
+  "actually_weighted_COLOR1_count": 58,
+  "weighted_COLOR1_secondary_strides": {
+    "12": 58
+  }
+}

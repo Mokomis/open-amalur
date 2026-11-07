@@ -1,0 +1,440 @@
+{
+  "status": "CloseIdle constant clip-time0 PROVEN on ordinary defaultpath; no global active-state override claim",
+  "source": "work\\v48-opening\\initial-sword-visuals\\inputs\\initial_0.pak\\1789863.mtns_bxml",
+  "source_sha256": "c9a9348c7f1fb91744bf363fe911c75516f7a1e72f75b9ab1faf7089077a1923",
+  "slot_count": 5,
+  "slots": [
+    {
+      "slot": 0,
+      "motion_key": 577232,
+      "motion_name": "open",
+      "entry_file_offset": 28,
+      "variant_count": 1,
+      "variant_file_offset": 32,
+      "variant_flag_word": 0,
+      "clips": {
+        "count": 1,
+        "count_file_offset": 36,
+        "data_file_offset": 40,
+        "raw_hex": "914f1b00",
+        "assets": [
+          1789841
+        ]
+      },
+      "segments": [
+        {
+          "count": 1,
+          "count_file_offset": 48,
+          "data_file_offset": 52,
+          "raw_hex": "00000000050d0000",
+          "pairs": [
+            [
+              0,
+              3333
+            ]
+          ]
+        }
+      ],
+      "functions_prefix": [
+        [
+          {
+            "array12": {
+              "count": 2,
+              "count_file_offset": 68,
+              "data_file_offset": 72,
+              "raw_hex": "000000000000803f000000000000803f0000803f00000000"
+            },
+            "array44": {
+              "count": 2,
+              "count_file_offset": 96,
+              "data_file_offset": 100,
+              "raw_hex": "c3f5a8be0000000000000000c3f5a83e00000000000000000000803f020000000400000004000000000000000000000000000000000000000000000000000000000000000000803f02000000040000000400000000000000"
+            },
+            "mode_word": 0,
+            "mode_file_offset": 188
+          }
+        ]
+      ],
+      "start_array_runtime_ptr_offset": "0x28",
+      "start": {
+        "count": 1,
+        "count_file_offset": 192,
+        "data_file_offset": 196,
+        "raw_hex": "00000000",
+        "values": [
+          0
+        ]
+      },
+      "delta_array_runtime_ptr_offset": "0x34",
+      "delta": {
+        "count": 1,
+        "count_file_offset": 200,
+        "data_file_offset": 204,
+        "raw_hex": "050d0000",
+        "values": [
+          3333
+        ]
+      },
+      "typed_prefix_end": 208,
+      "opaque_middle_file_range": [
+        208,
+        565
+      ],
+      "opaque_middle_sha256": "94628691fbd2d8fcae7668002491c6f7de977abfdfbd9e13dbb59c0dd9be69f8",
+      "chooser_file_offset": 565,
+      "chooser_type_id": 20877140,
+      "chooser_subtype": "BHG::RandomMotionChooser",
+      "chooser_weights": [
+        1
+      ],
+      "chooser_end": 577
+    },
+    {
+      "slot": 1,
+      "motion_key": 998527,
+      "motion_name": "close",
+      "entry_file_offset": 577,
+      "variant_count": 1,
+      "variant_file_offset": 581,
+      "variant_flag_word": 0,
+      "clips": {
+        "count": 1,
+        "count_file_offset": 585,
+        "data_file_offset": 589,
+        "raw_hex": "914f1b00",
+        "assets": [
+          1789841
+        ]
+      },
+      "segments": [
+        {
+          "count": 1,
+          "count_file_offset": 597,
+          "data_file_offset": 601,
+          "raw_hex": "00000000050d0000",
+          "pairs": [
+            [
+              0,
+              3333
+            ]
+          ]
+        }
+      ],
+      "functions_prefix": [
+        [
+          {
+            "array12": {
+              "count": 2,
+              "count_file_offset": 617,
+              "data_file_offset": 621,
+              "raw_hex": "000000000000803f000000000000803f0000803f00000000"
+            },
+            "array44": {
+              "count": 2,
+              "count_file_offset": 645,
+              "data_file_offset": 649,
+              "raw_hex": "c3f5a8be0000000000000000c3f5a83e00000000000000000000803f020000000400000004000000000000000000000000000000000000000000000000000000000000000000803f02000000040000000400000000000000"
+            },
+            "mode_word": 0,
+            "mode_file_offset": 737
+          }
+        ]
+      ],
+      "start_array_runtime_ptr_offset": "0x28",
+      "start": {
+        "count": 1,
+        "count_file_offset": 741,
+        "data_file_offset": 745,
+        "raw_hex": "050d0000",
+        "values": [
+          3333
+        ]
+      },
+      "delta_array_runtime_ptr_offset": "0x34",
+      "delta": {
+        "count": 1,
+        "count_file_offset": 749,
+        "data_file_offset": 753,
+        "raw_hex": "fbf2ffff",
+        "values": [
+          -3333
+        ]
+      },
+      "typed_prefix_end": 757,
+      "opaque_middle_file_range": [
+        757,
+        1036
+      ],
+      "opaque_middle_sha256": "368f2be1df2ecce8313907677568d5838ce5e0d6298aafd45312eedfa8ada6c7",
+      "chooser_file_offset": 1036,
+      "chooser_type_id": 20877140,
+      "chooser_subtype": "BHG::RandomMotionChooser",
+      "chooser_weights": [
+        1
+      ],
+      "chooser_end": 1048
+    },
+    {
+      "slot": 2,
+      "motion_key": 3475629,
+      "motion_name": "open idle",
+      "entry_file_offset": 1048,
+      "variant_count": 1,
+      "variant_file_offset": 1052,
+      "variant_flag_word": 0,
+      "clips": {
+        "count": 1,
+        "count_file_offset": 1056,
+        "data_file_offset": 1060,
+        "raw_hex": "914f1b00",
+        "assets": [
+          1789841
+        ]
+      },
+      "segments": [
+        {
+          "count": 1,
+          "count_file_offset": 1068,
+          "data_file_offset": 1072,
+          "raw_hex": "00000000050d0000",
+          "pairs": [
+            [
+              0,
+              3333
+            ]
+          ]
+        }
+      ],
+      "functions_prefix": [
+        [
+          {
+            "array12": {
+              "count": 2,
+              "count_file_offset": 1088,
+              "data_file_offset": 1092,
+              "raw_hex": "000000000000803f000000000000803f0000803f00000000"
+            },
+            "array44": {
+              "count": 2,
+              "count_file_offset": 1116,
+              "data_file_offset": 1120,
+              "raw_hex": "c3f5a8be0000000000000000c3f5a83e00000000000000000000803f020000000400000004000000000000000000000000000000000000000000000000000000000000000000803f02000000040000000400000000000000"
+            },
+            "mode_word": 0,
+            "mode_file_offset": 1208
+          }
+        ]
+      ],
+      "start_array_runtime_ptr_offset": "0x28",
+      "start": {
+        "count": 1,
+        "count_file_offset": 1212,
+        "data_file_offset": 1216,
+        "raw_hex": "050d0000",
+        "values": [
+          3333
+        ]
+      },
+      "delta_array_runtime_ptr_offset": "0x34",
+      "delta": {
+        "count": 1,
+        "count_file_offset": 1220,
+        "data_file_offset": 1224,
+        "raw_hex": "00000000",
+        "values": [
+          0
+        ]
+      },
+      "typed_prefix_end": 1228,
+      "opaque_middle_file_range": [
+        1228,
+        1359
+      ],
+      "opaque_middle_sha256": "1da1681116439907553268c11ef5164c09cfa7c8b33959f246c91a5cc95be79d",
+      "chooser_file_offset": 1359,
+      "chooser_type_id": 20877140,
+      "chooser_subtype": "BHG::RandomMotionChooser",
+      "chooser_weights": [
+        1
+      ],
+      "chooser_end": 1371
+    },
+    {
+      "slot": 3,
+      "motion_key": 4514355,
+      "motion_name": "Close Idle",
+      "entry_file_offset": 1371,
+      "variant_count": 1,
+      "variant_file_offset": 1375,
+      "variant_flag_word": 0,
+      "clips": {
+        "count": 1,
+        "count_file_offset": 1379,
+        "data_file_offset": 1383,
+        "raw_hex": "914f1b00",
+        "assets": [
+          1789841
+        ]
+      },
+      "segments": [
+        {
+          "count": 1,
+          "count_file_offset": 1391,
+          "data_file_offset": 1395,
+          "raw_hex": "00000000050d0000",
+          "pairs": [
+            [
+              0,
+              3333
+            ]
+          ]
+        }
+      ],
+      "functions_prefix": [
+        [
+          {
+            "array12": {
+              "count": 2,
+              "count_file_offset": 1411,
+              "data_file_offset": 1415,
+              "raw_hex": "000000000000803f000000000000803f0000803f00000000"
+            },
+            "array44": {
+              "count": 2,
+              "count_file_offset": 1439,
+              "data_file_offset": 1443,
+              "raw_hex": "c3f5a8be0000000000000000c3f5a83e00000000000000000000803f020000000400000004000000000000000000000000000000000000000000000000000000000000000000803f02000000040000000400000000000000"
+            },
+            "mode_word": 0,
+            "mode_file_offset": 1531
+          }
+        ]
+      ],
+      "start_array_runtime_ptr_offset": "0x28",
+      "start": {
+        "count": 1,
+        "count_file_offset": 1535,
+        "data_file_offset": 1539,
+        "raw_hex": "00000000",
+        "values": [
+          0
+        ]
+      },
+      "delta_array_runtime_ptr_offset": "0x34",
+      "delta": {
+        "count": 1,
+        "count_file_offset": 1543,
+        "data_file_offset": 1547,
+        "raw_hex": "00000000",
+        "values": [
+          0
+        ]
+      },
+      "typed_prefix_end": 1551,
+      "opaque_middle_file_range": [
+        1551,
+        1709
+      ],
+      "opaque_middle_sha256": "07ff8e40095e1ae7789aa87b90208bad66273762ecc9bf5f23f8f2eca883523f",
+      "chooser_file_offset": 1709,
+      "chooser_type_id": 20877140,
+      "chooser_subtype": "BHG::RandomMotionChooser",
+      "chooser_weights": [
+        1
+      ],
+      "chooser_end": 1721
+    },
+    {
+      "slot": 4,
+      "motion_key": 651734,
+      "motion_name": "Loot",
+      "entry_file_offset": 1721,
+      "variant_count": 1,
+      "variant_file_offset": 1725,
+      "variant_flag_word": 0,
+      "clips": {
+        "count": 0,
+        "count_file_offset": 1729,
+        "data_file_offset": 1733,
+        "raw_hex": "",
+        "assets": []
+      },
+      "segments": [],
+      "functions_prefix": [],
+      "start_array_runtime_ptr_offset": "0x28",
+      "start": {
+        "count": 0,
+        "count_file_offset": 1741,
+        "data_file_offset": 1745,
+        "raw_hex": "",
+        "values": []
+      },
+      "delta_array_runtime_ptr_offset": "0x34",
+      "delta": {
+        "count": 0,
+        "count_file_offset": 1745,
+        "data_file_offset": 1749,
+        "raw_hex": "",
+        "values": []
+      },
+      "typed_prefix_end": 1749,
+      "opaque_middle_file_range": [
+        1749,
+        1907
+      ],
+      "opaque_middle_sha256": "d0aa8f266843c32a93a36d9f169de865c438bdc30d6212a482150809826646a5",
+      "chooser_file_offset": 1907,
+      "chooser_type_id": 20877140,
+      "chooser_subtype": "BHG::RandomMotionChooser",
+      "chooser_weights": [
+        1
+      ],
+      "chooser_end": 1919
+    }
+  ],
+  "end_byte": {
+    "file_offset": 1919,
+    "value": 0,
+    "native_field": "MotionSet+0x1c"
+  },
+  "provider": {
+    "type_id": "013e8f54",
+    "subtype": "BHG::RandomMotionChooser",
+    "vf3": "00a1b1d0->00a1b0c0 readsu32count+u32weights",
+    "vf4": "00c8ff30",
+    "native_vtable": "017228d0",
+    "selection": "One variant withweight1; outputindex initialized0 and onlyvalidindex0.00d1d5d0 supplies excludedprevious=-1. No randompose selection."
+  },
+  "native_time_formula": {
+    "loader": "00d42ad0 reads+24count/+28ptr startvalues and+30count/+34ptr signeddeltas after three typed prefix arrays",
+    "consumer": "00c63d80",
+    "formula": "sampleTime=start[clip]+trunc_i64(signedDelta[clip]*(clamp(elapsed,segmentEnd)-segmentStart)/segmentLength)",
+    "wrapper": "00c8f810 maps caller time into variantduration;00ce6b70 updates eachclip,00cb3700/00d0ea90 place resultingtime into Edge commands",
+    "close_idle": {
+      "clip": 1789841,
+      "clip_index": 0,
+      "variant_index": 0,
+      "segment_start": 0,
+      "segment_length": 3333,
+      "start": 0,
+      "signed_delta": 0,
+      "result": 0,
+      "consequence": "Clipframe0 held forentireCloseIdle, not FABrest"
+    },
+    "runtime_timebase": "DAT014c61a8 PEdefault0; runtimeinitializer/value not audited. Zero-time conclusion independentofpositive runtime timebase."
+  },
+  "pose": {
+    "file": "close-idle-native-local-trs.bin",
+    "schema": "u32joints54,u32frames1,f32fps then54*48B rawEdgeQ/T/S",
+    "sha256": "5fc86c721ea73d10dc896a3a919542fa115e0b884f6cc2b9878f4506310d55f3",
+    "identity": "2604B file; payload byte-identical to first2592B pose in ../animation-audit/1789841-native-local-trs.bin after12Bheader",
+    "raw_quaternion": "No conjugation/normalization in posefile; consumer usesR(conjugate(rawQ)) exactlyonce"
+  },
+  "qualifications": [
+    "Normal fresh-object PartAnimation path; Object+10c bit7 deathpath remainsseparate.",
+    "Optional MotionSetoverride+1B4 takesprecedence; freshconstructor0, lateroverride writesnotaudited.",
+    "Source/on_creation laterstate/timer actions notexecuted. This proves defaultCloseIdle geometry, not anycurrentoriginalsave's state.",
+    "No runtime game launch/UI/RPM/save/core/default/DB modifications.",
+    "Only typed variantprefix +native chooser serialization decoded. Event/othermiddlepayload preservedopaque; no generic wholeMotionSetdecoder claim."
+  ]
+}

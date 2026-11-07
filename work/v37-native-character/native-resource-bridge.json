@@ -1,0 +1,200 @@
+{
+  "runtime_capture": "capture-2026-11-05T21-16-24-734Z",
+  "method": "exact byte equality of complete D3D resource logical contents against mapped capture-memory ranges; draw binding state independently decoded from captured Vulkan commands",
+  "resources": {
+    "vertex0": {
+      "engine_token": "0xaabc8348",
+      "bytes": 99008,
+      "sha256": "49098902e3f4379d755a3eafadc2d464d6645ecaacb1d7d7328dbbe818f7ac96",
+      "same_size_candidates": 2,
+      "exact_content_matches": [
+        {
+          "buffer_id": 3460,
+          "memory_id": 3461,
+          "fill_block": 74596,
+          "memory_offset": 0,
+          "source_bytes": 99008
+        },
+        {
+          "buffer_id": 3480,
+          "memory_id": 3481,
+          "fill_block": 74618,
+          "memory_offset": 0,
+          "source_bytes": 99008
+        }
+      ]
+    },
+    "vertex1": {
+      "engine_token": "0xaa902fb0",
+      "bytes": 131072,
+      "sha256": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+      "same_size_candidates": 1,
+      "exact_content_matches": [
+        {
+          "buffer_id": 1831,
+          "memory_id": 1832,
+          "fill_block": 73641,
+          "memory_offset": 0,
+          "source_bytes": 131072
+        }
+      ]
+    },
+    "index": {
+      "engine_token": "0xaabc7268",
+      "bytes": 10752,
+      "sha256": "aec13fa9fffdcc5a92aee8d4e2ed93b9b509398444e8dff72064358d74765057",
+      "same_size_candidates": 2,
+      "exact_content_matches": [
+        {
+          "buffer_id": 3462,
+          "memory_id": 3463,
+          "fill_block": 74600,
+          "memory_offset": 0,
+          "source_bytes": 10752
+        }
+      ]
+    }
+  },
+  "matching_live_draws": [
+    {
+      "draw_block": 66652,
+      "args": {
+        "commandBuffer": 46,
+        "indexCount": 5376,
+        "instanceCount": 1,
+        "firstIndex": 0,
+        "vertexOffset": 0,
+        "firstInstance": 0
+      },
+      "vertex": {
+        "0": {
+          "buffer": 3460,
+          "offset": 0
+        },
+        "1": {
+          "buffer": 1831,
+          "offset": 0
+        },
+        "2": {
+          "buffer": 64,
+          "offset": 0
+        },
+        "3": {
+          "buffer": 64,
+          "offset": 0
+        }
+      },
+      "index": {
+        "commandBuffer": 46,
+        "buffer": 3462,
+        "offset": 0,
+        "indexType": "VK_INDEX_TYPE_UINT16"
+      }
+    },
+    {
+      "draw_block": 67627,
+      "args": {
+        "commandBuffer": 46,
+        "indexCount": 5376,
+        "instanceCount": 1,
+        "firstIndex": 0,
+        "vertexOffset": 0,
+        "firstInstance": 0
+      },
+      "vertex": {
+        "0": {
+          "buffer": 3460,
+          "offset": 0
+        },
+        "1": {
+          "buffer": 1831,
+          "offset": 0
+        },
+        "2": {
+          "buffer": 64,
+          "offset": 0
+        },
+        "3": {
+          "buffer": 64,
+          "offset": 0
+        }
+      },
+      "index": {
+        "commandBuffer": 46,
+        "buffer": 3462,
+        "offset": 0,
+        "indexType": "VK_INDEX_TYPE_UINT16"
+      }
+    },
+    {
+      "draw_block": 72229,
+      "args": {
+        "commandBuffer": 46,
+        "indexCount": 5376,
+        "instanceCount": 1,
+        "firstIndex": 0,
+        "vertexOffset": 0,
+        "firstInstance": 0
+      },
+      "vertex": {
+        "0": {
+          "buffer": 3460,
+          "offset": 0
+        },
+        "1": {
+          "buffer": 1831,
+          "offset": 0
+        },
+        "2": {
+          "buffer": 64,
+          "offset": 0
+        },
+        "3": {
+          "buffer": 64,
+          "offset": 0
+        }
+      },
+      "index": {
+        "commandBuffer": 46,
+        "buffer": 3462,
+        "offset": 0,
+        "indexType": "VK_INDEX_TYPE_UINT16"
+      }
+    },
+    {
+      "draw_block": 72628,
+      "args": {
+        "commandBuffer": 46,
+        "indexCount": 5376,
+        "instanceCount": 1,
+        "firstIndex": 0,
+        "vertexOffset": 0,
+        "firstInstance": 0
+      },
+      "vertex": {
+        "0": {
+          "buffer": 3460,
+          "offset": 0
+        },
+        "1": {
+          "buffer": 1831,
+          "offset": 0
+        },
+        "2": {
+          "buffer": 64,
+          "offset": 0
+        },
+        "3": {
+          "buffer": 64,
+          "offset": 0
+        }
+      },
+      "index": {
+        "commandBuffer": 46,
+        "buffer": 3462,
+        "offset": 0,
+        "indexType": "VK_INDEX_TYPE_UINT16"
+      }
+    }
+  ]
+}

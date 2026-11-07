@@ -1,0 +1,102 @@
+{
+  "source_files": [
+    "oa_creation_gameplay.c",
+    "oa_creator_game.c",
+    "oa_mq01_cursor.c"
+  ],
+  "shared_sources": "Root current oa_creation.c +oa_creation_source_tables.c, exactly once; snapshot pinned",
+  "includes": [
+    "creation_patron_tables.inc",
+    "creation_global_tables.inc",
+    "creation_item_tables.inc",
+    "creation_skill_tables.inc",
+    "creation_startup_assets.inc",
+    "movement_sha256.h",
+    "opening_movement_planes.h"
+  ],
+  "libraries": [
+    "oa_opening_runtime",
+    "amalur_runtime",
+    "Lua5.1.5"
+  ],
+  "new_assets": [
+    {
+      "path": "creation/amalur_uint64.lua",
+      "file": "amalur_uint64.lua",
+      "name": "amalur_uint64.lua",
+      "size": 1712,
+      "sha256": "f34cf7a740acb1697d3b6bb6867f8da468d187195c72c6bd07f0ebfcd697da00",
+      "kind": 0
+    },
+    {
+      "path": "creation/amalur_engine_handles.lua",
+      "file": "amalur_engine_handles.lua",
+      "name": "amalur_engine_handles.lua",
+      "size": 3310,
+      "sha256": "2a1b4b515cec283d9eab02d20e5cc036337138ece1ee4db9f18619fac229fcae",
+      "kind": 0
+    },
+    {
+      "path": "creation/engine_binding_registry.lua",
+      "file": "engine_binding_registry.lua",
+      "name": "engine_binding_registry.lua",
+      "size": 66411,
+      "sha256": "877055e55fff54beeae2fdc396a8a4a6cf283f477d9dd9b8acc2547b0c66e204",
+      "kind": 0
+    },
+    {
+      "path": "creation/amalur_engine_bindings.lua",
+      "file": "amalur_engine_bindings.lua",
+      "name": "amalur_engine_bindings.lua",
+      "size": 2502,
+      "sha256": "07a62657e31cdb9aae0712aa19604caab885ca9a72785fa2571bc5fd4738241b",
+      "kind": 0
+    },
+    {
+      "path": "creation/amalur_native_math.lua",
+      "file": "amalur_native_math.lua",
+      "name": "amalur_native_math.lua",
+      "size": 2344,
+      "sha256": "7a14b0a4e04d0a6e650412960282678f255b0a2fae57607388200a4fca43b477",
+      "kind": 0
+    },
+    {
+      "path": "creation/mq01-cheat-start.lua",
+      "file": "mq01-cheat-start.lua",
+      "name": "__mq_start",
+      "size": 6340,
+      "sha256": "a8bae0b371711b044169637e5d3b37df434626dd13e83fb98a39a1d75febcc30",
+      "kind": 1
+    },
+    {
+      "path": "creation/mq01-stage5.lua",
+      "file": "mq01-stage5.lua",
+      "name": "__mq_stage5",
+      "size": 677,
+      "sha256": "018c08182cb7460e756a97346d9559b016f613d3e1cec6d6e8f29ed360f7bc69",
+      "kind": 1
+    },
+    {
+      "path": "creation/stealth-condition.lua",
+      "file": "stealth-condition.lua",
+      "name": "__stealth_condition",
+      "size": 6399,
+      "sha256": "4abea813ebe1dbc5e7d60db080fb5ff50a18539fd6f1131ac6e221fbb35fa0d8",
+      "kind": 1
+    }
+  ],
+  "mandatory_root_bindings": [
+    "actual appearance/actor CPU+GPU reservation and atomic publish",
+    "exact owner inventory/equipment/name/race/sex/title",
+    "health/max source-stat query calls in real combat/vitals",
+    "rawskills/45named actorstates",
+    "actual locked-mode admission",
+    "actual stealth,targetvisibility,ReckoningMode membership",
+    "real item/door/UI backend",
+    "one ongoing opening realm after completion",
+    "outer Save/Resume plus temporary collision validation",
+    "explicit actual package4 state"
+  ],
+  "source_initial_health_before_other_modifiers": 50,
+  "product_live_promoted": false
+}

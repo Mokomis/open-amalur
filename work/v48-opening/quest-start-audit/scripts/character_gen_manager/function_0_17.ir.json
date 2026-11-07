@@ -1,0 +1,701 @@
+[
+  {
+    "pc": 0,
+    "file_offset": 14806,
+    "word_hex": "aa000001",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      2
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_wait_for_load\""
+  },
+  {
+    "pc": 2,
+    "file_offset": 14814,
+    "word_hex": "82000001",
+    "name": "TEST_R1",
+    "A": 1,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      7,
+      4
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 4,
+    "file_offset": 14822,
+    "word_hex": "1a020001",
+    "name": "LOADBOOL",
+    "A": 1,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      5
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 5,
+    "file_offset": 14826,
+    "word_hex": "36000301",
+    "name": "SETGLOBAL",
+    "A": 1,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      6
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_finish_on_load\""
+  },
+  {
+    "pc": 6,
+    "file_offset": 14830,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  },
+  {
+    "pc": 7,
+    "file_offset": 14834,
+    "word_hex": "aa000401",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 4,
+    "successors": [
+      9
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_ready_for_finish\""
+  },
+  {
+    "pc": 9,
+    "file_offset": 14842,
+    "word_hex": "08030700",
+    "name": "EQ",
+    "A": 0,
+    "B": 1,
+    "C": 263,
+    "successors": [
+      13,
+      11
+    ],
+    "kind": "eq_branch",
+    "left_operand": {
+      "kind": "register",
+      "index": 1
+    },
+    "right_operand": {
+      "kind": "constant",
+      "index": 7,
+      "lua": "false"
+    }
+  },
+  {
+    "pc": 11,
+    "file_offset": 14850,
+    "word_hex": "36000800",
+    "name": "SETGLOBAL",
+    "A": 0,
+    "B": 0,
+    "C": 8,
+    "successors": [
+      12
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_display_levelup\""
+  },
+  {
+    "pc": 12,
+    "file_offset": 14854,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  },
+  {
+    "pc": 13,
+    "file_offset": 14858,
+    "word_hex": "aa000901",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 9,
+    "successors": [
+      15
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"destiny_manager\""
+  },
+  {
+    "pc": 15,
+    "file_offset": 14866,
+    "word_hex": "86020c01",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 12,
+    "successors": [
+      18
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"check_for_new_titles\""
+  },
+  {
+    "pc": 18,
+    "file_offset": 14878,
+    "word_hex": "7e020101",
+    "name": "CALL_I_R1",
+    "A": 1,
+    "B": 1,
+    "C": 1,
+    "successors": [
+      19
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 19,
+    "file_offset": 14882,
+    "word_hex": "aa000901",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 9,
+    "successors": [
+      21
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"destiny_manager\""
+  },
+  {
+    "pc": 21,
+    "file_offset": 14890,
+    "word_hex": "86020d01",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 13,
+    "successors": [
+      24
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_current_title\""
+  },
+  {
+    "pc": 24,
+    "file_offset": 14902,
+    "word_hex": "32000e02",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 14,
+    "successors": [
+      25
+    ],
+    "kind": "loadk",
+    "constant_lua": "\"Fateless One\""
+  },
+  {
+    "pc": 25,
+    "file_offset": 14906,
+    "word_hex": "04040101",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      26
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 26,
+    "file_offset": 14910,
+    "word_hex": "aa000f01",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 15,
+    "successors": [
+      28
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"character_data\""
+  },
+  {
+    "pc": 28,
+    "file_offset": 14918,
+    "word_hex": "86021201",
+    "name": "GETFIELD_R1",
+    "A": 1,
+    "B": 1,
+    "C": 18,
+    "successors": [
+      31
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_stored_player_type\""
+  },
+  {
+    "pc": 31,
+    "file_offset": 14930,
+    "word_hex": "7e020201",
+    "name": "CALL_I_R1",
+    "A": 1,
+    "B": 1,
+    "C": 2,
+    "successors": [
+      32
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 32,
+    "file_offset": 14934,
+    "word_hex": "aa000f02",
+    "name": "GETGLOBAL_MEM",
+    "A": 2,
+    "B": 0,
+    "C": 15,
+    "successors": [
+      34
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"character_data\""
+  },
+  {
+    "pc": 34,
+    "file_offset": 14942,
+    "word_hex": "86041302",
+    "name": "GETFIELD_R1",
+    "A": 2,
+    "B": 2,
+    "C": 19,
+    "successors": [
+      37
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"get_default_chargen_equipment\""
+  },
+  {
+    "pc": 37,
+    "file_offset": 14954,
+    "word_hex": "0e020003",
+    "name": "MOVE",
+    "A": 3,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      38
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 38,
+    "file_offset": 14958,
+    "word_hex": "04040202",
+    "name": "CALL_I",
+    "A": 2,
+    "B": 2,
+    "C": 2,
+    "successors": [
+      39
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 39,
+    "file_offset": 14962,
+    "word_hex": "aa001403",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 20,
+    "successors": [
+      41
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"pairs\""
+  },
+  {
+    "pc": 41,
+    "file_offset": 14970,
+    "word_hex": "0e040004",
+    "name": "MOVE",
+    "A": 4,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      42
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 42,
+    "file_offset": 14974,
+    "word_hex": "04040403",
+    "name": "CALL_I",
+    "A": 3,
+    "B": 2,
+    "C": 4,
+    "successors": [
+      43
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 43,
+    "file_offset": 14978,
+    "word_hex": "39000700",
+    "name": "JMP",
+    "A": 0,
+    "B": 128,
+    "C": 7,
+    "successors": [
+      52
+    ],
+    "kind": "jump"
+  },
+  {
+    "pc": 44,
+    "file_offset": 14982,
+    "word_hex": "aa001708",
+    "name": "GETGLOBAL_MEM",
+    "A": 8,
+    "B": 0,
+    "C": 23,
+    "successors": [
+      46
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"PLAYER\""
+  },
+  {
+    "pc": 46,
+    "file_offset": 14990,
+    "word_hex": "86101a08",
+    "name": "GETFIELD_R1",
+    "A": 8,
+    "B": 8,
+    "C": 26,
+    "successors": [
+      49
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"destroy_item\""
+  },
+  {
+    "pc": 49,
+    "file_offset": 15002,
+    "word_hex": "0e0e0009",
+    "name": "MOVE",
+    "A": 9,
+    "B": 7,
+    "C": 0,
+    "successors": [
+      50
+    ],
+    "kind": "move"
+  },
+  {
+    "pc": 50,
+    "file_offset": 15006,
+    "word_hex": "32001b0a",
+    "name": "LOADK",
+    "A": 10,
+    "B": 0,
+    "C": 27,
+    "successors": [
+      51
+    ],
+    "kind": "loadk",
+    "constant_lua": "1"
+  },
+  {
+    "pc": 51,
+    "file_offset": 15010,
+    "word_hex": "04060108",
+    "name": "CALL_I",
+    "A": 8,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      52
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 52,
+    "file_offset": 15014,
+    "word_hex": "1c000203",
+    "name": "TFORLOOP",
+    "A": 3,
+    "B": 0,
+    "C": 2,
+    "successors": [
+      44,
+      54
+    ],
+    "kind": "tforloop"
+  },
+  {
+    "pc": 54,
+    "file_offset": 15022,
+    "word_hex": "aa001c03",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 28,
+    "successors": [
+      56
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"loading_screen\""
+  },
+  {
+    "pc": 56,
+    "file_offset": 15030,
+    "word_hex": "86061f03",
+    "name": "GETFIELD_R1",
+    "A": 3,
+    "B": 3,
+    "C": 31,
+    "successors": [
+      59
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"m_cheat_func\""
+  },
+  {
+    "pc": 59,
+    "file_offset": 15042,
+    "word_hex": "82000003",
+    "name": "TEST_R1",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      67,
+      61
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 61,
+    "file_offset": 15050,
+    "word_hex": "aa001c03",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 28,
+    "successors": [
+      63
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"loading_screen\""
+  },
+  {
+    "pc": 63,
+    "file_offset": 15058,
+    "word_hex": "86061f03",
+    "name": "GETFIELD_R1",
+    "A": 3,
+    "B": 3,
+    "C": 31,
+    "successors": [
+      66
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"m_cheat_func\""
+  },
+  {
+    "pc": 66,
+    "file_offset": 15070,
+    "word_hex": "7e020103",
+    "name": "CALL_I_R1",
+    "A": 3,
+    "B": 1,
+    "C": 1,
+    "successors": [
+      67
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 67,
+    "file_offset": 15074,
+    "word_hex": "aa002003",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 32,
+    "successors": [
+      69
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"m_was_ui_disabled\""
+  },
+  {
+    "pc": 69,
+    "file_offset": 15082,
+    "word_hex": "82000003",
+    "name": "TEST_R1",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      85,
+      71
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 71,
+    "file_offset": 15090,
+    "word_hex": "aa002303",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 35,
+    "successors": [
+      73
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 73,
+    "file_offset": 15098,
+    "word_hex": "86062603",
+    "name": "GETFIELD_R1",
+    "A": 3,
+    "B": 3,
+    "C": 38,
+    "successors": [
+      76
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_is_ui_rendering_disabled\""
+  },
+  {
+    "pc": 76,
+    "file_offset": 15110,
+    "word_hex": "82000003",
+    "name": "TEST_R1",
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      85,
+      78
+    ],
+    "kind": "test_cached_branch"
+  },
+  {
+    "pc": 78,
+    "file_offset": 15118,
+    "word_hex": "aa002303",
+    "name": "GETGLOBAL_MEM",
+    "A": 3,
+    "B": 0,
+    "C": 35,
+    "successors": [
+      80
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"WINDOW\""
+  },
+  {
+    "pc": 80,
+    "file_offset": 15126,
+    "word_hex": "86062603",
+    "name": "GETFIELD_R1",
+    "A": 3,
+    "B": 3,
+    "C": 38,
+    "successors": [
+      83
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_is_ui_rendering_disabled\""
+  },
+  {
+    "pc": 83,
+    "file_offset": 15138,
+    "word_hex": "1a020004",
+    "name": "LOADBOOL",
+    "A": 4,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      84
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 84,
+    "file_offset": 15142,
+    "word_hex": "04040103",
+    "name": "CALL_I",
+    "A": 3,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      85
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 85,
+    "file_offset": 15146,
+    "word_hex": "1a020003",
+    "name": "LOADBOOL",
+    "A": 3,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      86
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 86,
+    "file_offset": 15150,
+    "word_hex": "36002703",
+    "name": "SETGLOBAL",
+    "A": 3,
+    "B": 0,
+    "C": 39,
+    "successors": [
+      87
+    ],
+    "kind": "setglobal",
+    "constant_lua": "\"m_character_gen_finished\""
+  },
+  {
+    "pc": 87,
+    "file_offset": 15154,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  }
+]

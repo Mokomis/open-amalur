@@ -1,0 +1,53 @@
+{
+  "status": "Source asset references only; no animation clip decoder or runtime pose claim",
+  "motion_set": 1789863,
+  "motion_set_name": "WOS_Start_Door01",
+  "motion_set_file": "inputs\\initial_0.pak\\1789863.mtns_bxml",
+  "motion_set_sha256": "c9a9348c7f1fb91744bf363fe911c75516f7a1e72f75b9ab1faf7089077a1923",
+  "header_u32_count": 5,
+  "aligned_motion_keys": [
+    {
+      "offset": 4,
+      "key": 577232,
+      "name": "open"
+    },
+    {
+      "offset": 8,
+      "key": 998527,
+      "name": "close"
+    },
+    {
+      "offset": 12,
+      "key": 3475629,
+      "name": "open idle"
+    },
+    {
+      "offset": 16,
+      "key": 4514355,
+      "name": "Close Idle"
+    },
+    {
+      "offset": 20,
+      "key": 651734,
+      "name": "Loot"
+    }
+  ],
+  "aligned_animation_reference_offsets": [
+    40,
+    1060
+  ],
+  "referenced_animation": 1789841,
+  "referenced_animation_name": "WOS_Start_Door01_anim",
+  "animation_sources": [
+    {
+      "asset": 1789841,
+      "name": "1789841.anm_bxml",
+      "file": "animation-inputs\\inputs\\initial_0.pak\\1789841.anm_bxml",
+      "bytes": 10137,
+      "sha256": "0c2a56c72df549647479c0fd45393ed174091b8ca4feed6cbfc2bb9d2557906e",
+      "header64_hex": "050d00009027000035304145df4f5540ffffef4100043600650003000020000002003500000019000a0000000000000000000000000000000000000000000000"
+    }
+  ],
+  "decoded_animation_clip_count": 0,
+  "limitation": "Motion-set fields and state transitions not decoded. One source animation identity referenced twice, not two decoded clips. No runtime active state or animation deformations inferred."
+}

@@ -1,0 +1,116 @@
+{
+  "capture": "/private/tmp/oa-dalentarth-20261105.gfxr",
+  "capture_bytes": 566260898,
+  "capture_sha256": "72c3524703435311542d555dc419771d820f6baf81c84676ef2c6dc28c367209",
+  "index_sha256": "26e2448c32d2e51812c9660096a3733c8b26ef0b3b279eb7bee8a29b8c9f692a",
+  "fill_record": {
+    "block": 73631,
+    "memory": 52,
+    "offset": 0,
+    "size": 33554432,
+    "file_offset": 525920194,
+    "stored_size": 10516740,
+    "compressed": true
+  },
+  "stored_payload_sha256": "06a13c90f1d925291067b7696dab8dd99f51b58dd5755a607ac23901bcedec14",
+  "decompressed_memory_sha256": "a9433c481e510e8777abfaa9105019d735e66551125b7fb083deac6ea9e3befd",
+  "existing_full_memory_equal": true,
+  "records": [
+    {
+      "name": "bloom-extract",
+      "memory": 52,
+      "offset": 1764928,
+      "bytes": 16,
+      "draw_index": 73280,
+      "phase": 119,
+      "pipeline": 7584,
+      "fragment_shader_module": 1851,
+      "float_values": [
+        0.8277000188827515,
+        0.1738000065088272,
+        1.2103606462478638,
+        0.0
+      ],
+      "sha256": "404d2e77b093041426cb43bccafcc1cc6d6ed7a8a5c5c105d9846a2223a12375"
+    },
+    {
+      "name": "lut-generator",
+      "memory": 52,
+      "offset": 1765632,
+      "bytes": 64,
+      "draw_index": 73395,
+      "phase": 134,
+      "pipeline": 7599,
+      "fragment_shader_module": 1855,
+      "float_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0625,
+        0.03125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "sha256": "d8fa13d93bfb7cfcfb272d035f138417dae8f913ab950acc2109960dd91ecdf5"
+    },
+    {
+      "name": "merge",
+      "memory": 52,
+      "offset": 1765696,
+      "bytes": 48,
+      "draw_index": 73404,
+      "phase": 135,
+      "pipeline": 7603,
+      "fragment_shader_module": 1858,
+      "float_values": [
+        0.05859375,
+        0.9375,
+        0.001953125,
+        0.03125,
+        0.0,
+        0.0,
+        16.0,
+        0.0625,
+        0.4306860566139221,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "41e2c4eac90a76ee90e6f3620d9611929b6c79459a553cab7cc1a60fb105e3cc"
+    },
+    {
+      "name": "final-filter",
+      "memory": 52,
+      "offset": 1765760,
+      "bytes": 48,
+      "draw_index": 73411,
+      "phase": 136,
+      "pipeline": 7607,
+      "fragment_shader_module": 1860,
+      "float_values": [
+        0.0013020833721384406,
+        0.002314814832061529,
+        0.00032552084303461015,
+        0.0005787037080153823,
+        0.0006510416860692203,
+        0.0011574074160307646,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sha256": "6af4d4d98bb62e137bac08d6872d220cafb2ed2c510b01495691225ec1e0fb16"
+    }
+  ]
+}

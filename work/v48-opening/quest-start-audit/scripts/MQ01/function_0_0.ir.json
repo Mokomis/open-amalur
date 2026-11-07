@@ -1,0 +1,367 @@
+[
+  {
+    "pc": 0,
+    "file_offset": 16672,
+    "word_hex": "aa000000",
+    "name": "GETGLOBAL_MEM",
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      2
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"QUEST\""
+  },
+  {
+    "pc": 2,
+    "file_offset": 16680,
+    "word_hex": "86000300",
+    "name": "GETFIELD_R1",
+    "A": 0,
+    "B": 0,
+    "C": 3,
+    "successors": [
+      5
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"start_quest\""
+  },
+  {
+    "pc": 5,
+    "file_offset": 16692,
+    "word_hex": "aa000401",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 4,
+    "successors": [
+      7
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"QUEST_ID\""
+  },
+  {
+    "pc": 7,
+    "file_offset": 16700,
+    "word_hex": "32000702",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 7,
+    "successors": [
+      8
+    ],
+    "kind": "loadk",
+    "constant_lua": "\"MQ01\""
+  },
+  {
+    "pc": 8,
+    "file_offset": 16704,
+    "word_hex": "04040001",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 2,
+    "C": 0,
+    "successors": [
+      9
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 9,
+    "file_offset": 16708,
+    "word_hex": "04000100",
+    "name": "CALL_I",
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "successors": [
+      10
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 10,
+    "file_offset": 16712,
+    "word_hex": "aa000000",
+    "name": "GETGLOBAL_MEM",
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "successors": [
+      12
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"QUEST\""
+  },
+  {
+    "pc": 12,
+    "file_offset": 16720,
+    "word_hex": "86000800",
+    "name": "GETFIELD_R1",
+    "A": 0,
+    "B": 0,
+    "C": 8,
+    "successors": [
+      15
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_stage\""
+  },
+  {
+    "pc": 15,
+    "file_offset": 16732,
+    "word_hex": "aa000401",
+    "name": "GETGLOBAL_MEM",
+    "A": 1,
+    "B": 0,
+    "C": 4,
+    "successors": [
+      17
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"QUEST_ID\""
+  },
+  {
+    "pc": 17,
+    "file_offset": 16740,
+    "word_hex": "32000702",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 7,
+    "successors": [
+      18
+    ],
+    "kind": "loadk",
+    "constant_lua": "\"MQ01\""
+  },
+  {
+    "pc": 18,
+    "file_offset": 16744,
+    "word_hex": "04040201",
+    "name": "CALL_I",
+    "A": 1,
+    "B": 2,
+    "C": 2,
+    "successors": [
+      19
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 19,
+    "file_offset": 16748,
+    "word_hex": "32000902",
+    "name": "LOADK",
+    "A": 2,
+    "B": 0,
+    "C": 9,
+    "successors": [
+      20
+    ],
+    "kind": "loadk",
+    "constant_lua": "5"
+  },
+  {
+    "pc": 20,
+    "file_offset": 16752,
+    "word_hex": "04060100",
+    "name": "CALL_I",
+    "A": 0,
+    "B": 3,
+    "C": 1,
+    "successors": [
+      21
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 21,
+    "file_offset": 16756,
+    "word_hex": "aa000a00",
+    "name": "GETGLOBAL_MEM",
+    "A": 0,
+    "B": 0,
+    "C": 10,
+    "successors": [
+      23
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"set_game_start\""
+  },
+  {
+    "pc": 23,
+    "file_offset": 16764,
+    "word_hex": "1a020001",
+    "name": "LOADBOOL",
+    "A": 1,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      24
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 24,
+    "file_offset": 16768,
+    "word_hex": "04040100",
+    "name": "CALL_I",
+    "A": 0,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      25
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 25,
+    "file_offset": 16772,
+    "word_hex": "aa000d00",
+    "name": "GETGLOBAL_MEM",
+    "A": 0,
+    "B": 0,
+    "C": 13,
+    "successors": [
+      27
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"Passive\""
+  },
+  {
+    "pc": 27,
+    "file_offset": 16780,
+    "word_hex": "86001000",
+    "name": "GETFIELD_R1",
+    "A": 0,
+    "B": 0,
+    "C": 16,
+    "successors": [
+      30
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"set_disable_aggressive_mode\""
+  },
+  {
+    "pc": 30,
+    "file_offset": 16792,
+    "word_hex": "1a020001",
+    "name": "LOADBOOL",
+    "A": 1,
+    "B": 1,
+    "C": 0,
+    "successors": [
+      31
+    ],
+    "kind": "loadbool"
+  },
+  {
+    "pc": 31,
+    "file_offset": 16796,
+    "word_hex": "04040100",
+    "name": "CALL_I",
+    "A": 0,
+    "B": 2,
+    "C": 1,
+    "successors": [
+      32
+    ],
+    "kind": "call_fixed"
+  },
+  {
+    "pc": 32,
+    "file_offset": 16800,
+    "word_hex": "aa001100",
+    "name": "GETGLOBAL_MEM",
+    "A": 0,
+    "B": 0,
+    "C": 17,
+    "successors": [
+      34
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"destiny_manager\""
+  },
+  {
+    "pc": 34,
+    "file_offset": 16808,
+    "word_hex": "86001400",
+    "name": "GETFIELD_R1",
+    "A": 0,
+    "B": 0,
+    "C": 20,
+    "successors": [
+      37
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"lock_destiny\""
+  },
+  {
+    "pc": 37,
+    "file_offset": 16820,
+    "word_hex": "7e020100",
+    "name": "CALL_I_R1",
+    "A": 0,
+    "B": 1,
+    "C": 1,
+    "successors": [
+      38
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 38,
+    "file_offset": 16824,
+    "word_hex": "aa001100",
+    "name": "GETGLOBAL_MEM",
+    "A": 0,
+    "B": 0,
+    "C": 17,
+    "successors": [
+      40
+    ],
+    "kind": "getglobal",
+    "constant_lua": "\"destiny_manager\""
+  },
+  {
+    "pc": 40,
+    "file_offset": 16832,
+    "word_hex": "86001500",
+    "name": "GETFIELD_R1",
+    "A": 0,
+    "B": 0,
+    "C": 21,
+    "successors": [
+      43
+    ],
+    "kind": "getfield_cached_k",
+    "constant_lua": "\"lock_fateweaver\""
+  },
+  {
+    "pc": 43,
+    "file_offset": 16844,
+    "word_hex": "7e020100",
+    "name": "CALL_I_R1",
+    "A": 0,
+    "B": 1,
+    "C": 1,
+    "successors": [
+      44
+    ],
+    "kind": "call_cached_fixed"
+  },
+  {
+    "pc": 44,
+    "file_offset": 16848,
+    "word_hex": "12020000",
+    "name": "RETURN",
+    "A": 0,
+    "B": 1,
+    "C": 0,
+    "successors": [],
+    "kind": "return_fixed"
+  }
+]

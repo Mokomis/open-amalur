@@ -1,0 +1,608 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\gameplay-runtime-integration\\test-output-1793997816365655800\\main.opening-gameplay-v1.bin",
+      "size": 420,
+      "sha256": "9b3707476c6a627a82cc1027bfd838cb036f0d63ee4368b78d8c1176a2d51c9b",
+      "profiles": [
+        "d78ee7a1f67cd9fbfa5390fd6d6c0943db50a6832a564494b430c3559b250de6",
+        "3dc2a635d7b45b5c086ad4b3f924b2c10d7054d134ba9316fce9bc72d940a8fa",
+        "059f52a8e9ddd6031a58e9e313f146af195f02dc70ec977feab41b1e9b8dd1d2"
+      ],
+      "scene": 1417252,
+      "region": 1262814,
+      "generation": 17,
+      "gor": 1790948,
+      "container": 1789992,
+      "itemtype": 1360571,
+      "item_instance": 78187493530,
+      "item_index": 7,
+      "quest": 613083,
+      "quest_stage": -1,
+      "tutorials_enabled": 1,
+      "identity": "scene1417252:player1:g17",
+      "pose": [
+        4015.905029296875,
+        2805.991943359375,
+        -315.7879943847656,
+        -3.1415927410125732,
+        0.125
+      ],
+      "inside": 1,
+      "initialized": 1,
+      "skipped": 1,
+      "container_count": 0,
+      "owned": 1,
+      "equipped": 1,
+      "door_open": 1,
+      "secondary_disabled": 1,
+      "compare_enabled": 1,
+      "revision": 10,
+      "quest_noops": 1,
+      "tutorials": [
+        {
+          "id": 17524338,
+          "active": 0,
+          "fired": 1,
+          "kills": 1
+        },
+        {
+          "id": 26339831,
+          "active": 0,
+          "fired": 1,
+          "kills": 1
+        },
+        {
+          "id": 40879367,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 61835887,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 49968583,
+          "active": 1,
+          "fired": 1,
+          "kills": 0
+        }
+      ],
+      "lua": {
+        "version": 1,
+        "wos_flags": 28608,
+        "sword_flags": 3,
+        "cinematic_flags": 1,
+        "sword_get": 1,
+        "clock_ms": 30,
+        "serial": 3,
+        "timers": []
+      }
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\gameplay-runtime-integration\\test-output-1793997816365655800\\timers.opening-gameplay-v1.bin",
+      "size": 476,
+      "sha256": "7f627665f6ea2dc4d33c8dc17f42f1bb03690551e05622f2914a78e8f6957c8c",
+      "profiles": [
+        "d78ee7a1f67cd9fbfa5390fd6d6c0943db50a6832a564494b430c3559b250de6",
+        "3dc2a635d7b45b5c086ad4b3f924b2c10d7054d134ba9316fce9bc72d940a8fa",
+        "059f52a8e9ddd6031a58e9e313f146af195f02dc70ec977feab41b1e9b8dd1d2"
+      ],
+      "scene": 1417252,
+      "region": 1262814,
+      "generation": 17,
+      "gor": 1790948,
+      "container": 1789992,
+      "itemtype": 1360571,
+      "item_instance": 78187493530,
+      "item_index": 7,
+      "quest": 613083,
+      "quest_stage": -1,
+      "tutorials_enabled": 1,
+      "identity": "scene1417252:player1:g17",
+      "pose": [
+        4015.905029296875,
+        2805.991943359375,
+        -315.7879943847656,
+        -3.1415927410125732,
+        0.125
+      ],
+      "inside": 1,
+      "initialized": 1,
+      "skipped": 1,
+      "container_count": 0,
+      "owned": 1,
+      "equipped": 0,
+      "door_open": 0,
+      "secondary_disabled": 1,
+      "compare_enabled": 0,
+      "revision": 2,
+      "quest_noops": 0,
+      "tutorials": [
+        {
+          "id": 17524338,
+          "active": 0,
+          "fired": 1,
+          "kills": 1
+        },
+        {
+          "id": 26339831,
+          "active": 0,
+          "fired": 1,
+          "kills": 1
+        },
+        {
+          "id": 40879367,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 61835887,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 49968583,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        }
+      ],
+      "lua": {
+        "version": 1,
+        "wos_flags": 12160,
+        "sword_flags": 1,
+        "cinematic_flags": 1,
+        "sword_get": 1,
+        "clock_ms": 0,
+        "serial": 2,
+        "timers": [
+          {
+            "hash": 151774118,
+            "due_ms": 15,
+            "serial": 1,
+            "argc": 1,
+            "item_index": 7
+          },
+          {
+            "hash": 165407883,
+            "due_ms": 15,
+            "serial": 2,
+            "argc": 0,
+            "item_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "path": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v48-opening\\gameplay-runtime-integration\\test-output-1793997816365655800\\disabled.opening-gameplay-v1.bin",
+      "size": 448,
+      "sha256": "8a430e8f411fd4317cf162ec98c809de959cf94797ffb16d11c202a0f7d7a87b",
+      "profiles": [
+        "d78ee7a1f67cd9fbfa5390fd6d6c0943db50a6832a564494b430c3559b250de6",
+        "3dc2a635d7b45b5c086ad4b3f924b2c10d7054d134ba9316fce9bc72d940a8fa",
+        "059f52a8e9ddd6031a58e9e313f146af195f02dc70ec977feab41b1e9b8dd1d2"
+      ],
+      "scene": 1417252,
+      "region": 1262814,
+      "generation": 17,
+      "gor": 1790948,
+      "container": 1789992,
+      "itemtype": 1360571,
+      "item_instance": 78187493530,
+      "item_index": 7,
+      "quest": 613083,
+      "quest_stage": -1,
+      "tutorials_enabled": 0,
+      "identity": "scene1417252:player1:g17",
+      "pose": [
+        4311.998046875,
+        2805.991943359375,
+        -314.53900146484375,
+        -3.1415927410125732,
+        0.125
+      ],
+      "inside": 3,
+      "initialized": 1,
+      "skipped": 0,
+      "container_count": 0,
+      "owned": 1,
+      "equipped": 0,
+      "door_open": 1,
+      "secondary_disabled": 1,
+      "compare_enabled": 1,
+      "revision": 2,
+      "quest_noops": 1,
+      "tutorials": [
+        {
+          "id": 17524338,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 26339831,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 40879367,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 61835887,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        },
+        {
+          "id": 49968583,
+          "active": 0,
+          "fired": 0,
+          "kills": 0
+        }
+      ],
+      "lua": {
+        "version": 1,
+        "wos_flags": 10112,
+        "sword_flags": 1,
+        "cinematic_flags": 0,
+        "sword_get": 1,
+        "clock_ms": 0,
+        "serial": 1,
+        "timers": [
+          {
+            "hash": 151774118,
+            "due_ms": 15,
+            "serial": 1,
+            "argc": 1,
+            "item_index": 7
+          }
+        ]
+      }
+    }
+  ],
+  "typed_checksum_valid_mutation_cases": 45,
+  "cases": [
+    {
+      "field": "scene",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "region",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "generation",
+      "value": 18,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "gor",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "container",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "itemtype",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "item_instance",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "item_index",
+      "value": 8,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "quest",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "quest_stage",
+      "value": 25,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "tutorials_enabled",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "inside",
+      "value": 7,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "initialized",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "skipped",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "container_count",
+      "value": 1,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "owned",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "equipped",
+      "value": 1,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "door_open",
+      "value": 1,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "secondary_disabled",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "compare_enabled",
+      "value": 1,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.version",
+      "value": 2,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.wos_flags",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.sword_flags",
+      "value": 5,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.cinematic_flags",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.sword_get",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.clock_ms",
+      "value": 9007194959773696,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.serial",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "lua.timer_count",
+      "value": 129,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer0.hash",
+      "value": 123,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer0.due_ms",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer0.due_ms",
+      "value": 16,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer0.serial",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer0.argc",
+      "value": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer0.item_index",
+      "value": 8,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer1.hash",
+      "value": 151774118,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer1.serial",
+      "value": 1,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer1.argc",
+      "value": 1,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "timer1.item_index",
+      "value": 7,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "tutorial0.id",
+      "value": 999,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "tutorial0.active",
+      "value": 2,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "tutorial0.fired",
+      "value": 2,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "field": "tutorial_count",
+      "value": 6,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "profile": 0,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "profile": 1,
+      "passed": true,
+      "rejection": "expected rejection:"
+    },
+    {
+      "profile": 2,
+      "passed": true,
+      "rejection": "expected rejection:"
+    }
+  ],
+  "offsets": {
+    "scene": 144,
+    "region": 148,
+    "generation": 152,
+    "gor": 160,
+    "container": 164,
+    "itemtype": 168,
+    "item_instance": 172,
+    "item_index": 180,
+    "quest": 184,
+    "quest_stage": 188,
+    "tutorials_enabled": 192,
+    "inside": 244,
+    "initialized": 248,
+    "skipped": 252,
+    "container_count": 256,
+    "owned": 260,
+    "equipped": 264,
+    "door_open": 268,
+    "secondary_disabled": 272,
+    "compare_enabled": 276,
+    "revision": 280,
+    "quest_noops": 288,
+    "tutorial_count": 296,
+    "tutorial0.id": 300,
+    "tutorial0.active": 304,
+    "tutorial0.fired": 308,
+    "tutorial0.kills": 312,
+    "tutorial1.id": 316,
+    "tutorial1.active": 320,
+    "tutorial1.fired": 324,
+    "tutorial1.kills": 328,
+    "tutorial2.id": 332,
+    "tutorial2.active": 336,
+    "tutorial2.fired": 340,
+    "tutorial2.kills": 344,
+    "tutorial3.id": 348,
+    "tutorial3.active": 352,
+    "tutorial3.fired": 356,
+    "tutorial3.kills": 360,
+    "tutorial4.id": 364,
+    "tutorial4.active": 368,
+    "tutorial4.fired": 372,
+    "tutorial4.kills": 376,
+    "lua.version": 380,
+    "lua.wos_flags": 384,
+    "lua.sword_flags": 388,
+    "lua.cinematic_flags": 392,
+    "lua.sword_get": 396,
+    "lua.clock_ms": 400,
+    "lua.serial": 408,
+    "lua.timer_count": 416,
+    "timer0.hash": 420,
+    "timer0.due_ms": 424,
+    "timer0.serial": 432,
+    "timer0.argc": 440,
+    "timer0.item_index": 444,
+    "timer1.hash": 448,
+    "timer1.due_ms": 452,
+    "timer1.serial": 460,
+    "timer1.argc": 468,
+    "timer1.item_index": 472
+  },
+  "source_fixtures_only": true
+}

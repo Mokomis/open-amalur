@@ -1,0 +1,167 @@
+{
+  "schema": "open-amalur.world-ambient-source.v1",
+  "resources": [
+    {
+      "role": "opening-base",
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1262814.region_bxml",
+      "source_sha256": "c65e0a23a4edf3d0deaf5444d3785534351bee82e1c2d59e23bfa0b291b8ba2d",
+      "environment_payload_offset": 6816,
+      "cube_table_payload_slot": 232,
+      "selected_world_cube": 0,
+      "explicit_time_fields": [
+        {
+          "key": "Midnight",
+          "value": 0,
+          "payload_offset": 8176,
+          "file_offset": 8184
+        },
+        {
+          "key": "Dawn",
+          "value": 0,
+          "payload_offset": 8180,
+          "file_offset": 8188
+        },
+        {
+          "key": "Noon",
+          "value": 0,
+          "payload_offset": 8184,
+          "file_offset": 8192
+        },
+        {
+          "key": "Dusk",
+          "value": 0,
+          "payload_offset": 8188,
+          "file_offset": 8196
+        }
+      ],
+      "face_texel_payload_offsets": [
+        3744,
+        4000,
+        4256,
+        4512,
+        4768,
+        5024
+      ],
+      "face_texel_file_offsets": [
+        3752,
+        4008,
+        4264,
+        4520,
+        4776,
+        5032
+      ],
+      "face_order": [
+        "+X",
+        "-X",
+        "+Y",
+        "-Y",
+        "+Z",
+        "-Z"
+      ],
+      "width": 8,
+      "height": 8,
+      "faces": 6,
+      "mip_levels": 1,
+      "bytes": 1536,
+      "authored_bgra_file": "opening-base-world-ambient.bgra",
+      "authored_bgra_sha256": "ec33749a7ff2170480dabcac78bb702c386b0174429451ef2d28e70820a91985",
+      "converted_rgba_file": "opening-base-world-ambient.rgba",
+      "converted_rgba_sha256": "d030bafd48e63d4558d5592d7814db6503da0dac0cded1f6841c4efb345d30c9",
+      "first_bgra": [
+        33,
+        24,
+        20,
+        255
+      ],
+      "first_rgba": [
+        20,
+        24,
+        33,
+        255
+      ]
+    },
+    {
+      "role": "opening-start",
+      "source": "work\\v48-opening\\content-audit\\inputs\\patch_0.pak\\1417252.space_bxml",
+      "source_sha256": "118e4b67ecd5684957b3619dc10c64079ddd2e8eabe01fd0f891c783f82c643d",
+      "environment_payload_offset": 23840,
+      "cube_table_payload_slot": 184,
+      "selected_world_cube": 0,
+      "explicit_time_fields": [
+        {
+          "key": "Midnight",
+          "value": 0,
+          "payload_offset": 25200,
+          "file_offset": 25208
+        },
+        {
+          "key": "Dawn",
+          "value": 0,
+          "payload_offset": 25204,
+          "file_offset": 25212
+        },
+        {
+          "key": "Noon",
+          "value": 0,
+          "payload_offset": 25208,
+          "file_offset": 25216
+        },
+        {
+          "key": "Dusk",
+          "value": 0,
+          "payload_offset": 25212,
+          "file_offset": 25220
+        }
+      ],
+      "face_texel_payload_offsets": [
+        17696,
+        17952,
+        18208,
+        18464,
+        18720,
+        18976
+      ],
+      "face_texel_file_offsets": [
+        17704,
+        17960,
+        18216,
+        18472,
+        18728,
+        18984
+      ],
+      "face_order": [
+        "+X",
+        "-X",
+        "+Y",
+        "-Y",
+        "+Z",
+        "-Z"
+      ],
+      "width": 8,
+      "height": 8,
+      "faces": 6,
+      "mip_levels": 1,
+      "bytes": 1536,
+      "authored_bgra_file": "opening-start-world-ambient.bgra",
+      "authored_bgra_sha256": "ec33749a7ff2170480dabcac78bb702c386b0174429451ef2d28e70820a91985",
+      "converted_rgba_file": "opening-start-world-ambient.rgba",
+      "converted_rgba_sha256": "d030bafd48e63d4558d5592d7814db6503da0dac0cded1f6841c4efb345d30c9",
+      "first_bgra": [
+        33,
+        24,
+        20,
+        255
+      ],
+      "first_rgba": [
+        20,
+        24,
+        33,
+        255
+      ]
+    }
+  ],
+  "base_start_same_pixels": true,
+  "parent_reported_preview_bgra_sha256": "ec33749a7ff2170480dabcac78bb702c386b0174429451ef2d28e70820a91985",
+  "all_match_parent_reported_preview": true,
+  "qualification": "Both independent authored source world selections yield identical pixels. Parent reported its preview embedded hash; this script compares that supplied value, does not read or modify preview assets. No original-opening capture proof or profile activation."
+}

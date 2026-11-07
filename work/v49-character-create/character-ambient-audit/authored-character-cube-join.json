@@ -1,0 +1,79 @@
+{
+  "source": "C:\\Users\\rwill\\Documents\\Opem Amalur\\work\\v20-inputs\\patch_0.pak\\431608.region_bxml",
+  "source_sha256": "5c867388c94039b14b4803bc7d2c738d17da38d2f2303025858f650aa04f9803",
+  "cube_count": 4,
+  "explicit_environment_fields": {
+    "world": {
+      "value": 2,
+      "source_offset": 21396,
+      "status": "native_confirmed"
+    },
+    "character": {
+      "value": 3,
+      "source_offset": 21412,
+      "status": "native_confirmed"
+    }
+  },
+  "capture_source_byte_matches": {
+    "7496": [
+      {
+        "cube_index": 2,
+        "transform": "R/Bswap only; face/row order unchanged",
+        "source_face_payload_offsets": [
+          16956,
+          17212,
+          17468,
+          17724,
+          17980,
+          18236
+        ],
+        "sha256": "df71f39a8cfa77673155c7ec5d5de4b3d36583c05c712ac9022e920c96fcef1c"
+      }
+    ],
+    "7499": [
+      {
+        "cube_index": 2,
+        "transform": "R/Bswap only; face/row order unchanged",
+        "source_face_payload_offsets": [
+          16956,
+          17212,
+          17468,
+          17724,
+          17980,
+          18236
+        ],
+        "sha256": "df71f39a8cfa77673155c7ec5d5de4b3d36583c05c712ac9022e920c96fcef1c"
+      }
+    ],
+    "7502": [
+      {
+        "cube_index": 3,
+        "transform": "R/Bswap only; face/row order unchanged",
+        "source_face_payload_offsets": [
+          18492,
+          18748,
+          19004,
+          19260,
+          19516,
+          19772
+        ],
+        "sha256": "693bcf48abd29a8a7171f482e67cadae493b23199254fa07a51a5cea63cd2348"
+      }
+    ]
+  },
+  "character_7502_equals_world_7496": false,
+  "cube7499_equals7496": true,
+  "character_first_rgba": [
+    117,
+    120,
+    117,
+    255
+  ],
+  "world_first_rgba": [
+    48,
+    48,
+    34,
+    255
+  ],
+  "policy": "Portable bytes come from authored source, not copied capture. Do not fix world+1 or ordinal; read explicit active environment character field. R/B conversion matches actualRGBA views; no other remap."
+}

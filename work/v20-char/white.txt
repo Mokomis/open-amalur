@@ -1,0 +1,41 @@
+56 river ['odv-river_base_d', 'odv-river_base_n', 'odv-river_base_b', 'odv-river_detail_n', 'odv-river_froth_d', 'None'] [2.0, 2.0, 0.03, 0.01, 0.742, 0.441, 1000.0, 0.996, 0.918, 0.714, 1.0]
+    odv-river_base_d 256 256 mean [131.0, 151.0, 113.0, 255.0] G>128 0.94
+    odv-river_base_n 256 256 mean [255.0, 164.0, 0.0, 166.0] G>128 0.98
+    odv-river_base_b 256 256 mean [124.0, 124.0, 124.0, 255.0] G>128 0.41
+    odv-river_detail_n 128 128 mean [255.0, 175.0, 0.0, 176.0] G>128 0.99
+57 river ['odv-river_base_d', 'odv-river_base_n', 'odv-river_base_b', 'odv-river_detail_n', 'odv-river_froth_d', 'None'] [5.0, 5.0, 0.05, 0.0, 0.29, 1.0, 1000.0, 0.612, 0.867, 0.957, 1.0]
+    odv-river_base_d 256 256 mean [131.0, 151.0, 113.0, 255.0] G>128 0.94
+    odv-river_base_n 256 256 mean [255.0, 164.0, 0.0, 166.0] G>128 0.98
+    odv-river_base_b 256 256 mean [124.0, 124.0, 124.0, 255.0] G>128 0.41
+    odv-river_detail_n 128 128 mean [255.0, 175.0, 0.0, 176.0] G>128 0.99
+58 river ['odv-river_base_d', 'for_river_base_n', 'for_river_base_b', 'for_river_detail_n', 'odv-river_froth_d', 'None'] [5.0, 6.0, -0.005, -0.005, 0.79, 0.463, 656.0, 0.831, 0.804, 0.757, 1.0]
+    odv-river_base_d 256 256 mean [131.0, 151.0, 113.0, 255.0] G>128 0.94
+    for_river_base_n 256 256 mean [255.0, 123.0, 0.0, 123.0] G>128 0.46
+    for_river_base_b 256 256 mean [157.0, 157.0, 157.0, 255.0] G>128 0.9
+    for_river_detail_n 256 256 mean [255.0, 127.0, 0.0, 126.0] G>128 0.48
+59 fall ['for_waterfall01_d', 'for_waterfall02_d', 'for_waterfall01_a', 'for_waterfall02_a', 'for_waterfall02_n', 'for_waterfall02_n'] [0.0, 0.7, 0.0, 0.5, 5.0, 999.0, 0.176, 0.176, 0.176]
+    for_waterfall01_d 64 64 mean [178.0, 171.0, 150.0, 255.0] G>128 1.0
+    for_waterfall02_d 64 64 mean [164.0, 183.0, 164.0, 255.0] G>128 1.0
+    for_waterfall01_a 256 256 mean [95.0, 95.0, 95.0, 255.0] G>128 0.32
+    for_waterfall02_a 256 256 mean [123.0, 123.0, 123.0, 255.0] G>128 0.51
+110 fall ['det_mountainclouds_d', 'det_mountainclouds_d', 'det_mountainclouds_a', 'det_mountainclouds_a', 'det_mountainclouds_n', 'det_mountainclouds_n'] [0.0, 0.05, 0.0, 0.01, 1.0, 1.0, 1.3, 1.0, 0.0]
+    det_mountainclouds_d 256 256 mean [103.0, 56.0, 18.0, 255.0] G>128 0.01
+    det_mountainclouds_d 256 256 mean [103.0, 56.0, 18.0, 255.0] G>128 0.01
+    det_mountainclouds_a 256 256 mean [150.0, 151.0, 150.0, 255.0] G>128 0.65
+    det_mountainclouds_a 256 256 mean [150.0, 151.0, 150.0, 255.0] G>128 0.65
+151 river ['odv-river_base_d', 'odv-river_base_n', 'odv-river_base_b', 'odv-river_detail_n', 'odv-river_froth_d', 'None'] [1.0, 4.0, -0.01, -0.01, 1.0, 0.463, 656.0, 0.969, 0.757, 0.396, 1.0]
+    odv-river_base_d 256 256 mean [131.0, 151.0, 113.0, 255.0] G>128 0.94
+    odv-river_base_n 256 256 mean [255.0, 164.0, 0.0, 166.0] G>128 0.98
+    odv-river_base_b 256 256 mean [124.0, 124.0, 124.0, 255.0] G>128 0.41
+    odv-river_detail_n 128 128 mean [255.0, 175.0, 0.0, 176.0] G>128 0.99
+188 river ['odv-river_base_d', 'odv-river_base_n', 'for_river_base_b', 'odv-river_detail_n', 'odv-river_froth_d', 'None'] [2.0, 10.0, -0.01, -0.01, 0.79, 0.38, 656.0, 0.7, 0.0, 0.0, 0.0]
+    odv-river_base_d 256 256 mean [131.0, 151.0, 113.0, 255.0] G>128 0.94
+    odv-river_base_n 256 256 mean [255.0, 164.0, 0.0, 166.0] G>128 0.98
+    for_river_base_b 256 256 mean [157.0, 157.0, 157.0, 255.0] G>128 0.9
+    odv-river_detail_n 128 128 mean [255.0, 175.0, 0.0, 176.0] G>128 0.99
+189 fall ['det_mountainclouds_d', 'det_mountainclouds_d', 'det_mountainclouds_a', 'det_mountainclouds_a', 'det_mountainclouds_n', 'det_mountainclouds_n'] [0.0, 0.2, 0.0, 0.15, 0.902, 0.902, 0.0, 1.0, 0.0]
+    det_mountainclouds_d 256 256 mean [103.0, 56.0, 18.0, 255.0] G>128 0.01
+    det_mountainclouds_d 256 256 mean [103.0, 56.0, 18.0, 255.0] G>128 0.01
+    det_mountainclouds_a 256 256 mean [150.0, 151.0, 150.0, 255.0] G>128 0.65
+    det_mountainclouds_a 256 256 mean [150.0, 151.0, 150.0, 255.0] G>128 0.65
+area by material near white, m2 [(1007.3, 'odv-river_base_d', 'river'), (839.2, 'odv-river_base_d', 'river'), (837.4, 'for_rock_cliff_d', None), (800.3, 'for_waterfall01_d', 'fall'), (493.3, 'for_rock_cliff2_d', None), (457.1, 'for_web_dark_01_d', 'veil'), (442.3, 'for_terrain_grass01_d', None), (229.3, 'for_flora_treebark_moss_d', None)]

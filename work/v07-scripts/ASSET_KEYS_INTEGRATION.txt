@@ -1,0 +1,50 @@
+Optional input action snapshot adapter — not installed by default
+
+Sources: scene_asset_keys.c/h. Link scene_asset_keys.c against amalur_runtime;
+include the same Lua5.1 headers as the runtime. No APK integration is implied.
+
+Windows CMake example:
+  add_library(amalur_scene_asset_keys STATIC scene_asset_keys.c)
+  target_link_libraries(amalur_scene_asset_keys PUBLIC amalur_runtime)
+  target_include_directories(amalur_scene_asset_keys PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+  add_executable(amalur-scene-asset-keys-test scene_asset_keys_test.c)
+  target_link_libraries(amalur-scene-asset-keys-test PRIVATE amalur_scene_asset_keys)
+
+Run on Windows:
+  amalur-scene-asset-keys-test RUNTIME_DIR INPUTDEVICEACTION_INIT_BIN
+
+The test consumes the original inputdeviceaction_init.bin snapshot and checks
+LedgerLaunchMap's independently native-probed hash13930338 and key7813 with low
+word0x19b; ASCII case folding; invalid arguments; unknown lookup; embedded NUL;
+nonASCII rejection; captured constructor identity; shape/version/count/duplicate
+validation; and full uint32 IDs using synthetic map entries1 and0xffffffff.
+The special hash0x233e41→ID0 branch is based on static native evidence; no
+associated source string has been assumed for its test.
+
+Shared bootstrap integration: the host reads the original init bytes explicitly,
+then supplies options.setup and options.setup_context. The callback calls:
+  scene_asset_keys_install(runtime, bytes, length, error, error_capacity)
+and returns its status. Keep bytes alive until bootstrap returns, then release
+them on success and failure. Installer copies only a hash→ID map into Lua-owned
+memory; closures capture the original shared from_words constructor. All
+installer errors require discarding that realm; shared bootstrap already does.
+Native allocations are bounded by the existing runtime cap. Installer publishes
+SH and INPUT_ACTION_KEY only after full map validation and closure construction,
+but OOM while publishing may leave one global installed before the error.
+
+Evidence boundary: ASCIIhash follows native00af08b0 and original table01721040.
+Parent reports33/33 isolated Windows native-function cases passed, including
+original tolower, before this adapter implementation. This adapter itself still
+requires Windows tests. SH follows native wrapper00aa10d0: exactly one string,
+case-folded seed0 hash pushed as signed-int32; invalid arguments return nil.
+INPUT_ACTION_KEY follows registration00aa9b50/thunk00aa93a0 and type0x19 packing
+from00aa02f0. Ordinary unknown name returns nil; native special hash0x233e41
+returns ID0. NonASCII before NUL is explicitly unsupported. C-string termination
+at NUL is preserved. No localized keyboard labels or gameplay input are invented.
+
+Snapshot layout is currently data-derived v1: count, then IDs, then hashes.
+Native generic header/ID loading is being traced separately; hash-policy loader
+confirmation is pending. Require exact byte length, count1..65536, nonzero full
+uint32 IDs, unique hashes and unique IDs. The selected actual snapshot has979
+entries. Rejecting zero/duplicate IDs is an explicit selected-profile restriction,
+not a claim that every native asset category prohibits them.

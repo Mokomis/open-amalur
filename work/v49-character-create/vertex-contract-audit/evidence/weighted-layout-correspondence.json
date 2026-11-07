@@ -1,0 +1,285 @@
+{
+  "profiles": {
+    "56": {
+      "stride": 56,
+      "source_type": 17,
+      "normal": 32,
+      "uv1": null,
+      "color": null,
+      "stream0": [
+        [
+          "POSITION",
+          0,
+          6,
+          0,
+          12
+        ],
+        [
+          "BONEINDEX",
+          0,
+          32,
+          12,
+          4
+        ],
+        [
+          "BONEWEIGHT",
+          0,
+          13,
+          16,
+          8
+        ],
+        [
+          "TEXCOORD",
+          0,
+          16,
+          24,
+          8
+        ],
+        [
+          "NORMAL",
+          0,
+          13,
+          32,
+          8
+        ],
+        [
+          "TANGENT",
+          0,
+          13,
+          40,
+          8
+        ],
+        [
+          "BINORMAL",
+          0,
+          13,
+          48,
+          8
+        ]
+      ],
+      "missing_stream1": [
+        "COLOR",
+        "TEXCOORD1"
+      ]
+    },
+    "60": {
+      "stride": 60,
+      "source_type": 22,
+      "normal": 32,
+      "uv1": null,
+      "color": 56,
+      "stream0": [
+        [
+          "POSITION",
+          0,
+          6,
+          0,
+          12
+        ],
+        [
+          "BONEINDEX",
+          0,
+          32,
+          12,
+          4
+        ],
+        [
+          "BONEWEIGHT",
+          0,
+          13,
+          16,
+          8
+        ],
+        [
+          "TEXCOORD",
+          0,
+          16,
+          24,
+          8
+        ],
+        [
+          "NORMAL",
+          0,
+          13,
+          32,
+          8
+        ],
+        [
+          "TANGENT",
+          0,
+          13,
+          40,
+          8
+        ],
+        [
+          "BINORMAL",
+          0,
+          13,
+          48,
+          8
+        ],
+        [
+          "COLOR",
+          0,
+          28,
+          56,
+          4
+        ]
+      ],
+      "missing_stream1": [
+        "TEXCOORD1"
+      ]
+    },
+    "64": {
+      "stride": 64,
+      "source_type": 25,
+      "normal": 40,
+      "uv1": 32,
+      "color": null,
+      "stream0": [
+        [
+          "POSITION",
+          0,
+          6,
+          0,
+          12
+        ],
+        [
+          "BONEINDEX",
+          0,
+          32,
+          12,
+          4
+        ],
+        [
+          "BONEWEIGHT",
+          0,
+          13,
+          16,
+          8
+        ],
+        [
+          "TEXCOORD",
+          0,
+          16,
+          24,
+          8
+        ],
+        [
+          "TEXCOORD",
+          1,
+          16,
+          32,
+          8
+        ],
+        [
+          "NORMAL",
+          0,
+          13,
+          40,
+          8
+        ],
+        [
+          "TANGENT",
+          0,
+          13,
+          48,
+          8
+        ],
+        [
+          "BINORMAL",
+          0,
+          13,
+          56,
+          8
+        ]
+      ],
+      "missing_stream1": [
+        "COLOR"
+      ]
+    },
+    "68": {
+      "stride": 68,
+      "source_type": null,
+      "normal": 40,
+      "uv1": 32,
+      "color": 64,
+      "stream0": [
+        [
+          "POSITION",
+          0,
+          6,
+          0,
+          12
+        ],
+        [
+          "BONEINDEX",
+          0,
+          32,
+          12,
+          4
+        ],
+        [
+          "BONEWEIGHT",
+          0,
+          13,
+          16,
+          8
+        ],
+        [
+          "TEXCOORD",
+          0,
+          16,
+          24,
+          8
+        ],
+        [
+          "TEXCOORD",
+          1,
+          16,
+          32,
+          8
+        ],
+        [
+          "NORMAL",
+          0,
+          13,
+          40,
+          8
+        ],
+        [
+          "TANGENT",
+          0,
+          13,
+          48,
+          8
+        ],
+        [
+          "BINORMAL",
+          0,
+          13,
+          56,
+          8
+        ],
+        [
+          "COLOR",
+          0,
+          28,
+          64,
+          4
+        ]
+      ],
+      "missing_stream1": []
+    }
+  },
+  "formats": {
+    "6": "R32G32B32_FLOAT",
+    "32": "R8G8B8A8_UINT",
+    "13": "R16G16B16A16_SNORM",
+    "16": "R32G32_FLOAT",
+    "28": "R8G8B8A8_UNORM"
+  },
+  "domain": "Recorded original-engine declarations + exact serialized stride/type correspondence. Not per-part executed draw identity.",
+  "snorm_rule": "max(-1, signed16 / 32767); do not renormalize source vectors.",
+  "stream1": "Recorded declarations provide absent COLOR/UV1 from stream1, not these sourceVB bytes. Its runtime contents are unjoined."
+}

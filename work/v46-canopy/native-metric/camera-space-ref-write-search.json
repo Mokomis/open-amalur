@@ -1,0 +1,446 @@
+[
+  {
+    "file": "BHG_BaseCameraImplementation.c",
+    "line": 88,
+    "function": "// 00a24070 BHG_BaseCameraImplementation__vf32",
+    "text": "  FUN_00a6c340();"
+  },
+  {
+    "file": "BHG_BoomCameraControllerInstance.c",
+    "line": 9,
+    "function": "// 00a5f580 BHG_BoomCameraControllerInstance__xtor",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_BossCameraControllerInstance.c",
+    "line": 9,
+    "function": "// 00a5fb20 BHG_BossCameraControllerInstance__xtor",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_BossNearFarCameraControllerInstance.c",
+    "line": 9,
+    "function": "// 00a5fcd0 BHG_BossNearFarCameraControllerInstance__xtor",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_CameraAutofollowHelper.c",
+    "line": 7,
+    "function": "// 00a54fa0 BHG_CameraAutofollowHelper__xtor",
+    "text": "  *(undefined1 *)(param_1 + 3) = 0;"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 6,
+    "function": "// 00d9fe30 BHG_CameraController__vf2",
+    "text": "  if (*(int *)(param_1 + 0xc) != 0) {"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 7,
+    "function": "// 00d9fe30 BHG_CameraController__vf2",
+    "text": "    FUN_00afe180(*(undefined4 *)(param_1 + 0x10),*(int *)(param_1 + 0xc));"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 9,
+    "function": "// 00d9fe30 BHG_CameraController__vf2",
+    "text": "  *(undefined4 *)(param_1 + 0xc) = 0;"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 42,
+    "function": "// 00dab3c0 BHG_CameraController__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 52,
+    "function": "// 00dab3c0 BHG_CameraController__xtor",
+    "text": "  *(undefined2 *)(param_1 + 0xc) = 0x32;"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 94,
+    "function": "// 00dab460 BHG_CameraController__xtor_2",
+    "text": "    FUN_00afe180((int)*(short *)(param_1 + 0xc),param_1[9]);"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 107,
+    "function": "// 00dab460 BHG_CameraController__xtor_2",
+    "text": "  if (param_1[3] != 0) {"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 108,
+    "function": "// 00dab460 BHG_CameraController__xtor_2",
+    "text": "    FUN_00afe180(param_1[4],param_1[3]);"
+  },
+  {
+    "file": "BHG_CameraController.c",
+    "line": 158,
+    "function": "// 00dac570 BHG_CameraController__vf3",
+    "text": "      iVar3 = *(int *)(param_1 + 0xc);"
+  },
+  {
+    "file": "BHG_CameraControllerBlendWrapper.c",
+    "line": 9,
+    "function": "// 00a47230 BHG_CameraControllerBlendWrapper__xtor",
+    "text": "    FUN_00a46f90((int)*(short *)(param_1 + 4),param_1[3],param_1[1]);"
+  },
+  {
+    "file": "BHG_CameraControllerBlendWrapper.c",
+    "line": 12,
+    "function": "// 00a47230 BHG_CameraControllerBlendWrapper__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_CameraControllerBlendWrapper.c",
+    "line": 27,
+    "function": "// 00a47280 BHG_CameraControllerBlendWrapper__vf0",
+    "text": "    FUN_00a46f90((int)*(short *)(param_1 + 4),param_1[3],param_1[1]);"
+  },
+  {
+    "file": "BHG_CameraControllerBlendWrapper.c",
+    "line": 30,
+    "function": "// 00a47280 BHG_CameraControllerBlendWrapper__vf0",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_CameraControllerBlendWrapper.c",
+    "line": 47,
+    "function": "// 00a472e0 BHG_CameraControllerBlendWrapper__xtor_2",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_CameraControllerBlendWrapper.c",
+    "line": 71,
+    "function": "// 00a5f320 BHG_CameraControllerBlendWrapper__xtor_3",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_CameraControllerBlendWrapper.c",
+    "line": 86,
+    "function": "// 00a5f350 BHG_CameraControllerBlendWrapper__xtor_4",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_CameraTransitionEvent.c",
+    "line": 9,
+    "function": "// 00a45c20 BHG_CameraTransitionEvent__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_CameraTransitionEvent.c",
+    "line": 85,
+    "function": "// 00a45d00 BHG_CameraTransitionEvent__xtor_2",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_CameraTransitionEvent.c",
+    "line": 106,
+    "function": "// 00a45d60 BHG_CameraTransitionEvent__vf2",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_CameraTransitionEvent.c",
+    "line": 127,
+    "function": "// 00d82550 BHG_CameraTransitionEvent__vf17",
+    "text": "  iVar2 = *(int *)(param_4 + 4) - *(int *)(param_2 + 0xc);"
+  },
+  {
+    "file": "BHG_DialogueCameraSet.c",
+    "line": 11,
+    "function": "// 00decb20 BHG_DialogueCameraSet__xtor",
+    "text": "  param_1[3] = 0x33;"
+  },
+  {
+    "file": "BHG_DialogueCameraSet.c",
+    "line": 24,
+    "function": "// 00decb50 BHG_DialogueCameraSet__xtor_2",
+    "text": "    FUN_00afe180(param_1[3],param_1[2]);"
+  },
+  {
+    "file": "BHG_DialogueCameraSet.c",
+    "line": 38,
+    "function": "// 00decb80 BHG_DialogueCameraSet__vf0",
+    "text": "    FUN_00afe180(param_1[3],param_1[2]);"
+  },
+  {
+    "file": "BHG_DialogueCameraSet.c",
+    "line": 84,
+    "function": "// 00e04f20 BHG_DialogueCameraSet__vf3",
+    "text": "  uVar1 = *(undefined4 *)(param_1 + 0xc);"
+  },
+  {
+    "file": "BHG_FixedCameraControllerInstance.c",
+    "line": 11,
+    "function": "// 00a5f3a0 BHG_FixedCameraControllerInstance__xtor",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_FreeCameraControllerInstance.c",
+    "line": 66,
+    "function": "// 00c381d0 BHG_FreeCameraControllerInstance__vf6",
+    "text": "  *(undefined8 *)(param_1 + 0xc) = *(undefined8 *)(param_2 + 0x14);"
+  },
+  {
+    "file": "BHG_FreeCameraControllerInstance.c",
+    "line": 69,
+    "function": "// 00c381d0 BHG_FreeCameraControllerInstance__vf6",
+    "text": "  *(undefined8 *)(param_1 + 0x24) = *(undefined8 *)(param_2 + 0xc);"
+  },
+  {
+    "file": "BHG_FreeCameraControllerInstance.c",
+    "line": 97,
+    "function": "// 00c60020 BHG_FreeCameraControllerInstance__vf4",
+    "text": "  cVar1 = FUN_00ac0a90((undefined8 *)(param_1 + 0xc));"
+  },
+  {
+    "file": "BHG_FreeCameraControllerInstance.c",
+    "line": 101,
+    "function": "// 00c60020 BHG_FreeCameraControllerInstance__vf4",
+    "text": "  *(undefined8 *)(param_2 + 0x14) = *(undefined8 *)(param_1 + 0xc);"
+  },
+  {
+    "file": "BHG_FreeCameraControllerInstance.c",
+    "line": 108,
+    "function": "// 00c60020 BHG_FreeCameraControllerInstance__vf4",
+    "text": "  *(undefined8 *)(param_2 + 0xc) = *(undefined8 *)(param_1 + 0x24);"
+  },
+  {
+    "file": "BHG_GamePlayerCameraMoveListener.c",
+    "line": 15,
+    "function": "// 00dbabf0 BHG_GamePlayerCameraMoveListener__vf5",
+    "text": "  *(undefined4 *)(param_1 + 0xc) = 0;"
+  },
+  {
+    "file": "BHG_GamePlayerCameraMoveListener.c",
+    "line": 28,
+    "function": "// 00dc02b0 BHG_GamePlayerCameraMoveListener__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_GamePlayerCameraMoveListener.c",
+    "line": 55,
+    "function": "// 00dc7440 BHG_GamePlayerCameraMoveListener__vf2",
+    "text": "  *(undefined4 *)(param_1 + 0xc) = 0;"
+  },
+  {
+    "file": "BHG_GamePlayerCameraMoveListener.c",
+    "line": 90,
+    "function": "// 00de8e30 BHG_GamePlayerCameraMoveListener__vf3",
+    "text": "    if (*(int *)(param_1 + 0xc) == 0) {"
+  },
+  {
+    "file": "BHG_LuaCameraServices.c",
+    "line": 28,
+    "function": "// 00ec8970 BHG_LuaCameraServices__vf0",
+    "text": "    FUN_00aa6480(param_1[1],param_1[3],(int)*(short *)(param_1 + 4));"
+  },
+  {
+    "file": "BHG_LuaCameraServices.c",
+    "line": 31,
+    "function": "// 00ec8970 BHG_LuaCameraServices__vf0",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_ShoulderCameraControllerInstance.c",
+    "line": 9,
+    "function": "// 00a5f6d0 BHG_ShoulderCameraControllerInstance__xtor",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_SyncActionCameraControllerInstance.c",
+    "line": 9,
+    "function": "// 00a5f990 BHG_SyncActionCameraControllerInstance__xtor",
+    "text": "  param_1[3] = BHG::CameraControllerBlendWrapper::vftable;"
+  },
+  {
+    "file": "BHG_SyncActionCameraControllerInstance.c",
+    "line": 19,
+    "function": "// 00a5f990 BHG_SyncActionCameraControllerInstance__xtor",
+    "text": "  *(undefined2 *)(param_1 + 0xc) = 0x32;"
+  },
+  {
+    "file": "BHG_SyncActionCameraControllerInstance.c",
+    "line": 80,
+    "function": "// 00a5fa90 BHG_SyncActionCameraControllerInstance__xtor_2",
+    "text": "    FUN_00afe180((int)*(short *)(param_1 + 0xc),param_1[9]);"
+  },
+  {
+    "file": "BHG_SyncActionCameraRequester.c",
+    "line": 14,
+    "function": "// 00a55e70 BHG_SyncActionCameraRequester__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_SyncActionCameraRequester.c",
+    "line": 34,
+    "function": "// 00a55ec0 BHG_SyncActionCameraRequester__vf0",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_SyncActionCameraRequester.c",
+    "line": 53,
+    "function": "// 00a55f30 BHG_SyncActionCameraRequester__xtor_2",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 77,
+    "function": "// 00c457c0 BHG_TaskCameraImplementation__vf4",
+    "text": "  *(undefined4 *)((int)param_2 + 0xc) = DAT_013be4a0;"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 455,
+    "function": "// 00c45e20 BHG_TaskCameraImplementation__vf1_o16",
+    "text": "  *(undefined4 *)((int)param_2 + 0xc) = DAT_013be4a0;"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 480,
+    "function": "// 00c45e20 BHG_TaskCameraImplementation__vf1_o16",
+    "text": "    param_2[1] = *(undefined8 *)(iVar1 + 0xc);"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 556,
+    "function": "// 00c46080 BHG_TaskCameraImplementation__vf9_o16",
+    "text": "  FUN_00a6c340(param_1 + -4);"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 793,
+    "function": "// 00c78700 BHG_TaskCameraImplementation__vf5",
+    "text": "  *(undefined4 *)((int)param_2 + 0xc) = DAT_013be4a0;"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 798,
+    "function": "// 00c78700 BHG_TaskCameraImplementation__vf5",
+    "text": "      param_2[1] = *(undefined8 *)(iVar1 + 0xc);"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 923,
+    "function": "// 00c789b0 BHG_TaskCameraImplementation__vf10_o16",
+    "text": "    *(undefined8 *)(iVar2 + 0xc) = param_3[1];"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 991,
+    "function": "// 00c78b50 BHG_TaskCameraImplementation__vf11_o16",
+    "text": "    *(ulonglong *)(iVar1 + 0xc) = CONCAT44(uStack_4,local_8);"
+  },
+  {
+    "file": "BHG_TaskCameraImplementation.c",
+    "line": 1140,
+    "function": "// 00d021f0 BHG_TaskCameraImplementation__vf2_o16",
+    "text": "        fVar3 = *(float *)(iVar1 + 0xc);"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 9,
+    "function": "// 00a25660 BHG_TransitionCameraControllerInstance__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 60,
+    "function": "// 00a256d0 BHG_TransitionCameraControllerInstance__xtor_2",
+    "text": "  puVar1 = (undefined4 *)param_1[3];"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 66,
+    "function": "// 00a256d0 BHG_TransitionCameraControllerInstance__xtor_2",
+    "text": "      param_1[3] = 0;"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 155,
+    "function": "// 00c9f5c0 BHG_TransitionCameraControllerInstance__vf4",
+    "text": "  (**(code **)(**(int **)(param_1 + 0xc) + 0x10))(&local_364);"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 201,
+    "function": "// 00c9f5c0 BHG_TransitionCameraControllerInstance__vf4",
+    "text": "  *(ulonglong *)(param_2 + 0xc) = CONCAT44(fStack_708,fStack_70c);"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 261,
+    "function": "// 00cbcd30 BHG_TransitionCameraControllerInstance__vf3",
+    "text": "    (**(code **)(**(int **)(param_1 + 0xc) + 0xc))(param_2,param_3);"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 262,
+    "function": "// 00cbcd30 BHG_TransitionCameraControllerInstance__vf3",
+    "text": "    (**(code **)(**(int **)(param_1 + 0x10) + 0xc))(param_2,param_3);"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 268,
+    "function": "// 00cbcd30 BHG_TransitionCameraControllerInstance__vf3",
+    "text": "  (**(code **)(**(int **)(param_1 + 0x10) + 0xc))(param_2,param_3);"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 283,
+    "function": "// 00cbcd90 BHG_TransitionCameraControllerInstance__vf5",
+    "text": "    puVar1 = *(undefined4 **)(param_1 + 0xc);"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 289,
+    "function": "// 00cbcd90 BHG_TransitionCameraControllerInstance__vf5",
+    "text": "        *(undefined4 *)(param_1 + 0xc) = 0;"
+  },
+  {
+    "file": "BHG_TransitionCameraControllerInstance.c",
+    "line": 295,
+    "function": "// 00cbcd90 BHG_TransitionCameraControllerInstance__vf5",
+    "text": "    *(undefined4 *)(param_1 + 0xc) = 0;"
+  },
+  {
+    "file": "BHG_TransitionCameraImplementation.c",
+    "line": 453,
+    "function": "// 00cd9380 BHG_TransitionCameraImplementation__vf3",
+    "text": "    (**(code **)(**(int **)(param_1 + 0x1c) + 0xc))();"
+  },
+  {
+    "file": "BHG_TransitionCameraImplementation.c",
+    "line": 456,
+    "function": "// 00cd9380 BHG_TransitionCameraImplementation__vf3",
+    "text": "    (**(code **)(**(int **)(param_1 + 0x20) + 0xc))();"
+  },
+  {
+    "file": "T_FactoryAllocator_VBaseCameraImplementation_BHG_BHG.c",
+    "line": 12,
+    "function": "// 00a12960 T_FactoryAllocator_VBaseCameraImplementation_BHG_BHG__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "T_FactoryAllocator_VBaseCameraImplementation_BHG_BHG.c",
+    "line": 31,
+    "function": "// 00a129a0 T_FactoryAllocator_VBaseCameraImplementation_BHG_BHG__vf0",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "T_FactoryAllocator_VCameraControllerInstance_BHG_BHG.c",
+    "line": 12,
+    "function": "// 00a12b20 T_FactoryAllocator_VCameraControllerInstance_BHG_BHG__xtor",
+    "text": "  param_1[3] = 0;"
+  },
+  {
+    "file": "T_FactoryAllocator_VCameraControllerInstance_BHG_BHG.c",
+    "line": 31,
+    "function": "// 00a12b60 T_FactoryAllocator_VCameraControllerInstance_BHG_BHG__vf0",
+    "text": "  param_1[3] = 0;"
+  }
+]

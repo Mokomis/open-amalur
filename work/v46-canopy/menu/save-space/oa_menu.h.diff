@@ -1,0 +1,12 @@
+--- before-save-space/oa_menu.h
++++ work/v19-host/oa_menu.h
+@@ -13,7 +13,8 @@
+ /* What the game tells the HUD this frame. */
+ typedef struct oa_reagent_row{const char *name;unsigned count;}oa_reagent_row;
+ typedef struct oa_hud_view{float health,foe,health_now,health_max,yaw,target_x,target_y,feet_x,feet_y;int dead,has_target,show_hud,room_lighting;const char *location,*zone,*prompt,*foe_name;int move_active;float move_origin_x,move_origin_y,move_x,move_y;const oa_reagent_row *reagents;int reagent_count;}oa_hud_view;
+-typedef struct oa_save{char magic[8];int world;float feet[3],yaw,pitch,health;oa_bag bag;}oa_save;
++/* OASAV002 retains its legacy 88B prefix; appended Space 0 means unknown. */
++typedef struct oa_save{char magic[8];int world;float feet[3],yaw,pitch,health;oa_bag bag;uint32_t space;}oa_save;
+ typedef struct oa_menu{
+  oa_screen screen,from;
+  oa_settings settings;

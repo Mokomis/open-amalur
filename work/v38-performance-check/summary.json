@@ -1,0 +1,52 @@
+{
+  "resolution": [
+    1536,
+    864
+  ],
+  "native_workload": "unchangedfixedcapturedwoodlandbridgeframe50994;noFEX,simulation,animationorstreaming",
+  "native_fps": 31.1403256492679,
+  "native_frame_ms": 32.112702072,
+  "native_cpu_ms_per_frame": 19.952804040000004,
+  "native_frames": 750,
+  "native_p95_ms": 39.364219,
+  "cpu_cycle_profile": {
+    "samples": 440,
+    "seconds": 8,
+    "vulkan_driver_percent": 44.76,
+    "replay_library_percent": 31.99,
+    "libc_percent": 19.75,
+    "single_render_thread_percent": 99.98,
+    "getenv_percent": 9.24
+  },
+  "cycle_percent_not_wall_time": true,
+  "fresh_fex_game_sample": false,
+  "full_native_game_prediction": {
+    "units": "FPS",
+    "resolution": [
+      1536,
+      864
+    ],
+    "nature": "roughengineeringplanningrange,notmeasuredgameFPSnorstatisticalconfidenceinterval",
+    "central": [
+      30,
+      45
+    ],
+    "heavy_or_throttled": [
+      20,
+      30
+    ],
+    "optimistic_light_optimized": [
+      45,
+      60
+    ]
+  },
+  "major_unknowns": [
+    "realnativegameupdatecost",
+    "dynamicstreaminganduploads",
+    "stockAdrenovsDroidDeckTurnipdriver",
+    "replayframeworkcostoncriticalpath",
+    "sustainedthermals",
+    "combatandtownscenes"
+  ],
+  "fex_overhead_percentage": "notmeasured;donotinfer31FPSversusold25..55FPSasanFEXtax"
+}

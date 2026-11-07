@@ -1,0 +1,135 @@
+{
+  "memory": 52,
+  "buffer": 51,
+  "base_offset": 360896,
+  "bytes": 1376,
+  "sha256": "543502f4e615075383f666538b97d6ba735814864083afe1248a1c0005796c0a",
+  "fields": {
+    "fogColor": {
+      "field_offset": 0,
+      "capture_memory_offset": 360896,
+      "value": [
+        0.41960787773132324,
+        0.3607843220233917,
+        0.22352942824363708,
+        1.0
+      ]
+    },
+    "worldToFogConstants": {
+      "field_offset": 16,
+      "capture_memory_offset": 360912,
+      "value": [
+        4.731020089820959e-05,
+        -0.1552170217037201,
+        0.0,
+        1.0
+      ]
+    },
+    "sunLightDirection": {
+      "field_offset": 32,
+      "capture_memory_offset": 360928,
+      "value": [
+        -0.0,
+        0.36543822288513184,
+        0.930835485458374,
+        0.0
+      ]
+    },
+    "sunLightColor": {
+      "field_offset": 48,
+      "capture_memory_offset": 360944,
+      "value": [
+        0.7858883142471313,
+        0.7858883142471313,
+        0.7858883142471313,
+        0.0
+      ]
+    },
+    "skyLightColor": {
+      "field_offset": 64,
+      "capture_memory_offset": 360960,
+      "value": [
+        0.5,
+        0.5,
+        0.6000000238418579,
+        1.0
+      ]
+    },
+    "shadowColor": {
+      "field_offset": 80,
+      "capture_memory_offset": 360976,
+      "value": [
+        0.20000001788139343,
+        0.14509804546833038,
+        0.1098039299249649,
+        1.0
+      ]
+    },
+    "environmentTint": {
+      "field_offset": 96,
+      "capture_memory_offset": 360992,
+      "value": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "ambientDiffuseScale": {
+      "field_offset": 1276,
+      "capture_memory_offset": 362172,
+      "value": [
+        5.0
+      ]
+    },
+    "ambientSpecularScale": {
+      "field_offset": 1280,
+      "capture_memory_offset": 362176,
+      "value": [
+        0.8999999761581421
+      ]
+    },
+    "backlightScale": {
+      "field_offset": 1284,
+      "capture_memory_offset": 362180,
+      "value": [
+        0.11999999731779099
+      ]
+    },
+    "sunlightFogTintAmount": {
+      "field_offset": 1288,
+      "capture_memory_offset": 362184,
+      "value": [
+        0.5
+      ]
+    },
+    "sunlightFogTintPower": {
+      "field_offset": 1292,
+      "capture_memory_offset": 362188,
+      "value": [
+        10.0
+      ]
+    },
+    "waterFogDepthScale": {
+      "field_offset": 1296,
+      "capture_memory_offset": 362192,
+      "value": [
+        80.0
+      ]
+    },
+    "waterFogOpacityScale": {
+      "field_offset": 1300,
+      "capture_memory_offset": 362196,
+      "value": [
+        0.009999999776482582
+      ]
+    },
+    "waterFogDepthEnabled": {
+      "field_offset": 1304,
+      "capture_memory_offset": 362200,
+      "value": [
+        1.0
+      ]
+    }
+  }
+}

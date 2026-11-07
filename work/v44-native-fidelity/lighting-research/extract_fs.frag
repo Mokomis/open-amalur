@@ -1,0 +1,2 @@
+#version 300 es
+precision highp float;in vec2 uv;uniform sampler2D s;uniform vec3 params;out vec4 o;void main(){vec3 c=texture(s,uv).rgb*params.x;float l=max(dot(c,vec3(.2126,.7152,.0722)),params.y);o=vec4(c*(clamp((l-params.y)*params.z,0.,1.)/l),0.);}

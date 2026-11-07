@@ -1,0 +1,186 @@
+{
+  "scope": "staging only; no core/live/user-data edits",
+  "files": [
+    {
+      "path": "opening_bridge.lua",
+      "bytes": 12460,
+      "sha256": "8ae569f3825c00694c65c1126502b8f5ff04214ccdd993e5598e441620fd8680"
+    },
+    {
+      "path": "opening_state_accessors.lua",
+      "bytes": 3244,
+      "sha256": "8ad3e9a48470500c11f06cf0f6aef5deb95e84ba1cee619ea2173559262c467b"
+    },
+    {
+      "path": "opening-function-manifest.json",
+      "bytes": 3111,
+      "sha256": "30f3c3648d390c9b614a0e3ce69b87c546d6d1e9c5f08387f6641fb075358573"
+    },
+    {
+      "path": "INTEGRATION.md",
+      "bytes": 6819,
+      "sha256": "6a2ce04f8e59e4e5b78a3223b2c1b9ae81af1c7e697d92397ae815b461ccf85c"
+    },
+    {
+      "path": "callback-hash-contract.json",
+      "bytes": 413,
+      "sha256": "8cc4ed3b7ad393272507e805cb4c5e9e3169f701479e92532a4d62c4320b9215"
+    },
+    {
+      "path": "native_name_hash.py",
+      "bytes": 1208,
+      "sha256": "a60bcbeab6aab94cf70b8186c6f9b9d383057023a7c58690c5bef9b6d8315db6"
+    },
+    {
+      "path": "test_opening_bridge.py",
+      "bytes": 9983,
+      "sha256": "640a14c26c524723fb71626a82e101b2d88a481336554b5ca8ae2384fe8752e3"
+    },
+    {
+      "path": "opening-bridge-fixture-results.json",
+      "bytes": 1481,
+      "sha256": "3fcd74829667ff493ba037d9f41e21c611f1581773e1df9ccf6a04ae6f506164"
+    },
+    {
+      "path": "test_state_accessors.py",
+      "bytes": 4039,
+      "sha256": "859c78eeca0931a4f280fa881deaac301ef7536b2df048a8d4e6594ba4c3a0b0"
+    },
+    {
+      "path": "state-accessor-fixture-results.json",
+      "bytes": 253,
+      "sha256": "1d56a6eecb94e27577237b563592f40d04f7156b182ebd1d5caab82023884921"
+    },
+    {
+      "path": "run_original_opening_fixtures.py",
+      "bytes": 13860,
+      "sha256": "47ae4fb72795fa77789aad085953b1ee6b3a1d83b61052970c2e6af720c567b7"
+    },
+    {
+      "path": "original-function-fixture-results.json",
+      "bytes": 6557,
+      "sha256": "57507e950a635eb154a697875234d59fef540250c0195eb3b53313c1828f33a4"
+    },
+    {
+      "path": "original-function-accessor-results.json",
+      "bytes": 6557,
+      "sha256": "57507e950a635eb154a697875234d59fef540250c0195eb3b53313c1828f33a4"
+    },
+    {
+      "path": "selected-script-provenance.json",
+      "bytes": 128869,
+      "sha256": "8e57bb4ec34804e859fc3a3e4722711a6fc037840df54687e8c4ed0ee976771e"
+    },
+    {
+      "path": "tutorial-data-literals.json",
+      "bytes": 65708,
+      "sha256": "f7640a73a6684ea055fb5b159fb3b39047ccce623660644a4893e60ffc5596da"
+    },
+    {
+      "path": "evidence\\WoS_Start_Room\\functions\\function_0_5.lua",
+      "bytes": 6296,
+      "sha256": "4cbc94a849adc7861e976f967b3eef9171d230c12f0ca7d464f894c0e257eb78"
+    },
+    {
+      "path": "evidence\\WoS_Start_Room\\functions\\function_0_4.lua",
+      "bytes": 3293,
+      "sha256": "1546d79542d81317e71b352892cf57cc8e214a118ca6f6800f2cd33fbea5e8e2"
+    },
+    {
+      "path": "evidence\\WoS_Start_Room\\functions\\function_0_11.lua",
+      "bytes": 6517,
+      "sha256": "cd8f821c5852f1780dfe617058511abd4bff504917b1a5ec64b893ef5985f37a"
+    },
+    {
+      "path": "evidence\\Sword_WoS_InitialWeapon\\functions\\function_0_0.lua",
+      "bytes": 8977,
+      "sha256": "54b8378ef1a2604aca186cc8556cdd315308353e33a34a9379b60abd272e589b"
+    },
+    {
+      "path": "evidence\\Sword_WoS_InitialWeapon\\functions\\function_0_1.lua",
+      "bytes": 7587,
+      "sha256": "b3dc6fc248944e5ba9b3c646f705ef2c04986720b2426a8f076b60f1278ca49e"
+    },
+    {
+      "path": "evidence\\Sword_WoS_InitialWeapon\\functions\\function_0_2.lua",
+      "bytes": 3497,
+      "sha256": "8efe71e86226a7eaa508f09455e7cacc9504569f7748f27f17450fecb1575305"
+    },
+    {
+      "path": "evidence\\Sword_WoS_InitialWeapon\\functions\\function_0_3.lua",
+      "bytes": 4635,
+      "sha256": "7a8d88089f183d696b6186a5fecc35b421a2ee5a7639c4a0ff1561e7f115b2d4"
+    },
+    {
+      "path": "evidence\\Sword_WoS_InitialWeapon\\functions\\function_0_4.lua",
+      "bytes": 8857,
+      "sha256": "765d612907189118f24ff7525c9a0809783e7c757f3bb432578cacc57be07ae4"
+    },
+    {
+      "path": "evidence/Sword_WoS_InitialWeapon/functions/function_0_4.lua",
+      "bytes": 8857,
+      "sha256": "765d612907189118f24ff7525c9a0809783e7c757f3bb432578cacc57be07ae4"
+    },
+    {
+      "path": "evidence/Sword_WoS_InitialWeapon/functions/function_0_3.lua",
+      "bytes": 4635,
+      "sha256": "7a8d88089f183d696b6186a5fecc35b421a2ee5a7639c4a0ff1561e7f115b2d4"
+    },
+    {
+      "path": "evidence/Sword_WoS_InitialWeapon/functions/function_0_0.lua",
+      "bytes": 8977,
+      "sha256": "54b8378ef1a2604aca186cc8556cdd315308353e33a34a9379b60abd272e589b"
+    },
+    {
+      "path": "evidence/Sword_WoS_InitialWeapon/functions/function_0_2.lua",
+      "bytes": 3497,
+      "sha256": "8efe71e86226a7eaa508f09455e7cacc9504569f7748f27f17450fecb1575305"
+    },
+    {
+      "path": "evidence/cinematic_post_char_gen_2/functions/function_0_0.lua",
+      "bytes": 1995,
+      "sha256": "373929d80f0a1b983983dd03ad1cb78670e8baab3d49e669d88958dc8647f265"
+    },
+    {
+      "path": "evidence/WoS_Start_Room/functions/function_0_5.lua",
+      "bytes": 6296,
+      "sha256": "4cbc94a849adc7861e976f967b3eef9171d230c12f0ca7d464f894c0e257eb78"
+    },
+    {
+      "path": "evidence/Sword_WoS_InitialWeapon/functions/function_0_1.lua",
+      "bytes": 7587,
+      "sha256": "b3dc6fc248944e5ba9b3c646f705ef2c04986720b2426a8f076b60f1278ca49e"
+    },
+    {
+      "path": "evidence/WoS_FirstCombatRoom/functions/function_0_0.lua",
+      "bytes": 4816,
+      "sha256": "25cbc24e1f8feea7cb25883c77ffea93f1fbcaf14dc2ea8764ef5fafe719253c"
+    },
+    {
+      "path": "evidence/WoS_FirstCombatRoom/functions/function_0_1.lua",
+      "bytes": 20941,
+      "sha256": "3e3847e2d7e0ea089882d7b23e7b7f3efd243239fec8cd77facb8651c0d143f4"
+    },
+    {
+      "path": "evidence/WoS_Start_Room/functions/function_0_2.lua",
+      "bytes": 5347,
+      "sha256": "0c63ecddf8ae438fe141e51da40faa3fd6d3cccc26c90804051ef3f57f0f2e0c"
+    },
+    {
+      "path": "evidence/ModuleVariableStorage/functions/function_0_2.lua",
+      "bytes": 17321,
+      "sha256": "e7ebd063d3c9527b6b2bb01c0761b595f020e8e868aa4fe0b43cc0ec5e57ae4f"
+    },
+    {
+      "path": "evidence/ModuleVariableStorage/functions/function_0_3.lua",
+      "bytes": 2426,
+      "sha256": "8fba9ef1a757f7c7c5f8213c4312565167b96eaae05f17664c88848a59859e44"
+    }
+  ],
+  "checks": {
+    "bridge": 46,
+    "original_direct": 95,
+    "original_with_adapter": 95,
+    "accessor_vs_original": 23
+  }
+}

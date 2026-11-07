@@ -1,0 +1,70 @@
+{
+  "status": "bounded source-layout/native-default reconstruction; four current clothing draws not directly captured",
+  "runtime_default": {
+    "native_buffer": 1831,
+    "memory": 1832,
+    "bytes": 131072,
+    "all_bytes": 255,
+    "UNORM8_RGBA": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "payload_sha256": "b5a41c3758763bbec72769fab4a2533bf2db0b6312d93d25a695f9e4b9e02260",
+    "default_rgba4_file": "native-default-color.rgba",
+    "observed_weighted56_binding": {
+      "stream": 1,
+      "byte_offset": 0,
+      "dynamic_stride": 12,
+      "COLOR_offset": 0,
+      "format": "R8G8B8A8_UNORM",
+      "input_rate": "VERTEX"
+    },
+    "per_instance": false,
+    "per_instance_qualification": "Shared identical allocation in this capture before and at submission; no GPU destination writes; all58weightedCOLOR1draws reuse same buffer/offset/stride, VS375passesCOLORunchanged. Native initialization/binding function address not recovered."
+  },
+  "current_candidate_parts": [
+    {
+      "part": 1,
+      "fab": 660455,
+      "assembly": 0,
+      "material": 660429,
+      "source_stride": 56,
+      "source_type": 17,
+      "vertices": 1020,
+      "source_authored_COLOR": false,
+      "native_sourceVB_direct_match": false,
+      "inferred_default_COLOR": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "default_provenance": "Observed shared buffer1831 for sameweighted56HardLight layout; source-to-actualdrawjoin absent",
+      "last_COLOR_fetch_end": 12232,
+      "within_observed_buffer": true
+    },
+    {
+      "part": 3,
+      "fab": 660458,
+      "assembly": 1,
+      "material": 660428,
+      "source_stride": 56,
+      "source_type": 17,
+      "vertices": 1206,
+      "source_authored_COLOR": false,
+      "native_sourceVB_direct_match": false,
+      "inferred_default_COLOR": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "default_provenance": "Observed shared buffer1831 for sameweighted56HardLight layout; source-to-actualdrawjoin absent",
+      "last_COLOR_fetch_end": 14464,
+      "within_observed_buffer": true
+    }
+  ],
+  "recommended_representation": "Keep authored COLOR presencefalse. Record separate provenance default_kind=native_shared_all_ff; for verified weighted56/type17 opaqueHardLight declarations, supply constant(1,1,1,1) or repeat those4source-runtimebytes. Do not invent UV1 from allFF (interpreted floatNaNs; inactive in retainedHardLightVS). Do not overwrite authoredRGBA on60/type22. Do not generalize to unknownformat/permutation."
+}

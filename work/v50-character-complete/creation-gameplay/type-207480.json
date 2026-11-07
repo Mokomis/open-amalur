@@ -1,0 +1,165 @@
+{
+  "format": "native-compiled-Type-carrier",
+  "input_sha256": "0e735f3fad4f9788cd9b7e154681f68885abdd9fe481b55f40b770b80376a18a",
+  "input_bytes": 1592,
+  "native_executable_sha256": "16a400f6e8fc10dbe446a9e57717de9fbe975ef17c004f4ca405e2e4e09cb314",
+  "header_words_u32": [
+    953590030,
+    1901439447,
+    3668889,
+    65280,
+    13171,
+    64,
+    3,
+    196,
+    0,
+    76,
+    16,
+    1404
+  ],
+  "parent_key_u32": 0,
+  "script_key_u32": 13171,
+  "dependency_keys_u32": [
+    653216,
+    1396493,
+    1390715
+  ],
+  "components": [
+    {
+      "index": 0,
+      "kind": 4,
+      "native_name": "4",
+      "payload_offset": 68,
+      "preview_hex": "04000000000000000c0000000000000020030000030000000000000007000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 1,
+      "kind": 12,
+      "native_name": "12",
+      "payload_offset": 76,
+      "preview_hex": "0c0000000000000020030000030000000000000007000000000000002c030000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 2,
+      "kind": 25,
+      "native_name": "25",
+      "payload_offset": 112,
+      "preview_hex": "190000009c030000030000000000000044ff06000f0000000a00000018000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 3,
+      "kind": 0,
+      "native_name": "0",
+      "payload_offset": 124,
+      "preview_hex": "0000000044ff06000f0000000a00000018000000030d00003d000000d1000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 4,
+      "kind": 24,
+      "native_name": "24",
+      "payload_offset": 140,
+      "preview_hex": "18000000030d00003d000000d100000011000000110000000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 5,
+      "kind": 9,
+      "native_name": "9",
+      "payload_offset": 180,
+      "preview_hex": "09000000a803000000000000a803000000000000000000000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 6,
+      "kind": 6,
+      "native_name": "6",
+      "payload_offset": 240,
+      "preview_hex": "060000002a000000000000000f00000000000000000000000000114300000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 7,
+      "kind": 42,
+      "native_name": "42",
+      "payload_offset": 244,
+      "preview_hex": "2a000000000000000f0000000000000000000000000011430000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 8,
+      "kind": 15,
+      "native_name": "15",
+      "payload_offset": 252,
+      "preview_hex": "0f0000000000000000000000000011430000000000000000000000000000c842",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 9,
+      "kind": 7,
+      "native_name": "7",
+      "payload_offset": 332,
+      "preview_hex": "07000000ac03000005000000d4030000040000006df806000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 10,
+      "kind": 26,
+      "native_name": "26",
+      "payload_offset": 412,
+      "preview_hex": "1a00000008000000060000000000000000000000000000000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 11,
+      "kind": 8,
+      "native_name": "8",
+      "payload_offset": 416,
+      "preview_hex": "0800000006000000000000000000000000000000000000000000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 12,
+      "kind": 3,
+      "native_name": "3",
+      "payload_offset": 512,
+      "preview_hex": "03000000ec030000010000001200000032000000000000000000803f0000803f",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 13,
+      "kind": 18,
+      "native_name": "18",
+      "payload_offset": 524,
+      "preview_hex": "1200000032000000000000000000803f0000803ff00300000400000001000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 14,
+      "kind": 1,
+      "native_name": "1",
+      "payload_offset": 552,
+      "preview_hex": "0100000000004842000000004260653c000000004260653c0000000000000000",
+      "fields_status": "opaque except confirmed reference fields"
+    },
+    {
+      "index": 15,
+      "kind": 11,
+      "native_name": "11",
+      "payload_offset": 704,
+      "preview_hex": "0b00000000040000000000000004000000000000000400000000000000040000",
+      "fields_status": "opaque except confirmed reference fields"
+    }
+  ],
+  "component_count": 16,
+  "limitations": [
+    "Static native layout only; no original-game runtime validation.",
+    "Does not decode or convert compact .simtype_bxml members.",
+    "Script parameters, property names and gameplay behavior remain unresolved."
+  ],
+  "type_flags_u32": 196,
+  "native_inheritance_guard_set": false
+}

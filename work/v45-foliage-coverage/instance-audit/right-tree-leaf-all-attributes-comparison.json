@@ -1,0 +1,125 @@
+{
+  "permutation": "coarse_index=native_index XOR1",
+  "indices_first24": [
+    0,
+    1,
+    2,
+    1,
+    0,
+    3,
+    4,
+    5,
+    6,
+    5,
+    4,
+    7,
+    8,
+    9,
+    10,
+    9,
+    8,
+    11,
+    12,
+    13,
+    14,
+    13,
+    12,
+    15
+  ],
+  "indices_equal": true,
+  "fields": {
+    "position": {
+      "all_vertex_bits_equal": 0,
+      "components_differ": 122,
+      "max_component_abs_delta": [
+        3.0517578125e-05,
+        0.4293212890625,
+        0.0
+      ]
+    },
+    "UV": {
+      "all_vertex_bits_equal": 120,
+      "components_differ": 0,
+      "max_component_abs_delta": [
+        0.0,
+        0.0
+      ]
+    },
+    "normal_snorm16": {
+      "all_vertex_bits_equal": 120,
+      "components_differ": 0,
+      "max_component_abs_delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tangent_snorm16": {
+      "all_vertex_bits_equal": 118,
+      "components_differ": 2,
+      "max_component_abs_delta": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "binormal_snorm16": {
+      "all_vertex_bits_equal": 119,
+      "components_differ": 1,
+      "max_component_abs_delta": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "RGBA": {
+      "all_vertex_bits_equal": 120,
+      "components_differ": 0,
+      "max_component_abs_delta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "wind_phase_indices_different_vertices": 54,
+  "normal_binormal_vertex_w_values": {
+    "20": [
+      0
+    ],
+    "28": [
+      -32768
+    ],
+    "36": [
+      0
+    ]
+  },
+  "quads": 30,
+  "max_quad_nonplanarity_cm": 0.4694274663925171,
+  "color_unique": [
+    [
+      174,
+      167,
+      163,
+      255
+    ],
+    [
+      239,
+      238,
+      237,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "conclusion": "UV,N,RGBA bitexact afterpairpermutation;T/B\u22641SNORM16unit. Geometryequivalent to.429cmYshift, same triangles/winding.54/120 local-coordinatewindphaseindicesdiffer. ThisleafLOD is not supported aslargecanopygapcause.",
+  "triangle_permutation_proven": "Eachcardindices[0,1,2;1,0,3]. VertexXOR1 maps to[1,0,3;0,1,2]: same two triangle vertexsets andwinding, swappedsubmissionorder."
+}

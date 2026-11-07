@@ -1,0 +1,32 @@
+{
+  "outputs": [
+    {
+      "file": "cart-638222-native-static-pose.oawe",
+      "sha256": "5bab347016f4d950874acd5625ce7570c269e5a51af34c6328e075ff683d43a7",
+      "vertices": 1868,
+      "triangles": 1296,
+      "material": 10,
+      "position_bounds_match": true
+    },
+    {
+      "file": "cart-638222-authored-actor-pose.oawe",
+      "sha256": "7ef5fe832a79596d4ec991f8cdc7273aae9d35536d0624bec73f9889220f6545",
+      "vertices": 1868,
+      "triangles": 1296,
+      "material": 10,
+      "position_bounds_match": true
+    },
+    {
+      "file": "cart-638222-source-actor-plus-FAB-local-candidate.oawe",
+      "sha256": "48e5188c8e495571b01b5b04b7ec2067629d414ce8fe281f0755f3d63e5a597c",
+      "vertices": 1868,
+      "triangles": 1296,
+      "material": 10,
+      "position_bounds_match": true
+    }
+  ],
+  "source_geometry_exact_nativeVB_IB": true,
+  "no_live_changes": true,
+  "source_plus_FABcandidate_vs_native_position_max_abs": 0.0078125,
+  "source_plus_FABcandidate_vs_native_positions_equal_vertices": 1839
+}

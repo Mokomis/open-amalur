@@ -1,0 +1,114 @@
+{
+  "image": 14030,
+  "record_header_offset": 281371393,
+  "record_type": 65544,
+  "record_stored_bytes": 755968,
+  "RGBA_view": "identity",
+  "format": "BC1_RGBA_UNORM",
+  "width": 2048,
+  "height": 2048,
+  "mips": 9,
+  "mip_padded_sizes": [
+    2097152,
+    524288,
+    131072,
+    32768,
+    8192,
+    2048,
+    512,
+    512,
+    512
+  ],
+  "raw_bytes": 2797056,
+  "raw_sha256": "ee74edf176b5aec531f197eebd163227693b5abfb37ffebce2300f805713004d",
+  "portable_file": "shadowlod2-alpha-native.oatx",
+  "portable_bytes": 22369592,
+  "portable_sha256": "56c83d4e6367e4374cf431059dfc0ee0585780eebeae42ba05e5e8ae2ff6abb7",
+  "levels": [
+    {
+      "level": 0,
+      "width": 2048,
+      "height": 2048,
+      "source_offset": 0,
+      "bc_bytes": 2097152,
+      "bc_sha256": "1c453c72bb9c9f27be5928fccbc730cf077dc82f24acdb296c11d346eb76280e",
+      "rgba_sha256": "2589c86b490431934766c59ec99d8ead175ba1f79215ab658f987841cc13b8cc"
+    },
+    {
+      "level": 1,
+      "width": 1024,
+      "height": 1024,
+      "source_offset": 2097152,
+      "bc_bytes": 524288,
+      "bc_sha256": "7ede7d6c924e4e39908f965e37e4c2a74419630d46f5c780c2f62cd012fab58f",
+      "rgba_sha256": "079ab8a5eaf0055806a8b3be1bbd6a513ac762be1ce597ad00b32ba9f37fc93b"
+    },
+    {
+      "level": 2,
+      "width": 512,
+      "height": 512,
+      "source_offset": 2621440,
+      "bc_bytes": 131072,
+      "bc_sha256": "4947b75c30dde745ef0884fab58fcfe8618c170d11de2efff5a1ae97bfebb9b1",
+      "rgba_sha256": "2a792e1fc5444454fef082b0dce4dc6b7af5a58cea33be09aceff1acfef4d2a2"
+    },
+    {
+      "level": 3,
+      "width": 256,
+      "height": 256,
+      "source_offset": 2752512,
+      "bc_bytes": 32768,
+      "bc_sha256": "1dd5a7eb08e8666735561ea7ff33e09b3f01f37a77fb0436cfd55f49b4185e7f",
+      "rgba_sha256": "47e4874d2db960b2c30ae53c5a1f27dd8e3c218c34fdfb2c2625f589c8a72da7"
+    },
+    {
+      "level": 4,
+      "width": 128,
+      "height": 128,
+      "source_offset": 2785280,
+      "bc_bytes": 8192,
+      "bc_sha256": "422d7d1734fb3d50403a79b14a875c7f327182e77c07fb651ed9cba994b423bf",
+      "rgba_sha256": "c7a5420bb6e3d14b8c7eed0a27cb59fa7e226148c9328856c58f3bcb3c9f1132"
+    },
+    {
+      "level": 5,
+      "width": 64,
+      "height": 64,
+      "source_offset": 2793472,
+      "bc_bytes": 2048,
+      "bc_sha256": "42de7c9d5e4c29985061f85d021b4a2b69b8169e3eb624bcfbe2bdfdb243333a",
+      "rgba_sha256": "8790003dd2aeb7cfb3b507ed1b9f9f3207977d55030187848a3f1a4b19113967"
+    },
+    {
+      "level": 6,
+      "width": 32,
+      "height": 32,
+      "source_offset": 2795520,
+      "bc_bytes": 512,
+      "bc_sha256": "6815736fe8ea7c1ab1645e470ce54c5865d51fab6f56479c63a145107579da4b",
+      "rgba_sha256": "11f7d8e32782de8649e0dff51633bdb5813e9483d8483171fd3432b8a2a5c09e"
+    },
+    {
+      "level": 7,
+      "width": 16,
+      "height": 16,
+      "source_offset": 2796032,
+      "bc_bytes": 128,
+      "bc_sha256": "7753404c81489026d305c4dcdddfd120ee92de6894837fa6d7fa6cc6ea4560d2",
+      "rgba_sha256": "ac0c4f17a219347af295cd67b8a619e6c6c8c722c9d4640e97039dd19d0037ec"
+    },
+    {
+      "level": 8,
+      "width": 8,
+      "height": 8,
+      "source_offset": 2796544,
+      "bc_bytes": 32,
+      "bc_sha256": "0613820b1f0681bb7c7ecf840763ea3a6612f010a6d171bb3a748aa50444b7b4",
+      "rgba_sha256": "83059f5a2ae76e4b4ebd8e05d85a79ecadb59d952844937e249a1211c4783c34"
+    }
+  ],
+  "source_asset": 1741969,
+  "source_name": "for_flora_shadowlod2_a",
+  "GPU_identity_verified": true,
+  "authored_DDS_hash_join": false
+}

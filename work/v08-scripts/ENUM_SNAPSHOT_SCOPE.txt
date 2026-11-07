@@ -1,0 +1,34 @@
+STE snapshot service
+
+Contract shared with native enum snapshot exporter:
+  bytes0..3 = AENU
+  u32LE at4 = version1
+  u32LE at8 = count,0..65536
+  count records at12 = (groupHash:u32LE,memberHash:u32LE,valueBits:u32LE)
+  exact length12+count*12, maximum786444bytes
+Duplicate group/member pairs reject, including equal-valued duplicates. Snapshot
+selection/provenance belongs to the host. Installer does not merge sources.
+
+Native aa52b0 accepts exactly two Lua tag4 strings. Assembly stores argument1
+as the group string and argument2 as the member string; b3c340 selects group,
+b3d2e0/b3cf50 look up member, success emits native numeric tag3, failure tag0.
+See work/v08-native/string_to_enum.json (REA ev_643d7860b7af5936bf9be4e3f41946b7c34f15cc9227c9fc662e36a80fe01557),
+enum_mgr_lookup.json,enum_member_lookup.json,enum_entry_lookup.json,
+and v08-enum-code.json for original PE instruction evidence.
+
+scene_enums_v08.c admits exact two-string calls, using the shared native ASCII
+casefold/NUL hash. Invalid arity/types or missing group/member return one nil.
+NonASCII before NUL is explicitly unsupported. Numeric values preserve all32
+bits as signedint32, including0 and signed extrema. Public SH is not called.
+
+Ownership/limits: snapshot header/length is checked before records are read.
+Each value is copied into private Lua tables, captured only by the STE closure.
+No snapshot pointer or host allocation survives installation. All Lua allocation
+is protected and respects the runtime memory cap. Existing STE and metatable
+realm globals are refused. Installer failure requires realm destruction.
+
+enum_snapshot_test.c uses synthetic snapshots to check shape, duplicate policy,
+copy lifetime, strict input domains, case/NUL behavior, signed values, unsigned
+high-bit hashes, fresh empty catalog, global refusal and protected memory-cap
+failure. These are transport/lookup tests, not full native enum-loader parity.
+The separate exporter receipt supplies the original registered enum data.
