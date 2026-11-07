@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-06",
+  "timezone": "America/Chicago",
+  "source_snapshot_commit": "4bec218b1116ad8849dcf757aefc3fa1474ff2f6",
+  "public_source_file_hashes_verified": 12810,
+  "source_hash_mismatches": 0,
+  "private_historical_branch_heads_and_release_assets_preserved": true,
+  "windows": {
+    "project_working_folder_removed": true,
+    "local_backup_and_audit_folders_removed": true,
+    "publication_staging_removed": true,
+    "project_tasks_removed": 6,
+    "retail_executable_and_save_files_unchanged": true,
+    "save_files_verified": 18,
+    "retail_data_directories_unchanged": true,
+    "shared_rune_files_verified_unchanged": 160,
+    "shared_tools_relocated": true,
+    "rea_tools_advertised_after_relocation": 229,
+    "ghidra_available_after_relocation": true
+  },
+  "mac": {
+    "project_folders_removed": 33,
+    "remaining_project_folders": 0,
+    "research_temporary_paths_removed": 440,
+    "publication_temporary_paths_removed": 27,
+    "remaining_temporary_project_paths": 0
+  },
+  "retained_outside_project_cleanup": [
+    "Installed retail game and actual saves",
+    "Installed tablet applications and their data",
+    "Shared Qwen model/runtime and REA/Ghidra/Java/Android tools used by Open Rune",
+    "Codex application conversation history and system backups"
+  ],
+  "private_signing_keys_published": false,
+  "latest_excluded_game_payloads_are_not_a_complete_remote_restore_image": true,
+  "local_cleanup_verified": true
+}
